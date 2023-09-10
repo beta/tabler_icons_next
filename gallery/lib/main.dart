@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:tabler_icons_next/tabler_icons_next.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 import 'icons.dart';
 
@@ -111,6 +112,16 @@ class _HomePageState extends State<HomePage> {
                 value: _shouldUseSvg,
                 onChanged: _setShouldUseSvg,
               ),
+              const SizedBox(width: 16),
+
+              // GitHub
+              IconButton(
+                icon: const Icon(TablerIcons.brandGithub),
+                onPressed: () {
+                  launchUrlString('https://github.com/beta/tabler_icons_next');
+                },
+              ),
+              const SizedBox(width: 16),
             ],
           ),
         ],
