@@ -4,7 +4,11 @@
 
 Yet another [Tabler Icons](https://tabler-icons.io/) package for Flutter that keeps updating with the latest version of the upstream.
 
-## Getting started
+## 🎨 Icons gallery
+
+https://tabler-icons-next.betakuang.me/
+
+## 🎉 Getting started
 
 ```dart
 import 'package:tabler_icons_next/tabler_icons_next.dart';
@@ -27,6 +31,8 @@ Both icon font and SVG icons are supported.
   ...
   SvgPicture.string(TablerIconsSvg.check)
   ```
+
+> Note that a dollar sign (`$`) is added to icon names staring with numbers, and names that are Dart keywords. For example, `2fa` becomes `$2fa`, and `switch` becomes `$switch`.
 
 ## License
 
