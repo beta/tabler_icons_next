@@ -1,125 +1,192 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:package_info_plus/package_info_plus.dart';
+import 'package:tabler_icons_next/tabler_icons_next.dart';
 
-void main() {
-  runApp(const MyApp());
+import 'icons.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  final packageInfo = await PackageInfo.fromPlatform();
+
+  runApp(GalleryApp(version: packageInfo.version));
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+const _appName = 'Tabler Icons Next';
 
-  // This widget is the root of your application.
+class GalleryApp extends StatelessWidget {
+  const GalleryApp({
+    super.key,
+    required this.version,
+  });
+
+  final String version;
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: _appName,
       theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // TRY THIS: Try running your application with "flutter run". You'll see
-        // the application has a blue toolbar. Then, without quitting the app,
-        // try changing the seedColor in the colorScheme below to Colors.green
-        // and then invoke "hot reload" (save your changes or press the "hot
-        // reload" button in a Flutter-supported IDE, or press "r" if you used
-        // the command line to start the app).
-        //
-        // Notice that the counter didn't reset back to zero; the application
-        // state is not lost during the reload. To reset the state, use hot
-        // restart instead.
-        //
-        // This works for code too, not just values: Most code changes can be
-        // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: HomePage(version: version),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
+class HomePage extends StatefulWidget {
+  const HomePage({
+    super.key,
+    required this.version,
+  });
 
-  // This widget is the home page of your application. It is stateful, meaning
-  // that it has a State object (defined below) that contains fields that affect
-  // how it looks.
-
-  // This class is the configuration for the state. It holds the values (in this
-  // case the title) provided by the parent (in this case the App widget) and
-  // used by the build method of the State. Fields in a Widget subclass are
-  // always marked "final".
-
-  final String title;
+  final String version;
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<HomePage> createState() => _HomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+class _HomePageState extends State<HomePage> {
+  bool _shouldUseSvg = false;
+  void _setShouldUseSvg(bool value) => setState(() => _shouldUseSvg = value);
 
-  void _incrementCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
-    });
+  late final TextEditingController _searchController;
+  final _iconNames = icons.keys.toList();
+  late List<String> _filteredIcons = _iconNames;
+
+  @override
+  void initState() {
+    super.initState();
+
+    _searchController = TextEditingController()
+      ..addListener(() {
+        final keyword = _searchController.text.toLowerCase();
+        if (keyword.isEmpty) {
+          setState(() => _filteredIcons = _iconNames);
+          return;
+        }
+        setState(() => _filteredIcons = _iconNames
+            .where((name) => name.toLowerCase().contains(keyword))
+            .toList());
+      });
   }
 
   @override
   Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
     return Scaffold(
       appBar: AppBar(
-        // TRY THIS: Try changing the color here to a specific color (to
-        // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
-        // change color while the other colors stay the same.
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
-      ),
-      body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
-        child: Column(
-          // Column is also a layout widget. It takes a list of children and
-          // arranges them vertically. By default, it sizes itself to fit its
-          // children horizontally, and tries to be as tall as its parent.
-          //
-          // Column has various properties to control how it sizes itself and
-          // how it positions its children. Here we use mainAxisAlignment to
-          // center the children vertically; the main axis here is the vertical
-          // axis because Columns are vertical (the cross axis would be
-          // horizontal).
-          //
-          // TRY THIS: Invoke "debug painting" (choose the "Toggle Debug Paint"
-          // action in the IDE, or press "p" in the console), to see the
-          // wireframe for each widget.
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
+        backgroundColor: Theme.of(context).colorScheme.background,
+        title: Row(
+          children: [
+            // App title
+            const Text(_appName),
+            const SizedBox(width: 16),
+
+            // Version
+            Text(widget.version, style: Theme.of(context).textTheme.labelLarge),
+            const SizedBox(width: 64),
+
+            // Search
+            SizedBox(
+              width: 300,
+              child: TextField(
+                controller: _searchController,
+                decoration: const InputDecoration(
+                  hintText: 'Search',
+                  border: InputBorder.none,
+                  prefixIcon: Icon(TablerIcons.search, size: 18),
+                ),
+              ),
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
+          ],
+        ),
+        actions: [
+          Row(
+            children: [
+              const Text('Use SVG icons'),
+              Switch(
+                value: _shouldUseSvg,
+                onChanged: _setShouldUseSvg,
+              ),
+            ],
+          ),
+        ],
+      ),
+      body: GridView.builder(
+        gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+          maxCrossAxisExtent: 160,
+        ),
+        itemCount: _filteredIcons.length,
+        itemBuilder: (context, index) {
+          return IconView(
+            icons[_filteredIcons[index]]!,
+            name: _filteredIcons[index],
+            useSvg: _shouldUseSvg,
+          );
+        },
+      ),
+    );
+  }
+}
+
+class IconView extends StatefulWidget {
+  const IconView(
+    this.icon, {
+    super.key,
+    required this.name,
+    required this.useSvg,
+  });
+
+  final TablerIcon icon;
+  final String name;
+  final bool useSvg;
+
+  @override
+  State<StatefulWidget> createState() => _IconViewState();
+}
+
+class _IconViewState extends State<IconView> {
+  bool _hover = false;
+  void setHover(bool hover) => setState(() => _hover = hover);
+
+  @override
+  Widget build(BuildContext context) {
+    return MouseRegion(
+      cursor: SystemMouseCursors.click,
+      onEnter: (_) => setHover(true),
+      onExit: (_) => setHover(false),
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 150),
+        decoration: BoxDecoration(
+          border: Border.all(
+            color: _hover ? Colors.black38 : Colors.transparent,
+            strokeAlign: BorderSide.strokeAlignCenter,
+          ),
+          borderRadius: BorderRadius.circular(6),
+        ),
+        margin: const EdgeInsets.all(8),
+        padding: const EdgeInsets.all(8),
+        child: Stack(
+          children: [
+            Center(
+              child: widget.useSvg
+                  ? SvgPicture.string(widget.icon.svg)
+                  : Icon(widget.icon.data),
+            ),
+            Align(
+              alignment: Alignment.bottomCenter,
+              child: Text(
+                widget.name,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
             ),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }

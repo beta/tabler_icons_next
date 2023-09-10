@@ -19,7 +19,7 @@ Future<void> main() async {
     print(name);
 
     final line =
-        '  static const $name = IconData(0x${(icon['unicode'] as String).toUpperCase()}, fontFamily: _fontFamily);';
+        "  static const $name = IconData(0x${(icon['unicode'] as String).toUpperCase()}, fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');";
     lines.add(line);
   }
 

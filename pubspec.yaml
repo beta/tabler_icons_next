@@ -19,4 +19,4 @@ flutter:
   fonts:
     - family: Tabler Icons
       fonts:
-        - asset: asset/font/tabler-icons-2.34.0.ttf
+        - asset: lib/font/tabler-icons-2.34.0.ttf
