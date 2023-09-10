@@ -1,3 +1,9 @@
+## 2.34.2
+
+- Add example
+- Update project structure according to code style guideline
+- Update SDK min version to 3.1.0
+
 ## 2.34.1
 
 - Add changelog
