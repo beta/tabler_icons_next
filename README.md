@@ -32,7 +32,7 @@ Both icon font and SVG icons are supported.
   SvgPicture.string(TablerIconsSvg.check)
   ```
 
-> Note that a dollar sign (`$`) is added to icon names staring with numbers, and names that are Dart keywords. For example, `2fa` becomes `$2fa`, and `switch` becomes `$switch`.
+> Note that a dollar sign (`$`) is added to icon names starting with numbers, and names that are Dart keywords. For example, `2fa` becomes `$2fa`, and `switch` becomes `$switch`.
 
 ## License
 
