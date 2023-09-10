@@ -1,0 +1,21 @@
+name: gallery
+description: Gallery app for Table Icons Next.
+publish_to: 'none'
+
+version: 2.34.0
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tabler_icons_next:
+    path: ..
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:

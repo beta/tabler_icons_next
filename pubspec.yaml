@@ -1,0 +1,22 @@
+name: tabler_icons_next
+description: Yet another Tabler Icons package for Flutter that keeps updating with the latest version of the upstream.
+
+version: 2.34.0
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  fonts:
+    - family: Tabler Icons
+      fonts:
+        - asset: asset/font/tabler-icons-2.34.0.ttf
