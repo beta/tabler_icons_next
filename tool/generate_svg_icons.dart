@@ -5,8 +5,9 @@
 
 import 'dart:io';
 
+/// Generate SVG data for Tabler Icons.
 Future<void> main() async {
-  final iconsDir = Directory('tabler-icons/packages/icons/icons');
+  final iconsDir = Directory('tabler-icons/icons');
   if (!await iconsDir.exists()) {
     throw StateError('Directory not found: ${iconsDir.path}');
   }
@@ -15,15 +16,14 @@ Future<void> main() async {
   final lines = <String>[];
   for (final entry in files) {
     final filename = entry.path.split(RegExp(r'[/\\]')).last;
-    final name = filename
-        .replaceAll('.svg', '')
-        .kebabToCamelCase()
-        .withDollarSignIfNecessary();
+    final origName = filename.replaceAll('.svg', '');
+    final name = origName.kebabToCamelCase().withDollarSignIfNecessary();
     print('$filename -> $name');
 
     final file = File(entry.path);
     final content = file.readAsStringSync();
-    final line = "  static const $name = '''$content''';";
+    final line = """  /// SVG data for Tabler Icon $origName.
+  static const $name = '''$content''';""";
     lines.add(line);
   }
 
@@ -43,11 +43,14 @@ ${lines.join('\n')}
   print('Done');
 }
 
+/// String extension for parsing icon names.
 extension StringExt on String {
+  /// Return capitalized string.
   String capitalized() {
     return this[0].toUpperCase() + substring(1);
   }
 
+  /// Convert kebab-case to camelCase.
   String kebabToCamelCase() {
     return split('-')
         .indexed
@@ -55,6 +58,7 @@ extension StringExt on String {
         .join();
   }
 
+  /// Add dollar sign if the string starts with a number.
   String withDollarSignIfNecessary() {
     return (startsWith(RegExp(r'[0-9]'))) ? '\$$this' : this;
   }

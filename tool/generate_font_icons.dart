@@ -8,6 +8,7 @@ import 'dart:io';
 
 import 'generate_svg_icons.dart';
 
+/// Generate icon data for using Tabler Icons font.
 Future<void> main() async {
   final jsonFile = File('tabler-icons/packages/icons/tags.json');
   final content = jsonFile.readAsStringSync();
@@ -18,8 +19,8 @@ Future<void> main() async {
         (icon['name'] as String).kebabToCamelCase().withDollarSignIfNecessary();
     print(name);
 
-    final line =
-        "  static const $name = IconData(0x${(icon['unicode'] as String).toUpperCase()}, fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');";
+    final line = """  /// Icon data for Tabler Icon ${icon['name']}.
+  static const $name = IconData(0x${(icon['unicode'] as String).toUpperCase()}, fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');""";
     lines.add(line);
   }
 
