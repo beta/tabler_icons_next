@@ -1,3 +1,7 @@
+## 2.34.4
+
+- Add gallery link and dollar sign note to readme
+
 ## 2.34.3
 
 - Add dartdoc for public APIs
