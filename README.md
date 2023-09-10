@@ -1,6 +1,8 @@
 # Tabler Icons Next for Flutter
 
-Yet another Tabler Icons package for Flutter that keeps updating with the latest version of the upstream.
+[![Pub.dev](https://img.shields.io/pub/v/tabler_icons_next)](https://pub.dev/packages/tabler_icons_next)
+
+Yet another [Tabler Icons](https://tabler-icons.io/) package for Flutter that keeps updating with the latest version of the upstream.
 
 ## Getting started
 

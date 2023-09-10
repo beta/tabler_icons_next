@@ -1,7 +1,9 @@
 name: tabler_icons_next
 description: Yet another Tabler Icons package for Flutter that keeps updating with the latest version of the upstream.
+homepage: https://tabler-icons-next.betakuang.me/
+repository: https://github.com/beta/tabler_icons_next
 
-version: 2.34.0
+version: 2.34.1
 
 environment:
   sdk: '>=3.1.1 <4.0.0'
