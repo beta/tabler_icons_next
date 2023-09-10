@@ -1,3 +1,7 @@
+## 2.34.3
+
+- Add dartdoc for public APIs
+
 ## 2.34.2
 
 - Add example
