@@ -724,6 +724,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.augmentedRealityOff, TablerIconsSvg.augmentedRealityOff),
   'augmentedReality': const TablerIcon(
       TablerIcons.augmentedReality, TablerIconsSvg.augmentedReality),
+  'automaticGearbox': const TablerIcon(
+      TablerIcons.automaticGearbox, TablerIconsSvg.automaticGearbox),
   'awardFilled':
       const TablerIcon(TablerIcons.awardFilled, TablerIconsSvg.awardFilled),
   'awardOff': const TablerIcon(TablerIcons.awardOff, TablerIconsSvg.awardOff),
@@ -1015,6 +1017,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'bookUpload':
       const TablerIcon(TablerIcons.bookUpload, TablerIconsSvg.bookUpload),
   'book': const TablerIcon(TablerIcons.book, TablerIconsSvg.book),
+  'bookmarkAi':
+      const TablerIcon(TablerIcons.bookmarkAi, TablerIconsSvg.bookmarkAi),
   'bookmarkEdit':
       const TablerIcon(TablerIcons.bookmarkEdit, TablerIconsSvg.bookmarkEdit),
   'bookmarkFilled': const TablerIcon(
@@ -2110,6 +2114,7 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'carGarage':
       const TablerIcon(TablerIcons.carGarage, TablerIconsSvg.carGarage),
   'carOff': const TablerIcon(TablerIcons.carOff, TablerIconsSvg.carOff),
+  'carSuv': const TablerIcon(TablerIcons.carSuv, TablerIconsSvg.carSuv),
   'carTurbine':
       const TablerIcon(TablerIcons.carTurbine, TablerIconsSvg.carTurbine),
   'car': const TablerIcon(TablerIcons.car, TablerIconsSvg.car),
@@ -2532,6 +2537,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.circleLetterY, TablerIconsSvg.circleLetterY),
   'circleLetterZ':
       const TablerIcon(TablerIcons.circleLetterZ, TablerIconsSvg.circleLetterZ),
+  'circleMinus2':
+      const TablerIcon(TablerIcons.circleMinus2, TablerIconsSvg.circleMinus2),
   'circleMinus':
       const TablerIcon(TablerIcons.circleMinus, TablerIconsSvg.circleMinus),
   'circleNumber0':
@@ -2556,6 +2563,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.circleNumber9, TablerIconsSvg.circleNumber9),
   'circleOff':
       const TablerIcon(TablerIcons.circleOff, TablerIconsSvg.circleOff),
+  'circlePlus2':
+      const TablerIcon(TablerIcons.circlePlus2, TablerIconsSvg.circlePlus2),
   'circlePlus':
       const TablerIcon(TablerIcons.circlePlus, TablerIconsSvg.circlePlus),
   'circleRectangleOff': const TablerIcon(
@@ -4643,6 +4652,10 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.hexagonLetterY, TablerIconsSvg.hexagonLetterY),
   'hexagonLetterZ': const TablerIcon(
       TablerIcons.hexagonLetterZ, TablerIconsSvg.hexagonLetterZ),
+  'hexagonMinus2':
+      const TablerIcon(TablerIcons.hexagonMinus2, TablerIconsSvg.hexagonMinus2),
+  'hexagonMinus':
+      const TablerIcon(TablerIcons.hexagonMinus, TablerIconsSvg.hexagonMinus),
   'hexagonNumber0': const TablerIcon(
       TablerIcons.hexagonNumber0, TablerIconsSvg.hexagonNumber0),
   'hexagonNumber1': const TablerIcon(
@@ -4665,6 +4678,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.hexagonNumber9, TablerIconsSvg.hexagonNumber9),
   'hexagonOff':
       const TablerIcon(TablerIcons.hexagonOff, TablerIconsSvg.hexagonOff),
+  'hexagonPlus2':
+      const TablerIcon(TablerIcons.hexagonPlus2, TablerIconsSvg.hexagonPlus2),
   'hexagonPlus':
       const TablerIcon(TablerIcons.hexagonPlus, TablerIconsSvg.hexagonPlus),
   'hexagon': const TablerIcon(TablerIcons.hexagon, TablerIconsSvg.hexagon),
@@ -5938,8 +5953,16 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'nut': const TablerIcon(TablerIcons.nut, TablerIconsSvg.nut),
   'octagonFilled':
       const TablerIcon(TablerIcons.octagonFilled, TablerIconsSvg.octagonFilled),
+  'octagonMinus2':
+      const TablerIcon(TablerIcons.octagonMinus2, TablerIconsSvg.octagonMinus2),
+  'octagonMinus':
+      const TablerIcon(TablerIcons.octagonMinus, TablerIconsSvg.octagonMinus),
   'octagonOff':
       const TablerIcon(TablerIcons.octagonOff, TablerIconsSvg.octagonOff),
+  'octagonPlus2':
+      const TablerIcon(TablerIcons.octagonPlus2, TablerIconsSvg.octagonPlus2),
+  'octagonPlus':
+      const TablerIcon(TablerIcons.octagonPlus, TablerIconsSvg.octagonPlus),
   'octagon': const TablerIcon(TablerIcons.octagon, TablerIconsSvg.octagon),
   'octahedronOff':
       const TablerIcon(TablerIcons.octahedronOff, TablerIconsSvg.octahedronOff),
@@ -6186,6 +6209,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'photoStar':
       const TablerIcon(TablerIcons.photoStar, TablerIconsSvg.photoStar),
   'photoUp': const TablerIcon(TablerIcons.photoUp, TablerIconsSvg.photoUp),
+  'photoVideo':
+      const TablerIcon(TablerIcons.photoVideo, TablerIconsSvg.photoVideo),
   'photoX': const TablerIcon(TablerIcons.photoX, TablerIconsSvg.photoX),
   'photo': const TablerIcon(TablerIcons.photo, TablerIconsSvg.photo),
   'physotherapist': const TablerIcon(
@@ -7278,6 +7303,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.squareNumber9, TablerIconsSvg.squareNumber9),
   'squareOff':
       const TablerIcon(TablerIcons.squareOff, TablerIconsSvg.squareOff),
+  'squarePlus2':
+      const TablerIcon(TablerIcons.squarePlus2, TablerIconsSvg.squarePlus2),
   'squarePlus':
       const TablerIcon(TablerIcons.squarePlus, TablerIconsSvg.squarePlus),
   'squareRoot2':
@@ -7421,6 +7448,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.squareRoundedLetterY, TablerIconsSvg.squareRoundedLetterY),
   'squareRoundedLetterZ': const TablerIcon(
       TablerIcons.squareRoundedLetterZ, TablerIconsSvg.squareRoundedLetterZ),
+  'squareRoundedMinus2': const TablerIcon(
+      TablerIcons.squareRoundedMinus2, TablerIconsSvg.squareRoundedMinus2),
   'squareRoundedMinusFilled': const TablerIcon(
       TablerIcons.squareRoundedMinusFilled,
       TablerIconsSvg.squareRoundedMinusFilled),
@@ -7476,6 +7505,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIconsSvg.squareRoundedNumber9Filled),
   'squareRoundedNumber9': const TablerIcon(
       TablerIcons.squareRoundedNumber9, TablerIconsSvg.squareRoundedNumber9),
+  'squareRoundedPlus2': const TablerIcon(
+      TablerIcons.squareRoundedPlus2, TablerIconsSvg.squareRoundedPlus2),
   'squareRoundedPlusFilled': const TablerIcon(
       TablerIcons.squareRoundedPlusFilled,
       TablerIconsSvg.squareRoundedPlusFilled),
@@ -7607,6 +7638,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.tableShortcut, TablerIconsSvg.tableShortcut),
   'table': const TablerIcon(TablerIcons.table, TablerIconsSvg.table),
   'tagOff': const TablerIcon(TablerIcons.tagOff, TablerIconsSvg.tagOff),
+  'tagStarred':
+      const TablerIcon(TablerIcons.tagStarred, TablerIconsSvg.tagStarred),
   'tag': const TablerIcon(TablerIcons.tag, TablerIconsSvg.tag),
   'tagsOff': const TablerIcon(TablerIcons.tagsOff, TablerIconsSvg.tagsOff),
   'tags': const TablerIcon(TablerIcons.tags, TablerIconsSvg.tags),
@@ -7855,8 +7888,16 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIconsSvg.triangleInvertedFilled),
   'triangleInverted': const TablerIcon(
       TablerIcons.triangleInverted, TablerIconsSvg.triangleInverted),
+  'triangleMinus2': const TablerIcon(
+      TablerIcons.triangleMinus2, TablerIconsSvg.triangleMinus2),
+  'triangleMinus':
+      const TablerIcon(TablerIcons.triangleMinus, TablerIconsSvg.triangleMinus),
   'triangleOff':
       const TablerIcon(TablerIcons.triangleOff, TablerIconsSvg.triangleOff),
+  'trianglePlus2':
+      const TablerIcon(TablerIcons.trianglePlus2, TablerIconsSvg.trianglePlus2),
+  'trianglePlus':
+      const TablerIcon(TablerIcons.trianglePlus, TablerIconsSvg.trianglePlus),
   'triangleSquareCircleFilled': const TablerIcon(
       TablerIcons.triangleSquareCircleFilled,
       TablerIconsSvg.triangleSquareCircleFilled),

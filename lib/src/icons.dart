@@ -1503,6 +1503,10 @@ class TablerIcons {
   static const augmentedReality = IconData(0xF023,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon automatic-gearbox.
+  static const automaticGearbox = IconData(0xFC89,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon award-filled.
   static const awardFilled = IconData(0xF71C,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -2245,6 +2249,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon book.
   static const book = IconData(0xEA39,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon bookmark-ai.
+  static const bookmarkAi = IconData(0xFC8A,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon bookmark-edit.
@@ -4559,6 +4567,10 @@ class TablerIcons {
   static const carOff = IconData(0xF0C7,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon car-suv.
+  static const carSuv = IconData(0xFC8B,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon car-turbine.
   static const carTurbine = IconData(0xF4FD,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -5443,6 +5455,10 @@ class TablerIcons {
   static const circleLetterZ = IconData(0xF458,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon circle-minus-2.
+  static const circleMinus2 = IconData(0xFC8C,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon circle-minus.
   static const circleMinus = IconData(0xEA68,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -5489,6 +5505,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon circle-off.
   static const circleOff = IconData(0xEE40,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon circle-plus-2.
+  static const circlePlus2 = IconData(0xFC8D,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon circle-plus.
@@ -10203,6 +10223,14 @@ class TablerIcons {
   static const hexagonLetterZ = IconData(0xF47B,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon hexagon-minus-2.
+  static const hexagonMinus2 = IconData(0xFC8E,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon hexagon-minus.
+  static const hexagonMinus = IconData(0xFC8F,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon hexagon-number-0.
   static const hexagonNumber0 = IconData(0xF459,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -10245,6 +10273,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon hexagon-off.
   static const hexagonOff = IconData(0xEE9C,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon hexagon-plus-2.
+  static const hexagonPlus2 = IconData(0xFC90,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon hexagon-plus.
@@ -13303,8 +13335,24 @@ class TablerIcons {
   static const octagonFilled = IconData(0xF686,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon octagon-minus-2.
+  static const octagonMinus2 = IconData(0xFC91,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon octagon-minus.
+  static const octagonMinus = IconData(0xFC92,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon octagon-off.
   static const octagonOff = IconData(0xEEB8,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon octagon-plus-2.
+  static const octagonPlus2 = IconData(0xFC93,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon octagon-plus.
+  static const octagonPlus = IconData(0xFC94,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon octagon.
@@ -13873,6 +13921,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon photo-up.
   static const photoUp = IconData(0xF38B,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon photo-video.
+  static const photoVideo = IconData(0xFC95,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon photo-x.
@@ -16427,6 +16479,10 @@ class TablerIcons {
   static const squareOff = IconData(0xEEEF,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon square-plus-2.
+  static const squarePlus2 = IconData(0xFC96,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon square-plus.
   static const squarePlus = IconData(0xEB2A,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -16671,6 +16727,10 @@ class TablerIcons {
   static const squareRoundedLetterZ = IconData(0xF5C7,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon square-rounded-minus-2.
+  static const squareRoundedMinus2 = IconData(0xFC97,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon square-rounded-minus-filled.
   static const squareRoundedMinusFilled = IconData(0xFB40,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -16757,6 +16817,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon square-rounded-number-9.
   static const squareRoundedNumber9 = IconData(0xF5D1,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon square-rounded-plus-2.
+  static const squareRoundedPlus2 = IconData(0xFC98,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon square-rounded-plus-filled.
@@ -17105,6 +17169,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon tag-off.
   static const tagOff = IconData(0xEFC0,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon tag-starred.
+  static const tagStarred = IconData(0xFC99,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon tag.
@@ -17687,8 +17755,24 @@ class TablerIcons {
   static const triangleInverted = IconData(0xF01D,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon triangle-minus-2.
+  static const triangleMinus2 = IconData(0xFC9A,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon triangle-minus.
+  static const triangleMinus = IconData(0xFC9B,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon triangle-off.
   static const triangleOff = IconData(0xEF02,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon triangle-plus-2.
+  static const trianglePlus2 = IconData(0xFC9C,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon triangle-plus.
+  static const trianglePlus = IconData(0xFC9D,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon triangle-square-circle-filled.
