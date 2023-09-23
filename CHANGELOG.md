@@ -1,3 +1,7 @@
+## 2.35.0
+
+- Add icons from upstream v2.35.0
+
 ## 2.34.4
 
 - Add gallery link and dollar sign note to readme
