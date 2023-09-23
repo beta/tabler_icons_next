@@ -1,3 +1,7 @@
+## 2.35.1
+
+- Fixed: update icon font file to v2.35.1
+
 ## 2.35.0
 
 - Add icons from upstream v2.35.0
