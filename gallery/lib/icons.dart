@@ -119,6 +119,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.airConditioning, TablerIconsSvg.airConditioning),
   'airTrafficControl': const TablerIcon(
       TablerIcons.airTrafficControl, TablerIconsSvg.airTrafficControl),
+  'alarmAverage':
+      const TablerIcon(TablerIcons.alarmAverage, TablerIconsSvg.alarmAverage),
   'alarmFilled':
       const TablerIcon(TablerIcons.alarmFilled, TablerIconsSvg.alarmFilled),
   'alarmMinusFilled': const TablerIcon(
@@ -507,6 +509,10 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.arrowLoopRight2, TablerIconsSvg.arrowLoopRight2),
   'arrowLoopRight': const TablerIcon(
       TablerIcons.arrowLoopRight, TablerIconsSvg.arrowLoopRight),
+  'arrowMergeAltLeft': const TablerIcon(
+      TablerIcons.arrowMergeAltLeft, TablerIconsSvg.arrowMergeAltLeft),
+  'arrowMergeAltRight': const TablerIcon(
+      TablerIcons.arrowMergeAltRight, TablerIconsSvg.arrowMergeAltRight),
   'arrowMergeBoth': const TablerIcon(
       TablerIcons.arrowMergeBoth, TablerIconsSvg.arrowMergeBoth),
   'arrowMergeLeft': const TablerIcon(
@@ -901,6 +907,7 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'beach': const TablerIcon(TablerIcons.beach, TablerIconsSvg.beach),
   'bedFilled':
       const TablerIcon(TablerIcons.bedFilled, TablerIconsSvg.bedFilled),
+  'bedFlat': const TablerIcon(TablerIcons.bedFlat, TablerIconsSvg.bedFlat),
   'bedOff': const TablerIcon(TablerIcons.bedOff, TablerIconsSvg.bedOff),
   'bed': const TablerIcon(TablerIcons.bed, TablerIconsSvg.bed),
   'beerFilled':
@@ -984,6 +991,7 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'bleachOff':
       const TablerIcon(TablerIcons.bleachOff, TablerIconsSvg.bleachOff),
   'bleach': const TablerIcon(TablerIcons.bleach, TablerIconsSvg.bleach),
+  'blender': const TablerIcon(TablerIcons.blender, TablerIconsSvg.blender),
   'blockquote':
       const TablerIcon(TablerIcons.blockquote, TablerIconsSvg.blockquote),
   'bluetoothConnected': const TablerIcon(
@@ -997,6 +1005,7 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'blurOff': const TablerIcon(TablerIcons.blurOff, TablerIconsSvg.blurOff),
   'blur': const TablerIcon(TablerIcons.blur, TablerIconsSvg.blur),
   'bmp': const TablerIcon(TablerIcons.bmp, TablerIconsSvg.bmp),
+  'bodyScan': const TablerIcon(TablerIcons.bodyScan, TablerIconsSvg.bodyScan),
   'boldOff': const TablerIcon(TablerIcons.boldOff, TablerIconsSvg.boldOff),
   'bold': const TablerIcon(TablerIcons.bold, TablerIconsSvg.bold),
   'boltOff': const TablerIcon(TablerIcons.boltOff, TablerIconsSvg.boltOff),
@@ -3239,10 +3248,10 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.deviceDesktop, TablerIconsSvg.deviceDesktop),
   'deviceFloppy':
       const TablerIcon(TablerIcons.deviceFloppy, TablerIconsSvg.deviceFloppy),
-  'deviceGamePad':
-      const TablerIcon(TablerIcons.deviceGamePad, TablerIconsSvg.deviceGamePad),
   'deviceGamepad2': const TablerIcon(
       TablerIcons.deviceGamepad2, TablerIconsSvg.deviceGamepad2),
+  'deviceGamepad3': const TablerIcon(
+      TablerIcons.deviceGamepad3, TablerIconsSvg.deviceGamepad3),
   'deviceGamepad':
       const TablerIcon(TablerIcons.deviceGamepad, TablerIconsSvg.deviceGamepad),
   'deviceHeartMonitorFilled': const TablerIcon(
@@ -4413,9 +4422,14 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'graph': const TablerIcon(TablerIcons.graph, TablerIconsSvg.graph),
   'grave2': const TablerIcon(TablerIcons.grave2, TablerIconsSvg.grave2),
   'grave': const TablerIcon(TablerIcons.grave, TablerIconsSvg.grave),
+  'grid3x3': const TablerIcon(TablerIcons.grid3x3, TablerIconsSvg.grid3x3),
+  'grid4x4': const TablerIcon(TablerIcons.grid4x4, TablerIconsSvg.grid4x4),
   'gridDots': const TablerIcon(TablerIcons.gridDots, TablerIconsSvg.gridDots),
+  'gridGoldenratio': const TablerIcon(
+      TablerIcons.gridGoldenratio, TablerIconsSvg.gridGoldenratio),
   'gridPattern':
       const TablerIcon(TablerIcons.gridPattern, TablerIconsSvg.gridPattern),
+  'gridScan': const TablerIcon(TablerIcons.gridScan, TablerIconsSvg.gridScan),
   'grillFork':
       const TablerIcon(TablerIcons.grillFork, TablerIconsSvg.grillFork),
   'grillOff': const TablerIcon(TablerIcons.grillOff, TablerIconsSvg.grillOff),
@@ -6192,6 +6206,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.photoPlus, TablerIconsSvg.photoPlus),
   'photoQuestion':
       const TablerIcon(TablerIcons.photoQuestion, TablerIconsSvg.photoQuestion),
+  'photoScan':
+      const TablerIcon(TablerIcons.photoScan, TablerIconsSvg.photoScan),
   'photoSearch':
       const TablerIcon(TablerIcons.photoSearch, TablerIconsSvg.photoSearch),
   'photoSensor2':
@@ -6664,7 +6680,17 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.rotateRectangle, TablerIconsSvg.rotateRectangle),
   'rotate': const TablerIcon(TablerIcons.rotate, TablerIconsSvg.rotate),
   'route2': const TablerIcon(TablerIcons.route2, TablerIconsSvg.route2),
+  'routeAltLeft':
+      const TablerIcon(TablerIcons.routeAltLeft, TablerIconsSvg.routeAltLeft),
+  'routeAltRight':
+      const TablerIcon(TablerIcons.routeAltRight, TablerIconsSvg.routeAltRight),
   'routeOff': const TablerIcon(TablerIcons.routeOff, TablerIconsSvg.routeOff),
+  'routeSquare2':
+      const TablerIcon(TablerIcons.routeSquare2, TablerIconsSvg.routeSquare2),
+  'routeSquare':
+      const TablerIcon(TablerIcons.routeSquare, TablerIconsSvg.routeSquare),
+  'routeX2': const TablerIcon(TablerIcons.routeX2, TablerIconsSvg.routeX2),
+  'routeX': const TablerIcon(TablerIcons.routeX, TablerIconsSvg.routeX),
   'route': const TablerIcon(TablerIcons.route, TablerIconsSvg.route),
   'routerOff':
       const TablerIcon(TablerIcons.routerOff, TablerIconsSvg.routerOff),
@@ -7970,6 +7996,7 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'userPlus': const TablerIcon(TablerIcons.userPlus, TablerIconsSvg.userPlus),
   'userQuestion':
       const TablerIcon(TablerIcons.userQuestion, TablerIconsSvg.userQuestion),
+  'userScan': const TablerIcon(TablerIcons.userScan, TablerIconsSvg.userScan),
   'userSearch':
       const TablerIcon(TablerIcons.userSearch, TablerIconsSvg.userSearch),
   'userShare':
@@ -8294,6 +8321,7 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.zoomReplace, TablerIconsSvg.zoomReplace),
   'zoomReset':
       const TablerIcon(TablerIcons.zoomReset, TablerIconsSvg.zoomReset),
+  'zoomScan': const TablerIcon(TablerIcons.zoomScan, TablerIconsSvg.zoomScan),
   'zzzOff': const TablerIcon(TablerIcons.zzzOff, TablerIconsSvg.zzzOff),
   'zzz': const TablerIcon(TablerIcons.zzz, TablerIconsSvg.zzz),
 });

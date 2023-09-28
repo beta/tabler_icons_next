@@ -259,6 +259,10 @@ class TablerIcons {
   static const airTrafficControl = IconData(0xFB01,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon alarm-average.
+  static const alarmAverage = IconData(0xFC9E,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon alarm-filled.
   static const alarmFilled = IconData(0xF709,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -1045,6 +1049,14 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon arrow-loop-right.
   static const arrowLoopRight = IconData(0xEDA0,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon arrow-merge-alt-left.
+  static const arrowMergeAltLeft = IconData(0xFC9F,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon arrow-merge-alt-right.
+  static const arrowMergeAltRight = IconData(0xFCA0,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon arrow-merge-both.
@@ -1943,6 +1955,10 @@ class TablerIcons {
   static const bedFilled = IconData(0xF7E0,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon bed-flat.
+  static const bedFlat = IconData(0xFCA1,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon bed-off.
   static const bedOff = IconData(0xF100,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -2155,6 +2171,10 @@ class TablerIcons {
   static const bleach = IconData(0xF2F3,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon blender.
+  static const blender = IconData(0xFCA2,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon blockquote.
   static const blockquote = IconData(0xEE09,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -2185,6 +2205,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon bmp.
   static const bmp = IconData(0xF3A6,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon body-scan.
+  static const bodyScan = IconData(0xFCA3,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon bold-off.
@@ -7015,12 +7039,12 @@ class TablerIcons {
   static const deviceFloppy = IconData(0xEB62,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
-  /// Icon data for Tabler Icon device-game-pad.
-  static const deviceGamePad = IconData(0xFC58,
-      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
-
   /// Icon data for Tabler Icon device-gamepad-2.
   static const deviceGamepad2 = IconData(0xF1D2,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon device-gamepad-3.
+  static const deviceGamepad3 = IconData(0xFC58,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon device-gamepad.
@@ -9679,12 +9703,28 @@ class TablerIcons {
   static const grave = IconData(0xF580,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon grid-3x3.
+  static const grid3x3 = IconData(0xFCA4,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon grid-4x4.
+  static const grid4x4 = IconData(0xFCA5,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon grid-dots.
   static const gridDots = IconData(0xEABA,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon grid-goldenratio.
+  static const gridGoldenratio = IconData(0xFCA6,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon grid-pattern.
   static const gridPattern = IconData(0xEFC9,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon grid-scan.
+  static const gridScan = IconData(0xFCA7,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon grill-fork.
@@ -13887,6 +13927,10 @@ class TablerIcons {
   static const photoQuestion = IconData(0xF997,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon photo-scan.
+  static const photoScan = IconData(0xFCA8,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon photo-search.
   static const photoSearch = IconData(0xF364,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -15003,8 +15047,32 @@ class TablerIcons {
   static const route2 = IconData(0xF4B6,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon route-alt-left.
+  static const routeAltLeft = IconData(0xFCA9,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon route-alt-right.
+  static const routeAltRight = IconData(0xFCAA,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon route-off.
   static const routeOff = IconData(0xF194,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon route-square-2.
+  static const routeSquare2 = IconData(0xFCAB,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon route-square.
+  static const routeSquare = IconData(0xFCAC,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon route-x-2.
+  static const routeX2 = IconData(0xFCAD,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon route-x.
+  static const routeX = IconData(0xFCAE,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon route.
@@ -17963,6 +18031,10 @@ class TablerIcons {
   static const userQuestion = IconData(0xF7CF,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon user-scan.
+  static const userScan = IconData(0xFCAF,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon user-search.
   static const userSearch = IconData(0xEF89,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -18777,6 +18849,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon zoom-reset.
   static const zoomReset = IconData(0xF295,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon zoom-scan.
+  static const zoomScan = IconData(0xFCB0,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon zzz-off.
