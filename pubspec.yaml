@@ -3,7 +3,7 @@ description: Yet another Tabler Icons package for Flutter that keeps updating wi
 homepage: https://tabler-icons-next.betakuang.me/
 repository: https://github.com/beta/tabler_icons_next
 
-version: 2.35.1
+version: 2.36.0
 
 environment:
   sdk: '>=3.1.0 <4.0.0'
