@@ -2579,6 +2579,14 @@ class TablerIcons {
   static const braces = IconData(0xEBCC,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon brackets-angle-off.
+  static const bracketsAngleOff = IconData(0xFCB1,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon brackets-angle.
+  static const bracketsAngle = IconData(0xFCB2,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon brackets-contain-end.
   static const bracketsContainEnd = IconData(0xF1E3,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -2697,6 +2705,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon brand-asana.
   static const brandAsana = IconData(0xEDC5,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon brand-auth0.
+  static const brandAuth0 = IconData(0xFCB3,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon brand-aws.
@@ -4253,6 +4265,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon bulldozer.
   static const bulldozer = IconData(0xEE1D,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon burger.
+  static const burger = IconData(0xFCB4,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon bus-off.
@@ -8979,6 +8995,10 @@ class TablerIcons {
   static const fingerprintOff = IconData(0xF12A,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon fingerprint-scan.
+  static const fingerprintScan = IconData(0xFCB5,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon fingerprint.
   static const fingerprint = IconData(0xEBD1,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -9437,6 +9457,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon function.
   static const function = IconData(0xF225,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon galaxy.
+  static const galaxy = IconData(0xFCB6,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon garden-cart-off.
@@ -10523,6 +10547,10 @@ class TablerIcons {
   static const horse = IconData(0xFC46,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon horseshoe.
+  static const horseshoe = IconData(0xFCB7,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon hotel-service.
   static const hotelService = IconData(0xEF80,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -11391,6 +11419,10 @@ class TablerIcons {
   static const lineHeight = IconData(0xEB94,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon line-scan.
+  static const lineScan = IconData(0xFCB8,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon line.
   static const line = IconData(0xEC40,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -11757,6 +11789,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon magnet.
   static const magnet = IconData(0xEAE3,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon magnetic.
+  static const magnetic = IconData(0xFCB9,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon mail-ai.
@@ -13167,6 +13203,10 @@ class TablerIcons {
   static const navigationDown = IconData(0xFBF0,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon navigation-east.
+  static const navigationEast = IconData(0xFCBA,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon navigation-exclamation.
   static const navigationExclamation = IconData(0xFBF1,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -13184,7 +13224,7 @@ class TablerIcons {
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon navigation-north.
-  static const navigationNorth = IconData(0xFAEC,
+  static const navigationNorth = IconData(0xFCBB,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon navigation-off.
@@ -13215,12 +13255,24 @@ class TablerIcons {
   static const navigationShare = IconData(0xFBF9,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon navigation-south.
+  static const navigationSouth = IconData(0xFCBC,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon navigation-star.
   static const navigationStar = IconData(0xFBFA,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon navigation-top.
+  static const navigationTop = IconData(0xFAEC,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon navigation-up.
   static const navigationUp = IconData(0xFBFB,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon navigation-west.
+  static const navigationWest = IconData(0xFCBD,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon navigation-x.
@@ -14939,6 +14991,10 @@ class TablerIcons {
   static const road = IconData(0xF018,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon robot-face.
+  static const robotFace = IconData(0xFCBE,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon robot-off.
   static const robotOff = IconData(0xF192,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -15059,6 +15115,10 @@ class TablerIcons {
   static const routeOff = IconData(0xF194,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon route-scan.
+  static const routeScan = IconData(0xFCBF,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon route-square-2.
   static const routeSquare2 = IconData(0xFCAB,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -15137,6 +15197,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon run.
   static const run = IconData(0xEC82,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon rv-truck.
+  static const rvTruck = IconData(0xFCC0,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon s-turn-down.
@@ -15977,6 +16041,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon sofa.
   static const sofa = IconData(0xEFAF,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon solar-electricity.
+  static const solarElectricity = IconData(0xFCC1,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon solar-panel-2.
@@ -17083,6 +17151,10 @@ class TablerIcons {
   static const sum = IconData(0xEB73,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon sun-electricity.
+  static const sunElectricity = IconData(0xFCC2,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon sun-filled.
   static const sunFilled = IconData(0xF6A9,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -17405,6 +17477,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon text-resize.
   static const textResize = IconData(0xEF87,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon text-scan-2.
+  static const textScan2 = IconData(0xFCC3,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon text-size.
@@ -17939,6 +18015,10 @@ class TablerIcons {
   static const underline = IconData(0xEBA2,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon universe.
+  static const universe = IconData(0xFCC4,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon unlink.
   static const unlink = IconData(0xEB46,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -18451,6 +18531,10 @@ class TablerIcons {
   static const waveSquare = IconData(0xECD5,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon waves-electricity.
+  static const wavesElectricity = IconData(0xFCC5,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon webhook-off.
   static const webhookOff = IconData(0xF43D,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -18497,6 +18581,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon wifi.
   static const wifi = IconData(0xEB52,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon wind-electricity.
+  static const windElectricity = IconData(0xFCC6,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon wind-off.
