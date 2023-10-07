@@ -5116,8 +5116,14 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'lego': const TablerIcon(TablerIcons.lego, TablerIconsSvg.lego),
   'lemon2': const TablerIcon(TablerIcons.lemon2, TablerIconsSvg.lemon2),
   'lemon': const TablerIcon(TablerIcons.lemon, TablerIconsSvg.lemon),
+  'letterASmall':
+      const TablerIcon(TablerIcons.letterASmall, TablerIconsSvg.letterASmall),
   'letterA': const TablerIcon(TablerIcons.letterA, TablerIconsSvg.letterA),
+  'letterBSmall':
+      const TablerIcon(TablerIcons.letterBSmall, TablerIconsSvg.letterBSmall),
   'letterB': const TablerIcon(TablerIcons.letterB, TablerIconsSvg.letterB),
+  'letterCSmall':
+      const TablerIcon(TablerIcons.letterCSmall, TablerIconsSvg.letterCSmall),
   'letterC': const TablerIcon(TablerIcons.letterC, TablerIconsSvg.letterC),
   'letterCaseLower': const TablerIcon(
       TablerIcons.letterCaseLower, TablerIconsSvg.letterCaseLower),
@@ -5127,30 +5133,76 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.letterCaseUpper, TablerIconsSvg.letterCaseUpper),
   'letterCase':
       const TablerIcon(TablerIcons.letterCase, TablerIconsSvg.letterCase),
+  'letterDSmall':
+      const TablerIcon(TablerIcons.letterDSmall, TablerIconsSvg.letterDSmall),
   'letterD': const TablerIcon(TablerIcons.letterD, TablerIconsSvg.letterD),
+  'letterESmall':
+      const TablerIcon(TablerIcons.letterESmall, TablerIconsSvg.letterESmall),
   'letterE': const TablerIcon(TablerIcons.letterE, TablerIconsSvg.letterE),
+  'letterFSmall':
+      const TablerIcon(TablerIcons.letterFSmall, TablerIconsSvg.letterFSmall),
   'letterF': const TablerIcon(TablerIcons.letterF, TablerIconsSvg.letterF),
+  'letterGSmall':
+      const TablerIcon(TablerIcons.letterGSmall, TablerIconsSvg.letterGSmall),
   'letterG': const TablerIcon(TablerIcons.letterG, TablerIconsSvg.letterG),
+  'letterHSmall':
+      const TablerIcon(TablerIcons.letterHSmall, TablerIconsSvg.letterHSmall),
   'letterH': const TablerIcon(TablerIcons.letterH, TablerIconsSvg.letterH),
+  'letterISmall':
+      const TablerIcon(TablerIcons.letterISmall, TablerIconsSvg.letterISmall),
   'letterI': const TablerIcon(TablerIcons.letterI, TablerIconsSvg.letterI),
+  'letterJSmall':
+      const TablerIcon(TablerIcons.letterJSmall, TablerIconsSvg.letterJSmall),
   'letterJ': const TablerIcon(TablerIcons.letterJ, TablerIconsSvg.letterJ),
+  'letterKSmall':
+      const TablerIcon(TablerIcons.letterKSmall, TablerIconsSvg.letterKSmall),
   'letterK': const TablerIcon(TablerIcons.letterK, TablerIconsSvg.letterK),
+  'letterLSmall':
+      const TablerIcon(TablerIcons.letterLSmall, TablerIconsSvg.letterLSmall),
   'letterL': const TablerIcon(TablerIcons.letterL, TablerIconsSvg.letterL),
+  'letterMSmall':
+      const TablerIcon(TablerIcons.letterMSmall, TablerIconsSvg.letterMSmall),
   'letterM': const TablerIcon(TablerIcons.letterM, TablerIconsSvg.letterM),
+  'letterNSmall':
+      const TablerIcon(TablerIcons.letterNSmall, TablerIconsSvg.letterNSmall),
   'letterN': const TablerIcon(TablerIcons.letterN, TablerIconsSvg.letterN),
+  'letterOSmall':
+      const TablerIcon(TablerIcons.letterOSmall, TablerIconsSvg.letterOSmall),
   'letterO': const TablerIcon(TablerIcons.letterO, TablerIconsSvg.letterO),
+  'letterPSmall':
+      const TablerIcon(TablerIcons.letterPSmall, TablerIconsSvg.letterPSmall),
   'letterP': const TablerIcon(TablerIcons.letterP, TablerIconsSvg.letterP),
+  'letterQSmall':
+      const TablerIcon(TablerIcons.letterQSmall, TablerIconsSvg.letterQSmall),
   'letterQ': const TablerIcon(TablerIcons.letterQ, TablerIconsSvg.letterQ),
+  'letterRSmall':
+      const TablerIcon(TablerIcons.letterRSmall, TablerIconsSvg.letterRSmall),
   'letterR': const TablerIcon(TablerIcons.letterR, TablerIconsSvg.letterR),
+  'letterSSmall':
+      const TablerIcon(TablerIcons.letterSSmall, TablerIconsSvg.letterSSmall),
   'letterS': const TablerIcon(TablerIcons.letterS, TablerIconsSvg.letterS),
   'letterSpacing':
       const TablerIcon(TablerIcons.letterSpacing, TablerIconsSvg.letterSpacing),
+  'letterTSmall':
+      const TablerIcon(TablerIcons.letterTSmall, TablerIconsSvg.letterTSmall),
   'letterT': const TablerIcon(TablerIcons.letterT, TablerIconsSvg.letterT),
+  'letterUSmall':
+      const TablerIcon(TablerIcons.letterUSmall, TablerIconsSvg.letterUSmall),
   'letterU': const TablerIcon(TablerIcons.letterU, TablerIconsSvg.letterU),
+  'letterVSmall':
+      const TablerIcon(TablerIcons.letterVSmall, TablerIconsSvg.letterVSmall),
   'letterV': const TablerIcon(TablerIcons.letterV, TablerIconsSvg.letterV),
+  'letterWSmall':
+      const TablerIcon(TablerIcons.letterWSmall, TablerIconsSvg.letterWSmall),
   'letterW': const TablerIcon(TablerIcons.letterW, TablerIconsSvg.letterW),
+  'letterXSmall':
+      const TablerIcon(TablerIcons.letterXSmall, TablerIconsSvg.letterXSmall),
   'letterX': const TablerIcon(TablerIcons.letterX, TablerIconsSvg.letterX),
+  'letterYSmall':
+      const TablerIcon(TablerIcons.letterYSmall, TablerIconsSvg.letterYSmall),
   'letterY': const TablerIcon(TablerIcons.letterY, TablerIconsSvg.letterY),
+  'letterZSmall':
+      const TablerIcon(TablerIcons.letterZSmall, TablerIconsSvg.letterZSmall),
   'letterZ': const TablerIcon(TablerIcons.letterZ, TablerIconsSvg.letterZ),
   'licenseOff':
       const TablerIcon(TablerIcons.licenseOff, TablerIconsSvg.licenseOff),
@@ -5973,15 +6025,75 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.notificationOff, TablerIconsSvg.notificationOff),
   'notification':
       const TablerIcon(TablerIcons.notification, TablerIconsSvg.notification),
+  'number0Small':
+      const TablerIcon(TablerIcons.number0Small, TablerIconsSvg.number0Small),
   'number0': const TablerIcon(TablerIcons.number0, TablerIconsSvg.number0),
+  'number1Small':
+      const TablerIcon(TablerIcons.number1Small, TablerIconsSvg.number1Small),
   'number1': const TablerIcon(TablerIcons.number1, TablerIconsSvg.number1),
+  'number10Small':
+      const TablerIcon(TablerIcons.number10Small, TablerIconsSvg.number10Small),
+  'number11Small':
+      const TablerIcon(TablerIcons.number11Small, TablerIconsSvg.number11Small),
+  'number12Small':
+      const TablerIcon(TablerIcons.number12Small, TablerIconsSvg.number12Small),
+  'number13Small':
+      const TablerIcon(TablerIcons.number13Small, TablerIconsSvg.number13Small),
+  'number14Small':
+      const TablerIcon(TablerIcons.number14Small, TablerIconsSvg.number14Small),
+  'number15Small':
+      const TablerIcon(TablerIcons.number15Small, TablerIconsSvg.number15Small),
+  'number16Small':
+      const TablerIcon(TablerIcons.number16Small, TablerIconsSvg.number16Small),
+  'number17Small':
+      const TablerIcon(TablerIcons.number17Small, TablerIconsSvg.number17Small),
+  'number18Small':
+      const TablerIcon(TablerIcons.number18Small, TablerIconsSvg.number18Small),
+  'number19Small':
+      const TablerIcon(TablerIcons.number19Small, TablerIconsSvg.number19Small),
+  'number2Small':
+      const TablerIcon(TablerIcons.number2Small, TablerIconsSvg.number2Small),
   'number2': const TablerIcon(TablerIcons.number2, TablerIconsSvg.number2),
+  'number20Small':
+      const TablerIcon(TablerIcons.number20Small, TablerIconsSvg.number20Small),
+  'number21Small':
+      const TablerIcon(TablerIcons.number21Small, TablerIconsSvg.number21Small),
+  'number22Small':
+      const TablerIcon(TablerIcons.number22Small, TablerIconsSvg.number22Small),
+  'number23Small':
+      const TablerIcon(TablerIcons.number23Small, TablerIconsSvg.number23Small),
+  'number24Small':
+      const TablerIcon(TablerIcons.number24Small, TablerIconsSvg.number24Small),
+  'number25Small':
+      const TablerIcon(TablerIcons.number25Small, TablerIconsSvg.number25Small),
+  'number26Small':
+      const TablerIcon(TablerIcons.number26Small, TablerIconsSvg.number26Small),
+  'number27Small':
+      const TablerIcon(TablerIcons.number27Small, TablerIconsSvg.number27Small),
+  'number28Small':
+      const TablerIcon(TablerIcons.number28Small, TablerIconsSvg.number28Small),
+  'number29Small':
+      const TablerIcon(TablerIcons.number29Small, TablerIconsSvg.number29Small),
+  'number3Small':
+      const TablerIcon(TablerIcons.number3Small, TablerIconsSvg.number3Small),
   'number3': const TablerIcon(TablerIcons.number3, TablerIconsSvg.number3),
+  'number4Small':
+      const TablerIcon(TablerIcons.number4Small, TablerIconsSvg.number4Small),
   'number4': const TablerIcon(TablerIcons.number4, TablerIconsSvg.number4),
+  'number5Small':
+      const TablerIcon(TablerIcons.number5Small, TablerIconsSvg.number5Small),
   'number5': const TablerIcon(TablerIcons.number5, TablerIconsSvg.number5),
+  'number6Small':
+      const TablerIcon(TablerIcons.number6Small, TablerIconsSvg.number6Small),
   'number6': const TablerIcon(TablerIcons.number6, TablerIconsSvg.number6),
+  'number7Small':
+      const TablerIcon(TablerIcons.number7Small, TablerIconsSvg.number7Small),
   'number7': const TablerIcon(TablerIcons.number7, TablerIconsSvg.number7),
+  'number8Small':
+      const TablerIcon(TablerIcons.number8Small, TablerIconsSvg.number8Small),
   'number8': const TablerIcon(TablerIcons.number8, TablerIconsSvg.number8),
+  'number9Small':
+      const TablerIcon(TablerIcons.number9Small, TablerIconsSvg.number9Small),
   'number9': const TablerIcon(TablerIcons.number9, TablerIconsSvg.number9),
   'number': const TablerIcon(TablerIcons.number, TablerIconsSvg.number),
   'numbers': const TablerIcon(TablerIcons.numbers, TablerIconsSvg.numbers),

@@ -11263,12 +11263,24 @@ class TablerIcons {
   static const lemon = IconData(0xEF10,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon letter-a-small.
+  static const letterASmall = IconData(0xFCC7,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon letter-a.
   static const letterA = IconData(0xEC50,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon letter-b-small.
+  static const letterBSmall = IconData(0xFCC8,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon letter-b.
   static const letterB = IconData(0xEC51,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon letter-c-small.
+  static const letterCSmall = IconData(0xFCC9,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon letter-c.
@@ -11291,64 +11303,128 @@ class TablerIcons {
   static const letterCase = IconData(0xEEA5,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon letter-d-small.
+  static const letterDSmall = IconData(0xFCCA,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon letter-d.
   static const letterD = IconData(0xEC53,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon letter-e-small.
+  static const letterESmall = IconData(0xFCCB,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon letter-e.
   static const letterE = IconData(0xEC54,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon letter-f-small.
+  static const letterFSmall = IconData(0xFCCC,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon letter-f.
   static const letterF = IconData(0xEC55,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon letter-g-small.
+  static const letterGSmall = IconData(0xFCCD,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon letter-g.
   static const letterG = IconData(0xEC56,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon letter-h-small.
+  static const letterHSmall = IconData(0xFCCE,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon letter-h.
   static const letterH = IconData(0xEC57,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon letter-i-small.
+  static const letterISmall = IconData(0xFCCF,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon letter-i.
   static const letterI = IconData(0xEC58,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon letter-j-small.
+  static const letterJSmall = IconData(0xFCD0,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon letter-j.
   static const letterJ = IconData(0xEC59,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon letter-k-small.
+  static const letterKSmall = IconData(0xFCD1,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon letter-k.
   static const letterK = IconData(0xEC5A,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon letter-l-small.
+  static const letterLSmall = IconData(0xFCD2,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon letter-l.
   static const letterL = IconData(0xEC5B,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon letter-m-small.
+  static const letterMSmall = IconData(0xFCD3,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon letter-m.
   static const letterM = IconData(0xEC5C,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon letter-n-small.
+  static const letterNSmall = IconData(0xFCD4,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon letter-n.
   static const letterN = IconData(0xEC5D,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon letter-o-small.
+  static const letterOSmall = IconData(0xFCD5,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon letter-o.
   static const letterO = IconData(0xEC5E,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon letter-p-small.
+  static const letterPSmall = IconData(0xFCD6,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon letter-p.
   static const letterP = IconData(0xEC5F,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon letter-q-small.
+  static const letterQSmall = IconData(0xFCD7,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon letter-q.
   static const letterQ = IconData(0xEC60,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon letter-r-small.
+  static const letterRSmall = IconData(0xFCD8,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon letter-r.
   static const letterR = IconData(0xEC61,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon letter-s-small.
+  static const letterSSmall = IconData(0xFCD9,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon letter-s.
@@ -11359,28 +11435,56 @@ class TablerIcons {
   static const letterSpacing = IconData(0xEEA6,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon letter-t-small.
+  static const letterTSmall = IconData(0xFCDA,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon letter-t.
   static const letterT = IconData(0xEC63,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon letter-u-small.
+  static const letterUSmall = IconData(0xFCDB,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon letter-u.
   static const letterU = IconData(0xEC64,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon letter-v-small.
+  static const letterVSmall = IconData(0xFCDC,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon letter-v.
   static const letterV = IconData(0xEC65,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon letter-w-small.
+  static const letterWSmall = IconData(0xFCDD,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon letter-w.
   static const letterW = IconData(0xEC66,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon letter-x-small.
+  static const letterXSmall = IconData(0xFCDE,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon letter-x.
   static const letterX = IconData(0xEC67,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon letter-y-small.
+  static const letterYSmall = IconData(0xFCDF,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon letter-y.
   static const letterY = IconData(0xEC68,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon letter-z-small.
+  static const letterZSmall = IconData(0xFCE0,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon letter-z.
@@ -13367,40 +13471,160 @@ class TablerIcons {
   static const notification = IconData(0xEAFE,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon number-0-small.
+  static const number0Small = IconData(0xFCE1,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon number-0.
   static const number0 = IconData(0xEDF0,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-1-small.
+  static const number1Small = IconData(0xFCE2,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon number-1.
   static const number1 = IconData(0xEDF1,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon number-10-small.
+  static const number10Small = IconData(0xFCE3,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-11-small.
+  static const number11Small = IconData(0xFCE4,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-12-small.
+  static const number12Small = IconData(0xFCE5,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-13-small.
+  static const number13Small = IconData(0xFCE6,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-14-small.
+  static const number14Small = IconData(0xFCE7,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-15-small.
+  static const number15Small = IconData(0xFCE8,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-16-small.
+  static const number16Small = IconData(0xFCE9,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-17-small.
+  static const number17Small = IconData(0xFCEA,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-18-small.
+  static const number18Small = IconData(0xFCEB,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-19-small.
+  static const number19Small = IconData(0xFCEC,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-2-small.
+  static const number2Small = IconData(0xFCED,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon number-2.
   static const number2 = IconData(0xEDF2,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-20-small.
+  static const number20Small = IconData(0xFCEE,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-21-small.
+  static const number21Small = IconData(0xFCEF,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-22-small.
+  static const number22Small = IconData(0xFCF0,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-23-small.
+  static const number23Small = IconData(0xFCF1,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-24-small.
+  static const number24Small = IconData(0xFCF2,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-25-small.
+  static const number25Small = IconData(0xFCF3,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-26-small.
+  static const number26Small = IconData(0xFCF4,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-27-small.
+  static const number27Small = IconData(0xFCF5,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-28-small.
+  static const number28Small = IconData(0xFCF6,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-29-small.
+  static const number29Small = IconData(0xFCF7,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-3-small.
+  static const number3Small = IconData(0xFCF8,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon number-3.
   static const number3 = IconData(0xEDF3,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon number-4-small.
+  static const number4Small = IconData(0xFCF9,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon number-4.
   static const number4 = IconData(0xEDF4,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-5-small.
+  static const number5Small = IconData(0xFCFA,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon number-5.
   static const number5 = IconData(0xEDF5,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon number-6-small.
+  static const number6Small = IconData(0xFCFB,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon number-6.
   static const number6 = IconData(0xEDF6,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-7-small.
+  static const number7Small = IconData(0xFCFC,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon number-7.
   static const number7 = IconData(0xEDF7,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon number-8-small.
+  static const number8Small = IconData(0xFCFD,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon number-8.
   static const number8 = IconData(0xEDF8,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon number-9-small.
+  static const number9Small = IconData(0xFCFE,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon number-9.
