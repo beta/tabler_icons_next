@@ -1,8477 +1,4798 @@
 import 'dart:collection';
 
-import 'package:flutter/widgets.dart';
 import 'package:tabler_icons_next/tabler_icons_next.dart';
 
-class TablerIcon {
-  const TablerIcon(this.data, this.svg);
 
-  final IconData data;
-  final String svg;
-}
-
-final icons = LinkedHashMap<String, TablerIcon>.from({
-  '\$12Hours': const TablerIcon(TablerIcons.$12Hours, TablerIconsSvg.$12Hours),
-  '\$123': const TablerIcon(TablerIcons.$123, TablerIconsSvg.$123),
-  '\$24Hours': const TablerIcon(TablerIcons.$24Hours, TablerIconsSvg.$24Hours),
-  '\$2fa': const TablerIcon(TablerIcons.$2fa, TablerIconsSvg.$2fa),
-  '\$360View': const TablerIcon(TablerIcons.$360View, TablerIconsSvg.$360View),
-  '\$360': const TablerIcon(TablerIcons.$360, TablerIconsSvg.$360),
-  '\$3dCubeSphereOff': const TablerIcon(
-      TablerIcons.$3dCubeSphereOff, TablerIconsSvg.$3dCubeSphereOff),
-  '\$3dCubeSphere':
-      const TablerIcon(TablerIcons.$3dCubeSphere, TablerIconsSvg.$3dCubeSphere),
-  '\$3dRotate':
-      const TablerIcon(TablerIcons.$3dRotate, TablerIconsSvg.$3dRotate),
-  'aB2': const TablerIcon(TablerIcons.aB2, TablerIconsSvg.aB2),
-  'aBOff': const TablerIcon(TablerIcons.aBOff, TablerIconsSvg.aBOff),
-  'aB': const TablerIcon(TablerIcons.aB, TablerIconsSvg.aB),
-  'abacusOff':
-      const TablerIcon(TablerIcons.abacusOff, TablerIconsSvg.abacusOff),
-  'abacus': const TablerIcon(TablerIcons.abacus, TablerIconsSvg.abacus),
-  'abc': const TablerIcon(TablerIcons.abc, TablerIconsSvg.abc),
-  'accessPointOff': const TablerIcon(
-      TablerIcons.accessPointOff, TablerIconsSvg.accessPointOff),
-  'accessPoint':
-      const TablerIcon(TablerIcons.accessPoint, TablerIconsSvg.accessPoint),
-  'accessibleOffFilled': const TablerIcon(
-      TablerIcons.accessibleOffFilled, TablerIconsSvg.accessibleOffFilled),
-  'accessibleOff':
-      const TablerIcon(TablerIcons.accessibleOff, TablerIconsSvg.accessibleOff),
-  'accessible':
-      const TablerIcon(TablerIcons.accessible, TablerIconsSvg.accessible),
-  'activityHeartbeat': const TablerIcon(
-      TablerIcons.activityHeartbeat, TablerIconsSvg.activityHeartbeat),
-  'activity': const TablerIcon(TablerIcons.activity, TablerIconsSvg.activity),
-  'ad2': const TablerIcon(TablerIcons.ad2, TablerIconsSvg.ad2),
-  'adCircleFilled': const TablerIcon(
-      TablerIcons.adCircleFilled, TablerIconsSvg.adCircleFilled),
-  'adCircleOff':
-      const TablerIcon(TablerIcons.adCircleOff, TablerIconsSvg.adCircleOff),
-  'adCircle': const TablerIcon(TablerIcons.adCircle, TablerIconsSvg.adCircle),
-  'adFilled': const TablerIcon(TablerIcons.adFilled, TablerIconsSvg.adFilled),
-  'adOff': const TablerIcon(TablerIcons.adOff, TablerIconsSvg.adOff),
-  'ad': const TablerIcon(TablerIcons.ad, TablerIconsSvg.ad),
-  'addressBookOff': const TablerIcon(
-      TablerIcons.addressBookOff, TablerIconsSvg.addressBookOff),
-  'addressBook':
-      const TablerIcon(TablerIcons.addressBook, TablerIconsSvg.addressBook),
-  'adjustmentsAlt': const TablerIcon(
-      TablerIcons.adjustmentsAlt, TablerIconsSvg.adjustmentsAlt),
-  'adjustmentsBolt': const TablerIcon(
-      TablerIcons.adjustmentsBolt, TablerIconsSvg.adjustmentsBolt),
-  'adjustmentsCancel': const TablerIcon(
-      TablerIcons.adjustmentsCancel, TablerIconsSvg.adjustmentsCancel),
-  'adjustmentsCheck': const TablerIcon(
-      TablerIcons.adjustmentsCheck, TablerIconsSvg.adjustmentsCheck),
-  'adjustmentsCode': const TablerIcon(
-      TablerIcons.adjustmentsCode, TablerIconsSvg.adjustmentsCode),
-  'adjustmentsCog': const TablerIcon(
-      TablerIcons.adjustmentsCog, TablerIconsSvg.adjustmentsCog),
-  'adjustmentsDollar': const TablerIcon(
-      TablerIcons.adjustmentsDollar, TablerIconsSvg.adjustmentsDollar),
-  'adjustmentsDown': const TablerIcon(
-      TablerIcons.adjustmentsDown, TablerIconsSvg.adjustmentsDown),
-  'adjustmentsExclamation': const TablerIcon(TablerIcons.adjustmentsExclamation,
-      TablerIconsSvg.adjustmentsExclamation),
-  'adjustmentsFilled': const TablerIcon(
-      TablerIcons.adjustmentsFilled, TablerIconsSvg.adjustmentsFilled),
-  'adjustmentsHeart': const TablerIcon(
-      TablerIcons.adjustmentsHeart, TablerIconsSvg.adjustmentsHeart),
-  'adjustmentsHorizontal': const TablerIcon(
-      TablerIcons.adjustmentsHorizontal, TablerIconsSvg.adjustmentsHorizontal),
-  'adjustmentsMinus': const TablerIcon(
-      TablerIcons.adjustmentsMinus, TablerIconsSvg.adjustmentsMinus),
-  'adjustmentsOff': const TablerIcon(
-      TablerIcons.adjustmentsOff, TablerIconsSvg.adjustmentsOff),
-  'adjustmentsPause': const TablerIcon(
-      TablerIcons.adjustmentsPause, TablerIconsSvg.adjustmentsPause),
-  'adjustmentsPin': const TablerIcon(
-      TablerIcons.adjustmentsPin, TablerIconsSvg.adjustmentsPin),
-  'adjustmentsPlus': const TablerIcon(
-      TablerIcons.adjustmentsPlus, TablerIconsSvg.adjustmentsPlus),
-  'adjustmentsQuestion': const TablerIcon(
-      TablerIcons.adjustmentsQuestion, TablerIconsSvg.adjustmentsQuestion),
-  'adjustmentsSearch': const TablerIcon(
-      TablerIcons.adjustmentsSearch, TablerIconsSvg.adjustmentsSearch),
-  'adjustmentsShare': const TablerIcon(
-      TablerIcons.adjustmentsShare, TablerIconsSvg.adjustmentsShare),
-  'adjustmentsStar': const TablerIcon(
-      TablerIcons.adjustmentsStar, TablerIconsSvg.adjustmentsStar),
-  'adjustmentsUp':
-      const TablerIcon(TablerIcons.adjustmentsUp, TablerIconsSvg.adjustmentsUp),
-  'adjustmentsX':
-      const TablerIcon(TablerIcons.adjustmentsX, TablerIconsSvg.adjustmentsX),
-  'adjustments':
-      const TablerIcon(TablerIcons.adjustments, TablerIconsSvg.adjustments),
-  'aerialLift':
-      const TablerIcon(TablerIcons.aerialLift, TablerIconsSvg.aerialLift),
-  'affiliateFilled': const TablerIcon(
-      TablerIcons.affiliateFilled, TablerIconsSvg.affiliateFilled),
-  'affiliate':
-      const TablerIcon(TablerIcons.affiliate, TablerIconsSvg.affiliate),
-  'airBalloon':
-      const TablerIcon(TablerIcons.airBalloon, TablerIconsSvg.airBalloon),
-  'airConditioningDisabled': const TablerIcon(
-      TablerIcons.airConditioningDisabled,
-      TablerIconsSvg.airConditioningDisabled),
-  'airConditioning': const TablerIcon(
-      TablerIcons.airConditioning, TablerIconsSvg.airConditioning),
-  'airTrafficControl': const TablerIcon(
-      TablerIcons.airTrafficControl, TablerIconsSvg.airTrafficControl),
-  'alarmAverage':
-      const TablerIcon(TablerIcons.alarmAverage, TablerIconsSvg.alarmAverage),
-  'alarmFilled':
-      const TablerIcon(TablerIcons.alarmFilled, TablerIconsSvg.alarmFilled),
-  'alarmMinusFilled': const TablerIcon(
-      TablerIcons.alarmMinusFilled, TablerIconsSvg.alarmMinusFilled),
-  'alarmMinus':
-      const TablerIcon(TablerIcons.alarmMinus, TablerIconsSvg.alarmMinus),
-  'alarmOff': const TablerIcon(TablerIcons.alarmOff, TablerIconsSvg.alarmOff),
-  'alarmPlusFilled': const TablerIcon(
-      TablerIcons.alarmPlusFilled, TablerIconsSvg.alarmPlusFilled),
-  'alarmPlus':
-      const TablerIcon(TablerIcons.alarmPlus, TablerIconsSvg.alarmPlus),
-  'alarmSnoozeFilled': const TablerIcon(
-      TablerIcons.alarmSnoozeFilled, TablerIconsSvg.alarmSnoozeFilled),
-  'alarmSnooze':
-      const TablerIcon(TablerIcons.alarmSnooze, TablerIconsSvg.alarmSnooze),
-  'alarm': const TablerIcon(TablerIcons.alarm, TablerIconsSvg.alarm),
-  'albumOff': const TablerIcon(TablerIcons.albumOff, TablerIconsSvg.albumOff),
-  'album': const TablerIcon(TablerIcons.album, TablerIconsSvg.album),
-  'alertCircleFilled': const TablerIcon(
-      TablerIcons.alertCircleFilled, TablerIconsSvg.alertCircleFilled),
-  'alertCircleOff': const TablerIcon(
-      TablerIcons.alertCircleOff, TablerIconsSvg.alertCircleOff),
-  'alertCircle':
-      const TablerIcon(TablerIcons.alertCircle, TablerIconsSvg.alertCircle),
-  'alertHexagonFilled': const TablerIcon(
-      TablerIcons.alertHexagonFilled, TablerIconsSvg.alertHexagonFilled),
-  'alertHexagonOff': const TablerIcon(
-      TablerIcons.alertHexagonOff, TablerIconsSvg.alertHexagonOff),
-  'alertHexagon':
-      const TablerIcon(TablerIcons.alertHexagon, TablerIconsSvg.alertHexagon),
-  'alertOctagonFilled': const TablerIcon(
-      TablerIcons.alertOctagonFilled, TablerIconsSvg.alertOctagonFilled),
-  'alertOctagon':
-      const TablerIcon(TablerIcons.alertOctagon, TablerIconsSvg.alertOctagon),
-  'alertSmallOff':
-      const TablerIcon(TablerIcons.alertSmallOff, TablerIconsSvg.alertSmallOff),
-  'alertSmall':
-      const TablerIcon(TablerIcons.alertSmall, TablerIconsSvg.alertSmall),
-  'alertSquareFilled': const TablerIcon(
-      TablerIcons.alertSquareFilled, TablerIconsSvg.alertSquareFilled),
-  'alertSquareRoundedFilled': const TablerIcon(
-      TablerIcons.alertSquareRoundedFilled,
-      TablerIconsSvg.alertSquareRoundedFilled),
-  'alertSquareRoundedOff': const TablerIcon(
-      TablerIcons.alertSquareRoundedOff, TablerIconsSvg.alertSquareRoundedOff),
-  'alertSquareRounded': const TablerIcon(
-      TablerIcons.alertSquareRounded, TablerIconsSvg.alertSquareRounded),
-  'alertSquare':
-      const TablerIcon(TablerIcons.alertSquare, TablerIconsSvg.alertSquare),
-  'alertTriangleFilled': const TablerIcon(
-      TablerIcons.alertTriangleFilled, TablerIconsSvg.alertTriangleFilled),
-  'alertTriangleOff': const TablerIcon(
-      TablerIcons.alertTriangleOff, TablerIconsSvg.alertTriangleOff),
-  'alertTriangle':
-      const TablerIcon(TablerIcons.alertTriangle, TablerIconsSvg.alertTriangle),
-  'alienFilled':
-      const TablerIcon(TablerIcons.alienFilled, TablerIconsSvg.alienFilled),
-  'alien': const TablerIcon(TablerIcons.alien, TablerIconsSvg.alien),
-  'alignBoxBottomCenterFilled': const TablerIcon(
-      TablerIcons.alignBoxBottomCenterFilled,
-      TablerIconsSvg.alignBoxBottomCenterFilled),
-  'alignBoxBottomCenter': const TablerIcon(
-      TablerIcons.alignBoxBottomCenter, TablerIconsSvg.alignBoxBottomCenter),
-  'alignBoxBottomLeftFilled': const TablerIcon(
-      TablerIcons.alignBoxBottomLeftFilled,
-      TablerIconsSvg.alignBoxBottomLeftFilled),
-  'alignBoxBottomLeft': const TablerIcon(
-      TablerIcons.alignBoxBottomLeft, TablerIconsSvg.alignBoxBottomLeft),
-  'alignBoxBottomRightFilled': const TablerIcon(
-      TablerIcons.alignBoxBottomRightFilled,
-      TablerIconsSvg.alignBoxBottomRightFilled),
-  'alignBoxBottomRight': const TablerIcon(
-      TablerIcons.alignBoxBottomRight, TablerIconsSvg.alignBoxBottomRight),
-  'alignBoxCenterBottom': const TablerIcon(
-      TablerIcons.alignBoxCenterBottom, TablerIconsSvg.alignBoxCenterBottom),
-  'alignBoxCenterMiddleFilled': const TablerIcon(
-      TablerIcons.alignBoxCenterMiddleFilled,
-      TablerIconsSvg.alignBoxCenterMiddleFilled),
-  'alignBoxCenterMiddle': const TablerIcon(
-      TablerIcons.alignBoxCenterMiddle, TablerIconsSvg.alignBoxCenterMiddle),
-  'alignBoxCenterStretch': const TablerIcon(
-      TablerIcons.alignBoxCenterStretch, TablerIconsSvg.alignBoxCenterStretch),
-  'alignBoxCenterTop': const TablerIcon(
-      TablerIcons.alignBoxCenterTop, TablerIconsSvg.alignBoxCenterTop),
-  'alignBoxLeftBottomFilled': const TablerIcon(
-      TablerIcons.alignBoxLeftBottomFilled,
-      TablerIconsSvg.alignBoxLeftBottomFilled),
-  'alignBoxLeftBottom': const TablerIcon(
-      TablerIcons.alignBoxLeftBottom, TablerIconsSvg.alignBoxLeftBottom),
-  'alignBoxLeftMiddleFilled': const TablerIcon(
-      TablerIcons.alignBoxLeftMiddleFilled,
-      TablerIconsSvg.alignBoxLeftMiddleFilled),
-  'alignBoxLeftMiddle': const TablerIcon(
-      TablerIcons.alignBoxLeftMiddle, TablerIconsSvg.alignBoxLeftMiddle),
-  'alignBoxLeftStretch': const TablerIcon(
-      TablerIcons.alignBoxLeftStretch, TablerIconsSvg.alignBoxLeftStretch),
-  'alignBoxLeftTopFilled': const TablerIcon(
-      TablerIcons.alignBoxLeftTopFilled, TablerIconsSvg.alignBoxLeftTopFilled),
-  'alignBoxLeftTop': const TablerIcon(
-      TablerIcons.alignBoxLeftTop, TablerIconsSvg.alignBoxLeftTop),
-  'alignBoxRightBottomFilled': const TablerIcon(
-      TablerIcons.alignBoxRightBottomFilled,
-      TablerIconsSvg.alignBoxRightBottomFilled),
-  'alignBoxRightBottom': const TablerIcon(
-      TablerIcons.alignBoxRightBottom, TablerIconsSvg.alignBoxRightBottom),
-  'alignBoxRightMiddleFilled': const TablerIcon(
-      TablerIcons.alignBoxRightMiddleFilled,
-      TablerIconsSvg.alignBoxRightMiddleFilled),
-  'alignBoxRightMiddle': const TablerIcon(
-      TablerIcons.alignBoxRightMiddle, TablerIconsSvg.alignBoxRightMiddle),
-  'alignBoxRightStretch': const TablerIcon(
-      TablerIcons.alignBoxRightStretch, TablerIconsSvg.alignBoxRightStretch),
-  'alignBoxRightTopFilled': const TablerIcon(TablerIcons.alignBoxRightTopFilled,
-      TablerIconsSvg.alignBoxRightTopFilled),
-  'alignBoxRightTop': const TablerIcon(
-      TablerIcons.alignBoxRightTop, TablerIconsSvg.alignBoxRightTop),
-  'alignBoxTopCenterFilled': const TablerIcon(
-      TablerIcons.alignBoxTopCenterFilled,
-      TablerIconsSvg.alignBoxTopCenterFilled),
-  'alignBoxTopCenter': const TablerIcon(
-      TablerIcons.alignBoxTopCenter, TablerIconsSvg.alignBoxTopCenter),
-  'alignBoxTopLeftFilled': const TablerIcon(
-      TablerIcons.alignBoxTopLeftFilled, TablerIconsSvg.alignBoxTopLeftFilled),
-  'alignBoxTopLeft': const TablerIcon(
-      TablerIcons.alignBoxTopLeft, TablerIconsSvg.alignBoxTopLeft),
-  'alignBoxTopRightFilled': const TablerIcon(TablerIcons.alignBoxTopRightFilled,
-      TablerIconsSvg.alignBoxTopRightFilled),
-  'alignBoxTopRight': const TablerIcon(
-      TablerIcons.alignBoxTopRight, TablerIconsSvg.alignBoxTopRight),
-  'alignCenter':
-      const TablerIcon(TablerIcons.alignCenter, TablerIconsSvg.alignCenter),
-  'alignJustified': const TablerIcon(
-      TablerIcons.alignJustified, TablerIconsSvg.alignJustified),
-  'alignLeft':
-      const TablerIcon(TablerIcons.alignLeft, TablerIconsSvg.alignLeft),
-  'alignRight':
-      const TablerIcon(TablerIcons.alignRight, TablerIconsSvg.alignRight),
-  'alpha': const TablerIcon(TablerIcons.alpha, TablerIconsSvg.alpha),
-  'alphabetCyrillic': const TablerIcon(
-      TablerIcons.alphabetCyrillic, TablerIconsSvg.alphabetCyrillic),
-  'alphabetGreek':
-      const TablerIcon(TablerIcons.alphabetGreek, TablerIconsSvg.alphabetGreek),
-  'alphabetLatin':
-      const TablerIcon(TablerIcons.alphabetLatin, TablerIconsSvg.alphabetLatin),
-  'alt': const TablerIcon(TablerIcons.alt, TablerIconsSvg.alt),
-  'ambulance':
-      const TablerIcon(TablerIcons.ambulance, TablerIconsSvg.ambulance),
-  'ampersand':
-      const TablerIcon(TablerIcons.ampersand, TablerIconsSvg.ampersand),
-  'analyzeFilled':
-      const TablerIcon(TablerIcons.analyzeFilled, TablerIconsSvg.analyzeFilled),
-  'analyzeOff':
-      const TablerIcon(TablerIcons.analyzeOff, TablerIconsSvg.analyzeOff),
-  'analyze': const TablerIcon(TablerIcons.analyze, TablerIconsSvg.analyze),
-  'anchorOff':
-      const TablerIcon(TablerIcons.anchorOff, TablerIconsSvg.anchorOff),
-  'anchor': const TablerIcon(TablerIcons.anchor, TablerIconsSvg.anchor),
-  'angle': const TablerIcon(TablerIcons.angle, TablerIconsSvg.angle),
-  'ankh': const TablerIcon(TablerIcons.ankh, TablerIconsSvg.ankh),
-  'antennaBars1':
-      const TablerIcon(TablerIcons.antennaBars1, TablerIconsSvg.antennaBars1),
-  'antennaBars2':
-      const TablerIcon(TablerIcons.antennaBars2, TablerIconsSvg.antennaBars2),
-  'antennaBars3':
-      const TablerIcon(TablerIcons.antennaBars3, TablerIconsSvg.antennaBars3),
-  'antennaBars4':
-      const TablerIcon(TablerIcons.antennaBars4, TablerIconsSvg.antennaBars4),
-  'antennaBars5':
-      const TablerIcon(TablerIcons.antennaBars5, TablerIconsSvg.antennaBars5),
-  'antennaBarsOff': const TablerIcon(
-      TablerIcons.antennaBarsOff, TablerIconsSvg.antennaBarsOff),
-  'antennaOff':
-      const TablerIcon(TablerIcons.antennaOff, TablerIconsSvg.antennaOff),
-  'antenna': const TablerIcon(TablerIcons.antenna, TablerIconsSvg.antenna),
-  'apertureOff':
-      const TablerIcon(TablerIcons.apertureOff, TablerIconsSvg.apertureOff),
-  'aperture': const TablerIcon(TablerIcons.aperture, TablerIconsSvg.aperture),
-  'apiAppOff':
-      const TablerIcon(TablerIcons.apiAppOff, TablerIconsSvg.apiAppOff),
-  'apiApp': const TablerIcon(TablerIcons.apiApp, TablerIconsSvg.apiApp),
-  'apiOff': const TablerIcon(TablerIcons.apiOff, TablerIconsSvg.apiOff),
-  'api': const TablerIcon(TablerIcons.api, TablerIconsSvg.api),
-  'appWindowFilled': const TablerIcon(
-      TablerIcons.appWindowFilled, TablerIconsSvg.appWindowFilled),
-  'appWindow':
-      const TablerIcon(TablerIcons.appWindow, TablerIconsSvg.appWindow),
-  'apple': const TablerIcon(TablerIcons.apple, TablerIconsSvg.apple),
-  'appsFilled':
-      const TablerIcon(TablerIcons.appsFilled, TablerIconsSvg.appsFilled),
-  'appsOff': const TablerIcon(TablerIcons.appsOff, TablerIconsSvg.appsOff),
-  'apps': const TablerIcon(TablerIcons.apps, TablerIconsSvg.apps),
-  'archeryArrow':
-      const TablerIcon(TablerIcons.archeryArrow, TablerIconsSvg.archeryArrow),
-  'archiveFilled':
-      const TablerIcon(TablerIcons.archiveFilled, TablerIconsSvg.archiveFilled),
-  'archiveOff':
-      const TablerIcon(TablerIcons.archiveOff, TablerIconsSvg.archiveOff),
-  'archive': const TablerIcon(TablerIcons.archive, TablerIconsSvg.archive),
-  'armchair2Off':
-      const TablerIcon(TablerIcons.armchair2Off, TablerIconsSvg.armchair2Off),
-  'armchair2':
-      const TablerIcon(TablerIcons.armchair2, TablerIconsSvg.armchair2),
-  'armchairOff':
-      const TablerIcon(TablerIcons.armchairOff, TablerIconsSvg.armchairOff),
-  'armchair': const TablerIcon(TablerIcons.armchair, TablerIconsSvg.armchair),
-  'arrowAutofitContentFilled': const TablerIcon(
-      TablerIcons.arrowAutofitContentFilled,
-      TablerIconsSvg.arrowAutofitContentFilled),
-  'arrowAutofitContent': const TablerIcon(
-      TablerIcons.arrowAutofitContent, TablerIconsSvg.arrowAutofitContent),
-  'arrowAutofitDown': const TablerIcon(
-      TablerIcons.arrowAutofitDown, TablerIconsSvg.arrowAutofitDown),
-  'arrowAutofitHeight': const TablerIcon(
-      TablerIcons.arrowAutofitHeight, TablerIconsSvg.arrowAutofitHeight),
-  'arrowAutofitLeft': const TablerIcon(
-      TablerIcons.arrowAutofitLeft, TablerIconsSvg.arrowAutofitLeft),
-  'arrowAutofitRight': const TablerIcon(
-      TablerIcons.arrowAutofitRight, TablerIconsSvg.arrowAutofitRight),
-  'arrowAutofitUp': const TablerIcon(
-      TablerIcons.arrowAutofitUp, TablerIconsSvg.arrowAutofitUp),
-  'arrowAutofitWidth': const TablerIcon(
-      TablerIcons.arrowAutofitWidth, TablerIconsSvg.arrowAutofitWidth),
-  'arrowBackUpDouble': const TablerIcon(
-      TablerIcons.arrowBackUpDouble, TablerIconsSvg.arrowBackUpDouble),
-  'arrowBackUp':
-      const TablerIcon(TablerIcons.arrowBackUp, TablerIconsSvg.arrowBackUp),
-  'arrowBack':
-      const TablerIcon(TablerIcons.arrowBack, TablerIconsSvg.arrowBack),
-  'arrowBadgeDownFilled': const TablerIcon(
-      TablerIcons.arrowBadgeDownFilled, TablerIconsSvg.arrowBadgeDownFilled),
-  'arrowBadgeDown': const TablerIcon(
-      TablerIcons.arrowBadgeDown, TablerIconsSvg.arrowBadgeDown),
-  'arrowBadgeLeftFilled': const TablerIcon(
-      TablerIcons.arrowBadgeLeftFilled, TablerIconsSvg.arrowBadgeLeftFilled),
-  'arrowBadgeLeft': const TablerIcon(
-      TablerIcons.arrowBadgeLeft, TablerIconsSvg.arrowBadgeLeft),
-  'arrowBadgeRightFilled': const TablerIcon(
-      TablerIcons.arrowBadgeRightFilled, TablerIconsSvg.arrowBadgeRightFilled),
-  'arrowBadgeRight': const TablerIcon(
-      TablerIcons.arrowBadgeRight, TablerIconsSvg.arrowBadgeRight),
-  'arrowBadgeUpFilled': const TablerIcon(
-      TablerIcons.arrowBadgeUpFilled, TablerIconsSvg.arrowBadgeUpFilled),
-  'arrowBadgeUp':
-      const TablerIcon(TablerIcons.arrowBadgeUp, TablerIconsSvg.arrowBadgeUp),
-  'arrowBarBoth':
-      const TablerIcon(TablerIcons.arrowBarBoth, TablerIconsSvg.arrowBarBoth),
-  'arrowBarDown':
-      const TablerIcon(TablerIcons.arrowBarDown, TablerIconsSvg.arrowBarDown),
-  'arrowBarLeft':
-      const TablerIcon(TablerIcons.arrowBarLeft, TablerIconsSvg.arrowBarLeft),
-  'arrowBarRight':
-      const TablerIcon(TablerIcons.arrowBarRight, TablerIconsSvg.arrowBarRight),
-  'arrowBarToDown': const TablerIcon(
-      TablerIcons.arrowBarToDown, TablerIconsSvg.arrowBarToDown),
-  'arrowBarToLeft': const TablerIcon(
-      TablerIcons.arrowBarToLeft, TablerIconsSvg.arrowBarToLeft),
-  'arrowBarToRight': const TablerIcon(
-      TablerIcons.arrowBarToRight, TablerIconsSvg.arrowBarToRight),
-  'arrowBarToUp':
-      const TablerIcon(TablerIcons.arrowBarToUp, TablerIconsSvg.arrowBarToUp),
-  'arrowBarUp':
-      const TablerIcon(TablerIcons.arrowBarUp, TablerIconsSvg.arrowBarUp),
-  'arrowBearLeft2': const TablerIcon(
-      TablerIcons.arrowBearLeft2, TablerIconsSvg.arrowBearLeft2),
-  'arrowBearLeft':
-      const TablerIcon(TablerIcons.arrowBearLeft, TablerIconsSvg.arrowBearLeft),
-  'arrowBearRight2': const TablerIcon(
-      TablerIcons.arrowBearRight2, TablerIconsSvg.arrowBearRight2),
-  'arrowBearRight': const TablerIcon(
-      TablerIcons.arrowBearRight, TablerIconsSvg.arrowBearRight),
-  'arrowBigDownFilled': const TablerIcon(
-      TablerIcons.arrowBigDownFilled, TablerIconsSvg.arrowBigDownFilled),
-  'arrowBigDownLineFilled': const TablerIcon(TablerIcons.arrowBigDownLineFilled,
-      TablerIconsSvg.arrowBigDownLineFilled),
-  'arrowBigDownLine': const TablerIcon(
-      TablerIcons.arrowBigDownLine, TablerIconsSvg.arrowBigDownLine),
-  'arrowBigDownLinesFilled': const TablerIcon(
-      TablerIcons.arrowBigDownLinesFilled,
-      TablerIconsSvg.arrowBigDownLinesFilled),
-  'arrowBigDownLines': const TablerIcon(
-      TablerIcons.arrowBigDownLines, TablerIconsSvg.arrowBigDownLines),
-  'arrowBigDown':
-      const TablerIcon(TablerIcons.arrowBigDown, TablerIconsSvg.arrowBigDown),
-  'arrowBigLeftFilled': const TablerIcon(
-      TablerIcons.arrowBigLeftFilled, TablerIconsSvg.arrowBigLeftFilled),
-  'arrowBigLeftLineFilled': const TablerIcon(TablerIcons.arrowBigLeftLineFilled,
-      TablerIconsSvg.arrowBigLeftLineFilled),
-  'arrowBigLeftLine': const TablerIcon(
-      TablerIcons.arrowBigLeftLine, TablerIconsSvg.arrowBigLeftLine),
-  'arrowBigLeftLinesFilled': const TablerIcon(
-      TablerIcons.arrowBigLeftLinesFilled,
-      TablerIconsSvg.arrowBigLeftLinesFilled),
-  'arrowBigLeftLines': const TablerIcon(
-      TablerIcons.arrowBigLeftLines, TablerIconsSvg.arrowBigLeftLines),
-  'arrowBigLeft':
-      const TablerIcon(TablerIcons.arrowBigLeft, TablerIconsSvg.arrowBigLeft),
-  'arrowBigRightFilled': const TablerIcon(
-      TablerIcons.arrowBigRightFilled, TablerIconsSvg.arrowBigRightFilled),
-  'arrowBigRightLineFilled': const TablerIcon(
-      TablerIcons.arrowBigRightLineFilled,
-      TablerIconsSvg.arrowBigRightLineFilled),
-  'arrowBigRightLine': const TablerIcon(
-      TablerIcons.arrowBigRightLine, TablerIconsSvg.arrowBigRightLine),
-  'arrowBigRightLinesFilled': const TablerIcon(
-      TablerIcons.arrowBigRightLinesFilled,
-      TablerIconsSvg.arrowBigRightLinesFilled),
-  'arrowBigRightLines': const TablerIcon(
-      TablerIcons.arrowBigRightLines, TablerIconsSvg.arrowBigRightLines),
-  'arrowBigRight':
-      const TablerIcon(TablerIcons.arrowBigRight, TablerIconsSvg.arrowBigRight),
-  'arrowBigUpFilled': const TablerIcon(
-      TablerIcons.arrowBigUpFilled, TablerIconsSvg.arrowBigUpFilled),
-  'arrowBigUpLineFilled': const TablerIcon(
-      TablerIcons.arrowBigUpLineFilled, TablerIconsSvg.arrowBigUpLineFilled),
-  'arrowBigUpLine': const TablerIcon(
-      TablerIcons.arrowBigUpLine, TablerIconsSvg.arrowBigUpLine),
-  'arrowBigUpLinesFilled': const TablerIcon(
-      TablerIcons.arrowBigUpLinesFilled, TablerIconsSvg.arrowBigUpLinesFilled),
-  'arrowBigUpLines': const TablerIcon(
-      TablerIcons.arrowBigUpLines, TablerIconsSvg.arrowBigUpLines),
-  'arrowBigUp':
-      const TablerIcon(TablerIcons.arrowBigUp, TablerIconsSvg.arrowBigUp),
-  'arrowBounce':
-      const TablerIcon(TablerIcons.arrowBounce, TablerIconsSvg.arrowBounce),
-  'arrowCapsule':
-      const TablerIcon(TablerIcons.arrowCapsule, TablerIconsSvg.arrowCapsule),
-  'arrowCurveLeft': const TablerIcon(
-      TablerIcons.arrowCurveLeft, TablerIconsSvg.arrowCurveLeft),
-  'arrowCurveRight': const TablerIcon(
-      TablerIcons.arrowCurveRight, TablerIconsSvg.arrowCurveRight),
-  'arrowDownBar':
-      const TablerIcon(TablerIcons.arrowDownBar, TablerIconsSvg.arrowDownBar),
-  'arrowDownCircle': const TablerIcon(
-      TablerIcons.arrowDownCircle, TablerIconsSvg.arrowDownCircle),
-  'arrowDownLeftCircle': const TablerIcon(
-      TablerIcons.arrowDownLeftCircle, TablerIconsSvg.arrowDownLeftCircle),
-  'arrowDownLeft':
-      const TablerIcon(TablerIcons.arrowDownLeft, TablerIconsSvg.arrowDownLeft),
-  'arrowDownRhombus': const TablerIcon(
-      TablerIcons.arrowDownRhombus, TablerIconsSvg.arrowDownRhombus),
-  'arrowDownRightCircle': const TablerIcon(
-      TablerIcons.arrowDownRightCircle, TablerIconsSvg.arrowDownRightCircle),
-  'arrowDownRight': const TablerIcon(
-      TablerIcons.arrowDownRight, TablerIconsSvg.arrowDownRight),
-  'arrowDownSquare': const TablerIcon(
-      TablerIcons.arrowDownSquare, TablerIconsSvg.arrowDownSquare),
-  'arrowDownTail':
-      const TablerIcon(TablerIcons.arrowDownTail, TablerIconsSvg.arrowDownTail),
-  'arrowDown':
-      const TablerIcon(TablerIcons.arrowDown, TablerIconsSvg.arrowDown),
-  'arrowElbowLeft': const TablerIcon(
-      TablerIcons.arrowElbowLeft, TablerIconsSvg.arrowElbowLeft),
-  'arrowElbowRight': const TablerIcon(
-      TablerIcons.arrowElbowRight, TablerIconsSvg.arrowElbowRight),
-  'arrowFork':
-      const TablerIcon(TablerIcons.arrowFork, TablerIconsSvg.arrowFork),
-  'arrowForwardUpDouble': const TablerIcon(
-      TablerIcons.arrowForwardUpDouble, TablerIconsSvg.arrowForwardUpDouble),
-  'arrowForwardUp': const TablerIcon(
-      TablerIcons.arrowForwardUp, TablerIconsSvg.arrowForwardUp),
-  'arrowForward':
-      const TablerIcon(TablerIcons.arrowForward, TablerIconsSvg.arrowForward),
-  'arrowGuide':
-      const TablerIcon(TablerIcons.arrowGuide, TablerIconsSvg.arrowGuide),
-  'arrowIteration': const TablerIcon(
-      TablerIcons.arrowIteration, TablerIconsSvg.arrowIteration),
-  'arrowLeftBar':
-      const TablerIcon(TablerIcons.arrowLeftBar, TablerIconsSvg.arrowLeftBar),
-  'arrowLeftCircle': const TablerIcon(
-      TablerIcons.arrowLeftCircle, TablerIconsSvg.arrowLeftCircle),
-  'arrowLeftRhombus': const TablerIcon(
-      TablerIcons.arrowLeftRhombus, TablerIconsSvg.arrowLeftRhombus),
-  'arrowLeftRight': const TablerIcon(
-      TablerIcons.arrowLeftRight, TablerIconsSvg.arrowLeftRight),
-  'arrowLeftSquare': const TablerIcon(
-      TablerIcons.arrowLeftSquare, TablerIconsSvg.arrowLeftSquare),
-  'arrowLeftTail':
-      const TablerIcon(TablerIcons.arrowLeftTail, TablerIconsSvg.arrowLeftTail),
-  'arrowLeft':
-      const TablerIcon(TablerIcons.arrowLeft, TablerIconsSvg.arrowLeft),
-  'arrowLoopLeft2': const TablerIcon(
-      TablerIcons.arrowLoopLeft2, TablerIconsSvg.arrowLoopLeft2),
-  'arrowLoopLeft':
-      const TablerIcon(TablerIcons.arrowLoopLeft, TablerIconsSvg.arrowLoopLeft),
-  'arrowLoopRight2': const TablerIcon(
-      TablerIcons.arrowLoopRight2, TablerIconsSvg.arrowLoopRight2),
-  'arrowLoopRight': const TablerIcon(
-      TablerIcons.arrowLoopRight, TablerIconsSvg.arrowLoopRight),
-  'arrowMergeAltLeft': const TablerIcon(
-      TablerIcons.arrowMergeAltLeft, TablerIconsSvg.arrowMergeAltLeft),
-  'arrowMergeAltRight': const TablerIcon(
-      TablerIcons.arrowMergeAltRight, TablerIconsSvg.arrowMergeAltRight),
-  'arrowMergeBoth': const TablerIcon(
-      TablerIcons.arrowMergeBoth, TablerIconsSvg.arrowMergeBoth),
-  'arrowMergeLeft': const TablerIcon(
-      TablerIcons.arrowMergeLeft, TablerIconsSvg.arrowMergeLeft),
-  'arrowMergeRight': const TablerIcon(
-      TablerIcons.arrowMergeRight, TablerIconsSvg.arrowMergeRight),
-  'arrowMerge':
-      const TablerIcon(TablerIcons.arrowMerge, TablerIconsSvg.arrowMerge),
-  'arrowMoveDown':
-      const TablerIcon(TablerIcons.arrowMoveDown, TablerIconsSvg.arrowMoveDown),
-  'arrowMoveLeft':
-      const TablerIcon(TablerIcons.arrowMoveLeft, TablerIconsSvg.arrowMoveLeft),
-  'arrowMoveRight': const TablerIcon(
-      TablerIcons.arrowMoveRight, TablerIconsSvg.arrowMoveRight),
-  'arrowMoveUp':
-      const TablerIcon(TablerIcons.arrowMoveUp, TablerIconsSvg.arrowMoveUp),
-  'arrowNarrowDown': const TablerIcon(
-      TablerIcons.arrowNarrowDown, TablerIconsSvg.arrowNarrowDown),
-  'arrowNarrowLeft': const TablerIcon(
-      TablerIcons.arrowNarrowLeft, TablerIconsSvg.arrowNarrowLeft),
-  'arrowNarrowRight': const TablerIcon(
-      TablerIcons.arrowNarrowRight, TablerIconsSvg.arrowNarrowRight),
-  'arrowNarrowUp':
-      const TablerIcon(TablerIcons.arrowNarrowUp, TablerIconsSvg.arrowNarrowUp),
-  'arrowRampLeft2': const TablerIcon(
-      TablerIcons.arrowRampLeft2, TablerIconsSvg.arrowRampLeft2),
-  'arrowRampLeft3': const TablerIcon(
-      TablerIcons.arrowRampLeft3, TablerIconsSvg.arrowRampLeft3),
-  'arrowRampLeft':
-      const TablerIcon(TablerIcons.arrowRampLeft, TablerIconsSvg.arrowRampLeft),
-  'arrowRampRight2': const TablerIcon(
-      TablerIcons.arrowRampRight2, TablerIconsSvg.arrowRampRight2),
-  'arrowRampRight3': const TablerIcon(
-      TablerIcons.arrowRampRight3, TablerIconsSvg.arrowRampRight3),
-  'arrowRampRight': const TablerIcon(
-      TablerIcons.arrowRampRight, TablerIconsSvg.arrowRampRight),
-  'arrowRightBar':
-      const TablerIcon(TablerIcons.arrowRightBar, TablerIconsSvg.arrowRightBar),
-  'arrowRightCircle': const TablerIcon(
-      TablerIcons.arrowRightCircle, TablerIconsSvg.arrowRightCircle),
-  'arrowRightRhombus': const TablerIcon(
-      TablerIcons.arrowRightRhombus, TablerIconsSvg.arrowRightRhombus),
-  'arrowRightSquare': const TablerIcon(
-      TablerIcons.arrowRightSquare, TablerIconsSvg.arrowRightSquare),
-  'arrowRightTail': const TablerIcon(
-      TablerIcons.arrowRightTail, TablerIconsSvg.arrowRightTail),
-  'arrowRight':
-      const TablerIcon(TablerIcons.arrowRight, TablerIconsSvg.arrowRight),
-  'arrowRotaryFirstLeft': const TablerIcon(
-      TablerIcons.arrowRotaryFirstLeft, TablerIconsSvg.arrowRotaryFirstLeft),
-  'arrowRotaryFirstRight': const TablerIcon(
-      TablerIcons.arrowRotaryFirstRight, TablerIconsSvg.arrowRotaryFirstRight),
-  'arrowRotaryLastLeft': const TablerIcon(
-      TablerIcons.arrowRotaryLastLeft, TablerIconsSvg.arrowRotaryLastLeft),
-  'arrowRotaryLastRight': const TablerIcon(
-      TablerIcons.arrowRotaryLastRight, TablerIconsSvg.arrowRotaryLastRight),
-  'arrowRotaryLeft': const TablerIcon(
-      TablerIcons.arrowRotaryLeft, TablerIconsSvg.arrowRotaryLeft),
-  'arrowRotaryRight': const TablerIcon(
-      TablerIcons.arrowRotaryRight, TablerIconsSvg.arrowRotaryRight),
-  'arrowRotaryStraight': const TablerIcon(
-      TablerIcons.arrowRotaryStraight, TablerIconsSvg.arrowRotaryStraight),
-  'arrowRoundaboutLeft': const TablerIcon(
-      TablerIcons.arrowRoundaboutLeft, TablerIconsSvg.arrowRoundaboutLeft),
-  'arrowRoundaboutRight': const TablerIcon(
-      TablerIcons.arrowRoundaboutRight, TablerIconsSvg.arrowRoundaboutRight),
-  'arrowSharpTurnLeft': const TablerIcon(
-      TablerIcons.arrowSharpTurnLeft, TablerIconsSvg.arrowSharpTurnLeft),
-  'arrowSharpTurnRight': const TablerIcon(
-      TablerIcons.arrowSharpTurnRight, TablerIconsSvg.arrowSharpTurnRight),
-  'arrowUpBar':
-      const TablerIcon(TablerIcons.arrowUpBar, TablerIconsSvg.arrowUpBar),
-  'arrowUpCircle':
-      const TablerIcon(TablerIcons.arrowUpCircle, TablerIconsSvg.arrowUpCircle),
-  'arrowUpLeftCircle': const TablerIcon(
-      TablerIcons.arrowUpLeftCircle, TablerIconsSvg.arrowUpLeftCircle),
-  'arrowUpLeft':
-      const TablerIcon(TablerIcons.arrowUpLeft, TablerIconsSvg.arrowUpLeft),
-  'arrowUpRhombus': const TablerIcon(
-      TablerIcons.arrowUpRhombus, TablerIconsSvg.arrowUpRhombus),
-  'arrowUpRightCircle': const TablerIcon(
-      TablerIcons.arrowUpRightCircle, TablerIconsSvg.arrowUpRightCircle),
-  'arrowUpRight':
-      const TablerIcon(TablerIcons.arrowUpRight, TablerIconsSvg.arrowUpRight),
-  'arrowUpSquare':
-      const TablerIcon(TablerIcons.arrowUpSquare, TablerIconsSvg.arrowUpSquare),
-  'arrowUpTail':
-      const TablerIcon(TablerIcons.arrowUpTail, TablerIconsSvg.arrowUpTail),
-  'arrowUp': const TablerIcon(TablerIcons.arrowUp, TablerIconsSvg.arrowUp),
-  'arrowWaveLeftDown': const TablerIcon(
-      TablerIcons.arrowWaveLeftDown, TablerIconsSvg.arrowWaveLeftDown),
-  'arrowWaveLeftUp': const TablerIcon(
-      TablerIcons.arrowWaveLeftUp, TablerIconsSvg.arrowWaveLeftUp),
-  'arrowWaveRightDown': const TablerIcon(
-      TablerIcons.arrowWaveRightDown, TablerIconsSvg.arrowWaveRightDown),
-  'arrowWaveRightUp': const TablerIcon(
-      TablerIcons.arrowWaveRightUp, TablerIconsSvg.arrowWaveRightUp),
-  'arrowZigZag':
-      const TablerIcon(TablerIcons.arrowZigZag, TablerIconsSvg.arrowZigZag),
-  'arrowsCross':
-      const TablerIcon(TablerIcons.arrowsCross, TablerIconsSvg.arrowsCross),
-  'arrowsDiagonal2': const TablerIcon(
-      TablerIcons.arrowsDiagonal2, TablerIconsSvg.arrowsDiagonal2),
-  'arrowsDiagonalMinimize2': const TablerIcon(
-      TablerIcons.arrowsDiagonalMinimize2,
-      TablerIconsSvg.arrowsDiagonalMinimize2),
-  'arrowsDiagonalMinimize': const TablerIcon(TablerIcons.arrowsDiagonalMinimize,
-      TablerIconsSvg.arrowsDiagonalMinimize),
-  'arrowsDiagonal': const TablerIcon(
-      TablerIcons.arrowsDiagonal, TablerIconsSvg.arrowsDiagonal),
-  'arrowsDiff':
-      const TablerIcon(TablerIcons.arrowsDiff, TablerIconsSvg.arrowsDiff),
-  'arrowsDoubleNeSw': const TablerIcon(
-      TablerIcons.arrowsDoubleNeSw, TablerIconsSvg.arrowsDoubleNeSw),
-  'arrowsDoubleNwSe': const TablerIcon(
-      TablerIcons.arrowsDoubleNwSe, TablerIconsSvg.arrowsDoubleNwSe),
-  'arrowsDoubleSeNw': const TablerIcon(
-      TablerIcons.arrowsDoubleSeNw, TablerIconsSvg.arrowsDoubleSeNw),
-  'arrowsDoubleSwNe': const TablerIcon(
-      TablerIcons.arrowsDoubleSwNe, TablerIconsSvg.arrowsDoubleSwNe),
-  'arrowsDownUp':
-      const TablerIcon(TablerIcons.arrowsDownUp, TablerIconsSvg.arrowsDownUp),
-  'arrowsDown':
-      const TablerIcon(TablerIcons.arrowsDown, TablerIconsSvg.arrowsDown),
-  'arrowsExchange2': const TablerIcon(
-      TablerIcons.arrowsExchange2, TablerIconsSvg.arrowsExchange2),
-  'arrowsExchange': const TablerIcon(
-      TablerIcons.arrowsExchange, TablerIconsSvg.arrowsExchange),
-  'arrowsHorizontal': const TablerIcon(
-      TablerIcons.arrowsHorizontal, TablerIconsSvg.arrowsHorizontal),
-  'arrowsJoin2':
-      const TablerIcon(TablerIcons.arrowsJoin2, TablerIconsSvg.arrowsJoin2),
-  'arrowsJoin':
-      const TablerIcon(TablerIcons.arrowsJoin, TablerIconsSvg.arrowsJoin),
-  'arrowsLeftDown': const TablerIcon(
-      TablerIcons.arrowsLeftDown, TablerIconsSvg.arrowsLeftDown),
-  'arrowsLeftRight': const TablerIcon(
-      TablerIcons.arrowsLeftRight, TablerIconsSvg.arrowsLeftRight),
-  'arrowsLeft':
-      const TablerIcon(TablerIcons.arrowsLeft, TablerIconsSvg.arrowsLeft),
-  'arrowsMaximize': const TablerIcon(
-      TablerIcons.arrowsMaximize, TablerIconsSvg.arrowsMaximize),
-  'arrowsMinimize': const TablerIcon(
-      TablerIcons.arrowsMinimize, TablerIconsSvg.arrowsMinimize),
-  'arrowsMoveHorizontal': const TablerIcon(
-      TablerIcons.arrowsMoveHorizontal, TablerIconsSvg.arrowsMoveHorizontal),
-  'arrowsMoveVertical': const TablerIcon(
-      TablerIcons.arrowsMoveVertical, TablerIconsSvg.arrowsMoveVertical),
-  'arrowsMove':
-      const TablerIcon(TablerIcons.arrowsMove, TablerIconsSvg.arrowsMove),
-  'arrowsRandom':
-      const TablerIcon(TablerIcons.arrowsRandom, TablerIconsSvg.arrowsRandom),
-  'arrowsRightDown': const TablerIcon(
-      TablerIcons.arrowsRightDown, TablerIconsSvg.arrowsRightDown),
-  'arrowsRightLeft': const TablerIcon(
-      TablerIcons.arrowsRightLeft, TablerIconsSvg.arrowsRightLeft),
-  'arrowsRight':
-      const TablerIcon(TablerIcons.arrowsRight, TablerIconsSvg.arrowsRight),
-  'arrowsShuffle2': const TablerIcon(
-      TablerIcons.arrowsShuffle2, TablerIconsSvg.arrowsShuffle2),
-  'arrowsShuffle':
-      const TablerIcon(TablerIcons.arrowsShuffle, TablerIconsSvg.arrowsShuffle),
-  'arrowsSort':
-      const TablerIcon(TablerIcons.arrowsSort, TablerIconsSvg.arrowsSort),
-  'arrowsSplit2':
-      const TablerIcon(TablerIcons.arrowsSplit2, TablerIconsSvg.arrowsSplit2),
-  'arrowsSplit':
-      const TablerIcon(TablerIcons.arrowsSplit, TablerIconsSvg.arrowsSplit),
-  'arrowsTransferDown': const TablerIcon(
-      TablerIcons.arrowsTransferDown, TablerIconsSvg.arrowsTransferDown),
-  'arrowsTransferUp': const TablerIcon(
-      TablerIcons.arrowsTransferUp, TablerIconsSvg.arrowsTransferUp),
-  'arrowsUpDown':
-      const TablerIcon(TablerIcons.arrowsUpDown, TablerIconsSvg.arrowsUpDown),
-  'arrowsUpLeft':
-      const TablerIcon(TablerIcons.arrowsUpLeft, TablerIconsSvg.arrowsUpLeft),
-  'arrowsUpRight':
-      const TablerIcon(TablerIcons.arrowsUpRight, TablerIconsSvg.arrowsUpRight),
-  'arrowsUp': const TablerIcon(TablerIcons.arrowsUp, TablerIconsSvg.arrowsUp),
-  'arrowsVertical': const TablerIcon(
-      TablerIcons.arrowsVertical, TablerIconsSvg.arrowsVertical),
-  'artboardFilled': const TablerIcon(
-      TablerIcons.artboardFilled, TablerIconsSvg.artboardFilled),
-  'artboardOff':
-      const TablerIcon(TablerIcons.artboardOff, TablerIconsSvg.artboardOff),
-  'artboard': const TablerIcon(TablerIcons.artboard, TablerIconsSvg.artboard),
-  'articleFilledFilled': const TablerIcon(
-      TablerIcons.articleFilledFilled, TablerIconsSvg.articleFilledFilled),
-  'articleOff':
-      const TablerIcon(TablerIcons.articleOff, TablerIconsSvg.articleOff),
-  'article': const TablerIcon(TablerIcons.article, TablerIconsSvg.article),
-  'aspectRatioFilled': const TablerIcon(
-      TablerIcons.aspectRatioFilled, TablerIconsSvg.aspectRatioFilled),
-  'aspectRatioOff': const TablerIcon(
-      TablerIcons.aspectRatioOff, TablerIconsSvg.aspectRatioOff),
-  'aspectRatio':
-      const TablerIcon(TablerIcons.aspectRatio, TablerIconsSvg.aspectRatio),
-  'assemblyOff':
-      const TablerIcon(TablerIcons.assemblyOff, TablerIconsSvg.assemblyOff),
-  'assembly': const TablerIcon(TablerIcons.assembly, TablerIconsSvg.assembly),
-  'asset': const TablerIcon(TablerIcons.asset, TablerIconsSvg.asset),
-  'asteriskSimple': const TablerIcon(
-      TablerIcons.asteriskSimple, TablerIconsSvg.asteriskSimple),
-  'asterisk': const TablerIcon(TablerIcons.asterisk, TablerIconsSvg.asterisk),
-  'atOff': const TablerIcon(TablerIcons.atOff, TablerIconsSvg.atOff),
-  'at': const TablerIcon(TablerIcons.at, TablerIconsSvg.at),
-  'atom2Filled':
-      const TablerIcon(TablerIcons.atom2Filled, TablerIconsSvg.atom2Filled),
-  'atom2': const TablerIcon(TablerIcons.atom2, TablerIconsSvg.atom2),
-  'atomOff': const TablerIcon(TablerIcons.atomOff, TablerIconsSvg.atomOff),
-  'atom': const TablerIcon(TablerIcons.atom, TablerIconsSvg.atom),
-  'augmentedReality2': const TablerIcon(
-      TablerIcons.augmentedReality2, TablerIconsSvg.augmentedReality2),
-  'augmentedRealityOff': const TablerIcon(
-      TablerIcons.augmentedRealityOff, TablerIconsSvg.augmentedRealityOff),
-  'augmentedReality': const TablerIcon(
-      TablerIcons.augmentedReality, TablerIconsSvg.augmentedReality),
-  'automaticGearbox': const TablerIcon(
-      TablerIcons.automaticGearbox, TablerIconsSvg.automaticGearbox),
-  'awardFilled':
-      const TablerIcon(TablerIcons.awardFilled, TablerIconsSvg.awardFilled),
-  'awardOff': const TablerIcon(TablerIcons.awardOff, TablerIconsSvg.awardOff),
-  'award': const TablerIcon(TablerIcons.award, TablerIconsSvg.award),
-  'axe': const TablerIcon(TablerIcons.axe, TablerIconsSvg.axe),
-  'axisX': const TablerIcon(TablerIcons.axisX, TablerIconsSvg.axisX),
-  'axisY': const TablerIcon(TablerIcons.axisY, TablerIconsSvg.axisY),
-  'babyBottle':
-      const TablerIcon(TablerIcons.babyBottle, TablerIconsSvg.babyBottle),
-  'babyCarriage':
-      const TablerIcon(TablerIcons.babyCarriage, TablerIconsSvg.babyCarriage),
-  'backhoe': const TablerIcon(TablerIcons.backhoe, TablerIconsSvg.backhoe),
-  'backpackOff':
-      const TablerIcon(TablerIcons.backpackOff, TablerIconsSvg.backpackOff),
-  'backpack': const TablerIcon(TablerIcons.backpack, TablerIconsSvg.backpack),
-  'backslash':
-      const TablerIcon(TablerIcons.backslash, TablerIconsSvg.backslash),
-  'backspaceFilled': const TablerIcon(
-      TablerIcons.backspaceFilled, TablerIconsSvg.backspaceFilled),
-  'backspace':
-      const TablerIcon(TablerIcons.backspace, TablerIconsSvg.backspace),
-  'badge3d': const TablerIcon(TablerIcons.badge3d, TablerIconsSvg.badge3d),
-  'badge4k': const TablerIcon(TablerIcons.badge4k, TablerIconsSvg.badge4k),
-  'badge8k': const TablerIcon(TablerIcons.badge8k, TablerIconsSvg.badge8k),
-  'badgeAd': const TablerIcon(TablerIcons.badgeAd, TablerIconsSvg.badgeAd),
-  'badgeAr': const TablerIcon(TablerIcons.badgeAr, TablerIconsSvg.badgeAr),
-  'badgeCc': const TablerIcon(TablerIcons.badgeCc, TablerIconsSvg.badgeCc),
-  'badgeFilled':
-      const TablerIcon(TablerIcons.badgeFilled, TablerIconsSvg.badgeFilled),
-  'badgeHd': const TablerIcon(TablerIcons.badgeHd, TablerIconsSvg.badgeHd),
-  'badgeOff': const TablerIcon(TablerIcons.badgeOff, TablerIconsSvg.badgeOff),
-  'badgeSd': const TablerIcon(TablerIcons.badgeSd, TablerIconsSvg.badgeSd),
-  'badgeTm': const TablerIcon(TablerIcons.badgeTm, TablerIconsSvg.badgeTm),
-  'badgeVo': const TablerIcon(TablerIcons.badgeVo, TablerIconsSvg.badgeVo),
-  'badgeVr': const TablerIcon(TablerIcons.badgeVr, TablerIconsSvg.badgeVr),
-  'badgeWc': const TablerIcon(TablerIcons.badgeWc, TablerIconsSvg.badgeWc),
-  'badge': const TablerIcon(TablerIcons.badge, TablerIconsSvg.badge),
-  'badgesFilled':
-      const TablerIcon(TablerIcons.badgesFilled, TablerIconsSvg.badgesFilled),
-  'badgesOff':
-      const TablerIcon(TablerIcons.badgesOff, TablerIconsSvg.badgesOff),
-  'badges': const TablerIcon(TablerIcons.badges, TablerIconsSvg.badges),
-  'baguette': const TablerIcon(TablerIcons.baguette, TablerIconsSvg.baguette),
-  'ballAmericanFootballOff': const TablerIcon(
-      TablerIcons.ballAmericanFootballOff,
-      TablerIconsSvg.ballAmericanFootballOff),
-  'ballAmericanFootball': const TablerIcon(
-      TablerIcons.ballAmericanFootball, TablerIconsSvg.ballAmericanFootball),
-  'ballBaseball':
-      const TablerIcon(TablerIcons.ballBaseball, TablerIconsSvg.ballBaseball),
-  'ballBasketball': const TablerIcon(
-      TablerIcons.ballBasketball, TablerIconsSvg.ballBasketball),
-  'ballBowling':
-      const TablerIcon(TablerIcons.ballBowling, TablerIconsSvg.ballBowling),
-  'ballFootballOff': const TablerIcon(
-      TablerIcons.ballFootballOff, TablerIconsSvg.ballFootballOff),
-  'ballFootball':
-      const TablerIcon(TablerIcons.ballFootball, TablerIconsSvg.ballFootball),
-  'ballTennis':
-      const TablerIcon(TablerIcons.ballTennis, TablerIconsSvg.ballTennis),
-  'ballVolleyball': const TablerIcon(
-      TablerIcons.ballVolleyball, TablerIconsSvg.ballVolleyball),
-  'balloonFilled':
-      const TablerIcon(TablerIcons.balloonFilled, TablerIconsSvg.balloonFilled),
-  'balloonOff':
-      const TablerIcon(TablerIcons.balloonOff, TablerIconsSvg.balloonOff),
-  'balloon': const TablerIcon(TablerIcons.balloon, TablerIconsSvg.balloon),
-  'ballpenFilled':
-      const TablerIcon(TablerIcons.ballpenFilled, TablerIconsSvg.ballpenFilled),
-  'ballpenOff':
-      const TablerIcon(TablerIcons.ballpenOff, TablerIconsSvg.ballpenOff),
-  'ballpen': const TablerIcon(TablerIcons.ballpen, TablerIconsSvg.ballpen),
-  'ban': const TablerIcon(TablerIcons.ban, TablerIconsSvg.ban),
-  'bandageFilled':
-      const TablerIcon(TablerIcons.bandageFilled, TablerIconsSvg.bandageFilled),
-  'bandageOff':
-      const TablerIcon(TablerIcons.bandageOff, TablerIconsSvg.bandageOff),
-  'bandage': const TablerIcon(TablerIcons.bandage, TablerIconsSvg.bandage),
-  'barbellOff':
-      const TablerIcon(TablerIcons.barbellOff, TablerIconsSvg.barbellOff),
-  'barbell': const TablerIcon(TablerIcons.barbell, TablerIconsSvg.barbell),
-  'barcodeOff':
-      const TablerIcon(TablerIcons.barcodeOff, TablerIconsSvg.barcodeOff),
-  'barcode': const TablerIcon(TablerIcons.barcode, TablerIconsSvg.barcode),
-  'barrelOff':
-      const TablerIcon(TablerIcons.barrelOff, TablerIconsSvg.barrelOff),
-  'barrel': const TablerIcon(TablerIcons.barrel, TablerIconsSvg.barrel),
-  'barrierBlockOff': const TablerIcon(
-      TablerIcons.barrierBlockOff, TablerIconsSvg.barrierBlockOff),
-  'barrierBlock':
-      const TablerIcon(TablerIcons.barrierBlock, TablerIconsSvg.barrierBlock),
-  'baselineDensityLarge': const TablerIcon(
-      TablerIcons.baselineDensityLarge, TablerIconsSvg.baselineDensityLarge),
-  'baselineDensityMedium': const TablerIcon(
-      TablerIcons.baselineDensityMedium, TablerIconsSvg.baselineDensityMedium),
-  'baselineDensitySmall': const TablerIcon(
-      TablerIcons.baselineDensitySmall, TablerIconsSvg.baselineDensitySmall),
-  'baseline': const TablerIcon(TablerIcons.baseline, TablerIconsSvg.baseline),
-  'basketBolt':
-      const TablerIcon(TablerIcons.basketBolt, TablerIconsSvg.basketBolt),
-  'basketCancel':
-      const TablerIcon(TablerIcons.basketCancel, TablerIconsSvg.basketCancel),
-  'basketCheck':
-      const TablerIcon(TablerIcons.basketCheck, TablerIconsSvg.basketCheck),
-  'basketCode':
-      const TablerIcon(TablerIcons.basketCode, TablerIconsSvg.basketCode),
-  'basketCog':
-      const TablerIcon(TablerIcons.basketCog, TablerIconsSvg.basketCog),
-  'basketDiscount': const TablerIcon(
-      TablerIcons.basketDiscount, TablerIconsSvg.basketDiscount),
-  'basketDollar':
-      const TablerIcon(TablerIcons.basketDollar, TablerIconsSvg.basketDollar),
-  'basketDown':
-      const TablerIcon(TablerIcons.basketDown, TablerIconsSvg.basketDown),
-  'basketExclamation': const TablerIcon(
-      TablerIcons.basketExclamation, TablerIconsSvg.basketExclamation),
-  'basketFilled':
-      const TablerIcon(TablerIcons.basketFilled, TablerIconsSvg.basketFilled),
-  'basketHeart':
-      const TablerIcon(TablerIcons.basketHeart, TablerIconsSvg.basketHeart),
-  'basketMinus':
-      const TablerIcon(TablerIcons.basketMinus, TablerIconsSvg.basketMinus),
-  'basketOff':
-      const TablerIcon(TablerIcons.basketOff, TablerIconsSvg.basketOff),
-  'basketPause':
-      const TablerIcon(TablerIcons.basketPause, TablerIconsSvg.basketPause),
-  'basketPin':
-      const TablerIcon(TablerIcons.basketPin, TablerIconsSvg.basketPin),
-  'basketPlus':
-      const TablerIcon(TablerIcons.basketPlus, TablerIconsSvg.basketPlus),
-  'basketQuestion': const TablerIcon(
-      TablerIcons.basketQuestion, TablerIconsSvg.basketQuestion),
-  'basketSearch':
-      const TablerIcon(TablerIcons.basketSearch, TablerIconsSvg.basketSearch),
-  'basketShare':
-      const TablerIcon(TablerIcons.basketShare, TablerIconsSvg.basketShare),
-  'basketStar':
-      const TablerIcon(TablerIcons.basketStar, TablerIconsSvg.basketStar),
-  'basketUp': const TablerIcon(TablerIcons.basketUp, TablerIconsSvg.basketUp),
-  'basketX': const TablerIcon(TablerIcons.basketX, TablerIconsSvg.basketX),
-  'basket': const TablerIcon(TablerIcons.basket, TablerIconsSvg.basket),
-  'bat': const TablerIcon(TablerIcons.bat, TablerIconsSvg.bat),
-  'bathFilled':
-      const TablerIcon(TablerIcons.bathFilled, TablerIconsSvg.bathFilled),
-  'bathOff': const TablerIcon(TablerIcons.bathOff, TablerIconsSvg.bathOff),
-  'bath': const TablerIcon(TablerIcons.bath, TablerIconsSvg.bath),
-  'battery1Filled': const TablerIcon(
-      TablerIcons.battery1Filled, TablerIconsSvg.battery1Filled),
-  'battery1': const TablerIcon(TablerIcons.battery1, TablerIconsSvg.battery1),
-  'battery2Filled': const TablerIcon(
-      TablerIcons.battery2Filled, TablerIconsSvg.battery2Filled),
-  'battery2': const TablerIcon(TablerIcons.battery2, TablerIconsSvg.battery2),
-  'battery3Filled': const TablerIcon(
-      TablerIcons.battery3Filled, TablerIconsSvg.battery3Filled),
-  'battery3': const TablerIcon(TablerIcons.battery3, TablerIconsSvg.battery3),
-  'battery4Filled': const TablerIcon(
-      TablerIcons.battery4Filled, TablerIconsSvg.battery4Filled),
-  'battery4': const TablerIcon(TablerIcons.battery4, TablerIconsSvg.battery4),
-  'batteryAutomotive': const TablerIcon(
-      TablerIcons.batteryAutomotive, TablerIconsSvg.batteryAutomotive),
-  'batteryCharging2': const TablerIcon(
-      TablerIcons.batteryCharging2, TablerIconsSvg.batteryCharging2),
-  'batteryCharging': const TablerIcon(
-      TablerIcons.batteryCharging, TablerIconsSvg.batteryCharging),
-  'batteryEco':
-      const TablerIcon(TablerIcons.batteryEco, TablerIconsSvg.batteryEco),
-  'batteryFilled':
-      const TablerIcon(TablerIcons.batteryFilled, TablerIconsSvg.batteryFilled),
-  'batteryOff':
-      const TablerIcon(TablerIcons.batteryOff, TablerIconsSvg.batteryOff),
-  'battery': const TablerIcon(TablerIcons.battery, TablerIconsSvg.battery),
-  'beachOff': const TablerIcon(TablerIcons.beachOff, TablerIconsSvg.beachOff),
-  'beach': const TablerIcon(TablerIcons.beach, TablerIconsSvg.beach),
-  'bedFilled':
-      const TablerIcon(TablerIcons.bedFilled, TablerIconsSvg.bedFilled),
-  'bedFlat': const TablerIcon(TablerIcons.bedFlat, TablerIconsSvg.bedFlat),
-  'bedOff': const TablerIcon(TablerIcons.bedOff, TablerIconsSvg.bedOff),
-  'bed': const TablerIcon(TablerIcons.bed, TablerIconsSvg.bed),
-  'beerFilled':
-      const TablerIcon(TablerIcons.beerFilled, TablerIconsSvg.beerFilled),
-  'beerOff': const TablerIcon(TablerIcons.beerOff, TablerIconsSvg.beerOff),
-  'beer': const TablerIcon(TablerIcons.beer, TablerIconsSvg.beer),
-  'bellBolt': const TablerIcon(TablerIcons.bellBolt, TablerIconsSvg.bellBolt),
-  'bellCancel':
-      const TablerIcon(TablerIcons.bellCancel, TablerIconsSvg.bellCancel),
-  'bellCheck':
-      const TablerIcon(TablerIcons.bellCheck, TablerIconsSvg.bellCheck),
-  'bellCode': const TablerIcon(TablerIcons.bellCode, TablerIconsSvg.bellCode),
-  'bellCog': const TablerIcon(TablerIcons.bellCog, TablerIconsSvg.bellCog),
-  'bellDollar':
-      const TablerIcon(TablerIcons.bellDollar, TablerIconsSvg.bellDollar),
-  'bellDown': const TablerIcon(TablerIcons.bellDown, TablerIconsSvg.bellDown),
-  'bellExclamation': const TablerIcon(
-      TablerIcons.bellExclamation, TablerIconsSvg.bellExclamation),
-  'bellFilled':
-      const TablerIcon(TablerIcons.bellFilled, TablerIconsSvg.bellFilled),
-  'bellHeart':
-      const TablerIcon(TablerIcons.bellHeart, TablerIconsSvg.bellHeart),
-  'bellMinusFilled': const TablerIcon(
-      TablerIcons.bellMinusFilled, TablerIconsSvg.bellMinusFilled),
-  'bellMinus':
-      const TablerIcon(TablerIcons.bellMinus, TablerIconsSvg.bellMinus),
-  'bellOff': const TablerIcon(TablerIcons.bellOff, TablerIconsSvg.bellOff),
-  'bellPause':
-      const TablerIcon(TablerIcons.bellPause, TablerIconsSvg.bellPause),
-  'bellPin': const TablerIcon(TablerIcons.bellPin, TablerIconsSvg.bellPin),
-  'bellPlusFilled': const TablerIcon(
-      TablerIcons.bellPlusFilled, TablerIconsSvg.bellPlusFilled),
-  'bellPlus': const TablerIcon(TablerIcons.bellPlus, TablerIconsSvg.bellPlus),
-  'bellQuestion':
-      const TablerIcon(TablerIcons.bellQuestion, TablerIconsSvg.bellQuestion),
-  'bellRinging2Filled': const TablerIcon(
-      TablerIcons.bellRinging2Filled, TablerIconsSvg.bellRinging2Filled),
-  'bellRinging2':
-      const TablerIcon(TablerIcons.bellRinging2, TablerIconsSvg.bellRinging2),
-  'bellRingingFilled': const TablerIcon(
-      TablerIcons.bellRingingFilled, TablerIconsSvg.bellRingingFilled),
-  'bellRinging':
-      const TablerIcon(TablerIcons.bellRinging, TablerIconsSvg.bellRinging),
-  'bellSchool':
-      const TablerIcon(TablerIcons.bellSchool, TablerIconsSvg.bellSchool),
-  'bellSearch':
-      const TablerIcon(TablerIcons.bellSearch, TablerIconsSvg.bellSearch),
-  'bellShare':
-      const TablerIcon(TablerIcons.bellShare, TablerIconsSvg.bellShare),
-  'bellStar': const TablerIcon(TablerIcons.bellStar, TablerIconsSvg.bellStar),
-  'bellUp': const TablerIcon(TablerIcons.bellUp, TablerIconsSvg.bellUp),
-  'bellXFilled':
-      const TablerIcon(TablerIcons.bellXFilled, TablerIconsSvg.bellXFilled),
-  'bellX': const TablerIcon(TablerIcons.bellX, TablerIconsSvg.bellX),
-  'bellZFilled':
-      const TablerIcon(TablerIcons.bellZFilled, TablerIconsSvg.bellZFilled),
-  'bellZ': const TablerIcon(TablerIcons.bellZ, TablerIconsSvg.bellZ),
-  'bell': const TablerIcon(TablerIcons.bell, TablerIconsSvg.bell),
-  'beta': const TablerIcon(TablerIcons.beta, TablerIconsSvg.beta),
-  'bible': const TablerIcon(TablerIcons.bible, TablerIconsSvg.bible),
-  'bikeOff': const TablerIcon(TablerIcons.bikeOff, TablerIconsSvg.bikeOff),
-  'bike': const TablerIcon(TablerIcons.bike, TablerIconsSvg.bike),
-  'binaryOff':
-      const TablerIcon(TablerIcons.binaryOff, TablerIconsSvg.binaryOff),
-  'binaryTree2':
-      const TablerIcon(TablerIcons.binaryTree2, TablerIconsSvg.binaryTree2),
-  'binaryTree':
-      const TablerIcon(TablerIcons.binaryTree, TablerIconsSvg.binaryTree),
-  'binary': const TablerIcon(TablerIcons.binary, TablerIconsSvg.binary),
-  'biohazardOff':
-      const TablerIcon(TablerIcons.biohazardOff, TablerIconsSvg.biohazardOff),
-  'biohazard':
-      const TablerIcon(TablerIcons.biohazard, TablerIconsSvg.biohazard),
-  'bladeFilled':
-      const TablerIcon(TablerIcons.bladeFilled, TablerIconsSvg.bladeFilled),
-  'blade': const TablerIcon(TablerIcons.blade, TablerIconsSvg.blade),
-  'bleachChlorine': const TablerIcon(
-      TablerIcons.bleachChlorine, TablerIconsSvg.bleachChlorine),
-  'bleachNoChlorine': const TablerIcon(
-      TablerIcons.bleachNoChlorine, TablerIconsSvg.bleachNoChlorine),
-  'bleachOff':
-      const TablerIcon(TablerIcons.bleachOff, TablerIconsSvg.bleachOff),
-  'bleach': const TablerIcon(TablerIcons.bleach, TablerIconsSvg.bleach),
-  'blender': const TablerIcon(TablerIcons.blender, TablerIconsSvg.blender),
-  'blockquote':
-      const TablerIcon(TablerIcons.blockquote, TablerIconsSvg.blockquote),
-  'bluetoothConnected': const TablerIcon(
-      TablerIcons.bluetoothConnected, TablerIconsSvg.bluetoothConnected),
-  'bluetoothOff':
-      const TablerIcon(TablerIcons.bluetoothOff, TablerIconsSvg.bluetoothOff),
-  'bluetoothX':
-      const TablerIcon(TablerIcons.bluetoothX, TablerIconsSvg.bluetoothX),
-  'bluetooth':
-      const TablerIcon(TablerIcons.bluetooth, TablerIconsSvg.bluetooth),
-  'blurOff': const TablerIcon(TablerIcons.blurOff, TablerIconsSvg.blurOff),
-  'blur': const TablerIcon(TablerIcons.blur, TablerIconsSvg.blur),
-  'bmp': const TablerIcon(TablerIcons.bmp, TablerIconsSvg.bmp),
-  'bodyScan': const TablerIcon(TablerIcons.bodyScan, TablerIconsSvg.bodyScan),
-  'boldOff': const TablerIcon(TablerIcons.boldOff, TablerIconsSvg.boldOff),
-  'bold': const TablerIcon(TablerIcons.bold, TablerIconsSvg.bold),
-  'boltOff': const TablerIcon(TablerIcons.boltOff, TablerIconsSvg.boltOff),
-  'bolt': const TablerIcon(TablerIcons.bolt, TablerIconsSvg.bolt),
-  'bombFilled':
-      const TablerIcon(TablerIcons.bombFilled, TablerIconsSvg.bombFilled),
-  'bomb': const TablerIcon(TablerIcons.bomb, TablerIconsSvg.bomb),
-  'boneOff': const TablerIcon(TablerIcons.boneOff, TablerIconsSvg.boneOff),
-  'bone': const TablerIcon(TablerIcons.bone, TablerIconsSvg.bone),
-  'bongOff': const TablerIcon(TablerIcons.bongOff, TablerIconsSvg.bongOff),
-  'bong': const TablerIcon(TablerIcons.bong, TablerIconsSvg.bong),
-  'book2': const TablerIcon(TablerIcons.book2, TablerIconsSvg.book2),
-  'bookDownload':
-      const TablerIcon(TablerIcons.bookDownload, TablerIconsSvg.bookDownload),
-  'bookFilled':
-      const TablerIcon(TablerIcons.bookFilled, TablerIconsSvg.bookFilled),
-  'bookOff': const TablerIcon(TablerIcons.bookOff, TablerIconsSvg.bookOff),
-  'bookUpload':
-      const TablerIcon(TablerIcons.bookUpload, TablerIconsSvg.bookUpload),
-  'book': const TablerIcon(TablerIcons.book, TablerIconsSvg.book),
-  'bookmarkAi':
-      const TablerIcon(TablerIcons.bookmarkAi, TablerIconsSvg.bookmarkAi),
-  'bookmarkEdit':
-      const TablerIcon(TablerIcons.bookmarkEdit, TablerIconsSvg.bookmarkEdit),
-  'bookmarkFilled': const TablerIcon(
-      TablerIcons.bookmarkFilled, TablerIconsSvg.bookmarkFilled),
-  'bookmarkMinus':
-      const TablerIcon(TablerIcons.bookmarkMinus, TablerIconsSvg.bookmarkMinus),
-  'bookmarkOff':
-      const TablerIcon(TablerIcons.bookmarkOff, TablerIconsSvg.bookmarkOff),
-  'bookmarkPlus':
-      const TablerIcon(TablerIcons.bookmarkPlus, TablerIconsSvg.bookmarkPlus),
-  'bookmarkQuestion': const TablerIcon(
-      TablerIcons.bookmarkQuestion, TablerIconsSvg.bookmarkQuestion),
-  'bookmark': const TablerIcon(TablerIcons.bookmark, TablerIconsSvg.bookmark),
-  'bookmarksFilled': const TablerIcon(
-      TablerIcons.bookmarksFilled, TablerIconsSvg.bookmarksFilled),
-  'bookmarksOff':
-      const TablerIcon(TablerIcons.bookmarksOff, TablerIconsSvg.bookmarksOff),
-  'bookmarks':
-      const TablerIcon(TablerIcons.bookmarks, TablerIconsSvg.bookmarks),
-  'booksOff': const TablerIcon(TablerIcons.booksOff, TablerIconsSvg.booksOff),
-  'books': const TablerIcon(TablerIcons.books, TablerIconsSvg.books),
-  'borderAll':
-      const TablerIcon(TablerIcons.borderAll, TablerIconsSvg.borderAll),
-  'borderBottom':
-      const TablerIcon(TablerIcons.borderBottom, TablerIconsSvg.borderBottom),
-  'borderCorners':
-      const TablerIcon(TablerIcons.borderCorners, TablerIconsSvg.borderCorners),
-  'borderHorizontal': const TablerIcon(
-      TablerIcons.borderHorizontal, TablerIconsSvg.borderHorizontal),
-  'borderInner':
-      const TablerIcon(TablerIcons.borderInner, TablerIconsSvg.borderInner),
-  'borderLeft':
-      const TablerIcon(TablerIcons.borderLeft, TablerIconsSvg.borderLeft),
-  'borderNone':
-      const TablerIcon(TablerIcons.borderNone, TablerIconsSvg.borderNone),
-  'borderOuter':
-      const TablerIcon(TablerIcons.borderOuter, TablerIconsSvg.borderOuter),
-  'borderRadius':
-      const TablerIcon(TablerIcons.borderRadius, TablerIconsSvg.borderRadius),
-  'borderRight':
-      const TablerIcon(TablerIcons.borderRight, TablerIconsSvg.borderRight),
-  'borderSides':
-      const TablerIcon(TablerIcons.borderSides, TablerIconsSvg.borderSides),
-  'borderStyle2':
-      const TablerIcon(TablerIcons.borderStyle2, TablerIconsSvg.borderStyle2),
-  'borderStyle':
-      const TablerIcon(TablerIcons.borderStyle, TablerIconsSvg.borderStyle),
-  'borderTop':
-      const TablerIcon(TablerIcons.borderTop, TablerIconsSvg.borderTop),
-  'borderVertical': const TablerIcon(
-      TablerIcons.borderVertical, TablerIconsSvg.borderVertical),
-  'bottleFilled':
-      const TablerIcon(TablerIcons.bottleFilled, TablerIconsSvg.bottleFilled),
-  'bottleOff':
-      const TablerIcon(TablerIcons.bottleOff, TablerIconsSvg.bottleOff),
-  'bottle': const TablerIcon(TablerIcons.bottle, TablerIconsSvg.bottle),
-  'bounceLeftFilled': const TablerIcon(
-      TablerIcons.bounceLeftFilled, TablerIconsSvg.bounceLeftFilled),
-  'bounceLeft':
-      const TablerIcon(TablerIcons.bounceLeft, TablerIconsSvg.bounceLeft),
-  'bounceRightFilled': const TablerIcon(
-      TablerIcons.bounceRightFilled, TablerIconsSvg.bounceRightFilled),
-  'bounceRight':
-      const TablerIcon(TablerIcons.bounceRight, TablerIconsSvg.bounceRight),
-  'bow': const TablerIcon(TablerIcons.bow, TablerIconsSvg.bow),
-  'bowlFilled':
-      const TablerIcon(TablerIcons.bowlFilled, TablerIconsSvg.bowlFilled),
-  'bowl': const TablerIcon(TablerIcons.bowl, TablerIconsSvg.bowl),
-  'boxAlignBottomFilled': const TablerIcon(
-      TablerIcons.boxAlignBottomFilled, TablerIconsSvg.boxAlignBottomFilled),
-  'boxAlignBottomLeftFilled': const TablerIcon(
-      TablerIcons.boxAlignBottomLeftFilled,
-      TablerIconsSvg.boxAlignBottomLeftFilled),
-  'boxAlignBottomLeft': const TablerIcon(
-      TablerIcons.boxAlignBottomLeft, TablerIconsSvg.boxAlignBottomLeft),
-  'boxAlignBottomRightFilled': const TablerIcon(
-      TablerIcons.boxAlignBottomRightFilled,
-      TablerIconsSvg.boxAlignBottomRightFilled),
-  'boxAlignBottomRight': const TablerIcon(
-      TablerIcons.boxAlignBottomRight, TablerIconsSvg.boxAlignBottomRight),
-  'boxAlignBottom': const TablerIcon(
-      TablerIcons.boxAlignBottom, TablerIconsSvg.boxAlignBottom),
-  'boxAlignLeftFilled': const TablerIcon(
-      TablerIcons.boxAlignLeftFilled, TablerIconsSvg.boxAlignLeftFilled),
-  'boxAlignLeft':
-      const TablerIcon(TablerIcons.boxAlignLeft, TablerIconsSvg.boxAlignLeft),
-  'boxAlignRightFilled': const TablerIcon(
-      TablerIcons.boxAlignRightFilled, TablerIconsSvg.boxAlignRightFilled),
-  'boxAlignRight':
-      const TablerIcon(TablerIcons.boxAlignRight, TablerIconsSvg.boxAlignRight),
-  'boxAlignTopFilled': const TablerIcon(
-      TablerIcons.boxAlignTopFilled, TablerIconsSvg.boxAlignTopFilled),
-  'boxAlignTopLeftFilled': const TablerIcon(
-      TablerIcons.boxAlignTopLeftFilled, TablerIconsSvg.boxAlignTopLeftFilled),
-  'boxAlignTopLeft': const TablerIcon(
-      TablerIcons.boxAlignTopLeft, TablerIconsSvg.boxAlignTopLeft),
-  'boxAlignTopRightFilled': const TablerIcon(TablerIcons.boxAlignTopRightFilled,
-      TablerIconsSvg.boxAlignTopRightFilled),
-  'boxAlignTopRight': const TablerIcon(
-      TablerIcons.boxAlignTopRight, TablerIconsSvg.boxAlignTopRight),
-  'boxAlignTop':
-      const TablerIcon(TablerIcons.boxAlignTop, TablerIconsSvg.boxAlignTop),
-  'boxMargin':
-      const TablerIcon(TablerIcons.boxMargin, TablerIconsSvg.boxMargin),
-  'boxModel2Off':
-      const TablerIcon(TablerIcons.boxModel2Off, TablerIconsSvg.boxModel2Off),
-  'boxModel2':
-      const TablerIcon(TablerIcons.boxModel2, TablerIconsSvg.boxModel2),
-  'boxModelOff':
-      const TablerIcon(TablerIcons.boxModelOff, TablerIconsSvg.boxModelOff),
-  'boxModel': const TablerIcon(TablerIcons.boxModel, TablerIconsSvg.boxModel),
-  'boxMultiple0':
-      const TablerIcon(TablerIcons.boxMultiple0, TablerIconsSvg.boxMultiple0),
-  'boxMultiple1':
-      const TablerIcon(TablerIcons.boxMultiple1, TablerIconsSvg.boxMultiple1),
-  'boxMultiple2':
-      const TablerIcon(TablerIcons.boxMultiple2, TablerIconsSvg.boxMultiple2),
-  'boxMultiple3':
-      const TablerIcon(TablerIcons.boxMultiple3, TablerIconsSvg.boxMultiple3),
-  'boxMultiple4':
-      const TablerIcon(TablerIcons.boxMultiple4, TablerIconsSvg.boxMultiple4),
-  'boxMultiple5':
-      const TablerIcon(TablerIcons.boxMultiple5, TablerIconsSvg.boxMultiple5),
-  'boxMultiple6':
-      const TablerIcon(TablerIcons.boxMultiple6, TablerIconsSvg.boxMultiple6),
-  'boxMultiple7':
-      const TablerIcon(TablerIcons.boxMultiple7, TablerIconsSvg.boxMultiple7),
-  'boxMultiple8':
-      const TablerIcon(TablerIcons.boxMultiple8, TablerIconsSvg.boxMultiple8),
-  'boxMultiple9':
-      const TablerIcon(TablerIcons.boxMultiple9, TablerIconsSvg.boxMultiple9),
-  'boxMultiple':
-      const TablerIcon(TablerIcons.boxMultiple, TablerIconsSvg.boxMultiple),
-  'boxOff': const TablerIcon(TablerIcons.boxOff, TablerIconsSvg.boxOff),
-  'boxPadding':
-      const TablerIcon(TablerIcons.boxPadding, TablerIconsSvg.boxPadding),
-  'boxSeam': const TablerIcon(TablerIcons.boxSeam, TablerIconsSvg.boxSeam),
-  'box': const TablerIcon(TablerIcons.box, TablerIconsSvg.box),
-  'bracesOff':
-      const TablerIcon(TablerIcons.bracesOff, TablerIconsSvg.bracesOff),
-  'braces': const TablerIcon(TablerIcons.braces, TablerIconsSvg.braces),
-  'bracketsAngleOff': const TablerIcon(
-      TablerIcons.bracketsAngleOff, TablerIconsSvg.bracketsAngleOff),
-  'bracketsAngle':
-      const TablerIcon(TablerIcons.bracketsAngle, TablerIconsSvg.bracketsAngle),
-  'bracketsContainEnd': const TablerIcon(
-      TablerIcons.bracketsContainEnd, TablerIconsSvg.bracketsContainEnd),
-  'bracketsContainStart': const TablerIcon(
-      TablerIcons.bracketsContainStart, TablerIconsSvg.bracketsContainStart),
-  'bracketsContain': const TablerIcon(
-      TablerIcons.bracketsContain, TablerIconsSvg.bracketsContain),
-  'bracketsOff':
-      const TablerIcon(TablerIcons.bracketsOff, TablerIconsSvg.bracketsOff),
-  'brackets': const TablerIcon(TablerIcons.brackets, TablerIconsSvg.brackets),
-  'braille': const TablerIcon(TablerIcons.braille, TablerIconsSvg.braille),
-  'brain': const TablerIcon(TablerIcons.brain, TablerIconsSvg.brain),
-  'brand4chan':
-      const TablerIcon(TablerIcons.brand4chan, TablerIconsSvg.brand4chan),
-  'brandAbstract':
-      const TablerIcon(TablerIcons.brandAbstract, TablerIconsSvg.brandAbstract),
-  'brandAdobe':
-      const TablerIcon(TablerIcons.brandAdobe, TablerIconsSvg.brandAdobe),
-  'brandAdonisJs':
-      const TablerIcon(TablerIcons.brandAdonisJs, TablerIconsSvg.brandAdonisJs),
-  'brandAirbnb':
-      const TablerIcon(TablerIcons.brandAirbnb, TablerIconsSvg.brandAirbnb),
-  'brandAirtable':
-      const TablerIcon(TablerIcons.brandAirtable, TablerIconsSvg.brandAirtable),
-  'brandAlgolia':
-      const TablerIcon(TablerIcons.brandAlgolia, TablerIconsSvg.brandAlgolia),
-  'brandAlipay':
-      const TablerIcon(TablerIcons.brandAlipay, TablerIconsSvg.brandAlipay),
-  'brandAlpineJs':
-      const TablerIcon(TablerIcons.brandAlpineJs, TablerIconsSvg.brandAlpineJs),
-  'brandAmazon':
-      const TablerIcon(TablerIcons.brandAmazon, TablerIconsSvg.brandAmazon),
-  'brandAmd': const TablerIcon(TablerIcons.brandAmd, TablerIconsSvg.brandAmd),
-  'brandAmigo':
-      const TablerIcon(TablerIcons.brandAmigo, TablerIconsSvg.brandAmigo),
-  'brandAmongUs':
-      const TablerIcon(TablerIcons.brandAmongUs, TablerIconsSvg.brandAmongUs),
-  'brandAndroid':
-      const TablerIcon(TablerIcons.brandAndroid, TablerIconsSvg.brandAndroid),
-  'brandAngular':
-      const TablerIcon(TablerIcons.brandAngular, TablerIconsSvg.brandAngular),
-  'brandAnsible':
-      const TablerIcon(TablerIcons.brandAnsible, TablerIconsSvg.brandAnsible),
-  'brandAo3': const TablerIcon(TablerIcons.brandAo3, TablerIconsSvg.brandAo3),
-  'brandAppgallery': const TablerIcon(
-      TablerIcons.brandAppgallery, TablerIconsSvg.brandAppgallery),
-  'brandAppleArcade': const TablerIcon(
-      TablerIcons.brandAppleArcade, TablerIconsSvg.brandAppleArcade),
-  'brandApplePodcast': const TablerIcon(
-      TablerIcons.brandApplePodcast, TablerIconsSvg.brandApplePodcast),
-  'brandApple':
-      const TablerIcon(TablerIcons.brandApple, TablerIconsSvg.brandApple),
-  'brandAppstore':
-      const TablerIcon(TablerIcons.brandAppstore, TablerIconsSvg.brandAppstore),
-  'brandAsana':
-      const TablerIcon(TablerIcons.brandAsana, TablerIconsSvg.brandAsana),
-  'brandAuth0':
-      const TablerIcon(TablerIcons.brandAuth0, TablerIconsSvg.brandAuth0),
-  'brandAws': const TablerIcon(TablerIcons.brandAws, TablerIconsSvg.brandAws),
-  'brandAzure':
-      const TablerIcon(TablerIcons.brandAzure, TablerIconsSvg.brandAzure),
-  'brandBackbone':
-      const TablerIcon(TablerIcons.brandBackbone, TablerIconsSvg.brandBackbone),
-  'brandBadoo':
-      const TablerIcon(TablerIcons.brandBadoo, TablerIconsSvg.brandBadoo),
-  'brandBaidu':
-      const TablerIcon(TablerIcons.brandBaidu, TablerIconsSvg.brandBaidu),
-  'brandBandcamp':
-      const TablerIcon(TablerIcons.brandBandcamp, TablerIconsSvg.brandBandcamp),
-  'brandBandlab':
-      const TablerIcon(TablerIcons.brandBandlab, TablerIconsSvg.brandBandlab),
-  'brandBeats':
-      const TablerIcon(TablerIcons.brandBeats, TablerIconsSvg.brandBeats),
-  'brandBehance':
-      const TablerIcon(TablerIcons.brandBehance, TablerIconsSvg.brandBehance),
-  'brandBilibili':
-      const TablerIcon(TablerIcons.brandBilibili, TablerIconsSvg.brandBilibili),
-  'brandBinance':
-      const TablerIcon(TablerIcons.brandBinance, TablerIconsSvg.brandBinance),
-  'brandBing':
-      const TablerIcon(TablerIcons.brandBing, TablerIconsSvg.brandBing),
-  'brandBitbucket': const TablerIcon(
-      TablerIcons.brandBitbucket, TablerIconsSvg.brandBitbucket),
-  'brandBlackberry': const TablerIcon(
-      TablerIcons.brandBlackberry, TablerIconsSvg.brandBlackberry),
-  'brandBlender':
-      const TablerIcon(TablerIcons.brandBlender, TablerIconsSvg.brandBlender),
-  'brandBlogger':
-      const TablerIcon(TablerIcons.brandBlogger, TablerIconsSvg.brandBlogger),
-  'brandBooking':
-      const TablerIcon(TablerIcons.brandBooking, TablerIconsSvg.brandBooking),
-  'brandBootstrap': const TablerIcon(
-      TablerIcons.brandBootstrap, TablerIconsSvg.brandBootstrap),
-  'brandBulma':
-      const TablerIcon(TablerIcons.brandBulma, TablerIconsSvg.brandBulma),
-  'brandBumble':
-      const TablerIcon(TablerIcons.brandBumble, TablerIconsSvg.brandBumble),
-  'brandBunpo':
-      const TablerIcon(TablerIcons.brandBunpo, TablerIconsSvg.brandBunpo),
-  'brandCSharp':
-      const TablerIcon(TablerIcons.brandCSharp, TablerIconsSvg.brandCSharp),
-  'brandCake':
-      const TablerIcon(TablerIcons.brandCake, TablerIconsSvg.brandCake),
-  'brandCakephp':
-      const TablerIcon(TablerIcons.brandCakephp, TablerIconsSvg.brandCakephp),
-  'brandCampaignmonitor': const TablerIcon(
-      TablerIcons.brandCampaignmonitor, TablerIconsSvg.brandCampaignmonitor),
-  'brandCarbon':
-      const TablerIcon(TablerIcons.brandCarbon, TablerIconsSvg.brandCarbon),
-  'brandCashapp':
-      const TablerIcon(TablerIcons.brandCashapp, TablerIconsSvg.brandCashapp),
-  'brandChrome':
-      const TablerIcon(TablerIcons.brandChrome, TablerIconsSvg.brandChrome),
-  'brandCinema4d':
-      const TablerIcon(TablerIcons.brandCinema4d, TablerIconsSvg.brandCinema4d),
-  'brandCitymapper': const TablerIcon(
-      TablerIcons.brandCitymapper, TablerIconsSvg.brandCitymapper),
-  'brandCloudflare': const TablerIcon(
-      TablerIcons.brandCloudflare, TablerIconsSvg.brandCloudflare),
-  'brandCodecov':
-      const TablerIcon(TablerIcons.brandCodecov, TablerIconsSvg.brandCodecov),
-  'brandCodepen':
-      const TablerIcon(TablerIcons.brandCodepen, TablerIconsSvg.brandCodepen),
-  'brandCodesandbox': const TablerIcon(
-      TablerIcons.brandCodesandbox, TablerIconsSvg.brandCodesandbox),
-  'brandCohost':
-      const TablerIcon(TablerIcons.brandCohost, TablerIconsSvg.brandCohost),
-  'brandCoinbase':
-      const TablerIcon(TablerIcons.brandCoinbase, TablerIconsSvg.brandCoinbase),
-  'brandComedyCentral': const TablerIcon(
-      TablerIcons.brandComedyCentral, TablerIconsSvg.brandComedyCentral),
-  'brandCoreos':
-      const TablerIcon(TablerIcons.brandCoreos, TablerIconsSvg.brandCoreos),
-  'brandCouchdb':
-      const TablerIcon(TablerIcons.brandCouchdb, TablerIconsSvg.brandCouchdb),
-  'brandCouchsurfing': const TablerIcon(
-      TablerIcons.brandCouchsurfing, TablerIconsSvg.brandCouchsurfing),
-  'brandCpp': const TablerIcon(TablerIcons.brandCpp, TablerIconsSvg.brandCpp),
-  'brandCraft':
-      const TablerIcon(TablerIcons.brandCraft, TablerIconsSvg.brandCraft),
-  'brandCrunchbase': const TablerIcon(
-      TablerIcons.brandCrunchbase, TablerIconsSvg.brandCrunchbase),
-  'brandCss3':
-      const TablerIcon(TablerIcons.brandCss3, TablerIconsSvg.brandCss3),
-  'brandCtemplar':
-      const TablerIcon(TablerIcons.brandCtemplar, TablerIconsSvg.brandCtemplar),
-  'brandCucumber':
-      const TablerIcon(TablerIcons.brandCucumber, TablerIconsSvg.brandCucumber),
-  'brandCupra':
-      const TablerIcon(TablerIcons.brandCupra, TablerIconsSvg.brandCupra),
-  'brandCypress':
-      const TablerIcon(TablerIcons.brandCypress, TablerIconsSvg.brandCypress),
-  'brandD3': const TablerIcon(TablerIcons.brandD3, TablerIconsSvg.brandD3),
-  'brandDatabricks': const TablerIcon(
-      TablerIcons.brandDatabricks, TablerIconsSvg.brandDatabricks),
-  'brandDaysCounter': const TablerIcon(
-      TablerIcons.brandDaysCounter, TablerIconsSvg.brandDaysCounter),
-  'brandDcos':
-      const TablerIcon(TablerIcons.brandDcos, TablerIconsSvg.brandDcos),
-  'brandDebian':
-      const TablerIcon(TablerIcons.brandDebian, TablerIconsSvg.brandDebian),
-  'brandDeezer':
-      const TablerIcon(TablerIcons.brandDeezer, TablerIconsSvg.brandDeezer),
-  'brandDeliveroo': const TablerIcon(
-      TablerIcons.brandDeliveroo, TablerIconsSvg.brandDeliveroo),
-  'brandDeno':
-      const TablerIcon(TablerIcons.brandDeno, TablerIconsSvg.brandDeno),
-  'brandDenodo':
-      const TablerIcon(TablerIcons.brandDenodo, TablerIconsSvg.brandDenodo),
-  'brandDeviantart': const TablerIcon(
-      TablerIcons.brandDeviantart, TablerIconsSvg.brandDeviantart),
-  'brandDigg':
-      const TablerIcon(TablerIcons.brandDigg, TablerIconsSvg.brandDigg),
-  'brandDingtalk':
-      const TablerIcon(TablerIcons.brandDingtalk, TablerIconsSvg.brandDingtalk),
-  'brandDiscordFilled': const TablerIcon(
-      TablerIcons.brandDiscordFilled, TablerIconsSvg.brandDiscordFilled),
-  'brandDiscord':
-      const TablerIcon(TablerIcons.brandDiscord, TablerIconsSvg.brandDiscord),
-  'brandDisney':
-      const TablerIcon(TablerIcons.brandDisney, TablerIconsSvg.brandDisney),
-  'brandDisqus':
-      const TablerIcon(TablerIcons.brandDisqus, TablerIconsSvg.brandDisqus),
-  'brandDjango':
-      const TablerIcon(TablerIcons.brandDjango, TablerIconsSvg.brandDjango),
-  'brandDocker':
-      const TablerIcon(TablerIcons.brandDocker, TablerIconsSvg.brandDocker),
-  'brandDoctrine':
-      const TablerIcon(TablerIcons.brandDoctrine, TablerIconsSvg.brandDoctrine),
-  'brandDolbyDigital': const TablerIcon(
-      TablerIcons.brandDolbyDigital, TablerIconsSvg.brandDolbyDigital),
-  'brandDouban':
-      const TablerIcon(TablerIcons.brandDouban, TablerIconsSvg.brandDouban),
-  'brandDribbbleFilled': const TablerIcon(
-      TablerIcons.brandDribbbleFilled, TablerIconsSvg.brandDribbbleFilled),
-  'brandDribbble':
-      const TablerIcon(TablerIcons.brandDribbble, TablerIconsSvg.brandDribbble),
-  'brandDrops':
-      const TablerIcon(TablerIcons.brandDrops, TablerIconsSvg.brandDrops),
-  'brandDrupal':
-      const TablerIcon(TablerIcons.brandDrupal, TablerIconsSvg.brandDrupal),
-  'brandEdge':
-      const TablerIcon(TablerIcons.brandEdge, TablerIconsSvg.brandEdge),
-  'brandElastic':
-      const TablerIcon(TablerIcons.brandElastic, TablerIconsSvg.brandElastic),
-  'brandElectronicArts': const TablerIcon(
-      TablerIcons.brandElectronicArts, TablerIconsSvg.brandElectronicArts),
-  'brandEmber':
-      const TablerIcon(TablerIcons.brandEmber, TablerIconsSvg.brandEmber),
-  'brandEnvato':
-      const TablerIcon(TablerIcons.brandEnvato, TablerIconsSvg.brandEnvato),
-  'brandEtsy':
-      const TablerIcon(TablerIcons.brandEtsy, TablerIconsSvg.brandEtsy),
-  'brandEvernote':
-      const TablerIcon(TablerIcons.brandEvernote, TablerIconsSvg.brandEvernote),
-  'brandFacebookFilled': const TablerIcon(
-      TablerIcons.brandFacebookFilled, TablerIconsSvg.brandFacebookFilled),
-  'brandFacebook':
-      const TablerIcon(TablerIcons.brandFacebook, TablerIconsSvg.brandFacebook),
-  'brandFeedly':
-      const TablerIcon(TablerIcons.brandFeedly, TablerIconsSvg.brandFeedly),
-  'brandFigma':
-      const TablerIcon(TablerIcons.brandFigma, TablerIconsSvg.brandFigma),
-  'brandFilezilla': const TablerIcon(
-      TablerIcons.brandFilezilla, TablerIconsSvg.brandFilezilla),
-  'brandFinder':
-      const TablerIcon(TablerIcons.brandFinder, TablerIconsSvg.brandFinder),
-  'brandFirebase':
-      const TablerIcon(TablerIcons.brandFirebase, TablerIconsSvg.brandFirebase),
-  'brandFirefox':
-      const TablerIcon(TablerIcons.brandFirefox, TablerIconsSvg.brandFirefox),
-  'brandFiverr':
-      const TablerIcon(TablerIcons.brandFiverr, TablerIconsSvg.brandFiverr),
-  'brandFlickr':
-      const TablerIcon(TablerIcons.brandFlickr, TablerIconsSvg.brandFlickr),
-  'brandFlightradar24': const TablerIcon(
-      TablerIcons.brandFlightradar24, TablerIconsSvg.brandFlightradar24),
-  'brandFlipboard': const TablerIcon(
-      TablerIcons.brandFlipboard, TablerIconsSvg.brandFlipboard),
-  'brandFlutter':
-      const TablerIcon(TablerIcons.brandFlutter, TablerIconsSvg.brandFlutter),
-  'brandFortnite':
-      const TablerIcon(TablerIcons.brandFortnite, TablerIconsSvg.brandFortnite),
-  'brandFoursquare': const TablerIcon(
-      TablerIcons.brandFoursquare, TablerIconsSvg.brandFoursquare),
-  'brandFramerMotion': const TablerIcon(
-      TablerIcons.brandFramerMotion, TablerIconsSvg.brandFramerMotion),
-  'brandFramer':
-      const TablerIcon(TablerIcons.brandFramer, TablerIconsSvg.brandFramer),
-  'brandFunimation': const TablerIcon(
-      TablerIcons.brandFunimation, TablerIconsSvg.brandFunimation),
-  'brandGatsby':
-      const TablerIcon(TablerIcons.brandGatsby, TablerIconsSvg.brandGatsby),
-  'brandGit': const TablerIcon(TablerIcons.brandGit, TablerIconsSvg.brandGit),
-  'brandGithubCopilot': const TablerIcon(
-      TablerIcons.brandGithubCopilot, TablerIconsSvg.brandGithubCopilot),
-  'brandGithubFilled': const TablerIcon(
-      TablerIcons.brandGithubFilled, TablerIconsSvg.brandGithubFilled),
-  'brandGithub':
-      const TablerIcon(TablerIcons.brandGithub, TablerIconsSvg.brandGithub),
-  'brandGitlab':
-      const TablerIcon(TablerIcons.brandGitlab, TablerIconsSvg.brandGitlab),
-  'brandGmail':
-      const TablerIcon(TablerIcons.brandGmail, TablerIconsSvg.brandGmail),
-  'brandGolang':
-      const TablerIcon(TablerIcons.brandGolang, TablerIconsSvg.brandGolang),
-  'brandGoogleAnalytics': const TablerIcon(
-      TablerIcons.brandGoogleAnalytics, TablerIconsSvg.brandGoogleAnalytics),
-  'brandGoogleBigQuery': const TablerIcon(
-      TablerIcons.brandGoogleBigQuery, TablerIconsSvg.brandGoogleBigQuery),
-  'brandGoogleDrive': const TablerIcon(
-      TablerIcons.brandGoogleDrive, TablerIconsSvg.brandGoogleDrive),
-  'brandGoogleFit': const TablerIcon(
-      TablerIcons.brandGoogleFit, TablerIconsSvg.brandGoogleFit),
-  'brandGoogleHome': const TablerIcon(
-      TablerIcons.brandGoogleHome, TablerIconsSvg.brandGoogleHome),
-  'brandGoogleMaps': const TablerIcon(
-      TablerIcons.brandGoogleMaps, TablerIconsSvg.brandGoogleMaps),
-  'brandGoogleOne': const TablerIcon(
-      TablerIcons.brandGoogleOne, TablerIconsSvg.brandGoogleOne),
-  'brandGooglePhotos': const TablerIcon(
-      TablerIcons.brandGooglePhotos, TablerIconsSvg.brandGooglePhotos),
-  'brandGooglePlay': const TablerIcon(
-      TablerIcons.brandGooglePlay, TablerIconsSvg.brandGooglePlay),
-  'brandGooglePodcasts': const TablerIcon(
-      TablerIcons.brandGooglePodcasts, TablerIconsSvg.brandGooglePodcasts),
-  'brandGoogle':
-      const TablerIcon(TablerIcons.brandGoogle, TablerIconsSvg.brandGoogle),
-  'brandGrammarly': const TablerIcon(
-      TablerIcons.brandGrammarly, TablerIconsSvg.brandGrammarly),
-  'brandGraphql':
-      const TablerIcon(TablerIcons.brandGraphql, TablerIconsSvg.brandGraphql),
-  'brandGravatar':
-      const TablerIcon(TablerIcons.brandGravatar, TablerIconsSvg.brandGravatar),
-  'brandGrindr':
-      const TablerIcon(TablerIcons.brandGrindr, TablerIconsSvg.brandGrindr),
-  'brandGuardian':
-      const TablerIcon(TablerIcons.brandGuardian, TablerIconsSvg.brandGuardian),
-  'brandGumroad':
-      const TablerIcon(TablerIcons.brandGumroad, TablerIconsSvg.brandGumroad),
-  'brandHbo': const TablerIcon(TablerIcons.brandHbo, TablerIconsSvg.brandHbo),
-  'brandHeadlessui': const TablerIcon(
-      TablerIcons.brandHeadlessui, TablerIconsSvg.brandHeadlessui),
-  'brandHexo':
-      const TablerIcon(TablerIcons.brandHexo, TablerIconsSvg.brandHexo),
-  'brandHipchat':
-      const TablerIcon(TablerIcons.brandHipchat, TablerIconsSvg.brandHipchat),
-  'brandHtml5':
-      const TablerIcon(TablerIcons.brandHtml5, TablerIconsSvg.brandHtml5),
-  'brandInertia':
-      const TablerIcon(TablerIcons.brandInertia, TablerIconsSvg.brandInertia),
-  'brandInstagram': const TablerIcon(
-      TablerIcons.brandInstagram, TablerIconsSvg.brandInstagram),
-  'brandIntercom':
-      const TablerIcon(TablerIcons.brandIntercom, TablerIconsSvg.brandIntercom),
-  'brandItch':
-      const TablerIcon(TablerIcons.brandItch, TablerIconsSvg.brandItch),
-  'brandJavascript': const TablerIcon(
-      TablerIcons.brandJavascript, TablerIconsSvg.brandJavascript),
-  'brandJuejin':
-      const TablerIcon(TablerIcons.brandJuejin, TablerIconsSvg.brandJuejin),
-  'brandKbin':
-      const TablerIcon(TablerIcons.brandKbin, TablerIconsSvg.brandKbin),
-  'brandKick':
-      const TablerIcon(TablerIcons.brandKick, TablerIconsSvg.brandKick),
-  'brandKickstarter': const TablerIcon(
-      TablerIcons.brandKickstarter, TablerIconsSvg.brandKickstarter),
-  'brandKotlin':
-      const TablerIcon(TablerIcons.brandKotlin, TablerIconsSvg.brandKotlin),
-  'brandLaravel':
-      const TablerIcon(TablerIcons.brandLaravel, TablerIconsSvg.brandLaravel),
-  'brandLastfm':
-      const TablerIcon(TablerIcons.brandLastfm, TablerIconsSvg.brandLastfm),
-  'brandLeetcode':
-      const TablerIcon(TablerIcons.brandLeetcode, TablerIconsSvg.brandLeetcode),
-  'brandLetterboxd': const TablerIcon(
-      TablerIcons.brandLetterboxd, TablerIconsSvg.brandLetterboxd),
-  'brandLine':
-      const TablerIcon(TablerIcons.brandLine, TablerIconsSvg.brandLine),
-  'brandLinkedin':
-      const TablerIcon(TablerIcons.brandLinkedin, TablerIconsSvg.brandLinkedin),
-  'brandLinktree':
-      const TablerIcon(TablerIcons.brandLinktree, TablerIconsSvg.brandLinktree),
-  'brandLinqpad':
-      const TablerIcon(TablerIcons.brandLinqpad, TablerIconsSvg.brandLinqpad),
-  'brandLoom':
-      const TablerIcon(TablerIcons.brandLoom, TablerIconsSvg.brandLoom),
-  'brandMailgun':
-      const TablerIcon(TablerIcons.brandMailgun, TablerIconsSvg.brandMailgun),
-  'brandMantine':
-      const TablerIcon(TablerIcons.brandMantine, TablerIconsSvg.brandMantine),
-  'brandMastercard': const TablerIcon(
-      TablerIcons.brandMastercard, TablerIconsSvg.brandMastercard),
-  'brandMastodon':
-      const TablerIcon(TablerIcons.brandMastodon, TablerIconsSvg.brandMastodon),
-  'brandMatrix':
-      const TablerIcon(TablerIcons.brandMatrix, TablerIconsSvg.brandMatrix),
-  'brandMcdonalds': const TablerIcon(
-      TablerIcons.brandMcdonalds, TablerIconsSvg.brandMcdonalds),
-  'brandMedium':
-      const TablerIcon(TablerIcons.brandMedium, TablerIconsSvg.brandMedium),
-  'brandMeetup':
-      const TablerIcon(TablerIcons.brandMeetup, TablerIconsSvg.brandMeetup),
-  'brandMercedes':
-      const TablerIcon(TablerIcons.brandMercedes, TablerIconsSvg.brandMercedes),
-  'brandMessenger': const TablerIcon(
-      TablerIcons.brandMessenger, TablerIconsSvg.brandMessenger),
-  'brandMeta':
-      const TablerIcon(TablerIcons.brandMeta, TablerIconsSvg.brandMeta),
-  'brandMinecraft': const TablerIcon(
-      TablerIcons.brandMinecraft, TablerIconsSvg.brandMinecraft),
-  'brandMiniprogram': const TablerIcon(
-      TablerIcons.brandMiniprogram, TablerIconsSvg.brandMiniprogram),
-  'brandMixpanel':
-      const TablerIcon(TablerIcons.brandMixpanel, TablerIconsSvg.brandMixpanel),
-  'brandMonday':
-      const TablerIcon(TablerIcons.brandMonday, TablerIconsSvg.brandMonday),
-  'brandMongodb':
-      const TablerIcon(TablerIcons.brandMongodb, TablerIconsSvg.brandMongodb),
-  'brandMyOppo':
-      const TablerIcon(TablerIcons.brandMyOppo, TablerIconsSvg.brandMyOppo),
-  'brandMysql':
-      const TablerIcon(TablerIcons.brandMysql, TablerIconsSvg.brandMysql),
-  'brandNationalGeographic': const TablerIcon(
-      TablerIcons.brandNationalGeographic,
-      TablerIconsSvg.brandNationalGeographic),
-  'brandNem': const TablerIcon(TablerIcons.brandNem, TablerIconsSvg.brandNem),
-  'brandNetbeans':
-      const TablerIcon(TablerIcons.brandNetbeans, TablerIconsSvg.brandNetbeans),
-  'brandNeteaseMusic': const TablerIcon(
-      TablerIcons.brandNeteaseMusic, TablerIconsSvg.brandNeteaseMusic),
-  'brandNetflix':
-      const TablerIcon(TablerIcons.brandNetflix, TablerIconsSvg.brandNetflix),
-  'brandNexo':
-      const TablerIcon(TablerIcons.brandNexo, TablerIconsSvg.brandNexo),
-  'brandNextcloud': const TablerIcon(
-      TablerIcons.brandNextcloud, TablerIconsSvg.brandNextcloud),
-  'brandNextjs':
-      const TablerIcon(TablerIcons.brandNextjs, TablerIconsSvg.brandNextjs),
-  'brandNodejs':
-      const TablerIcon(TablerIcons.brandNodejs, TablerIconsSvg.brandNodejs),
-  'brandNordVpn':
-      const TablerIcon(TablerIcons.brandNordVpn, TablerIconsSvg.brandNordVpn),
-  'brandNotion':
-      const TablerIcon(TablerIcons.brandNotion, TablerIconsSvg.brandNotion),
-  'brandNpm': const TablerIcon(TablerIcons.brandNpm, TablerIconsSvg.brandNpm),
-  'brandNuxt':
-      const TablerIcon(TablerIcons.brandNuxt, TablerIconsSvg.brandNuxt),
-  'brandNytimes':
-      const TablerIcon(TablerIcons.brandNytimes, TablerIconsSvg.brandNytimes),
-  'brandOauth':
-      const TablerIcon(TablerIcons.brandOauth, TablerIconsSvg.brandOauth),
-  'brandOffice':
-      const TablerIcon(TablerIcons.brandOffice, TablerIconsSvg.brandOffice),
-  'brandOkRu':
-      const TablerIcon(TablerIcons.brandOkRu, TablerIconsSvg.brandOkRu),
-  'brandOnedrive':
-      const TablerIcon(TablerIcons.brandOnedrive, TablerIconsSvg.brandOnedrive),
-  'brandOnlyfans':
-      const TablerIcon(TablerIcons.brandOnlyfans, TablerIconsSvg.brandOnlyfans),
-  'brandOpenSource': const TablerIcon(
-      TablerIcons.brandOpenSource, TablerIconsSvg.brandOpenSource),
-  'brandOpenai':
-      const TablerIcon(TablerIcons.brandOpenai, TablerIconsSvg.brandOpenai),
-  'brandOpenvpn':
-      const TablerIcon(TablerIcons.brandOpenvpn, TablerIconsSvg.brandOpenvpn),
-  'brandOpera':
-      const TablerIcon(TablerIcons.brandOpera, TablerIconsSvg.brandOpera),
-  'brandPagekit':
-      const TablerIcon(TablerIcons.brandPagekit, TablerIconsSvg.brandPagekit),
-  'brandParsinta':
-      const TablerIcon(TablerIcons.brandParsinta, TablerIconsSvg.brandParsinta),
-  'brandPatreon':
-      const TablerIcon(TablerIcons.brandPatreon, TablerIconsSvg.brandPatreon),
-  'brandPaypalFilled': const TablerIcon(
-      TablerIcons.brandPaypalFilled, TablerIconsSvg.brandPaypalFilled),
-  'brandPaypal':
-      const TablerIcon(TablerIcons.brandPaypal, TablerIconsSvg.brandPaypal),
-  'brandPaypay':
-      const TablerIcon(TablerIcons.brandPaypay, TablerIconsSvg.brandPaypay),
-  'brandPeanut':
-      const TablerIcon(TablerIcons.brandPeanut, TablerIconsSvg.brandPeanut),
-  'brandPepsi':
-      const TablerIcon(TablerIcons.brandPepsi, TablerIconsSvg.brandPepsi),
-  'brandPhp': const TablerIcon(TablerIcons.brandPhp, TablerIconsSvg.brandPhp),
-  'brandPicsart':
-      const TablerIcon(TablerIcons.brandPicsart, TablerIconsSvg.brandPicsart),
-  'brandPinterest': const TablerIcon(
-      TablerIcons.brandPinterest, TablerIconsSvg.brandPinterest),
-  'brandPlanetscale': const TablerIcon(
-      TablerIcons.brandPlanetscale, TablerIconsSvg.brandPlanetscale),
-  'brandPocket':
-      const TablerIcon(TablerIcons.brandPocket, TablerIconsSvg.brandPocket),
-  'brandPolymer':
-      const TablerIcon(TablerIcons.brandPolymer, TablerIconsSvg.brandPolymer),
-  'brandPowershell': const TablerIcon(
-      TablerIcons.brandPowershell, TablerIconsSvg.brandPowershell),
-  'brandPrisma':
-      const TablerIcon(TablerIcons.brandPrisma, TablerIconsSvg.brandPrisma),
-  'brandProducthunt': const TablerIcon(
-      TablerIcons.brandProducthunt, TablerIconsSvg.brandProducthunt),
-  'brandPushbullet': const TablerIcon(
-      TablerIcons.brandPushbullet, TablerIconsSvg.brandPushbullet),
-  'brandPushover':
-      const TablerIcon(TablerIcons.brandPushover, TablerIconsSvg.brandPushover),
-  'brandPython':
-      const TablerIcon(TablerIcons.brandPython, TablerIconsSvg.brandPython),
-  'brandQq': const TablerIcon(TablerIcons.brandQq, TablerIconsSvg.brandQq),
-  'brandRadixUi':
-      const TablerIcon(TablerIcons.brandRadixUi, TablerIconsSvg.brandRadixUi),
-  'brandReactNative': const TablerIcon(
-      TablerIcons.brandReactNative, TablerIconsSvg.brandReactNative),
-  'brandReact':
-      const TablerIcon(TablerIcons.brandReact, TablerIconsSvg.brandReact),
-  'brandReason':
-      const TablerIcon(TablerIcons.brandReason, TablerIconsSvg.brandReason),
-  'brandReddit':
-      const TablerIcon(TablerIcons.brandReddit, TablerIconsSvg.brandReddit),
-  'brandRedhat':
-      const TablerIcon(TablerIcons.brandRedhat, TablerIconsSvg.brandRedhat),
-  'brandRedux':
-      const TablerIcon(TablerIcons.brandRedux, TablerIconsSvg.brandRedux),
-  'brandRevolut':
-      const TablerIcon(TablerIcons.brandRevolut, TablerIconsSvg.brandRevolut),
-  'brandRumble':
-      const TablerIcon(TablerIcons.brandRumble, TablerIconsSvg.brandRumble),
-  'brandRust':
-      const TablerIcon(TablerIcons.brandRust, TablerIconsSvg.brandRust),
-  'brandSafari':
-      const TablerIcon(TablerIcons.brandSafari, TablerIconsSvg.brandSafari),
-  'brandSamsungpass': const TablerIcon(
-      TablerIcons.brandSamsungpass, TablerIconsSvg.brandSamsungpass),
-  'brandSass':
-      const TablerIcon(TablerIcons.brandSass, TablerIconsSvg.brandSass),
-  'brandSentry':
-      const TablerIcon(TablerIcons.brandSentry, TablerIconsSvg.brandSentry),
-  'brandSharik':
-      const TablerIcon(TablerIcons.brandSharik, TablerIconsSvg.brandSharik),
-  'brandShazam':
-      const TablerIcon(TablerIcons.brandShazam, TablerIconsSvg.brandShazam),
-  'brandShopee':
-      const TablerIcon(TablerIcons.brandShopee, TablerIconsSvg.brandShopee),
-  'brandSketch':
-      const TablerIcon(TablerIcons.brandSketch, TablerIconsSvg.brandSketch),
-  'brandSkype':
-      const TablerIcon(TablerIcons.brandSkype, TablerIconsSvg.brandSkype),
-  'brandSlack':
-      const TablerIcon(TablerIcons.brandSlack, TablerIconsSvg.brandSlack),
-  'brandSnapchat':
-      const TablerIcon(TablerIcons.brandSnapchat, TablerIconsSvg.brandSnapchat),
-  'brandSnapseed':
-      const TablerIcon(TablerIcons.brandSnapseed, TablerIconsSvg.brandSnapseed),
-  'brandSnowflake': const TablerIcon(
-      TablerIcons.brandSnowflake, TablerIconsSvg.brandSnowflake),
-  'brandSocketIo':
-      const TablerIcon(TablerIcons.brandSocketIo, TablerIconsSvg.brandSocketIo),
-  'brandSolidjs':
-      const TablerIcon(TablerIcons.brandSolidjs, TablerIconsSvg.brandSolidjs),
-  'brandSoundcloud': const TablerIcon(
-      TablerIcons.brandSoundcloud, TablerIconsSvg.brandSoundcloud),
-  'brandSpacehey':
-      const TablerIcon(TablerIcons.brandSpacehey, TablerIconsSvg.brandSpacehey),
-  'brandSpeedtest': const TablerIcon(
-      TablerIcons.brandSpeedtest, TablerIconsSvg.brandSpeedtest),
-  'brandSpotify':
-      const TablerIcon(TablerIcons.brandSpotify, TablerIconsSvg.brandSpotify),
-  'brandStackoverflow': const TablerIcon(
-      TablerIcons.brandStackoverflow, TablerIconsSvg.brandStackoverflow),
-  'brandStackshare': const TablerIcon(
-      TablerIcons.brandStackshare, TablerIconsSvg.brandStackshare),
-  'brandSteam':
-      const TablerIcon(TablerIcons.brandSteam, TablerIconsSvg.brandSteam),
-  'brandStorj':
-      const TablerIcon(TablerIcons.brandStorj, TablerIconsSvg.brandStorj),
-  'brandStorybook': const TablerIcon(
-      TablerIcons.brandStorybook, TablerIconsSvg.brandStorybook),
-  'brandStorytel':
-      const TablerIcon(TablerIcons.brandStorytel, TablerIconsSvg.brandStorytel),
-  'brandStrava':
-      const TablerIcon(TablerIcons.brandStrava, TablerIconsSvg.brandStrava),
-  'brandStripe':
-      const TablerIcon(TablerIcons.brandStripe, TablerIconsSvg.brandStripe),
-  'brandSublimeText': const TablerIcon(
-      TablerIcons.brandSublimeText, TablerIconsSvg.brandSublimeText),
-  'brandSugarizer': const TablerIcon(
-      TablerIcons.brandSugarizer, TablerIconsSvg.brandSugarizer),
-  'brandSupabase':
-      const TablerIcon(TablerIcons.brandSupabase, TablerIconsSvg.brandSupabase),
-  'brandSuperhuman': const TablerIcon(
-      TablerIcons.brandSuperhuman, TablerIconsSvg.brandSuperhuman),
-  'brandSupernova': const TablerIcon(
-      TablerIcons.brandSupernova, TablerIconsSvg.brandSupernova),
-  'brandSurfshark': const TablerIcon(
-      TablerIcons.brandSurfshark, TablerIconsSvg.brandSurfshark),
-  'brandSvelte':
-      const TablerIcon(TablerIcons.brandSvelte, TablerIconsSvg.brandSvelte),
-  'brandSwift':
-      const TablerIcon(TablerIcons.brandSwift, TablerIconsSvg.brandSwift),
-  'brandSymfony':
-      const TablerIcon(TablerIcons.brandSymfony, TablerIconsSvg.brandSymfony),
-  'brandTabler':
-      const TablerIcon(TablerIcons.brandTabler, TablerIconsSvg.brandTabler),
-  'brandTailwind':
-      const TablerIcon(TablerIcons.brandTailwind, TablerIconsSvg.brandTailwind),
-  'brandTaobao':
-      const TablerIcon(TablerIcons.brandTaobao, TablerIconsSvg.brandTaobao),
-  'brandTeams':
-      const TablerIcon(TablerIcons.brandTeams, TablerIconsSvg.brandTeams),
-  'brandTed': const TablerIcon(TablerIcons.brandTed, TablerIconsSvg.brandTed),
-  'brandTelegram':
-      const TablerIcon(TablerIcons.brandTelegram, TablerIconsSvg.brandTelegram),
-  'brandTerraform': const TablerIcon(
-      TablerIcons.brandTerraform, TablerIconsSvg.brandTerraform),
-  'brandTether':
-      const TablerIcon(TablerIcons.brandTether, TablerIconsSvg.brandTether),
-  'brandThreads':
-      const TablerIcon(TablerIcons.brandThreads, TablerIconsSvg.brandThreads),
-  'brandThreejs':
-      const TablerIcon(TablerIcons.brandThreejs, TablerIconsSvg.brandThreejs),
-  'brandTidal':
-      const TablerIcon(TablerIcons.brandTidal, TablerIconsSvg.brandTidal),
-  'brandTiktokFilled': const TablerIcon(
-      TablerIcons.brandTiktokFilled, TablerIconsSvg.brandTiktokFilled),
-  'brandTiktok':
-      const TablerIcon(TablerIcons.brandTiktok, TablerIconsSvg.brandTiktok),
-  'brandTinder':
-      const TablerIcon(TablerIcons.brandTinder, TablerIconsSvg.brandTinder),
-  'brandTopbuzz':
-      const TablerIcon(TablerIcons.brandTopbuzz, TablerIconsSvg.brandTopbuzz),
-  'brandTorchain':
-      const TablerIcon(TablerIcons.brandTorchain, TablerIconsSvg.brandTorchain),
-  'brandToyota':
-      const TablerIcon(TablerIcons.brandToyota, TablerIconsSvg.brandToyota),
-  'brandTrello':
-      const TablerIcon(TablerIcons.brandTrello, TablerIconsSvg.brandTrello),
-  'brandTripadvisor': const TablerIcon(
-      TablerIcons.brandTripadvisor, TablerIconsSvg.brandTripadvisor),
-  'brandTumblr':
-      const TablerIcon(TablerIcons.brandTumblr, TablerIconsSvg.brandTumblr),
-  'brandTwilio':
-      const TablerIcon(TablerIcons.brandTwilio, TablerIconsSvg.brandTwilio),
-  'brandTwitch':
-      const TablerIcon(TablerIcons.brandTwitch, TablerIconsSvg.brandTwitch),
-  'brandTwitterFilled': const TablerIcon(
-      TablerIcons.brandTwitterFilled, TablerIconsSvg.brandTwitterFilled),
-  'brandTwitter':
-      const TablerIcon(TablerIcons.brandTwitter, TablerIconsSvg.brandTwitter),
-  'brandTypescript': const TablerIcon(
-      TablerIcons.brandTypescript, TablerIconsSvg.brandTypescript),
-  'brandUber':
-      const TablerIcon(TablerIcons.brandUber, TablerIconsSvg.brandUber),
-  'brandUbuntu':
-      const TablerIcon(TablerIcons.brandUbuntu, TablerIconsSvg.brandUbuntu),
-  'brandUnity':
-      const TablerIcon(TablerIcons.brandUnity, TablerIconsSvg.brandUnity),
-  'brandUnsplash':
-      const TablerIcon(TablerIcons.brandUnsplash, TablerIconsSvg.brandUnsplash),
-  'brandUpwork':
-      const TablerIcon(TablerIcons.brandUpwork, TablerIconsSvg.brandUpwork),
-  'brandValorant':
-      const TablerIcon(TablerIcons.brandValorant, TablerIconsSvg.brandValorant),
-  'brandVercel':
-      const TablerIcon(TablerIcons.brandVercel, TablerIconsSvg.brandVercel),
-  'brandVimeo':
-      const TablerIcon(TablerIcons.brandVimeo, TablerIconsSvg.brandVimeo),
-  'brandVinted':
-      const TablerIcon(TablerIcons.brandVinted, TablerIconsSvg.brandVinted),
-  'brandVisa':
-      const TablerIcon(TablerIcons.brandVisa, TablerIconsSvg.brandVisa),
-  'brandVisualStudio': const TablerIcon(
-      TablerIcons.brandVisualStudio, TablerIconsSvg.brandVisualStudio),
-  'brandVite':
-      const TablerIcon(TablerIcons.brandVite, TablerIconsSvg.brandVite),
-  'brandVivaldi':
-      const TablerIcon(TablerIcons.brandVivaldi, TablerIconsSvg.brandVivaldi),
-  'brandVk': const TablerIcon(TablerIcons.brandVk, TablerIconsSvg.brandVk),
-  'brandVlc': const TablerIcon(TablerIcons.brandVlc, TablerIconsSvg.brandVlc),
-  'brandVolkswagen': const TablerIcon(
-      TablerIcons.brandVolkswagen, TablerIconsSvg.brandVolkswagen),
-  'brandVsco':
-      const TablerIcon(TablerIcons.brandVsco, TablerIconsSvg.brandVsco),
-  'brandVscode':
-      const TablerIcon(TablerIcons.brandVscode, TablerIconsSvg.brandVscode),
-  'brandVue': const TablerIcon(TablerIcons.brandVue, TablerIconsSvg.brandVue),
-  'brandWalmart':
-      const TablerIcon(TablerIcons.brandWalmart, TablerIconsSvg.brandWalmart),
-  'brandWaze':
-      const TablerIcon(TablerIcons.brandWaze, TablerIconsSvg.brandWaze),
-  'brandWebflow':
-      const TablerIcon(TablerIcons.brandWebflow, TablerIconsSvg.brandWebflow),
-  'brandWechat':
-      const TablerIcon(TablerIcons.brandWechat, TablerIconsSvg.brandWechat),
-  'brandWeibo':
-      const TablerIcon(TablerIcons.brandWeibo, TablerIconsSvg.brandWeibo),
-  'brandWhatsapp':
-      const TablerIcon(TablerIcons.brandWhatsapp, TablerIconsSvg.brandWhatsapp),
-  'brandWikipedia': const TablerIcon(
-      TablerIcons.brandWikipedia, TablerIconsSvg.brandWikipedia),
-  'brandWindows':
-      const TablerIcon(TablerIcons.brandWindows, TablerIconsSvg.brandWindows),
-  'brandWindy':
-      const TablerIcon(TablerIcons.brandWindy, TablerIconsSvg.brandWindy),
-  'brandWish':
-      const TablerIcon(TablerIcons.brandWish, TablerIconsSvg.brandWish),
-  'brandWix': const TablerIcon(TablerIcons.brandWix, TablerIconsSvg.brandWix),
-  'brandWordpress': const TablerIcon(
-      TablerIcons.brandWordpress, TablerIconsSvg.brandWordpress),
-  'brandXFilled':
-      const TablerIcon(TablerIcons.brandXFilled, TablerIconsSvg.brandXFilled),
-  'brandX': const TablerIcon(TablerIcons.brandX, TablerIconsSvg.brandX),
-  'brandXamarin':
-      const TablerIcon(TablerIcons.brandXamarin, TablerIconsSvg.brandXamarin),
-  'brandXbox':
-      const TablerIcon(TablerIcons.brandXbox, TablerIconsSvg.brandXbox),
-  'brandXdeep':
-      const TablerIcon(TablerIcons.brandXdeep, TablerIconsSvg.brandXdeep),
-  'brandXing':
-      const TablerIcon(TablerIcons.brandXing, TablerIconsSvg.brandXing),
-  'brandYahoo':
-      const TablerIcon(TablerIcons.brandYahoo, TablerIconsSvg.brandYahoo),
-  'brandYandex':
-      const TablerIcon(TablerIcons.brandYandex, TablerIconsSvg.brandYandex),
-  'brandYatse':
-      const TablerIcon(TablerIcons.brandYatse, TablerIconsSvg.brandYatse),
-  'brandYcombinator': const TablerIcon(
-      TablerIcons.brandYcombinator, TablerIconsSvg.brandYcombinator),
-  'brandYoutubeFilled': const TablerIcon(
-      TablerIcons.brandYoutubeFilled, TablerIconsSvg.brandYoutubeFilled),
-  'brandYoutubeKids': const TablerIcon(
-      TablerIcons.brandYoutubeKids, TablerIconsSvg.brandYoutubeKids),
-  'brandYoutube':
-      const TablerIcon(TablerIcons.brandYoutube, TablerIconsSvg.brandYoutube),
-  'brandZalando':
-      const TablerIcon(TablerIcons.brandZalando, TablerIconsSvg.brandZalando),
-  'brandZapier':
-      const TablerIcon(TablerIcons.brandZapier, TablerIconsSvg.brandZapier),
-  'brandZeit':
-      const TablerIcon(TablerIcons.brandZeit, TablerIconsSvg.brandZeit),
-  'brandZhihu':
-      const TablerIcon(TablerIcons.brandZhihu, TablerIconsSvg.brandZhihu),
-  'brandZoom':
-      const TablerIcon(TablerIcons.brandZoom, TablerIconsSvg.brandZoom),
-  'brandZulip':
-      const TablerIcon(TablerIcons.brandZulip, TablerIconsSvg.brandZulip),
-  'brandZwift':
-      const TablerIcon(TablerIcons.brandZwift, TablerIconsSvg.brandZwift),
-  'breadOff': const TablerIcon(TablerIcons.breadOff, TablerIconsSvg.breadOff),
-  'bread': const TablerIcon(TablerIcons.bread, TablerIconsSvg.bread),
-  'briefcase2':
-      const TablerIcon(TablerIcons.briefcase2, TablerIconsSvg.briefcase2),
-  'briefcaseOff':
-      const TablerIcon(TablerIcons.briefcaseOff, TablerIconsSvg.briefcaseOff),
-  'briefcase':
-      const TablerIcon(TablerIcons.briefcase, TablerIconsSvg.briefcase),
-  'brightness2':
-      const TablerIcon(TablerIcons.brightness2, TablerIconsSvg.brightness2),
-  'brightnessDownFilled': const TablerIcon(
-      TablerIcons.brightnessDownFilled, TablerIconsSvg.brightnessDownFilled),
-  'brightnessDown': const TablerIcon(
-      TablerIcons.brightnessDown, TablerIconsSvg.brightnessDown),
-  'brightnessHalf': const TablerIcon(
-      TablerIcons.brightnessHalf, TablerIconsSvg.brightnessHalf),
-  'brightnessOff':
-      const TablerIcon(TablerIcons.brightnessOff, TablerIconsSvg.brightnessOff),
-  'brightnessUpFilled': const TablerIcon(
-      TablerIcons.brightnessUpFilled, TablerIconsSvg.brightnessUpFilled),
-  'brightnessUp':
-      const TablerIcon(TablerIcons.brightnessUp, TablerIconsSvg.brightnessUp),
-  'brightness':
-      const TablerIcon(TablerIcons.brightness, TablerIconsSvg.brightness),
-  'broadcastOff':
-      const TablerIcon(TablerIcons.broadcastOff, TablerIconsSvg.broadcastOff),
-  'broadcast':
-      const TablerIcon(TablerIcons.broadcast, TablerIconsSvg.broadcast),
-  'browserCheck':
-      const TablerIcon(TablerIcons.browserCheck, TablerIconsSvg.browserCheck),
-  'browserOff':
-      const TablerIcon(TablerIcons.browserOff, TablerIconsSvg.browserOff),
-  'browserPlus':
-      const TablerIcon(TablerIcons.browserPlus, TablerIconsSvg.browserPlus),
-  'browserX': const TablerIcon(TablerIcons.browserX, TablerIconsSvg.browserX),
-  'browser': const TablerIcon(TablerIcons.browser, TablerIconsSvg.browser),
-  'brushOff': const TablerIcon(TablerIcons.brushOff, TablerIconsSvg.brushOff),
-  'brush': const TablerIcon(TablerIcons.brush, TablerIconsSvg.brush),
-  'bucketDroplet':
-      const TablerIcon(TablerIcons.bucketDroplet, TablerIconsSvg.bucketDroplet),
-  'bucketOff':
-      const TablerIcon(TablerIcons.bucketOff, TablerIconsSvg.bucketOff),
-  'bucket': const TablerIcon(TablerIcons.bucket, TablerIconsSvg.bucket),
-  'bugOff': const TablerIcon(TablerIcons.bugOff, TablerIconsSvg.bugOff),
-  'bug': const TablerIcon(TablerIcons.bug, TablerIconsSvg.bug),
-  'buildingArch':
-      const TablerIcon(TablerIcons.buildingArch, TablerIconsSvg.buildingArch),
-  'buildingBank':
-      const TablerIcon(TablerIcons.buildingBank, TablerIconsSvg.buildingBank),
-  'buildingBridge2': const TablerIcon(
-      TablerIcons.buildingBridge2, TablerIconsSvg.buildingBridge2),
-  'buildingBridge': const TablerIcon(
-      TablerIcons.buildingBridge, TablerIconsSvg.buildingBridge),
-  'buildingBroadcastTower': const TablerIcon(TablerIcons.buildingBroadcastTower,
-      TablerIconsSvg.buildingBroadcastTower),
-  'buildingCarousel': const TablerIcon(
-      TablerIcons.buildingCarousel, TablerIconsSvg.buildingCarousel),
-  'buildingCastle': const TablerIcon(
-      TablerIcons.buildingCastle, TablerIconsSvg.buildingCastle),
-  'buildingChurch': const TablerIcon(
-      TablerIcons.buildingChurch, TablerIconsSvg.buildingChurch),
-  'buildingCircus': const TablerIcon(
-      TablerIcons.buildingCircus, TablerIconsSvg.buildingCircus),
-  'buildingCommunity': const TablerIcon(
-      TablerIcons.buildingCommunity, TablerIconsSvg.buildingCommunity),
-  'buildingCottage': const TablerIcon(
-      TablerIcons.buildingCottage, TablerIconsSvg.buildingCottage),
-  'buildingEstate': const TablerIcon(
-      TablerIcons.buildingEstate, TablerIconsSvg.buildingEstate),
-  'buildingFactory2': const TablerIcon(
-      TablerIcons.buildingFactory2, TablerIconsSvg.buildingFactory2),
-  'buildingFactory': const TablerIcon(
-      TablerIcons.buildingFactory, TablerIconsSvg.buildingFactory),
-  'buildingFortress': const TablerIcon(
-      TablerIcons.buildingFortress, TablerIconsSvg.buildingFortress),
-  'buildingHospital': const TablerIcon(
-      TablerIcons.buildingHospital, TablerIconsSvg.buildingHospital),
-  'buildingLighthouse': const TablerIcon(
-      TablerIcons.buildingLighthouse, TablerIconsSvg.buildingLighthouse),
-  'buildingMonument': const TablerIcon(
-      TablerIcons.buildingMonument, TablerIconsSvg.buildingMonument),
-  'buildingMosque': const TablerIcon(
-      TablerIcons.buildingMosque, TablerIconsSvg.buildingMosque),
-  'buildingPavilion': const TablerIcon(
-      TablerIcons.buildingPavilion, TablerIconsSvg.buildingPavilion),
-  'buildingSkyscraper': const TablerIcon(
-      TablerIcons.buildingSkyscraper, TablerIconsSvg.buildingSkyscraper),
-  'buildingStadium': const TablerIcon(
-      TablerIcons.buildingStadium, TablerIconsSvg.buildingStadium),
-  'buildingStore':
-      const TablerIcon(TablerIcons.buildingStore, TablerIconsSvg.buildingStore),
-  'buildingTunnel': const TablerIcon(
-      TablerIcons.buildingTunnel, TablerIconsSvg.buildingTunnel),
-  'buildingWarehouse': const TablerIcon(
-      TablerIcons.buildingWarehouse, TablerIconsSvg.buildingWarehouse),
-  'buildingWindTurbine': const TablerIcon(
-      TablerIcons.buildingWindTurbine, TablerIconsSvg.buildingWindTurbine),
-  'building': const TablerIcon(TablerIcons.building, TablerIconsSvg.building),
-  'bulbFilled':
-      const TablerIcon(TablerIcons.bulbFilled, TablerIconsSvg.bulbFilled),
-  'bulbOff': const TablerIcon(TablerIcons.bulbOff, TablerIconsSvg.bulbOff),
-  'bulb': const TablerIcon(TablerIcons.bulb, TablerIconsSvg.bulb),
-  'bulldozer':
-      const TablerIcon(TablerIcons.bulldozer, TablerIconsSvg.bulldozer),
-  'burger': const TablerIcon(TablerIcons.burger, TablerIconsSvg.burger),
-  'busOff': const TablerIcon(TablerIcons.busOff, TablerIconsSvg.busOff),
-  'busStop': const TablerIcon(TablerIcons.busStop, TablerIconsSvg.busStop),
-  'bus': const TablerIcon(TablerIcons.bus, TablerIconsSvg.bus),
-  'businessplan':
-      const TablerIcon(TablerIcons.businessplan, TablerIconsSvg.businessplan),
-  'butterfly':
-      const TablerIcon(TablerIcons.butterfly, TablerIconsSvg.butterfly),
-  'cactusFilled':
-      const TablerIcon(TablerIcons.cactusFilled, TablerIconsSvg.cactusFilled),
-  'cactusOff':
-      const TablerIcon(TablerIcons.cactusOff, TablerIconsSvg.cactusOff),
-  'cactus': const TablerIcon(TablerIcons.cactus, TablerIconsSvg.cactus),
-  'cakeOff': const TablerIcon(TablerIcons.cakeOff, TablerIconsSvg.cakeOff),
-  'cake': const TablerIcon(TablerIcons.cake, TablerIconsSvg.cake),
-  'calculatorFilled': const TablerIcon(
-      TablerIcons.calculatorFilled, TablerIconsSvg.calculatorFilled),
-  'calculatorOff':
-      const TablerIcon(TablerIcons.calculatorOff, TablerIconsSvg.calculatorOff),
-  'calculator':
-      const TablerIcon(TablerIcons.calculator, TablerIconsSvg.calculator),
-  'calendarBolt':
-      const TablerIcon(TablerIcons.calendarBolt, TablerIconsSvg.calendarBolt),
-  'calendarCancel': const TablerIcon(
-      TablerIcons.calendarCancel, TablerIconsSvg.calendarCancel),
-  'calendarCheck':
-      const TablerIcon(TablerIcons.calendarCheck, TablerIconsSvg.calendarCheck),
-  'calendarCode':
-      const TablerIcon(TablerIcons.calendarCode, TablerIconsSvg.calendarCode),
-  'calendarCog':
-      const TablerIcon(TablerIcons.calendarCog, TablerIconsSvg.calendarCog),
-  'calendarDollar': const TablerIcon(
-      TablerIcons.calendarDollar, TablerIconsSvg.calendarDollar),
-  'calendarDown':
-      const TablerIcon(TablerIcons.calendarDown, TablerIconsSvg.calendarDown),
-  'calendarDue':
-      const TablerIcon(TablerIcons.calendarDue, TablerIconsSvg.calendarDue),
-  'calendarEvent':
-      const TablerIcon(TablerIcons.calendarEvent, TablerIconsSvg.calendarEvent),
-  'calendarExclamation': const TablerIcon(
-      TablerIcons.calendarExclamation, TablerIconsSvg.calendarExclamation),
-  'calendarFilled': const TablerIcon(
-      TablerIcons.calendarFilled, TablerIconsSvg.calendarFilled),
-  'calendarHeart':
-      const TablerIcon(TablerIcons.calendarHeart, TablerIconsSvg.calendarHeart),
-  'calendarMinus':
-      const TablerIcon(TablerIcons.calendarMinus, TablerIconsSvg.calendarMinus),
-  'calendarOff':
-      const TablerIcon(TablerIcons.calendarOff, TablerIconsSvg.calendarOff),
-  'calendarPause':
-      const TablerIcon(TablerIcons.calendarPause, TablerIconsSvg.calendarPause),
-  'calendarPin':
-      const TablerIcon(TablerIcons.calendarPin, TablerIconsSvg.calendarPin),
-  'calendarPlus':
-      const TablerIcon(TablerIcons.calendarPlus, TablerIconsSvg.calendarPlus),
-  'calendarQuestion': const TablerIcon(
-      TablerIcons.calendarQuestion, TablerIconsSvg.calendarQuestion),
-  'calendarRepeat': const TablerIcon(
-      TablerIcons.calendarRepeat, TablerIconsSvg.calendarRepeat),
-  'calendarSearch': const TablerIcon(
-      TablerIcons.calendarSearch, TablerIconsSvg.calendarSearch),
-  'calendarShare':
-      const TablerIcon(TablerIcons.calendarShare, TablerIconsSvg.calendarShare),
-  'calendarStar':
-      const TablerIcon(TablerIcons.calendarStar, TablerIconsSvg.calendarStar),
-  'calendarStats':
-      const TablerIcon(TablerIcons.calendarStats, TablerIconsSvg.calendarStats),
-  'calendarTime':
-      const TablerIcon(TablerIcons.calendarTime, TablerIconsSvg.calendarTime),
-  'calendarUp':
-      const TablerIcon(TablerIcons.calendarUp, TablerIconsSvg.calendarUp),
-  'calendarX':
-      const TablerIcon(TablerIcons.calendarX, TablerIconsSvg.calendarX),
-  'calendar': const TablerIcon(TablerIcons.calendar, TablerIconsSvg.calendar),
-  'cameraBolt':
-      const TablerIcon(TablerIcons.cameraBolt, TablerIconsSvg.cameraBolt),
-  'cameraCancel':
-      const TablerIcon(TablerIcons.cameraCancel, TablerIconsSvg.cameraCancel),
-  'cameraCheck':
-      const TablerIcon(TablerIcons.cameraCheck, TablerIconsSvg.cameraCheck),
-  'cameraCode':
-      const TablerIcon(TablerIcons.cameraCode, TablerIconsSvg.cameraCode),
-  'cameraCog':
-      const TablerIcon(TablerIcons.cameraCog, TablerIconsSvg.cameraCog),
-  'cameraDollar':
-      const TablerIcon(TablerIcons.cameraDollar, TablerIconsSvg.cameraDollar),
-  'cameraDown':
-      const TablerIcon(TablerIcons.cameraDown, TablerIconsSvg.cameraDown),
-  'cameraExclamation': const TablerIcon(
-      TablerIcons.cameraExclamation, TablerIconsSvg.cameraExclamation),
-  'cameraFilled':
-      const TablerIcon(TablerIcons.cameraFilled, TablerIconsSvg.cameraFilled),
-  'cameraHeart':
-      const TablerIcon(TablerIcons.cameraHeart, TablerIconsSvg.cameraHeart),
-  'cameraMinus':
-      const TablerIcon(TablerIcons.cameraMinus, TablerIconsSvg.cameraMinus),
-  'cameraOff':
-      const TablerIcon(TablerIcons.cameraOff, TablerIconsSvg.cameraOff),
-  'cameraPause':
-      const TablerIcon(TablerIcons.cameraPause, TablerIconsSvg.cameraPause),
-  'cameraPin':
-      const TablerIcon(TablerIcons.cameraPin, TablerIconsSvg.cameraPin),
-  'cameraPlus':
-      const TablerIcon(TablerIcons.cameraPlus, TablerIconsSvg.cameraPlus),
-  'cameraQuestion': const TablerIcon(
-      TablerIcons.cameraQuestion, TablerIconsSvg.cameraQuestion),
-  'cameraRotate':
-      const TablerIcon(TablerIcons.cameraRotate, TablerIconsSvg.cameraRotate),
-  'cameraSearch':
-      const TablerIcon(TablerIcons.cameraSearch, TablerIconsSvg.cameraSearch),
-  'cameraSelfie':
-      const TablerIcon(TablerIcons.cameraSelfie, TablerIconsSvg.cameraSelfie),
-  'cameraShare':
-      const TablerIcon(TablerIcons.cameraShare, TablerIconsSvg.cameraShare),
-  'cameraStar':
-      const TablerIcon(TablerIcons.cameraStar, TablerIconsSvg.cameraStar),
-  'cameraUp': const TablerIcon(TablerIcons.cameraUp, TablerIconsSvg.cameraUp),
-  'cameraX': const TablerIcon(TablerIcons.cameraX, TablerIconsSvg.cameraX),
-  'camera': const TablerIcon(TablerIcons.camera, TablerIconsSvg.camera),
-  'camper': const TablerIcon(TablerIcons.camper, TablerIconsSvg.camper),
-  'campfireFilled': const TablerIcon(
-      TablerIcons.campfireFilled, TablerIconsSvg.campfireFilled),
-  'campfire': const TablerIcon(TablerIcons.campfire, TablerIconsSvg.campfire),
-  'candleFilled':
-      const TablerIcon(TablerIcons.candleFilled, TablerIconsSvg.candleFilled),
-  'candle': const TablerIcon(TablerIcons.candle, TablerIconsSvg.candle),
-  'candyOff': const TablerIcon(TablerIcons.candyOff, TablerIconsSvg.candyOff),
-  'candy': const TablerIcon(TablerIcons.candy, TablerIconsSvg.candy),
-  'cane': const TablerIcon(TablerIcons.cane, TablerIconsSvg.cane),
-  'cannabis': const TablerIcon(TablerIcons.cannabis, TablerIconsSvg.cannabis),
-  'capsuleFilled':
-      const TablerIcon(TablerIcons.capsuleFilled, TablerIconsSvg.capsuleFilled),
-  'capsuleHorizontalFilled': const TablerIcon(
-      TablerIcons.capsuleHorizontalFilled,
-      TablerIconsSvg.capsuleHorizontalFilled),
-  'capsuleHorizontal': const TablerIcon(
-      TablerIcons.capsuleHorizontal, TablerIconsSvg.capsuleHorizontal),
-  'capsule': const TablerIcon(TablerIcons.capsule, TablerIconsSvg.capsule),
-  'captureFilled':
-      const TablerIcon(TablerIcons.captureFilled, TablerIconsSvg.captureFilled),
-  'captureOff':
-      const TablerIcon(TablerIcons.captureOff, TablerIconsSvg.captureOff),
-  'capture': const TablerIcon(TablerIcons.capture, TablerIconsSvg.capture),
-  'carCrane': const TablerIcon(TablerIcons.carCrane, TablerIconsSvg.carCrane),
-  'carCrash': const TablerIcon(TablerIcons.carCrash, TablerIconsSvg.carCrash),
-  'carGarage':
-      const TablerIcon(TablerIcons.carGarage, TablerIconsSvg.carGarage),
-  'carOff': const TablerIcon(TablerIcons.carOff, TablerIconsSvg.carOff),
-  'carSuv': const TablerIcon(TablerIcons.carSuv, TablerIconsSvg.carSuv),
-  'carTurbine':
-      const TablerIcon(TablerIcons.carTurbine, TablerIconsSvg.carTurbine),
-  'car': const TablerIcon(TablerIcons.car, TablerIconsSvg.car),
-  'caravan': const TablerIcon(TablerIcons.caravan, TablerIconsSvg.caravan),
-  'cardboardsOff':
-      const TablerIcon(TablerIcons.cardboardsOff, TablerIconsSvg.cardboardsOff),
-  'cardboards':
-      const TablerIcon(TablerIcons.cardboards, TablerIconsSvg.cardboards),
-  'cardsFilled':
-      const TablerIcon(TablerIcons.cardsFilled, TablerIconsSvg.cardsFilled),
-  'cards': const TablerIcon(TablerIcons.cards, TablerIconsSvg.cards),
-  'caretDownFilled': const TablerIcon(
-      TablerIcons.caretDownFilled, TablerIconsSvg.caretDownFilled),
-  'caretDown':
-      const TablerIcon(TablerIcons.caretDown, TablerIconsSvg.caretDown),
-  'caretLeftFilled': const TablerIcon(
-      TablerIcons.caretLeftFilled, TablerIconsSvg.caretLeftFilled),
-  'caretLeftRight': const TablerIcon(
-      TablerIcons.caretLeftRight, TablerIconsSvg.caretLeftRight),
-  'caretLeft':
-      const TablerIcon(TablerIcons.caretLeft, TablerIconsSvg.caretLeft),
-  'caretRightFilled': const TablerIcon(
-      TablerIcons.caretRightFilled, TablerIconsSvg.caretRightFilled),
-  'caretRight':
-      const TablerIcon(TablerIcons.caretRight, TablerIconsSvg.caretRight),
-  'caretUpDown':
-      const TablerIcon(TablerIcons.caretUpDown, TablerIconsSvg.caretUpDown),
-  'caretUpFilled':
-      const TablerIcon(TablerIcons.caretUpFilled, TablerIconsSvg.caretUpFilled),
-  'caretUp': const TablerIcon(TablerIcons.caretUp, TablerIconsSvg.caretUp),
-  'carouselHorizontalFilled': const TablerIcon(
-      TablerIcons.carouselHorizontalFilled,
-      TablerIconsSvg.carouselHorizontalFilled),
-  'carouselHorizontal': const TablerIcon(
-      TablerIcons.carouselHorizontal, TablerIconsSvg.carouselHorizontal),
-  'carouselVerticalFilled': const TablerIcon(TablerIcons.carouselVerticalFilled,
-      TablerIconsSvg.carouselVerticalFilled),
-  'carouselVertical': const TablerIcon(
-      TablerIcons.carouselVertical, TablerIconsSvg.carouselVertical),
-  'carrotOff':
-      const TablerIcon(TablerIcons.carrotOff, TablerIconsSvg.carrotOff),
-  'carrot': const TablerIcon(TablerIcons.carrot, TablerIconsSvg.carrot),
-  'cashBanknoteOff': const TablerIcon(
-      TablerIcons.cashBanknoteOff, TablerIconsSvg.cashBanknoteOff),
-  'cashBanknote':
-      const TablerIcon(TablerIcons.cashBanknote, TablerIconsSvg.cashBanknote),
-  'cashOff': const TablerIcon(TablerIcons.cashOff, TablerIconsSvg.cashOff),
-  'cash': const TablerIcon(TablerIcons.cash, TablerIconsSvg.cash),
-  'castOff': const TablerIcon(TablerIcons.castOff, TablerIconsSvg.castOff),
-  'cast': const TablerIcon(TablerIcons.cast, TablerIconsSvg.cast),
-  'cat': const TablerIcon(TablerIcons.cat, TablerIconsSvg.cat),
-  'category2':
-      const TablerIcon(TablerIcons.category2, TablerIconsSvg.category2),
-  'categoryFilled': const TablerIcon(
-      TablerIcons.categoryFilled, TablerIconsSvg.categoryFilled),
-  'category': const TablerIcon(TablerIcons.category, TablerIconsSvg.category),
-  'ceOff': const TablerIcon(TablerIcons.ceOff, TablerIconsSvg.ceOff),
-  'ce': const TablerIcon(TablerIcons.ce, TablerIconsSvg.ce),
-  'cellSignal1':
-      const TablerIcon(TablerIcons.cellSignal1, TablerIconsSvg.cellSignal1),
-  'cellSignal2':
-      const TablerIcon(TablerIcons.cellSignal2, TablerIconsSvg.cellSignal2),
-  'cellSignal3':
-      const TablerIcon(TablerIcons.cellSignal3, TablerIconsSvg.cellSignal3),
-  'cellSignal4':
-      const TablerIcon(TablerIcons.cellSignal4, TablerIconsSvg.cellSignal4),
-  'cellSignal5':
-      const TablerIcon(TablerIcons.cellSignal5, TablerIconsSvg.cellSignal5),
-  'cellSignalOff':
-      const TablerIcon(TablerIcons.cellSignalOff, TablerIconsSvg.cellSignalOff),
-  'cell': const TablerIcon(TablerIcons.cell, TablerIconsSvg.cell),
-  'certificate2Off': const TablerIcon(
-      TablerIcons.certificate2Off, TablerIconsSvg.certificate2Off),
-  'certificate2':
-      const TablerIcon(TablerIcons.certificate2, TablerIconsSvg.certificate2),
-  'certificateOff': const TablerIcon(
-      TablerIcons.certificateOff, TablerIconsSvg.certificateOff),
-  'certificate':
-      const TablerIcon(TablerIcons.certificate, TablerIconsSvg.certificate),
-  'chairDirector':
-      const TablerIcon(TablerIcons.chairDirector, TablerIconsSvg.chairDirector),
-  'chalkboardOff':
-      const TablerIcon(TablerIcons.chalkboardOff, TablerIconsSvg.chalkboardOff),
-  'chalkboard':
-      const TablerIcon(TablerIcons.chalkboard, TablerIconsSvg.chalkboard),
-  'chargingPile':
-      const TablerIcon(TablerIcons.chargingPile, TablerIconsSvg.chargingPile),
-  'chartArcs3':
-      const TablerIcon(TablerIcons.chartArcs3, TablerIconsSvg.chartArcs3),
-  'chartArcs':
-      const TablerIcon(TablerIcons.chartArcs, TablerIconsSvg.chartArcs),
-  'chartAreaFilled': const TablerIcon(
-      TablerIcons.chartAreaFilled, TablerIconsSvg.chartAreaFilled),
-  'chartAreaLineFilled': const TablerIcon(
-      TablerIcons.chartAreaLineFilled, TablerIconsSvg.chartAreaLineFilled),
-  'chartAreaLine':
-      const TablerIcon(TablerIcons.chartAreaLine, TablerIconsSvg.chartAreaLine),
-  'chartArea':
-      const TablerIcon(TablerIcons.chartArea, TablerIconsSvg.chartArea),
-  'chartArrowsVertical': const TablerIcon(
-      TablerIcons.chartArrowsVertical, TablerIconsSvg.chartArrowsVertical),
-  'chartArrows':
-      const TablerIcon(TablerIcons.chartArrows, TablerIconsSvg.chartArrows),
-  'chartBarOff':
-      const TablerIcon(TablerIcons.chartBarOff, TablerIconsSvg.chartBarOff),
-  'chartBar': const TablerIcon(TablerIcons.chartBar, TablerIconsSvg.chartBar),
-  'chartBubbleFilled': const TablerIcon(
-      TablerIcons.chartBubbleFilled, TablerIconsSvg.chartBubbleFilled),
-  'chartBubble':
-      const TablerIcon(TablerIcons.chartBubble, TablerIconsSvg.chartBubble),
-  'chartCandleFilled': const TablerIcon(
-      TablerIcons.chartCandleFilled, TablerIconsSvg.chartCandleFilled),
-  'chartCandle':
-      const TablerIcon(TablerIcons.chartCandle, TablerIconsSvg.chartCandle),
-  'chartCircles':
-      const TablerIcon(TablerIcons.chartCircles, TablerIconsSvg.chartCircles),
-  'chartDonut2':
-      const TablerIcon(TablerIcons.chartDonut2, TablerIconsSvg.chartDonut2),
-  'chartDonut3':
-      const TablerIcon(TablerIcons.chartDonut3, TablerIconsSvg.chartDonut3),
-  'chartDonut4':
-      const TablerIcon(TablerIcons.chartDonut4, TablerIconsSvg.chartDonut4),
-  'chartDonutFilled': const TablerIcon(
-      TablerIcons.chartDonutFilled, TablerIconsSvg.chartDonutFilled),
-  'chartDonut':
-      const TablerIcon(TablerIcons.chartDonut, TablerIconsSvg.chartDonut),
-  'chartDots2':
-      const TablerIcon(TablerIcons.chartDots2, TablerIconsSvg.chartDots2),
-  'chartDots3':
-      const TablerIcon(TablerIcons.chartDots3, TablerIconsSvg.chartDots3),
-  'chartDots':
-      const TablerIcon(TablerIcons.chartDots, TablerIconsSvg.chartDots),
-  'chartGridDots':
-      const TablerIcon(TablerIcons.chartGridDots, TablerIconsSvg.chartGridDots),
-  'chartHistogram': const TablerIcon(
-      TablerIcons.chartHistogram, TablerIconsSvg.chartHistogram),
-  'chartInfographic': const TablerIcon(
-      TablerIcons.chartInfographic, TablerIconsSvg.chartInfographic),
-  'chartLine':
-      const TablerIcon(TablerIcons.chartLine, TablerIconsSvg.chartLine),
-  'chartPie2':
-      const TablerIcon(TablerIcons.chartPie2, TablerIconsSvg.chartPie2),
-  'chartPie3':
-      const TablerIcon(TablerIcons.chartPie3, TablerIconsSvg.chartPie3),
-  'chartPie4':
-      const TablerIcon(TablerIcons.chartPie4, TablerIconsSvg.chartPie4),
-  'chartPieFilled': const TablerIcon(
-      TablerIcons.chartPieFilled, TablerIconsSvg.chartPieFilled),
-  'chartPieOff':
-      const TablerIcon(TablerIcons.chartPieOff, TablerIconsSvg.chartPieOff),
-  'chartPie': const TablerIcon(TablerIcons.chartPie, TablerIconsSvg.chartPie),
-  'chartPpf': const TablerIcon(TablerIcons.chartPpf, TablerIconsSvg.chartPpf),
-  'chartRadar':
-      const TablerIcon(TablerIcons.chartRadar, TablerIconsSvg.chartRadar),
-  'chartSankey':
-      const TablerIcon(TablerIcons.chartSankey, TablerIconsSvg.chartSankey),
-  'chartTreemap':
-      const TablerIcon(TablerIcons.chartTreemap, TablerIconsSvg.chartTreemap),
-  'check': const TablerIcon(TablerIcons.check, TablerIconsSvg.check),
-  'checkbox': const TablerIcon(TablerIcons.checkbox, TablerIconsSvg.checkbox),
-  'checklist':
-      const TablerIcon(TablerIcons.checklist, TablerIconsSvg.checklist),
-  'checks': const TablerIcon(TablerIcons.checks, TablerIconsSvg.checks),
-  'checkupList':
-      const TablerIcon(TablerIcons.checkupList, TablerIconsSvg.checkupList),
-  'cheese': const TablerIcon(TablerIcons.cheese, TablerIconsSvg.cheese),
-  'chefHatOff':
-      const TablerIcon(TablerIcons.chefHatOff, TablerIconsSvg.chefHatOff),
-  'chefHat': const TablerIcon(TablerIcons.chefHat, TablerIconsSvg.chefHat),
-  'cherryFilled':
-      const TablerIcon(TablerIcons.cherryFilled, TablerIconsSvg.cherryFilled),
-  'cherry': const TablerIcon(TablerIcons.cherry, TablerIconsSvg.cherry),
-  'chessBishopFilled': const TablerIcon(
-      TablerIcons.chessBishopFilled, TablerIconsSvg.chessBishopFilled),
-  'chessBishop':
-      const TablerIcon(TablerIcons.chessBishop, TablerIconsSvg.chessBishop),
-  'chessFilled':
-      const TablerIcon(TablerIcons.chessFilled, TablerIconsSvg.chessFilled),
-  'chessKingFilled': const TablerIcon(
-      TablerIcons.chessKingFilled, TablerIconsSvg.chessKingFilled),
-  'chessKing':
-      const TablerIcon(TablerIcons.chessKing, TablerIconsSvg.chessKing),
-  'chessKnightFilled': const TablerIcon(
-      TablerIcons.chessKnightFilled, TablerIconsSvg.chessKnightFilled),
-  'chessKnight':
-      const TablerIcon(TablerIcons.chessKnight, TablerIconsSvg.chessKnight),
-  'chessQueenFilled': const TablerIcon(
-      TablerIcons.chessQueenFilled, TablerIconsSvg.chessQueenFilled),
-  'chessQueen':
-      const TablerIcon(TablerIcons.chessQueen, TablerIconsSvg.chessQueen),
-  'chessRookFilled': const TablerIcon(
-      TablerIcons.chessRookFilled, TablerIconsSvg.chessRookFilled),
-  'chessRook':
-      const TablerIcon(TablerIcons.chessRook, TablerIconsSvg.chessRook),
-  'chess': const TablerIcon(TablerIcons.chess, TablerIconsSvg.chess),
-  'chevronCompactDown': const TablerIcon(
-      TablerIcons.chevronCompactDown, TablerIconsSvg.chevronCompactDown),
-  'chevronCompactLeft': const TablerIcon(
-      TablerIcons.chevronCompactLeft, TablerIconsSvg.chevronCompactLeft),
-  'chevronCompactRight': const TablerIcon(
-      TablerIcons.chevronCompactRight, TablerIconsSvg.chevronCompactRight),
-  'chevronCompactUp': const TablerIcon(
-      TablerIcons.chevronCompactUp, TablerIconsSvg.chevronCompactUp),
-  'chevronDownLeft': const TablerIcon(
-      TablerIcons.chevronDownLeft, TablerIconsSvg.chevronDownLeft),
-  'chevronDownRight': const TablerIcon(
-      TablerIcons.chevronDownRight, TablerIconsSvg.chevronDownRight),
-  'chevronDown':
-      const TablerIcon(TablerIcons.chevronDown, TablerIconsSvg.chevronDown),
-  'chevronLeftPipe': const TablerIcon(
-      TablerIcons.chevronLeftPipe, TablerIconsSvg.chevronLeftPipe),
-  'chevronLeft':
-      const TablerIcon(TablerIcons.chevronLeft, TablerIconsSvg.chevronLeft),
-  'chevronRightPipe': const TablerIcon(
-      TablerIcons.chevronRightPipe, TablerIconsSvg.chevronRightPipe),
-  'chevronRight':
-      const TablerIcon(TablerIcons.chevronRight, TablerIconsSvg.chevronRight),
-  'chevronUpLeft':
-      const TablerIcon(TablerIcons.chevronUpLeft, TablerIconsSvg.chevronUpLeft),
-  'chevronUpRight': const TablerIcon(
-      TablerIcons.chevronUpRight, TablerIconsSvg.chevronUpRight),
-  'chevronUp':
-      const TablerIcon(TablerIcons.chevronUp, TablerIconsSvg.chevronUp),
-  'chevronsDownLeft': const TablerIcon(
-      TablerIcons.chevronsDownLeft, TablerIconsSvg.chevronsDownLeft),
-  'chevronsDownRight': const TablerIcon(
-      TablerIcons.chevronsDownRight, TablerIconsSvg.chevronsDownRight),
-  'chevronsDown':
-      const TablerIcon(TablerIcons.chevronsDown, TablerIconsSvg.chevronsDown),
-  'chevronsLeft':
-      const TablerIcon(TablerIcons.chevronsLeft, TablerIconsSvg.chevronsLeft),
-  'chevronsRight':
-      const TablerIcon(TablerIcons.chevronsRight, TablerIconsSvg.chevronsRight),
-  'chevronsUpLeft': const TablerIcon(
-      TablerIcons.chevronsUpLeft, TablerIconsSvg.chevronsUpLeft),
-  'chevronsUpRight': const TablerIcon(
-      TablerIcons.chevronsUpRight, TablerIconsSvg.chevronsUpRight),
-  'chevronsUp':
-      const TablerIcon(TablerIcons.chevronsUp, TablerIconsSvg.chevronsUp),
-  'chisel': const TablerIcon(TablerIcons.chisel, TablerIconsSvg.chisel),
-  'christmasTreeOff': const TablerIcon(
-      TablerIcons.christmasTreeOff, TablerIconsSvg.christmasTreeOff),
-  'christmasTree':
-      const TablerIcon(TablerIcons.christmasTree, TablerIconsSvg.christmasTree),
-  'circle0Filled':
-      const TablerIcon(TablerIcons.circle0Filled, TablerIconsSvg.circle0Filled),
-  'circle1Filled':
-      const TablerIcon(TablerIcons.circle1Filled, TablerIconsSvg.circle1Filled),
-  'circle2Filled':
-      const TablerIcon(TablerIcons.circle2Filled, TablerIconsSvg.circle2Filled),
-  'circle3Filled':
-      const TablerIcon(TablerIcons.circle3Filled, TablerIconsSvg.circle3Filled),
-  'circle4Filled':
-      const TablerIcon(TablerIcons.circle4Filled, TablerIconsSvg.circle4Filled),
-  'circle5Filled':
-      const TablerIcon(TablerIcons.circle5Filled, TablerIconsSvg.circle5Filled),
-  'circle6Filled':
-      const TablerIcon(TablerIcons.circle6Filled, TablerIconsSvg.circle6Filled),
-  'circle7Filled':
-      const TablerIcon(TablerIcons.circle7Filled, TablerIconsSvg.circle7Filled),
-  'circle8Filled':
-      const TablerIcon(TablerIcons.circle8Filled, TablerIconsSvg.circle8Filled),
-  'circle9Filled':
-      const TablerIcon(TablerIcons.circle9Filled, TablerIconsSvg.circle9Filled),
-  'circleArrowDownFilled': const TablerIcon(
-      TablerIcons.circleArrowDownFilled, TablerIconsSvg.circleArrowDownFilled),
-  'circleArrowDownLeftFilled': const TablerIcon(
-      TablerIcons.circleArrowDownLeftFilled,
-      TablerIconsSvg.circleArrowDownLeftFilled),
-  'circleArrowDownLeft': const TablerIcon(
-      TablerIcons.circleArrowDownLeft, TablerIconsSvg.circleArrowDownLeft),
-  'circleArrowDownRightFilled': const TablerIcon(
-      TablerIcons.circleArrowDownRightFilled,
-      TablerIconsSvg.circleArrowDownRightFilled),
-  'circleArrowDownRight': const TablerIcon(
-      TablerIcons.circleArrowDownRight, TablerIconsSvg.circleArrowDownRight),
-  'circleArrowDown': const TablerIcon(
-      TablerIcons.circleArrowDown, TablerIconsSvg.circleArrowDown),
-  'circleArrowLeftFilled': const TablerIcon(
-      TablerIcons.circleArrowLeftFilled, TablerIconsSvg.circleArrowLeftFilled),
-  'circleArrowLeft': const TablerIcon(
-      TablerIcons.circleArrowLeft, TablerIconsSvg.circleArrowLeft),
-  'circleArrowRightFilled': const TablerIcon(TablerIcons.circleArrowRightFilled,
-      TablerIconsSvg.circleArrowRightFilled),
-  'circleArrowRight': const TablerIcon(
-      TablerIcons.circleArrowRight, TablerIconsSvg.circleArrowRight),
-  'circleArrowUpFilled': const TablerIcon(
-      TablerIcons.circleArrowUpFilled, TablerIconsSvg.circleArrowUpFilled),
-  'circleArrowUpLeftFilled': const TablerIcon(
-      TablerIcons.circleArrowUpLeftFilled,
-      TablerIconsSvg.circleArrowUpLeftFilled),
-  'circleArrowUpLeft': const TablerIcon(
-      TablerIcons.circleArrowUpLeft, TablerIconsSvg.circleArrowUpLeft),
-  'circleArrowUpRightFilled': const TablerIcon(
-      TablerIcons.circleArrowUpRightFilled,
-      TablerIconsSvg.circleArrowUpRightFilled),
-  'circleArrowUpRight': const TablerIcon(
-      TablerIcons.circleArrowUpRight, TablerIconsSvg.circleArrowUpRight),
-  'circleArrowUp':
-      const TablerIcon(TablerIcons.circleArrowUp, TablerIconsSvg.circleArrowUp),
-  'circleCaretDown': const TablerIcon(
-      TablerIcons.circleCaretDown, TablerIconsSvg.circleCaretDown),
-  'circleCaretLeft': const TablerIcon(
-      TablerIcons.circleCaretLeft, TablerIconsSvg.circleCaretLeft),
-  'circleCaretRight': const TablerIcon(
-      TablerIcons.circleCaretRight, TablerIconsSvg.circleCaretRight),
-  'circleCaretUp':
-      const TablerIcon(TablerIcons.circleCaretUp, TablerIconsSvg.circleCaretUp),
-  'circleCheckFilled': const TablerIcon(
-      TablerIcons.circleCheckFilled, TablerIconsSvg.circleCheckFilled),
-  'circleCheck':
-      const TablerIcon(TablerIcons.circleCheck, TablerIconsSvg.circleCheck),
-  'circleChevronDown': const TablerIcon(
-      TablerIcons.circleChevronDown, TablerIconsSvg.circleChevronDown),
-  'circleChevronLeft': const TablerIcon(
-      TablerIcons.circleChevronLeft, TablerIconsSvg.circleChevronLeft),
-  'circleChevronRight': const TablerIcon(
-      TablerIcons.circleChevronRight, TablerIconsSvg.circleChevronRight),
-  'circleChevronUp': const TablerIcon(
-      TablerIcons.circleChevronUp, TablerIconsSvg.circleChevronUp),
-  'circleChevronsDown': const TablerIcon(
-      TablerIcons.circleChevronsDown, TablerIconsSvg.circleChevronsDown),
-  'circleChevronsLeft': const TablerIcon(
-      TablerIcons.circleChevronsLeft, TablerIconsSvg.circleChevronsLeft),
-  'circleChevronsRight': const TablerIcon(
-      TablerIcons.circleChevronsRight, TablerIconsSvg.circleChevronsRight),
-  'circleChevronsUp': const TablerIcon(
-      TablerIcons.circleChevronsUp, TablerIconsSvg.circleChevronsUp),
-  'circleDashedNumber0': const TablerIcon(
-      TablerIcons.circleDashedNumber0, TablerIconsSvg.circleDashedNumber0),
-  'circleDashedNumber1': const TablerIcon(
-      TablerIcons.circleDashedNumber1, TablerIconsSvg.circleDashedNumber1),
-  'circleDashedNumber2': const TablerIcon(
-      TablerIcons.circleDashedNumber2, TablerIconsSvg.circleDashedNumber2),
-  'circleDashedNumber3': const TablerIcon(
-      TablerIcons.circleDashedNumber3, TablerIconsSvg.circleDashedNumber3),
-  'circleDashedNumber4': const TablerIcon(
-      TablerIcons.circleDashedNumber4, TablerIconsSvg.circleDashedNumber4),
-  'circleDashedNumber5': const TablerIcon(
-      TablerIcons.circleDashedNumber5, TablerIconsSvg.circleDashedNumber5),
-  'circleDashedNumber6': const TablerIcon(
-      TablerIcons.circleDashedNumber6, TablerIconsSvg.circleDashedNumber6),
-  'circleDashedNumber7': const TablerIcon(
-      TablerIcons.circleDashedNumber7, TablerIconsSvg.circleDashedNumber7),
-  'circleDashedNumber8': const TablerIcon(
-      TablerIcons.circleDashedNumber8, TablerIconsSvg.circleDashedNumber8),
-  'circleDashedNumber9': const TablerIcon(
-      TablerIcons.circleDashedNumber9, TablerIconsSvg.circleDashedNumber9),
-  'circleDashedX':
-      const TablerIcon(TablerIcons.circleDashedX, TablerIconsSvg.circleDashedX),
-  'circleDashed':
-      const TablerIcon(TablerIcons.circleDashed, TablerIconsSvg.circleDashed),
-  'circleDotFilled': const TablerIcon(
-      TablerIcons.circleDotFilled, TablerIconsSvg.circleDotFilled),
-  'circleDot':
-      const TablerIcon(TablerIcons.circleDot, TablerIconsSvg.circleDot),
-  'circleDotted':
-      const TablerIcon(TablerIcons.circleDotted, TablerIconsSvg.circleDotted),
-  'circleFilled':
-      const TablerIcon(TablerIcons.circleFilled, TablerIconsSvg.circleFilled),
-  'circleHalf2':
-      const TablerIcon(TablerIcons.circleHalf2, TablerIconsSvg.circleHalf2),
-  'circleHalfVertical': const TablerIcon(
-      TablerIcons.circleHalfVertical, TablerIconsSvg.circleHalfVertical),
-  'circleHalf':
-      const TablerIcon(TablerIcons.circleHalf, TablerIconsSvg.circleHalf),
-  'circleKeyFilled': const TablerIcon(
-      TablerIcons.circleKeyFilled, TablerIconsSvg.circleKeyFilled),
-  'circleKey':
-      const TablerIcon(TablerIcons.circleKey, TablerIconsSvg.circleKey),
-  'circleLetterA':
-      const TablerIcon(TablerIcons.circleLetterA, TablerIconsSvg.circleLetterA),
-  'circleLetterB':
-      const TablerIcon(TablerIcons.circleLetterB, TablerIconsSvg.circleLetterB),
-  'circleLetterC':
-      const TablerIcon(TablerIcons.circleLetterC, TablerIconsSvg.circleLetterC),
-  'circleLetterD':
-      const TablerIcon(TablerIcons.circleLetterD, TablerIconsSvg.circleLetterD),
-  'circleLetterE':
-      const TablerIcon(TablerIcons.circleLetterE, TablerIconsSvg.circleLetterE),
-  'circleLetterF':
-      const TablerIcon(TablerIcons.circleLetterF, TablerIconsSvg.circleLetterF),
-  'circleLetterG':
-      const TablerIcon(TablerIcons.circleLetterG, TablerIconsSvg.circleLetterG),
-  'circleLetterH':
-      const TablerIcon(TablerIcons.circleLetterH, TablerIconsSvg.circleLetterH),
-  'circleLetterI':
-      const TablerIcon(TablerIcons.circleLetterI, TablerIconsSvg.circleLetterI),
-  'circleLetterJ':
-      const TablerIcon(TablerIcons.circleLetterJ, TablerIconsSvg.circleLetterJ),
-  'circleLetterK':
-      const TablerIcon(TablerIcons.circleLetterK, TablerIconsSvg.circleLetterK),
-  'circleLetterL':
-      const TablerIcon(TablerIcons.circleLetterL, TablerIconsSvg.circleLetterL),
-  'circleLetterM':
-      const TablerIcon(TablerIcons.circleLetterM, TablerIconsSvg.circleLetterM),
-  'circleLetterN':
-      const TablerIcon(TablerIcons.circleLetterN, TablerIconsSvg.circleLetterN),
-  'circleLetterO':
-      const TablerIcon(TablerIcons.circleLetterO, TablerIconsSvg.circleLetterO),
-  'circleLetterP':
-      const TablerIcon(TablerIcons.circleLetterP, TablerIconsSvg.circleLetterP),
-  'circleLetterQ':
-      const TablerIcon(TablerIcons.circleLetterQ, TablerIconsSvg.circleLetterQ),
-  'circleLetterR':
-      const TablerIcon(TablerIcons.circleLetterR, TablerIconsSvg.circleLetterR),
-  'circleLetterS':
-      const TablerIcon(TablerIcons.circleLetterS, TablerIconsSvg.circleLetterS),
-  'circleLetterT':
-      const TablerIcon(TablerIcons.circleLetterT, TablerIconsSvg.circleLetterT),
-  'circleLetterU':
-      const TablerIcon(TablerIcons.circleLetterU, TablerIconsSvg.circleLetterU),
-  'circleLetterV':
-      const TablerIcon(TablerIcons.circleLetterV, TablerIconsSvg.circleLetterV),
-  'circleLetterW':
-      const TablerIcon(TablerIcons.circleLetterW, TablerIconsSvg.circleLetterW),
-  'circleLetterX':
-      const TablerIcon(TablerIcons.circleLetterX, TablerIconsSvg.circleLetterX),
-  'circleLetterY':
-      const TablerIcon(TablerIcons.circleLetterY, TablerIconsSvg.circleLetterY),
-  'circleLetterZ':
-      const TablerIcon(TablerIcons.circleLetterZ, TablerIconsSvg.circleLetterZ),
-  'circleMinus2':
-      const TablerIcon(TablerIcons.circleMinus2, TablerIconsSvg.circleMinus2),
-  'circleMinus':
-      const TablerIcon(TablerIcons.circleMinus, TablerIconsSvg.circleMinus),
-  'circleNumber0':
-      const TablerIcon(TablerIcons.circleNumber0, TablerIconsSvg.circleNumber0),
-  'circleNumber1':
-      const TablerIcon(TablerIcons.circleNumber1, TablerIconsSvg.circleNumber1),
-  'circleNumber2':
-      const TablerIcon(TablerIcons.circleNumber2, TablerIconsSvg.circleNumber2),
-  'circleNumber3':
-      const TablerIcon(TablerIcons.circleNumber3, TablerIconsSvg.circleNumber3),
-  'circleNumber4':
-      const TablerIcon(TablerIcons.circleNumber4, TablerIconsSvg.circleNumber4),
-  'circleNumber5':
-      const TablerIcon(TablerIcons.circleNumber5, TablerIconsSvg.circleNumber5),
-  'circleNumber6':
-      const TablerIcon(TablerIcons.circleNumber6, TablerIconsSvg.circleNumber6),
-  'circleNumber7':
-      const TablerIcon(TablerIcons.circleNumber7, TablerIconsSvg.circleNumber7),
-  'circleNumber8':
-      const TablerIcon(TablerIcons.circleNumber8, TablerIconsSvg.circleNumber8),
-  'circleNumber9':
-      const TablerIcon(TablerIcons.circleNumber9, TablerIconsSvg.circleNumber9),
-  'circleOff':
-      const TablerIcon(TablerIcons.circleOff, TablerIconsSvg.circleOff),
-  'circlePlus2':
-      const TablerIcon(TablerIcons.circlePlus2, TablerIconsSvg.circlePlus2),
-  'circlePlus':
-      const TablerIcon(TablerIcons.circlePlus, TablerIconsSvg.circlePlus),
-  'circleRectangleOff': const TablerIcon(
-      TablerIcons.circleRectangleOff, TablerIconsSvg.circleRectangleOff),
-  'circleRectangle': const TablerIcon(
-      TablerIcons.circleRectangle, TablerIconsSvg.circleRectangle),
-  'circleSquare':
-      const TablerIcon(TablerIcons.circleSquare, TablerIconsSvg.circleSquare),
-  'circleTriangle': const TablerIcon(
-      TablerIcons.circleTriangle, TablerIconsSvg.circleTriangle),
-  'circleXFilled':
-      const TablerIcon(TablerIcons.circleXFilled, TablerIconsSvg.circleXFilled),
-  'circleX': const TablerIcon(TablerIcons.circleX, TablerIconsSvg.circleX),
-  'circle': const TablerIcon(TablerIcons.circle, TablerIconsSvg.circle),
-  'circlesFilled':
-      const TablerIcon(TablerIcons.circlesFilled, TablerIconsSvg.circlesFilled),
-  'circlesRelation': const TablerIcon(
-      TablerIcons.circlesRelation, TablerIconsSvg.circlesRelation),
-  'circles': const TablerIcon(TablerIcons.circles, TablerIconsSvg.circles),
-  'circuitAmmeter': const TablerIcon(
-      TablerIcons.circuitAmmeter, TablerIconsSvg.circuitAmmeter),
-  'circuitBattery': const TablerIcon(
-      TablerIcons.circuitBattery, TablerIconsSvg.circuitBattery),
-  'circuitBulb':
-      const TablerIcon(TablerIcons.circuitBulb, TablerIconsSvg.circuitBulb),
-  'circuitCapacitorPolarized': const TablerIcon(
-      TablerIcons.circuitCapacitorPolarized,
-      TablerIconsSvg.circuitCapacitorPolarized),
-  'circuitCapacitor': const TablerIcon(
-      TablerIcons.circuitCapacitor, TablerIconsSvg.circuitCapacitor),
-  'circuitCellPlus': const TablerIcon(
-      TablerIcons.circuitCellPlus, TablerIconsSvg.circuitCellPlus),
-  'circuitCell':
-      const TablerIcon(TablerIcons.circuitCell, TablerIconsSvg.circuitCell),
-  'circuitChangeover': const TablerIcon(
-      TablerIcons.circuitChangeover, TablerIconsSvg.circuitChangeover),
-  'circuitDiodeZener': const TablerIcon(
-      TablerIcons.circuitDiodeZener, TablerIconsSvg.circuitDiodeZener),
-  'circuitDiode':
-      const TablerIcon(TablerIcons.circuitDiode, TablerIconsSvg.circuitDiode),
-  'circuitGroundDigital': const TablerIcon(
-      TablerIcons.circuitGroundDigital, TablerIconsSvg.circuitGroundDigital),
-  'circuitGround':
-      const TablerIcon(TablerIcons.circuitGround, TablerIconsSvg.circuitGround),
-  'circuitInductor': const TablerIcon(
-      TablerIcons.circuitInductor, TablerIconsSvg.circuitInductor),
-  'circuitMotor':
-      const TablerIcon(TablerIcons.circuitMotor, TablerIconsSvg.circuitMotor),
-  'circuitPushbutton': const TablerIcon(
-      TablerIcons.circuitPushbutton, TablerIconsSvg.circuitPushbutton),
-  'circuitResistor': const TablerIcon(
-      TablerIcons.circuitResistor, TablerIconsSvg.circuitResistor),
-  'circuitSwitchClosed': const TablerIcon(
-      TablerIcons.circuitSwitchClosed, TablerIconsSvg.circuitSwitchClosed),
-  'circuitSwitchOpen': const TablerIcon(
-      TablerIcons.circuitSwitchOpen, TablerIconsSvg.circuitSwitchOpen),
-  'circuitVoltmeter': const TablerIcon(
-      TablerIcons.circuitVoltmeter, TablerIconsSvg.circuitVoltmeter),
-  'clearAll': const TablerIcon(TablerIcons.clearAll, TablerIconsSvg.clearAll),
-  'clearFormatting': const TablerIcon(
-      TablerIcons.clearFormatting, TablerIconsSvg.clearFormatting),
-  'click': const TablerIcon(TablerIcons.click, TablerIconsSvg.click),
-  'clipboardCheck': const TablerIcon(
-      TablerIcons.clipboardCheck, TablerIconsSvg.clipboardCheck),
-  'clipboardCopy':
-      const TablerIcon(TablerIcons.clipboardCopy, TablerIconsSvg.clipboardCopy),
-  'clipboardData':
-      const TablerIcon(TablerIcons.clipboardData, TablerIconsSvg.clipboardData),
-  'clipboardHeart': const TablerIcon(
-      TablerIcons.clipboardHeart, TablerIconsSvg.clipboardHeart),
-  'clipboardList':
-      const TablerIcon(TablerIcons.clipboardList, TablerIconsSvg.clipboardList),
-  'clipboardOff':
-      const TablerIcon(TablerIcons.clipboardOff, TablerIconsSvg.clipboardOff),
-  'clipboardPlus':
-      const TablerIcon(TablerIcons.clipboardPlus, TablerIconsSvg.clipboardPlus),
-  'clipboardText':
-      const TablerIcon(TablerIcons.clipboardText, TablerIconsSvg.clipboardText),
-  'clipboardTypography': const TablerIcon(
-      TablerIcons.clipboardTypography, TablerIconsSvg.clipboardTypography),
-  'clipboardX':
-      const TablerIcon(TablerIcons.clipboardX, TablerIconsSvg.clipboardX),
-  'clipboard':
-      const TablerIcon(TablerIcons.clipboard, TablerIconsSvg.clipboard),
-  'clock12': const TablerIcon(TablerIcons.clock12, TablerIconsSvg.clock12),
-  'clock2': const TablerIcon(TablerIcons.clock2, TablerIconsSvg.clock2),
-  'clock24': const TablerIcon(TablerIcons.clock24, TablerIconsSvg.clock24),
-  'clockBolt':
-      const TablerIcon(TablerIcons.clockBolt, TablerIconsSvg.clockBolt),
-  'clockCancel':
-      const TablerIcon(TablerIcons.clockCancel, TablerIconsSvg.clockCancel),
-  'clockCheck':
-      const TablerIcon(TablerIcons.clockCheck, TablerIconsSvg.clockCheck),
-  'clockCode':
-      const TablerIcon(TablerIcons.clockCode, TablerIconsSvg.clockCode),
-  'clockCog': const TablerIcon(TablerIcons.clockCog, TablerIconsSvg.clockCog),
-  'clockDollar':
-      const TablerIcon(TablerIcons.clockDollar, TablerIconsSvg.clockDollar),
-  'clockDown':
-      const TablerIcon(TablerIcons.clockDown, TablerIconsSvg.clockDown),
-  'clockEdit':
-      const TablerIcon(TablerIcons.clockEdit, TablerIconsSvg.clockEdit),
-  'clockExclamation': const TablerIcon(
-      TablerIcons.clockExclamation, TablerIconsSvg.clockExclamation),
-  'clockFilled':
-      const TablerIcon(TablerIcons.clockFilled, TablerIconsSvg.clockFilled),
-  'clockHeart':
-      const TablerIcon(TablerIcons.clockHeart, TablerIconsSvg.clockHeart),
-  'clockHour1':
-      const TablerIcon(TablerIcons.clockHour1, TablerIconsSvg.clockHour1),
-  'clockHour10':
-      const TablerIcon(TablerIcons.clockHour10, TablerIconsSvg.clockHour10),
-  'clockHour11':
-      const TablerIcon(TablerIcons.clockHour11, TablerIconsSvg.clockHour11),
-  'clockHour12':
-      const TablerIcon(TablerIcons.clockHour12, TablerIconsSvg.clockHour12),
-  'clockHour2':
-      const TablerIcon(TablerIcons.clockHour2, TablerIconsSvg.clockHour2),
-  'clockHour3':
-      const TablerIcon(TablerIcons.clockHour3, TablerIconsSvg.clockHour3),
-  'clockHour4':
-      const TablerIcon(TablerIcons.clockHour4, TablerIconsSvg.clockHour4),
-  'clockHour5':
-      const TablerIcon(TablerIcons.clockHour5, TablerIconsSvg.clockHour5),
-  'clockHour6':
-      const TablerIcon(TablerIcons.clockHour6, TablerIconsSvg.clockHour6),
-  'clockHour7':
-      const TablerIcon(TablerIcons.clockHour7, TablerIconsSvg.clockHour7),
-  'clockHour8':
-      const TablerIcon(TablerIcons.clockHour8, TablerIconsSvg.clockHour8),
-  'clockHour9':
-      const TablerIcon(TablerIcons.clockHour9, TablerIconsSvg.clockHour9),
-  'clockMinus':
-      const TablerIcon(TablerIcons.clockMinus, TablerIconsSvg.clockMinus),
-  'clockOff': const TablerIcon(TablerIcons.clockOff, TablerIconsSvg.clockOff),
-  'clockPause':
-      const TablerIcon(TablerIcons.clockPause, TablerIconsSvg.clockPause),
-  'clockPin': const TablerIcon(TablerIcons.clockPin, TablerIconsSvg.clockPin),
-  'clockPlay':
-      const TablerIcon(TablerIcons.clockPlay, TablerIconsSvg.clockPlay),
-  'clockPlus':
-      const TablerIcon(TablerIcons.clockPlus, TablerIconsSvg.clockPlus),
-  'clockQuestion':
-      const TablerIcon(TablerIcons.clockQuestion, TablerIconsSvg.clockQuestion),
-  'clockRecord':
-      const TablerIcon(TablerIcons.clockRecord, TablerIconsSvg.clockRecord),
-  'clockSearch':
-      const TablerIcon(TablerIcons.clockSearch, TablerIconsSvg.clockSearch),
-  'clockShare':
-      const TablerIcon(TablerIcons.clockShare, TablerIconsSvg.clockShare),
-  'clockShield':
-      const TablerIcon(TablerIcons.clockShield, TablerIconsSvg.clockShield),
-  'clockStar':
-      const TablerIcon(TablerIcons.clockStar, TablerIconsSvg.clockStar),
-  'clockStop':
-      const TablerIcon(TablerIcons.clockStop, TablerIconsSvg.clockStop),
-  'clockUp': const TablerIcon(TablerIcons.clockUp, TablerIconsSvg.clockUp),
-  'clockX': const TablerIcon(TablerIcons.clockX, TablerIconsSvg.clockX),
-  'clock': const TablerIcon(TablerIcons.clock, TablerIconsSvg.clock),
-  'clothesRackOff': const TablerIcon(
-      TablerIcons.clothesRackOff, TablerIconsSvg.clothesRackOff),
-  'clothesRack':
-      const TablerIcon(TablerIcons.clothesRack, TablerIconsSvg.clothesRack),
-  'cloudBolt':
-      const TablerIcon(TablerIcons.cloudBolt, TablerIconsSvg.cloudBolt),
-  'cloudCancel':
-      const TablerIcon(TablerIcons.cloudCancel, TablerIconsSvg.cloudCancel),
-  'cloudCheck':
-      const TablerIcon(TablerIcons.cloudCheck, TablerIconsSvg.cloudCheck),
-  'cloudCode':
-      const TablerIcon(TablerIcons.cloudCode, TablerIconsSvg.cloudCode),
-  'cloudCog': const TablerIcon(TablerIcons.cloudCog, TablerIconsSvg.cloudCog),
-  'cloudComputing': const TablerIcon(
-      TablerIcons.cloudComputing, TablerIconsSvg.cloudComputing),
-  'cloudDataConnection': const TablerIcon(
-      TablerIcons.cloudDataConnection, TablerIconsSvg.cloudDataConnection),
-  'cloudDollar':
-      const TablerIcon(TablerIcons.cloudDollar, TablerIconsSvg.cloudDollar),
-  'cloudDown':
-      const TablerIcon(TablerIcons.cloudDown, TablerIconsSvg.cloudDown),
-  'cloudDownload':
-      const TablerIcon(TablerIcons.cloudDownload, TablerIconsSvg.cloudDownload),
-  'cloudExclamation': const TablerIcon(
-      TablerIcons.cloudExclamation, TablerIconsSvg.cloudExclamation),
-  'cloudFilled':
-      const TablerIcon(TablerIcons.cloudFilled, TablerIconsSvg.cloudFilled),
-  'cloudFog': const TablerIcon(TablerIcons.cloudFog, TablerIconsSvg.cloudFog),
-  'cloudHeart':
-      const TablerIcon(TablerIcons.cloudHeart, TablerIconsSvg.cloudHeart),
-  'cloudLockOpen':
-      const TablerIcon(TablerIcons.cloudLockOpen, TablerIconsSvg.cloudLockOpen),
-  'cloudLock':
-      const TablerIcon(TablerIcons.cloudLock, TablerIconsSvg.cloudLock),
-  'cloudMinus':
-      const TablerIcon(TablerIcons.cloudMinus, TablerIconsSvg.cloudMinus),
-  'cloudNetwork':
-      const TablerIcon(TablerIcons.cloudNetwork, TablerIconsSvg.cloudNetwork),
-  'cloudOff': const TablerIcon(TablerIcons.cloudOff, TablerIconsSvg.cloudOff),
-  'cloudPause':
-      const TablerIcon(TablerIcons.cloudPause, TablerIconsSvg.cloudPause),
-  'cloudPin': const TablerIcon(TablerIcons.cloudPin, TablerIconsSvg.cloudPin),
-  'cloudPlus':
-      const TablerIcon(TablerIcons.cloudPlus, TablerIconsSvg.cloudPlus),
-  'cloudQuestion':
-      const TablerIcon(TablerIcons.cloudQuestion, TablerIconsSvg.cloudQuestion),
-  'cloudRain':
-      const TablerIcon(TablerIcons.cloudRain, TablerIconsSvg.cloudRain),
-  'cloudSearch':
-      const TablerIcon(TablerIcons.cloudSearch, TablerIconsSvg.cloudSearch),
-  'cloudShare':
-      const TablerIcon(TablerIcons.cloudShare, TablerIconsSvg.cloudShare),
-  'cloudSnow':
-      const TablerIcon(TablerIcons.cloudSnow, TablerIconsSvg.cloudSnow),
-  'cloudStar':
-      const TablerIcon(TablerIcons.cloudStar, TablerIconsSvg.cloudStar),
-  'cloudStorm':
-      const TablerIcon(TablerIcons.cloudStorm, TablerIconsSvg.cloudStorm),
-  'cloudUp': const TablerIcon(TablerIcons.cloudUp, TablerIconsSvg.cloudUp),
-  'cloudUpload':
-      const TablerIcon(TablerIcons.cloudUpload, TablerIconsSvg.cloudUpload),
-  'cloudX': const TablerIcon(TablerIcons.cloudX, TablerIconsSvg.cloudX),
-  'cloud': const TablerIcon(TablerIcons.cloud, TablerIconsSvg.cloud),
-  'clover2': const TablerIcon(TablerIcons.clover2, TablerIconsSvg.clover2),
-  'clover': const TablerIcon(TablerIcons.clover, TablerIconsSvg.clover),
-  'clubsFilled':
-      const TablerIcon(TablerIcons.clubsFilled, TablerIconsSvg.clubsFilled),
-  'clubs': const TablerIcon(TablerIcons.clubs, TablerIconsSvg.clubs),
-  'codeAsterix':
-      const TablerIcon(TablerIcons.codeAsterix, TablerIconsSvg.codeAsterix),
-  'codeCircle2':
-      const TablerIcon(TablerIcons.codeCircle2, TablerIconsSvg.codeCircle2),
-  'codeCircle':
-      const TablerIcon(TablerIcons.codeCircle, TablerIconsSvg.codeCircle),
-  'codeDots': const TablerIcon(TablerIcons.codeDots, TablerIconsSvg.codeDots),
-  'codeMinus':
-      const TablerIcon(TablerIcons.codeMinus, TablerIconsSvg.codeMinus),
-  'codeOff': const TablerIcon(TablerIcons.codeOff, TablerIconsSvg.codeOff),
-  'codePlus': const TablerIcon(TablerIcons.codePlus, TablerIconsSvg.codePlus),
-  'code': const TablerIcon(TablerIcons.code, TablerIconsSvg.code),
-  'coffeeOff':
-      const TablerIcon(TablerIcons.coffeeOff, TablerIconsSvg.coffeeOff),
-  'coffee': const TablerIcon(TablerIcons.coffee, TablerIconsSvg.coffee),
-  'coffin': const TablerIcon(TablerIcons.coffin, TablerIconsSvg.coffin),
-  'coinBitcoin':
-      const TablerIcon(TablerIcons.coinBitcoin, TablerIconsSvg.coinBitcoin),
-  'coinEuro': const TablerIcon(TablerIcons.coinEuro, TablerIconsSvg.coinEuro),
-  'coinMonero':
-      const TablerIcon(TablerIcons.coinMonero, TablerIconsSvg.coinMonero),
-  'coinOff': const TablerIcon(TablerIcons.coinOff, TablerIconsSvg.coinOff),
-  'coinPound':
-      const TablerIcon(TablerIcons.coinPound, TablerIconsSvg.coinPound),
-  'coinRupee':
-      const TablerIcon(TablerIcons.coinRupee, TablerIconsSvg.coinRupee),
-  'coinYen': const TablerIcon(TablerIcons.coinYen, TablerIconsSvg.coinYen),
-  'coinYuan': const TablerIcon(TablerIcons.coinYuan, TablerIconsSvg.coinYuan),
-  'coin': const TablerIcon(TablerIcons.coin, TablerIconsSvg.coin),
-  'coins': const TablerIcon(TablerIcons.coins, TablerIconsSvg.coins),
-  'colorFilter':
-      const TablerIcon(TablerIcons.colorFilter, TablerIconsSvg.colorFilter),
-  'colorPickerOff': const TablerIcon(
-      TablerIcons.colorPickerOff, TablerIconsSvg.colorPickerOff),
-  'colorPicker':
-      const TablerIcon(TablerIcons.colorPicker, TablerIconsSvg.colorPicker),
-  'colorSwatchOff': const TablerIcon(
-      TablerIcons.colorSwatchOff, TablerIconsSvg.colorSwatchOff),
-  'colorSwatch':
-      const TablerIcon(TablerIcons.colorSwatch, TablerIconsSvg.colorSwatch),
-  'columnInsertLeft': const TablerIcon(
-      TablerIcons.columnInsertLeft, TablerIconsSvg.columnInsertLeft),
-  'columnInsertRight': const TablerIcon(
-      TablerIcons.columnInsertRight, TablerIconsSvg.columnInsertRight),
-  'columnRemove':
-      const TablerIcon(TablerIcons.columnRemove, TablerIconsSvg.columnRemove),
-  'columns1': const TablerIcon(TablerIcons.columns1, TablerIconsSvg.columns1),
-  'columns2': const TablerIcon(TablerIcons.columns2, TablerIconsSvg.columns2),
-  'columns3': const TablerIcon(TablerIcons.columns3, TablerIconsSvg.columns3),
-  'columnsOff':
-      const TablerIcon(TablerIcons.columnsOff, TablerIconsSvg.columnsOff),
-  'columns': const TablerIcon(TablerIcons.columns, TablerIconsSvg.columns),
-  'comet': const TablerIcon(TablerIcons.comet, TablerIconsSvg.comet),
-  'commandOff':
-      const TablerIcon(TablerIcons.commandOff, TablerIconsSvg.commandOff),
-  'command': const TablerIcon(TablerIcons.command, TablerIconsSvg.command),
-  'compassOff':
-      const TablerIcon(TablerIcons.compassOff, TablerIconsSvg.compassOff),
-  'compass': const TablerIcon(TablerIcons.compass, TablerIconsSvg.compass),
-  'componentsOff':
-      const TablerIcon(TablerIcons.componentsOff, TablerIconsSvg.componentsOff),
-  'components':
-      const TablerIcon(TablerIcons.components, TablerIconsSvg.components),
-  'cone2': const TablerIcon(TablerIcons.cone2, TablerIconsSvg.cone2),
-  'coneOff': const TablerIcon(TablerIcons.coneOff, TablerIconsSvg.coneOff),
-  'conePlus': const TablerIcon(TablerIcons.conePlus, TablerIconsSvg.conePlus),
-  'cone': const TablerIcon(TablerIcons.cone, TablerIconsSvg.cone),
-  'confettiOff':
-      const TablerIcon(TablerIcons.confettiOff, TablerIconsSvg.confettiOff),
-  'confetti': const TablerIcon(TablerIcons.confetti, TablerIconsSvg.confetti),
-  'confucius':
-      const TablerIcon(TablerIcons.confucius, TablerIconsSvg.confucius),
-  'containerOff':
-      const TablerIcon(TablerIcons.containerOff, TablerIconsSvg.containerOff),
-  'container':
-      const TablerIcon(TablerIcons.container, TablerIconsSvg.container),
-  'contrast2Off':
-      const TablerIcon(TablerIcons.contrast2Off, TablerIconsSvg.contrast2Off),
-  'contrast2':
-      const TablerIcon(TablerIcons.contrast2, TablerIconsSvg.contrast2),
-  'contrastOff':
-      const TablerIcon(TablerIcons.contrastOff, TablerIconsSvg.contrastOff),
-  'contrast': const TablerIcon(TablerIcons.contrast, TablerIconsSvg.contrast),
-  'cooker': const TablerIcon(TablerIcons.cooker, TablerIconsSvg.cooker),
-  'cookieMan':
-      const TablerIcon(TablerIcons.cookieMan, TablerIconsSvg.cookieMan),
-  'cookieOff':
-      const TablerIcon(TablerIcons.cookieOff, TablerIconsSvg.cookieOff),
-  'cookie': const TablerIcon(TablerIcons.cookie, TablerIconsSvg.cookie),
-  'copyOff': const TablerIcon(TablerIcons.copyOff, TablerIconsSvg.copyOff),
-  'copy': const TablerIcon(TablerIcons.copy, TablerIconsSvg.copy),
-  'copyleftFilled': const TablerIcon(
-      TablerIcons.copyleftFilled, TablerIconsSvg.copyleftFilled),
-  'copyleftOff':
-      const TablerIcon(TablerIcons.copyleftOff, TablerIconsSvg.copyleftOff),
-  'copyleft': const TablerIcon(TablerIcons.copyleft, TablerIconsSvg.copyleft),
-  'copyrightFilled': const TablerIcon(
-      TablerIcons.copyrightFilled, TablerIconsSvg.copyrightFilled),
-  'copyrightOff':
-      const TablerIcon(TablerIcons.copyrightOff, TablerIconsSvg.copyrightOff),
-  'copyright':
-      const TablerIcon(TablerIcons.copyright, TablerIconsSvg.copyright),
-  'cornerDownLeftDouble': const TablerIcon(
-      TablerIcons.cornerDownLeftDouble, TablerIconsSvg.cornerDownLeftDouble),
-  'cornerDownLeft': const TablerIcon(
-      TablerIcons.cornerDownLeft, TablerIconsSvg.cornerDownLeft),
-  'cornerDownRightDouble': const TablerIcon(
-      TablerIcons.cornerDownRightDouble, TablerIconsSvg.cornerDownRightDouble),
-  'cornerDownRight': const TablerIcon(
-      TablerIcons.cornerDownRight, TablerIconsSvg.cornerDownRight),
-  'cornerLeftDownDouble': const TablerIcon(
-      TablerIcons.cornerLeftDownDouble, TablerIconsSvg.cornerLeftDownDouble),
-  'cornerLeftDown': const TablerIcon(
-      TablerIcons.cornerLeftDown, TablerIconsSvg.cornerLeftDown),
-  'cornerLeftUpDouble': const TablerIcon(
-      TablerIcons.cornerLeftUpDouble, TablerIconsSvg.cornerLeftUpDouble),
-  'cornerLeftUp':
-      const TablerIcon(TablerIcons.cornerLeftUp, TablerIconsSvg.cornerLeftUp),
-  'cornerRightDownDouble': const TablerIcon(
-      TablerIcons.cornerRightDownDouble, TablerIconsSvg.cornerRightDownDouble),
-  'cornerRightDown': const TablerIcon(
-      TablerIcons.cornerRightDown, TablerIconsSvg.cornerRightDown),
-  'cornerRightUpDouble': const TablerIcon(
-      TablerIcons.cornerRightUpDouble, TablerIconsSvg.cornerRightUpDouble),
-  'cornerRightUp':
-      const TablerIcon(TablerIcons.cornerRightUp, TablerIconsSvg.cornerRightUp),
-  'cornerUpLeftDouble': const TablerIcon(
-      TablerIcons.cornerUpLeftDouble, TablerIconsSvg.cornerUpLeftDouble),
-  'cornerUpLeft':
-      const TablerIcon(TablerIcons.cornerUpLeft, TablerIconsSvg.cornerUpLeft),
-  'cornerUpRightDouble': const TablerIcon(
-      TablerIcons.cornerUpRightDouble, TablerIconsSvg.cornerUpRightDouble),
-  'cornerUpRight':
-      const TablerIcon(TablerIcons.cornerUpRight, TablerIconsSvg.cornerUpRight),
-  'cpu2': const TablerIcon(TablerIcons.cpu2, TablerIconsSvg.cpu2),
-  'cpuOff': const TablerIcon(TablerIcons.cpuOff, TablerIconsSvg.cpuOff),
-  'cpu': const TablerIcon(TablerIcons.cpu, TablerIconsSvg.cpu),
-  'craneOff': const TablerIcon(TablerIcons.craneOff, TablerIconsSvg.craneOff),
-  'crane': const TablerIcon(TablerIcons.crane, TablerIconsSvg.crane),
-  'creativeCommonsBy': const TablerIcon(
-      TablerIcons.creativeCommonsBy, TablerIconsSvg.creativeCommonsBy),
-  'creativeCommonsNc': const TablerIcon(
-      TablerIcons.creativeCommonsNc, TablerIconsSvg.creativeCommonsNc),
-  'creativeCommonsNd': const TablerIcon(
-      TablerIcons.creativeCommonsNd, TablerIconsSvg.creativeCommonsNd),
-  'creativeCommonsOff': const TablerIcon(
-      TablerIcons.creativeCommonsOff, TablerIconsSvg.creativeCommonsOff),
-  'creativeCommonsSa': const TablerIcon(
-      TablerIcons.creativeCommonsSa, TablerIconsSvg.creativeCommonsSa),
-  'creativeCommonsZero': const TablerIcon(
-      TablerIcons.creativeCommonsZero, TablerIconsSvg.creativeCommonsZero),
-  'creativeCommons': const TablerIcon(
-      TablerIcons.creativeCommons, TablerIconsSvg.creativeCommons),
-  'creditCardOff':
-      const TablerIcon(TablerIcons.creditCardOff, TablerIconsSvg.creditCardOff),
-  'creditCard':
-      const TablerIcon(TablerIcons.creditCard, TablerIconsSvg.creditCard),
-  'cricket': const TablerIcon(TablerIcons.cricket, TablerIconsSvg.cricket),
-  'crop': const TablerIcon(TablerIcons.crop, TablerIconsSvg.crop),
-  'crossFilled':
-      const TablerIcon(TablerIcons.crossFilled, TablerIconsSvg.crossFilled),
-  'crossOff': const TablerIcon(TablerIcons.crossOff, TablerIconsSvg.crossOff),
-  'cross': const TablerIcon(TablerIcons.cross, TablerIconsSvg.cross),
-  'crosshair':
-      const TablerIcon(TablerIcons.crosshair, TablerIconsSvg.crosshair),
-  'crownOff': const TablerIcon(TablerIcons.crownOff, TablerIconsSvg.crownOff),
-  'crown': const TablerIcon(TablerIcons.crown, TablerIconsSvg.crown),
-  'crutchesOff':
-      const TablerIcon(TablerIcons.crutchesOff, TablerIconsSvg.crutchesOff),
-  'crutches': const TablerIcon(TablerIcons.crutches, TablerIconsSvg.crutches),
-  'crystalBall':
-      const TablerIcon(TablerIcons.crystalBall, TablerIconsSvg.crystalBall),
-  'csv': const TablerIcon(TablerIcons.csv, TablerIconsSvg.csv),
-  'cubeOff': const TablerIcon(TablerIcons.cubeOff, TablerIconsSvg.cubeOff),
-  'cubePlus': const TablerIcon(TablerIcons.cubePlus, TablerIconsSvg.cubePlus),
-  'cubeSend': const TablerIcon(TablerIcons.cubeSend, TablerIconsSvg.cubeSend),
-  'cubeUnfolded':
-      const TablerIcon(TablerIcons.cubeUnfolded, TablerIconsSvg.cubeUnfolded),
-  'cube': const TablerIcon(TablerIcons.cube, TablerIconsSvg.cube),
-  'cupOff': const TablerIcon(TablerIcons.cupOff, TablerIconsSvg.cupOff),
-  'cup': const TablerIcon(TablerIcons.cup, TablerIconsSvg.cup),
-  'curling': const TablerIcon(TablerIcons.curling, TablerIconsSvg.curling),
-  'curlyLoop':
-      const TablerIcon(TablerIcons.curlyLoop, TablerIconsSvg.curlyLoop),
-  'currencyAfghani': const TablerIcon(
-      TablerIcons.currencyAfghani, TablerIconsSvg.currencyAfghani),
-  'currencyBahraini': const TablerIcon(
-      TablerIcons.currencyBahraini, TablerIconsSvg.currencyBahraini),
-  'currencyBaht':
-      const TablerIcon(TablerIcons.currencyBaht, TablerIconsSvg.currencyBaht),
-  'currencyBitcoin': const TablerIcon(
-      TablerIcons.currencyBitcoin, TablerIconsSvg.currencyBitcoin),
-  'currencyCent':
-      const TablerIcon(TablerIcons.currencyCent, TablerIconsSvg.currencyCent),
-  'currencyDinar':
-      const TablerIcon(TablerIcons.currencyDinar, TablerIconsSvg.currencyDinar),
-  'currencyDirham': const TablerIcon(
-      TablerIcons.currencyDirham, TablerIconsSvg.currencyDirham),
-  'currencyDogecoin': const TablerIcon(
-      TablerIcons.currencyDogecoin, TablerIconsSvg.currencyDogecoin),
-  'currencyDollarAustralian': const TablerIcon(
-      TablerIcons.currencyDollarAustralian,
-      TablerIconsSvg.currencyDollarAustralian),
-  'currencyDollarBrunei': const TablerIcon(
-      TablerIcons.currencyDollarBrunei, TablerIconsSvg.currencyDollarBrunei),
-  'currencyDollarCanadian': const TablerIcon(TablerIcons.currencyDollarCanadian,
-      TablerIconsSvg.currencyDollarCanadian),
-  'currencyDollarGuyanese': const TablerIcon(TablerIcons.currencyDollarGuyanese,
-      TablerIconsSvg.currencyDollarGuyanese),
-  'currencyDollarOff': const TablerIcon(
-      TablerIcons.currencyDollarOff, TablerIconsSvg.currencyDollarOff),
-  'currencyDollarSingapore': const TablerIcon(
-      TablerIcons.currencyDollarSingapore,
-      TablerIconsSvg.currencyDollarSingapore),
-  'currencyDollarZimbabwean': const TablerIcon(
-      TablerIcons.currencyDollarZimbabwean,
-      TablerIconsSvg.currencyDollarZimbabwean),
-  'currencyDollar': const TablerIcon(
-      TablerIcons.currencyDollar, TablerIconsSvg.currencyDollar),
-  'currencyDong':
-      const TablerIcon(TablerIcons.currencyDong, TablerIconsSvg.currencyDong),
-  'currencyDram':
-      const TablerIcon(TablerIcons.currencyDram, TablerIconsSvg.currencyDram),
-  'currencyEthereum': const TablerIcon(
-      TablerIcons.currencyEthereum, TablerIconsSvg.currencyEthereum),
-  'currencyEuroOff': const TablerIcon(
-      TablerIcons.currencyEuroOff, TablerIconsSvg.currencyEuroOff),
-  'currencyEuro':
-      const TablerIcon(TablerIcons.currencyEuro, TablerIconsSvg.currencyEuro),
-  'currencyFlorin': const TablerIcon(
-      TablerIcons.currencyFlorin, TablerIconsSvg.currencyFlorin),
-  'currencyForint': const TablerIcon(
-      TablerIcons.currencyForint, TablerIconsSvg.currencyForint),
-  'currencyFrank':
-      const TablerIcon(TablerIcons.currencyFrank, TablerIconsSvg.currencyFrank),
-  'currencyGuarani': const TablerIcon(
-      TablerIcons.currencyGuarani, TablerIconsSvg.currencyGuarani),
-  'currencyHryvnia': const TablerIcon(
-      TablerIcons.currencyHryvnia, TablerIconsSvg.currencyHryvnia),
-  'currencyIranianRial': const TablerIcon(
-      TablerIcons.currencyIranianRial, TablerIconsSvg.currencyIranianRial),
-  'currencyKip':
-      const TablerIcon(TablerIcons.currencyKip, TablerIconsSvg.currencyKip),
-  'currencyKroneCzech': const TablerIcon(
-      TablerIcons.currencyKroneCzech, TablerIconsSvg.currencyKroneCzech),
-  'currencyKroneDanish': const TablerIcon(
-      TablerIcons.currencyKroneDanish, TablerIconsSvg.currencyKroneDanish),
-  'currencyKroneSwedish': const TablerIcon(
-      TablerIcons.currencyKroneSwedish, TablerIconsSvg.currencyKroneSwedish),
-  'currencyLari':
-      const TablerIcon(TablerIcons.currencyLari, TablerIconsSvg.currencyLari),
-  'currencyLeu':
-      const TablerIcon(TablerIcons.currencyLeu, TablerIconsSvg.currencyLeu),
-  'currencyLira':
-      const TablerIcon(TablerIcons.currencyLira, TablerIconsSvg.currencyLira),
-  'currencyLitecoin': const TablerIcon(
-      TablerIcons.currencyLitecoin, TablerIconsSvg.currencyLitecoin),
-  'currencyLyd':
-      const TablerIcon(TablerIcons.currencyLyd, TablerIconsSvg.currencyLyd),
-  'currencyManat':
-      const TablerIcon(TablerIcons.currencyManat, TablerIconsSvg.currencyManat),
-  'currencyMonero': const TablerIcon(
-      TablerIcons.currencyMonero, TablerIconsSvg.currencyMonero),
-  'currencyNaira':
-      const TablerIcon(TablerIcons.currencyNaira, TablerIconsSvg.currencyNaira),
-  'currencyNano':
-      const TablerIcon(TablerIcons.currencyNano, TablerIconsSvg.currencyNano),
-  'currencyOff':
-      const TablerIcon(TablerIcons.currencyOff, TablerIconsSvg.currencyOff),
-  'currencyPaanga': const TablerIcon(
-      TablerIcons.currencyPaanga, TablerIconsSvg.currencyPaanga),
-  'currencyPeso':
-      const TablerIcon(TablerIcons.currencyPeso, TablerIconsSvg.currencyPeso),
-  'currencyPoundOff': const TablerIcon(
-      TablerIcons.currencyPoundOff, TablerIconsSvg.currencyPoundOff),
-  'currencyPound':
-      const TablerIcon(TablerIcons.currencyPound, TablerIconsSvg.currencyPound),
-  'currencyQuetzal': const TablerIcon(
-      TablerIcons.currencyQuetzal, TablerIconsSvg.currencyQuetzal),
-  'currencyReal':
-      const TablerIcon(TablerIcons.currencyReal, TablerIconsSvg.currencyReal),
-  'currencyRenminbi': const TablerIcon(
-      TablerIcons.currencyRenminbi, TablerIconsSvg.currencyRenminbi),
-  'currencyRipple': const TablerIcon(
-      TablerIcons.currencyRipple, TablerIconsSvg.currencyRipple),
-  'currencyRiyal':
-      const TablerIcon(TablerIcons.currencyRiyal, TablerIconsSvg.currencyRiyal),
-  'currencyRubel':
-      const TablerIcon(TablerIcons.currencyRubel, TablerIconsSvg.currencyRubel),
-  'currencyRufiyaa': const TablerIcon(
-      TablerIcons.currencyRufiyaa, TablerIconsSvg.currencyRufiyaa),
-  'currencyRupeeNepalese': const TablerIcon(
-      TablerIcons.currencyRupeeNepalese, TablerIconsSvg.currencyRupeeNepalese),
-  'currencyRupee':
-      const TablerIcon(TablerIcons.currencyRupee, TablerIconsSvg.currencyRupee),
-  'currencyShekel': const TablerIcon(
-      TablerIcons.currencyShekel, TablerIconsSvg.currencyShekel),
-  'currencySolana': const TablerIcon(
-      TablerIcons.currencySolana, TablerIconsSvg.currencySolana),
-  'currencySom':
-      const TablerIcon(TablerIcons.currencySom, TablerIconsSvg.currencySom),
-  'currencyTaka':
-      const TablerIcon(TablerIcons.currencyTaka, TablerIconsSvg.currencyTaka),
-  'currencyTenge':
-      const TablerIcon(TablerIcons.currencyTenge, TablerIconsSvg.currencyTenge),
-  'currencyTugrik': const TablerIcon(
-      TablerIcons.currencyTugrik, TablerIconsSvg.currencyTugrik),
-  'currencyWon':
-      const TablerIcon(TablerIcons.currencyWon, TablerIconsSvg.currencyWon),
-  'currencyYenOff': const TablerIcon(
-      TablerIcons.currencyYenOff, TablerIconsSvg.currencyYenOff),
-  'currencyYen':
-      const TablerIcon(TablerIcons.currencyYen, TablerIconsSvg.currencyYen),
-  'currencyYuan':
-      const TablerIcon(TablerIcons.currencyYuan, TablerIconsSvg.currencyYuan),
-  'currencyZloty':
-      const TablerIcon(TablerIcons.currencyZloty, TablerIconsSvg.currencyZloty),
-  'currency': const TablerIcon(TablerIcons.currency, TablerIconsSvg.currency),
-  'currentLocationOff': const TablerIcon(
-      TablerIcons.currentLocationOff, TablerIconsSvg.currentLocationOff),
-  'currentLocation': const TablerIcon(
-      TablerIcons.currentLocation, TablerIconsSvg.currentLocation),
-  'cursorOff':
-      const TablerIcon(TablerIcons.cursorOff, TablerIconsSvg.cursorOff),
-  'cursorText':
-      const TablerIcon(TablerIcons.cursorText, TablerIconsSvg.cursorText),
-  'cut': const TablerIcon(TablerIcons.cut, TablerIconsSvg.cut),
-  'cylinderOff':
-      const TablerIcon(TablerIcons.cylinderOff, TablerIconsSvg.cylinderOff),
-  'cylinderPlus':
-      const TablerIcon(TablerIcons.cylinderPlus, TablerIconsSvg.cylinderPlus),
-  'cylinder': const TablerIcon(TablerIcons.cylinder, TablerIconsSvg.cylinder),
-  'dashboardOff':
-      const TablerIcon(TablerIcons.dashboardOff, TablerIconsSvg.dashboardOff),
-  'dashboard':
-      const TablerIcon(TablerIcons.dashboard, TablerIconsSvg.dashboard),
-  'databaseCog':
-      const TablerIcon(TablerIcons.databaseCog, TablerIconsSvg.databaseCog),
-  'databaseDollar': const TablerIcon(
-      TablerIcons.databaseDollar, TablerIconsSvg.databaseDollar),
-  'databaseEdit':
-      const TablerIcon(TablerIcons.databaseEdit, TablerIconsSvg.databaseEdit),
-  'databaseExclamation': const TablerIcon(
-      TablerIcons.databaseExclamation, TablerIconsSvg.databaseExclamation),
-  'databaseExport': const TablerIcon(
-      TablerIcons.databaseExport, TablerIconsSvg.databaseExport),
-  'databaseHeart':
-      const TablerIcon(TablerIcons.databaseHeart, TablerIconsSvg.databaseHeart),
-  'databaseImport': const TablerIcon(
-      TablerIcons.databaseImport, TablerIconsSvg.databaseImport),
-  'databaseLeak':
-      const TablerIcon(TablerIcons.databaseLeak, TablerIconsSvg.databaseLeak),
-  'databaseMinus':
-      const TablerIcon(TablerIcons.databaseMinus, TablerIconsSvg.databaseMinus),
-  'databaseOff':
-      const TablerIcon(TablerIcons.databaseOff, TablerIconsSvg.databaseOff),
-  'databasePlus':
-      const TablerIcon(TablerIcons.databasePlus, TablerIconsSvg.databasePlus),
-  'databaseSearch': const TablerIcon(
-      TablerIcons.databaseSearch, TablerIconsSvg.databaseSearch),
-  'databaseShare':
-      const TablerIcon(TablerIcons.databaseShare, TablerIconsSvg.databaseShare),
-  'databaseStar':
-      const TablerIcon(TablerIcons.databaseStar, TablerIconsSvg.databaseStar),
-  'databaseX':
-      const TablerIcon(TablerIcons.databaseX, TablerIconsSvg.databaseX),
-  'database': const TablerIcon(TablerIcons.database, TablerIconsSvg.database),
-  'decimal': const TablerIcon(TablerIcons.decimal, TablerIconsSvg.decimal),
-  'deer': const TablerIcon(TablerIcons.deer, TablerIconsSvg.deer),
-  'delta': const TablerIcon(TablerIcons.delta, TablerIconsSvg.delta),
-  'dentalBroken':
-      const TablerIcon(TablerIcons.dentalBroken, TablerIconsSvg.dentalBroken),
-  'dentalOff':
-      const TablerIcon(TablerIcons.dentalOff, TablerIconsSvg.dentalOff),
-  'dental': const TablerIcon(TablerIcons.dental, TablerIconsSvg.dental),
-  'deselect': const TablerIcon(TablerIcons.deselect, TablerIconsSvg.deselect),
-  'detailsOff':
-      const TablerIcon(TablerIcons.detailsOff, TablerIconsSvg.detailsOff),
-  'details': const TablerIcon(TablerIcons.details, TablerIconsSvg.details),
-  'deviceAirpodsCase': const TablerIcon(
-      TablerIcons.deviceAirpodsCase, TablerIconsSvg.deviceAirpodsCase),
-  'deviceAirpods':
-      const TablerIcon(TablerIcons.deviceAirpods, TablerIconsSvg.deviceAirpods),
-  'deviceAirtag':
-      const TablerIcon(TablerIcons.deviceAirtag, TablerIconsSvg.deviceAirtag),
-  'deviceAnalytics': const TablerIcon(
-      TablerIcons.deviceAnalytics, TablerIconsSvg.deviceAnalytics),
-  'deviceAudioTape': const TablerIcon(
-      TablerIcons.deviceAudioTape, TablerIconsSvg.deviceAudioTape),
-  'deviceCameraPhone': const TablerIcon(
-      TablerIcons.deviceCameraPhone, TablerIconsSvg.deviceCameraPhone),
-  'deviceCctvOff':
-      const TablerIcon(TablerIcons.deviceCctvOff, TablerIconsSvg.deviceCctvOff),
-  'deviceCctv':
-      const TablerIcon(TablerIcons.deviceCctv, TablerIconsSvg.deviceCctv),
-  'deviceComputerCameraOff': const TablerIcon(
-      TablerIcons.deviceComputerCameraOff,
-      TablerIconsSvg.deviceComputerCameraOff),
-  'deviceComputerCamera': const TablerIcon(
-      TablerIcons.deviceComputerCamera, TablerIconsSvg.deviceComputerCamera),
-  'deviceDesktopAnalytics': const TablerIcon(TablerIcons.deviceDesktopAnalytics,
-      TablerIconsSvg.deviceDesktopAnalytics),
-  'deviceDesktopBolt': const TablerIcon(
-      TablerIcons.deviceDesktopBolt, TablerIconsSvg.deviceDesktopBolt),
-  'deviceDesktopCancel': const TablerIcon(
-      TablerIcons.deviceDesktopCancel, TablerIconsSvg.deviceDesktopCancel),
-  'deviceDesktopCheck': const TablerIcon(
-      TablerIcons.deviceDesktopCheck, TablerIconsSvg.deviceDesktopCheck),
-  'deviceDesktopCode': const TablerIcon(
-      TablerIcons.deviceDesktopCode, TablerIconsSvg.deviceDesktopCode),
-  'deviceDesktopCog': const TablerIcon(
-      TablerIcons.deviceDesktopCog, TablerIconsSvg.deviceDesktopCog),
-  'deviceDesktopDollar': const TablerIcon(
-      TablerIcons.deviceDesktopDollar, TablerIconsSvg.deviceDesktopDollar),
-  'deviceDesktopDown': const TablerIcon(
-      TablerIcons.deviceDesktopDown, TablerIconsSvg.deviceDesktopDown),
-  'deviceDesktopExclamation': const TablerIcon(
-      TablerIcons.deviceDesktopExclamation,
-      TablerIconsSvg.deviceDesktopExclamation),
-  'deviceDesktopHeart': const TablerIcon(
-      TablerIcons.deviceDesktopHeart, TablerIconsSvg.deviceDesktopHeart),
-  'deviceDesktopMinus': const TablerIcon(
-      TablerIcons.deviceDesktopMinus, TablerIconsSvg.deviceDesktopMinus),
-  'deviceDesktopOff': const TablerIcon(
-      TablerIcons.deviceDesktopOff, TablerIconsSvg.deviceDesktopOff),
-  'deviceDesktopPause': const TablerIcon(
-      TablerIcons.deviceDesktopPause, TablerIconsSvg.deviceDesktopPause),
-  'deviceDesktopPin': const TablerIcon(
-      TablerIcons.deviceDesktopPin, TablerIconsSvg.deviceDesktopPin),
-  'deviceDesktopPlus': const TablerIcon(
-      TablerIcons.deviceDesktopPlus, TablerIconsSvg.deviceDesktopPlus),
-  'deviceDesktopQuestion': const TablerIcon(
-      TablerIcons.deviceDesktopQuestion, TablerIconsSvg.deviceDesktopQuestion),
-  'deviceDesktopSearch': const TablerIcon(
-      TablerIcons.deviceDesktopSearch, TablerIconsSvg.deviceDesktopSearch),
-  'deviceDesktopShare': const TablerIcon(
-      TablerIcons.deviceDesktopShare, TablerIconsSvg.deviceDesktopShare),
-  'deviceDesktopStar': const TablerIcon(
-      TablerIcons.deviceDesktopStar, TablerIconsSvg.deviceDesktopStar),
-  'deviceDesktopUp': const TablerIcon(
-      TablerIcons.deviceDesktopUp, TablerIconsSvg.deviceDesktopUp),
-  'deviceDesktopX': const TablerIcon(
-      TablerIcons.deviceDesktopX, TablerIconsSvg.deviceDesktopX),
-  'deviceDesktop':
-      const TablerIcon(TablerIcons.deviceDesktop, TablerIconsSvg.deviceDesktop),
-  'deviceFloppy':
-      const TablerIcon(TablerIcons.deviceFloppy, TablerIconsSvg.deviceFloppy),
-  'deviceGamepad2': const TablerIcon(
-      TablerIcons.deviceGamepad2, TablerIconsSvg.deviceGamepad2),
-  'deviceGamepad3': const TablerIcon(
-      TablerIcons.deviceGamepad3, TablerIconsSvg.deviceGamepad3),
-  'deviceGamepad':
-      const TablerIcon(TablerIcons.deviceGamepad, TablerIconsSvg.deviceGamepad),
-  'deviceHeartMonitorFilled': const TablerIcon(
-      TablerIcons.deviceHeartMonitorFilled,
-      TablerIconsSvg.deviceHeartMonitorFilled),
-  'deviceHeartMonitor': const TablerIcon(
-      TablerIcons.deviceHeartMonitor, TablerIconsSvg.deviceHeartMonitor),
-  'deviceImacBolt': const TablerIcon(
-      TablerIcons.deviceImacBolt, TablerIconsSvg.deviceImacBolt),
-  'deviceImacCancel': const TablerIcon(
-      TablerIcons.deviceImacCancel, TablerIconsSvg.deviceImacCancel),
-  'deviceImacCheck': const TablerIcon(
-      TablerIcons.deviceImacCheck, TablerIconsSvg.deviceImacCheck),
-  'deviceImacCode': const TablerIcon(
-      TablerIcons.deviceImacCode, TablerIconsSvg.deviceImacCode),
-  'deviceImacCog':
-      const TablerIcon(TablerIcons.deviceImacCog, TablerIconsSvg.deviceImacCog),
-  'deviceImacDollar': const TablerIcon(
-      TablerIcons.deviceImacDollar, TablerIconsSvg.deviceImacDollar),
-  'deviceImacDown': const TablerIcon(
-      TablerIcons.deviceImacDown, TablerIconsSvg.deviceImacDown),
-  'deviceImacExclamation': const TablerIcon(
-      TablerIcons.deviceImacExclamation, TablerIconsSvg.deviceImacExclamation),
-  'deviceImacHeart': const TablerIcon(
-      TablerIcons.deviceImacHeart, TablerIconsSvg.deviceImacHeart),
-  'deviceImacMinus': const TablerIcon(
-      TablerIcons.deviceImacMinus, TablerIconsSvg.deviceImacMinus),
-  'deviceImacOff':
-      const TablerIcon(TablerIcons.deviceImacOff, TablerIconsSvg.deviceImacOff),
-  'deviceImacPause': const TablerIcon(
-      TablerIcons.deviceImacPause, TablerIconsSvg.deviceImacPause),
-  'deviceImacPin':
-      const TablerIcon(TablerIcons.deviceImacPin, TablerIconsSvg.deviceImacPin),
-  'deviceImacPlus': const TablerIcon(
-      TablerIcons.deviceImacPlus, TablerIconsSvg.deviceImacPlus),
-  'deviceImacQuestion': const TablerIcon(
-      TablerIcons.deviceImacQuestion, TablerIconsSvg.deviceImacQuestion),
-  'deviceImacSearch': const TablerIcon(
-      TablerIcons.deviceImacSearch, TablerIconsSvg.deviceImacSearch),
-  'deviceImacShare': const TablerIcon(
-      TablerIcons.deviceImacShare, TablerIconsSvg.deviceImacShare),
-  'deviceImacStar': const TablerIcon(
-      TablerIcons.deviceImacStar, TablerIconsSvg.deviceImacStar),
-  'deviceImacUp':
-      const TablerIcon(TablerIcons.deviceImacUp, TablerIconsSvg.deviceImacUp),
-  'deviceImacX':
-      const TablerIcon(TablerIcons.deviceImacX, TablerIconsSvg.deviceImacX),
-  'deviceImac':
-      const TablerIcon(TablerIcons.deviceImac, TablerIconsSvg.deviceImac),
-  'deviceIpadBolt': const TablerIcon(
-      TablerIcons.deviceIpadBolt, TablerIconsSvg.deviceIpadBolt),
-  'deviceIpadCancel': const TablerIcon(
-      TablerIcons.deviceIpadCancel, TablerIconsSvg.deviceIpadCancel),
-  'deviceIpadCheck': const TablerIcon(
-      TablerIcons.deviceIpadCheck, TablerIconsSvg.deviceIpadCheck),
-  'deviceIpadCode': const TablerIcon(
-      TablerIcons.deviceIpadCode, TablerIconsSvg.deviceIpadCode),
-  'deviceIpadCog':
-      const TablerIcon(TablerIcons.deviceIpadCog, TablerIconsSvg.deviceIpadCog),
-  'deviceIpadDollar': const TablerIcon(
-      TablerIcons.deviceIpadDollar, TablerIconsSvg.deviceIpadDollar),
-  'deviceIpadDown': const TablerIcon(
-      TablerIcons.deviceIpadDown, TablerIconsSvg.deviceIpadDown),
-  'deviceIpadExclamation': const TablerIcon(
-      TablerIcons.deviceIpadExclamation, TablerIconsSvg.deviceIpadExclamation),
-  'deviceIpadHeart': const TablerIcon(
-      TablerIcons.deviceIpadHeart, TablerIconsSvg.deviceIpadHeart),
-  'deviceIpadHorizontalBolt': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalBolt,
-      TablerIconsSvg.deviceIpadHorizontalBolt),
-  'deviceIpadHorizontalCancel': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalCancel,
-      TablerIconsSvg.deviceIpadHorizontalCancel),
-  'deviceIpadHorizontalCheck': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalCheck,
-      TablerIconsSvg.deviceIpadHorizontalCheck),
-  'deviceIpadHorizontalCode': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalCode,
-      TablerIconsSvg.deviceIpadHorizontalCode),
-  'deviceIpadHorizontalCog': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalCog,
-      TablerIconsSvg.deviceIpadHorizontalCog),
-  'deviceIpadHorizontalDollar': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalDollar,
-      TablerIconsSvg.deviceIpadHorizontalDollar),
-  'deviceIpadHorizontalDown': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalDown,
-      TablerIconsSvg.deviceIpadHorizontalDown),
-  'deviceIpadHorizontalExclamation': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalExclamation,
-      TablerIconsSvg.deviceIpadHorizontalExclamation),
-  'deviceIpadHorizontalHeart': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalHeart,
-      TablerIconsSvg.deviceIpadHorizontalHeart),
-  'deviceIpadHorizontalMinus': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalMinus,
-      TablerIconsSvg.deviceIpadHorizontalMinus),
-  'deviceIpadHorizontalOff': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalOff,
-      TablerIconsSvg.deviceIpadHorizontalOff),
-  'deviceIpadHorizontalPause': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalPause,
-      TablerIconsSvg.deviceIpadHorizontalPause),
-  'deviceIpadHorizontalPin': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalPin,
-      TablerIconsSvg.deviceIpadHorizontalPin),
-  'deviceIpadHorizontalPlus': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalPlus,
-      TablerIconsSvg.deviceIpadHorizontalPlus),
-  'deviceIpadHorizontalQuestion': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalQuestion,
-      TablerIconsSvg.deviceIpadHorizontalQuestion),
-  'deviceIpadHorizontalSearch': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalSearch,
-      TablerIconsSvg.deviceIpadHorizontalSearch),
-  'deviceIpadHorizontalShare': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalShare,
-      TablerIconsSvg.deviceIpadHorizontalShare),
-  'deviceIpadHorizontalStar': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalStar,
-      TablerIconsSvg.deviceIpadHorizontalStar),
-  'deviceIpadHorizontalUp': const TablerIcon(TablerIcons.deviceIpadHorizontalUp,
-      TablerIconsSvg.deviceIpadHorizontalUp),
-  'deviceIpadHorizontalX': const TablerIcon(
-      TablerIcons.deviceIpadHorizontalX, TablerIconsSvg.deviceIpadHorizontalX),
-  'deviceIpadHorizontal': const TablerIcon(
-      TablerIcons.deviceIpadHorizontal, TablerIconsSvg.deviceIpadHorizontal),
-  'deviceIpadMinus': const TablerIcon(
-      TablerIcons.deviceIpadMinus, TablerIconsSvg.deviceIpadMinus),
-  'deviceIpadOff':
-      const TablerIcon(TablerIcons.deviceIpadOff, TablerIconsSvg.deviceIpadOff),
-  'deviceIpadPause': const TablerIcon(
-      TablerIcons.deviceIpadPause, TablerIconsSvg.deviceIpadPause),
-  'deviceIpadPin':
-      const TablerIcon(TablerIcons.deviceIpadPin, TablerIconsSvg.deviceIpadPin),
-  'deviceIpadPlus': const TablerIcon(
-      TablerIcons.deviceIpadPlus, TablerIconsSvg.deviceIpadPlus),
-  'deviceIpadQuestion': const TablerIcon(
-      TablerIcons.deviceIpadQuestion, TablerIconsSvg.deviceIpadQuestion),
-  'deviceIpadSearch': const TablerIcon(
-      TablerIcons.deviceIpadSearch, TablerIconsSvg.deviceIpadSearch),
-  'deviceIpadShare': const TablerIcon(
-      TablerIcons.deviceIpadShare, TablerIconsSvg.deviceIpadShare),
-  'deviceIpadStar': const TablerIcon(
-      TablerIcons.deviceIpadStar, TablerIconsSvg.deviceIpadStar),
-  'deviceIpadUp':
-      const TablerIcon(TablerIcons.deviceIpadUp, TablerIconsSvg.deviceIpadUp),
-  'deviceIpadX':
-      const TablerIcon(TablerIcons.deviceIpadX, TablerIconsSvg.deviceIpadX),
-  'deviceIpad':
-      const TablerIcon(TablerIcons.deviceIpad, TablerIconsSvg.deviceIpad),
-  'deviceLandlinePhone': const TablerIcon(
-      TablerIcons.deviceLandlinePhone, TablerIconsSvg.deviceLandlinePhone),
-  'deviceLaptopOff': const TablerIcon(
-      TablerIcons.deviceLaptopOff, TablerIconsSvg.deviceLaptopOff),
-  'deviceLaptop':
-      const TablerIcon(TablerIcons.deviceLaptop, TablerIconsSvg.deviceLaptop),
-  'deviceMobileBolt': const TablerIcon(
-      TablerIcons.deviceMobileBolt, TablerIconsSvg.deviceMobileBolt),
-  'deviceMobileCancel': const TablerIcon(
-      TablerIcons.deviceMobileCancel, TablerIconsSvg.deviceMobileCancel),
-  'deviceMobileCharging': const TablerIcon(
-      TablerIcons.deviceMobileCharging, TablerIconsSvg.deviceMobileCharging),
-  'deviceMobileCheck': const TablerIcon(
-      TablerIcons.deviceMobileCheck, TablerIconsSvg.deviceMobileCheck),
-  'deviceMobileCode': const TablerIcon(
-      TablerIcons.deviceMobileCode, TablerIconsSvg.deviceMobileCode),
-  'deviceMobileCog': const TablerIcon(
-      TablerIcons.deviceMobileCog, TablerIconsSvg.deviceMobileCog),
-  'deviceMobileDollar': const TablerIcon(
-      TablerIcons.deviceMobileDollar, TablerIconsSvg.deviceMobileDollar),
-  'deviceMobileDown': const TablerIcon(
-      TablerIcons.deviceMobileDown, TablerIconsSvg.deviceMobileDown),
-  'deviceMobileExclamation': const TablerIcon(
-      TablerIcons.deviceMobileExclamation,
-      TablerIconsSvg.deviceMobileExclamation),
-  'deviceMobileFilled': const TablerIcon(
-      TablerIcons.deviceMobileFilled, TablerIconsSvg.deviceMobileFilled),
-  'deviceMobileHeart': const TablerIcon(
-      TablerIcons.deviceMobileHeart, TablerIconsSvg.deviceMobileHeart),
-  'deviceMobileMessage': const TablerIcon(
-      TablerIcons.deviceMobileMessage, TablerIconsSvg.deviceMobileMessage),
-  'deviceMobileMinus': const TablerIcon(
-      TablerIcons.deviceMobileMinus, TablerIconsSvg.deviceMobileMinus),
-  'deviceMobileOff': const TablerIcon(
-      TablerIcons.deviceMobileOff, TablerIconsSvg.deviceMobileOff),
-  'deviceMobilePause': const TablerIcon(
-      TablerIcons.deviceMobilePause, TablerIconsSvg.deviceMobilePause),
-  'deviceMobilePin': const TablerIcon(
-      TablerIcons.deviceMobilePin, TablerIconsSvg.deviceMobilePin),
-  'deviceMobilePlus': const TablerIcon(
-      TablerIcons.deviceMobilePlus, TablerIconsSvg.deviceMobilePlus),
-  'deviceMobileQuestion': const TablerIcon(
-      TablerIcons.deviceMobileQuestion, TablerIconsSvg.deviceMobileQuestion),
-  'deviceMobileRotated': const TablerIcon(
-      TablerIcons.deviceMobileRotated, TablerIconsSvg.deviceMobileRotated),
-  'deviceMobileSearch': const TablerIcon(
-      TablerIcons.deviceMobileSearch, TablerIconsSvg.deviceMobileSearch),
-  'deviceMobileShare': const TablerIcon(
-      TablerIcons.deviceMobileShare, TablerIconsSvg.deviceMobileShare),
-  'deviceMobileStar': const TablerIcon(
-      TablerIcons.deviceMobileStar, TablerIconsSvg.deviceMobileStar),
-  'deviceMobileUp': const TablerIcon(
-      TablerIcons.deviceMobileUp, TablerIconsSvg.deviceMobileUp),
-  'deviceMobileVibration': const TablerIcon(
-      TablerIcons.deviceMobileVibration, TablerIconsSvg.deviceMobileVibration),
-  'deviceMobileX':
-      const TablerIcon(TablerIcons.deviceMobileX, TablerIconsSvg.deviceMobileX),
-  'deviceMobile':
-      const TablerIcon(TablerIcons.deviceMobile, TablerIconsSvg.deviceMobile),
-  'deviceNintendoOff': const TablerIcon(
-      TablerIcons.deviceNintendoOff, TablerIconsSvg.deviceNintendoOff),
-  'deviceNintendo': const TablerIcon(
-      TablerIcons.deviceNintendo, TablerIconsSvg.deviceNintendo),
-  'deviceProjector': const TablerIcon(
-      TablerIcons.deviceProjector, TablerIconsSvg.deviceProjector),
-  'deviceRemote':
-      const TablerIcon(TablerIcons.deviceRemote, TablerIconsSvg.deviceRemote),
-  'deviceSdCard':
-      const TablerIcon(TablerIcons.deviceSdCard, TablerIconsSvg.deviceSdCard),
-  'deviceSim1':
-      const TablerIcon(TablerIcons.deviceSim1, TablerIconsSvg.deviceSim1),
-  'deviceSim2':
-      const TablerIcon(TablerIcons.deviceSim2, TablerIconsSvg.deviceSim2),
-  'deviceSim3':
-      const TablerIcon(TablerIcons.deviceSim3, TablerIconsSvg.deviceSim3),
-  'deviceSim':
-      const TablerIcon(TablerIcons.deviceSim, TablerIconsSvg.deviceSim),
-  'deviceSpeakerOff': const TablerIcon(
-      TablerIcons.deviceSpeakerOff, TablerIconsSvg.deviceSpeakerOff),
-  'deviceSpeaker':
-      const TablerIcon(TablerIcons.deviceSpeaker, TablerIconsSvg.deviceSpeaker),
-  'deviceTabletBolt': const TablerIcon(
-      TablerIcons.deviceTabletBolt, TablerIconsSvg.deviceTabletBolt),
-  'deviceTabletCancel': const TablerIcon(
-      TablerIcons.deviceTabletCancel, TablerIconsSvg.deviceTabletCancel),
-  'deviceTabletCheck': const TablerIcon(
-      TablerIcons.deviceTabletCheck, TablerIconsSvg.deviceTabletCheck),
-  'deviceTabletCode': const TablerIcon(
-      TablerIcons.deviceTabletCode, TablerIconsSvg.deviceTabletCode),
-  'deviceTabletCog': const TablerIcon(
-      TablerIcons.deviceTabletCog, TablerIconsSvg.deviceTabletCog),
-  'deviceTabletDollar': const TablerIcon(
-      TablerIcons.deviceTabletDollar, TablerIconsSvg.deviceTabletDollar),
-  'deviceTabletDown': const TablerIcon(
-      TablerIcons.deviceTabletDown, TablerIconsSvg.deviceTabletDown),
-  'deviceTabletExclamation': const TablerIcon(
-      TablerIcons.deviceTabletExclamation,
-      TablerIconsSvg.deviceTabletExclamation),
-  'deviceTabletFilled': const TablerIcon(
-      TablerIcons.deviceTabletFilled, TablerIconsSvg.deviceTabletFilled),
-  'deviceTabletHeart': const TablerIcon(
-      TablerIcons.deviceTabletHeart, TablerIconsSvg.deviceTabletHeart),
-  'deviceTabletMinus': const TablerIcon(
-      TablerIcons.deviceTabletMinus, TablerIconsSvg.deviceTabletMinus),
-  'deviceTabletOff': const TablerIcon(
-      TablerIcons.deviceTabletOff, TablerIconsSvg.deviceTabletOff),
-  'deviceTabletPause': const TablerIcon(
-      TablerIcons.deviceTabletPause, TablerIconsSvg.deviceTabletPause),
-  'deviceTabletPin': const TablerIcon(
-      TablerIcons.deviceTabletPin, TablerIconsSvg.deviceTabletPin),
-  'deviceTabletPlus': const TablerIcon(
-      TablerIcons.deviceTabletPlus, TablerIconsSvg.deviceTabletPlus),
-  'deviceTabletQuestion': const TablerIcon(
-      TablerIcons.deviceTabletQuestion, TablerIconsSvg.deviceTabletQuestion),
-  'deviceTabletSearch': const TablerIcon(
-      TablerIcons.deviceTabletSearch, TablerIconsSvg.deviceTabletSearch),
-  'deviceTabletShare': const TablerIcon(
-      TablerIcons.deviceTabletShare, TablerIconsSvg.deviceTabletShare),
-  'deviceTabletStar': const TablerIcon(
-      TablerIcons.deviceTabletStar, TablerIconsSvg.deviceTabletStar),
-  'deviceTabletUp': const TablerIcon(
-      TablerIcons.deviceTabletUp, TablerIconsSvg.deviceTabletUp),
-  'deviceTabletX':
-      const TablerIcon(TablerIcons.deviceTabletX, TablerIconsSvg.deviceTabletX),
-  'deviceTablet':
-      const TablerIcon(TablerIcons.deviceTablet, TablerIconsSvg.deviceTablet),
-  'deviceTvOff':
-      const TablerIcon(TablerIcons.deviceTvOff, TablerIconsSvg.deviceTvOff),
-  'deviceTvOld':
-      const TablerIcon(TablerIcons.deviceTvOld, TablerIconsSvg.deviceTvOld),
-  'deviceTv': const TablerIcon(TablerIcons.deviceTv, TablerIconsSvg.deviceTv),
-  'deviceUsb':
-      const TablerIcon(TablerIcons.deviceUsb, TablerIconsSvg.deviceUsb),
-  'deviceVisionPro': const TablerIcon(
-      TablerIcons.deviceVisionPro, TablerIconsSvg.deviceVisionPro),
-  'deviceWatchBolt': const TablerIcon(
-      TablerIcons.deviceWatchBolt, TablerIconsSvg.deviceWatchBolt),
-  'deviceWatchCancel': const TablerIcon(
-      TablerIcons.deviceWatchCancel, TablerIconsSvg.deviceWatchCancel),
-  'deviceWatchCheck': const TablerIcon(
-      TablerIcons.deviceWatchCheck, TablerIconsSvg.deviceWatchCheck),
-  'deviceWatchCode': const TablerIcon(
-      TablerIcons.deviceWatchCode, TablerIconsSvg.deviceWatchCode),
-  'deviceWatchCog': const TablerIcon(
-      TablerIcons.deviceWatchCog, TablerIconsSvg.deviceWatchCog),
-  'deviceWatchDollar': const TablerIcon(
-      TablerIcons.deviceWatchDollar, TablerIconsSvg.deviceWatchDollar),
-  'deviceWatchDown': const TablerIcon(
-      TablerIcons.deviceWatchDown, TablerIconsSvg.deviceWatchDown),
-  'deviceWatchExclamation': const TablerIcon(TablerIcons.deviceWatchExclamation,
-      TablerIconsSvg.deviceWatchExclamation),
-  'deviceWatchHeart': const TablerIcon(
-      TablerIcons.deviceWatchHeart, TablerIconsSvg.deviceWatchHeart),
-  'deviceWatchMinus': const TablerIcon(
-      TablerIcons.deviceWatchMinus, TablerIconsSvg.deviceWatchMinus),
-  'deviceWatchOff': const TablerIcon(
-      TablerIcons.deviceWatchOff, TablerIconsSvg.deviceWatchOff),
-  'deviceWatchPause': const TablerIcon(
-      TablerIcons.deviceWatchPause, TablerIconsSvg.deviceWatchPause),
-  'deviceWatchPin': const TablerIcon(
-      TablerIcons.deviceWatchPin, TablerIconsSvg.deviceWatchPin),
-  'deviceWatchPlus': const TablerIcon(
-      TablerIcons.deviceWatchPlus, TablerIconsSvg.deviceWatchPlus),
-  'deviceWatchQuestion': const TablerIcon(
-      TablerIcons.deviceWatchQuestion, TablerIconsSvg.deviceWatchQuestion),
-  'deviceWatchSearch': const TablerIcon(
-      TablerIcons.deviceWatchSearch, TablerIconsSvg.deviceWatchSearch),
-  'deviceWatchShare': const TablerIcon(
-      TablerIcons.deviceWatchShare, TablerIconsSvg.deviceWatchShare),
-  'deviceWatchStar': const TablerIcon(
-      TablerIcons.deviceWatchStar, TablerIconsSvg.deviceWatchStar),
-  'deviceWatchStats2': const TablerIcon(
-      TablerIcons.deviceWatchStats2, TablerIconsSvg.deviceWatchStats2),
-  'deviceWatchStats': const TablerIcon(
-      TablerIcons.deviceWatchStats, TablerIconsSvg.deviceWatchStats),
-  'deviceWatchUp':
-      const TablerIcon(TablerIcons.deviceWatchUp, TablerIconsSvg.deviceWatchUp),
-  'deviceWatchX':
-      const TablerIcon(TablerIcons.deviceWatchX, TablerIconsSvg.deviceWatchX),
-  'deviceWatch':
-      const TablerIcon(TablerIcons.deviceWatch, TablerIconsSvg.deviceWatch),
-  'devices2': const TablerIcon(TablerIcons.devices2, TablerIconsSvg.devices2),
-  'devicesBolt':
-      const TablerIcon(TablerIcons.devicesBolt, TablerIconsSvg.devicesBolt),
-  'devicesCancel':
-      const TablerIcon(TablerIcons.devicesCancel, TablerIconsSvg.devicesCancel),
-  'devicesCheck':
-      const TablerIcon(TablerIcons.devicesCheck, TablerIconsSvg.devicesCheck),
-  'devicesCode':
-      const TablerIcon(TablerIcons.devicesCode, TablerIconsSvg.devicesCode),
-  'devicesCog':
-      const TablerIcon(TablerIcons.devicesCog, TablerIconsSvg.devicesCog),
-  'devicesDollar':
-      const TablerIcon(TablerIcons.devicesDollar, TablerIconsSvg.devicesDollar),
-  'devicesDown':
-      const TablerIcon(TablerIcons.devicesDown, TablerIconsSvg.devicesDown),
-  'devicesExclamation': const TablerIcon(
-      TablerIcons.devicesExclamation, TablerIconsSvg.devicesExclamation),
-  'devicesHeart':
-      const TablerIcon(TablerIcons.devicesHeart, TablerIconsSvg.devicesHeart),
-  'devicesMinus':
-      const TablerIcon(TablerIcons.devicesMinus, TablerIconsSvg.devicesMinus),
-  'devicesOff':
-      const TablerIcon(TablerIcons.devicesOff, TablerIconsSvg.devicesOff),
-  'devicesPause':
-      const TablerIcon(TablerIcons.devicesPause, TablerIconsSvg.devicesPause),
-  'devicesPcOff':
-      const TablerIcon(TablerIcons.devicesPcOff, TablerIconsSvg.devicesPcOff),
-  'devicesPc':
-      const TablerIcon(TablerIcons.devicesPc, TablerIconsSvg.devicesPc),
-  'devicesPin':
-      const TablerIcon(TablerIcons.devicesPin, TablerIconsSvg.devicesPin),
-  'devicesPlus':
-      const TablerIcon(TablerIcons.devicesPlus, TablerIconsSvg.devicesPlus),
-  'devicesQuestion': const TablerIcon(
-      TablerIcons.devicesQuestion, TablerIconsSvg.devicesQuestion),
-  'devicesSearch':
-      const TablerIcon(TablerIcons.devicesSearch, TablerIconsSvg.devicesSearch),
-  'devicesShare':
-      const TablerIcon(TablerIcons.devicesShare, TablerIconsSvg.devicesShare),
-  'devicesStar':
-      const TablerIcon(TablerIcons.devicesStar, TablerIconsSvg.devicesStar),
-  'devicesUp':
-      const TablerIcon(TablerIcons.devicesUp, TablerIconsSvg.devicesUp),
-  'devicesX': const TablerIcon(TablerIcons.devicesX, TablerIconsSvg.devicesX),
-  'devices': const TablerIcon(TablerIcons.devices, TablerIconsSvg.devices),
-  'diaboloOff':
-      const TablerIcon(TablerIcons.diaboloOff, TablerIconsSvg.diaboloOff),
-  'diaboloPlus':
-      const TablerIcon(TablerIcons.diaboloPlus, TablerIconsSvg.diaboloPlus),
-  'diabolo': const TablerIcon(TablerIcons.diabolo, TablerIconsSvg.diabolo),
-  'dialpadFilled':
-      const TablerIcon(TablerIcons.dialpadFilled, TablerIconsSvg.dialpadFilled),
-  'dialpadOff':
-      const TablerIcon(TablerIcons.dialpadOff, TablerIconsSvg.dialpadOff),
-  'dialpad': const TablerIcon(TablerIcons.dialpad, TablerIconsSvg.dialpad),
-  'diamondFilled':
-      const TablerIcon(TablerIcons.diamondFilled, TablerIconsSvg.diamondFilled),
-  'diamondOff':
-      const TablerIcon(TablerIcons.diamondOff, TablerIconsSvg.diamondOff),
-  'diamond': const TablerIcon(TablerIcons.diamond, TablerIconsSvg.diamond),
-  'diamondsFilled': const TablerIcon(
-      TablerIcons.diamondsFilled, TablerIconsSvg.diamondsFilled),
-  'diamonds': const TablerIcon(TablerIcons.diamonds, TablerIconsSvg.diamonds),
-  'dice1Filled':
-      const TablerIcon(TablerIcons.dice1Filled, TablerIconsSvg.dice1Filled),
-  'dice1': const TablerIcon(TablerIcons.dice1, TablerIconsSvg.dice1),
-  'dice2Filled':
-      const TablerIcon(TablerIcons.dice2Filled, TablerIconsSvg.dice2Filled),
-  'dice2': const TablerIcon(TablerIcons.dice2, TablerIconsSvg.dice2),
-  'dice3Filled':
-      const TablerIcon(TablerIcons.dice3Filled, TablerIconsSvg.dice3Filled),
-  'dice3': const TablerIcon(TablerIcons.dice3, TablerIconsSvg.dice3),
-  'dice4Filled':
-      const TablerIcon(TablerIcons.dice4Filled, TablerIconsSvg.dice4Filled),
-  'dice4': const TablerIcon(TablerIcons.dice4, TablerIconsSvg.dice4),
-  'dice5Filled':
-      const TablerIcon(TablerIcons.dice5Filled, TablerIconsSvg.dice5Filled),
-  'dice5': const TablerIcon(TablerIcons.dice5, TablerIconsSvg.dice5),
-  'dice6Filled':
-      const TablerIcon(TablerIcons.dice6Filled, TablerIconsSvg.dice6Filled),
-  'dice6': const TablerIcon(TablerIcons.dice6, TablerIconsSvg.dice6),
-  'diceFilled':
-      const TablerIcon(TablerIcons.diceFilled, TablerIconsSvg.diceFilled),
-  'dice': const TablerIcon(TablerIcons.dice, TablerIconsSvg.dice),
-  'dimensions':
-      const TablerIcon(TablerIcons.dimensions, TablerIconsSvg.dimensions),
-  'directionHorizontal': const TablerIcon(
-      TablerIcons.directionHorizontal, TablerIconsSvg.directionHorizontal),
-  'directionSignFilled': const TablerIcon(
-      TablerIcons.directionSignFilled, TablerIconsSvg.directionSignFilled),
-  'directionSignOff': const TablerIcon(
-      TablerIcons.directionSignOff, TablerIconsSvg.directionSignOff),
-  'directionSign':
-      const TablerIcon(TablerIcons.directionSign, TablerIconsSvg.directionSign),
-  'direction':
-      const TablerIcon(TablerIcons.direction, TablerIconsSvg.direction),
-  'directionsOff':
-      const TablerIcon(TablerIcons.directionsOff, TablerIconsSvg.directionsOff),
-  'directions':
-      const TablerIcon(TablerIcons.directions, TablerIconsSvg.directions),
-  'disabled2':
-      const TablerIcon(TablerIcons.disabled2, TablerIconsSvg.disabled2),
-  'disabledOff':
-      const TablerIcon(TablerIcons.disabledOff, TablerIconsSvg.disabledOff),
-  'disabled': const TablerIcon(TablerIcons.disabled, TablerIconsSvg.disabled),
-  'discGolf': const TablerIcon(TablerIcons.discGolf, TablerIconsSvg.discGolf),
-  'discOff': const TablerIcon(TablerIcons.discOff, TablerIconsSvg.discOff),
-  'disc': const TablerIcon(TablerIcons.disc, TablerIconsSvg.disc),
-  'discount2Off':
-      const TablerIcon(TablerIcons.discount2Off, TablerIconsSvg.discount2Off),
-  'discount2':
-      const TablerIcon(TablerIcons.discount2, TablerIconsSvg.discount2),
-  'discountCheckFilled': const TablerIcon(
-      TablerIcons.discountCheckFilled, TablerIconsSvg.discountCheckFilled),
-  'discountCheck':
-      const TablerIcon(TablerIcons.discountCheck, TablerIconsSvg.discountCheck),
-  'discountOff':
-      const TablerIcon(TablerIcons.discountOff, TablerIconsSvg.discountOff),
-  'discount': const TablerIcon(TablerIcons.discount, TablerIconsSvg.discount),
-  'divide': const TablerIcon(TablerIcons.divide, TablerIconsSvg.divide),
-  'dna2Off': const TablerIcon(TablerIcons.dna2Off, TablerIconsSvg.dna2Off),
-  'dna2': const TablerIcon(TablerIcons.dna2, TablerIconsSvg.dna2),
-  'dnaOff': const TablerIcon(TablerIcons.dnaOff, TablerIconsSvg.dnaOff),
-  'dna': const TablerIcon(TablerIcons.dna, TablerIconsSvg.dna),
-  'dogBowl': const TablerIcon(TablerIcons.dogBowl, TablerIconsSvg.dogBowl),
-  'dog': const TablerIcon(TablerIcons.dog, TablerIconsSvg.dog),
-  'doorEnter':
-      const TablerIcon(TablerIcons.doorEnter, TablerIconsSvg.doorEnter),
-  'doorExit': const TablerIcon(TablerIcons.doorExit, TablerIconsSvg.doorExit),
-  'doorOff': const TablerIcon(TablerIcons.doorOff, TablerIconsSvg.doorOff),
-  'door': const TablerIcon(TablerIcons.door, TablerIconsSvg.door),
-  'dotsCircleHorizontal': const TablerIcon(
-      TablerIcons.dotsCircleHorizontal, TablerIconsSvg.dotsCircleHorizontal),
-  'dotsDiagonal2':
-      const TablerIcon(TablerIcons.dotsDiagonal2, TablerIconsSvg.dotsDiagonal2),
-  'dotsDiagonal':
-      const TablerIcon(TablerIcons.dotsDiagonal, TablerIconsSvg.dotsDiagonal),
-  'dotsVertical':
-      const TablerIcon(TablerIcons.dotsVertical, TablerIconsSvg.dotsVertical),
-  'dots': const TablerIcon(TablerIcons.dots, TablerIconsSvg.dots),
-  'downloadOff':
-      const TablerIcon(TablerIcons.downloadOff, TablerIconsSvg.downloadOff),
-  'download': const TablerIcon(TablerIcons.download, TablerIconsSvg.download),
-  'dragDrop2':
-      const TablerIcon(TablerIcons.dragDrop2, TablerIconsSvg.dragDrop2),
-  'dragDrop': const TablerIcon(TablerIcons.dragDrop, TablerIconsSvg.dragDrop),
-  'droneOff': const TablerIcon(TablerIcons.droneOff, TablerIconsSvg.droneOff),
-  'drone': const TablerIcon(TablerIcons.drone, TablerIconsSvg.drone),
-  'dropCircle':
-      const TablerIcon(TablerIcons.dropCircle, TablerIconsSvg.dropCircle),
-  'dropletBolt':
-      const TablerIcon(TablerIcons.dropletBolt, TablerIconsSvg.dropletBolt),
-  'dropletCancel':
-      const TablerIcon(TablerIcons.dropletCancel, TablerIconsSvg.dropletCancel),
-  'dropletCheck':
-      const TablerIcon(TablerIcons.dropletCheck, TablerIconsSvg.dropletCheck),
-  'dropletCode':
-      const TablerIcon(TablerIcons.dropletCode, TablerIconsSvg.dropletCode),
-  'dropletCog':
-      const TablerIcon(TablerIcons.dropletCog, TablerIconsSvg.dropletCog),
-  'dropletDollar':
-      const TablerIcon(TablerIcons.dropletDollar, TablerIconsSvg.dropletDollar),
-  'dropletDown':
-      const TablerIcon(TablerIcons.dropletDown, TablerIconsSvg.dropletDown),
-  'dropletExclamation': const TablerIcon(
-      TablerIcons.dropletExclamation, TablerIconsSvg.dropletExclamation),
-  'dropletFilled':
-      const TablerIcon(TablerIcons.dropletFilled, TablerIconsSvg.dropletFilled),
-  'dropletHalf2Filled': const TablerIcon(
-      TablerIcons.dropletHalf2Filled, TablerIconsSvg.dropletHalf2Filled),
-  'dropletHalf2':
-      const TablerIcon(TablerIcons.dropletHalf2, TablerIconsSvg.dropletHalf2),
-  'dropletHalfFilled': const TablerIcon(
-      TablerIcons.dropletHalfFilled, TablerIconsSvg.dropletHalfFilled),
-  'dropletHalf':
-      const TablerIcon(TablerIcons.dropletHalf, TablerIconsSvg.dropletHalf),
-  'dropletHeart':
-      const TablerIcon(TablerIcons.dropletHeart, TablerIconsSvg.dropletHeart),
-  'dropletMinus':
-      const TablerIcon(TablerIcons.dropletMinus, TablerIconsSvg.dropletMinus),
-  'dropletOff':
-      const TablerIcon(TablerIcons.dropletOff, TablerIconsSvg.dropletOff),
-  'dropletPause':
-      const TablerIcon(TablerIcons.dropletPause, TablerIconsSvg.dropletPause),
-  'dropletPin':
-      const TablerIcon(TablerIcons.dropletPin, TablerIconsSvg.dropletPin),
-  'dropletPlus':
-      const TablerIcon(TablerIcons.dropletPlus, TablerIconsSvg.dropletPlus),
-  'dropletQuestion': const TablerIcon(
-      TablerIcons.dropletQuestion, TablerIconsSvg.dropletQuestion),
-  'dropletSearch':
-      const TablerIcon(TablerIcons.dropletSearch, TablerIconsSvg.dropletSearch),
-  'dropletShare':
-      const TablerIcon(TablerIcons.dropletShare, TablerIconsSvg.dropletShare),
-  'dropletStar':
-      const TablerIcon(TablerIcons.dropletStar, TablerIconsSvg.dropletStar),
-  'dropletUp':
-      const TablerIcon(TablerIcons.dropletUp, TablerIconsSvg.dropletUp),
-  'dropletX': const TablerIcon(TablerIcons.dropletX, TablerIconsSvg.dropletX),
-  'droplet': const TablerIcon(TablerIcons.droplet, TablerIconsSvg.droplet),
-  'droplets': const TablerIcon(TablerIcons.droplets, TablerIconsSvg.droplets),
-  'dualScreen':
-      const TablerIcon(TablerIcons.dualScreen, TablerIconsSvg.dualScreen),
-  'ePassport':
-      const TablerIcon(TablerIcons.ePassport, TablerIconsSvg.ePassport),
-  'earOff': const TablerIcon(TablerIcons.earOff, TablerIconsSvg.earOff),
-  'ear': const TablerIcon(TablerIcons.ear, TablerIconsSvg.ear),
-  'easeInControlPoint': const TablerIcon(
-      TablerIcons.easeInControlPoint, TablerIconsSvg.easeInControlPoint),
-  'easeInOutControlPoints': const TablerIcon(TablerIcons.easeInOutControlPoints,
-      TablerIconsSvg.easeInOutControlPoints),
-  'easeInOut':
-      const TablerIcon(TablerIcons.easeInOut, TablerIconsSvg.easeInOut),
-  'easeIn': const TablerIcon(TablerIcons.easeIn, TablerIconsSvg.easeIn),
-  'easeOutControlPoint': const TablerIcon(
-      TablerIcons.easeOutControlPoint, TablerIconsSvg.easeOutControlPoint),
-  'easeOut': const TablerIcon(TablerIcons.easeOut, TablerIconsSvg.easeOut),
-  'editCircleOff':
-      const TablerIcon(TablerIcons.editCircleOff, TablerIconsSvg.editCircleOff),
-  'editCircle':
-      const TablerIcon(TablerIcons.editCircle, TablerIconsSvg.editCircle),
-  'editOff': const TablerIcon(TablerIcons.editOff, TablerIconsSvg.editOff),
-  'edit': const TablerIcon(TablerIcons.edit, TablerIconsSvg.edit),
-  'eggCracked':
-      const TablerIcon(TablerIcons.eggCracked, TablerIconsSvg.eggCracked),
-  'eggFilled':
-      const TablerIcon(TablerIcons.eggFilled, TablerIconsSvg.eggFilled),
-  'eggFried': const TablerIcon(TablerIcons.eggFried, TablerIconsSvg.eggFried),
-  'eggOff': const TablerIcon(TablerIcons.eggOff, TablerIconsSvg.eggOff),
-  'egg': const TablerIcon(TablerIcons.egg, TablerIconsSvg.egg),
-  'eggs': const TablerIcon(TablerIcons.eggs, TablerIconsSvg.eggs),
-  'elevatorOff':
-      const TablerIcon(TablerIcons.elevatorOff, TablerIconsSvg.elevatorOff),
-  'elevator': const TablerIcon(TablerIcons.elevator, TablerIconsSvg.elevator),
-  'emergencyBed':
-      const TablerIcon(TablerIcons.emergencyBed, TablerIconsSvg.emergencyBed),
-  'empathizeOff':
-      const TablerIcon(TablerIcons.empathizeOff, TablerIconsSvg.empathizeOff),
-  'empathize':
-      const TablerIcon(TablerIcons.empathize, TablerIconsSvg.empathize),
-  'emphasis': const TablerIcon(TablerIcons.emphasis, TablerIconsSvg.emphasis),
-  'engineOff':
-      const TablerIcon(TablerIcons.engineOff, TablerIconsSvg.engineOff),
-  'engine': const TablerIcon(TablerIcons.engine, TablerIconsSvg.engine),
-  'equalDouble':
-      const TablerIcon(TablerIcons.equalDouble, TablerIconsSvg.equalDouble),
-  'equalNot': const TablerIcon(TablerIcons.equalNot, TablerIconsSvg.equalNot),
-  'equal': const TablerIcon(TablerIcons.equal, TablerIconsSvg.equal),
-  'eraserOff':
-      const TablerIcon(TablerIcons.eraserOff, TablerIconsSvg.eraserOff),
-  'eraser': const TablerIcon(TablerIcons.eraser, TablerIconsSvg.eraser),
-  'error404Off':
-      const TablerIcon(TablerIcons.error404Off, TablerIconsSvg.error404Off),
-  'error404': const TablerIcon(TablerIcons.error404, TablerIconsSvg.error404),
-  'escalatorDown':
-      const TablerIcon(TablerIcons.escalatorDown, TablerIconsSvg.escalatorDown),
-  'escalatorUp':
-      const TablerIcon(TablerIcons.escalatorUp, TablerIconsSvg.escalatorUp),
-  'escalator':
-      const TablerIcon(TablerIcons.escalator, TablerIconsSvg.escalator),
-  'exchangeOff':
-      const TablerIcon(TablerIcons.exchangeOff, TablerIconsSvg.exchangeOff),
-  'exchange': const TablerIcon(TablerIcons.exchange, TablerIconsSvg.exchange),
-  'exclamationCircle': const TablerIcon(
-      TablerIcons.exclamationCircle, TablerIconsSvg.exclamationCircle),
-  'exclamationMarkOff': const TablerIcon(
-      TablerIcons.exclamationMarkOff, TablerIconsSvg.exclamationMarkOff),
-  'exclamationMark': const TablerIcon(
-      TablerIcons.exclamationMark, TablerIconsSvg.exclamationMark),
-  'explicitOff':
-      const TablerIcon(TablerIcons.explicitOff, TablerIconsSvg.explicitOff),
-  'explicit': const TablerIcon(TablerIcons.explicit, TablerIconsSvg.explicit),
-  'exposure0':
-      const TablerIcon(TablerIcons.exposure0, TablerIconsSvg.exposure0),
-  'exposureMinus1': const TablerIcon(
-      TablerIcons.exposureMinus1, TablerIconsSvg.exposureMinus1),
-  'exposureMinus2': const TablerIcon(
-      TablerIcons.exposureMinus2, TablerIconsSvg.exposureMinus2),
-  'exposureOff':
-      const TablerIcon(TablerIcons.exposureOff, TablerIconsSvg.exposureOff),
-  'exposurePlus1':
-      const TablerIcon(TablerIcons.exposurePlus1, TablerIconsSvg.exposurePlus1),
-  'exposurePlus2':
-      const TablerIcon(TablerIcons.exposurePlus2, TablerIconsSvg.exposurePlus2),
-  'exposure': const TablerIcon(TablerIcons.exposure, TablerIconsSvg.exposure),
-  'externalLinkOff': const TablerIcon(
-      TablerIcons.externalLinkOff, TablerIconsSvg.externalLinkOff),
-  'externalLink':
-      const TablerIcon(TablerIcons.externalLink, TablerIconsSvg.externalLink),
-  'eyeBolt': const TablerIcon(TablerIcons.eyeBolt, TablerIconsSvg.eyeBolt),
-  'eyeCancel':
-      const TablerIcon(TablerIcons.eyeCancel, TablerIconsSvg.eyeCancel),
-  'eyeCheck': const TablerIcon(TablerIcons.eyeCheck, TablerIconsSvg.eyeCheck),
-  'eyeClosed':
-      const TablerIcon(TablerIcons.eyeClosed, TablerIconsSvg.eyeClosed),
-  'eyeCode': const TablerIcon(TablerIcons.eyeCode, TablerIconsSvg.eyeCode),
-  'eyeCog': const TablerIcon(TablerIcons.eyeCog, TablerIconsSvg.eyeCog),
-  'eyeDiscount':
-      const TablerIcon(TablerIcons.eyeDiscount, TablerIconsSvg.eyeDiscount),
-  'eyeDollar':
-      const TablerIcon(TablerIcons.eyeDollar, TablerIconsSvg.eyeDollar),
-  'eyeDown': const TablerIcon(TablerIcons.eyeDown, TablerIconsSvg.eyeDown),
-  'eyeEdit': const TablerIcon(TablerIcons.eyeEdit, TablerIconsSvg.eyeEdit),
-  'eyeExclamation': const TablerIcon(
-      TablerIcons.eyeExclamation, TablerIconsSvg.eyeExclamation),
-  'eyeFilled':
-      const TablerIcon(TablerIcons.eyeFilled, TablerIconsSvg.eyeFilled),
-  'eyeHeart': const TablerIcon(TablerIcons.eyeHeart, TablerIconsSvg.eyeHeart),
-  'eyeMinus': const TablerIcon(TablerIcons.eyeMinus, TablerIconsSvg.eyeMinus),
-  'eyeOff': const TablerIcon(TablerIcons.eyeOff, TablerIconsSvg.eyeOff),
-  'eyePause': const TablerIcon(TablerIcons.eyePause, TablerIconsSvg.eyePause),
-  'eyePin': const TablerIcon(TablerIcons.eyePin, TablerIconsSvg.eyePin),
-  'eyePlus': const TablerIcon(TablerIcons.eyePlus, TablerIconsSvg.eyePlus),
-  'eyeQuestion':
-      const TablerIcon(TablerIcons.eyeQuestion, TablerIconsSvg.eyeQuestion),
-  'eyeSearch':
-      const TablerIcon(TablerIcons.eyeSearch, TablerIconsSvg.eyeSearch),
-  'eyeShare': const TablerIcon(TablerIcons.eyeShare, TablerIconsSvg.eyeShare),
-  'eyeStar': const TablerIcon(TablerIcons.eyeStar, TablerIconsSvg.eyeStar),
-  'eyeTable': const TablerIcon(TablerIcons.eyeTable, TablerIconsSvg.eyeTable),
-  'eyeUp': const TablerIcon(TablerIcons.eyeUp, TablerIconsSvg.eyeUp),
-  'eyeX': const TablerIcon(TablerIcons.eyeX, TablerIconsSvg.eyeX),
-  'eye': const TablerIcon(TablerIcons.eye, TablerIconsSvg.eye),
-  'eyeglass2':
-      const TablerIcon(TablerIcons.eyeglass2, TablerIconsSvg.eyeglass2),
-  'eyeglassOff':
-      const TablerIcon(TablerIcons.eyeglassOff, TablerIconsSvg.eyeglassOff),
-  'eyeglass': const TablerIcon(TablerIcons.eyeglass, TablerIconsSvg.eyeglass),
-  'faceIdError':
-      const TablerIcon(TablerIcons.faceIdError, TablerIconsSvg.faceIdError),
-  'faceId': const TablerIcon(TablerIcons.faceId, TablerIconsSvg.faceId),
-  'faceMaskOff':
-      const TablerIcon(TablerIcons.faceMaskOff, TablerIconsSvg.faceMaskOff),
-  'faceMask': const TablerIcon(TablerIcons.faceMask, TablerIconsSvg.faceMask),
-  'fall': const TablerIcon(TablerIcons.fall, TablerIconsSvg.fall),
-  'featherOff':
-      const TablerIcon(TablerIcons.featherOff, TablerIconsSvg.featherOff),
-  'feather': const TablerIcon(TablerIcons.feather, TablerIconsSvg.feather),
-  'fenceOff': const TablerIcon(TablerIcons.fenceOff, TablerIconsSvg.fenceOff),
-  'fence': const TablerIcon(TablerIcons.fence, TablerIconsSvg.fence),
-  'fidgetSpinner':
-      const TablerIcon(TablerIcons.fidgetSpinner, TablerIconsSvg.fidgetSpinner),
-  'file3d': const TablerIcon(TablerIcons.file3d, TablerIconsSvg.file3d),
-  'fileAlert':
-      const TablerIcon(TablerIcons.fileAlert, TablerIconsSvg.fileAlert),
-  'fileAnalytics':
-      const TablerIcon(TablerIcons.fileAnalytics, TablerIconsSvg.fileAnalytics),
-  'fileArrowLeft':
-      const TablerIcon(TablerIcons.fileArrowLeft, TablerIconsSvg.fileArrowLeft),
-  'fileArrowRight': const TablerIcon(
-      TablerIcons.fileArrowRight, TablerIconsSvg.fileArrowRight),
-  'fileBarcode':
-      const TablerIcon(TablerIcons.fileBarcode, TablerIconsSvg.fileBarcode),
-  'fileBroken':
-      const TablerIcon(TablerIcons.fileBroken, TablerIconsSvg.fileBroken),
-  'fileCertificate': const TablerIcon(
-      TablerIcons.fileCertificate, TablerIconsSvg.fileCertificate),
-  'fileChart':
-      const TablerIcon(TablerIcons.fileChart, TablerIconsSvg.fileChart),
-  'fileCheck':
-      const TablerIcon(TablerIcons.fileCheck, TablerIconsSvg.fileCheck),
-  'fileCode2':
-      const TablerIcon(TablerIcons.fileCode2, TablerIconsSvg.fileCode2),
-  'fileCode': const TablerIcon(TablerIcons.fileCode, TablerIconsSvg.fileCode),
-  'fileCv': const TablerIcon(TablerIcons.fileCv, TablerIconsSvg.fileCv),
-  'fileDatabase':
-      const TablerIcon(TablerIcons.fileDatabase, TablerIconsSvg.fileDatabase),
-  'fileDelta':
-      const TablerIcon(TablerIcons.fileDelta, TablerIconsSvg.fileDelta),
-  'fileDescription': const TablerIcon(
-      TablerIcons.fileDescription, TablerIconsSvg.fileDescription),
-  'fileDiff': const TablerIcon(TablerIcons.fileDiff, TablerIconsSvg.fileDiff),
-  'fileDigit':
-      const TablerIcon(TablerIcons.fileDigit, TablerIconsSvg.fileDigit),
-  'fileDislike':
-      const TablerIcon(TablerIcons.fileDislike, TablerIconsSvg.fileDislike),
-  'fileDollar':
-      const TablerIcon(TablerIcons.fileDollar, TablerIconsSvg.fileDollar),
-  'fileDots': const TablerIcon(TablerIcons.fileDots, TablerIconsSvg.fileDots),
-  'fileDownload':
-      const TablerIcon(TablerIcons.fileDownload, TablerIconsSvg.fileDownload),
-  'fileEuro': const TablerIcon(TablerIcons.fileEuro, TablerIconsSvg.fileEuro),
-  'fileExport':
-      const TablerIcon(TablerIcons.fileExport, TablerIconsSvg.fileExport),
-  'fileFilled':
-      const TablerIcon(TablerIcons.fileFilled, TablerIconsSvg.fileFilled),
-  'fileFunction':
-      const TablerIcon(TablerIcons.fileFunction, TablerIconsSvg.fileFunction),
-  'fileHorizontal': const TablerIcon(
-      TablerIcons.fileHorizontal, TablerIconsSvg.fileHorizontal),
-  'fileImport':
-      const TablerIcon(TablerIcons.fileImport, TablerIconsSvg.fileImport),
-  'fileInfinity':
-      const TablerIcon(TablerIcons.fileInfinity, TablerIconsSvg.fileInfinity),
-  'fileInfo': const TablerIcon(TablerIcons.fileInfo, TablerIconsSvg.fileInfo),
-  'fileInvoice':
-      const TablerIcon(TablerIcons.fileInvoice, TablerIconsSvg.fileInvoice),
-  'fileLambda':
-      const TablerIcon(TablerIcons.fileLambda, TablerIconsSvg.fileLambda),
-  'fileLike': const TablerIcon(TablerIcons.fileLike, TablerIconsSvg.fileLike),
-  'fileMinus':
-      const TablerIcon(TablerIcons.fileMinus, TablerIconsSvg.fileMinus),
-  'fileMusic':
-      const TablerIcon(TablerIcons.fileMusic, TablerIconsSvg.fileMusic),
-  'fileOff': const TablerIcon(TablerIcons.fileOff, TablerIconsSvg.fileOff),
-  'fileOrientation': const TablerIcon(
-      TablerIcons.fileOrientation, TablerIconsSvg.fileOrientation),
-  'filePencil':
-      const TablerIcon(TablerIcons.filePencil, TablerIconsSvg.filePencil),
-  'filePercent':
-      const TablerIcon(TablerIcons.filePercent, TablerIconsSvg.filePercent),
-  'filePhone':
-      const TablerIcon(TablerIcons.filePhone, TablerIconsSvg.filePhone),
-  'filePlus': const TablerIcon(TablerIcons.filePlus, TablerIconsSvg.filePlus),
-  'filePower':
-      const TablerIcon(TablerIcons.filePower, TablerIconsSvg.filePower),
-  'fileReport':
-      const TablerIcon(TablerIcons.fileReport, TablerIconsSvg.fileReport),
-  'fileRss': const TablerIcon(TablerIcons.fileRss, TablerIconsSvg.fileRss),
-  'fileScissors':
-      const TablerIcon(TablerIcons.fileScissors, TablerIconsSvg.fileScissors),
-  'fileSearch':
-      const TablerIcon(TablerIcons.fileSearch, TablerIconsSvg.fileSearch),
-  'fileSettings':
-      const TablerIcon(TablerIcons.fileSettings, TablerIconsSvg.fileSettings),
-  'fileShredder':
-      const TablerIcon(TablerIcons.fileShredder, TablerIconsSvg.fileShredder),
-  'fileSignal':
-      const TablerIcon(TablerIcons.fileSignal, TablerIconsSvg.fileSignal),
-  'fileSpreadsheet': const TablerIcon(
-      TablerIcons.fileSpreadsheet, TablerIconsSvg.fileSpreadsheet),
-  'fileStack':
-      const TablerIcon(TablerIcons.fileStack, TablerIconsSvg.fileStack),
-  'fileStar': const TablerIcon(TablerIcons.fileStar, TablerIconsSvg.fileStar),
-  'fileSymlink':
-      const TablerIcon(TablerIcons.fileSymlink, TablerIconsSvg.fileSymlink),
-  'fileTextAi':
-      const TablerIcon(TablerIcons.fileTextAi, TablerIconsSvg.fileTextAi),
-  'fileText': const TablerIcon(TablerIcons.fileText, TablerIconsSvg.fileText),
-  'fileTime': const TablerIcon(TablerIcons.fileTime, TablerIconsSvg.fileTime),
-  'fileTypeBmp':
-      const TablerIcon(TablerIcons.fileTypeBmp, TablerIconsSvg.fileTypeBmp),
-  'fileTypeCss':
-      const TablerIcon(TablerIcons.fileTypeCss, TablerIconsSvg.fileTypeCss),
-  'fileTypeCsv':
-      const TablerIcon(TablerIcons.fileTypeCsv, TablerIconsSvg.fileTypeCsv),
-  'fileTypeDoc':
-      const TablerIcon(TablerIcons.fileTypeDoc, TablerIconsSvg.fileTypeDoc),
-  'fileTypeDocx':
-      const TablerIcon(TablerIcons.fileTypeDocx, TablerIconsSvg.fileTypeDocx),
-  'fileTypeHtml':
-      const TablerIcon(TablerIcons.fileTypeHtml, TablerIconsSvg.fileTypeHtml),
-  'fileTypeJpg':
-      const TablerIcon(TablerIcons.fileTypeJpg, TablerIconsSvg.fileTypeJpg),
-  'fileTypeJs':
-      const TablerIcon(TablerIcons.fileTypeJs, TablerIconsSvg.fileTypeJs),
-  'fileTypeJsx':
-      const TablerIcon(TablerIcons.fileTypeJsx, TablerIconsSvg.fileTypeJsx),
-  'fileTypePdf':
-      const TablerIcon(TablerIcons.fileTypePdf, TablerIconsSvg.fileTypePdf),
-  'fileTypePhp':
-      const TablerIcon(TablerIcons.fileTypePhp, TablerIconsSvg.fileTypePhp),
-  'fileTypePng':
-      const TablerIcon(TablerIcons.fileTypePng, TablerIconsSvg.fileTypePng),
-  'fileTypePpt':
-      const TablerIcon(TablerIcons.fileTypePpt, TablerIconsSvg.fileTypePpt),
-  'fileTypeRs':
-      const TablerIcon(TablerIcons.fileTypeRs, TablerIconsSvg.fileTypeRs),
-  'fileTypeSql':
-      const TablerIcon(TablerIcons.fileTypeSql, TablerIconsSvg.fileTypeSql),
-  'fileTypeSvg':
-      const TablerIcon(TablerIcons.fileTypeSvg, TablerIconsSvg.fileTypeSvg),
-  'fileTypeTs':
-      const TablerIcon(TablerIcons.fileTypeTs, TablerIconsSvg.fileTypeTs),
-  'fileTypeTsx':
-      const TablerIcon(TablerIcons.fileTypeTsx, TablerIconsSvg.fileTypeTsx),
-  'fileTypeTxt':
-      const TablerIcon(TablerIcons.fileTypeTxt, TablerIconsSvg.fileTypeTxt),
-  'fileTypeVue':
-      const TablerIcon(TablerIcons.fileTypeVue, TablerIconsSvg.fileTypeVue),
-  'fileTypeXls':
-      const TablerIcon(TablerIcons.fileTypeXls, TablerIconsSvg.fileTypeXls),
-  'fileTypeXml':
-      const TablerIcon(TablerIcons.fileTypeXml, TablerIconsSvg.fileTypeXml),
-  'fileTypeZip':
-      const TablerIcon(TablerIcons.fileTypeZip, TablerIconsSvg.fileTypeZip),
-  'fileTypography': const TablerIcon(
-      TablerIcons.fileTypography, TablerIconsSvg.fileTypography),
-  'fileUnknown':
-      const TablerIcon(TablerIcons.fileUnknown, TablerIconsSvg.fileUnknown),
-  'fileUpload':
-      const TablerIcon(TablerIcons.fileUpload, TablerIconsSvg.fileUpload),
-  'fileVector':
-      const TablerIcon(TablerIcons.fileVector, TablerIconsSvg.fileVector),
-  'fileXFilled':
-      const TablerIcon(TablerIcons.fileXFilled, TablerIconsSvg.fileXFilled),
-  'fileX': const TablerIcon(TablerIcons.fileX, TablerIconsSvg.fileX),
-  'fileZip': const TablerIcon(TablerIcons.fileZip, TablerIconsSvg.fileZip),
-  'file': const TablerIcon(TablerIcons.file, TablerIconsSvg.file),
-  'filesOff': const TablerIcon(TablerIcons.filesOff, TablerIconsSvg.filesOff),
-  'files': const TablerIcon(TablerIcons.files, TablerIconsSvg.files),
-  'filterBolt':
-      const TablerIcon(TablerIcons.filterBolt, TablerIconsSvg.filterBolt),
-  'filterCancel':
-      const TablerIcon(TablerIcons.filterCancel, TablerIconsSvg.filterCancel),
-  'filterCheck':
-      const TablerIcon(TablerIcons.filterCheck, TablerIconsSvg.filterCheck),
-  'filterCode':
-      const TablerIcon(TablerIcons.filterCode, TablerIconsSvg.filterCode),
-  'filterCog':
-      const TablerIcon(TablerIcons.filterCog, TablerIconsSvg.filterCog),
-  'filterDiscount': const TablerIcon(
-      TablerIcons.filterDiscount, TablerIconsSvg.filterDiscount),
-  'filterDollar':
-      const TablerIcon(TablerIcons.filterDollar, TablerIconsSvg.filterDollar),
-  'filterDown':
-      const TablerIcon(TablerIcons.filterDown, TablerIconsSvg.filterDown),
-  'filterEdit':
-      const TablerIcon(TablerIcons.filterEdit, TablerIconsSvg.filterEdit),
-  'filterExclamation': const TablerIcon(
-      TablerIcons.filterExclamation, TablerIconsSvg.filterExclamation),
-  'filterFilled':
-      const TablerIcon(TablerIcons.filterFilled, TablerIconsSvg.filterFilled),
-  'filterHeart':
-      const TablerIcon(TablerIcons.filterHeart, TablerIconsSvg.filterHeart),
-  'filterMinus':
-      const TablerIcon(TablerIcons.filterMinus, TablerIconsSvg.filterMinus),
-  'filterOff':
-      const TablerIcon(TablerIcons.filterOff, TablerIconsSvg.filterOff),
-  'filterPause':
-      const TablerIcon(TablerIcons.filterPause, TablerIconsSvg.filterPause),
-  'filterPin':
-      const TablerIcon(TablerIcons.filterPin, TablerIconsSvg.filterPin),
-  'filterPlus':
-      const TablerIcon(TablerIcons.filterPlus, TablerIconsSvg.filterPlus),
-  'filterQuestion': const TablerIcon(
-      TablerIcons.filterQuestion, TablerIconsSvg.filterQuestion),
-  'filterSearch':
-      const TablerIcon(TablerIcons.filterSearch, TablerIconsSvg.filterSearch),
-  'filterShare':
-      const TablerIcon(TablerIcons.filterShare, TablerIconsSvg.filterShare),
-  'filterStar':
-      const TablerIcon(TablerIcons.filterStar, TablerIconsSvg.filterStar),
-  'filterUp': const TablerIcon(TablerIcons.filterUp, TablerIconsSvg.filterUp),
-  'filterX': const TablerIcon(TablerIcons.filterX, TablerIconsSvg.filterX),
-  'filter': const TablerIcon(TablerIcons.filter, TablerIconsSvg.filter),
-  'filters': const TablerIcon(TablerIcons.filters, TablerIconsSvg.filters),
-  'fingerprintOff': const TablerIcon(
-      TablerIcons.fingerprintOff, TablerIconsSvg.fingerprintOff),
-  'fingerprintScan': const TablerIcon(
-      TablerIcons.fingerprintScan, TablerIconsSvg.fingerprintScan),
-  'fingerprint':
-      const TablerIcon(TablerIcons.fingerprint, TablerIconsSvg.fingerprint),
-  'fireExtinguisher': const TablerIcon(
-      TablerIcons.fireExtinguisher, TablerIconsSvg.fireExtinguisher),
-  'fireHydrantOff': const TablerIcon(
-      TablerIcons.fireHydrantOff, TablerIconsSvg.fireHydrantOff),
-  'fireHydrant':
-      const TablerIcon(TablerIcons.fireHydrant, TablerIconsSvg.fireHydrant),
-  'firetruck':
-      const TablerIcon(TablerIcons.firetruck, TablerIconsSvg.firetruck),
-  'firstAidKitOff': const TablerIcon(
-      TablerIcons.firstAidKitOff, TablerIconsSvg.firstAidKitOff),
-  'firstAidKit':
-      const TablerIcon(TablerIcons.firstAidKit, TablerIconsSvg.firstAidKit),
-  'fishBone': const TablerIcon(TablerIcons.fishBone, TablerIconsSvg.fishBone),
-  'fishChristianity': const TablerIcon(
-      TablerIcons.fishChristianity, TablerIconsSvg.fishChristianity),
-  'fishHookOff':
-      const TablerIcon(TablerIcons.fishHookOff, TablerIconsSvg.fishHookOff),
-  'fishHook': const TablerIcon(TablerIcons.fishHook, TablerIconsSvg.fishHook),
-  'fishOff': const TablerIcon(TablerIcons.fishOff, TablerIconsSvg.fishOff),
-  'fish': const TablerIcon(TablerIcons.fish, TablerIconsSvg.fish),
-  'flag2Filled':
-      const TablerIcon(TablerIcons.flag2Filled, TablerIconsSvg.flag2Filled),
-  'flag2Off': const TablerIcon(TablerIcons.flag2Off, TablerIconsSvg.flag2Off),
-  'flag2': const TablerIcon(TablerIcons.flag2, TablerIconsSvg.flag2),
-  'flag3Filled':
-      const TablerIcon(TablerIcons.flag3Filled, TablerIconsSvg.flag3Filled),
-  'flag3': const TablerIcon(TablerIcons.flag3, TablerIconsSvg.flag3),
-  'flagBolt': const TablerIcon(TablerIcons.flagBolt, TablerIconsSvg.flagBolt),
-  'flagCancel':
-      const TablerIcon(TablerIcons.flagCancel, TablerIconsSvg.flagCancel),
-  'flagCheck':
-      const TablerIcon(TablerIcons.flagCheck, TablerIconsSvg.flagCheck),
-  'flagCode': const TablerIcon(TablerIcons.flagCode, TablerIconsSvg.flagCode),
-  'flagCog': const TablerIcon(TablerIcons.flagCog, TablerIconsSvg.flagCog),
-  'flagDiscount':
-      const TablerIcon(TablerIcons.flagDiscount, TablerIconsSvg.flagDiscount),
-  'flagDollar':
-      const TablerIcon(TablerIcons.flagDollar, TablerIconsSvg.flagDollar),
-  'flagDown': const TablerIcon(TablerIcons.flagDown, TablerIconsSvg.flagDown),
-  'flagExclamation': const TablerIcon(
-      TablerIcons.flagExclamation, TablerIconsSvg.flagExclamation),
-  'flagFilled':
-      const TablerIcon(TablerIcons.flagFilled, TablerIconsSvg.flagFilled),
-  'flagHeart':
-      const TablerIcon(TablerIcons.flagHeart, TablerIconsSvg.flagHeart),
-  'flagMinus':
-      const TablerIcon(TablerIcons.flagMinus, TablerIconsSvg.flagMinus),
-  'flagOff': const TablerIcon(TablerIcons.flagOff, TablerIconsSvg.flagOff),
-  'flagPause':
-      const TablerIcon(TablerIcons.flagPause, TablerIconsSvg.flagPause),
-  'flagPin': const TablerIcon(TablerIcons.flagPin, TablerIconsSvg.flagPin),
-  'flagPlus': const TablerIcon(TablerIcons.flagPlus, TablerIconsSvg.flagPlus),
-  'flagQuestion':
-      const TablerIcon(TablerIcons.flagQuestion, TablerIconsSvg.flagQuestion),
-  'flagSearch':
-      const TablerIcon(TablerIcons.flagSearch, TablerIconsSvg.flagSearch),
-  'flagShare':
-      const TablerIcon(TablerIcons.flagShare, TablerIconsSvg.flagShare),
-  'flagStar': const TablerIcon(TablerIcons.flagStar, TablerIconsSvg.flagStar),
-  'flagUp': const TablerIcon(TablerIcons.flagUp, TablerIconsSvg.flagUp),
-  'flagX': const TablerIcon(TablerIcons.flagX, TablerIconsSvg.flagX),
-  'flag': const TablerIcon(TablerIcons.flag, TablerIconsSvg.flag),
-  'flameOff': const TablerIcon(TablerIcons.flameOff, TablerIconsSvg.flameOff),
-  'flame': const TablerIcon(TablerIcons.flame, TablerIconsSvg.flame),
-  'flare': const TablerIcon(TablerIcons.flare, TablerIconsSvg.flare),
-  'flask2Off':
-      const TablerIcon(TablerIcons.flask2Off, TablerIconsSvg.flask2Off),
-  'flask2': const TablerIcon(TablerIcons.flask2, TablerIconsSvg.flask2),
-  'flaskOff': const TablerIcon(TablerIcons.flaskOff, TablerIconsSvg.flaskOff),
-  'flask': const TablerIcon(TablerIcons.flask, TablerIconsSvg.flask),
-  'flipFlops':
-      const TablerIcon(TablerIcons.flipFlops, TablerIconsSvg.flipFlops),
-  'flipHorizontal': const TablerIcon(
-      TablerIcons.flipHorizontal, TablerIconsSvg.flipHorizontal),
-  'flipVertical':
-      const TablerIcon(TablerIcons.flipVertical, TablerIconsSvg.flipVertical),
-  'floatCenter':
-      const TablerIcon(TablerIcons.floatCenter, TablerIconsSvg.floatCenter),
-  'floatLeft':
-      const TablerIcon(TablerIcons.floatLeft, TablerIconsSvg.floatLeft),
-  'floatNone':
-      const TablerIcon(TablerIcons.floatNone, TablerIconsSvg.floatNone),
-  'floatRight':
-      const TablerIcon(TablerIcons.floatRight, TablerIconsSvg.floatRight),
-  'flowerOff':
-      const TablerIcon(TablerIcons.flowerOff, TablerIconsSvg.flowerOff),
-  'flower': const TablerIcon(TablerIcons.flower, TablerIconsSvg.flower),
-  'focus2': const TablerIcon(TablerIcons.focus2, TablerIconsSvg.focus2),
-  'focusAuto':
-      const TablerIcon(TablerIcons.focusAuto, TablerIconsSvg.focusAuto),
-  'focusCentered':
-      const TablerIcon(TablerIcons.focusCentered, TablerIconsSvg.focusCentered),
-  'focus': const TablerIcon(TablerIcons.focus, TablerIconsSvg.focus),
-  'foldDown': const TablerIcon(TablerIcons.foldDown, TablerIconsSvg.foldDown),
-  'foldUp': const TablerIcon(TablerIcons.foldUp, TablerIconsSvg.foldUp),
-  'fold': const TablerIcon(TablerIcons.fold, TablerIconsSvg.fold),
-  'folderBolt':
-      const TablerIcon(TablerIcons.folderBolt, TablerIconsSvg.folderBolt),
-  'folderCancel':
-      const TablerIcon(TablerIcons.folderCancel, TablerIconsSvg.folderCancel),
-  'folderCheck':
-      const TablerIcon(TablerIcons.folderCheck, TablerIconsSvg.folderCheck),
-  'folderCode':
-      const TablerIcon(TablerIcons.folderCode, TablerIconsSvg.folderCode),
-  'folderCog':
-      const TablerIcon(TablerIcons.folderCog, TablerIconsSvg.folderCog),
-  'folderDollar':
-      const TablerIcon(TablerIcons.folderDollar, TablerIconsSvg.folderDollar),
-  'folderDown':
-      const TablerIcon(TablerIcons.folderDown, TablerIconsSvg.folderDown),
-  'folderExclamation': const TablerIcon(
-      TablerIcons.folderExclamation, TablerIconsSvg.folderExclamation),
-  'folderFilled':
-      const TablerIcon(TablerIcons.folderFilled, TablerIconsSvg.folderFilled),
-  'folderHeart':
-      const TablerIcon(TablerIcons.folderHeart, TablerIconsSvg.folderHeart),
-  'folderMinus':
-      const TablerIcon(TablerIcons.folderMinus, TablerIconsSvg.folderMinus),
-  'folderOff':
-      const TablerIcon(TablerIcons.folderOff, TablerIconsSvg.folderOff),
-  'folderOpen':
-      const TablerIcon(TablerIcons.folderOpen, TablerIconsSvg.folderOpen),
-  'folderPause':
-      const TablerIcon(TablerIcons.folderPause, TablerIconsSvg.folderPause),
-  'folderPin':
-      const TablerIcon(TablerIcons.folderPin, TablerIconsSvg.folderPin),
-  'folderPlus':
-      const TablerIcon(TablerIcons.folderPlus, TablerIconsSvg.folderPlus),
-  'folderQuestion': const TablerIcon(
-      TablerIcons.folderQuestion, TablerIconsSvg.folderQuestion),
-  'folderSearch':
-      const TablerIcon(TablerIcons.folderSearch, TablerIconsSvg.folderSearch),
-  'folderShare':
-      const TablerIcon(TablerIcons.folderShare, TablerIconsSvg.folderShare),
-  'folderStar':
-      const TablerIcon(TablerIcons.folderStar, TablerIconsSvg.folderStar),
-  'folderSymlink':
-      const TablerIcon(TablerIcons.folderSymlink, TablerIconsSvg.folderSymlink),
-  'folderUp': const TablerIcon(TablerIcons.folderUp, TablerIconsSvg.folderUp),
-  'folderX': const TablerIcon(TablerIcons.folderX, TablerIconsSvg.folderX),
-  'folder': const TablerIcon(TablerIcons.folder, TablerIconsSvg.folder),
-  'foldersOff':
-      const TablerIcon(TablerIcons.foldersOff, TablerIconsSvg.foldersOff),
-  'folders': const TablerIcon(TablerIcons.folders, TablerIconsSvg.folders),
-  'forbid2Filled':
-      const TablerIcon(TablerIcons.forbid2Filled, TablerIconsSvg.forbid2Filled),
-  'forbid2': const TablerIcon(TablerIcons.forbid2, TablerIconsSvg.forbid2),
-  'forbidFilled':
-      const TablerIcon(TablerIcons.forbidFilled, TablerIconsSvg.forbidFilled),
-  'forbid': const TablerIcon(TablerIcons.forbid, TablerIconsSvg.forbid),
-  'forklift': const TablerIcon(TablerIcons.forklift, TablerIconsSvg.forklift),
-  'forms': const TablerIcon(TablerIcons.forms, TablerIconsSvg.forms),
-  'fountainFilled': const TablerIcon(
-      TablerIcons.fountainFilled, TablerIconsSvg.fountainFilled),
-  'fountainOff':
-      const TablerIcon(TablerIcons.fountainOff, TablerIconsSvg.fountainOff),
-  'fountain': const TablerIcon(TablerIcons.fountain, TablerIconsSvg.fountain),
-  'frameOff': const TablerIcon(TablerIcons.frameOff, TablerIconsSvg.frameOff),
-  'frame': const TablerIcon(TablerIcons.frame, TablerIconsSvg.frame),
-  'freeRights':
-      const TablerIcon(TablerIcons.freeRights, TablerIconsSvg.freeRights),
-  'freezeColumn':
-      const TablerIcon(TablerIcons.freezeColumn, TablerIconsSvg.freezeColumn),
-  'freezeRowColumn': const TablerIcon(
-      TablerIcons.freezeRowColumn, TablerIconsSvg.freezeRowColumn),
-  'freezeRow':
-      const TablerIcon(TablerIcons.freezeRow, TablerIconsSvg.freezeRow),
-  'fridgeOff':
-      const TablerIcon(TablerIcons.fridgeOff, TablerIconsSvg.fridgeOff),
-  'fridge': const TablerIcon(TablerIcons.fridge, TablerIconsSvg.fridge),
-  'friendsOff':
-      const TablerIcon(TablerIcons.friendsOff, TablerIconsSvg.friendsOff),
-  'friends': const TablerIcon(TablerIcons.friends, TablerIconsSvg.friends),
-  'frustumOff':
-      const TablerIcon(TablerIcons.frustumOff, TablerIconsSvg.frustumOff),
-  'frustumPlus':
-      const TablerIcon(TablerIcons.frustumPlus, TablerIconsSvg.frustumPlus),
-  'frustum': const TablerIcon(TablerIcons.frustum, TablerIconsSvg.frustum),
-  'functionFilled': const TablerIcon(
-      TablerIcons.functionFilled, TablerIconsSvg.functionFilled),
-  'functionOff':
-      const TablerIcon(TablerIcons.functionOff, TablerIconsSvg.functionOff),
-  'function': const TablerIcon(TablerIcons.function, TablerIconsSvg.function),
-  'galaxy': const TablerIcon(TablerIcons.galaxy, TablerIconsSvg.galaxy),
-  'gardenCartOff':
-      const TablerIcon(TablerIcons.gardenCartOff, TablerIconsSvg.gardenCartOff),
-  'gardenCart':
-      const TablerIcon(TablerIcons.gardenCart, TablerIconsSvg.gardenCart),
-  'gasStationOff':
-      const TablerIcon(TablerIcons.gasStationOff, TablerIconsSvg.gasStationOff),
-  'gasStation':
-      const TablerIcon(TablerIcons.gasStation, TablerIconsSvg.gasStation),
-  'gaugeFilled':
-      const TablerIcon(TablerIcons.gaugeFilled, TablerIconsSvg.gaugeFilled),
-  'gaugeOff': const TablerIcon(TablerIcons.gaugeOff, TablerIconsSvg.gaugeOff),
-  'gauge': const TablerIcon(TablerIcons.gauge, TablerIconsSvg.gauge),
-  'gavel': const TablerIcon(TablerIcons.gavel, TablerIconsSvg.gavel),
-  'genderAgender':
-      const TablerIcon(TablerIcons.genderAgender, TablerIconsSvg.genderAgender),
-  'genderAndrogyne': const TablerIcon(
-      TablerIcons.genderAndrogyne, TablerIconsSvg.genderAndrogyne),
-  'genderBigender': const TablerIcon(
-      TablerIcons.genderBigender, TablerIconsSvg.genderBigender),
-  'genderDemiboy':
-      const TablerIcon(TablerIcons.genderDemiboy, TablerIconsSvg.genderDemiboy),
-  'genderDemigirl': const TablerIcon(
-      TablerIcons.genderDemigirl, TablerIconsSvg.genderDemigirl),
-  'genderEpicene':
-      const TablerIcon(TablerIcons.genderEpicene, TablerIconsSvg.genderEpicene),
-  'genderFemale':
-      const TablerIcon(TablerIcons.genderFemale, TablerIconsSvg.genderFemale),
-  'genderFemme':
-      const TablerIcon(TablerIcons.genderFemme, TablerIconsSvg.genderFemme),
-  'genderGenderfluid': const TablerIcon(
-      TablerIcons.genderGenderfluid, TablerIconsSvg.genderGenderfluid),
-  'genderGenderless': const TablerIcon(
-      TablerIcons.genderGenderless, TablerIconsSvg.genderGenderless),
-  'genderGenderqueer': const TablerIcon(
-      TablerIcons.genderGenderqueer, TablerIconsSvg.genderGenderqueer),
-  'genderHermaphrodite': const TablerIcon(
-      TablerIcons.genderHermaphrodite, TablerIconsSvg.genderHermaphrodite),
-  'genderIntergender': const TablerIcon(
-      TablerIcons.genderIntergender, TablerIconsSvg.genderIntergender),
-  'genderMale':
-      const TablerIcon(TablerIcons.genderMale, TablerIconsSvg.genderMale),
-  'genderNeutrois': const TablerIcon(
-      TablerIcons.genderNeutrois, TablerIconsSvg.genderNeutrois),
-  'genderThird':
-      const TablerIcon(TablerIcons.genderThird, TablerIconsSvg.genderThird),
-  'genderTransgender': const TablerIcon(
-      TablerIcons.genderTransgender, TablerIconsSvg.genderTransgender),
-  'genderTrasvesti': const TablerIcon(
-      TablerIcons.genderTrasvesti, TablerIconsSvg.genderTrasvesti),
-  'geometry': const TablerIcon(TablerIcons.geometry, TablerIconsSvg.geometry),
-  'ghost2Filled':
-      const TablerIcon(TablerIcons.ghost2Filled, TablerIconsSvg.ghost2Filled),
-  'ghost2': const TablerIcon(TablerIcons.ghost2, TablerIconsSvg.ghost2),
-  'ghost3': const TablerIcon(TablerIcons.ghost3, TablerIconsSvg.ghost3),
-  'ghostFilled':
-      const TablerIcon(TablerIcons.ghostFilled, TablerIconsSvg.ghostFilled),
-  'ghostOff': const TablerIcon(TablerIcons.ghostOff, TablerIconsSvg.ghostOff),
-  'ghost': const TablerIcon(TablerIcons.ghost, TablerIconsSvg.ghost),
-  'gif': const TablerIcon(TablerIcons.gif, TablerIconsSvg.gif),
-  'giftCardFilled': const TablerIcon(
-      TablerIcons.giftCardFilled, TablerIconsSvg.giftCardFilled),
-  'giftCard': const TablerIcon(TablerIcons.giftCard, TablerIconsSvg.giftCard),
-  'giftOff': const TablerIcon(TablerIcons.giftOff, TablerIconsSvg.giftOff),
-  'gift': const TablerIcon(TablerIcons.gift, TablerIconsSvg.gift),
-  'gitBranchDeleted': const TablerIcon(
-      TablerIcons.gitBranchDeleted, TablerIconsSvg.gitBranchDeleted),
-  'gitBranch':
-      const TablerIcon(TablerIcons.gitBranch, TablerIconsSvg.gitBranch),
-  'gitCherryPick':
-      const TablerIcon(TablerIcons.gitCherryPick, TablerIconsSvg.gitCherryPick),
-  'gitCommit':
-      const TablerIcon(TablerIcons.gitCommit, TablerIconsSvg.gitCommit),
-  'gitCompare':
-      const TablerIcon(TablerIcons.gitCompare, TablerIconsSvg.gitCompare),
-  'gitFork': const TablerIcon(TablerIcons.gitFork, TablerIconsSvg.gitFork),
-  'gitMerge': const TablerIcon(TablerIcons.gitMerge, TablerIconsSvg.gitMerge),
-  'gitPullRequestClosed': const TablerIcon(
-      TablerIcons.gitPullRequestClosed, TablerIconsSvg.gitPullRequestClosed),
-  'gitPullRequestDraft': const TablerIcon(
-      TablerIcons.gitPullRequestDraft, TablerIconsSvg.gitPullRequestDraft),
-  'gitPullRequest': const TablerIcon(
-      TablerIcons.gitPullRequest, TablerIconsSvg.gitPullRequest),
-  'gizmo': const TablerIcon(TablerIcons.gizmo, TablerIconsSvg.gizmo),
-  'glassFullFilled': const TablerIcon(
-      TablerIcons.glassFullFilled, TablerIconsSvg.glassFullFilled),
-  'glassFull':
-      const TablerIcon(TablerIcons.glassFull, TablerIconsSvg.glassFull),
-  'glassOff': const TablerIcon(TablerIcons.glassOff, TablerIconsSvg.glassOff),
-  'glass': const TablerIcon(TablerIcons.glass, TablerIconsSvg.glass),
-  'globeFilled':
-      const TablerIcon(TablerIcons.globeFilled, TablerIconsSvg.globeFilled),
-  'globeOff': const TablerIcon(TablerIcons.globeOff, TablerIconsSvg.globeOff),
-  'globe': const TablerIcon(TablerIcons.globe, TablerIconsSvg.globe),
-  'goGame': const TablerIcon(TablerIcons.goGame, TablerIconsSvg.goGame),
-  'golfOff': const TablerIcon(TablerIcons.golfOff, TablerIconsSvg.golfOff),
-  'golf': const TablerIcon(TablerIcons.golf, TablerIconsSvg.golf),
-  'gps': const TablerIcon(TablerIcons.gps, TablerIconsSvg.gps),
-  'gradienter':
-      const TablerIcon(TablerIcons.gradienter, TablerIconsSvg.gradienter),
-  'grain': const TablerIcon(TablerIcons.grain, TablerIconsSvg.grain),
-  'graphOff': const TablerIcon(TablerIcons.graphOff, TablerIconsSvg.graphOff),
-  'graph': const TablerIcon(TablerIcons.graph, TablerIconsSvg.graph),
-  'grave2': const TablerIcon(TablerIcons.grave2, TablerIconsSvg.grave2),
-  'grave': const TablerIcon(TablerIcons.grave, TablerIconsSvg.grave),
-  'grid3x3': const TablerIcon(TablerIcons.grid3x3, TablerIconsSvg.grid3x3),
-  'grid4x4': const TablerIcon(TablerIcons.grid4x4, TablerIconsSvg.grid4x4),
-  'gridDots': const TablerIcon(TablerIcons.gridDots, TablerIconsSvg.gridDots),
-  'gridGoldenratio': const TablerIcon(
-      TablerIcons.gridGoldenratio, TablerIconsSvg.gridGoldenratio),
-  'gridPattern':
-      const TablerIcon(TablerIcons.gridPattern, TablerIconsSvg.gridPattern),
-  'gridScan': const TablerIcon(TablerIcons.gridScan, TablerIconsSvg.gridScan),
-  'grillFork':
-      const TablerIcon(TablerIcons.grillFork, TablerIconsSvg.grillFork),
-  'grillOff': const TablerIcon(TablerIcons.grillOff, TablerIconsSvg.grillOff),
-  'grillSpatula':
-      const TablerIcon(TablerIcons.grillSpatula, TablerIconsSvg.grillSpatula),
-  'grill': const TablerIcon(TablerIcons.grill, TablerIconsSvg.grill),
-  'gripHorizontal': const TablerIcon(
-      TablerIcons.gripHorizontal, TablerIconsSvg.gripHorizontal),
-  'gripVertical':
-      const TablerIcon(TablerIcons.gripVertical, TablerIconsSvg.gripVertical),
-  'growth': const TablerIcon(TablerIcons.growth, TablerIconsSvg.growth),
-  'guitarPickFilled': const TablerIcon(
-      TablerIcons.guitarPickFilled, TablerIconsSvg.guitarPickFilled),
-  'guitarPick':
-      const TablerIcon(TablerIcons.guitarPick, TablerIconsSvg.guitarPick),
-  'h1': const TablerIcon(TablerIcons.h1, TablerIconsSvg.h1),
-  'h2': const TablerIcon(TablerIcons.h2, TablerIconsSvg.h2),
-  'h3': const TablerIcon(TablerIcons.h3, TablerIconsSvg.h3),
-  'h4': const TablerIcon(TablerIcons.h4, TablerIconsSvg.h4),
-  'h5': const TablerIcon(TablerIcons.h5, TablerIconsSvg.h5),
-  'h6': const TablerIcon(TablerIcons.h6, TablerIconsSvg.h6),
-  'hammerOff':
-      const TablerIcon(TablerIcons.hammerOff, TablerIconsSvg.hammerOff),
-  'hammer': const TablerIcon(TablerIcons.hammer, TablerIconsSvg.hammer),
-  'handClick':
-      const TablerIcon(TablerIcons.handClick, TablerIconsSvg.handClick),
-  'handFingerOff':
-      const TablerIcon(TablerIcons.handFingerOff, TablerIconsSvg.handFingerOff),
-  'handFinger':
-      const TablerIcon(TablerIcons.handFinger, TablerIconsSvg.handFinger),
-  'handGrab': const TablerIcon(TablerIcons.handGrab, TablerIconsSvg.handGrab),
-  'handLittleFinger': const TablerIcon(
-      TablerIcons.handLittleFinger, TablerIconsSvg.handLittleFinger),
-  'handMiddleFinger': const TablerIcon(
-      TablerIcons.handMiddleFinger, TablerIconsSvg.handMiddleFinger),
-  'handMove': const TablerIcon(TablerIcons.handMove, TablerIconsSvg.handMove),
-  'handOff': const TablerIcon(TablerIcons.handOff, TablerIconsSvg.handOff),
-  'handRingFinger': const TablerIcon(
-      TablerIcons.handRingFinger, TablerIconsSvg.handRingFinger),
-  'handRock': const TablerIcon(TablerIcons.handRock, TablerIconsSvg.handRock),
-  'handSanitizer':
-      const TablerIcon(TablerIcons.handSanitizer, TablerIconsSvg.handSanitizer),
-  'handStop': const TablerIcon(TablerIcons.handStop, TablerIconsSvg.handStop),
-  'handThreeFingers': const TablerIcon(
-      TablerIcons.handThreeFingers, TablerIconsSvg.handThreeFingers),
-  'handTwoFingers': const TablerIcon(
-      TablerIcons.handTwoFingers, TablerIconsSvg.handTwoFingers),
-  'hanger2': const TablerIcon(TablerIcons.hanger2, TablerIconsSvg.hanger2),
-  'hangerOff':
-      const TablerIcon(TablerIcons.hangerOff, TablerIconsSvg.hangerOff),
-  'hanger': const TablerIcon(TablerIcons.hanger, TablerIconsSvg.hanger),
-  'hash': const TablerIcon(TablerIcons.hash, TablerIconsSvg.hash),
-  'hazeMoon': const TablerIcon(TablerIcons.hazeMoon, TablerIconsSvg.hazeMoon),
-  'haze': const TablerIcon(TablerIcons.haze, TablerIconsSvg.haze),
-  'hdr': const TablerIcon(TablerIcons.hdr, TablerIconsSvg.hdr),
-  'headingOff':
-      const TablerIcon(TablerIcons.headingOff, TablerIconsSvg.headingOff),
-  'heading': const TablerIcon(TablerIcons.heading, TablerIconsSvg.heading),
-  'headphonesFilled': const TablerIcon(
-      TablerIcons.headphonesFilled, TablerIconsSvg.headphonesFilled),
-  'headphonesOff':
-      const TablerIcon(TablerIcons.headphonesOff, TablerIconsSvg.headphonesOff),
-  'headphones':
-      const TablerIcon(TablerIcons.headphones, TablerIconsSvg.headphones),
-  'headsetOff':
-      const TablerIcon(TablerIcons.headsetOff, TablerIconsSvg.headsetOff),
-  'headset': const TablerIcon(TablerIcons.headset, TablerIconsSvg.headset),
-  'healthRecognition': const TablerIcon(
-      TablerIcons.healthRecognition, TablerIconsSvg.healthRecognition),
-  'heartBolt':
-      const TablerIcon(TablerIcons.heartBolt, TablerIconsSvg.heartBolt),
-  'heartBroken':
-      const TablerIcon(TablerIcons.heartBroken, TablerIconsSvg.heartBroken),
-  'heartCancel':
-      const TablerIcon(TablerIcons.heartCancel, TablerIconsSvg.heartCancel),
-  'heartCheck':
-      const TablerIcon(TablerIcons.heartCheck, TablerIconsSvg.heartCheck),
-  'heartCode':
-      const TablerIcon(TablerIcons.heartCode, TablerIconsSvg.heartCode),
-  'heartCog': const TablerIcon(TablerIcons.heartCog, TablerIconsSvg.heartCog),
-  'heartDiscount':
-      const TablerIcon(TablerIcons.heartDiscount, TablerIconsSvg.heartDiscount),
-  'heartDollar':
-      const TablerIcon(TablerIcons.heartDollar, TablerIconsSvg.heartDollar),
-  'heartDown':
-      const TablerIcon(TablerIcons.heartDown, TablerIconsSvg.heartDown),
-  'heartExclamation': const TablerIcon(
-      TablerIcons.heartExclamation, TablerIconsSvg.heartExclamation),
-  'heartFilled':
-      const TablerIcon(TablerIcons.heartFilled, TablerIconsSvg.heartFilled),
-  'heartHandshake': const TablerIcon(
-      TablerIcons.heartHandshake, TablerIconsSvg.heartHandshake),
-  'heartMinus':
-      const TablerIcon(TablerIcons.heartMinus, TablerIconsSvg.heartMinus),
-  'heartOff': const TablerIcon(TablerIcons.heartOff, TablerIconsSvg.heartOff),
-  'heartPause':
-      const TablerIcon(TablerIcons.heartPause, TablerIconsSvg.heartPause),
-  'heartPin': const TablerIcon(TablerIcons.heartPin, TablerIconsSvg.heartPin),
-  'heartPlus':
-      const TablerIcon(TablerIcons.heartPlus, TablerIconsSvg.heartPlus),
-  'heartQuestion':
-      const TablerIcon(TablerIcons.heartQuestion, TablerIconsSvg.heartQuestion),
-  'heartRateMonitor': const TablerIcon(
-      TablerIcons.heartRateMonitor, TablerIconsSvg.heartRateMonitor),
-  'heartSearch':
-      const TablerIcon(TablerIcons.heartSearch, TablerIconsSvg.heartSearch),
-  'heartShare':
-      const TablerIcon(TablerIcons.heartShare, TablerIconsSvg.heartShare),
-  'heartStar':
-      const TablerIcon(TablerIcons.heartStar, TablerIconsSvg.heartStar),
-  'heartUp': const TablerIcon(TablerIcons.heartUp, TablerIconsSvg.heartUp),
-  'heartX': const TablerIcon(TablerIcons.heartX, TablerIconsSvg.heartX),
-  'heart': const TablerIcon(TablerIcons.heart, TablerIconsSvg.heart),
-  'heartbeat':
-      const TablerIcon(TablerIcons.heartbeat, TablerIconsSvg.heartbeat),
-  'heartsOff':
-      const TablerIcon(TablerIcons.heartsOff, TablerIconsSvg.heartsOff),
-  'hearts': const TablerIcon(TablerIcons.hearts, TablerIconsSvg.hearts),
-  'helicopterLanding': const TablerIcon(
-      TablerIcons.helicopterLanding, TablerIconsSvg.helicopterLanding),
-  'helicopter':
-      const TablerIcon(TablerIcons.helicopter, TablerIconsSvg.helicopter),
-  'helmetOff':
-      const TablerIcon(TablerIcons.helmetOff, TablerIconsSvg.helmetOff),
-  'helmet': const TablerIcon(TablerIcons.helmet, TablerIconsSvg.helmet),
-  'helpCircleFilled': const TablerIcon(
-      TablerIcons.helpCircleFilled, TablerIconsSvg.helpCircleFilled),
-  'helpCircle':
-      const TablerIcon(TablerIcons.helpCircle, TablerIconsSvg.helpCircle),
-  'helpHexagonFilled': const TablerIcon(
-      TablerIcons.helpHexagonFilled, TablerIconsSvg.helpHexagonFilled),
-  'helpHexagon':
-      const TablerIcon(TablerIcons.helpHexagon, TablerIconsSvg.helpHexagon),
-  'helpOctagonFilled': const TablerIcon(
-      TablerIcons.helpOctagonFilled, TablerIconsSvg.helpOctagonFilled),
-  'helpOctagon':
-      const TablerIcon(TablerIcons.helpOctagon, TablerIconsSvg.helpOctagon),
-  'helpOff': const TablerIcon(TablerIcons.helpOff, TablerIconsSvg.helpOff),
-  'helpSmall':
-      const TablerIcon(TablerIcons.helpSmall, TablerIconsSvg.helpSmall),
-  'helpSquareFilled': const TablerIcon(
-      TablerIcons.helpSquareFilled, TablerIconsSvg.helpSquareFilled),
-  'helpSquareRoundedFilled': const TablerIcon(
-      TablerIcons.helpSquareRoundedFilled,
-      TablerIconsSvg.helpSquareRoundedFilled),
-  'helpSquareRounded': const TablerIcon(
-      TablerIcons.helpSquareRounded, TablerIconsSvg.helpSquareRounded),
-  'helpSquare':
-      const TablerIcon(TablerIcons.helpSquare, TablerIconsSvg.helpSquare),
-  'helpTriangleFilled': const TablerIcon(
-      TablerIcons.helpTriangleFilled, TablerIconsSvg.helpTriangleFilled),
-  'helpTriangle':
-      const TablerIcon(TablerIcons.helpTriangle, TablerIconsSvg.helpTriangle),
-  'help': const TablerIcon(TablerIcons.help, TablerIconsSvg.help),
-  'hemisphereOff':
-      const TablerIcon(TablerIcons.hemisphereOff, TablerIconsSvg.hemisphereOff),
-  'hemispherePlus': const TablerIcon(
-      TablerIcons.hemispherePlus, TablerIconsSvg.hemispherePlus),
-  'hemisphere':
-      const TablerIcon(TablerIcons.hemisphere, TablerIconsSvg.hemisphere),
-  'hexagon0Filled': const TablerIcon(
-      TablerIcons.hexagon0Filled, TablerIconsSvg.hexagon0Filled),
-  'hexagon1Filled': const TablerIcon(
-      TablerIcons.hexagon1Filled, TablerIconsSvg.hexagon1Filled),
-  'hexagon2Filled': const TablerIcon(
-      TablerIcons.hexagon2Filled, TablerIconsSvg.hexagon2Filled),
-  'hexagon3Filled': const TablerIcon(
-      TablerIcons.hexagon3Filled, TablerIconsSvg.hexagon3Filled),
-  'hexagon3d':
-      const TablerIcon(TablerIcons.hexagon3d, TablerIconsSvg.hexagon3d),
-  'hexagon4Filled': const TablerIcon(
-      TablerIcons.hexagon4Filled, TablerIconsSvg.hexagon4Filled),
-  'hexagon5Filled': const TablerIcon(
-      TablerIcons.hexagon5Filled, TablerIconsSvg.hexagon5Filled),
-  'hexagon6Filled': const TablerIcon(
-      TablerIcons.hexagon6Filled, TablerIconsSvg.hexagon6Filled),
-  'hexagon7Filled': const TablerIcon(
-      TablerIcons.hexagon7Filled, TablerIconsSvg.hexagon7Filled),
-  'hexagon8Filled': const TablerIcon(
-      TablerIcons.hexagon8Filled, TablerIconsSvg.hexagon8Filled),
-  'hexagon9Filled': const TablerIcon(
-      TablerIcons.hexagon9Filled, TablerIconsSvg.hexagon9Filled),
-  'hexagonFilled':
-      const TablerIcon(TablerIcons.hexagonFilled, TablerIconsSvg.hexagonFilled),
-  'hexagonLetterA': const TablerIcon(
-      TablerIcons.hexagonLetterA, TablerIconsSvg.hexagonLetterA),
-  'hexagonLetterB': const TablerIcon(
-      TablerIcons.hexagonLetterB, TablerIconsSvg.hexagonLetterB),
-  'hexagonLetterC': const TablerIcon(
-      TablerIcons.hexagonLetterC, TablerIconsSvg.hexagonLetterC),
-  'hexagonLetterD': const TablerIcon(
-      TablerIcons.hexagonLetterD, TablerIconsSvg.hexagonLetterD),
-  'hexagonLetterE': const TablerIcon(
-      TablerIcons.hexagonLetterE, TablerIconsSvg.hexagonLetterE),
-  'hexagonLetterF': const TablerIcon(
-      TablerIcons.hexagonLetterF, TablerIconsSvg.hexagonLetterF),
-  'hexagonLetterG': const TablerIcon(
-      TablerIcons.hexagonLetterG, TablerIconsSvg.hexagonLetterG),
-  'hexagonLetterH': const TablerIcon(
-      TablerIcons.hexagonLetterH, TablerIconsSvg.hexagonLetterH),
-  'hexagonLetterI': const TablerIcon(
-      TablerIcons.hexagonLetterI, TablerIconsSvg.hexagonLetterI),
-  'hexagonLetterJ': const TablerIcon(
-      TablerIcons.hexagonLetterJ, TablerIconsSvg.hexagonLetterJ),
-  'hexagonLetterK': const TablerIcon(
-      TablerIcons.hexagonLetterK, TablerIconsSvg.hexagonLetterK),
-  'hexagonLetterL': const TablerIcon(
-      TablerIcons.hexagonLetterL, TablerIconsSvg.hexagonLetterL),
-  'hexagonLetterM': const TablerIcon(
-      TablerIcons.hexagonLetterM, TablerIconsSvg.hexagonLetterM),
-  'hexagonLetterN': const TablerIcon(
-      TablerIcons.hexagonLetterN, TablerIconsSvg.hexagonLetterN),
-  'hexagonLetterO': const TablerIcon(
-      TablerIcons.hexagonLetterO, TablerIconsSvg.hexagonLetterO),
-  'hexagonLetterP': const TablerIcon(
-      TablerIcons.hexagonLetterP, TablerIconsSvg.hexagonLetterP),
-  'hexagonLetterQ': const TablerIcon(
-      TablerIcons.hexagonLetterQ, TablerIconsSvg.hexagonLetterQ),
-  'hexagonLetterR': const TablerIcon(
-      TablerIcons.hexagonLetterR, TablerIconsSvg.hexagonLetterR),
-  'hexagonLetterS': const TablerIcon(
-      TablerIcons.hexagonLetterS, TablerIconsSvg.hexagonLetterS),
-  'hexagonLetterT': const TablerIcon(
-      TablerIcons.hexagonLetterT, TablerIconsSvg.hexagonLetterT),
-  'hexagonLetterU': const TablerIcon(
-      TablerIcons.hexagonLetterU, TablerIconsSvg.hexagonLetterU),
-  'hexagonLetterV': const TablerIcon(
-      TablerIcons.hexagonLetterV, TablerIconsSvg.hexagonLetterV),
-  'hexagonLetterW': const TablerIcon(
-      TablerIcons.hexagonLetterW, TablerIconsSvg.hexagonLetterW),
-  'hexagonLetterX': const TablerIcon(
-      TablerIcons.hexagonLetterX, TablerIconsSvg.hexagonLetterX),
-  'hexagonLetterY': const TablerIcon(
-      TablerIcons.hexagonLetterY, TablerIconsSvg.hexagonLetterY),
-  'hexagonLetterZ': const TablerIcon(
-      TablerIcons.hexagonLetterZ, TablerIconsSvg.hexagonLetterZ),
-  'hexagonMinus2':
-      const TablerIcon(TablerIcons.hexagonMinus2, TablerIconsSvg.hexagonMinus2),
-  'hexagonMinus':
-      const TablerIcon(TablerIcons.hexagonMinus, TablerIconsSvg.hexagonMinus),
-  'hexagonNumber0': const TablerIcon(
-      TablerIcons.hexagonNumber0, TablerIconsSvg.hexagonNumber0),
-  'hexagonNumber1': const TablerIcon(
-      TablerIcons.hexagonNumber1, TablerIconsSvg.hexagonNumber1),
-  'hexagonNumber2': const TablerIcon(
-      TablerIcons.hexagonNumber2, TablerIconsSvg.hexagonNumber2),
-  'hexagonNumber3': const TablerIcon(
-      TablerIcons.hexagonNumber3, TablerIconsSvg.hexagonNumber3),
-  'hexagonNumber4': const TablerIcon(
-      TablerIcons.hexagonNumber4, TablerIconsSvg.hexagonNumber4),
-  'hexagonNumber5': const TablerIcon(
-      TablerIcons.hexagonNumber5, TablerIconsSvg.hexagonNumber5),
-  'hexagonNumber6': const TablerIcon(
-      TablerIcons.hexagonNumber6, TablerIconsSvg.hexagonNumber6),
-  'hexagonNumber7': const TablerIcon(
-      TablerIcons.hexagonNumber7, TablerIconsSvg.hexagonNumber7),
-  'hexagonNumber8': const TablerIcon(
-      TablerIcons.hexagonNumber8, TablerIconsSvg.hexagonNumber8),
-  'hexagonNumber9': const TablerIcon(
-      TablerIcons.hexagonNumber9, TablerIconsSvg.hexagonNumber9),
-  'hexagonOff':
-      const TablerIcon(TablerIcons.hexagonOff, TablerIconsSvg.hexagonOff),
-  'hexagonPlus2':
-      const TablerIcon(TablerIcons.hexagonPlus2, TablerIconsSvg.hexagonPlus2),
-  'hexagonPlus':
-      const TablerIcon(TablerIcons.hexagonPlus, TablerIconsSvg.hexagonPlus),
-  'hexagon': const TablerIcon(TablerIcons.hexagon, TablerIconsSvg.hexagon),
-  'hexagonalPrismOff': const TablerIcon(
-      TablerIcons.hexagonalPrismOff, TablerIconsSvg.hexagonalPrismOff),
-  'hexagonalPrismPlus': const TablerIcon(
-      TablerIcons.hexagonalPrismPlus, TablerIconsSvg.hexagonalPrismPlus),
-  'hexagonalPrism': const TablerIcon(
-      TablerIcons.hexagonalPrism, TablerIconsSvg.hexagonalPrism),
-  'hexagonalPyramidOff': const TablerIcon(
-      TablerIcons.hexagonalPyramidOff, TablerIconsSvg.hexagonalPyramidOff),
-  'hexagonalPyramidPlus': const TablerIcon(
-      TablerIcons.hexagonalPyramidPlus, TablerIconsSvg.hexagonalPyramidPlus),
-  'hexagonalPyramid': const TablerIcon(
-      TablerIcons.hexagonalPyramid, TablerIconsSvg.hexagonalPyramid),
-  'hexagonsOff':
-      const TablerIcon(TablerIcons.hexagonsOff, TablerIconsSvg.hexagonsOff),
-  'hexagons': const TablerIcon(TablerIcons.hexagons, TablerIconsSvg.hexagons),
-  'hierarchy2':
-      const TablerIcon(TablerIcons.hierarchy2, TablerIconsSvg.hierarchy2),
-  'hierarchy3':
-      const TablerIcon(TablerIcons.hierarchy3, TablerIconsSvg.hierarchy3),
-  'hierarchyOff':
-      const TablerIcon(TablerIcons.hierarchyOff, TablerIconsSvg.hierarchyOff),
-  'hierarchy':
-      const TablerIcon(TablerIcons.hierarchy, TablerIconsSvg.hierarchy),
-  'highlightOff':
-      const TablerIcon(TablerIcons.highlightOff, TablerIconsSvg.highlightOff),
-  'highlight':
-      const TablerIcon(TablerIcons.highlight, TablerIconsSvg.highlight),
-  'historyOff':
-      const TablerIcon(TablerIcons.historyOff, TablerIconsSvg.historyOff),
-  'historyToggle':
-      const TablerIcon(TablerIcons.historyToggle, TablerIconsSvg.historyToggle),
-  'history': const TablerIcon(TablerIcons.history, TablerIconsSvg.history),
-  'home2': const TablerIcon(TablerIcons.home2, TablerIconsSvg.home2),
-  'homeBolt': const TablerIcon(TablerIcons.homeBolt, TablerIconsSvg.homeBolt),
-  'homeCancel':
-      const TablerIcon(TablerIcons.homeCancel, TablerIconsSvg.homeCancel),
-  'homeCheck':
-      const TablerIcon(TablerIcons.homeCheck, TablerIconsSvg.homeCheck),
-  'homeCog': const TablerIcon(TablerIcons.homeCog, TablerIconsSvg.homeCog),
-  'homeDollar':
-      const TablerIcon(TablerIcons.homeDollar, TablerIconsSvg.homeDollar),
-  'homeDot': const TablerIcon(TablerIcons.homeDot, TablerIconsSvg.homeDot),
-  'homeDown': const TablerIcon(TablerIcons.homeDown, TablerIconsSvg.homeDown),
-  'homeEco': const TablerIcon(TablerIcons.homeEco, TablerIconsSvg.homeEco),
-  'homeEdit': const TablerIcon(TablerIcons.homeEdit, TablerIconsSvg.homeEdit),
-  'homeExclamation': const TablerIcon(
-      TablerIcons.homeExclamation, TablerIconsSvg.homeExclamation),
-  'homeHand': const TablerIcon(TablerIcons.homeHand, TablerIconsSvg.homeHand),
-  'homeHeart':
-      const TablerIcon(TablerIcons.homeHeart, TablerIconsSvg.homeHeart),
-  'homeInfinity':
-      const TablerIcon(TablerIcons.homeInfinity, TablerIconsSvg.homeInfinity),
-  'homeLink': const TablerIcon(TablerIcons.homeLink, TablerIconsSvg.homeLink),
-  'homeMinus':
-      const TablerIcon(TablerIcons.homeMinus, TablerIconsSvg.homeMinus),
-  'homeMove': const TablerIcon(TablerIcons.homeMove, TablerIconsSvg.homeMove),
-  'homeOff': const TablerIcon(TablerIcons.homeOff, TablerIconsSvg.homeOff),
-  'homePlus': const TablerIcon(TablerIcons.homePlus, TablerIconsSvg.homePlus),
-  'homeQuestion':
-      const TablerIcon(TablerIcons.homeQuestion, TablerIconsSvg.homeQuestion),
-  'homeRibbon':
-      const TablerIcon(TablerIcons.homeRibbon, TablerIconsSvg.homeRibbon),
-  'homeSearch':
-      const TablerIcon(TablerIcons.homeSearch, TablerIconsSvg.homeSearch),
-  'homeShare':
-      const TablerIcon(TablerIcons.homeShare, TablerIconsSvg.homeShare),
-  'homeShield':
-      const TablerIcon(TablerIcons.homeShield, TablerIconsSvg.homeShield),
-  'homeSignal':
-      const TablerIcon(TablerIcons.homeSignal, TablerIconsSvg.homeSignal),
-  'homeStar': const TablerIcon(TablerIcons.homeStar, TablerIconsSvg.homeStar),
-  'homeStats':
-      const TablerIcon(TablerIcons.homeStats, TablerIconsSvg.homeStats),
-  'homeUp': const TablerIcon(TablerIcons.homeUp, TablerIconsSvg.homeUp),
-  'homeX': const TablerIcon(TablerIcons.homeX, TablerIconsSvg.homeX),
-  'home': const TablerIcon(TablerIcons.home, TablerIconsSvg.home),
-  'horseToy': const TablerIcon(TablerIcons.horseToy, TablerIconsSvg.horseToy),
-  'horse': const TablerIcon(TablerIcons.horse, TablerIconsSvg.horse),
-  'horseshoe':
-      const TablerIcon(TablerIcons.horseshoe, TablerIconsSvg.horseshoe),
-  'hotelService':
-      const TablerIcon(TablerIcons.hotelService, TablerIconsSvg.hotelService),
-  'hourglassEmpty': const TablerIcon(
-      TablerIcons.hourglassEmpty, TablerIconsSvg.hourglassEmpty),
-  'hourglassFilled': const TablerIcon(
-      TablerIcons.hourglassFilled, TablerIconsSvg.hourglassFilled),
-  'hourglassHigh':
-      const TablerIcon(TablerIcons.hourglassHigh, TablerIconsSvg.hourglassHigh),
-  'hourglassLow':
-      const TablerIcon(TablerIcons.hourglassLow, TablerIconsSvg.hourglassLow),
-  'hourglassOff':
-      const TablerIcon(TablerIcons.hourglassOff, TablerIconsSvg.hourglassOff),
-  'hourglass':
-      const TablerIcon(TablerIcons.hourglass, TablerIconsSvg.hourglass),
-  'html': const TablerIcon(TablerIcons.html, TablerIconsSvg.html),
-  'httpConnect':
-      const TablerIcon(TablerIcons.httpConnect, TablerIconsSvg.httpConnect),
-  'httpDelete':
-      const TablerIcon(TablerIcons.httpDelete, TablerIconsSvg.httpDelete),
-  'httpGet': const TablerIcon(TablerIcons.httpGet, TablerIconsSvg.httpGet),
-  'httpHead': const TablerIcon(TablerIcons.httpHead, TablerIconsSvg.httpHead),
-  'httpOptions':
-      const TablerIcon(TablerIcons.httpOptions, TablerIconsSvg.httpOptions),
-  'httpPatch':
-      const TablerIcon(TablerIcons.httpPatch, TablerIconsSvg.httpPatch),
-  'httpPost': const TablerIcon(TablerIcons.httpPost, TablerIconsSvg.httpPost),
-  'httpPut': const TablerIcon(TablerIcons.httpPut, TablerIconsSvg.httpPut),
-  'httpQue': const TablerIcon(TablerIcons.httpQue, TablerIconsSvg.httpQue),
-  'httpTrace':
-      const TablerIcon(TablerIcons.httpTrace, TablerIconsSvg.httpTrace),
-  'iceCream2':
-      const TablerIcon(TablerIcons.iceCream2, TablerIconsSvg.iceCream2),
-  'iceCreamOff':
-      const TablerIcon(TablerIcons.iceCreamOff, TablerIconsSvg.iceCreamOff),
-  'iceCream': const TablerIcon(TablerIcons.iceCream, TablerIconsSvg.iceCream),
-  'iceSkating':
-      const TablerIcon(TablerIcons.iceSkating, TablerIconsSvg.iceSkating),
-  'iconsOff': const TablerIcon(TablerIcons.iconsOff, TablerIconsSvg.iconsOff),
-  'icons': const TablerIcon(TablerIcons.icons, TablerIconsSvg.icons),
-  'idBadge2': const TablerIcon(TablerIcons.idBadge2, TablerIconsSvg.idBadge2),
-  'idBadgeOff':
-      const TablerIcon(TablerIcons.idBadgeOff, TablerIconsSvg.idBadgeOff),
-  'idBadge': const TablerIcon(TablerIcons.idBadge, TablerIconsSvg.idBadge),
-  'idOff': const TablerIcon(TablerIcons.idOff, TablerIconsSvg.idOff),
-  'id': const TablerIcon(TablerIcons.id, TablerIconsSvg.id),
-  'inboxOff': const TablerIcon(TablerIcons.inboxOff, TablerIconsSvg.inboxOff),
-  'inbox': const TablerIcon(TablerIcons.inbox, TablerIconsSvg.inbox),
-  'indentDecrease': const TablerIcon(
-      TablerIcons.indentDecrease, TablerIconsSvg.indentDecrease),
-  'indentIncrease': const TablerIcon(
-      TablerIcons.indentIncrease, TablerIconsSvg.indentIncrease),
-  'infinityOff':
-      const TablerIcon(TablerIcons.infinityOff, TablerIconsSvg.infinityOff),
-  'infinity': const TablerIcon(TablerIcons.infinity, TablerIconsSvg.infinity),
-  'infoCircleFilled': const TablerIcon(
-      TablerIcons.infoCircleFilled, TablerIconsSvg.infoCircleFilled),
-  'infoCircle':
-      const TablerIcon(TablerIcons.infoCircle, TablerIconsSvg.infoCircle),
-  'infoHexagonFilled': const TablerIcon(
-      TablerIcons.infoHexagonFilled, TablerIconsSvg.infoHexagonFilled),
-  'infoHexagon':
-      const TablerIcon(TablerIcons.infoHexagon, TablerIconsSvg.infoHexagon),
-  'infoOctagonFilled': const TablerIcon(
-      TablerIcons.infoOctagonFilled, TablerIconsSvg.infoOctagonFilled),
-  'infoOctagon':
-      const TablerIcon(TablerIcons.infoOctagon, TablerIconsSvg.infoOctagon),
-  'infoSmall':
-      const TablerIcon(TablerIcons.infoSmall, TablerIconsSvg.infoSmall),
-  'infoSquareFilled': const TablerIcon(
-      TablerIcons.infoSquareFilled, TablerIconsSvg.infoSquareFilled),
-  'infoSquareRoundedFilled': const TablerIcon(
-      TablerIcons.infoSquareRoundedFilled,
-      TablerIconsSvg.infoSquareRoundedFilled),
-  'infoSquareRounded': const TablerIcon(
-      TablerIcons.infoSquareRounded, TablerIconsSvg.infoSquareRounded),
-  'infoSquare':
-      const TablerIcon(TablerIcons.infoSquare, TablerIconsSvg.infoSquare),
-  'infoTriangleFilled': const TablerIcon(
-      TablerIcons.infoTriangleFilled, TablerIconsSvg.infoTriangleFilled),
-  'infoTriangle':
-      const TablerIcon(TablerIcons.infoTriangle, TablerIconsSvg.infoTriangle),
-  'innerShadowBottomFilled': const TablerIcon(
-      TablerIcons.innerShadowBottomFilled,
-      TablerIconsSvg.innerShadowBottomFilled),
-  'innerShadowBottomLeftFilled': const TablerIcon(
-      TablerIcons.innerShadowBottomLeftFilled,
-      TablerIconsSvg.innerShadowBottomLeftFilled),
-  'innerShadowBottomLeft': const TablerIcon(
-      TablerIcons.innerShadowBottomLeft, TablerIconsSvg.innerShadowBottomLeft),
-  'innerShadowBottomRightFilled': const TablerIcon(
-      TablerIcons.innerShadowBottomRightFilled,
-      TablerIconsSvg.innerShadowBottomRightFilled),
-  'innerShadowBottomRight': const TablerIcon(TablerIcons.innerShadowBottomRight,
-      TablerIconsSvg.innerShadowBottomRight),
-  'innerShadowBottom': const TablerIcon(
-      TablerIcons.innerShadowBottom, TablerIconsSvg.innerShadowBottom),
-  'innerShadowLeftFilled': const TablerIcon(
-      TablerIcons.innerShadowLeftFilled, TablerIconsSvg.innerShadowLeftFilled),
-  'innerShadowLeft': const TablerIcon(
-      TablerIcons.innerShadowLeft, TablerIconsSvg.innerShadowLeft),
-  'innerShadowRightFilled': const TablerIcon(TablerIcons.innerShadowRightFilled,
-      TablerIconsSvg.innerShadowRightFilled),
-  'innerShadowRight': const TablerIcon(
-      TablerIcons.innerShadowRight, TablerIconsSvg.innerShadowRight),
-  'innerShadowTopFilled': const TablerIcon(
-      TablerIcons.innerShadowTopFilled, TablerIconsSvg.innerShadowTopFilled),
-  'innerShadowTopLeftFilled': const TablerIcon(
-      TablerIcons.innerShadowTopLeftFilled,
-      TablerIconsSvg.innerShadowTopLeftFilled),
-  'innerShadowTopLeft': const TablerIcon(
-      TablerIcons.innerShadowTopLeft, TablerIconsSvg.innerShadowTopLeft),
-  'innerShadowTopRightFilled': const TablerIcon(
-      TablerIcons.innerShadowTopRightFilled,
-      TablerIconsSvg.innerShadowTopRightFilled),
-  'innerShadowTopRight': const TablerIcon(
-      TablerIcons.innerShadowTopRight, TablerIconsSvg.innerShadowTopRight),
-  'innerShadowTop': const TablerIcon(
-      TablerIcons.innerShadowTop, TablerIconsSvg.innerShadowTop),
-  'inputAi': const TablerIcon(TablerIcons.inputAi, TablerIconsSvg.inputAi),
-  'inputCheck':
-      const TablerIcon(TablerIcons.inputCheck, TablerIconsSvg.inputCheck),
-  'inputSearch':
-      const TablerIcon(TablerIcons.inputSearch, TablerIconsSvg.inputSearch),
-  'inputX': const TablerIcon(TablerIcons.inputX, TablerIconsSvg.inputX),
-  'ironing1': const TablerIcon(TablerIcons.ironing1, TablerIconsSvg.ironing1),
-  'ironing2': const TablerIcon(TablerIcons.ironing2, TablerIconsSvg.ironing2),
-  'ironing3': const TablerIcon(TablerIcons.ironing3, TablerIconsSvg.ironing3),
-  'ironingOff':
-      const TablerIcon(TablerIcons.ironingOff, TablerIconsSvg.ironingOff),
-  'ironingSteamOff': const TablerIcon(
-      TablerIcons.ironingSteamOff, TablerIconsSvg.ironingSteamOff),
-  'ironingSteam':
-      const TablerIcon(TablerIcons.ironingSteam, TablerIconsSvg.ironingSteam),
-  'ironing': const TablerIcon(TablerIcons.ironing, TablerIconsSvg.ironing),
-  'irregularPolyhedronOff': const TablerIcon(TablerIcons.irregularPolyhedronOff,
-      TablerIconsSvg.irregularPolyhedronOff),
-  'irregularPolyhedronPlus': const TablerIcon(
-      TablerIcons.irregularPolyhedronPlus,
-      TablerIconsSvg.irregularPolyhedronPlus),
-  'irregularPolyhedron': const TablerIcon(
-      TablerIcons.irregularPolyhedron, TablerIconsSvg.irregularPolyhedron),
-  'italic': const TablerIcon(TablerIcons.italic, TablerIconsSvg.italic),
-  'jacket': const TablerIcon(TablerIcons.jacket, TablerIconsSvg.jacket),
-  'jetpack': const TablerIcon(TablerIcons.jetpack, TablerIconsSvg.jetpack),
-  'jewishStarFilled': const TablerIcon(
-      TablerIcons.jewishStarFilled, TablerIconsSvg.jewishStarFilled),
-  'jewishStar':
-      const TablerIcon(TablerIcons.jewishStar, TablerIconsSvg.jewishStar),
-  'jpg': const TablerIcon(TablerIcons.jpg, TablerIconsSvg.jpg),
-  'json': const TablerIcon(TablerIcons.json, TablerIconsSvg.json),
-  'jumpRope': const TablerIcon(TablerIcons.jumpRope, TablerIconsSvg.jumpRope),
-  'karate': const TablerIcon(TablerIcons.karate, TablerIconsSvg.karate),
-  'kayak': const TablerIcon(TablerIcons.kayak, TablerIconsSvg.kayak),
-  'kering': const TablerIcon(TablerIcons.kering, TablerIconsSvg.kering),
-  'keyOff': const TablerIcon(TablerIcons.keyOff, TablerIconsSvg.keyOff),
-  'key': const TablerIcon(TablerIcons.key, TablerIconsSvg.key),
-  'keyboardHide':
-      const TablerIcon(TablerIcons.keyboardHide, TablerIconsSvg.keyboardHide),
-  'keyboardOff':
-      const TablerIcon(TablerIcons.keyboardOff, TablerIconsSvg.keyboardOff),
-  'keyboardShow':
-      const TablerIcon(TablerIcons.keyboardShow, TablerIconsSvg.keyboardShow),
-  'keyboard': const TablerIcon(TablerIcons.keyboard, TablerIconsSvg.keyboard),
-  'keyframeAlignCenterFilled': const TablerIcon(
-      TablerIcons.keyframeAlignCenterFilled,
-      TablerIconsSvg.keyframeAlignCenterFilled),
-  'keyframeAlignCenter': const TablerIcon(
-      TablerIcons.keyframeAlignCenter, TablerIconsSvg.keyframeAlignCenter),
-  'keyframeAlignHorizontalFilled': const TablerIcon(
-      TablerIcons.keyframeAlignHorizontalFilled,
-      TablerIconsSvg.keyframeAlignHorizontalFilled),
-  'keyframeAlignHorizontal': const TablerIcon(
-      TablerIcons.keyframeAlignHorizontal,
-      TablerIconsSvg.keyframeAlignHorizontal),
-  'keyframeAlignVerticalFilled': const TablerIcon(
-      TablerIcons.keyframeAlignVerticalFilled,
-      TablerIconsSvg.keyframeAlignVerticalFilled),
-  'keyframeAlignVertical': const TablerIcon(
-      TablerIcons.keyframeAlignVertical, TablerIconsSvg.keyframeAlignVertical),
-  'keyframeFilled': const TablerIcon(
-      TablerIcons.keyframeFilled, TablerIconsSvg.keyframeFilled),
-  'keyframe': const TablerIcon(TablerIcons.keyframe, TablerIconsSvg.keyframe),
-  'keyframesFilled': const TablerIcon(
-      TablerIcons.keyframesFilled, TablerIconsSvg.keyframesFilled),
-  'keyframes':
-      const TablerIcon(TablerIcons.keyframes, TablerIconsSvg.keyframes),
-  'ladderOff':
-      const TablerIcon(TablerIcons.ladderOff, TablerIconsSvg.ladderOff),
-  'ladder': const TablerIcon(TablerIcons.ladder, TablerIconsSvg.ladder),
-  'ladle': const TablerIcon(TablerIcons.ladle, TablerIconsSvg.ladle),
-  'lambda': const TablerIcon(TablerIcons.lambda, TablerIconsSvg.lambda),
-  'lamp2': const TablerIcon(TablerIcons.lamp2, TablerIconsSvg.lamp2),
-  'lampOff': const TablerIcon(TablerIcons.lampOff, TablerIconsSvg.lampOff),
-  'lamp': const TablerIcon(TablerIcons.lamp, TablerIconsSvg.lamp),
-  'lane': const TablerIcon(TablerIcons.lane, TablerIconsSvg.lane),
-  'languageHiragana': const TablerIcon(
-      TablerIcons.languageHiragana, TablerIconsSvg.languageHiragana),
-  'languageKatakana': const TablerIcon(
-      TablerIcons.languageKatakana, TablerIconsSvg.languageKatakana),
-  'languageOff':
-      const TablerIcon(TablerIcons.languageOff, TablerIconsSvg.languageOff),
-  'language': const TablerIcon(TablerIcons.language, TablerIconsSvg.language),
-  'lassoOff': const TablerIcon(TablerIcons.lassoOff, TablerIconsSvg.lassoOff),
-  'lassoPolygon':
-      const TablerIcon(TablerIcons.lassoPolygon, TablerIconsSvg.lassoPolygon),
-  'lasso': const TablerIcon(TablerIcons.lasso, TablerIconsSvg.lasso),
-  'layersDifference': const TablerIcon(
-      TablerIcons.layersDifference, TablerIconsSvg.layersDifference),
-  'layersIntersect2': const TablerIcon(
-      TablerIcons.layersIntersect2, TablerIconsSvg.layersIntersect2),
-  'layersIntersect': const TablerIcon(
-      TablerIcons.layersIntersect, TablerIconsSvg.layersIntersect),
-  'layersLinked':
-      const TablerIcon(TablerIcons.layersLinked, TablerIconsSvg.layersLinked),
-  'layersOff':
-      const TablerIcon(TablerIcons.layersOff, TablerIconsSvg.layersOff),
-  'layersSubtract': const TablerIcon(
-      TablerIcons.layersSubtract, TablerIconsSvg.layersSubtract),
-  'layersUnion':
-      const TablerIcon(TablerIcons.layersUnion, TablerIconsSvg.layersUnion),
-  'layout2': const TablerIcon(TablerIcons.layout2, TablerIconsSvg.layout2),
-  'layoutAlignBottom': const TablerIcon(
-      TablerIcons.layoutAlignBottom, TablerIconsSvg.layoutAlignBottom),
-  'layoutAlignCenter': const TablerIcon(
-      TablerIcons.layoutAlignCenter, TablerIconsSvg.layoutAlignCenter),
-  'layoutAlignLeft': const TablerIcon(
-      TablerIcons.layoutAlignLeft, TablerIconsSvg.layoutAlignLeft),
-  'layoutAlignMiddle': const TablerIcon(
-      TablerIcons.layoutAlignMiddle, TablerIconsSvg.layoutAlignMiddle),
-  'layoutAlignRight': const TablerIcon(
-      TablerIcons.layoutAlignRight, TablerIconsSvg.layoutAlignRight),
-  'layoutAlignTop': const TablerIcon(
-      TablerIcons.layoutAlignTop, TablerIconsSvg.layoutAlignTop),
-  'layoutBoardSplit': const TablerIcon(
-      TablerIcons.layoutBoardSplit, TablerIconsSvg.layoutBoardSplit),
-  'layoutBoard':
-      const TablerIcon(TablerIcons.layoutBoard, TablerIconsSvg.layoutBoard),
-  'layoutBottombarCollapseFilled': const TablerIcon(
-      TablerIcons.layoutBottombarCollapseFilled,
-      TablerIconsSvg.layoutBottombarCollapseFilled),
-  'layoutBottombarCollapse': const TablerIcon(
-      TablerIcons.layoutBottombarCollapse,
-      TablerIconsSvg.layoutBottombarCollapse),
-  'layoutBottombarExpandFilled': const TablerIcon(
-      TablerIcons.layoutBottombarExpandFilled,
-      TablerIconsSvg.layoutBottombarExpandFilled),
-  'layoutBottombarExpand': const TablerIcon(
-      TablerIcons.layoutBottombarExpand, TablerIconsSvg.layoutBottombarExpand),
-  'layoutBottombarFilled': const TablerIcon(
-      TablerIcons.layoutBottombarFilled, TablerIconsSvg.layoutBottombarFilled),
-  'layoutBottombar': const TablerIcon(
-      TablerIcons.layoutBottombar, TablerIconsSvg.layoutBottombar),
-  'layoutCards':
-      const TablerIcon(TablerIcons.layoutCards, TablerIconsSvg.layoutCards),
-  'layoutCollage':
-      const TablerIcon(TablerIcons.layoutCollage, TablerIconsSvg.layoutCollage),
-  'layoutColumns':
-      const TablerIcon(TablerIcons.layoutColumns, TablerIconsSvg.layoutColumns),
-  'layoutDashboard': const TablerIcon(
-      TablerIcons.layoutDashboard, TablerIconsSvg.layoutDashboard),
-  'layoutDistributeHorizontal': const TablerIcon(
-      TablerIcons.layoutDistributeHorizontal,
-      TablerIconsSvg.layoutDistributeHorizontal),
-  'layoutDistributeVertical': const TablerIcon(
-      TablerIcons.layoutDistributeVertical,
-      TablerIconsSvg.layoutDistributeVertical),
-  'layoutGridAdd':
-      const TablerIcon(TablerIcons.layoutGridAdd, TablerIconsSvg.layoutGridAdd),
-  'layoutGridRemove': const TablerIcon(
-      TablerIcons.layoutGridRemove, TablerIconsSvg.layoutGridRemove),
-  'layoutGrid':
-      const TablerIcon(TablerIcons.layoutGrid, TablerIconsSvg.layoutGrid),
-  'layoutKanban':
-      const TablerIcon(TablerIcons.layoutKanban, TablerIconsSvg.layoutKanban),
-  'layoutList':
-      const TablerIcon(TablerIcons.layoutList, TablerIconsSvg.layoutList),
-  'layoutNavbarCollapseFilled': const TablerIcon(
-      TablerIcons.layoutNavbarCollapseFilled,
-      TablerIconsSvg.layoutNavbarCollapseFilled),
-  'layoutNavbarCollapse': const TablerIcon(
-      TablerIcons.layoutNavbarCollapse, TablerIconsSvg.layoutNavbarCollapse),
-  'layoutNavbarExpandFilled': const TablerIcon(
-      TablerIcons.layoutNavbarExpandFilled,
-      TablerIconsSvg.layoutNavbarExpandFilled),
-  'layoutNavbarExpand': const TablerIcon(
-      TablerIcons.layoutNavbarExpand, TablerIconsSvg.layoutNavbarExpand),
-  'layoutNavbarFilled': const TablerIcon(
-      TablerIcons.layoutNavbarFilled, TablerIconsSvg.layoutNavbarFilled),
-  'layoutNavbar':
-      const TablerIcon(TablerIcons.layoutNavbar, TablerIconsSvg.layoutNavbar),
-  'layoutOff':
-      const TablerIcon(TablerIcons.layoutOff, TablerIconsSvg.layoutOff),
-  'layoutRows':
-      const TablerIcon(TablerIcons.layoutRows, TablerIconsSvg.layoutRows),
-  'layoutSidebarLeftCollapseFilled': const TablerIcon(
-      TablerIcons.layoutSidebarLeftCollapseFilled,
-      TablerIconsSvg.layoutSidebarLeftCollapseFilled),
-  'layoutSidebarLeftCollapse': const TablerIcon(
-      TablerIcons.layoutSidebarLeftCollapse,
-      TablerIconsSvg.layoutSidebarLeftCollapse),
-  'layoutSidebarLeftExpandFilled': const TablerIcon(
-      TablerIcons.layoutSidebarLeftExpandFilled,
-      TablerIconsSvg.layoutSidebarLeftExpandFilled),
-  'layoutSidebarLeftExpand': const TablerIcon(
-      TablerIcons.layoutSidebarLeftExpand,
-      TablerIconsSvg.layoutSidebarLeftExpand),
-  'layoutSidebarRightCollapseFilled': const TablerIcon(
-      TablerIcons.layoutSidebarRightCollapseFilled,
-      TablerIconsSvg.layoutSidebarRightCollapseFilled),
-  'layoutSidebarRightCollapse': const TablerIcon(
-      TablerIcons.layoutSidebarRightCollapse,
-      TablerIconsSvg.layoutSidebarRightCollapse),
-  'layoutSidebarRightExpandFilled': const TablerIcon(
-      TablerIcons.layoutSidebarRightExpandFilled,
-      TablerIconsSvg.layoutSidebarRightExpandFilled),
-  'layoutSidebarRightExpand': const TablerIcon(
-      TablerIcons.layoutSidebarRightExpand,
-      TablerIconsSvg.layoutSidebarRightExpand),
-  'layoutSidebarRight': const TablerIcon(
-      TablerIcons.layoutSidebarRight, TablerIconsSvg.layoutSidebarRight),
-  'layoutSidebar':
-      const TablerIcon(TablerIcons.layoutSidebar, TablerIconsSvg.layoutSidebar),
-  'layout': const TablerIcon(TablerIcons.layout, TablerIconsSvg.layout),
-  'leafOff': const TablerIcon(TablerIcons.leafOff, TablerIconsSvg.leafOff),
-  'leaf': const TablerIcon(TablerIcons.leaf, TablerIconsSvg.leaf),
-  'legoOff': const TablerIcon(TablerIcons.legoOff, TablerIconsSvg.legoOff),
-  'lego': const TablerIcon(TablerIcons.lego, TablerIconsSvg.lego),
-  'lemon2': const TablerIcon(TablerIcons.lemon2, TablerIconsSvg.lemon2),
-  'lemon': const TablerIcon(TablerIcons.lemon, TablerIconsSvg.lemon),
-  'letterASmall':
-      const TablerIcon(TablerIcons.letterASmall, TablerIconsSvg.letterASmall),
-  'letterA': const TablerIcon(TablerIcons.letterA, TablerIconsSvg.letterA),
-  'letterBSmall':
-      const TablerIcon(TablerIcons.letterBSmall, TablerIconsSvg.letterBSmall),
-  'letterB': const TablerIcon(TablerIcons.letterB, TablerIconsSvg.letterB),
-  'letterCSmall':
-      const TablerIcon(TablerIcons.letterCSmall, TablerIconsSvg.letterCSmall),
-  'letterC': const TablerIcon(TablerIcons.letterC, TablerIconsSvg.letterC),
-  'letterCaseLower': const TablerIcon(
-      TablerIcons.letterCaseLower, TablerIconsSvg.letterCaseLower),
-  'letterCaseToggle': const TablerIcon(
-      TablerIcons.letterCaseToggle, TablerIconsSvg.letterCaseToggle),
-  'letterCaseUpper': const TablerIcon(
-      TablerIcons.letterCaseUpper, TablerIconsSvg.letterCaseUpper),
-  'letterCase':
-      const TablerIcon(TablerIcons.letterCase, TablerIconsSvg.letterCase),
-  'letterDSmall':
-      const TablerIcon(TablerIcons.letterDSmall, TablerIconsSvg.letterDSmall),
-  'letterD': const TablerIcon(TablerIcons.letterD, TablerIconsSvg.letterD),
-  'letterESmall':
-      const TablerIcon(TablerIcons.letterESmall, TablerIconsSvg.letterESmall),
-  'letterE': const TablerIcon(TablerIcons.letterE, TablerIconsSvg.letterE),
-  'letterFSmall':
-      const TablerIcon(TablerIcons.letterFSmall, TablerIconsSvg.letterFSmall),
-  'letterF': const TablerIcon(TablerIcons.letterF, TablerIconsSvg.letterF),
-  'letterGSmall':
-      const TablerIcon(TablerIcons.letterGSmall, TablerIconsSvg.letterGSmall),
-  'letterG': const TablerIcon(TablerIcons.letterG, TablerIconsSvg.letterG),
-  'letterHSmall':
-      const TablerIcon(TablerIcons.letterHSmall, TablerIconsSvg.letterHSmall),
-  'letterH': const TablerIcon(TablerIcons.letterH, TablerIconsSvg.letterH),
-  'letterISmall':
-      const TablerIcon(TablerIcons.letterISmall, TablerIconsSvg.letterISmall),
-  'letterI': const TablerIcon(TablerIcons.letterI, TablerIconsSvg.letterI),
-  'letterJSmall':
-      const TablerIcon(TablerIcons.letterJSmall, TablerIconsSvg.letterJSmall),
-  'letterJ': const TablerIcon(TablerIcons.letterJ, TablerIconsSvg.letterJ),
-  'letterKSmall':
-      const TablerIcon(TablerIcons.letterKSmall, TablerIconsSvg.letterKSmall),
-  'letterK': const TablerIcon(TablerIcons.letterK, TablerIconsSvg.letterK),
-  'letterLSmall':
-      const TablerIcon(TablerIcons.letterLSmall, TablerIconsSvg.letterLSmall),
-  'letterL': const TablerIcon(TablerIcons.letterL, TablerIconsSvg.letterL),
-  'letterMSmall':
-      const TablerIcon(TablerIcons.letterMSmall, TablerIconsSvg.letterMSmall),
-  'letterM': const TablerIcon(TablerIcons.letterM, TablerIconsSvg.letterM),
-  'letterNSmall':
-      const TablerIcon(TablerIcons.letterNSmall, TablerIconsSvg.letterNSmall),
-  'letterN': const TablerIcon(TablerIcons.letterN, TablerIconsSvg.letterN),
-  'letterOSmall':
-      const TablerIcon(TablerIcons.letterOSmall, TablerIconsSvg.letterOSmall),
-  'letterO': const TablerIcon(TablerIcons.letterO, TablerIconsSvg.letterO),
-  'letterPSmall':
-      const TablerIcon(TablerIcons.letterPSmall, TablerIconsSvg.letterPSmall),
-  'letterP': const TablerIcon(TablerIcons.letterP, TablerIconsSvg.letterP),
-  'letterQSmall':
-      const TablerIcon(TablerIcons.letterQSmall, TablerIconsSvg.letterQSmall),
-  'letterQ': const TablerIcon(TablerIcons.letterQ, TablerIconsSvg.letterQ),
-  'letterRSmall':
-      const TablerIcon(TablerIcons.letterRSmall, TablerIconsSvg.letterRSmall),
-  'letterR': const TablerIcon(TablerIcons.letterR, TablerIconsSvg.letterR),
-  'letterSSmall':
-      const TablerIcon(TablerIcons.letterSSmall, TablerIconsSvg.letterSSmall),
-  'letterS': const TablerIcon(TablerIcons.letterS, TablerIconsSvg.letterS),
-  'letterSpacing':
-      const TablerIcon(TablerIcons.letterSpacing, TablerIconsSvg.letterSpacing),
-  'letterTSmall':
-      const TablerIcon(TablerIcons.letterTSmall, TablerIconsSvg.letterTSmall),
-  'letterT': const TablerIcon(TablerIcons.letterT, TablerIconsSvg.letterT),
-  'letterUSmall':
-      const TablerIcon(TablerIcons.letterUSmall, TablerIconsSvg.letterUSmall),
-  'letterU': const TablerIcon(TablerIcons.letterU, TablerIconsSvg.letterU),
-  'letterVSmall':
-      const TablerIcon(TablerIcons.letterVSmall, TablerIconsSvg.letterVSmall),
-  'letterV': const TablerIcon(TablerIcons.letterV, TablerIconsSvg.letterV),
-  'letterWSmall':
-      const TablerIcon(TablerIcons.letterWSmall, TablerIconsSvg.letterWSmall),
-  'letterW': const TablerIcon(TablerIcons.letterW, TablerIconsSvg.letterW),
-  'letterXSmall':
-      const TablerIcon(TablerIcons.letterXSmall, TablerIconsSvg.letterXSmall),
-  'letterX': const TablerIcon(TablerIcons.letterX, TablerIconsSvg.letterX),
-  'letterYSmall':
-      const TablerIcon(TablerIcons.letterYSmall, TablerIconsSvg.letterYSmall),
-  'letterY': const TablerIcon(TablerIcons.letterY, TablerIconsSvg.letterY),
-  'letterZSmall':
-      const TablerIcon(TablerIcons.letterZSmall, TablerIconsSvg.letterZSmall),
-  'letterZ': const TablerIcon(TablerIcons.letterZ, TablerIconsSvg.letterZ),
-  'licenseOff':
-      const TablerIcon(TablerIcons.licenseOff, TablerIconsSvg.licenseOff),
-  'license': const TablerIcon(TablerIcons.license, TablerIconsSvg.license),
-  'lifebuoyOff':
-      const TablerIcon(TablerIcons.lifebuoyOff, TablerIconsSvg.lifebuoyOff),
-  'lifebuoy': const TablerIcon(TablerIcons.lifebuoy, TablerIconsSvg.lifebuoy),
-  'lighter': const TablerIcon(TablerIcons.lighter, TablerIconsSvg.lighter),
-  'lineDashed':
-      const TablerIcon(TablerIcons.lineDashed, TablerIconsSvg.lineDashed),
-  'lineDotted':
-      const TablerIcon(TablerIcons.lineDotted, TablerIconsSvg.lineDotted),
-  'lineHeight':
-      const TablerIcon(TablerIcons.lineHeight, TablerIconsSvg.lineHeight),
-  'lineScan': const TablerIcon(TablerIcons.lineScan, TablerIconsSvg.lineScan),
-  'line': const TablerIcon(TablerIcons.line, TablerIconsSvg.line),
-  'linkOff': const TablerIcon(TablerIcons.linkOff, TablerIconsSvg.linkOff),
-  'link': const TablerIcon(TablerIcons.link, TablerIconsSvg.link),
-  'listCheck':
-      const TablerIcon(TablerIcons.listCheck, TablerIconsSvg.listCheck),
-  'listDetails':
-      const TablerIcon(TablerIcons.listDetails, TablerIconsSvg.listDetails),
-  'listLetters':
-      const TablerIcon(TablerIcons.listLetters, TablerIconsSvg.listLetters),
-  'listNumbers':
-      const TablerIcon(TablerIcons.listNumbers, TablerIconsSvg.listNumbers),
-  'listSearch':
-      const TablerIcon(TablerIcons.listSearch, TablerIconsSvg.listSearch),
-  'listTree': const TablerIcon(TablerIcons.listTree, TablerIconsSvg.listTree),
-  'list': const TablerIcon(TablerIcons.list, TablerIconsSvg.list),
-  'livePhotoOff':
-      const TablerIcon(TablerIcons.livePhotoOff, TablerIconsSvg.livePhotoOff),
-  'livePhoto':
-      const TablerIcon(TablerIcons.livePhoto, TablerIconsSvg.livePhoto),
-  'liveView': const TablerIcon(TablerIcons.liveView, TablerIconsSvg.liveView),
-  'loadBalancer':
-      const TablerIcon(TablerIcons.loadBalancer, TablerIconsSvg.loadBalancer),
-  'loader2': const TablerIcon(TablerIcons.loader2, TablerIconsSvg.loader2),
-  'loader3': const TablerIcon(TablerIcons.loader3, TablerIconsSvg.loader3),
-  'loaderQuarter':
-      const TablerIcon(TablerIcons.loaderQuarter, TablerIconsSvg.loaderQuarter),
-  'loader': const TablerIcon(TablerIcons.loader, TablerIconsSvg.loader),
-  'locationBolt':
-      const TablerIcon(TablerIcons.locationBolt, TablerIconsSvg.locationBolt),
-  'locationBroken': const TablerIcon(
-      TablerIcons.locationBroken, TablerIconsSvg.locationBroken),
-  'locationCancel': const TablerIcon(
-      TablerIcons.locationCancel, TablerIconsSvg.locationCancel),
-  'locationCheck':
-      const TablerIcon(TablerIcons.locationCheck, TablerIconsSvg.locationCheck),
-  'locationCode':
-      const TablerIcon(TablerIcons.locationCode, TablerIconsSvg.locationCode),
-  'locationCog':
-      const TablerIcon(TablerIcons.locationCog, TablerIconsSvg.locationCog),
-  'locationDiscount': const TablerIcon(
-      TablerIcons.locationDiscount, TablerIconsSvg.locationDiscount),
-  'locationDollar': const TablerIcon(
-      TablerIcons.locationDollar, TablerIconsSvg.locationDollar),
-  'locationDown':
-      const TablerIcon(TablerIcons.locationDown, TablerIconsSvg.locationDown),
-  'locationExclamation': const TablerIcon(
-      TablerIcons.locationExclamation, TablerIconsSvg.locationExclamation),
-  'locationFilled': const TablerIcon(
-      TablerIcons.locationFilled, TablerIconsSvg.locationFilled),
-  'locationHeart':
-      const TablerIcon(TablerIcons.locationHeart, TablerIconsSvg.locationHeart),
-  'locationMinus':
-      const TablerIcon(TablerIcons.locationMinus, TablerIconsSvg.locationMinus),
-  'locationOff':
-      const TablerIcon(TablerIcons.locationOff, TablerIconsSvg.locationOff),
-  'locationPause':
-      const TablerIcon(TablerIcons.locationPause, TablerIconsSvg.locationPause),
-  'locationPin':
-      const TablerIcon(TablerIcons.locationPin, TablerIconsSvg.locationPin),
-  'locationPlus':
-      const TablerIcon(TablerIcons.locationPlus, TablerIconsSvg.locationPlus),
-  'locationQuestion': const TablerIcon(
-      TablerIcons.locationQuestion, TablerIconsSvg.locationQuestion),
-  'locationSearch': const TablerIcon(
-      TablerIcons.locationSearch, TablerIconsSvg.locationSearch),
-  'locationShare':
-      const TablerIcon(TablerIcons.locationShare, TablerIconsSvg.locationShare),
-  'locationStar':
-      const TablerIcon(TablerIcons.locationStar, TablerIconsSvg.locationStar),
-  'locationUp':
-      const TablerIcon(TablerIcons.locationUp, TablerIconsSvg.locationUp),
-  'locationX':
-      const TablerIcon(TablerIcons.locationX, TablerIconsSvg.locationX),
-  'location': const TablerIcon(TablerIcons.location, TablerIconsSvg.location),
-  'lockAccessOff':
-      const TablerIcon(TablerIcons.lockAccessOff, TablerIconsSvg.lockAccessOff),
-  'lockAccess':
-      const TablerIcon(TablerIcons.lockAccess, TablerIconsSvg.lockAccess),
-  'lockBolt': const TablerIcon(TablerIcons.lockBolt, TablerIconsSvg.lockBolt),
-  'lockCancel':
-      const TablerIcon(TablerIcons.lockCancel, TablerIconsSvg.lockCancel),
-  'lockCheck':
-      const TablerIcon(TablerIcons.lockCheck, TablerIconsSvg.lockCheck),
-  'lockCode': const TablerIcon(TablerIcons.lockCode, TablerIconsSvg.lockCode),
-  'lockCog': const TablerIcon(TablerIcons.lockCog, TablerIconsSvg.lockCog),
-  'lockDollar':
-      const TablerIcon(TablerIcons.lockDollar, TablerIconsSvg.lockDollar),
-  'lockDown': const TablerIcon(TablerIcons.lockDown, TablerIconsSvg.lockDown),
-  'lockExclamation': const TablerIcon(
-      TablerIcons.lockExclamation, TablerIconsSvg.lockExclamation),
-  'lockHeart':
-      const TablerIcon(TablerIcons.lockHeart, TablerIconsSvg.lockHeart),
-  'lockMinus':
-      const TablerIcon(TablerIcons.lockMinus, TablerIconsSvg.lockMinus),
-  'lockOff': const TablerIcon(TablerIcons.lockOff, TablerIconsSvg.lockOff),
-  'lockOpenOff':
-      const TablerIcon(TablerIcons.lockOpenOff, TablerIconsSvg.lockOpenOff),
-  'lockOpen': const TablerIcon(TablerIcons.lockOpen, TablerIconsSvg.lockOpen),
-  'lockPause':
-      const TablerIcon(TablerIcons.lockPause, TablerIconsSvg.lockPause),
-  'lockPin': const TablerIcon(TablerIcons.lockPin, TablerIconsSvg.lockPin),
-  'lockPlus': const TablerIcon(TablerIcons.lockPlus, TablerIconsSvg.lockPlus),
-  'lockQuestion':
-      const TablerIcon(TablerIcons.lockQuestion, TablerIconsSvg.lockQuestion),
-  'lockSearch':
-      const TablerIcon(TablerIcons.lockSearch, TablerIconsSvg.lockSearch),
-  'lockShare':
-      const TablerIcon(TablerIcons.lockShare, TablerIconsSvg.lockShare),
-  'lockSquareRoundedFilled': const TablerIcon(
-      TablerIcons.lockSquareRoundedFilled,
-      TablerIconsSvg.lockSquareRoundedFilled),
-  'lockSquareRounded': const TablerIcon(
-      TablerIcons.lockSquareRounded, TablerIconsSvg.lockSquareRounded),
-  'lockSquare':
-      const TablerIcon(TablerIcons.lockSquare, TablerIconsSvg.lockSquare),
-  'lockStar': const TablerIcon(TablerIcons.lockStar, TablerIconsSvg.lockStar),
-  'lockUp': const TablerIcon(TablerIcons.lockUp, TablerIconsSvg.lockUp),
-  'lockX': const TablerIcon(TablerIcons.lockX, TablerIconsSvg.lockX),
-  'lock': const TablerIcon(TablerIcons.lock, TablerIconsSvg.lock),
-  'logicAnd': const TablerIcon(TablerIcons.logicAnd, TablerIconsSvg.logicAnd),
-  'logicBuffer':
-      const TablerIcon(TablerIcons.logicBuffer, TablerIconsSvg.logicBuffer),
-  'logicNand':
-      const TablerIcon(TablerIcons.logicNand, TablerIconsSvg.logicNand),
-  'logicNor': const TablerIcon(TablerIcons.logicNor, TablerIconsSvg.logicNor),
-  'logicNot': const TablerIcon(TablerIcons.logicNot, TablerIconsSvg.logicNot),
-  'logicOr': const TablerIcon(TablerIcons.logicOr, TablerIconsSvg.logicOr),
-  'logicXnor':
-      const TablerIcon(TablerIcons.logicXnor, TablerIconsSvg.logicXnor),
-  'logicXor': const TablerIcon(TablerIcons.logicXor, TablerIconsSvg.logicXor),
-  'login2': const TablerIcon(TablerIcons.login2, TablerIconsSvg.login2),
-  'login': const TablerIcon(TablerIcons.login, TablerIconsSvg.login),
-  'logout2': const TablerIcon(TablerIcons.logout2, TablerIconsSvg.logout2),
-  'logout': const TablerIcon(TablerIcons.logout, TablerIconsSvg.logout),
-  'lollipopOff':
-      const TablerIcon(TablerIcons.lollipopOff, TablerIconsSvg.lollipopOff),
-  'lollipop': const TablerIcon(TablerIcons.lollipop, TablerIconsSvg.lollipop),
-  'luggageOff':
-      const TablerIcon(TablerIcons.luggageOff, TablerIconsSvg.luggageOff),
-  'luggage': const TablerIcon(TablerIcons.luggage, TablerIconsSvg.luggage),
-  'lungsOff': const TablerIcon(TablerIcons.lungsOff, TablerIconsSvg.lungsOff),
-  'lungs': const TablerIcon(TablerIcons.lungs, TablerIconsSvg.lungs),
-  'macroOff': const TablerIcon(TablerIcons.macroOff, TablerIconsSvg.macroOff),
-  'macro': const TablerIcon(TablerIcons.macro, TablerIconsSvg.macro),
-  'magnetOff':
-      const TablerIcon(TablerIcons.magnetOff, TablerIconsSvg.magnetOff),
-  'magnet': const TablerIcon(TablerIcons.magnet, TablerIconsSvg.magnet),
-  'magnetic': const TablerIcon(TablerIcons.magnetic, TablerIconsSvg.magnetic),
-  'mailAi': const TablerIcon(TablerIcons.mailAi, TablerIconsSvg.mailAi),
-  'mailBolt': const TablerIcon(TablerIcons.mailBolt, TablerIconsSvg.mailBolt),
-  'mailCancel':
-      const TablerIcon(TablerIcons.mailCancel, TablerIconsSvg.mailCancel),
-  'mailCheck':
-      const TablerIcon(TablerIcons.mailCheck, TablerIconsSvg.mailCheck),
-  'mailCode': const TablerIcon(TablerIcons.mailCode, TablerIconsSvg.mailCode),
-  'mailCog': const TablerIcon(TablerIcons.mailCog, TablerIconsSvg.mailCog),
-  'mailDollar':
-      const TablerIcon(TablerIcons.mailDollar, TablerIconsSvg.mailDollar),
-  'mailDown': const TablerIcon(TablerIcons.mailDown, TablerIconsSvg.mailDown),
-  'mailExclamation': const TablerIcon(
-      TablerIcons.mailExclamation, TablerIconsSvg.mailExclamation),
-  'mailFast': const TablerIcon(TablerIcons.mailFast, TablerIconsSvg.mailFast),
-  'mailFilled':
-      const TablerIcon(TablerIcons.mailFilled, TablerIconsSvg.mailFilled),
-  'mailForward':
-      const TablerIcon(TablerIcons.mailForward, TablerIconsSvg.mailForward),
-  'mailHeart':
-      const TablerIcon(TablerIcons.mailHeart, TablerIconsSvg.mailHeart),
-  'mailMinus':
-      const TablerIcon(TablerIcons.mailMinus, TablerIconsSvg.mailMinus),
-  'mailOff': const TablerIcon(TablerIcons.mailOff, TablerIconsSvg.mailOff),
-  'mailOpenedFilled': const TablerIcon(
-      TablerIcons.mailOpenedFilled, TablerIconsSvg.mailOpenedFilled),
-  'mailOpened':
-      const TablerIcon(TablerIcons.mailOpened, TablerIconsSvg.mailOpened),
-  'mailPause':
-      const TablerIcon(TablerIcons.mailPause, TablerIconsSvg.mailPause),
-  'mailPin': const TablerIcon(TablerIcons.mailPin, TablerIconsSvg.mailPin),
-  'mailPlus': const TablerIcon(TablerIcons.mailPlus, TablerIconsSvg.mailPlus),
-  'mailQuestion':
-      const TablerIcon(TablerIcons.mailQuestion, TablerIconsSvg.mailQuestion),
-  'mailSearch':
-      const TablerIcon(TablerIcons.mailSearch, TablerIconsSvg.mailSearch),
-  'mailShare':
-      const TablerIcon(TablerIcons.mailShare, TablerIconsSvg.mailShare),
-  'mailStar': const TablerIcon(TablerIcons.mailStar, TablerIconsSvg.mailStar),
-  'mailUp': const TablerIcon(TablerIcons.mailUp, TablerIconsSvg.mailUp),
-  'mailX': const TablerIcon(TablerIcons.mailX, TablerIconsSvg.mailX),
-  'mail': const TablerIcon(TablerIcons.mail, TablerIconsSvg.mail),
-  'mailboxOff':
-      const TablerIcon(TablerIcons.mailboxOff, TablerIconsSvg.mailboxOff),
-  'mailbox': const TablerIcon(TablerIcons.mailbox, TablerIconsSvg.mailbox),
-  'man': const TablerIcon(TablerIcons.man, TablerIconsSvg.man),
-  'manualGearbox':
-      const TablerIcon(TablerIcons.manualGearbox, TablerIconsSvg.manualGearbox),
-  'map2': const TablerIcon(TablerIcons.map2, TablerIconsSvg.map2),
-  'mapBolt': const TablerIcon(TablerIcons.mapBolt, TablerIconsSvg.mapBolt),
-  'mapCancel':
-      const TablerIcon(TablerIcons.mapCancel, TablerIconsSvg.mapCancel),
-  'mapCheck': const TablerIcon(TablerIcons.mapCheck, TablerIconsSvg.mapCheck),
-  'mapCode': const TablerIcon(TablerIcons.mapCode, TablerIconsSvg.mapCode),
-  'mapCog': const TablerIcon(TablerIcons.mapCog, TablerIconsSvg.mapCog),
-  'mapDiscount':
-      const TablerIcon(TablerIcons.mapDiscount, TablerIconsSvg.mapDiscount),
-  'mapDollar':
-      const TablerIcon(TablerIcons.mapDollar, TablerIconsSvg.mapDollar),
-  'mapDown': const TablerIcon(TablerIcons.mapDown, TablerIconsSvg.mapDown),
-  'mapEast': const TablerIcon(TablerIcons.mapEast, TablerIconsSvg.mapEast),
-  'mapExclamation': const TablerIcon(
-      TablerIcons.mapExclamation, TablerIconsSvg.mapExclamation),
-  'mapHeart': const TablerIcon(TablerIcons.mapHeart, TablerIconsSvg.mapHeart),
-  'mapMinus': const TablerIcon(TablerIcons.mapMinus, TablerIconsSvg.mapMinus),
-  'mapNorth': const TablerIcon(TablerIcons.mapNorth, TablerIconsSvg.mapNorth),
-  'mapOff': const TablerIcon(TablerIcons.mapOff, TablerIconsSvg.mapOff),
-  'mapPause': const TablerIcon(TablerIcons.mapPause, TablerIconsSvg.mapPause),
-  'mapPin2': const TablerIcon(TablerIcons.mapPin2, TablerIconsSvg.mapPin2),
-  'mapPinBolt':
-      const TablerIcon(TablerIcons.mapPinBolt, TablerIconsSvg.mapPinBolt),
-  'mapPinCancel':
-      const TablerIcon(TablerIcons.mapPinCancel, TablerIconsSvg.mapPinCancel),
-  'mapPinCheck':
-      const TablerIcon(TablerIcons.mapPinCheck, TablerIconsSvg.mapPinCheck),
-  'mapPinCode':
-      const TablerIcon(TablerIcons.mapPinCode, TablerIconsSvg.mapPinCode),
-  'mapPinCog':
-      const TablerIcon(TablerIcons.mapPinCog, TablerIconsSvg.mapPinCog),
-  'mapPinDollar':
-      const TablerIcon(TablerIcons.mapPinDollar, TablerIconsSvg.mapPinDollar),
-  'mapPinDown':
-      const TablerIcon(TablerIcons.mapPinDown, TablerIconsSvg.mapPinDown),
-  'mapPinExclamation': const TablerIcon(
-      TablerIcons.mapPinExclamation, TablerIconsSvg.mapPinExclamation),
-  'mapPinFilled':
-      const TablerIcon(TablerIcons.mapPinFilled, TablerIconsSvg.mapPinFilled),
-  'mapPinHeart':
-      const TablerIcon(TablerIcons.mapPinHeart, TablerIconsSvg.mapPinHeart),
-  'mapPinMinus':
-      const TablerIcon(TablerIcons.mapPinMinus, TablerIconsSvg.mapPinMinus),
-  'mapPinOff':
-      const TablerIcon(TablerIcons.mapPinOff, TablerIconsSvg.mapPinOff),
-  'mapPinPause':
-      const TablerIcon(TablerIcons.mapPinPause, TablerIconsSvg.mapPinPause),
-  'mapPinPin':
-      const TablerIcon(TablerIcons.mapPinPin, TablerIconsSvg.mapPinPin),
-  'mapPinPlus':
-      const TablerIcon(TablerIcons.mapPinPlus, TablerIconsSvg.mapPinPlus),
-  'mapPinQuestion': const TablerIcon(
-      TablerIcons.mapPinQuestion, TablerIconsSvg.mapPinQuestion),
-  'mapPinSearch':
-      const TablerIcon(TablerIcons.mapPinSearch, TablerIconsSvg.mapPinSearch),
-  'mapPinShare':
-      const TablerIcon(TablerIcons.mapPinShare, TablerIconsSvg.mapPinShare),
-  'mapPinStar':
-      const TablerIcon(TablerIcons.mapPinStar, TablerIconsSvg.mapPinStar),
-  'mapPinUp': const TablerIcon(TablerIcons.mapPinUp, TablerIconsSvg.mapPinUp),
-  'mapPinX': const TablerIcon(TablerIcons.mapPinX, TablerIconsSvg.mapPinX),
-  'mapPin': const TablerIcon(TablerIcons.mapPin, TablerIconsSvg.mapPin),
-  'mapPins': const TablerIcon(TablerIcons.mapPins, TablerIconsSvg.mapPins),
-  'mapPlus': const TablerIcon(TablerIcons.mapPlus, TablerIconsSvg.mapPlus),
-  'mapQuestion':
-      const TablerIcon(TablerIcons.mapQuestion, TablerIconsSvg.mapQuestion),
-  'mapRoute': const TablerIcon(TablerIcons.mapRoute, TablerIconsSvg.mapRoute),
-  'mapSearch':
-      const TablerIcon(TablerIcons.mapSearch, TablerIconsSvg.mapSearch),
-  'mapShare': const TablerIcon(TablerIcons.mapShare, TablerIconsSvg.mapShare),
-  'mapSouth': const TablerIcon(TablerIcons.mapSouth, TablerIconsSvg.mapSouth),
-  'mapStar': const TablerIcon(TablerIcons.mapStar, TablerIconsSvg.mapStar),
-  'mapUp': const TablerIcon(TablerIcons.mapUp, TablerIconsSvg.mapUp),
-  'mapWest': const TablerIcon(TablerIcons.mapWest, TablerIconsSvg.mapWest),
-  'mapX': const TablerIcon(TablerIcons.mapX, TablerIconsSvg.mapX),
-  'map': const TablerIcon(TablerIcons.map, TablerIconsSvg.map),
-  'markdownOff':
-      const TablerIcon(TablerIcons.markdownOff, TablerIconsSvg.markdownOff),
-  'markdown': const TablerIcon(TablerIcons.markdown, TablerIconsSvg.markdown),
-  'marquee2': const TablerIcon(TablerIcons.marquee2, TablerIconsSvg.marquee2),
-  'marqueeOff':
-      const TablerIcon(TablerIcons.marqueeOff, TablerIconsSvg.marqueeOff),
-  'marquee': const TablerIcon(TablerIcons.marquee, TablerIconsSvg.marquee),
-  'mars': const TablerIcon(TablerIcons.mars, TablerIconsSvg.mars),
-  'maskOff': const TablerIcon(TablerIcons.maskOff, TablerIconsSvg.maskOff),
-  'mask': const TablerIcon(TablerIcons.mask, TablerIconsSvg.mask),
-  'masksTheaterOff': const TablerIcon(
-      TablerIcons.masksTheaterOff, TablerIconsSvg.masksTheaterOff),
-  'masksTheater':
-      const TablerIcon(TablerIcons.masksTheater, TablerIconsSvg.masksTheater),
-  'massage': const TablerIcon(TablerIcons.massage, TablerIconsSvg.massage),
-  'matchstick':
-      const TablerIcon(TablerIcons.matchstick, TablerIconsSvg.matchstick),
-  'math1Divide2':
-      const TablerIcon(TablerIcons.math1Divide2, TablerIconsSvg.math1Divide2),
-  'math1Divide3':
-      const TablerIcon(TablerIcons.math1Divide3, TablerIconsSvg.math1Divide3),
-  'mathAvg': const TablerIcon(TablerIcons.mathAvg, TablerIconsSvg.mathAvg),
-  'mathEqualGreater': const TablerIcon(
-      TablerIcons.mathEqualGreater, TablerIconsSvg.mathEqualGreater),
-  'mathEqualLower': const TablerIcon(
-      TablerIcons.mathEqualLower, TablerIconsSvg.mathEqualLower),
-  'mathFunctionOff': const TablerIcon(
-      TablerIcons.mathFunctionOff, TablerIconsSvg.mathFunctionOff),
-  'mathFunctionY':
-      const TablerIcon(TablerIcons.mathFunctionY, TablerIconsSvg.mathFunctionY),
-  'mathFunction':
-      const TablerIcon(TablerIcons.mathFunction, TablerIconsSvg.mathFunction),
-  'mathGreater':
-      const TablerIcon(TablerIcons.mathGreater, TablerIconsSvg.mathGreater),
-  'mathIntegralX':
-      const TablerIcon(TablerIcons.mathIntegralX, TablerIconsSvg.mathIntegralX),
-  'mathIntegral':
-      const TablerIcon(TablerIcons.mathIntegral, TablerIconsSvg.mathIntegral),
-  'mathIntegrals':
-      const TablerIcon(TablerIcons.mathIntegrals, TablerIconsSvg.mathIntegrals),
-  'mathLower':
-      const TablerIcon(TablerIcons.mathLower, TablerIconsSvg.mathLower),
-  'mathMax': const TablerIcon(TablerIcons.mathMax, TablerIconsSvg.mathMax),
-  'mathMin': const TablerIcon(TablerIcons.mathMin, TablerIconsSvg.mathMin),
-  'mathNot': const TablerIcon(TablerIcons.mathNot, TablerIconsSvg.mathNot),
-  'mathOff': const TablerIcon(TablerIcons.mathOff, TablerIconsSvg.mathOff),
-  'mathPiDivide2':
-      const TablerIcon(TablerIcons.mathPiDivide2, TablerIconsSvg.mathPiDivide2),
-  'mathPi': const TablerIcon(TablerIcons.mathPi, TablerIconsSvg.mathPi),
-  'mathSymbols':
-      const TablerIcon(TablerIcons.mathSymbols, TablerIconsSvg.mathSymbols),
-  'mathXDivide2':
-      const TablerIcon(TablerIcons.mathXDivide2, TablerIconsSvg.mathXDivide2),
-  'mathXDivideY2':
-      const TablerIcon(TablerIcons.mathXDivideY2, TablerIconsSvg.mathXDivideY2),
-  'mathXDivideY':
-      const TablerIcon(TablerIcons.mathXDivideY, TablerIconsSvg.mathXDivideY),
-  'mathXMinusX':
-      const TablerIcon(TablerIcons.mathXMinusX, TablerIconsSvg.mathXMinusX),
-  'mathXMinusY':
-      const TablerIcon(TablerIcons.mathXMinusY, TablerIconsSvg.mathXMinusY),
-  'mathXPlusX':
-      const TablerIcon(TablerIcons.mathXPlusX, TablerIconsSvg.mathXPlusX),
-  'mathXPlusY':
-      const TablerIcon(TablerIcons.mathXPlusY, TablerIconsSvg.mathXPlusY),
-  'mathXy': const TablerIcon(TablerIcons.mathXy, TablerIconsSvg.mathXy),
-  'mathYMinusY':
-      const TablerIcon(TablerIcons.mathYMinusY, TablerIconsSvg.mathYMinusY),
-  'mathYPlusY':
-      const TablerIcon(TablerIcons.mathYPlusY, TablerIconsSvg.mathYPlusY),
-  'math': const TablerIcon(TablerIcons.math, TablerIconsSvg.math),
-  'maximizeOff':
-      const TablerIcon(TablerIcons.maximizeOff, TablerIconsSvg.maximizeOff),
-  'maximize': const TablerIcon(TablerIcons.maximize, TablerIconsSvg.maximize),
-  'meatOff': const TablerIcon(TablerIcons.meatOff, TablerIconsSvg.meatOff),
-  'meat': const TablerIcon(TablerIcons.meat, TablerIconsSvg.meat),
-  'medal2': const TablerIcon(TablerIcons.medal2, TablerIconsSvg.medal2),
-  'medal': const TablerIcon(TablerIcons.medal, TablerIconsSvg.medal),
-  'medicalCrossCircle': const TablerIcon(
-      TablerIcons.medicalCrossCircle, TablerIconsSvg.medicalCrossCircle),
-  'medicalCrossFilled': const TablerIcon(
-      TablerIcons.medicalCrossFilled, TablerIconsSvg.medicalCrossFilled),
-  'medicalCrossOff': const TablerIcon(
-      TablerIcons.medicalCrossOff, TablerIconsSvg.medicalCrossOff),
-  'medicalCross':
-      const TablerIcon(TablerIcons.medicalCross, TablerIconsSvg.medicalCross),
-  'medicineSyrup':
-      const TablerIcon(TablerIcons.medicineSyrup, TablerIconsSvg.medicineSyrup),
-  'meeple': const TablerIcon(TablerIcons.meeple, TablerIconsSvg.meeple),
-  'melon': const TablerIcon(TablerIcons.melon, TablerIconsSvg.melon),
-  'menorah': const TablerIcon(TablerIcons.menorah, TablerIconsSvg.menorah),
-  'menu2': const TablerIcon(TablerIcons.menu2, TablerIconsSvg.menu2),
-  'menuDeep': const TablerIcon(TablerIcons.menuDeep, TablerIconsSvg.menuDeep),
-  'menuOrder':
-      const TablerIcon(TablerIcons.menuOrder, TablerIconsSvg.menuOrder),
-  'menu': const TablerIcon(TablerIcons.menu, TablerIconsSvg.menu),
-  'message2Bolt':
-      const TablerIcon(TablerIcons.message2Bolt, TablerIconsSvg.message2Bolt),
-  'message2Cancel': const TablerIcon(
-      TablerIcons.message2Cancel, TablerIconsSvg.message2Cancel),
-  'message2Check':
-      const TablerIcon(TablerIcons.message2Check, TablerIconsSvg.message2Check),
-  'message2Code':
-      const TablerIcon(TablerIcons.message2Code, TablerIconsSvg.message2Code),
-  'message2Cog':
-      const TablerIcon(TablerIcons.message2Cog, TablerIconsSvg.message2Cog),
-  'message2Dollar': const TablerIcon(
-      TablerIcons.message2Dollar, TablerIconsSvg.message2Dollar),
-  'message2Down':
-      const TablerIcon(TablerIcons.message2Down, TablerIconsSvg.message2Down),
-  'message2Exclamation': const TablerIcon(
-      TablerIcons.message2Exclamation, TablerIconsSvg.message2Exclamation),
-  'message2Heart':
-      const TablerIcon(TablerIcons.message2Heart, TablerIconsSvg.message2Heart),
-  'message2Minus':
-      const TablerIcon(TablerIcons.message2Minus, TablerIconsSvg.message2Minus),
-  'message2Off':
-      const TablerIcon(TablerIcons.message2Off, TablerIconsSvg.message2Off),
-  'message2Pause':
-      const TablerIcon(TablerIcons.message2Pause, TablerIconsSvg.message2Pause),
-  'message2Pin':
-      const TablerIcon(TablerIcons.message2Pin, TablerIconsSvg.message2Pin),
-  'message2Plus':
-      const TablerIcon(TablerIcons.message2Plus, TablerIconsSvg.message2Plus),
-  'message2Question': const TablerIcon(
-      TablerIcons.message2Question, TablerIconsSvg.message2Question),
-  'message2Search': const TablerIcon(
-      TablerIcons.message2Search, TablerIconsSvg.message2Search),
-  'message2Share':
-      const TablerIcon(TablerIcons.message2Share, TablerIconsSvg.message2Share),
-  'message2Star':
-      const TablerIcon(TablerIcons.message2Star, TablerIconsSvg.message2Star),
-  'message2Up':
-      const TablerIcon(TablerIcons.message2Up, TablerIconsSvg.message2Up),
-  'message2X':
-      const TablerIcon(TablerIcons.message2X, TablerIconsSvg.message2X),
-  'message2': const TablerIcon(TablerIcons.message2, TablerIconsSvg.message2),
-  'messageBolt':
-      const TablerIcon(TablerIcons.messageBolt, TablerIconsSvg.messageBolt),
-  'messageCancel':
-      const TablerIcon(TablerIcons.messageCancel, TablerIconsSvg.messageCancel),
-  'messageChatbot': const TablerIcon(
-      TablerIcons.messageChatbot, TablerIconsSvg.messageChatbot),
-  'messageCheck':
-      const TablerIcon(TablerIcons.messageCheck, TablerIconsSvg.messageCheck),
-  'messageCircle2Filled': const TablerIcon(
-      TablerIcons.messageCircle2Filled, TablerIconsSvg.messageCircle2Filled),
-  'messageCircle2': const TablerIcon(
-      TablerIcons.messageCircle2, TablerIconsSvg.messageCircle2),
-  'messageCircleBolt': const TablerIcon(
-      TablerIcons.messageCircleBolt, TablerIconsSvg.messageCircleBolt),
-  'messageCircleCancel': const TablerIcon(
-      TablerIcons.messageCircleCancel, TablerIconsSvg.messageCircleCancel),
-  'messageCircleCheck': const TablerIcon(
-      TablerIcons.messageCircleCheck, TablerIconsSvg.messageCircleCheck),
-  'messageCircleCode': const TablerIcon(
-      TablerIcons.messageCircleCode, TablerIconsSvg.messageCircleCode),
-  'messageCircleCog': const TablerIcon(
-      TablerIcons.messageCircleCog, TablerIconsSvg.messageCircleCog),
-  'messageCircleDollar': const TablerIcon(
-      TablerIcons.messageCircleDollar, TablerIconsSvg.messageCircleDollar),
-  'messageCircleDown': const TablerIcon(
-      TablerIcons.messageCircleDown, TablerIconsSvg.messageCircleDown),
-  'messageCircleExclamation': const TablerIcon(
-      TablerIcons.messageCircleExclamation,
-      TablerIconsSvg.messageCircleExclamation),
-  'messageCircleHeart': const TablerIcon(
-      TablerIcons.messageCircleHeart, TablerIconsSvg.messageCircleHeart),
-  'messageCircleMinus': const TablerIcon(
-      TablerIcons.messageCircleMinus, TablerIconsSvg.messageCircleMinus),
-  'messageCircleOff': const TablerIcon(
-      TablerIcons.messageCircleOff, TablerIconsSvg.messageCircleOff),
-  'messageCirclePause': const TablerIcon(
-      TablerIcons.messageCirclePause, TablerIconsSvg.messageCirclePause),
-  'messageCirclePin': const TablerIcon(
-      TablerIcons.messageCirclePin, TablerIconsSvg.messageCirclePin),
-  'messageCirclePlus': const TablerIcon(
-      TablerIcons.messageCirclePlus, TablerIconsSvg.messageCirclePlus),
-  'messageCircleQuestion': const TablerIcon(
-      TablerIcons.messageCircleQuestion, TablerIconsSvg.messageCircleQuestion),
-  'messageCircleSearch': const TablerIcon(
-      TablerIcons.messageCircleSearch, TablerIconsSvg.messageCircleSearch),
-  'messageCircleShare': const TablerIcon(
-      TablerIcons.messageCircleShare, TablerIconsSvg.messageCircleShare),
-  'messageCircleStar': const TablerIcon(
-      TablerIcons.messageCircleStar, TablerIconsSvg.messageCircleStar),
-  'messageCircleUp': const TablerIcon(
-      TablerIcons.messageCircleUp, TablerIconsSvg.messageCircleUp),
-  'messageCircleX': const TablerIcon(
-      TablerIcons.messageCircleX, TablerIconsSvg.messageCircleX),
-  'messageCircle':
-      const TablerIcon(TablerIcons.messageCircle, TablerIconsSvg.messageCircle),
-  'messageCode':
-      const TablerIcon(TablerIcons.messageCode, TablerIconsSvg.messageCode),
-  'messageCog':
-      const TablerIcon(TablerIcons.messageCog, TablerIconsSvg.messageCog),
-  'messageDollar':
-      const TablerIcon(TablerIcons.messageDollar, TablerIconsSvg.messageDollar),
-  'messageDots':
-      const TablerIcon(TablerIcons.messageDots, TablerIconsSvg.messageDots),
-  'messageDown':
-      const TablerIcon(TablerIcons.messageDown, TablerIconsSvg.messageDown),
-  'messageExclamation': const TablerIcon(
-      TablerIcons.messageExclamation, TablerIconsSvg.messageExclamation),
-  'messageForward': const TablerIcon(
-      TablerIcons.messageForward, TablerIconsSvg.messageForward),
-  'messageHeart':
-      const TablerIcon(TablerIcons.messageHeart, TablerIconsSvg.messageHeart),
-  'messageLanguage': const TablerIcon(
-      TablerIcons.messageLanguage, TablerIconsSvg.messageLanguage),
-  'messageMinus':
-      const TablerIcon(TablerIcons.messageMinus, TablerIconsSvg.messageMinus),
-  'messageOff':
-      const TablerIcon(TablerIcons.messageOff, TablerIconsSvg.messageOff),
-  'messagePause':
-      const TablerIcon(TablerIcons.messagePause, TablerIconsSvg.messagePause),
-  'messagePin':
-      const TablerIcon(TablerIcons.messagePin, TablerIconsSvg.messagePin),
-  'messagePlus':
-      const TablerIcon(TablerIcons.messagePlus, TablerIconsSvg.messagePlus),
-  'messageQuestion': const TablerIcon(
-      TablerIcons.messageQuestion, TablerIconsSvg.messageQuestion),
-  'messageReport':
-      const TablerIcon(TablerIcons.messageReport, TablerIconsSvg.messageReport),
-  'messageSearch':
-      const TablerIcon(TablerIcons.messageSearch, TablerIconsSvg.messageSearch),
-  'messageShare':
-      const TablerIcon(TablerIcons.messageShare, TablerIconsSvg.messageShare),
-  'messageStar':
-      const TablerIcon(TablerIcons.messageStar, TablerIconsSvg.messageStar),
-  'messageUp':
-      const TablerIcon(TablerIcons.messageUp, TablerIconsSvg.messageUp),
-  'messageX': const TablerIcon(TablerIcons.messageX, TablerIconsSvg.messageX),
-  'message': const TablerIcon(TablerIcons.message, TablerIconsSvg.message),
-  'messagesOff':
-      const TablerIcon(TablerIcons.messagesOff, TablerIconsSvg.messagesOff),
-  'messages': const TablerIcon(TablerIcons.messages, TablerIconsSvg.messages),
-  'meteorOff':
-      const TablerIcon(TablerIcons.meteorOff, TablerIconsSvg.meteorOff),
-  'meteor': const TablerIcon(TablerIcons.meteor, TablerIconsSvg.meteor),
-  'michelinBibGourmand': const TablerIcon(
-      TablerIcons.michelinBibGourmand, TablerIconsSvg.michelinBibGourmand),
-  'michelinStarGreen': const TablerIcon(
-      TablerIcons.michelinStarGreen, TablerIconsSvg.michelinStarGreen),
-  'michelinStar':
-      const TablerIcon(TablerIcons.michelinStar, TablerIconsSvg.michelinStar),
-  'mickeyFilled':
-      const TablerIcon(TablerIcons.mickeyFilled, TablerIconsSvg.mickeyFilled),
-  'mickey': const TablerIcon(TablerIcons.mickey, TablerIconsSvg.mickey),
-  'microphone2Off': const TablerIcon(
-      TablerIcons.microphone2Off, TablerIconsSvg.microphone2Off),
-  'microphone2':
-      const TablerIcon(TablerIcons.microphone2, TablerIconsSvg.microphone2),
-  'microphoneOff':
-      const TablerIcon(TablerIcons.microphoneOff, TablerIconsSvg.microphoneOff),
-  'microphone':
-      const TablerIcon(TablerIcons.microphone, TablerIconsSvg.microphone),
-  'microscopeOff':
-      const TablerIcon(TablerIcons.microscopeOff, TablerIconsSvg.microscopeOff),
-  'microscope':
-      const TablerIcon(TablerIcons.microscope, TablerIconsSvg.microscope),
-  'microwaveOff':
-      const TablerIcon(TablerIcons.microwaveOff, TablerIconsSvg.microwaveOff),
-  'microwave':
-      const TablerIcon(TablerIcons.microwave, TablerIconsSvg.microwave),
-  'militaryAward':
-      const TablerIcon(TablerIcons.militaryAward, TablerIconsSvg.militaryAward),
-  'militaryRank':
-      const TablerIcon(TablerIcons.militaryRank, TablerIconsSvg.militaryRank),
-  'milkOff': const TablerIcon(TablerIcons.milkOff, TablerIconsSvg.milkOff),
-  'milk': const TablerIcon(TablerIcons.milk, TablerIconsSvg.milk),
-  'milkshake':
-      const TablerIcon(TablerIcons.milkshake, TablerIconsSvg.milkshake),
-  'minimize': const TablerIcon(TablerIcons.minimize, TablerIconsSvg.minimize),
-  'minusVertical':
-      const TablerIcon(TablerIcons.minusVertical, TablerIconsSvg.minusVertical),
-  'minus': const TablerIcon(TablerIcons.minus, TablerIconsSvg.minus),
-  'mistOff': const TablerIcon(TablerIcons.mistOff, TablerIconsSvg.mistOff),
-  'mist': const TablerIcon(TablerIcons.mist, TablerIconsSvg.mist),
-  'mobiledataOff':
-      const TablerIcon(TablerIcons.mobiledataOff, TablerIconsSvg.mobiledataOff),
-  'mobiledata':
-      const TablerIcon(TablerIcons.mobiledata, TablerIconsSvg.mobiledata),
-  'moneybag': const TablerIcon(TablerIcons.moneybag, TablerIconsSvg.moneybag),
-  'moodAngry':
-      const TablerIcon(TablerIcons.moodAngry, TablerIconsSvg.moodAngry),
-  'moodAnnoyed2':
-      const TablerIcon(TablerIcons.moodAnnoyed2, TablerIconsSvg.moodAnnoyed2),
-  'moodAnnoyed':
-      const TablerIcon(TablerIcons.moodAnnoyed, TablerIconsSvg.moodAnnoyed),
-  'moodBoy': const TablerIcon(TablerIcons.moodBoy, TablerIconsSvg.moodBoy),
-  'moodCheck':
-      const TablerIcon(TablerIcons.moodCheck, TablerIconsSvg.moodCheck),
-  'moodCog': const TablerIcon(TablerIcons.moodCog, TablerIconsSvg.moodCog),
-  'moodConfuzedFilled': const TablerIcon(
-      TablerIcons.moodConfuzedFilled, TablerIconsSvg.moodConfuzedFilled),
-  'moodConfuzed':
-      const TablerIcon(TablerIcons.moodConfuzed, TablerIconsSvg.moodConfuzed),
-  'moodCrazyHappy': const TablerIcon(
-      TablerIcons.moodCrazyHappy, TablerIconsSvg.moodCrazyHappy),
-  'moodCry': const TablerIcon(TablerIcons.moodCry, TablerIconsSvg.moodCry),
-  'moodDollar':
-      const TablerIcon(TablerIcons.moodDollar, TablerIconsSvg.moodDollar),
-  'moodEdit': const TablerIcon(TablerIcons.moodEdit, TablerIconsSvg.moodEdit),
-  'moodEmptyFilled': const TablerIcon(
-      TablerIcons.moodEmptyFilled, TablerIconsSvg.moodEmptyFilled),
-  'moodEmpty':
-      const TablerIcon(TablerIcons.moodEmpty, TablerIconsSvg.moodEmpty),
-  'moodHappyFilled': const TablerIcon(
-      TablerIcons.moodHappyFilled, TablerIconsSvg.moodHappyFilled),
-  'moodHappy':
-      const TablerIcon(TablerIcons.moodHappy, TablerIconsSvg.moodHappy),
-  'moodHeart':
-      const TablerIcon(TablerIcons.moodHeart, TablerIconsSvg.moodHeart),
-  'moodKidFilled':
-      const TablerIcon(TablerIcons.moodKidFilled, TablerIconsSvg.moodKidFilled),
-  'moodKid': const TablerIcon(TablerIcons.moodKid, TablerIconsSvg.moodKid),
-  'moodLookLeft':
-      const TablerIcon(TablerIcons.moodLookLeft, TablerIconsSvg.moodLookLeft),
-  'moodLookRight':
-      const TablerIcon(TablerIcons.moodLookRight, TablerIconsSvg.moodLookRight),
-  'moodMinus':
-      const TablerIcon(TablerIcons.moodMinus, TablerIconsSvg.moodMinus),
-  'moodNerd': const TablerIcon(TablerIcons.moodNerd, TablerIconsSvg.moodNerd),
-  'moodNervous':
-      const TablerIcon(TablerIcons.moodNervous, TablerIconsSvg.moodNervous),
-  'moodNeutralFilled': const TablerIcon(
-      TablerIcons.moodNeutralFilled, TablerIconsSvg.moodNeutralFilled),
-  'moodNeutral':
-      const TablerIcon(TablerIcons.moodNeutral, TablerIconsSvg.moodNeutral),
-  'moodOff': const TablerIcon(TablerIcons.moodOff, TablerIconsSvg.moodOff),
-  'moodPin': const TablerIcon(TablerIcons.moodPin, TablerIconsSvg.moodPin),
-  'moodPlus': const TablerIcon(TablerIcons.moodPlus, TablerIconsSvg.moodPlus),
-  'moodSad2': const TablerIcon(TablerIcons.moodSad2, TablerIconsSvg.moodSad2),
-  'moodSadDizzy':
-      const TablerIcon(TablerIcons.moodSadDizzy, TablerIconsSvg.moodSadDizzy),
-  'moodSadFilled':
-      const TablerIcon(TablerIcons.moodSadFilled, TablerIconsSvg.moodSadFilled),
-  'moodSadSquint':
-      const TablerIcon(TablerIcons.moodSadSquint, TablerIconsSvg.moodSadSquint),
-  'moodSad': const TablerIcon(TablerIcons.moodSad, TablerIconsSvg.moodSad),
-  'moodSearch':
-      const TablerIcon(TablerIcons.moodSearch, TablerIconsSvg.moodSearch),
-  'moodShare':
-      const TablerIcon(TablerIcons.moodShare, TablerIconsSvg.moodShare),
-  'moodSick': const TablerIcon(TablerIcons.moodSick, TablerIconsSvg.moodSick),
-  'moodSilence':
-      const TablerIcon(TablerIcons.moodSilence, TablerIconsSvg.moodSilence),
-  'moodSing': const TablerIcon(TablerIcons.moodSing, TablerIconsSvg.moodSing),
-  'moodSmileBeam':
-      const TablerIcon(TablerIcons.moodSmileBeam, TablerIconsSvg.moodSmileBeam),
-  'moodSmileDizzy': const TablerIcon(
-      TablerIcons.moodSmileDizzy, TablerIconsSvg.moodSmileDizzy),
-  'moodSmileFilled': const TablerIcon(
-      TablerIcons.moodSmileFilled, TablerIconsSvg.moodSmileFilled),
-  'moodSmile':
-      const TablerIcon(TablerIcons.moodSmile, TablerIconsSvg.moodSmile),
-  'moodSuprised':
-      const TablerIcon(TablerIcons.moodSuprised, TablerIconsSvg.moodSuprised),
-  'moodTongueWink2': const TablerIcon(
-      TablerIcons.moodTongueWink2, TablerIconsSvg.moodTongueWink2),
-  'moodTongueWink': const TablerIcon(
-      TablerIcons.moodTongueWink, TablerIconsSvg.moodTongueWink),
-  'moodTongue':
-      const TablerIcon(TablerIcons.moodTongue, TablerIconsSvg.moodTongue),
-  'moodUnamused':
-      const TablerIcon(TablerIcons.moodUnamused, TablerIconsSvg.moodUnamused),
-  'moodUp': const TablerIcon(TablerIcons.moodUp, TablerIconsSvg.moodUp),
-  'moodWink2':
-      const TablerIcon(TablerIcons.moodWink2, TablerIconsSvg.moodWink2),
-  'moodWink': const TablerIcon(TablerIcons.moodWink, TablerIconsSvg.moodWink),
-  'moodWrrr': const TablerIcon(TablerIcons.moodWrrr, TablerIconsSvg.moodWrrr),
-  'moodX': const TablerIcon(TablerIcons.moodX, TablerIconsSvg.moodX),
-  'moodXd': const TablerIcon(TablerIcons.moodXd, TablerIconsSvg.moodXd),
-  'moon2': const TablerIcon(TablerIcons.moon2, TablerIconsSvg.moon2),
-  'moonFilled':
-      const TablerIcon(TablerIcons.moonFilled, TablerIconsSvg.moonFilled),
-  'moonOff': const TablerIcon(TablerIcons.moonOff, TablerIconsSvg.moonOff),
-  'moonStars':
-      const TablerIcon(TablerIcons.moonStars, TablerIconsSvg.moonStars),
-  'moon': const TablerIcon(TablerIcons.moon, TablerIconsSvg.moon),
-  'moped': const TablerIcon(TablerIcons.moped, TablerIconsSvg.moped),
-  'motorbike':
-      const TablerIcon(TablerIcons.motorbike, TablerIconsSvg.motorbike),
-  'mountainOff':
-      const TablerIcon(TablerIcons.mountainOff, TablerIconsSvg.mountainOff),
-  'mountain': const TablerIcon(TablerIcons.mountain, TablerIconsSvg.mountain),
-  'mouse2': const TablerIcon(TablerIcons.mouse2, TablerIconsSvg.mouse2),
-  'mouseFilled':
-      const TablerIcon(TablerIcons.mouseFilled, TablerIconsSvg.mouseFilled),
-  'mouseOff': const TablerIcon(TablerIcons.mouseOff, TablerIconsSvg.mouseOff),
-  'mouse': const TablerIcon(TablerIcons.mouse, TablerIconsSvg.mouse),
-  'moustache':
-      const TablerIcon(TablerIcons.moustache, TablerIconsSvg.moustache),
-  'movieOff': const TablerIcon(TablerIcons.movieOff, TablerIconsSvg.movieOff),
-  'movie': const TablerIcon(TablerIcons.movie, TablerIconsSvg.movie),
-  'mugOff': const TablerIcon(TablerIcons.mugOff, TablerIconsSvg.mugOff),
-  'mug': const TablerIcon(TablerIcons.mug, TablerIconsSvg.mug),
-  'multiplier05x':
-      const TablerIcon(TablerIcons.multiplier05x, TablerIconsSvg.multiplier05x),
-  'multiplier15x':
-      const TablerIcon(TablerIcons.multiplier15x, TablerIconsSvg.multiplier15x),
-  'multiplier1x':
-      const TablerIcon(TablerIcons.multiplier1x, TablerIconsSvg.multiplier1x),
-  'multiplier2x':
-      const TablerIcon(TablerIcons.multiplier2x, TablerIconsSvg.multiplier2x),
-  'mushroomFilled': const TablerIcon(
-      TablerIcons.mushroomFilled, TablerIconsSvg.mushroomFilled),
-  'mushroomOff':
-      const TablerIcon(TablerIcons.mushroomOff, TablerIconsSvg.mushroomOff),
-  'mushroom': const TablerIcon(TablerIcons.mushroom, TablerIconsSvg.mushroom),
-  'musicBolt':
-      const TablerIcon(TablerIcons.musicBolt, TablerIconsSvg.musicBolt),
-  'musicCancel':
-      const TablerIcon(TablerIcons.musicCancel, TablerIconsSvg.musicCancel),
-  'musicCheck':
-      const TablerIcon(TablerIcons.musicCheck, TablerIconsSvg.musicCheck),
-  'musicCode':
-      const TablerIcon(TablerIcons.musicCode, TablerIconsSvg.musicCode),
-  'musicCog': const TablerIcon(TablerIcons.musicCog, TablerIconsSvg.musicCog),
-  'musicDiscount':
-      const TablerIcon(TablerIcons.musicDiscount, TablerIconsSvg.musicDiscount),
-  'musicDollar':
-      const TablerIcon(TablerIcons.musicDollar, TablerIconsSvg.musicDollar),
-  'musicDown':
-      const TablerIcon(TablerIcons.musicDown, TablerIconsSvg.musicDown),
-  'musicExclamation': const TablerIcon(
-      TablerIcons.musicExclamation, TablerIconsSvg.musicExclamation),
-  'musicHeart':
-      const TablerIcon(TablerIcons.musicHeart, TablerIconsSvg.musicHeart),
-  'musicMinus':
-      const TablerIcon(TablerIcons.musicMinus, TablerIconsSvg.musicMinus),
-  'musicOff': const TablerIcon(TablerIcons.musicOff, TablerIconsSvg.musicOff),
-  'musicPause':
-      const TablerIcon(TablerIcons.musicPause, TablerIconsSvg.musicPause),
-  'musicPin': const TablerIcon(TablerIcons.musicPin, TablerIconsSvg.musicPin),
-  'musicPlus':
-      const TablerIcon(TablerIcons.musicPlus, TablerIconsSvg.musicPlus),
-  'musicQuestion':
-      const TablerIcon(TablerIcons.musicQuestion, TablerIconsSvg.musicQuestion),
-  'musicSearch':
-      const TablerIcon(TablerIcons.musicSearch, TablerIconsSvg.musicSearch),
-  'musicShare':
-      const TablerIcon(TablerIcons.musicShare, TablerIconsSvg.musicShare),
-  'musicStar':
-      const TablerIcon(TablerIcons.musicStar, TablerIconsSvg.musicStar),
-  'musicUp': const TablerIcon(TablerIcons.musicUp, TablerIconsSvg.musicUp),
-  'musicX': const TablerIcon(TablerIcons.musicX, TablerIconsSvg.musicX),
-  'music': const TablerIcon(TablerIcons.music, TablerIconsSvg.music),
-  'navigationBolt': const TablerIcon(
-      TablerIcons.navigationBolt, TablerIconsSvg.navigationBolt),
-  'navigationCancel': const TablerIcon(
-      TablerIcons.navigationCancel, TablerIconsSvg.navigationCancel),
-  'navigationCheck': const TablerIcon(
-      TablerIcons.navigationCheck, TablerIconsSvg.navigationCheck),
-  'navigationCode': const TablerIcon(
-      TablerIcons.navigationCode, TablerIconsSvg.navigationCode),
-  'navigationCog':
-      const TablerIcon(TablerIcons.navigationCog, TablerIconsSvg.navigationCog),
-  'navigationDiscount': const TablerIcon(
-      TablerIcons.navigationDiscount, TablerIconsSvg.navigationDiscount),
-  'navigationDollar': const TablerIcon(
-      TablerIcons.navigationDollar, TablerIconsSvg.navigationDollar),
-  'navigationDown': const TablerIcon(
-      TablerIcons.navigationDown, TablerIconsSvg.navigationDown),
-  'navigationEast': const TablerIcon(
-      TablerIcons.navigationEast, TablerIconsSvg.navigationEast),
-  'navigationExclamation': const TablerIcon(
-      TablerIcons.navigationExclamation, TablerIconsSvg.navigationExclamation),
-  'navigationFilled': const TablerIcon(
-      TablerIcons.navigationFilled, TablerIconsSvg.navigationFilled),
-  'navigationHeart': const TablerIcon(
-      TablerIcons.navigationHeart, TablerIconsSvg.navigationHeart),
-  'navigationMinus': const TablerIcon(
-      TablerIcons.navigationMinus, TablerIconsSvg.navigationMinus),
-  'navigationNorth': const TablerIcon(
-      TablerIcons.navigationNorth, TablerIconsSvg.navigationNorth),
-  'navigationOff':
-      const TablerIcon(TablerIcons.navigationOff, TablerIconsSvg.navigationOff),
-  'navigationPause': const TablerIcon(
-      TablerIcons.navigationPause, TablerIconsSvg.navigationPause),
-  'navigationPin':
-      const TablerIcon(TablerIcons.navigationPin, TablerIconsSvg.navigationPin),
-  'navigationPlus': const TablerIcon(
-      TablerIcons.navigationPlus, TablerIconsSvg.navigationPlus),
-  'navigationQuestion': const TablerIcon(
-      TablerIcons.navigationQuestion, TablerIconsSvg.navigationQuestion),
-  'navigationSearch': const TablerIcon(
-      TablerIcons.navigationSearch, TablerIconsSvg.navigationSearch),
-  'navigationShare': const TablerIcon(
-      TablerIcons.navigationShare, TablerIconsSvg.navigationShare),
-  'navigationSouth': const TablerIcon(
-      TablerIcons.navigationSouth, TablerIconsSvg.navigationSouth),
-  'navigationStar': const TablerIcon(
-      TablerIcons.navigationStar, TablerIconsSvg.navigationStar),
-  'navigationTop':
-      const TablerIcon(TablerIcons.navigationTop, TablerIconsSvg.navigationTop),
-  'navigationUp':
-      const TablerIcon(TablerIcons.navigationUp, TablerIconsSvg.navigationUp),
-  'navigationWest': const TablerIcon(
-      TablerIcons.navigationWest, TablerIconsSvg.navigationWest),
-  'navigationX':
-      const TablerIcon(TablerIcons.navigationX, TablerIconsSvg.navigationX),
-  'navigation':
-      const TablerIcon(TablerIcons.navigation, TablerIconsSvg.navigation),
-  'needleThread':
-      const TablerIcon(TablerIcons.needleThread, TablerIconsSvg.needleThread),
-  'needle': const TablerIcon(TablerIcons.needle, TablerIconsSvg.needle),
-  'networkOff':
-      const TablerIcon(TablerIcons.networkOff, TablerIconsSvg.networkOff),
-  'network': const TablerIcon(TablerIcons.network, TablerIconsSvg.network),
-  'newSection':
-      const TablerIcon(TablerIcons.newSection, TablerIconsSvg.newSection),
-  'newsOff': const TablerIcon(TablerIcons.newsOff, TablerIconsSvg.newsOff),
-  'news': const TablerIcon(TablerIcons.news, TablerIconsSvg.news),
-  'nfcOff': const TablerIcon(TablerIcons.nfcOff, TablerIconsSvg.nfcOff),
-  'nfc': const TablerIcon(TablerIcons.nfc, TablerIconsSvg.nfc),
-  'noCopyright':
-      const TablerIcon(TablerIcons.noCopyright, TablerIconsSvg.noCopyright),
-  'noCreativeCommons': const TablerIcon(
-      TablerIcons.noCreativeCommons, TablerIconsSvg.noCreativeCommons),
-  'noDerivatives':
-      const TablerIcon(TablerIcons.noDerivatives, TablerIconsSvg.noDerivatives),
-  'northStar':
-      const TablerIcon(TablerIcons.northStar, TablerIconsSvg.northStar),
-  'noteOff': const TablerIcon(TablerIcons.noteOff, TablerIconsSvg.noteOff),
-  'note': const TablerIcon(TablerIcons.note, TablerIconsSvg.note),
-  'notebookOff':
-      const TablerIcon(TablerIcons.notebookOff, TablerIconsSvg.notebookOff),
-  'notebook': const TablerIcon(TablerIcons.notebook, TablerIconsSvg.notebook),
-  'notesOff': const TablerIcon(TablerIcons.notesOff, TablerIconsSvg.notesOff),
-  'notes': const TablerIcon(TablerIcons.notes, TablerIconsSvg.notes),
-  'notificationOff': const TablerIcon(
-      TablerIcons.notificationOff, TablerIconsSvg.notificationOff),
-  'notification':
-      const TablerIcon(TablerIcons.notification, TablerIconsSvg.notification),
-  'number0Small':
-      const TablerIcon(TablerIcons.number0Small, TablerIconsSvg.number0Small),
-  'number0': const TablerIcon(TablerIcons.number0, TablerIconsSvg.number0),
-  'number1Small':
-      const TablerIcon(TablerIcons.number1Small, TablerIconsSvg.number1Small),
-  'number1': const TablerIcon(TablerIcons.number1, TablerIconsSvg.number1),
-  'number10Small':
-      const TablerIcon(TablerIcons.number10Small, TablerIconsSvg.number10Small),
-  'number11Small':
-      const TablerIcon(TablerIcons.number11Small, TablerIconsSvg.number11Small),
-  'number12Small':
-      const TablerIcon(TablerIcons.number12Small, TablerIconsSvg.number12Small),
-  'number13Small':
-      const TablerIcon(TablerIcons.number13Small, TablerIconsSvg.number13Small),
-  'number14Small':
-      const TablerIcon(TablerIcons.number14Small, TablerIconsSvg.number14Small),
-  'number15Small':
-      const TablerIcon(TablerIcons.number15Small, TablerIconsSvg.number15Small),
-  'number16Small':
-      const TablerIcon(TablerIcons.number16Small, TablerIconsSvg.number16Small),
-  'number17Small':
-      const TablerIcon(TablerIcons.number17Small, TablerIconsSvg.number17Small),
-  'number18Small':
-      const TablerIcon(TablerIcons.number18Small, TablerIconsSvg.number18Small),
-  'number19Small':
-      const TablerIcon(TablerIcons.number19Small, TablerIconsSvg.number19Small),
-  'number2Small':
-      const TablerIcon(TablerIcons.number2Small, TablerIconsSvg.number2Small),
-  'number2': const TablerIcon(TablerIcons.number2, TablerIconsSvg.number2),
-  'number20Small':
-      const TablerIcon(TablerIcons.number20Small, TablerIconsSvg.number20Small),
-  'number21Small':
-      const TablerIcon(TablerIcons.number21Small, TablerIconsSvg.number21Small),
-  'number22Small':
-      const TablerIcon(TablerIcons.number22Small, TablerIconsSvg.number22Small),
-  'number23Small':
-      const TablerIcon(TablerIcons.number23Small, TablerIconsSvg.number23Small),
-  'number24Small':
-      const TablerIcon(TablerIcons.number24Small, TablerIconsSvg.number24Small),
-  'number25Small':
-      const TablerIcon(TablerIcons.number25Small, TablerIconsSvg.number25Small),
-  'number26Small':
-      const TablerIcon(TablerIcons.number26Small, TablerIconsSvg.number26Small),
-  'number27Small':
-      const TablerIcon(TablerIcons.number27Small, TablerIconsSvg.number27Small),
-  'number28Small':
-      const TablerIcon(TablerIcons.number28Small, TablerIconsSvg.number28Small),
-  'number29Small':
-      const TablerIcon(TablerIcons.number29Small, TablerIconsSvg.number29Small),
-  'number3Small':
-      const TablerIcon(TablerIcons.number3Small, TablerIconsSvg.number3Small),
-  'number3': const TablerIcon(TablerIcons.number3, TablerIconsSvg.number3),
-  'number4Small':
-      const TablerIcon(TablerIcons.number4Small, TablerIconsSvg.number4Small),
-  'number4': const TablerIcon(TablerIcons.number4, TablerIconsSvg.number4),
-  'number5Small':
-      const TablerIcon(TablerIcons.number5Small, TablerIconsSvg.number5Small),
-  'number5': const TablerIcon(TablerIcons.number5, TablerIconsSvg.number5),
-  'number6Small':
-      const TablerIcon(TablerIcons.number6Small, TablerIconsSvg.number6Small),
-  'number6': const TablerIcon(TablerIcons.number6, TablerIconsSvg.number6),
-  'number7Small':
-      const TablerIcon(TablerIcons.number7Small, TablerIconsSvg.number7Small),
-  'number7': const TablerIcon(TablerIcons.number7, TablerIconsSvg.number7),
-  'number8Small':
-      const TablerIcon(TablerIcons.number8Small, TablerIconsSvg.number8Small),
-  'number8': const TablerIcon(TablerIcons.number8, TablerIconsSvg.number8),
-  'number9Small':
-      const TablerIcon(TablerIcons.number9Small, TablerIconsSvg.number9Small),
-  'number9': const TablerIcon(TablerIcons.number9, TablerIconsSvg.number9),
-  'number': const TablerIcon(TablerIcons.number, TablerIconsSvg.number),
-  'numbers': const TablerIcon(TablerIcons.numbers, TablerIconsSvg.numbers),
-  'nurse': const TablerIcon(TablerIcons.nurse, TablerIconsSvg.nurse),
-  'nut': const TablerIcon(TablerIcons.nut, TablerIconsSvg.nut),
-  'octagonFilled':
-      const TablerIcon(TablerIcons.octagonFilled, TablerIconsSvg.octagonFilled),
-  'octagonMinus2':
-      const TablerIcon(TablerIcons.octagonMinus2, TablerIconsSvg.octagonMinus2),
-  'octagonMinus':
-      const TablerIcon(TablerIcons.octagonMinus, TablerIconsSvg.octagonMinus),
-  'octagonOff':
-      const TablerIcon(TablerIcons.octagonOff, TablerIconsSvg.octagonOff),
-  'octagonPlus2':
-      const TablerIcon(TablerIcons.octagonPlus2, TablerIconsSvg.octagonPlus2),
-  'octagonPlus':
-      const TablerIcon(TablerIcons.octagonPlus, TablerIconsSvg.octagonPlus),
-  'octagon': const TablerIcon(TablerIcons.octagon, TablerIconsSvg.octagon),
-  'octahedronOff':
-      const TablerIcon(TablerIcons.octahedronOff, TablerIconsSvg.octahedronOff),
-  'octahedronPlus': const TablerIcon(
-      TablerIcons.octahedronPlus, TablerIconsSvg.octahedronPlus),
-  'octahedron':
-      const TablerIcon(TablerIcons.octahedron, TablerIconsSvg.octahedron),
-  'old': const TablerIcon(TablerIcons.old, TablerIconsSvg.old),
-  'olympicsOff':
-      const TablerIcon(TablerIcons.olympicsOff, TablerIconsSvg.olympicsOff),
-  'olympics': const TablerIcon(TablerIcons.olympics, TablerIconsSvg.olympics),
-  'om': const TablerIcon(TablerIcons.om, TablerIconsSvg.om),
-  'omega': const TablerIcon(TablerIcons.omega, TablerIconsSvg.omega),
-  'outbound': const TablerIcon(TablerIcons.outbound, TablerIconsSvg.outbound),
-  'outlet': const TablerIcon(TablerIcons.outlet, TablerIconsSvg.outlet),
-  'ovalFilled':
-      const TablerIcon(TablerIcons.ovalFilled, TablerIconsSvg.ovalFilled),
-  'ovalVerticalFilled': const TablerIcon(
-      TablerIcons.ovalVerticalFilled, TablerIconsSvg.ovalVerticalFilled),
-  'ovalVertical':
-      const TablerIcon(TablerIcons.ovalVertical, TablerIconsSvg.ovalVertical),
-  'oval': const TablerIcon(TablerIcons.oval, TablerIconsSvg.oval),
-  'overline': const TablerIcon(TablerIcons.overline, TablerIconsSvg.overline),
-  'packageExport':
-      const TablerIcon(TablerIcons.packageExport, TablerIconsSvg.packageExport),
-  'packageImport':
-      const TablerIcon(TablerIcons.packageImport, TablerIconsSvg.packageImport),
-  'packageOff':
-      const TablerIcon(TablerIcons.packageOff, TablerIconsSvg.packageOff),
-  'package': const TablerIcon(TablerIcons.package, TablerIconsSvg.package),
-  'packages': const TablerIcon(TablerIcons.packages, TablerIconsSvg.packages),
-  'pacman': const TablerIcon(TablerIcons.pacman, TablerIconsSvg.pacman),
-  'pageBreak':
-      const TablerIcon(TablerIcons.pageBreak, TablerIconsSvg.pageBreak),
-  'paintFilled':
-      const TablerIcon(TablerIcons.paintFilled, TablerIconsSvg.paintFilled),
-  'paintOff': const TablerIcon(TablerIcons.paintOff, TablerIconsSvg.paintOff),
-  'paint': const TablerIcon(TablerIcons.paint, TablerIconsSvg.paint),
-  'paletteOff':
-      const TablerIcon(TablerIcons.paletteOff, TablerIconsSvg.paletteOff),
-  'palette': const TablerIcon(TablerIcons.palette, TablerIconsSvg.palette),
-  'panoramaHorizontalOff': const TablerIcon(
-      TablerIcons.panoramaHorizontalOff, TablerIconsSvg.panoramaHorizontalOff),
-  'panoramaHorizontal': const TablerIcon(
-      TablerIcons.panoramaHorizontal, TablerIconsSvg.panoramaHorizontal),
-  'panoramaVerticalOff': const TablerIcon(
-      TablerIcons.panoramaVerticalOff, TablerIconsSvg.panoramaVerticalOff),
-  'panoramaVertical': const TablerIcon(
-      TablerIcons.panoramaVertical, TablerIconsSvg.panoramaVertical),
-  'paperBagOff':
-      const TablerIcon(TablerIcons.paperBagOff, TablerIconsSvg.paperBagOff),
-  'paperBag': const TablerIcon(TablerIcons.paperBag, TablerIconsSvg.paperBag),
-  'paperclip':
-      const TablerIcon(TablerIcons.paperclip, TablerIconsSvg.paperclip),
-  'parachuteOff':
-      const TablerIcon(TablerIcons.parachuteOff, TablerIconsSvg.parachuteOff),
-  'parachute':
-      const TablerIcon(TablerIcons.parachute, TablerIconsSvg.parachute),
-  'parenthesesOff': const TablerIcon(
-      TablerIcons.parenthesesOff, TablerIconsSvg.parenthesesOff),
-  'parentheses':
-      const TablerIcon(TablerIcons.parentheses, TablerIconsSvg.parentheses),
-  'parkingOff':
-      const TablerIcon(TablerIcons.parkingOff, TablerIconsSvg.parkingOff),
-  'parking': const TablerIcon(TablerIcons.parking, TablerIconsSvg.parking),
-  'passwordFingerprint': const TablerIcon(
-      TablerIcons.passwordFingerprint, TablerIconsSvg.passwordFingerprint),
-  'passwordMobilePhone': const TablerIcon(
-      TablerIcons.passwordMobilePhone, TablerIconsSvg.passwordMobilePhone),
-  'passwordUser':
-      const TablerIcon(TablerIcons.passwordUser, TablerIconsSvg.passwordUser),
-  'password': const TablerIcon(TablerIcons.password, TablerIconsSvg.password),
-  'pawFilled':
-      const TablerIcon(TablerIcons.pawFilled, TablerIconsSvg.pawFilled),
-  'pawOff': const TablerIcon(TablerIcons.pawOff, TablerIconsSvg.pawOff),
-  'paw': const TablerIcon(TablerIcons.paw, TablerIconsSvg.paw),
-  'pdf': const TablerIcon(TablerIcons.pdf, TablerIconsSvg.pdf),
-  'peace': const TablerIcon(TablerIcons.peace, TablerIconsSvg.peace),
-  'pencilBolt':
-      const TablerIcon(TablerIcons.pencilBolt, TablerIconsSvg.pencilBolt),
-  'pencilCancel':
-      const TablerIcon(TablerIcons.pencilCancel, TablerIconsSvg.pencilCancel),
-  'pencilCheck':
-      const TablerIcon(TablerIcons.pencilCheck, TablerIconsSvg.pencilCheck),
-  'pencilCode':
-      const TablerIcon(TablerIcons.pencilCode, TablerIconsSvg.pencilCode),
-  'pencilCog':
-      const TablerIcon(TablerIcons.pencilCog, TablerIconsSvg.pencilCog),
-  'pencilDiscount': const TablerIcon(
-      TablerIcons.pencilDiscount, TablerIconsSvg.pencilDiscount),
-  'pencilDollar':
-      const TablerIcon(TablerIcons.pencilDollar, TablerIconsSvg.pencilDollar),
-  'pencilDown':
-      const TablerIcon(TablerIcons.pencilDown, TablerIconsSvg.pencilDown),
-  'pencilExclamation': const TablerIcon(
-      TablerIcons.pencilExclamation, TablerIconsSvg.pencilExclamation),
-  'pencilHeart':
-      const TablerIcon(TablerIcons.pencilHeart, TablerIconsSvg.pencilHeart),
-  'pencilMinus':
-      const TablerIcon(TablerIcons.pencilMinus, TablerIconsSvg.pencilMinus),
-  'pencilOff':
-      const TablerIcon(TablerIcons.pencilOff, TablerIconsSvg.pencilOff),
-  'pencilPause':
-      const TablerIcon(TablerIcons.pencilPause, TablerIconsSvg.pencilPause),
-  'pencilPin':
-      const TablerIcon(TablerIcons.pencilPin, TablerIconsSvg.pencilPin),
-  'pencilPlus':
-      const TablerIcon(TablerIcons.pencilPlus, TablerIconsSvg.pencilPlus),
-  'pencilQuestion': const TablerIcon(
-      TablerIcons.pencilQuestion, TablerIconsSvg.pencilQuestion),
-  'pencilSearch':
-      const TablerIcon(TablerIcons.pencilSearch, TablerIconsSvg.pencilSearch),
-  'pencilShare':
-      const TablerIcon(TablerIcons.pencilShare, TablerIconsSvg.pencilShare),
-  'pencilStar':
-      const TablerIcon(TablerIcons.pencilStar, TablerIconsSvg.pencilStar),
-  'pencilUp': const TablerIcon(TablerIcons.pencilUp, TablerIconsSvg.pencilUp),
-  'pencilX': const TablerIcon(TablerIcons.pencilX, TablerIconsSvg.pencilX),
-  'pencil': const TablerIcon(TablerIcons.pencil, TablerIconsSvg.pencil),
-  'pennant2Filled': const TablerIcon(
-      TablerIcons.pennant2Filled, TablerIconsSvg.pennant2Filled),
-  'pennant2': const TablerIcon(TablerIcons.pennant2, TablerIconsSvg.pennant2),
-  'pennantFilled':
-      const TablerIcon(TablerIcons.pennantFilled, TablerIconsSvg.pennantFilled),
-  'pennantOff':
-      const TablerIcon(TablerIcons.pennantOff, TablerIconsSvg.pennantOff),
-  'pennant': const TablerIcon(TablerIcons.pennant, TablerIconsSvg.pennant),
-  'pentagonFilled': const TablerIcon(
-      TablerIcons.pentagonFilled, TablerIconsSvg.pentagonFilled),
-  'pentagonNumber0': const TablerIcon(
-      TablerIcons.pentagonNumber0, TablerIconsSvg.pentagonNumber0),
-  'pentagonNumber1': const TablerIcon(
-      TablerIcons.pentagonNumber1, TablerIconsSvg.pentagonNumber1),
-  'pentagonNumber2': const TablerIcon(
-      TablerIcons.pentagonNumber2, TablerIconsSvg.pentagonNumber2),
-  'pentagonNumber3': const TablerIcon(
-      TablerIcons.pentagonNumber3, TablerIconsSvg.pentagonNumber3),
-  'pentagonNumber4': const TablerIcon(
-      TablerIcons.pentagonNumber4, TablerIconsSvg.pentagonNumber4),
-  'pentagonNumber5': const TablerIcon(
-      TablerIcons.pentagonNumber5, TablerIconsSvg.pentagonNumber5),
-  'pentagonNumber6': const TablerIcon(
-      TablerIcons.pentagonNumber6, TablerIconsSvg.pentagonNumber6),
-  'pentagonNumber7': const TablerIcon(
-      TablerIcons.pentagonNumber7, TablerIconsSvg.pentagonNumber7),
-  'pentagonNumber8': const TablerIcon(
-      TablerIcons.pentagonNumber8, TablerIconsSvg.pentagonNumber8),
-  'pentagonNumber9': const TablerIcon(
-      TablerIcons.pentagonNumber9, TablerIconsSvg.pentagonNumber9),
-  'pentagonOff':
-      const TablerIcon(TablerIcons.pentagonOff, TablerIconsSvg.pentagonOff),
-  'pentagonPlus':
-      const TablerIcon(TablerIcons.pentagonPlus, TablerIconsSvg.pentagonPlus),
-  'pentagonX':
-      const TablerIcon(TablerIcons.pentagonX, TablerIconsSvg.pentagonX),
-  'pentagon': const TablerIcon(TablerIcons.pentagon, TablerIconsSvg.pentagon),
-  'pentagram':
-      const TablerIcon(TablerIcons.pentagram, TablerIconsSvg.pentagram),
-  'pepperOff':
-      const TablerIcon(TablerIcons.pepperOff, TablerIconsSvg.pepperOff),
-  'pepper': const TablerIcon(TablerIcons.pepper, TablerIconsSvg.pepper),
-  'percentage':
-      const TablerIcon(TablerIcons.percentage, TablerIconsSvg.percentage),
-  'perfume': const TablerIcon(TablerIcons.perfume, TablerIconsSvg.perfume),
-  'perspectiveOff': const TablerIcon(
-      TablerIcons.perspectiveOff, TablerIconsSvg.perspectiveOff),
-  'perspective':
-      const TablerIcon(TablerIcons.perspective, TablerIconsSvg.perspective),
-  'phoneCall':
-      const TablerIcon(TablerIcons.phoneCall, TablerIconsSvg.phoneCall),
-  'phoneCalling':
-      const TablerIcon(TablerIcons.phoneCalling, TablerIconsSvg.phoneCalling),
-  'phoneCheck':
-      const TablerIcon(TablerIcons.phoneCheck, TablerIconsSvg.phoneCheck),
-  'phoneFilled':
-      const TablerIcon(TablerIcons.phoneFilled, TablerIconsSvg.phoneFilled),
-  'phoneIncoming':
-      const TablerIcon(TablerIcons.phoneIncoming, TablerIconsSvg.phoneIncoming),
-  'phoneOff': const TablerIcon(TablerIcons.phoneOff, TablerIconsSvg.phoneOff),
-  'phoneOutgoing':
-      const TablerIcon(TablerIcons.phoneOutgoing, TablerIconsSvg.phoneOutgoing),
-  'phonePause':
-      const TablerIcon(TablerIcons.phonePause, TablerIconsSvg.phonePause),
-  'phonePlus':
-      const TablerIcon(TablerIcons.phonePlus, TablerIconsSvg.phonePlus),
-  'phoneX': const TablerIcon(TablerIcons.phoneX, TablerIconsSvg.phoneX),
-  'phone': const TablerIcon(TablerIcons.phone, TablerIconsSvg.phone),
-  'photoAi': const TablerIcon(TablerIcons.photoAi, TablerIconsSvg.photoAi),
-  'photoBolt':
-      const TablerIcon(TablerIcons.photoBolt, TablerIconsSvg.photoBolt),
-  'photoCancel':
-      const TablerIcon(TablerIcons.photoCancel, TablerIconsSvg.photoCancel),
-  'photoCheck':
-      const TablerIcon(TablerIcons.photoCheck, TablerIconsSvg.photoCheck),
-  'photoCircleMinus': const TablerIcon(
-      TablerIcons.photoCircleMinus, TablerIconsSvg.photoCircleMinus),
-  'photoCirclePlus': const TablerIcon(
-      TablerIcons.photoCirclePlus, TablerIconsSvg.photoCirclePlus),
-  'photoCircle':
-      const TablerIcon(TablerIcons.photoCircle, TablerIconsSvg.photoCircle),
-  'photoCode':
-      const TablerIcon(TablerIcons.photoCode, TablerIconsSvg.photoCode),
-  'photoCog': const TablerIcon(TablerIcons.photoCog, TablerIconsSvg.photoCog),
-  'photoDollar':
-      const TablerIcon(TablerIcons.photoDollar, TablerIconsSvg.photoDollar),
-  'photoDown':
-      const TablerIcon(TablerIcons.photoDown, TablerIconsSvg.photoDown),
-  'photoEdit':
-      const TablerIcon(TablerIcons.photoEdit, TablerIconsSvg.photoEdit),
-  'photoExclamation': const TablerIcon(
-      TablerIcons.photoExclamation, TablerIconsSvg.photoExclamation),
-  'photoFilled':
-      const TablerIcon(TablerIcons.photoFilled, TablerIconsSvg.photoFilled),
-  'photoHeart':
-      const TablerIcon(TablerIcons.photoHeart, TablerIconsSvg.photoHeart),
-  'photoHexagon':
-      const TablerIcon(TablerIcons.photoHexagon, TablerIconsSvg.photoHexagon),
-  'photoMinus':
-      const TablerIcon(TablerIcons.photoMinus, TablerIconsSvg.photoMinus),
-  'photoOff': const TablerIcon(TablerIcons.photoOff, TablerIconsSvg.photoOff),
-  'photoPause':
-      const TablerIcon(TablerIcons.photoPause, TablerIconsSvg.photoPause),
-  'photoPentagon':
-      const TablerIcon(TablerIcons.photoPentagon, TablerIconsSvg.photoPentagon),
-  'photoPin': const TablerIcon(TablerIcons.photoPin, TablerIconsSvg.photoPin),
-  'photoPlus':
-      const TablerIcon(TablerIcons.photoPlus, TablerIconsSvg.photoPlus),
-  'photoQuestion':
-      const TablerIcon(TablerIcons.photoQuestion, TablerIconsSvg.photoQuestion),
-  'photoScan':
-      const TablerIcon(TablerIcons.photoScan, TablerIconsSvg.photoScan),
-  'photoSearch':
-      const TablerIcon(TablerIcons.photoSearch, TablerIconsSvg.photoSearch),
-  'photoSensor2':
-      const TablerIcon(TablerIcons.photoSensor2, TablerIconsSvg.photoSensor2),
-  'photoSensor3':
-      const TablerIcon(TablerIcons.photoSensor3, TablerIconsSvg.photoSensor3),
-  'photoSensor':
-      const TablerIcon(TablerIcons.photoSensor, TablerIconsSvg.photoSensor),
-  'photoShare':
-      const TablerIcon(TablerIcons.photoShare, TablerIconsSvg.photoShare),
-  'photoShield':
-      const TablerIcon(TablerIcons.photoShield, TablerIconsSvg.photoShield),
-  'photoSquareRounded': const TablerIcon(
-      TablerIcons.photoSquareRounded, TablerIconsSvg.photoSquareRounded),
-  'photoStar':
-      const TablerIcon(TablerIcons.photoStar, TablerIconsSvg.photoStar),
-  'photoUp': const TablerIcon(TablerIcons.photoUp, TablerIconsSvg.photoUp),
-  'photoVideo':
-      const TablerIcon(TablerIcons.photoVideo, TablerIconsSvg.photoVideo),
-  'photoX': const TablerIcon(TablerIcons.photoX, TablerIconsSvg.photoX),
-  'photo': const TablerIcon(TablerIcons.photo, TablerIconsSvg.photo),
-  'physotherapist': const TablerIcon(
-      TablerIcons.physotherapist, TablerIconsSvg.physotherapist),
-  'piano': const TablerIcon(TablerIcons.piano, TablerIconsSvg.piano),
-  'pick': const TablerIcon(TablerIcons.pick, TablerIconsSvg.pick),
-  'pictureInPictureOff': const TablerIcon(
-      TablerIcons.pictureInPictureOff, TablerIconsSvg.pictureInPictureOff),
-  'pictureInPictureOn': const TablerIcon(
-      TablerIcons.pictureInPictureOn, TablerIconsSvg.pictureInPictureOn),
-  'pictureInPictureTop': const TablerIcon(
-      TablerIcons.pictureInPictureTop, TablerIconsSvg.pictureInPictureTop),
-  'pictureInPicture': const TablerIcon(
-      TablerIcons.pictureInPicture, TablerIconsSvg.pictureInPicture),
-  'pigMoney': const TablerIcon(TablerIcons.pigMoney, TablerIconsSvg.pigMoney),
-  'pigOff': const TablerIcon(TablerIcons.pigOff, TablerIconsSvg.pigOff),
-  'pig': const TablerIcon(TablerIcons.pig, TablerIconsSvg.pig),
-  'pilcrow': const TablerIcon(TablerIcons.pilcrow, TablerIconsSvg.pilcrow),
-  'pillOff': const TablerIcon(TablerIcons.pillOff, TablerIconsSvg.pillOff),
-  'pill': const TablerIcon(TablerIcons.pill, TablerIconsSvg.pill),
-  'pills': const TablerIcon(TablerIcons.pills, TablerIconsSvg.pills),
-  'pinFilled':
-      const TablerIcon(TablerIcons.pinFilled, TablerIconsSvg.pinFilled),
-  'pin': const TablerIcon(TablerIcons.pin, TablerIconsSvg.pin),
-  'pingPong': const TablerIcon(TablerIcons.pingPong, TablerIconsSvg.pingPong),
-  'pinnedFilled':
-      const TablerIcon(TablerIcons.pinnedFilled, TablerIconsSvg.pinnedFilled),
-  'pinnedOff':
-      const TablerIcon(TablerIcons.pinnedOff, TablerIconsSvg.pinnedOff),
-  'pinned': const TablerIcon(TablerIcons.pinned, TablerIconsSvg.pinned),
-  'pizzaOff': const TablerIcon(TablerIcons.pizzaOff, TablerIconsSvg.pizzaOff),
-  'pizza': const TablerIcon(TablerIcons.pizza, TablerIconsSvg.pizza),
-  'placeholder':
-      const TablerIcon(TablerIcons.placeholder, TablerIconsSvg.placeholder),
-  'planeArrival':
-      const TablerIcon(TablerIcons.planeArrival, TablerIconsSvg.planeArrival),
-  'planeDeparture': const TablerIcon(
-      TablerIcons.planeDeparture, TablerIconsSvg.planeDeparture),
-  'planeInflight':
-      const TablerIcon(TablerIcons.planeInflight, TablerIconsSvg.planeInflight),
-  'planeOff': const TablerIcon(TablerIcons.planeOff, TablerIconsSvg.planeOff),
-  'planeTilt':
-      const TablerIcon(TablerIcons.planeTilt, TablerIconsSvg.planeTilt),
-  'plane': const TablerIcon(TablerIcons.plane, TablerIconsSvg.plane),
-  'planetOff':
-      const TablerIcon(TablerIcons.planetOff, TablerIconsSvg.planetOff),
-  'planet': const TablerIcon(TablerIcons.planet, TablerIconsSvg.planet),
-  'plant2Off':
-      const TablerIcon(TablerIcons.plant2Off, TablerIconsSvg.plant2Off),
-  'plant2': const TablerIcon(TablerIcons.plant2, TablerIconsSvg.plant2),
-  'plantOff': const TablerIcon(TablerIcons.plantOff, TablerIconsSvg.plantOff),
-  'plant': const TablerIcon(TablerIcons.plant, TablerIconsSvg.plant),
-  'playBasketball': const TablerIcon(
-      TablerIcons.playBasketball, TablerIconsSvg.playBasketball),
-  'playCardOff':
-      const TablerIcon(TablerIcons.playCardOff, TablerIconsSvg.playCardOff),
-  'playCard': const TablerIcon(TablerIcons.playCard, TablerIconsSvg.playCard),
-  'playFootball':
-      const TablerIcon(TablerIcons.playFootball, TablerIconsSvg.playFootball),
-  'playHandball':
-      const TablerIcon(TablerIcons.playHandball, TablerIconsSvg.playHandball),
-  'playVolleyball': const TablerIcon(
-      TablerIcons.playVolleyball, TablerIconsSvg.playVolleyball),
-  'playerEjectFilled': const TablerIcon(
-      TablerIcons.playerEjectFilled, TablerIconsSvg.playerEjectFilled),
-  'playerEject':
-      const TablerIcon(TablerIcons.playerEject, TablerIconsSvg.playerEject),
-  'playerPauseFilled': const TablerIcon(
-      TablerIcons.playerPauseFilled, TablerIconsSvg.playerPauseFilled),
-  'playerPause':
-      const TablerIcon(TablerIcons.playerPause, TablerIconsSvg.playerPause),
-  'playerPlayFilled': const TablerIcon(
-      TablerIcons.playerPlayFilled, TablerIconsSvg.playerPlayFilled),
-  'playerPlay':
-      const TablerIcon(TablerIcons.playerPlay, TablerIconsSvg.playerPlay),
-  'playerRecordFilled': const TablerIcon(
-      TablerIcons.playerRecordFilled, TablerIconsSvg.playerRecordFilled),
-  'playerRecord':
-      const TablerIcon(TablerIcons.playerRecord, TablerIconsSvg.playerRecord),
-  'playerSkipBackFilled': const TablerIcon(
-      TablerIcons.playerSkipBackFilled, TablerIconsSvg.playerSkipBackFilled),
-  'playerSkipBack': const TablerIcon(
-      TablerIcons.playerSkipBack, TablerIconsSvg.playerSkipBack),
-  'playerSkipForwardFilled': const TablerIcon(
-      TablerIcons.playerSkipForwardFilled,
-      TablerIconsSvg.playerSkipForwardFilled),
-  'playerSkipForward': const TablerIcon(
-      TablerIcons.playerSkipForward, TablerIconsSvg.playerSkipForward),
-  'playerStopFilled': const TablerIcon(
-      TablerIcons.playerStopFilled, TablerIconsSvg.playerStopFilled),
-  'playerStop':
-      const TablerIcon(TablerIcons.playerStop, TablerIconsSvg.playerStop),
-  'playerTrackNextFilled': const TablerIcon(
-      TablerIcons.playerTrackNextFilled, TablerIconsSvg.playerTrackNextFilled),
-  'playerTrackNext': const TablerIcon(
-      TablerIcons.playerTrackNext, TablerIconsSvg.playerTrackNext),
-  'playerTrackPrevFilled': const TablerIcon(
-      TablerIcons.playerTrackPrevFilled, TablerIconsSvg.playerTrackPrevFilled),
-  'playerTrackPrev': const TablerIcon(
-      TablerIcons.playerTrackPrev, TablerIconsSvg.playerTrackPrev),
-  'playlistAdd':
-      const TablerIcon(TablerIcons.playlistAdd, TablerIconsSvg.playlistAdd),
-  'playlistOff':
-      const TablerIcon(TablerIcons.playlistOff, TablerIconsSvg.playlistOff),
-  'playlistX':
-      const TablerIcon(TablerIcons.playlistX, TablerIconsSvg.playlistX),
-  'playlist': const TablerIcon(TablerIcons.playlist, TablerIconsSvg.playlist),
-  'playstationCircle': const TablerIcon(
-      TablerIcons.playstationCircle, TablerIconsSvg.playstationCircle),
-  'playstationSquare': const TablerIcon(
-      TablerIcons.playstationSquare, TablerIconsSvg.playstationSquare),
-  'playstationTriangle': const TablerIcon(
-      TablerIcons.playstationTriangle, TablerIconsSvg.playstationTriangle),
-  'playstationX':
-      const TablerIcon(TablerIcons.playstationX, TablerIconsSvg.playstationX),
-  'plugConnectedX': const TablerIcon(
-      TablerIcons.plugConnectedX, TablerIconsSvg.plugConnectedX),
-  'plugConnected':
-      const TablerIcon(TablerIcons.plugConnected, TablerIconsSvg.plugConnected),
-  'plugOff': const TablerIcon(TablerIcons.plugOff, TablerIconsSvg.plugOff),
-  'plugX': const TablerIcon(TablerIcons.plugX, TablerIconsSvg.plugX),
-  'plug': const TablerIcon(TablerIcons.plug, TablerIconsSvg.plug),
-  'plusEqual':
-      const TablerIcon(TablerIcons.plusEqual, TablerIconsSvg.plusEqual),
-  'plusMinus':
-      const TablerIcon(TablerIcons.plusMinus, TablerIconsSvg.plusMinus),
-  'plus': const TablerIcon(TablerIcons.plus, TablerIconsSvg.plus),
-  'png': const TablerIcon(TablerIcons.png, TablerIconsSvg.png),
-  'podiumOff':
-      const TablerIcon(TablerIcons.podiumOff, TablerIconsSvg.podiumOff),
-  'podium': const TablerIcon(TablerIcons.podium, TablerIconsSvg.podium),
-  'pointFilled':
-      const TablerIcon(TablerIcons.pointFilled, TablerIconsSvg.pointFilled),
-  'pointOff': const TablerIcon(TablerIcons.pointOff, TablerIconsSvg.pointOff),
-  'point': const TablerIcon(TablerIcons.point, TablerIconsSvg.point),
-  'pointerBolt':
-      const TablerIcon(TablerIcons.pointerBolt, TablerIconsSvg.pointerBolt),
-  'pointerCancel':
-      const TablerIcon(TablerIcons.pointerCancel, TablerIconsSvg.pointerCancel),
-  'pointerCheck':
-      const TablerIcon(TablerIcons.pointerCheck, TablerIconsSvg.pointerCheck),
-  'pointerCode':
-      const TablerIcon(TablerIcons.pointerCode, TablerIconsSvg.pointerCode),
-  'pointerCog':
-      const TablerIcon(TablerIcons.pointerCog, TablerIconsSvg.pointerCog),
-  'pointerDollar':
-      const TablerIcon(TablerIcons.pointerDollar, TablerIconsSvg.pointerDollar),
-  'pointerDown':
-      const TablerIcon(TablerIcons.pointerDown, TablerIconsSvg.pointerDown),
-  'pointerExclamation': const TablerIcon(
-      TablerIcons.pointerExclamation, TablerIconsSvg.pointerExclamation),
-  'pointerFilled':
-      const TablerIcon(TablerIcons.pointerFilled, TablerIconsSvg.pointerFilled),
-  'pointerHeart':
-      const TablerIcon(TablerIcons.pointerHeart, TablerIconsSvg.pointerHeart),
-  'pointerMinus':
-      const TablerIcon(TablerIcons.pointerMinus, TablerIconsSvg.pointerMinus),
-  'pointerOff':
-      const TablerIcon(TablerIcons.pointerOff, TablerIconsSvg.pointerOff),
-  'pointerPause':
-      const TablerIcon(TablerIcons.pointerPause, TablerIconsSvg.pointerPause),
-  'pointerPin':
-      const TablerIcon(TablerIcons.pointerPin, TablerIconsSvg.pointerPin),
-  'pointerPlus':
-      const TablerIcon(TablerIcons.pointerPlus, TablerIconsSvg.pointerPlus),
-  'pointerQuestion': const TablerIcon(
-      TablerIcons.pointerQuestion, TablerIconsSvg.pointerQuestion),
-  'pointerSearch':
-      const TablerIcon(TablerIcons.pointerSearch, TablerIconsSvg.pointerSearch),
-  'pointerShare':
-      const TablerIcon(TablerIcons.pointerShare, TablerIconsSvg.pointerShare),
-  'pointerStar':
-      const TablerIcon(TablerIcons.pointerStar, TablerIconsSvg.pointerStar),
-  'pointerUp':
-      const TablerIcon(TablerIcons.pointerUp, TablerIconsSvg.pointerUp),
-  'pointerX': const TablerIcon(TablerIcons.pointerX, TablerIconsSvg.pointerX),
-  'pointer': const TablerIcon(TablerIcons.pointer, TablerIconsSvg.pointer),
-  'pokeballOff':
-      const TablerIcon(TablerIcons.pokeballOff, TablerIconsSvg.pokeballOff),
-  'pokeball': const TablerIcon(TablerIcons.pokeball, TablerIconsSvg.pokeball),
-  'pokerChip':
-      const TablerIcon(TablerIcons.pokerChip, TablerIconsSvg.pokerChip),
-  'polaroidFilled': const TablerIcon(
-      TablerIcons.polaroidFilled, TablerIconsSvg.polaroidFilled),
-  'polaroid': const TablerIcon(TablerIcons.polaroid, TablerIconsSvg.polaroid),
-  'polygonOff':
-      const TablerIcon(TablerIcons.polygonOff, TablerIconsSvg.polygonOff),
-  'polygon': const TablerIcon(TablerIcons.polygon, TablerIconsSvg.polygon),
-  'poo': const TablerIcon(TablerIcons.poo, TablerIconsSvg.poo),
-  'poolOff': const TablerIcon(TablerIcons.poolOff, TablerIconsSvg.poolOff),
-  'pool': const TablerIcon(TablerIcons.pool, TablerIconsSvg.pool),
-  'power': const TablerIcon(TablerIcons.power, TablerIconsSvg.power),
-  'pray': const TablerIcon(TablerIcons.pray, TablerIconsSvg.pray),
-  'premiumRights':
-      const TablerIcon(TablerIcons.premiumRights, TablerIconsSvg.premiumRights),
-  'prescription':
-      const TablerIcon(TablerIcons.prescription, TablerIconsSvg.prescription),
-  'presentationAnalytics': const TablerIcon(
-      TablerIcons.presentationAnalytics, TablerIconsSvg.presentationAnalytics),
-  'presentationOff': const TablerIcon(
-      TablerIcons.presentationOff, TablerIconsSvg.presentationOff),
-  'presentation':
-      const TablerIcon(TablerIcons.presentation, TablerIconsSvg.presentation),
-  'printerOff':
-      const TablerIcon(TablerIcons.printerOff, TablerIconsSvg.printerOff),
-  'printer': const TablerIcon(TablerIcons.printer, TablerIconsSvg.printer),
-  'prismOff': const TablerIcon(TablerIcons.prismOff, TablerIconsSvg.prismOff),
-  'prismPlus':
-      const TablerIcon(TablerIcons.prismPlus, TablerIconsSvg.prismPlus),
-  'prism': const TablerIcon(TablerIcons.prism, TablerIconsSvg.prism),
-  'prison': const TablerIcon(TablerIcons.prison, TablerIconsSvg.prison),
-  'progressAlert':
-      const TablerIcon(TablerIcons.progressAlert, TablerIconsSvg.progressAlert),
-  'progressBolt':
-      const TablerIcon(TablerIcons.progressBolt, TablerIconsSvg.progressBolt),
-  'progressCheck':
-      const TablerIcon(TablerIcons.progressCheck, TablerIconsSvg.progressCheck),
-  'progressDown':
-      const TablerIcon(TablerIcons.progressDown, TablerIconsSvg.progressDown),
-  'progressHelp':
-      const TablerIcon(TablerIcons.progressHelp, TablerIconsSvg.progressHelp),
-  'progressX':
-      const TablerIcon(TablerIcons.progressX, TablerIconsSvg.progressX),
-  'progress': const TablerIcon(TablerIcons.progress, TablerIconsSvg.progress),
-  'prompt': const TablerIcon(TablerIcons.prompt, TablerIconsSvg.prompt),
-  'propellerOff':
-      const TablerIcon(TablerIcons.propellerOff, TablerIconsSvg.propellerOff),
-  'propeller':
-      const TablerIcon(TablerIcons.propeller, TablerIconsSvg.propeller),
-  'pumpkinScary':
-      const TablerIcon(TablerIcons.pumpkinScary, TablerIconsSvg.pumpkinScary),
-  'puzzle2': const TablerIcon(TablerIcons.puzzle2, TablerIconsSvg.puzzle2),
-  'puzzleFilled':
-      const TablerIcon(TablerIcons.puzzleFilled, TablerIconsSvg.puzzleFilled),
-  'puzzleOff':
-      const TablerIcon(TablerIcons.puzzleOff, TablerIconsSvg.puzzleOff),
-  'puzzle': const TablerIcon(TablerIcons.puzzle, TablerIconsSvg.puzzle),
-  'pyramidOff':
-      const TablerIcon(TablerIcons.pyramidOff, TablerIconsSvg.pyramidOff),
-  'pyramidPlus':
-      const TablerIcon(TablerIcons.pyramidPlus, TablerIconsSvg.pyramidPlus),
-  'pyramid': const TablerIcon(TablerIcons.pyramid, TablerIconsSvg.pyramid),
-  'qrcodeOff':
-      const TablerIcon(TablerIcons.qrcodeOff, TablerIconsSvg.qrcodeOff),
-  'qrcode': const TablerIcon(TablerIcons.qrcode, TablerIconsSvg.qrcode),
-  'questionMark':
-      const TablerIcon(TablerIcons.questionMark, TablerIconsSvg.questionMark),
-  'quoteOff': const TablerIcon(TablerIcons.quoteOff, TablerIconsSvg.quoteOff),
-  'quote': const TablerIcon(TablerIcons.quote, TablerIconsSvg.quote),
-  'quotes': const TablerIcon(TablerIcons.quotes, TablerIconsSvg.quotes),
-  'radar2': const TablerIcon(TablerIcons.radar2, TablerIconsSvg.radar2),
-  'radarOff': const TablerIcon(TablerIcons.radarOff, TablerIconsSvg.radarOff),
-  'radar': const TablerIcon(TablerIcons.radar, TablerIconsSvg.radar),
-  'radioOff': const TablerIcon(TablerIcons.radioOff, TablerIconsSvg.radioOff),
-  'radio': const TablerIcon(TablerIcons.radio, TablerIconsSvg.radio),
-  'radioactiveFilled': const TablerIcon(
-      TablerIcons.radioactiveFilled, TablerIconsSvg.radioactiveFilled),
-  'radioactiveOff': const TablerIcon(
-      TablerIcons.radioactiveOff, TablerIconsSvg.radioactiveOff),
-  'radioactive':
-      const TablerIcon(TablerIcons.radioactive, TablerIconsSvg.radioactive),
-  'radiusBottomLeft': const TablerIcon(
-      TablerIcons.radiusBottomLeft, TablerIconsSvg.radiusBottomLeft),
-  'radiusBottomRight': const TablerIcon(
-      TablerIcons.radiusBottomRight, TablerIconsSvg.radiusBottomRight),
-  'radiusTopLeft':
-      const TablerIcon(TablerIcons.radiusTopLeft, TablerIconsSvg.radiusTopLeft),
-  'radiusTopRight': const TablerIcon(
-      TablerIcons.radiusTopRight, TablerIconsSvg.radiusTopRight),
-  'rainbowOff':
-      const TablerIcon(TablerIcons.rainbowOff, TablerIconsSvg.rainbowOff),
-  'rainbow': const TablerIcon(TablerIcons.rainbow, TablerIconsSvg.rainbow),
-  'rating12Plus':
-      const TablerIcon(TablerIcons.rating12Plus, TablerIconsSvg.rating12Plus),
-  'rating14Plus':
-      const TablerIcon(TablerIcons.rating14Plus, TablerIconsSvg.rating14Plus),
-  'rating16Plus':
-      const TablerIcon(TablerIcons.rating16Plus, TablerIconsSvg.rating16Plus),
-  'rating18Plus':
-      const TablerIcon(TablerIcons.rating18Plus, TablerIconsSvg.rating18Plus),
-  'rating21Plus':
-      const TablerIcon(TablerIcons.rating21Plus, TablerIconsSvg.rating21Plus),
-  'razorElectric':
-      const TablerIcon(TablerIcons.razorElectric, TablerIconsSvg.razorElectric),
-  'razor': const TablerIcon(TablerIcons.razor, TablerIconsSvg.razor),
-  'receipt2': const TablerIcon(TablerIcons.receipt2, TablerIconsSvg.receipt2),
-  'receiptOff':
-      const TablerIcon(TablerIcons.receiptOff, TablerIconsSvg.receiptOff),
-  'receiptRefund':
-      const TablerIcon(TablerIcons.receiptRefund, TablerIconsSvg.receiptRefund),
-  'receiptTax':
-      const TablerIcon(TablerIcons.receiptTax, TablerIconsSvg.receiptTax),
-  'receipt': const TablerIcon(TablerIcons.receipt, TablerIconsSvg.receipt),
-  'recharging':
-      const TablerIcon(TablerIcons.recharging, TablerIconsSvg.recharging),
-  'recordMailOff':
-      const TablerIcon(TablerIcons.recordMailOff, TablerIconsSvg.recordMailOff),
-  'recordMail':
-      const TablerIcon(TablerIcons.recordMail, TablerIconsSvg.recordMail),
-  'rectangleFilled': const TablerIcon(
-      TablerIcons.rectangleFilled, TablerIconsSvg.rectangleFilled),
-  'rectangleRoundedBottom': const TablerIcon(TablerIcons.rectangleRoundedBottom,
-      TablerIconsSvg.rectangleRoundedBottom),
-  'rectangleRoundedTop': const TablerIcon(
-      TablerIcons.rectangleRoundedTop, TablerIconsSvg.rectangleRoundedTop),
-  'rectangleVerticalFilled': const TablerIcon(
-      TablerIcons.rectangleVerticalFilled,
-      TablerIconsSvg.rectangleVerticalFilled),
-  'rectangleVertical': const TablerIcon(
-      TablerIcons.rectangleVertical, TablerIconsSvg.rectangleVertical),
-  'rectangle':
-      const TablerIcon(TablerIcons.rectangle, TablerIconsSvg.rectangle),
-  'rectangularPrismOff': const TablerIcon(
-      TablerIcons.rectangularPrismOff, TablerIconsSvg.rectangularPrismOff),
-  'rectangularPrismPlus': const TablerIcon(
-      TablerIcons.rectangularPrismPlus, TablerIconsSvg.rectangularPrismPlus),
-  'rectangularPrism': const TablerIcon(
-      TablerIcons.rectangularPrism, TablerIconsSvg.rectangularPrism),
-  'recycleOff':
-      const TablerIcon(TablerIcons.recycleOff, TablerIconsSvg.recycleOff),
-  'recycle': const TablerIcon(TablerIcons.recycle, TablerIconsSvg.recycle),
-  'refreshAlert':
-      const TablerIcon(TablerIcons.refreshAlert, TablerIconsSvg.refreshAlert),
-  'refreshDot':
-      const TablerIcon(TablerIcons.refreshDot, TablerIconsSvg.refreshDot),
-  'refreshOff':
-      const TablerIcon(TablerIcons.refreshOff, TablerIconsSvg.refreshOff),
-  'refresh': const TablerIcon(TablerIcons.refresh, TablerIconsSvg.refresh),
-  'regexOff': const TablerIcon(TablerIcons.regexOff, TablerIconsSvg.regexOff),
-  'regex': const TablerIcon(TablerIcons.regex, TablerIconsSvg.regex),
-  'registered':
-      const TablerIcon(TablerIcons.registered, TablerIconsSvg.registered),
-  'relationManyToMany': const TablerIcon(
-      TablerIcons.relationManyToMany, TablerIconsSvg.relationManyToMany),
-  'relationOneToMany': const TablerIcon(
-      TablerIcons.relationOneToMany, TablerIconsSvg.relationOneToMany),
-  'relationOneToOne': const TablerIcon(
-      TablerIcons.relationOneToOne, TablerIconsSvg.relationOneToOne),
-  'reload': const TablerIcon(TablerIcons.reload, TablerIconsSvg.reload),
-  'reorder': const TablerIcon(TablerIcons.reorder, TablerIconsSvg.reorder),
-  'repeatOff':
-      const TablerIcon(TablerIcons.repeatOff, TablerIconsSvg.repeatOff),
-  'repeatOnce':
-      const TablerIcon(TablerIcons.repeatOnce, TablerIconsSvg.repeatOnce),
-  'repeat': const TablerIcon(TablerIcons.repeat, TablerIconsSvg.repeat),
-  'replaceFilled':
-      const TablerIcon(TablerIcons.replaceFilled, TablerIconsSvg.replaceFilled),
-  'replaceOff':
-      const TablerIcon(TablerIcons.replaceOff, TablerIconsSvg.replaceOff),
-  'replace': const TablerIcon(TablerIcons.replace, TablerIconsSvg.replace),
-  'reportAnalytics': const TablerIcon(
-      TablerIcons.reportAnalytics, TablerIconsSvg.reportAnalytics),
-  'reportMedical':
-      const TablerIcon(TablerIcons.reportMedical, TablerIconsSvg.reportMedical),
-  'reportMoney':
-      const TablerIcon(TablerIcons.reportMoney, TablerIconsSvg.reportMoney),
-  'reportOff':
-      const TablerIcon(TablerIcons.reportOff, TablerIconsSvg.reportOff),
-  'reportSearch':
-      const TablerIcon(TablerIcons.reportSearch, TablerIconsSvg.reportSearch),
-  'report': const TablerIcon(TablerIcons.report, TablerIconsSvg.report),
-  'reservedLine':
-      const TablerIcon(TablerIcons.reservedLine, TablerIconsSvg.reservedLine),
-  'resize': const TablerIcon(TablerIcons.resize, TablerIconsSvg.resize),
-  'restore': const TablerIcon(TablerIcons.restore, TablerIconsSvg.restore),
-  'rewindBackward10': const TablerIcon(
-      TablerIcons.rewindBackward10, TablerIconsSvg.rewindBackward10),
-  'rewindBackward15': const TablerIcon(
-      TablerIcons.rewindBackward15, TablerIconsSvg.rewindBackward15),
-  'rewindBackward20': const TablerIcon(
-      TablerIcons.rewindBackward20, TablerIconsSvg.rewindBackward20),
-  'rewindBackward30': const TablerIcon(
-      TablerIcons.rewindBackward30, TablerIconsSvg.rewindBackward30),
-  'rewindBackward40': const TablerIcon(
-      TablerIcons.rewindBackward40, TablerIconsSvg.rewindBackward40),
-  'rewindBackward5': const TablerIcon(
-      TablerIcons.rewindBackward5, TablerIconsSvg.rewindBackward5),
-  'rewindBackward50': const TablerIcon(
-      TablerIcons.rewindBackward50, TablerIconsSvg.rewindBackward50),
-  'rewindBackward60': const TablerIcon(
-      TablerIcons.rewindBackward60, TablerIconsSvg.rewindBackward60),
-  'rewindForward10': const TablerIcon(
-      TablerIcons.rewindForward10, TablerIconsSvg.rewindForward10),
-  'rewindForward15': const TablerIcon(
-      TablerIcons.rewindForward15, TablerIconsSvg.rewindForward15),
-  'rewindForward20': const TablerIcon(
-      TablerIcons.rewindForward20, TablerIconsSvg.rewindForward20),
-  'rewindForward30': const TablerIcon(
-      TablerIcons.rewindForward30, TablerIconsSvg.rewindForward30),
-  'rewindForward40': const TablerIcon(
-      TablerIcons.rewindForward40, TablerIconsSvg.rewindForward40),
-  'rewindForward5': const TablerIcon(
-      TablerIcons.rewindForward5, TablerIconsSvg.rewindForward5),
-  'rewindForward50': const TablerIcon(
-      TablerIcons.rewindForward50, TablerIconsSvg.rewindForward50),
-  'rewindForward60': const TablerIcon(
-      TablerIcons.rewindForward60, TablerIconsSvg.rewindForward60),
-  'ribbonHealth':
-      const TablerIcon(TablerIcons.ribbonHealth, TablerIconsSvg.ribbonHealth),
-  'rings': const TablerIcon(TablerIcons.rings, TablerIconsSvg.rings),
-  'rippleOff':
-      const TablerIcon(TablerIcons.rippleOff, TablerIconsSvg.rippleOff),
-  'ripple': const TablerIcon(TablerIcons.ripple, TablerIconsSvg.ripple),
-  'roadOff': const TablerIcon(TablerIcons.roadOff, TablerIconsSvg.roadOff),
-  'roadSign': const TablerIcon(TablerIcons.roadSign, TablerIconsSvg.roadSign),
-  'road': const TablerIcon(TablerIcons.road, TablerIconsSvg.road),
-  'robotFace':
-      const TablerIcon(TablerIcons.robotFace, TablerIconsSvg.robotFace),
-  'robotOff': const TablerIcon(TablerIcons.robotOff, TablerIconsSvg.robotOff),
-  'robot': const TablerIcon(TablerIcons.robot, TablerIconsSvg.robot),
-  'rocketOff':
-      const TablerIcon(TablerIcons.rocketOff, TablerIconsSvg.rocketOff),
-  'rocket': const TablerIcon(TablerIcons.rocket, TablerIconsSvg.rocket),
-  'rollerSkating':
-      const TablerIcon(TablerIcons.rollerSkating, TablerIconsSvg.rollerSkating),
-  'rollercoasterOff': const TablerIcon(
-      TablerIcons.rollercoasterOff, TablerIconsSvg.rollercoasterOff),
-  'rollercoaster':
-      const TablerIcon(TablerIcons.rollercoaster, TablerIconsSvg.rollercoaster),
-  'rosetteFilled':
-      const TablerIcon(TablerIcons.rosetteFilled, TablerIconsSvg.rosetteFilled),
-  'rosetteNumber0': const TablerIcon(
-      TablerIcons.rosetteNumber0, TablerIconsSvg.rosetteNumber0),
-  'rosetteNumber1': const TablerIcon(
-      TablerIcons.rosetteNumber1, TablerIconsSvg.rosetteNumber1),
-  'rosetteNumber2': const TablerIcon(
-      TablerIcons.rosetteNumber2, TablerIconsSvg.rosetteNumber2),
-  'rosetteNumber3': const TablerIcon(
-      TablerIcons.rosetteNumber3, TablerIconsSvg.rosetteNumber3),
-  'rosetteNumber4': const TablerIcon(
-      TablerIcons.rosetteNumber4, TablerIconsSvg.rosetteNumber4),
-  'rosetteNumber5': const TablerIcon(
-      TablerIcons.rosetteNumber5, TablerIconsSvg.rosetteNumber5),
-  'rosetteNumber6': const TablerIcon(
-      TablerIcons.rosetteNumber6, TablerIconsSvg.rosetteNumber6),
-  'rosetteNumber7': const TablerIcon(
-      TablerIcons.rosetteNumber7, TablerIconsSvg.rosetteNumber7),
-  'rosetteNumber8': const TablerIcon(
-      TablerIcons.rosetteNumber8, TablerIconsSvg.rosetteNumber8),
-  'rosetteNumber9': const TablerIcon(
-      TablerIcons.rosetteNumber9, TablerIconsSvg.rosetteNumber9),
-  'rosette': const TablerIcon(TablerIcons.rosette, TablerIconsSvg.rosette),
-  'rotate2': const TablerIcon(TablerIcons.rotate2, TablerIconsSvg.rotate2),
-  'rotate360':
-      const TablerIcon(TablerIcons.rotate360, TablerIconsSvg.rotate360),
-  'rotateClockwise2': const TablerIcon(
-      TablerIcons.rotateClockwise2, TablerIconsSvg.rotateClockwise2),
-  'rotateClockwise': const TablerIcon(
-      TablerIcons.rotateClockwise, TablerIconsSvg.rotateClockwise),
-  'rotateDot':
-      const TablerIcon(TablerIcons.rotateDot, TablerIconsSvg.rotateDot),
-  'rotateRectangle': const TablerIcon(
-      TablerIcons.rotateRectangle, TablerIconsSvg.rotateRectangle),
-  'rotate': const TablerIcon(TablerIcons.rotate, TablerIconsSvg.rotate),
-  'route2': const TablerIcon(TablerIcons.route2, TablerIconsSvg.route2),
-  'routeAltLeft':
-      const TablerIcon(TablerIcons.routeAltLeft, TablerIconsSvg.routeAltLeft),
-  'routeAltRight':
-      const TablerIcon(TablerIcons.routeAltRight, TablerIconsSvg.routeAltRight),
-  'routeOff': const TablerIcon(TablerIcons.routeOff, TablerIconsSvg.routeOff),
-  'routeScan':
-      const TablerIcon(TablerIcons.routeScan, TablerIconsSvg.routeScan),
-  'routeSquare2':
-      const TablerIcon(TablerIcons.routeSquare2, TablerIconsSvg.routeSquare2),
-  'routeSquare':
-      const TablerIcon(TablerIcons.routeSquare, TablerIconsSvg.routeSquare),
-  'routeX2': const TablerIcon(TablerIcons.routeX2, TablerIconsSvg.routeX2),
-  'routeX': const TablerIcon(TablerIcons.routeX, TablerIconsSvg.routeX),
-  'route': const TablerIcon(TablerIcons.route, TablerIconsSvg.route),
-  'routerOff':
-      const TablerIcon(TablerIcons.routerOff, TablerIconsSvg.routerOff),
-  'router': const TablerIcon(TablerIcons.router, TablerIconsSvg.router),
-  'rowInsertBottom': const TablerIcon(
-      TablerIcons.rowInsertBottom, TablerIconsSvg.rowInsertBottom),
-  'rowInsertTop':
-      const TablerIcon(TablerIcons.rowInsertTop, TablerIconsSvg.rowInsertTop),
-  'rowRemove':
-      const TablerIcon(TablerIcons.rowRemove, TablerIconsSvg.rowRemove),
-  'rss': const TablerIcon(TablerIcons.rss, TablerIconsSvg.rss),
-  'rubberStampOff': const TablerIcon(
-      TablerIcons.rubberStampOff, TablerIconsSvg.rubberStampOff),
-  'rubberStamp':
-      const TablerIcon(TablerIcons.rubberStamp, TablerIconsSvg.rubberStamp),
-  'ruler2Off':
-      const TablerIcon(TablerIcons.ruler2Off, TablerIconsSvg.ruler2Off),
-  'ruler2': const TablerIcon(TablerIcons.ruler2, TablerIconsSvg.ruler2),
-  'ruler3': const TablerIcon(TablerIcons.ruler3, TablerIconsSvg.ruler3),
-  'rulerMeasure':
-      const TablerIcon(TablerIcons.rulerMeasure, TablerIconsSvg.rulerMeasure),
-  'rulerOff': const TablerIcon(TablerIcons.rulerOff, TablerIconsSvg.rulerOff),
-  'ruler': const TablerIcon(TablerIcons.ruler, TablerIconsSvg.ruler),
-  'run': const TablerIcon(TablerIcons.run, TablerIconsSvg.run),
-  'rvTruck': const TablerIcon(TablerIcons.rvTruck, TablerIconsSvg.rvTruck),
-  'sTurnDown':
-      const TablerIcon(TablerIcons.sTurnDown, TablerIconsSvg.sTurnDown),
-  'sTurnLeft':
-      const TablerIcon(TablerIcons.sTurnLeft, TablerIconsSvg.sTurnLeft),
-  'sTurnRight':
-      const TablerIcon(TablerIcons.sTurnRight, TablerIconsSvg.sTurnRight),
-  'sTurnUp': const TablerIcon(TablerIcons.sTurnUp, TablerIconsSvg.sTurnUp),
-  'sailboat2':
-      const TablerIcon(TablerIcons.sailboat2, TablerIconsSvg.sailboat2),
-  'sailboatOff':
-      const TablerIcon(TablerIcons.sailboatOff, TablerIconsSvg.sailboatOff),
-  'sailboat': const TablerIcon(TablerIcons.sailboat, TablerIconsSvg.sailboat),
-  'salad': const TablerIcon(TablerIcons.salad, TablerIconsSvg.salad),
-  'salt': const TablerIcon(TablerIcons.salt, TablerIconsSvg.salt),
-  'satelliteOff':
-      const TablerIcon(TablerIcons.satelliteOff, TablerIconsSvg.satelliteOff),
-  'satellite':
-      const TablerIcon(TablerIcons.satellite, TablerIconsSvg.satellite),
-  'sausage': const TablerIcon(TablerIcons.sausage, TablerIconsSvg.sausage),
-  'scaleOff': const TablerIcon(TablerIcons.scaleOff, TablerIconsSvg.scaleOff),
-  'scaleOutlineOff': const TablerIcon(
-      TablerIcons.scaleOutlineOff, TablerIconsSvg.scaleOutlineOff),
-  'scaleOutline':
-      const TablerIcon(TablerIcons.scaleOutline, TablerIconsSvg.scaleOutline),
-  'scale': const TablerIcon(TablerIcons.scale, TablerIconsSvg.scale),
-  'scanEye': const TablerIcon(TablerIcons.scanEye, TablerIconsSvg.scanEye),
-  'scan': const TablerIcon(TablerIcons.scan, TablerIconsSvg.scan),
-  'schemaOff':
-      const TablerIcon(TablerIcons.schemaOff, TablerIconsSvg.schemaOff),
-  'schema': const TablerIcon(TablerIcons.schema, TablerIconsSvg.schema),
-  'schoolBell':
-      const TablerIcon(TablerIcons.schoolBell, TablerIconsSvg.schoolBell),
-  'schoolOff':
-      const TablerIcon(TablerIcons.schoolOff, TablerIconsSvg.schoolOff),
-  'school': const TablerIcon(TablerIcons.school, TablerIconsSvg.school),
-  'scissorsOff':
-      const TablerIcon(TablerIcons.scissorsOff, TablerIconsSvg.scissorsOff),
-  'scissors': const TablerIcon(TablerIcons.scissors, TablerIconsSvg.scissors),
-  'scooterElectric': const TablerIcon(
-      TablerIcons.scooterElectric, TablerIconsSvg.scooterElectric),
-  'scooter': const TablerIcon(TablerIcons.scooter, TablerIconsSvg.scooter),
-  'scoreboard':
-      const TablerIcon(TablerIcons.scoreboard, TablerIconsSvg.scoreboard),
-  'screenShareOff': const TablerIcon(
-      TablerIcons.screenShareOff, TablerIconsSvg.screenShareOff),
-  'screenShare':
-      const TablerIcon(TablerIcons.screenShare, TablerIconsSvg.screenShare),
-  'screenshot':
-      const TablerIcon(TablerIcons.screenshot, TablerIconsSvg.screenshot),
-  'scribbleOff':
-      const TablerIcon(TablerIcons.scribbleOff, TablerIconsSvg.scribbleOff),
-  'scribble': const TablerIcon(TablerIcons.scribble, TablerIconsSvg.scribble),
-  'scriptMinus':
-      const TablerIcon(TablerIcons.scriptMinus, TablerIconsSvg.scriptMinus),
-  'scriptPlus':
-      const TablerIcon(TablerIcons.scriptPlus, TablerIconsSvg.scriptPlus),
-  'scriptX': const TablerIcon(TablerIcons.scriptX, TablerIconsSvg.scriptX),
-  'script': const TablerIcon(TablerIcons.script, TablerIconsSvg.script),
-  'scubaMaskOff':
-      const TablerIcon(TablerIcons.scubaMaskOff, TablerIconsSvg.scubaMaskOff),
-  'scubaMask':
-      const TablerIcon(TablerIcons.scubaMask, TablerIconsSvg.scubaMask),
-  'sdk': const TablerIcon(TablerIcons.sdk, TablerIconsSvg.sdk),
-  'searchOff':
-      const TablerIcon(TablerIcons.searchOff, TablerIconsSvg.searchOff),
-  'search': const TablerIcon(TablerIcons.search, TablerIconsSvg.search),
-  'sectionSign':
-      const TablerIcon(TablerIcons.sectionSign, TablerIconsSvg.sectionSign),
-  'section': const TablerIcon(TablerIcons.section, TablerIconsSvg.section),
-  'seedingOff':
-      const TablerIcon(TablerIcons.seedingOff, TablerIconsSvg.seedingOff),
-  'seeding': const TablerIcon(TablerIcons.seeding, TablerIconsSvg.seeding),
-  'selectAll':
-      const TablerIcon(TablerIcons.selectAll, TablerIconsSvg.selectAll),
-  'select': const TablerIcon(TablerIcons.select, TablerIconsSvg.select),
-  'selector': const TablerIcon(TablerIcons.selector, TablerIconsSvg.selector),
-  'sendOff': const TablerIcon(TablerIcons.sendOff, TablerIconsSvg.sendOff),
-  'send': const TablerIcon(TablerIcons.send, TablerIconsSvg.send),
-  'seo': const TablerIcon(TablerIcons.seo, TablerIconsSvg.seo),
-  'separatorHorizontal': const TablerIcon(
-      TablerIcons.separatorHorizontal, TablerIconsSvg.separatorHorizontal),
-  'separatorVertical': const TablerIcon(
-      TablerIcons.separatorVertical, TablerIconsSvg.separatorVertical),
-  'separator':
-      const TablerIcon(TablerIcons.separator, TablerIconsSvg.separator),
-  'server2': const TablerIcon(TablerIcons.server2, TablerIconsSvg.server2),
-  'serverBolt':
-      const TablerIcon(TablerIcons.serverBolt, TablerIconsSvg.serverBolt),
-  'serverCog':
-      const TablerIcon(TablerIcons.serverCog, TablerIconsSvg.serverCog),
-  'serverOff':
-      const TablerIcon(TablerIcons.serverOff, TablerIconsSvg.serverOff),
-  'server': const TablerIcon(TablerIcons.server, TablerIconsSvg.server),
-  'servicemark':
-      const TablerIcon(TablerIcons.servicemark, TablerIconsSvg.servicemark),
-  'settings2':
-      const TablerIcon(TablerIcons.settings2, TablerIconsSvg.settings2),
-  'settingsAutomation': const TablerIcon(
-      TablerIcons.settingsAutomation, TablerIconsSvg.settingsAutomation),
-  'settingsBolt':
-      const TablerIcon(TablerIcons.settingsBolt, TablerIconsSvg.settingsBolt),
-  'settingsCancel': const TablerIcon(
-      TablerIcons.settingsCancel, TablerIconsSvg.settingsCancel),
-  'settingsCheck':
-      const TablerIcon(TablerIcons.settingsCheck, TablerIconsSvg.settingsCheck),
-  'settingsCode':
-      const TablerIcon(TablerIcons.settingsCode, TablerIconsSvg.settingsCode),
-  'settingsCog':
-      const TablerIcon(TablerIcons.settingsCog, TablerIconsSvg.settingsCog),
-  'settingsDollar': const TablerIcon(
-      TablerIcons.settingsDollar, TablerIconsSvg.settingsDollar),
-  'settingsDown':
-      const TablerIcon(TablerIcons.settingsDown, TablerIconsSvg.settingsDown),
-  'settingsExclamation': const TablerIcon(
-      TablerIcons.settingsExclamation, TablerIconsSvg.settingsExclamation),
-  'settingsFilled': const TablerIcon(
-      TablerIcons.settingsFilled, TablerIconsSvg.settingsFilled),
-  'settingsHeart':
-      const TablerIcon(TablerIcons.settingsHeart, TablerIconsSvg.settingsHeart),
-  'settingsMinus':
-      const TablerIcon(TablerIcons.settingsMinus, TablerIconsSvg.settingsMinus),
-  'settingsOff':
-      const TablerIcon(TablerIcons.settingsOff, TablerIconsSvg.settingsOff),
-  'settingsPause':
-      const TablerIcon(TablerIcons.settingsPause, TablerIconsSvg.settingsPause),
-  'settingsPin':
-      const TablerIcon(TablerIcons.settingsPin, TablerIconsSvg.settingsPin),
-  'settingsPlus':
-      const TablerIcon(TablerIcons.settingsPlus, TablerIconsSvg.settingsPlus),
-  'settingsQuestion': const TablerIcon(
-      TablerIcons.settingsQuestion, TablerIconsSvg.settingsQuestion),
-  'settingsSearch': const TablerIcon(
-      TablerIcons.settingsSearch, TablerIconsSvg.settingsSearch),
-  'settingsShare':
-      const TablerIcon(TablerIcons.settingsShare, TablerIconsSvg.settingsShare),
-  'settingsStar':
-      const TablerIcon(TablerIcons.settingsStar, TablerIconsSvg.settingsStar),
-  'settingsUp':
-      const TablerIcon(TablerIcons.settingsUp, TablerIconsSvg.settingsUp),
-  'settingsX':
-      const TablerIcon(TablerIcons.settingsX, TablerIconsSvg.settingsX),
-  'settings': const TablerIcon(TablerIcons.settings, TablerIconsSvg.settings),
-  'shadowOff':
-      const TablerIcon(TablerIcons.shadowOff, TablerIconsSvg.shadowOff),
-  'shadow': const TablerIcon(TablerIcons.shadow, TablerIconsSvg.shadow),
-  'shape2': const TablerIcon(TablerIcons.shape2, TablerIconsSvg.shape2),
-  'shape3': const TablerIcon(TablerIcons.shape3, TablerIconsSvg.shape3),
-  'shapeOff': const TablerIcon(TablerIcons.shapeOff, TablerIconsSvg.shapeOff),
-  'shape': const TablerIcon(TablerIcons.shape, TablerIconsSvg.shape),
-  'share2': const TablerIcon(TablerIcons.share2, TablerIconsSvg.share2),
-  'share3': const TablerIcon(TablerIcons.share3, TablerIconsSvg.share3),
-  'shareOff': const TablerIcon(TablerIcons.shareOff, TablerIconsSvg.shareOff),
-  'share': const TablerIcon(TablerIcons.share, TablerIconsSvg.share),
-  'shiJumping':
-      const TablerIcon(TablerIcons.shiJumping, TablerIconsSvg.shiJumping),
-  'shieldBolt':
-      const TablerIcon(TablerIcons.shieldBolt, TablerIconsSvg.shieldBolt),
-  'shieldCancel':
-      const TablerIcon(TablerIcons.shieldCancel, TablerIconsSvg.shieldCancel),
-  'shieldCheckFilled': const TablerIcon(
-      TablerIcons.shieldCheckFilled, TablerIconsSvg.shieldCheckFilled),
-  'shieldCheck':
-      const TablerIcon(TablerIcons.shieldCheck, TablerIconsSvg.shieldCheck),
-  'shieldCheckeredFilled': const TablerIcon(
-      TablerIcons.shieldCheckeredFilled, TablerIconsSvg.shieldCheckeredFilled),
-  'shieldCheckered': const TablerIcon(
-      TablerIcons.shieldCheckered, TablerIconsSvg.shieldCheckered),
-  'shieldChevron':
-      const TablerIcon(TablerIcons.shieldChevron, TablerIconsSvg.shieldChevron),
-  'shieldCode':
-      const TablerIcon(TablerIcons.shieldCode, TablerIconsSvg.shieldCode),
-  'shieldCog':
-      const TablerIcon(TablerIcons.shieldCog, TablerIconsSvg.shieldCog),
-  'shieldDollar':
-      const TablerIcon(TablerIcons.shieldDollar, TablerIconsSvg.shieldDollar),
-  'shieldDown':
-      const TablerIcon(TablerIcons.shieldDown, TablerIconsSvg.shieldDown),
-  'shieldExclamation': const TablerIcon(
-      TablerIcons.shieldExclamation, TablerIconsSvg.shieldExclamation),
-  'shieldFilled':
-      const TablerIcon(TablerIcons.shieldFilled, TablerIconsSvg.shieldFilled),
-  'shieldHalfFilled': const TablerIcon(
-      TablerIcons.shieldHalfFilled, TablerIconsSvg.shieldHalfFilled),
-  'shieldHalf':
-      const TablerIcon(TablerIcons.shieldHalf, TablerIconsSvg.shieldHalf),
-  'shieldHeart':
-      const TablerIcon(TablerIcons.shieldHeart, TablerIconsSvg.shieldHeart),
-  'shieldLockFilled': const TablerIcon(
-      TablerIcons.shieldLockFilled, TablerIconsSvg.shieldLockFilled),
-  'shieldLock':
-      const TablerIcon(TablerIcons.shieldLock, TablerIconsSvg.shieldLock),
-  'shieldMinus':
-      const TablerIcon(TablerIcons.shieldMinus, TablerIconsSvg.shieldMinus),
-  'shieldOff':
-      const TablerIcon(TablerIcons.shieldOff, TablerIconsSvg.shieldOff),
-  'shieldPause':
-      const TablerIcon(TablerIcons.shieldPause, TablerIconsSvg.shieldPause),
-  'shieldPin':
-      const TablerIcon(TablerIcons.shieldPin, TablerIconsSvg.shieldPin),
-  'shieldPlus':
-      const TablerIcon(TablerIcons.shieldPlus, TablerIconsSvg.shieldPlus),
-  'shieldQuestion': const TablerIcon(
-      TablerIcons.shieldQuestion, TablerIconsSvg.shieldQuestion),
-  'shieldSearch':
-      const TablerIcon(TablerIcons.shieldSearch, TablerIconsSvg.shieldSearch),
-  'shieldShare':
-      const TablerIcon(TablerIcons.shieldShare, TablerIconsSvg.shieldShare),
-  'shieldStar':
-      const TablerIcon(TablerIcons.shieldStar, TablerIconsSvg.shieldStar),
-  'shieldUp': const TablerIcon(TablerIcons.shieldUp, TablerIconsSvg.shieldUp),
-  'shieldX': const TablerIcon(TablerIcons.shieldX, TablerIconsSvg.shieldX),
-  'shield': const TablerIcon(TablerIcons.shield, TablerIconsSvg.shield),
-  'shipOff': const TablerIcon(TablerIcons.shipOff, TablerIconsSvg.shipOff),
-  'ship': const TablerIcon(TablerIcons.ship, TablerIconsSvg.ship),
-  'shirtFilled':
-      const TablerIcon(TablerIcons.shirtFilled, TablerIconsSvg.shirtFilled),
-  'shirtOff': const TablerIcon(TablerIcons.shirtOff, TablerIconsSvg.shirtOff),
-  'shirtSport':
-      const TablerIcon(TablerIcons.shirtSport, TablerIconsSvg.shirtSport),
-  'shirt': const TablerIcon(TablerIcons.shirt, TablerIconsSvg.shirt),
-  'shoeOff': const TablerIcon(TablerIcons.shoeOff, TablerIconsSvg.shoeOff),
-  'shoe': const TablerIcon(TablerIcons.shoe, TablerIconsSvg.shoe),
-  'shoppingBagCheck': const TablerIcon(
-      TablerIcons.shoppingBagCheck, TablerIconsSvg.shoppingBagCheck),
-  'shoppingBagDiscount': const TablerIcon(
-      TablerIcons.shoppingBagDiscount, TablerIconsSvg.shoppingBagDiscount),
-  'shoppingBagEdit': const TablerIcon(
-      TablerIcons.shoppingBagEdit, TablerIconsSvg.shoppingBagEdit),
-  'shoppingBagExclamation': const TablerIcon(TablerIcons.shoppingBagExclamation,
-      TablerIconsSvg.shoppingBagExclamation),
-  'shoppingBagMinus': const TablerIcon(
-      TablerIcons.shoppingBagMinus, TablerIconsSvg.shoppingBagMinus),
-  'shoppingBagPlus': const TablerIcon(
-      TablerIcons.shoppingBagPlus, TablerIconsSvg.shoppingBagPlus),
-  'shoppingBagSearch': const TablerIcon(
-      TablerIcons.shoppingBagSearch, TablerIconsSvg.shoppingBagSearch),
-  'shoppingBagX':
-      const TablerIcon(TablerIcons.shoppingBagX, TablerIconsSvg.shoppingBagX),
-  'shoppingBag':
-      const TablerIcon(TablerIcons.shoppingBag, TablerIconsSvg.shoppingBag),
-  'shoppingCartBolt': const TablerIcon(
-      TablerIcons.shoppingCartBolt, TablerIconsSvg.shoppingCartBolt),
-  'shoppingCartCancel': const TablerIcon(
-      TablerIcons.shoppingCartCancel, TablerIconsSvg.shoppingCartCancel),
-  'shoppingCartCheck': const TablerIcon(
-      TablerIcons.shoppingCartCheck, TablerIconsSvg.shoppingCartCheck),
-  'shoppingCartCode': const TablerIcon(
-      TablerIcons.shoppingCartCode, TablerIconsSvg.shoppingCartCode),
-  'shoppingCartCog': const TablerIcon(
-      TablerIcons.shoppingCartCog, TablerIconsSvg.shoppingCartCog),
-  'shoppingCartCopy': const TablerIcon(
-      TablerIcons.shoppingCartCopy, TablerIconsSvg.shoppingCartCopy),
-  'shoppingCartDiscount': const TablerIcon(
-      TablerIcons.shoppingCartDiscount, TablerIconsSvg.shoppingCartDiscount),
-  'shoppingCartDollar': const TablerIcon(
-      TablerIcons.shoppingCartDollar, TablerIconsSvg.shoppingCartDollar),
-  'shoppingCartDown': const TablerIcon(
-      TablerIcons.shoppingCartDown, TablerIconsSvg.shoppingCartDown),
-  'shoppingCartExclamation': const TablerIcon(
-      TablerIcons.shoppingCartExclamation,
-      TablerIconsSvg.shoppingCartExclamation),
-  'shoppingCartFilled': const TablerIcon(
-      TablerIcons.shoppingCartFilled, TablerIconsSvg.shoppingCartFilled),
-  'shoppingCartHeart': const TablerIcon(
-      TablerIcons.shoppingCartHeart, TablerIconsSvg.shoppingCartHeart),
-  'shoppingCartMinus': const TablerIcon(
-      TablerIcons.shoppingCartMinus, TablerIconsSvg.shoppingCartMinus),
-  'shoppingCartOff': const TablerIcon(
-      TablerIcons.shoppingCartOff, TablerIconsSvg.shoppingCartOff),
-  'shoppingCartPause': const TablerIcon(
-      TablerIcons.shoppingCartPause, TablerIconsSvg.shoppingCartPause),
-  'shoppingCartPin': const TablerIcon(
-      TablerIcons.shoppingCartPin, TablerIconsSvg.shoppingCartPin),
-  'shoppingCartPlus': const TablerIcon(
-      TablerIcons.shoppingCartPlus, TablerIconsSvg.shoppingCartPlus),
-  'shoppingCartQuestion': const TablerIcon(
-      TablerIcons.shoppingCartQuestion, TablerIconsSvg.shoppingCartQuestion),
-  'shoppingCartSearch': const TablerIcon(
-      TablerIcons.shoppingCartSearch, TablerIconsSvg.shoppingCartSearch),
-  'shoppingCartShare': const TablerIcon(
-      TablerIcons.shoppingCartShare, TablerIconsSvg.shoppingCartShare),
-  'shoppingCartStar': const TablerIcon(
-      TablerIcons.shoppingCartStar, TablerIconsSvg.shoppingCartStar),
-  'shoppingCartUp': const TablerIcon(
-      TablerIcons.shoppingCartUp, TablerIconsSvg.shoppingCartUp),
-  'shoppingCartX':
-      const TablerIcon(TablerIcons.shoppingCartX, TablerIconsSvg.shoppingCartX),
-  'shoppingCart':
-      const TablerIcon(TablerIcons.shoppingCart, TablerIconsSvg.shoppingCart),
-  'shovel': const TablerIcon(TablerIcons.shovel, TablerIconsSvg.shovel),
-  'shredder': const TablerIcon(TablerIcons.shredder, TablerIconsSvg.shredder),
-  'signLeftFilled': const TablerIcon(
-      TablerIcons.signLeftFilled, TablerIconsSvg.signLeftFilled),
-  'signLeft': const TablerIcon(TablerIcons.signLeft, TablerIconsSvg.signLeft),
-  'signRightFilled': const TablerIcon(
-      TablerIcons.signRightFilled, TablerIconsSvg.signRightFilled),
-  'signRight':
-      const TablerIcon(TablerIcons.signRight, TablerIconsSvg.signRight),
-  'signal2g': const TablerIcon(TablerIcons.signal2g, TablerIconsSvg.signal2g),
-  'signal3g': const TablerIcon(TablerIcons.signal3g, TablerIconsSvg.signal3g),
-  'signal4gPlus':
-      const TablerIcon(TablerIcons.signal4gPlus, TablerIconsSvg.signal4gPlus),
-  'signal4g': const TablerIcon(TablerIcons.signal4g, TablerIconsSvg.signal4g),
-  'signal5g': const TablerIcon(TablerIcons.signal5g, TablerIconsSvg.signal5g),
-  'signal6g': const TablerIcon(TablerIcons.signal6g, TablerIconsSvg.signal6g),
-  'signalE': const TablerIcon(TablerIcons.signalE, TablerIconsSvg.signalE),
-  'signalG': const TablerIcon(TablerIcons.signalG, TablerIconsSvg.signalG),
-  'signalHPlus':
-      const TablerIcon(TablerIcons.signalHPlus, TablerIconsSvg.signalHPlus),
-  'signalH': const TablerIcon(TablerIcons.signalH, TablerIconsSvg.signalH),
-  'signalLte':
-      const TablerIcon(TablerIcons.signalLte, TablerIconsSvg.signalLte),
-  'signatureOff':
-      const TablerIcon(TablerIcons.signatureOff, TablerIconsSvg.signatureOff),
-  'signature':
-      const TablerIcon(TablerIcons.signature, TablerIconsSvg.signature),
-  'sitemapOff':
-      const TablerIcon(TablerIcons.sitemapOff, TablerIconsSvg.sitemapOff),
-  'sitemap': const TablerIcon(TablerIcons.sitemap, TablerIconsSvg.sitemap),
-  'skateboardOff':
-      const TablerIcon(TablerIcons.skateboardOff, TablerIconsSvg.skateboardOff),
-  'skateboard':
-      const TablerIcon(TablerIcons.skateboard, TablerIconsSvg.skateboard),
-  'skateboarding':
-      const TablerIcon(TablerIcons.skateboarding, TablerIconsSvg.skateboarding),
-  'skull': const TablerIcon(TablerIcons.skull, TablerIconsSvg.skull),
-  'slash': const TablerIcon(TablerIcons.slash, TablerIconsSvg.slash),
-  'slashes': const TablerIcon(TablerIcons.slashes, TablerIconsSvg.slashes),
-  'sleigh': const TablerIcon(TablerIcons.sleigh, TablerIconsSvg.sleigh),
-  'slice': const TablerIcon(TablerIcons.slice, TablerIconsSvg.slice),
-  'slideshow':
-      const TablerIcon(TablerIcons.slideshow, TablerIconsSvg.slideshow),
-  'smartHomeOff':
-      const TablerIcon(TablerIcons.smartHomeOff, TablerIconsSvg.smartHomeOff),
-  'smartHome':
-      const TablerIcon(TablerIcons.smartHome, TablerIconsSvg.smartHome),
-  'smokingNo':
-      const TablerIcon(TablerIcons.smokingNo, TablerIconsSvg.smokingNo),
-  'smoking': const TablerIcon(TablerIcons.smoking, TablerIconsSvg.smoking),
-  'snowflakeOff':
-      const TablerIcon(TablerIcons.snowflakeOff, TablerIconsSvg.snowflakeOff),
-  'snowflake':
-      const TablerIcon(TablerIcons.snowflake, TablerIconsSvg.snowflake),
-  'snowman': const TablerIcon(TablerIcons.snowman, TablerIconsSvg.snowman),
-  'soccerField':
-      const TablerIcon(TablerIcons.soccerField, TablerIconsSvg.soccerField),
-  'socialOff':
-      const TablerIcon(TablerIcons.socialOff, TablerIconsSvg.socialOff),
-  'social': const TablerIcon(TablerIcons.social, TablerIconsSvg.social),
-  'sock': const TablerIcon(TablerIcons.sock, TablerIconsSvg.sock),
-  'sofaOff': const TablerIcon(TablerIcons.sofaOff, TablerIconsSvg.sofaOff),
-  'sofa': const TablerIcon(TablerIcons.sofa, TablerIconsSvg.sofa),
-  'solarElectricity': const TablerIcon(
-      TablerIcons.solarElectricity, TablerIconsSvg.solarElectricity),
-  'solarPanel2':
-      const TablerIcon(TablerIcons.solarPanel2, TablerIconsSvg.solarPanel2),
-  'solarPanel':
-      const TablerIcon(TablerIcons.solarPanel, TablerIconsSvg.solarPanel),
-  'sort09': const TablerIcon(TablerIcons.sort09, TablerIconsSvg.sort09),
-  'sort90': const TablerIcon(TablerIcons.sort90, TablerIconsSvg.sort90),
-  'sortAZ': const TablerIcon(TablerIcons.sortAZ, TablerIconsSvg.sortAZ),
-  'sortAscending2': const TablerIcon(
-      TablerIcons.sortAscending2, TablerIconsSvg.sortAscending2),
-  'sortAscendingLetters': const TablerIcon(
-      TablerIcons.sortAscendingLetters, TablerIconsSvg.sortAscendingLetters),
-  'sortAscendingNumbers': const TablerIcon(
-      TablerIcons.sortAscendingNumbers, TablerIconsSvg.sortAscendingNumbers),
-  'sortAscending':
-      const TablerIcon(TablerIcons.sortAscending, TablerIconsSvg.sortAscending),
-  'sortDescending2': const TablerIcon(
-      TablerIcons.sortDescending2, TablerIconsSvg.sortDescending2),
-  'sortDescendingLetters': const TablerIcon(
-      TablerIcons.sortDescendingLetters, TablerIconsSvg.sortDescendingLetters),
-  'sortDescendingNumbers': const TablerIcon(
-      TablerIcons.sortDescendingNumbers, TablerIconsSvg.sortDescendingNumbers),
-  'sortDescending': const TablerIcon(
-      TablerIcons.sortDescending, TablerIconsSvg.sortDescending),
-  'sortZA': const TablerIcon(TablerIcons.sortZA, TablerIconsSvg.sortZA),
-  'sos': const TablerIcon(TablerIcons.sos, TablerIconsSvg.sos),
-  'soupOff': const TablerIcon(TablerIcons.soupOff, TablerIconsSvg.soupOff),
-  'soup': const TablerIcon(TablerIcons.soup, TablerIconsSvg.soup),
-  'sourceCode':
-      const TablerIcon(TablerIcons.sourceCode, TablerIconsSvg.sourceCode),
-  'spaceOff': const TablerIcon(TablerIcons.spaceOff, TablerIconsSvg.spaceOff),
-  'space': const TablerIcon(TablerIcons.space, TablerIconsSvg.space),
-  'spacingHorizontal': const TablerIcon(
-      TablerIcons.spacingHorizontal, TablerIconsSvg.spacingHorizontal),
-  'spacingVertical': const TablerIcon(
-      TablerIcons.spacingVertical, TablerIconsSvg.spacingVertical),
-  'spadeFilled':
-      const TablerIcon(TablerIcons.spadeFilled, TablerIconsSvg.spadeFilled),
-  'spade': const TablerIcon(TablerIcons.spade, TablerIconsSvg.spade),
-  'sparkles': const TablerIcon(TablerIcons.sparkles, TablerIconsSvg.sparkles),
-  'speakerphone':
-      const TablerIcon(TablerIcons.speakerphone, TablerIconsSvg.speakerphone),
-  'speedboat':
-      const TablerIcon(TablerIcons.speedboat, TablerIconsSvg.speedboat),
-  'sphereOff':
-      const TablerIcon(TablerIcons.sphereOff, TablerIconsSvg.sphereOff),
-  'spherePlus':
-      const TablerIcon(TablerIcons.spherePlus, TablerIconsSvg.spherePlus),
-  'sphere': const TablerIcon(TablerIcons.sphere, TablerIconsSvg.sphere),
-  'spider': const TablerIcon(TablerIcons.spider, TablerIconsSvg.spider),
-  'spiralOff':
-      const TablerIcon(TablerIcons.spiralOff, TablerIconsSvg.spiralOff),
-  'spiral': const TablerIcon(TablerIcons.spiral, TablerIconsSvg.spiral),
-  'sportBillard':
-      const TablerIcon(TablerIcons.sportBillard, TablerIconsSvg.sportBillard),
-  'spray': const TablerIcon(TablerIcons.spray, TablerIconsSvg.spray),
-  'spyOff': const TablerIcon(TablerIcons.spyOff, TablerIconsSvg.spyOff),
-  'spy': const TablerIcon(TablerIcons.spy, TablerIconsSvg.spy),
-  'sql': const TablerIcon(TablerIcons.sql, TablerIconsSvg.sql),
-  'square0Filled':
-      const TablerIcon(TablerIcons.square0Filled, TablerIconsSvg.square0Filled),
-  'square1Filled':
-      const TablerIcon(TablerIcons.square1Filled, TablerIconsSvg.square1Filled),
-  'square2Filled':
-      const TablerIcon(TablerIcons.square2Filled, TablerIconsSvg.square2Filled),
-  'square3Filled':
-      const TablerIcon(TablerIcons.square3Filled, TablerIconsSvg.square3Filled),
-  'square4Filled':
-      const TablerIcon(TablerIcons.square4Filled, TablerIconsSvg.square4Filled),
-  'square5Filled':
-      const TablerIcon(TablerIcons.square5Filled, TablerIconsSvg.square5Filled),
-  'square6Filled':
-      const TablerIcon(TablerIcons.square6Filled, TablerIconsSvg.square6Filled),
-  'square7Filled':
-      const TablerIcon(TablerIcons.square7Filled, TablerIconsSvg.square7Filled),
-  'square8Filled':
-      const TablerIcon(TablerIcons.square8Filled, TablerIconsSvg.square8Filled),
-  'square9Filled':
-      const TablerIcon(TablerIcons.square9Filled, TablerIconsSvg.square9Filled),
-  'squareArrowDownFilled': const TablerIcon(
-      TablerIcons.squareArrowDownFilled, TablerIconsSvg.squareArrowDownFilled),
-  'squareArrowDown': const TablerIcon(
-      TablerIcons.squareArrowDown, TablerIconsSvg.squareArrowDown),
-  'squareArrowLeftFilled': const TablerIcon(
-      TablerIcons.squareArrowLeftFilled, TablerIconsSvg.squareArrowLeftFilled),
-  'squareArrowLeft': const TablerIcon(
-      TablerIcons.squareArrowLeft, TablerIconsSvg.squareArrowLeft),
-  'squareArrowRightFilled': const TablerIcon(TablerIcons.squareArrowRightFilled,
-      TablerIconsSvg.squareArrowRightFilled),
-  'squareArrowRight': const TablerIcon(
-      TablerIcons.squareArrowRight, TablerIconsSvg.squareArrowRight),
-  'squareArrowUpFilled': const TablerIcon(
-      TablerIcons.squareArrowUpFilled, TablerIconsSvg.squareArrowUpFilled),
-  'squareArrowUp':
-      const TablerIcon(TablerIcons.squareArrowUp, TablerIconsSvg.squareArrowUp),
-  'squareAsteriskFilled': const TablerIcon(
-      TablerIcons.squareAsteriskFilled, TablerIconsSvg.squareAsteriskFilled),
-  'squareAsterisk': const TablerIcon(
-      TablerIcons.squareAsterisk, TablerIconsSvg.squareAsterisk),
-  'squareCheckFilled': const TablerIcon(
-      TablerIcons.squareCheckFilled, TablerIconsSvg.squareCheckFilled),
-  'squareCheck':
-      const TablerIcon(TablerIcons.squareCheck, TablerIconsSvg.squareCheck),
-  'squareChevronDownFilled': const TablerIcon(
-      TablerIcons.squareChevronDownFilled,
-      TablerIconsSvg.squareChevronDownFilled),
-  'squareChevronDown': const TablerIcon(
-      TablerIcons.squareChevronDown, TablerIconsSvg.squareChevronDown),
-  'squareChevronLeftFilled': const TablerIcon(
-      TablerIcons.squareChevronLeftFilled,
-      TablerIconsSvg.squareChevronLeftFilled),
-  'squareChevronLeft': const TablerIcon(
-      TablerIcons.squareChevronLeft, TablerIconsSvg.squareChevronLeft),
-  'squareChevronRightFilled': const TablerIcon(
-      TablerIcons.squareChevronRightFilled,
-      TablerIconsSvg.squareChevronRightFilled),
-  'squareChevronRight': const TablerIcon(
-      TablerIcons.squareChevronRight, TablerIconsSvg.squareChevronRight),
-  'squareChevronUpFilled': const TablerIcon(
-      TablerIcons.squareChevronUpFilled, TablerIconsSvg.squareChevronUpFilled),
-  'squareChevronUp': const TablerIcon(
-      TablerIcons.squareChevronUp, TablerIconsSvg.squareChevronUp),
-  'squareChevronsDownFilled': const TablerIcon(
-      TablerIcons.squareChevronsDownFilled,
-      TablerIconsSvg.squareChevronsDownFilled),
-  'squareChevronsDown': const TablerIcon(
-      TablerIcons.squareChevronsDown, TablerIconsSvg.squareChevronsDown),
-  'squareChevronsLeftFilled': const TablerIcon(
-      TablerIcons.squareChevronsLeftFilled,
-      TablerIconsSvg.squareChevronsLeftFilled),
-  'squareChevronsLeft': const TablerIcon(
-      TablerIcons.squareChevronsLeft, TablerIconsSvg.squareChevronsLeft),
-  'squareChevronsRightFilled': const TablerIcon(
-      TablerIcons.squareChevronsRightFilled,
-      TablerIconsSvg.squareChevronsRightFilled),
-  'squareChevronsRight': const TablerIcon(
-      TablerIcons.squareChevronsRight, TablerIconsSvg.squareChevronsRight),
-  'squareChevronsUpFilled': const TablerIcon(TablerIcons.squareChevronsUpFilled,
-      TablerIconsSvg.squareChevronsUpFilled),
-  'squareChevronsUp': const TablerIcon(
-      TablerIcons.squareChevronsUp, TablerIconsSvg.squareChevronsUp),
-  'squareDotFilled': const TablerIcon(
-      TablerIcons.squareDotFilled, TablerIconsSvg.squareDotFilled),
-  'squareDot':
-      const TablerIcon(TablerIcons.squareDot, TablerIconsSvg.squareDot),
-  'squareF0Filled': const TablerIcon(
-      TablerIcons.squareF0Filled, TablerIconsSvg.squareF0Filled),
-  'squareF0': const TablerIcon(TablerIcons.squareF0, TablerIconsSvg.squareF0),
-  'squareF1Filled': const TablerIcon(
-      TablerIcons.squareF1Filled, TablerIconsSvg.squareF1Filled),
-  'squareF1': const TablerIcon(TablerIcons.squareF1, TablerIconsSvg.squareF1),
-  'squareF2Filled': const TablerIcon(
-      TablerIcons.squareF2Filled, TablerIconsSvg.squareF2Filled),
-  'squareF2': const TablerIcon(TablerIcons.squareF2, TablerIconsSvg.squareF2),
-  'squareF3Filled': const TablerIcon(
-      TablerIcons.squareF3Filled, TablerIconsSvg.squareF3Filled),
-  'squareF3': const TablerIcon(TablerIcons.squareF3, TablerIconsSvg.squareF3),
-  'squareF4Filled': const TablerIcon(
-      TablerIcons.squareF4Filled, TablerIconsSvg.squareF4Filled),
-  'squareF4': const TablerIcon(TablerIcons.squareF4, TablerIconsSvg.squareF4),
-  'squareF5Filled': const TablerIcon(
-      TablerIcons.squareF5Filled, TablerIconsSvg.squareF5Filled),
-  'squareF5': const TablerIcon(TablerIcons.squareF5, TablerIconsSvg.squareF5),
-  'squareF6Filled': const TablerIcon(
-      TablerIcons.squareF6Filled, TablerIconsSvg.squareF6Filled),
-  'squareF6': const TablerIcon(TablerIcons.squareF6, TablerIconsSvg.squareF6),
-  'squareF7Filled': const TablerIcon(
-      TablerIcons.squareF7Filled, TablerIconsSvg.squareF7Filled),
-  'squareF7': const TablerIcon(TablerIcons.squareF7, TablerIconsSvg.squareF7),
-  'squareF8Filled': const TablerIcon(
-      TablerIcons.squareF8Filled, TablerIconsSvg.squareF8Filled),
-  'squareF8': const TablerIcon(TablerIcons.squareF8, TablerIconsSvg.squareF8),
-  'squareF9Filled': const TablerIcon(
-      TablerIcons.squareF9Filled, TablerIconsSvg.squareF9Filled),
-  'squareF9': const TablerIcon(TablerIcons.squareF9, TablerIconsSvg.squareF9),
-  'squareFilled':
-      const TablerIcon(TablerIcons.squareFilled, TablerIconsSvg.squareFilled),
-  'squareForbid2':
-      const TablerIcon(TablerIcons.squareForbid2, TablerIconsSvg.squareForbid2),
-  'squareForbid':
-      const TablerIcon(TablerIcons.squareForbid, TablerIconsSvg.squareForbid),
-  'squareHalf':
-      const TablerIcon(TablerIcons.squareHalf, TablerIconsSvg.squareHalf),
-  'squareKey':
-      const TablerIcon(TablerIcons.squareKey, TablerIconsSvg.squareKey),
-  'squareLetterA':
-      const TablerIcon(TablerIcons.squareLetterA, TablerIconsSvg.squareLetterA),
-  'squareLetterB':
-      const TablerIcon(TablerIcons.squareLetterB, TablerIconsSvg.squareLetterB),
-  'squareLetterC':
-      const TablerIcon(TablerIcons.squareLetterC, TablerIconsSvg.squareLetterC),
-  'squareLetterD':
-      const TablerIcon(TablerIcons.squareLetterD, TablerIconsSvg.squareLetterD),
-  'squareLetterE':
-      const TablerIcon(TablerIcons.squareLetterE, TablerIconsSvg.squareLetterE),
-  'squareLetterF':
-      const TablerIcon(TablerIcons.squareLetterF, TablerIconsSvg.squareLetterF),
-  'squareLetterG':
-      const TablerIcon(TablerIcons.squareLetterG, TablerIconsSvg.squareLetterG),
-  'squareLetterH':
-      const TablerIcon(TablerIcons.squareLetterH, TablerIconsSvg.squareLetterH),
-  'squareLetterI':
-      const TablerIcon(TablerIcons.squareLetterI, TablerIconsSvg.squareLetterI),
-  'squareLetterJ':
-      const TablerIcon(TablerIcons.squareLetterJ, TablerIconsSvg.squareLetterJ),
-  'squareLetterK':
-      const TablerIcon(TablerIcons.squareLetterK, TablerIconsSvg.squareLetterK),
-  'squareLetterL':
-      const TablerIcon(TablerIcons.squareLetterL, TablerIconsSvg.squareLetterL),
-  'squareLetterM':
-      const TablerIcon(TablerIcons.squareLetterM, TablerIconsSvg.squareLetterM),
-  'squareLetterN':
-      const TablerIcon(TablerIcons.squareLetterN, TablerIconsSvg.squareLetterN),
-  'squareLetterO':
-      const TablerIcon(TablerIcons.squareLetterO, TablerIconsSvg.squareLetterO),
-  'squareLetterP':
-      const TablerIcon(TablerIcons.squareLetterP, TablerIconsSvg.squareLetterP),
-  'squareLetterQ':
-      const TablerIcon(TablerIcons.squareLetterQ, TablerIconsSvg.squareLetterQ),
-  'squareLetterR':
-      const TablerIcon(TablerIcons.squareLetterR, TablerIconsSvg.squareLetterR),
-  'squareLetterS':
-      const TablerIcon(TablerIcons.squareLetterS, TablerIconsSvg.squareLetterS),
-  'squareLetterT':
-      const TablerIcon(TablerIcons.squareLetterT, TablerIconsSvg.squareLetterT),
-  'squareLetterU':
-      const TablerIcon(TablerIcons.squareLetterU, TablerIconsSvg.squareLetterU),
-  'squareLetterV':
-      const TablerIcon(TablerIcons.squareLetterV, TablerIconsSvg.squareLetterV),
-  'squareLetterW':
-      const TablerIcon(TablerIcons.squareLetterW, TablerIconsSvg.squareLetterW),
-  'squareLetterX':
-      const TablerIcon(TablerIcons.squareLetterX, TablerIconsSvg.squareLetterX),
-  'squareLetterY':
-      const TablerIcon(TablerIcons.squareLetterY, TablerIconsSvg.squareLetterY),
-  'squareLetterZ':
-      const TablerIcon(TablerIcons.squareLetterZ, TablerIconsSvg.squareLetterZ),
-  'squareMinusFilled': const TablerIcon(
-      TablerIcons.squareMinusFilled, TablerIconsSvg.squareMinusFilled),
-  'squareMinus':
-      const TablerIcon(TablerIcons.squareMinus, TablerIconsSvg.squareMinus),
-  'squareNumber0':
-      const TablerIcon(TablerIcons.squareNumber0, TablerIconsSvg.squareNumber0),
-  'squareNumber1':
-      const TablerIcon(TablerIcons.squareNumber1, TablerIconsSvg.squareNumber1),
-  'squareNumber2':
-      const TablerIcon(TablerIcons.squareNumber2, TablerIconsSvg.squareNumber2),
-  'squareNumber3':
-      const TablerIcon(TablerIcons.squareNumber3, TablerIconsSvg.squareNumber3),
-  'squareNumber4':
-      const TablerIcon(TablerIcons.squareNumber4, TablerIconsSvg.squareNumber4),
-  'squareNumber5':
-      const TablerIcon(TablerIcons.squareNumber5, TablerIconsSvg.squareNumber5),
-  'squareNumber6':
-      const TablerIcon(TablerIcons.squareNumber6, TablerIconsSvg.squareNumber6),
-  'squareNumber7':
-      const TablerIcon(TablerIcons.squareNumber7, TablerIconsSvg.squareNumber7),
-  'squareNumber8':
-      const TablerIcon(TablerIcons.squareNumber8, TablerIconsSvg.squareNumber8),
-  'squareNumber9':
-      const TablerIcon(TablerIcons.squareNumber9, TablerIconsSvg.squareNumber9),
-  'squareOff':
-      const TablerIcon(TablerIcons.squareOff, TablerIconsSvg.squareOff),
-  'squarePlus2':
-      const TablerIcon(TablerIcons.squarePlus2, TablerIconsSvg.squarePlus2),
-  'squarePlus':
-      const TablerIcon(TablerIcons.squarePlus, TablerIconsSvg.squarePlus),
-  'squareRoot2':
-      const TablerIcon(TablerIcons.squareRoot2, TablerIconsSvg.squareRoot2),
-  'squareRoot':
-      const TablerIcon(TablerIcons.squareRoot, TablerIconsSvg.squareRoot),
-  'squareRotatedFilled': const TablerIcon(
-      TablerIcons.squareRotatedFilled, TablerIconsSvg.squareRotatedFilled),
-  'squareRotatedForbid2': const TablerIcon(
-      TablerIcons.squareRotatedForbid2, TablerIconsSvg.squareRotatedForbid2),
-  'squareRotatedForbid': const TablerIcon(
-      TablerIcons.squareRotatedForbid, TablerIconsSvg.squareRotatedForbid),
-  'squareRotatedOff': const TablerIcon(
-      TablerIcons.squareRotatedOff, TablerIconsSvg.squareRotatedOff),
-  'squareRotated':
-      const TablerIcon(TablerIcons.squareRotated, TablerIconsSvg.squareRotated),
-  'squareRoundedArrowDownFilled': const TablerIcon(
-      TablerIcons.squareRoundedArrowDownFilled,
-      TablerIconsSvg.squareRoundedArrowDownFilled),
-  'squareRoundedArrowDown': const TablerIcon(TablerIcons.squareRoundedArrowDown,
-      TablerIconsSvg.squareRoundedArrowDown),
-  'squareRoundedArrowLeftFilled': const TablerIcon(
-      TablerIcons.squareRoundedArrowLeftFilled,
-      TablerIconsSvg.squareRoundedArrowLeftFilled),
-  'squareRoundedArrowLeft': const TablerIcon(TablerIcons.squareRoundedArrowLeft,
-      TablerIconsSvg.squareRoundedArrowLeft),
-  'squareRoundedArrowRightFilled': const TablerIcon(
-      TablerIcons.squareRoundedArrowRightFilled,
-      TablerIconsSvg.squareRoundedArrowRightFilled),
-  'squareRoundedArrowRight': const TablerIcon(
-      TablerIcons.squareRoundedArrowRight,
-      TablerIconsSvg.squareRoundedArrowRight),
-  'squareRoundedArrowUpFilled': const TablerIcon(
-      TablerIcons.squareRoundedArrowUpFilled,
-      TablerIconsSvg.squareRoundedArrowUpFilled),
-  'squareRoundedArrowUp': const TablerIcon(
-      TablerIcons.squareRoundedArrowUp, TablerIconsSvg.squareRoundedArrowUp),
-  'squareRoundedCheckFilled': const TablerIcon(
-      TablerIcons.squareRoundedCheckFilled,
-      TablerIconsSvg.squareRoundedCheckFilled),
-  'squareRoundedCheck': const TablerIcon(
-      TablerIcons.squareRoundedCheck, TablerIconsSvg.squareRoundedCheck),
-  'squareRoundedChevronDownFilled': const TablerIcon(
-      TablerIcons.squareRoundedChevronDownFilled,
-      TablerIconsSvg.squareRoundedChevronDownFilled),
-  'squareRoundedChevronDown': const TablerIcon(
-      TablerIcons.squareRoundedChevronDown,
-      TablerIconsSvg.squareRoundedChevronDown),
-  'squareRoundedChevronLeftFilled': const TablerIcon(
-      TablerIcons.squareRoundedChevronLeftFilled,
-      TablerIconsSvg.squareRoundedChevronLeftFilled),
-  'squareRoundedChevronLeft': const TablerIcon(
-      TablerIcons.squareRoundedChevronLeft,
-      TablerIconsSvg.squareRoundedChevronLeft),
-  'squareRoundedChevronRightFilled': const TablerIcon(
-      TablerIcons.squareRoundedChevronRightFilled,
-      TablerIconsSvg.squareRoundedChevronRightFilled),
-  'squareRoundedChevronRight': const TablerIcon(
-      TablerIcons.squareRoundedChevronRight,
-      TablerIconsSvg.squareRoundedChevronRight),
-  'squareRoundedChevronUpFilled': const TablerIcon(
-      TablerIcons.squareRoundedChevronUpFilled,
-      TablerIconsSvg.squareRoundedChevronUpFilled),
-  'squareRoundedChevronUp': const TablerIcon(TablerIcons.squareRoundedChevronUp,
-      TablerIconsSvg.squareRoundedChevronUp),
-  'squareRoundedChevronsDownFilled': const TablerIcon(
-      TablerIcons.squareRoundedChevronsDownFilled,
-      TablerIconsSvg.squareRoundedChevronsDownFilled),
-  'squareRoundedChevronsDown': const TablerIcon(
-      TablerIcons.squareRoundedChevronsDown,
-      TablerIconsSvg.squareRoundedChevronsDown),
-  'squareRoundedChevronsLeftFilled': const TablerIcon(
-      TablerIcons.squareRoundedChevronsLeftFilled,
-      TablerIconsSvg.squareRoundedChevronsLeftFilled),
-  'squareRoundedChevronsLeft': const TablerIcon(
-      TablerIcons.squareRoundedChevronsLeft,
-      TablerIconsSvg.squareRoundedChevronsLeft),
-  'squareRoundedChevronsRightFilled': const TablerIcon(
-      TablerIcons.squareRoundedChevronsRightFilled,
-      TablerIconsSvg.squareRoundedChevronsRightFilled),
-  'squareRoundedChevronsRight': const TablerIcon(
-      TablerIcons.squareRoundedChevronsRight,
-      TablerIconsSvg.squareRoundedChevronsRight),
-  'squareRoundedChevronsUpFilled': const TablerIcon(
-      TablerIcons.squareRoundedChevronsUpFilled,
-      TablerIconsSvg.squareRoundedChevronsUpFilled),
-  'squareRoundedChevronsUp': const TablerIcon(
-      TablerIcons.squareRoundedChevronsUp,
-      TablerIconsSvg.squareRoundedChevronsUp),
-  'squareRoundedFilled': const TablerIcon(
-      TablerIcons.squareRoundedFilled, TablerIconsSvg.squareRoundedFilled),
-  'squareRoundedLetterA': const TablerIcon(
-      TablerIcons.squareRoundedLetterA, TablerIconsSvg.squareRoundedLetterA),
-  'squareRoundedLetterB': const TablerIcon(
-      TablerIcons.squareRoundedLetterB, TablerIconsSvg.squareRoundedLetterB),
-  'squareRoundedLetterC': const TablerIcon(
-      TablerIcons.squareRoundedLetterC, TablerIconsSvg.squareRoundedLetterC),
-  'squareRoundedLetterD': const TablerIcon(
-      TablerIcons.squareRoundedLetterD, TablerIconsSvg.squareRoundedLetterD),
-  'squareRoundedLetterE': const TablerIcon(
-      TablerIcons.squareRoundedLetterE, TablerIconsSvg.squareRoundedLetterE),
-  'squareRoundedLetterF': const TablerIcon(
-      TablerIcons.squareRoundedLetterF, TablerIconsSvg.squareRoundedLetterF),
-  'squareRoundedLetterG': const TablerIcon(
-      TablerIcons.squareRoundedLetterG, TablerIconsSvg.squareRoundedLetterG),
-  'squareRoundedLetterH': const TablerIcon(
-      TablerIcons.squareRoundedLetterH, TablerIconsSvg.squareRoundedLetterH),
-  'squareRoundedLetterI': const TablerIcon(
-      TablerIcons.squareRoundedLetterI, TablerIconsSvg.squareRoundedLetterI),
-  'squareRoundedLetterJ': const TablerIcon(
-      TablerIcons.squareRoundedLetterJ, TablerIconsSvg.squareRoundedLetterJ),
-  'squareRoundedLetterK': const TablerIcon(
-      TablerIcons.squareRoundedLetterK, TablerIconsSvg.squareRoundedLetterK),
-  'squareRoundedLetterL': const TablerIcon(
-      TablerIcons.squareRoundedLetterL, TablerIconsSvg.squareRoundedLetterL),
-  'squareRoundedLetterM': const TablerIcon(
-      TablerIcons.squareRoundedLetterM, TablerIconsSvg.squareRoundedLetterM),
-  'squareRoundedLetterN': const TablerIcon(
-      TablerIcons.squareRoundedLetterN, TablerIconsSvg.squareRoundedLetterN),
-  'squareRoundedLetterO': const TablerIcon(
-      TablerIcons.squareRoundedLetterO, TablerIconsSvg.squareRoundedLetterO),
-  'squareRoundedLetterP': const TablerIcon(
-      TablerIcons.squareRoundedLetterP, TablerIconsSvg.squareRoundedLetterP),
-  'squareRoundedLetterQ': const TablerIcon(
-      TablerIcons.squareRoundedLetterQ, TablerIconsSvg.squareRoundedLetterQ),
-  'squareRoundedLetterR': const TablerIcon(
-      TablerIcons.squareRoundedLetterR, TablerIconsSvg.squareRoundedLetterR),
-  'squareRoundedLetterS': const TablerIcon(
-      TablerIcons.squareRoundedLetterS, TablerIconsSvg.squareRoundedLetterS),
-  'squareRoundedLetterT': const TablerIcon(
-      TablerIcons.squareRoundedLetterT, TablerIconsSvg.squareRoundedLetterT),
-  'squareRoundedLetterU': const TablerIcon(
-      TablerIcons.squareRoundedLetterU, TablerIconsSvg.squareRoundedLetterU),
-  'squareRoundedLetterV': const TablerIcon(
-      TablerIcons.squareRoundedLetterV, TablerIconsSvg.squareRoundedLetterV),
-  'squareRoundedLetterW': const TablerIcon(
-      TablerIcons.squareRoundedLetterW, TablerIconsSvg.squareRoundedLetterW),
-  'squareRoundedLetterX': const TablerIcon(
-      TablerIcons.squareRoundedLetterX, TablerIconsSvg.squareRoundedLetterX),
-  'squareRoundedLetterY': const TablerIcon(
-      TablerIcons.squareRoundedLetterY, TablerIconsSvg.squareRoundedLetterY),
-  'squareRoundedLetterZ': const TablerIcon(
-      TablerIcons.squareRoundedLetterZ, TablerIconsSvg.squareRoundedLetterZ),
-  'squareRoundedMinus2': const TablerIcon(
-      TablerIcons.squareRoundedMinus2, TablerIconsSvg.squareRoundedMinus2),
-  'squareRoundedMinusFilled': const TablerIcon(
-      TablerIcons.squareRoundedMinusFilled,
-      TablerIconsSvg.squareRoundedMinusFilled),
-  'squareRoundedMinus': const TablerIcon(
-      TablerIcons.squareRoundedMinus, TablerIconsSvg.squareRoundedMinus),
-  'squareRoundedNumber0Filled': const TablerIcon(
-      TablerIcons.squareRoundedNumber0Filled,
-      TablerIconsSvg.squareRoundedNumber0Filled),
-  'squareRoundedNumber0': const TablerIcon(
-      TablerIcons.squareRoundedNumber0, TablerIconsSvg.squareRoundedNumber0),
-  'squareRoundedNumber1Filled': const TablerIcon(
-      TablerIcons.squareRoundedNumber1Filled,
-      TablerIconsSvg.squareRoundedNumber1Filled),
-  'squareRoundedNumber1': const TablerIcon(
-      TablerIcons.squareRoundedNumber1, TablerIconsSvg.squareRoundedNumber1),
-  'squareRoundedNumber2Filled': const TablerIcon(
-      TablerIcons.squareRoundedNumber2Filled,
-      TablerIconsSvg.squareRoundedNumber2Filled),
-  'squareRoundedNumber2': const TablerIcon(
-      TablerIcons.squareRoundedNumber2, TablerIconsSvg.squareRoundedNumber2),
-  'squareRoundedNumber3Filled': const TablerIcon(
-      TablerIcons.squareRoundedNumber3Filled,
-      TablerIconsSvg.squareRoundedNumber3Filled),
-  'squareRoundedNumber3': const TablerIcon(
-      TablerIcons.squareRoundedNumber3, TablerIconsSvg.squareRoundedNumber3),
-  'squareRoundedNumber4Filled': const TablerIcon(
-      TablerIcons.squareRoundedNumber4Filled,
-      TablerIconsSvg.squareRoundedNumber4Filled),
-  'squareRoundedNumber4': const TablerIcon(
-      TablerIcons.squareRoundedNumber4, TablerIconsSvg.squareRoundedNumber4),
-  'squareRoundedNumber5Filled': const TablerIcon(
-      TablerIcons.squareRoundedNumber5Filled,
-      TablerIconsSvg.squareRoundedNumber5Filled),
-  'squareRoundedNumber5': const TablerIcon(
-      TablerIcons.squareRoundedNumber5, TablerIconsSvg.squareRoundedNumber5),
-  'squareRoundedNumber6Filled': const TablerIcon(
-      TablerIcons.squareRoundedNumber6Filled,
-      TablerIconsSvg.squareRoundedNumber6Filled),
-  'squareRoundedNumber6': const TablerIcon(
-      TablerIcons.squareRoundedNumber6, TablerIconsSvg.squareRoundedNumber6),
-  'squareRoundedNumber7Filled': const TablerIcon(
-      TablerIcons.squareRoundedNumber7Filled,
-      TablerIconsSvg.squareRoundedNumber7Filled),
-  'squareRoundedNumber7': const TablerIcon(
-      TablerIcons.squareRoundedNumber7, TablerIconsSvg.squareRoundedNumber7),
-  'squareRoundedNumber8Filled': const TablerIcon(
-      TablerIcons.squareRoundedNumber8Filled,
-      TablerIconsSvg.squareRoundedNumber8Filled),
-  'squareRoundedNumber8': const TablerIcon(
-      TablerIcons.squareRoundedNumber8, TablerIconsSvg.squareRoundedNumber8),
-  'squareRoundedNumber9Filled': const TablerIcon(
-      TablerIcons.squareRoundedNumber9Filled,
-      TablerIconsSvg.squareRoundedNumber9Filled),
-  'squareRoundedNumber9': const TablerIcon(
-      TablerIcons.squareRoundedNumber9, TablerIconsSvg.squareRoundedNumber9),
-  'squareRoundedPlus2': const TablerIcon(
-      TablerIcons.squareRoundedPlus2, TablerIconsSvg.squareRoundedPlus2),
-  'squareRoundedPlusFilled': const TablerIcon(
-      TablerIcons.squareRoundedPlusFilled,
-      TablerIconsSvg.squareRoundedPlusFilled),
-  'squareRoundedPlus': const TablerIcon(
-      TablerIcons.squareRoundedPlus, TablerIconsSvg.squareRoundedPlus),
-  'squareRoundedXFilled': const TablerIcon(
-      TablerIcons.squareRoundedXFilled, TablerIconsSvg.squareRoundedXFilled),
-  'squareRoundedX': const TablerIcon(
-      TablerIcons.squareRoundedX, TablerIconsSvg.squareRoundedX),
-  'squareRounded':
-      const TablerIcon(TablerIcons.squareRounded, TablerIconsSvg.squareRounded),
-  'squareToggleHorizontal': const TablerIcon(TablerIcons.squareToggleHorizontal,
-      TablerIconsSvg.squareToggleHorizontal),
-  'squareToggle':
-      const TablerIcon(TablerIcons.squareToggle, TablerIconsSvg.squareToggle),
-  'squareXFilled':
-      const TablerIcon(TablerIcons.squareXFilled, TablerIconsSvg.squareXFilled),
-  'squareX': const TablerIcon(TablerIcons.squareX, TablerIconsSvg.squareX),
-  'square': const TablerIcon(TablerIcons.square, TablerIconsSvg.square),
-  'squaresDiagonal': const TablerIcon(
-      TablerIcons.squaresDiagonal, TablerIconsSvg.squaresDiagonal),
-  'squaresFilled':
-      const TablerIcon(TablerIcons.squaresFilled, TablerIconsSvg.squaresFilled),
-  'stack2': const TablerIcon(TablerIcons.stack2, TablerIconsSvg.stack2),
-  'stack3': const TablerIcon(TablerIcons.stack3, TablerIconsSvg.stack3),
-  'stackPop': const TablerIcon(TablerIcons.stackPop, TablerIconsSvg.stackPop),
-  'stackPush':
-      const TablerIcon(TablerIcons.stackPush, TablerIconsSvg.stackPush),
-  'stack': const TablerIcon(TablerIcons.stack, TablerIconsSvg.stack),
-  'stairsDown':
-      const TablerIcon(TablerIcons.stairsDown, TablerIconsSvg.stairsDown),
-  'stairsUp': const TablerIcon(TablerIcons.stairsUp, TablerIconsSvg.stairsUp),
-  'stairs': const TablerIcon(TablerIcons.stairs, TablerIconsSvg.stairs),
-  'starFilled':
-      const TablerIcon(TablerIcons.starFilled, TablerIconsSvg.starFilled),
-  'starHalfFilled': const TablerIcon(
-      TablerIcons.starHalfFilled, TablerIconsSvg.starHalfFilled),
-  'starHalf': const TablerIcon(TablerIcons.starHalf, TablerIconsSvg.starHalf),
-  'starOff': const TablerIcon(TablerIcons.starOff, TablerIconsSvg.starOff),
-  'star': const TablerIcon(TablerIcons.star, TablerIconsSvg.star),
-  'starsFilled':
-      const TablerIcon(TablerIcons.starsFilled, TablerIconsSvg.starsFilled),
-  'starsOff': const TablerIcon(TablerIcons.starsOff, TablerIconsSvg.starsOff),
-  'stars': const TablerIcon(TablerIcons.stars, TablerIconsSvg.stars),
-  'statusChange':
-      const TablerIcon(TablerIcons.statusChange, TablerIconsSvg.statusChange),
-  'steam': const TablerIcon(TablerIcons.steam, TablerIconsSvg.steam),
-  'steeringWheelOff': const TablerIcon(
-      TablerIcons.steeringWheelOff, TablerIconsSvg.steeringWheelOff),
-  'steeringWheel':
-      const TablerIcon(TablerIcons.steeringWheel, TablerIconsSvg.steeringWheel),
-  'stepInto': const TablerIcon(TablerIcons.stepInto, TablerIconsSvg.stepInto),
-  'stepOut': const TablerIcon(TablerIcons.stepOut, TablerIconsSvg.stepOut),
-  'stereoGlasses':
-      const TablerIcon(TablerIcons.stereoGlasses, TablerIconsSvg.stereoGlasses),
-  'stethoscopeOff': const TablerIcon(
-      TablerIcons.stethoscopeOff, TablerIconsSvg.stethoscopeOff),
-  'stethoscope':
-      const TablerIcon(TablerIcons.stethoscope, TablerIconsSvg.stethoscope),
-  'sticker': const TablerIcon(TablerIcons.sticker, TablerIconsSvg.sticker),
-  'stormOff': const TablerIcon(TablerIcons.stormOff, TablerIconsSvg.stormOff),
-  'storm': const TablerIcon(TablerIcons.storm, TablerIconsSvg.storm),
-  'stretching2':
-      const TablerIcon(TablerIcons.stretching2, TablerIconsSvg.stretching2),
-  'stretching':
-      const TablerIcon(TablerIcons.stretching, TablerIconsSvg.stretching),
-  'strikethrough':
-      const TablerIcon(TablerIcons.strikethrough, TablerIconsSvg.strikethrough),
-  'submarine':
-      const TablerIcon(TablerIcons.submarine, TablerIconsSvg.submarine),
-  'subscript':
-      const TablerIcon(TablerIcons.subscript, TablerIconsSvg.subscript),
-  'subtask': const TablerIcon(TablerIcons.subtask, TablerIconsSvg.subtask),
-  'sumOff': const TablerIcon(TablerIcons.sumOff, TablerIconsSvg.sumOff),
-  'sum': const TablerIcon(TablerIcons.sum, TablerIconsSvg.sum),
-  'sunElectricity': const TablerIcon(
-      TablerIcons.sunElectricity, TablerIconsSvg.sunElectricity),
-  'sunFilled':
-      const TablerIcon(TablerIcons.sunFilled, TablerIconsSvg.sunFilled),
-  'sunHigh': const TablerIcon(TablerIcons.sunHigh, TablerIconsSvg.sunHigh),
-  'sunLow': const TablerIcon(TablerIcons.sunLow, TablerIconsSvg.sunLow),
-  'sunMoon': const TablerIcon(TablerIcons.sunMoon, TablerIconsSvg.sunMoon),
-  'sunOff': const TablerIcon(TablerIcons.sunOff, TablerIconsSvg.sunOff),
-  'sunWind': const TablerIcon(TablerIcons.sunWind, TablerIconsSvg.sunWind),
-  'sun': const TablerIcon(TablerIcons.sun, TablerIconsSvg.sun),
-  'sunglasses':
-      const TablerIcon(TablerIcons.sunglasses, TablerIconsSvg.sunglasses),
-  'sunrise': const TablerIcon(TablerIcons.sunrise, TablerIconsSvg.sunrise),
-  'sunset2': const TablerIcon(TablerIcons.sunset2, TablerIconsSvg.sunset2),
-  'sunset': const TablerIcon(TablerIcons.sunset, TablerIconsSvg.sunset),
-  'superscript':
-      const TablerIcon(TablerIcons.superscript, TablerIconsSvg.superscript),
-  'svg': const TablerIcon(TablerIcons.svg, TablerIconsSvg.svg),
-  'swimming': const TablerIcon(TablerIcons.swimming, TablerIconsSvg.swimming),
-  'swipe': const TablerIcon(TablerIcons.swipe, TablerIconsSvg.swipe),
-  'switch2': const TablerIcon(TablerIcons.switch2, TablerIconsSvg.switch2),
-  'switch3': const TablerIcon(TablerIcons.switch3, TablerIconsSvg.switch3),
-  'switchHorizontal': const TablerIcon(
-      TablerIcons.switchHorizontal, TablerIconsSvg.switchHorizontal),
-  'switchVertical': const TablerIcon(
-      TablerIcons.switchVertical, TablerIconsSvg.switchVertical),
-  '\$switch': const TablerIcon(TablerIcons.$switch, TablerIconsSvg.$switch),
-  'swordOff': const TablerIcon(TablerIcons.swordOff, TablerIconsSvg.swordOff),
-  'sword': const TablerIcon(TablerIcons.sword, TablerIconsSvg.sword),
-  'swords': const TablerIcon(TablerIcons.swords, TablerIconsSvg.swords),
-  'tableAlias':
-      const TablerIcon(TablerIcons.tableAlias, TablerIconsSvg.tableAlias),
-  'tableColumn':
-      const TablerIcon(TablerIcons.tableColumn, TablerIconsSvg.tableColumn),
-  'tableDown':
-      const TablerIcon(TablerIcons.tableDown, TablerIconsSvg.tableDown),
-  'tableExport':
-      const TablerIcon(TablerIcons.tableExport, TablerIconsSvg.tableExport),
-  'tableFilled':
-      const TablerIcon(TablerIcons.tableFilled, TablerIconsSvg.tableFilled),
-  'tableHeart':
-      const TablerIcon(TablerIcons.tableHeart, TablerIconsSvg.tableHeart),
-  'tableImport':
-      const TablerIcon(TablerIcons.tableImport, TablerIconsSvg.tableImport),
-  'tableMinus':
-      const TablerIcon(TablerIcons.tableMinus, TablerIconsSvg.tableMinus),
-  'tableOff': const TablerIcon(TablerIcons.tableOff, TablerIconsSvg.tableOff),
-  'tableOptions':
-      const TablerIcon(TablerIcons.tableOptions, TablerIconsSvg.tableOptions),
-  'tablePlus':
-      const TablerIcon(TablerIcons.tablePlus, TablerIconsSvg.tablePlus),
-  'tableRow': const TablerIcon(TablerIcons.tableRow, TablerIconsSvg.tableRow),
-  'tableShare':
-      const TablerIcon(TablerIcons.tableShare, TablerIconsSvg.tableShare),
-  'tableShortcut':
-      const TablerIcon(TablerIcons.tableShortcut, TablerIconsSvg.tableShortcut),
-  'table': const TablerIcon(TablerIcons.table, TablerIconsSvg.table),
-  'tagOff': const TablerIcon(TablerIcons.tagOff, TablerIconsSvg.tagOff),
-  'tagStarred':
-      const TablerIcon(TablerIcons.tagStarred, TablerIconsSvg.tagStarred),
-  'tag': const TablerIcon(TablerIcons.tag, TablerIconsSvg.tag),
-  'tagsOff': const TablerIcon(TablerIcons.tagsOff, TablerIconsSvg.tagsOff),
-  'tags': const TablerIcon(TablerIcons.tags, TablerIconsSvg.tags),
-  'tallymark1':
-      const TablerIcon(TablerIcons.tallymark1, TablerIconsSvg.tallymark1),
-  'tallymark2':
-      const TablerIcon(TablerIcons.tallymark2, TablerIconsSvg.tallymark2),
-  'tallymark3':
-      const TablerIcon(TablerIcons.tallymark3, TablerIconsSvg.tallymark3),
-  'tallymark4':
-      const TablerIcon(TablerIcons.tallymark4, TablerIconsSvg.tallymark4),
-  'tallymarks':
-      const TablerIcon(TablerIcons.tallymarks, TablerIconsSvg.tallymarks),
-  'tank': const TablerIcon(TablerIcons.tank, TablerIconsSvg.tank),
-  'targetArrow':
-      const TablerIcon(TablerIcons.targetArrow, TablerIconsSvg.targetArrow),
-  'targetOff':
-      const TablerIcon(TablerIcons.targetOff, TablerIconsSvg.targetOff),
-  'target': const TablerIcon(TablerIcons.target, TablerIconsSvg.target),
-  'teapot': const TablerIcon(TablerIcons.teapot, TablerIconsSvg.teapot),
-  'telescopeOff':
-      const TablerIcon(TablerIcons.telescopeOff, TablerIconsSvg.telescopeOff),
-  'telescope':
-      const TablerIcon(TablerIcons.telescope, TablerIconsSvg.telescope),
-  'temperatureCelsius': const TablerIcon(
-      TablerIcons.temperatureCelsius, TablerIconsSvg.temperatureCelsius),
-  'temperatureFahrenheit': const TablerIcon(
-      TablerIcons.temperatureFahrenheit, TablerIconsSvg.temperatureFahrenheit),
-  'temperatureMinus': const TablerIcon(
-      TablerIcons.temperatureMinus, TablerIconsSvg.temperatureMinus),
-  'temperatureOff': const TablerIcon(
-      TablerIcons.temperatureOff, TablerIconsSvg.temperatureOff),
-  'temperaturePlus': const TablerIcon(
-      TablerIcons.temperaturePlus, TablerIconsSvg.temperaturePlus),
-  'temperature':
-      const TablerIcon(TablerIcons.temperature, TablerIconsSvg.temperature),
-  'templateOff':
-      const TablerIcon(TablerIcons.templateOff, TablerIconsSvg.templateOff),
-  'template': const TablerIcon(TablerIcons.template, TablerIconsSvg.template),
-  'tentOff': const TablerIcon(TablerIcons.tentOff, TablerIconsSvg.tentOff),
-  'tent': const TablerIcon(TablerIcons.tent, TablerIconsSvg.tent),
-  'terminal2':
-      const TablerIcon(TablerIcons.terminal2, TablerIconsSvg.terminal2),
-  'terminal': const TablerIcon(TablerIcons.terminal, TablerIconsSvg.terminal),
-  'testPipe2':
-      const TablerIcon(TablerIcons.testPipe2, TablerIconsSvg.testPipe2),
-  'testPipeOff':
-      const TablerIcon(TablerIcons.testPipeOff, TablerIconsSvg.testPipeOff),
-  'testPipe': const TablerIcon(TablerIcons.testPipe, TablerIconsSvg.testPipe),
-  'tex': const TablerIcon(TablerIcons.tex, TablerIconsSvg.tex),
-  'textCaption':
-      const TablerIcon(TablerIcons.textCaption, TablerIconsSvg.textCaption),
-  'textColor':
-      const TablerIcon(TablerIcons.textColor, TablerIconsSvg.textColor),
-  'textDecrease':
-      const TablerIcon(TablerIcons.textDecrease, TablerIconsSvg.textDecrease),
-  'textDirectionLtr': const TablerIcon(
-      TablerIcons.textDirectionLtr, TablerIconsSvg.textDirectionLtr),
-  'textDirectionRtl': const TablerIcon(
-      TablerIcons.textDirectionRtl, TablerIconsSvg.textDirectionRtl),
-  'textIncrease':
-      const TablerIcon(TablerIcons.textIncrease, TablerIconsSvg.textIncrease),
-  'textOrientation': const TablerIcon(
-      TablerIcons.textOrientation, TablerIconsSvg.textOrientation),
-  'textPlus': const TablerIcon(TablerIcons.textPlus, TablerIconsSvg.textPlus),
-  'textRecognition': const TablerIcon(
-      TablerIcons.textRecognition, TablerIconsSvg.textRecognition),
-  'textResize':
-      const TablerIcon(TablerIcons.textResize, TablerIconsSvg.textResize),
-  'textScan2':
-      const TablerIcon(TablerIcons.textScan2, TablerIconsSvg.textScan2),
-  'textSize': const TablerIcon(TablerIcons.textSize, TablerIconsSvg.textSize),
-  'textSpellcheck': const TablerIcon(
-      TablerIcons.textSpellcheck, TablerIconsSvg.textSpellcheck),
-  'textWrapDisabled': const TablerIcon(
-      TablerIcons.textWrapDisabled, TablerIconsSvg.textWrapDisabled),
-  'textWrap': const TablerIcon(TablerIcons.textWrap, TablerIconsSvg.textWrap),
-  'texture': const TablerIcon(TablerIcons.texture, TablerIconsSvg.texture),
-  'theater': const TablerIcon(TablerIcons.theater, TablerIconsSvg.theater),
-  'thermometer':
-      const TablerIcon(TablerIcons.thermometer, TablerIconsSvg.thermometer),
-  'thumbDownFilled': const TablerIcon(
-      TablerIcons.thumbDownFilled, TablerIconsSvg.thumbDownFilled),
-  'thumbDownOff':
-      const TablerIcon(TablerIcons.thumbDownOff, TablerIconsSvg.thumbDownOff),
-  'thumbDown':
-      const TablerIcon(TablerIcons.thumbDown, TablerIconsSvg.thumbDown),
-  'thumbUpFilled':
-      const TablerIcon(TablerIcons.thumbUpFilled, TablerIconsSvg.thumbUpFilled),
-  'thumbUpOff':
-      const TablerIcon(TablerIcons.thumbUpOff, TablerIconsSvg.thumbUpOff),
-  'thumbUp': const TablerIcon(TablerIcons.thumbUp, TablerIconsSvg.thumbUp),
-  'ticTac': const TablerIcon(TablerIcons.ticTac, TablerIconsSvg.ticTac),
-  'ticketOff':
-      const TablerIcon(TablerIcons.ticketOff, TablerIconsSvg.ticketOff),
-  'ticket': const TablerIcon(TablerIcons.ticket, TablerIconsSvg.ticket),
-  'tie': const TablerIcon(TablerIcons.tie, TablerIconsSvg.tie),
-  'tilde': const TablerIcon(TablerIcons.tilde, TablerIconsSvg.tilde),
-  'tiltShiftOff':
-      const TablerIcon(TablerIcons.tiltShiftOff, TablerIconsSvg.tiltShiftOff),
-  'tiltShift':
-      const TablerIcon(TablerIcons.tiltShift, TablerIconsSvg.tiltShift),
-  'timeDuration0':
-      const TablerIcon(TablerIcons.timeDuration0, TablerIconsSvg.timeDuration0),
-  'timeDuration10': const TablerIcon(
-      TablerIcons.timeDuration10, TablerIconsSvg.timeDuration10),
-  'timeDuration15': const TablerIcon(
-      TablerIcons.timeDuration15, TablerIconsSvg.timeDuration15),
-  'timeDuration30': const TablerIcon(
-      TablerIcons.timeDuration30, TablerIconsSvg.timeDuration30),
-  'timeDuration45': const TablerIcon(
-      TablerIcons.timeDuration45, TablerIconsSvg.timeDuration45),
-  'timeDuration5':
-      const TablerIcon(TablerIcons.timeDuration5, TablerIconsSvg.timeDuration5),
-  'timeDuration60': const TablerIcon(
-      TablerIcons.timeDuration60, TablerIconsSvg.timeDuration60),
-  'timeDuration90': const TablerIcon(
-      TablerIcons.timeDuration90, TablerIconsSvg.timeDuration90),
-  'timeDurationOff': const TablerIcon(
-      TablerIcons.timeDurationOff, TablerIconsSvg.timeDurationOff),
-  'timelineEventExclamation': const TablerIcon(
-      TablerIcons.timelineEventExclamation,
-      TablerIconsSvg.timelineEventExclamation),
-  'timelineEventMinus': const TablerIcon(
-      TablerIcons.timelineEventMinus, TablerIconsSvg.timelineEventMinus),
-  'timelineEventPlus': const TablerIcon(
-      TablerIcons.timelineEventPlus, TablerIconsSvg.timelineEventPlus),
-  'timelineEventText': const TablerIcon(
-      TablerIcons.timelineEventText, TablerIconsSvg.timelineEventText),
-  'timelineEventX': const TablerIcon(
-      TablerIcons.timelineEventX, TablerIconsSvg.timelineEventX),
-  'timelineEvent':
-      const TablerIcon(TablerIcons.timelineEvent, TablerIconsSvg.timelineEvent),
-  'timeline': const TablerIcon(TablerIcons.timeline, TablerIconsSvg.timeline),
-  'tir': const TablerIcon(TablerIcons.tir, TablerIconsSvg.tir),
-  'toggleLeft':
-      const TablerIcon(TablerIcons.toggleLeft, TablerIconsSvg.toggleLeft),
-  'toggleRight':
-      const TablerIcon(TablerIcons.toggleRight, TablerIconsSvg.toggleRight),
-  'toiletPaperOff': const TablerIcon(
-      TablerIcons.toiletPaperOff, TablerIconsSvg.toiletPaperOff),
-  'toiletPaper':
-      const TablerIcon(TablerIcons.toiletPaper, TablerIconsSvg.toiletPaper),
-  'toml': const TablerIcon(TablerIcons.toml, TablerIconsSvg.toml),
-  'tool': const TablerIcon(TablerIcons.tool, TablerIconsSvg.tool),
-  'toolsKitchen2Off': const TablerIcon(
-      TablerIcons.toolsKitchen2Off, TablerIconsSvg.toolsKitchen2Off),
-  'toolsKitchen2':
-      const TablerIcon(TablerIcons.toolsKitchen2, TablerIconsSvg.toolsKitchen2),
-  'toolsKitchenOff': const TablerIcon(
-      TablerIcons.toolsKitchenOff, TablerIconsSvg.toolsKitchenOff),
-  'toolsKitchen':
-      const TablerIcon(TablerIcons.toolsKitchen, TablerIconsSvg.toolsKitchen),
-  'toolsOff': const TablerIcon(TablerIcons.toolsOff, TablerIconsSvg.toolsOff),
-  'tools': const TablerIcon(TablerIcons.tools, TablerIconsSvg.tools),
-  'tooltip': const TablerIcon(TablerIcons.tooltip, TablerIconsSvg.tooltip),
-  'topologyBus':
-      const TablerIcon(TablerIcons.topologyBus, TablerIconsSvg.topologyBus),
-  'topologyComplex': const TablerIcon(
-      TablerIcons.topologyComplex, TablerIconsSvg.topologyComplex),
-  'topologyFullHierarchy': const TablerIcon(
-      TablerIcons.topologyFullHierarchy, TablerIconsSvg.topologyFullHierarchy),
-  'topologyFull':
-      const TablerIcon(TablerIcons.topologyFull, TablerIconsSvg.topologyFull),
-  'topologyRing2':
-      const TablerIcon(TablerIcons.topologyRing2, TablerIconsSvg.topologyRing2),
-  'topologyRing3':
-      const TablerIcon(TablerIcons.topologyRing3, TablerIconsSvg.topologyRing3),
-  'topologyRing':
-      const TablerIcon(TablerIcons.topologyRing, TablerIconsSvg.topologyRing),
-  'topologyStar2':
-      const TablerIcon(TablerIcons.topologyStar2, TablerIconsSvg.topologyStar2),
-  'topologyStar3':
-      const TablerIcon(TablerIcons.topologyStar3, TablerIconsSvg.topologyStar3),
-  'topologyStarRing2': const TablerIcon(
-      TablerIcons.topologyStarRing2, TablerIconsSvg.topologyStarRing2),
-  'topologyStarRing3': const TablerIcon(
-      TablerIcons.topologyStarRing3, TablerIconsSvg.topologyStarRing3),
-  'topologyStarRing': const TablerIcon(
-      TablerIcons.topologyStarRing, TablerIconsSvg.topologyStarRing),
-  'topologyStar':
-      const TablerIcon(TablerIcons.topologyStar, TablerIconsSvg.topologyStar),
-  'torii': const TablerIcon(TablerIcons.torii, TablerIconsSvg.torii),
-  'tornado': const TablerIcon(TablerIcons.tornado, TablerIconsSvg.tornado),
-  'tournament':
-      const TablerIcon(TablerIcons.tournament, TablerIconsSvg.tournament),
-  'towerOff': const TablerIcon(TablerIcons.towerOff, TablerIconsSvg.towerOff),
-  'tower': const TablerIcon(TablerIcons.tower, TablerIconsSvg.tower),
-  'track': const TablerIcon(TablerIcons.track, TablerIconsSvg.track),
-  'tractor': const TablerIcon(TablerIcons.tractor, TablerIconsSvg.tractor),
-  'trademark':
-      const TablerIcon(TablerIcons.trademark, TablerIconsSvg.trademark),
-  'trafficConeOff': const TablerIcon(
-      TablerIcons.trafficConeOff, TablerIconsSvg.trafficConeOff),
-  'trafficCone':
-      const TablerIcon(TablerIcons.trafficCone, TablerIconsSvg.trafficCone),
-  'trafficLightsOff': const TablerIcon(
-      TablerIcons.trafficLightsOff, TablerIconsSvg.trafficLightsOff),
-  'trafficLights':
-      const TablerIcon(TablerIcons.trafficLights, TablerIconsSvg.trafficLights),
-  'train': const TablerIcon(TablerIcons.train, TablerIconsSvg.train),
-  'transferIn':
-      const TablerIcon(TablerIcons.transferIn, TablerIconsSvg.transferIn),
-  'transferOut':
-      const TablerIcon(TablerIcons.transferOut, TablerIconsSvg.transferOut),
-  'transferVertical': const TablerIcon(
-      TablerIcons.transferVertical, TablerIconsSvg.transferVertical),
-  'transfer': const TablerIcon(TablerIcons.transfer, TablerIconsSvg.transfer),
-  'transformFilled': const TablerIcon(
-      TablerIcons.transformFilled, TablerIconsSvg.transformFilled),
-  'transform':
-      const TablerIcon(TablerIcons.transform, TablerIconsSvg.transform),
-  'transitionBottom': const TablerIcon(
-      TablerIcons.transitionBottom, TablerIconsSvg.transitionBottom),
-  'transitionLeft': const TablerIcon(
-      TablerIcons.transitionLeft, TablerIconsSvg.transitionLeft),
-  'transitionRight': const TablerIcon(
-      TablerIcons.transitionRight, TablerIconsSvg.transitionRight),
-  'transitionTop':
-      const TablerIcon(TablerIcons.transitionTop, TablerIconsSvg.transitionTop),
-  'trashFilled':
-      const TablerIcon(TablerIcons.trashFilled, TablerIconsSvg.trashFilled),
-  'trashOff': const TablerIcon(TablerIcons.trashOff, TablerIconsSvg.trashOff),
-  'trashXFilled':
-      const TablerIcon(TablerIcons.trashXFilled, TablerIconsSvg.trashXFilled),
-  'trashX': const TablerIcon(TablerIcons.trashX, TablerIconsSvg.trashX),
-  'trash': const TablerIcon(TablerIcons.trash, TablerIconsSvg.trash),
-  'treadmill':
-      const TablerIcon(TablerIcons.treadmill, TablerIconsSvg.treadmill),
-  'tree': const TablerIcon(TablerIcons.tree, TablerIconsSvg.tree),
-  'trees': const TablerIcon(TablerIcons.trees, TablerIconsSvg.trees),
-  'trekking': const TablerIcon(TablerIcons.trekking, TablerIconsSvg.trekking),
-  'trendingDown2':
-      const TablerIcon(TablerIcons.trendingDown2, TablerIconsSvg.trendingDown2),
-  'trendingDown3':
-      const TablerIcon(TablerIcons.trendingDown3, TablerIconsSvg.trendingDown3),
-  'trendingDown':
-      const TablerIcon(TablerIcons.trendingDown, TablerIconsSvg.trendingDown),
-  'trendingUp2':
-      const TablerIcon(TablerIcons.trendingUp2, TablerIconsSvg.trendingUp2),
-  'trendingUp3':
-      const TablerIcon(TablerIcons.trendingUp3, TablerIconsSvg.trendingUp3),
-  'trendingUp':
-      const TablerIcon(TablerIcons.trendingUp, TablerIconsSvg.trendingUp),
-  'triangleFilled': const TablerIcon(
-      TablerIcons.triangleFilled, TablerIconsSvg.triangleFilled),
-  'triangleInvertedFilled': const TablerIcon(TablerIcons.triangleInvertedFilled,
-      TablerIconsSvg.triangleInvertedFilled),
-  'triangleInverted': const TablerIcon(
-      TablerIcons.triangleInverted, TablerIconsSvg.triangleInverted),
-  'triangleMinus2': const TablerIcon(
-      TablerIcons.triangleMinus2, TablerIconsSvg.triangleMinus2),
-  'triangleMinus':
-      const TablerIcon(TablerIcons.triangleMinus, TablerIconsSvg.triangleMinus),
-  'triangleOff':
-      const TablerIcon(TablerIcons.triangleOff, TablerIconsSvg.triangleOff),
-  'trianglePlus2':
-      const TablerIcon(TablerIcons.trianglePlus2, TablerIconsSvg.trianglePlus2),
-  'trianglePlus':
-      const TablerIcon(TablerIcons.trianglePlus, TablerIconsSvg.trianglePlus),
-  'triangleSquareCircleFilled': const TablerIcon(
-      TablerIcons.triangleSquareCircleFilled,
-      TablerIconsSvg.triangleSquareCircleFilled),
-  'triangleSquareCircle': const TablerIcon(
-      TablerIcons.triangleSquareCircle, TablerIconsSvg.triangleSquareCircle),
-  'triangle': const TablerIcon(TablerIcons.triangle, TablerIconsSvg.triangle),
-  'triangles':
-      const TablerIcon(TablerIcons.triangles, TablerIconsSvg.triangles),
-  'trident': const TablerIcon(TablerIcons.trident, TablerIconsSvg.trident),
-  'trolley': const TablerIcon(TablerIcons.trolley, TablerIconsSvg.trolley),
-  'trophyFilled':
-      const TablerIcon(TablerIcons.trophyFilled, TablerIconsSvg.trophyFilled),
-  'trophyOff':
-      const TablerIcon(TablerIcons.trophyOff, TablerIconsSvg.trophyOff),
-  'trophy': const TablerIcon(TablerIcons.trophy, TablerIconsSvg.trophy),
-  'trowel': const TablerIcon(TablerIcons.trowel, TablerIconsSvg.trowel),
-  'truckDelivery':
-      const TablerIcon(TablerIcons.truckDelivery, TablerIconsSvg.truckDelivery),
-  'truckLoading':
-      const TablerIcon(TablerIcons.truckLoading, TablerIconsSvg.truckLoading),
-  'truckOff': const TablerIcon(TablerIcons.truckOff, TablerIconsSvg.truckOff),
-  'truckReturn':
-      const TablerIcon(TablerIcons.truckReturn, TablerIconsSvg.truckReturn),
-  'truck': const TablerIcon(TablerIcons.truck, TablerIconsSvg.truck),
-  'txt': const TablerIcon(TablerIcons.txt, TablerIconsSvg.txt),
-  'typographyOff':
-      const TablerIcon(TablerIcons.typographyOff, TablerIconsSvg.typographyOff),
-  'typography':
-      const TablerIcon(TablerIcons.typography, TablerIconsSvg.typography),
-  'ufoOff': const TablerIcon(TablerIcons.ufoOff, TablerIconsSvg.ufoOff),
-  'ufo': const TablerIcon(TablerIcons.ufo, TablerIconsSvg.ufo),
-  'umbrellaFilled': const TablerIcon(
-      TablerIcons.umbrellaFilled, TablerIconsSvg.umbrellaFilled),
-  'umbrellaOff':
-      const TablerIcon(TablerIcons.umbrellaOff, TablerIconsSvg.umbrellaOff),
-  'umbrella': const TablerIcon(TablerIcons.umbrella, TablerIconsSvg.umbrella),
-  'underline':
-      const TablerIcon(TablerIcons.underline, TablerIconsSvg.underline),
-  'universe': const TablerIcon(TablerIcons.universe, TablerIconsSvg.universe),
-  'unlink': const TablerIcon(TablerIcons.unlink, TablerIconsSvg.unlink),
-  'upload': const TablerIcon(TablerIcons.upload, TablerIconsSvg.upload),
-  'urgent': const TablerIcon(TablerIcons.urgent, TablerIconsSvg.urgent),
-  'usb': const TablerIcon(TablerIcons.usb, TablerIconsSvg.usb),
-  'userBolt': const TablerIcon(TablerIcons.userBolt, TablerIconsSvg.userBolt),
-  'userCancel':
-      const TablerIcon(TablerIcons.userCancel, TablerIconsSvg.userCancel),
-  'userCheck':
-      const TablerIcon(TablerIcons.userCheck, TablerIconsSvg.userCheck),
-  'userCircle':
-      const TablerIcon(TablerIcons.userCircle, TablerIconsSvg.userCircle),
-  'userCode': const TablerIcon(TablerIcons.userCode, TablerIconsSvg.userCode),
-  'userCog': const TablerIcon(TablerIcons.userCog, TablerIconsSvg.userCog),
-  'userDollar':
-      const TablerIcon(TablerIcons.userDollar, TablerIconsSvg.userDollar),
-  'userDown': const TablerIcon(TablerIcons.userDown, TablerIconsSvg.userDown),
-  'userEdit': const TablerIcon(TablerIcons.userEdit, TablerIconsSvg.userEdit),
-  'userExclamation': const TablerIcon(
-      TablerIcons.userExclamation, TablerIconsSvg.userExclamation),
-  'userHeart':
-      const TablerIcon(TablerIcons.userHeart, TablerIconsSvg.userHeart),
-  'userHexagon':
-      const TablerIcon(TablerIcons.userHexagon, TablerIconsSvg.userHexagon),
-  'userMinus':
-      const TablerIcon(TablerIcons.userMinus, TablerIconsSvg.userMinus),
-  'userOff': const TablerIcon(TablerIcons.userOff, TablerIconsSvg.userOff),
-  'userPause':
-      const TablerIcon(TablerIcons.userPause, TablerIconsSvg.userPause),
-  'userPentagon':
-      const TablerIcon(TablerIcons.userPentagon, TablerIconsSvg.userPentagon),
-  'userPin': const TablerIcon(TablerIcons.userPin, TablerIconsSvg.userPin),
-  'userPlus': const TablerIcon(TablerIcons.userPlus, TablerIconsSvg.userPlus),
-  'userQuestion':
-      const TablerIcon(TablerIcons.userQuestion, TablerIconsSvg.userQuestion),
-  'userScan': const TablerIcon(TablerIcons.userScan, TablerIconsSvg.userScan),
-  'userSearch':
-      const TablerIcon(TablerIcons.userSearch, TablerIconsSvg.userSearch),
-  'userShare':
-      const TablerIcon(TablerIcons.userShare, TablerIconsSvg.userShare),
-  'userShield':
-      const TablerIcon(TablerIcons.userShield, TablerIconsSvg.userShield),
-  'userSquareRounded': const TablerIcon(
-      TablerIcons.userSquareRounded, TablerIconsSvg.userSquareRounded),
-  'userSquare':
-      const TablerIcon(TablerIcons.userSquare, TablerIconsSvg.userSquare),
-  'userStar': const TablerIcon(TablerIcons.userStar, TablerIconsSvg.userStar),
-  'userUp': const TablerIcon(TablerIcons.userUp, TablerIconsSvg.userUp),
-  'userX': const TablerIcon(TablerIcons.userX, TablerIconsSvg.userX),
-  'user': const TablerIcon(TablerIcons.user, TablerIconsSvg.user),
-  'usersGroup':
-      const TablerIcon(TablerIcons.usersGroup, TablerIconsSvg.usersGroup),
-  'usersMinus':
-      const TablerIcon(TablerIcons.usersMinus, TablerIconsSvg.usersMinus),
-  'usersPlus':
-      const TablerIcon(TablerIcons.usersPlus, TablerIconsSvg.usersPlus),
-  'users': const TablerIcon(TablerIcons.users, TablerIconsSvg.users),
-  'uvIndex': const TablerIcon(TablerIcons.uvIndex, TablerIconsSvg.uvIndex),
-  'uxCircle': const TablerIcon(TablerIcons.uxCircle, TablerIconsSvg.uxCircle),
-  'vaccineBottleOff': const TablerIcon(
-      TablerIcons.vaccineBottleOff, TablerIconsSvg.vaccineBottleOff),
-  'vaccineBottle':
-      const TablerIcon(TablerIcons.vaccineBottle, TablerIconsSvg.vaccineBottle),
-  'vaccineOff':
-      const TablerIcon(TablerIcons.vaccineOff, TablerIconsSvg.vaccineOff),
-  'vaccine': const TablerIcon(TablerIcons.vaccine, TablerIconsSvg.vaccine),
-  'vacuumCleaner':
-      const TablerIcon(TablerIcons.vacuumCleaner, TablerIconsSvg.vacuumCleaner),
-  'variableMinus':
-      const TablerIcon(TablerIcons.variableMinus, TablerIconsSvg.variableMinus),
-  'variableOff':
-      const TablerIcon(TablerIcons.variableOff, TablerIconsSvg.variableOff),
-  'variablePlus':
-      const TablerIcon(TablerIcons.variablePlus, TablerIconsSvg.variablePlus),
-  'variable': const TablerIcon(TablerIcons.variable, TablerIconsSvg.variable),
-  'vectorBezier2':
-      const TablerIcon(TablerIcons.vectorBezier2, TablerIconsSvg.vectorBezier2),
-  'vectorBezierArc': const TablerIcon(
-      TablerIcons.vectorBezierArc, TablerIconsSvg.vectorBezierArc),
-  'vectorBezierCircle': const TablerIcon(
-      TablerIcons.vectorBezierCircle, TablerIconsSvg.vectorBezierCircle),
-  'vectorBezier':
-      const TablerIcon(TablerIcons.vectorBezier, TablerIconsSvg.vectorBezier),
-  'vectorOff':
-      const TablerIcon(TablerIcons.vectorOff, TablerIconsSvg.vectorOff),
-  'vectorSpline':
-      const TablerIcon(TablerIcons.vectorSpline, TablerIconsSvg.vectorSpline),
-  'vectorTriangleOff': const TablerIcon(
-      TablerIcons.vectorTriangleOff, TablerIconsSvg.vectorTriangleOff),
-  'vectorTriangle': const TablerIcon(
-      TablerIcons.vectorTriangle, TablerIconsSvg.vectorTriangle),
-  'vector': const TablerIcon(TablerIcons.vector, TablerIconsSvg.vector),
-  'venus': const TablerIcon(TablerIcons.venus, TablerIconsSvg.venus),
-  'versionsFilled': const TablerIcon(
-      TablerIcons.versionsFilled, TablerIconsSvg.versionsFilled),
-  'versionsOff':
-      const TablerIcon(TablerIcons.versionsOff, TablerIconsSvg.versionsOff),
-  'versions': const TablerIcon(TablerIcons.versions, TablerIconsSvg.versions),
-  'videoMinus':
-      const TablerIcon(TablerIcons.videoMinus, TablerIconsSvg.videoMinus),
-  'videoOff': const TablerIcon(TablerIcons.videoOff, TablerIconsSvg.videoOff),
-  'videoPlus':
-      const TablerIcon(TablerIcons.videoPlus, TablerIconsSvg.videoPlus),
-  'video': const TablerIcon(TablerIcons.video, TablerIconsSvg.video),
-  'view360Off':
-      const TablerIcon(TablerIcons.view360Off, TablerIconsSvg.view360Off),
-  'view360': const TablerIcon(TablerIcons.view360, TablerIconsSvg.view360),
-  'viewfinderOff':
-      const TablerIcon(TablerIcons.viewfinderOff, TablerIconsSvg.viewfinderOff),
-  'viewfinder':
-      const TablerIcon(TablerIcons.viewfinder, TablerIconsSvg.viewfinder),
-  'viewportNarrow': const TablerIcon(
-      TablerIcons.viewportNarrow, TablerIconsSvg.viewportNarrow),
-  'viewportWide':
-      const TablerIcon(TablerIcons.viewportWide, TablerIconsSvg.viewportWide),
-  'vinyl': const TablerIcon(TablerIcons.vinyl, TablerIconsSvg.vinyl),
-  'vipOff': const TablerIcon(TablerIcons.vipOff, TablerIconsSvg.vipOff),
-  'vip': const TablerIcon(TablerIcons.vip, TablerIconsSvg.vip),
-  'virusOff': const TablerIcon(TablerIcons.virusOff, TablerIconsSvg.virusOff),
-  'virusSearch':
-      const TablerIcon(TablerIcons.virusSearch, TablerIconsSvg.virusSearch),
-  'virus': const TablerIcon(TablerIcons.virus, TablerIconsSvg.virus),
-  'vocabularyOff':
-      const TablerIcon(TablerIcons.vocabularyOff, TablerIconsSvg.vocabularyOff),
-  'vocabulary':
-      const TablerIcon(TablerIcons.vocabulary, TablerIconsSvg.vocabulary),
-  'volcano': const TablerIcon(TablerIcons.volcano, TablerIconsSvg.volcano),
-  'volume2': const TablerIcon(TablerIcons.volume2, TablerIconsSvg.volume2),
-  'volume3': const TablerIcon(TablerIcons.volume3, TablerIconsSvg.volume3),
-  'volumeOff':
-      const TablerIcon(TablerIcons.volumeOff, TablerIconsSvg.volumeOff),
-  'volume': const TablerIcon(TablerIcons.volume, TablerIconsSvg.volume),
-  'vs': const TablerIcon(TablerIcons.vs, TablerIconsSvg.vs),
-  'walk': const TablerIcon(TablerIcons.walk, TablerIconsSvg.walk),
-  'wallOff': const TablerIcon(TablerIcons.wallOff, TablerIconsSvg.wallOff),
-  'wall': const TablerIcon(TablerIcons.wall, TablerIconsSvg.wall),
-  'walletOff':
-      const TablerIcon(TablerIcons.walletOff, TablerIconsSvg.walletOff),
-  'wallet': const TablerIcon(TablerIcons.wallet, TablerIconsSvg.wallet),
-  'wallpaperOff':
-      const TablerIcon(TablerIcons.wallpaperOff, TablerIconsSvg.wallpaperOff),
-  'wallpaper':
-      const TablerIcon(TablerIcons.wallpaper, TablerIconsSvg.wallpaper),
-  'wandOff': const TablerIcon(TablerIcons.wandOff, TablerIconsSvg.wandOff),
-  'wand': const TablerIcon(TablerIcons.wand, TablerIconsSvg.wand),
-  'washDry1': const TablerIcon(TablerIcons.washDry1, TablerIconsSvg.washDry1),
-  'washDry2': const TablerIcon(TablerIcons.washDry2, TablerIconsSvg.washDry2),
-  'washDry3': const TablerIcon(TablerIcons.washDry3, TablerIconsSvg.washDry3),
-  'washDryA': const TablerIcon(TablerIcons.washDryA, TablerIconsSvg.washDryA),
-  'washDryDip':
-      const TablerIcon(TablerIcons.washDryDip, TablerIconsSvg.washDryDip),
-  'washDryF': const TablerIcon(TablerIcons.washDryF, TablerIconsSvg.washDryF),
-  'washDryFlat':
-      const TablerIcon(TablerIcons.washDryFlat, TablerIconsSvg.washDryFlat),
-  'washDryHang':
-      const TablerIcon(TablerIcons.washDryHang, TablerIconsSvg.washDryHang),
-  'washDryOff':
-      const TablerIcon(TablerIcons.washDryOff, TablerIconsSvg.washDryOff),
-  'washDryP': const TablerIcon(TablerIcons.washDryP, TablerIconsSvg.washDryP),
-  'washDryShade':
-      const TablerIcon(TablerIcons.washDryShade, TablerIconsSvg.washDryShade),
-  'washDryW': const TablerIcon(TablerIcons.washDryW, TablerIconsSvg.washDryW),
-  'washDry': const TablerIcon(TablerIcons.washDry, TablerIconsSvg.washDry),
-  'washDrycleanOff': const TablerIcon(
-      TablerIcons.washDrycleanOff, TablerIconsSvg.washDrycleanOff),
-  'washDryclean':
-      const TablerIcon(TablerIcons.washDryclean, TablerIconsSvg.washDryclean),
-  'washEco': const TablerIcon(TablerIcons.washEco, TablerIconsSvg.washEco),
-  'washGentle':
-      const TablerIcon(TablerIcons.washGentle, TablerIconsSvg.washGentle),
-  'washHand': const TablerIcon(TablerIcons.washHand, TablerIconsSvg.washHand),
-  'washMachine':
-      const TablerIcon(TablerIcons.washMachine, TablerIconsSvg.washMachine),
-  'washOff': const TablerIcon(TablerIcons.washOff, TablerIconsSvg.washOff),
-  'washPress':
-      const TablerIcon(TablerIcons.washPress, TablerIconsSvg.washPress),
-  'washTemperature1': const TablerIcon(
-      TablerIcons.washTemperature1, TablerIconsSvg.washTemperature1),
-  'washTemperature2': const TablerIcon(
-      TablerIcons.washTemperature2, TablerIconsSvg.washTemperature2),
-  'washTemperature3': const TablerIcon(
-      TablerIcons.washTemperature3, TablerIconsSvg.washTemperature3),
-  'washTemperature4': const TablerIcon(
-      TablerIcons.washTemperature4, TablerIconsSvg.washTemperature4),
-  'washTemperature5': const TablerIcon(
-      TablerIcons.washTemperature5, TablerIconsSvg.washTemperature5),
-  'washTemperature6': const TablerIcon(
-      TablerIcons.washTemperature6, TablerIconsSvg.washTemperature6),
-  'washTumbleDry':
-      const TablerIcon(TablerIcons.washTumbleDry, TablerIconsSvg.washTumbleDry),
-  'washTumbleOff':
-      const TablerIcon(TablerIcons.washTumbleOff, TablerIconsSvg.washTumbleOff),
-  'wash': const TablerIcon(TablerIcons.wash, TablerIconsSvg.wash),
-  'waterpolo':
-      const TablerIcon(TablerIcons.waterpolo, TablerIconsSvg.waterpolo),
-  'waveSawTool':
-      const TablerIcon(TablerIcons.waveSawTool, TablerIconsSvg.waveSawTool),
-  'waveSine': const TablerIcon(TablerIcons.waveSine, TablerIconsSvg.waveSine),
-  'waveSquare':
-      const TablerIcon(TablerIcons.waveSquare, TablerIconsSvg.waveSquare),
-  'wavesElectricity': const TablerIcon(
-      TablerIcons.wavesElectricity, TablerIconsSvg.wavesElectricity),
-  'webhookOff':
-      const TablerIcon(TablerIcons.webhookOff, TablerIconsSvg.webhookOff),
-  'webhook': const TablerIcon(TablerIcons.webhook, TablerIconsSvg.webhook),
-  'weight': const TablerIcon(TablerIcons.weight, TablerIconsSvg.weight),
-  'wheel': const TablerIcon(TablerIcons.wheel, TablerIconsSvg.wheel),
-  'wheelchairOff':
-      const TablerIcon(TablerIcons.wheelchairOff, TablerIconsSvg.wheelchairOff),
-  'wheelchair':
-      const TablerIcon(TablerIcons.wheelchair, TablerIconsSvg.wheelchair),
-  'whirl': const TablerIcon(TablerIcons.whirl, TablerIconsSvg.whirl),
-  'wifi0': const TablerIcon(TablerIcons.wifi0, TablerIconsSvg.wifi0),
-  'wifi1': const TablerIcon(TablerIcons.wifi1, TablerIconsSvg.wifi1),
-  'wifi2': const TablerIcon(TablerIcons.wifi2, TablerIconsSvg.wifi2),
-  'wifiOff': const TablerIcon(TablerIcons.wifiOff, TablerIconsSvg.wifiOff),
-  'wifi': const TablerIcon(TablerIcons.wifi, TablerIconsSvg.wifi),
-  'windElectricity': const TablerIcon(
-      TablerIcons.windElectricity, TablerIconsSvg.windElectricity),
-  'windOff': const TablerIcon(TablerIcons.windOff, TablerIconsSvg.windOff),
-  'wind': const TablerIcon(TablerIcons.wind, TablerIconsSvg.wind),
-  'windmillFilled': const TablerIcon(
-      TablerIcons.windmillFilled, TablerIconsSvg.windmillFilled),
-  'windmillOff':
-      const TablerIcon(TablerIcons.windmillOff, TablerIconsSvg.windmillOff),
-  'windmill': const TablerIcon(TablerIcons.windmill, TablerIconsSvg.windmill),
-  'windowMaximize': const TablerIcon(
-      TablerIcons.windowMaximize, TablerIconsSvg.windowMaximize),
-  'windowMinimize': const TablerIcon(
-      TablerIcons.windowMinimize, TablerIconsSvg.windowMinimize),
-  'windowOff':
-      const TablerIcon(TablerIcons.windowOff, TablerIconsSvg.windowOff),
-  'window': const TablerIcon(TablerIcons.window, TablerIconsSvg.window),
-  'windsock': const TablerIcon(TablerIcons.windsock, TablerIconsSvg.windsock),
-  'wiperWash':
-      const TablerIcon(TablerIcons.wiperWash, TablerIconsSvg.wiperWash),
-  'wiper': const TablerIcon(TablerIcons.wiper, TablerIconsSvg.wiper),
-  'woman': const TablerIcon(TablerIcons.woman, TablerIconsSvg.woman),
-  'wood': const TablerIcon(TablerIcons.wood, TablerIconsSvg.wood),
-  'worldBolt':
-      const TablerIcon(TablerIcons.worldBolt, TablerIconsSvg.worldBolt),
-  'worldCancel':
-      const TablerIcon(TablerIcons.worldCancel, TablerIconsSvg.worldCancel),
-  'worldCheck':
-      const TablerIcon(TablerIcons.worldCheck, TablerIconsSvg.worldCheck),
-  'worldCode':
-      const TablerIcon(TablerIcons.worldCode, TablerIconsSvg.worldCode),
-  'worldCog': const TablerIcon(TablerIcons.worldCog, TablerIconsSvg.worldCog),
-  'worldDollar':
-      const TablerIcon(TablerIcons.worldDollar, TablerIconsSvg.worldDollar),
-  'worldDown':
-      const TablerIcon(TablerIcons.worldDown, TablerIconsSvg.worldDown),
-  'worldDownload':
-      const TablerIcon(TablerIcons.worldDownload, TablerIconsSvg.worldDownload),
-  'worldExclamation': const TablerIcon(
-      TablerIcons.worldExclamation, TablerIconsSvg.worldExclamation),
-  'worldHeart':
-      const TablerIcon(TablerIcons.worldHeart, TablerIconsSvg.worldHeart),
-  'worldLatitude':
-      const TablerIcon(TablerIcons.worldLatitude, TablerIconsSvg.worldLatitude),
-  'worldLongitude': const TablerIcon(
-      TablerIcons.worldLongitude, TablerIconsSvg.worldLongitude),
-  'worldMinus':
-      const TablerIcon(TablerIcons.worldMinus, TablerIconsSvg.worldMinus),
-  'worldOff': const TablerIcon(TablerIcons.worldOff, TablerIconsSvg.worldOff),
-  'worldPause':
-      const TablerIcon(TablerIcons.worldPause, TablerIconsSvg.worldPause),
-  'worldPin': const TablerIcon(TablerIcons.worldPin, TablerIconsSvg.worldPin),
-  'worldPlus':
-      const TablerIcon(TablerIcons.worldPlus, TablerIconsSvg.worldPlus),
-  'worldQuestion':
-      const TablerIcon(TablerIcons.worldQuestion, TablerIconsSvg.worldQuestion),
-  'worldSearch':
-      const TablerIcon(TablerIcons.worldSearch, TablerIconsSvg.worldSearch),
-  'worldShare':
-      const TablerIcon(TablerIcons.worldShare, TablerIconsSvg.worldShare),
-  'worldStar':
-      const TablerIcon(TablerIcons.worldStar, TablerIconsSvg.worldStar),
-  'worldUp': const TablerIcon(TablerIcons.worldUp, TablerIconsSvg.worldUp),
-  'worldUpload':
-      const TablerIcon(TablerIcons.worldUpload, TablerIconsSvg.worldUpload),
-  'worldWww': const TablerIcon(TablerIcons.worldWww, TablerIconsSvg.worldWww),
-  'worldX': const TablerIcon(TablerIcons.worldX, TablerIconsSvg.worldX),
-  'world': const TablerIcon(TablerIcons.world, TablerIconsSvg.world),
-  'wreckingBall':
-      const TablerIcon(TablerIcons.wreckingBall, TablerIconsSvg.wreckingBall),
-  'writingOff':
-      const TablerIcon(TablerIcons.writingOff, TablerIconsSvg.writingOff),
-  'writingSignOff': const TablerIcon(
-      TablerIcons.writingSignOff, TablerIconsSvg.writingSignOff),
-  'writingSign':
-      const TablerIcon(TablerIcons.writingSign, TablerIconsSvg.writingSign),
-  'writing': const TablerIcon(TablerIcons.writing, TablerIconsSvg.writing),
-  'x': const TablerIcon(TablerIcons.x, TablerIconsSvg.x),
-  'xboxA': const TablerIcon(TablerIcons.xboxA, TablerIconsSvg.xboxA),
-  'xboxB': const TablerIcon(TablerIcons.xboxB, TablerIconsSvg.xboxB),
-  'xboxX': const TablerIcon(TablerIcons.xboxX, TablerIconsSvg.xboxX),
-  'xboxY': const TablerIcon(TablerIcons.xboxY, TablerIconsSvg.xboxY),
-  'xd': const TablerIcon(TablerIcons.xd, TablerIconsSvg.xd),
-  'xxx': const TablerIcon(TablerIcons.xxx, TablerIconsSvg.xxx),
-  'yinYangFilled':
-      const TablerIcon(TablerIcons.yinYangFilled, TablerIconsSvg.yinYangFilled),
-  'yinYang': const TablerIcon(TablerIcons.yinYang, TablerIconsSvg.yinYang),
-  'yoga': const TablerIcon(TablerIcons.yoga, TablerIconsSvg.yoga),
-  'zeppelinOff':
-      const TablerIcon(TablerIcons.zeppelinOff, TablerIconsSvg.zeppelinOff),
-  'zeppelin': const TablerIcon(TablerIcons.zeppelin, TablerIconsSvg.zeppelin),
-  'zip': const TablerIcon(TablerIcons.zip, TablerIconsSvg.zip),
-  'zodiacAquarius': const TablerIcon(
-      TablerIcons.zodiacAquarius, TablerIconsSvg.zodiacAquarius),
-  'zodiacAries':
-      const TablerIcon(TablerIcons.zodiacAries, TablerIconsSvg.zodiacAries),
-  'zodiacCancer':
-      const TablerIcon(TablerIcons.zodiacCancer, TablerIconsSvg.zodiacCancer),
-  'zodiacCapricorn': const TablerIcon(
-      TablerIcons.zodiacCapricorn, TablerIconsSvg.zodiacCapricorn),
-  'zodiacGemini':
-      const TablerIcon(TablerIcons.zodiacGemini, TablerIconsSvg.zodiacGemini),
-  'zodiacLeo':
-      const TablerIcon(TablerIcons.zodiacLeo, TablerIconsSvg.zodiacLeo),
-  'zodiacLibra':
-      const TablerIcon(TablerIcons.zodiacLibra, TablerIconsSvg.zodiacLibra),
-  'zodiacPisces':
-      const TablerIcon(TablerIcons.zodiacPisces, TablerIconsSvg.zodiacPisces),
-  'zodiacSagittarius': const TablerIcon(
-      TablerIcons.zodiacSagittarius, TablerIconsSvg.zodiacSagittarius),
-  'zodiacScorpio':
-      const TablerIcon(TablerIcons.zodiacScorpio, TablerIconsSvg.zodiacScorpio),
-  'zodiacTaurus':
-      const TablerIcon(TablerIcons.zodiacTaurus, TablerIconsSvg.zodiacTaurus),
-  'zodiacVirgo':
-      const TablerIcon(TablerIcons.zodiacVirgo, TablerIconsSvg.zodiacVirgo),
-  'zoomCancel':
-      const TablerIcon(TablerIcons.zoomCancel, TablerIconsSvg.zoomCancel),
-  'zoomCheckFilled': const TablerIcon(
-      TablerIcons.zoomCheckFilled, TablerIconsSvg.zoomCheckFilled),
-  'zoomCheck':
-      const TablerIcon(TablerIcons.zoomCheck, TablerIconsSvg.zoomCheck),
-  'zoomCode': const TablerIcon(TablerIcons.zoomCode, TablerIconsSvg.zoomCode),
-  'zoomExclamation': const TablerIcon(
-      TablerIcons.zoomExclamation, TablerIconsSvg.zoomExclamation),
-  'zoomFilled':
-      const TablerIcon(TablerIcons.zoomFilled, TablerIconsSvg.zoomFilled),
-  'zoomInAreaFilled': const TablerIcon(
-      TablerIcons.zoomInAreaFilled, TablerIconsSvg.zoomInAreaFilled),
-  'zoomInArea':
-      const TablerIcon(TablerIcons.zoomInArea, TablerIconsSvg.zoomInArea),
-  'zoomInFilled':
-      const TablerIcon(TablerIcons.zoomInFilled, TablerIconsSvg.zoomInFilled),
-  'zoomIn': const TablerIcon(TablerIcons.zoomIn, TablerIconsSvg.zoomIn),
-  'zoomMoney':
-      const TablerIcon(TablerIcons.zoomMoney, TablerIconsSvg.zoomMoney),
-  'zoomOutArea':
-      const TablerIcon(TablerIcons.zoomOutArea, TablerIconsSvg.zoomOutArea),
-  'zoomOutFilled':
-      const TablerIcon(TablerIcons.zoomOutFilled, TablerIconsSvg.zoomOutFilled),
-  'zoomOut': const TablerIcon(TablerIcons.zoomOut, TablerIconsSvg.zoomOut),
-  'zoomPan': const TablerIcon(TablerIcons.zoomPan, TablerIconsSvg.zoomPan),
-  'zoomQuestion':
-      const TablerIcon(TablerIcons.zoomQuestion, TablerIconsSvg.zoomQuestion),
-  'zoomReplace':
-      const TablerIcon(TablerIcons.zoomReplace, TablerIconsSvg.zoomReplace),
-  'zoomReset':
-      const TablerIcon(TablerIcons.zoomReset, TablerIconsSvg.zoomReset),
-  'zoomScan': const TablerIcon(TablerIcons.zoomScan, TablerIconsSvg.zoomScan),
-  'zzzOff': const TablerIcon(TablerIcons.zzzOff, TablerIconsSvg.zzzOff),
-  'zzz': const TablerIcon(TablerIcons.zzz, TablerIconsSvg.zzz),
-});
+final icons = LinkedHashMap<String, TablerSvgIcons>.from({
+      '\$12Hours': TablerSvgIcons.$12Hours,
+      '\$123': TablerSvgIcons.$123,
+      '\$24Hours': TablerSvgIcons.$24Hours,
+      '\$2fa': TablerSvgIcons.$2fa,
+      '\$360View ': TablerSvgIcons.$360View,
+      '\$360': TablerSvgIcons.$360,
+      '\$3dCubeSphereOff': TablerSvgIcons.$3dCubeSphereOff,
+      '\$3dCubeSphere': TablerSvgIcons.$3dCubeSphere,
+      '\$3dRotate': TablerSvgIcons.$3dRotate,
+      'aB2': TablerSvgIcons.aB2,
+      'aBOff': TablerSvgIcons.aBOff,
+      'aB': TablerSvgIcons.aB,
+      'F3B6': TablerSvgIcons.abacusOff,
+      'F05C': TablerSvgIcons.abacus,
+      'abc': TablerSvgIcons.abc,
+      'accessPointOff': TablerSvgIcons.accessPointOff,
+      'accessPoint': TablerSvgIcons.accessPoint,
+      'accessibleOffFilled': TablerSvgIcons.accessibleOffFilled,
+      'accessibleOff': TablerSvgIcons.accessibleOff,
+      'accessible': TablerSvgIcons.accessible,
+      'activityHeartbeat': TablerSvgIcons.activityHeartbeat,
+      'activity': TablerSvgIcons.activity,
+      'ad2': TablerSvgIcons.ad2,
+      'adCircleFilled': TablerSvgIcons.adCircleFilled,
+      'adCircleOff': TablerSvgIcons.adCircleOff,
+      'adCircle': TablerSvgIcons.adCircle,
+      'adFilled': TablerSvgIcons.adFilled,
+      'adOff': TablerSvgIcons.adOff,
+      'ad': TablerSvgIcons.ad,
+      'addressBookOff': TablerSvgIcons.addressBookOff,
+      'addressBook': TablerSvgIcons.addressBook,
+      'adjustmentsAlt': TablerSvgIcons.adjustmentsAlt,
+      'adjustmentsBolt': TablerSvgIcons.adjustmentsBolt,
+      'adjustmentsCancel': TablerSvgIcons.adjustmentsCancel,
+      'adjustmentsCheck': TablerSvgIcons.adjustmentsCheck,
+      'adjustmentsCode': TablerSvgIcons.adjustmentsCode,
+      'adjustmentsCog': TablerSvgIcons.adjustmentsCog,
+      'adjustmentsDollar': TablerSvgIcons.adjustmentsDollar,
+      'adjustmentsDown': TablerSvgIcons.adjustmentsDown,
+      'adjustmentsExclamation': TablerSvgIcons.adjustmentsExclamation,
+      'adjustmentsFilled': TablerSvgIcons.adjustmentsFilled,
+      'adjustmentsHeart': TablerSvgIcons.adjustmentsHeart,
+      'adjustmentsHorizontal': TablerSvgIcons.adjustmentsHorizontal,
+      'adjustmentsMinus': TablerSvgIcons.adjustmentsMinus,
+      'adjustmentsOff': TablerSvgIcons.adjustmentsOff,
+      'adjustmentsPause': TablerSvgIcons.adjustmentsPause,
+      'adjustmentsPin': TablerSvgIcons.adjustmentsPin,
+      'adjustmentsPlus': TablerSvgIcons.adjustmentsPlus,
+      'adjustmentsQuestion': TablerSvgIcons.adjustmentsQuestion,
+      'adjustmentsSearch': TablerSvgIcons.adjustmentsSearch,
+      'adjustmentsShare': TablerSvgIcons.adjustmentsShare,
+      'adjustmentsStar': TablerSvgIcons.adjustmentsStar,
+      'adjustmentsUp': TablerSvgIcons.adjustmentsUp,
+      'adjustmentsX': TablerSvgIcons.adjustmentsX,
+      'adjustments': TablerSvgIcons.adjustments,
+      'aerialLift': TablerSvgIcons.aerialLift,
+      'affiliateFilled': TablerSvgIcons.affiliateFilled,
+      'affiliate': TablerSvgIcons.affiliate,
+      'airBalloon': TablerSvgIcons.airBalloon,
+      'airConditioningDisabled': TablerSvgIcons.airConditioningDisabled,
+      'airConditioning': TablerSvgIcons.airConditioning,
+      'airTrafficControl': TablerSvgIcons.airTrafficControl,
+      'alarmAverage': TablerSvgIcons.alarmAverage,
+      'alarmFilled': TablerSvgIcons.alarmFilled,
+      'alarmMinusFilled': TablerSvgIcons.alarmMinusFilled,
+      'alarmMinus': TablerSvgIcons.alarmMinus,
+      'alarmOff': TablerSvgIcons.alarmOff,
+      'alarmPlusFilled': TablerSvgIcons.alarmPlusFilled,
+      'alarmPlus': TablerSvgIcons.alarmPlus,
+      'alarmSnoozeFilled': TablerSvgIcons.alarmSnoozeFilled,
+      'alarmSnooze': TablerSvgIcons.alarmSnooze,
+      'alarm': TablerSvgIcons.alarm,
+      'albumOff': TablerSvgIcons.albumOff,
+      'album': TablerSvgIcons.album,
+      'alertCircleFilled': TablerSvgIcons.alertCircleFilled,
+      'alertCircleOff': TablerSvgIcons.alertCircleOff,
+      'alertCircle': TablerSvgIcons.alertCircle,
+      'alertHexagonFilled': TablerSvgIcons.alertHexagonFilled,
+      'alertHexagonOff': TablerSvgIcons.alertHexagonOff,
+      'alertHexagon': TablerSvgIcons.alertHexagon,
+      'alertOctagonFilled': TablerSvgIcons.alertOctagonFilled,
+      'alertOctagon': TablerSvgIcons.alertOctagon,
+      'alertSmallOff': TablerSvgIcons.alertSmallOff,
+      'alertSmall': TablerSvgIcons.alertSmall,
+      'alertSquareFilled': TablerSvgIcons.alertSquareFilled,
+      'alertSquareRoundedFilled': TablerSvgIcons.alertSquareRoundedFilled,
+      'alertSquareRoundedOff': TablerSvgIcons.alertSquareRoundedOff,
+      'alertSquareRounded': TablerSvgIcons.alertSquareRounded,
+      'alertSquare': TablerSvgIcons.alertSquare,
+      'alertTriangleFilled': TablerSvgIcons.alertTriangleFilled,
+      'alertTriangleOff': TablerSvgIcons.alertTriangleOff,
+      'alertTriangle': TablerSvgIcons.alertTriangle,
+      'alienFilled': TablerSvgIcons.alienFilled,
+      'alien': TablerSvgIcons.alien,
+      'alignBoxBottomCenterFilled': TablerSvgIcons.alignBoxBottomCenterFilled,
+      'alignBoxBottomCenter': TablerSvgIcons.alignBoxBottomCenter,
+      'alignBoxBottomLeftFilled': TablerSvgIcons.alignBoxBottomLeftFilled,
+      'alignBoxBottomLeft': TablerSvgIcons.alignBoxBottomLeft,
+      'alignBoxBottomRightFilled': TablerSvgIcons.alignBoxBottomRightFilled,
+      'alignBoxBottomRight': TablerSvgIcons.alignBoxBottomRight,
+      'alignBoxCenterBottom': TablerSvgIcons.alignBoxCenterBottom,
+      'alignBoxCenterMiddleFilled': TablerSvgIcons.alignBoxCenterMiddleFilled,
+      'alignBoxCenterMiddle': TablerSvgIcons.alignBoxCenterMiddle,
+      'alignBoxCenterStretch': TablerSvgIcons.alignBoxCenterStretch,
+      'alignBoxCenterTop': TablerSvgIcons.alignBoxCenterTop,
+      'alignBoxLeftBottomFilled': TablerSvgIcons.alignBoxLeftBottomFilled,
+      'alignBoxLeftBottom': TablerSvgIcons.alignBoxLeftBottom,
+      'alignBoxLeftMiddleFilled': TablerSvgIcons.alignBoxLeftMiddleFilled,
+      'alignBoxLeftMiddle': TablerSvgIcons.alignBoxLeftMiddle,
+      'alignBoxLeftStretch': TablerSvgIcons.alignBoxLeftStretch,
+      'alignBoxLeftTopFilled': TablerSvgIcons.alignBoxLeftTopFilled,
+      'alignBoxLeftTop': TablerSvgIcons.alignBoxLeftTop,
+      'alignBoxRightBottomFilled': TablerSvgIcons.alignBoxRightBottomFilled,
+      'alignBoxRightBottom': TablerSvgIcons.alignBoxRightBottom,
+      'alignBoxRightMiddleFilled': TablerSvgIcons.alignBoxRightMiddleFilled,
+      'alignBoxRightMiddle': TablerSvgIcons.alignBoxRightMiddle,
+      'alignBoxRightStretch': TablerSvgIcons.alignBoxRightStretch,
+      'alignBoxRightTopFilled': TablerSvgIcons.alignBoxRightTopFilled,
+      'alignBoxRightTop': TablerSvgIcons.alignBoxRightTop,
+      'alignBoxTopCenterFilled': TablerSvgIcons.alignBoxTopCenterFilled,
+      'alignBoxTopCenter': TablerSvgIcons.alignBoxTopCenter,
+      'alignBoxTopLeftFilled': TablerSvgIcons.alignBoxTopLeftFilled,
+      'alignBoxTopLeft': TablerSvgIcons.alignBoxTopLeft,
+      'alignBoxTopRightFilled': TablerSvgIcons.alignBoxTopRightFilled,
+      'alignBoxTopRight': TablerSvgIcons.alignBoxTopRight,
+      'alignCenter': TablerSvgIcons.alignCenter,
+      'alignJustified': TablerSvgIcons.alignJustified,
+      'alignLeft': TablerSvgIcons.alignLeft,
+      'alignRight': TablerSvgIcons.alignRight,
+      'alpha': TablerSvgIcons.alpha,
+      'alphabetCyrillic': TablerSvgIcons.alphabetCyrillic,
+      'alphabetGreek': TablerSvgIcons.alphabetGreek,
+      'alphabetLatin': TablerSvgIcons.alphabetLatin,
+      'alt': TablerSvgIcons.alt,
+      'ambulance': TablerSvgIcons.ambulance,
+      'ampersand': TablerSvgIcons.ampersand,
+      'analyzeFilled': TablerSvgIcons.analyzeFilled,
+      'analyzeOff': TablerSvgIcons.analyzeOff,
+      'analyze': TablerSvgIcons.analyze,
+      'anchorOff': TablerSvgIcons.anchorOff,
+      'anchor': TablerSvgIcons.anchor,
+      'angle': TablerSvgIcons.angle,
+      'ankh': TablerSvgIcons.ankh,
+      'antennaBars1': TablerSvgIcons.antennaBars1,
+      'antennaBars2': TablerSvgIcons.antennaBars2,
+      'antennaBars3': TablerSvgIcons.antennaBars3,
+      'antennaBars4': TablerSvgIcons.antennaBars4,
+      'antennaBars5': TablerSvgIcons.antennaBars5,
+      'antennaBarsOff': TablerSvgIcons.antennaBarsOff,
+      'antennaOff': TablerSvgIcons.antennaOff,
+      'antenna': TablerSvgIcons.antenna,
+      'apertureOff': TablerSvgIcons.apertureOff,
+      'aperture': TablerSvgIcons.aperture,
+      'apiAppOff': TablerSvgIcons.apiAppOff,
+      'apiApp': TablerSvgIcons.apiApp,
+      'apiOff': TablerSvgIcons.apiOff,
+      'api': TablerSvgIcons.api,
+      'appWindowFilled': TablerSvgIcons.appWindowFilled,
+      'appWindow': TablerSvgIcons.appWindow,
+      'apple': TablerSvgIcons.apple,
+      'appsFilled': TablerSvgIcons.appsFilled,
+      'appsOff': TablerSvgIcons.appsOff,
+      'apps': TablerSvgIcons.apps,
+      'archeryArrow': TablerSvgIcons.archeryArrow,
+      'archiveFilled': TablerSvgIcons.archiveFilled,
+      'archiveOff': TablerSvgIcons.archiveOff,
+      'archive': TablerSvgIcons.archive,
+      'armchair2Off': TablerSvgIcons.armchair2Off,
+      'armchair2': TablerSvgIcons.armchair2,
+      'armchairOff': TablerSvgIcons.armchairOff,
+      'armchair': TablerSvgIcons.armchair,
+      'arrowAutofitContentFilled': TablerSvgIcons.arrowAutofitContentFilled,
+      'arrowAutofitContent': TablerSvgIcons.arrowAutofitContent,
+      'arrowAutofitDown': TablerSvgIcons.arrowAutofitDown,
+      'arrowAutofitHeight': TablerSvgIcons.arrowAutofitHeight,
+      'arrowAutofitLeft': TablerSvgIcons.arrowAutofitLeft,
+      'arrowAutofitRight': TablerSvgIcons.arrowAutofitRight,
+      'arrowAutofitUp': TablerSvgIcons.arrowAutofitUp,
+      'arrowAutofitWidth': TablerSvgIcons.arrowAutofitWidth,
+      'arrowBackUpDouble': TablerSvgIcons.arrowBackUpDouble,
+      'arrowBackUp': TablerSvgIcons.arrowBackUp,
+      'arrowBack': TablerSvgIcons.arrowBack,
+      'arrowBadgeDownFilled': TablerSvgIcons.arrowBadgeDownFilled,
+      'arrowBadgeDown': TablerSvgIcons.arrowBadgeDown,
+      'arrowBadgeLeftFilled': TablerSvgIcons.arrowBadgeLeftFilled,
+      'arrowBadgeLeft': TablerSvgIcons.arrowBadgeLeft,
+      'arrowBadgeRightFilled': TablerSvgIcons.arrowBadgeRightFilled,
+      'arrowBadgeRight': TablerSvgIcons.arrowBadgeRight,
+      'arrowBadgeUpFilled': TablerSvgIcons.arrowBadgeUpFilled,
+      'arrowBadgeUp': TablerSvgIcons.arrowBadgeUp,
+      'arrowBarBoth': TablerSvgIcons.arrowBarBoth,
+      'arrowBarDown': TablerSvgIcons.arrowBarDown,
+      'arrowBarLeft': TablerSvgIcons.arrowBarLeft,
+      'arrowBarRight': TablerSvgIcons.arrowBarRight,
+      'arrowBarToDown': TablerSvgIcons.arrowBarToDown,
+      'arrowBarToLeft': TablerSvgIcons.arrowBarToLeft,
+      'arrowBarToRight': TablerSvgIcons.arrowBarToRight,
+      'arrowBarToUp': TablerSvgIcons.arrowBarToUp,
+      'arrowBarUp': TablerSvgIcons.arrowBarUp,
+      'arrowBearLeft2': TablerSvgIcons.arrowBearLeft2,
+      'arrowBearLeft': TablerSvgIcons.arrowBearLeft,
+      'arrowBearRight2': TablerSvgIcons.arrowBearRight2,
+      'arrowBearRight': TablerSvgIcons.arrowBearRight,
+      'arrowBigDownFilled': TablerSvgIcons.arrowBigDownFilled,
+      'arrowBigDownLineFilled': TablerSvgIcons.arrowBigDownLineFilled,
+      'arrowBigDownLine': TablerSvgIcons.arrowBigDownLine,
+      'arrowBigDownLinesFilled': TablerSvgIcons.arrowBigDownLinesFilled,
+      'arrowBigDownLines': TablerSvgIcons.arrowBigDownLines,
+      'arrowBigDown': TablerSvgIcons.arrowBigDown,
+      'arrowBigLeftFilled': TablerSvgIcons.arrowBigLeftFilled,
+      'arrowBigLeftLineFilled': TablerSvgIcons.arrowBigLeftLineFilled,
+      'arrowBigLeftLine': TablerSvgIcons.arrowBigLeftLine,
+      'arrowBigLeftLinesFilled': TablerSvgIcons.arrowBigLeftLinesFilled,
+      'arrowBigLeftLines': TablerSvgIcons.arrowBigLeftLines,
+      'arrowBigLeft': TablerSvgIcons.arrowBigLeft,
+      'arrowBigRightFilled': TablerSvgIcons.arrowBigRightFilled,
+      'arrowBigRightLineFilled': TablerSvgIcons.arrowBigRightLineFilled,
+      'arrowBigRightLine': TablerSvgIcons.arrowBigRightLine,
+      'arrowBigRightLinesFilled': TablerSvgIcons.arrowBigRightLinesFilled,
+      'arrowBigRightLines': TablerSvgIcons.arrowBigRightLines,
+      'arrowBigRight': TablerSvgIcons.arrowBigRight,
+      'arrowBigUpFilled': TablerSvgIcons.arrowBigUpFilled,
+      'arrowBigUpLineFilled': TablerSvgIcons.arrowBigUpLineFilled,
+      'arrowBigUpLine': TablerSvgIcons.arrowBigUpLine,
+      'arrowBigUpLinesFilled': TablerSvgIcons.arrowBigUpLinesFilled,
+      'arrowBigUpLines': TablerSvgIcons.arrowBigUpLines,
+      'arrowBigUp': TablerSvgIcons.arrowBigUp,
+      'arrowBounce': TablerSvgIcons.arrowBounce,
+      'arrowCapsule': TablerSvgIcons.arrowCapsule,
+      'arrowCurveLeft': TablerSvgIcons.arrowCurveLeft,
+      'arrowCurveRight': TablerSvgIcons.arrowCurveRight,
+      'arrowDownBar': TablerSvgIcons.arrowDownBar,
+      'arrowDownCircle': TablerSvgIcons.arrowDownCircle,
+      'arrowDownLeftCircle': TablerSvgIcons.arrowDownLeftCircle,
+      'arrowDownLeft': TablerSvgIcons.arrowDownLeft,
+      'arrowDownRhombus': TablerSvgIcons.arrowDownRhombus,
+      'arrowDownRightCircle': TablerSvgIcons.arrowDownRightCircle,
+      'arrowDownRight': TablerSvgIcons.arrowDownRight,
+      'arrowDownSquare': TablerSvgIcons.arrowDownSquare,
+      'arrowDownTail': TablerSvgIcons.arrowDownTail,
+      'arrowDown': TablerSvgIcons.arrowDown,
+      'arrowElbowLeft': TablerSvgIcons.arrowElbowLeft,
+      'arrowElbowRight': TablerSvgIcons.arrowElbowRight,
+      'arrowFork': TablerSvgIcons.arrowFork,
+      'arrowForwardUpDouble': TablerSvgIcons.arrowForwardUpDouble,
+      'arrowForwardUp': TablerSvgIcons.arrowForwardUp,
+      'arrowForward': TablerSvgIcons.arrowForward,
+      'arrowGuide': TablerSvgIcons.arrowGuide,
+      'arrowIteration': TablerSvgIcons.arrowIteration,
+      'arrowLeftBar': TablerSvgIcons.arrowLeftBar,
+      'arrowLeftCircle': TablerSvgIcons.arrowLeftCircle,
+      'arrowLeftRhombus': TablerSvgIcons.arrowLeftRhombus,
+      'arrowLeftRight': TablerSvgIcons.arrowLeftRight,
+      'arrowLeftSquare': TablerSvgIcons.arrowLeftSquare,
+      'arrowLeftTail': TablerSvgIcons.arrowLeftTail,
+      'arrowLeft': TablerSvgIcons.arrowLeft,
+      'arrowLoopLeft2': TablerSvgIcons.arrowLoopLeft2,
+      'arrowLoopLeft': TablerSvgIcons.arrowLoopLeft,
+      'arrowLoopRight2': TablerSvgIcons.arrowLoopRight2,
+      'arrowLoopRight': TablerSvgIcons.arrowLoopRight,
+      'arrowMergeAltLeft': TablerSvgIcons.arrowMergeAltLeft,
+      'arrowMergeAltRight': TablerSvgIcons.arrowMergeAltRight,
+      'arrowMergeBoth': TablerSvgIcons.arrowMergeBoth,
+      'arrowMergeLeft': TablerSvgIcons.arrowMergeLeft,
+      'arrowMergeRight': TablerSvgIcons.arrowMergeRight,
+      'arrowMerge': TablerSvgIcons.arrowMerge,
+      'arrowMoveDown': TablerSvgIcons.arrowMoveDown,
+      'arrowMoveLeft': TablerSvgIcons.arrowMoveLeft,
+      'arrowMoveRight': TablerSvgIcons.arrowMoveRight,
+      'arrowMoveUp': TablerSvgIcons.arrowMoveUp,
+      'arrowNarrowDown': TablerSvgIcons.arrowNarrowDown,
+      'arrowNarrowLeft': TablerSvgIcons.arrowNarrowLeft,
+      'arrowNarrowRight': TablerSvgIcons.arrowNarrowRight,
+      'arrowNarrowUp': TablerSvgIcons.arrowNarrowUp,
+      'arrowRampLeft2': TablerSvgIcons.arrowRampLeft2,
+      'arrowRampLeft3': TablerSvgIcons.arrowRampLeft3,
+      'arrowRampLeft': TablerSvgIcons.arrowRampLeft,
+      'arrowRampRight2': TablerSvgIcons.arrowRampRight2,
+      'arrowRampRight3': TablerSvgIcons.arrowRampRight3,
+      'arrowRampRight': TablerSvgIcons.arrowRampRight,
+      'arrowRightBar': TablerSvgIcons.arrowRightBar,
+      'arrowRightCircle': TablerSvgIcons.arrowRightCircle,
+      'arrowRightRhombus': TablerSvgIcons.arrowRightRhombus,
+      'arrowRightSquare': TablerSvgIcons.arrowRightSquare,
+      'arrowRightTail': TablerSvgIcons.arrowRightTail,
+      'arrowRight': TablerSvgIcons.arrowRight,
+      'arrowRotaryFirstLeft': TablerSvgIcons.arrowRotaryFirstLeft,
+      'arrowRotaryFirstRight': TablerSvgIcons.arrowRotaryFirstRight,
+      'arrowRotaryLastLeft': TablerSvgIcons.arrowRotaryLastLeft,
+      'arrowRotaryLastRight': TablerSvgIcons.arrowRotaryLastRight,
+      'arrowRotaryLeft': TablerSvgIcons.arrowRotaryLeft,
+      'arrowRotaryRight': TablerSvgIcons.arrowRotaryRight,
+      'arrowRotaryStraight': TablerSvgIcons.arrowRotaryStraight,
+      'arrowRoundaboutLeft': TablerSvgIcons.arrowRoundaboutLeft,
+      'arrowRoundaboutRight': TablerSvgIcons.arrowRoundaboutRight,
+      'arrowSharpTurnLeft': TablerSvgIcons.arrowSharpTurnLeft,
+      'arrowSharpTurnRight': TablerSvgIcons.arrowSharpTurnRight,
+      'arrowUpBar': TablerSvgIcons.arrowUpBar,
+      'arrowUpCircle': TablerSvgIcons.arrowUpCircle,
+      'arrowUpLeftCircle': TablerSvgIcons.arrowUpLeftCircle,
+      'arrowUpLeft': TablerSvgIcons.arrowUpLeft,
+      'arrowUpRhombus': TablerSvgIcons.arrowUpRhombus,
+      'arrowUpRightCircle': TablerSvgIcons.arrowUpRightCircle,
+      'arrowUpRight': TablerSvgIcons.arrowUpRight,
+      'arrowUpSquare': TablerSvgIcons.arrowUpSquare,
+      'arrowUpTail': TablerSvgIcons.arrowUpTail,
+      'arrowUp': TablerSvgIcons.arrowUp,
+      'arrowWaveLeftDown': TablerSvgIcons.arrowWaveLeftDown,
+      'arrowWaveLeftUp': TablerSvgIcons.arrowWaveLeftUp,
+      'arrowWaveRightDown': TablerSvgIcons.arrowWaveRightDown,
+      'arrowWaveRightUp': TablerSvgIcons.arrowWaveRightUp,
+      'arrowZigZag': TablerSvgIcons.arrowZigZag,
+      'arrowsCross': TablerSvgIcons.arrowsCross,
+      'arrowsDiagonal2': TablerSvgIcons.arrowsDiagonal2,
+      'arrowsDiagonalMinimize2': TablerSvgIcons.arrowsDiagonalMinimize2,
+      'arrowsDiagonalMinimize': TablerSvgIcons.arrowsDiagonalMinimize,
+      'arrowsDiagonal': TablerSvgIcons.arrowsDiagonal,
+      'arrowsDiff': TablerSvgIcons.arrowsDiff,
+      'arrowsDoubleNeSw': TablerSvgIcons.arrowsDoubleNeSw,
+      'arrowsDoubleNwSe': TablerSvgIcons.arrowsDoubleNwSe,
+      'arrowsDoubleSeNw': TablerSvgIcons.arrowsDoubleSeNw,
+      'arrowsDoubleSwNe': TablerSvgIcons.arrowsDoubleSwNe,
+      'arrowsDownUp': TablerSvgIcons.arrowsDownUp,
+      'arrowsDown': TablerSvgIcons.arrowsDown,
+      'arrowsExchange2': TablerSvgIcons.arrowsExchange2,
+      'arrowsExchange': TablerSvgIcons.arrowsExchange,
+      'arrowsHorizontal': TablerSvgIcons.arrowsHorizontal,
+      'arrowsJoin2': TablerSvgIcons.arrowsJoin2,
+      'arrowsJoin': TablerSvgIcons.arrowsJoin,
+      'arrowsLeftDown': TablerSvgIcons.arrowsLeftDown,
+      'arrowsLeftRight': TablerSvgIcons.arrowsLeftRight,
+      'arrowsLeft': TablerSvgIcons.arrowsLeft,
+      'arrowsMaximize': TablerSvgIcons.arrowsMaximize,
+      'arrowsMinimize': TablerSvgIcons.arrowsMinimize,
+      'arrowsMoveHorizontal': TablerSvgIcons.arrowsMoveHorizontal,
+      'arrowsMoveVertical': TablerSvgIcons.arrowsMoveVertical,
+      'arrowsMove': TablerSvgIcons.arrowsMove,
+      'arrowsRandom': TablerSvgIcons.arrowsRandom,
+      'arrowsRightDown': TablerSvgIcons.arrowsRightDown,
+      'arrowsRightLeft': TablerSvgIcons.arrowsRightLeft,
+      'arrowsRight': TablerSvgIcons.arrowsRight,
+      'arrowsShuffle2': TablerSvgIcons.arrowsShuffle2,
+      'arrowsShuffle': TablerSvgIcons.arrowsShuffle,
+      'arrowsSort': TablerSvgIcons.arrowsSort,
+      'arrowsSplit2': TablerSvgIcons.arrowsSplit2,
+      'arrowsSplit': TablerSvgIcons.arrowsSplit,
+      'arrowsTransferDown': TablerSvgIcons.arrowsTransferDown,
+      'arrowsTransferUp': TablerSvgIcons.arrowsTransferUp,
+      'arrowsUpDown': TablerSvgIcons.arrowsUpDown,
+      'arrowsUpLeft': TablerSvgIcons.arrowsUpLeft,
+      'arrowsUpRight': TablerSvgIcons.arrowsUpRight,
+      'arrowsUp': TablerSvgIcons.arrowsUp,
+      'arrowsVertical': TablerSvgIcons.arrowsVertical,
+      'artboardFilled': TablerSvgIcons.artboardFilled,
+      'artboardOff': TablerSvgIcons.artboardOff,
+      'artboard': TablerSvgIcons.artboard,
+      'articleFilledFilled': TablerSvgIcons.articleFilledFilled,
+      'articleOff': TablerSvgIcons.articleOff,
+      'article': TablerSvgIcons.article,
+      'aspectRatioFilled': TablerSvgIcons.aspectRatioFilled,
+      'aspectRatioOff': TablerSvgIcons.aspectRatioOff,
+      'aspectRatio': TablerSvgIcons.aspectRatio,
+      'assemblyOff': TablerSvgIcons.assemblyOff,
+      'assembly': TablerSvgIcons.assembly,
+      'asset': TablerSvgIcons.asset,
+      'asteriskSimple': TablerSvgIcons.asteriskSimple,
+      'asterisk': TablerSvgIcons.asterisk,
+      'atOff': TablerSvgIcons.atOff,
+      'at': TablerSvgIcons.at,
+      'atom2Filled': TablerSvgIcons.atom2Filled,
+      'atom2': TablerSvgIcons.atom2,
+      'atomOff': TablerSvgIcons.atomOff,
+      'atom': TablerSvgIcons.atom,
+      'augmentedReality2': TablerSvgIcons.augmentedReality2,
+      'augmentedRealityOff': TablerSvgIcons.augmentedRealityOff,
+      'augmentedReality': TablerSvgIcons.augmentedReality,
+      'automaticGearbox': TablerSvgIcons.automaticGearbox,
+      'awardFilled': TablerSvgIcons.awardFilled,
+      'awardOff': TablerSvgIcons.awardOff,
+      'award': TablerSvgIcons.award,
+      'axe': TablerSvgIcons.axe,
+      'axisX': TablerSvgIcons.axisX,
+      'axisY': TablerSvgIcons.axisY,
+      'babyBottle': TablerSvgIcons.babyBottle,
+      'babyCarriage': TablerSvgIcons.babyCarriage,
+      'backhoe': TablerSvgIcons.backhoe,
+      'backpackOff': TablerSvgIcons.backpackOff,
+      'backpack': TablerSvgIcons.backpack,
+      'backslash': TablerSvgIcons.backslash,
+      'backspaceFilled': TablerSvgIcons.backspaceFilled,
+      'backspace': TablerSvgIcons.backspace,
+      'badge3d': TablerSvgIcons.badge3d,
+      'badge4k': TablerSvgIcons.badge4k,
+      'badge8k': TablerSvgIcons.badge8k,
+      'badgeAd': TablerSvgIcons.badgeAd,
+      'badgeAr': TablerSvgIcons.badgeAr,
+      'badgeCc': TablerSvgIcons.badgeCc,
+      'badgeFilled': TablerSvgIcons.badgeFilled,
+      'badgeHd': TablerSvgIcons.badgeHd,
+      'badgeOff': TablerSvgIcons.badgeOff,
+      'badgeSd': TablerSvgIcons.badgeSd,
+      'badgeTm': TablerSvgIcons.badgeTm,
+      'badgeVo': TablerSvgIcons.badgeVo,
+      'badgeVr': TablerSvgIcons.badgeVr,
+      'badgeWc': TablerSvgIcons.badgeWc,
+      'badge': TablerSvgIcons.badge,
+      'badgesFilled': TablerSvgIcons.badgesFilled,
+      'badgesOff': TablerSvgIcons.badgesOff,
+      'badges': TablerSvgIcons.badges,
+      'baguette': TablerSvgIcons.baguette,
+      'ballAmericanFootballOff': TablerSvgIcons.ballAmericanFootballOff,
+      'ballAmericanFootball': TablerSvgIcons.ballAmericanFootball,
+      'ballBaseball': TablerSvgIcons.ballBaseball,
+      'ballBasketball': TablerSvgIcons.ballBasketball,
+      'ballBowling': TablerSvgIcons.ballBowling,
+      'ballFootballOff': TablerSvgIcons.ballFootballOff,
+      'ballFootball': TablerSvgIcons.ballFootball,
+      'ballTennis': TablerSvgIcons.ballTennis,
+      'ballVolleyball': TablerSvgIcons.ballVolleyball,
+      'balloonFilled': TablerSvgIcons.balloonFilled,
+      'balloonOff': TablerSvgIcons.balloonOff,
+      'balloon': TablerSvgIcons.balloon,
+      'ballpenFilled': TablerSvgIcons.ballpenFilled,
+      'ballpenOff': TablerSvgIcons.ballpenOff,
+      'ballpen': TablerSvgIcons.ballpen,
+      'ban': TablerSvgIcons.ban,
+      'bandageFilled': TablerSvgIcons.bandageFilled,
+      'bandageOff': TablerSvgIcons.bandageOff,
+      'bandage': TablerSvgIcons.bandage,
+      'barbellOff': TablerSvgIcons.barbellOff,
+      'barbell': TablerSvgIcons.barbell,
+      'barcodeOff': TablerSvgIcons.barcodeOff,
+      'barcode': TablerSvgIcons.barcode,
+      'barrelOff': TablerSvgIcons.barrelOff,
+      'barrel': TablerSvgIcons.barrel,
+      'barrierBlockOff': TablerSvgIcons.barrierBlockOff,
+      'barrierBlock': TablerSvgIcons.barrierBlock,
+      'baselineDensityLarge': TablerSvgIcons.baselineDensityLarge,
+      'baselineDensityMedium': TablerSvgIcons.baselineDensityMedium,
+      'baselineDensitySmall': TablerSvgIcons.baselineDensitySmall,
+      'baseline': TablerSvgIcons.baseline,
+      'basketBolt': TablerSvgIcons.basketBolt,
+      'basketCancel': TablerSvgIcons.basketCancel,
+      'basketCheck': TablerSvgIcons.basketCheck,
+      'basketCode': TablerSvgIcons.basketCode,
+      'basketCog': TablerSvgIcons.basketCog,
+      'basketDiscount': TablerSvgIcons.basketDiscount,
+      'basketDollar': TablerSvgIcons.basketDollar,
+      'basketDown': TablerSvgIcons.basketDown,
+      'basketExclamation': TablerSvgIcons.basketExclamation,
+      'basketFilled': TablerSvgIcons.basketFilled,
+      'basketHeart': TablerSvgIcons.basketHeart,
+      'basketMinus': TablerSvgIcons.basketMinus,
+      'basketOff': TablerSvgIcons.basketOff,
+      'basketPause': TablerSvgIcons.basketPause,
+      'basketPin': TablerSvgIcons.basketPin,
+      'basketPlus': TablerSvgIcons.basketPlus,
+      'basketQuestion': TablerSvgIcons.basketQuestion,
+      'basketSearch': TablerSvgIcons.basketSearch,
+      'basketShare': TablerSvgIcons.basketShare,
+      'basketStar': TablerSvgIcons.basketStar,
+      'basketUp': TablerSvgIcons.basketUp,
+      'basketX': TablerSvgIcons.basketX,
+      'basket': TablerSvgIcons.basket,
+      'bat': TablerSvgIcons.bat,
+      'bathFilled': TablerSvgIcons.bathFilled,
+      'bathOff': TablerSvgIcons.bathOff,
+      'bath': TablerSvgIcons.bath,
+      'battery1Filled': TablerSvgIcons.battery1Filled,
+      'battery1': TablerSvgIcons.battery1,
+      'battery2Filled': TablerSvgIcons.battery2Filled,
+      'battery2': TablerSvgIcons.battery2,
+      'battery3Filled': TablerSvgIcons.battery3Filled,
+      'battery3': TablerSvgIcons.battery3,
+      'battery4Filled': TablerSvgIcons.battery4Filled,
+      'battery4': TablerSvgIcons.battery4,
+      'batteryAutomotive': TablerSvgIcons.batteryAutomotive,
+      'batteryCharging2': TablerSvgIcons.batteryCharging2,
+      'batteryCharging': TablerSvgIcons.batteryCharging,
+      'batteryEco': TablerSvgIcons.batteryEco,
+      'batteryFilled': TablerSvgIcons.batteryFilled,
+      'batteryOff': TablerSvgIcons.batteryOff,
+      'battery': TablerSvgIcons.battery,
+      'beachOff': TablerSvgIcons.beachOff,
+      'beach': TablerSvgIcons.beach,
+      'bedFilled': TablerSvgIcons.bedFilled,
+      'bedFlat': TablerSvgIcons.bedFlat,
+      'bedOff': TablerSvgIcons.bedOff,
+      'bed': TablerSvgIcons.bed,
+      'beerFilled': TablerSvgIcons.beerFilled,
+      'beerOff': TablerSvgIcons.beerOff,
+      'beer': TablerSvgIcons.beer,
+      'bellBolt': TablerSvgIcons.bellBolt,
+      'bellCancel': TablerSvgIcons.bellCancel,
+      'bellCheck': TablerSvgIcons.bellCheck,
+      'bellCode': TablerSvgIcons.bellCode,
+      'bellCog': TablerSvgIcons.bellCog,
+      'bellDollar': TablerSvgIcons.bellDollar,
+      'bellDown': TablerSvgIcons.bellDown,
+      'bellExclamation': TablerSvgIcons.bellExclamation,
+      'bellFilled': TablerSvgIcons.bellFilled,
+      'bellHeart': TablerSvgIcons.bellHeart,
+      'bellMinusFilled': TablerSvgIcons.bellMinusFilled,
+      'bellMinus': TablerSvgIcons.bellMinus,
+      'bellOff': TablerSvgIcons.bellOff,
+      'bellPause': TablerSvgIcons.bellPause,
+      'bellPin': TablerSvgIcons.bellPin,
+      'bellPlusFilled': TablerSvgIcons.bellPlusFilled,
+      'bellPlus': TablerSvgIcons.bellPlus,
+      'bellQuestion': TablerSvgIcons.bellQuestion,
+      'bellRinging2Filled': TablerSvgIcons.bellRinging2Filled,
+      'bellRinging2': TablerSvgIcons.bellRinging2,
+      'bellRingingFilled': TablerSvgIcons.bellRingingFilled,
+      'bellRinging': TablerSvgIcons.bellRinging,
+      'bellSchool': TablerSvgIcons.bellSchool,
+      'bellSearch': TablerSvgIcons.bellSearch,
+      'bellShare': TablerSvgIcons.bellShare,
+      'bellStar': TablerSvgIcons.bellStar,
+      'bellUp': TablerSvgIcons.bellUp,
+      'bellXFilled': TablerSvgIcons.bellXFilled,
+      'bellX': TablerSvgIcons.bellX,
+      'bellZFilled': TablerSvgIcons.bellZFilled,
+      'bellZ': TablerSvgIcons.bellZ,
+      'bell': TablerSvgIcons.bell,
+      'beta': TablerSvgIcons.beta,
+      'bible': TablerSvgIcons.bible,
+      'bikeOff': TablerSvgIcons.bikeOff,
+      'bike': TablerSvgIcons.bike,
+      'binaryOff': TablerSvgIcons.binaryOff,
+      'binaryTree2': TablerSvgIcons.binaryTree2,
+      'binaryTree': TablerSvgIcons.binaryTree,
+      'binary': TablerSvgIcons.binary,
+      'biohazardOff': TablerSvgIcons.biohazardOff,
+      'biohazard': TablerSvgIcons.biohazard,
+      'bladeFilled': TablerSvgIcons.bladeFilled,
+      'blade': TablerSvgIcons.blade,
+      'bleachChlorine': TablerSvgIcons.bleachChlorine,
+      'bleachNoChlorine': TablerSvgIcons.bleachNoChlorine,
+      'bleachOff': TablerSvgIcons.bleachOff,
+      'bleach': TablerSvgIcons.bleach,
+      'blender': TablerSvgIcons.blender,
+      'blockquote': TablerSvgIcons.blockquote,
+      'bluetoothConnected': TablerSvgIcons.bluetoothConnected,
+      'bluetoothOff': TablerSvgIcons.bluetoothOff,
+      'bluetoothX': TablerSvgIcons.bluetoothX,
+      'bluetooth': TablerSvgIcons.bluetooth,
+      'blurOff': TablerSvgIcons.blurOff,
+      'blur': TablerSvgIcons.blur,
+      'bmp': TablerSvgIcons.bmp,
+      'bodyScan': TablerSvgIcons.bodyScan,
+      'boldOff': TablerSvgIcons.boldOff,
+      'bold': TablerSvgIcons.bold,
+      'boltOff': TablerSvgIcons.boltOff,
+      'bolt': TablerSvgIcons.bolt,
+      'bombFilled': TablerSvgIcons.bombFilled,
+      'bomb': TablerSvgIcons.bomb,
+      'boneOff': TablerSvgIcons.boneOff,
+      'bone': TablerSvgIcons.bone,
+      'bongOff': TablerSvgIcons.bongOff,
+      'bong': TablerSvgIcons.bong,
+      'book2': TablerSvgIcons.book2,
+      'bookDownload': TablerSvgIcons.bookDownload,
+      'bookFilled': TablerSvgIcons.bookFilled,
+      'bookOff': TablerSvgIcons.bookOff,
+      'bookUpload': TablerSvgIcons.bookUpload,
+      'book': TablerSvgIcons.book,
+      'bookmarkAi': TablerSvgIcons.bookmarkAi,
+      'bookmarkEdit': TablerSvgIcons.bookmarkEdit,
+      'bookmarkFilled': TablerSvgIcons.bookmarkFilled,
+      'bookmarkMinus': TablerSvgIcons.bookmarkMinus,
+      'bookmarkOff': TablerSvgIcons.bookmarkOff,
+      'bookmarkPlus': TablerSvgIcons.bookmarkPlus,
+      'bookmarkQuestion': TablerSvgIcons.bookmarkQuestion,
+      'bookmark': TablerSvgIcons.bookmark,
+      'bookmarksFilled': TablerSvgIcons.bookmarksFilled,
+      'bookmarksOff': TablerSvgIcons.bookmarksOff,
+      'bookmarks': TablerSvgIcons.bookmarks,
+      'booksOff': TablerSvgIcons.booksOff,
+      'books': TablerSvgIcons.books,
+      'borderAll': TablerSvgIcons.borderAll,
+      'borderBottom': TablerSvgIcons.borderBottom,
+      'borderCorners': TablerSvgIcons.borderCorners,
+      'borderHorizontal': TablerSvgIcons.borderHorizontal,
+      'borderInner': TablerSvgIcons.borderInner,
+      'borderLeft': TablerSvgIcons.borderLeft,
+      'borderNone': TablerSvgIcons.borderNone,
+      'borderOuter': TablerSvgIcons.borderOuter,
+      'borderRadius': TablerSvgIcons.borderRadius,
+      'borderRight': TablerSvgIcons.borderRight,
+      'borderSides': TablerSvgIcons.borderSides,
+      'borderStyle2': TablerSvgIcons.borderStyle2,
+      'borderStyle': TablerSvgIcons.borderStyle,
+      'borderTop': TablerSvgIcons.borderTop,
+      'borderVertical': TablerSvgIcons.borderVertical,
+      'bottleFilled': TablerSvgIcons.bottleFilled,
+      'bottleOff': TablerSvgIcons.bottleOff,
+      'bottle': TablerSvgIcons.bottle,
+      'bounceLeftFilled': TablerSvgIcons.bounceLeftFilled,
+      'bounceLeft': TablerSvgIcons.bounceLeft,
+      'bounceRightFilled': TablerSvgIcons.bounceRightFilled,
+      'bounceRight': TablerSvgIcons.bounceRight,
+      'bow': TablerSvgIcons.bow,
+      'bowlFilled': TablerSvgIcons.bowlFilled,
+      'bowl': TablerSvgIcons.bowl,
+      'boxAlignBottomFilled': TablerSvgIcons.boxAlignBottomFilled,
+      'boxAlignBottomLeftFilled': TablerSvgIcons.boxAlignBottomLeftFilled,
+      'boxAlignBottomLeft': TablerSvgIcons.boxAlignBottomLeft,
+      'boxAlignBottomRightFilled': TablerSvgIcons.boxAlignBottomRightFilled,
+      'boxAlignBottomRight': TablerSvgIcons.boxAlignBottomRight,
+      'boxAlignBottom': TablerSvgIcons.boxAlignBottom,
+      'boxAlignLeftFilled': TablerSvgIcons.boxAlignLeftFilled,
+      'boxAlignLeft': TablerSvgIcons.boxAlignLeft,
+      'boxAlignRightFilled': TablerSvgIcons.boxAlignRightFilled,
+      'boxAlignRight': TablerSvgIcons.boxAlignRight,
+      'boxAlignTopFilled': TablerSvgIcons.boxAlignTopFilled,
+      'boxAlignTopLeftFilled': TablerSvgIcons.boxAlignTopLeftFilled,
+      'boxAlignTopLeft': TablerSvgIcons.boxAlignTopLeft,
+      'boxAlignTopRightFilled': TablerSvgIcons.boxAlignTopRightFilled,
+      'boxAlignTopRight': TablerSvgIcons.boxAlignTopRight,
+      'boxAlignTop': TablerSvgIcons.boxAlignTop,
+      'boxMargin': TablerSvgIcons.boxMargin,
+      'boxModel2Off': TablerSvgIcons.boxModel2Off,
+      'boxModel2': TablerSvgIcons.boxModel2,
+      'boxModelOff': TablerSvgIcons.boxModelOff,
+      'boxModel': TablerSvgIcons.boxModel,
+      'boxMultiple0': TablerSvgIcons.boxMultiple0,
+      'boxMultiple1': TablerSvgIcons.boxMultiple1,
+      'boxMultiple2': TablerSvgIcons.boxMultiple2,
+      'boxMultiple3': TablerSvgIcons.boxMultiple3,
+      'boxMultiple4': TablerSvgIcons.boxMultiple4,
+      'boxMultiple5': TablerSvgIcons.boxMultiple5,
+      'boxMultiple6': TablerSvgIcons.boxMultiple6,
+      'boxMultiple7': TablerSvgIcons.boxMultiple7,
+      'boxMultiple8': TablerSvgIcons.boxMultiple8,
+      'boxMultiple9': TablerSvgIcons.boxMultiple9,
+      'boxMultiple': TablerSvgIcons.boxMultiple,
+      'boxOff': TablerSvgIcons.boxOff,
+      'boxPadding': TablerSvgIcons.boxPadding,
+      'boxSeam': TablerSvgIcons.boxSeam,
+      'box': TablerSvgIcons.box,
+      'bracesOff': TablerSvgIcons.bracesOff,
+      'braces': TablerSvgIcons.braces,
+      'bracketsAngleOff': TablerSvgIcons.bracketsAngleOff,
+      'bracketsAngle': TablerSvgIcons.bracketsAngle,
+      'bracketsContainEnd': TablerSvgIcons.bracketsContainEnd,
+      'bracketsContainStart': TablerSvgIcons.bracketsContainStart,
+      'bracketsContain': TablerSvgIcons.bracketsContain,
+      'bracketsOff': TablerSvgIcons.bracketsOff,
+      'brackets': TablerSvgIcons.brackets,
+      'braille': TablerSvgIcons.braille,
+      'brain': TablerSvgIcons.brain,
+      'brand4chan': TablerSvgIcons.brand4chan,
+      'brandAbstract': TablerSvgIcons.brandAbstract,
+      'brandAdobe': TablerSvgIcons.brandAdobe,
+      'brandAdonisJs': TablerSvgIcons.brandAdonisJs,
+      'brandAirbnb': TablerSvgIcons.brandAirbnb,
+      'brandAirtable': TablerSvgIcons.brandAirtable,
+      'brandAlgolia': TablerSvgIcons.brandAlgolia,
+      'brandAlipay': TablerSvgIcons.brandAlipay,
+      'brandAlpineJs': TablerSvgIcons.brandAlpineJs,
+      'brandAmazon': TablerSvgIcons.brandAmazon,
+      'brandAmd': TablerSvgIcons.brandAmd,
+      'brandAmigo': TablerSvgIcons.brandAmigo,
+      'brandAmongUs': TablerSvgIcons.brandAmongUs,
+      'brandAndroid': TablerSvgIcons.brandAndroid,
+      'brandAngular': TablerSvgIcons.brandAngular,
+      'brandAnsible': TablerSvgIcons.brandAnsible,
+      'brandAo3': TablerSvgIcons.brandAo3,
+      'brandAppgallery': TablerSvgIcons.brandAppgallery,
+      'brandAppleArcade': TablerSvgIcons.brandAppleArcade,
+      'brandApplePodcast': TablerSvgIcons.brandApplePodcast,
+      'brandApple': TablerSvgIcons.brandApple,
+      'brandAppstore': TablerSvgIcons.brandAppstore,
+      'brandAsana': TablerSvgIcons.brandAsana,
+      'brandAuth0': TablerSvgIcons.brandAuth0,
+      'brandAws': TablerSvgIcons.brandAws,
+      'brandAzure': TablerSvgIcons.brandAzure,
+      'brandBackbone': TablerSvgIcons.brandBackbone,
+      'brandBadoo': TablerSvgIcons.brandBadoo,
+      'brandBaidu': TablerSvgIcons.brandBaidu,
+      'brandBandcamp': TablerSvgIcons.brandBandcamp,
+      'brandBandlab': TablerSvgIcons.brandBandlab,
+      'brandBeats': TablerSvgIcons.brandBeats,
+      'brandBehance': TablerSvgIcons.brandBehance,
+      'brandBilibili': TablerSvgIcons.brandBilibili,
+      'brandBinance': TablerSvgIcons.brandBinance,
+      'brandBing': TablerSvgIcons.brandBing,
+      'brandBitbucket': TablerSvgIcons.brandBitbucket,
+      'brandBlackberry': TablerSvgIcons.brandBlackberry,
+      'brandBlender': TablerSvgIcons.brandBlender,
+      'brandBlogger': TablerSvgIcons.brandBlogger,
+      'brandBooking': TablerSvgIcons.brandBooking,
+      'brandBootstrap': TablerSvgIcons.brandBootstrap,
+      'brandBulma': TablerSvgIcons.brandBulma,
+      'brandBumble': TablerSvgIcons.brandBumble,
+      'brandBunpo': TablerSvgIcons.brandBunpo,
+      'brandCSharp': TablerSvgIcons.brandCSharp,
+      'brandCake': TablerSvgIcons.brandCake,
+      'brandCakephp': TablerSvgIcons.brandCakephp,
+      'brandCampaignmonitor': TablerSvgIcons.brandCampaignmonitor,
+      'brandCarbon': TablerSvgIcons.brandCarbon,
+      'brandCashapp': TablerSvgIcons.brandCashapp,
+      'brandChrome': TablerSvgIcons.brandChrome,
+      'brandCinema4d': TablerSvgIcons.brandCinema4d,
+      'brandCitymapper': TablerSvgIcons.brandCitymapper,
+      'brandCloudflare': TablerSvgIcons.brandCloudflare,
+      'brandCodecov': TablerSvgIcons.brandCodecov,
+      'brandCodepen': TablerSvgIcons.brandCodepen,
+      'brandCodesandbox': TablerSvgIcons.brandCodesandbox,
+      'brandCohost': TablerSvgIcons.brandCohost,
+      'brandCoinbase': TablerSvgIcons.brandCoinbase,
+      'brandComedyCentral': TablerSvgIcons.brandComedyCentral,
+      'brandCoreos': TablerSvgIcons.brandCoreos,
+      'brandCouchdb': TablerSvgIcons.brandCouchdb,
+      'brandCouchsurfing': TablerSvgIcons.brandCouchsurfing,
+      'brandCpp': TablerSvgIcons.brandCpp,
+      'brandCraft': TablerSvgIcons.brandCraft,
+      'brandCrunchbase': TablerSvgIcons.brandCrunchbase,
+      'brandCss3': TablerSvgIcons.brandCss3,
+      'brandCtemplar': TablerSvgIcons.brandCtemplar,
+      'brandCucumber': TablerSvgIcons.brandCucumber,
+      'brandCupra': TablerSvgIcons.brandCupra,
+      'brandCypress': TablerSvgIcons.brandCypress,
+      'brandD3': TablerSvgIcons.brandD3,
+      'brandDatabricks': TablerSvgIcons.brandDatabricks,
+      'brandDaysCounter': TablerSvgIcons.brandDaysCounter,
+      'brandDcos': TablerSvgIcons.brandDcos,
+      'brandDebian': TablerSvgIcons.brandDebian,
+      'brandDeezer': TablerSvgIcons.brandDeezer,
+      'brandDeliveroo': TablerSvgIcons.brandDeliveroo,
+      'brandDeno': TablerSvgIcons.brandDeno,
+      'brandDenodo': TablerSvgIcons.brandDenodo,
+      'brandDeviantart': TablerSvgIcons.brandDeviantart,
+      'brandDigg': TablerSvgIcons.brandDigg,
+      'brandDingtalk': TablerSvgIcons.brandDingtalk,
+      'brandDiscordFilled': TablerSvgIcons.brandDiscordFilled,
+      'brandDiscord': TablerSvgIcons.brandDiscord,
+      'brandDisney': TablerSvgIcons.brandDisney,
+      'brandDisqus': TablerSvgIcons.brandDisqus,
+      'brandDjango': TablerSvgIcons.brandDjango,
+      'brandDocker': TablerSvgIcons.brandDocker,
+      'brandDoctrine': TablerSvgIcons.brandDoctrine,
+      'brandDolbyDigital': TablerSvgIcons.brandDolbyDigital,
+      'brandDouban': TablerSvgIcons.brandDouban,
+      'brandDribbbleFilled': TablerSvgIcons.brandDribbbleFilled,
+      'brandDribbble': TablerSvgIcons.brandDribbble,
+      'brandDrops': TablerSvgIcons.brandDrops,
+      'brandDrupal': TablerSvgIcons.brandDrupal,
+      'brandEdge': TablerSvgIcons.brandEdge,
+      'brandElastic': TablerSvgIcons.brandElastic,
+      'brandElectronicArts': TablerSvgIcons.brandElectronicArts,
+      'brandEmber': TablerSvgIcons.brandEmber,
+      'brandEnvato': TablerSvgIcons.brandEnvato,
+      'brandEtsy': TablerSvgIcons.brandEtsy,
+      'brandEvernote': TablerSvgIcons.brandEvernote,
+      'brandFacebookFilled': TablerSvgIcons.brandFacebookFilled,
+      'brandFacebook': TablerSvgIcons.brandFacebook,
+      'brandFeedly': TablerSvgIcons.brandFeedly,
+      'brandFigma': TablerSvgIcons.brandFigma,
+      'brandFilezilla': TablerSvgIcons.brandFilezilla,
+      'brandFinder': TablerSvgIcons.brandFinder,
+      'brandFirebase': TablerSvgIcons.brandFirebase,
+      'brandFirefox': TablerSvgIcons.brandFirefox,
+      'brandFiverr': TablerSvgIcons.brandFiverr,
+      'brandFlickr': TablerSvgIcons.brandFlickr,
+      'brandFlightradar24': TablerSvgIcons.brandFlightradar24,
+      'brandFlipboard': TablerSvgIcons.brandFlipboard,
+      'brandFlutter': TablerSvgIcons.brandFlutter,
+      'brandFortnite': TablerSvgIcons.brandFortnite,
+      'brandFoursquare': TablerSvgIcons.brandFoursquare,
+      'brandFramerMotion': TablerSvgIcons.brandFramerMotion,
+      'brandFramer': TablerSvgIcons.brandFramer,
+      'brandFunimation': TablerSvgIcons.brandFunimation,
+      'brandGatsby': TablerSvgIcons.brandGatsby,
+      'brandGit': TablerSvgIcons.brandGit,
+      'brandGithubCopilot': TablerSvgIcons.brandGithubCopilot,
+      'brandGithubFilled': TablerSvgIcons.brandGithubFilled,
+      'brandGithub': TablerSvgIcons.brandGithub,
+      'brandGitlab': TablerSvgIcons.brandGitlab,
+      'brandGmail': TablerSvgIcons.brandGmail,
+      'brandGolang': TablerSvgIcons.brandGolang,
+      'brandGoogleAnalytics': TablerSvgIcons.brandGoogleAnalytics,
+      'brandGoogleBigQuery': TablerSvgIcons.brandGoogleBigQuery,
+      'brandGoogleDrive': TablerSvgIcons.brandGoogleDrive,
+      'brandGoogleFit': TablerSvgIcons.brandGoogleFit,
+      'brandGoogleHome': TablerSvgIcons.brandGoogleHome,
+      'brandGoogleMaps': TablerSvgIcons.brandGoogleMaps,
+      'brandGoogleOne': TablerSvgIcons.brandGoogleOne,
+      'brandGooglePhotos': TablerSvgIcons.brandGooglePhotos,
+      'brandGooglePlay': TablerSvgIcons.brandGooglePlay,
+      'brandGooglePodcasts': TablerSvgIcons.brandGooglePodcasts,
+      'brandGoogle': TablerSvgIcons.brandGoogle,
+      'brandGrammarly': TablerSvgIcons.brandGrammarly,
+      'brandGraphql': TablerSvgIcons.brandGraphql,
+      'brandGravatar': TablerSvgIcons.brandGravatar,
+      'brandGrindr': TablerSvgIcons.brandGrindr,
+      'brandGuardian': TablerSvgIcons.brandGuardian,
+      'brandGumroad': TablerSvgIcons.brandGumroad,
+      'brandHbo': TablerSvgIcons.brandHbo,
+      'brandHeadlessui': TablerSvgIcons.brandHeadlessui,
+      'brandHexo': TablerSvgIcons.brandHexo,
+      'brandHipchat': TablerSvgIcons.brandHipchat,
+      'brandHtml5': TablerSvgIcons.brandHtml5,
+      'brandInertia': TablerSvgIcons.brandInertia,
+      'brandInstagram': TablerSvgIcons.brandInstagram,
+      'brandIntercom': TablerSvgIcons.brandIntercom,
+      'brandItch': TablerSvgIcons.brandItch,
+      'brandJavascript': TablerSvgIcons.brandJavascript,
+      'brandJuejin': TablerSvgIcons.brandJuejin,
+      'brandKbin': TablerSvgIcons.brandKbin,
+      'brandKick': TablerSvgIcons.brandKick,
+      'brandKickstarter': TablerSvgIcons.brandKickstarter,
+      'brandKotlin': TablerSvgIcons.brandKotlin,
+      'brandLaravel': TablerSvgIcons.brandLaravel,
+      'brandLastfm': TablerSvgIcons.brandLastfm,
+      'brandLeetcode': TablerSvgIcons.brandLeetcode,
+      'brandLetterboxd': TablerSvgIcons.brandLetterboxd,
+      'brandLine': TablerSvgIcons.brandLine,
+      'brandLinkedin': TablerSvgIcons.brandLinkedin,
+      'brandLinktree': TablerSvgIcons.brandLinktree,
+      'brandLinqpad': TablerSvgIcons.brandLinqpad,
+      'brandLoom': TablerSvgIcons.brandLoom,
+      'brandMailgun': TablerSvgIcons.brandMailgun,
+      'brandMantine': TablerSvgIcons.brandMantine,
+      'brandMastercard': TablerSvgIcons.brandMastercard,
+      'brandMastodon': TablerSvgIcons.brandMastodon,
+      'brandMatrix': TablerSvgIcons.brandMatrix,
+      'brandMcdonalds': TablerSvgIcons.brandMcdonalds,
+      'brandMedium': TablerSvgIcons.brandMedium,
+      'brandMeetup': TablerSvgIcons.brandMeetup,
+      'brandMercedes': TablerSvgIcons.brandMercedes,
+      'brandMessenger': TablerSvgIcons.brandMessenger,
+      'brandMeta': TablerSvgIcons.brandMeta,
+      'brandMinecraft': TablerSvgIcons.brandMinecraft,
+      'brandMiniprogram': TablerSvgIcons.brandMiniprogram,
+      'brandMixpanel': TablerSvgIcons.brandMixpanel,
+      'brandMonday': TablerSvgIcons.brandMonday,
+      'brandMongodb': TablerSvgIcons.brandMongodb,
+      'brandMyOppo': TablerSvgIcons.brandMyOppo,
+      'brandMysql': TablerSvgIcons.brandMysql,
+      'brandNationalGeographic': TablerSvgIcons.brandNationalGeographic,
+      'brandNem': TablerSvgIcons.brandNem,
+      'brandNetbeans': TablerSvgIcons.brandNetbeans,
+      'brandNeteaseMusic': TablerSvgIcons.brandNeteaseMusic,
+      'brandNetflix': TablerSvgIcons.brandNetflix,
+      'brandNexo': TablerSvgIcons.brandNexo,
+      'brandNextcloud': TablerSvgIcons.brandNextcloud,
+      'brandNextjs': TablerSvgIcons.brandNextjs,
+      'brandNodejs': TablerSvgIcons.brandNodejs,
+      'brandNordVpn': TablerSvgIcons.brandNordVpn,
+      'brandNotion': TablerSvgIcons.brandNotion,
+      'brandNpm': TablerSvgIcons.brandNpm,
+      'brandNuxt': TablerSvgIcons.brandNuxt,
+      'brandNytimes': TablerSvgIcons.brandNytimes,
+      'brandOauth': TablerSvgIcons.brandOauth,
+      'brandOffice': TablerSvgIcons.brandOffice,
+      'brandOkRu': TablerSvgIcons.brandOkRu,
+      'brandOnedrive': TablerSvgIcons.brandOnedrive,
+      'brandOnlyfans': TablerSvgIcons.brandOnlyfans,
+      'brandOpenSource': TablerSvgIcons.brandOpenSource,
+      'brandOpenai': TablerSvgIcons.brandOpenai,
+      'brandOpenvpn': TablerSvgIcons.brandOpenvpn,
+      'brandOpera': TablerSvgIcons.brandOpera,
+      'brandPagekit': TablerSvgIcons.brandPagekit,
+      'brandParsinta': TablerSvgIcons.brandParsinta,
+      'brandPatreon': TablerSvgIcons.brandPatreon,
+      'brandPaypalFilled': TablerSvgIcons.brandPaypalFilled,
+      'brandPaypal': TablerSvgIcons.brandPaypal,
+      'brandPaypay': TablerSvgIcons.brandPaypay,
+      'brandPeanut': TablerSvgIcons.brandPeanut,
+      'brandPepsi': TablerSvgIcons.brandPepsi,
+      'brandPhp': TablerSvgIcons.brandPhp,
+      'brandPicsart': TablerSvgIcons.brandPicsart,
+      'brandPinterest': TablerSvgIcons.brandPinterest,
+      'brandPlanetscale': TablerSvgIcons.brandPlanetscale,
+      'brandPocket': TablerSvgIcons.brandPocket,
+      'brandPolymer': TablerSvgIcons.brandPolymer,
+      'brandPowershell': TablerSvgIcons.brandPowershell,
+      'brandPrisma': TablerSvgIcons.brandPrisma,
+      'brandProducthunt': TablerSvgIcons.brandProducthunt,
+      'brandPushbullet': TablerSvgIcons.brandPushbullet,
+      'brandPushover': TablerSvgIcons.brandPushover,
+      'brandPython': TablerSvgIcons.brandPython,
+      'brandQq': TablerSvgIcons.brandQq,
+      'brandRadixUi': TablerSvgIcons.brandRadixUi,
+      'brandReactNative': TablerSvgIcons.brandReactNative,
+      'brandReact': TablerSvgIcons.brandReact,
+      'brandReason': TablerSvgIcons.brandReason,
+      'brandReddit': TablerSvgIcons.brandReddit,
+      'brandRedhat': TablerSvgIcons.brandRedhat,
+      'brandRedux': TablerSvgIcons.brandRedux,
+      'brandRevolut': TablerSvgIcons.brandRevolut,
+      'brandRumble': TablerSvgIcons.brandRumble,
+      'brandRust': TablerSvgIcons.brandRust,
+      'brandSafari': TablerSvgIcons.brandSafari,
+      'brandSamsungpass': TablerSvgIcons.brandSamsungpass,
+      'brandSass': TablerSvgIcons.brandSass,
+      'brandSentry': TablerSvgIcons.brandSentry,
+      'brandSharik': TablerSvgIcons.brandSharik,
+      'brandShazam': TablerSvgIcons.brandShazam,
+      'brandShopee': TablerSvgIcons.brandShopee,
+      'brandSketch': TablerSvgIcons.brandSketch,
+      'brandSkype': TablerSvgIcons.brandSkype,
+      'brandSlack': TablerSvgIcons.brandSlack,
+      'brandSnapchat': TablerSvgIcons.brandSnapchat,
+      'brandSnapseed': TablerSvgIcons.brandSnapseed,
+      'brandSnowflake': TablerSvgIcons.brandSnowflake,
+      'brandSocketIo': TablerSvgIcons.brandSocketIo,
+      'brandSolidjs': TablerSvgIcons.brandSolidjs,
+      'brandSoundcloud': TablerSvgIcons.brandSoundcloud,
+      'brandSpacehey': TablerSvgIcons.brandSpacehey,
+      'brandSpeedtest': TablerSvgIcons.brandSpeedtest,
+      'brandSpotify': TablerSvgIcons.brandSpotify,
+      'brandStackoverflow': TablerSvgIcons.brandStackoverflow,
+      'brandStackshare': TablerSvgIcons.brandStackshare,
+      'brandSteam': TablerSvgIcons.brandSteam,
+      'brandStorj': TablerSvgIcons.brandStorj,
+      'brandStorybook': TablerSvgIcons.brandStorybook,
+      'brandStorytel': TablerSvgIcons.brandStorytel,
+      'brandStrava': TablerSvgIcons.brandStrava,
+      'brandStripe': TablerSvgIcons.brandStripe,
+      'brandSublimeText': TablerSvgIcons.brandSublimeText,
+      'brandSugarizer': TablerSvgIcons.brandSugarizer,
+      'brandSupabase': TablerSvgIcons.brandSupabase,
+      'brandSuperhuman': TablerSvgIcons.brandSuperhuman,
+      'brandSupernova': TablerSvgIcons.brandSupernova,
+      'brandSurfshark': TablerSvgIcons.brandSurfshark,
+      'brandSvelte': TablerSvgIcons.brandSvelte,
+      'brandSwift': TablerSvgIcons.brandSwift,
+      'brandSymfony': TablerSvgIcons.brandSymfony,
+      'brandTabler': TablerSvgIcons.brandTabler,
+      'brandTailwind': TablerSvgIcons.brandTailwind,
+      'brandTaobao': TablerSvgIcons.brandTaobao,
+      'brandTeams': TablerSvgIcons.brandTeams,
+      'brandTed': TablerSvgIcons.brandTed,
+      'brandTelegram': TablerSvgIcons.brandTelegram,
+      'brandTerraform': TablerSvgIcons.brandTerraform,
+      'brandTether': TablerSvgIcons.brandTether,
+      'brandThreads': TablerSvgIcons.brandThreads,
+      'brandThreejs': TablerSvgIcons.brandThreejs,
+      'brandTidal': TablerSvgIcons.brandTidal,
+      'brandTiktokFilled': TablerSvgIcons.brandTiktokFilled,
+      'brandTiktok': TablerSvgIcons.brandTiktok,
+      'brandTinder': TablerSvgIcons.brandTinder,
+      'brandTopbuzz': TablerSvgIcons.brandTopbuzz,
+      'brandTorchain': TablerSvgIcons.brandTorchain,
+      'brandToyota': TablerSvgIcons.brandToyota,
+      'brandTrello': TablerSvgIcons.brandTrello,
+      'brandTripadvisor': TablerSvgIcons.brandTripadvisor,
+      'brandTumblr': TablerSvgIcons.brandTumblr,
+      'brandTwilio': TablerSvgIcons.brandTwilio,
+      'brandTwitch': TablerSvgIcons.brandTwitch,
+      'brandTwitterFilled': TablerSvgIcons.brandTwitterFilled,
+      'brandTwitter': TablerSvgIcons.brandTwitter,
+      'brandTypescript': TablerSvgIcons.brandTypescript,
+      'brandUber': TablerSvgIcons.brandUber,
+      'brandUbuntu': TablerSvgIcons.brandUbuntu,
+      'brandUnity': TablerSvgIcons.brandUnity,
+      'brandUnsplash': TablerSvgIcons.brandUnsplash,
+      'brandUpwork': TablerSvgIcons.brandUpwork,
+      'brandValorant': TablerSvgIcons.brandValorant,
+      'brandVercel': TablerSvgIcons.brandVercel,
+      'brandVimeo': TablerSvgIcons.brandVimeo,
+      'brandVinted': TablerSvgIcons.brandVinted,
+      'brandVisa': TablerSvgIcons.brandVisa,
+      'brandVisualStudio': TablerSvgIcons.brandVisualStudio,
+      'brandVite': TablerSvgIcons.brandVite,
+      'brandVivaldi': TablerSvgIcons.brandVivaldi,
+      'brandVk': TablerSvgIcons.brandVk,
+      'brandVlc': TablerSvgIcons.brandVlc,
+      'brandVolkswagen': TablerSvgIcons.brandVolkswagen,
+      'brandVsco': TablerSvgIcons.brandVsco,
+      'brandVscode': TablerSvgIcons.brandVscode,
+      'brandVue': TablerSvgIcons.brandVue,
+      'brandWalmart': TablerSvgIcons.brandWalmart,
+      'brandWaze': TablerSvgIcons.brandWaze,
+      'brandWebflow': TablerSvgIcons.brandWebflow,
+      'brandWechat': TablerSvgIcons.brandWechat,
+      'brandWeibo': TablerSvgIcons.brandWeibo,
+      'brandWhatsapp': TablerSvgIcons.brandWhatsapp,
+      'brandWikipedia': TablerSvgIcons.brandWikipedia,
+      'brandWindows': TablerSvgIcons.brandWindows,
+      'brandWindy': TablerSvgIcons.brandWindy,
+      'brandWish': TablerSvgIcons.brandWish,
+      'brandWix': TablerSvgIcons.brandWix,
+      'brandWordpress': TablerSvgIcons.brandWordpress,
+      'brandXFilled': TablerSvgIcons.brandXFilled,
+      'brandX': TablerSvgIcons.brandX,
+      'brandXamarin': TablerSvgIcons.brandXamarin,
+      'brandXbox': TablerSvgIcons.brandXbox,
+      'brandXdeep': TablerSvgIcons.brandXdeep,
+      'brandXing': TablerSvgIcons.brandXing,
+      'brandYahoo': TablerSvgIcons.brandYahoo,
+      'brandYandex': TablerSvgIcons.brandYandex,
+      'brandYatse': TablerSvgIcons.brandYatse,
+      'brandYcombinator': TablerSvgIcons.brandYcombinator,
+      'brandYoutubeFilled': TablerSvgIcons.brandYoutubeFilled,
+      'brandYoutubeKids': TablerSvgIcons.brandYoutubeKids,
+      'brandYoutube': TablerSvgIcons.brandYoutube,
+      'brandZalando': TablerSvgIcons.brandZalando,
+      'brandZapier': TablerSvgIcons.brandZapier,
+      'brandZeit': TablerSvgIcons.brandZeit,
+      'brandZhihu': TablerSvgIcons.brandZhihu,
+      'brandZoom': TablerSvgIcons.brandZoom,
+      'brandZulip': TablerSvgIcons.brandZulip,
+      'brandZwift': TablerSvgIcons.brandZwift,
+      'breadOff': TablerSvgIcons.breadOff,
+      'bread': TablerSvgIcons.bread,
+      'briefcase2': TablerSvgIcons.briefcase2,
+      'briefcaseOff': TablerSvgIcons.briefcaseOff,
+      'briefcase': TablerSvgIcons.briefcase,
+      'brightness2': TablerSvgIcons.brightness2,
+      'brightnessDownFilled': TablerSvgIcons.brightnessDownFilled,
+      'brightnessDown': TablerSvgIcons.brightnessDown,
+      'brightnessHalf': TablerSvgIcons.brightnessHalf,
+      'brightnessOff': TablerSvgIcons.brightnessOff,
+      'brightnessUpFilled': TablerSvgIcons.brightnessUpFilled,
+      'brightnessUp': TablerSvgIcons.brightnessUp,
+      'brightness': TablerSvgIcons.brightness,
+      'broadcastOff': TablerSvgIcons.broadcastOff,
+      'broadcast': TablerSvgIcons.broadcast,
+      'browserCheck': TablerSvgIcons.browserCheck,
+      'browserOff': TablerSvgIcons.browserOff,
+      'browserPlus': TablerSvgIcons.browserPlus,
+      'browserX': TablerSvgIcons.browserX,
+      'browser': TablerSvgIcons.browser,
+      'brushOff': TablerSvgIcons.brushOff,
+      'brush': TablerSvgIcons.brush,
+      'bucketDroplet': TablerSvgIcons.bucketDroplet,
+      'bucketOff': TablerSvgIcons.bucketOff,
+      'bucket': TablerSvgIcons.bucket,
+      'bugOff': TablerSvgIcons.bugOff,
+      'bug': TablerSvgIcons.bug,
+      'buildingArch': TablerSvgIcons.buildingArch,
+      'buildingBank': TablerSvgIcons.buildingBank,
+      'buildingBridge2': TablerSvgIcons.buildingBridge2,
+      'buildingBridge': TablerSvgIcons.buildingBridge,
+      'buildingBroadcastTower': TablerSvgIcons.buildingBroadcastTower,
+      'buildingCarousel': TablerSvgIcons.buildingCarousel,
+      'buildingCastle': TablerSvgIcons.buildingCastle,
+      'buildingChurch': TablerSvgIcons.buildingChurch,
+      'buildingCircus': TablerSvgIcons.buildingCircus,
+      'buildingCommunity': TablerSvgIcons.buildingCommunity,
+      'buildingCottage': TablerSvgIcons.buildingCottage,
+      'buildingEstate': TablerSvgIcons.buildingEstate,
+      'buildingFactory2': TablerSvgIcons.buildingFactory2,
+      'buildingFactory': TablerSvgIcons.buildingFactory,
+      'buildingFortress': TablerSvgIcons.buildingFortress,
+      'buildingHospital': TablerSvgIcons.buildingHospital,
+      'buildingLighthouse': TablerSvgIcons.buildingLighthouse,
+      'buildingMonument': TablerSvgIcons.buildingMonument,
+      'buildingMosque': TablerSvgIcons.buildingMosque,
+      'buildingPavilion': TablerSvgIcons.buildingPavilion,
+      'buildingSkyscraper': TablerSvgIcons.buildingSkyscraper,
+      'buildingStadium': TablerSvgIcons.buildingStadium,
+      'buildingStore': TablerSvgIcons.buildingStore,
+      'buildingTunnel': TablerSvgIcons.buildingTunnel,
+      'buildingWarehouse': TablerSvgIcons.buildingWarehouse,
+      'buildingWindTurbine': TablerSvgIcons.buildingWindTurbine,
+      'building': TablerSvgIcons.building,
+      'bulbFilled': TablerSvgIcons.bulbFilled,
+      'bulbOff': TablerSvgIcons.bulbOff,
+      'bulb': TablerSvgIcons.bulb,
+      'bulldozer': TablerSvgIcons.bulldozer,
+      'burger': TablerSvgIcons.burger,
+      'busOff': TablerSvgIcons.busOff,
+      'busStop': TablerSvgIcons.busStop,
+      'bus': TablerSvgIcons.bus,
+      'businessplan': TablerSvgIcons.businessplan,
+      'butterfly': TablerSvgIcons.butterfly,
+      'cactusFilled': TablerSvgIcons.cactusFilled,
+      'cactusOff': TablerSvgIcons.cactusOff,
+      'cactus': TablerSvgIcons.cactus,
+      'cakeOff': TablerSvgIcons.cakeOff,
+      'cake': TablerSvgIcons.cake,
+      'calculatorFilled': TablerSvgIcons.calculatorFilled,
+      'calculatorOff': TablerSvgIcons.calculatorOff,
+      'calculator': TablerSvgIcons.calculator,
+      'calendarBolt': TablerSvgIcons.calendarBolt,
+      'calendarCancel': TablerSvgIcons.calendarCancel,
+      'calendarCheck': TablerSvgIcons.calendarCheck,
+      'calendarCode': TablerSvgIcons.calendarCode,
+      'calendarCog': TablerSvgIcons.calendarCog,
+      'calendarDollar': TablerSvgIcons.calendarDollar,
+      'calendarDown': TablerSvgIcons.calendarDown,
+      'calendarDue': TablerSvgIcons.calendarDue,
+      'calendarEvent': TablerSvgIcons.calendarEvent,
+      'calendarExclamation': TablerSvgIcons.calendarExclamation,
+      'calendarFilled': TablerSvgIcons.calendarFilled,
+      'calendarHeart': TablerSvgIcons.calendarHeart,
+      'calendarMinus': TablerSvgIcons.calendarMinus,
+      'calendarOff': TablerSvgIcons.calendarOff,
+      'calendarPause': TablerSvgIcons.calendarPause,
+      'calendarPin': TablerSvgIcons.calendarPin,
+      'calendarPlus': TablerSvgIcons.calendarPlus,
+      'calendarQuestion': TablerSvgIcons.calendarQuestion,
+      'calendarRepeat': TablerSvgIcons.calendarRepeat,
+      'calendarSearch': TablerSvgIcons.calendarSearch,
+      'calendarShare': TablerSvgIcons.calendarShare,
+      'calendarStar': TablerSvgIcons.calendarStar,
+      'calendarStats': TablerSvgIcons.calendarStats,
+      'calendarTime': TablerSvgIcons.calendarTime,
+      'calendarUp': TablerSvgIcons.calendarUp,
+      'calendarX': TablerSvgIcons.calendarX,
+      'calendar': TablerSvgIcons.calendar,
+      'cameraBolt': TablerSvgIcons.cameraBolt,
+      'cameraCancel': TablerSvgIcons.cameraCancel,
+      'cameraCheck': TablerSvgIcons.cameraCheck,
+      'cameraCode': TablerSvgIcons.cameraCode,
+      'cameraCog': TablerSvgIcons.cameraCog,
+      'cameraDollar': TablerSvgIcons.cameraDollar,
+      'cameraDown': TablerSvgIcons.cameraDown,
+      'cameraExclamation': TablerSvgIcons.cameraExclamation,
+      'cameraFilled': TablerSvgIcons.cameraFilled,
+      'cameraHeart': TablerSvgIcons.cameraHeart,
+      'cameraMinus': TablerSvgIcons.cameraMinus,
+      'cameraOff': TablerSvgIcons.cameraOff,
+      'cameraPause': TablerSvgIcons.cameraPause,
+      'cameraPin': TablerSvgIcons.cameraPin,
+      'cameraPlus': TablerSvgIcons.cameraPlus,
+      'cameraQuestion': TablerSvgIcons.cameraQuestion,
+      'cameraRotate': TablerSvgIcons.cameraRotate,
+      'cameraSearch': TablerSvgIcons.cameraSearch,
+      'cameraSelfie': TablerSvgIcons.cameraSelfie,
+      'cameraShare': TablerSvgIcons.cameraShare,
+      'cameraStar': TablerSvgIcons.cameraStar,
+      'cameraUp': TablerSvgIcons.cameraUp,
+      'cameraX': TablerSvgIcons.cameraX,
+      'camera': TablerSvgIcons.camera,
+      'camper': TablerSvgIcons.camper,
+      'campfireFilled': TablerSvgIcons.campfireFilled,
+      'campfire': TablerSvgIcons.campfire,
+      'candleFilled': TablerSvgIcons.candleFilled,
+      'candle': TablerSvgIcons.candle,
+      'candyOff': TablerSvgIcons.candyOff,
+      'candy': TablerSvgIcons.candy,
+      'cane': TablerSvgIcons.cane,
+      'cannabis': TablerSvgIcons.cannabis,
+      'capsuleFilled': TablerSvgIcons.capsuleFilled,
+      'capsuleHorizontalFilled': TablerSvgIcons.capsuleHorizontalFilled,
+      'capsuleHorizontal': TablerSvgIcons.capsuleHorizontal,
+      'capsule': TablerSvgIcons.capsule,
+      'captureFilled': TablerSvgIcons.captureFilled,
+      'captureOff': TablerSvgIcons.captureOff,
+      'capture': TablerSvgIcons.capture,
+      'carCrane': TablerSvgIcons.carCrane,
+      'carCrash': TablerSvgIcons.carCrash,
+      'carGarage': TablerSvgIcons.carGarage,
+      'carOff': TablerSvgIcons.carOff,
+      'carSuv': TablerSvgIcons.carSuv,
+      'carTurbine': TablerSvgIcons.carTurbine,
+      'car': TablerSvgIcons.car,
+      'caravan': TablerSvgIcons.caravan,
+      'cardboardsOff': TablerSvgIcons.cardboardsOff,
+      'cardboards': TablerSvgIcons.cardboards,
+      'cardsFilled': TablerSvgIcons.cardsFilled,
+      'cards': TablerSvgIcons.cards,
+      'caretDownFilled': TablerSvgIcons.caretDownFilled,
+      'caretDown': TablerSvgIcons.caretDown,
+      'caretLeftFilled': TablerSvgIcons.caretLeftFilled,
+      'caretLeftRight': TablerSvgIcons.caretLeftRight,
+      'caretLeft': TablerSvgIcons.caretLeft,
+      'caretRightFilled': TablerSvgIcons.caretRightFilled,
+      'caretRight': TablerSvgIcons.caretRight,
+      'caretUpDown': TablerSvgIcons.caretUpDown,
+      'caretUpFilled': TablerSvgIcons.caretUpFilled,
+      'caretUp': TablerSvgIcons.caretUp,
+      'carouselHorizontalFilled': TablerSvgIcons.carouselHorizontalFilled,
+      'carouselHorizontal': TablerSvgIcons.carouselHorizontal,
+      'carouselVerticalFilled': TablerSvgIcons.carouselVerticalFilled,
+      'carouselVertical': TablerSvgIcons.carouselVertical,
+      'carrotOff': TablerSvgIcons.carrotOff,
+      'carrot': TablerSvgIcons.carrot,
+      'cashBanknoteOff': TablerSvgIcons.cashBanknoteOff,
+      'cashBanknote': TablerSvgIcons.cashBanknote,
+      'cashOff': TablerSvgIcons.cashOff,
+      'cash': TablerSvgIcons.cash,
+      'castOff': TablerSvgIcons.castOff,
+      'cast': TablerSvgIcons.cast,
+      'cat': TablerSvgIcons.cat,
+      'category2': TablerSvgIcons.category2,
+      'categoryFilled': TablerSvgIcons.categoryFilled,
+      'category': TablerSvgIcons.category,
+      'ceOff': TablerSvgIcons.ceOff,
+      'ce': TablerSvgIcons.ce,
+      'cellSignal1': TablerSvgIcons.cellSignal1,
+      'cellSignal2': TablerSvgIcons.cellSignal2,
+      'cellSignal3': TablerSvgIcons.cellSignal3,
+      'cellSignal4': TablerSvgIcons.cellSignal4,
+      'cellSignal5': TablerSvgIcons.cellSignal5,
+      'cellSignalOff': TablerSvgIcons.cellSignalOff,
+      'cell': TablerSvgIcons.cell,
+      'certificate2Off': TablerSvgIcons.certificate2Off,
+      'certificate2': TablerSvgIcons.certificate2,
+      'certificateOff': TablerSvgIcons.certificateOff,
+      'certificate': TablerSvgIcons.certificate,
+      'chairDirector': TablerSvgIcons.chairDirector,
+      'chalkboardOff': TablerSvgIcons.chalkboardOff,
+      'chalkboard': TablerSvgIcons.chalkboard,
+      'chargingPile': TablerSvgIcons.chargingPile,
+      'chartArcs3': TablerSvgIcons.chartArcs3,
+      'chartArcs': TablerSvgIcons.chartArcs,
+      'chartAreaFilled': TablerSvgIcons.chartAreaFilled,
+      'chartAreaLineFilled': TablerSvgIcons.chartAreaLineFilled,
+      'chartAreaLine': TablerSvgIcons.chartAreaLine,
+      'chartArea': TablerSvgIcons.chartArea,
+      'chartArrowsVertical': TablerSvgIcons.chartArrowsVertical,
+      'chartArrows': TablerSvgIcons.chartArrows,
+      'chartBarOff': TablerSvgIcons.chartBarOff,
+      'chartBar': TablerSvgIcons.chartBar,
+      'chartBubbleFilled': TablerSvgIcons.chartBubbleFilled,
+      'chartBubble': TablerSvgIcons.chartBubble,
+      'chartCandleFilled': TablerSvgIcons.chartCandleFilled,
+      'chartCandle': TablerSvgIcons.chartCandle,
+      'chartCircles': TablerSvgIcons.chartCircles,
+      'chartDonut2': TablerSvgIcons.chartDonut2,
+      'chartDonut3': TablerSvgIcons.chartDonut3,
+      'chartDonut4': TablerSvgIcons.chartDonut4,
+      'chartDonutFilled': TablerSvgIcons.chartDonutFilled,
+      'chartDonut': TablerSvgIcons.chartDonut,
+      'chartDots2': TablerSvgIcons.chartDots2,
+      'chartDots3': TablerSvgIcons.chartDots3,
+      'chartDots': TablerSvgIcons.chartDots,
+      'chartGridDots': TablerSvgIcons.chartGridDots,
+      'chartHistogram': TablerSvgIcons.chartHistogram,
+      'chartInfographic': TablerSvgIcons.chartInfographic,
+      'chartLine': TablerSvgIcons.chartLine,
+      'chartPie2': TablerSvgIcons.chartPie2,
+      'chartPie3': TablerSvgIcons.chartPie3,
+      'chartPie4': TablerSvgIcons.chartPie4,
+      'chartPieFilled': TablerSvgIcons.chartPieFilled,
+      'chartPieOff': TablerSvgIcons.chartPieOff,
+      'chartPie': TablerSvgIcons.chartPie,
+      'chartPpf': TablerSvgIcons.chartPpf,
+      'chartRadar': TablerSvgIcons.chartRadar,
+      'chartSankey': TablerSvgIcons.chartSankey,
+      'chartTreemap': TablerSvgIcons.chartTreemap,
+      'check': TablerSvgIcons.check,
+      'checkbox': TablerSvgIcons.checkbox,
+      'checklist': TablerSvgIcons.checklist,
+      'checks': TablerSvgIcons.checks,
+      'checkupList': TablerSvgIcons.checkupList,
+      'cheese': TablerSvgIcons.cheese,
+      'chefHatOff': TablerSvgIcons.chefHatOff,
+      'chefHat': TablerSvgIcons.chefHat,
+      'cherryFilled': TablerSvgIcons.cherryFilled,
+      'cherry': TablerSvgIcons.cherry,
+      'chessBishopFilled': TablerSvgIcons.chessBishopFilled,
+      'chessBishop': TablerSvgIcons.chessBishop,
+      'chessFilled': TablerSvgIcons.chessFilled,
+      'chessKingFilled': TablerSvgIcons.chessKingFilled,
+      'chessKing': TablerSvgIcons.chessKing,
+      'chessKnightFilled': TablerSvgIcons.chessKnightFilled,
+      'chessKnight': TablerSvgIcons.chessKnight,
+      'chessQueenFilled': TablerSvgIcons.chessQueenFilled,
+      'chessQueen': TablerSvgIcons.chessQueen,
+      'chessRookFilled': TablerSvgIcons.chessRookFilled,
+      'chessRook': TablerSvgIcons.chessRook,
+      'chess': TablerSvgIcons.chess,
+      'chevronCompactDown': TablerSvgIcons.chevronCompactDown,
+      'chevronCompactLeft': TablerSvgIcons.chevronCompactLeft,
+      'chevronCompactRight': TablerSvgIcons.chevronCompactRight,
+      'chevronCompactUp': TablerSvgIcons.chevronCompactUp,
+      'chevronDownLeft': TablerSvgIcons.chevronDownLeft,
+      'chevronDownRight': TablerSvgIcons.chevronDownRight,
+      'chevronDown': TablerSvgIcons.chevronDown,
+      'chevronLeftPipe': TablerSvgIcons.chevronLeftPipe,
+      'chevronLeft': TablerSvgIcons.chevronLeft,
+      'chevronRightPipe': TablerSvgIcons.chevronRightPipe,
+      'chevronRight': TablerSvgIcons.chevronRight,
+      'chevronUpLeft': TablerSvgIcons.chevronUpLeft,
+      'chevronUpRight': TablerSvgIcons.chevronUpRight,
+      'chevronUp': TablerSvgIcons.chevronUp,
+      'chevronsDownLeft': TablerSvgIcons.chevronsDownLeft,
+      'chevronsDownRight': TablerSvgIcons.chevronsDownRight,
+      'chevronsDown': TablerSvgIcons.chevronsDown,
+      'chevronsLeft': TablerSvgIcons.chevronsLeft,
+      'chevronsRight': TablerSvgIcons.chevronsRight,
+      'chevronsUpLeft': TablerSvgIcons.chevronsUpLeft,
+      'chevronsUpRight': TablerSvgIcons.chevronsUpRight,
+      'chevronsUp': TablerSvgIcons.chevronsUp,
+      'chisel': TablerSvgIcons.chisel,
+      'christmasTreeOff': TablerSvgIcons.christmasTreeOff,
+      'christmasTree': TablerSvgIcons.christmasTree,
+      'circle0Filled': TablerSvgIcons.circle0Filled,
+      'circle1Filled': TablerSvgIcons.circle1Filled,
+      'circle2Filled': TablerSvgIcons.circle2Filled,
+      'circle3Filled': TablerSvgIcons.circle3Filled,
+      'circle4Filled': TablerSvgIcons.circle4Filled,
+      'circle5Filled': TablerSvgIcons.circle5Filled,
+      'circle6Filled': TablerSvgIcons.circle6Filled,
+      'circle7Filled': TablerSvgIcons.circle7Filled,
+      'circle8Filled': TablerSvgIcons.circle8Filled,
+      'circle9Filled': TablerSvgIcons.circle9Filled,
+      'circleArrowDownFilled': TablerSvgIcons.circleArrowDownFilled,
+      'circleArrowDownLeftFilled': TablerSvgIcons.circleArrowDownLeftFilled,
+      'circleArrowDownLeft': TablerSvgIcons.circleArrowDownLeft,
+      'circleArrowDownRightFilled': TablerSvgIcons.circleArrowDownRightFilled,
+      'circleArrowDownRight': TablerSvgIcons.circleArrowDownRight,
+      'circleArrowDown': TablerSvgIcons.circleArrowDown,
+      'circleArrowLeftFilled': TablerSvgIcons.circleArrowLeftFilled,
+      'circleArrowLeft': TablerSvgIcons.circleArrowLeft,
+      'circleArrowRightFilled': TablerSvgIcons.circleArrowRightFilled,
+      'circleArrowRight': TablerSvgIcons.circleArrowRight,
+      'circleArrowUpFilled': TablerSvgIcons.circleArrowUpFilled,
+      'circleArrowUpLeftFilled': TablerSvgIcons.circleArrowUpLeftFilled,
+      'circleArrowUpLeft': TablerSvgIcons.circleArrowUpLeft,
+      'circleArrowUpRightFilled': TablerSvgIcons.circleArrowUpRightFilled,
+      'circleArrowUpRight': TablerSvgIcons.circleArrowUpRight,
+      'circleArrowUp': TablerSvgIcons.circleArrowUp,
+      'circleCaretDown': TablerSvgIcons.circleCaretDown,
+      'circleCaretLeft': TablerSvgIcons.circleCaretLeft,
+      'circleCaretRight': TablerSvgIcons.circleCaretRight,
+      'circleCaretUp': TablerSvgIcons.circleCaretUp,
+      'circleCheckFilled': TablerSvgIcons.circleCheckFilled,
+      'circleCheck': TablerSvgIcons.circleCheck,
+      'circleChevronDown': TablerSvgIcons.circleChevronDown,
+      'circleChevronLeft': TablerSvgIcons.circleChevronLeft,
+      'circleChevronRight': TablerSvgIcons.circleChevronRight,
+      'circleChevronUp': TablerSvgIcons.circleChevronUp,
+      'circleChevronsDown': TablerSvgIcons.circleChevronsDown,
+      'circleChevronsLeft': TablerSvgIcons.circleChevronsLeft,
+      'circleChevronsRight': TablerSvgIcons.circleChevronsRight,
+      'circleChevronsUp': TablerSvgIcons.circleChevronsUp,
+      'circleDashedNumber0': TablerSvgIcons.circleDashedNumber0,
+      'circleDashedNumber1': TablerSvgIcons.circleDashedNumber1,
+      'circleDashedNumber2': TablerSvgIcons.circleDashedNumber2,
+      'circleDashedNumber3': TablerSvgIcons.circleDashedNumber3,
+      'circleDashedNumber4': TablerSvgIcons.circleDashedNumber4,
+      'circleDashedNumber5': TablerSvgIcons.circleDashedNumber5,
+      'circleDashedNumber6': TablerSvgIcons.circleDashedNumber6,
+      'circleDashedNumber7': TablerSvgIcons.circleDashedNumber7,
+      'circleDashedNumber8': TablerSvgIcons.circleDashedNumber8,
+      'circleDashedNumber9': TablerSvgIcons.circleDashedNumber9,
+      'circleDashedX': TablerSvgIcons.circleDashedX,
+      'circleDashed': TablerSvgIcons.circleDashed,
+      'circleDotFilled': TablerSvgIcons.circleDotFilled,
+      'circleDot': TablerSvgIcons.circleDot,
+      'circleDotted': TablerSvgIcons.circleDotted,
+      'circleFilled': TablerSvgIcons.circleFilled,
+      'circleHalf2': TablerSvgIcons.circleHalf2,
+      'circleHalfVertical': TablerSvgIcons.circleHalfVertical,
+      'circleHalf': TablerSvgIcons.circleHalf,
+      'circleKeyFilled': TablerSvgIcons.circleKeyFilled,
+      'circleKey': TablerSvgIcons.circleKey,
+      'circleLetterA': TablerSvgIcons.circleLetterA,
+      'circleLetterB': TablerSvgIcons.circleLetterB,
+      'circleLetterC': TablerSvgIcons.circleLetterC,
+      'circleLetterD': TablerSvgIcons.circleLetterD,
+      'circleLetterE': TablerSvgIcons.circleLetterE,
+      'circleLetterF': TablerSvgIcons.circleLetterF,
+      'circleLetterG': TablerSvgIcons.circleLetterG,
+      'circleLetterH': TablerSvgIcons.circleLetterH,
+      'circleLetterI': TablerSvgIcons.circleLetterI,
+      'circleLetterJ': TablerSvgIcons.circleLetterJ,
+      'circleLetterK': TablerSvgIcons.circleLetterK,
+      'circleLetterL': TablerSvgIcons.circleLetterL,
+      'circleLetterM': TablerSvgIcons.circleLetterM,
+      'circleLetterN': TablerSvgIcons.circleLetterN,
+      'circleLetterO': TablerSvgIcons.circleLetterO,
+      'circleLetterP': TablerSvgIcons.circleLetterP,
+      'circleLetterQ': TablerSvgIcons.circleLetterQ,
+      'circleLetterR': TablerSvgIcons.circleLetterR,
+      'circleLetterS': TablerSvgIcons.circleLetterS,
+      'circleLetterT': TablerSvgIcons.circleLetterT,
+      'circleLetterU': TablerSvgIcons.circleLetterU,
+      'circleLetterV': TablerSvgIcons.circleLetterV,
+      'circleLetterW': TablerSvgIcons.circleLetterW,
+      'circleLetterX': TablerSvgIcons.circleLetterX,
+      'circleLetterY': TablerSvgIcons.circleLetterY,
+      'circleLetterZ': TablerSvgIcons.circleLetterZ,
+      'circleMinus2': TablerSvgIcons.circleMinus2,
+      'circleMinus': TablerSvgIcons.circleMinus,
+      'circleNumber0': TablerSvgIcons.circleNumber0,
+      'circleNumber1': TablerSvgIcons.circleNumber1,
+      'circleNumber2': TablerSvgIcons.circleNumber2,
+      'circleNumber3': TablerSvgIcons.circleNumber3,
+      'circleNumber4': TablerSvgIcons.circleNumber4,
+      'circleNumber5': TablerSvgIcons.circleNumber5,
+      'circleNumber6': TablerSvgIcons.circleNumber6,
+      'circleNumber7': TablerSvgIcons.circleNumber7,
+      'circleNumber8': TablerSvgIcons.circleNumber8,
+      'circleNumber9': TablerSvgIcons.circleNumber9,
+      'circleOff': TablerSvgIcons.circleOff,
+      'circlePlus2': TablerSvgIcons.circlePlus2,
+      'circlePlus': TablerSvgIcons.circlePlus,
+      'circleRectangleOff': TablerSvgIcons.circleRectangleOff,
+      'circleRectangle': TablerSvgIcons.circleRectangle,
+      'circleSquare': TablerSvgIcons.circleSquare,
+      'circleTriangle': TablerSvgIcons.circleTriangle,
+      'circleXFilled': TablerSvgIcons.circleXFilled,
+      'circleX': TablerSvgIcons.circleX,
+      'circle': TablerSvgIcons.circle,
+      'circlesFilled': TablerSvgIcons.circlesFilled,
+      'circlesRelation': TablerSvgIcons.circlesRelation,
+      'circles': TablerSvgIcons.circles,
+      'circuitAmmeter': TablerSvgIcons.circuitAmmeter,
+      'circuitBattery': TablerSvgIcons.circuitBattery,
+      'circuitBulb': TablerSvgIcons.circuitBulb,
+      'circuitCapacitorPolarized': TablerSvgIcons.circuitCapacitorPolarized,
+      'circuitCapacitor': TablerSvgIcons.circuitCapacitor,
+      'circuitCellPlus': TablerSvgIcons.circuitCellPlus,
+      'circuitCell': TablerSvgIcons.circuitCell,
+      'circuitChangeover': TablerSvgIcons.circuitChangeover,
+      'circuitDiodeZener': TablerSvgIcons.circuitDiodeZener,
+      'circuitDiode': TablerSvgIcons.circuitDiode,
+      'circuitGroundDigital': TablerSvgIcons.circuitGroundDigital,
+      'circuitGround': TablerSvgIcons.circuitGround,
+      'circuitInductor': TablerSvgIcons.circuitInductor,
+      'circuitMotor': TablerSvgIcons.circuitMotor,
+      'circuitPushbutton': TablerSvgIcons.circuitPushbutton,
+      'circuitResistor': TablerSvgIcons.circuitResistor,
+      'circuitSwitchClosed': TablerSvgIcons.circuitSwitchClosed,
+      'circuitSwitchOpen': TablerSvgIcons.circuitSwitchOpen,
+      'circuitVoltmeter': TablerSvgIcons.circuitVoltmeter,
+      'clearAll': TablerSvgIcons.clearAll,
+      'clearFormatting': TablerSvgIcons.clearFormatting,
+      'click': TablerSvgIcons.click,
+      'clipboardCheck': TablerSvgIcons.clipboardCheck,
+      'clipboardCopy': TablerSvgIcons.clipboardCopy,
+      'clipboardData': TablerSvgIcons.clipboardData,
+      'clipboardHeart': TablerSvgIcons.clipboardHeart,
+      'clipboardList': TablerSvgIcons.clipboardList,
+      'clipboardOff': TablerSvgIcons.clipboardOff,
+      'clipboardPlus': TablerSvgIcons.clipboardPlus,
+      'clipboardText': TablerSvgIcons.clipboardText,
+      'clipboardTypography': TablerSvgIcons.clipboardTypography,
+      'clipboardX': TablerSvgIcons.clipboardX,
+      'clipboard': TablerSvgIcons.clipboard,
+      'clock12': TablerSvgIcons.clock12,
+      'clock2': TablerSvgIcons.clock2,
+      'clock24': TablerSvgIcons.clock24,
+      'clockBolt': TablerSvgIcons.clockBolt,
+      'clockCancel': TablerSvgIcons.clockCancel,
+      'clockCheck': TablerSvgIcons.clockCheck,
+      'clockCode': TablerSvgIcons.clockCode,
+      'clockCog': TablerSvgIcons.clockCog,
+      'clockDollar': TablerSvgIcons.clockDollar,
+      'clockDown': TablerSvgIcons.clockDown,
+      'clockEdit': TablerSvgIcons.clockEdit,
+      'clockExclamation': TablerSvgIcons.clockExclamation,
+      'clockFilled': TablerSvgIcons.clockFilled,
+      'clockHeart': TablerSvgIcons.clockHeart,
+      'clockHour1': TablerSvgIcons.clockHour1,
+      'clockHour10': TablerSvgIcons.clockHour10,
+      'clockHour11': TablerSvgIcons.clockHour11,
+      'clockHour12': TablerSvgIcons.clockHour12,
+      'clockHour2': TablerSvgIcons.clockHour2,
+      'clockHour3': TablerSvgIcons.clockHour3,
+      'clockHour4': TablerSvgIcons.clockHour4,
+      'clockHour5': TablerSvgIcons.clockHour5,
+      'clockHour6': TablerSvgIcons.clockHour6,
+      'clockHour7': TablerSvgIcons.clockHour7,
+      'clockHour8': TablerSvgIcons.clockHour8,
+      'clockHour9': TablerSvgIcons.clockHour9,
+      'clockMinus': TablerSvgIcons.clockMinus,
+      'clockOff': TablerSvgIcons.clockOff,
+      'clockPause': TablerSvgIcons.clockPause,
+      'clockPin': TablerSvgIcons.clockPin,
+      'clockPlay': TablerSvgIcons.clockPlay,
+      'clockPlus': TablerSvgIcons.clockPlus,
+      'clockQuestion': TablerSvgIcons.clockQuestion,
+      'clockRecord': TablerSvgIcons.clockRecord,
+      'clockSearch': TablerSvgIcons.clockSearch,
+      'clockShare': TablerSvgIcons.clockShare,
+      'clockShield': TablerSvgIcons.clockShield,
+      'clockStar': TablerSvgIcons.clockStar,
+      'clockStop': TablerSvgIcons.clockStop,
+      'clockUp': TablerSvgIcons.clockUp,
+      'clockX': TablerSvgIcons.clockX,
+      'clock': TablerSvgIcons.clock,
+      'clothesRackOff': TablerSvgIcons.clothesRackOff,
+      'clothesRack': TablerSvgIcons.clothesRack,
+      'cloudBolt': TablerSvgIcons.cloudBolt,
+      'cloudCancel': TablerSvgIcons.cloudCancel,
+      'cloudCheck': TablerSvgIcons.cloudCheck,
+      'cloudCode': TablerSvgIcons.cloudCode,
+      'cloudCog': TablerSvgIcons.cloudCog,
+      'cloudComputing': TablerSvgIcons.cloudComputing,
+      'cloudDataConnection': TablerSvgIcons.cloudDataConnection,
+      'cloudDollar': TablerSvgIcons.cloudDollar,
+      'cloudDown': TablerSvgIcons.cloudDown,
+      'cloudDownload': TablerSvgIcons.cloudDownload,
+      'cloudExclamation': TablerSvgIcons.cloudExclamation,
+      'cloudFilled': TablerSvgIcons.cloudFilled,
+      'cloudFog': TablerSvgIcons.cloudFog,
+      'cloudHeart': TablerSvgIcons.cloudHeart,
+      'cloudLockOpen': TablerSvgIcons.cloudLockOpen,
+      'cloudLock': TablerSvgIcons.cloudLock,
+      'cloudMinus': TablerSvgIcons.cloudMinus,
+      'cloudNetwork': TablerSvgIcons.cloudNetwork,
+      'cloudOff': TablerSvgIcons.cloudOff,
+      'cloudPause': TablerSvgIcons.cloudPause,
+      'cloudPin': TablerSvgIcons.cloudPin,
+      'cloudPlus': TablerSvgIcons.cloudPlus,
+      'cloudQuestion': TablerSvgIcons.cloudQuestion,
+      'cloudRain': TablerSvgIcons.cloudRain,
+      'cloudSearch': TablerSvgIcons.cloudSearch,
+      'cloudShare': TablerSvgIcons.cloudShare,
+      'cloudSnow': TablerSvgIcons.cloudSnow,
+      'cloudStar': TablerSvgIcons.cloudStar,
+      'cloudStorm': TablerSvgIcons.cloudStorm,
+      'cloudUp': TablerSvgIcons.cloudUp,
+      'cloudUpload': TablerSvgIcons.cloudUpload,
+      'cloudX': TablerSvgIcons.cloudX,
+      'cloud': TablerSvgIcons.cloud,
+      'clover2': TablerSvgIcons.clover2,
+      'clover': TablerSvgIcons.clover,
+      'clubsFilled': TablerSvgIcons.clubsFilled,
+      'clubs': TablerSvgIcons.clubs,
+      'codeAsterix': TablerSvgIcons.codeAsterix,
+      'codeCircle2': TablerSvgIcons.codeCircle2,
+      'codeCircle': TablerSvgIcons.codeCircle,
+      'codeDots': TablerSvgIcons.codeDots,
+      'codeMinus': TablerSvgIcons.codeMinus,
+      'codeOff': TablerSvgIcons.codeOff,
+      'codePlus': TablerSvgIcons.codePlus,
+      'code': TablerSvgIcons.code,
+      'coffeeOff': TablerSvgIcons.coffeeOff,
+      'coffee': TablerSvgIcons.coffee,
+      'coffin': TablerSvgIcons.coffin,
+      'coinBitcoin': TablerSvgIcons.coinBitcoin,
+      'coinEuro': TablerSvgIcons.coinEuro,
+      'coinMonero': TablerSvgIcons.coinMonero,
+      'coinOff': TablerSvgIcons.coinOff,
+      'coinPound': TablerSvgIcons.coinPound,
+      'coinRupee': TablerSvgIcons.coinRupee,
+      'coinYen': TablerSvgIcons.coinYen,
+      'coinYuan': TablerSvgIcons.coinYuan,
+      'coin': TablerSvgIcons.coin,
+      'coins': TablerSvgIcons.coins,
+      'colorFilter': TablerSvgIcons.colorFilter,
+      'colorPickerOff': TablerSvgIcons.colorPickerOff,
+      'colorPicker': TablerSvgIcons.colorPicker,
+      'colorSwatchOff': TablerSvgIcons.colorSwatchOff,
+      'colorSwatch': TablerSvgIcons.colorSwatch,
+      'columnInsertLeft': TablerSvgIcons.columnInsertLeft,
+      'columnInsertRight': TablerSvgIcons.columnInsertRight,
+      'columnRemove': TablerSvgIcons.columnRemove,
+      'columns1': TablerSvgIcons.columns1,
+      'columns2': TablerSvgIcons.columns2,
+      'columns3': TablerSvgIcons.columns3,
+      'columnsOff': TablerSvgIcons.columnsOff,
+      'columns': TablerSvgIcons.columns,
+      'comet': TablerSvgIcons.comet,
+      'commandOff': TablerSvgIcons.commandOff,
+      'command': TablerSvgIcons.command,
+      'compassOff': TablerSvgIcons.compassOff,
+      'compass': TablerSvgIcons.compass,
+      'componentsOff': TablerSvgIcons.componentsOff,
+      'components': TablerSvgIcons.components,
+      'cone2': TablerSvgIcons.cone2,
+      'coneOff': TablerSvgIcons.coneOff,
+      'conePlus': TablerSvgIcons.conePlus,
+      'cone': TablerSvgIcons.cone,
+      'confettiOff': TablerSvgIcons.confettiOff,
+      'confetti': TablerSvgIcons.confetti,
+      'confucius': TablerSvgIcons.confucius,
+      'containerOff': TablerSvgIcons.containerOff,
+      'container': TablerSvgIcons.container,
+      'contrast2Off': TablerSvgIcons.contrast2Off,
+      'contrast2': TablerSvgIcons.contrast2,
+      'contrastOff': TablerSvgIcons.contrastOff,
+      'contrast': TablerSvgIcons.contrast,
+      'cooker': TablerSvgIcons.cooker,
+      'cookieMan': TablerSvgIcons.cookieMan,
+      'cookieOff': TablerSvgIcons.cookieOff,
+      'cookie': TablerSvgIcons.cookie,
+      'copyOff': TablerSvgIcons.copyOff,
+      'copy': TablerSvgIcons.copy,
+      'copyleftFilled': TablerSvgIcons.copyleftFilled,
+      'copyleftOff': TablerSvgIcons.copyleftOff,
+      'copyleft': TablerSvgIcons.copyleft,
+      'copyrightFilled': TablerSvgIcons.copyrightFilled,
+      'copyrightOff': TablerSvgIcons.copyrightOff,
+      'copyright': TablerSvgIcons.copyright,
+      'cornerDownLeftDouble': TablerSvgIcons.cornerDownLeftDouble,
+      'cornerDownLeft': TablerSvgIcons.cornerDownLeft,
+      'cornerDownRightDouble': TablerSvgIcons.cornerDownRightDouble,
+      'cornerDownRight': TablerSvgIcons.cornerDownRight,
+      'cornerLeftDownDouble': TablerSvgIcons.cornerLeftDownDouble,
+      'cornerLeftDown': TablerSvgIcons.cornerLeftDown,
+      'cornerLeftUpDouble': TablerSvgIcons.cornerLeftUpDouble,
+      'cornerLeftUp': TablerSvgIcons.cornerLeftUp,
+      'cornerRightDownDouble': TablerSvgIcons.cornerRightDownDouble,
+      'cornerRightDown': TablerSvgIcons.cornerRightDown,
+      'cornerRightUpDouble': TablerSvgIcons.cornerRightUpDouble,
+      'cornerRightUp': TablerSvgIcons.cornerRightUp,
+      'cornerUpLeftDouble': TablerSvgIcons.cornerUpLeftDouble,
+      'cornerUpLeft': TablerSvgIcons.cornerUpLeft,
+      'cornerUpRightDouble': TablerSvgIcons.cornerUpRightDouble,
+      'cornerUpRight': TablerSvgIcons.cornerUpRight,
+      'cpu2': TablerSvgIcons.cpu2,
+      'cpuOff': TablerSvgIcons.cpuOff,
+      'cpu': TablerSvgIcons.cpu,
+      'craneOff': TablerSvgIcons.craneOff,
+      'crane': TablerSvgIcons.crane,
+      'creativeCommonsBy': TablerSvgIcons.creativeCommonsBy,
+      'creativeCommonsNc': TablerSvgIcons.creativeCommonsNc,
+      'creativeCommonsNd': TablerSvgIcons.creativeCommonsNd,
+      'creativeCommonsOff': TablerSvgIcons.creativeCommonsOff,
+      'creativeCommonsSa': TablerSvgIcons.creativeCommonsSa,
+      'creativeCommonsZero': TablerSvgIcons.creativeCommonsZero,
+      'creativeCommons': TablerSvgIcons.creativeCommons,
+      'creditCardOff': TablerSvgIcons.creditCardOff,
+      'creditCard': TablerSvgIcons.creditCard,
+      'cricket': TablerSvgIcons.cricket,
+      'crop': TablerSvgIcons.crop,
+      'crossFilled': TablerSvgIcons.crossFilled,
+      'crossOff': TablerSvgIcons.crossOff,
+      'cross': TablerSvgIcons.cross,
+      'crosshair': TablerSvgIcons.crosshair,
+      'crownOff': TablerSvgIcons.crownOff,
+      'crown': TablerSvgIcons.crown,
+      'crutchesOff': TablerSvgIcons.crutchesOff,
+      'crutches': TablerSvgIcons.crutches,
+      'crystalBall': TablerSvgIcons.crystalBall,
+      'csv': TablerSvgIcons.csv,
+      'cubeOff': TablerSvgIcons.cubeOff,
+      'cubePlus': TablerSvgIcons.cubePlus,
+      'cubeSend': TablerSvgIcons.cubeSend,
+      'cubeUnfolded': TablerSvgIcons.cubeUnfolded,
+      'cube': TablerSvgIcons.cube,
+      'cupOff': TablerSvgIcons.cupOff,
+      'cup': TablerSvgIcons.cup,
+      'curling': TablerSvgIcons.curling,
+      'curlyLoop': TablerSvgIcons.curlyLoop,
+      'currencyAfghani': TablerSvgIcons.currencyAfghani,
+      'currencyBahraini': TablerSvgIcons.currencyBahraini,
+      'currencyBaht': TablerSvgIcons.currencyBaht,
+      'currencyBitcoin': TablerSvgIcons.currencyBitcoin,
+      'currencyCent': TablerSvgIcons.currencyCent,
+      'currencyDinar': TablerSvgIcons.currencyDinar,
+      'currencyDirham': TablerSvgIcons.currencyDirham,
+      'currencyDogecoin': TablerSvgIcons.currencyDogecoin,
+      'currencyDollarAustralian': TablerSvgIcons.currencyDollarAustralian,
+      'currencyDollarBrunei': TablerSvgIcons.currencyDollarBrunei,
+      'currencyDollarCanadian': TablerSvgIcons.currencyDollarCanadian,
+      'currencyDollarGuyanese': TablerSvgIcons.currencyDollarGuyanese,
+      'currencyDollarOff': TablerSvgIcons.currencyDollarOff,
+      'currencyDollarSingapore': TablerSvgIcons.currencyDollarSingapore,
+      'currencyDollarZimbabwean': TablerSvgIcons.currencyDollarZimbabwean,
+      'currencyDollar': TablerSvgIcons.currencyDollar,
+      'currencyDong': TablerSvgIcons.currencyDong,
+      'currencyDram': TablerSvgIcons.currencyDram,
+      'currencyEthereum': TablerSvgIcons.currencyEthereum,
+      'currencyEuroOff': TablerSvgIcons.currencyEuroOff,
+      'currencyEuro': TablerSvgIcons.currencyEuro,
+      'currencyFlorin': TablerSvgIcons.currencyFlorin,
+      'currencyForint': TablerSvgIcons.currencyForint,
+      'currencyFrank': TablerSvgIcons.currencyFrank,
+      'currencyGuarani': TablerSvgIcons.currencyGuarani,
+      'currencyHryvnia': TablerSvgIcons.currencyHryvnia,
+      'currencyIranianRial': TablerSvgIcons.currencyIranianRial,
+      'currencyKip': TablerSvgIcons.currencyKip,
+      'currencyKroneCzech': TablerSvgIcons.currencyKroneCzech,
+      'currencyKroneDanish': TablerSvgIcons.currencyKroneDanish,
+      'currencyKroneSwedish': TablerSvgIcons.currencyKroneSwedish,
+      'currencyLari': TablerSvgIcons.currencyLari,
+      'currencyLeu': TablerSvgIcons.currencyLeu,
+      'currencyLira': TablerSvgIcons.currencyLira,
+      'currencyLitecoin': TablerSvgIcons.currencyLitecoin,
+      'currencyLyd': TablerSvgIcons.currencyLyd,
+      'currencyManat': TablerSvgIcons.currencyManat,
+      'currencyMonero': TablerSvgIcons.currencyMonero,
+      'currencyNaira': TablerSvgIcons.currencyNaira,
+      'currencyNano': TablerSvgIcons.currencyNano,
+      'currencyOff': TablerSvgIcons.currencyOff,
+      'currencyPaanga': TablerSvgIcons.currencyPaanga,
+      'currencyPeso': TablerSvgIcons.currencyPeso,
+      'currencyPoundOff': TablerSvgIcons.currencyPoundOff,
+      'currencyPound': TablerSvgIcons.currencyPound,
+      'currencyQuetzal': TablerSvgIcons.currencyQuetzal,
+      'currencyReal': TablerSvgIcons.currencyReal,
+      'currencyRenminbi': TablerSvgIcons.currencyRenminbi,
+      'currencyRipple': TablerSvgIcons.currencyRipple,
+      'currencyRiyal': TablerSvgIcons.currencyRiyal,
+      'currencyRubel': TablerSvgIcons.currencyRubel,
+      'currencyRufiyaa': TablerSvgIcons.currencyRufiyaa,
+      'currencyRupeeNepalese': TablerSvgIcons.currencyRupeeNepalese,
+      'currencyRupee': TablerSvgIcons.currencyRupee,
+      'currencyShekel': TablerSvgIcons.currencyShekel,
+      'currencySolana': TablerSvgIcons.currencySolana,
+      'currencySom': TablerSvgIcons.currencySom,
+      'currencyTaka': TablerSvgIcons.currencyTaka,
+      'currencyTenge': TablerSvgIcons.currencyTenge,
+      'currencyTugrik': TablerSvgIcons.currencyTugrik,
+      'currencyWon': TablerSvgIcons.currencyWon,
+      'currencyYenOff': TablerSvgIcons.currencyYenOff,
+      'currencyYen': TablerSvgIcons.currencyYen,
+      'currencyYuan': TablerSvgIcons.currencyYuan,
+      'currencyZloty': TablerSvgIcons.currencyZloty,
+      'currency': TablerSvgIcons.currency,
+      'currentLocationOff': TablerSvgIcons.currentLocationOff,
+      'currentLocation': TablerSvgIcons.currentLocation,
+      'cursorOff': TablerSvgIcons.cursorOff,
+      'cursorText': TablerSvgIcons.cursorText,
+      'cut': TablerSvgIcons.cut,
+      'cylinderOff': TablerSvgIcons.cylinderOff,
+      'cylinderPlus': TablerSvgIcons.cylinderPlus,
+      'cylinder': TablerSvgIcons.cylinder,
+      'dashboardOff': TablerSvgIcons.dashboardOff,
+      'dashboard': TablerSvgIcons.dashboard,
+      'databaseCog': TablerSvgIcons.databaseCog,
+      'databaseDollar': TablerSvgIcons.databaseDollar,
+      'databaseEdit': TablerSvgIcons.databaseEdit,
+      'databaseExclamation': TablerSvgIcons.databaseExclamation,
+      'databaseExport': TablerSvgIcons.databaseExport,
+      'databaseHeart': TablerSvgIcons.databaseHeart,
+      'databaseImport': TablerSvgIcons.databaseImport,
+      'databaseLeak': TablerSvgIcons.databaseLeak,
+      'databaseMinus': TablerSvgIcons.databaseMinus,
+      'databaseOff': TablerSvgIcons.databaseOff,
+      'databasePlus': TablerSvgIcons.databasePlus,
+      'databaseSearch': TablerSvgIcons.databaseSearch,
+      'databaseShare': TablerSvgIcons.databaseShare,
+      'databaseStar': TablerSvgIcons.databaseStar,
+      'databaseX': TablerSvgIcons.databaseX,
+      'database': TablerSvgIcons.database,
+      'decimal': TablerSvgIcons.decimal,
+      'deer': TablerSvgIcons.deer,
+      'delta': TablerSvgIcons.delta,
+      'dentalBroken': TablerSvgIcons.dentalBroken,
+      'dentalOff': TablerSvgIcons.dentalOff,
+      'dental': TablerSvgIcons.dental,
+      'deselect': TablerSvgIcons.deselect,
+      'detailsOff': TablerSvgIcons.detailsOff,
+      'details': TablerSvgIcons.details,
+      'deviceAirpodsCase': TablerSvgIcons.deviceAirpodsCase,
+      'deviceAirpods': TablerSvgIcons.deviceAirpods,
+      'deviceAirtag': TablerSvgIcons.deviceAirtag,
+      'deviceAnalytics': TablerSvgIcons.deviceAnalytics,
+      'deviceAudioTape': TablerSvgIcons.deviceAudioTape,
+      'deviceCameraPhone': TablerSvgIcons.deviceCameraPhone,
+      'deviceCctvOff': TablerSvgIcons.deviceCctvOff,
+      'deviceCctv': TablerSvgIcons.deviceCctv,
+      'deviceComputerCameraOff': TablerSvgIcons.deviceComputerCameraOff,
+      'deviceComputerCamera': TablerSvgIcons.deviceComputerCamera,
+      'deviceDesktopAnalytics': TablerSvgIcons.deviceDesktopAnalytics,
+      'deviceDesktopBolt': TablerSvgIcons.deviceDesktopBolt,
+      'deviceDesktopCancel': TablerSvgIcons.deviceDesktopCancel,
+      'deviceDesktopCheck': TablerSvgIcons.deviceDesktopCheck,
+      'deviceDesktopCode': TablerSvgIcons.deviceDesktopCode,
+      'deviceDesktopCog': TablerSvgIcons.deviceDesktopCog,
+      'deviceDesktopDollar': TablerSvgIcons.deviceDesktopDollar,
+      'deviceDesktopDown': TablerSvgIcons.deviceDesktopDown,
+      'deviceDesktopExclamation': TablerSvgIcons.deviceDesktopExclamation,
+      'deviceDesktopHeart': TablerSvgIcons.deviceDesktopHeart,
+      'deviceDesktopMinus': TablerSvgIcons.deviceDesktopMinus,
+      'deviceDesktopOff': TablerSvgIcons.deviceDesktopOff,
+      'deviceDesktopPause': TablerSvgIcons.deviceDesktopPause,
+      'deviceDesktopPin': TablerSvgIcons.deviceDesktopPin,
+      'deviceDesktopPlus': TablerSvgIcons.deviceDesktopPlus,
+      'deviceDesktopQuestion': TablerSvgIcons.deviceDesktopQuestion,
+      'deviceDesktopSearch': TablerSvgIcons.deviceDesktopSearch,
+      'deviceDesktopShare': TablerSvgIcons.deviceDesktopShare,
+      'deviceDesktopStar': TablerSvgIcons.deviceDesktopStar,
+      'deviceDesktopUp': TablerSvgIcons.deviceDesktopUp,
+      'deviceDesktopX': TablerSvgIcons.deviceDesktopX,
+      'deviceDesktop': TablerSvgIcons.deviceDesktop,
+      'deviceFloppy': TablerSvgIcons.deviceFloppy,
+      'deviceGamepad2': TablerSvgIcons.deviceGamepad2,
+      'deviceGamepad3': TablerSvgIcons.deviceGamepad3,
+      'deviceGamepad': TablerSvgIcons.deviceGamepad,
+      'deviceHeartMonitorFilled': TablerSvgIcons.deviceHeartMonitorFilled,
+      'deviceHeartMonitor': TablerSvgIcons.deviceHeartMonitor,
+      'deviceImacBolt': TablerSvgIcons.deviceImacBolt,
+      'deviceImacCancel': TablerSvgIcons.deviceImacCancel,
+      'deviceImacCheck': TablerSvgIcons.deviceImacCheck,
+      'deviceImacCode': TablerSvgIcons.deviceImacCode,
+      'deviceImacCog': TablerSvgIcons.deviceImacCog,
+      'deviceImacDollar': TablerSvgIcons.deviceImacDollar,
+      'deviceImacDown': TablerSvgIcons.deviceImacDown,
+      'deviceImacExclamation': TablerSvgIcons.deviceImacExclamation,
+      'deviceImacHeart': TablerSvgIcons.deviceImacHeart,
+      'deviceImacMinus': TablerSvgIcons.deviceImacMinus,
+      'deviceImacOff': TablerSvgIcons.deviceImacOff,
+      'deviceImacPause': TablerSvgIcons.deviceImacPause,
+      'deviceImacPin': TablerSvgIcons.deviceImacPin,
+      'deviceImacPlus': TablerSvgIcons.deviceImacPlus,
+      'deviceImacQuestion': TablerSvgIcons.deviceImacQuestion,
+      'deviceImacSearch': TablerSvgIcons.deviceImacSearch,
+      'deviceImacShare': TablerSvgIcons.deviceImacShare,
+      'deviceImacStar': TablerSvgIcons.deviceImacStar,
+      'deviceImacUp': TablerSvgIcons.deviceImacUp,
+      'deviceImacX': TablerSvgIcons.deviceImacX,
+      'deviceImac': TablerSvgIcons.deviceImac,
+      'deviceIpadBolt': TablerSvgIcons.deviceIpadBolt,
+      'deviceIpadCancel': TablerSvgIcons.deviceIpadCancel,
+      'deviceIpadCheck': TablerSvgIcons.deviceIpadCheck,
+      'deviceIpadCode': TablerSvgIcons.deviceIpadCode,
+      'deviceIpadCog': TablerSvgIcons.deviceIpadCog,
+      'deviceIpadDollar': TablerSvgIcons.deviceIpadDollar,
+      'deviceIpadDown': TablerSvgIcons.deviceIpadDown,
+      'deviceIpadExclamation': TablerSvgIcons.deviceIpadExclamation,
+      'deviceIpadHeart': TablerSvgIcons.deviceIpadHeart,
+      'deviceIpadHorizontalBolt': TablerSvgIcons.deviceIpadHorizontalBolt,
+      'deviceIpadHorizontalCancel': TablerSvgIcons.deviceIpadHorizontalCancel,
+      'deviceIpadHorizontalCheck': TablerSvgIcons.deviceIpadHorizontalCheck,
+      'deviceIpadHorizontalCode': TablerSvgIcons.deviceIpadHorizontalCode,
+      'deviceIpadHorizontalCog': TablerSvgIcons.deviceIpadHorizontalCog,
+      'deviceIpadHorizontalDollar': TablerSvgIcons.deviceIpadHorizontalDollar,
+      'deviceIpadHorizontalDown': TablerSvgIcons.deviceIpadHorizontalDown,
+      'deviceIpadHorizontalExclamation': TablerSvgIcons.deviceIpadHorizontalExclamation,
+      'deviceIpadHorizontalHeart': TablerSvgIcons.deviceIpadHorizontalHeart,
+      'deviceIpadHorizontalMinus': TablerSvgIcons.deviceIpadHorizontalMinus,
+      'deviceIpadHorizontalOff': TablerSvgIcons.deviceIpadHorizontalOff,
+      'deviceIpadHorizontalPause': TablerSvgIcons.deviceIpadHorizontalPause,
+      'deviceIpadHorizontalPin': TablerSvgIcons.deviceIpadHorizontalPin,
+      'deviceIpadHorizontalPlus': TablerSvgIcons.deviceIpadHorizontalPlus,
+      'deviceIpadHorizontalQuestion': TablerSvgIcons.deviceIpadHorizontalQuestion,
+      'deviceIpadHorizontalSearch': TablerSvgIcons.deviceIpadHorizontalSearch,
+      'deviceIpadHorizontalShare': TablerSvgIcons.deviceIpadHorizontalShare,
+      'deviceIpadHorizontalStar': TablerSvgIcons.deviceIpadHorizontalStar,
+      'deviceIpadHorizontalUp': TablerSvgIcons.deviceIpadHorizontalUp,
+      'deviceIpadHorizontalX': TablerSvgIcons.deviceIpadHorizontalX,
+      'deviceIpadHorizontal': TablerSvgIcons.deviceIpadHorizontal,
+      'deviceIpadMinus': TablerSvgIcons.deviceIpadMinus,
+      'deviceIpadOff': TablerSvgIcons.deviceIpadOff,
+      'deviceIpadPause': TablerSvgIcons.deviceIpadPause,
+      'deviceIpadPin': TablerSvgIcons.deviceIpadPin,
+      'deviceIpadPlus': TablerSvgIcons.deviceIpadPlus,
+      'deviceIpadQuestion': TablerSvgIcons.deviceIpadQuestion,
+      'deviceIpadSearch': TablerSvgIcons.deviceIpadSearch,
+      'deviceIpadShare': TablerSvgIcons.deviceIpadShare,
+      'deviceIpadStar': TablerSvgIcons.deviceIpadStar,
+      'deviceIpadUp': TablerSvgIcons.deviceIpadUp,
+      'deviceIpadX': TablerSvgIcons.deviceIpadX,
+      'deviceIpad': TablerSvgIcons.deviceIpad,
+      'deviceLandlinePhone': TablerSvgIcons.deviceLandlinePhone,
+      'deviceLaptopOff': TablerSvgIcons.deviceLaptopOff,
+      'deviceLaptop': TablerSvgIcons.deviceLaptop,
+      'deviceMobileBolt': TablerSvgIcons.deviceMobileBolt,
+      'deviceMobileCancel': TablerSvgIcons.deviceMobileCancel,
+      'deviceMobileCharging': TablerSvgIcons.deviceMobileCharging,
+      'deviceMobileCheck': TablerSvgIcons.deviceMobileCheck,
+      'deviceMobileCode': TablerSvgIcons.deviceMobileCode,
+      'deviceMobileCog': TablerSvgIcons.deviceMobileCog,
+      'deviceMobileDollar': TablerSvgIcons.deviceMobileDollar,
+      'deviceMobileDown': TablerSvgIcons.deviceMobileDown,
+      'deviceMobileExclamation': TablerSvgIcons.deviceMobileExclamation,
+      'deviceMobileFilled': TablerSvgIcons.deviceMobileFilled,
+      'deviceMobileHeart': TablerSvgIcons.deviceMobileHeart,
+      'deviceMobileMessage': TablerSvgIcons.deviceMobileMessage,
+      'deviceMobileMinus': TablerSvgIcons.deviceMobileMinus,
+      'deviceMobileOff': TablerSvgIcons.deviceMobileOff,
+      'deviceMobilePause': TablerSvgIcons.deviceMobilePause,
+      'deviceMobilePin': TablerSvgIcons.deviceMobilePin,
+      'deviceMobilePlus': TablerSvgIcons.deviceMobilePlus,
+      'deviceMobileQuestion': TablerSvgIcons.deviceMobileQuestion,
+      'deviceMobileRotated': TablerSvgIcons.deviceMobileRotated,
+      'deviceMobileSearch': TablerSvgIcons.deviceMobileSearch,
+      'deviceMobileShare': TablerSvgIcons.deviceMobileShare,
+      'deviceMobileStar': TablerSvgIcons.deviceMobileStar,
+      'deviceMobileUp': TablerSvgIcons.deviceMobileUp,
+      'deviceMobileVibration': TablerSvgIcons.deviceMobileVibration,
+      'deviceMobileX': TablerSvgIcons.deviceMobileX,
+      'deviceMobile': TablerSvgIcons.deviceMobile,
+      'deviceNintendoOff': TablerSvgIcons.deviceNintendoOff,
+      'deviceNintendo': TablerSvgIcons.deviceNintendo,
+      'deviceProjector': TablerSvgIcons.deviceProjector,
+      'deviceRemote': TablerSvgIcons.deviceRemote,
+      'deviceSdCard': TablerSvgIcons.deviceSdCard,
+      'deviceSim1': TablerSvgIcons.deviceSim1,
+      'deviceSim2': TablerSvgIcons.deviceSim2,
+      'deviceSim3': TablerSvgIcons.deviceSim3,
+      'deviceSim': TablerSvgIcons.deviceSim,
+      'deviceSpeakerOff': TablerSvgIcons.deviceSpeakerOff,
+      'deviceSpeaker': TablerSvgIcons.deviceSpeaker,
+      'deviceTabletBolt': TablerSvgIcons.deviceTabletBolt,
+      'deviceTabletCancel': TablerSvgIcons.deviceTabletCancel,
+      'deviceTabletCheck': TablerSvgIcons.deviceTabletCheck,
+      'deviceTabletCode': TablerSvgIcons.deviceTabletCode,
+      'deviceTabletCog': TablerSvgIcons.deviceTabletCog,
+      'deviceTabletDollar': TablerSvgIcons.deviceTabletDollar,
+      'deviceTabletDown': TablerSvgIcons.deviceTabletDown,
+      'deviceTabletExclamation': TablerSvgIcons.deviceTabletExclamation,
+      'deviceTabletFilled': TablerSvgIcons.deviceTabletFilled,
+      'deviceTabletHeart': TablerSvgIcons.deviceTabletHeart,
+      'deviceTabletMinus': TablerSvgIcons.deviceTabletMinus,
+      'deviceTabletOff': TablerSvgIcons.deviceTabletOff,
+      'deviceTabletPause': TablerSvgIcons.deviceTabletPause,
+      'deviceTabletPin': TablerSvgIcons.deviceTabletPin,
+      'deviceTabletPlus': TablerSvgIcons.deviceTabletPlus,
+      'deviceTabletQuestion': TablerSvgIcons.deviceTabletQuestion,
+      'deviceTabletSearch': TablerSvgIcons.deviceTabletSearch,
+      'deviceTabletShare': TablerSvgIcons.deviceTabletShare,
+      'deviceTabletStar': TablerSvgIcons.deviceTabletStar,
+      'deviceTabletUp': TablerSvgIcons.deviceTabletUp,
+      'deviceTabletX': TablerSvgIcons.deviceTabletX,
+      'deviceTablet': TablerSvgIcons.deviceTablet,
+      'deviceTvOff': TablerSvgIcons.deviceTvOff,
+      'deviceTvOld': TablerSvgIcons.deviceTvOld,
+      'deviceTv': TablerSvgIcons.deviceTv,
+      'deviceUsb': TablerSvgIcons.deviceUsb,
+      'deviceVisionPro': TablerSvgIcons.deviceVisionPro,
+      'deviceWatchBolt': TablerSvgIcons.deviceWatchBolt,
+      'deviceWatchCancel': TablerSvgIcons.deviceWatchCancel,
+      'deviceWatchCheck': TablerSvgIcons.deviceWatchCheck,
+      'deviceWatchCode': TablerSvgIcons.deviceWatchCode,
+      'deviceWatchCog': TablerSvgIcons.deviceWatchCog,
+      'deviceWatchDollar': TablerSvgIcons.deviceWatchDollar,
+      'deviceWatchDown': TablerSvgIcons.deviceWatchDown,
+      'deviceWatchExclamation': TablerSvgIcons.deviceWatchExclamation,
+      'deviceWatchHeart': TablerSvgIcons.deviceWatchHeart,
+      'deviceWatchMinus': TablerSvgIcons.deviceWatchMinus,
+      'deviceWatchOff': TablerSvgIcons.deviceWatchOff,
+      'deviceWatchPause': TablerSvgIcons.deviceWatchPause,
+      'deviceWatchPin': TablerSvgIcons.deviceWatchPin,
+      'deviceWatchPlus': TablerSvgIcons.deviceWatchPlus,
+      'deviceWatchQuestion': TablerSvgIcons.deviceWatchQuestion,
+      'deviceWatchSearch': TablerSvgIcons.deviceWatchSearch,
+      'deviceWatchShare': TablerSvgIcons.deviceWatchShare,
+      'deviceWatchStar': TablerSvgIcons.deviceWatchStar,
+      'deviceWatchStats2': TablerSvgIcons.deviceWatchStats2,
+      'deviceWatchStats': TablerSvgIcons.deviceWatchStats,
+      'deviceWatchUp': TablerSvgIcons.deviceWatchUp,
+      'deviceWatchX': TablerSvgIcons.deviceWatchX,
+      'deviceWatch': TablerSvgIcons.deviceWatch,
+      'devices2': TablerSvgIcons.devices2,
+      'devicesBolt': TablerSvgIcons.devicesBolt,
+      'devicesCancel': TablerSvgIcons.devicesCancel,
+      'devicesCheck': TablerSvgIcons.devicesCheck,
+      'devicesCode': TablerSvgIcons.devicesCode,
+      'devicesCog': TablerSvgIcons.devicesCog,
+      'devicesDollar': TablerSvgIcons.devicesDollar,
+      'devicesDown': TablerSvgIcons.devicesDown,
+      'devicesExclamation': TablerSvgIcons.devicesExclamation,
+      'devicesHeart': TablerSvgIcons.devicesHeart,
+      'devicesMinus': TablerSvgIcons.devicesMinus,
+      'devicesOff': TablerSvgIcons.devicesOff,
+      'devicesPause': TablerSvgIcons.devicesPause,
+      'devicesPcOff': TablerSvgIcons.devicesPcOff,
+      'devicesPc': TablerSvgIcons.devicesPc,
+      'devicesPin': TablerSvgIcons.devicesPin,
+      'devicesPlus': TablerSvgIcons.devicesPlus,
+      'devicesQuestion': TablerSvgIcons.devicesQuestion,
+      'devicesSearch': TablerSvgIcons.devicesSearch,
+      'devicesShare': TablerSvgIcons.devicesShare,
+      'devicesStar': TablerSvgIcons.devicesStar,
+      'devicesUp': TablerSvgIcons.devicesUp,
+      'devicesX': TablerSvgIcons.devicesX,
+      'devices': TablerSvgIcons.devices,
+      'diaboloOff': TablerSvgIcons.diaboloOff,
+      'diaboloPlus': TablerSvgIcons.diaboloPlus,
+      'diabolo': TablerSvgIcons.diabolo,
+      'dialpadFilled': TablerSvgIcons.dialpadFilled,
+      'dialpadOff': TablerSvgIcons.dialpadOff,
+      'dialpad': TablerSvgIcons.dialpad,
+      'diamondFilled': TablerSvgIcons.diamondFilled,
+      'diamondOff': TablerSvgIcons.diamondOff,
+      'diamond': TablerSvgIcons.diamond,
+      'diamondsFilled': TablerSvgIcons.diamondsFilled,
+      'diamonds': TablerSvgIcons.diamonds,
+      'dice1Filled': TablerSvgIcons.dice1Filled,
+      'dice1': TablerSvgIcons.dice1,
+      'dice2Filled': TablerSvgIcons.dice2Filled,
+      'dice2': TablerSvgIcons.dice2,
+      'dice3Filled': TablerSvgIcons.dice3Filled,
+      'dice3': TablerSvgIcons.dice3,
+      'dice4Filled': TablerSvgIcons.dice4Filled,
+      'dice4': TablerSvgIcons.dice4,
+      'dice5Filled': TablerSvgIcons.dice5Filled,
+      'dice5': TablerSvgIcons.dice5,
+      'dice6Filled': TablerSvgIcons.dice6Filled,
+      'dice6': TablerSvgIcons.dice6,
+      'diceFilled': TablerSvgIcons.diceFilled,
+      'dice': TablerSvgIcons.dice,
+      'dimensions': TablerSvgIcons.dimensions,
+      'directionHorizontal': TablerSvgIcons.directionHorizontal,
+      'directionSignFilled': TablerSvgIcons.directionSignFilled,
+      'directionSignOff': TablerSvgIcons.directionSignOff,
+      'directionSign': TablerSvgIcons.directionSign,
+      'direction': TablerSvgIcons.direction,
+      'directionsOff': TablerSvgIcons.directionsOff,
+      'directions': TablerSvgIcons.directions,
+      'disabled2': TablerSvgIcons.disabled2,
+      'disabledOff': TablerSvgIcons.disabledOff,
+      'disabled': TablerSvgIcons.disabled,
+      'discGolf': TablerSvgIcons.discGolf,
+      'discOff': TablerSvgIcons.discOff,
+      'disc': TablerSvgIcons.disc,
+      'discount2Off': TablerSvgIcons.discount2Off,
+      'discount2': TablerSvgIcons.discount2,
+      'discountCheckFilled': TablerSvgIcons.discountCheckFilled,
+      'discountCheck': TablerSvgIcons.discountCheck,
+      'discountOff': TablerSvgIcons.discountOff,
+      'discount': TablerSvgIcons.discount,
+      'divide': TablerSvgIcons.divide,
+      'dna2Off': TablerSvgIcons.dna2Off,
+      'dna2': TablerSvgIcons.dna2,
+      'dnaOff': TablerSvgIcons.dnaOff,
+      'dna': TablerSvgIcons.dna,
+      'dogBowl': TablerSvgIcons.dogBowl,
+      'dog': TablerSvgIcons.dog,
+      'doorEnter': TablerSvgIcons.doorEnter,
+      'doorExit': TablerSvgIcons.doorExit,
+      'doorOff': TablerSvgIcons.doorOff,
+      'door': TablerSvgIcons.door,
+      'dotsCircleHorizontal': TablerSvgIcons.dotsCircleHorizontal,
+      'dotsDiagonal2': TablerSvgIcons.dotsDiagonal2,
+      'dotsDiagonal': TablerSvgIcons.dotsDiagonal,
+      'dotsVertical': TablerSvgIcons.dotsVertical,
+      'dots': TablerSvgIcons.dots,
+      'downloadOff': TablerSvgIcons.downloadOff,
+      'download': TablerSvgIcons.download,
+      'dragDrop2': TablerSvgIcons.dragDrop2,
+      'dragDrop': TablerSvgIcons.dragDrop,
+      'droneOff': TablerSvgIcons.droneOff,
+      'drone': TablerSvgIcons.drone,
+      'dropCircle': TablerSvgIcons.dropCircle,
+      'dropletBolt': TablerSvgIcons.dropletBolt,
+      'dropletCancel': TablerSvgIcons.dropletCancel,
+      'dropletCheck': TablerSvgIcons.dropletCheck,
+      'dropletCode': TablerSvgIcons.dropletCode,
+      'dropletCog': TablerSvgIcons.dropletCog,
+      'dropletDollar': TablerSvgIcons.dropletDollar,
+      'dropletDown': TablerSvgIcons.dropletDown,
+      'dropletExclamation': TablerSvgIcons.dropletExclamation,
+      'dropletFilled': TablerSvgIcons.dropletFilled,
+      'dropletHalf2Filled': TablerSvgIcons.dropletHalf2Filled,
+      'dropletHalf2': TablerSvgIcons.dropletHalf2,
+      'dropletHalfFilled': TablerSvgIcons.dropletHalfFilled,
+      'dropletHalf': TablerSvgIcons.dropletHalf,
+      'dropletHeart': TablerSvgIcons.dropletHeart,
+      'dropletMinus': TablerSvgIcons.dropletMinus,
+      'dropletOff': TablerSvgIcons.dropletOff,
+      'dropletPause': TablerSvgIcons.dropletPause,
+      'dropletPin': TablerSvgIcons.dropletPin,
+      'dropletPlus': TablerSvgIcons.dropletPlus,
+      'dropletQuestion': TablerSvgIcons.dropletQuestion,
+      'dropletSearch': TablerSvgIcons.dropletSearch,
+      'dropletShare': TablerSvgIcons.dropletShare,
+      'dropletStar': TablerSvgIcons.dropletStar,
+      'dropletUp': TablerSvgIcons.dropletUp,
+      'dropletX': TablerSvgIcons.dropletX,
+      'droplet': TablerSvgIcons.droplet,
+      'droplets': TablerSvgIcons.droplets,
+      'dualScreen': TablerSvgIcons.dualScreen,
+      'ePassport': TablerSvgIcons.ePassport,
+      'earOff': TablerSvgIcons.earOff,
+      'ear': TablerSvgIcons.ear,
+      'easeInControlPoint': TablerSvgIcons.easeInControlPoint,
+      'easeInOutControlPoints': TablerSvgIcons.easeInOutControlPoints,
+      'easeInOut': TablerSvgIcons.easeInOut,
+      'easeIn': TablerSvgIcons.easeIn,
+      'easeOutControlPoint': TablerSvgIcons.easeOutControlPoint,
+      'easeOut': TablerSvgIcons.easeOut,
+      'editCircleOff': TablerSvgIcons.editCircleOff,
+      'editCircle': TablerSvgIcons.editCircle,
+      'editOff': TablerSvgIcons.editOff,
+      'edit': TablerSvgIcons.edit,
+      'eggCracked': TablerSvgIcons.eggCracked,
+      'eggFilled': TablerSvgIcons.eggFilled,
+      'eggFried': TablerSvgIcons.eggFried,
+      'eggOff': TablerSvgIcons.eggOff,
+      'egg': TablerSvgIcons.egg,
+      'eggs': TablerSvgIcons.eggs,
+      'elevatorOff': TablerSvgIcons.elevatorOff,
+      'elevator': TablerSvgIcons.elevator,
+      'emergencyBed': TablerSvgIcons.emergencyBed,
+      'empathizeOff': TablerSvgIcons.empathizeOff,
+      'empathize': TablerSvgIcons.empathize,
+      'emphasis': TablerSvgIcons.emphasis,
+      'engineOff': TablerSvgIcons.engineOff,
+      'engine': TablerSvgIcons.engine,
+      'equalDouble': TablerSvgIcons.equalDouble,
+      'equalNot': TablerSvgIcons.equalNot,
+      'equal': TablerSvgIcons.equal,
+      'eraserOff': TablerSvgIcons.eraserOff,
+      'eraser': TablerSvgIcons.eraser,
+      'error404Off': TablerSvgIcons.error404Off,
+      'error404': TablerSvgIcons.error404,
+      'escalatorDown': TablerSvgIcons.escalatorDown,
+      'escalatorUp': TablerSvgIcons.escalatorUp,
+      'escalator': TablerSvgIcons.escalator,
+      'exchangeOff': TablerSvgIcons.exchangeOff,
+      'exchange': TablerSvgIcons.exchange,
+      'exclamationCircle': TablerSvgIcons.exclamationCircle,
+      'exclamationMarkOff': TablerSvgIcons.exclamationMarkOff,
+      'exclamationMark': TablerSvgIcons.exclamationMark,
+      'explicitOff': TablerSvgIcons.explicitOff,
+      'explicit': TablerSvgIcons.explicit,
+      'exposure0': TablerSvgIcons.exposure0,
+      'exposureMinus1': TablerSvgIcons.exposureMinus1,
+      'exposureMinus2': TablerSvgIcons.exposureMinus2,
+      'exposureOff': TablerSvgIcons.exposureOff,
+      'exposurePlus1': TablerSvgIcons.exposurePlus1,
+      'exposurePlus2': TablerSvgIcons.exposurePlus2,
+      'exposure': TablerSvgIcons.exposure,
+      'externalLinkOff': TablerSvgIcons.externalLinkOff,
+      'externalLink': TablerSvgIcons.externalLink,
+      'eyeBolt': TablerSvgIcons.eyeBolt,
+      'eyeCancel': TablerSvgIcons.eyeCancel,
+      'eyeCheck': TablerSvgIcons.eyeCheck,
+      'eyeClosed': TablerSvgIcons.eyeClosed,
+      'eyeCode': TablerSvgIcons.eyeCode,
+      'eyeCog': TablerSvgIcons.eyeCog,
+      'eyeDiscount': TablerSvgIcons.eyeDiscount,
+      'eyeDollar': TablerSvgIcons.eyeDollar,
+      'eyeDown': TablerSvgIcons.eyeDown,
+      'eyeEdit': TablerSvgIcons.eyeEdit,
+      'eyeExclamation': TablerSvgIcons.eyeExclamation,
+      'eyeFilled': TablerSvgIcons.eyeFilled,
+      'eyeHeart': TablerSvgIcons.eyeHeart,
+      'eyeMinus': TablerSvgIcons.eyeMinus,
+      'eyeOff': TablerSvgIcons.eyeOff,
+      'eyePause': TablerSvgIcons.eyePause,
+      'eyePin': TablerSvgIcons.eyePin,
+      'eyePlus': TablerSvgIcons.eyePlus,
+      'eyeQuestion': TablerSvgIcons.eyeQuestion,
+      'eyeSearch': TablerSvgIcons.eyeSearch,
+      'eyeShare': TablerSvgIcons.eyeShare,
+      'eyeStar': TablerSvgIcons.eyeStar,
+      'eyeTable': TablerSvgIcons.eyeTable,
+      'eyeUp': TablerSvgIcons.eyeUp,
+      'eyeX': TablerSvgIcons.eyeX,
+      'eye': TablerSvgIcons.eye,
+      'eyeglass2': TablerSvgIcons.eyeglass2,
+      'eyeglassOff': TablerSvgIcons.eyeglassOff,
+      'eyeglass': TablerSvgIcons.eyeglass,
+      'faceIdError': TablerSvgIcons.faceIdError,
+      'faceId': TablerSvgIcons.faceId,
+      'faceMaskOff': TablerSvgIcons.faceMaskOff,
+      'faceMask': TablerSvgIcons.faceMask,
+      'fall': TablerSvgIcons.fall,
+      'featherOff': TablerSvgIcons.featherOff,
+      'feather': TablerSvgIcons.feather,
+      'fenceOff': TablerSvgIcons.fenceOff,
+      'fence': TablerSvgIcons.fence,
+      'fidgetSpinner': TablerSvgIcons.fidgetSpinner,
+      'file3d': TablerSvgIcons.file3d,
+      'fileAlert': TablerSvgIcons.fileAlert,
+      'fileAnalytics': TablerSvgIcons.fileAnalytics,
+      'fileArrowLeft': TablerSvgIcons.fileArrowLeft,
+      'fileArrowRight': TablerSvgIcons.fileArrowRight,
+      'fileBarcode': TablerSvgIcons.fileBarcode,
+      'fileBroken': TablerSvgIcons.fileBroken,
+      'fileCertificate': TablerSvgIcons.fileCertificate,
+      'fileChart': TablerSvgIcons.fileChart,
+      'fileCheck': TablerSvgIcons.fileCheck,
+      'fileCode2': TablerSvgIcons.fileCode2,
+      'fileCode': TablerSvgIcons.fileCode,
+      'fileCv': TablerSvgIcons.fileCv,
+      'fileDatabase': TablerSvgIcons.fileDatabase,
+      'fileDelta': TablerSvgIcons.fileDelta,
+      'fileDescription': TablerSvgIcons.fileDescription,
+      'fileDiff': TablerSvgIcons.fileDiff,
+      'fileDigit': TablerSvgIcons.fileDigit,
+      'fileDislike': TablerSvgIcons.fileDislike,
+      'fileDollar': TablerSvgIcons.fileDollar,
+      'fileDots': TablerSvgIcons.fileDots,
+      'fileDownload': TablerSvgIcons.fileDownload,
+      'fileEuro': TablerSvgIcons.fileEuro,
+      'fileExport': TablerSvgIcons.fileExport,
+      'fileFilled': TablerSvgIcons.fileFilled,
+      'fileFunction': TablerSvgIcons.fileFunction,
+      'fileHorizontal': TablerSvgIcons.fileHorizontal,
+      'fileImport': TablerSvgIcons.fileImport,
+      'fileInfinity': TablerSvgIcons.fileInfinity,
+      'fileInfo': TablerSvgIcons.fileInfo,
+      'fileInvoice': TablerSvgIcons.fileInvoice,
+      'fileLambda': TablerSvgIcons.fileLambda,
+      'fileLike': TablerSvgIcons.fileLike,
+      'fileMinus': TablerSvgIcons.fileMinus,
+      'fileMusic': TablerSvgIcons.fileMusic,
+      'fileOff': TablerSvgIcons.fileOff,
+      'fileOrientation': TablerSvgIcons.fileOrientation,
+      'filePencil': TablerSvgIcons.filePencil,
+      'filePercent': TablerSvgIcons.filePercent,
+      'filePhone': TablerSvgIcons.filePhone,
+      'filePlus': TablerSvgIcons.filePlus,
+      'filePower': TablerSvgIcons.filePower,
+      'fileReport': TablerSvgIcons.fileReport,
+      'fileRss': TablerSvgIcons.fileRss,
+      'fileScissors': TablerSvgIcons.fileScissors,
+      'fileSearch': TablerSvgIcons.fileSearch,
+      'fileSettings': TablerSvgIcons.fileSettings,
+      'fileShredder': TablerSvgIcons.fileShredder,
+      'fileSignal': TablerSvgIcons.fileSignal,
+      'fileSpreadsheet': TablerSvgIcons.fileSpreadsheet,
+      'fileStack': TablerSvgIcons.fileStack,
+      'fileStar': TablerSvgIcons.fileStar,
+      'fileSymlink': TablerSvgIcons.fileSymlink,
+      'fileTextAi': TablerSvgIcons.fileTextAi,
+      'fileText': TablerSvgIcons.fileText,
+      'fileTime': TablerSvgIcons.fileTime,
+      'fileTypeBmp': TablerSvgIcons.fileTypeBmp,
+      'fileTypeCss': TablerSvgIcons.fileTypeCss,
+      'fileTypeCsv': TablerSvgIcons.fileTypeCsv,
+      'fileTypeDoc': TablerSvgIcons.fileTypeDoc,
+      'fileTypeDocx': TablerSvgIcons.fileTypeDocx,
+      'fileTypeHtml': TablerSvgIcons.fileTypeHtml,
+      'fileTypeJpg': TablerSvgIcons.fileTypeJpg,
+      'fileTypeJs': TablerSvgIcons.fileTypeJs,
+      'fileTypeJsx': TablerSvgIcons.fileTypeJsx,
+      'fileTypePdf': TablerSvgIcons.fileTypePdf,
+      'fileTypePhp': TablerSvgIcons.fileTypePhp,
+      'fileTypePng': TablerSvgIcons.fileTypePng,
+      'fileTypePpt': TablerSvgIcons.fileTypePpt,
+      'fileTypeRs': TablerSvgIcons.fileTypeRs,
+      'fileTypeSql': TablerSvgIcons.fileTypeSql,
+      'fileTypeSvg': TablerSvgIcons.fileTypeSvg,
+      'fileTypeTs': TablerSvgIcons.fileTypeTs,
+      'fileTypeTsx': TablerSvgIcons.fileTypeTsx,
+      'fileTypeTxt': TablerSvgIcons.fileTypeTxt,
+      'fileTypeVue': TablerSvgIcons.fileTypeVue,
+      'fileTypeXls': TablerSvgIcons.fileTypeXls,
+      'fileTypeXml': TablerSvgIcons.fileTypeXml,
+      'fileTypeZip': TablerSvgIcons.fileTypeZip,
+      'fileTypography': TablerSvgIcons.fileTypography,
+      'fileUnknown': TablerSvgIcons.fileUnknown,
+      'fileUpload': TablerSvgIcons.fileUpload,
+      'fileVector': TablerSvgIcons.fileVector,
+      'fileXFilled': TablerSvgIcons.fileXFilled,
+      'fileX': TablerSvgIcons.fileX,
+      'fileZip': TablerSvgIcons.fileZip,
+      'file': TablerSvgIcons.file,
+      'filesOff': TablerSvgIcons.filesOff,
+      'files': TablerSvgIcons.files,
+      'filterBolt': TablerSvgIcons.filterBolt,
+      'filterCancel': TablerSvgIcons.filterCancel,
+      'filterCheck': TablerSvgIcons.filterCheck,
+      'filterCode': TablerSvgIcons.filterCode,
+      'filterCog': TablerSvgIcons.filterCog,
+      'filterDiscount': TablerSvgIcons.filterDiscount,
+      'filterDollar': TablerSvgIcons.filterDollar,
+      'filterDown': TablerSvgIcons.filterDown,
+      'filterEdit': TablerSvgIcons.filterEdit,
+      'filterExclamation': TablerSvgIcons.filterExclamation,
+      'filterFilled': TablerSvgIcons.filterFilled,
+      'filterHeart': TablerSvgIcons.filterHeart,
+      'filterMinus': TablerSvgIcons.filterMinus,
+      'filterOff': TablerSvgIcons.filterOff,
+      'filterPause': TablerSvgIcons.filterPause,
+      'filterPin': TablerSvgIcons.filterPin,
+      'filterPlus': TablerSvgIcons.filterPlus,
+      'filterQuestion': TablerSvgIcons.filterQuestion,
+      'filterSearch': TablerSvgIcons.filterSearch,
+      'filterShare': TablerSvgIcons.filterShare,
+      'filterStar': TablerSvgIcons.filterStar,
+      'filterUp': TablerSvgIcons.filterUp,
+      'filterX': TablerSvgIcons.filterX,
+      'filter': TablerSvgIcons.filter,
+      'filters': TablerSvgIcons.filters,
+      'fingerprintOff': TablerSvgIcons.fingerprintOff,
+      'fingerprintScan': TablerSvgIcons.fingerprintScan,
+      'fingerprint': TablerSvgIcons.fingerprint,
+      'fireExtinguisher': TablerSvgIcons.fireExtinguisher,
+      'fireHydrantOff': TablerSvgIcons.fireHydrantOff,
+      'fireHydrant': TablerSvgIcons.fireHydrant,
+      'firetruck': TablerSvgIcons.firetruck,
+      'firstAidKitOff': TablerSvgIcons.firstAidKitOff,
+      'firstAidKit': TablerSvgIcons.firstAidKit,
+      'fishBone': TablerSvgIcons.fishBone,
+      'fishChristianity': TablerSvgIcons.fishChristianity,
+      'fishHookOff': TablerSvgIcons.fishHookOff,
+      'fishHook': TablerSvgIcons.fishHook,
+      'fishOff': TablerSvgIcons.fishOff,
+      'fish': TablerSvgIcons.fish,
+      'flag2Filled': TablerSvgIcons.flag2Filled,
+      'flag2Off': TablerSvgIcons.flag2Off,
+      'flag2': TablerSvgIcons.flag2,
+      'flag3Filled': TablerSvgIcons.flag3Filled,
+      'flag3': TablerSvgIcons.flag3,
+      'flagBolt': TablerSvgIcons.flagBolt,
+      'flagCancel': TablerSvgIcons.flagCancel,
+      'flagCheck': TablerSvgIcons.flagCheck,
+      'flagCode': TablerSvgIcons.flagCode,
+      'flagCog': TablerSvgIcons.flagCog,
+      'flagDiscount': TablerSvgIcons.flagDiscount,
+      'flagDollar': TablerSvgIcons.flagDollar,
+      'flagDown': TablerSvgIcons.flagDown,
+      'flagExclamation': TablerSvgIcons.flagExclamation,
+      'flagFilled': TablerSvgIcons.flagFilled,
+      'flagHeart': TablerSvgIcons.flagHeart,
+      'flagMinus': TablerSvgIcons.flagMinus,
+      'flagOff': TablerSvgIcons.flagOff,
+      'flagPause': TablerSvgIcons.flagPause,
+      'flagPin': TablerSvgIcons.flagPin,
+      'flagPlus': TablerSvgIcons.flagPlus,
+      'flagQuestion': TablerSvgIcons.flagQuestion,
+      'flagSearch': TablerSvgIcons.flagSearch,
+      'flagShare': TablerSvgIcons.flagShare,
+      'flagStar': TablerSvgIcons.flagStar,
+      'flagUp': TablerSvgIcons.flagUp,
+      'flagX': TablerSvgIcons.flagX,
+      'flag': TablerSvgIcons.flag,
+      'flameOff': TablerSvgIcons.flameOff,
+      'flame': TablerSvgIcons.flame,
+      'flare': TablerSvgIcons.flare,
+      'flask2Off': TablerSvgIcons.flask2Off,
+      'flask2': TablerSvgIcons.flask2,
+      'flaskOff': TablerSvgIcons.flaskOff,
+      'flask': TablerSvgIcons.flask,
+      'flipFlops': TablerSvgIcons.flipFlops,
+      'flipHorizontal': TablerSvgIcons.flipHorizontal,
+      'flipVertical': TablerSvgIcons.flipVertical,
+      'floatCenter': TablerSvgIcons.floatCenter,
+      'floatLeft': TablerSvgIcons.floatLeft,
+      'floatNone': TablerSvgIcons.floatNone,
+      'floatRight': TablerSvgIcons.floatRight,
+      'flowerOff': TablerSvgIcons.flowerOff,
+      'flower': TablerSvgIcons.flower,
+      'focus2': TablerSvgIcons.focus2,
+      'focusAuto': TablerSvgIcons.focusAuto,
+      'focusCentered': TablerSvgIcons.focusCentered,
+      'focus': TablerSvgIcons.focus,
+      'foldDown': TablerSvgIcons.foldDown,
+      'foldUp': TablerSvgIcons.foldUp,
+      'fold': TablerSvgIcons.fold,
+      'folderBolt': TablerSvgIcons.folderBolt,
+      'folderCancel': TablerSvgIcons.folderCancel,
+      'folderCheck': TablerSvgIcons.folderCheck,
+      'folderCode': TablerSvgIcons.folderCode,
+      'folderCog': TablerSvgIcons.folderCog,
+      'folderDollar': TablerSvgIcons.folderDollar,
+      'folderDown': TablerSvgIcons.folderDown,
+      'folderExclamation': TablerSvgIcons.folderExclamation,
+      'folderFilled': TablerSvgIcons.folderFilled,
+      'folderHeart': TablerSvgIcons.folderHeart,
+      'folderMinus': TablerSvgIcons.folderMinus,
+      'folderOff': TablerSvgIcons.folderOff,
+      'folderOpen': TablerSvgIcons.folderOpen,
+      'folderPause': TablerSvgIcons.folderPause,
+      'folderPin': TablerSvgIcons.folderPin,
+      'folderPlus': TablerSvgIcons.folderPlus,
+      'folderQuestion': TablerSvgIcons.folderQuestion,
+      'folderSearch': TablerSvgIcons.folderSearch,
+      'folderShare': TablerSvgIcons.folderShare,
+      'folderStar': TablerSvgIcons.folderStar,
+      'folderSymlink': TablerSvgIcons.folderSymlink,
+      'folderUp': TablerSvgIcons.folderUp,
+      'folderX': TablerSvgIcons.folderX,
+      'folder': TablerSvgIcons.folder,
+      'foldersOff': TablerSvgIcons.foldersOff,
+      'folders': TablerSvgIcons.folders,
+      'forbid2Filled': TablerSvgIcons.forbid2Filled,
+      'forbid2': TablerSvgIcons.forbid2,
+      'forbidFilled': TablerSvgIcons.forbidFilled,
+      'forbid': TablerSvgIcons.forbid,
+      'forklift': TablerSvgIcons.forklift,
+      'forms': TablerSvgIcons.forms,
+      'fountainFilled': TablerSvgIcons.fountainFilled,
+      'fountainOff': TablerSvgIcons.fountainOff,
+      'fountain': TablerSvgIcons.fountain,
+      'frameOff': TablerSvgIcons.frameOff,
+      'frame': TablerSvgIcons.frame,
+      'freeRights': TablerSvgIcons.freeRights,
+      'freezeColumn': TablerSvgIcons.freezeColumn,
+      'freezeRowColumn': TablerSvgIcons.freezeRowColumn,
+      'freezeRow': TablerSvgIcons.freezeRow,
+      'fridgeOff': TablerSvgIcons.fridgeOff,
+      'fridge': TablerSvgIcons.fridge,
+      'friendsOff': TablerSvgIcons.friendsOff,
+      'friends': TablerSvgIcons.friends,
+      'frustumOff': TablerSvgIcons.frustumOff,
+      'frustumPlus': TablerSvgIcons.frustumPlus,
+      'frustum': TablerSvgIcons.frustum,
+      'functionFilled': TablerSvgIcons.functionFilled,
+      'functionOff': TablerSvgIcons.functionOff,
+      'function': TablerSvgIcons.function,
+      'galaxy': TablerSvgIcons.galaxy,
+      'gardenCartOff': TablerSvgIcons.gardenCartOff,
+      'gardenCart': TablerSvgIcons.gardenCart,
+      'gasStationOff': TablerSvgIcons.gasStationOff,
+      'gasStation': TablerSvgIcons.gasStation,
+      'gaugeFilled': TablerSvgIcons.gaugeFilled,
+      'gaugeOff': TablerSvgIcons.gaugeOff,
+      'gauge': TablerSvgIcons.gauge,
+      'gavel': TablerSvgIcons.gavel,
+      'genderAgender': TablerSvgIcons.genderAgender,
+      'genderAndrogyne': TablerSvgIcons.genderAndrogyne,
+      'genderBigender': TablerSvgIcons.genderBigender,
+      'genderDemiboy': TablerSvgIcons.genderDemiboy,
+      'genderDemigirl': TablerSvgIcons.genderDemigirl,
+      'genderEpicene': TablerSvgIcons.genderEpicene,
+      'genderFemale': TablerSvgIcons.genderFemale,
+      'genderFemme': TablerSvgIcons.genderFemme,
+      'genderGenderfluid': TablerSvgIcons.genderGenderfluid,
+      'genderGenderless': TablerSvgIcons.genderGenderless,
+      'genderGenderqueer': TablerSvgIcons.genderGenderqueer,
+      'genderHermaphrodite': TablerSvgIcons.genderHermaphrodite,
+      'genderIntergender': TablerSvgIcons.genderIntergender,
+      'genderMale': TablerSvgIcons.genderMale,
+      'genderNeutrois': TablerSvgIcons.genderNeutrois,
+      'genderThird': TablerSvgIcons.genderThird,
+      'genderTransgender': TablerSvgIcons.genderTransgender,
+      'genderTrasvesti': TablerSvgIcons.genderTrasvesti,
+      'geometry': TablerSvgIcons.geometry,
+      'ghost2Filled': TablerSvgIcons.ghost2Filled,
+      'ghost2': TablerSvgIcons.ghost2,
+      'ghost3': TablerSvgIcons.ghost3,
+      'ghostFilled': TablerSvgIcons.ghostFilled,
+      'ghostOff': TablerSvgIcons.ghostOff,
+      'ghost': TablerSvgIcons.ghost,
+      'gif': TablerSvgIcons.gif,
+      'giftCardFilled': TablerSvgIcons.giftCardFilled,
+      'giftCard': TablerSvgIcons.giftCard,
+      'giftOff': TablerSvgIcons.giftOff,
+      'gift': TablerSvgIcons.gift,
+      'gitBranchDeleted': TablerSvgIcons.gitBranchDeleted,
+      'gitBranch': TablerSvgIcons.gitBranch,
+      'gitCherryPick': TablerSvgIcons.gitCherryPick,
+      'gitCommit': TablerSvgIcons.gitCommit,
+      'gitCompare': TablerSvgIcons.gitCompare,
+      'gitFork': TablerSvgIcons.gitFork,
+      'gitMerge': TablerSvgIcons.gitMerge,
+      'gitPullRequestClosed': TablerSvgIcons.gitPullRequestClosed,
+      'gitPullRequestDraft': TablerSvgIcons.gitPullRequestDraft,
+      'gitPullRequest': TablerSvgIcons.gitPullRequest,
+      'gizmo': TablerSvgIcons.gizmo,
+      'glassFullFilled': TablerSvgIcons.glassFullFilled,
+      'glassFull': TablerSvgIcons.glassFull,
+      'glassOff': TablerSvgIcons.glassOff,
+      'glass': TablerSvgIcons.glass,
+      'globeFilled': TablerSvgIcons.globeFilled,
+      'globeOff': TablerSvgIcons.globeOff,
+      'globe': TablerSvgIcons.globe,
+      'goGame': TablerSvgIcons.goGame,
+      'golfOff': TablerSvgIcons.golfOff,
+      'golf': TablerSvgIcons.golf,
+      'gps': TablerSvgIcons.gps,
+      'gradienter': TablerSvgIcons.gradienter,
+      'grain': TablerSvgIcons.grain,
+      'graphOff': TablerSvgIcons.graphOff,
+      'graph': TablerSvgIcons.graph,
+      'grave2': TablerSvgIcons.grave2,
+      'grave': TablerSvgIcons.grave,
+      'grid3x3': TablerSvgIcons.grid3x3,
+      'grid4x4': TablerSvgIcons.grid4x4,
+      'gridDots': TablerSvgIcons.gridDots,
+      'gridGoldenratio': TablerSvgIcons.gridGoldenratio,
+      'gridPattern': TablerSvgIcons.gridPattern,
+      'gridScan': TablerSvgIcons.gridScan,
+      'grillFork': TablerSvgIcons.grillFork,
+      'grillOff': TablerSvgIcons.grillOff,
+      'grillSpatula': TablerSvgIcons.grillSpatula,
+      'grill': TablerSvgIcons.grill,
+      'gripHorizontal': TablerSvgIcons.gripHorizontal,
+      'gripVertical': TablerSvgIcons.gripVertical,
+      'growth': TablerSvgIcons.growth,
+      'guitarPickFilled': TablerSvgIcons.guitarPickFilled,
+      'guitarPick': TablerSvgIcons.guitarPick,
+      'h1': TablerSvgIcons.h1,
+      'h2': TablerSvgIcons.h2,
+      'h3': TablerSvgIcons.h3,
+      'h4': TablerSvgIcons.h4,
+      'h5': TablerSvgIcons.h5,
+      'h6': TablerSvgIcons.h6,
+      'hammerOff': TablerSvgIcons.hammerOff,
+      'hammer': TablerSvgIcons.hammer,
+      'handClick': TablerSvgIcons.handClick,
+      'handFingerOff': TablerSvgIcons.handFingerOff,
+      'handFinger': TablerSvgIcons.handFinger,
+      'handGrab': TablerSvgIcons.handGrab,
+      'handLittleFinger': TablerSvgIcons.handLittleFinger,
+      'handMiddleFinger': TablerSvgIcons.handMiddleFinger,
+      'handMove': TablerSvgIcons.handMove,
+      'handOff': TablerSvgIcons.handOff,
+      'handRingFinger': TablerSvgIcons.handRingFinger,
+      'handRock': TablerSvgIcons.handRock,
+      'handSanitizer': TablerSvgIcons.handSanitizer,
+      'handStop': TablerSvgIcons.handStop,
+      'handThreeFingers': TablerSvgIcons.handThreeFingers,
+      'handTwoFingers': TablerSvgIcons.handTwoFingers,
+      'hanger2': TablerSvgIcons.hanger2,
+      'hangerOff': TablerSvgIcons.hangerOff,
+      'hanger': TablerSvgIcons.hanger,
+      'hash': TablerSvgIcons.hash,
+      'hazeMoon': TablerSvgIcons.hazeMoon,
+      'haze': TablerSvgIcons.haze,
+      'hdr': TablerSvgIcons.hdr,
+      'headingOff': TablerSvgIcons.headingOff,
+      'heading': TablerSvgIcons.heading,
+      'headphonesFilled': TablerSvgIcons.headphonesFilled,
+      'headphonesOff': TablerSvgIcons.headphonesOff,
+      'headphones': TablerSvgIcons.headphones,
+      'headsetOff': TablerSvgIcons.headsetOff,
+      'headset': TablerSvgIcons.headset,
+      'healthRecognition': TablerSvgIcons.healthRecognition,
+      'heartBolt': TablerSvgIcons.heartBolt,
+      'heartBroken': TablerSvgIcons.heartBroken,
+      'heartCancel': TablerSvgIcons.heartCancel,
+      'heartCheck': TablerSvgIcons.heartCheck,
+      'heartCode': TablerSvgIcons.heartCode,
+      'heartCog': TablerSvgIcons.heartCog,
+      'heartDiscount': TablerSvgIcons.heartDiscount,
+      'heartDollar': TablerSvgIcons.heartDollar,
+      'heartDown': TablerSvgIcons.heartDown,
+      'heartExclamation': TablerSvgIcons.heartExclamation,
+      'heartFilled': TablerSvgIcons.heartFilled,
+      'heartHandshake': TablerSvgIcons.heartHandshake,
+      'heartMinus': TablerSvgIcons.heartMinus,
+      'heartOff': TablerSvgIcons.heartOff,
+      'heartPause': TablerSvgIcons.heartPause,
+      'heartPin': TablerSvgIcons.heartPin,
+      'heartPlus': TablerSvgIcons.heartPlus,
+      'heartQuestion': TablerSvgIcons.heartQuestion,
+      'heartRateMonitor': TablerSvgIcons.heartRateMonitor,
+      'heartSearch': TablerSvgIcons.heartSearch,
+      'heartShare': TablerSvgIcons.heartShare,
+      'heartStar': TablerSvgIcons.heartStar,
+      'heartUp': TablerSvgIcons.heartUp,
+      'heartX': TablerSvgIcons.heartX,
+      'heart': TablerSvgIcons.heart,
+      'heartbeat': TablerSvgIcons.heartbeat,
+      'heartsOff': TablerSvgIcons.heartsOff,
+      'hearts': TablerSvgIcons.hearts,
+      'helicopterLanding': TablerSvgIcons.helicopterLanding,
+      'helicopter': TablerSvgIcons.helicopter,
+      'helmetOff': TablerSvgIcons.helmetOff,
+      'helmet': TablerSvgIcons.helmet,
+      'helpCircleFilled': TablerSvgIcons.helpCircleFilled,
+      'helpCircle': TablerSvgIcons.helpCircle,
+      'helpHexagonFilled': TablerSvgIcons.helpHexagonFilled,
+      'helpHexagon': TablerSvgIcons.helpHexagon,
+      'helpOctagonFilled': TablerSvgIcons.helpOctagonFilled,
+      'helpOctagon': TablerSvgIcons.helpOctagon,
+      'helpOff': TablerSvgIcons.helpOff,
+      'helpSmall': TablerSvgIcons.helpSmall,
+      'helpSquareFilled': TablerSvgIcons.helpSquareFilled,
+      'helpSquareRoundedFilled': TablerSvgIcons.helpSquareRoundedFilled,
+      'helpSquareRounded': TablerSvgIcons.helpSquareRounded,
+      'helpSquare': TablerSvgIcons.helpSquare,
+      'helpTriangleFilled': TablerSvgIcons.helpTriangleFilled,
+      'helpTriangle': TablerSvgIcons.helpTriangle,
+      'help': TablerSvgIcons.help,
+      'hemisphereOff': TablerSvgIcons.hemisphereOff,
+      'hemispherePlus': TablerSvgIcons.hemispherePlus,
+      'hemisphere': TablerSvgIcons.hemisphere,
+      'hexagon0Filled': TablerSvgIcons.hexagon0Filled,
+      'hexagon1Filled': TablerSvgIcons.hexagon1Filled,
+      'hexagon2Filled': TablerSvgIcons.hexagon2Filled,
+      'hexagon3Filled': TablerSvgIcons.hexagon3Filled,
+      'hexagon3d': TablerSvgIcons.hexagon3d,
+      'hexagon4Filled': TablerSvgIcons.hexagon4Filled,
+      'hexagon5Filled': TablerSvgIcons.hexagon5Filled,
+      'hexagon6Filled': TablerSvgIcons.hexagon6Filled,
+      'hexagon7Filled': TablerSvgIcons.hexagon7Filled,
+      'hexagon8Filled': TablerSvgIcons.hexagon8Filled,
+      'hexagon9Filled': TablerSvgIcons.hexagon9Filled,
+      'hexagonFilled': TablerSvgIcons.hexagonFilled,
+      'hexagonLetterA': TablerSvgIcons.hexagonLetterA,
+      'hexagonLetterB': TablerSvgIcons.hexagonLetterB,
+      'hexagonLetterC': TablerSvgIcons.hexagonLetterC,
+      'hexagonLetterD': TablerSvgIcons.hexagonLetterD,
+      'hexagonLetterE': TablerSvgIcons.hexagonLetterE,
+      'hexagonLetterF': TablerSvgIcons.hexagonLetterF,
+      'hexagonLetterG': TablerSvgIcons.hexagonLetterG,
+      'hexagonLetterH': TablerSvgIcons.hexagonLetterH,
+      'hexagonLetterI': TablerSvgIcons.hexagonLetterI,
+      'hexagonLetterJ': TablerSvgIcons.hexagonLetterJ,
+      'hexagonLetterK': TablerSvgIcons.hexagonLetterK,
+      'hexagonLetterL': TablerSvgIcons.hexagonLetterL,
+      'hexagonLetterM': TablerSvgIcons.hexagonLetterM,
+      'hexagonLetterN': TablerSvgIcons.hexagonLetterN,
+      'hexagonLetterO': TablerSvgIcons.hexagonLetterO,
+      'hexagonLetterP': TablerSvgIcons.hexagonLetterP,
+      'hexagonLetterQ': TablerSvgIcons.hexagonLetterQ,
+      'hexagonLetterR': TablerSvgIcons.hexagonLetterR,
+      'hexagonLetterS': TablerSvgIcons.hexagonLetterS,
+      'hexagonLetterT': TablerSvgIcons.hexagonLetterT,
+      'hexagonLetterU': TablerSvgIcons.hexagonLetterU,
+      'hexagonLetterV': TablerSvgIcons.hexagonLetterV,
+      'hexagonLetterW': TablerSvgIcons.hexagonLetterW,
+      'hexagonLetterX': TablerSvgIcons.hexagonLetterX,
+      'hexagonLetterY': TablerSvgIcons.hexagonLetterY,
+      'hexagonLetterZ': TablerSvgIcons.hexagonLetterZ,
+      'hexagonMinus2': TablerSvgIcons.hexagonMinus2,
+      'hexagonMinus': TablerSvgIcons.hexagonMinus,
+      'hexagonNumber0': TablerSvgIcons.hexagonNumber0,
+      'hexagonNumber1': TablerSvgIcons.hexagonNumber1,
+      'hexagonNumber2': TablerSvgIcons.hexagonNumber2,
+      'hexagonNumber3': TablerSvgIcons.hexagonNumber3,
+      'hexagonNumber4': TablerSvgIcons.hexagonNumber4,
+      'hexagonNumber5': TablerSvgIcons.hexagonNumber5,
+      'hexagonNumber6': TablerSvgIcons.hexagonNumber6,
+      'hexagonNumber7': TablerSvgIcons.hexagonNumber7,
+      'hexagonNumber8': TablerSvgIcons.hexagonNumber8,
+      'hexagonNumber9': TablerSvgIcons.hexagonNumber9,
+      'hexagonOff': TablerSvgIcons.hexagonOff,
+      'hexagonPlus2': TablerSvgIcons.hexagonPlus2,
+      'hexagonPlus': TablerSvgIcons.hexagonPlus,
+      'hexagon': TablerSvgIcons.hexagon,
+      'hexagonalPrismOff': TablerSvgIcons.hexagonalPrismOff,
+      'hexagonalPrismPlus': TablerSvgIcons.hexagonalPrismPlus,
+      'hexagonalPrism': TablerSvgIcons.hexagonalPrism,
+      'hexagonalPyramidOff': TablerSvgIcons.hexagonalPyramidOff,
+      'hexagonalPyramidPlus': TablerSvgIcons.hexagonalPyramidPlus,
+      'hexagonalPyramid': TablerSvgIcons.hexagonalPyramid,
+      'hexagonsOff': TablerSvgIcons.hexagonsOff,
+      'hexagons': TablerSvgIcons.hexagons,
+      'hierarchy2': TablerSvgIcons.hierarchy2,
+      'hierarchy3': TablerSvgIcons.hierarchy3,
+      'hierarchyOff': TablerSvgIcons.hierarchyOff,
+      'hierarchy': TablerSvgIcons.hierarchy,
+      'highlightOff': TablerSvgIcons.highlightOff,
+      'highlight': TablerSvgIcons.highlight,
+      'historyOff': TablerSvgIcons.historyOff,
+      'historyToggle': TablerSvgIcons.historyToggle,
+      'history': TablerSvgIcons.history,
+      'home2': TablerSvgIcons.home2,
+      'homeBolt': TablerSvgIcons.homeBolt,
+      'homeCancel': TablerSvgIcons.homeCancel,
+      'homeCheck': TablerSvgIcons.homeCheck,
+      'homeCog': TablerSvgIcons.homeCog,
+      'homeDollar': TablerSvgIcons.homeDollar,
+      'homeDot': TablerSvgIcons.homeDot,
+      'homeDown': TablerSvgIcons.homeDown,
+      'homeEco': TablerSvgIcons.homeEco,
+      'homeEdit': TablerSvgIcons.homeEdit,
+      'homeExclamation': TablerSvgIcons.homeExclamation,
+      'homeHand': TablerSvgIcons.homeHand,
+      'homeHeart': TablerSvgIcons.homeHeart,
+      'homeInfinity': TablerSvgIcons.homeInfinity,
+      'homeLink': TablerSvgIcons.homeLink,
+      'homeMinus': TablerSvgIcons.homeMinus,
+      'homeMove': TablerSvgIcons.homeMove,
+      'homeOff': TablerSvgIcons.homeOff,
+      'homePlus': TablerSvgIcons.homePlus,
+      'homeQuestion': TablerSvgIcons.homeQuestion,
+      'homeRibbon': TablerSvgIcons.homeRibbon,
+      'homeSearch': TablerSvgIcons.homeSearch,
+      'homeShare': TablerSvgIcons.homeShare,
+      'homeShield': TablerSvgIcons.homeShield,
+      'homeSignal': TablerSvgIcons.homeSignal,
+      'homeStar': TablerSvgIcons.homeStar,
+      'homeStats': TablerSvgIcons.homeStats,
+      'homeUp': TablerSvgIcons.homeUp,
+      'homeX': TablerSvgIcons.homeX,
+      'home': TablerSvgIcons.home,
+      'horseToy': TablerSvgIcons.horseToy,
+      'horse': TablerSvgIcons.horse,
+      'horseshoe': TablerSvgIcons.horseshoe,
+      'hotelService': TablerSvgIcons.hotelService,
+      'hourglassEmpty': TablerSvgIcons.hourglassEmpty,
+      'hourglassFilled': TablerSvgIcons.hourglassFilled,
+      'hourglassHigh': TablerSvgIcons.hourglassHigh,
+      'hourglassLow': TablerSvgIcons.hourglassLow,
+      'hourglassOff': TablerSvgIcons.hourglassOff,
+      'hourglass': TablerSvgIcons.hourglass,
+      'html': TablerSvgIcons.html,
+      'httpConnect': TablerSvgIcons.httpConnect,
+      'httpDelete': TablerSvgIcons.httpDelete,
+      'httpGet': TablerSvgIcons.httpGet,
+      'httpHead': TablerSvgIcons.httpHead,
+      'httpOptions': TablerSvgIcons.httpOptions,
+      'httpPatch': TablerSvgIcons.httpPatch,
+      'httpPost': TablerSvgIcons.httpPost,
+      'httpPut': TablerSvgIcons.httpPut,
+      'httpQue': TablerSvgIcons.httpQue,
+      'httpTrace': TablerSvgIcons.httpTrace,
+      'iceCream2': TablerSvgIcons.iceCream2,
+      'iceCreamOff': TablerSvgIcons.iceCreamOff,
+      'iceCream': TablerSvgIcons.iceCream,
+      'iceSkating': TablerSvgIcons.iceSkating,
+      'iconsOff': TablerSvgIcons.iconsOff,
+      'icons': TablerSvgIcons.icons,
+      'idBadge2': TablerSvgIcons.idBadge2,
+      'idBadgeOff': TablerSvgIcons.idBadgeOff,
+      'idBadge': TablerSvgIcons.idBadge,
+      'idOff': TablerSvgIcons.idOff,
+      'id': TablerSvgIcons.id,
+      'inboxOff': TablerSvgIcons.inboxOff,
+      'inbox': TablerSvgIcons.inbox,
+      'indentDecrease': TablerSvgIcons.indentDecrease,
+      'indentIncrease': TablerSvgIcons.indentIncrease,
+      'infinityOff': TablerSvgIcons.infinityOff,
+      'infinity': TablerSvgIcons.infinity,
+      'infoCircleFilled': TablerSvgIcons.infoCircleFilled,
+      'infoCircle': TablerSvgIcons.infoCircle,
+      'infoHexagonFilled': TablerSvgIcons.infoHexagonFilled,
+      'infoHexagon': TablerSvgIcons.infoHexagon,
+      'infoOctagonFilled': TablerSvgIcons.infoOctagonFilled,
+      'infoOctagon': TablerSvgIcons.infoOctagon,
+      'infoSmall': TablerSvgIcons.infoSmall,
+      'infoSquareFilled': TablerSvgIcons.infoSquareFilled,
+      'infoSquareRoundedFilled': TablerSvgIcons.infoSquareRoundedFilled,
+      'infoSquareRounded': TablerSvgIcons.infoSquareRounded,
+      'infoSquare': TablerSvgIcons.infoSquare,
+      'infoTriangleFilled': TablerSvgIcons.infoTriangleFilled,
+      'infoTriangle': TablerSvgIcons.infoTriangle,
+      'innerShadowBottomFilled': TablerSvgIcons.innerShadowBottomFilled,
+      'innerShadowBottomLeftFilled': TablerSvgIcons.innerShadowBottomLeftFilled,
+      'innerShadowBottomLeft': TablerSvgIcons.innerShadowBottomLeft,
+      'innerShadowBottomRightFilled': TablerSvgIcons.innerShadowBottomRightFilled,
+      'innerShadowBottomRight': TablerSvgIcons.innerShadowBottomRight,
+      'innerShadowBottom': TablerSvgIcons.innerShadowBottom,
+      'innerShadowLeftFilled': TablerSvgIcons.innerShadowLeftFilled,
+      'innerShadowLeft': TablerSvgIcons.innerShadowLeft,
+      'innerShadowRightFilled': TablerSvgIcons.innerShadowRightFilled,
+      'innerShadowRight': TablerSvgIcons.innerShadowRight,
+      'innerShadowTopFilled': TablerSvgIcons.innerShadowTopFilled,
+      'innerShadowTopLeftFilled': TablerSvgIcons.innerShadowTopLeftFilled,
+      'innerShadowTopLeft': TablerSvgIcons.innerShadowTopLeft,
+      'innerShadowTopRightFilled': TablerSvgIcons.innerShadowTopRightFilled,
+      'innerShadowTopRight': TablerSvgIcons.innerShadowTopRight,
+      'innerShadowTop': TablerSvgIcons.innerShadowTop,
+      'inputAi': TablerSvgIcons.inputAi,
+      'inputCheck': TablerSvgIcons.inputCheck,
+      'inputSearch': TablerSvgIcons.inputSearch,
+      'inputX': TablerSvgIcons.inputX,
+      'ironing1': TablerSvgIcons.ironing1,
+      'ironing2': TablerSvgIcons.ironing2,
+      'ironing3': TablerSvgIcons.ironing3,
+      'ironingOff': TablerSvgIcons.ironingOff,
+      'ironingSteamOff': TablerSvgIcons.ironingSteamOff,
+      'ironingSteam': TablerSvgIcons.ironingSteam,
+      'ironing': TablerSvgIcons.ironing,
+      'irregularPolyhedronOff': TablerSvgIcons.irregularPolyhedronOff,
+      'irregularPolyhedronPlus': TablerSvgIcons.irregularPolyhedronPlus,
+      'irregularPolyhedron': TablerSvgIcons.irregularPolyhedron,
+      'italic': TablerSvgIcons.italic,
+      'jacket': TablerSvgIcons.jacket,
+      'jetpack': TablerSvgIcons.jetpack,
+      'jewishStarFilled': TablerSvgIcons.jewishStarFilled,
+      'jewishStar': TablerSvgIcons.jewishStar,
+      'jpg': TablerSvgIcons.jpg,
+      'json': TablerSvgIcons.json,
+      'jumpRope': TablerSvgIcons.jumpRope,
+      'karate': TablerSvgIcons.karate,
+      'kayak': TablerSvgIcons.kayak,
+      'kering': TablerSvgIcons.kering,
+      'keyOff': TablerSvgIcons.keyOff,
+      'key': TablerSvgIcons.key,
+      'keyboardHide': TablerSvgIcons.keyboardHide,
+      'keyboardOff': TablerSvgIcons.keyboardOff,
+      'keyboardShow': TablerSvgIcons.keyboardShow,
+      'keyboard': TablerSvgIcons.keyboard,
+      'keyframeAlignCenterFilled': TablerSvgIcons.keyframeAlignCenterFilled,
+      'keyframeAlignCenter': TablerSvgIcons.keyframeAlignCenter,
+      'keyframeAlignHorizontalFilled': TablerSvgIcons.keyframeAlignHorizontalFilled,
+      'keyframeAlignHorizontal': TablerSvgIcons.keyframeAlignHorizontal,
+      'keyframeAlignVerticalFilled': TablerSvgIcons.keyframeAlignVerticalFilled,
+      'keyframeAlignVertical': TablerSvgIcons.keyframeAlignVertical,
+      'keyframeFilled': TablerSvgIcons.keyframeFilled,
+      'keyframe': TablerSvgIcons.keyframe,
+      'keyframesFilled': TablerSvgIcons.keyframesFilled,
+      'keyframes': TablerSvgIcons.keyframes,
+      'ladderOff': TablerSvgIcons.ladderOff,
+      'ladder': TablerSvgIcons.ladder,
+      'ladle': TablerSvgIcons.ladle,
+      'lambda': TablerSvgIcons.lambda,
+      'lamp2': TablerSvgIcons.lamp2,
+      'lampOff': TablerSvgIcons.lampOff,
+      'lamp': TablerSvgIcons.lamp,
+      'lane': TablerSvgIcons.lane,
+      'languageHiragana': TablerSvgIcons.languageHiragana,
+      'languageKatakana': TablerSvgIcons.languageKatakana,
+      'languageOff': TablerSvgIcons.languageOff,
+      'language': TablerSvgIcons.language,
+      'lassoOff': TablerSvgIcons.lassoOff,
+      'lassoPolygon': TablerSvgIcons.lassoPolygon,
+      'lasso': TablerSvgIcons.lasso,
+      'layersDifference': TablerSvgIcons.layersDifference,
+      'layersIntersect2': TablerSvgIcons.layersIntersect2,
+      'layersIntersect': TablerSvgIcons.layersIntersect,
+      'layersLinked': TablerSvgIcons.layersLinked,
+      'layersOff': TablerSvgIcons.layersOff,
+      'layersSubtract': TablerSvgIcons.layersSubtract,
+      'layersUnion': TablerSvgIcons.layersUnion,
+      'layout2': TablerSvgIcons.layout2,
+      'layoutAlignBottom': TablerSvgIcons.layoutAlignBottom,
+      'layoutAlignCenter': TablerSvgIcons.layoutAlignCenter,
+      'layoutAlignLeft': TablerSvgIcons.layoutAlignLeft,
+      'layoutAlignMiddle': TablerSvgIcons.layoutAlignMiddle,
+      'layoutAlignRight': TablerSvgIcons.layoutAlignRight,
+      'layoutAlignTop': TablerSvgIcons.layoutAlignTop,
+      'layoutBoardSplit': TablerSvgIcons.layoutBoardSplit,
+      'layoutBoard': TablerSvgIcons.layoutBoard,
+      'layoutBottombarCollapseFilled': TablerSvgIcons.layoutBottombarCollapseFilled,
+      'layoutBottombarCollapse': TablerSvgIcons.layoutBottombarCollapse,
+      'layoutBottombarExpandFilled': TablerSvgIcons.layoutBottombarExpandFilled,
+      'layoutBottombarExpand': TablerSvgIcons.layoutBottombarExpand,
+      'layoutBottombarFilled': TablerSvgIcons.layoutBottombarFilled,
+      'layoutBottombar': TablerSvgIcons.layoutBottombar,
+      'layoutCards': TablerSvgIcons.layoutCards,
+      'layoutCollage': TablerSvgIcons.layoutCollage,
+      'layoutColumns': TablerSvgIcons.layoutColumns,
+      'layoutDashboard': TablerSvgIcons.layoutDashboard,
+      'layoutDistributeHorizontal': TablerSvgIcons.layoutDistributeHorizontal,
+      'layoutDistributeVertical': TablerSvgIcons.layoutDistributeVertical,
+      'layoutGridAdd': TablerSvgIcons.layoutGridAdd,
+      'layoutGridRemove': TablerSvgIcons.layoutGridRemove,
+      'layoutGrid': TablerSvgIcons.layoutGrid,
+      'layoutKanban': TablerSvgIcons.layoutKanban,
+      'layoutList': TablerSvgIcons.layoutList,
+      'layoutNavbarCollapseFilled': TablerSvgIcons.layoutNavbarCollapseFilled,
+      'layoutNavbarCollapse': TablerSvgIcons.layoutNavbarCollapse,
+      'layoutNavbarExpandFilled': TablerSvgIcons.layoutNavbarExpandFilled,
+      'layoutNavbarExpand': TablerSvgIcons.layoutNavbarExpand,
+      'layoutNavbarFilled': TablerSvgIcons.layoutNavbarFilled,
+      'layoutNavbar': TablerSvgIcons.layoutNavbar,
+      'layoutOff': TablerSvgIcons.layoutOff,
+      'layoutRows': TablerSvgIcons.layoutRows,
+      'layoutSidebarLeftCollapseFilled': TablerSvgIcons.layoutSidebarLeftCollapseFilled,
+      'layoutSidebarLeftCollapse': TablerSvgIcons.layoutSidebarLeftCollapse,
+      'layoutSidebarLeftExpandFilled': TablerSvgIcons.layoutSidebarLeftExpandFilled,
+      'layoutSidebarLeftExpand': TablerSvgIcons.layoutSidebarLeftExpand,
+      'layoutSidebarRightCollapseFilled': TablerSvgIcons.layoutSidebarRightCollapseFilled,
+      'layoutSidebarRightCollapse': TablerSvgIcons.layoutSidebarRightCollapse,
+      'layoutSidebarRightExpandFilled': TablerSvgIcons.layoutSidebarRightExpandFilled,
+      'layoutSidebarRightExpand': TablerSvgIcons.layoutSidebarRightExpand,
+      'layoutSidebarRight': TablerSvgIcons.layoutSidebarRight,
+      'layoutSidebar': TablerSvgIcons.layoutSidebar,
+      'layout': TablerSvgIcons.layout,
+      'leafOff': TablerSvgIcons.leafOff,
+      'leaf': TablerSvgIcons.leaf,
+      'legoOff': TablerSvgIcons.legoOff,
+      'lego': TablerSvgIcons.lego,
+      'lemon2': TablerSvgIcons.lemon2,
+      'lemon': TablerSvgIcons.lemon,
+      'letterASmall': TablerSvgIcons.letterASmall,
+      'letterA': TablerSvgIcons.letterA,
+      'letterBSmall': TablerSvgIcons.letterBSmall,
+      'letterB': TablerSvgIcons.letterB,
+      'letterCSmall': TablerSvgIcons.letterCSmall,
+      'letterC': TablerSvgIcons.letterC,
+      'letterCaseLower': TablerSvgIcons.letterCaseLower,
+      'letterCaseToggle': TablerSvgIcons.letterCaseToggle,
+      'letterCaseUpper': TablerSvgIcons.letterCaseUpper,
+      'letterCase': TablerSvgIcons.letterCase,
+      'letterDSmall': TablerSvgIcons.letterDSmall,
+      'letterD': TablerSvgIcons.letterD,
+      'letterESmall': TablerSvgIcons.letterESmall,
+      'letterE': TablerSvgIcons.letterE,
+      'letterFSmall': TablerSvgIcons.letterFSmall,
+      'letterF': TablerSvgIcons.letterF,
+      'letterGSmall': TablerSvgIcons.letterGSmall,
+      'letterG': TablerSvgIcons.letterG,
+      'letterHSmall': TablerSvgIcons.letterHSmall,
+      'letterH': TablerSvgIcons.letterH,
+      'letterISmall': TablerSvgIcons.letterISmall,
+      'letterI': TablerSvgIcons.letterI,
+      'letterJSmall': TablerSvgIcons.letterJSmall,
+      'letterJ': TablerSvgIcons.letterJ,
+      'letterKSmall': TablerSvgIcons.letterKSmall,
+      'letterK': TablerSvgIcons.letterK,
+      'letterLSmall': TablerSvgIcons.letterLSmall,
+      'letterL': TablerSvgIcons.letterL,
+      'letterMSmall': TablerSvgIcons.letterMSmall,
+      'letterM': TablerSvgIcons.letterM,
+      'letterNSmall': TablerSvgIcons.letterNSmall,
+      'letterN': TablerSvgIcons.letterN,
+      'letterOSmall': TablerSvgIcons.letterOSmall,
+      'letterO': TablerSvgIcons.letterO,
+      'letterPSmall': TablerSvgIcons.letterPSmall,
+      'letterP': TablerSvgIcons.letterP,
+      'letterQSmall': TablerSvgIcons.letterQSmall,
+      'letterQ': TablerSvgIcons.letterQ,
+      'letterRSmall': TablerSvgIcons.letterRSmall,
+      'letterR': TablerSvgIcons.letterR,
+      'letterSSmall': TablerSvgIcons.letterSSmall,
+      'letterS': TablerSvgIcons.letterS,
+      'letterSpacing': TablerSvgIcons.letterSpacing,
+      'letterTSmall': TablerSvgIcons.letterTSmall,
+      'letterT': TablerSvgIcons.letterT,
+      'letterUSmall': TablerSvgIcons.letterUSmall,
+      'letterU': TablerSvgIcons.letterU,
+      'letterVSmall': TablerSvgIcons.letterVSmall,
+      'letterV': TablerSvgIcons.letterV,
+      'letterWSmall': TablerSvgIcons.letterWSmall,
+      'letterW': TablerSvgIcons.letterW,
+      'letterXSmall': TablerSvgIcons.letterXSmall,
+      'letterX': TablerSvgIcons.letterX,
+      'letterYSmall': TablerSvgIcons.letterYSmall,
+      'letterY': TablerSvgIcons.letterY,
+      'letterZSmall': TablerSvgIcons.letterZSmall,
+      'letterZ': TablerSvgIcons.letterZ,
+      'licenseOff': TablerSvgIcons.licenseOff,
+      'license': TablerSvgIcons.license,
+      'lifebuoyOff': TablerSvgIcons.lifebuoyOff,
+      'lifebuoy': TablerSvgIcons.lifebuoy,
+      'lighter': TablerSvgIcons.lighter,
+      'lineDashed': TablerSvgIcons.lineDashed,
+      'lineDotted': TablerSvgIcons.lineDotted,
+      'lineHeight': TablerSvgIcons.lineHeight,
+      'lineScan': TablerSvgIcons.lineScan,
+      'line': TablerSvgIcons.line,
+      'linkOff': TablerSvgIcons.linkOff,
+      'link': TablerSvgIcons.link,
+      'listCheck': TablerSvgIcons.listCheck,
+      'listDetails': TablerSvgIcons.listDetails,
+      'listLetters': TablerSvgIcons.listLetters,
+      'listNumbers': TablerSvgIcons.listNumbers,
+      'listSearch': TablerSvgIcons.listSearch,
+      'listTree': TablerSvgIcons.listTree,
+      'list': TablerSvgIcons.list,
+      'livePhotoOff': TablerSvgIcons.livePhotoOff,
+      'livePhoto': TablerSvgIcons.livePhoto,
+      'liveView': TablerSvgIcons.liveView,
+      'loadBalancer': TablerSvgIcons.loadBalancer,
+      'loader2': TablerSvgIcons.loader2,
+      'loader3': TablerSvgIcons.loader3,
+      'loaderQuarter': TablerSvgIcons.loaderQuarter,
+      'loader': TablerSvgIcons.loader,
+      'locationBolt': TablerSvgIcons.locationBolt,
+      'locationBroken': TablerSvgIcons.locationBroken,
+      'locationCancel': TablerSvgIcons.locationCancel,
+      'locationCheck': TablerSvgIcons.locationCheck,
+      'locationCode': TablerSvgIcons.locationCode,
+      'locationCog': TablerSvgIcons.locationCog,
+      'locationDiscount': TablerSvgIcons.locationDiscount,
+      'locationDollar': TablerSvgIcons.locationDollar,
+      'locationDown': TablerSvgIcons.locationDown,
+      'locationExclamation': TablerSvgIcons.locationExclamation,
+      'locationFilled': TablerSvgIcons.locationFilled,
+      'locationHeart': TablerSvgIcons.locationHeart,
+      'locationMinus': TablerSvgIcons.locationMinus,
+      'locationOff': TablerSvgIcons.locationOff,
+      'locationPause': TablerSvgIcons.locationPause,
+      'locationPin': TablerSvgIcons.locationPin,
+      'locationPlus': TablerSvgIcons.locationPlus,
+      'locationQuestion': TablerSvgIcons.locationQuestion,
+      'locationSearch': TablerSvgIcons.locationSearch,
+      'locationShare': TablerSvgIcons.locationShare,
+      'locationStar': TablerSvgIcons.locationStar,
+      'locationUp': TablerSvgIcons.locationUp,
+      'locationX': TablerSvgIcons.locationX,
+      'location': TablerSvgIcons.location,
+      'lockAccessOff': TablerSvgIcons.lockAccessOff,
+      'lockAccess': TablerSvgIcons.lockAccess,
+      'lockBolt': TablerSvgIcons.lockBolt,
+      'lockCancel': TablerSvgIcons.lockCancel,
+      'lockCheck': TablerSvgIcons.lockCheck,
+      'lockCode': TablerSvgIcons.lockCode,
+      'lockCog': TablerSvgIcons.lockCog,
+      'lockDollar': TablerSvgIcons.lockDollar,
+      'lockDown': TablerSvgIcons.lockDown,
+      'lockExclamation': TablerSvgIcons.lockExclamation,
+      'lockHeart': TablerSvgIcons.lockHeart,
+      'lockMinus': TablerSvgIcons.lockMinus,
+      'lockOff': TablerSvgIcons.lockOff,
+      'lockOpenOff': TablerSvgIcons.lockOpenOff,
+      'lockOpen': TablerSvgIcons.lockOpen,
+      'lockPause': TablerSvgIcons.lockPause,
+      'lockPin': TablerSvgIcons.lockPin,
+      'lockPlus': TablerSvgIcons.lockPlus,
+      'lockQuestion': TablerSvgIcons.lockQuestion,
+      'lockSearch': TablerSvgIcons.lockSearch,
+      'lockShare': TablerSvgIcons.lockShare,
+      'lockSquareRoundedFilled': TablerSvgIcons.lockSquareRoundedFilled,
+      'lockSquareRounded': TablerSvgIcons.lockSquareRounded,
+      'lockSquare': TablerSvgIcons.lockSquare,
+      'lockStar': TablerSvgIcons.lockStar,
+      'lockUp': TablerSvgIcons.lockUp,
+      'lockX': TablerSvgIcons.lockX,
+      'lock': TablerSvgIcons.lock,
+      'logicAnd': TablerSvgIcons.logicAnd,
+      'logicBuffer': TablerSvgIcons.logicBuffer,
+      'logicNand': TablerSvgIcons.logicNand,
+      'logicNor': TablerSvgIcons.logicNor,
+      'logicNot': TablerSvgIcons.logicNot,
+      'logicOr': TablerSvgIcons.logicOr,
+      'logicXnor': TablerSvgIcons.logicXnor,
+      'logicXor': TablerSvgIcons.logicXor,
+      'login2': TablerSvgIcons.login2,
+      'login': TablerSvgIcons.login,
+      'logout2': TablerSvgIcons.logout2,
+      'logout': TablerSvgIcons.logout,
+      'lollipopOff': TablerSvgIcons.lollipopOff,
+      'lollipop': TablerSvgIcons.lollipop,
+      'luggageOff': TablerSvgIcons.luggageOff,
+      'luggage': TablerSvgIcons.luggage,
+      'lungsOff': TablerSvgIcons.lungsOff,
+      'lungs': TablerSvgIcons.lungs,
+      'macroOff': TablerSvgIcons.macroOff,
+      'macro': TablerSvgIcons.macro,
+      'magnetOff': TablerSvgIcons.magnetOff,
+      'magnet': TablerSvgIcons.magnet,
+      'magnetic': TablerSvgIcons.magnetic,
+      'mailAi': TablerSvgIcons.mailAi,
+      'mailBolt': TablerSvgIcons.mailBolt,
+      'mailCancel': TablerSvgIcons.mailCancel,
+      'mailCheck': TablerSvgIcons.mailCheck,
+      'mailCode': TablerSvgIcons.mailCode,
+      'mailCog': TablerSvgIcons.mailCog,
+      'mailDollar': TablerSvgIcons.mailDollar,
+      'mailDown': TablerSvgIcons.mailDown,
+      'mailExclamation': TablerSvgIcons.mailExclamation,
+      'mailFast': TablerSvgIcons.mailFast,
+      'mailFilled': TablerSvgIcons.mailFilled,
+      'mailForward': TablerSvgIcons.mailForward,
+      'mailHeart': TablerSvgIcons.mailHeart,
+      'mailMinus': TablerSvgIcons.mailMinus,
+      'mailOff': TablerSvgIcons.mailOff,
+      'mailOpenedFilled': TablerSvgIcons.mailOpenedFilled,
+      'mailOpened': TablerSvgIcons.mailOpened,
+      'mailPause': TablerSvgIcons.mailPause,
+      'mailPin': TablerSvgIcons.mailPin,
+      'mailPlus': TablerSvgIcons.mailPlus,
+      'mailQuestion': TablerSvgIcons.mailQuestion,
+      'mailSearch': TablerSvgIcons.mailSearch,
+      'mailShare': TablerSvgIcons.mailShare,
+      'mailStar': TablerSvgIcons.mailStar,
+      'mailUp': TablerSvgIcons.mailUp,
+      'mailX': TablerSvgIcons.mailX,
+      'mail': TablerSvgIcons.mail,
+      'mailboxOff': TablerSvgIcons.mailboxOff,
+      'mailbox': TablerSvgIcons.mailbox,
+      'man': TablerSvgIcons.man,
+      'manualGearbox': TablerSvgIcons.manualGearbox,
+      'map2': TablerSvgIcons.map2,
+      'mapBolt': TablerSvgIcons.mapBolt,
+      'mapCancel': TablerSvgIcons.mapCancel,
+      'mapCheck': TablerSvgIcons.mapCheck,
+      'mapCode': TablerSvgIcons.mapCode,
+      'mapCog': TablerSvgIcons.mapCog,
+      'mapDiscount': TablerSvgIcons.mapDiscount,
+      'mapDollar': TablerSvgIcons.mapDollar,
+      'mapDown': TablerSvgIcons.mapDown,
+      'mapEast': TablerSvgIcons.mapEast,
+      'mapExclamation': TablerSvgIcons.mapExclamation,
+      'mapHeart': TablerSvgIcons.mapHeart,
+      'mapMinus': TablerSvgIcons.mapMinus,
+      'mapNorth': TablerSvgIcons.mapNorth,
+      'mapOff': TablerSvgIcons.mapOff,
+      'mapPause': TablerSvgIcons.mapPause,
+      'mapPin2': TablerSvgIcons.mapPin2,
+      'mapPinBolt': TablerSvgIcons.mapPinBolt,
+      'mapPinCancel': TablerSvgIcons.mapPinCancel,
+      'mapPinCheck': TablerSvgIcons.mapPinCheck,
+      'mapPinCode': TablerSvgIcons.mapPinCode,
+      'mapPinCog': TablerSvgIcons.mapPinCog,
+      'mapPinDollar': TablerSvgIcons.mapPinDollar,
+      'mapPinDown': TablerSvgIcons.mapPinDown,
+      'mapPinExclamation': TablerSvgIcons.mapPinExclamation,
+      'mapPinFilled': TablerSvgIcons.mapPinFilled,
+      'mapPinHeart': TablerSvgIcons.mapPinHeart,
+      'mapPinMinus': TablerSvgIcons.mapPinMinus,
+      'mapPinOff': TablerSvgIcons.mapPinOff,
+      'mapPinPause': TablerSvgIcons.mapPinPause,
+      'mapPinPin': TablerSvgIcons.mapPinPin,
+      'mapPinPlus': TablerSvgIcons.mapPinPlus,
+      'mapPinQuestion': TablerSvgIcons.mapPinQuestion,
+      'mapPinSearch': TablerSvgIcons.mapPinSearch,
+      'mapPinShare': TablerSvgIcons.mapPinShare,
+      'mapPinStar': TablerSvgIcons.mapPinStar,
+      'mapPinUp': TablerSvgIcons.mapPinUp,
+      'mapPinX': TablerSvgIcons.mapPinX,
+      'mapPin': TablerSvgIcons.mapPin,
+      'mapPins': TablerSvgIcons.mapPins,
+      'mapPlus': TablerSvgIcons.mapPlus,
+      'mapQuestion': TablerSvgIcons.mapQuestion,
+      'mapRoute': TablerSvgIcons.mapRoute,
+      'mapSearch': TablerSvgIcons.mapSearch,
+      'mapShare': TablerSvgIcons.mapShare,
+      'mapSouth': TablerSvgIcons.mapSouth,
+      'mapStar': TablerSvgIcons.mapStar,
+      'mapUp': TablerSvgIcons.mapUp,
+      'mapWest': TablerSvgIcons.mapWest,
+      'mapX': TablerSvgIcons.mapX,
+      'map': TablerSvgIcons.map,
+      'markdownOff': TablerSvgIcons.markdownOff,
+      'markdown': TablerSvgIcons.markdown,
+      'marquee2': TablerSvgIcons.marquee2,
+      'marqueeOff': TablerSvgIcons.marqueeOff,
+      'marquee': TablerSvgIcons.marquee,
+      'mars': TablerSvgIcons.mars,
+      'maskOff': TablerSvgIcons.maskOff,
+      'mask': TablerSvgIcons.mask,
+      'masksTheaterOff': TablerSvgIcons.masksTheaterOff,
+      'masksTheater': TablerSvgIcons.masksTheater,
+      'massage': TablerSvgIcons.massage,
+      'matchstick': TablerSvgIcons.matchstick,
+      'math1Divide2': TablerSvgIcons.math1Divide2,
+      'math1Divide3': TablerSvgIcons.math1Divide3,
+      'mathAvg': TablerSvgIcons.mathAvg,
+      'mathEqualGreater': TablerSvgIcons.mathEqualGreater,
+      'mathEqualLower': TablerSvgIcons.mathEqualLower,
+      'mathFunctionOff': TablerSvgIcons.mathFunctionOff,
+      'mathFunctionY': TablerSvgIcons.mathFunctionY,
+      'mathFunction': TablerSvgIcons.mathFunction,
+      'mathGreater': TablerSvgIcons.mathGreater,
+      'mathIntegralX': TablerSvgIcons.mathIntegralX,
+      'mathIntegral': TablerSvgIcons.mathIntegral,
+      'mathIntegrals': TablerSvgIcons.mathIntegrals,
+      'mathLower': TablerSvgIcons.mathLower,
+      'mathMax': TablerSvgIcons.mathMax,
+      'mathMin': TablerSvgIcons.mathMin,
+      'mathNot': TablerSvgIcons.mathNot,
+      'mathOff': TablerSvgIcons.mathOff,
+      'mathPiDivide2': TablerSvgIcons.mathPiDivide2,
+      'mathPi': TablerSvgIcons.mathPi,
+      'mathSymbols': TablerSvgIcons.mathSymbols,
+      'mathXDivide2': TablerSvgIcons.mathXDivide2,
+      'mathXDivideY2': TablerSvgIcons.mathXDivideY2,
+      'mathXDivideY': TablerSvgIcons.mathXDivideY,
+      'mathXMinusX': TablerSvgIcons.mathXMinusX,
+      'mathXMinusY': TablerSvgIcons.mathXMinusY,
+      'mathXPlusX': TablerSvgIcons.mathXPlusX,
+      'mathXPlusY': TablerSvgIcons.mathXPlusY,
+      'mathXy': TablerSvgIcons.mathXy,
+      'mathYMinusY': TablerSvgIcons.mathYMinusY,
+      'mathYPlusY': TablerSvgIcons.mathYPlusY,
+      'math': TablerSvgIcons.math,
+      'maximizeOff': TablerSvgIcons.maximizeOff,
+      'maximize': TablerSvgIcons.maximize,
+      'meatOff': TablerSvgIcons.meatOff,
+      'meat': TablerSvgIcons.meat,
+      'medal2': TablerSvgIcons.medal2,
+      'medal': TablerSvgIcons.medal,
+      'medicalCrossCircle': TablerSvgIcons.medicalCrossCircle,
+      'medicalCrossFilled': TablerSvgIcons.medicalCrossFilled,
+      'medicalCrossOff': TablerSvgIcons.medicalCrossOff,
+      'medicalCross': TablerSvgIcons.medicalCross,
+      'medicineSyrup': TablerSvgIcons.medicineSyrup,
+      'meeple': TablerSvgIcons.meeple,
+      'melon': TablerSvgIcons.melon,
+      'menorah': TablerSvgIcons.menorah,
+      'menu2': TablerSvgIcons.menu2,
+      'menuDeep': TablerSvgIcons.menuDeep,
+      'menuOrder': TablerSvgIcons.menuOrder,
+      'menu': TablerSvgIcons.menu,
+      'message2Bolt': TablerSvgIcons.message2Bolt,
+      'message2Cancel': TablerSvgIcons.message2Cancel,
+      'message2Check': TablerSvgIcons.message2Check,
+      'message2Code': TablerSvgIcons.message2Code,
+      'message2Cog': TablerSvgIcons.message2Cog,
+      'message2Dollar': TablerSvgIcons.message2Dollar,
+      'message2Down': TablerSvgIcons.message2Down,
+      'message2Exclamation': TablerSvgIcons.message2Exclamation,
+      'message2Heart': TablerSvgIcons.message2Heart,
+      'message2Minus': TablerSvgIcons.message2Minus,
+      'message2Off': TablerSvgIcons.message2Off,
+      'message2Pause': TablerSvgIcons.message2Pause,
+      'message2Pin': TablerSvgIcons.message2Pin,
+      'message2Plus': TablerSvgIcons.message2Plus,
+      'message2Question': TablerSvgIcons.message2Question,
+      'message2Search': TablerSvgIcons.message2Search,
+      'message2Share': TablerSvgIcons.message2Share,
+      'message2Star': TablerSvgIcons.message2Star,
+      'message2Up': TablerSvgIcons.message2Up,
+      'message2X': TablerSvgIcons.message2X,
+      'message2': TablerSvgIcons.message2,
+      'messageBolt': TablerSvgIcons.messageBolt,
+      'messageCancel': TablerSvgIcons.messageCancel,
+      'messageChatbot': TablerSvgIcons.messageChatbot,
+      'messageCheck': TablerSvgIcons.messageCheck,
+      'messageCircle2Filled': TablerSvgIcons.messageCircle2Filled,
+      'messageCircle2': TablerSvgIcons.messageCircle2,
+      'messageCircleBolt': TablerSvgIcons.messageCircleBolt,
+      'messageCircleCancel': TablerSvgIcons.messageCircleCancel,
+      'messageCircleCheck': TablerSvgIcons.messageCircleCheck,
+      'messageCircleCode': TablerSvgIcons.messageCircleCode,
+      'messageCircleCog': TablerSvgIcons.messageCircleCog,
+      'messageCircleDollar': TablerSvgIcons.messageCircleDollar,
+      'messageCircleDown': TablerSvgIcons.messageCircleDown,
+      'messageCircleExclamation': TablerSvgIcons.messageCircleExclamation,
+      'messageCircleHeart': TablerSvgIcons.messageCircleHeart,
+      'messageCircleMinus': TablerSvgIcons.messageCircleMinus,
+      'messageCircleOff': TablerSvgIcons.messageCircleOff,
+      'messageCirclePause': TablerSvgIcons.messageCirclePause,
+      'messageCirclePin': TablerSvgIcons.messageCirclePin,
+      'messageCirclePlus': TablerSvgIcons.messageCirclePlus,
+      'messageCircleQuestion': TablerSvgIcons.messageCircleQuestion,
+      'messageCircleSearch': TablerSvgIcons.messageCircleSearch,
+      'messageCircleShare': TablerSvgIcons.messageCircleShare,
+      'messageCircleStar': TablerSvgIcons.messageCircleStar,
+      'messageCircleUp': TablerSvgIcons.messageCircleUp,
+      'messageCircleX': TablerSvgIcons.messageCircleX,
+      'messageCircle': TablerSvgIcons.messageCircle,
+      'messageCode': TablerSvgIcons.messageCode,
+      'messageCog': TablerSvgIcons.messageCog,
+      'messageDollar': TablerSvgIcons.messageDollar,
+      'messageDots': TablerSvgIcons.messageDots,
+      'messageDown': TablerSvgIcons.messageDown,
+      'messageExclamation': TablerSvgIcons.messageExclamation,
+      'messageForward': TablerSvgIcons.messageForward,
+      'messageHeart': TablerSvgIcons.messageHeart,
+      'messageLanguage': TablerSvgIcons.messageLanguage,
+      'messageMinus': TablerSvgIcons.messageMinus,
+      'messageOff': TablerSvgIcons.messageOff,
+      'messagePause': TablerSvgIcons.messagePause,
+      'messagePin': TablerSvgIcons.messagePin,
+      'messagePlus': TablerSvgIcons.messagePlus,
+      'messageQuestion': TablerSvgIcons.messageQuestion,
+      'messageReport': TablerSvgIcons.messageReport,
+      'messageSearch': TablerSvgIcons.messageSearch,
+      'messageShare': TablerSvgIcons.messageShare,
+      'messageStar': TablerSvgIcons.messageStar,
+      'messageUp': TablerSvgIcons.messageUp,
+      'messageX': TablerSvgIcons.messageX,
+      'message': TablerSvgIcons.message,
+      'messagesOff': TablerSvgIcons.messagesOff,
+      'messages': TablerSvgIcons.messages,
+      'meteorOff': TablerSvgIcons.meteorOff,
+      'meteor': TablerSvgIcons.meteor,
+      'michelinBibGourmand': TablerSvgIcons.michelinBibGourmand,
+      'michelinStarGreen': TablerSvgIcons.michelinStarGreen,
+      'michelinStar': TablerSvgIcons.michelinStar,
+      'mickeyFilled': TablerSvgIcons.mickeyFilled,
+      'mickey': TablerSvgIcons.mickey,
+      'microphone2Off': TablerSvgIcons.microphone2Off,
+      'microphone2': TablerSvgIcons.microphone2,
+      'microphoneOff': TablerSvgIcons.microphoneOff,
+      'microphone': TablerSvgIcons.microphone,
+      'microscopeOff': TablerSvgIcons.microscopeOff,
+      'microscope': TablerSvgIcons.microscope,
+      'microwaveOff': TablerSvgIcons.microwaveOff,
+      'microwave': TablerSvgIcons.microwave,
+      'militaryAward': TablerSvgIcons.militaryAward,
+      'militaryRank': TablerSvgIcons.militaryRank,
+      'milkOff': TablerSvgIcons.milkOff,
+      'milk': TablerSvgIcons.milk,
+      'milkshake': TablerSvgIcons.milkshake,
+      'minimize': TablerSvgIcons.minimize,
+      'minusVertical': TablerSvgIcons.minusVertical,
+      'minus': TablerSvgIcons.minus,
+      'mistOff': TablerSvgIcons.mistOff,
+      'mist': TablerSvgIcons.mist,
+      'mobiledataOff': TablerSvgIcons.mobiledataOff,
+      'mobiledata': TablerSvgIcons.mobiledata,
+      'moneybag': TablerSvgIcons.moneybag,
+      'moodAngry': TablerSvgIcons.moodAngry,
+      'moodAnnoyed2': TablerSvgIcons.moodAnnoyed2,
+      'moodAnnoyed': TablerSvgIcons.moodAnnoyed,
+      'moodBoy': TablerSvgIcons.moodBoy,
+      'moodCheck': TablerSvgIcons.moodCheck,
+      'moodCog': TablerSvgIcons.moodCog,
+      'moodConfuzedFilled': TablerSvgIcons.moodConfuzedFilled,
+      'moodConfuzed': TablerSvgIcons.moodConfuzed,
+      'moodCrazyHappy': TablerSvgIcons.moodCrazyHappy,
+      'moodCry': TablerSvgIcons.moodCry,
+      'moodDollar': TablerSvgIcons.moodDollar,
+      'moodEdit': TablerSvgIcons.moodEdit,
+      'moodEmptyFilled': TablerSvgIcons.moodEmptyFilled,
+      'moodEmpty': TablerSvgIcons.moodEmpty,
+      'moodHappyFilled': TablerSvgIcons.moodHappyFilled,
+      'moodHappy': TablerSvgIcons.moodHappy,
+      'moodHeart': TablerSvgIcons.moodHeart,
+      'moodKidFilled': TablerSvgIcons.moodKidFilled,
+      'moodKid': TablerSvgIcons.moodKid,
+      'moodLookLeft': TablerSvgIcons.moodLookLeft,
+      'moodLookRight': TablerSvgIcons.moodLookRight,
+      'moodMinus': TablerSvgIcons.moodMinus,
+      'moodNerd': TablerSvgIcons.moodNerd,
+      'moodNervous': TablerSvgIcons.moodNervous,
+      'moodNeutralFilled': TablerSvgIcons.moodNeutralFilled,
+      'moodNeutral': TablerSvgIcons.moodNeutral,
+      'moodOff': TablerSvgIcons.moodOff,
+      'moodPin': TablerSvgIcons.moodPin,
+      'moodPlus': TablerSvgIcons.moodPlus,
+      'moodSad2': TablerSvgIcons.moodSad2,
+      'moodSadDizzy': TablerSvgIcons.moodSadDizzy,
+      'moodSadFilled': TablerSvgIcons.moodSadFilled,
+      'moodSadSquint': TablerSvgIcons.moodSadSquint,
+      'moodSad': TablerSvgIcons.moodSad,
+      'moodSearch': TablerSvgIcons.moodSearch,
+      'moodShare': TablerSvgIcons.moodShare,
+      'moodSick': TablerSvgIcons.moodSick,
+      'moodSilence': TablerSvgIcons.moodSilence,
+      'moodSing': TablerSvgIcons.moodSing,
+      'moodSmileBeam': TablerSvgIcons.moodSmileBeam,
+      'moodSmileDizzy': TablerSvgIcons.moodSmileDizzy,
+      'moodSmileFilled': TablerSvgIcons.moodSmileFilled,
+      'moodSmile': TablerSvgIcons.moodSmile,
+      'moodSuprised': TablerSvgIcons.moodSuprised,
+      'moodTongueWink2': TablerSvgIcons.moodTongueWink2,
+      'moodTongueWink': TablerSvgIcons.moodTongueWink,
+      'moodTongue': TablerSvgIcons.moodTongue,
+      'moodUnamused': TablerSvgIcons.moodUnamused,
+      'moodUp': TablerSvgIcons.moodUp,
+      'moodWink2': TablerSvgIcons.moodWink2,
+      'moodWink': TablerSvgIcons.moodWink,
+      'moodWrrr': TablerSvgIcons.moodWrrr,
+      'moodX': TablerSvgIcons.moodX,
+      'moodXd': TablerSvgIcons.moodXd,
+      'moon2': TablerSvgIcons.moon2,
+      'moonFilled': TablerSvgIcons.moonFilled,
+      'moonOff': TablerSvgIcons.moonOff,
+      'moonStars': TablerSvgIcons.moonStars,
+      'moon': TablerSvgIcons.moon,
+      'moped': TablerSvgIcons.moped,
+      'motorbike': TablerSvgIcons.motorbike,
+      'mountainOff': TablerSvgIcons.mountainOff,
+      'mountain': TablerSvgIcons.mountain,
+      'mouse2': TablerSvgIcons.mouse2,
+      'mouseFilled': TablerSvgIcons.mouseFilled,
+      'mouseOff': TablerSvgIcons.mouseOff,
+      'mouse': TablerSvgIcons.mouse,
+      'moustache': TablerSvgIcons.moustache,
+      'movieOff': TablerSvgIcons.movieOff,
+      'movie': TablerSvgIcons.movie,
+      'mugOff': TablerSvgIcons.mugOff,
+      'mug': TablerSvgIcons.mug,
+      'multiplier05x': TablerSvgIcons.multiplier05x,
+      'multiplier15x': TablerSvgIcons.multiplier15x,
+      'multiplier1x': TablerSvgIcons.multiplier1x,
+      'multiplier2x': TablerSvgIcons.multiplier2x,
+      'mushroomFilled': TablerSvgIcons.mushroomFilled,
+      'mushroomOff': TablerSvgIcons.mushroomOff,
+      'mushroom': TablerSvgIcons.mushroom,
+      'musicBolt': TablerSvgIcons.musicBolt,
+      'musicCancel': TablerSvgIcons.musicCancel,
+      'musicCheck': TablerSvgIcons.musicCheck,
+      'musicCode': TablerSvgIcons.musicCode,
+      'musicCog': TablerSvgIcons.musicCog,
+      'musicDiscount': TablerSvgIcons.musicDiscount,
+      'musicDollar': TablerSvgIcons.musicDollar,
+      'musicDown': TablerSvgIcons.musicDown,
+      'musicExclamation': TablerSvgIcons.musicExclamation,
+      'musicHeart': TablerSvgIcons.musicHeart,
+      'musicMinus': TablerSvgIcons.musicMinus,
+      'musicOff': TablerSvgIcons.musicOff,
+      'musicPause': TablerSvgIcons.musicPause,
+      'musicPin': TablerSvgIcons.musicPin,
+      'musicPlus': TablerSvgIcons.musicPlus,
+      'musicQuestion': TablerSvgIcons.musicQuestion,
+      'musicSearch': TablerSvgIcons.musicSearch,
+      'musicShare': TablerSvgIcons.musicShare,
+      'musicStar': TablerSvgIcons.musicStar,
+      'musicUp': TablerSvgIcons.musicUp,
+      'musicX': TablerSvgIcons.musicX,
+      'music': TablerSvgIcons.music,
+      'navigationBolt': TablerSvgIcons.navigationBolt,
+      'navigationCancel': TablerSvgIcons.navigationCancel,
+      'navigationCheck': TablerSvgIcons.navigationCheck,
+      'navigationCode': TablerSvgIcons.navigationCode,
+      'navigationCog': TablerSvgIcons.navigationCog,
+      'navigationDiscount': TablerSvgIcons.navigationDiscount,
+      'navigationDollar': TablerSvgIcons.navigationDollar,
+      'navigationDown': TablerSvgIcons.navigationDown,
+      'navigationEast': TablerSvgIcons.navigationEast,
+      'navigationExclamation': TablerSvgIcons.navigationExclamation,
+      'navigationFilled': TablerSvgIcons.navigationFilled,
+      'navigationHeart': TablerSvgIcons.navigationHeart,
+      'navigationMinus': TablerSvgIcons.navigationMinus,
+      'navigationNorth': TablerSvgIcons.navigationNorth,
+      'navigationOff': TablerSvgIcons.navigationOff,
+      'navigationPause': TablerSvgIcons.navigationPause,
+      'navigationPin': TablerSvgIcons.navigationPin,
+      'navigationPlus': TablerSvgIcons.navigationPlus,
+      'navigationQuestion': TablerSvgIcons.navigationQuestion,
+      'navigationSearch': TablerSvgIcons.navigationSearch,
+      'navigationShare': TablerSvgIcons.navigationShare,
+      'navigationSouth': TablerSvgIcons.navigationSouth,
+      'navigationStar': TablerSvgIcons.navigationStar,
+      'navigationTop': TablerSvgIcons.navigationTop,
+      'navigationUp': TablerSvgIcons.navigationUp,
+      'navigationWest': TablerSvgIcons.navigationWest,
+      'navigationX': TablerSvgIcons.navigationX,
+      'navigation': TablerSvgIcons.navigation,
+      'needleThread': TablerSvgIcons.needleThread,
+      'needle': TablerSvgIcons.needle,
+      'networkOff': TablerSvgIcons.networkOff,
+      'network': TablerSvgIcons.network,
+      'newSection': TablerSvgIcons.newSection,
+      'newsOff': TablerSvgIcons.newsOff,
+      'news': TablerSvgIcons.news,
+      'nfcOff': TablerSvgIcons.nfcOff,
+      'nfc': TablerSvgIcons.nfc,
+      'noCopyright': TablerSvgIcons.noCopyright,
+      'noCreativeCommons': TablerSvgIcons.noCreativeCommons,
+      'noDerivatives': TablerSvgIcons.noDerivatives,
+      'northStar': TablerSvgIcons.northStar,
+      'noteOff': TablerSvgIcons.noteOff,
+      'note': TablerSvgIcons.note,
+      'notebookOff': TablerSvgIcons.notebookOff,
+      'notebook': TablerSvgIcons.notebook,
+      'notesOff': TablerSvgIcons.notesOff,
+      'notes': TablerSvgIcons.notes,
+      'notificationOff': TablerSvgIcons.notificationOff,
+      'notification': TablerSvgIcons.notification,
+      'number0Small': TablerSvgIcons.number0Small,
+      'number0': TablerSvgIcons.number0,
+      'number1Small': TablerSvgIcons.number1Small,
+      'number1': TablerSvgIcons.number1,
+      'number10Small': TablerSvgIcons.number10Small,
+      'number11Small': TablerSvgIcons.number11Small,
+      'number12Small': TablerSvgIcons.number12Small,
+      'number13Small': TablerSvgIcons.number13Small,
+      'number14Small': TablerSvgIcons.number14Small,
+      'number15Small': TablerSvgIcons.number15Small,
+      'number16Small': TablerSvgIcons.number16Small,
+      'number17Small': TablerSvgIcons.number17Small,
+      'number18Small': TablerSvgIcons.number18Small,
+      'number19Small': TablerSvgIcons.number19Small,
+      'number2Small': TablerSvgIcons.number2Small,
+      'number2': TablerSvgIcons.number2,
+      'number20Small': TablerSvgIcons.number20Small,
+      'number21Small': TablerSvgIcons.number21Small,
+      'number22Small': TablerSvgIcons.number22Small,
+      'number23Small': TablerSvgIcons.number23Small,
+      'number24Small': TablerSvgIcons.number24Small,
+      'number25Small': TablerSvgIcons.number25Small,
+      'number26Small': TablerSvgIcons.number26Small,
+      'number27Small': TablerSvgIcons.number27Small,
+      'number28Small': TablerSvgIcons.number28Small,
+      'number29Small': TablerSvgIcons.number29Small,
+      'number3Small': TablerSvgIcons.number3Small,
+      'number3': TablerSvgIcons.number3,
+      'number4Small': TablerSvgIcons.number4Small,
+      'number4': TablerSvgIcons.number4,
+      'number5Small': TablerSvgIcons.number5Small,
+      'number5': TablerSvgIcons.number5,
+      'number6Small': TablerSvgIcons.number6Small,
+      'number6': TablerSvgIcons.number6,
+      'number7Small': TablerSvgIcons.number7Small,
+      'number7': TablerSvgIcons.number7,
+      'number8Small': TablerSvgIcons.number8Small,
+      'number8': TablerSvgIcons.number8,
+      'number9Small': TablerSvgIcons.number9Small,
+      'number9': TablerSvgIcons.number9,
+      'number': TablerSvgIcons.number,
+      'numbers': TablerSvgIcons.numbers,
+      'nurse': TablerSvgIcons.nurse,
+      'nut': TablerSvgIcons.nut,
+      'octagonFilled': TablerSvgIcons.octagonFilled,
+      'octagonMinus2': TablerSvgIcons.octagonMinus2,
+      'octagonMinus': TablerSvgIcons.octagonMinus,
+      'octagonOff': TablerSvgIcons.octagonOff,
+      'octagonPlus2': TablerSvgIcons.octagonPlus2,
+      'octagonPlus': TablerSvgIcons.octagonPlus,
+      'octagon': TablerSvgIcons.octagon,
+      'octahedronOff': TablerSvgIcons.octahedronOff,
+      'octahedronPlus': TablerSvgIcons.octahedronPlus,
+      'octahedron': TablerSvgIcons.octahedron,
+      'old': TablerSvgIcons.old,
+      'olympicsOff': TablerSvgIcons.olympicsOff,
+      'olympics': TablerSvgIcons.olympics,
+      'om': TablerSvgIcons.om,
+      'omega': TablerSvgIcons.omega,
+      'outbound': TablerSvgIcons.outbound,
+      'outlet': TablerSvgIcons.outlet,
+      'ovalFilled': TablerSvgIcons.ovalFilled,
+      'ovalVerticalFilled': TablerSvgIcons.ovalVerticalFilled,
+      'ovalVertical': TablerSvgIcons.ovalVertical,
+      'oval': TablerSvgIcons.oval,
+      'overline': TablerSvgIcons.overline,
+      'packageExport': TablerSvgIcons.packageExport,
+      'packageImport': TablerSvgIcons.packageImport,
+      'packageOff': TablerSvgIcons.packageOff,
+      'package': TablerSvgIcons.package,
+      'packages': TablerSvgIcons.packages,
+      'pacman': TablerSvgIcons.pacman,
+      'pageBreak': TablerSvgIcons.pageBreak,
+      'paintFilled': TablerSvgIcons.paintFilled,
+      'paintOff': TablerSvgIcons.paintOff,
+      'paint': TablerSvgIcons.paint,
+      'paletteOff': TablerSvgIcons.paletteOff,
+      'palette': TablerSvgIcons.palette,
+      'panoramaHorizontalOff': TablerSvgIcons.panoramaHorizontalOff,
+      'panoramaHorizontal': TablerSvgIcons.panoramaHorizontal,
+      'panoramaVerticalOff': TablerSvgIcons.panoramaVerticalOff,
+      'panoramaVertical': TablerSvgIcons.panoramaVertical,
+      'paperBagOff': TablerSvgIcons.paperBagOff,
+      'paperBag': TablerSvgIcons.paperBag,
+      'paperclip': TablerSvgIcons.paperclip,
+      'parachuteOff': TablerSvgIcons.parachuteOff,
+      'parachute': TablerSvgIcons.parachute,
+      'parenthesesOff': TablerSvgIcons.parenthesesOff,
+      'parentheses': TablerSvgIcons.parentheses,
+      'parkingOff': TablerSvgIcons.parkingOff,
+      'parking': TablerSvgIcons.parking,
+      'passwordFingerprint': TablerSvgIcons.passwordFingerprint,
+      'passwordMobilePhone': TablerSvgIcons.passwordMobilePhone,
+      'passwordUser': TablerSvgIcons.passwordUser,
+      'password': TablerSvgIcons.password,
+      'pawFilled': TablerSvgIcons.pawFilled,
+      'pawOff': TablerSvgIcons.pawOff,
+      'paw': TablerSvgIcons.paw,
+      'pdf': TablerSvgIcons.pdf,
+      'peace': TablerSvgIcons.peace,
+      'pencilBolt': TablerSvgIcons.pencilBolt,
+      'pencilCancel': TablerSvgIcons.pencilCancel,
+      'pencilCheck': TablerSvgIcons.pencilCheck,
+      'pencilCode': TablerSvgIcons.pencilCode,
+      'pencilCog': TablerSvgIcons.pencilCog,
+      'pencilDiscount': TablerSvgIcons.pencilDiscount,
+      'pencilDollar': TablerSvgIcons.pencilDollar,
+      'pencilDown': TablerSvgIcons.pencilDown,
+      'pencilExclamation': TablerSvgIcons.pencilExclamation,
+      'pencilHeart': TablerSvgIcons.pencilHeart,
+      'pencilMinus': TablerSvgIcons.pencilMinus,
+      'pencilOff': TablerSvgIcons.pencilOff,
+      'pencilPause': TablerSvgIcons.pencilPause,
+      'pencilPin': TablerSvgIcons.pencilPin,
+      'pencilPlus': TablerSvgIcons.pencilPlus,
+      'pencilQuestion': TablerSvgIcons.pencilQuestion,
+      'pencilSearch': TablerSvgIcons.pencilSearch,
+      'pencilShare': TablerSvgIcons.pencilShare,
+      'pencilStar': TablerSvgIcons.pencilStar,
+      'pencilUp': TablerSvgIcons.pencilUp,
+      'pencilX': TablerSvgIcons.pencilX,
+      'pencil': TablerSvgIcons.pencil,
+      'pennant2Filled': TablerSvgIcons.pennant2Filled,
+      'pennant2': TablerSvgIcons.pennant2,
+      'pennantFilled': TablerSvgIcons.pennantFilled,
+      'pennantOff': TablerSvgIcons.pennantOff,
+      'pennant': TablerSvgIcons.pennant,
+      'pentagonFilled': TablerSvgIcons.pentagonFilled,
+      'pentagonNumber0': TablerSvgIcons.pentagonNumber0,
+      'pentagonNumber1': TablerSvgIcons.pentagonNumber1,
+      'pentagonNumber2': TablerSvgIcons.pentagonNumber2,
+      'pentagonNumber3': TablerSvgIcons.pentagonNumber3,
+      'pentagonNumber4': TablerSvgIcons.pentagonNumber4,
+      'pentagonNumber5': TablerSvgIcons.pentagonNumber5,
+      'pentagonNumber6': TablerSvgIcons.pentagonNumber6,
+      'pentagonNumber7': TablerSvgIcons.pentagonNumber7,
+      'pentagonNumber8': TablerSvgIcons.pentagonNumber8,
+      'pentagonNumber9': TablerSvgIcons.pentagonNumber9,
+      'pentagonOff': TablerSvgIcons.pentagonOff,
+      'pentagonPlus': TablerSvgIcons.pentagonPlus,
+      'pentagonX': TablerSvgIcons.pentagonX,
+      'pentagon': TablerSvgIcons.pentagon,
+      'pentagram': TablerSvgIcons.pentagram,
+      'pepperOff': TablerSvgIcons.pepperOff,
+      'pepper': TablerSvgIcons.pepper,
+      'percentage': TablerSvgIcons.percentage,
+      'perfume': TablerSvgIcons.perfume,
+      'perspectiveOff': TablerSvgIcons.perspectiveOff,
+      'perspective': TablerSvgIcons.perspective,
+      'phoneCall': TablerSvgIcons.phoneCall,
+      'phoneCalling': TablerSvgIcons.phoneCalling,
+      'phoneCheck': TablerSvgIcons.phoneCheck,
+      'phoneFilled': TablerSvgIcons.phoneFilled,
+      'phoneIncoming': TablerSvgIcons.phoneIncoming,
+      'phoneOff': TablerSvgIcons.phoneOff,
+      'phoneOutgoing': TablerSvgIcons.phoneOutgoing,
+      'phonePause': TablerSvgIcons.phonePause,
+      'phonePlus': TablerSvgIcons.phonePlus,
+      'phoneX': TablerSvgIcons.phoneX,
+      'phone': TablerSvgIcons.phone,
+      'photoAi': TablerSvgIcons.photoAi,
+      'photoBolt': TablerSvgIcons.photoBolt,
+      'photoCancel': TablerSvgIcons.photoCancel,
+      'photoCheck': TablerSvgIcons.photoCheck,
+      'photoCircleMinus': TablerSvgIcons.photoCircleMinus,
+      'photoCirclePlus': TablerSvgIcons.photoCirclePlus,
+      'photoCircle': TablerSvgIcons.photoCircle,
+      'photoCode': TablerSvgIcons.photoCode,
+      'photoCog': TablerSvgIcons.photoCog,
+      'photoDollar': TablerSvgIcons.photoDollar,
+      'photoDown': TablerSvgIcons.photoDown,
+      'photoEdit': TablerSvgIcons.photoEdit,
+      'photoExclamation': TablerSvgIcons.photoExclamation,
+      'photoFilled': TablerSvgIcons.photoFilled,
+      'photoHeart': TablerSvgIcons.photoHeart,
+      'photoHexagon': TablerSvgIcons.photoHexagon,
+      'photoMinus': TablerSvgIcons.photoMinus,
+      'photoOff': TablerSvgIcons.photoOff,
+      'photoPause': TablerSvgIcons.photoPause,
+      'photoPentagon': TablerSvgIcons.photoPentagon,
+      'photoPin': TablerSvgIcons.photoPin,
+      'photoPlus': TablerSvgIcons.photoPlus,
+      'photoQuestion': TablerSvgIcons.photoQuestion,
+      'photoScan': TablerSvgIcons.photoScan,
+      'photoSearch': TablerSvgIcons.photoSearch,
+      'photoSensor2': TablerSvgIcons.photoSensor2,
+      'photoSensor3': TablerSvgIcons.photoSensor3,
+      'photoSensor': TablerSvgIcons.photoSensor,
+      'photoShare': TablerSvgIcons.photoShare,
+      'photoShield': TablerSvgIcons.photoShield,
+      'photoSquareRounded': TablerSvgIcons.photoSquareRounded,
+      'photoStar': TablerSvgIcons.photoStar,
+      'photoUp': TablerSvgIcons.photoUp,
+      'photoVideo': TablerSvgIcons.photoVideo,
+      'photoX': TablerSvgIcons.photoX,
+      'photo': TablerSvgIcons.photo,
+      'physotherapist': TablerSvgIcons.physotherapist,
+      'piano': TablerSvgIcons.piano,
+      'pick': TablerSvgIcons.pick,
+      'pictureInPictureOff': TablerSvgIcons.pictureInPictureOff,
+      'pictureInPictureOn': TablerSvgIcons.pictureInPictureOn,
+      'pictureInPictureTop': TablerSvgIcons.pictureInPictureTop,
+      'pictureInPicture': TablerSvgIcons.pictureInPicture,
+      'pigMoney': TablerSvgIcons.pigMoney,
+      'pigOff': TablerSvgIcons.pigOff,
+      'pig': TablerSvgIcons.pig,
+      'pilcrow': TablerSvgIcons.pilcrow,
+      'pillOff': TablerSvgIcons.pillOff,
+      'pill': TablerSvgIcons.pill,
+      'pills': TablerSvgIcons.pills,
+      'pinFilled': TablerSvgIcons.pinFilled,
+      'pin': TablerSvgIcons.pin,
+      'pingPong': TablerSvgIcons.pingPong,
+      'pinnedFilled': TablerSvgIcons.pinnedFilled,
+      'pinnedOff': TablerSvgIcons.pinnedOff,
+      'pinned': TablerSvgIcons.pinned,
+      'pizzaOff': TablerSvgIcons.pizzaOff,
+      'pizza': TablerSvgIcons.pizza,
+      'placeholder': TablerSvgIcons.placeholder,
+      'planeArrival': TablerSvgIcons.planeArrival,
+      'planeDeparture': TablerSvgIcons.planeDeparture,
+      'planeInflight': TablerSvgIcons.planeInflight,
+      'planeOff': TablerSvgIcons.planeOff,
+      'planeTilt': TablerSvgIcons.planeTilt,
+      'plane': TablerSvgIcons.plane,
+      'planetOff': TablerSvgIcons.planetOff,
+      'planet': TablerSvgIcons.planet,
+      'plant2Off': TablerSvgIcons.plant2Off,
+      'plant2': TablerSvgIcons.plant2,
+      'plantOff': TablerSvgIcons.plantOff,
+      'plant': TablerSvgIcons.plant,
+      'playBasketball': TablerSvgIcons.playBasketball,
+      'playCardOff': TablerSvgIcons.playCardOff,
+      'playCard': TablerSvgIcons.playCard,
+      'playFootball': TablerSvgIcons.playFootball,
+      'playHandball': TablerSvgIcons.playHandball,
+      'playVolleyball': TablerSvgIcons.playVolleyball,
+      'playerEjectFilled': TablerSvgIcons.playerEjectFilled,
+      'playerEject': TablerSvgIcons.playerEject,
+      'playerPauseFilled': TablerSvgIcons.playerPauseFilled,
+      'playerPause': TablerSvgIcons.playerPause,
+      'playerPlayFilled': TablerSvgIcons.playerPlayFilled,
+      'playerPlay': TablerSvgIcons.playerPlay,
+      'playerRecordFilled': TablerSvgIcons.playerRecordFilled,
+      'playerRecord': TablerSvgIcons.playerRecord,
+      'playerSkipBackFilled': TablerSvgIcons.playerSkipBackFilled,
+      'playerSkipBack': TablerSvgIcons.playerSkipBack,
+      'playerSkipForwardFilled': TablerSvgIcons.playerSkipForwardFilled,
+      'playerSkipForward': TablerSvgIcons.playerSkipForward,
+      'playerStopFilled': TablerSvgIcons.playerStopFilled,
+      'playerStop': TablerSvgIcons.playerStop,
+      'playerTrackNextFilled': TablerSvgIcons.playerTrackNextFilled,
+      'playerTrackNext': TablerSvgIcons.playerTrackNext,
+      'playerTrackPrevFilled': TablerSvgIcons.playerTrackPrevFilled,
+      'playerTrackPrev': TablerSvgIcons.playerTrackPrev,
+      'playlistAdd': TablerSvgIcons.playlistAdd,
+      'playlistOff': TablerSvgIcons.playlistOff,
+      'playlistX': TablerSvgIcons.playlistX,
+      'playlist': TablerSvgIcons.playlist,
+      'playstationCircle': TablerSvgIcons.playstationCircle,
+      'playstationSquare': TablerSvgIcons.playstationSquare,
+      'playstationTriangle': TablerSvgIcons.playstationTriangle,
+      'playstationX': TablerSvgIcons.playstationX,
+      'plugConnectedX': TablerSvgIcons.plugConnectedX,
+      'plugConnected': TablerSvgIcons.plugConnected,
+      'plugOff': TablerSvgIcons.plugOff,
+      'plugX': TablerSvgIcons.plugX,
+      'plug': TablerSvgIcons.plug,
+      'plusEqual': TablerSvgIcons.plusEqual,
+      'plusMinus': TablerSvgIcons.plusMinus,
+      'plus': TablerSvgIcons.plus,
+      'png': TablerSvgIcons.png,
+      'podiumOff': TablerSvgIcons.podiumOff,
+      'podium': TablerSvgIcons.podium,
+      'pointFilled': TablerSvgIcons.pointFilled,
+      'pointOff': TablerSvgIcons.pointOff,
+      'point': TablerSvgIcons.point,
+      'pointerBolt': TablerSvgIcons.pointerBolt,
+      'pointerCancel': TablerSvgIcons.pointerCancel,
+      'pointerCheck': TablerSvgIcons.pointerCheck,
+      'pointerCode': TablerSvgIcons.pointerCode,
+      'pointerCog': TablerSvgIcons.pointerCog,
+      'pointerDollar': TablerSvgIcons.pointerDollar,
+      'pointerDown': TablerSvgIcons.pointerDown,
+      'pointerExclamation': TablerSvgIcons.pointerExclamation,
+      'pointerFilled': TablerSvgIcons.pointerFilled,
+      'pointerHeart': TablerSvgIcons.pointerHeart,
+      'pointerMinus': TablerSvgIcons.pointerMinus,
+      'pointerOff': TablerSvgIcons.pointerOff,
+      'pointerPause': TablerSvgIcons.pointerPause,
+      'pointerPin': TablerSvgIcons.pointerPin,
+      'pointerPlus': TablerSvgIcons.pointerPlus,
+      'pointerQuestion': TablerSvgIcons.pointerQuestion,
+      'pointerSearch': TablerSvgIcons.pointerSearch,
+      'pointerShare': TablerSvgIcons.pointerShare,
+      'pointerStar': TablerSvgIcons.pointerStar,
+      'pointerUp': TablerSvgIcons.pointerUp,
+      'pointerX': TablerSvgIcons.pointerX,
+      'pointer': TablerSvgIcons.pointer,
+      'pokeballOff': TablerSvgIcons.pokeballOff,
+      'pokeball': TablerSvgIcons.pokeball,
+      'pokerChip': TablerSvgIcons.pokerChip,
+      'polaroidFilled': TablerSvgIcons.polaroidFilled,
+      'polaroid': TablerSvgIcons.polaroid,
+      'polygonOff': TablerSvgIcons.polygonOff,
+      'polygon': TablerSvgIcons.polygon,
+      'poo': TablerSvgIcons.poo,
+      'poolOff': TablerSvgIcons.poolOff,
+      'pool': TablerSvgIcons.pool,
+      'power': TablerSvgIcons.power,
+      'pray': TablerSvgIcons.pray,
+      'premiumRights': TablerSvgIcons.premiumRights,
+      'prescription': TablerSvgIcons.prescription,
+      'presentationAnalytics': TablerSvgIcons.presentationAnalytics,
+      'presentationOff': TablerSvgIcons.presentationOff,
+      'presentation': TablerSvgIcons.presentation,
+      'printerOff': TablerSvgIcons.printerOff,
+      'printer': TablerSvgIcons.printer,
+      'prismOff': TablerSvgIcons.prismOff,
+      'prismPlus': TablerSvgIcons.prismPlus,
+      'prism': TablerSvgIcons.prism,
+      'prison': TablerSvgIcons.prison,
+      'progressAlert': TablerSvgIcons.progressAlert,
+      'progressBolt': TablerSvgIcons.progressBolt,
+      'progressCheck': TablerSvgIcons.progressCheck,
+      'progressDown': TablerSvgIcons.progressDown,
+      'progressHelp': TablerSvgIcons.progressHelp,
+      'progressX': TablerSvgIcons.progressX,
+      'progress': TablerSvgIcons.progress,
+      'prompt': TablerSvgIcons.prompt,
+      'propellerOff': TablerSvgIcons.propellerOff,
+      'propeller': TablerSvgIcons.propeller,
+      'pumpkinScary': TablerSvgIcons.pumpkinScary,
+      'puzzle2': TablerSvgIcons.puzzle2,
+      'puzzleFilled': TablerSvgIcons.puzzleFilled,
+      'puzzleOff': TablerSvgIcons.puzzleOff,
+      'puzzle': TablerSvgIcons.puzzle,
+      'pyramidOff': TablerSvgIcons.pyramidOff,
+      'pyramidPlus': TablerSvgIcons.pyramidPlus,
+      'pyramid': TablerSvgIcons.pyramid,
+      'qrcodeOff': TablerSvgIcons.qrcodeOff,
+      'qrcode': TablerSvgIcons.qrcode,
+      'questionMark': TablerSvgIcons.questionMark,
+      'quoteOff': TablerSvgIcons.quoteOff,
+      'quote': TablerSvgIcons.quote,
+      'quotes': TablerSvgIcons.quotes,
+      'radar2': TablerSvgIcons.radar2,
+      'radarOff': TablerSvgIcons.radarOff,
+      'radar': TablerSvgIcons.radar,
+      'radioOff': TablerSvgIcons.radioOff,
+      'radio': TablerSvgIcons.radio,
+      'radioactiveFilled': TablerSvgIcons.radioactiveFilled,
+      'radioactiveOff': TablerSvgIcons.radioactiveOff,
+      'radioactive': TablerSvgIcons.radioactive,
+      'radiusBottomLeft': TablerSvgIcons.radiusBottomLeft,
+      'radiusBottomRight': TablerSvgIcons.radiusBottomRight,
+      'radiusTopLeft': TablerSvgIcons.radiusTopLeft,
+      'radiusTopRight': TablerSvgIcons.radiusTopRight,
+      'rainbowOff': TablerSvgIcons.rainbowOff,
+      'rainbow': TablerSvgIcons.rainbow,
+      'rating12Plus': TablerSvgIcons.rating12Plus,
+      'rating14Plus': TablerSvgIcons.rating14Plus,
+      'rating16Plus': TablerSvgIcons.rating16Plus,
+      'rating18Plus': TablerSvgIcons.rating18Plus,
+      'rating21Plus': TablerSvgIcons.rating21Plus,
+      'razorElectric': TablerSvgIcons.razorElectric,
+      'razor': TablerSvgIcons.razor,
+      'receipt2': TablerSvgIcons.receipt2,
+      'receiptOff': TablerSvgIcons.receiptOff,
+      'receiptRefund': TablerSvgIcons.receiptRefund,
+      'receiptTax': TablerSvgIcons.receiptTax,
+      'receipt': TablerSvgIcons.receipt,
+      'recharging': TablerSvgIcons.recharging,
+      'recordMailOff': TablerSvgIcons.recordMailOff,
+      'recordMail': TablerSvgIcons.recordMail,
+      'rectangleFilled': TablerSvgIcons.rectangleFilled,
+      'rectangleRoundedBottom': TablerSvgIcons.rectangleRoundedBottom,
+      'rectangleRoundedTop': TablerSvgIcons.rectangleRoundedTop,
+      'rectangleVerticalFilled': TablerSvgIcons.rectangleVerticalFilled,
+      'rectangleVertical': TablerSvgIcons.rectangleVertical,
+      'rectangle': TablerSvgIcons.rectangle,
+      'rectangularPrismOff': TablerSvgIcons.rectangularPrismOff,
+      'rectangularPrismPlus': TablerSvgIcons.rectangularPrismPlus,
+      'rectangularPrism': TablerSvgIcons.rectangularPrism,
+      'recycleOff': TablerSvgIcons.recycleOff,
+      'recycle': TablerSvgIcons.recycle,
+      'refreshAlert': TablerSvgIcons.refreshAlert,
+      'refreshDot': TablerSvgIcons.refreshDot,
+      'refreshOff': TablerSvgIcons.refreshOff,
+      'refresh': TablerSvgIcons.refresh,
+      'regexOff': TablerSvgIcons.regexOff,
+      'regex': TablerSvgIcons.regex,
+      'registered': TablerSvgIcons.registered,
+      'relationManyToMany': TablerSvgIcons.relationManyToMany,
+      'relationOneToMany': TablerSvgIcons.relationOneToMany,
+      'relationOneToOne': TablerSvgIcons.relationOneToOne,
+      'reload': TablerSvgIcons.reload,
+      'reorder': TablerSvgIcons.reorder,
+      'repeatOff': TablerSvgIcons.repeatOff,
+      'repeatOnce': TablerSvgIcons.repeatOnce,
+      'repeat': TablerSvgIcons.repeat,
+      'replaceFilled': TablerSvgIcons.replaceFilled,
+      'replaceOff': TablerSvgIcons.replaceOff,
+      'replace': TablerSvgIcons.replace,
+      'reportAnalytics': TablerSvgIcons.reportAnalytics,
+      'reportMedical': TablerSvgIcons.reportMedical,
+      'reportMoney': TablerSvgIcons.reportMoney,
+      'reportOff': TablerSvgIcons.reportOff,
+      'reportSearch': TablerSvgIcons.reportSearch,
+      'report': TablerSvgIcons.report,
+      'reservedLine': TablerSvgIcons.reservedLine,
+      'resize': TablerSvgIcons.resize,
+      'restore': TablerSvgIcons.restore,
+      'rewindBackward10': TablerSvgIcons.rewindBackward10,
+      'rewindBackward15': TablerSvgIcons.rewindBackward15,
+      'rewindBackward20': TablerSvgIcons.rewindBackward20,
+      'rewindBackward30': TablerSvgIcons.rewindBackward30,
+      'rewindBackward40': TablerSvgIcons.rewindBackward40,
+      'rewindBackward5': TablerSvgIcons.rewindBackward5,
+      'rewindBackward50': TablerSvgIcons.rewindBackward50,
+      'rewindBackward60': TablerSvgIcons.rewindBackward60,
+      'rewindForward10': TablerSvgIcons.rewindForward10,
+      'rewindForward15': TablerSvgIcons.rewindForward15,
+      'rewindForward20': TablerSvgIcons.rewindForward20,
+      'rewindForward30': TablerSvgIcons.rewindForward30,
+      'rewindForward40': TablerSvgIcons.rewindForward40,
+      'rewindForward5': TablerSvgIcons.rewindForward5,
+      'rewindForward50': TablerSvgIcons.rewindForward50,
+      'rewindForward60': TablerSvgIcons.rewindForward60,
+      'ribbonHealth': TablerSvgIcons.ribbonHealth,
+      'rings': TablerSvgIcons.rings,
+      'rippleOff': TablerSvgIcons.rippleOff,
+      'ripple': TablerSvgIcons.ripple,
+      'roadOff': TablerSvgIcons.roadOff,
+      'roadSign': TablerSvgIcons.roadSign,
+      'road': TablerSvgIcons.road,
+      'robotFace': TablerSvgIcons.robotFace,
+      'robotOff': TablerSvgIcons.robotOff,
+      'robot': TablerSvgIcons.robot,
+      'rocketOff': TablerSvgIcons.rocketOff,
+      'rocket': TablerSvgIcons.rocket,
+      'rollerSkating': TablerSvgIcons.rollerSkating,
+      'rollercoasterOff': TablerSvgIcons.rollercoasterOff,
+      'rollercoaster': TablerSvgIcons.rollercoaster,
+      'rosetteFilled': TablerSvgIcons.rosetteFilled,
+      'rosetteNumber0': TablerSvgIcons.rosetteNumber0,
+      'rosetteNumber1': TablerSvgIcons.rosetteNumber1,
+      'rosetteNumber2': TablerSvgIcons.rosetteNumber2,
+      'rosetteNumber3': TablerSvgIcons.rosetteNumber3,
+      'rosetteNumber4': TablerSvgIcons.rosetteNumber4,
+      'rosetteNumber5': TablerSvgIcons.rosetteNumber5,
+      'rosetteNumber6': TablerSvgIcons.rosetteNumber6,
+      'rosetteNumber7': TablerSvgIcons.rosetteNumber7,
+      'rosetteNumber8': TablerSvgIcons.rosetteNumber8,
+      'rosetteNumber9': TablerSvgIcons.rosetteNumber9,
+      'rosette': TablerSvgIcons.rosette,
+      'rotate2': TablerSvgIcons.rotate2,
+      'rotate360': TablerSvgIcons.rotate360,
+      'rotateClockwise2': TablerSvgIcons.rotateClockwise2,
+      'rotateClockwise': TablerSvgIcons.rotateClockwise,
+      'rotateDot': TablerSvgIcons.rotateDot,
+      'rotateRectangle': TablerSvgIcons.rotateRectangle,
+      'rotate': TablerSvgIcons.rotate,
+      'route2': TablerSvgIcons.route2,
+      'routeAltLeft': TablerSvgIcons.routeAltLeft,
+      'routeAltRight': TablerSvgIcons.routeAltRight,
+      'routeOff': TablerSvgIcons.routeOff,
+      'routeScan': TablerSvgIcons.routeScan,
+      'routeSquare2': TablerSvgIcons.routeSquare2,
+      'routeSquare': TablerSvgIcons.routeSquare,
+      'routeX2': TablerSvgIcons.routeX2,
+      'routeX': TablerSvgIcons.routeX,
+      'route': TablerSvgIcons.route,
+      'routerOff': TablerSvgIcons.routerOff,
+      'router': TablerSvgIcons.router,
+      'rowInsertBottom': TablerSvgIcons.rowInsertBottom,
+      'rowInsertTop': TablerSvgIcons.rowInsertTop,
+      'rowRemove': TablerSvgIcons.rowRemove,
+      'rss': TablerSvgIcons.rss,
+      'rubberStampOff': TablerSvgIcons.rubberStampOff,
+      'rubberStamp': TablerSvgIcons.rubberStamp,
+      'ruler2Off': TablerSvgIcons.ruler2Off,
+      'ruler2': TablerSvgIcons.ruler2,
+      'ruler3': TablerSvgIcons.ruler3,
+      'rulerMeasure': TablerSvgIcons.rulerMeasure,
+      'rulerOff': TablerSvgIcons.rulerOff,
+      'ruler': TablerSvgIcons.ruler,
+      'run': TablerSvgIcons.run,
+      'rvTruck': TablerSvgIcons.rvTruck,
+      'sTurnDown': TablerSvgIcons.sTurnDown,
+      'sTurnLeft': TablerSvgIcons.sTurnLeft,
+      'sTurnRight': TablerSvgIcons.sTurnRight,
+      'sTurnUp': TablerSvgIcons.sTurnUp,
+      'sailboat2': TablerSvgIcons.sailboat2,
+      'sailboatOff': TablerSvgIcons.sailboatOff,
+      'sailboat': TablerSvgIcons.sailboat,
+      'salad': TablerSvgIcons.salad,
+      'salt': TablerSvgIcons.salt,
+      'satelliteOff': TablerSvgIcons.satelliteOff,
+      'satellite': TablerSvgIcons.satellite,
+      'sausage': TablerSvgIcons.sausage,
+      'scaleOff': TablerSvgIcons.scaleOff,
+      'scaleOutlineOff': TablerSvgIcons.scaleOutlineOff,
+      'scaleOutline': TablerSvgIcons.scaleOutline,
+      'scale': TablerSvgIcons.scale,
+      'scanEye': TablerSvgIcons.scanEye,
+      'scan': TablerSvgIcons.scan,
+      'schemaOff': TablerSvgIcons.schemaOff,
+      'schema': TablerSvgIcons.schema,
+      'schoolBell': TablerSvgIcons.schoolBell,
+      'schoolOff': TablerSvgIcons.schoolOff,
+      'school': TablerSvgIcons.school,
+      'scissorsOff': TablerSvgIcons.scissorsOff,
+      'scissors': TablerSvgIcons.scissors,
+      'scooterElectric': TablerSvgIcons.scooterElectric,
+      'scooter': TablerSvgIcons.scooter,
+      'scoreboard': TablerSvgIcons.scoreboard,
+      'screenShareOff': TablerSvgIcons.screenShareOff,
+      'screenShare': TablerSvgIcons.screenShare,
+      'screenshot': TablerSvgIcons.screenshot,
+      'scribbleOff': TablerSvgIcons.scribbleOff,
+      'scribble': TablerSvgIcons.scribble,
+      'scriptMinus': TablerSvgIcons.scriptMinus,
+      'scriptPlus': TablerSvgIcons.scriptPlus,
+      'scriptX': TablerSvgIcons.scriptX,
+      'script': TablerSvgIcons.script,
+      'scubaMaskOff': TablerSvgIcons.scubaMaskOff,
+      'scubaMask': TablerSvgIcons.scubaMask,
+      'sdk': TablerSvgIcons.sdk,
+      'searchOff': TablerSvgIcons.searchOff,
+      'search': TablerSvgIcons.search,
+      'sectionSign': TablerSvgIcons.sectionSign,
+      'section': TablerSvgIcons.section,
+      'seedingOff': TablerSvgIcons.seedingOff,
+      'seeding': TablerSvgIcons.seeding,
+      'selectAll': TablerSvgIcons.selectAll,
+      'select': TablerSvgIcons.select,
+      'selector': TablerSvgIcons.selector,
+      'sendOff': TablerSvgIcons.sendOff,
+      'send': TablerSvgIcons.send,
+      'seo': TablerSvgIcons.seo,
+      'separatorHorizontal': TablerSvgIcons.separatorHorizontal,
+      'separatorVertical': TablerSvgIcons.separatorVertical,
+      'separator': TablerSvgIcons.separator,
+      'server2': TablerSvgIcons.server2,
+      'serverBolt': TablerSvgIcons.serverBolt,
+      'serverCog': TablerSvgIcons.serverCog,
+      'serverOff': TablerSvgIcons.serverOff,
+      'server': TablerSvgIcons.server,
+      'servicemark': TablerSvgIcons.servicemark,
+      'settings2': TablerSvgIcons.settings2,
+      'settingsAutomation': TablerSvgIcons.settingsAutomation,
+      'settingsBolt': TablerSvgIcons.settingsBolt,
+      'settingsCancel': TablerSvgIcons.settingsCancel,
+      'settingsCheck': TablerSvgIcons.settingsCheck,
+      'settingsCode': TablerSvgIcons.settingsCode,
+      'settingsCog': TablerSvgIcons.settingsCog,
+      'settingsDollar': TablerSvgIcons.settingsDollar,
+      'settingsDown': TablerSvgIcons.settingsDown,
+      'settingsExclamation': TablerSvgIcons.settingsExclamation,
+      'settingsFilled': TablerSvgIcons.settingsFilled,
+      'settingsHeart': TablerSvgIcons.settingsHeart,
+      'settingsMinus': TablerSvgIcons.settingsMinus,
+      'settingsOff': TablerSvgIcons.settingsOff,
+      'settingsPause': TablerSvgIcons.settingsPause,
+      'settingsPin': TablerSvgIcons.settingsPin,
+      'settingsPlus': TablerSvgIcons.settingsPlus,
+      'settingsQuestion': TablerSvgIcons.settingsQuestion,
+      'settingsSearch': TablerSvgIcons.settingsSearch,
+      'settingsShare': TablerSvgIcons.settingsShare,
+      'settingsStar': TablerSvgIcons.settingsStar,
+      'settingsUp': TablerSvgIcons.settingsUp,
+      'settingsX': TablerSvgIcons.settingsX,
+      'settings': TablerSvgIcons.settings,
+      'shadowOff': TablerSvgIcons.shadowOff,
+      'shadow': TablerSvgIcons.shadow,
+      'shape2': TablerSvgIcons.shape2,
+      'shape3': TablerSvgIcons.shape3,
+      'shapeOff': TablerSvgIcons.shapeOff,
+      'shape': TablerSvgIcons.shape,
+      'share2': TablerSvgIcons.share2,
+      'share3': TablerSvgIcons.share3,
+      'shareOff': TablerSvgIcons.shareOff,
+      'share': TablerSvgIcons.share,
+      'shiJumping': TablerSvgIcons.shiJumping,
+      'shieldBolt': TablerSvgIcons.shieldBolt,
+      'shieldCancel': TablerSvgIcons.shieldCancel,
+      'shieldCheckFilled': TablerSvgIcons.shieldCheckFilled,
+      'shieldCheck': TablerSvgIcons.shieldCheck,
+      'shieldCheckeredFilled': TablerSvgIcons.shieldCheckeredFilled,
+      'shieldCheckered': TablerSvgIcons.shieldCheckered,
+      'shieldChevron': TablerSvgIcons.shieldChevron,
+      'shieldCode': TablerSvgIcons.shieldCode,
+      'shieldCog': TablerSvgIcons.shieldCog,
+      'shieldDollar': TablerSvgIcons.shieldDollar,
+      'shieldDown': TablerSvgIcons.shieldDown,
+      'shieldExclamation': TablerSvgIcons.shieldExclamation,
+      'shieldFilled': TablerSvgIcons.shieldFilled,
+      'shieldHalfFilled': TablerSvgIcons.shieldHalfFilled,
+      'shieldHalf': TablerSvgIcons.shieldHalf,
+      'shieldHeart': TablerSvgIcons.shieldHeart,
+      'shieldLockFilled': TablerSvgIcons.shieldLockFilled,
+      'shieldLock': TablerSvgIcons.shieldLock,
+      'shieldMinus': TablerSvgIcons.shieldMinus,
+      'shieldOff': TablerSvgIcons.shieldOff,
+      'shieldPause': TablerSvgIcons.shieldPause,
+      'shieldPin': TablerSvgIcons.shieldPin,
+      'shieldPlus': TablerSvgIcons.shieldPlus,
+      'shieldQuestion': TablerSvgIcons.shieldQuestion,
+      'shieldSearch': TablerSvgIcons.shieldSearch,
+      'shieldShare': TablerSvgIcons.shieldShare,
+      'shieldStar': TablerSvgIcons.shieldStar,
+      'shieldUp': TablerSvgIcons.shieldUp,
+      'shieldX': TablerSvgIcons.shieldX,
+      'shield': TablerSvgIcons.shield,
+      'shipOff': TablerSvgIcons.shipOff,
+      'ship': TablerSvgIcons.ship,
+      'shirtFilled': TablerSvgIcons.shirtFilled,
+      'shirtOff': TablerSvgIcons.shirtOff,
+      'shirtSport': TablerSvgIcons.shirtSport,
+      'shirt': TablerSvgIcons.shirt,
+      'shoeOff': TablerSvgIcons.shoeOff,
+      'shoe': TablerSvgIcons.shoe,
+      'shoppingBagCheck': TablerSvgIcons.shoppingBagCheck,
+      'shoppingBagDiscount': TablerSvgIcons.shoppingBagDiscount,
+      'shoppingBagEdit': TablerSvgIcons.shoppingBagEdit,
+      'shoppingBagExclamation': TablerSvgIcons.shoppingBagExclamation,
+      'shoppingBagMinus': TablerSvgIcons.shoppingBagMinus,
+      'shoppingBagPlus': TablerSvgIcons.shoppingBagPlus,
+      'shoppingBagSearch': TablerSvgIcons.shoppingBagSearch,
+      'shoppingBagX': TablerSvgIcons.shoppingBagX,
+      'shoppingBag': TablerSvgIcons.shoppingBag,
+      'shoppingCartBolt': TablerSvgIcons.shoppingCartBolt,
+      'shoppingCartCancel': TablerSvgIcons.shoppingCartCancel,
+      'shoppingCartCheck': TablerSvgIcons.shoppingCartCheck,
+      'shoppingCartCode': TablerSvgIcons.shoppingCartCode,
+      'shoppingCartCog': TablerSvgIcons.shoppingCartCog,
+      'shoppingCartCopy': TablerSvgIcons.shoppingCartCopy,
+      'shoppingCartDiscount': TablerSvgIcons.shoppingCartDiscount,
+      'shoppingCartDollar': TablerSvgIcons.shoppingCartDollar,
+      'shoppingCartDown': TablerSvgIcons.shoppingCartDown,
+      'shoppingCartExclamation': TablerSvgIcons.shoppingCartExclamation,
+      'shoppingCartFilled': TablerSvgIcons.shoppingCartFilled,
+      'shoppingCartHeart': TablerSvgIcons.shoppingCartHeart,
+      'shoppingCartMinus': TablerSvgIcons.shoppingCartMinus,
+      'shoppingCartOff': TablerSvgIcons.shoppingCartOff,
+      'shoppingCartPause': TablerSvgIcons.shoppingCartPause,
+      'shoppingCartPin': TablerSvgIcons.shoppingCartPin,
+      'shoppingCartPlus': TablerSvgIcons.shoppingCartPlus,
+      'shoppingCartQuestion': TablerSvgIcons.shoppingCartQuestion,
+      'shoppingCartSearch': TablerSvgIcons.shoppingCartSearch,
+      'shoppingCartShare': TablerSvgIcons.shoppingCartShare,
+      'shoppingCartStar': TablerSvgIcons.shoppingCartStar,
+      'shoppingCartUp': TablerSvgIcons.shoppingCartUp,
+      'shoppingCartX': TablerSvgIcons.shoppingCartX,
+      'shoppingCart': TablerSvgIcons.shoppingCart,
+      'shovel': TablerSvgIcons.shovel,
+      'shredder': TablerSvgIcons.shredder,
+      'signLeftFilled': TablerSvgIcons.signLeftFilled,
+      'signLeft': TablerSvgIcons.signLeft,
+      'signRightFilled': TablerSvgIcons.signRightFilled,
+      'signRight': TablerSvgIcons.signRight,
+      'signal2g': TablerSvgIcons.signal2g,
+      'signal3g': TablerSvgIcons.signal3g,
+      'signal4gPlus': TablerSvgIcons.signal4gPlus,
+      'signal4g': TablerSvgIcons.signal4g,
+      'signal5g': TablerSvgIcons.signal5g,
+      'signal6g': TablerSvgIcons.signal6g,
+      'signalE': TablerSvgIcons.signalE,
+      'signalG': TablerSvgIcons.signalG,
+      'signalHPlus': TablerSvgIcons.signalHPlus,
+      'signalH': TablerSvgIcons.signalH,
+      'signalLte': TablerSvgIcons.signalLte,
+      'signatureOff': TablerSvgIcons.signatureOff,
+      'signature': TablerSvgIcons.signature,
+      'sitemapOff': TablerSvgIcons.sitemapOff,
+      'sitemap': TablerSvgIcons.sitemap,
+      'skateboardOff': TablerSvgIcons.skateboardOff,
+      'skateboard': TablerSvgIcons.skateboard,
+      'skateboarding': TablerSvgIcons.skateboarding,
+      'skull': TablerSvgIcons.skull,
+      'slash': TablerSvgIcons.slash,
+      'slashes': TablerSvgIcons.slashes,
+      'sleigh': TablerSvgIcons.sleigh,
+      'slice': TablerSvgIcons.slice,
+      'slideshow': TablerSvgIcons.slideshow,
+      'smartHomeOff': TablerSvgIcons.smartHomeOff,
+      'smartHome': TablerSvgIcons.smartHome,
+      'smokingNo': TablerSvgIcons.smokingNo,
+      'smoking': TablerSvgIcons.smoking,
+      'snowflakeOff': TablerSvgIcons.snowflakeOff,
+      'snowflake': TablerSvgIcons.snowflake,
+      'snowman': TablerSvgIcons.snowman,
+      'soccerField': TablerSvgIcons.soccerField,
+      'socialOff': TablerSvgIcons.socialOff,
+      'social': TablerSvgIcons.social,
+      'sock': TablerSvgIcons.sock,
+      'sofaOff': TablerSvgIcons.sofaOff,
+      'sofa': TablerSvgIcons.sofa,
+      'solarElectricity': TablerSvgIcons.solarElectricity,
+      'solarPanel2': TablerSvgIcons.solarPanel2,
+      'solarPanel': TablerSvgIcons.solarPanel,
+      'sort09': TablerSvgIcons.sort09,
+      'sort90': TablerSvgIcons.sort90,
+      'sortAZ': TablerSvgIcons.sortAZ,
+      'sortAscending2': TablerSvgIcons.sortAscending2,
+      'sortAscendingLetters': TablerSvgIcons.sortAscendingLetters,
+      'sortAscendingNumbers': TablerSvgIcons.sortAscendingNumbers,
+      'sortAscending': TablerSvgIcons.sortAscending,
+      'sortDescending2': TablerSvgIcons.sortDescending2,
+      'sortDescendingLetters': TablerSvgIcons.sortDescendingLetters,
+      'sortDescendingNumbers': TablerSvgIcons.sortDescendingNumbers,
+      'sortDescending': TablerSvgIcons.sortDescending,
+      'sortZA': TablerSvgIcons.sortZA,
+      'sos': TablerSvgIcons.sos,
+      'soupOff': TablerSvgIcons.soupOff,
+      'soup': TablerSvgIcons.soup,
+      'sourceCode': TablerSvgIcons.sourceCode,
+      'spaceOff': TablerSvgIcons.spaceOff,
+      'space': TablerSvgIcons.space,
+      'spacingHorizontal': TablerSvgIcons.spacingHorizontal,
+      'spacingVertical': TablerSvgIcons.spacingVertical,
+      'spadeFilled': TablerSvgIcons.spadeFilled,
+      'spade': TablerSvgIcons.spade,
+      'sparkles': TablerSvgIcons.sparkles,
+      'speakerphone': TablerSvgIcons.speakerphone,
+      'speedboat': TablerSvgIcons.speedboat,
+      'sphereOff': TablerSvgIcons.sphereOff,
+      'spherePlus': TablerSvgIcons.spherePlus,
+      'sphere': TablerSvgIcons.sphere,
+      'spider': TablerSvgIcons.spider,
+      'spiralOff': TablerSvgIcons.spiralOff,
+      'spiral': TablerSvgIcons.spiral,
+      'sportBillard': TablerSvgIcons.sportBillard,
+      'spray': TablerSvgIcons.spray,
+      'spyOff': TablerSvgIcons.spyOff,
+      'spy': TablerSvgIcons.spy,
+      'sql': TablerSvgIcons.sql,
+      'square0Filled': TablerSvgIcons.square0Filled,
+      'square1Filled': TablerSvgIcons.square1Filled,
+      'square2Filled': TablerSvgIcons.square2Filled,
+      'square3Filled': TablerSvgIcons.square3Filled,
+      'square4Filled': TablerSvgIcons.square4Filled,
+      'square5Filled': TablerSvgIcons.square5Filled,
+      'square6Filled': TablerSvgIcons.square6Filled,
+      'square7Filled': TablerSvgIcons.square7Filled,
+      'square8Filled': TablerSvgIcons.square8Filled,
+      'square9Filled': TablerSvgIcons.square9Filled,
+      'squareArrowDownFilled': TablerSvgIcons.squareArrowDownFilled,
+      'squareArrowDown': TablerSvgIcons.squareArrowDown,
+      'squareArrowLeftFilled': TablerSvgIcons.squareArrowLeftFilled,
+      'squareArrowLeft': TablerSvgIcons.squareArrowLeft,
+      'squareArrowRightFilled': TablerSvgIcons.squareArrowRightFilled,
+      'squareArrowRight': TablerSvgIcons.squareArrowRight,
+      'squareArrowUpFilled': TablerSvgIcons.squareArrowUpFilled,
+      'squareArrowUp': TablerSvgIcons.squareArrowUp,
+      'squareAsteriskFilled': TablerSvgIcons.squareAsteriskFilled,
+      'squareAsterisk': TablerSvgIcons.squareAsterisk,
+      'squareCheckFilled': TablerSvgIcons.squareCheckFilled,
+      'squareCheck': TablerSvgIcons.squareCheck,
+      'squareChevronDownFilled': TablerSvgIcons.squareChevronDownFilled,
+      'squareChevronDown': TablerSvgIcons.squareChevronDown,
+      'squareChevronLeftFilled': TablerSvgIcons.squareChevronLeftFilled,
+      'squareChevronLeft': TablerSvgIcons.squareChevronLeft,
+      'squareChevronRightFilled': TablerSvgIcons.squareChevronRightFilled,
+      'squareChevronRight': TablerSvgIcons.squareChevronRight,
+      'squareChevronUpFilled': TablerSvgIcons.squareChevronUpFilled,
+      'squareChevronUp': TablerSvgIcons.squareChevronUp,
+      'squareChevronsDownFilled': TablerSvgIcons.squareChevronsDownFilled,
+      'squareChevronsDown': TablerSvgIcons.squareChevronsDown,
+      'squareChevronsLeftFilled': TablerSvgIcons.squareChevronsLeftFilled,
+      'squareChevronsLeft': TablerSvgIcons.squareChevronsLeft,
+      'squareChevronsRightFilled': TablerSvgIcons.squareChevronsRightFilled,
+      'squareChevronsRight': TablerSvgIcons.squareChevronsRight,
+      'squareChevronsUpFilled': TablerSvgIcons.squareChevronsUpFilled,
+      'squareChevronsUp': TablerSvgIcons.squareChevronsUp,
+      'squareDotFilled': TablerSvgIcons.squareDotFilled,
+      'squareDot': TablerSvgIcons.squareDot,
+      'squareF0Filled': TablerSvgIcons.squareF0Filled,
+      'squareF0': TablerSvgIcons.squareF0,
+      'squareF1Filled': TablerSvgIcons.squareF1Filled,
+      'squareF1': TablerSvgIcons.squareF1,
+      'squareF2Filled': TablerSvgIcons.squareF2Filled,
+      'squareF2': TablerSvgIcons.squareF2,
+      'squareF3Filled': TablerSvgIcons.squareF3Filled,
+      'squareF3': TablerSvgIcons.squareF3,
+      'squareF4Filled': TablerSvgIcons.squareF4Filled,
+      'squareF4': TablerSvgIcons.squareF4,
+      'squareF5Filled': TablerSvgIcons.squareF5Filled,
+      'squareF5': TablerSvgIcons.squareF5,
+      'squareF6Filled': TablerSvgIcons.squareF6Filled,
+      'squareF6': TablerSvgIcons.squareF6,
+      'squareF7Filled': TablerSvgIcons.squareF7Filled,
+      'squareF7': TablerSvgIcons.squareF7,
+      'squareF8Filled': TablerSvgIcons.squareF8Filled,
+      'squareF8': TablerSvgIcons.squareF8,
+      'squareF9Filled': TablerSvgIcons.squareF9Filled,
+      'squareF9': TablerSvgIcons.squareF9,
+      'squareFilled': TablerSvgIcons.squareFilled,
+      'squareForbid2': TablerSvgIcons.squareForbid2,
+      'squareForbid': TablerSvgIcons.squareForbid,
+      'squareHalf': TablerSvgIcons.squareHalf,
+      'squareKey': TablerSvgIcons.squareKey,
+      'squareLetterA': TablerSvgIcons.squareLetterA,
+      'squareLetterB': TablerSvgIcons.squareLetterB,
+      'squareLetterC': TablerSvgIcons.squareLetterC,
+      'squareLetterD': TablerSvgIcons.squareLetterD,
+      'squareLetterE': TablerSvgIcons.squareLetterE,
+      'squareLetterF': TablerSvgIcons.squareLetterF,
+      'squareLetterG': TablerSvgIcons.squareLetterG,
+      'squareLetterH': TablerSvgIcons.squareLetterH,
+      'squareLetterI': TablerSvgIcons.squareLetterI,
+      'squareLetterJ': TablerSvgIcons.squareLetterJ,
+      'squareLetterK': TablerSvgIcons.squareLetterK,
+      'squareLetterL': TablerSvgIcons.squareLetterL,
+      'squareLetterM': TablerSvgIcons.squareLetterM,
+      'squareLetterN': TablerSvgIcons.squareLetterN,
+      'squareLetterO': TablerSvgIcons.squareLetterO,
+      'squareLetterP': TablerSvgIcons.squareLetterP,
+      'squareLetterQ': TablerSvgIcons.squareLetterQ,
+      'squareLetterR': TablerSvgIcons.squareLetterR,
+      'squareLetterS': TablerSvgIcons.squareLetterS,
+      'squareLetterT': TablerSvgIcons.squareLetterT,
+      'squareLetterU': TablerSvgIcons.squareLetterU,
+      'squareLetterV': TablerSvgIcons.squareLetterV,
+      'squareLetterW': TablerSvgIcons.squareLetterW,
+      'squareLetterX': TablerSvgIcons.squareLetterX,
+      'squareLetterY': TablerSvgIcons.squareLetterY,
+      'squareLetterZ': TablerSvgIcons.squareLetterZ,
+      'squareMinusFilled': TablerSvgIcons.squareMinusFilled,
+      'squareMinus': TablerSvgIcons.squareMinus,
+      'squareNumber0': TablerSvgIcons.squareNumber0,
+      'squareNumber1': TablerSvgIcons.squareNumber1,
+      'squareNumber2': TablerSvgIcons.squareNumber2,
+      'squareNumber3': TablerSvgIcons.squareNumber3,
+      'squareNumber4': TablerSvgIcons.squareNumber4,
+      'squareNumber5': TablerSvgIcons.squareNumber5,
+      'squareNumber6': TablerSvgIcons.squareNumber6,
+      'squareNumber7': TablerSvgIcons.squareNumber7,
+      'squareNumber8': TablerSvgIcons.squareNumber8,
+      'squareNumber9': TablerSvgIcons.squareNumber9,
+      'squareOff': TablerSvgIcons.squareOff,
+      'squarePlus2': TablerSvgIcons.squarePlus2,
+      'squarePlus': TablerSvgIcons.squarePlus,
+      'squareRoot2': TablerSvgIcons.squareRoot2,
+      'squareRoot': TablerSvgIcons.squareRoot,
+      'squareRotatedFilled': TablerSvgIcons.squareRotatedFilled,
+      'squareRotatedForbid2': TablerSvgIcons.squareRotatedForbid2,
+      'squareRotatedForbid': TablerSvgIcons.squareRotatedForbid,
+      'squareRotatedOff': TablerSvgIcons.squareRotatedOff,
+      'squareRotated': TablerSvgIcons.squareRotated,
+      'squareRoundedArrowDownFilled': TablerSvgIcons.squareRoundedArrowDownFilled,
+      'squareRoundedArrowDown': TablerSvgIcons.squareRoundedArrowDown,
+      'squareRoundedArrowLeftFilled': TablerSvgIcons.squareRoundedArrowLeftFilled,
+      'squareRoundedArrowLeft': TablerSvgIcons.squareRoundedArrowLeft,
+      'squareRoundedArrowRightFilled': TablerSvgIcons.squareRoundedArrowRightFilled,
+      'squareRoundedArrowRight': TablerSvgIcons.squareRoundedArrowRight,
+      'squareRoundedArrowUpFilled': TablerSvgIcons.squareRoundedArrowUpFilled,
+      'squareRoundedArrowUp': TablerSvgIcons.squareRoundedArrowUp,
+      'squareRoundedCheckFilled': TablerSvgIcons.squareRoundedCheckFilled,
+      'squareRoundedCheck': TablerSvgIcons.squareRoundedCheck,
+      'squareRoundedChevronDownFilled': TablerSvgIcons.squareRoundedChevronDownFilled,
+      'squareRoundedChevronDown': TablerSvgIcons.squareRoundedChevronDown,
+      'squareRoundedChevronLeftFilled': TablerSvgIcons.squareRoundedChevronLeftFilled,
+      'squareRoundedChevronLeft': TablerSvgIcons.squareRoundedChevronLeft,
+      'squareRoundedChevronRightFilled': TablerSvgIcons.squareRoundedChevronRightFilled,
+      'squareRoundedChevronRight': TablerSvgIcons.squareRoundedChevronRight,
+      'squareRoundedChevronUpFilled': TablerSvgIcons.squareRoundedChevronUpFilled,
+      'squareRoundedChevronUp': TablerSvgIcons.squareRoundedChevronUp,
+      'squareRoundedChevronsDownFilled': TablerSvgIcons.squareRoundedChevronsDownFilled,
+      'squareRoundedChevronsDown': TablerSvgIcons.squareRoundedChevronsDown,
+      'squareRoundedChevronsLeftFilled': TablerSvgIcons.squareRoundedChevronsLeftFilled,
+      'squareRoundedChevronsLeft': TablerSvgIcons.squareRoundedChevronsLeft,
+      'squareRoundedChevronsRightFilled': TablerSvgIcons.squareRoundedChevronsRightFilled,
+      'squareRoundedChevronsRight': TablerSvgIcons.squareRoundedChevronsRight,
+      'squareRoundedChevronsUpFilled': TablerSvgIcons.squareRoundedChevronsUpFilled,
+      'squareRoundedChevronsUp': TablerSvgIcons.squareRoundedChevronsUp,
+      'squareRoundedFilled': TablerSvgIcons.squareRoundedFilled,
+      'squareRoundedLetterA': TablerSvgIcons.squareRoundedLetterA,
+      'squareRoundedLetterB': TablerSvgIcons.squareRoundedLetterB,
+      'squareRoundedLetterC': TablerSvgIcons.squareRoundedLetterC,
+      'squareRoundedLetterD': TablerSvgIcons.squareRoundedLetterD,
+      'squareRoundedLetterE': TablerSvgIcons.squareRoundedLetterE,
+      'squareRoundedLetterF': TablerSvgIcons.squareRoundedLetterF,
+      'squareRoundedLetterG': TablerSvgIcons.squareRoundedLetterG,
+      'squareRoundedLetterH': TablerSvgIcons.squareRoundedLetterH,
+      'squareRoundedLetterI': TablerSvgIcons.squareRoundedLetterI,
+      'squareRoundedLetterJ': TablerSvgIcons.squareRoundedLetterJ,
+      'squareRoundedLetterK': TablerSvgIcons.squareRoundedLetterK,
+      'squareRoundedLetterL': TablerSvgIcons.squareRoundedLetterL,
+      'squareRoundedLetterM': TablerSvgIcons.squareRoundedLetterM,
+      'squareRoundedLetterN': TablerSvgIcons.squareRoundedLetterN,
+      'squareRoundedLetterO': TablerSvgIcons.squareRoundedLetterO,
+      'squareRoundedLetterP': TablerSvgIcons.squareRoundedLetterP,
+      'squareRoundedLetterQ': TablerSvgIcons.squareRoundedLetterQ,
+      'squareRoundedLetterR': TablerSvgIcons.squareRoundedLetterR,
+      'squareRoundedLetterS': TablerSvgIcons.squareRoundedLetterS,
+      'squareRoundedLetterT': TablerSvgIcons.squareRoundedLetterT,
+      'squareRoundedLetterU': TablerSvgIcons.squareRoundedLetterU,
+      'squareRoundedLetterV': TablerSvgIcons.squareRoundedLetterV,
+      'squareRoundedLetterW': TablerSvgIcons.squareRoundedLetterW,
+      'squareRoundedLetterX': TablerSvgIcons.squareRoundedLetterX,
+      'squareRoundedLetterY': TablerSvgIcons.squareRoundedLetterY,
+      'squareRoundedLetterZ': TablerSvgIcons.squareRoundedLetterZ,
+      'squareRoundedMinus2': TablerSvgIcons.squareRoundedMinus2,
+      'squareRoundedMinusFilled': TablerSvgIcons.squareRoundedMinusFilled,
+      'squareRoundedMinus': TablerSvgIcons.squareRoundedMinus,
+      'squareRoundedNumber0Filled': TablerSvgIcons.squareRoundedNumber0Filled,
+      'squareRoundedNumber0': TablerSvgIcons.squareRoundedNumber0,
+      'squareRoundedNumber1Filled': TablerSvgIcons.squareRoundedNumber1Filled,
+      'squareRoundedNumber1': TablerSvgIcons.squareRoundedNumber1,
+      'squareRoundedNumber2Filled': TablerSvgIcons.squareRoundedNumber2Filled,
+      'squareRoundedNumber2': TablerSvgIcons.squareRoundedNumber2,
+      'squareRoundedNumber3Filled': TablerSvgIcons.squareRoundedNumber3Filled,
+      'squareRoundedNumber3': TablerSvgIcons.squareRoundedNumber3,
+      'squareRoundedNumber4Filled': TablerSvgIcons.squareRoundedNumber4Filled,
+      'squareRoundedNumber4': TablerSvgIcons.squareRoundedNumber4,
+      'squareRoundedNumber5Filled': TablerSvgIcons.squareRoundedNumber5Filled,
+      'squareRoundedNumber5': TablerSvgIcons.squareRoundedNumber5,
+      'squareRoundedNumber6Filled': TablerSvgIcons.squareRoundedNumber6Filled,
+      'squareRoundedNumber6': TablerSvgIcons.squareRoundedNumber6,
+      'squareRoundedNumber7Filled': TablerSvgIcons.squareRoundedNumber7Filled,
+      'squareRoundedNumber7': TablerSvgIcons.squareRoundedNumber7,
+      'squareRoundedNumber8Filled': TablerSvgIcons.squareRoundedNumber8Filled,
+      'squareRoundedNumber8': TablerSvgIcons.squareRoundedNumber8,
+      'squareRoundedNumber9Filled': TablerSvgIcons.squareRoundedNumber9Filled,
+      'squareRoundedNumber9': TablerSvgIcons.squareRoundedNumber9,
+      'squareRoundedPlus2': TablerSvgIcons.squareRoundedPlus2,
+      'squareRoundedPlusFilled': TablerSvgIcons.squareRoundedPlusFilled,
+      'squareRoundedPlus': TablerSvgIcons.squareRoundedPlus,
+      'squareRoundedXFilled': TablerSvgIcons.squareRoundedXFilled,
+      'squareRoundedX': TablerSvgIcons.squareRoundedX,
+      'squareRounded': TablerSvgIcons.squareRounded,
+      'squareToggleHorizontal': TablerSvgIcons.squareToggleHorizontal,
+      'squareToggle': TablerSvgIcons.squareToggle,
+      'squareXFilled': TablerSvgIcons.squareXFilled,
+      'squareX': TablerSvgIcons.squareX,
+      'square': TablerSvgIcons.square,
+      'squaresDiagonal': TablerSvgIcons.squaresDiagonal,
+      'squaresFilled': TablerSvgIcons.squaresFilled,
+      'stack2': TablerSvgIcons.stack2,
+      'stack3': TablerSvgIcons.stack3,
+      'stackPop': TablerSvgIcons.stackPop,
+      'stackPush': TablerSvgIcons.stackPush,
+      'stack': TablerSvgIcons.stack,
+      'stairsDown': TablerSvgIcons.stairsDown,
+      'stairsUp': TablerSvgIcons.stairsUp,
+      'stairs': TablerSvgIcons.stairs,
+      'starFilled': TablerSvgIcons.starFilled,
+      'starHalfFilled': TablerSvgIcons.starHalfFilled,
+      'starHalf': TablerSvgIcons.starHalf,
+      'starOff': TablerSvgIcons.starOff,
+      'star': TablerSvgIcons.star,
+      'starsFilled': TablerSvgIcons.starsFilled,
+      'starsOff': TablerSvgIcons.starsOff,
+      'stars': TablerSvgIcons.stars,
+      'statusChange': TablerSvgIcons.statusChange,
+      'steam': TablerSvgIcons.steam,
+      'steeringWheelOff': TablerSvgIcons.steeringWheelOff,
+      'steeringWheel': TablerSvgIcons.steeringWheel,
+      'stepInto': TablerSvgIcons.stepInto,
+      'stepOut': TablerSvgIcons.stepOut,
+      'stereoGlasses': TablerSvgIcons.stereoGlasses,
+      'stethoscopeOff': TablerSvgIcons.stethoscopeOff,
+      'stethoscope': TablerSvgIcons.stethoscope,
+      'sticker': TablerSvgIcons.sticker,
+      'stormOff': TablerSvgIcons.stormOff,
+      'storm': TablerSvgIcons.storm,
+      'stretching2': TablerSvgIcons.stretching2,
+      'stretching': TablerSvgIcons.stretching,
+      'strikethrough': TablerSvgIcons.strikethrough,
+      'submarine': TablerSvgIcons.submarine,
+      'subscript': TablerSvgIcons.subscript,
+      'subtask': TablerSvgIcons.subtask,
+      'sumOff': TablerSvgIcons.sumOff,
+      'sum': TablerSvgIcons.sum,
+      'sunElectricity': TablerSvgIcons.sunElectricity,
+      'sunFilled': TablerSvgIcons.sunFilled,
+      'sunHigh': TablerSvgIcons.sunHigh,
+      'sunLow': TablerSvgIcons.sunLow,
+      'sunMoon': TablerSvgIcons.sunMoon,
+      'sunOff': TablerSvgIcons.sunOff,
+      'sunWind': TablerSvgIcons.sunWind,
+      'sun': TablerSvgIcons.sun,
+      'sunglasses': TablerSvgIcons.sunglasses,
+      'sunrise': TablerSvgIcons.sunrise,
+      'sunset2': TablerSvgIcons.sunset2,
+      'sunset': TablerSvgIcons.sunset,
+      'superscript': TablerSvgIcons.superscript,
+      'svg': TablerSvgIcons.svg,
+      'swimming': TablerSvgIcons.swimming,
+      'swipe': TablerSvgIcons.swipe,
+      'switch2': TablerSvgIcons.switch2,
+      'switch3': TablerSvgIcons.switch3,
+      'switchHorizontal': TablerSvgIcons.switchHorizontal,
+      'switchVertical': TablerSvgIcons.switchVertical,
+      '\$switch': TablerSvgIcons.$switch,
+      'swordOff': TablerSvgIcons.swordOff,
+      'sword': TablerSvgIcons.sword,
+      'swords': TablerSvgIcons.swords,
+      'tableAlias': TablerSvgIcons.tableAlias,
+      'tableColumn': TablerSvgIcons.tableColumn,
+      'tableDown': TablerSvgIcons.tableDown,
+      'tableExport': TablerSvgIcons.tableExport,
+      'tableFilled': TablerSvgIcons.tableFilled,
+      'tableHeart': TablerSvgIcons.tableHeart,
+      'tableImport': TablerSvgIcons.tableImport,
+      'tableMinus': TablerSvgIcons.tableMinus,
+      'tableOff': TablerSvgIcons.tableOff,
+      'tableOptions': TablerSvgIcons.tableOptions,
+      'tablePlus': TablerSvgIcons.tablePlus,
+      'tableRow': TablerSvgIcons.tableRow,
+      'tableShare': TablerSvgIcons.tableShare,
+      'tableShortcut': TablerSvgIcons.tableShortcut,
+      'table': TablerSvgIcons.table,
+      'tagOff': TablerSvgIcons.tagOff,
+      'tagStarred': TablerSvgIcons.tagStarred,
+      'tag': TablerSvgIcons.tag,
+      'tagsOff': TablerSvgIcons.tagsOff,
+      'tags': TablerSvgIcons.tags,
+      'tallymark1': TablerSvgIcons.tallymark1,
+      'tallymark2': TablerSvgIcons.tallymark2,
+      'tallymark3': TablerSvgIcons.tallymark3,
+      'tallymark4': TablerSvgIcons.tallymark4,
+      'tallymarks': TablerSvgIcons.tallymarks,
+      'tank': TablerSvgIcons.tank,
+      'targetArrow': TablerSvgIcons.targetArrow,
+      'targetOff': TablerSvgIcons.targetOff,
+      'target': TablerSvgIcons.target,
+      'teapot': TablerSvgIcons.teapot,
+      'telescopeOff': TablerSvgIcons.telescopeOff,
+      'telescope': TablerSvgIcons.telescope,
+      'temperatureCelsius': TablerSvgIcons.temperatureCelsius,
+      'temperatureFahrenheit': TablerSvgIcons.temperatureFahrenheit,
+      'temperatureMinus': TablerSvgIcons.temperatureMinus,
+      'temperatureOff': TablerSvgIcons.temperatureOff,
+      'temperaturePlus': TablerSvgIcons.temperaturePlus,
+      'temperature': TablerSvgIcons.temperature,
+      'templateOff': TablerSvgIcons.templateOff,
+      'template': TablerSvgIcons.template,
+      'tentOff': TablerSvgIcons.tentOff,
+      'tent': TablerSvgIcons.tent,
+      'terminal2': TablerSvgIcons.terminal2,
+      'terminal': TablerSvgIcons.terminal,
+      'testPipe2': TablerSvgIcons.testPipe2,
+      'testPipeOff': TablerSvgIcons.testPipeOff,
+      'testPipe': TablerSvgIcons.testPipe,
+      'tex': TablerSvgIcons.tex,
+      'textCaption': TablerSvgIcons.textCaption,
+      'textColor': TablerSvgIcons.textColor,
+      'textDecrease': TablerSvgIcons.textDecrease,
+      'textDirectionLtr': TablerSvgIcons.textDirectionLtr,
+      'textDirectionRtl': TablerSvgIcons.textDirectionRtl,
+      'textIncrease': TablerSvgIcons.textIncrease,
+      'textOrientation': TablerSvgIcons.textOrientation,
+      'textPlus': TablerSvgIcons.textPlus,
+      'textRecognition': TablerSvgIcons.textRecognition,
+      'textResize': TablerSvgIcons.textResize,
+      'textScan2': TablerSvgIcons.textScan2,
+      'textSize': TablerSvgIcons.textSize,
+      'textSpellcheck': TablerSvgIcons.textSpellcheck,
+      'textWrapDisabled': TablerSvgIcons.textWrapDisabled,
+      'textWrap': TablerSvgIcons.textWrap,
+      'texture': TablerSvgIcons.texture,
+      'theater': TablerSvgIcons.theater,
+      'thermometer': TablerSvgIcons.thermometer,
+      'thumbDownFilled': TablerSvgIcons.thumbDownFilled,
+      'thumbDownOff': TablerSvgIcons.thumbDownOff,
+      'thumbDown': TablerSvgIcons.thumbDown,
+      'thumbUpFilled': TablerSvgIcons.thumbUpFilled,
+      'thumbUpOff': TablerSvgIcons.thumbUpOff,
+      'thumbUp': TablerSvgIcons.thumbUp,
+      'ticTac': TablerSvgIcons.ticTac,
+      'ticketOff': TablerSvgIcons.ticketOff,
+      'ticket': TablerSvgIcons.ticket,
+      'tie': TablerSvgIcons.tie,
+      'tilde': TablerSvgIcons.tilde,
+      'tiltShiftOff': TablerSvgIcons.tiltShiftOff,
+      'tiltShift': TablerSvgIcons.tiltShift,
+      'timeDuration0': TablerSvgIcons.timeDuration0,
+      'timeDuration10': TablerSvgIcons.timeDuration10,
+      'timeDuration15': TablerSvgIcons.timeDuration15,
+      'timeDuration30': TablerSvgIcons.timeDuration30,
+      'timeDuration45': TablerSvgIcons.timeDuration45,
+      'timeDuration5': TablerSvgIcons.timeDuration5,
+      'timeDuration60': TablerSvgIcons.timeDuration60,
+      'timeDuration90': TablerSvgIcons.timeDuration90,
+      'timeDurationOff': TablerSvgIcons.timeDurationOff,
+      'timelineEventExclamation': TablerSvgIcons.timelineEventExclamation,
+      'timelineEventMinus': TablerSvgIcons.timelineEventMinus,
+      'timelineEventPlus': TablerSvgIcons.timelineEventPlus,
+      'timelineEventText': TablerSvgIcons.timelineEventText,
+      'timelineEventX': TablerSvgIcons.timelineEventX,
+      'timelineEvent': TablerSvgIcons.timelineEvent,
+      'timeline': TablerSvgIcons.timeline,
+      'tir': TablerSvgIcons.tir,
+      'toggleLeft': TablerSvgIcons.toggleLeft,
+      'toggleRight': TablerSvgIcons.toggleRight,
+      'toiletPaperOff': TablerSvgIcons.toiletPaperOff,
+      'toiletPaper': TablerSvgIcons.toiletPaper,
+      'toml': TablerSvgIcons.toml,
+      'tool': TablerSvgIcons.tool,
+      'toolsKitchen2Off': TablerSvgIcons.toolsKitchen2Off,
+      'toolsKitchen2': TablerSvgIcons.toolsKitchen2,
+      'toolsKitchenOff': TablerSvgIcons.toolsKitchenOff,
+      'toolsKitchen': TablerSvgIcons.toolsKitchen,
+      'toolsOff': TablerSvgIcons.toolsOff,
+      'tools': TablerSvgIcons.tools,
+      'tooltip': TablerSvgIcons.tooltip,
+      'topologyBus': TablerSvgIcons.topologyBus,
+      'topologyComplex': TablerSvgIcons.topologyComplex,
+      'topologyFullHierarchy': TablerSvgIcons.topologyFullHierarchy,
+      'topologyFull': TablerSvgIcons.topologyFull,
+      'topologyRing2': TablerSvgIcons.topologyRing2,
+      'topologyRing3': TablerSvgIcons.topologyRing3,
+      'topologyRing': TablerSvgIcons.topologyRing,
+      'topologyStar2': TablerSvgIcons.topologyStar2,
+      'topologyStar3': TablerSvgIcons.topologyStar3,
+      'topologyStarRing2': TablerSvgIcons.topologyStarRing2,
+      'topologyStarRing3': TablerSvgIcons.topologyStarRing3,
+      'topologyStarRing': TablerSvgIcons.topologyStarRing,
+      'topologyStar': TablerSvgIcons.topologyStar,
+      'torii': TablerSvgIcons.torii,
+      'tornado': TablerSvgIcons.tornado,
+      'tournament': TablerSvgIcons.tournament,
+      'towerOff': TablerSvgIcons.towerOff,
+      'tower': TablerSvgIcons.tower,
+      'track': TablerSvgIcons.track,
+      'tractor': TablerSvgIcons.tractor,
+      'trademark': TablerSvgIcons.trademark,
+      'trafficConeOff': TablerSvgIcons.trafficConeOff,
+      'trafficCone': TablerSvgIcons.trafficCone,
+      'trafficLightsOff': TablerSvgIcons.trafficLightsOff,
+      'trafficLights': TablerSvgIcons.trafficLights,
+      'train': TablerSvgIcons.train,
+      'transferIn': TablerSvgIcons.transferIn,
+      'transferOut': TablerSvgIcons.transferOut,
+      'transferVertical': TablerSvgIcons.transferVertical,
+      'transfer': TablerSvgIcons.transfer,
+      'transformFilled': TablerSvgIcons.transformFilled,
+      'transform': TablerSvgIcons.transform,
+      'transitionBottom': TablerSvgIcons.transitionBottom,
+      'transitionLeft': TablerSvgIcons.transitionLeft,
+      'transitionRight': TablerSvgIcons.transitionRight,
+      'transitionTop': TablerSvgIcons.transitionTop,
+      'trashFilled': TablerSvgIcons.trashFilled,
+      'trashOff': TablerSvgIcons.trashOff,
+      'trashXFilled': TablerSvgIcons.trashXFilled,
+      'trashX': TablerSvgIcons.trashX,
+      'trash': TablerSvgIcons.trash,
+      'treadmill': TablerSvgIcons.treadmill,
+      'tree': TablerSvgIcons.tree,
+      'trees': TablerSvgIcons.trees,
+      'trekking': TablerSvgIcons.trekking,
+      'trendingDown2': TablerSvgIcons.trendingDown2,
+      'trendingDown3': TablerSvgIcons.trendingDown3,
+      'trendingDown': TablerSvgIcons.trendingDown,
+      'trendingUp2': TablerSvgIcons.trendingUp2,
+      'trendingUp3': TablerSvgIcons.trendingUp3,
+      'trendingUp': TablerSvgIcons.trendingUp,
+      'triangleFilled': TablerSvgIcons.triangleFilled,
+      'triangleInvertedFilled': TablerSvgIcons.triangleInvertedFilled,
+      'triangleInverted': TablerSvgIcons.triangleInverted,
+      'triangleMinus2': TablerSvgIcons.triangleMinus2,
+      'triangleMinus': TablerSvgIcons.triangleMinus,
+      'triangleOff': TablerSvgIcons.triangleOff,
+      'trianglePlus2': TablerSvgIcons.trianglePlus2,
+      'trianglePlus': TablerSvgIcons.trianglePlus,
+      'triangleSquareCircleFilled': TablerSvgIcons.triangleSquareCircleFilled,
+      'triangleSquareCircle': TablerSvgIcons.triangleSquareCircle,
+      'triangle': TablerSvgIcons.triangle,
+      'triangles': TablerSvgIcons.triangles,
+      'trident': TablerSvgIcons.trident,
+      'trolley': TablerSvgIcons.trolley,
+      'trophyFilled': TablerSvgIcons.trophyFilled,
+      'trophyOff': TablerSvgIcons.trophyOff,
+      'trophy': TablerSvgIcons.trophy,
+      'trowel': TablerSvgIcons.trowel,
+      'truckDelivery': TablerSvgIcons.truckDelivery,
+      'truckLoading': TablerSvgIcons.truckLoading,
+      'truckOff': TablerSvgIcons.truckOff,
+      'truckReturn': TablerSvgIcons.truckReturn,
+      'truck': TablerSvgIcons.truck,
+      'txt': TablerSvgIcons.txt,
+      'typographyOff': TablerSvgIcons.typographyOff,
+      'typography': TablerSvgIcons.typography,
+      'ufoOff': TablerSvgIcons.ufoOff,
+      'ufo': TablerSvgIcons.ufo,
+      'umbrellaFilled': TablerSvgIcons.umbrellaFilled,
+      'umbrellaOff': TablerSvgIcons.umbrellaOff,
+      'umbrella': TablerSvgIcons.umbrella,
+      'underline': TablerSvgIcons.underline,
+      'universe': TablerSvgIcons.universe,
+      'unlink': TablerSvgIcons.unlink,
+      'upload': TablerSvgIcons.upload,
+      'urgent': TablerSvgIcons.urgent,
+      'usb': TablerSvgIcons.usb,
+      'userBolt': TablerSvgIcons.userBolt,
+      'userCancel': TablerSvgIcons.userCancel,
+      'userCheck': TablerSvgIcons.userCheck,
+      'userCircle': TablerSvgIcons.userCircle,
+      'userCode': TablerSvgIcons.userCode,
+      'userCog': TablerSvgIcons.userCog,
+      'userDollar': TablerSvgIcons.userDollar,
+      'userDown': TablerSvgIcons.userDown,
+      'userEdit': TablerSvgIcons.userEdit,
+      'userExclamation': TablerSvgIcons.userExclamation,
+      'userHeart': TablerSvgIcons.userHeart,
+      'userHexagon': TablerSvgIcons.userHexagon,
+      'userMinus': TablerSvgIcons.userMinus,
+      'userOff': TablerSvgIcons.userOff,
+      'userPause': TablerSvgIcons.userPause,
+      'userPentagon': TablerSvgIcons.userPentagon,
+      'userPin': TablerSvgIcons.userPin,
+      'userPlus': TablerSvgIcons.userPlus,
+      'userQuestion': TablerSvgIcons.userQuestion,
+      'userScan': TablerSvgIcons.userScan,
+      'userSearch': TablerSvgIcons.userSearch,
+      'userShare': TablerSvgIcons.userShare,
+      'userShield': TablerSvgIcons.userShield,
+      'userSquareRounded': TablerSvgIcons.userSquareRounded,
+      'userSquare': TablerSvgIcons.userSquare,
+      'userStar': TablerSvgIcons.userStar,
+      'userUp': TablerSvgIcons.userUp,
+      'userX': TablerSvgIcons.userX,
+      'user': TablerSvgIcons.user,
+      'usersGroup': TablerSvgIcons.usersGroup,
+      'usersMinus': TablerSvgIcons.usersMinus,
+      'usersPlus': TablerSvgIcons.usersPlus,
+      'users': TablerSvgIcons.users,
+      'uvIndex': TablerSvgIcons.uvIndex,
+      'uxCircle': TablerSvgIcons.uxCircle,
+      'vaccineBottleOff': TablerSvgIcons.vaccineBottleOff,
+      'vaccineBottle': TablerSvgIcons.vaccineBottle,
+      'vaccineOff': TablerSvgIcons.vaccineOff,
+      'vaccine': TablerSvgIcons.vaccine,
+      'vacuumCleaner': TablerSvgIcons.vacuumCleaner,
+      'variableMinus': TablerSvgIcons.variableMinus,
+      'variableOff': TablerSvgIcons.variableOff,
+      'variablePlus': TablerSvgIcons.variablePlus,
+      'variable': TablerSvgIcons.variable,
+      'vectorBezier2': TablerSvgIcons.vectorBezier2,
+      'vectorBezierArc': TablerSvgIcons.vectorBezierArc,
+      'vectorBezierCircle': TablerSvgIcons.vectorBezierCircle,
+      'vectorBezier': TablerSvgIcons.vectorBezier,
+      'vectorOff': TablerSvgIcons.vectorOff,
+      'vectorSpline': TablerSvgIcons.vectorSpline,
+      'vectorTriangleOff': TablerSvgIcons.vectorTriangleOff,
+      'vectorTriangle': TablerSvgIcons.vectorTriangle,
+      'vector': TablerSvgIcons.vector,
+      'venus': TablerSvgIcons.venus,
+      'versionsFilled': TablerSvgIcons.versionsFilled,
+      'versionsOff': TablerSvgIcons.versionsOff,
+      'versions': TablerSvgIcons.versions,
+      'videoMinus': TablerSvgIcons.videoMinus,
+      'videoOff': TablerSvgIcons.videoOff,
+      'videoPlus': TablerSvgIcons.videoPlus,
+      'video': TablerSvgIcons.video,
+      'view360Off': TablerSvgIcons.view360Off,
+      'view360': TablerSvgIcons.view360,
+      'viewfinderOff': TablerSvgIcons.viewfinderOff,
+      'viewfinder': TablerSvgIcons.viewfinder,
+      'viewportNarrow': TablerSvgIcons.viewportNarrow,
+      'viewportWide': TablerSvgIcons.viewportWide,
+      'vinyl': TablerSvgIcons.vinyl,
+      'vipOff': TablerSvgIcons.vipOff,
+      'vip': TablerSvgIcons.vip,
+      'virusOff': TablerSvgIcons.virusOff,
+      'virusSearch': TablerSvgIcons.virusSearch,
+      'virus': TablerSvgIcons.virus,
+      'vocabularyOff': TablerSvgIcons.vocabularyOff,
+      'vocabulary': TablerSvgIcons.vocabulary,
+      'volcano': TablerSvgIcons.volcano,
+      'volume2': TablerSvgIcons.volume2,
+      'volume3': TablerSvgIcons.volume3,
+      'volumeOff': TablerSvgIcons.volumeOff,
+      'volume': TablerSvgIcons.volume,
+      'vs': TablerSvgIcons.vs,
+      'walk': TablerSvgIcons.walk,
+      'wallOff': TablerSvgIcons.wallOff,
+      'wall': TablerSvgIcons.wall,
+      'walletOff': TablerSvgIcons.walletOff,
+      'wallet': TablerSvgIcons.wallet,
+      'wallpaperOff': TablerSvgIcons.wallpaperOff,
+      'wallpaper': TablerSvgIcons.wallpaper,
+      'wandOff': TablerSvgIcons.wandOff,
+      'wand': TablerSvgIcons.wand,
+      'washDry1': TablerSvgIcons.washDry1,
+      'washDry2': TablerSvgIcons.washDry2,
+      'washDry3': TablerSvgIcons.washDry3,
+      'washDryA': TablerSvgIcons.washDryA,
+      'washDryDip': TablerSvgIcons.washDryDip,
+      'washDryF': TablerSvgIcons.washDryF,
+      'washDryFlat': TablerSvgIcons.washDryFlat,
+      'washDryHang': TablerSvgIcons.washDryHang,
+      'washDryOff': TablerSvgIcons.washDryOff,
+      'washDryP': TablerSvgIcons.washDryP,
+      'washDryShade': TablerSvgIcons.washDryShade,
+      'washDryW': TablerSvgIcons.washDryW,
+      'washDry': TablerSvgIcons.washDry,
+      'washDrycleanOff': TablerSvgIcons.washDrycleanOff,
+      'washDryclean': TablerSvgIcons.washDryclean,
+      'washEco': TablerSvgIcons.washEco,
+      'washGentle': TablerSvgIcons.washGentle,
+      'washHand': TablerSvgIcons.washHand,
+      'washMachine': TablerSvgIcons.washMachine,
+      'washOff': TablerSvgIcons.washOff,
+      'washPress': TablerSvgIcons.washPress,
+      'washTemperature1': TablerSvgIcons.washTemperature1,
+      'washTemperature2': TablerSvgIcons.washTemperature2,
+      'washTemperature3': TablerSvgIcons.washTemperature3,
+      'washTemperature4': TablerSvgIcons.washTemperature4,
+      'washTemperature5': TablerSvgIcons.washTemperature5,
+      'washTemperature6': TablerSvgIcons.washTemperature6,
+      'washTumbleDry': TablerSvgIcons.washTumbleDry,
+      'washTumbleOff': TablerSvgIcons.washTumbleOff,
+      'wash': TablerSvgIcons.wash,
+      'waterpolo': TablerSvgIcons.waterpolo,
+      'waveSawTool': TablerSvgIcons.waveSawTool,
+      'waveSine': TablerSvgIcons.waveSine,
+      'waveSquare': TablerSvgIcons.waveSquare,
+      'wavesElectricity': TablerSvgIcons.wavesElectricity,
+      'webhookOff': TablerSvgIcons.webhookOff,
+      'webhook': TablerSvgIcons.webhook,
+      'weight': TablerSvgIcons.weight,
+      'wheel': TablerSvgIcons.wheel,
+      'wheelchairOff': TablerSvgIcons.wheelchairOff,
+      'wheelchair': TablerSvgIcons.wheelchair,
+      'whirl': TablerSvgIcons.whirl,
+      'wifi0': TablerSvgIcons.wifi0,
+      'wifi1': TablerSvgIcons.wifi1,
+      'wifi2': TablerSvgIcons.wifi2,
+      'wifiOff': TablerSvgIcons.wifiOff,
+      'wifi': TablerSvgIcons.wifi,
+      'windElectricity': TablerSvgIcons.windElectricity,
+      'windOff': TablerSvgIcons.windOff,
+      'wind': TablerSvgIcons.wind,
+      'windmillFilled': TablerSvgIcons.windmillFilled,
+      'windmillOff': TablerSvgIcons.windmillOff,
+      'windmill': TablerSvgIcons.windmill,
+      'windowMaximize': TablerSvgIcons.windowMaximize,
+      'windowMinimize': TablerSvgIcons.windowMinimize,
+      'windowOff': TablerSvgIcons.windowOff,
+      'window': TablerSvgIcons.window,
+      'windsock': TablerSvgIcons.windsock,
+      'wiperWash': TablerSvgIcons.wiperWash,
+      'wiper': TablerSvgIcons.wiper,
+      'woman': TablerSvgIcons.woman,
+      'wood': TablerSvgIcons.wood,
+      'worldBolt': TablerSvgIcons.worldBolt,
+      'worldCancel': TablerSvgIcons.worldCancel,
+      'worldCheck': TablerSvgIcons.worldCheck,
+      'worldCode': TablerSvgIcons.worldCode,
+      'worldCog': TablerSvgIcons.worldCog,
+      'worldDollar': TablerSvgIcons.worldDollar,
+      'worldDown': TablerSvgIcons.worldDown,
+      'worldDownload': TablerSvgIcons.worldDownload,
+      'worldExclamation': TablerSvgIcons.worldExclamation,
+      'worldHeart': TablerSvgIcons.worldHeart,
+      'worldLatitude': TablerSvgIcons.worldLatitude,
+      'worldLongitude': TablerSvgIcons.worldLongitude,
+      'worldMinus': TablerSvgIcons.worldMinus,
+      'worldOff': TablerSvgIcons.worldOff,
+      'worldPause': TablerSvgIcons.worldPause,
+      'worldPin': TablerSvgIcons.worldPin,
+      'worldPlus': TablerSvgIcons.worldPlus,
+      'worldQuestion': TablerSvgIcons.worldQuestion,
+      'worldSearch': TablerSvgIcons.worldSearch,
+      'worldShare': TablerSvgIcons.worldShare,
+      'worldStar': TablerSvgIcons.worldStar,
+      'worldUp': TablerSvgIcons.worldUp,
+      'worldUpload': TablerSvgIcons.worldUpload,
+      'worldWww': TablerSvgIcons.worldWww,
+      'worldX': TablerSvgIcons.worldX,
+      'world': TablerSvgIcons.world,
+      'wreckingBall': TablerSvgIcons.wreckingBall,
+      'writingOff': TablerSvgIcons.writingOff,
+      'writingSignOff': TablerSvgIcons.writingSignOff,
+      'writingSign': TablerSvgIcons.writingSign,
+      'writing': TablerSvgIcons.writing,
+      'x': TablerSvgIcons.x,
+      'xboxA': TablerSvgIcons.xboxA,
+      'xboxB': TablerSvgIcons.xboxB,
+      'xboxX': TablerSvgIcons.xboxX,
+      'xboxY': TablerSvgIcons.xboxY,
+      'xd': TablerSvgIcons.xd,
+      'xxx': TablerSvgIcons.xxx,
+      'yinYangFilled': TablerSvgIcons.yinYangFilled,
+      'yinYang': TablerSvgIcons.yinYang,
+      'yoga': TablerSvgIcons.yoga,
+      'zeppelinOff': TablerSvgIcons.zeppelinOff,
+      'zeppelin': TablerSvgIcons.zeppelin,
+      'zip': TablerSvgIcons.zip,
+      'zodiacAquarius': TablerSvgIcons.zodiacAquarius,
+      'zodiacAries': TablerSvgIcons.zodiacAries,
+      'zodiacCancer': TablerSvgIcons.zodiacCancer,
+      'zodiacCapricorn': TablerSvgIcons.zodiacCapricorn,
+      'zodiacGemini': TablerSvgIcons.zodiacGemini,
+      'zodiacLeo': TablerSvgIcons.zodiacLeo,
+      'zodiacLibra': TablerSvgIcons.zodiacLibra,
+      'zodiacPisces': TablerSvgIcons.zodiacPisces,
+      'zodiacSagittarius': TablerSvgIcons.zodiacSagittarius,
+      'zodiacScorpio': TablerSvgIcons.zodiacScorpio,
+      'zodiacTaurus': TablerSvgIcons.zodiacTaurus,
+      'zodiacVirgo': TablerSvgIcons.zodiacVirgo,
+      'zoomCancel': TablerSvgIcons.zoomCancel,
+      'zoomCheckFilled': TablerSvgIcons.zoomCheckFilled,
+      'zoomCheck': TablerSvgIcons.zoomCheck,
+      'zoomCode': TablerSvgIcons.zoomCode,
+      'zoomExclamation': TablerSvgIcons.zoomExclamation,
+      'zoomFilled': TablerSvgIcons.zoomFilled,
+      'zoomInAreaFilled': TablerSvgIcons.zoomInAreaFilled,
+      'zoomInArea': TablerSvgIcons.zoomInArea,
+      'zoomInFilled': TablerSvgIcons.zoomInFilled,
+      'zoomIn': TablerSvgIcons.zoomIn,
+      'zoomMoney': TablerSvgIcons.zoomMoney,
+      'zoomOutArea': TablerSvgIcons.zoomOutArea,
+      'zoomOutFilled': TablerSvgIcons.zoomOutFilled,
+      'zoomOut': TablerSvgIcons.zoomOut,
+      'zoomPan': TablerSvgIcons.zoomPan,
+      'zoomQuestion': TablerSvgIcons.zoomQuestion,
+      'zoomReplace': TablerSvgIcons.zoomReplace,
+      'zoomReset': TablerSvgIcons.zoomReset,
+      'zoomScan': TablerSvgIcons.zoomScan,
+      'zzzOff': TablerSvgIcons.zzzOff,
+      'zzz': TablerSvgIcons.zzz
+    });

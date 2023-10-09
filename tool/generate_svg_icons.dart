@@ -38,7 +38,7 @@ class TablerIconsSvg {
 ${lines.join('\n')}
 }
 ''';
-  final output = File('lib/src/svg_icons.dart');
+  final output = File('lib/src/svg_strings.dart');
   output.writeAsStringSync(result);
   print('Done');
 }
