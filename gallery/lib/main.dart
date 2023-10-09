@@ -51,12 +51,14 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  bool _shouldUseSvg = false;
-  void _setShouldUseSvg(bool value) => setState(() => _shouldUseSvg = value);
 
   late final TextEditingController _searchController;
   final _iconNames = icons.keys.toList();
   late List<String> _filteredIcons = _iconNames;
+  final List<num> strokeTypes = [1, 1.25, 1.5, 1.75, 2];
+  var _selections = [false, false, false, false, true];
+  num _strokeType = 2;
+
 
   @override
   void initState() {
@@ -88,8 +90,23 @@ class _HomePageState extends State<HomePage> {
 
             // Version
             Text(widget.version, style: Theme.of(context).textTheme.labelLarge),
-            const SizedBox(width: 64),
-
+            const SizedBox(width: 60),
+            const Text("Stroke: ", style: TextStyle(fontSize: 14),),
+            ToggleButtons(
+              onPressed: (int index){
+                setState(() {
+                  _strokeType = strokeTypes[index];
+                  _selections = List.generate(strokeTypes.length, (i) => index == i);
+                });
+              },
+              isSelected: _selections,
+            children: const [
+              Text("1"),
+              Text("1.25"),
+              Text("1.5"),
+              Text("1.75"),
+              Text("2"),
+            ],),
             // Search
             SizedBox(
               width: 300,
@@ -107,11 +124,6 @@ class _HomePageState extends State<HomePage> {
         actions: [
           Row(
             children: [
-              const Text('Use SVG icons'),
-              Switch(
-                value: _shouldUseSvg,
-                onChanged: _setShouldUseSvg,
-              ),
               const SizedBox(width: 16),
 
               // GitHub
@@ -133,9 +145,8 @@ class _HomePageState extends State<HomePage> {
         itemCount: _filteredIcons.length,
         itemBuilder: (context, index) {
           return IconView(
-            icons[_filteredIcons[index]]!,
+            TablerIcon(icons[_filteredIcons[index]]!, strokeWidth: _strokeType.toDouble(),),
             name: _filteredIcons[index],
-            useSvg: _shouldUseSvg,
           );
         },
       ),
@@ -148,12 +159,10 @@ class IconView extends StatefulWidget {
     this.icon, {
     super.key,
     required this.name,
-    required this.useSvg,
   });
 
   final TablerIcon icon;
   final String name;
-  final bool useSvg;
 
   @override
   State<StatefulWidget> createState() => _IconViewState();
@@ -183,9 +192,7 @@ class _IconViewState extends State<IconView> {
         child: Stack(
           children: [
             Center(
-              child: widget.useSvg
-                  ? SvgPicture.string(widget.icon.svg)
-                  : Icon(widget.icon.data),
+              child: widget.icon,
             ),
             Align(
               alignment: Alignment.bottomCenter,
