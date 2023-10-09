@@ -3,7 +3,6 @@
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
-
 import 'src/svg_icons.dart';
 import 'src/theme.dart';
 import 'package:flutter/material.dart';
@@ -17,10 +16,12 @@ export 'src/svg_icons.dart';
 /// Similarly to Material Icons, use [TablerIcons] Widget to display the icon.
 ///
 /// ```dart
-/// TablerIcons(TablerIconss.arrowLeft)
+/// TablerIcon(TablerIcons.arrowLeft)
 /// ```
 class TablerIcon extends StatelessWidget {
-  const TablerIcon(this.icon, {super.key,
+  const TablerIcon(
+    this.icon, {
+    super.key,
     this.color,
     this.size,
     this.strokeWidth,
@@ -44,9 +45,9 @@ class TablerIcon extends StatelessWidget {
     return SvgPicture.string(
       _strokeWidth != 2
           ? icon.data.replaceFirst(
-        'stroke-width="2"',
-        'stroke-width="$_strokeWidth"',
-      )
+              'stroke-width="2"',
+              'stroke-width="$_strokeWidth"',
+            )
           : icon.data,
       color: _getColor(tablerIconTheme, iconTheme),
       width: size,
@@ -91,4 +92,3 @@ class TablerIcon extends StatelessWidget {
     return 24;
   }
 }
-

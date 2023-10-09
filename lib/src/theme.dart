@@ -15,12 +15,10 @@ class TablerIconTheme extends InheritedWidget {
 
   /// Get closest [TablerIconTheme] above in the Widget tree.
   static TablerIconTheme? of(BuildContext context) {
-    final TablerIconTheme? result =
-    context.dependOnInheritedWidgetOfExactType<TablerIconTheme>();
+    final TablerIconTheme? result = context.dependOnInheritedWidgetOfExactType<TablerIconTheme>();
     return result;
   }
 
   @override
-  bool updateShouldNotify(TablerIconTheme old) =>
-      strokeWidth != old.strokeWidth;
+  bool updateShouldNotify(TablerIconTheme old) => strokeWidth != old.strokeWidth;
 }
