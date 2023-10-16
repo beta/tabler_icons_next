@@ -1604,6 +1604,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.brandPagekit, TablerIconsSvg.brandPagekit),
   'brandParsinta':
       const TablerIcon(TablerIcons.brandParsinta, TablerIconsSvg.brandParsinta),
+  'brandPatreonFilled': const TablerIcon(
+      TablerIcons.brandPatreonFilled, TablerIconsSvg.brandPatreonFilled),
   'brandPatreon':
       const TablerIcon(TablerIcons.brandPatreon, TablerIconsSvg.brandPatreon),
   'brandPaypalFilled': const TablerIcon(
@@ -1882,6 +1884,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'bread': const TablerIcon(TablerIcons.bread, TablerIconsSvg.bread),
   'briefcase2':
       const TablerIcon(TablerIcons.briefcase2, TablerIconsSvg.briefcase2),
+  'briefcaseFilled': const TablerIcon(
+      TablerIcons.briefcaseFilled, TablerIconsSvg.briefcaseFilled),
   'briefcaseOff':
       const TablerIcon(TablerIcons.briefcaseOff, TablerIconsSvg.briefcaseOff),
   'briefcase':
@@ -1921,6 +1925,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'bucketOff':
       const TablerIcon(TablerIcons.bucketOff, TablerIconsSvg.bucketOff),
   'bucket': const TablerIcon(TablerIcons.bucket, TablerIconsSvg.bucket),
+  'bugFilled':
+      const TablerIcon(TablerIcons.bugFilled, TablerIconsSvg.bugFilled),
   'bugOff': const TablerIcon(TablerIcons.bugOff, TablerIconsSvg.bugOff),
   'bug': const TablerIcon(TablerIcons.bug, TablerIconsSvg.bug),
   'buildingArch':
@@ -2148,6 +2154,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.caretDown, TablerIconsSvg.caretDown),
   'caretLeftFilled': const TablerIcon(
       TablerIcons.caretLeftFilled, TablerIconsSvg.caretLeftFilled),
+  'caretLeftRightFilled': const TablerIcon(
+      TablerIcons.caretLeftRightFilled, TablerIconsSvg.caretLeftRightFilled),
   'caretLeftRight': const TablerIcon(
       TablerIcons.caretLeftRight, TablerIconsSvg.caretLeftRight),
   'caretLeft':
@@ -2156,6 +2164,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.caretRightFilled, TablerIconsSvg.caretRightFilled),
   'caretRight':
       const TablerIcon(TablerIcons.caretRight, TablerIconsSvg.caretRight),
+  'caretUpDownFilled': const TablerIcon(
+      TablerIcons.caretUpDownFilled, TablerIconsSvg.caretUpDownFilled),
   'caretUpDown':
       const TablerIcon(TablerIcons.caretUpDown, TablerIconsSvg.caretUpDown),
   'caretUpFilled':
@@ -2261,8 +2271,12 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.chartDots2, TablerIconsSvg.chartDots2),
   'chartDots3':
       const TablerIcon(TablerIcons.chartDots3, TablerIconsSvg.chartDots3),
+  'chartDotsFilled': const TablerIcon(
+      TablerIcons.chartDotsFilled, TablerIconsSvg.chartDotsFilled),
   'chartDots':
       const TablerIcon(TablerIcons.chartDots, TablerIconsSvg.chartDots),
+  'chartGridDotsFilled': const TablerIcon(
+      TablerIcons.chartGridDotsFilled, TablerIconsSvg.chartGridDotsFilled),
   'chartGridDots':
       const TablerIcon(TablerIcons.chartGridDots, TablerIconsSvg.chartGridDots),
   'chartHistogram': const TablerIcon(
@@ -2824,17 +2838,36 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.coffeeOff, TablerIconsSvg.coffeeOff),
   'coffee': const TablerIcon(TablerIcons.coffee, TablerIconsSvg.coffee),
   'coffin': const TablerIcon(TablerIcons.coffin, TablerIconsSvg.coffin),
+  'coinBitcoinFilled': const TablerIcon(
+      TablerIcons.coinBitcoinFilled, TablerIconsSvg.coinBitcoinFilled),
   'coinBitcoin':
       const TablerIcon(TablerIcons.coinBitcoin, TablerIconsSvg.coinBitcoin),
+  'coinEuroFilled': const TablerIcon(
+      TablerIcons.coinEuroFilled, TablerIconsSvg.coinEuroFilled),
   'coinEuro': const TablerIcon(TablerIcons.coinEuro, TablerIconsSvg.coinEuro),
+  'coinFilled':
+      const TablerIcon(TablerIcons.coinFilled, TablerIconsSvg.coinFilled),
+  'coinMoneroFilled': const TablerIcon(
+      TablerIcons.coinMoneroFilled, TablerIconsSvg.coinMoneroFilled),
   'coinMonero':
       const TablerIcon(TablerIcons.coinMonero, TablerIconsSvg.coinMonero),
   'coinOff': const TablerIcon(TablerIcons.coinOff, TablerIconsSvg.coinOff),
+  'coinPoundFilled': const TablerIcon(
+      TablerIcons.coinPoundFilled, TablerIconsSvg.coinPoundFilled),
   'coinPound':
       const TablerIcon(TablerIcons.coinPound, TablerIconsSvg.coinPound),
+  'coinRupeeFilled': const TablerIcon(
+      TablerIcons.coinRupeeFilled, TablerIconsSvg.coinRupeeFilled),
   'coinRupee':
       const TablerIcon(TablerIcons.coinRupee, TablerIconsSvg.coinRupee),
+  'coinTakaFilled': const TablerIcon(
+      TablerIcons.coinTakaFilled, TablerIconsSvg.coinTakaFilled),
+  'coinTaka': const TablerIcon(TablerIcons.coinTaka, TablerIconsSvg.coinTaka),
+  'coinYenFilled':
+      const TablerIcon(TablerIcons.coinYenFilled, TablerIconsSvg.coinYenFilled),
   'coinYen': const TablerIcon(TablerIcons.coinYen, TablerIconsSvg.coinYen),
+  'coinYuanFilled': const TablerIcon(
+      TablerIcons.coinYuanFilled, TablerIconsSvg.coinYuanFilled),
   'coinYuan': const TablerIcon(TablerIcons.coinYuan, TablerIconsSvg.coinYuan),
   'coin': const TablerIcon(TablerIcons.coin, TablerIconsSvg.coin),
   'coins': const TablerIcon(TablerIcons.coins, TablerIconsSvg.coins),
@@ -2864,6 +2897,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'commandOff':
       const TablerIcon(TablerIcons.commandOff, TablerIconsSvg.commandOff),
   'command': const TablerIcon(TablerIcons.command, TablerIconsSvg.command),
+  'compassFilled':
+      const TablerIcon(TablerIcons.compassFilled, TablerIconsSvg.compassFilled),
   'compassOff':
       const TablerIcon(TablerIcons.compassOff, TablerIconsSvg.compassOff),
   'compass': const TablerIcon(TablerIcons.compass, TablerIconsSvg.compass),
@@ -2961,6 +2996,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.creativeCommonsZero, TablerIconsSvg.creativeCommonsZero),
   'creativeCommons': const TablerIcon(
       TablerIcons.creativeCommons, TablerIconsSvg.creativeCommons),
+  'creditCardFilled': const TablerIcon(
+      TablerIcons.creditCardFilled, TablerIconsSvg.creditCardFilled),
   'creditCardOff':
       const TablerIcon(TablerIcons.creditCardOff, TablerIconsSvg.creditCardOff),
   'creditCard':
@@ -4209,9 +4246,13 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'flameOff': const TablerIcon(TablerIcons.flameOff, TablerIconsSvg.flameOff),
   'flame': const TablerIcon(TablerIcons.flame, TablerIconsSvg.flame),
   'flare': const TablerIcon(TablerIcons.flare, TablerIconsSvg.flare),
+  'flask2Filled':
+      const TablerIcon(TablerIcons.flask2Filled, TablerIconsSvg.flask2Filled),
   'flask2Off':
       const TablerIcon(TablerIcons.flask2Off, TablerIconsSvg.flask2Off),
   'flask2': const TablerIcon(TablerIcons.flask2, TablerIconsSvg.flask2),
+  'flaskFilled':
+      const TablerIcon(TablerIcons.flaskFilled, TablerIconsSvg.flaskFilled),
   'flaskOff': const TablerIcon(TablerIcons.flaskOff, TablerIconsSvg.flaskOff),
   'flask': const TablerIcon(TablerIcons.flask, TablerIconsSvg.flask),
   'flipFlops':
@@ -4390,6 +4431,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'giftCardFilled': const TablerIcon(
       TablerIcons.giftCardFilled, TablerIconsSvg.giftCardFilled),
   'giftCard': const TablerIcon(TablerIcons.giftCard, TablerIconsSvg.giftCard),
+  'giftFilled':
+      const TablerIcon(TablerIcons.giftFilled, TablerIconsSvg.giftFilled),
   'giftOff': const TablerIcon(TablerIcons.giftOff, TablerIconsSvg.giftOff),
   'gift': const TablerIcon(TablerIcons.gift, TablerIconsSvg.gift),
   'gitBranchDeleted': const TablerIcon(
@@ -4428,6 +4471,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'gradienter':
       const TablerIcon(TablerIcons.gradienter, TablerIconsSvg.gradienter),
   'grain': const TablerIcon(TablerIcons.grain, TablerIconsSvg.grain),
+  'graphFilled':
+      const TablerIcon(TablerIcons.graphFilled, TablerIconsSvg.graphFilled),
   'graphOff': const TablerIcon(TablerIcons.graphOff, TablerIconsSvg.graphOff),
   'graph': const TablerIcon(TablerIcons.graph, TablerIconsSvg.graph),
   'grave2': const TablerIcon(TablerIcons.grave2, TablerIconsSvg.grave2),
@@ -5219,7 +5264,10 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.lineHeight, TablerIconsSvg.lineHeight),
   'lineScan': const TablerIcon(TablerIcons.lineScan, TablerIconsSvg.lineScan),
   'line': const TablerIcon(TablerIcons.line, TablerIconsSvg.line),
+  'linkMinus':
+      const TablerIcon(TablerIcons.linkMinus, TablerIconsSvg.linkMinus),
   'linkOff': const TablerIcon(TablerIcons.linkOff, TablerIconsSvg.linkOff),
+  'linkPlus': const TablerIcon(TablerIcons.linkPlus, TablerIconsSvg.linkPlus),
   'link': const TablerIcon(TablerIcons.link, TablerIconsSvg.link),
   'listCheck':
       const TablerIcon(TablerIcons.listCheck, TablerIconsSvg.listCheck),
@@ -7932,6 +7980,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'timelineEventExclamation': const TablerIcon(
       TablerIcons.timelineEventExclamation,
       TablerIconsSvg.timelineEventExclamation),
+  'timelineEventFilled': const TablerIcon(
+      TablerIcons.timelineEventFilled, TablerIconsSvg.timelineEventFilled),
   'timelineEventMinus': const TablerIcon(
       TablerIcons.timelineEventMinus, TablerIconsSvg.timelineEventMinus),
   'timelineEventPlus': const TablerIcon(
@@ -8127,6 +8177,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'userEdit': const TablerIcon(TablerIcons.userEdit, TablerIconsSvg.userEdit),
   'userExclamation': const TablerIcon(
       TablerIcons.userExclamation, TablerIconsSvg.userExclamation),
+  'userFilled':
+      const TablerIcon(TablerIcons.userFilled, TablerIconsSvg.userFilled),
   'userHeart':
       const TablerIcon(TablerIcons.userHeart, TablerIconsSvg.userHeart),
   'userHexagon':

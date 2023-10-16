@@ -3471,6 +3471,10 @@ class TablerIcons {
   static const brandParsinta = IconData(0xFC42,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon brand-patreon-filled.
+  static const brandPatreonFilled = IconData(0xFCFF,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon brand-patreon.
   static const brandPatreon = IconData(0xEDD2,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -4047,6 +4051,10 @@ class TablerIcons {
   static const briefcase2 = IconData(0xFB03,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon briefcase-filled.
+  static const briefcaseFilled = IconData(0xFD00,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon briefcase-off.
   static const briefcaseOff = IconData(0xF3CC,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -4133,6 +4141,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon bucket.
   static const bucket = IconData(0xEA47,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon bug-filled.
+  static const bugFilled = IconData(0xFD01,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon bug-off.
@@ -4651,6 +4663,10 @@ class TablerIcons {
   static const caretLeftFilled = IconData(0xFB2B,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon caret-left-right-filled.
+  static const caretLeftRightFilled = IconData(0xFD02,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon caret-left-right.
   static const caretLeftRight = IconData(0xFC43,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -4665,6 +4681,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon caret-right.
   static const caretRight = IconData(0xEB5F,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon caret-up-down-filled.
+  static const caretUpDownFilled = IconData(0xFD03,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon caret-up-down.
@@ -4899,8 +4919,16 @@ class TablerIcons {
   static const chartDots3 = IconData(0xF098,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon chart-dots-filled.
+  static const chartDotsFilled = IconData(0xFD04,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon chart-dots.
   static const chartDots = IconData(0xEE2F,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon chart-grid-dots-filled.
+  static const chartGridDotsFilled = IconData(0xFD05,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon chart-grid-dots.
@@ -6095,12 +6123,28 @@ class TablerIcons {
   static const coffin = IconData(0xF579,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon coin-bitcoin-filled.
+  static const coinBitcoinFilled = IconData(0xFD06,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon coin-bitcoin.
   static const coinBitcoin = IconData(0xF2BE,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon coin-euro-filled.
+  static const coinEuroFilled = IconData(0xFD07,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon coin-euro.
   static const coinEuro = IconData(0xF2BF,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon coin-filled.
+  static const coinFilled = IconData(0xFD08,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon coin-monero-filled.
+  static const coinMoneroFilled = IconData(0xFD09,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon coin-monero.
@@ -6111,16 +6155,40 @@ class TablerIcons {
   static const coinOff = IconData(0xF0D1,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon coin-pound-filled.
+  static const coinPoundFilled = IconData(0xFD0A,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon coin-pound.
   static const coinPound = IconData(0xF2C0,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon coin-rupee-filled.
+  static const coinRupeeFilled = IconData(0xFD0B,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon coin-rupee.
   static const coinRupee = IconData(0xF2C1,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon coin-taka-filled.
+  static const coinTakaFilled = IconData(0xFD0C,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon coin-taka.
+  static const coinTaka = IconData(0xFD0D,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon coin-yen-filled.
+  static const coinYenFilled = IconData(0xFD0E,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon coin-yen.
   static const coinYen = IconData(0xF2C2,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon coin-yuan-filled.
+  static const coinYuanFilled = IconData(0xFD0F,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon coin-yuan.
@@ -6197,6 +6265,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon command.
   static const command = IconData(0xEA78,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon compass-filled.
+  static const compassFilled = IconData(0xFD10,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon compass-off.
@@ -6425,6 +6497,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon creative-commons.
   static const creativeCommons = IconData(0xEFB3,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon credit-card-filled.
+  static const creditCardFilled = IconData(0xFD11,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon credit-card-off.
@@ -9175,12 +9251,20 @@ class TablerIcons {
   static const flare = IconData(0xEE8E,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon flask-2-filled.
+  static const flask2Filled = IconData(0xFD12,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon flask-2-off.
   static const flask2Off = IconData(0xF12F,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon flask-2.
   static const flask2 = IconData(0xEF60,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon flask-filled.
+  static const flaskFilled = IconData(0xFD13,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon flask-off.
@@ -9607,6 +9691,10 @@ class TablerIcons {
   static const giftCard = IconData(0xF3AA,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon gift-filled.
+  static const giftFilled = IconData(0xFD14,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon gift-off.
   static const giftOff = IconData(0xF3F3,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -9709,6 +9797,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon grain.
   static const grain = IconData(0xEE92,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon graph-filled.
+  static const graphFilled = IconData(0xFD15,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon graph-off.
@@ -11531,8 +11623,16 @@ class TablerIcons {
   static const line = IconData(0xEC40,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon link-minus.
+  static const linkMinus = IconData(0xFD16,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon link-off.
   static const linkOff = IconData(0xF402,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon link-plus.
+  static const linkPlus = IconData(0xFD17,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon link.
@@ -17827,6 +17927,10 @@ class TablerIcons {
   static const timelineEventExclamation = IconData(0xF662,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon timeline-event-filled.
+  static const timelineEventFilled = IconData(0xFD18,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon timeline-event-minus.
   static const timelineEventMinus = IconData(0xF663,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -18297,6 +18401,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon user-exclamation.
   static const userExclamation = IconData(0xEC12,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon user-filled.
+  static const userFilled = IconData(0xFD19,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon user-heart.
