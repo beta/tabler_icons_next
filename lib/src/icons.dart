@@ -3147,6 +3147,10 @@ class TablerIcons {
   static const brandGoogleDrive = IconData(0xEC1E,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon brand-google-filled.
+  static const brandGoogleFilled = IconData(0xFD1A,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon brand-google-fit.
   static const brandGoogleFit = IconData(0xF297,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -3527,6 +3531,10 @@ class TablerIcons {
   static const brandPowershell = IconData(0xF5ED,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon brand-printables.
+  static const brandPrintables = IconData(0xFD1B,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon brand-prisma.
   static const brandPrisma = IconData(0xF499,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -3765,6 +3773,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon brand-tether.
   static const brandTether = IconData(0xF5A3,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon brand-thingiverse.
+  static const brandThingiverse = IconData(0xFD1C,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon brand-threads.
@@ -4411,12 +4423,20 @@ class TablerIcons {
   static const calendarRepeat = IconData(0xFAD2,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon calendar-sad.
+  static const calendarSad = IconData(0xFD1D,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon calendar-search.
   static const calendarSearch = IconData(0xF82E,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon calendar-share.
   static const calendarShare = IconData(0xF82F,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon calendar-smile.
+  static const calendarSmile = IconData(0xFD1E,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon calendar-star.
@@ -4433,6 +4453,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon calendar-up.
   static const calendarUp = IconData(0xF831,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon calendar-user.
+  static const calendarUser = IconData(0xFD1F,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon calendar-x.
@@ -4757,6 +4781,14 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon category-filled.
   static const categoryFilled = IconData(0xFB2E,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon category-minus.
+  static const categoryMinus = IconData(0xFD20,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon category-plus.
+  static const categoryPlus = IconData(0xFD21,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon category.
@@ -8751,6 +8783,10 @@ class TablerIcons {
   static const fileMusic = IconData(0xEA9F,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon file-neutral.
+  static const fileNeutral = IconData(0xFD22,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon file-off.
   static const fileOff = IconData(0xECF2,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -8787,6 +8823,10 @@ class TablerIcons {
   static const fileRss = IconData(0xF03B,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon file-sad.
+  static const fileSad = IconData(0xFD23,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon file-scissors.
   static const fileScissors = IconData(0xF03C,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -8805,6 +8845,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon file-signal.
   static const fileSignal = IconData(0xF03D,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon file-smile.
+  static const fileSmile = IconData(0xFD24,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon file-spreadsheet.
@@ -12865,6 +12909,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon meteor.
   static const meteor = IconData(0xF1FD,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon metronome.
+  static const metronome = IconData(0xFD25,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon michelin-bib-gourmand.
@@ -17339,6 +17387,26 @@ class TablerIcons {
   static const stack3 = IconData(0xEF9D,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon stack-back.
+  static const stackBack = IconData(0xFD26,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon stack-backward.
+  static const stackBackward = IconData(0xFD27,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon stack-forward.
+  static const stackForward = IconData(0xFD28,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon stack-front.
+  static const stackFront = IconData(0xFD29,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon stack-middle.
+  static const stackMiddle = IconData(0xFD2A,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon stack-pop.
   static const stackPop = IconData(0xF234,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -17989,6 +18057,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon tools-kitchen-2.
   static const toolsKitchen2 = IconData(0xEEFF,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon tools-kitchen-3.
+  static const toolsKitchen3 = IconData(0xFD2B,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon tools-kitchen-off.

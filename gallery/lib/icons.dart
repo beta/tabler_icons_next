@@ -1444,6 +1444,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.brandGoogleBigQuery, TablerIconsSvg.brandGoogleBigQuery),
   'brandGoogleDrive': const TablerIcon(
       TablerIcons.brandGoogleDrive, TablerIconsSvg.brandGoogleDrive),
+  'brandGoogleFilled': const TablerIcon(
+      TablerIcons.brandGoogleFilled, TablerIconsSvg.brandGoogleFilled),
   'brandGoogleFit': const TablerIcon(
       TablerIcons.brandGoogleFit, TablerIconsSvg.brandGoogleFit),
   'brandGoogleHome': const TablerIcon(
@@ -1631,6 +1633,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.brandPolymer, TablerIconsSvg.brandPolymer),
   'brandPowershell': const TablerIcon(
       TablerIcons.brandPowershell, TablerIconsSvg.brandPowershell),
+  'brandPrintables': const TablerIcon(
+      TablerIcons.brandPrintables, TablerIconsSvg.brandPrintables),
   'brandPrisma':
       const TablerIcon(TablerIcons.brandPrisma, TablerIconsSvg.brandPrisma),
   'brandProducthunt': const TablerIcon(
@@ -1749,6 +1753,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.brandTerraform, TablerIconsSvg.brandTerraform),
   'brandTether':
       const TablerIcon(TablerIcons.brandTether, TablerIconsSvg.brandTether),
+  'brandThingiverse': const TablerIcon(
+      TablerIcons.brandThingiverse, TablerIconsSvg.brandThingiverse),
   'brandThreads':
       const TablerIcon(TablerIcons.brandThreads, TablerIconsSvg.brandThreads),
   'brandThreejs':
@@ -2047,10 +2053,14 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.calendarQuestion, TablerIconsSvg.calendarQuestion),
   'calendarRepeat': const TablerIcon(
       TablerIcons.calendarRepeat, TablerIconsSvg.calendarRepeat),
+  'calendarSad':
+      const TablerIcon(TablerIcons.calendarSad, TablerIconsSvg.calendarSad),
   'calendarSearch': const TablerIcon(
       TablerIcons.calendarSearch, TablerIconsSvg.calendarSearch),
   'calendarShare':
       const TablerIcon(TablerIcons.calendarShare, TablerIconsSvg.calendarShare),
+  'calendarSmile':
+      const TablerIcon(TablerIcons.calendarSmile, TablerIconsSvg.calendarSmile),
   'calendarStar':
       const TablerIcon(TablerIcons.calendarStar, TablerIconsSvg.calendarStar),
   'calendarStats':
@@ -2059,6 +2069,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.calendarTime, TablerIconsSvg.calendarTime),
   'calendarUp':
       const TablerIcon(TablerIcons.calendarUp, TablerIconsSvg.calendarUp),
+  'calendarUser':
+      const TablerIcon(TablerIcons.calendarUser, TablerIconsSvg.calendarUser),
   'calendarX':
       const TablerIcon(TablerIcons.calendarX, TablerIconsSvg.calendarX),
   'calendar': const TablerIcon(TablerIcons.calendar, TablerIconsSvg.calendar),
@@ -2196,6 +2208,10 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.category2, TablerIconsSvg.category2),
   'categoryFilled': const TablerIcon(
       TablerIcons.categoryFilled, TablerIconsSvg.categoryFilled),
+  'categoryMinus':
+      const TablerIcon(TablerIcons.categoryMinus, TablerIconsSvg.categoryMinus),
+  'categoryPlus':
+      const TablerIcon(TablerIcons.categoryPlus, TablerIconsSvg.categoryPlus),
   'category': const TablerIcon(TablerIcons.category, TablerIconsSvg.category),
   'ceOff': const TablerIcon(TablerIcons.ceOff, TablerIconsSvg.ceOff),
   'ce': const TablerIcon(TablerIcons.ce, TablerIconsSvg.ce),
@@ -4032,6 +4048,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.fileMinus, TablerIconsSvg.fileMinus),
   'fileMusic':
       const TablerIcon(TablerIcons.fileMusic, TablerIconsSvg.fileMusic),
+  'fileNeutral':
+      const TablerIcon(TablerIcons.fileNeutral, TablerIconsSvg.fileNeutral),
   'fileOff': const TablerIcon(TablerIcons.fileOff, TablerIconsSvg.fileOff),
   'fileOrientation': const TablerIcon(
       TablerIcons.fileOrientation, TablerIconsSvg.fileOrientation),
@@ -4047,6 +4065,7 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'fileReport':
       const TablerIcon(TablerIcons.fileReport, TablerIconsSvg.fileReport),
   'fileRss': const TablerIcon(TablerIcons.fileRss, TablerIconsSvg.fileRss),
+  'fileSad': const TablerIcon(TablerIcons.fileSad, TablerIconsSvg.fileSad),
   'fileScissors':
       const TablerIcon(TablerIcons.fileScissors, TablerIconsSvg.fileScissors),
   'fileSearch':
@@ -4057,6 +4076,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.fileShredder, TablerIconsSvg.fileShredder),
   'fileSignal':
       const TablerIcon(TablerIcons.fileSignal, TablerIconsSvg.fileSignal),
+  'fileSmile':
+      const TablerIcon(TablerIcons.fileSmile, TablerIconsSvg.fileSmile),
   'fileSpreadsheet': const TablerIcon(
       TablerIcons.fileSpreadsheet, TablerIconsSvg.fileSpreadsheet),
   'fileStack':
@@ -5777,6 +5798,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'meteorOff':
       const TablerIcon(TablerIcons.meteorOff, TablerIconsSvg.meteorOff),
   'meteor': const TablerIcon(TablerIcons.meteor, TablerIconsSvg.meteor),
+  'metronome':
+      const TablerIcon(TablerIcons.metronome, TablerIconsSvg.metronome),
   'michelinBibGourmand': const TablerIcon(
       TablerIcons.michelinBibGourmand, TablerIconsSvg.michelinBibGourmand),
   'michelinStarGreen': const TablerIcon(
@@ -7747,6 +7770,16 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.squaresFilled, TablerIconsSvg.squaresFilled),
   'stack2': const TablerIcon(TablerIcons.stack2, TablerIconsSvg.stack2),
   'stack3': const TablerIcon(TablerIcons.stack3, TablerIconsSvg.stack3),
+  'stackBack':
+      const TablerIcon(TablerIcons.stackBack, TablerIconsSvg.stackBack),
+  'stackBackward':
+      const TablerIcon(TablerIcons.stackBackward, TablerIconsSvg.stackBackward),
+  'stackForward':
+      const TablerIcon(TablerIcons.stackForward, TablerIconsSvg.stackForward),
+  'stackFront':
+      const TablerIcon(TablerIcons.stackFront, TablerIconsSvg.stackFront),
+  'stackMiddle':
+      const TablerIcon(TablerIcons.stackMiddle, TablerIconsSvg.stackMiddle),
   'stackPop': const TablerIcon(TablerIcons.stackPop, TablerIconsSvg.stackPop),
   'stackPush':
       const TablerIcon(TablerIcons.stackPush, TablerIconsSvg.stackPush),
@@ -8008,6 +8041,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.toolsKitchen2Off, TablerIconsSvg.toolsKitchen2Off),
   'toolsKitchen2':
       const TablerIcon(TablerIcons.toolsKitchen2, TablerIconsSvg.toolsKitchen2),
+  'toolsKitchen3':
+      const TablerIcon(TablerIcons.toolsKitchen3, TablerIconsSvg.toolsKitchen3),
   'toolsKitchenOff': const TablerIcon(
       TablerIcons.toolsKitchenOff, TablerIconsSvg.toolsKitchenOff),
   'toolsKitchen':
