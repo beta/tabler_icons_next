@@ -743,6 +743,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.babyBottle, TablerIconsSvg.babyBottle),
   'babyCarriage':
       const TablerIcon(TablerIcons.babyCarriage, TablerIconsSvg.babyCarriage),
+  'background':
+      const TablerIcon(TablerIcons.background, TablerIconsSvg.background),
   'backhoe': const TablerIcon(TablerIcons.backhoe, TablerIconsSvg.backhoe),
   'backpackOff':
       const TablerIcon(TablerIcons.backpackOff, TablerIconsSvg.backpackOff),
@@ -1495,6 +1497,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.brandJavascript, TablerIconsSvg.brandJavascript),
   'brandJuejin':
       const TablerIcon(TablerIcons.brandJuejin, TablerIconsSvg.brandJuejin),
+  'brandKakoTalk':
+      const TablerIcon(TablerIcons.brandKakoTalk, TablerIconsSvg.brandKakoTalk),
   'brandKbin':
       const TablerIcon(TablerIcons.brandKbin, TablerIconsSvg.brandKbin),
   'brandKick':
@@ -2021,6 +2025,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.calendarCancel, TablerIconsSvg.calendarCancel),
   'calendarCheck':
       const TablerIcon(TablerIcons.calendarCheck, TablerIconsSvg.calendarCheck),
+  'calendarClock':
+      const TablerIcon(TablerIcons.calendarClock, TablerIconsSvg.calendarClock),
   'calendarCode':
       const TablerIcon(TablerIcons.calendarCode, TablerIconsSvg.calendarCode),
   'calendarCog':
@@ -2041,6 +2047,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.calendarHeart, TablerIconsSvg.calendarHeart),
   'calendarMinus':
       const TablerIcon(TablerIcons.calendarMinus, TablerIconsSvg.calendarMinus),
+  'calendarMonth':
+      const TablerIcon(TablerIcons.calendarMonth, TablerIconsSvg.calendarMonth),
   'calendarOff':
       const TablerIcon(TablerIcons.calendarOff, TablerIconsSvg.calendarOff),
   'calendarPause':
@@ -2071,6 +2079,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.calendarUp, TablerIconsSvg.calendarUp),
   'calendarUser':
       const TablerIcon(TablerIcons.calendarUser, TablerIconsSvg.calendarUser),
+  'calendarWeek':
+      const TablerIcon(TablerIcons.calendarWeek, TablerIconsSvg.calendarWeek),
   'calendarX':
       const TablerIcon(TablerIcons.calendarX, TablerIconsSvg.calendarX),
   'calendar': const TablerIcon(TablerIcons.calendar, TablerIconsSvg.calendar),
@@ -2401,6 +2411,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'chevronsUp':
       const TablerIcon(TablerIcons.chevronsUp, TablerIconsSvg.chevronsUp),
   'chisel': const TablerIcon(TablerIcons.chisel, TablerIconsSvg.chisel),
+  'christmasBall':
+      const TablerIcon(TablerIcons.christmasBall, TablerIconsSvg.christmasBall),
   'christmasTreeOff': const TablerIcon(
       TablerIcons.christmasTreeOff, TablerIconsSvg.christmasTreeOff),
   'christmasTree':
@@ -3016,6 +3028,10 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.creditCardFilled, TablerIconsSvg.creditCardFilled),
   'creditCardOff':
       const TablerIcon(TablerIcons.creditCardOff, TablerIconsSvg.creditCardOff),
+  'creditCardPay':
+      const TablerIcon(TablerIcons.creditCardPay, TablerIconsSvg.creditCardPay),
+  'creditCardRefund': const TablerIcon(
+      TablerIcons.creditCardRefund, TablerIconsSvg.creditCardRefund),
   'creditCard':
       const TablerIcon(TablerIcons.creditCard, TablerIconsSvg.creditCard),
   'cricket': const TablerIcon(TablerIcons.cricket, TablerIconsSvg.cricket),
@@ -3170,6 +3186,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.currencyTugrik, TablerIconsSvg.currencyTugrik),
   'currencyWon':
       const TablerIcon(TablerIcons.currencyWon, TablerIconsSvg.currencyWon),
+  'currencyXrp':
+      const TablerIcon(TablerIcons.currencyXrp, TablerIconsSvg.currencyXrp),
   'currencyYenOff': const TablerIcon(
       TablerIcons.currencyYenOff, TablerIconsSvg.currencyYenOff),
   'currencyYen':
@@ -3237,6 +3255,7 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.dentalOff, TablerIconsSvg.dentalOff),
   'dental': const TablerIcon(TablerIcons.dental, TablerIconsSvg.dental),
   'deselect': const TablerIcon(TablerIcons.deselect, TablerIconsSvg.deselect),
+  'desk': const TablerIcon(TablerIcons.desk, TablerIconsSvg.desk),
   'detailsOff':
       const TablerIcon(TablerIcons.detailsOff, TablerIconsSvg.detailsOff),
   'details': const TablerIcon(TablerIcons.details, TablerIconsSvg.details),
@@ -3730,6 +3749,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'dice': const TablerIcon(TablerIcons.dice, TablerIconsSvg.dice),
   'dimensions':
       const TablerIcon(TablerIcons.dimensions, TablerIconsSvg.dimensions),
+  'directionArrows': const TablerIcon(
+      TablerIcons.directionArrows, TablerIconsSvg.directionArrows),
   'directionHorizontal': const TablerIcon(
       TablerIcons.directionHorizontal, TablerIconsSvg.directionHorizontal),
   'directionSignFilled': const TablerIcon(
@@ -5877,10 +5898,14 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'moodKidFilled':
       const TablerIcon(TablerIcons.moodKidFilled, TablerIconsSvg.moodKidFilled),
   'moodKid': const TablerIcon(TablerIcons.moodKid, TablerIconsSvg.moodKid),
+  'moodLookDown':
+      const TablerIcon(TablerIcons.moodLookDown, TablerIconsSvg.moodLookDown),
   'moodLookLeft':
       const TablerIcon(TablerIcons.moodLookLeft, TablerIconsSvg.moodLookLeft),
   'moodLookRight':
       const TablerIcon(TablerIcons.moodLookRight, TablerIconsSvg.moodLookRight),
+  'moodLookUp':
+      const TablerIcon(TablerIcons.moodLookUp, TablerIconsSvg.moodLookUp),
   'moodMinus':
       const TablerIcon(TablerIcons.moodMinus, TablerIconsSvg.moodMinus),
   'moodNerd': const TablerIcon(TablerIcons.moodNerd, TablerIconsSvg.moodNerd),
@@ -5893,6 +5918,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'moodOff': const TablerIcon(TablerIcons.moodOff, TablerIconsSvg.moodOff),
   'moodPin': const TablerIcon(TablerIcons.moodPin, TablerIconsSvg.moodPin),
   'moodPlus': const TablerIcon(TablerIcons.moodPlus, TablerIconsSvg.moodPlus),
+  'moodPuzzled':
+      const TablerIcon(TablerIcons.moodPuzzled, TablerIconsSvg.moodPuzzled),
   'moodSad2': const TablerIcon(TablerIcons.moodSad2, TablerIconsSvg.moodSad2),
   'moodSadDizzy':
       const TablerIcon(TablerIcons.moodSadDizzy, TablerIconsSvg.moodSadDizzy),
@@ -7214,6 +7241,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.shoppingCartX, TablerIconsSvg.shoppingCartX),
   'shoppingCart':
       const TablerIcon(TablerIcons.shoppingCart, TablerIconsSvg.shoppingCart),
+  'shovelPitchforks': const TablerIcon(
+      TablerIcons.shovelPitchforks, TablerIconsSvg.shovelPitchforks),
   'shovel': const TablerIcon(TablerIcons.shovel, TablerIconsSvg.shovel),
   'shredder': const TablerIcon(TablerIcons.shredder, TablerIconsSvg.shredder),
   'signLeftFilled': const TablerIcon(
@@ -7250,6 +7279,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.skateboard, TablerIconsSvg.skateboard),
   'skateboarding':
       const TablerIcon(TablerIcons.skateboarding, TablerIconsSvg.skateboarding),
+  'skewX': const TablerIcon(TablerIcons.skewX, TablerIconsSvg.skewX),
+  'skewY': const TablerIcon(TablerIcons.skewY, TablerIconsSvg.skewY),
   'skull': const TablerIcon(TablerIcons.skull, TablerIconsSvg.skull),
   'slash': const TablerIcon(TablerIcons.slash, TablerIconsSvg.slash),
   'slashes': const TablerIcon(TablerIcons.slashes, TablerIconsSvg.slashes),
@@ -7814,6 +7845,7 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.stethoscopeOff, TablerIconsSvg.stethoscopeOff),
   'stethoscope':
       const TablerIcon(TablerIcons.stethoscope, TablerIconsSvg.stethoscope),
+  'sticker2': const TablerIcon(TablerIcons.sticker2, TablerIconsSvg.sticker2),
   'sticker': const TablerIcon(TablerIcons.sticker, TablerIconsSvg.sticker),
   'stormOff': const TablerIcon(TablerIcons.stormOff, TablerIconsSvg.stormOff),
   'storm': const TablerIcon(TablerIcons.storm, TablerIconsSvg.storm),
