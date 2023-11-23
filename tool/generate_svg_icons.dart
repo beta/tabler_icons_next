@@ -12,7 +12,7 @@ Future<void> main() async {
     throw StateError('Directory not found: ${iconsDir.path}');
   }
 
-  final files = iconsDir.listSync();
+  final files = iconsDir.listSync()..sort((a, b) => a.path.compareTo(b.path));
   final lines = <String>[];
   for (final entry in files) {
     final filename = entry.path.split(RegExp(r'[/\\]')).last;

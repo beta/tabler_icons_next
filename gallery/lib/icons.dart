@@ -2033,6 +2033,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.calendarCog, TablerIconsSvg.calendarCog),
   'calendarDollar': const TablerIcon(
       TablerIcons.calendarDollar, TablerIconsSvg.calendarDollar),
+  'calendarDot':
+      const TablerIcon(TablerIcons.calendarDot, TablerIconsSvg.calendarDot),
   'calendarDown':
       const TablerIcon(TablerIcons.calendarDown, TablerIconsSvg.calendarDown),
   'calendarDue':
@@ -2960,7 +2962,13 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'cookieOff':
       const TablerIcon(TablerIcons.cookieOff, TablerIconsSvg.cookieOff),
   'cookie': const TablerIcon(TablerIcons.cookie, TablerIconsSvg.cookie),
+  'copyCheck':
+      const TablerIcon(TablerIcons.copyCheck, TablerIconsSvg.copyCheck),
+  'copyMinus':
+      const TablerIcon(TablerIcons.copyMinus, TablerIconsSvg.copyMinus),
   'copyOff': const TablerIcon(TablerIcons.copyOff, TablerIconsSvg.copyOff),
+  'copyPlus': const TablerIcon(TablerIcons.copyPlus, TablerIconsSvg.copyPlus),
+  'copyX': const TablerIcon(TablerIcons.copyX, TablerIconsSvg.copyX),
   'copy': const TablerIcon(TablerIcons.copy, TablerIconsSvg.copy),
   'copyleftFilled': const TablerIcon(
       TablerIcons.copyleftFilled, TablerIconsSvg.copyleftFilled),
@@ -4357,6 +4365,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.folderPlus, TablerIconsSvg.folderPlus),
   'folderQuestion': const TablerIcon(
       TablerIcons.folderQuestion, TablerIconsSvg.folderQuestion),
+  'folderRoot':
+      const TablerIcon(TablerIcons.folderRoot, TablerIconsSvg.folderRoot),
   'folderSearch':
       const TablerIcon(TablerIcons.folderSearch, TablerIconsSvg.folderSearch),
   'folderShare':
@@ -4542,6 +4552,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.guitarPickFilled, TablerIconsSvg.guitarPickFilled),
   'guitarPick':
       const TablerIcon(TablerIcons.guitarPick, TablerIconsSvg.guitarPick),
+  'gymnastics':
+      const TablerIcon(TablerIcons.gymnastics, TablerIconsSvg.gymnastics),
   'h1': const TablerIcon(TablerIcons.h1, TablerIconsSvg.h1),
   'h2': const TablerIcon(TablerIcons.h2, TablerIconsSvg.h2),
   'h3': const TablerIcon(TablerIcons.h3, TablerIconsSvg.h3),
@@ -5124,6 +5136,9 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.layoutBottombarExpand, TablerIconsSvg.layoutBottombarExpand),
   'layoutBottombarFilled': const TablerIcon(
       TablerIcons.layoutBottombarFilled, TablerIconsSvg.layoutBottombarFilled),
+  'layoutBottombarInactive': const TablerIcon(
+      TablerIcons.layoutBottombarInactive,
+      TablerIconsSvg.layoutBottombarInactive),
   'layoutBottombar': const TablerIcon(
       TablerIcons.layoutBottombar, TablerIconsSvg.layoutBottombar),
   'layoutCards':
@@ -5162,12 +5177,16 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.layoutNavbarExpand, TablerIconsSvg.layoutNavbarExpand),
   'layoutNavbarFilled': const TablerIcon(
       TablerIcons.layoutNavbarFilled, TablerIconsSvg.layoutNavbarFilled),
+  'layoutNavbarInactive': const TablerIcon(
+      TablerIcons.layoutNavbarInactive, TablerIconsSvg.layoutNavbarInactive),
   'layoutNavbar':
       const TablerIcon(TablerIcons.layoutNavbar, TablerIconsSvg.layoutNavbar),
   'layoutOff':
       const TablerIcon(TablerIcons.layoutOff, TablerIconsSvg.layoutOff),
   'layoutRows':
       const TablerIcon(TablerIcons.layoutRows, TablerIconsSvg.layoutRows),
+  'layoutSidebarInactive': const TablerIcon(
+      TablerIcons.layoutSidebarInactive, TablerIconsSvg.layoutSidebarInactive),
   'layoutSidebarLeftCollapseFilled': const TablerIcon(
       TablerIcons.layoutSidebarLeftCollapseFilled,
       TablerIconsSvg.layoutSidebarLeftCollapseFilled),
@@ -5192,6 +5211,9 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'layoutSidebarRightExpand': const TablerIcon(
       TablerIcons.layoutSidebarRightExpand,
       TablerIconsSvg.layoutSidebarRightExpand),
+  'layoutSidebarRightInactive': const TablerIcon(
+      TablerIcons.layoutSidebarRightInactive,
+      TablerIconsSvg.layoutSidebarRightInactive),
   'layoutSidebarRight': const TablerIcon(
       TablerIcons.layoutSidebarRight, TablerIconsSvg.layoutSidebarRight),
   'layoutSidebar':
@@ -5291,6 +5313,13 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'letterZSmall':
       const TablerIcon(TablerIcons.letterZSmall, TablerIconsSvg.letterZSmall),
   'letterZ': const TablerIcon(TablerIcons.letterZ, TablerIconsSvg.letterZ),
+  'libraryMinus':
+      const TablerIcon(TablerIcons.libraryMinus, TablerIconsSvg.libraryMinus),
+  'libraryPhoto':
+      const TablerIcon(TablerIcons.libraryPhoto, TablerIconsSvg.libraryPhoto),
+  'libraryPlus':
+      const TablerIcon(TablerIcons.libraryPlus, TablerIconsSvg.libraryPlus),
+  'library': const TablerIcon(TablerIcons.library, TablerIconsSvg.library),
   'licenseOff':
       const TablerIcon(TablerIcons.licenseOff, TablerIconsSvg.licenseOff),
   'license': const TablerIcon(TablerIcons.license, TablerIconsSvg.license),
@@ -5801,6 +5830,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.messagePlus, TablerIconsSvg.messagePlus),
   'messageQuestion': const TablerIcon(
       TablerIcons.messageQuestion, TablerIconsSvg.messageQuestion),
+  'messageReply':
+      const TablerIcon(TablerIcons.messageReply, TablerIconsSvg.messageReply),
   'messageReport':
       const TablerIcon(TablerIcons.messageReport, TablerIconsSvg.messageReport),
   'messageSearch':
@@ -7010,6 +7041,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.scriptPlus, TablerIconsSvg.scriptPlus),
   'scriptX': const TablerIcon(TablerIcons.scriptX, TablerIconsSvg.scriptX),
   'script': const TablerIcon(TablerIcons.script, TablerIconsSvg.script),
+  'scubaDiving':
+      const TablerIcon(TablerIcons.scubaDiving, TablerIconsSvg.scubaDiving),
   'scubaMaskOff':
       const TablerIcon(TablerIcons.scubaMaskOff, TablerIconsSvg.scubaMaskOff),
   'scubaMask':
@@ -7295,6 +7328,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'smokingNo':
       const TablerIcon(TablerIcons.smokingNo, TablerIconsSvg.smokingNo),
   'smoking': const TablerIcon(TablerIcons.smoking, TablerIconsSvg.smoking),
+  'snowboarding':
+      const TablerIcon(TablerIcons.snowboarding, TablerIconsSvg.snowboarding),
   'snowflakeOff':
       const TablerIcon(TablerIcons.snowflakeOff, TablerIconsSvg.snowflakeOff),
   'snowflake':
