@@ -7532,6 +7532,36 @@ class TablerIconsSvg {
 
 ''';
 
+  /// SVG data for Tabler Icon border-corner-pill.
+  static const borderCornerPill =
+      '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-border-corner-pill" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 20v-5c0 -6.075 4.925 -11 11 -11h5" />
+</svg>
+
+
+''';
+
+  /// SVG data for Tabler Icon border-corner-rounded.
+  static const borderCornerRounded =
+      '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-border-corner-rounded" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 20v-10a6 6 0 0 1 6 -6h10" />
+</svg>
+
+
+''';
+
+  /// SVG data for Tabler Icon border-corner-square.
+  static const borderCornerSquare =
+      '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-border-corner-square" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 20v-15a1 1 0 0 1 1 -1h15" />
+</svg>
+
+
+''';
+
   /// SVG data for Tabler Icon border-corners.
   static const borderCorners =
       '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-border-corners" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -27878,6 +27908,19 @@ class TablerIconsSvg {
   <path d="M6 16l-1 -4l3 -4" />
   <path d="M6 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
   <path d="M13.5 12h2.5l4 2" />
+</svg>
+
+
+''';
+
+  /// SVG data for Tabler Icon favicon.
+  static const favicon =
+      '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-favicon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M2 5m0 3a3 3 0 0 1 3 -3h14a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3z" />
+  <path d="M6 10v4" />
+  <path d="M11 10a2 2 0 1 0 0 4" />
+  <path d="M16 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
 </svg>
 
 
@@ -48556,6 +48599,45 @@ class TablerIconsSvg {
 
 ''';
 
+  /// SVG data for Tabler Icon receipt-bitcoin.
+  static const receiptBitcoin =
+      '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-receipt-bitcoin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2" />
+  <path d="M9 7h4.09c1.055 0 1.91 .895 1.91 2s-.855 2 -1.91 2c1.055 0 1.91 .895 1.91 2s-.855 2 -1.91 2h-4.09" />
+  <path d="M10 11h4" />
+  <path d="M10 6v10v-9" />
+  <path d="M13 6v1" />
+  <path d="M13 15v1" />
+</svg>
+
+
+''';
+
+  /// SVG data for Tabler Icon receipt-dollar.
+  static const receiptDollar =
+      '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-receipt-dollar" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2" />
+  <path d="M14.8 8a2 2 0 0 0 -1.8 -1h-2a2 2 0 1 0 0 4h2a2 2 0 1 1 0 4h-2a2 2 0 0 1 -1.8 -1" />
+  <path d="M12 6v10" />
+</svg>
+
+
+''';
+
+  /// SVG data for Tabler Icon receipt-euro.
+  static const receiptEuro =
+      '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-receipt-euro" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2" />
+  <path d="M15 7.8c-.523 -.502 -1.172 -.8 -1.875 -.8c-1.727 0 -3.125 1.791 -3.125 4s1.398 4 3.125 4c.703 0 1.352 -.298 1.874 -.8" />
+  <path d="M9 11h4" />
+</svg>
+
+
+''';
+
   /// SVG data for Tabler Icon receipt-off.
   static const receiptOff =
       '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-receipt-off" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -48566,6 +48648,18 @@ class TablerIconsSvg {
   <path d="M13 15l2 0" />
   <path d="M15 11l0 .01" />
   <path d="M3 3l18 18" />
+</svg>
+
+
+''';
+
+  /// SVG data for Tabler Icon receipt-pound.
+  static const receiptPound =
+      '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-receipt-pound" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2" />
+  <path d="M15 9a2 2 0 1 0 -4 0v4a2 2 0 0 1 -2 2h6" />
+  <path d="M9 12h4" />
 </svg>
 
 
@@ -48590,6 +48684,33 @@ class TablerIconsSvg {
   <circle cx="9.5" cy="8.5" r=".5" fill="currentColor" />
   <circle cx="14.5" cy="13.5" r=".5" fill="currentColor" />
   <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2" />
+</svg>
+
+
+''';
+
+  /// SVG data for Tabler Icon receipt-yen.
+  static const receiptYen =
+      '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-receipt-yen" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2" />
+  <path d="M9 11h6" />
+  <path d="M9 14h6" />
+  <path d="M9 7l3 4.5" />
+  <path d="M15 7l-3 4.5v4.5" />
+</svg>
+
+
+''';
+
+  /// SVG data for Tabler Icon receipt-yuan.
+  static const receiptYuan =
+      '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-receipt-yuan" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2" />
+  <path d="M9 12h6" />
+  <path d="M9 7l3 4.5" />
+  <path d="M15 7l-3 4.5v4.5" />
 </svg>
 
 
@@ -50237,6 +50358,20 @@ class TablerIconsSvg {
   <path d="M14 16v.01" />
   <path d="M7.5 8h9l-.281 -2.248a2 2 0 0 0 -1.985 -1.752h-4.468a2 2 0 0 0 -1.986 1.752l-.28 2.248z" />
   <path d="M7.5 8l-1.612 9.671a2 2 0 0 0 1.973 2.329h8.278a2 2 0 0 0 1.973 -2.329l-1.612 -9.671" />
+</svg>
+
+
+''';
+
+  /// SVG data for Tabler Icon sandbox.
+  static const sandbox =
+      '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sandbox" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M19.953 8.017l1.047 6.983v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-2l1.245 -8.297a2 2 0 0 1 1.977 -1.703h3.778" />
+  <path d="M3 15h18" />
+  <path d="M13 3l5.5 1.5" />
+  <path d="M15.75 3.75l-2 7" />
+  <path d="M7 10.5c1.667 -.667 3.333 -.667 5 0c1.667 .667 3.333 .667 5 0" />
 </svg>
 
 
@@ -57226,6 +57361,22 @@ class TablerIconsSvg {
 
 ''';
 
+  /// SVG data for Tabler Icon text-grammar.
+  static const textGrammar =
+      '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-text-grammar" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M14 9a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+  <path d="M4 12v-5a3 3 0 1 1 6 0v5" />
+  <path d="M4 9h6" />
+  <path d="M20 6v6" />
+  <path d="M4 16h12" />
+  <path d="M4 20h6" />
+  <path d="M14 20l2 2l5 -5" />
+</svg>
+
+
+''';
+
   /// SVG data for Tabler Icon text-increase.
   static const textIncrease =
       '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-text-increase" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -58462,6 +58613,102 @@ class TablerIconsSvg {
   <path d="M8 11l0 -5" />
   <path d="M13 11l0 -4.5" />
   <path d="M3 19l18 0" />
+</svg>
+
+
+''';
+
+  /// SVG data for Tabler Icon transaction-bitcoin.
+  static const transactionBitcoin =
+      '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-transaction-bitcoin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M15 12h4.09c1.055 0 1.91 .895 1.91 2s-.855 2 -1.91 2c1.055 0 1.91 .895 1.91 2s-.855 2 -1.91 2h-4.09" />
+  <path d="M16 16h4" />
+  <path d="M16 11v10v-9" />
+  <path d="M19 11v1" />
+  <path d="M19 20v1" />
+  <path d="M5 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M17 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M7 5h8" />
+  <path d="M7 5v8a3 3 0 0 0 3 3h1" />
+</svg>
+
+
+''';
+
+  /// SVG data for Tabler Icon transaction-dollar.
+  static const transactionDollar =
+      '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-transaction-dollar" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20.8 13a2 2 0 0 0 -1.8 -1h-2a2 2 0 1 0 0 4h2a2 2 0 1 1 0 4h-2a2 2 0 0 1 -1.8 -1" />
+  <path d="M18 11v10" />
+  <path d="M5 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M17 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M7 5h8" />
+  <path d="M7 5v8a3 3 0 0 0 3 3h1" />
+</svg>
+
+
+''';
+
+  /// SVG data for Tabler Icon transaction-euro.
+  static const transactionEuro =
+      '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-transaction-euro" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M21 12.8c-.523 -.502 -1.172 -.8 -1.875 -.8c-1.727 0 -3.125 1.791 -3.125 4s1.398 4 3.125 4c.703 0 1.352 -.298 1.874 -.8" />
+  <path d="M15 16h4" />
+  <path d="M5 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M17 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M7 5h8" />
+  <path d="M7 5v8a3 3 0 0 0 3 3h1" />
+</svg>
+
+
+''';
+
+  /// SVG data for Tabler Icon transaction-pound.
+  static const transactionPound =
+      '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-transaction-pound" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M21 14a2 2 0 1 0 -4 0v4a2 2 0 0 1 -2 2h6" />
+  <path d="M15 17h4" />
+  <path d="M5 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M17 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M7 5h8" />
+  <path d="M7 5v8a3 3 0 0 0 3 3h1" />
+</svg>
+
+
+''';
+
+  /// SVG data for Tabler Icon transaction-yen.
+  static const transactionYen =
+      '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-transaction-yen" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M15 16h6" />
+  <path d="M15 12l3 4.5" />
+  <path d="M21 12l-3 4.5v4.5" />
+  <path d="M15 19h6" />
+  <path d="M5 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M17 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M7 5h8" />
+  <path d="M7 5v8a3 3 0 0 0 3 3h1" />
+</svg>
+
+
+''';
+
+  /// SVG data for Tabler Icon transaction-yuan.
+  static const transactionYuan =
+      '''<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-transaction-yuan" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M15 17h6" />
+  <path d="M15 12l3 4.5" />
+  <path d="M21 12l-3 4.5v4.5" />
+  <path d="M5 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M17 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M7 5h8" />
+  <path d="M7 5v8a3 3 0 0 0 3 3h1" />
 </svg>
 
 

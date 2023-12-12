@@ -1055,6 +1055,12 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.borderAll, TablerIconsSvg.borderAll),
   'borderBottom':
       const TablerIcon(TablerIcons.borderBottom, TablerIconsSvg.borderBottom),
+  'borderCornerPill': const TablerIcon(
+      TablerIcons.borderCornerPill, TablerIconsSvg.borderCornerPill),
+  'borderCornerRounded': const TablerIcon(
+      TablerIcons.borderCornerRounded, TablerIconsSvg.borderCornerRounded),
+  'borderCornerSquare': const TablerIcon(
+      TablerIcons.borderCornerSquare, TablerIconsSvg.borderCornerSquare),
   'borderCorners':
       const TablerIcon(TablerIcons.borderCorners, TablerIconsSvg.borderCorners),
   'borderHorizontal': const TablerIcon(
@@ -4018,6 +4024,7 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.faceMaskOff, TablerIconsSvg.faceMaskOff),
   'faceMask': const TablerIcon(TablerIcons.faceMask, TablerIconsSvg.faceMask),
   'fall': const TablerIcon(TablerIcons.fall, TablerIconsSvg.fall),
+  'favicon': const TablerIcon(TablerIcons.favicon, TablerIconsSvg.favicon),
   'featherOff':
       const TablerIcon(TablerIcons.featherOff, TablerIconsSvg.featherOff),
   'feather': const TablerIcon(TablerIcons.feather, TablerIconsSvg.feather),
@@ -6794,12 +6801,24 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.razorElectric, TablerIconsSvg.razorElectric),
   'razor': const TablerIcon(TablerIcons.razor, TablerIconsSvg.razor),
   'receipt2': const TablerIcon(TablerIcons.receipt2, TablerIconsSvg.receipt2),
+  'receiptBitcoin': const TablerIcon(
+      TablerIcons.receiptBitcoin, TablerIconsSvg.receiptBitcoin),
+  'receiptDollar':
+      const TablerIcon(TablerIcons.receiptDollar, TablerIconsSvg.receiptDollar),
+  'receiptEuro':
+      const TablerIcon(TablerIcons.receiptEuro, TablerIconsSvg.receiptEuro),
   'receiptOff':
       const TablerIcon(TablerIcons.receiptOff, TablerIconsSvg.receiptOff),
+  'receiptPound':
+      const TablerIcon(TablerIcons.receiptPound, TablerIconsSvg.receiptPound),
   'receiptRefund':
       const TablerIcon(TablerIcons.receiptRefund, TablerIconsSvg.receiptRefund),
   'receiptTax':
       const TablerIcon(TablerIcons.receiptTax, TablerIconsSvg.receiptTax),
+  'receiptYen':
+      const TablerIcon(TablerIcons.receiptYen, TablerIconsSvg.receiptYen),
+  'receiptYuan':
+      const TablerIcon(TablerIcons.receiptYuan, TablerIconsSvg.receiptYuan),
   'receipt': const TablerIcon(TablerIcons.receipt, TablerIconsSvg.receipt),
   'recharging':
       const TablerIcon(TablerIcons.recharging, TablerIconsSvg.recharging),
@@ -7015,6 +7034,7 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'sailboat': const TablerIcon(TablerIcons.sailboat, TablerIconsSvg.sailboat),
   'salad': const TablerIcon(TablerIcons.salad, TablerIconsSvg.salad),
   'salt': const TablerIcon(TablerIcons.salt, TablerIconsSvg.salt),
+  'sandbox': const TablerIcon(TablerIcons.sandbox, TablerIconsSvg.sandbox),
   'satelliteOff':
       const TablerIcon(TablerIcons.satelliteOff, TablerIconsSvg.satelliteOff),
   'satellite':
@@ -8043,6 +8063,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.textDirectionLtr, TablerIconsSvg.textDirectionLtr),
   'textDirectionRtl': const TablerIcon(
       TablerIcons.textDirectionRtl, TablerIconsSvg.textDirectionRtl),
+  'textGrammar':
+      const TablerIcon(TablerIcons.textGrammar, TablerIconsSvg.textGrammar),
   'textIncrease':
       const TablerIcon(TablerIcons.textIncrease, TablerIconsSvg.textIncrease),
   'textOrientation': const TablerIcon(
@@ -8188,6 +8210,18 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'trafficLights':
       const TablerIcon(TablerIcons.trafficLights, TablerIconsSvg.trafficLights),
   'train': const TablerIcon(TablerIcons.train, TablerIconsSvg.train),
+  'transactionBitcoin': const TablerIcon(
+      TablerIcons.transactionBitcoin, TablerIconsSvg.transactionBitcoin),
+  'transactionDollar': const TablerIcon(
+      TablerIcons.transactionDollar, TablerIconsSvg.transactionDollar),
+  'transactionEuro': const TablerIcon(
+      TablerIcons.transactionEuro, TablerIconsSvg.transactionEuro),
+  'transactionPound': const TablerIcon(
+      TablerIcons.transactionPound, TablerIconsSvg.transactionPound),
+  'transactionYen': const TablerIcon(
+      TablerIcons.transactionYen, TablerIconsSvg.transactionYen),
+  'transactionYuan': const TablerIcon(
+      TablerIcons.transactionYuan, TablerIconsSvg.transactionYuan),
   'transferIn':
       const TablerIcon(TablerIcons.transferIn, TablerIconsSvg.transferIn),
   'transferOut':

@@ -2339,6 +2339,18 @@ class TablerIcons {
   static const borderBottom = IconData(0xEA3C,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon border-corner-pill.
+  static const borderCornerPill = IconData(0xFD62,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon border-corner-rounded.
+  static const borderCornerRounded = IconData(0xFD63,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon border-corner-square.
+  static const borderCornerSquare = IconData(0xFD64,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon border-corners.
   static const borderCorners = IconData(0xF7A0,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -8717,6 +8729,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon fall.
   static const fall = IconData(0xECB9,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon favicon.
+  static const favicon = IconData(0xFD65,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon feather-off.
@@ -15263,8 +15279,24 @@ class TablerIcons {
   static const receipt2 = IconData(0xEDFA,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon receipt-bitcoin.
+  static const receiptBitcoin = IconData(0xFD66,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon receipt-dollar.
+  static const receiptDollar = IconData(0xFD67,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon receipt-euro.
+  static const receiptEuro = IconData(0xFD68,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon receipt-off.
   static const receiptOff = IconData(0xEDFB,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon receipt-pound.
+  static const receiptPound = IconData(0xFD69,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon receipt-refund.
@@ -15273,6 +15305,14 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon receipt-tax.
   static const receiptTax = IconData(0xEDBD,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon receipt-yen.
+  static const receiptYen = IconData(0xFD6A,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon receipt-yuan.
+  static const receiptYuan = IconData(0xFD6B,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon receipt.
@@ -15781,6 +15821,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon salt.
   static const salt = IconData(0xEF16,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon sandbox.
+  static const sandbox = IconData(0xFD6C,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon satellite-off.
@@ -18067,6 +18111,10 @@ class TablerIcons {
   static const textDirectionRtl = IconData(0xEEFD,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon text-grammar.
+  static const textGrammar = IconData(0xFD6D,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon text-increase.
   static const textIncrease = IconData(0xF203,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -18401,6 +18449,30 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon train.
   static const train = IconData(0xED96,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon transaction-bitcoin.
+  static const transactionBitcoin = IconData(0xFD6E,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon transaction-dollar.
+  static const transactionDollar = IconData(0xFD6F,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon transaction-euro.
+  static const transactionEuro = IconData(0xFD70,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon transaction-pound.
+  static const transactionPound = IconData(0xFD71,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon transaction-yen.
+  static const transactionYen = IconData(0xFD72,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon transaction-yuan.
+  static const transactionYuan = IconData(0xFD73,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon transfer-in.
