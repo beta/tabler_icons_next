@@ -3043,6 +3043,15 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'creditCard':
       const TablerIcon(TablerIcons.creditCard, TablerIconsSvg.creditCard),
   'cricket': const TablerIcon(TablerIcons.cricket, TablerIconsSvg.cricket),
+  'crop11': const TablerIcon(TablerIcons.crop11, TablerIconsSvg.crop11),
+  'crop169': const TablerIcon(TablerIcons.crop169, TablerIconsSvg.crop169),
+  'crop32': const TablerIcon(TablerIcons.crop32, TablerIconsSvg.crop32),
+  'crop54': const TablerIcon(TablerIcons.crop54, TablerIconsSvg.crop54),
+  'crop75': const TablerIcon(TablerIcons.crop75, TablerIconsSvg.crop75),
+  'cropLandscape':
+      const TablerIcon(TablerIcons.cropLandscape, TablerIconsSvg.cropLandscape),
+  'cropPortrait':
+      const TablerIcon(TablerIcons.cropPortrait, TablerIconsSvg.cropPortrait),
   'crop': const TablerIcon(TablerIcons.crop, TablerIconsSvg.crop),
   'crossFilled':
       const TablerIcon(TablerIcons.crossFilled, TablerIconsSvg.crossFilled),
@@ -3879,6 +3888,7 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'ePassport':
       const TablerIcon(TablerIcons.ePassport, TablerIconsSvg.ePassport),
   'earOff': const TablerIcon(TablerIcons.earOff, TablerIconsSvg.earOff),
+  'earScan': const TablerIcon(TablerIcons.earScan, TablerIconsSvg.earScan),
   'ear': const TablerIcon(TablerIcons.ear, TablerIconsSvg.ear),
   'easeInControlPoint': const TablerIcon(
       TablerIcons.easeInControlPoint, TablerIconsSvg.easeInControlPoint),
@@ -4886,6 +4896,9 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'horse': const TablerIcon(TablerIcons.horse, TablerIconsSvg.horse),
   'horseshoe':
       const TablerIcon(TablerIcons.horseshoe, TablerIconsSvg.horseshoe),
+  'hospitalCircle': const TablerIcon(
+      TablerIcons.hospitalCircle, TablerIconsSvg.hospitalCircle),
+  'hospital': const TablerIcon(TablerIcons.hospital, TablerIconsSvg.hospital),
   'hotelService':
       const TablerIcon(TablerIcons.hotelService, TablerIconsSvg.hotelService),
   'hourglassEmpty': const TablerIcon(
@@ -6302,6 +6315,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.parenthesesOff, TablerIconsSvg.parenthesesOff),
   'parentheses':
       const TablerIcon(TablerIcons.parentheses, TablerIconsSvg.parentheses),
+  'parkingCircle':
+      const TablerIcon(TablerIcons.parkingCircle, TablerIconsSvg.parkingCircle),
   'parkingOff':
       const TablerIcon(TablerIcons.parkingOff, TablerIconsSvg.parkingOff),
   'parking': const TablerIcon(TablerIcons.parking, TablerIconsSvg.parking),
@@ -6511,8 +6526,11 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'pillOff': const TablerIcon(TablerIcons.pillOff, TablerIconsSvg.pillOff),
   'pill': const TablerIcon(TablerIcons.pill, TablerIconsSvg.pill),
   'pills': const TablerIcon(TablerIcons.pills, TablerIconsSvg.pills),
+  'pinEnd': const TablerIcon(TablerIcons.pinEnd, TablerIconsSvg.pinEnd),
   'pinFilled':
       const TablerIcon(TablerIcons.pinFilled, TablerIconsSvg.pinFilled),
+  'pinInvoke':
+      const TablerIcon(TablerIcons.pinInvoke, TablerIconsSvg.pinInvoke),
   'pin': const TablerIcon(TablerIcons.pin, TablerIconsSvg.pin),
   'pingPong': const TablerIcon(TablerIcons.pingPong, TablerIconsSvg.pingPong),
   'pinnedFilled':
@@ -7061,6 +7079,7 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.selectAll, TablerIconsSvg.selectAll),
   'select': const TablerIcon(TablerIcons.select, TablerIconsSvg.select),
   'selector': const TablerIcon(TablerIcons.selector, TablerIconsSvg.selector),
+  'send2': const TablerIcon(TablerIcons.send2, TablerIconsSvg.send2),
   'sendOff': const TablerIcon(TablerIcons.sendOff, TablerIconsSvg.sendOff),
   'send': const TablerIcon(TablerIcons.send, TablerIconsSvg.send),
   'seo': const TablerIcon(TablerIcons.seo, TablerIconsSvg.seo),
@@ -7916,6 +7935,13 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.superscript, TablerIconsSvg.superscript),
   'svg': const TablerIcon(TablerIcons.svg, TablerIconsSvg.svg),
   'swimming': const TablerIcon(TablerIcons.swimming, TablerIconsSvg.swimming),
+  'swipeDown':
+      const TablerIcon(TablerIcons.swipeDown, TablerIconsSvg.swipeDown),
+  'swipeLeft':
+      const TablerIcon(TablerIcons.swipeLeft, TablerIconsSvg.swipeLeft),
+  'swipeRight':
+      const TablerIcon(TablerIcons.swipeRight, TablerIconsSvg.swipeRight),
+  'swipeUp': const TablerIcon(TablerIcons.swipeUp, TablerIconsSvg.swipeUp),
   'swipe': const TablerIcon(TablerIcons.swipe, TablerIconsSvg.swipe),
   'switch2': const TablerIcon(TablerIcons.switch2, TablerIconsSvg.switch2),
   'switch3': const TablerIcon(TablerIcons.switch3, TablerIconsSvg.switch3),
