@@ -1228,6 +1228,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.brandAppgallery, TablerIconsSvg.brandAppgallery),
   'brandAppleArcade': const TablerIcon(
       TablerIcons.brandAppleArcade, TablerIconsSvg.brandAppleArcade),
+  'brandAppleFilled': const TablerIcon(
+      TablerIcons.brandAppleFilled, TablerIconsSvg.brandAppleFilled),
   'brandApplePodcast': const TablerIcon(
       TablerIcons.brandApplePodcast, TablerIconsSvg.brandApplePodcast),
   'brandApple':
@@ -1269,6 +1271,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.brandBlender, TablerIconsSvg.brandBlender),
   'brandBlogger':
       const TablerIcon(TablerIcons.brandBlogger, TablerIconsSvg.brandBlogger),
+  'brandBluesky':
+      const TablerIcon(TablerIcons.brandBluesky, TablerIconsSvg.brandBluesky),
   'brandBooking':
       const TablerIcon(TablerIcons.brandBooking, TablerIconsSvg.brandBooking),
   'brandBootstrap': const TablerIcon(
@@ -1529,6 +1533,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.brandLinktree, TablerIconsSvg.brandLinktree),
   'brandLinqpad':
       const TablerIcon(TablerIcons.brandLinqpad, TablerIconsSvg.brandLinqpad),
+  'brandLivewire':
+      const TablerIcon(TablerIcons.brandLivewire, TablerIconsSvg.brandLivewire),
   'brandLoom':
       const TablerIcon(TablerIcons.brandLoom, TablerIconsSvg.brandLoom),
   'brandMailgun':
@@ -1637,6 +1643,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.brandPinterest, TablerIconsSvg.brandPinterest),
   'brandPlanetscale': const TablerIcon(
       TablerIcons.brandPlanetscale, TablerIconsSvg.brandPlanetscale),
+  'brandPnpm':
+      const TablerIcon(TablerIcons.brandPnpm, TablerIconsSvg.brandPnpm),
   'brandPocket':
       const TablerIcon(TablerIcons.brandPocket, TablerIconsSvg.brandPocket),
   'brandPolymer':
@@ -1720,6 +1728,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.brandStackshare, TablerIconsSvg.brandStackshare),
   'brandSteam':
       const TablerIcon(TablerIcons.brandSteam, TablerIconsSvg.brandSteam),
+  'brandStocktwits': const TablerIcon(
+      TablerIcons.brandStocktwits, TablerIconsSvg.brandStocktwits),
   'brandStorj':
       const TablerIcon(TablerIcons.brandStorj, TablerIconsSvg.brandStorj),
   'brandStorybook': const TablerIcon(
@@ -1872,6 +1882,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.brandYahoo, TablerIconsSvg.brandYahoo),
   'brandYandex':
       const TablerIcon(TablerIcons.brandYandex, TablerIconsSvg.brandYandex),
+  'brandYarn':
+      const TablerIcon(TablerIcons.brandYarn, TablerIconsSvg.brandYarn),
   'brandYatse':
       const TablerIcon(TablerIcons.brandYatse, TablerIconsSvg.brandYatse),
   'brandYcombinator': const TablerIcon(
@@ -2529,6 +2541,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.circleDashedNumber8, TablerIconsSvg.circleDashedNumber8),
   'circleDashedNumber9': const TablerIcon(
       TablerIcons.circleDashedNumber9, TablerIconsSvg.circleDashedNumber9),
+  'circleDashedPercentage': const TablerIcon(TablerIcons.circleDashedPercentage,
+      TablerIconsSvg.circleDashedPercentage),
   'circleDashedX':
       const TablerIcon(TablerIcons.circleDashedX, TablerIconsSvg.circleDashedX),
   'circleDashed':
@@ -2629,6 +2643,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.circleNumber9, TablerIconsSvg.circleNumber9),
   'circleOff':
       const TablerIcon(TablerIcons.circleOff, TablerIconsSvg.circleOff),
+  'circlePercentage': const TablerIcon(
+      TablerIcons.circlePercentage, TablerIconsSvg.circlePercentage),
   'circlePlus2':
       const TablerIcon(TablerIcons.circlePlus2, TablerIconsSvg.circlePlus2),
   'circlePlus':
@@ -5870,6 +5886,10 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'meteorOff':
       const TablerIcon(TablerIcons.meteorOff, TablerIconsSvg.meteorOff),
   'meteor': const TablerIcon(TablerIcons.meteor, TablerIconsSvg.meteor),
+  'meterCube':
+      const TablerIcon(TablerIcons.meterCube, TablerIconsSvg.meterCube),
+  'meterSquare':
+      const TablerIcon(TablerIcons.meterSquare, TablerIconsSvg.meterSquare),
   'metronome':
       const TablerIcon(TablerIcons.metronome, TablerIconsSvg.metronome),
   'michelinBibGourmand': const TablerIcon(
@@ -6338,6 +6358,7 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.pawFilled, TablerIconsSvg.pawFilled),
   'pawOff': const TablerIcon(TablerIcons.pawOff, TablerIconsSvg.pawOff),
   'paw': const TablerIcon(TablerIcons.paw, TablerIconsSvg.paw),
+  'paywall': const TablerIcon(TablerIcons.paywall, TablerIconsSvg.paywall),
   'pdf': const TablerIcon(TablerIcons.pdf, TablerIconsSvg.pdf),
   'peace': const TablerIcon(TablerIcons.peace, TablerIconsSvg.peace),
   'pencilBolt':
@@ -6529,6 +6550,10 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'pigMoney': const TablerIcon(TablerIcons.pigMoney, TablerIconsSvg.pigMoney),
   'pigOff': const TablerIcon(TablerIcons.pigOff, TablerIconsSvg.pigOff),
   'pig': const TablerIcon(TablerIcons.pig, TablerIconsSvg.pig),
+  'pilcrowLeft':
+      const TablerIcon(TablerIcons.pilcrowLeft, TablerIconsSvg.pilcrowLeft),
+  'pilcrowRight':
+      const TablerIcon(TablerIcons.pilcrowRight, TablerIconsSvg.pilcrowRight),
   'pilcrow': const TablerIcon(TablerIcons.pilcrow, TablerIconsSvg.pilcrow),
   'pillOff': const TablerIcon(TablerIcons.pillOff, TablerIconsSvg.pillOff),
   'pill': const TablerIcon(TablerIcons.pill, TablerIconsSvg.pill),
@@ -6744,6 +6769,7 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.propellerOff, TablerIconsSvg.propellerOff),
   'propeller':
       const TablerIcon(TablerIcons.propeller, TablerIconsSvg.propeller),
+  'protocol': const TablerIcon(TablerIcons.protocol, TablerIconsSvg.protocol),
   'pumpkinScary':
       const TablerIcon(TablerIcons.pumpkinScary, TablerIconsSvg.pumpkinScary),
   'puzzle2': const TablerIcon(TablerIcons.puzzle2, TablerIconsSvg.puzzle2),
@@ -6813,6 +6839,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.receiptPound, TablerIconsSvg.receiptPound),
   'receiptRefund':
       const TablerIcon(TablerIcons.receiptRefund, TablerIconsSvg.receiptRefund),
+  'receiptRupee':
+      const TablerIcon(TablerIcons.receiptRupee, TablerIconsSvg.receiptRupee),
   'receiptTax':
       const TablerIcon(TablerIcons.receiptTax, TablerIconsSvg.receiptTax),
   'receiptYen':
@@ -7646,6 +7674,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.squareNumber9, TablerIconsSvg.squareNumber9),
   'squareOff':
       const TablerIcon(TablerIcons.squareOff, TablerIconsSvg.squareOff),
+  'squarePercentage': const TablerIcon(
+      TablerIcons.squarePercentage, TablerIconsSvg.squarePercentage),
   'squarePlus2':
       const TablerIcon(TablerIcons.squarePlus2, TablerIconsSvg.squarePlus2),
   'squarePlus':
@@ -7848,6 +7878,9 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIconsSvg.squareRoundedNumber9Filled),
   'squareRoundedNumber9': const TablerIcon(
       TablerIcons.squareRoundedNumber9, TablerIconsSvg.squareRoundedNumber9),
+  'squareRoundedPercentage': const TablerIcon(
+      TablerIcons.squareRoundedPercentage,
+      TablerIconsSvg.squareRoundedPercentage),
   'squareRoundedPlus2': const TablerIcon(
       TablerIcons.squareRoundedPlus2, TablerIconsSvg.squareRoundedPlus2),
   'squareRoundedPlusFilled': const TablerIcon(
@@ -8218,6 +8251,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.transactionEuro, TablerIconsSvg.transactionEuro),
   'transactionPound': const TablerIcon(
       TablerIcons.transactionPound, TablerIconsSvg.transactionPound),
+  'transactionRupee': const TablerIcon(
+      TablerIcons.transactionRupee, TablerIconsSvg.transactionRupee),
   'transactionYen': const TablerIcon(
       TablerIcons.transactionYen, TablerIconsSvg.transactionYen),
   'transactionYuan': const TablerIcon(

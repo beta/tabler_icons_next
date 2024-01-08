@@ -2707,6 +2707,10 @@ class TablerIcons {
   static const brandAppleArcade = IconData(0xED69,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon brand-apple-filled.
+  static const brandAppleFilled = IconData(0xFD74,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon brand-apple-podcast.
   static const brandApplePodcast = IconData(0xF1E6,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -2789,6 +2793,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon brand-blogger.
   static const brandBlogger = IconData(0xF35A,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon brand-bluesky.
+  static const brandBluesky = IconData(0xFD75,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon brand-booking.
@@ -3319,6 +3327,10 @@ class TablerIcons {
   static const brandLinqpad = IconData(0xF562,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon brand-livewire.
+  static const brandLivewire = IconData(0xFD76,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon brand-loom.
   static const brandLoom = IconData(0xEF70,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -3539,6 +3551,10 @@ class TablerIcons {
   static const brandPlanetscale = IconData(0xF78F,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon brand-pnpm.
+  static const brandPnpm = IconData(0xFD77,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon brand-pocket.
   static const brandPocket = IconData(0xED00,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -3705,6 +3721,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon brand-steam.
   static const brandSteam = IconData(0xED6F,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon brand-stocktwits.
+  static const brandStocktwits = IconData(0xFD78,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon brand-storj.
@@ -4021,6 +4041,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon brand-yandex.
   static const brandYandex = IconData(0xFAE1,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon brand-yarn.
+  static const brandYarn = IconData(0xFD79,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon brand-yatse.
@@ -5447,6 +5471,10 @@ class TablerIcons {
   static const circleDashedNumber9 = IconData(0xFC74,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon circle-dashed-percentage.
+  static const circleDashedPercentage = IconData(0xFD7A,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon circle-dashed-x.
   static const circleDashedX = IconData(0xFC75,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -5645,6 +5673,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon circle-off.
   static const circleOff = IconData(0xEE40,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon circle-percentage.
+  static const circlePercentage = IconData(0xFD7B,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon circle-plus-2.
@@ -13075,6 +13107,14 @@ class TablerIcons {
   static const meteor = IconData(0xF1FD,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon meter-cube.
+  static const meterCube = IconData(0xFD7C,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon meter-square.
+  static const meterSquare = IconData(0xFD7D,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon metronome.
   static const metronome = IconData(0xFD25,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -14191,6 +14231,10 @@ class TablerIcons {
   static const paw = IconData(0xEFF9,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon paywall.
+  static const paywall = IconData(0xFD7E,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon pdf.
   static const pdf = IconData(0xF7AC,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -14621,6 +14665,14 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon pig.
   static const pig = IconData(0xEF52,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon pilcrow-left.
+  static const pilcrowLeft = IconData(0xFD7F,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon pilcrow-right.
+  static const pilcrowRight = IconData(0xFD80,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon pilcrow.
@@ -15135,6 +15187,10 @@ class TablerIcons {
   static const propeller = IconData(0xEEC4,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon protocol.
+  static const protocol = IconData(0xFD81,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon pumpkin-scary.
   static const pumpkinScary = IconData(0xF587,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -15301,6 +15357,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon receipt-refund.
   static const receiptRefund = IconData(0xEDFC,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon receipt-rupee.
+  static const receiptRupee = IconData(0xFD82,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon receipt-tax.
@@ -17227,6 +17287,10 @@ class TablerIcons {
   static const squareOff = IconData(0xEEEF,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon square-percentage.
+  static const squarePercentage = IconData(0xFD83,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon square-plus-2.
   static const squarePlus2 = IconData(0xFC96,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -17565,6 +17629,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon square-rounded-number-9.
   static const squareRoundedNumber9 = IconData(0xF5D1,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon square-rounded-percentage.
+  static const squareRoundedPercentage = IconData(0xFD84,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon square-rounded-plus-2.
@@ -18465,6 +18533,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon transaction-pound.
   static const transactionPound = IconData(0xFD71,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon transaction-rupee.
+  static const transactionRupee = IconData(0xFD85,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon transaction-yen.
