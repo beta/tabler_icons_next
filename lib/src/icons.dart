@@ -943,6 +943,10 @@ class TablerIcons {
   static const arrowDownCircle = IconData(0xEA11,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon arrow-down-from-arc.
+  static const arrowDownFromArc = IconData(0xFD86,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon arrow-down-left-circle.
   static const arrowDownLeftCircle = IconData(0xEA12,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -969,6 +973,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon arrow-down-tail.
   static const arrowDownTail = IconData(0xED9B,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon arrow-down-to-arc.
+  static const arrowDownToArc = IconData(0xFD87,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon arrow-down.
@@ -1015,6 +1023,10 @@ class TablerIcons {
   static const arrowLeftCircle = IconData(0xEA18,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon arrow-left-from-arc.
+  static const arrowLeftFromArc = IconData(0xFD88,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon arrow-left-rhombus.
   static const arrowLeftRhombus = IconData(0xF61E,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -1029,6 +1041,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon arrow-left-tail.
   static const arrowLeftTail = IconData(0xED9E,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon arrow-left-to-arc.
+  static const arrowLeftToArc = IconData(0xFD89,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon arrow-left.
@@ -1139,6 +1155,10 @@ class TablerIcons {
   static const arrowRightCircle = IconData(0xEA1E,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon arrow-right-from-arc.
+  static const arrowRightFromArc = IconData(0xFD8A,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon arrow-right-rhombus.
   static const arrowRightRhombus = IconData(0xF61F,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -1149,6 +1169,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon arrow-right-tail.
   static const arrowRightTail = IconData(0xEDA3,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon arrow-right-to-arc.
+  static const arrowRightToArc = IconData(0xFD8B,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon arrow-right.
@@ -1207,6 +1231,10 @@ class TablerIcons {
   static const arrowUpCircle = IconData(0xEA20,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon arrow-up-from-arc.
+  static const arrowUpFromArc = IconData(0xFD8C,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon arrow-up-left-circle.
   static const arrowUpLeftCircle = IconData(0xEA21,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -1233,6 +1261,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon arrow-up-tail.
   static const arrowUpTail = IconData(0xEDA7,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon arrow-up-to-arc.
+  static const arrowUpToArc = IconData(0xFD8D,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon arrow-up.
@@ -1519,6 +1551,10 @@ class TablerIcons {
   static const automaticGearbox = IconData(0xFC89,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon avocado.
+  static const avocado = IconData(0xFD8E,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon award-filled.
   static const awardFilled = IconData(0xF71C,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
@@ -1589,6 +1625,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon badge-8k.
   static const badge8k = IconData(0xF557,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon badge-ad-off.
+  static const badgeAdOff = IconData(0xFD8F,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon badge-ad.
@@ -2435,8 +2475,16 @@ class TablerIcons {
   static const bow = IconData(0xF096,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon bowl-chopsticks.
+  static const bowlChopsticks = IconData(0xFD90,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon bowl-filled.
   static const bowlFilled = IconData(0xFB22,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon bowl-spoon.
+  static const bowlSpoon = IconData(0xFD91,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon bowl.
@@ -5073,6 +5121,14 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon chart-sankey.
   static const chartSankey = IconData(0xF619,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon chart-scatter-3d.
+  static const chartScatter3d = IconData(0xFD92,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon chart-scatter.
+  static const chartScatter = IconData(0xFD93,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon chart-treemap.
@@ -16751,8 +16807,20 @@ class TablerIcons {
   static const sortAscendingNumbers = IconData(0xEF19,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
+  /// Icon data for Tabler Icon sort-ascending-shapes.
+  static const sortAscendingShapes = IconData(0xFD94,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon sort-ascending-small-big.
+  static const sortAscendingSmallBig = IconData(0xFD95,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
   /// Icon data for Tabler Icon sort-ascending.
   static const sortAscending = IconData(0xEB26,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon sort-deacending-small-big.
+  static const sortDeacendingSmallBig = IconData(0xFD96,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon sort-descending-2.
@@ -16765,6 +16833,10 @@ class TablerIcons {
 
   /// Icon data for Tabler Icon sort-descending-numbers.
   static const sortDescendingNumbers = IconData(0xEF1B,
+      fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
+
+  /// Icon data for Tabler Icon sort-descending-shapes.
+  static const sortDescendingShapes = IconData(0xFD97,
       fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');
 
   /// Icon data for Tabler Icon sort-descending.

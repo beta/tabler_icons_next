@@ -455,6 +455,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.arrowDownBar, TablerIconsSvg.arrowDownBar),
   'arrowDownCircle': const TablerIcon(
       TablerIcons.arrowDownCircle, TablerIconsSvg.arrowDownCircle),
+  'arrowDownFromArc': const TablerIcon(
+      TablerIcons.arrowDownFromArc, TablerIconsSvg.arrowDownFromArc),
   'arrowDownLeftCircle': const TablerIcon(
       TablerIcons.arrowDownLeftCircle, TablerIconsSvg.arrowDownLeftCircle),
   'arrowDownLeft':
@@ -469,6 +471,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.arrowDownSquare, TablerIconsSvg.arrowDownSquare),
   'arrowDownTail':
       const TablerIcon(TablerIcons.arrowDownTail, TablerIconsSvg.arrowDownTail),
+  'arrowDownToArc': const TablerIcon(
+      TablerIcons.arrowDownToArc, TablerIconsSvg.arrowDownToArc),
   'arrowDown':
       const TablerIcon(TablerIcons.arrowDown, TablerIconsSvg.arrowDown),
   'arrowElbowLeft': const TablerIcon(
@@ -491,6 +495,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.arrowLeftBar, TablerIconsSvg.arrowLeftBar),
   'arrowLeftCircle': const TablerIcon(
       TablerIcons.arrowLeftCircle, TablerIconsSvg.arrowLeftCircle),
+  'arrowLeftFromArc': const TablerIcon(
+      TablerIcons.arrowLeftFromArc, TablerIconsSvg.arrowLeftFromArc),
   'arrowLeftRhombus': const TablerIcon(
       TablerIcons.arrowLeftRhombus, TablerIconsSvg.arrowLeftRhombus),
   'arrowLeftRight': const TablerIcon(
@@ -499,6 +505,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.arrowLeftSquare, TablerIconsSvg.arrowLeftSquare),
   'arrowLeftTail':
       const TablerIcon(TablerIcons.arrowLeftTail, TablerIconsSvg.arrowLeftTail),
+  'arrowLeftToArc': const TablerIcon(
+      TablerIcons.arrowLeftToArc, TablerIconsSvg.arrowLeftToArc),
   'arrowLeft':
       const TablerIcon(TablerIcons.arrowLeft, TablerIconsSvg.arrowLeft),
   'arrowLoopLeft2': const TablerIcon(
@@ -553,12 +561,16 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.arrowRightBar, TablerIconsSvg.arrowRightBar),
   'arrowRightCircle': const TablerIcon(
       TablerIcons.arrowRightCircle, TablerIconsSvg.arrowRightCircle),
+  'arrowRightFromArc': const TablerIcon(
+      TablerIcons.arrowRightFromArc, TablerIconsSvg.arrowRightFromArc),
   'arrowRightRhombus': const TablerIcon(
       TablerIcons.arrowRightRhombus, TablerIconsSvg.arrowRightRhombus),
   'arrowRightSquare': const TablerIcon(
       TablerIcons.arrowRightSquare, TablerIconsSvg.arrowRightSquare),
   'arrowRightTail': const TablerIcon(
       TablerIcons.arrowRightTail, TablerIconsSvg.arrowRightTail),
+  'arrowRightToArc': const TablerIcon(
+      TablerIcons.arrowRightToArc, TablerIconsSvg.arrowRightToArc),
   'arrowRight':
       const TablerIcon(TablerIcons.arrowRight, TablerIconsSvg.arrowRight),
   'arrowRotaryFirstLeft': const TablerIcon(
@@ -587,6 +599,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.arrowUpBar, TablerIconsSvg.arrowUpBar),
   'arrowUpCircle':
       const TablerIcon(TablerIcons.arrowUpCircle, TablerIconsSvg.arrowUpCircle),
+  'arrowUpFromArc': const TablerIcon(
+      TablerIcons.arrowUpFromArc, TablerIconsSvg.arrowUpFromArc),
   'arrowUpLeftCircle': const TablerIcon(
       TablerIcons.arrowUpLeftCircle, TablerIconsSvg.arrowUpLeftCircle),
   'arrowUpLeft':
@@ -601,6 +615,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.arrowUpSquare, TablerIconsSvg.arrowUpSquare),
   'arrowUpTail':
       const TablerIcon(TablerIcons.arrowUpTail, TablerIconsSvg.arrowUpTail),
+  'arrowUpToArc':
+      const TablerIcon(TablerIcons.arrowUpToArc, TablerIconsSvg.arrowUpToArc),
   'arrowUp': const TablerIcon(TablerIcons.arrowUp, TablerIconsSvg.arrowUp),
   'arrowWaveLeftDown': const TablerIcon(
       TablerIcons.arrowWaveLeftDown, TablerIconsSvg.arrowWaveLeftDown),
@@ -732,6 +748,7 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.augmentedReality, TablerIconsSvg.augmentedReality),
   'automaticGearbox': const TablerIcon(
       TablerIcons.automaticGearbox, TablerIconsSvg.automaticGearbox),
+  'avocado': const TablerIcon(TablerIcons.avocado, TablerIconsSvg.avocado),
   'awardFilled':
       const TablerIcon(TablerIcons.awardFilled, TablerIconsSvg.awardFilled),
   'awardOff': const TablerIcon(TablerIcons.awardOff, TablerIconsSvg.awardOff),
@@ -758,6 +775,8 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'badge3d': const TablerIcon(TablerIcons.badge3d, TablerIconsSvg.badge3d),
   'badge4k': const TablerIcon(TablerIcons.badge4k, TablerIconsSvg.badge4k),
   'badge8k': const TablerIcon(TablerIcons.badge8k, TablerIconsSvg.badge8k),
+  'badgeAdOff':
+      const TablerIcon(TablerIcons.badgeAdOff, TablerIconsSvg.badgeAdOff),
   'badgeAd': const TablerIcon(TablerIcons.badgeAd, TablerIconsSvg.badgeAd),
   'badgeAr': const TablerIcon(TablerIcons.badgeAr, TablerIconsSvg.badgeAr),
   'badgeCc': const TablerIcon(TablerIcons.badgeCc, TablerIconsSvg.badgeCc),
@@ -1101,8 +1120,12 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
   'bounceRight':
       const TablerIcon(TablerIcons.bounceRight, TablerIconsSvg.bounceRight),
   'bow': const TablerIcon(TablerIcons.bow, TablerIconsSvg.bow),
+  'bowlChopsticks': const TablerIcon(
+      TablerIcons.bowlChopsticks, TablerIconsSvg.bowlChopsticks),
   'bowlFilled':
       const TablerIcon(TablerIcons.bowlFilled, TablerIconsSvg.bowlFilled),
+  'bowlSpoon':
+      const TablerIcon(TablerIcons.bowlSpoon, TablerIconsSvg.bowlSpoon),
   'bowl': const TablerIcon(TablerIcons.bowl, TablerIconsSvg.bowl),
   'boxAlignBottomFilled': const TablerIcon(
       TablerIcons.boxAlignBottomFilled, TablerIconsSvg.boxAlignBottomFilled),
@@ -2347,6 +2370,10 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       const TablerIcon(TablerIcons.chartRadar, TablerIconsSvg.chartRadar),
   'chartSankey':
       const TablerIcon(TablerIcons.chartSankey, TablerIconsSvg.chartSankey),
+  'chartScatter3d': const TablerIcon(
+      TablerIcons.chartScatter3d, TablerIconsSvg.chartScatter3d),
+  'chartScatter':
+      const TablerIcon(TablerIcons.chartScatter, TablerIconsSvg.chartScatter),
   'chartTreemap':
       const TablerIcon(TablerIcons.chartTreemap, TablerIconsSvg.chartTreemap),
   'check': const TablerIcon(TablerIcons.check, TablerIconsSvg.check),
@@ -7425,14 +7452,22 @@ final icons = LinkedHashMap<String, TablerIcon>.from({
       TablerIcons.sortAscendingLetters, TablerIconsSvg.sortAscendingLetters),
   'sortAscendingNumbers': const TablerIcon(
       TablerIcons.sortAscendingNumbers, TablerIconsSvg.sortAscendingNumbers),
+  'sortAscendingShapes': const TablerIcon(
+      TablerIcons.sortAscendingShapes, TablerIconsSvg.sortAscendingShapes),
+  'sortAscendingSmallBig': const TablerIcon(
+      TablerIcons.sortAscendingSmallBig, TablerIconsSvg.sortAscendingSmallBig),
   'sortAscending':
       const TablerIcon(TablerIcons.sortAscending, TablerIconsSvg.sortAscending),
+  'sortDeacendingSmallBig': const TablerIcon(TablerIcons.sortDeacendingSmallBig,
+      TablerIconsSvg.sortDeacendingSmallBig),
   'sortDescending2': const TablerIcon(
       TablerIcons.sortDescending2, TablerIconsSvg.sortDescending2),
   'sortDescendingLetters': const TablerIcon(
       TablerIcons.sortDescendingLetters, TablerIconsSvg.sortDescendingLetters),
   'sortDescendingNumbers': const TablerIcon(
       TablerIcons.sortDescendingNumbers, TablerIconsSvg.sortDescendingNumbers),
+  'sortDescendingShapes': const TablerIcon(
+      TablerIcons.sortDescendingShapes, TablerIconsSvg.sortDescendingShapes),
   'sortDescending': const TablerIcon(
       TablerIcons.sortDescending, TablerIconsSvg.sortDescending),
   'sortZA': const TablerIcon(TablerIcons.sortZA, TablerIconsSvg.sortZA),
