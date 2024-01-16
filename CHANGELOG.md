@@ -1,3 +1,7 @@
+## 2.46.1
+
+- Add a tool script to generate gallery icons file
+
 ## 2.46.0
 
 - Add icons from upstream v2.46.0

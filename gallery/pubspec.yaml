@@ -2,7 +2,7 @@ name: gallery
 description: Gallery app for Table Icons Next.
 publish_to: 'none'
 
-version: 2.46.0
+version: 2.46.1
 
 environment:
   sdk: '>=3.1.0 <4.0.0'
