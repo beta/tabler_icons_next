@@ -1,4 +1,4 @@
-// Copyright (c) 2023 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -28,7 +28,7 @@ Future<void> main() async {
   }
 
   print('Generating output...');
-  final result = '''// Copyright (c) 2023 Beta Kuang <beta.kuang@gmail.com>
+  final result = '''// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -60,6 +60,12 @@ extension StringExt on String {
 
   /// Add dollar sign if the string starts with a number.
   String withDollarSignIfNecessary() {
-    return (startsWith(RegExp(r'[0-9]'))) ? '\$$this' : this;
+    if (startsWith(RegExp(r'[0-9]'))) {
+      return '\$$this';
+    }
+    if (['switch'].contains(this)) {
+      return '\$$this';
+    }
+    return this;
   }
 }

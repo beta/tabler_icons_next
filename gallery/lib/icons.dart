@@ -1,3 +1,8 @@
+// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
 import 'dart:collection';
 
 import 'package:flutter/widgets.dart';

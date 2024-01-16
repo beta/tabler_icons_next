@@ -8,7 +8,7 @@ import 'dart:io';
 
 import 'generate_svg_icons.dart';
 
-/// Generate icon data for using Tabler Icons font.
+/// Generate icon definitions for gallery.
 Future<void> main() async {
   final jsonFile = File('tabler-icons/packages/icons/tags.json');
   final content = jsonFile.readAsStringSync();
@@ -19,8 +19,8 @@ Future<void> main() async {
         (icon['name'] as String).kebabToCamelCase().withDollarSignIfNecessary();
     print(name);
 
-    final line = """  /// Icon data for Tabler Icon ${icon['name']}.
-  static const $name = IconData(0x${(icon['unicode'] as String).toUpperCase()}, fontFamily: _fontFamily, fontPackage: 'tabler_icons_next');""";
+    final line =
+        "  '${name.startsWith('\$') ? '\\' : ''}$name': const TablerIcon(TablerIcons.$name, TablerIconsSvg.$name),";
     lines.add(line);
   }
 
@@ -30,18 +30,23 @@ Future<void> main() async {
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
-library tabler_icons_next;
+import 'dart:collection';
 
 import 'package:flutter/widgets.dart';
+import 'package:tabler_icons_next/tabler_icons_next.dart';
 
-/// IconData constants for Tabler Icons.
-class TablerIcons {
-  static const _fontFamily = 'Tabler Icons';
+class TablerIcon {
+  const TablerIcon(this.data, this.svg);
 
-${lines.join('\n')}
+  final IconData data;
+  final String svg;
 }
+
+final icons = LinkedHashMap<String, TablerIcon>.from({
+${lines.join('\n')}
+});
 """;
-  final output = File('lib/src/icons.dart');
+  final output = File('gallery/lib/icons.dart');
   output.writeAsStringSync(result);
   print('Done');
 }
