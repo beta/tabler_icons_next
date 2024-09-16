@@ -8,31 +8,77 @@ Yet another [Tabler Icons](https://tabler-icons.io/) package for Flutter that ke
 
 https://tabler-icons-next.betakuang.me/
 
-## 🎉 Getting started
+## ✴️ Migrate to v3
+
+v3.x come with some breaking changes. Font icons and SVGs are no longer available, and each icon is now a individual widget.
+
+For example, to draw a check mark icon in v2, you may use
 
 ```dart
-import 'package:tabler_icons_next/tabler_icons_next.dart';
+Icon(TablerIcons.check)
+// or
+SvgPicture.string(TablerIconsSvg.check)
 ```
 
-Both icon font and SVG icons are supported.
+Now in v3 you should use
 
-- Icon font
+```dart
+Check()
+```
 
-  ```dart
-  import 'package:flutter/widgets.dart';
-  ...
-  Icon(TablerIcons.check)
-  ```
+To avoid confusion, you may want to add an alias to this package like
 
-- SVG
+```dart
+import 'package:tabler_icons_next/tabler_icons_next.dart' as tabler;
 
-  ```dart
-  import 'package:flutter_svg/flutter_svg.dart'; // Or any SVG package of your choice
-  ...
-  SvgPicture.string(TablerIconsSvg.check)
-  ```
+// ...
+tabler.Check()
+```
 
-> Note that a dollar sign (`$`) is added to icon names starting with numbers, and names that are Dart keywords. For example, `2fa` becomes `$2fa`, and `switch` becomes `$switch`.
+## 🎉 Getting started
+
+ - Directly import
+
+   ```dart
+   import 'package:tabler_icons_next/tabler_icons_next.dart';
+   
+   Check()
+   ```
+
+ - Add an alias
+
+   Names of some icons may conflict with other Flutter/Dart classes (for example `BorderRadius`). Use a package alias to avoid confusion.
+
+   ```dart
+   import 'package:tabler_icons_next/tabler_icons_next.dart' as tabler;
+
+   // ...
+   tabler.Check()
+   ```
+
+ - Set a stroke width
+
+   ```dart
+   import 'package:tabler_icons_next/tabler_icons_next.dart' as tabler;
+
+   // ...
+   tabler.Check(strokeWidth: 1.5)
+   ```
+
+ - Set a color
+
+   ```dart
+   import 'package:tabler_icons_next/tabler_icons_next.dart' as tabler;
+
+   // ...
+   tabler.Check(color: Colors.teal)
+   ```
+
+   Tabler Icons Next uses [`flutter_svg`](https://pub.dev/packages/flutter_svg) to draw icons. Parameters from `SvgPicture.string` are ported to icon widgets for customization. See [docs](https://pub.dev/documentation/flutter_svg/latest/svg/SvgPicture/SvgPicture.string.html) of `SvgPicture.string` for the full list of params.
+
+> **Note:**
+>
+> A dollar sign (`$`) prefix is added to icon names not allowed by Dart. Currently only `Function` is altered to `$Function`.
 
 ## License
 
