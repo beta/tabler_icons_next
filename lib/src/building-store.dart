@@ -1,0 +1,52 @@
+// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
+import 'internal/icon.dart';
+
+class BuildingStore extends Icon {
+  const BuildingStore({
+    super.key,
+    super.strokeWidth,
+    super.width,
+    super.height,
+    super.fit,
+    super.alignment,
+    super.matchTextDirection,
+    super.allowDrawingOutsideViewBox,
+    super.placeholderBuilder,
+    super.colorFilter,
+    super.color,
+    super.colorBlendMode,
+    super.semanticsLabel,
+    super.excludeFromSemantics,
+    super.clipBehavior,
+    super.theme,
+  }) : super(_svg);
+
+  static const String _svg = '''<!--
+tags: [shopping, shop, supermarket, market, products, retail, buy, sell]
+category: Buildings
+version: "1.1"
+unicode: "ea4e"
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="<STROKE_WIDTH>"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 21l18 0" />
+  <path d="M3 7v1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1h-18l2 -4h14l2 4" />
+  <path d="M5 21l0 -10.15" />
+  <path d="M19 21l0 -10.15" />
+  <path d="M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4" />
+</svg>
+''';
+}

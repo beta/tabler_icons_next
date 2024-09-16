@@ -11,14 +11,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_svg: ^2.0.10+1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-
-flutter:
-  fonts:
-    - family: Tabler Icons
-      fonts:
-        - asset: lib/font/tabler-icons-2.46.0.ttf
