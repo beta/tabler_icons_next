@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:package_info_plus/package_info_plus.dart';
-import 'package:tabler_icons_next/tabler_icons_next.dart';
+import 'package:tabler_icons_next/tabler_icons_next.dart' as tabler;
 import 'package:url_launcher/url_launcher_string.dart';
 
 import 'icons.dart';
@@ -51,12 +50,14 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  bool _shouldUseSvg = false;
-  void _setShouldUseSvg(bool value) => setState(() => _shouldUseSvg = value);
-
   late final TextEditingController _searchController;
-  final _iconNames = icons.keys.toList();
-  late List<String> _filteredIcons = _iconNames;
+  final _outlineIconNames = outlineIcons.keys.toList();
+  final _filledIconNames = filledIcons.keys.toList();
+  late var _filteredOutlineIcons = _outlineIconNames;
+  late var _filteredFilledIcons = _filledIconNames;
+
+  bool _filled = false;
+  void _setFilled(bool filled) => setState(() => _filled = filled);
 
   @override
   void initState() {
@@ -66,12 +67,20 @@ class _HomePageState extends State<HomePage> {
       ..addListener(() {
         final keyword = _searchController.text.toLowerCase();
         if (keyword.isEmpty) {
-          setState(() => _filteredIcons = _iconNames);
+          setState(() {
+            _filteredOutlineIcons = _outlineIconNames;
+            _filteredFilledIcons = _filledIconNames;
+          });
           return;
         }
-        setState(() => _filteredIcons = _iconNames
-            .where((name) => name.toLowerCase().contains(keyword))
-            .toList());
+        setState(() {
+          _filteredOutlineIcons = _outlineIconNames
+              .where((name) => name.toLowerCase().contains(keyword))
+              .toList();
+          _filteredFilledIcons = _filledIconNames
+              .where((name) => name.toLowerCase().contains(keyword))
+              .toList();
+        });
       });
   }
 
@@ -91,6 +100,11 @@ class _HomePageState extends State<HomePage> {
             const SizedBox(width: 64),
 
             // Search
+            const tabler.Search(
+              width: 18,
+              height: 18,
+            ),
+            const SizedBox(width: 8),
             SizedBox(
               width: 300,
               child: TextField(
@@ -98,7 +112,6 @@ class _HomePageState extends State<HomePage> {
                 decoration: const InputDecoration(
                   hintText: 'Search',
                   border: InputBorder.none,
-                  prefixIcon: Icon(TablerIcons.search, size: 18),
                 ),
               ),
             ),
@@ -107,16 +120,16 @@ class _HomePageState extends State<HomePage> {
         actions: [
           Row(
             children: [
-              const Text('Use SVG icons'),
+              const Text('Filled'),
               Switch(
-                value: _shouldUseSvg,
-                onChanged: _setShouldUseSvg,
+                value: _filled,
+                onChanged: _setFilled,
               ),
               const SizedBox(width: 16),
 
               // GitHub
               IconButton(
-                icon: const Icon(TablerIcons.brandGithub),
+                icon: const tabler.BrandGithub(),
                 onPressed: () {
                   launchUrlString('https://github.com/beta/tabler_icons_next');
                 },
@@ -130,12 +143,17 @@ class _HomePageState extends State<HomePage> {
         gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
           maxCrossAxisExtent: 160,
         ),
-        itemCount: _filteredIcons.length,
+        itemCount: _filled
+            ? _filteredFilledIcons.length
+            : _filteredOutlineIcons.length,
         itemBuilder: (context, index) {
           return IconView(
-            icons[_filteredIcons[index]]!,
-            name: _filteredIcons[index],
-            useSvg: _shouldUseSvg,
+            _filled
+                ? filledIcons[_filteredFilledIcons[index]]!
+                : outlineIcons[_filteredOutlineIcons[index]]!,
+            name: _filled
+                ? _filteredFilledIcons[index]
+                : _filteredOutlineIcons[index],
           );
         },
       ),
@@ -148,12 +166,10 @@ class IconView extends StatefulWidget {
     this.icon, {
     super.key,
     required this.name,
-    required this.useSvg,
   });
 
-  final TablerIcon icon;
+  final Widget icon;
   final String name;
-  final bool useSvg;
 
   @override
   State<StatefulWidget> createState() => _IconViewState();
@@ -183,16 +199,20 @@ class _IconViewState extends State<IconView> {
         child: Stack(
           children: [
             Center(
-              child: widget.useSvg
-                  ? SvgPicture.string(widget.icon.svg)
-                  : Icon(widget.icon.data),
+              child: widget.icon,
             ),
             Align(
               alignment: Alignment.bottomCenter,
-              child: Text(
-                widget.name,
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
+              child: Container(
+                height: 30,
+                alignment: Alignment.bottomCenter,
+                child: Text(
+                  widget.name,
+                  maxLines: 2,
+                  style: Theme.of(context).textTheme.bodySmall,
+                  textAlign: TextAlign.center,
+                  overflow: TextOverflow.ellipsis,
+                ),
               ),
             ),
           ],

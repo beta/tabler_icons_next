@@ -15,8 +15,9 @@ Future<void> main() async {
   final icons = json.decode(content) as Map<String, dynamic>;
   final lines = <String>[];
   for (final icon in icons.values) {
-    final name =
-        (icon['name'] as String).kebabToCamelCase().withDollarSignIfNecessary();
+    final name = (icon['name'] as String)
+        .kebabToUpperCamelCase()
+        .withDollarSignIfNecessary();
     print(name);
 
     final line =

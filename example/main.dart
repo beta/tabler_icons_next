@@ -4,7 +4,7 @@
 // https://opensource.org/licenses/MIT
 
 import 'package:flutter/material.dart';
-import 'package:tabler_icons_next/tabler_icons_next.dart';
+import 'package:tabler_icons_next/tabler_icons_next.dart' as tabler;
 
 void run() {
   runApp(const ExampleApp());
@@ -38,7 +38,7 @@ class HomePage extends StatelessWidget {
         title: const Text('Tabler Icons Next Example'),
       ),
       body: const Center(
-        child: Icon(TablerIcons.check),
+        child: tabler.BorderRadius(),
       ),
     );
   }
