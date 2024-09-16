@@ -1,3 +1,8 @@
+## 3.17.0
+
+- Add icons from upstream v3.17.0
+- BREAKING CHANGE: Add a new method to use icons directly as Flutter widgets. Font and SVG icon data is no longer available.
+
 ## 2.46.1
 
 - Add a tool script to generate gallery icons file
