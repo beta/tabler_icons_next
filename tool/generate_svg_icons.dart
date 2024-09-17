@@ -75,7 +75,8 @@ class $widgetName extends Icon {
     final outputFilename = switch (suffix.isNotEmpty) {
       true => '$origName-$suffix',
       false => origName,
-    };
+    }
+        .replaceAll('-', '_');
     final outputFile = File('lib/src/$outputFilename.dart');
     outputFile.writeAsStringSync(output);
 
