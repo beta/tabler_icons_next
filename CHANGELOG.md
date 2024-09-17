@@ -1,3 +1,7 @@
+## 3.17.1
+
+- Fix file name format to satisfy linter
+
 ## 3.17.0
 
 - Add icons from upstream v3.17.0
