@@ -1,3 +1,7 @@
+## 3.17.4
+
+- Update readme.
+
 ## 3.17.3
 
 - Export `Icon` class.
