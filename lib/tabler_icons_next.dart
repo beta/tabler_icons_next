@@ -3,6 +3,8 @@
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
+export 'src/internal/theme.dart';
+
 export 'src/a_b_2.dart';
 export 'src/a_b_off.dart';
 export 'src/a_b.dart';

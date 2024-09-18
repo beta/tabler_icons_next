@@ -5,32 +5,34 @@
 
 import 'dart:ui' as ui;
 
-import 'package:flutter/widgets.dart';
+import 'package:flutter/widgets.dart' hide IconTheme, IconThemeData;
 import 'package:flutter_svg/svg.dart';
+
+import 'theme.dart';
 
 abstract class Icon extends StatelessWidget {
   const Icon(
     this.svgTemplate, {
     super.key,
-    this.strokeWidth = 2.0,
+    this.strokeWidth,
     this.width,
     this.height,
-    this.fit = BoxFit.contain,
-    this.alignment = Alignment.center,
-    this.matchTextDirection = false,
-    this.allowDrawingOutsideViewBox = false,
+    this.fit,
+    this.alignment,
+    this.matchTextDirection,
+    this.allowDrawingOutsideViewBox,
     this.placeholderBuilder,
     this.colorFilter,
     this.color,
-    this.colorBlendMode = ui.BlendMode.srcIn,
+    this.colorBlendMode,
     this.semanticsLabel,
     this.excludeFromSemantics = false,
-    this.clipBehavior = Clip.hardEdge,
+    this.clipBehavior,
     this.theme,
   });
 
   final String svgTemplate;
-  final double strokeWidth;
+  final double? strokeWidth;
 
   /// If specified, the width to use for the SVG.  If unspecified, the SVG
   /// will take the width of its parent.
@@ -42,7 +44,7 @@ abstract class Icon extends StatelessWidget {
 
   /// How to inscribe the picture into the space allocated during layout.
   /// The default is [BoxFit.contain].
-  final BoxFit fit;
+  final BoxFit? fit;
 
   /// How to align the picture within its parent widget.
   ///
@@ -66,23 +68,25 @@ abstract class Icon extends StatelessWidget {
   ///    specify an [AlignmentGeometry].
   ///  * [AlignmentDirectional], like [Alignment] for specifying alignments
   ///    relative to text direction.
-  final AlignmentGeometry alignment;
+  final AlignmentGeometry? alignment;
 
   /// If true, will horizontally flip the picture in [TextDirection.rtl] contexts.
-  final bool matchTextDirection;
+  final bool? matchTextDirection;
 
   /// If true, will allow the SVG to be drawn outside of the clip boundary of its
   /// viewBox.
-  final bool allowDrawingOutsideViewBox;
+  final bool? allowDrawingOutsideViewBox;
 
   /// The placeholder to use while fetching, decoding, and parsing the SVG data.
   final WidgetBuilder? placeholderBuilder;
 
   final ui.ColorFilter? colorFilter;
 
+  @Deprecated("Use colorFilter instead.")
   final ui.Color? color;
 
-  final ui.BlendMode colorBlendMode;
+  @Deprecated("Use colorFilter instead.")
+  final ui.BlendMode? colorBlendMode;
 
   /// The [Semantics.label] for this picture.
   ///
@@ -102,12 +106,34 @@ abstract class Icon extends StatelessWidget {
   /// use cases.
   ///
   /// Defaults to [Clip.hardEdge], and must not be null.
-  final Clip clipBehavior;
+  final Clip? clipBehavior;
 
   final SvgTheme? theme;
 
   @override
   Widget build(BuildContext context) {
+    final IconThemeData iconTheme = IconTheme.of(context);
+    final double strokeWidth = this.strokeWidth ?? iconTheme.strokeWidth ?? 2.0;
+    final double width = this.width ?? iconTheme.width ?? 24.0;
+    final double height = this.height ?? iconTheme.height ?? 24.0;
+    final BoxFit fit = this.fit ?? iconTheme.fit ?? BoxFit.contain;
+    final AlignmentGeometry alignment =
+        this.alignment ?? iconTheme.alignment ?? Alignment.center;
+    final bool matchTextDirection =
+        this.matchTextDirection ?? iconTheme.matchTextDirection ?? false;
+    final bool allowDrawingOutsideViewBox = this.allowDrawingOutsideViewBox ??
+        iconTheme.allowDrawingOutsideViewBox ??
+        false;
+    final color = this.color ?? iconTheme.color ?? const Color(0xFF000000);
+    final ui.BlendMode colorBlendMode =
+        this.colorBlendMode ?? iconTheme.colorBlendMode ?? BlendMode.srcIn;
+    final ui.ColorFilter colorFilter = this.colorFilter ??
+        iconTheme.colorFilter ??
+        ui.ColorFilter.mode(color, colorBlendMode);
+    final Clip clipBehavior =
+        this.clipBehavior ?? iconTheme.clipBehavior ?? Clip.hardEdge;
+    final SvgTheme? theme = this.theme ?? iconTheme.theme;
+
     return SvgPicture.string(
       svgTemplate.replaceAll('<STROKE_WIDTH>', strokeWidth.toString()),
       width: width,
@@ -117,15 +143,11 @@ abstract class Icon extends StatelessWidget {
       matchTextDirection: matchTextDirection,
       allowDrawingOutsideViewBox: allowDrawingOutsideViewBox,
       placeholderBuilder: placeholderBuilder,
-      colorFilter: colorFilter ?? _getColorFilter(color, colorBlendMode),
+      colorFilter: colorFilter,
       semanticsLabel: semanticsLabel,
       excludeFromSemantics: excludeFromSemantics,
       clipBehavior: clipBehavior,
       theme: theme,
     );
   }
-
-  static ColorFilter? _getColorFilter(
-          ui.Color? color, ui.BlendMode colorBlendMode) =>
-      color == null ? null : ui.ColorFilter.mode(color, colorBlendMode);
 }

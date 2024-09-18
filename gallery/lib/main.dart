@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:tabler_icons_next/tabler_icons_next.dart' as tabler;
@@ -55,6 +57,30 @@ class _HomePageState extends State<HomePage> {
   final _filledIconNames = filledIcons.keys.toList();
   late var _filteredOutlineIcons = _outlineIconNames;
   late var _filteredFilledIcons = _filledIconNames;
+
+  bool _useColor = false;
+  Color _color = Colors.black;
+  void _setColor(bool color) {
+    if (color) {
+      setState(() {
+        _useColor = true;
+        _color = Color.fromARGB(
+          255,
+          Random().nextInt(255),
+          Random().nextInt(255),
+          Random().nextInt(255),
+        );
+      });
+    } else {
+      setState(() {
+        _useColor = false;
+        _color = Colors.black;
+      });
+    }
+  }
+
+  bool _bold = false;
+  void _setBold(bool bold) => setState(() => _bold = bold);
 
   bool _filled = false;
   void _setFilled(bool filled) => setState(() => _filled = filled);
@@ -120,6 +146,25 @@ class _HomePageState extends State<HomePage> {
         actions: [
           Row(
             children: [
+              Text(
+                'Color',
+                style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                      color: _color,
+                    ),
+              ),
+              Switch(
+                value: _useColor,
+                onChanged: _setColor,
+              ),
+              const SizedBox(width: 16),
+
+              const Text('Bold'),
+              Switch(
+                value: _bold,
+                onChanged: _setBold,
+              ),
+              const SizedBox(width: 16),
+
               const Text('Filled'),
               Switch(
                 value: _filled,
@@ -154,6 +199,8 @@ class _HomePageState extends State<HomePage> {
             name: _filled
                 ? _filteredFilledIcons[index]
                 : _filteredOutlineIcons[index],
+            bold: _bold,
+            color: _color,
           );
         },
       ),
@@ -166,10 +213,14 @@ class IconView extends StatefulWidget {
     this.icon, {
     super.key,
     required this.name,
+    this.bold = false,
+    this.color = Colors.black,
   });
 
   final Widget icon;
   final String name;
+  final bool bold;
+  final Color color;
 
   @override
   State<StatefulWidget> createState() => _IconViewState();
@@ -199,7 +250,13 @@ class _IconViewState extends State<IconView> {
         child: Stack(
           children: [
             Center(
-              child: widget.icon,
+              child: tabler.IconTheme(
+                data: tabler.IconThemeData(
+                  strokeWidth: widget.bold ? 2.25 : 1.75,
+                  color: widget.color,
+                ),
+                child: widget.icon,
+              ),
             ),
             Align(
               alignment: Alignment.bottomCenter,
