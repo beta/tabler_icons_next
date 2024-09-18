@@ -1,3 +1,7 @@
+## 3.17.2
+
+- Add `IconTheme` and `IconThemeData`.
+
 ## 3.17.1
 
 - Fix file name format to satisfy linter
