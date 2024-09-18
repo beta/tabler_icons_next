@@ -1,3 +1,7 @@
+## 3.17.3
+
+- Export `Icon` class.
+
 ## 3.17.2
 
 - Add `IconTheme` and `IconThemeData`.
