@@ -104,6 +104,8 @@ Future<void> generateImports(
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
+export 'src/internal/theme.dart';
+
 ${lines.join('\n')}
 ''';
   final outputFile = File('lib/tabler_icons_next.dart');
