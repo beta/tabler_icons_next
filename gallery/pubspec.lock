@@ -259,7 +259,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "3.17.4"
+    version: "3.19.0"
   term_glyph:
     dependency: transitive
     description:
