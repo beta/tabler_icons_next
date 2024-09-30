@@ -1,3 +1,7 @@
+## 3.19.0
+
+- Add icons from upstream v3.19.0
+
 ## 3.17.4
 
 - Update readme.
