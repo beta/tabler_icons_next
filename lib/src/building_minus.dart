@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class Sitemap extends Icon {
-  const Sitemap({
+class BuildingMinus extends Icon {
+  const BuildingMinus({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,10 +26,10 @@ class Sitemap extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [page, webpage, website, list, roadmap, index, graph, schema, diagram, tree, hierarchy, organization, data]
-version: "1.3"
-unicode: "eb9d"
-category: Development
+tags: [flat, office, city, urban, scyscraper, architecture, construction]
+category: Buildings
+unicode: "10061"
+version: "3.19"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,10 +42,14 @@ category: Development
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
-  <path d="M15 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
-  <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
-  <path d="M6 15v-1a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1" />
-  <path d="M12 9l0 3" />
-</svg>''';
+  <path d="M3 21h9" />
+  <path d="M9 8h1" />
+  <path d="M9 12h1" />
+  <path d="M9 16h1" />
+  <path d="M14 8h1" />
+  <path d="M14 12h1" />
+  <path d="M5 21v-16c0 -.53 .211 -1.039 .586 -1.414c.375 -.375 .884 -.586 1.414 -.586h10c.53 0 1.039 .211 1.414 .586c.375 .375 .586 .884 .586 1.414v7" />
+  <path d="M16 19h6" />
+</svg>
+''';
 }
