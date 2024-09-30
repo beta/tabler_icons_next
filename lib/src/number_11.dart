@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class Sitemap extends Icon {
-  const Sitemap({
+class Number11 extends Icon {
+  const Number11({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,10 +26,8 @@ class Sitemap extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [page, webpage, website, list, roadmap, index, graph, schema, diagram, tree, hierarchy, organization, data]
-version: "1.3"
-unicode: "eb9d"
-category: Development
+unicode: "1005d"
+version: "3.18"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,10 +40,8 @@ category: Development
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
-  <path d="M15 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
-  <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
-  <path d="M6 15v-1a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1" />
-  <path d="M12 9l0 3" />
-</svg>''';
+  <path d="M8 20v-16l-5 5" />
+  <path d="M18 20v-16l-5 5" />
+</svg>
+''';
 }

@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class Sitemap extends Icon {
-  const Sitemap({
+class PlayCard5 extends Icon {
+  const PlayCard5({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,10 +26,8 @@ class Sitemap extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [page, webpage, website, list, roadmap, index, graph, schema, diagram, tree, hierarchy, organization, data]
-version: "1.3"
-unicode: "eb9d"
-category: Development
+unicode: "10057"
+version: "3.18"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,10 +40,10 @@ category: Development
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
-  <path d="M15 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
-  <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
-  <path d="M6 15v-1a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1" />
-  <path d="M12 9l0 3" />
-</svg>''';
+  <path d="M19 5v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2" />
+  <path d="M8 6h.01" />
+  <path d="M16 18h.01" />
+  <path d="M10 15h3a1 1 0 0 0 1 -1v-1a1 1 0 0 0 -1 -1h-3v-3h4" />
+</svg>
+''';
 }

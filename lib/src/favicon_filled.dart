@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class Sitemap extends Icon {
-  const Sitemap({
+class FaviconFilled extends Icon {
+  const FaviconFilled({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,26 +26,18 @@ class Sitemap extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [page, webpage, website, list, roadmap, index, graph, schema, diagram, tree, hierarchy, organization, data]
-version: "1.3"
-unicode: "eb9d"
-category: Development
+unicode: "10071"
+version: "3.19"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="24"
   height="24"
   viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="<STROKE_WIDTH>"
-  stroke-linecap="round"
-  stroke-linejoin="round"
+  fill="currentColor"
 >
-  <path d="M3 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
-  <path d="M15 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
-  <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
-  <path d="M6 15v-1a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1" />
-  <path d="M12 9l0 3" />
-</svg>''';
+  <path d="M19 4a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-14a4 4 0 0 1 -4 -4v-8a4 4 0 0 1 4 -4zm-13 5a1 1 0 0 0 -1 1v4a1 1 0 0 0 2 0v-4a1 1 0 0 0 -1 -1m5 0a3 3 0 0 0 0 6a1 1 0 0 0 .117 -1.993l-.117 -.007a1 1 0 0 1 -.117 -1.993l.117 -.007a1 1 0 0 0 0 -2m5 0a3 3 0 0 0 -2.995 2.824l-.005 .176a3 3 0 1 0 3 -3" />
+  <path d="M16 11a1 1 0 1 0 0 2a1 1 0 0 0 0 -2" />
+</svg>
+''';
 }
