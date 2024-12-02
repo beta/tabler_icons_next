@@ -26,6 +26,7 @@ class Xxx extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [private, secret, restricted, forbidden, exclusive, classified, intimate, veiled, covert, unspoken]
 version: "2.29"
 unicode: "fc20"
 -->

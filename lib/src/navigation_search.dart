@@ -26,6 +26,7 @@ class NavigationSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [find, explore, lookup, detect, seek, discover, scout, inspect, investigate, locate]
 version: "2.28"
 unicode: "fbf8"
 -->

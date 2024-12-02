@@ -26,6 +26,7 @@ class LibraryMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [remove, subtract, delete, minus, archive, collection, books, catalog, reduce, lessen]
 version: "2.42"
 unicode: "fd49"
 -->

@@ -26,6 +26,7 @@ class MapPinCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [approve, validate, confirm, verify, certify, affirm, correct, inspect, authenticate, endorse]
 category: Map
 version: "2.10"
 unicode: "f94c"

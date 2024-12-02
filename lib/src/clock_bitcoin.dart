@@ -26,6 +26,7 @@ class ClockBitcoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [crypto, currency, digital, investment, blockchain, trade, transaction, token, exchange, money]
 unicode: "ff3f"
 version: "3.9"
 -->

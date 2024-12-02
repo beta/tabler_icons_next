@@ -26,6 +26,7 @@ class Number64Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [tiny, sixtyfour, digit64, numeric, miniature, icon64, num64, small64, sixfour, miniscule]
 category: Numbers
 unicode: "ffe2"
 version: "3.14"

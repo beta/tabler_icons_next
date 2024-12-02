@@ -26,6 +26,7 @@ class DropletCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [stop, reject, close, deny, remove, terminate, halt, abort, cease, cross]
 category: Design
 version: "2.10"
 unicode: "f8fa"

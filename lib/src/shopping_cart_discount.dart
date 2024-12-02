@@ -26,6 +26,7 @@ class ShoppingCartDiscount extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [sale, offer, deal, bargain, promotion, markdown, rebate, savings, cut, attraction]
 version: "2.28"
 unicode: "fb5d"
 -->

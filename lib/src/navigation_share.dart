@@ -26,6 +26,7 @@ class NavigationShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [distribute, exchange, broadcast, spread, circulate, publish, post, collaborate, connect, send]
 version: "2.28"
 unicode: "fbf9"
 -->

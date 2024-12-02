@@ -26,7 +26,7 @@ class Empathize extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pepole, understund, thinking, care]
+tags: [people, understand, thinking, care]
 category: Health
 version: "1.79"
 unicode: "f29b"

@@ -26,6 +26,7 @@ class ViewportTall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [elongate, extend, stretch, high, lofty, elevated, lengthy, prolong, tower, vertical]
 unicode: "fee8"
 version: "3.5"
 -->

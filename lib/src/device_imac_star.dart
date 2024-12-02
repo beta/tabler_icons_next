@@ -26,6 +26,7 @@ class DeviceImacStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [favorite, highlight, feature, emphasize, mark, notable, premium, prominent, standout, top]
 category: Devices
 version: "2.10"
 unicode: "f882"

@@ -26,6 +26,7 @@ class DropletPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [stop, break, halt, interruption, wait, delay, suspend, freeze, hold, stall]
 category: Design
 version: "2.10"
 unicode: "f903"

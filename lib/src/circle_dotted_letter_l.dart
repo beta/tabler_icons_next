@@ -26,6 +26,7 @@ class CircleDottedLetterL extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [lima, twelfth-letter, consonant, light, line, lead, link, long, lock, list]
 category: Letters
 unicode: "ff74"
 version: "3.11"

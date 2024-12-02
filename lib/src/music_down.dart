@@ -26,6 +26,7 @@ class MusicDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [decrease, lower, reduce, fall, drop, descend, diminish, diminutive, below, decline]
 version: "2.28"
 unicode: "fbdc"
 -->

@@ -26,6 +26,7 @@ class Percentage75 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [threequarters, fraction, percent, parts, slice, portion, segment, division, piece, shard]
 unicode: "fed9"
 version: "3.4"
 -->

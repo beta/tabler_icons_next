@@ -26,6 +26,7 @@ class WindElectricity extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [turbine, renewable, sustainable, breeze, airflow, power, energy, green, clean, kinetic]
 version: "2.37"
 unicode: "fcc6"
 -->

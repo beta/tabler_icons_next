@@ -26,6 +26,7 @@ class UserEdit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [modify, change, update, revise, correct, alter, adjust, compose, rewrite, amend]
 category: System
 version: "2.8"
 unicode: "f7cc"

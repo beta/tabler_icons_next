@@ -26,6 +26,7 @@ class MapShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [distribute, spread, exchange, give, publish, connect, send, communicate, broadcast, release]
 version: "2.28"
 unicode: "fbd1"
 -->

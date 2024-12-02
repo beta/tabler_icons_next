@@ -26,6 +26,7 @@ class CircleDottedLetterH extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [hotel, eighth-letter, consonant, home, hover, hold, height, haste, harmony, hoist]
 category: Letters
 unicode: "ff78"
 version: "3.11"

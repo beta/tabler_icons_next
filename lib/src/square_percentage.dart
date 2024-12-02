@@ -26,6 +26,7 @@ class SquarePercentage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [geometry, fraction, ratio, calculate, evaluate, determine, measure, symbol, statistic, proportion]
 version: "2.45"
 unicode: "fd83"
 -->

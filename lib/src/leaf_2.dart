@@ -26,6 +26,7 @@ class Leaf2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [nature, plant, green, botany, foliage, tree, garden, growth, leaflet, botanical]
 unicode: "ff44"
 version: "3.10"
 -->

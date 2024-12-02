@@ -26,6 +26,7 @@ class NavigationCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [program, development, syntax, coding, script, sequence, algorithm, method, digital, parse]
 version: "2.28"
 unicode: "fbec"
 -->

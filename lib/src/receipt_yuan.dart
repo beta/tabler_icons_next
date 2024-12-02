@@ -26,6 +26,7 @@ class ReceiptYuan extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [currency, bill, transaction, invoice, payment, finance, economy, account, cash, document]
 category: E-commerce
 version: "2.44"
 unicode: "fd6b"

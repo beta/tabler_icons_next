@@ -26,6 +26,7 @@ class SelectAll extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [highlight, choose, pick, elect, mark, set, check, complete, fill, total]
 version: "2.11"
 unicode: "f9f7"
 -->

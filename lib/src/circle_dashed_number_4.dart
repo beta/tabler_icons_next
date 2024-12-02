@@ -26,6 +26,7 @@ class CircleDashedNumber4 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [four, quad, quartet, fourth, quaternary, quadruple, tetrad, foursome, fourfold, quadruplet]
 category: Numbers
 version: "2.33"
 unicode: "fc6f"

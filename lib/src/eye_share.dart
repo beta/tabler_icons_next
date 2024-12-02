@@ -26,6 +26,7 @@ class EyeShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [distribute, exchange, vision, sight, communicate, give, allocate, view, focus, spread]
 version: "2.28"
 unicode: "fb79"
 -->

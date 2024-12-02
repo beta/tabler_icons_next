@@ -26,6 +26,7 @@ class ClockX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [close, delete, remove, stop, terminate, cancel, end, reject, deny, halt]
 category: System
 version: "2.8"
 unicode: "f7cb"

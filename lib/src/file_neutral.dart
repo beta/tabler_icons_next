@@ -26,6 +26,7 @@ class FileNeutral extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [document, standard, generic, default, unbiased, plain, ordinary, basic, common, typical]
 version: "2.40"
 unicode: "fd22"
 -->

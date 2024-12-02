@@ -26,6 +26,7 @@ class Toml extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [config, format, markup, file, language, data, syntax, text, document, structured]
 category: Extensions
 version: "2.16"
 unicode: "fa5d"

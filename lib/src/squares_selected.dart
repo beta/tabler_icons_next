@@ -26,6 +26,7 @@ class SquaresSelected extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [checkbox, chosen, highlight, marked, pick, selected, choice, option, choose, preference]
 unicode: "fea3"
 version: "3.1"
 -->

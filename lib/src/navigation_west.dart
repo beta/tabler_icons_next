@@ -26,6 +26,7 @@ class NavigationWest extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [leftward, occidental, westward, sunset, america, westerly, westbound, westside, latitude, cardinal]
 category: Map
 version: "2.37"
 unicode: "fcbd"

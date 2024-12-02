@@ -26,6 +26,7 @@ class ViewportShort extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [compact, narrow, shrink, condensed, brief, concise, mini, reduced, trim, tight]
 unicode: "fee9"
 version: "3.5"
 -->

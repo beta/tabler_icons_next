@@ -26,6 +26,7 @@ class ShoppingCartPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [halt, stop, delay, suspend, break, interrupt, cease, intermission, freeze, postpone]
 version: "2.28"
 unicode: "fb63"
 -->

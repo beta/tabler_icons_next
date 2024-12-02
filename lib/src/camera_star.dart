@@ -26,6 +26,7 @@ class CameraStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [photography, favorite, highlight, lens, award, recognition, popularity, feature, special, snapshot]
 category: Media
 version: "2.10"
 unicode: "f841"

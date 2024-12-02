@@ -26,6 +26,7 @@ class AdjustmentsQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [settings, inquire, ask, query, probe, interrogate, wonder, puzzle, doubt, uncertain]
 category: System
 version: "2.10"
 unicode: "f808"

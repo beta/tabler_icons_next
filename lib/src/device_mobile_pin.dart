@@ -26,6 +26,7 @@ class DeviceMobilePin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [mark, location, place, locate, navigation, tag, gps, spot, point, target]
 category: Devices
 version: "2.10"
 unicode: "f8b8"

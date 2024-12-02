@@ -26,6 +26,7 @@ class SettingsUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [configuration, preferences, increase, elevate, ascend, rise, boost, improvement, upgrade, advance]
 category: System
 version: "2.10"
 unicode: "f9be"

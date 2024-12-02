@@ -26,6 +26,7 @@ class CameraBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [flash, lightning, electric, shock, energy, power, thunder, charge, zap, spark]
 category: Media
 version: "2.10"
 unicode: "f833"

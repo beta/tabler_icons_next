@@ -26,6 +26,7 @@ class CircleDottedLetterZ extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [alphabet, monogram, typography, symbol, emblem, character, initial, graphic, design, decoration]
 category: Letters
 unicode: "ff66"
 version: "3.11"

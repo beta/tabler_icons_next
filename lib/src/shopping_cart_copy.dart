@@ -26,6 +26,7 @@ class ShoppingCartCopy extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [duplicate, replicate, clone, reproduce, imitate, mimic, backup, mirror, carbon]
 version: "2.28"
 unicode: "fb5c"
 -->

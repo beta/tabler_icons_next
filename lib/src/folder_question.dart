@@ -26,6 +26,7 @@ class FolderQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [query, inquire, ask, puzzle, enquire, interrogate, probe, wonder, doubt, uncertainty]
 category: Document
 version: "2.10"
 unicode: "f917"

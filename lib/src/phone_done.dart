@@ -26,6 +26,7 @@ class PhoneDone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [complete, finished, successful, answered, call, communication, conversation, connect, end-call, check]
 unicode: "ff9e"
 version: "3.12"
 -->

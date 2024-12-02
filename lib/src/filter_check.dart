@@ -26,6 +26,7 @@ class FilterCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [confirm, approve, validate, ok, tick, check, verify, success, complete, yes]
 version: "2.28"
 unicode: "fb7e"
 -->

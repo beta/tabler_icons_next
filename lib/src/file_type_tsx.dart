@@ -26,6 +26,7 @@ class FileTypeTsx extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [typescript, react, jsx, ui, xml, component, typed, frontend, interface, tsx]
 category: Document
 version: "2.25"
 unicode: "fb18"

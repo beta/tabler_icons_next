@@ -26,6 +26,7 @@ class Hdr extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [high, dynamic, range, photography, contrast, intensity, clarity, capability, richness, image]
 category: Photography
 version: "2.18"
 unicode: "fa7b"

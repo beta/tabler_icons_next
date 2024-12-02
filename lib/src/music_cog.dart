@@ -26,6 +26,7 @@ class MusicCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [settings, gear, adjust, control, mechanism, configure, modulate, tweak, system, arrange]
 version: "2.28"
 unicode: "fbd9"
 -->

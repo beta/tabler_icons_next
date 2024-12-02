@@ -26,6 +26,7 @@ class PentagonNumber3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [three, trio, triple, threesome, ternary, triad, trine, triune, tertiary]
 category: Numbers
 version: "2.34"
 unicode: "fc81"

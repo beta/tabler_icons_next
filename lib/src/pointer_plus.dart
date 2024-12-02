@@ -26,6 +26,7 @@ class PointerPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [add, increase, more, positive, sum, gain, bonus, extra, expand, include]
 category: System
 version: "2.10"
 unicode: "f9a6"

@@ -26,6 +26,7 @@ class DeviceTabletSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [tablet, find, seek, look, explore, inquire, browse, sift, pursue, hunt]
 category: Devices
 version: "2.10"
 unicode: "f8ce"

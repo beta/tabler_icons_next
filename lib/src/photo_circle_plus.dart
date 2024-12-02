@@ -26,6 +26,7 @@ class PhotoCirclePlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [add, increase, enhance, augment, expand, border, rim, round, picture, photograph]
 category: Media
 version: "2.32"
 unicode: "fc63"

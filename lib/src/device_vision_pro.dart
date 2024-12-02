@@ -26,6 +26,7 @@ class DeviceVisionPro extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [advanced, sight, future, professional, virtual, augmented, expensive, luxury, innovative, premium]
 category: Devices
 version: "2.23"
 unicode: "fae7"

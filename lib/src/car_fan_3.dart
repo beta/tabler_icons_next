@@ -26,6 +26,7 @@ class CarFan3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [vehicle, airflow, cooling, ventilation, drive, auto, automobile, fan, mechanic, climate]
 unicode: "fdb5"
 version: "3.0"
 -->

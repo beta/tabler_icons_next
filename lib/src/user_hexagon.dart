@@ -26,6 +26,7 @@ class UserHexagon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [shape, geometry, six, polygon, structure, design, pattern, angles, form, figure]
 version: "2.31"
 unicode: "fc4e"
 -->

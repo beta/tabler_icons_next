@@ -26,6 +26,7 @@ class WashDryFlat extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [laundry, care, gentle, flatlay, drying, placement, smooth, even, textile, organize]
 category: Laundry
 version: "2.18"
 unicode: "fa7f"

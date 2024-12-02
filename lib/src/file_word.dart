@@ -26,6 +26,7 @@ class FileWord extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [document, word, text, editor, office, file, write, typing, paper, microsoft]
 unicode: "fef2"
 version: "3.5"
 -->

@@ -26,6 +26,7 @@ class AlertSquare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [warning, notify, warn, caution, danger, message, inform, alarm, signal, square]
 version: "2.10"
 unicode: "f811"
 category: System

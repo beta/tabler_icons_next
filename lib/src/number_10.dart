@@ -26,6 +26,7 @@ class Number10 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [ten, decimal, base, tenth, numeric, doublefive, dime, score, count, digits]
 unicode: "1005e"
 version: "3.18"
 -->

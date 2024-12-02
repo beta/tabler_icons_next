@@ -26,6 +26,7 @@ class BrandMinecraft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [sandbox, build, exploration, blocks, creative, survival, craft, adventure, multiplayer, pixels]
 category: Brand
 version: "2.24"
 unicode: "faef"

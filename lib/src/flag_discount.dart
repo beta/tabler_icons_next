@@ -26,6 +26,7 @@ class FlagDiscount extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [sale, offer, deal, reduction, bargain, saving, promotion, cut, markdown, price]
 version: "2.28"
 unicode: "fb8f"
 -->

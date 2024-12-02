@@ -26,6 +26,7 @@ class WorldX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [cancel, reject, deny, cross, exclude, ban, prohibit, halt, terminate, remove]
 category: Map
 version: "2.10"
 unicode: "f9eb"

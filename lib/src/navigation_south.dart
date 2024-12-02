@@ -26,6 +26,7 @@ class NavigationSouth extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [downward, southern, equator, tropic, descent, drop, southward, bottomward, antarctic, latitude]
 category: Map
 version: "2.37"
 unicode: "fcbc"

@@ -26,6 +26,7 @@ class AlertHexagon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [warning, caution, hex, notify, alert, danger, precaution, risk, crime, signal]
 version: "2.10"
 unicode: "f80e"
 category: System

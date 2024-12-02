@@ -26,6 +26,7 @@ class WorldPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [add, increase, expand, global, grow, enlarge, supplement, augment, boost, amplify]
 category: Map
 version: "2.10"
 unicode: "f9e5"

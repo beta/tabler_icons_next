@@ -26,6 +26,7 @@ class LinkMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [unlink, remove, detach, disconnect, subtract, relation, chain, joint, divide, isolate]
 version: "2.39"
 unicode: "fd16"
 -->

@@ -26,6 +26,7 @@ class DeviceWatchPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [stop, halt, break, wait, freeze, interruption, cease, suspend, delay, hold]
 category: Devices
 version: "2.10"
 unicode: "f8dd"

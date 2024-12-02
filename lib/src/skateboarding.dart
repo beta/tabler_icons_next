@@ -26,6 +26,7 @@ class Skateboarding extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [sport, board, extreme, street, trick, deck, riding, wheels, skater, action]
 category: Sport
 version: "2.21"
 unicode: "faca"

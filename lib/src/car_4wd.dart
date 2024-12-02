@@ -26,6 +26,7 @@ class Car4wd extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [vehicle, off-road, traction, adventure, drive, power, automobile, transport, four-wheel, terrain]
 unicode: "fdb8"
 version: "3.0"
 -->

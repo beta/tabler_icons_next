@@ -26,6 +26,7 @@ class CloudNetwork extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [connection, internet, communication, link, online, system, data, sharing, interactive, community]
 version: "2.34"
 unicode: "fc78"
 -->

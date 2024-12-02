@@ -26,6 +26,7 @@ class DeviceTabletPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [tablet, stop, break, halt, freeze, suspend, intermission, wait, rest, stand]
 category: Devices
 version: "2.10"
 unicode: "f8ca"

@@ -26,6 +26,7 @@ class DatabaseExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [alert, warning, caution, attention, notice, signal, notify, announce, indicate, alarm]
 category: Database
 version: "2.13"
 unicode: "fa13"

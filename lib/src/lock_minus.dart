@@ -26,6 +26,7 @@ class LockMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [decrease, deduct, subtract, reduce, less, lower, diminish, deduction, down, minimize]
 category: System
 version: "2.10"
 unicode: "f92d"

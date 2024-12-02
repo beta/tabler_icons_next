@@ -26,6 +26,7 @@ class FlagPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [attach, fix, anchor, mark, stick, position, secure, location, tag, place]
 version: "2.28"
 unicode: "fb96"
 -->

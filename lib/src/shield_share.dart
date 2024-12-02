@@ -26,6 +26,7 @@ class ShieldShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [protection, connect, distribute, socialize, security, guard, share, spread, network, disperse]
 category: System
 version: "2.10"
 unicode: "f9ce"

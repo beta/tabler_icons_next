@@ -26,6 +26,7 @@ class Gymnastics extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [exercise, flexible, balance, strength, acrobatics, sport, routine, fitness, stretch, performance]
 version: "2.42"
 unicode: "fd44"
 -->

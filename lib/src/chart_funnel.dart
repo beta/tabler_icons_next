@@ -26,6 +26,7 @@ class ChartFunnel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [analytics, conversion, process, data, visualization, statistics, stages, analysis, pathway, steps]
 unicode: "fef5"
 version: "3.5"
 -->

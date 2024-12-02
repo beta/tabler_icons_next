@@ -26,6 +26,7 @@ class PilcrowRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [paragraph, symbol, text, indent, typography, align, writing, editor, forward, format]
 version: "2.45"
 unicode: "fd80"
 -->

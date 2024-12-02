@@ -26,6 +26,7 @@ class HomeBitcoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [cryptocurrency, digital, currency, blockchain, house, residence, start, origin, base, dwelling]
 unicode: "ff3a"
 version: "3.9"
 -->

@@ -26,6 +26,7 @@ class EyeClosed extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [hidden, invisible, conceal, cover, shield, dark, private, shut, mask, blind]
 version: "2.9"
 unicode: "f7ec"
 category: System

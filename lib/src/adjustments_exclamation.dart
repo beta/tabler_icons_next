@@ -26,6 +26,7 @@ class AdjustmentsExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [settings, alert, warn, caution, important, urgent, notice, attention, highlight, notify]
 category: System
 version: "2.10"
 unicode: "f802"

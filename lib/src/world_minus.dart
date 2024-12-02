@@ -26,6 +26,7 @@ class WorldMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [reduce, subtract, decrease, delete, remove, diminish, global, lessen, deduct, deplete]
 category: Map
 version: "2.10"
 unicode: "f9e2"

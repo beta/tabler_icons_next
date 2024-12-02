@@ -26,6 +26,7 @@ class TaxEuro extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [finance, charge, duty, levy, value, monetary, currency, europe, assessment, payment]
 unicode: "fef0"
 version: "3.5"
 -->

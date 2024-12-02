@@ -26,6 +26,7 @@ class NavigationTop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [peak, summit, highest, foremost, acme, crest, pinnacle, head, vertex, apex]
 category: Map
 version: "2.23"
 unicode: "faec"

@@ -26,6 +26,7 @@ class ShieldCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [protection, defense, terminate, block, security, guard, safety, remove, end, deny]
 category: System
 version: "2.10"
 unicode: "f9c1"

@@ -26,6 +26,7 @@ class FolderPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [halt, break, suspend, intermission, rest, stop, delay, hold, freeze, await]
 category: Document
 version: "2.10"
 unicode: "f915"

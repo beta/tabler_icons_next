@@ -26,6 +26,7 @@ class StackForward extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [layers, depth, foreground, arrangement, advance, position, sequence, structure, order, arrange]
 version: "2.40"
 unicode: "fd28"
 -->

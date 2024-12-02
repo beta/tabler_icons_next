@@ -26,6 +26,7 @@ class LockCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [configure, settings, adjust, modify, manage, gear, control, system, optimize, arrange]
 category: System
 version: "2.10"
 unicode: "f928"

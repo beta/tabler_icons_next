@@ -26,6 +26,7 @@ class CloudSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [find, look, locate, discover, explore, research, seek, inspect, browse, scan]
 category: Weather
 version: "2.10"
 unicode: "f859"

@@ -26,6 +26,7 @@ class FileSad extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [document, unhappy, emotional, negative, distress, gloomy, blue, melancholy, sorrow, downcast]
 version: "2.40"
 unicode: "fd23"
 -->

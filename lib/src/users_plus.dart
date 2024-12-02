@@ -26,6 +26,7 @@ class UsersPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [add, increase, expand, grow, enlarge, amplify, supplement, augment, boost, enhance]
 category: System
 version: "2.12"
 unicode: "fa0f"

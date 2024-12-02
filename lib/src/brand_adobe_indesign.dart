@@ -26,6 +26,7 @@ class BrandAdobeIndesign extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [layout, publishing, print, design, editorial, magazine, brochure, document, graphics, creative]
 category: Brand
 unicode: "ff28"
 version: "3.8"

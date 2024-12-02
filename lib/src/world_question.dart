@@ -26,6 +26,7 @@ class WorldQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [inquire, ask, wonder, curiosity, global, puzzle, query, doubt, uncertainty, probe]
 category: Map
 version: "2.10"
 unicode: "f9e6"

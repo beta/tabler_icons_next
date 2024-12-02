@@ -26,6 +26,7 @@ class WorldPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [location, marker, spot, global, place, position, site, point, navigate, enzyme]
 category: Map
 version: "2.10"
 unicode: "f9e4"

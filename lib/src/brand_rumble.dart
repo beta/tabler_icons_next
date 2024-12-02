@@ -26,6 +26,7 @@ class BrandRumble extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [clash, fight, battle, noise, audio, stream, video, platform, content, media]
 category: Brand
 version: "2.22"
 unicode: "fad1"

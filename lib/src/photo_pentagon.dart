@@ -26,6 +26,7 @@ class PhotoPentagon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [five-sided, polygon, shape, geometry, angle, snap, form, structure, frame, icon]
 version: "2.31"
 unicode: "fc4c"
 -->

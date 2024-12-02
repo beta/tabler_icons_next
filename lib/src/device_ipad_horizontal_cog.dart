@@ -26,6 +26,7 @@ class DeviceIpadHorizontalCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [settings, gear, tools, preferences, adjust, modify, configure, control, options, system]
 category: Devices
 version: "2.10"
 unicode: "f892"

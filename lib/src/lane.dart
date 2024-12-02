@@ -26,6 +26,7 @@ class Lane extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [pathway, track, route, corridor, passage, road, line, ribbon, strip, course]
 version: "2.24"
 unicode: "faf9"
 -->

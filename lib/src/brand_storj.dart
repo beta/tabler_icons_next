@@ -26,6 +26,7 @@ class BrandStorj extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [cloud, storage, decentralized, data, network, security, blockchain, sharing, space, file]
 category: Brand
 version: "2.16"
 unicode: "fa54"

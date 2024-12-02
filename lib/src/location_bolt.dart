@@ -26,6 +26,7 @@ class LocationBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [energy, electric, speed, power, flash, lightning, rapid, force, strike, charge]
 version: "2.28"
 unicode: "fbaf"
 -->

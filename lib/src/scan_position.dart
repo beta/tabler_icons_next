@@ -26,6 +26,7 @@ class ScanPosition extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [detect, check, track, view, analyze, spot, explore, locate, inspect, survey]
 unicode: "fdac"
 version: "3.0"
 -->

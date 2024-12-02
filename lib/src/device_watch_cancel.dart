@@ -26,6 +26,7 @@ class DeviceWatchCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [abort, dismiss, stop, remove, discontinue, end, terminate, nullify, revoke, cease]
 category: Devices
 version: "2.10"
 unicode: "f8d4"

@@ -26,6 +26,7 @@ class HttpDelete extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [remove, clear, erase, discard, eliminate, cancel, purge, abolish, annul, suppress]
 category: Computers
 version: "2.14"
 unicode: "fa29"

@@ -26,6 +26,7 @@ class DeviceIpadPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [halt, stop, break, freeze, intermission, rest, hold, suspend, stall, delay]
 category: Devices
 version: "2.10"
 unicode: "f8a4"

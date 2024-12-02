@@ -26,6 +26,7 @@ class InfoSmall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [details, data, fact, point, miniature, tiny, compact, concise, brief, summary]
 version: "2.10"
 unicode: "f922"
 category: System

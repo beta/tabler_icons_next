@@ -26,6 +26,7 @@ class LocationExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [alert, warning, caution, notice, attention, emphasize, important, notify, highlight, signal]
 version: "2.28"
 unicode: "fbb7"
 -->

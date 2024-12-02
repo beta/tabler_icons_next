@@ -26,6 +26,7 @@ class CalendarPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [attach, secure, affix, fasten, anchor, connect, fix, hold, link, bind]
 category: System
 version: "2.10"
 unicode: "f82c"

@@ -26,6 +26,7 @@ class MapExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [alert, warn, caution, notice, emphasis, signal, highlight, stress, attention, callout]
 version: "2.28"
 unicode: "fbcb"
 -->

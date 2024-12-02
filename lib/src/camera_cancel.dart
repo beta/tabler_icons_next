@@ -26,6 +26,7 @@ class CameraCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [stop, terminate, cease, abort, void, nullify, eliminate, delete, end, remove]
 category: Media
 version: "2.10"
 unicode: "f834"

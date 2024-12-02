@@ -26,6 +26,7 @@ class AdjustmentsMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [settings, subtract, reduce, remove, delete, lower, decrease, deduct, takeaway, less]
 category: System
 version: "2.10"
 unicode: "f804"

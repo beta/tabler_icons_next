@@ -26,6 +26,7 @@ class MapPinSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [find, locate, seek, explore, scan, look, discover, detect, probe, inspect]
 category: Map
 version: "2.10"
 unicode: "f958"

@@ -26,6 +26,7 @@ class Logout2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [exit, signout, leave, disconnect, close, terminate, end, depart, unlink, shut]
 category: System
 version: "2.18"
 unicode: "fa7e"

@@ -26,6 +26,7 @@ class PhotoVideo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [motion, film, footage, clip, capture, record, snap, visual, media, icon]
 version: "2.35"
 unicode: "fc95"
 -->

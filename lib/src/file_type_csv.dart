@@ -26,6 +26,7 @@ class FileTypeCsv extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [spreadsheet, data, comma, separated, values, document, information, table, format, record]
 category: Document
 version: "2.25"
 unicode: "fb09"

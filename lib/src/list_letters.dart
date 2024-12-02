@@ -26,6 +26,7 @@ class ListLetters extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [alphabet, type, catalog, index, arrange, sequence, layout, write, text, document]
 version: "2.31"
 unicode: "fc47"
 -->

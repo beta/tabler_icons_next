@@ -26,6 +26,7 @@ class FileTypeTs extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [typescript, javascript, typed, code, programming, strict, superset, type-safe, development, frontend]
 category: Document
 version: "2.25"
 unicode: "fb17"

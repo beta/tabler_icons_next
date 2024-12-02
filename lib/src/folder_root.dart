@@ -26,6 +26,7 @@ class FolderRoot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [base, origin, core, source, foundation, anchor, fundament, basis, groundwork, beginning]
 version: "2.42"
 unicode: "fd43"
 -->

@@ -26,6 +26,7 @@ class MichelinBibGourmand extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [gourmet, cuisine, dining, restaurant, food, quality, dish, eatery, meal, gastronomy]
 category: Food
 version: "2.23"
 unicode: "fae9"

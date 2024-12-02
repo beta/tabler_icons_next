@@ -26,6 +26,7 @@ class MusicShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [distribute, exchange, release, spread, broadcast, divulge, pass, post, connect, transmit]
 version: "2.28"
 unicode: "fbe5"
 -->

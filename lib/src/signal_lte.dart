@@ -26,6 +26,7 @@ class SignalLte extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [4g, mobile, network, speed, connectivity, data, wireless, cellular, broadband, internet]
 version: "2.11"
 unicode: "f9fd"
 category: Devices

@@ -26,6 +26,7 @@ class RowRemove extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [delete, remove, erase, clear, subtract, eliminate, minus, cancel, discard, drop]
 category: Database
 version: "2.24"
 unicode: "fafe"

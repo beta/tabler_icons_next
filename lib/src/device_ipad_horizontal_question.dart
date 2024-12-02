@@ -26,6 +26,7 @@ class DeviceIpadHorizontalQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [inquiry, ask, query, doubt, wonder, ponder, investigate, explore, seek, probe]
 category: Devices
 version: "2.10"
 unicode: "f89c"

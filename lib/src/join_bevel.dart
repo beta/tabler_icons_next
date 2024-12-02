@@ -26,6 +26,7 @@ class JoinBevel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [miter, corner, angle, edge, intersection, splice, connect, junction, joint, seam]
 unicode: "ff4c"
 version: "3.10"
 -->

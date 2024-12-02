@@ -26,6 +26,7 @@ class Ikosaedr extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [geometry, polyhedron, twenty, faces, shapes, 3d, solid, structure, form, multisided]
 unicode: "fec6"
 version: "3.3"
 -->

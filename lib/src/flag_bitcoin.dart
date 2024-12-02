@@ -26,6 +26,7 @@ class FlagBitcoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [crypto, currency, blockchain, digital, btc, token, trade, investment, decentralized, exchange]
 unicode: "ff3c"
 version: "3.9"
 -->

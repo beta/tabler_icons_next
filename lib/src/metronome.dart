@@ -26,6 +26,7 @@ class Metronome extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [tempo, rhythm, beat, timing, pace, measure, timekeeper, count, cadence, meter]
 version: "2.40"
 unicode: "fd25"
 -->

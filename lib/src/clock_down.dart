@@ -26,6 +26,7 @@ class ClockDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [decrease, lower, depress, fall, reduce, drop, descend, diminish, sink, subside]
 category: System
 version: "2.8"
 unicode: "f7c3"

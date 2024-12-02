@@ -26,6 +26,7 @@ class InputSpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [ignite, light, start, energize, power, initiate, kindle, trigger, active, catalyst]
 unicode: "ffb4"
 version: "3.13"
 -->

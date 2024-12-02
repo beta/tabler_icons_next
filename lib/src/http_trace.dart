@@ -26,6 +26,7 @@ class HttpTrace extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [track, follow, monitor, route, line, path, course, outline, shadow, mark]
 category: Computers
 version: "2.14"
 unicode: "fa30"

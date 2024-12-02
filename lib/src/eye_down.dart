@@ -26,6 +26,7 @@ class EyeDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [direction, drop, vision, sight, descend, lower, decline, view, focus, fall]
 version: "2.28"
 unicode: "fb72"
 -->

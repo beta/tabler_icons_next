@@ -26,6 +26,7 @@ class CloudCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [remove, stop, terminate, abort, dismiss, reject, end, nullify, void, discard]
 category: Weather
 version: "2.10"
 unicode: "f84c"

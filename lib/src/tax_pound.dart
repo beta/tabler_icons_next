@@ -26,6 +26,7 @@ class TaxPound extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [finance, charge, duty, levy, value, monetary, currency, britain, assessment, payment]
 unicode: "feef"
 version: "3.5"
 -->

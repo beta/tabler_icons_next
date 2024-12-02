@@ -26,6 +26,7 @@ class BorderCornerRounded extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [curved, smooth, soft, gentle, rounded, edge, arc, contour, bend, bulging]
 category: Design
 version: "2.44"
 unicode: "fd63"

@@ -26,6 +26,7 @@ class MessageCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [settings, adjust, configure, control, tweak, preferences, options, modify, gear, maintenance]
 category: Communication
 version: "2.10"
 unicode: "f983"

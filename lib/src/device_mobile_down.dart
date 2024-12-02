@@ -26,6 +26,7 @@ class DeviceMobileDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [descend, decrease, lower, slide, reduce, drop, decline, fall, diminish, sink]
 category: Devices
 version: "2.10"
 unicode: "f8b3"

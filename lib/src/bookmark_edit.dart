@@ -26,6 +26,7 @@ class BookmarkEdit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [modify, adjust, change, revise, update, alter, customize, rework, tweak, enhance]
 category: Document
 version: "2.17"
 unicode: "fa5e"

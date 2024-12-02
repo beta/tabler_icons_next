@@ -26,6 +26,7 @@ class NavigationDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [currency, money, finance, cash, payment, wealth, transaction, banknote, funds, economics]
 version: "2.28"
 unicode: "fbef"
 -->

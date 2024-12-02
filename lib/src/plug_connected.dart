@@ -26,7 +26,7 @@ class PlugConnected extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [power, electricy, cable, socket]
+tags: [power, electricity, cable, socket]
 version: "1.53"
 category: Devices
 unicode: "f00a"

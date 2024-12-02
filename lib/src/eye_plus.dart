@@ -26,6 +26,7 @@ class EyePlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [add, increase, enhance, vision, sight, expand, boost, enlarge, view, focus]
 version: "2.28"
 unicode: "fb76"
 -->

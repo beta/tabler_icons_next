@@ -26,6 +26,7 @@ class Ironing extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [press, steam, fabric, smooth, crease, heat, iron, garment, wrinkle, flatten]
 category: Laundry
 version: "2.18"
 unicode: "fa7c"

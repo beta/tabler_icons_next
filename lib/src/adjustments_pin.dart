@@ -26,6 +26,7 @@ class AdjustmentsPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [settings, attach, fix, secure, lock, hold, fasten, anchor, nail, clip]
 category: System
 version: "2.10"
 unicode: "f806"

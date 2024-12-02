@@ -26,6 +26,7 @@ class DeviceIpadHorizontalX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [erase, delete, remove, void, cancel, cross, dismiss, reject, negate, invalidate]
 category: Devices
 version: "2.10"
 unicode: "f8a1"

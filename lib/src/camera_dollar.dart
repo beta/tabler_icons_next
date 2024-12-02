@@ -26,6 +26,7 @@ class CameraDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [money, finance, investment, currency, wealth, income, funding, cost, monetary, transaction]
 category: Media
 version: "2.10"
 unicode: "f838"

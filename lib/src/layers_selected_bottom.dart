@@ -26,6 +26,7 @@ class LayersSelectedBottom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [stack, arrange, pile, base, underneath, beneath, select, bottom, sort]
 category: Design
 unicode: "feaa"
 version: "3.1"

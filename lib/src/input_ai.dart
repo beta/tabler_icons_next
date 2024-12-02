@@ -26,6 +26,7 @@ class InputAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [data, feed, imbibe, consume, machine, learning, process, entry, artificial, intelligence]
 version: "2.32"
 unicode: "fc5a"
 -->

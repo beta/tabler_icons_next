@@ -26,6 +26,7 @@ class DeviceWatchMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [decrease, less, reduce, subtract, deduct, remove, negative, downscale, diminish, lower]
 category: Devices
 version: "2.10"
 unicode: "f8dc"

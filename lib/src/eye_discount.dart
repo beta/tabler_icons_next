@@ -26,6 +26,7 @@ class EyeDiscount extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [sale, offer, price, deal, bargain, vision, promotion, rebate, markdown, sight]
 version: "2.28"
 unicode: "fb70"
 -->

@@ -26,6 +26,7 @@ class ShieldCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [protection, defense, mechanism, gear, security, guard, tool, adjust, system]
 category: System
 version: "2.10"
 unicode: "f9c3"

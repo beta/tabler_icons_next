@@ -26,6 +26,7 @@ class Number32Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [thirtytwo, even, binary, cubeplus, count, fourcubed, squareplusfour, evendouble, poweroftwo, digits]
 category: Numbers
 unicode: "10002"
 version: "3.14"

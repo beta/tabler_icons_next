@@ -26,6 +26,7 @@ class FilterQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [query, ask, inquire, interrogate, wonder, probe, doubt, curiosity, uncertain, mystery]
 version: "2.28"
 unicode: "fb86"
 -->

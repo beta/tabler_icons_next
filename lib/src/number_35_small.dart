@@ -26,6 +26,7 @@ class Number35Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [thirtyfive, odd, fivetime, halfseventies, numeric, count, roundplusfive, tripleplusfive, fivebyseven, digits]
 category: Numbers
 unicode: "ffff"
 version: "3.14"

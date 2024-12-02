@@ -26,6 +26,7 @@ class DeviceTabletHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [tablet, love, favorite, like, passion, emotion, feeling, romance, affection, adore]
 category: Devices
 version: "2.10"
 unicode: "f8c8"

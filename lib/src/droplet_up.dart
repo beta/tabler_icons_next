@@ -26,6 +26,7 @@ class DropletUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [ascend, rise, increase, elevate, climb, boost, grow, advance, amplify, soar]
 category: Design
 version: "2.10"
 unicode: "f90a"

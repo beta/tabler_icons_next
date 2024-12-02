@@ -26,6 +26,7 @@ class SettingsPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [gear, configuration, adjust, setup, control, stop, halt, break, intermission, suspend]
 category: System
 version: "2.10"
 unicode: "f9b7"

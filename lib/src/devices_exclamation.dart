@@ -26,6 +26,7 @@ class DevicesExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [alert, warning, notice, attention, caution, signal, advise, notify, warn, declare]
 category: Devices
 version: "2.10"
 unicode: "f8ed"

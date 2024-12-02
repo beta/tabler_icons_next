@@ -26,6 +26,7 @@ class NavigationPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [stop, halt, wait, break, intermission, rest, delay, freeze, pausebutton, cease]
 version: "2.28"
 unicode: "fbf4"
 -->

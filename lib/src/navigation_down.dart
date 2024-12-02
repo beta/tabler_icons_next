@@ -26,6 +26,7 @@ class NavigationDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [lower, descend, below, drop, fall, sink, bottom, submerge, reduce, decrease]
 version: "2.28"
 unicode: "fbf0"
 -->

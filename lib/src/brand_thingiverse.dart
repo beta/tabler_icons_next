@@ -26,6 +26,7 @@ class BrandThingiverse extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [design, model, 3d, community, printing, prototype, repository, creation, digital, art]
 category: Brand
 version: "2.40"
 unicode: "fd1c"

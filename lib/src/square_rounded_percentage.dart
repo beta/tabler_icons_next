@@ -26,6 +26,7 @@ class SquareRoundedPercentage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [geometry, fraction, ratio, calculate, evaluate, determine, proportion, symbol, percentage, statistic]
 version: "2.45"
 unicode: "fd84"
 -->

@@ -26,6 +26,7 @@ class DeviceIpadHorizontalCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [program, developer, software, script, syntax, compile, execute, debug, language, binary]
 category: Devices
 version: "2.10"
 unicode: "f891"

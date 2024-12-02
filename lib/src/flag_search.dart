@@ -26,6 +26,7 @@ class FlagSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [find, discover, seek, locate, look, explore, hunt, inspect, track, identify]
 version: "2.28"
 unicode: "fb99"
 -->

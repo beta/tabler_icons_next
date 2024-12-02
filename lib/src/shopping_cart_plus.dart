@@ -26,6 +26,7 @@ class ShoppingCartPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [increase, add, boost, enhance, supplement, grow, amplify, expand, augment, elevate]
 version: "2.28"
 unicode: "fb65"
 -->

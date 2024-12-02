@@ -26,6 +26,7 @@ class MoodEdit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [modify, alter, change, revise, update, adjust, rewrite, emotion, edit, smiley]
 version: "2.12"
 unicode: "fa05"
 category: Mood

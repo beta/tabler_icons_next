@@ -26,6 +26,7 @@ class ChartBarPopular extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [analytics, trending, data, statistics, visualization, graph, preference, rating, ranking]
 unicode: "fef7"
 version: "3.5"
 -->

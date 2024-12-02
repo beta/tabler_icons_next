@@ -26,6 +26,7 @@ class CircleDashedNumber2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [two, double, duo, pair, couple, second, binary, twosome, dyad, dual]
 category: Numbers
 version: "2.33"
 unicode: "fc6d"

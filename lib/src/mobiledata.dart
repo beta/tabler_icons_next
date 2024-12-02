@@ -26,6 +26,7 @@ class Mobiledata extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [connect, enable, active, available, network, signal, communication, online, transmission, service]
 version: "2.11"
 unicode: "f9f5"
 -->

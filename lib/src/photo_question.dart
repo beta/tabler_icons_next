@@ -26,6 +26,7 @@ class PhotoQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [inquiry, doubt, ask, query, photograph, curiosity, interrogate, enquire, symbol, snapshot]
 category: Media
 version: "2.10"
 unicode: "f997"

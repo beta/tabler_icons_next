@@ -26,6 +26,7 @@ class LabelOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [mute, inactive, dormant, quiet, deactivate, silent, void, unmarked, disengage, disable]
 unicode: "ff39"
 version: "3.9"
 -->

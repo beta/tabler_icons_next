@@ -26,6 +26,7 @@ class SettingsDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [gear, configuration, adjust, setup, control, currency, finance, money, cost, economics]
 category: System
 version: "2.10"
 unicode: "f9b2"

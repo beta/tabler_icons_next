@@ -26,6 +26,7 @@ class LockBitcoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [cryptocurrency, blockchain, secure, wallet, token, crypto, safety, coin, digital]
 unicode: "ff37"
 version: "3.9"
 -->

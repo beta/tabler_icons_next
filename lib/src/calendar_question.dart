@@ -26,6 +26,7 @@ class CalendarQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [inquiry, query, ask, doubt, ponder, wonder, hesitate, probe, investigate, explore]
 category: System
 version: "2.10"
 unicode: "f82d"

@@ -26,6 +26,7 @@ class BasketDiscount extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [shopping, cart, sale, offer, purchase, store, goods, buy, voucher, bargain]
 version: "2.28"
 unicode: "fb48"
 -->

@@ -26,6 +26,7 @@ class RouteScan extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [path, direction, track, find, gps, map, navigate, explore, trace, survey]
 version: "2.37"
 unicode: "fcbf"
 -->

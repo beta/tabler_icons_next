@@ -26,6 +26,7 @@ class MapNorth extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [northward, upward, compass, boreal, cardinal, arctic, poleward, direction, trip, geographic]
 category: Map
 version: "2.32"
 unicode: "fc5e"

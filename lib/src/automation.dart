@@ -26,6 +26,7 @@ class Automation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [technology, process, efficiency, machine, control, system, software, robotics, engineering, industry]
 unicode: "fef8"
 version: "3.5"
 -->

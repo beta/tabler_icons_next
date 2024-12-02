@@ -26,6 +26,7 @@ class Invoice extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [bill, statement, receipt, charge, account, record, summary, document, detail, accounting]
 category: Document
 unicode: "feab"
 version: "3.1"

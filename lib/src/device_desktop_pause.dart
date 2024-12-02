@@ -26,6 +26,7 @@ class DeviceDesktopPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [halt, stop, break, suspend, interruption, freeze, hold, delay, interlude, stall]
 category: Devices
 version: "2.10"
 unicode: "f868"

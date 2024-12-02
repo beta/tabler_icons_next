@@ -26,6 +26,7 @@ class Number34Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [thirtyfour, even, numeric, count, fourcubedplus2, pairsixteenplus2, evencompass, secondoddend, offsetpair, digits]
 category: Numbers
 unicode: "10000"
 version: "3.14"

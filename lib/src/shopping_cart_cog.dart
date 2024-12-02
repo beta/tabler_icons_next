@@ -26,6 +26,7 @@ class ShoppingCartCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [settings, gear, control, adjust, configure, tune, calibrate, manage, preference, customize]
 version: "2.28"
 unicode: "fb5b"
 -->

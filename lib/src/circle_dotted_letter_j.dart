@@ -26,6 +26,7 @@ class CircleDottedLetterJ extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [juliett, tenth-letter, consonant, join, jump, justify, journey, jury, jewel, jest]
 category: Letters
 unicode: "ff76"
 version: "3.11"

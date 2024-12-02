@@ -26,6 +26,7 @@ class LoadBalancer extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [distribution, traffic, server, network, scalability, optimization, equilibrium, management, routing, stability]
 category: Computers
 version: "2.16"
 unicode: "fa5c"

@@ -26,6 +26,7 @@ class PhotoHexagon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [six-sided, polygon, shape, geometry, angle, border, snap, form, photography, picture]
 version: "2.31"
 unicode: "fc4b"
 -->

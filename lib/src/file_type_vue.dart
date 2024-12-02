@@ -26,6 +26,7 @@ class FileTypeVue extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [vue, javascript, framework, frontend, ui, component, web, progressive, template, interactive]
 category: Document
 version: "2.25"
 unicode: "fb1a"

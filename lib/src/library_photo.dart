@@ -26,6 +26,7 @@ class LibraryPhoto extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [image, gallery, album, pictures, photography, archive, collection, snapshot, catalog, photos]
 version: "2.42"
 unicode: "fd4a"
 -->

@@ -26,6 +26,7 @@ class FileTypeJs extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [javascript, script, programming, frontend, code, web, dynamic, interactive, client-side, js]
 category: Document
 version: "2.25"
 unicode: "fb0e"

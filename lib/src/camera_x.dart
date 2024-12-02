@@ -26,6 +26,7 @@ class CameraX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [photography, delete, remove, cancel, close, terminate, dismiss, end, snapshot]
 category: Media
 version: "2.10"
 unicode: "f843"

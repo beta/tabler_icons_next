@@ -26,6 +26,7 @@ class Number87Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [eighty-seven, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
 category: Numbers
 unicode: "ffcb"
 version: "3.14"

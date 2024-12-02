@@ -26,6 +26,7 @@ class SignalE extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [edge, network, wireless, mobile, connectivity, cellular, internet, communication, data, coverage]
 version: "2.11"
 unicode: "f9f9"
 category: Devices

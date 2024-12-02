@@ -26,6 +26,7 @@ class DeviceUnknown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [mystery, undefined, unclear, unidentified, uncertain, ambiguous, obscure, unseen, anonymous, unspecified]
 unicode: "fef4"
 version: "3.5"
 -->

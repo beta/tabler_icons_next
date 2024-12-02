@@ -26,6 +26,7 @@ class Number11 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [eleven, prime, odd, numeric, count, afterten, doubleone, scoreplusone, complementary, digits]
 unicode: "1005d"
 version: "3.18"
 -->

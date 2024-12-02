@@ -26,6 +26,7 @@ class ChevronCompactUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [arrow, direction, upward, ascend, elevate, uplift, point, symbol, navigate, move]
 category: Arrows
 version: "2.24"
 unicode: "faf3"

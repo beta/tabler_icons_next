@@ -26,6 +26,7 @@ class FilterExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [alert, warning, important, notice, caution, exclaim, attention, highlight, notify, signal]
 version: "2.28"
 unicode: "fb82"
 -->

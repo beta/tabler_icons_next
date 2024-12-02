@@ -26,6 +26,7 @@ class MathSec extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [secant, geometry, math, circle, ratio, sine, trigonometry, function, angle, formula]
 unicode: "ff34"
 version: "3.9"
 -->

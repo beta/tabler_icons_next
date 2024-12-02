@@ -26,6 +26,7 @@ class LocationDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [descend, fall, decrease, drop, lower, sink, diminish, reduce, subside, plunge]
 version: "2.28"
 unicode: "fbb6"
 -->

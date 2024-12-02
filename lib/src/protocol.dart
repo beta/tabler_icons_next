@@ -26,6 +26,7 @@ class Protocol extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [procedure, system, method, guideline, rule, standard, framework, process, format, structure]
 version: "2.45"
 unicode: "fd81"
 -->

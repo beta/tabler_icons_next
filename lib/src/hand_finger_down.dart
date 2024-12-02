@@ -26,6 +26,7 @@ class HandFingerDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [gesture, point, direction, indicate, signal, motion, guide, move, show, pointing]
 unicode: "ff4f"
 version: "3.10"
 -->

@@ -27,7 +27,7 @@ class ExternalLink extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [connection, outbound, redirect]
+tags: [connection, outbound, redirect, new tab, tab, square, arrow]
 version: "1.0"
 unicode: "ea99"
 -->

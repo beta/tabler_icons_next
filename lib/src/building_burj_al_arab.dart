@@ -26,6 +26,7 @@ class BuildingBurjAlArab extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [hotel, dubai, landmark, luxury, architecture, sail, iconic, resort, skyline, tourism]
 unicode: "ff50"
 version: "3.10"
 -->

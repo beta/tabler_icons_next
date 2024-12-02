@@ -26,6 +26,7 @@ class Universe extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [cosmos, galaxy, space, astronomy, stars, planets, infinite, vast, beyond, expanse]
 version: "2.37"
 unicode: "fcc4"
 -->

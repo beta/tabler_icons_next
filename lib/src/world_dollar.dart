@@ -26,6 +26,7 @@ class WorldDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [finance, currency, economics, global, money, trade, wealth, business, budget, fiscal]
 category: Map
 version: "2.10"
 unicode: "f9de"

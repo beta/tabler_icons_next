@@ -26,6 +26,7 @@ class CircleDashedLetterA extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [alphabet, uppercase, character, text, symbol, type, font, typography, letter, writing]
 category: Letters
 unicode: "ff9a"
 version: "3.11"

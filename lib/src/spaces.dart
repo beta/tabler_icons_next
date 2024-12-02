@@ -26,6 +26,7 @@ class Spaces extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [gap, interval, distance, void, separation, area, margin, expanse, breach, emptiness]
 unicode: "fea4"
 version: "3.1"
 -->

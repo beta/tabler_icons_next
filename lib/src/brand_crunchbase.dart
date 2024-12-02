@@ -26,6 +26,7 @@ class BrandCrunchbase extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [database, startups, business, funding, investment, innovation, entrepreneurship, data, analytics, profile]
 category: Brand
 version: "2.9"
 unicode: "f7e3"

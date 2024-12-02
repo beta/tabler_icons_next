@@ -26,6 +26,7 @@ class CaretUpDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [indicator, navigation, direction, toggle, switch, movement, select, option, upward, downward]
 version: "2.31"
 unicode: "fc44"
 -->

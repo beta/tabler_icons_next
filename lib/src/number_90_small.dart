@@ -26,6 +26,7 @@ class Number90Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [ninety, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
 category: Numbers
 unicode: "ffc8"
 version: "3.14"

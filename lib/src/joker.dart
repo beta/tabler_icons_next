@@ -26,6 +26,7 @@ class Joker extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [wildcard, trickster, card, entertain, fool, jest, playful, clown, funny, comedy]
 unicode: "1005f"
 version: "3.18"
 -->

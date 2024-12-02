@@ -26,6 +26,7 @@ class FileTypeDocx extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [document, word, text, office, paper, file, doc, docx, writing, editor]
 category: Document
 version: "2.25"
 unicode: "fb0b"

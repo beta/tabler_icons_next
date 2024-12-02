@@ -26,6 +26,7 @@ class Number43Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [tiny, fortythree, digit43, numeric, miniature, icon43, num43, small43, fourthree, miniscule]
 category: Numbers
 unicode: "fff7"
 version: "3.14"

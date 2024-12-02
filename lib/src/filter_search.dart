@@ -26,6 +26,7 @@ class FilterSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [find, locate, explore, discover, inspect, seek, detect, look, scan, hunt]
 version: "2.28"
 unicode: "fb87"
 -->

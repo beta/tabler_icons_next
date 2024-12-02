@@ -26,6 +26,7 @@ class DeviceImacPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [increase, add, augment, boost, expand, enhance, grow, raise, amplify, elevate]
 category: Devices
 version: "2.10"
 unicode: "f87e"

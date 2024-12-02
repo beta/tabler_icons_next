@@ -26,6 +26,7 @@ class MessagePin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [attach, fix, secure, hold, fasten, mark, anchor, stabilize, lock, place]
 category: Communication
 version: "2.10"
 unicode: "f98a"

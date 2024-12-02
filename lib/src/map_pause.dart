@@ -26,6 +26,7 @@ class MapPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [stop, halt, break, wait, delay, interruption, hold, cease, freeze, suspend]
 version: "2.28"
 unicode: "fbce"
 -->

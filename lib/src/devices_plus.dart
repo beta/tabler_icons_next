@@ -26,6 +26,7 @@ class DevicesPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [add, increase, expand, enhance, augment, gain, boost, grow, advance, accumulate]
 category: Devices
 version: "2.10"
 unicode: "f8f2"

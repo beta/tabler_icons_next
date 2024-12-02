@@ -26,6 +26,7 @@ class ReceiptRupee extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [currency, bill, transaction, invoice, payment, finance, economy, account, cash, document]
 version: "2.45"
 unicode: "fd82"
 -->

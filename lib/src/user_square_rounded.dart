@@ -26,6 +26,7 @@ class UserSquareRounded extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [border, frame, rectangle, shape, geometry, design, pattern, corners, form, angular]
 version: "2.31"
 unicode: "fc50"
 -->

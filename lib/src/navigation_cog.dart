@@ -26,6 +26,7 @@ class NavigationCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [settings, gear, mechanism, adjustment, options, preferences, customization, control, wheel, configuration]
 version: "2.28"
 unicode: "fbed"
 -->

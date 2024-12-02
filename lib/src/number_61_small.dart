@@ -26,6 +26,7 @@ class Number61Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [tiny, sixtyone, digit61, numeric, miniature, icon61, num61, small61, sixone, miniscule]
 category: Numbers
 unicode: "ffe5"
 version: "3.14"

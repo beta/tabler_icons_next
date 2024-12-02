@@ -26,6 +26,7 @@ class FilterUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [increase, raise, ascend, boost, elevate, surge, climb, rise, improve, advance]
 version: "2.28"
 unicode: "fb89"
 -->

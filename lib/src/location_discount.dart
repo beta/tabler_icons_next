@@ -26,6 +26,7 @@ class LocationDiscount extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [offer, sale, promotion, deal, reduce, bargain, pricecut, special, saving, markdown]
 version: "2.28"
 unicode: "fbb4"
 -->

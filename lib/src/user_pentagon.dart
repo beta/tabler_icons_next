@@ -26,6 +26,7 @@ class UserPentagon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [shape, geometry, five, polygon, structure, design, pattern, angles, form, figure]
 version: "2.31"
 unicode: "fc4f"
 -->

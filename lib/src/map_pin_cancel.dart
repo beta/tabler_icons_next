@@ -26,6 +26,7 @@ class MapPinCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [retract, nullify, undo, remove, eliminate, dismiss, delete, void, reject, discard]
 category: Map
 version: "2.10"
 unicode: "f94b"

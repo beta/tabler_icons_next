@@ -26,6 +26,7 @@ class TransactionYuan extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [china, currency, exchange, trade, payment, cash, money, yuan, finance, transfer]
 category: E-commerce
 version: "2.44"
 unicode: "fd73"

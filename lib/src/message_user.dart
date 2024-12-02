@@ -26,6 +26,7 @@ class MessageUser extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [identity, member, person, individual, participant, customer, viewer, visitor, client, account]
 unicode: "fec4"
 version: "3.3"
 -->

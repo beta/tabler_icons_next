@@ -26,6 +26,7 @@ class TemperatureSnow extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [cold, winter, climate, chills, freeze, degree, weather, forecast, frost, ice]
 version: "2.47"
 unicode: "fda3"
 -->

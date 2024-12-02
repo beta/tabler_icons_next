@@ -26,6 +26,7 @@ class BrandRust extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [metal, oxidation, language, programming, brown, corrosion, decay, software, development, code]
 category: Brand
 version: "2.16"
 unicode: "fa53"

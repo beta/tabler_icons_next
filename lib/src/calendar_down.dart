@@ -26,6 +26,7 @@ class CalendarDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [decrease, fall, drop, reduce, lower, descend, decline, diminish, plummet, subside]
 category: System
 version: "2.10"
 unicode: "f828"

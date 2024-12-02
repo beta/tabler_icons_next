@@ -26,6 +26,7 @@ class DeviceDesktopCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [confirm, validate, approve, authorize, assent, certify, endorse, verify, acknowledge, sanction]
 category: Devices
 version: "2.10"
 unicode: "f860"

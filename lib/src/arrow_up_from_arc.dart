@@ -26,6 +26,7 @@ class ArrowUpFromArc extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [navigation, direction, upward, arch, symbol, flow, guide, path, interface, ui]
 version: "2.46"
 unicode: "fd8c"
 -->

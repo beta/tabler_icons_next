@@ -26,6 +26,7 @@ class CookieMan extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [identity, person, individual, figure, character, personage, being, life, human, profile]
 unicode: "fdb2"
 version: "3.0"
 -->

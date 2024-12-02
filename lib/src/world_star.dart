@@ -26,6 +26,7 @@ class WorldStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [globe, stellar, earth, universe, cosmos, planet, celestial, galaxy, shine, astronomy]
 category: Map
 version: "2.10"
 unicode: "f9e9"

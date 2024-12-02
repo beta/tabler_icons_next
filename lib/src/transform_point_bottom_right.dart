@@ -26,6 +26,7 @@ class TransformPointBottomRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [reshape, edit, adjust, modify, transform, right, bottom, point, corner, design]
 version: "2.47"
 unicode: "fda6"
 -->

@@ -26,6 +26,7 @@ class UTurnLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [reverse, change, flip, rotate, revert, backward, loop, swerve, return, redirect]
 category: Arrows
 unicode: "fea2"
 version: "3.1"

@@ -26,6 +26,7 @@ class MailBitcoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [crypto, currency, message, virtual, send, transaction, exchange, digital, coin, transfer]
 unicode: "ff36"
 version: "3.9"
 -->

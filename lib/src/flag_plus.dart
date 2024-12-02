@@ -26,6 +26,7 @@ class FlagPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [add, increase, more, grow, expand, multiply, benefit, positive, enhance, amplify]
 version: "2.28"
 unicode: "fb97"
 -->

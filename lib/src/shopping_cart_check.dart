@@ -26,6 +26,7 @@ class ShoppingCartCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [confirm, verify, validate, approve, authenticate, review, certify, ratify, endorse, sanction]
 version: "2.28"
 unicode: "fb59"
 -->

@@ -26,6 +26,7 @@ class BasketPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [add, increase, augment, expand, supplement, boost, enhance, enlarge, grow, magnify]
 version: "2.28"
 unicode: "fb50"
 -->

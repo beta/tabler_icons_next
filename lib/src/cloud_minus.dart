@@ -26,6 +26,7 @@ class CloudMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [subtract, reduce, decrease, lessen, deduct, remove, lower, diminish, shorten, cut]
 category: Weather
 version: "2.10"
 unicode: "f854"

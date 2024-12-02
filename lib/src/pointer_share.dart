@@ -26,6 +26,7 @@ class PointerShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [distribute, send, connect, link, post, give, spread, communicate, exchange, social]
 category: System
 version: "2.10"
 unicode: "f9a9"

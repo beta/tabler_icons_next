@@ -26,6 +26,7 @@ class LocationCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [verify, confirm, approve, validate, tick, pass, authenticate, mark, agree, okay]
 version: "2.28"
 unicode: "fbb1"
 -->

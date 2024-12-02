@@ -26,6 +26,7 @@ class Number72Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [seventy-two, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
 category: Numbers
 unicode: "ffda"
 version: "3.14"

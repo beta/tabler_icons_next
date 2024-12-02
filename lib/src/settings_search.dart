@@ -26,6 +26,7 @@ class SettingsSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [configuration, lookup, find, preferences, browse, explore, locate, search, detect, scrutinize]
 category: System
 version: "2.10"
 unicode: "f9bb"

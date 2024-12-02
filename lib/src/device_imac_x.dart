@@ -26,6 +26,7 @@ class DeviceImacX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [remove, delete, erase, cancel, discard, omit, exclude, obliterate, purge, terminate]
 category: Devices
 version: "2.10"
 unicode: "f884"

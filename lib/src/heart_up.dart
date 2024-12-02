@@ -26,6 +26,7 @@ class HeartUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [rise, increase, grow, boost, ascend, advance, uplift, soar, elevate, climb]
 version: "2.28"
 unicode: "fbad"
 -->

@@ -26,6 +26,7 @@ class CalendarCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [schedule, event, remove, appointment, planning, date, withdraw, online, organize, exit]
 category: System
 version: "2.10"
 unicode: "f823"

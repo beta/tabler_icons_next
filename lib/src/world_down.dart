@@ -26,6 +26,7 @@ class WorldDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [lower, descend, decrease, sink, drop, global, reduce, fall, diminish, decline]
 category: Map
 version: "2.10"
 unicode: "f9df"

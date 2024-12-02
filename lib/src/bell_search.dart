@@ -26,6 +26,7 @@ class BellSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [find, look, seek, explore, detect, discover, locate, track, scout, investigate]
 category: System
 version: "2.10"
 unicode: "f81e"

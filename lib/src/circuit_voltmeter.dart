@@ -26,7 +26,7 @@ class CircuitVoltmeter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [diagram, electric, electricy, component]
+tags: [diagram, electric, electricity, component]
 category: Electrical
 version: "1.77"
 unicode: "f283"

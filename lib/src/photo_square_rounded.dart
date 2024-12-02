@@ -26,6 +26,7 @@ class PhotoSquareRounded extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [corner, soft-edge, shape, border, rectangle, snap, form, angle, frame, design]
 version: "2.31"
 unicode: "fc4d"
 -->

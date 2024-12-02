@@ -26,6 +26,7 @@ class DropletCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [settings, gear, adjust, configure, system, control, mechanism, tool, setup, tweak]
 category: Design
 version: "2.10"
 unicode: "f8fd"

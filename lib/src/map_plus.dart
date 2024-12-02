@@ -26,6 +26,7 @@ class MapPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [expand, enlarge, add, increase, grow, upscale, multiply, boost, enhance, extend]
 version: "2.28"
 unicode: "fbcf"
 -->

@@ -26,6 +26,7 @@ class MapPinExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [alert, warning, attention, urgent, notify, caution, emphasis, important, signal, highlight]
 category: Map
 version: "2.10"
 unicode: "f951"

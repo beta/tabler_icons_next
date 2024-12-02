@@ -26,6 +26,7 @@ class CalendarUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [increase, rise, ascend, elevate, boost, uplift, advance, soar, enhance, improve]
 category: System
 version: "2.10"
 unicode: "f831"

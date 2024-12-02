@@ -26,6 +26,7 @@ class CircleDashedPercentage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [percent, ratio, portion, fraction, rate, 100, per, decimal, markup, discount]
 version: "2.45"
 unicode: "fd7a"
 -->

@@ -26,6 +26,7 @@ class LocationQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [query, ask, inquire, probe, quiz, wonder, explore, interrogate, investigate, doubt]
 version: "2.28"
 unicode: "fbbd"
 -->

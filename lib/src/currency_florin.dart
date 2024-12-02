@@ -26,6 +26,7 @@ class CurrencyFlorin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [money, finance, cash, wealth, coin, fund, capital, economy, transaction, value]
 category: Currencies
 version: "2.24"
 unicode: "faf5"

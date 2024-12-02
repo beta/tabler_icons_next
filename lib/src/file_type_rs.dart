@@ -26,6 +26,7 @@ class FileTypeRs extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [rust, programming, systems, safe, concurrent, fast, efficient, software, code, compile]
 category: Document
 version: "2.25"
 unicode: "fb14"

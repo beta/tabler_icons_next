@@ -26,6 +26,7 @@ class DeviceMobilePlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [add, increase, more, expand, grow, insert, boost, multiply, enlarge, extend]
 category: Devices
 version: "2.10"
 unicode: "f8b9"

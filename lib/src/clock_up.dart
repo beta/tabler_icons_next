@@ -26,6 +26,7 @@ class ClockUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [increase, ascend, raise, uplift, improve, elevate, boost, advance, growth, rise]
 category: System
 version: "2.8"
 unicode: "f7ca"

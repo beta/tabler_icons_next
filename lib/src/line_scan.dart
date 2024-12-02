@@ -26,6 +26,7 @@ class LineScan extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [detect, trace, analyze, inspect, examine, linear, scan, survey, review, gauge]
 version: "2.37"
 unicode: "fcb8"
 -->

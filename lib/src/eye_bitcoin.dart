@@ -26,6 +26,7 @@ class EyeBitcoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [crypto, currency, finance, digital, blockchain, coin, wallet, virtual, invest, trade]
 unicode: "ff3d"
 version: "3.9"
 -->

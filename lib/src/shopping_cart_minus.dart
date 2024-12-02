@@ -26,6 +26,7 @@ class ShoppingCartMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [deduct, reduce, decrease, subtract, diminish, remove, shorten, cut, downsize, minimize]
 version: "2.28"
 unicode: "fb62"
 -->

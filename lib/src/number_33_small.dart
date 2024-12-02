@@ -26,6 +26,7 @@ class Number33Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [thirtythree, odd, numeric, count, doubleprime, oddround, halfsixthsix, doublesixteenthplusone, treble, digits]
 category: Numbers
 unicode: "10001"
 version: "3.14"

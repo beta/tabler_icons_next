@@ -26,7 +26,7 @@ class CircuitCapacitor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [diagram, electric, electrity]
+tags: [diagram, electric, electricity]
 category: Electrical
 version: "1.77"
 unicode: "f275"

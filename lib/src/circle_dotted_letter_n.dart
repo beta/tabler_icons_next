@@ -26,6 +26,7 @@ class CircleDottedLetterN extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [november, fourteenth-letter, consonant, north, note, now, nurture, need, neck, nap]
 category: Letters
 unicode: "ff72"
 version: "3.11"

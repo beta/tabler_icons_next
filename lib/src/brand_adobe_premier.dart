@@ -26,6 +26,7 @@ class BrandAdobePremier extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [video, editing, movie, cut, film, production, sequence, timeline, media, compose]
 category: Brand
 unicode: "ff26"
 version: "3.8"

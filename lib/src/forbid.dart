@@ -26,6 +26,7 @@ class Forbid extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [prohibit, veto, disallow, prevent, exclude, bar, inhibit, restrain, blacklist, preclude]
 tag: [access, restriction, ban, limit]
 version: "1.6"
 unicode: "ebd5"

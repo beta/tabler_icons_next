@@ -26,6 +26,7 @@ class TipJarPound extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [donate, contribution, money, pound, charity, fund, gift, jar, support, currency]
 unicode: "feeb"
 version: "3.5"
 -->

@@ -26,6 +26,7 @@ class CloudBitcoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [cryptocurrency, finance, money, blockchain, digital, currency, wealth, investment, trade, transaction]
 unicode: "ff3e"
 version: "3.9"
 -->

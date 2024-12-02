@@ -26,6 +26,7 @@ class DropletStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [favorite, highlight, feature, accentuate, admire, shine, glitter, sparkle, emphasize, noteworthy]
 category: Design
 version: "2.10"
 unicode: "f909"

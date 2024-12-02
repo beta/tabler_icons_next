@@ -26,6 +26,7 @@ class AlignBoxCenterBottom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [arrange, organize, align, middle, bottom, balance, center, layout, adjust, format]
 category: Text
 version: "2.22"
 unicode: "facb"

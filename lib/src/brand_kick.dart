@@ -26,6 +26,7 @@ class BrandKick extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [streaming, content, live, creator, broadcast, platform, video, streamer, interactive, audience]
 category: Brand
 version: "2.14"
 unicode: "fa23"

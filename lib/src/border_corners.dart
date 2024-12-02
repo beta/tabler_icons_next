@@ -26,6 +26,7 @@ class BorderCorners extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [edge, boundaries, angles, section, junction, perimeter, sides, outlines, frames, interfaces]
 category: Design
 version: "2.6"
 unicode: "f7a0"

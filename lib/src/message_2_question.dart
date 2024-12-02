@@ -26,6 +26,7 @@ class Message2Question extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [inquiry, ask, query, doubt, probe, interrogate, wonder, ponder, curiosity, investigate]
 category: Communication
 version: "2.10"
 unicode: "f968"

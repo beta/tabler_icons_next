@@ -26,6 +26,7 @@ class BrandAdobePhotoshop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [edit, imagery, design, retouch, creative, graphics, modify, art, visuals, compose]
 category: Brand
 unicode: "ff27"
 version: "3.8"

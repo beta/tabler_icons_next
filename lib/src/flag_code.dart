@@ -26,6 +26,7 @@ class FlagCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [program, software, develop, script, application, compile, debug, algorithm, command, markup]
 version: "2.28"
 unicode: "fb8d"
 -->

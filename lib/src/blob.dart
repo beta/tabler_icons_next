@@ -26,6 +26,7 @@ class Blob extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [shape, form, mass, clump, bulk, group, cluster, lump, patch, chunk]
 unicode: "feaf"
 version: "3.1"
 -->

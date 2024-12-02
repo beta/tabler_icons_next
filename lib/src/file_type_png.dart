@@ -26,6 +26,7 @@ class FileTypePng extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [image, graphic, picture, photo, raster, bitmap, transparency, png, compressed, visual]
 category: Document
 version: "2.25"
 unicode: "fb12"

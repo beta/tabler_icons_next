@@ -26,6 +26,7 @@ class ArrowCapsule extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [shape, direction, style, navigation, symbol, design, indicator, ui, interface, guide]
 category: Arrows
 version: "2.23"
 unicode: "fade"

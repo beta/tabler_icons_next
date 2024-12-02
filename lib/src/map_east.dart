@@ -26,6 +26,7 @@ class MapEast extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [orient, sunrise, direction, right, oriental, asia, compass, cardinal, sunup, far]
 category: Map
 version: "2.32"
 unicode: "fc5d"

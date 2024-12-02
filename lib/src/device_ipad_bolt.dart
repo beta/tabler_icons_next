@@ -26,6 +26,7 @@ class DeviceIpadBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [power, energy, flash, electric, speed, zap, lightning, charge, thunder, spark]
 category: Devices
 version: "2.10"
 unicode: "f885"

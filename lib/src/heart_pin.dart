@@ -26,6 +26,7 @@ class HeartPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [location, mark, place, point, spot, site, fix, navigate, map]
 version: "2.28"
 unicode: "fba8"
 -->

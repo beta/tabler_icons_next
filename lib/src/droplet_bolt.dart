@@ -26,6 +26,7 @@ class DropletBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [electric, energy, shock, lightning, flash, power, current, charge, zap, thunder]
 category: Design
 version: "2.10"
 unicode: "f8f9"

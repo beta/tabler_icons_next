@@ -26,6 +26,7 @@ class DeviceWatchSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [find, locate, discover, explore, seek, look, browse, scout, investigate, probe]
 category: Devices
 version: "2.10"
 unicode: "f8e1"

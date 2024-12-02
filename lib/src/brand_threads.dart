@@ -26,6 +26,7 @@ class BrandThreads extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [textile, discussion, conversation, needlework, clothing, forum, dialogue, social, sewing, fabric]
 category: Brand
 version: "2.25"
 unicode: "fb02"

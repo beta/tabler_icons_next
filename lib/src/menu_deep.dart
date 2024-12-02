@@ -26,6 +26,7 @@ class MenuDeep extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [explore, layers, details, sublevels, drilldown, submenu, navigate, structure, in-depth, complex]
 version: "2.24"
 unicode: "fafb"
 -->

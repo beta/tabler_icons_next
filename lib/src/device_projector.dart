@@ -26,6 +26,7 @@ class DeviceProjector extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [display, presentation, screen, show, project, beam, visual, image, view, demonstrate]
 version: "2.29"
 unicode: "fc11"
 -->

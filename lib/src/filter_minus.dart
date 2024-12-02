@@ -26,6 +26,7 @@ class FilterMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [subtract, reduce, remove, decrease, lessen, deduct, lower, negative, diminish, shrink]
 category: System
 version: "2.12"
 unicode: "fa01"

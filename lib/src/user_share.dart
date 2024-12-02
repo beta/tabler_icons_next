@@ -26,6 +26,7 @@ class UserShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [distribute, communicate, connect, link, exchange, send, transmit, relay, broadcast, disseminate]
 category: System
 version: "2.10"
 unicode: "f9d8"

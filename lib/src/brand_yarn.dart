@@ -26,6 +26,7 @@ class BrandYarn extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [package, manager, npm, software, dependency, tool, development, node, project, setup]
 category: Brand
 version: "2.45"
 unicode: "fd79"

@@ -26,6 +26,7 @@ class Wheel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [circular, round, spin, rotation, revolve, hub, axle, turn, motion, vehicle]
 version: "2.32"
 unicode: "fc64"
 -->

@@ -26,6 +26,7 @@ class MusicStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [favorite, highlight, best, top, bright, shine, selection, elite, premium, noteworthy]
 version: "2.28"
 unicode: "fbe6"
 -->

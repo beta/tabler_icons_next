@@ -26,6 +26,7 @@ class TimeDurationOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [off, timer, zero, disable, inactive, silent, pause, stop, time, clock]
 category: System
 version: "2.22"
 unicode: "fadc"

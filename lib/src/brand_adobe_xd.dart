@@ -26,6 +26,7 @@ class BrandAdobeXd extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [ui, ux, interface, design, prototype, experience, digital, interactive, creative, wireframe]
 category: Brand
 unicode: "ff25"
 version: "3.8"

@@ -26,6 +26,7 @@ class ProgressHelp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [support, assist, question, status, indicator, guide, update, process, info, hint]
 version: "2.12"
 unicode: "fa0b"
 category: System

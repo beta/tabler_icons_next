@@ -26,6 +26,7 @@ class PhotoPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [halt, stop, wait, interrupt, break, hold, photograph, defer, capture, icon]
 category: Media
 version: "2.10"
 unicode: "f995"

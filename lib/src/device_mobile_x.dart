@@ -26,6 +26,7 @@ class DeviceMobileX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [exit, remove, delete, erase, terminate, stop, cancel, clear, banish, cross]
 category: Devices
 version: "2.10"
 unicode: "f8bf"

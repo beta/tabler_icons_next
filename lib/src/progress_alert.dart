@@ -26,6 +26,7 @@ class ProgressAlert extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [warning, notification, caution, indicator, status, attention, update, signal, process, info]
 version: "2.12"
 unicode: "fa07"
 category: System

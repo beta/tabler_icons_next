@@ -26,6 +26,7 @@ class FolderCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [abort, annul, void, revoke, suspend, stop, negate, discontinue, abortive, rescind]
 category: Document
 version: "2.10"
 unicode: "f90d"

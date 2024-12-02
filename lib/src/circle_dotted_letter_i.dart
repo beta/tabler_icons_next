@@ -26,6 +26,7 @@ class CircleDottedLetterI extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [india, ninth-letter, vowel, icon, image, input, index, idea, ignite, imagine]
 category: Letters
 unicode: "ff77"
 version: "3.11"

@@ -26,6 +26,7 @@ class Capsule extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [medicine, pharmaceutical, pill, treatment, drug, remedy, softgel, tablet, health, medication]
 category: Shapes
 version: "2.23"
 unicode: "fae3"

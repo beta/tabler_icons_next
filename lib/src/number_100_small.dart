@@ -26,6 +26,7 @@ class Number100Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [hundred, century, cent, triplefigure, complete, full, maximal, total, entire, doublefifty]
 category: Numbers
 unicode: "10005"
 version: "3.14"

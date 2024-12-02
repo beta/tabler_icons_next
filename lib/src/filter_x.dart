@@ -26,6 +26,7 @@ class FilterX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [close, exit, remove, delete, cancel, terminate, end, eliminate, stop, cut]
 category: System
 version: "2.12"
 unicode: "fa04"

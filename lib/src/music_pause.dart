@@ -26,6 +26,7 @@ class MusicPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [halt, break, interval, stop, suspend, freeze, hold, rest, wait, cease]
 version: "2.28"
 unicode: "fbe0"
 -->

@@ -26,6 +26,7 @@ class PointerCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [approve, tick, correct, confirm, valid, complete, right, yes, pass, success]
 category: System
 version: "2.10"
 unicode: "f99b"

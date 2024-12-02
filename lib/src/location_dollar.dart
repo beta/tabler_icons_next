@@ -26,6 +26,7 @@ class LocationDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [currency, money, finance, cash, payment, economy, wealth, income, fund, transaction]
 version: "2.28"
 unicode: "fbb5"
 -->

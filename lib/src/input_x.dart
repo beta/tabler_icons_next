@@ -26,6 +26,7 @@ class InputX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [cross, cancel, remove, delete, not, clear, erase, exit, close, negate]
 version: "2.32"
 unicode: "fc5c"
 -->

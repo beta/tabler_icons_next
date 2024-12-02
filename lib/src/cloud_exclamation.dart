@@ -26,6 +26,7 @@ class CloudExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [alert, warning, notice, attention, caution, highlight, emphasis, critical, important, urgent]
 category: Weather
 version: "2.10"
 unicode: "f852"

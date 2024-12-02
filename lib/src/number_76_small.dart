@@ -26,6 +26,7 @@ class Number76Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [seventy-six, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
 category: Numbers
 unicode: "ffd6"
 version: "3.14"

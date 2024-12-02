@@ -26,6 +26,7 @@ class CircleDashedNumber1 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [one, single, uno, first, unit, solo, monad, individual, unity, single-item]
 category: Numbers
 version: "2.33"
 unicode: "fc6c"

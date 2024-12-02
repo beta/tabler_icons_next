@@ -26,6 +26,7 @@ class DeviceTabletDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [tablet, download, descend, lower, fall, reduce, drop, slide, decrease, sink]
 category: Devices
 version: "2.10"
 unicode: "f8c6"

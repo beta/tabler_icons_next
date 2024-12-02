@@ -26,6 +26,7 @@ class Label extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [tag, sticker, marker, badge, identifier, notate, record, name, plot]
 unicode: "ff38"
 version: "3.9"
 -->

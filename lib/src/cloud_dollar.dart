@@ -26,6 +26,7 @@ class CloudDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [money, finance, wealth, riches, funds, currency, profit, economy, savings, capital]
 category: Weather
 version: "2.10"
 unicode: "f850"

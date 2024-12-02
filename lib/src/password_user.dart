@@ -26,6 +26,7 @@ class PasswordUser extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [authentication, login, account, identity, credentials, access, secure, protection, privacy, profile]
 category: System
 version: "2.34"
 unicode: "fc7d"

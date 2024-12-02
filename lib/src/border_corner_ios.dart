@@ -26,6 +26,7 @@ class BorderCornerIos extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [apple, iphone, style, device, technology, interface, ios, smartphone, design, theme]
 version: "2.47"
 unicode: "fd98"
 -->

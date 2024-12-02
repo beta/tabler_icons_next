@@ -26,6 +26,7 @@ class Number83Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [eighty-three, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
 category: Numbers
 unicode: "ffcf"
 version: "3.14"

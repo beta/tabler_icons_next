@@ -26,6 +26,7 @@ class Tax extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [finance, charge, duty, levy, value, government, revenue, fee, assessment, payment]
 unicode: "feee"
 version: "3.5"
 -->

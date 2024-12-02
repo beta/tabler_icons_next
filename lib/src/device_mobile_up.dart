@@ -26,6 +26,7 @@ class DeviceMobileUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [increase, ascend, rise, elevate, boost, improve, uplift, advance, enhance, grow]
 category: Devices
 version: "2.10"
 unicode: "f8be"

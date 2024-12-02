@@ -26,6 +26,7 @@ class AirTrafficControl extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [aviation, guidance, navigation, flight, monitor, manage, tower, signal, route, supervise]
 category: Map
 version: "2.25"
 unicode: "fb01"

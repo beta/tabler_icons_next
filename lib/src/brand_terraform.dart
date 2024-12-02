@@ -26,6 +26,7 @@ class BrandTerraform extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [infrastructure, cloud, automation, devops, provisioning, configuration, software, platform, tool, orchestration]
 category: Brand
 version: "2.16"
 unicode: "fa56"

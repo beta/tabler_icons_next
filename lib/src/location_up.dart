@@ -26,6 +26,7 @@ class LocationUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [ascend, rise, increase, climb, elevate, boost, uplift, enhance, escalate, soar]
 version: "2.28"
 unicode: "fbc1"
 -->

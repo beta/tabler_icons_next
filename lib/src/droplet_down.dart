@@ -26,6 +26,7 @@ class DropletDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [descend, lower, decrease, drop, fall, sink, subside, diminish, reduce, decline]
 category: Design
 version: "2.10"
 unicode: "f8ff"

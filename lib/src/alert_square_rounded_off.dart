@@ -26,6 +26,7 @@ class AlertSquareRoundedOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [warning, muted, precaution, inactive, suppressed, silent, dormant, deactivated, off, disabled]
 category: System
 version: "2.33"
 unicode: "fc68"

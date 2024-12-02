@@ -26,6 +26,7 @@ class FileTypeXml extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [markup, tag, data, structure, format, hierarchical, xml, document, schema, web]
 category: Document
 version: "2.25"
 unicode: "fb1c"

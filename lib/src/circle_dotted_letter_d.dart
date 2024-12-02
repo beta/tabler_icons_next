@@ -26,6 +26,7 @@ class CircleDottedLetterD extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [delta, fourth-letter, consonant, diagonal, divide, down, direct, dorsal, dormant, demand]
 category: Letters
 unicode: "ff7c"
 version: "3.11"

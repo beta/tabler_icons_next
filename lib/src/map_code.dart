@@ -26,6 +26,7 @@ class MapCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [encrypt, program, key, cipher, algorithm, syntax, script, data, language, encode]
 version: "2.28"
 unicode: "fbc6"
 -->

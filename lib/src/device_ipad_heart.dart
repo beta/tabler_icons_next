@@ -26,6 +26,7 @@ class DeviceIpadHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [love, favorite, like, passion, adore, affection, care, emotion, fondness, attachment]
 category: Devices
 version: "2.10"
 unicode: "f88d"

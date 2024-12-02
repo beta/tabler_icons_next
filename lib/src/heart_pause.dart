@@ -26,6 +26,7 @@ class HeartPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [halt, break, stop, wait, intermission, timeless, rest, brief, suspend]
 version: "2.28"
 unicode: "fba7"
 -->

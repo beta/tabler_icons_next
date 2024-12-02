@@ -26,6 +26,7 @@ class FlagUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [increase, ascend, elevate, climb, rise, advance, boost, progress, lift, uplift]
 version: "2.28"
 unicode: "fb9c"
 -->

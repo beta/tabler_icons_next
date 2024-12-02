@@ -26,6 +26,7 @@ class ProgressX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [cancel, stop, abort, indicator, close, status, update, decline, process, deny]
 category: System
 version: "2.12"
 unicode: "fa0c"

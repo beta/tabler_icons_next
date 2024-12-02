@@ -26,6 +26,7 @@ class FlagHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [love, like, passion, affection, adore, cherish, fondness, romance, emotion, favor]
 version: "2.28"
 unicode: "fb93"
 -->

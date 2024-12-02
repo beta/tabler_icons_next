@@ -26,6 +26,7 @@ class BrandBebo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [social, networking, community, friends, connection, profile, messaging, sharing, interaction, engagement]
 category: Brand
 unicode: "ffaa"
 version: "3.12"

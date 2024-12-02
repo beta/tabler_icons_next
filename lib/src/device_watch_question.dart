@@ -26,6 +26,7 @@ class DeviceWatchQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [inquire, ask, query, help, uncertainty, doubt, confusion, wonder, puzzle, interrogate]
 category: Devices
 version: "2.10"
 unicode: "f8e0"

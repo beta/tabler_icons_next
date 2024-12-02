@@ -26,6 +26,7 @@ class Shareplay extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [stream, connect, broadcast, entertain, socialize, network, share, multimedia, interact, join]
 category: Media
 unicode: "fea5"
 version: "3.1"

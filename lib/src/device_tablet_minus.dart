@@ -26,6 +26,7 @@ class DeviceTabletMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [tablet, subtract, deduct, reduce, decrease, lessen, diminish, mini, shorten, lower]
 category: Devices
 version: "2.10"
 unicode: "f8c9"

@@ -26,6 +26,7 @@ class CameraHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [love, affection, adore, cherish, fondness, warmth, romance, devotion, passion, caring]
 category: Media
 version: "2.10"
 unicode: "f83b"

@@ -26,7 +26,7 @@ class CircuitChangeover extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [electirc, diagram, electrity, change]
+tags: [electric, diagram, electricity, change]
 category: Electrical
 version: "1.77"
 unicode: "f278"

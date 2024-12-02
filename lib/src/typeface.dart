@@ -26,6 +26,7 @@ class Typeface extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [font, text, lettering, typography, style, design, print, glyph, format, character]
 unicode: "fdab"
 version: "3.0"
 -->

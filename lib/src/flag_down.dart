@@ -26,6 +26,7 @@ class FlagDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [decrease, lower, reduce, drop, fall, decline, dim, subside, descend, minimize]
 version: "2.28"
 unicode: "fb91"
 -->

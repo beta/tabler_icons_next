@@ -26,6 +26,7 @@ class DeviceTabletCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [tablet, verify, approve, confirm, tick, validation, okay, accept, pass]
 category: Devices
 version: "2.10"
 unicode: "f8c2"

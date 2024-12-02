@@ -26,6 +26,7 @@ class JoinRound extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [curve, arc, smooth, bend, rounded, connect, boundary, joint, seam]
 unicode: "ff4b"
 version: "3.10"
 -->

@@ -26,6 +26,7 @@ class DatabaseHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [love, favorite, affection, emotion, liking, preference, fondness, admire, cherish, adore]
 category: Database
 version: "2.13"
 unicode: "fa14"

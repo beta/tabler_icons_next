@@ -26,6 +26,7 @@ class BrandOauth extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [authorization, protocol, access, web, api, secure, framework, token, authentication, client]
 category: Brand
 version: "2.16"
 unicode: "fa52"

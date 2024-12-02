@@ -26,6 +26,7 @@ class DeviceWatchCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [verify, approve, confirm, validated, tick, authenticate, assessment, okay, certify, pass]
 category: Devices
 version: "2.10"
 unicode: "f8d5"

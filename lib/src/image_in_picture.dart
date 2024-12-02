@@ -26,6 +26,7 @@ class ImageInPicture extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [photo, snapshot, visual, frame, layer, embed, nest, overlay, merge, media]
 version: "2.47"
 unicode: "fd9f"
 -->

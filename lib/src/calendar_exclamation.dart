@@ -26,6 +26,7 @@ class CalendarExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [alert, warning, attention, notice, important, danger, caution, urgent, signal, notify]
 category: System
 version: "2.10"
 unicode: "f829"

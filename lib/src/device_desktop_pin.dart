@@ -26,6 +26,7 @@ class DeviceDesktopPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [attach, fasten, fix, secure, anchor, tack, clip, affix, stick, bind]
 category: Devices
 version: "2.10"
 unicode: "f869"

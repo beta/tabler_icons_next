@@ -26,6 +26,7 @@ class Number30Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [thirty, halfsixtieth, tripleten, round, numeric, count, threezero, doublesixteen, thirdofninety, compass]
 category: Numbers
 unicode: "10004"
 version: "3.14"

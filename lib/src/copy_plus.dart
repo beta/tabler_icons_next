@@ -26,6 +26,7 @@ class CopyPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [increase, add, amplify, expand, enhance, augment, boost, replicate, multiply, grow]
 unicode: "fdae"
 version: "3.0"
 -->

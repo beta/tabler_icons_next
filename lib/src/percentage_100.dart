@@ -26,6 +26,7 @@ class Percentage100 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [full, whole, complete, total, entire, max, absolute, consummate, perfect, finished]
 unicode: "fee3"
 version: "3.4"
 -->

@@ -26,6 +26,7 @@ class DeviceImacMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [decrease, subtract, lower, reduce, negative, diminish, downsize, deduct, withdraw, eliminate]
 category: Devices
 version: "2.10"
 unicode: "f87a"

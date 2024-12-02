@@ -26,6 +26,7 @@ class BrandCarbon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [element, chemistry, organic, structure, graphite, diamond, molecule, material, carbon-fiber, compound]
 category: Brand
 unicode: "f348"
 version: "1.88"

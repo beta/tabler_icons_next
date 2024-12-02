@@ -26,6 +26,7 @@ class AdjustmentsShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [settings, distribute, spread, transmit, broadcast, impart, exchange, pass, disseminate, convey]
 category: System
 version: "2.10"
 unicode: "f80a"

@@ -26,6 +26,7 @@ class Galaxy extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [universe, cosmos, nebula, astronomy, stardust, constellation, celestial, stellar, intergalactic, macrocosm]
 version: "2.37"
 unicode: "fcb6"
 -->

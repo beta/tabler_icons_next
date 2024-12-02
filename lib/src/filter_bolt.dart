@@ -26,6 +26,7 @@ class FilterBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [lightning, fast, quick, speed, energy, electric, zap, power, bolt, electricity]
 version: "2.28"
 unicode: "fb7c"
 -->

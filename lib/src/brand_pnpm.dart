@@ -26,6 +26,7 @@ class BrandPnpm extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [package, manager, node, install, dependency, tool, efficient, workspace, framework, software]
 category: Brand
 version: "2.45"
 unicode: "fd77"

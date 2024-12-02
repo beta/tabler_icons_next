@@ -26,6 +26,7 @@ class ShoppingBagHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [love, affection, favorites, wishlist, adore, cherish, romance, passion, emotion, valentine]
 version: "2.47"
 unicode: "fda2"
 -->

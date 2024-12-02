@@ -26,6 +26,7 @@ class PointerCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [gear, mechanism, settings, wrench, adjust, configure, tool, system, process, machinery]
 category: System
 version: "2.10"
 unicode: "f99d"

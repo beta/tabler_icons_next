@@ -26,6 +26,7 @@ class MessageCircleBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [electric, fast, flash, circular, power, charge, energy, thunder, zap, lightning]
 category: Communication
 version: "2.10"
 unicode: "f970"

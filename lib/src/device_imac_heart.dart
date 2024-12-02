@@ -26,6 +26,7 @@ class DeviceImacHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [love, favorite, like, affection, emotion, passion, devotion, admiration, fondness, desire]
 category: Devices
 version: "2.10"
 unicode: "f879"

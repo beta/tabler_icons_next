@@ -26,6 +26,7 @@ class DeviceIpadHorizontalPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [add, increase, expand, augment, more, grow, gain, amplify, enlarge, boost]
 category: Devices
 version: "2.10"
 unicode: "f89b"

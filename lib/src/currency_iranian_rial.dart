@@ -26,6 +26,7 @@ class CurrencyIranianRial extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [money, finance, cash, iran, transaction, value, currency, economy, capital, market]
 category: Currencies
 version: "2.16"
 unicode: "fa58"

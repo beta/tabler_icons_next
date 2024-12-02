@@ -26,6 +26,7 @@ class ArrowBackUpDouble extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [navigation, direction, return, reverse, double, path, symbol, interface, ui, gesture]
 version: "2.11"
 unicode: "f9ec"
 category: Arrows

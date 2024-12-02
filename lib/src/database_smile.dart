@@ -26,6 +26,7 @@ class DatabaseSmile extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [happy, joyful, cheerful, content, pleased, delighted, bright, sunny, gleeful, jovial]
 version: "2.47"
 unicode: "fd9b"
 -->

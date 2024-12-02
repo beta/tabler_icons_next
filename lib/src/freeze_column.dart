@@ -26,6 +26,7 @@ class FreezeColumn extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [stabilize, immobilize, fix, steady, anchor, halt, cease, arrest, suspend, stay]
 category: Design
 version: "2.17"
 unicode: "fa63"

@@ -26,6 +26,7 @@ class FileTypeCss extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [stylesheet, web, design, style, coding, format, layout, markup, presentation, look]
 category: Document
 version: "2.25"
 unicode: "fb08"

@@ -26,6 +26,7 @@ class DeviceDesktopUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [increase, rise, ascend, lift, elevate, grow, advance, upgrade, climb, uplift]
 category: Devices
 version: "2.10"
 unicode: "f86f"

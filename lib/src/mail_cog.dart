@@ -26,6 +26,7 @@ class MailCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [settings, gear, configure, adjust, edit, preferences, customize, message, tool, system]
 category: Communication
 version: "2.10"
 unicode: "f93b"

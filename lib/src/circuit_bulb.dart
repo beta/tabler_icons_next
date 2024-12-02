@@ -26,7 +26,7 @@ class CircuitBulb extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [lamp, light, electric, electrical]
+tags: [lamp, light, electric, electricity]
 category: Electrical
 version: "1.77"
 unicode: "f273"

@@ -26,6 +26,7 @@ class DeviceIpadHorizontalPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [attach, fix, secure, hold, clip, anchor, fasten, tether, bind, connect]
 category: Devices
 version: "2.10"
 unicode: "f89a"

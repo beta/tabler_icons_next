@@ -26,6 +26,7 @@ class Droplets extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [liquid, fluid, moisture, water, sprinkle, drip, splash, particle, bead, drop]
 version: "2.29"
 unicode: "fc12"
 -->

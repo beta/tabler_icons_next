@@ -26,6 +26,7 @@ class FileTypePdf extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [portable, document, format, adobe, reader, report, file, pdf, e-book, print]
 category: Document
 version: "2.25"
 unicode: "fb10"

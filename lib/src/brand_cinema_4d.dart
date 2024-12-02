@@ -26,6 +26,7 @@ class BrandCinema4d extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [3d, modeling, animation, rendering, graphics, design, visuals, effects, motion, image]
 category: Brand
 version: "2.18"
 unicode: "fa71"

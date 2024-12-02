@@ -26,6 +26,7 @@ class UserScreen extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [display, monitor, view, digital, interface, technology, projector, visualize, image, show]
 category: Media
 unicode: "fea0"
 version: "3.1"

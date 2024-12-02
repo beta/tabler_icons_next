@@ -26,6 +26,7 @@ class PentagonX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [cancel, remove, delete, cross, negate, reject, discard, terminate, close, erase]
 version: "2.34"
 unicode: "fc88"
 -->

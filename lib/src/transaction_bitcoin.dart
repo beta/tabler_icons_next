@@ -26,6 +26,7 @@ class TransactionBitcoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [crypto, currency, exchange, trade, payment, blockchain, digital, bitcoin, decentralized, transfer]
 Category: E-commerce
 version: "2.44"
 unicode: "fd6e"

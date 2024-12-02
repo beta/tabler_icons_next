@@ -26,6 +26,7 @@ class MoodBitcoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [cryptocurrency, smile, emotion, blockchain, wealth, digital, finance, happy, investment, coin]
 unicode: "ff32"
 version: "3.9"
 -->

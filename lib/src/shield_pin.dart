@@ -26,6 +26,7 @@ class ShieldPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [protection, locate, attach, security, guard, position, fix, mark, secure, anchor]
 category: System
 version: "2.10"
 unicode: "f9ca"

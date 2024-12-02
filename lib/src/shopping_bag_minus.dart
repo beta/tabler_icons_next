@@ -26,6 +26,7 @@ class ShoppingBagMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [subtract, remove, decrease, reduce, deduct, lessen, diminish, minimize, shorten, withdraw]
 category: E-commerce
 version: "2.29"
 unicode: "fc1a"

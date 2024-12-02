@@ -26,6 +26,7 @@ class BrandKbin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [community, forum, discussion, post, share, topics, networking, interaction, engagement, conversation]
 category: Brand
 version: "2.22"
 unicode: "fad0"

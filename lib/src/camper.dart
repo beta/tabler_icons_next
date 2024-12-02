@@ -26,6 +26,7 @@ class Camper extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [recreational, vehicle, outdoor, holiday, vacation, travel, camping, adventure, trip, caravan]
 category: Vehicles
 version: "2.14"
 unicode: "fa25"

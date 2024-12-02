@@ -26,6 +26,7 @@ class CircleDottedLetterF extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [foxtrot, sixth-letter, consonant, function, follow, fast, fix, fair, focus, flake]
 category: Letters
 unicode: "ff7a"
 version: "3.11"

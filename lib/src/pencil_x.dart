@@ -26,6 +26,7 @@ class PencilX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [cancel, remove, delete, reject, erase, dismiss, cross, negate, decline, abandon]
 version: "2.28"
 unicode: "fc0e"
 -->

@@ -26,6 +26,7 @@ class MedicalCrossCircle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [health, aid, emergency, hospital, firstaid, medic, heal, treatment, care, wellness]
 category: Map
 version: "2.23"
 unicode: "fae8"

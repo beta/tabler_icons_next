@@ -26,6 +26,7 @@ class ClipboardSmile extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [happy, joy, delight, cheer, fun, pleasure, mirth, laughter, glee, content]
 version: "2.47"
 unicode: "fd9a"
 -->

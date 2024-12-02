@@ -26,6 +26,7 @@ class MoodShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [distribute, exchange, communicate, divulge, spread, emotion, post, connect, broadcast, transmit]
 version: "2.12"
 unicode: "fa06"
 category: Mood

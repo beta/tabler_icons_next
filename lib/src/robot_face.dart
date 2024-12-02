@@ -26,6 +26,7 @@ class RobotFace extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [bot, android, ai, machine, cyborg, automaton, head, gizmo, mech]
 version: "2.37"
 unicode: "fcbe"
 -->

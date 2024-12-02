@@ -26,6 +26,7 @@ class Percentage10 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [ten, decile, tenth, fraction, portion, degree, segment, bit, trace, piece]
 unicode: "fee4"
 version: "3.4"
 -->

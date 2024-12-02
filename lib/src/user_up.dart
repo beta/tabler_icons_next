@@ -26,6 +26,7 @@ class UserUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [elevate, ascend, rise, promote, advance, uplift, boost, levelup, upward, enhance]
 category: System
 version: "2.8"
 unicode: "f7d2"

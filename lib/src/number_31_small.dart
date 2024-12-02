@@ -26,6 +26,7 @@ class Number31Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [thirtyone, odd, monthend, oddmonthend, count, primeplus, compass, nextthirty, doublefifteenplusone, digits]
 category: Numbers
 unicode: "10003"
 version: "3.14"

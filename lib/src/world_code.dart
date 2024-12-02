@@ -26,6 +26,7 @@ class WorldCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [programming, software, development, script, internet, technology, digital, encrypt, global, computer]
 category: Map
 version: "2.10"
 unicode: "f9dc"

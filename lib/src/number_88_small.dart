@@ -26,6 +26,7 @@ class Number88Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [eighty-eight, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
 category: Numbers
 unicode: "ffca"
 version: "3.14"

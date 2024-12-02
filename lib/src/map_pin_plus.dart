@@ -26,6 +26,7 @@ class MapPinPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [add, increase, expand, enlarge, grow, boost, enhance, amplify, raise, supplement]
 category: Map
 version: "2.10"
 unicode: "f956"

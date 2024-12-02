@@ -26,6 +26,7 @@ class EyePin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [attach, fasten, secure, vision, sight, hold, fix, stick, view, focus]
 version: "2.28"
 unicode: "fb75"
 -->

@@ -26,6 +26,7 @@ class CopyMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [subtract, reduce, deduct, decrease, lessen, remove, trim, retract, withdraw, diminish]
 unicode: "fdaf"
 version: "3.0"
 -->

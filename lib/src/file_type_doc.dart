@@ -26,6 +26,7 @@ class FileTypeDoc extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [document, word, text, format, writing, file, report, letter, composition, manuscript]
 category: Document
 version: "2.25"
 unicode: "fb0a"

@@ -26,6 +26,7 @@ class TimeDuration5 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [five, minutes, interval, timer, duration, short, quick, brief, span, clock]
 category: System
 version: "2.22"
 unicode: "fad9"

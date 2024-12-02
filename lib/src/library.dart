@@ -26,6 +26,7 @@ class Library extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [archive, collection, books, catalog, shelves, repository, knowledge, read, information, account]
 version: "2.42"
 unicode: "fd4c"
 -->

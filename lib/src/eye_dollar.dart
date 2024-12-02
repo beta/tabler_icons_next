@@ -26,6 +26,7 @@ class EyeDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [currency, money, finance, economy, cash, wealth, income, vision, sight, funds]
 version: "2.28"
 unicode: "fb71"
 -->

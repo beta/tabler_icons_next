@@ -26,6 +26,7 @@ class Scoreboard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [score, display, game, match, points, results, ranking, tally, totals]
 category: Sport
 version: "2.17"
 unicode: "fa6b"

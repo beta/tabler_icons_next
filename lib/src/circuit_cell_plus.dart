@@ -27,7 +27,7 @@ class CircuitCellPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Electrical
-tags: [electirc, diagram, electrity, battery, power]
+tags: [electric, diagram, electricity, battery, power]
 version: "1.77"
 unicode: "f276"
 -->

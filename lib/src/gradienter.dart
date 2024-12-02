@@ -26,6 +26,7 @@ class Gradienter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [level, tool, measure, spirit, gauge, balance, plumb, survey, align, precision]
 version: "1.93"
 unicode: "f3ab"
 -->

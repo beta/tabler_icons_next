@@ -26,6 +26,7 @@ class ShieldPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [protection, halt, stop, break, security, guard, interrupt, pause, wait, delay]
 category: System
 version: "2.10"
 unicode: "f9c9"

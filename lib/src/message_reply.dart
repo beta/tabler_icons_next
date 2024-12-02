@@ -26,6 +26,7 @@ class MessageReply extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [respond, answer, react, return, comment, feedback, acknowledge, rejoinder, correspond, rejoin]
 version: "2.42"
 unicode: "fd4d"
 -->

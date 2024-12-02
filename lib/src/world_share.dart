@@ -26,6 +26,7 @@ class WorldShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [distribute, broadcast, communicate, transfer, global, convey, transmit, spread, disseminate, exchange]
 category: Map
 version: "2.10"
 unicode: "f9e8"

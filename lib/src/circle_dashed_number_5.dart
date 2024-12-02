@@ -26,6 +26,7 @@ class CircleDashedNumber5 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [five, quintet, fifth, penta, quinary, quintuple, fivesome, quintuplet, fiver, pentad]
 category: Numbers
 version: "2.33"
 unicode: "fc70"

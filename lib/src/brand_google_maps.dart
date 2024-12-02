@@ -26,6 +26,7 @@ class BrandGoogleMaps extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [navigation, location, directions, earth, satellite, travel, route, explore, street, search]
 category: Brand
 version: "2.16"
 unicode: "fa4f"

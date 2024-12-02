@@ -26,6 +26,7 @@ class MapPinHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [love, favorite, like, affection, emotion, passion, romantic, adore, cherish, valentine]
 category: Map
 version: "2.10"
 unicode: "f952"

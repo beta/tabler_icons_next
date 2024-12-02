@@ -26,6 +26,7 @@ class PlayHandball extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [throw, sport, goal, court, ball, team, athlete, competition, game, win]
 category: Sport
 version: "2.17"
 unicode: "fa68"

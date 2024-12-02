@@ -26,6 +26,7 @@ class PointerBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [flash, energy, electric, shock, symbol, power, lightning, alert, impact, quick]
 category: System
 version: "2.10"
 unicode: "f999"

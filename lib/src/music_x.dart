@@ -26,6 +26,7 @@ class MusicX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [close, delete, cancel, remove, end, terminate, exit, void, stop, abandon]
 version: "2.28"
 unicode: "fbe8"
 -->

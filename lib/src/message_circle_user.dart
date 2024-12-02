@@ -26,6 +26,7 @@ class MessageCircleUser extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [person, individual, member, participant, profile, chat, communication, dialogue, identity, actor]
 unicode: "fec5"
 version: "3.3"
 -->

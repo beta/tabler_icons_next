@@ -26,6 +26,7 @@ class AlertSmall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [notification, prompt, hint, notify, remind, update, jingle, ping, beep, flash]
 version: "2.10"
 unicode: "f80f"
 category: System

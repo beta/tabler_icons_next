@@ -26,6 +26,7 @@ class ListTree extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [hierarchy, structure, outline, directory, classification, taxonomy, organization, scheme, framework, overview]
 version: "2.24"
 unicode: "fafa"
 -->

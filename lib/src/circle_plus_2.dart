@@ -26,6 +26,7 @@ class CirclePlus2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [increase, add, expand, enhance, grow, enlarge, amplify, boost, supplement, positive]
 category: Shapes
 version: "2.35"
 unicode: "fc8d"

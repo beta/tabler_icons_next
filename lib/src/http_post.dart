@@ -26,6 +26,7 @@ class HttpPost extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [send, submit, dispatch, deliver, transmit, upload, serve, file, mail, forward]
 category: Computers
 version: "2.14"
 unicode: "fa2e"

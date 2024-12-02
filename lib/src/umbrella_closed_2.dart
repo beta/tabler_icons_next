@@ -26,6 +26,7 @@ class UmbrellaClosed2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [rain, protection, shield, cover, shelter, dry, compact, portable, folded, defense]
 unicode: "ff0d"
 version: "3.7"
 -->

@@ -26,6 +26,7 @@ class SignalH extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [network, connectivity, bars, communication, reception, antenna, transmission, coverage, signal-strength, wireless]
 version: "2.11"
 unicode: "f9fc"
 category: Devices

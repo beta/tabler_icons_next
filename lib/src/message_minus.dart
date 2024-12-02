@@ -26,6 +26,7 @@ class MessageMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [subtract, reduce, diminish, decrease, negative, decline, lessen, deduct, remove, shorten]
 category: Communication
 version: "2.10"
 unicode: "f988"

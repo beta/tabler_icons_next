@@ -26,6 +26,7 @@ class InfoTriangle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [details, data, fact, three, point, warning, alert, caution, notify, symbol]
 version: "2.10"
 unicode: "f923"
 category: System

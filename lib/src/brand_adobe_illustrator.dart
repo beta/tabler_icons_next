@@ -26,6 +26,7 @@ class BrandAdobeIllustrator extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [vector, design, graphics, artwork, drawing, creative, sketch, digital, creation, illustration]
 category: Brand
 unicode: "ff29"
 version: "3.8"

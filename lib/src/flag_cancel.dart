@@ -26,6 +26,7 @@ class FlagCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [abort, terminate, stop, void, nullify, cease, discontinue, break, quash, revoke]
 version: "2.28"
 unicode: "fb8b"
 -->

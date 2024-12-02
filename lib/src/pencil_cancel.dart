@@ -26,6 +26,7 @@ class PencilCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [edit, abort, delete, remove, revise, erase, adjust, draft, retract, discard]
 version: "2.28"
 unicode: "fbfe"
 -->

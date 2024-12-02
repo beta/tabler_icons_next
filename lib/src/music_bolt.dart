@@ -26,6 +26,7 @@ class MusicBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [electric, energy, charge, dynamic, power, lightning, fast, tempo, beat, vibrant]
 version: "2.28"
 unicode: "fbd5"
 -->

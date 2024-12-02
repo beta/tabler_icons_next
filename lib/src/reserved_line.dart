@@ -26,6 +26,7 @@ class ReservedLine extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [booking, designation, allocated, status, line, marked, set-aside, reserved, unavailable, annotated]
 version: "2.11"
 unicode: "f9f6"
 -->

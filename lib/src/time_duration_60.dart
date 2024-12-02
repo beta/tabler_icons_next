@@ -26,6 +26,7 @@ class TimeDuration60 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [hour, sixty, minutes, interval, timer, duration, full, span, clock, time]
 category: System
 version: "2.22"
 unicode: "fada"

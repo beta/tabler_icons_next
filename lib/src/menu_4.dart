@@ -26,6 +26,7 @@ class Menu4 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [list, arrange, directory, navigation, panel, select, catalog, structure, options, layout]
 unicode: "ff42"
 version: "3.10"
 -->

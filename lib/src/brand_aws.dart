@@ -26,6 +26,7 @@ class BrandAws extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [cloud, computing, services, infrastructure, storage, networking, scalable, datacenter, virtualization, deployment]
 category: Brand
 version: "2.16"
 unicode: "fa4c"

@@ -26,6 +26,7 @@ class WorldHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [love, care, affection, emotion, compassion, global, humanity, bond, connection, empathy]
 category: Map
 version: "2.10"
 unicode: "f9e1"

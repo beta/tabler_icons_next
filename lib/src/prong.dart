@@ -26,6 +26,7 @@ class Prong extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [fork, split, divide, branch, part, section, tine, tool, connector, spike]
 version: "2.47"
 unicode: "fda1"
 -->

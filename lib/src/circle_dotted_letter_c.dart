@@ -26,6 +26,7 @@ class CircleDottedLetterC extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [charlie, third-letter, consonant, carbon, celsius, circular, corner, cut, curve, central]
 category: Letters
 unicode: "ff7d"
 version: "3.11"

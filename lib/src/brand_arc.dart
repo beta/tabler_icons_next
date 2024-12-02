@@ -26,6 +26,7 @@ class BrandArc extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [circle, curve, geometry, arch, path, part, section, bend, shape, half-round]
 category: Brand
 unicode: "feae"
 version: "3.1"

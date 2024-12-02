@@ -26,6 +26,7 @@ class PlayCard3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [game, deck, three, trio, gamble, shuffle, deal, card, table, hand]
 unicode: "10059"
 version: "3.18"
 -->

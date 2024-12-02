@@ -26,6 +26,7 @@ class DeviceTabletCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [tablet, settings, gear, adjust, control, options, configure, tweak, preferences, modify]
 category: Devices
 version: "2.10"
 unicode: "f8c4"

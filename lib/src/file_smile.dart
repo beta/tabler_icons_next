@@ -26,6 +26,7 @@ class FileSmile extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [document, happy, joyful, positive, cheerful, pleased, beam, grin, delighted, satisfied]
 version: "2.40"
 unicode: "fd24"
 -->

@@ -26,6 +26,7 @@ class LockPassword extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [authentication, code, credential, secure, key, protected, identify, secret, entry, verification]
 unicode: "ff9f"
 version: "3.12"
 -->

@@ -26,6 +26,7 @@ class DeviceImacCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [abort, terminate, void, retract, nullify, invalidate, abolish, quit, disallow, revoke]
 category: Devices
 version: "2.10"
 unicode: "f872"

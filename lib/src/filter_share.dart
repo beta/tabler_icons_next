@@ -26,6 +26,7 @@ class FilterShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [distribute, send, give, show, offer, broadcast, relay, assign, pass, transfer]
 version: "2.28"
 unicode: "fb88"
 -->

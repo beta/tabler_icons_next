@@ -26,6 +26,7 @@ class PhotoCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [gear, settings, preference, configure, tool, mechanism, adjust, tune, photo, visual]
 category: Media
 version: "2.10"
 unicode: "f992"

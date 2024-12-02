@@ -26,6 +26,7 @@ class MusicPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [attach, fix, bookmark, point, secure, marker, fasten, stick, location, anchor]
 version: "2.28"
 unicode: "fbe1"
 -->

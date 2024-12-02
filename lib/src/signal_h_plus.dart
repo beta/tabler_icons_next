@@ -26,6 +26,7 @@ class SignalHPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [mobile, network, wireless, connectivity, telecommunication, bandwidth, speed, service, highspeed, coverage]
 category: Devices
 version: "2.11"
 unicode: "f9fb"

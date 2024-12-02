@@ -26,6 +26,7 @@ class SettingsQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [configuration, inquiry, query, help, preferences, setup, tools, assistance, support, guide]
 category: System
 version: "2.10"
 unicode: "f9ba"

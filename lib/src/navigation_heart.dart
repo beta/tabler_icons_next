@@ -26,6 +26,7 @@ class NavigationHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [love, affection, like, favorite, care, passion, romance, emotion, devotion, pulse]
 version: "2.28"
 unicode: "fbf2"
 -->

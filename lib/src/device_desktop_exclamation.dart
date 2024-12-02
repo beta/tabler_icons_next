@@ -26,6 +26,7 @@ class DeviceDesktopExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [alert, notice, warning, caution, attention, signal, notify, announce, indicate, alarm]
 category: Devices
 version: "2.10"
 unicode: "f865"

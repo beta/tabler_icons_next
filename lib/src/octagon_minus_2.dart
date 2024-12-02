@@ -26,6 +26,7 @@ class OctagonMinus2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [subtract, decrease, reduce, lower, lessen, discount, diminish, abstract, deduct, withdraw]
 category: Shapes
 version: "2.35"
 unicode: "fc91"

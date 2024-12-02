@@ -26,6 +26,7 @@ class Number52Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [tiny, fiftytwo, digit52, numeric, miniature, icon52, num52, small52, fivetwo, miniscule]
 category: Numbers
 unicode: "ffee"
 version: "3.14"

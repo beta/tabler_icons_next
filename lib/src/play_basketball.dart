@@ -26,6 +26,7 @@ class PlayBasketball extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [sport, game, hoops, dribble, shoot, ball, competitive, athlete, team, exercise]
 category: Sport
 version: "2.17"
 unicode: "fa66"

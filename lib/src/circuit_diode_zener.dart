@@ -26,7 +26,7 @@ class CircuitDiodeZener extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [electirc, electrity, diagram, digital]
+tags: [electric, electricity, diagram, digital]
 category: Electrical
 version: "1.77"
 unicode: "f279"

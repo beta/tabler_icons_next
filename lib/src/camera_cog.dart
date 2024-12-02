@@ -26,6 +26,7 @@ class CameraCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [settings, gear, adjust, tune, configure, mechanism, system, setup, preferences, arrangement]
 category: Media
 version: "2.10"
 unicode: "f837"

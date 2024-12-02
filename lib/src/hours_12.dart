@@ -26,6 +26,7 @@ class Hours12 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [time, duration, noon, midday, clock, watch, halfday, period, count, dozen]
 category: System
 version: "2.32"
 unicode: "fc53"

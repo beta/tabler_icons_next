@@ -26,6 +26,7 @@ class SortAscendingShapes extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [order, sequence, increase, arrange, orderly, progress, upward, hierarchy, pattern, system]
 version: "2.46"
 unicode: "fd94"
 -->

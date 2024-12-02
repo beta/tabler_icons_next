@@ -26,6 +26,7 @@ class MusicQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [inquiry, ask, doubt, query, wonder, interrogate, explore, quiz, seek, probe]
 version: "2.28"
 unicode: "fbe3"
 -->

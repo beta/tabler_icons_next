@@ -26,6 +26,7 @@ class ProgressCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [completed, success, verify, approved, indicator, status, confirm, update, process, validated]
 category: System
 version: "2.12"
 unicode: "fa09"

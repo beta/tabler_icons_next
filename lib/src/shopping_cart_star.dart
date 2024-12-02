@@ -26,6 +26,7 @@ class ShoppingCartStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [favorites, best, top, highlight, rating, celebrate, mark, prominent, outstanding, feature]
 version: "2.28"
 unicode: "fb69"
 -->

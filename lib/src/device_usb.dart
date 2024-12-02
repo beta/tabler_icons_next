@@ -26,6 +26,7 @@ class DeviceUsb extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [connect, port, external, storage, data, transfer, plug, interface, peripheral, hardware]
 category: Devices
 version: "2.32"
 unicode: "fc59"

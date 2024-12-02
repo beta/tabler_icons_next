@@ -26,6 +26,7 @@ class ProgressBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [energy, speed, power, electric, charge, indicator, status, update, process, force]
 category: System
 version: "2.12"
 unicode: "fa08"

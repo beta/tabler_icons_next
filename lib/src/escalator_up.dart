@@ -26,6 +26,7 @@ class EscalatorUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [ascend, elevate, rise, climb, increase, step, upward, lift, boost, soar]
 category: Map
 version: "2.25"
 unicode: "fb05"

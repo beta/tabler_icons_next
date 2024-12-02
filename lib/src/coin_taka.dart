@@ -26,6 +26,7 @@ class CoinTaka extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [currency, money, bangladesh, finance, coin, trade, economy, exchange, wealth, funds]
 version: "2.39"
 unicode: "fd0d"
 -->

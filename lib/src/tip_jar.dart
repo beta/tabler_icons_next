@@ -26,6 +26,7 @@ class TipJar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [donate, contribution, money, charity, fund, gift, jar, support, currency, help]
 unicode: "feea"
 version: "3.5"
 -->

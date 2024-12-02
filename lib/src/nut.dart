@@ -26,6 +26,7 @@ class Nut extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [hardware, fastener, metal, steel, hexagon, fitting, mechanical, industrial, tool, connection]
 version: "2.32"
 unicode: "fc61"
 -->

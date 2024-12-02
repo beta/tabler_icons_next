@@ -26,6 +26,7 @@ class BasketStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [favorite, highlight, emphasize, promote, feature, showcase, priority, premier, foremost, select]
 version: "2.28"
 unicode: "fb54"
 -->

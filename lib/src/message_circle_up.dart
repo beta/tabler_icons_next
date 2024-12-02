@@ -26,6 +26,7 @@ class MessageCircleUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [elevate, rise, increase, promote, advance, chat, conversation, dialogue, boost, heighten]
 category: Communication
 version: "2.10"
 unicode: "f981"

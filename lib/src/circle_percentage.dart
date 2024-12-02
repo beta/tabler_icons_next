@@ -26,6 +26,7 @@ class CirclePercentage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [finance, discount, interest, rate, calculation, measurement, ratio, percent, statistics, math]
 version: "2.45"
 unicode: "fd7b"
 -->

@@ -26,6 +26,7 @@ class NavigationMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [subtract, remove, decrease, reduce, deduct, less, negate, takeaway, negative, shorten]
 version: "2.28"
 unicode: "fbf3"
 -->

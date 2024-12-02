@@ -26,6 +26,7 @@ class FlagX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [cancel, remove, delete, terminate, crossout, eliminate, invalidate, reject, void, obliterate]
 version: "2.28"
 unicode: "fb9d"
 -->

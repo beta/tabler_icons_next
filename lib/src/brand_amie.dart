@@ -26,6 +26,7 @@ class BrandAmie extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [friend, connection, associate, buddy, contact, network, relationship, support, companion, link]
 category: Brand
 unicode: "ffab"
 version: "3.12"

@@ -26,6 +26,7 @@ class MessageCircleDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [finance, currency, money, circular, budget, cash, transaction, payment, investment, price]
 category: Communication
 version: "2.10"
 unicode: "f975"

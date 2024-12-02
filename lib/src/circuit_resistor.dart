@@ -26,7 +26,7 @@ class CircuitResistor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [diagram, electric, electricy, nema]
+tags: [diagram, electric, electricity, nema]
 category: Electrical
 version: "1.77"
 unicode: "f280"

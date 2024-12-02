@@ -26,6 +26,7 @@ class LocationCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [remove, delete, stop, terminate, revoke, nullify, discard, halt, block, abort]
 version: "2.28"
 unicode: "fbb0"
 -->

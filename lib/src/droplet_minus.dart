@@ -26,6 +26,7 @@ class DropletMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [subtract, remove, decrease, deduct, lessen, reduce, drop, lower, diminish, negate]
 category: Design
 version: "2.10"
 unicode: "f902"

@@ -26,6 +26,7 @@ class ShieldUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [protection, elevate, increase, ascend, security, guard, rise, boost, advance, improve]
 category: System
 version: "2.10"
 unicode: "f9d0"

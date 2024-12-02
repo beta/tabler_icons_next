@@ -26,6 +26,7 @@ class HeartBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [energy, electric, power, love, passion, shock, lightning, charge, spark, dynamo]
 version: "2.28"
 unicode: "fb9e"
 -->

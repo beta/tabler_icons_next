@@ -26,6 +26,7 @@ class HelpSmall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [support, aid, assist, guide, tiny, little, micro, compact, diminutive, mini]
 version: "2.10"
 unicode: "f91e"
 category: System

@@ -26,6 +26,7 @@ class PointerDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [descend, lower, fall, bottom, drop, decrease, reduce, subside, below, sink]
 category: System
 version: "2.10"
 unicode: "f99f"

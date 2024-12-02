@@ -26,6 +26,7 @@ class BrandLetterboxd extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [movies, reviews, cinema, film, watchlist, critique, diary, ratings, discussion, community]
 category: Brand
 version: "2.14"
 unicode: "fa24"

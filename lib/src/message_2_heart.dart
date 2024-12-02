@@ -26,6 +26,7 @@ class Message2Heart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [love, like, favorite, affection, care, passion, cherish, admire, emotion, fond]
 category: Communication
 version: "2.10"
 unicode: "f963"

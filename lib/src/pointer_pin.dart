@@ -26,6 +26,7 @@ class PointerPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [attach, fix, hold, secure, bookmark, mark, place, fasten, nail, tack]
 category: System
 version: "2.10"
 unicode: "f9a5"

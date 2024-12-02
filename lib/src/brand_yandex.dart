@@ -26,6 +26,7 @@ class BrandYandex extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [search, engine, technology, internet, russian, service, online, firm, web, tool]
 category: Brand
 version: "2.23"
 unicode: "fae1"

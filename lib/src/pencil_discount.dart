@@ -26,6 +26,7 @@ class PencilDiscount extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [edit, reduce, bargain, offer, deal, promotion, price, sale, adjust, markdown]
 version: "2.28"
 unicode: "fc02"
 -->

@@ -26,6 +26,7 @@ class BrandAmigo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [friend, ally, partner, companion, support, network, connection, colleague, associate]
 category: Brand
 unicode: "f5f9"
 version: "1.114"

@@ -26,6 +26,7 @@ class ShoppingCartSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [locate, find, discover, explore, seek, investigate, inspect, look, browse, hunt]
 version: "2.28"
 unicode: "fb67"
 -->

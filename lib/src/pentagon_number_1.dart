@@ -26,6 +26,7 @@ class PentagonNumber1 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [one, single, unit, solo, unary, entity, individual, alone, distinct, first]
 category: Numbers
 version: "2.34"
 unicode: "fc7f"

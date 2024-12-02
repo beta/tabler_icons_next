@@ -26,6 +26,7 @@ class NavigationCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [approve, confirm, validate, verify, agree, accept, okay, pass, authorization, tick]
 version: "2.28"
 unicode: "fbeb"
 -->

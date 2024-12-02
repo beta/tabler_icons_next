@@ -26,6 +26,7 @@ class LabelImportant extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [priority, urgent, highlight, notable, key, marker, tag, significant, flag, pivotal]
 unicode: "ff49"
 version: "3.10"
 -->

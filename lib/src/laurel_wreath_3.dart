@@ -26,6 +26,7 @@ class LaurelWreath3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [victory, achievement, winner, honor, prize, celebrate, ornament, receive, medal, praise]
 unicode: "ff46"
 version: "3.10"
 -->

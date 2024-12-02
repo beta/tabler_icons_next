@@ -26,6 +26,7 @@ class CalendarPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [break, halt, stop, pause, interval, interruption, suspend, rest, freeze, delay]
 category: System
 version: "2.10"
 unicode: "f82b"

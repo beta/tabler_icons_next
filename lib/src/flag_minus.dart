@@ -26,6 +26,7 @@ class FlagMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [subtract, reduce, decrease, deduct, less, negative, diminish, lower, shrink, takeaway]
 version: "2.28"
 unicode: "fb94"
 -->

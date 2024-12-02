@@ -26,6 +26,7 @@ class MapMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [subtract, reduce, lessen, decrease, diminish, lower, deduct, decline, shrink, contract]
 version: "2.28"
 unicode: "fbcd"
 -->

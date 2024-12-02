@@ -26,6 +26,7 @@ class NavigationQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [ask, inquire, query, doubt, enquiry, uncertain, confusion, probe, puzzle, interrogate]
 version: "2.28"
 unicode: "fbf7"
 -->

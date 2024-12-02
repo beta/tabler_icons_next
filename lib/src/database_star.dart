@@ -26,6 +26,7 @@ class DatabaseStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [favorite, highlight, featured, notable, remarkable, important, prestige, prime, top, noteworthy]
 category: Database
 version: "2.13"
 unicode: "fa1a"

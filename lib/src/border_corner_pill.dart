@@ -26,6 +26,7 @@ class BorderCornerPill extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [curved, round, oval, smooth, rounded, arc, capsule, edge, contour, bend]
 category: Design
 version: "2.44"
 unicode: "fd62"

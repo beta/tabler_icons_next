@@ -26,6 +26,7 @@ class DatabaseSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [find, lookup, explore, discover, locate, probe, scan, inspect, seek, browse]
 category: Database
 version: "2.13"
 unicode: "fa18"

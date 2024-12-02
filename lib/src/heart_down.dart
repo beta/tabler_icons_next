@@ -26,6 +26,7 @@ class HeartDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [lower, drop, decrease, reduce, decline, fall, plunge, abate, descend, sink]
 version: "2.28"
 unicode: "fba5"
 -->

@@ -26,6 +26,7 @@ class Percentage0 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [none, zero, null, void, empty, naught, cipher, nil, nothing, blank]
 unicode: "fee5"
 version: "3.4"
 -->

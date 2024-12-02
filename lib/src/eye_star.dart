@@ -26,6 +26,7 @@ class EyeStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [favorite, highlight, vision, sight, important, marked, noteworthy, view, focus, prominent]
 version: "2.28"
 unicode: "fb7a"
 -->

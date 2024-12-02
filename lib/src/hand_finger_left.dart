@@ -26,6 +26,7 @@ class HandFingerLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [indicate, gesture, point, motion, signal, guide, direction, leftward, show, indicator]
 unicode: "ff4e"
 version: "3.10"
 -->

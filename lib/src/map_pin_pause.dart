@@ -26,6 +26,7 @@ class MapPinPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [halt, stop, break, interrupt, pause, wait, hold, delay, stall, freeze]
 category: Map
 version: "2.10"
 unicode: "f954"

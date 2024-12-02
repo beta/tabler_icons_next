@@ -26,6 +26,7 @@ class WashHand extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [manual, delicate, handcare, gentlewash, personal, attention, careful, scrub, rinse, launder]
 category: Laundry
 version: "2.18"
 unicode: "fa81"

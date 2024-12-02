@@ -26,6 +26,7 @@ class PhoneEnd extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [terminate, disconnect, hangup, finish, cutoff, halting, call-off, finalize, cancel, stop]
 unicode: "ff9d"
 version: "3.12"
 -->

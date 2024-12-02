@@ -26,6 +26,7 @@ class BasketMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [subtract, remove, deduct, decrease, reduce, lessen, takeaway, withdraw, decline, diminish]
 version: "2.28"
 unicode: "fb4d"
 -->

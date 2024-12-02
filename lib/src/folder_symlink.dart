@@ -26,6 +26,7 @@ class FolderSymlink extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [shortcut, alias, link, connector, redirect, pointer, reference, junction, conduit, path]
 version: "2.10"
 unicode: "f91b"
 -->

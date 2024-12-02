@@ -26,6 +26,7 @@ class HazeMoon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [blur, night, sky, cloud, opaque, dim, luminosity, atmosphere, twilight]
 version: "2.24"
 unicode: "faf8"
 -->

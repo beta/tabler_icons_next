@@ -26,6 +26,7 @@ class UsersGroup extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [community, team, cluster, society, gathering, crowd, network, collective, assembly, fellowship]
 version: "2.13"
 unicode: "fa21"
 category: System

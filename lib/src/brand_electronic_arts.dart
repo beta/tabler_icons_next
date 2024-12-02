@@ -26,6 +26,7 @@ class BrandElectronicArts extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [gaming, developer, entertainment, simulation, interactive, console, pc, sports, genre, play]
 category: Brand
 version: "2.18"
 unicode: "fa74"

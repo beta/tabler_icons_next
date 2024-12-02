@@ -26,6 +26,7 @@ class FileTypeBmp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [bitmap, image, graphics, raster, format, visual, picture, digital, photo, art]
 category: Document
 version: "2.25"
 unicode: "fb07"

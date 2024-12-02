@@ -26,6 +26,7 @@ class LocationHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [love, affection, like, passion, emotion, fondness, adoration, desire, appreciation, care]
 version: "2.28"
 unicode: "fbb8"
 -->

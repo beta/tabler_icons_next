@@ -26,6 +26,7 @@ class DevicesUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [ascend, rise, increase, climb, elevate, boost, uplift, soar, progress, advance]
 category: Devices
 version: "2.10"
 unicode: "f8f7"

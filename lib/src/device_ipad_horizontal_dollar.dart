@@ -26,6 +26,7 @@ class DeviceIpadHorizontalDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [currency, finance, money, budget, wealth, funds, payment, economy, cost, capital]
 category: Devices
 version: "2.10"
 unicode: "f893"

@@ -26,6 +26,7 @@ class FolderCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [verify, review, approve, confirm, tick, validate, inspect, ascertain, authenticate, affirm]
 category: Document
 version: "2.10"
 unicode: "f90e"

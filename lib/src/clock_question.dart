@@ -26,6 +26,7 @@ class ClockQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [inquire, ask, ponder, wonder, consider, query, investigate, probe, speculate, doubt]
 category: System
 version: "2.8"
 unicode: "f7c6"

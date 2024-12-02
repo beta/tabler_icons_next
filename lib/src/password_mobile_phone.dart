@@ -26,6 +26,7 @@ class PasswordMobilePhone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [authentication, secure, credentials, login, unlock, protection, digital, access, identity, device]
 category: System
 version: "2.34"
 unicode: "fc7c"

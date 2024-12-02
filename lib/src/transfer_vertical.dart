@@ -26,6 +26,7 @@ class TransferVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [move, up, down, shift, exchange, switch, vertical, navigate, change, direction]
 version: "2.29"
 unicode: "fc1e"
 -->

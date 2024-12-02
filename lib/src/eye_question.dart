@@ -26,6 +26,7 @@ class EyeQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [query, inquire, ask, vision, sight, doubt, wonder, puzzle, view, focus]
 version: "2.28"
 unicode: "fb77"
 -->

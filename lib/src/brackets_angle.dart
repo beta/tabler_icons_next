@@ -26,6 +26,7 @@ class BracketsAngle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [code, syntax, markup, programming, language, punctuation, tags, development, text, interface]
 version: "2.37"
 unicode: "fcb2"
 -->

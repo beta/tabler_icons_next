@@ -26,6 +26,7 @@ class BasketCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [shopping, cart, programming, digital, purchase, store, goods, technology, buy, code]
 version: "2.28"
 unicode: "fb46"
 -->

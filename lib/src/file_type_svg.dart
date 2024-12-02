@@ -26,6 +26,7 @@ class FileTypeSvg extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [vector, graphic, scalable, xml, image, illustration, drawing, svg, digital, artwork]
 category: Document
 version: "2.25"
 unicode: "fb16"

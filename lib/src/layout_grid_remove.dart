@@ -26,6 +26,7 @@ class LayoutGridRemove extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [delete, erase, eliminate, cancel, grid, block, layout, rearrange, subtract, hide]
 category: Design
 version: "2.18"
 unicode: "fa7d"

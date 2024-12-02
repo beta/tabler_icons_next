@@ -26,6 +26,7 @@ class EyeDotted extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [pattern, point, vision, sight, design, spot, view, particular, focus, look]
 unicode: "fead"
 version: "3.1"
 -->

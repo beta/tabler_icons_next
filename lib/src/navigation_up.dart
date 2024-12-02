@@ -26,6 +26,7 @@ class NavigationUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [ascend, rise, elevate, climb, increase, surge, uplift, upward, boost, advance]
 version: "2.28"
 unicode: "fbfb"
 -->

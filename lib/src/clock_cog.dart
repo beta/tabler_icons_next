@@ -26,6 +26,7 @@ class ClockCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [mechanism, gear, machine, system, engine, rotate, process, function, operate, engineer]
 category: System
 version: "2.8"
 unicode: "f7c2"

@@ -26,6 +26,7 @@ class SortAscendingSmallBig extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [order, sequence, increase, arrange, scale, size, growth, progress, upward, magnitude]
 version: "2.46"
 unicode: "fd95"
 -->

@@ -26,6 +26,7 @@ class LockSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [find, locate, seek, browse, explore, look, investigate, discover, detect, inquire]
 category: System
 version: "2.10"
 unicode: "f932"

@@ -26,6 +26,7 @@ class BrandAnsible extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [automation, it, deployment, management, devops, configuration, orchestration, scripting, software, technology]
 category: Brand
 version: "2.18"
 unicode: "fa70"

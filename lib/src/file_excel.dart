@@ -26,6 +26,7 @@ class FileExcel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [spreadsheet, data, charts, tables, analysis, calculation, document, finance, figures, worksheet]
 unicode: "fef3"
 version: "3.5"
 -->

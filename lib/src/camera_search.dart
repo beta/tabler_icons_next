@@ -26,6 +26,7 @@ class CameraSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [photography, zoom, lens, exploration, discovery, hunting, seek, explore, investigate, snapshot]
 category: Media
 version: "2.10"
 unicode: "f83f"

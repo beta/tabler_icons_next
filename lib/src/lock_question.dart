@@ -26,6 +26,7 @@ class LockQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [query, uncertain, inquiry, doubt, ask, confused, unknown, ponder, curious, wonder]
 category: System
 version: "2.10"
 unicode: "f931"

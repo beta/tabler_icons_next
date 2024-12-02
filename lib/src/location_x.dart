@@ -26,6 +26,7 @@ class LocationX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [close, remove, delete, cancel, cross, negate, eliminate, terminate, end, exit]
 version: "2.28"
 unicode: "fbc2"
 -->

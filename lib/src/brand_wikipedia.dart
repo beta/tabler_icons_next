@@ -26,6 +26,7 @@ class BrandWikipedia extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [encyclopedia, information, knowledge, online, resource, articles, community, edit, content, support]
 category: Brand
 version: "2.18"
 unicode: "fa79"

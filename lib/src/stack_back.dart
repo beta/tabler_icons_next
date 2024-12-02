@@ -26,6 +26,7 @@ class StackBack extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [layers, depth, background, arrangement, structure, order, position, sequence, arrange, layout]
 version: "2.40"
 unicode: "fd26"
 -->

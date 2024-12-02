@@ -26,6 +26,7 @@ class MapQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [inquiry, query, ask, explore, puzzle, confuse, investigate, research, examine, exploration]
 version: "2.28"
 unicode: "fbd0"
 -->

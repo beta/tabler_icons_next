@@ -26,6 +26,7 @@ class PointerSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [find, look, seek, discover, explore, locate, detect, browse, inspect, survey]
 category: System
 version: "2.10"
 unicode: "f9a8"
