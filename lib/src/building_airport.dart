@@ -27,6 +27,7 @@ class BuildingAirport extends Icon {
 
   static const String _svg = '''<!--
 tags: [terminal, flight, travel, aviation, hub, transportation, aircraft, facility, runway, airport]
+category: Buildings
 unicode: "ffa9"
 version: "3.12"
 -->

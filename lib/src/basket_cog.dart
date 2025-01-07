@@ -27,6 +27,7 @@ class BasketCog extends Icon {
 
   static const String _svg = '''<!--
 tags: [shopping, cart, settings, configuration, gear, store, purchase, goods, buy, mechanism]
+category: E-commerce
 version: "2.28"
 unicode: "fb47"
 -->

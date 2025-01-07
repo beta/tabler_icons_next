@@ -27,6 +27,7 @@ class BasketQuestion extends Icon {
 
   static const String _svg = '''<!--
 tags: [inquire, ask, query, doubt, wonder, ponder, probe, investigate, interrogate, examine]
+category: E-commerce
 version: "2.28"
 unicode: "fb51"
 -->

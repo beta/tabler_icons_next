@@ -27,6 +27,7 @@ class CalendarDot extends Icon {
 
   static const String _svg = '''<!--
 tags: [highlight, note, marker, spot, focus, indicator, point, reminder, notation, symbol]
+category: System
 version: "2.42"
 unicode: "fd3e"
 -->

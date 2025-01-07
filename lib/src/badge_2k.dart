@@ -29,6 +29,7 @@ class Badge2k extends Icon {
 tags: [award, medal, prize, honor, accolade, trophy, emblem, symbol, badge, insignia]
 unicode: "100b5"
 version: "3.23"
+category: Badges
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

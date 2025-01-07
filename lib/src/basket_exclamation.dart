@@ -27,6 +27,7 @@ class BasketExclamation extends Icon {
 
   static const String _svg = '''<!--
 tags: [alert, notification, warning, caution, attention, danger, notice, error, urgent, emergency]
+category: E-commerce
 version: "2.28"
 unicode: "fb4b"
 -->

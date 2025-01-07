@@ -27,6 +27,7 @@ class ChartScatter extends Icon {
 
   static const String _svg = '''<!--
 tags: [analytics, data, visualization, statistics, scatterplot, relationship, distribution, spread, graph, plot]
+category: Charts
 version: "2.46"
 unicode: "fd93"
 -->

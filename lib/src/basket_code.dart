@@ -27,6 +27,7 @@ class BasketCode extends Icon {
 
   static const String _svg = '''<!--
 tags: [shopping, cart, programming, digital, purchase, store, goods, technology, buy, code]
+category: E-commerce
 version: "2.28"
 unicode: "fb46"
 -->

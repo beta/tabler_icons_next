@@ -27,6 +27,7 @@ class BasketSearch extends Icon {
 
   static const String _svg = '''<!--
 tags: [find, explore, look, seek, discover, detect, locate, track, scout, probe]
+category: E-commerce
 version: "2.28"
 unicode: "fb52"
 -->

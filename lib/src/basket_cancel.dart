@@ -27,6 +27,7 @@ class BasketCancel extends Icon {
 
   static const String _svg = '''<!--
 tags: [shopping, cart, purchase, remove, cross, store, abandon, goods, buy, decision]
+category: E-commerce
 version: "2.28"
 unicode: "fb44"
 -->

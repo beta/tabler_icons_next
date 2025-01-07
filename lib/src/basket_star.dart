@@ -27,6 +27,7 @@ class BasketStar extends Icon {
 
   static const String _svg = '''<!--
 tags: [favorite, highlight, emphasize, promote, feature, showcase, priority, premier, foremost, select]
+category: E-commerce
 version: "2.28"
 unicode: "fb54"
 -->

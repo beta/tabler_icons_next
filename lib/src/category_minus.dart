@@ -27,6 +27,7 @@ class CategoryMinus extends Icon {
 
   static const String _svg = '''<!--
 tags: [classification, reduce, subtract, group, identity, label, type, sort, filter, remove]
+category: Shapes
 version: "2.40"
 unicode: "fd20"
 -->

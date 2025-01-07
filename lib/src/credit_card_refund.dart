@@ -27,6 +27,7 @@ class CreditCardRefund extends Icon {
 
   static const String _svg = '''<!--
 tags: [refund-card, credit-refund, card-refund, transaction, credit-transaction, return, money-back, credit, refund, card]
+category: E-commerce
 version: "2.41"
 unicode: "fd33"
 -->

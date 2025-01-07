@@ -27,6 +27,7 @@ class ArticleOff extends Icon {
 
   static const String _svg = '''<!--
 tags: [news, newspaper, media, blog]
+category: Document
 unicode: "f3bf"
 version: "1.94"
 -->

@@ -27,6 +27,7 @@ class CalendarSad extends Icon {
 
   static const String _svg = '''<!--
 tags: [unhappy, gloomy, depressed, melancholy, downcast, sorrowful, mournful, dejected, somber, forlorn]
+category: System
 version: "2.40"
 unicode: "fd1d"
 -->

@@ -27,6 +27,7 @@ class Cookie extends Icon {
 
   static const String _svg = '''<!--
 tags: [biscuit, treat, dessert, snack, sweet, bake, confection, dough, pastry, crumb]
+category: Food
 unicode: "fdb1"
 version: "3.0"
 -->

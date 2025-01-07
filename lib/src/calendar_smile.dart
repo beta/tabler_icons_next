@@ -27,6 +27,7 @@ class CalendarSmile extends Icon {
 
   static const String _svg = '''<!--
 tags: [happy, joy, cheerful, delight, grin, beaming, pleased, content, satisfied, blissful]
+category: System
 version: "2.40"
 unicode: "fd1e"
 -->

@@ -27,6 +27,7 @@ class Background extends Icon {
 
   static const String _svg = '''<!--
 tags: [backdrop, setting, context, environment, scene, ambient, surroundings, scape, contextual, atmosphere]
+category: Design
 version: "2.41"
 unicode: "fd2c"
 -->

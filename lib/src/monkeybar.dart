@@ -26,7 +26,7 @@ class Monkeybar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-category: Maps
+category: Map
 tags: [playground, park, monkey, bar, jungle, gym, exercise, fitness, outdoor, fun, children, kids, play, swing, jungle gym]
 unicode: "feb4"
 version: "3.2"

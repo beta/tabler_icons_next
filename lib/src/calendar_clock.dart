@@ -27,6 +27,7 @@ class CalendarClock extends Icon {
 
   static const String _svg = '''<!--
 tags: [time-calendar, schedule-clock, appointment, date-time, event-schedule, timing, calendar-clock, agenda, time-management, calendar-event]
+category: System
 version: "2.41"
 unicode: "fd2e"
 -->

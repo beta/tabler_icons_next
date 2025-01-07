@@ -27,6 +27,7 @@ class HttpConnectOff extends Icon {
 
   static const String _svg = '''<!--
 tags: [network, disconnect, online, api, down, hook, rest, internet, notlink, failure]
+category: Computers
 unicode: "100e7"
 version: "3.26"
 -->

@@ -27,6 +27,7 @@ class HttpGetOff extends Icon {
 
   static const String _svg = '''<!--
 tags: [retrieve, fetch, grasp, collect, acquire, down, disable, halt, network, disconnect]
+category: Computers
 unicode: "100e5"
 version: "3.26"
 -->

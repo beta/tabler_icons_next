@@ -27,6 +27,7 @@ class ChartCovariate extends Icon {
 
   static const String _svg = '''<!--
 tags: [analytics, variable, data, statistics, analysis, correlation, relationship, dependency, visualization, graph]
+category: Charts
 unicode: "ffa4"
 version: "3.12"
 -->

@@ -27,6 +27,7 @@ class ChartColumn extends Icon {
 
   static const String _svg = '''<!--
 tags: [analytics, data, visualization, bar, statistics, vertical, graph, comparison, display, presentation]
+category: Charts
 unicode: "ffa5"
 version: "3.12"
 -->

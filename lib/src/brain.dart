@@ -27,6 +27,7 @@ class Brain extends Icon {
 
   static const String _svg = '''<!--
 tags: [mind, human, iq, inteligence, organ]
+category: Health
 unicode: "f59f"
 version: "1.110"
 -->

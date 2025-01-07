@@ -27,6 +27,7 @@ class ChartCohort extends Icon {
 
   static const String _svg = '''<!--
 tags: [analytics, group, data, visualization, statistics, cluster, demographic, analysis, set, aggregation]
+category: Charts
 unicode: "fef6"
 version: "3.5"
 -->

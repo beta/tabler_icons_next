@@ -27,6 +27,7 @@ class Bowling extends Icon {
 
   static const String _svg = '''<!--
 tags: [sport, game, pins, ball, strike, lane, alley, bowl, competition, scoring]
+category: Sport
 unicode: "100b1"
 version: "3.23"
 -->

@@ -27,6 +27,7 @@ class Burger extends Icon {
 
   static const String _svg = '''<!--
 tags: [food, sandwich, beef, cheese, lettuce, bun, fastfood, delicious, grill, meal]
+category: Food
 version: "2.37"
 unicode: "fcb4"
 -->

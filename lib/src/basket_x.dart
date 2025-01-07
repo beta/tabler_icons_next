@@ -27,6 +27,7 @@ class BasketX extends Icon {
 
   static const String _svg = '''<!--
 tags: [close, dismiss, cancel, terminate, end, reject, abort, eliminate, halt, stop]
+category: E-commerce
 version: "2.28"
 unicode: "fb56"
 -->

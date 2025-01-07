@@ -27,7 +27,7 @@ class HandFinger extends Icon {
 
   static const String _svg = '''<!--
 category: Gestures
-tags: [point, show, index, forefinger, body, human, palm]
+tags: [point, show, index, forefinger, body, human, palm, click, press, touch, mouse, pointer]
 version: "1.39"
 unicode: "ee94"
 -->

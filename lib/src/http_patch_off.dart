@@ -27,6 +27,7 @@ class HttpPatchOff extends Icon {
 
   static const String _svg = '''<!--
 tags: [update, modify, fix, edit, network, disable, halt, adjust, down, alter]
+category: Computers
 unicode: "100e2"
 version: "3.26"
 -->

@@ -27,6 +27,7 @@ class Article extends Icon {
 
   static const String _svg = '''<!--
 tags: [news, newspaper, media, blog]
+category: Document
 version: "1.69"
 unicode: "f1e2"
 -->

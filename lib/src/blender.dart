@@ -27,6 +27,7 @@ class Blender extends Icon {
 
   static const String _svg = '''<!--
 tags: [mixer, kitchen, appliance, blend, food, smoothie, processing, mixing, grind, blending]
+category: Devices
 version: "2.36"
 unicode: "fca2"
 -->

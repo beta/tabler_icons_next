@@ -27,6 +27,7 @@ class ArrowsTransferUpDown extends Icon {
 
   static const String _svg = '''<!--
 tags: [transfer, exchange, direction, vertical, upward, downward, flow, guide, ui, interface]
+category: Arrows
 unicode: "ffac"
 version: "3.12"
 -->

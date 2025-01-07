@@ -27,6 +27,7 @@ class Contract extends Icon {
 
   static const String _svg = '''<!--
 tags: [agreement, deal, pact, covenant, treaty, commitment, understanding, arrangement, negotiation, compact]
+category: Document
 unicode: "fefb"
 version: "3.6"
 -->
