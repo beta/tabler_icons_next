@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class FileTextShield extends Icon {
-  const FileTextShield({
+class TemperaturePlusFilled extends Icon {
+  const TemperaturePlusFilled({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,27 +26,17 @@ class FileTextShield extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [document, protection, security, safe, privacy, guard, lock, confidential, secure, data]
-unicode: "100f2"
-version: "3.27"
+unicode: "10102"
+version: "3.28"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="24"
   height="24"
   viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="<STROKE_WIDTH>"
-  stroke-linecap="round"
-  stroke-linejoin="round"
+  fill="currentColor"
 >
-  <path d="M13 3v4a.997 .997 0 0 0 1 1h4" />
-  <path d="M11 21h-5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v3.5" />
-  <path d="M8 9h1" />
-  <path d="M8 12.994l3 0" />
-  <path d="M8 16.997l2 0" />
-  <path d="M21 15.994c0 4 -2.5 6 -3.5 6s-3.5 -2 -3.5 -6c1 0 2.5 -.5 3.5 -1.5c1 1 2.5 1.5 3.5 1.5" />
+  <path d="M10 2a3 3 0 0 1 3 3v7.965l.075 .056a5 5 0 0 1 1.81 5.01l-.055 .227a5 5 0 1 1 -7.905 -5.237l.075 -.056v-7.965a3 3 0 0 1 2.824 -2.995zm9 3a1 1 0 0 1 1 1v2h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1 -2 0v-2h-2a1 1 0 0 1 0 -2h2v-2a1 1 0 0 1 1 -1m-9 -1a1 1 0 0 0 -1 1v4h2v-4a1 1 0 0 0 -1 -1" />
 </svg>
 ''';
 }

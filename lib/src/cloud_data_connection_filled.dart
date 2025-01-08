@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class FileTextShield extends Icon {
-  const FileTextShield({
+class CloudDataConnectionFilled extends Icon {
+  const CloudDataConnectionFilled({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,27 +26,17 @@ class FileTextShield extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [document, protection, security, safe, privacy, guard, lock, confidential, secure, data]
-unicode: "100f2"
-version: "3.27"
+unicode: "1010c"
+version: "3.28"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="24"
   height="24"
   viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="<STROKE_WIDTH>"
-  stroke-linecap="round"
-  stroke-linejoin="round"
+  fill="currentColor"
 >
-  <path d="M13 3v4a.997 .997 0 0 0 1 1h4" />
-  <path d="M11 21h-5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v3.5" />
-  <path d="M8 9h1" />
-  <path d="M8 12.994l3 0" />
-  <path d="M8 16.997l2 0" />
-  <path d="M21 15.994c0 4 -2.5 6 -3.5 6s-3.5 -2 -3.5 -6c1 0 2.5 -.5 3.5 -1.5c1 1 2.5 1.5 3.5 1.5" />
+  <path d="M15.262 4.087c.974 .768 1.566 1.848 1.678 2.997l.007 .107l.18 .025a3.42 3.42 0 0 1 2.867 3.184l.006 .188a3.42 3.42 0 0 1 -3.425 3.412h-3.575l.001 1.171a3 3 0 0 1 1.829 1.829h6.17a1 1 0 0 1 0 2h-6.17a3.001 3.001 0 0 1 -5.66 0h-6.17a1 1 0 0 1 0 -2h6.171a3 3 0 0 1 1.829 -1.83v-1.17h-2.74c-2.341 0 -4.26 -1.826 -4.26 -4.103c0 -2.001 1.481 -3.655 3.43 -4.026l.086 -.015l.049 -.112c.514 -1.124 1.508 -2.01 2.756 -2.447l.222 -.072c1.627 -.49 3.42 -.166 4.72 .862" />
 </svg>
 ''';
 }

@@ -6,7 +6,7 @@
       "cwd": "gallery",
       "request": "launch",
       "type": "dart",
-      "toolArgs": ["--web-renderer", "html", "--web-hostname", "127.0.0.1", "--web-port", "7890"]
+      "toolArgs": ["--web-hostname", "127.0.0.1", "--web-port", "7890"]
     },
     {
       "name": "gallery (profile mode)",
@@ -14,7 +14,7 @@
       "request": "launch",
       "type": "dart",
       "flutterMode": "profile",
-      "toolArgs": ["--web-renderer", "html", "--web-hostname", "127.0.0.1", "--web-port", "7890"]
+      "toolArgs": ["--web-hostname", "127.0.0.1", "--web-port", "7890"]
     },
     {
       "name": "gallery (release mode)",
@@ -22,7 +22,7 @@
       "request": "launch",
       "type": "dart",
       "flutterMode": "release",
-      "toolArgs": ["--web-renderer", "html", "--web-hostname", "127.0.0.1", "--web-port", "7890"]
+      "toolArgs": ["--web-hostname", "127.0.0.1", "--web-port", "7890"]
     }
   ]
 }

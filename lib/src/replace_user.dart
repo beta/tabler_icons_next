@@ -26,6 +26,7 @@ class ReplaceUser extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [swap, exchange, change, substitute, switch, alternate, modify, update, alter, transition]
 unicode: "100f0"
 version: "3.27"
 -->
