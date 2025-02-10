@@ -26,6 +26,7 @@ class Scan extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [code, barcode, qr code, app, scanner, document]
 version: "1.5"
 unicode: "ebc8"

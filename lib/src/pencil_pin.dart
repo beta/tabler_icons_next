@@ -26,6 +26,7 @@ class PencilPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Design
 tags: [edit, attach, stick, mark, highlight, bookmark, tack, flag, fix, secure]
 version: "2.28"
 unicode: "fc08"

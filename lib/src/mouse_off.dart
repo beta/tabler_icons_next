@@ -26,8 +26,8 @@ class MouseOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pointer, cursor, device]
 category: Devices
+tags: [pointer, cursor, device]
 version: "1.66"
 unicode: "f163"
 -->

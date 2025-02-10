@@ -26,6 +26,7 @@ class Tie extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [suit, buisness, fashion, clothes, accessory, clothing]
 version: "1.59"
 unicode: "f07e"

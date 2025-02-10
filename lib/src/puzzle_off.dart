@@ -26,8 +26,8 @@ class PuzzleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [jigsaw, extension, add-on]
 category: Games
+tags: [jigsaw, extension, add-on]
 version: "1.66"
 unicode: "f186"
 -->

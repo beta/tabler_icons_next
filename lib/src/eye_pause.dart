@@ -26,6 +26,7 @@ class EyePause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [halt, delay, stop, vision, sight, break, rest, cease, view, focus]
 version: "2.28"
 unicode: "fb74"

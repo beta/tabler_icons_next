@@ -26,8 +26,8 @@ class BinaryOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [binary]
 category: Computers
+tags: [binary]
 unicode: "f3c5"
 version: "1.94"
 -->

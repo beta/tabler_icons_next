@@ -26,6 +26,7 @@ class Diaper extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [baby, infant, nappy, care, protection, absorbent, cloth, change, comfort, hygiene]
 unicode: "ffa2"
 version: "3.12"

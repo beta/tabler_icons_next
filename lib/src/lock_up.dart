@@ -26,8 +26,8 @@ class LockUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ascend, raise, increase, uplift, boost, rise, enhance, elevate, upward, higher]
 category: System
+tags: [ascend, raise, increase, uplift, boost, rise, enhance, elevate, upward, higher]
 version: "2.10"
 unicode: "f935"
 -->

@@ -26,6 +26,7 @@ class MusicPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Media
 tags: [increase, add, expand, grow, augment, boost, elevate, extra, enhance, gain]
 version: "2.28"
 unicode: "fbe2"

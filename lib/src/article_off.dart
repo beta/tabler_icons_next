@@ -26,8 +26,8 @@ class ArticleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [news, newspaper, media, blog]
 category: Document
+tags: [news, newspaper, media, blog]
 unicode: "f3bf"
 version: "1.94"
 -->

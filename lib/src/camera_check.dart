@@ -26,8 +26,8 @@ class CameraCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [verify, confirm, approve, validate, authenticate, cross-check, certify, inspect, examine, assure]
 category: Media
+tags: [verify, confirm, approve, validate, authenticate, cross-check, certify, inspect, examine, assure]
 version: "2.10"
 unicode: "f835"
 -->

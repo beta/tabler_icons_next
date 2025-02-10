@@ -26,8 +26,8 @@ class DeviceMobileBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [energy, powerful, fast, lightning, quick, electric, vital, speedy, charge, burst]
 category: Devices
+tags: [energy, powerful, fast, lightning, quick, electric, vital, speedy, charge, burst]
 version: "2.10"
 unicode: "f8ad"
 -->

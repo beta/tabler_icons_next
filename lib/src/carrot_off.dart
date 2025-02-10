@@ -26,8 +26,8 @@ class CarrotOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, healthy, rabbit, vegetable]
 category: Food
+tags: [food, healthy, rabbit, vegetable]
 unicode: "f3d0"
 version: "1.94"
 -->

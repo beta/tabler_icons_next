@@ -26,8 +26,8 @@ class SchemaOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [graph, data, infography]
 category: Database
+tags: [graph, data, infography]
 unicode: "f426"
 version: "1.94"
 -->

@@ -26,8 +26,8 @@ class CalendarHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [love, affection, passion, devotion, romance, amour, care, fondness, esteem, cherish]
 category: System
+tags: [love, affection, passion, devotion, romance, amour, care, fondness, esteem, cherish]
 version: "2.10"
 unicode: "f82a"
 -->

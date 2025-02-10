@@ -26,8 +26,8 @@ class UserCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [abort, stop, end, terminate, halt, void, dismiss, close, exit]
 category: System
+tags: [abort, stop, end, terminate, halt, void, dismiss, close, exit]
 version: "2.10"
 unicode: "f9d2"
 -->

@@ -26,8 +26,8 @@ class DeviceWatchStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [favorite, rate, highlight, mark, select, award, recognize, commend, celebrate, honor]
 category: Devices
+tags: [favorite, rate, highlight, mark, select, award, recognize, commend, celebrate, honor]
 version: "2.10"
 unicode: "f8e3"
 -->

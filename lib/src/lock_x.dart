@@ -26,8 +26,8 @@ class LockX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [remove, cancel, delete, close, terminate, reject, void, erase, exclude, discard]
 category: System
+tags: [remove, cancel, delete, close, terminate, reject, void, erase, exclude, discard]
 version: "2.10"
 unicode: "f936"
 -->

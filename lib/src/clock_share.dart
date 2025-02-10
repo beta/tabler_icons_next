@@ -26,8 +26,8 @@ class ClockShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [distribute, spread, publish, broadcast, transmit, communicate, release, deliver, transfer, provide]
 category: System
+tags: [distribute, spread, publish, broadcast, transmit, communicate, release, deliver, transfer, provide]
 version: "2.10"
 unicode: "f84a"
 -->

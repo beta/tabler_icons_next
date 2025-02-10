@@ -26,8 +26,8 @@ class DevicesOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [computer, laptop, notebook, tablet, phone, mobile, mac, iphone]
 category: Devices
+tags: [computer, laptop, notebook, tablet, phone, mobile, mac, iphone]
 unicode: "f3e4"
 version: "1.94"
 -->

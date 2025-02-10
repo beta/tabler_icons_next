@@ -26,8 +26,8 @@ class StarOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [favorite, like, mark, bookmark, grade]
 category: System
+tags: [favorite, like, mark, bookmark, grade]
 version: "1.31"
 unicode: "ed62"
 -->

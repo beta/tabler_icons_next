@@ -26,6 +26,7 @@ class MapCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [settings, adjust, configure, mechanism, engine, process, gear, system, apparatus, tweak]
 version: "2.28"
 unicode: "fbc7"

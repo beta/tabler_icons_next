@@ -26,8 +26,8 @@ class CircleMinus2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [decrease, eliminate, subtract, reduce, lessen, lower, diminish, remove, deduct, negative]
 category: Shapes
+tags: [decrease, eliminate, subtract, reduce, lessen, lower, diminish, remove, deduct, negative]
 version: "2.35"
 unicode: "fc8c"
 -->

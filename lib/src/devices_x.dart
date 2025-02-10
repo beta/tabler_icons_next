@@ -26,8 +26,8 @@ class DevicesX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [close, remove, cancel, end, terminate, erase, delete, exit, nullify, reject]
 category: Devices
+tags: [close, remove, cancel, end, terminate, erase, delete, exit, nullify, reject]
 version: "2.10"
 unicode: "f8f8"
 -->

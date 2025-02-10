@@ -26,8 +26,8 @@ class ParenthesesOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [brackets, aside, punctuation, mark, insert]
 category: Math
+tags: [brackets, aside, punctuation, mark, insert]
 version: "1.66"
 unicode: "f171"
 -->

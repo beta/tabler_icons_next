@@ -26,6 +26,7 @@ class LocationPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [halt, break, stop, interruption, cease, freeze, wait, delay, suspend, linger]
 version: "2.28"
 unicode: "fbba"

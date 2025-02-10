@@ -26,8 +26,8 @@ class SteeringWheelOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [drive, vehicle, direction, turn, holding, racing]
 category: Vehicles
+tags: [drive, vehicle, direction, turn, holding, racing]
 unicode: "f431"
 version: "1.94"
 -->

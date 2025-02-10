@@ -26,6 +26,7 @@ class MusicMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Media
 tags: [reduce, negative, lower, subtract, diminish, less, decline, decrement, down]
 version: "2.28"
 unicode: "fbdf"

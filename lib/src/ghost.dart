@@ -26,6 +26,7 @@ class Ghost extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Games
 tags: [spirit, transparent, fairytale, horror, movie, shadow, haunt]
 version: "1.3"
 unicode: "eb8e"

@@ -26,8 +26,8 @@ class QrcodeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [scan, data]
 category: Devices
+tags: [scan, data]
 unicode: "f41e"
 version: "1.94"
 -->

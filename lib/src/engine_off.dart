@@ -26,8 +26,8 @@ class EngineOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [car, motor, automotive, dashboard]
 category: Vehicles
+tags: [car, motor, automotive, dashboard]
 version: "1.65"
 unicode: "f120"
 -->

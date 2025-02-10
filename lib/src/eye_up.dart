@@ -26,6 +26,7 @@ class EyeUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [ascend, rise, elevate, vision, sight, increase, climb, advance, view, focus]
 version: "2.28"
 unicode: "fb7b"

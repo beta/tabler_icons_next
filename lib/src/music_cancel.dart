@@ -26,6 +26,7 @@ class MusicCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Media
 tags: [mute, stop, disable, halt, silence, cut, end, disconnect, terminate, block]
 version: "2.28"
 unicode: "fbd6"

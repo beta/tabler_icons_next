@@ -26,8 +26,8 @@ class PentagonOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, figure, math, graphic, geometry, form]
 category: Shapes
+tags: [shape, figure, math, graphic, geometry, form]
 unicode: "f41a"
 version: "1.94"
 -->

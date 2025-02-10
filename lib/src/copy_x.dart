@@ -26,6 +26,7 @@ class CopyX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Text
 tags: [delete, remove, cancel, erase, discard, nullify, revoke, void, terminate, clear]
 unicode: "fdad"
 version: "3.0"

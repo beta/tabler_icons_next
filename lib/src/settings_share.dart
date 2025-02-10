@@ -26,8 +26,8 @@ class SettingsShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [configuration, distribute, preferences, tools, connect, social, share, spread, broadcast, network]
 category: System
+tags: [configuration, distribute, preferences, tools, connect, social, share, spread, broadcast, network]
 version: "2.10"
 unicode: "f9bc"
 -->

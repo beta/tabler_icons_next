@@ -26,6 +26,7 @@ class MapCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [void, dismiss, negate, stop, abort, halt, revoke, quit, retract, discontinue]
 version: "2.28"
 unicode: "fbc4"

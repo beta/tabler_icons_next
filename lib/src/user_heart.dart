@@ -26,8 +26,8 @@ class UserHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [love, affection, emotion, romance, caring, kindness, passion, devotion, feeling, compassion]
 category: System
+tags: [love, affection, emotion, romance, caring, kindness, passion, devotion, feeling, compassion]
 version: "2.8"
 unicode: "f7cd"
 -->

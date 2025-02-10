@@ -26,8 +26,8 @@ class WashDrycleanOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [laundry, clean, clear, clothes]
 category: Laundry
+tags: [laundry, clean, clear, clothes]
 version: "1.85"
 unicode: "f323"
 -->

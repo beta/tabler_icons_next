@@ -26,8 +26,8 @@ class FlaskOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [liquid, container, glass, chemistry, test, laboratory, experimental, beta]
 category: Health
+tags: [liquid, container, glass, chemistry, test, laboratory, experimental, beta]
 version: "1.65"
 unicode: "f130"
 -->

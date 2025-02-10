@@ -26,6 +26,7 @@ class GiftOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [present, birthday, celebration, wish, bonus, souvenire, surprise]
 unicode: "f3f3"
 version: "1.94"

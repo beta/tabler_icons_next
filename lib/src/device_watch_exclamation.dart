@@ -26,8 +26,8 @@ class DeviceWatchExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [important, alert, warning, notice, urgent, attention, emphasis, highlight, caution, remark]
 category: Devices
+tags: [important, alert, warning, notice, urgent, attention, emphasis, highlight, caution, remark]
 version: "2.10"
 unicode: "f8da"
 -->

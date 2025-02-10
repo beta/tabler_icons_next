@@ -26,8 +26,8 @@ class ArtboardOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [graphics, drawing, design, art, canvas]
 category: Design
+tags: [graphics, drawing, design, art, canvas]
 version: "1.62"
 unicode: "f0ae"
 -->

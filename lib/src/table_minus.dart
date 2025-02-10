@@ -26,8 +26,8 @@ class TableMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [table, minus, remove, subtract, delete, data-table, table-operation, table-remove, subtract-from-table, exclude]
 category: Database
+tags: [table, minus, remove, subtract, delete, data-table, table-operation, table-remove, subtract-from-table, exclude]
 version: "2.13"
 unicode: "fa1e"
 -->

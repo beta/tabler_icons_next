@@ -26,8 +26,8 @@ class DeviceMobileSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [find, discover, look, seek, locate, explore, inspect, probe, hunt, scan]
 category: Devices
+tags: [find, discover, look, seek, locate, explore, inspect, probe, hunt, scan]
 version: "2.10"
 unicode: "f8bb"
 -->

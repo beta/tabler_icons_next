@@ -26,6 +26,7 @@ class SourceCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Development
 tags: [programming, coding, html, development]
 unicode: "f4a2"
 version: "1.96"

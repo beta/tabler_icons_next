@@ -26,8 +26,8 @@ class DevicesCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, gear, adjust, configure, setup, tool, mechanism, system, control, preferences]
 category: Devices
+tags: [settings, gear, adjust, configure, setup, tool, mechanism, system, control, preferences]
 version: "2.10"
 unicode: "f8ea"
 -->

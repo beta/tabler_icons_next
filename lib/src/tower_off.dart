@@ -26,8 +26,8 @@ class TowerOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [building, castle, fortress, palace]
 category: Buildings
+tags: [building, castle, fortress, palace]
 version: "1.81"
 unicode: "f2ca"
 -->

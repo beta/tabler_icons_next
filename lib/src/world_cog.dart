@@ -26,8 +26,8 @@ class WorldCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, configure, gear, adjust, mechanism, system, control, customize, global, engine]
 category: Map
+tags: [settings, configure, gear, adjust, mechanism, system, control, customize, global, engine]
 version: "2.10"
 unicode: "f9dd"
 -->

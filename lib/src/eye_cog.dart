@@ -26,8 +26,8 @@ class EyeCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, configuration, vision, sight, tool, adjust, gear, modify, optics, focus]
 category: System
+tags: [settings, configuration, vision, sight, tool, adjust, gear, modify, optics, focus]
 version: "2.9"
 unicode: "f7ed"
 -->

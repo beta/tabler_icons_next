@@ -26,8 +26,8 @@ class BookmarkOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [read, clip, marker, tag]
 category: Document
+tags: [read, clip, marker, tag]
 version: "1.22"
 unicode: "eced"
 -->

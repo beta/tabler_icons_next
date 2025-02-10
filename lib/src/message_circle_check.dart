@@ -26,8 +26,8 @@ class MessageCircleCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [approve, confirm, validate, circular, complete, okay, accept, tick, verified, success]
 category: Communication
+tags: [approve, confirm, validate, circular, complete, okay, accept, tick, verified, success]
 version: "2.10"
 unicode: "f972"
 -->

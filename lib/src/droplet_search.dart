@@ -26,8 +26,8 @@ class DropletSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [find, look, explore, seek, hunt, scan, detect, locate, discover, investigate]
 category: Design
+tags: [find, look, explore, seek, hunt, scan, detect, locate, discover, investigate]
 version: "2.10"
 unicode: "f907"
 -->

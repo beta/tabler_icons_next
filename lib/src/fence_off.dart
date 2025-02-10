@@ -26,8 +26,8 @@ class FenceOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [garden, home, house, farm, wood, barrier]
 category: Buildings
+tags: [garden, home, house, farm, wood, barrier]
 version: "1.65"
 unicode: "f129"
 -->

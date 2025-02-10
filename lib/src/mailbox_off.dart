@@ -26,8 +26,8 @@ class MailboxOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [send, recipient, email, inbox, message, reply, post]
 category: Communication
+tags: [send, recipient, email, inbox, message, reply, post]
 version: "1.66"
 unicode: "f15b"
 -->

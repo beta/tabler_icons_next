@@ -26,8 +26,8 @@ class OctagonOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, geometric, math, 2d, building, government]
 category: Shapes
+tags: [shape, geometric, math, 2d, building, government]
 version: "1.39"
 unicode: "eeb8"
 -->

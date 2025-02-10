@@ -26,8 +26,8 @@ class UserOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [person, account]
 category: System
+tags: [person, account]
 version: "1.22"
 unicode: "ecf9"
 -->

@@ -26,8 +26,8 @@ class SoupOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, cooking, restaurant, bowl, hot, kitchen]
 category: Food
+tags: [food, cooking, restaurant, bowl, hot, kitchen]
 unicode: "f42d"
 version: "1.94"
 -->

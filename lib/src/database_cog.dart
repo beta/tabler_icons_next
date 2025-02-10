@@ -26,8 +26,8 @@ class DatabaseCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gear, settings, manage, configure, organize, control, adjust, customize, optimize, tune]
 category: Database
+tags: [gear, settings, manage, configure, organize, control, adjust, customize, optimize, tune]
 version: "2.13"
 unicode: "fa10"
 -->

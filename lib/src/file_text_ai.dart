@@ -26,8 +26,8 @@ class FileTextAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, pdf, txt]
 category: Document
+tags: [data, pdf, txt]
 version: "2.14"
 unicode: "fa27"
 -->

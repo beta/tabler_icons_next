@@ -26,8 +26,8 @@ class PlayCardOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, magic, trick, casino, entertainment, spade, heart, diamond, club, playing]
 category: Games
+tags: [game, magic, trick, casino, entertainment, spade, heart, diamond, club, playing]
 version: "1.66"
 unicode: "f17e"
 -->

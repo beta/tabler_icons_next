@@ -26,8 +26,8 @@ class MailExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alert, notice, warn, caution, attention, message, important, prompt, danger, highlight]
 category: Communication
+tags: [alert, notice, warn, caution, attention, message, important, prompt, danger, highlight]
 version: "2.10"
 unicode: "f93e"
 -->

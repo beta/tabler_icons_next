@@ -26,6 +26,7 @@ class ShoppingCartX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [remove, delete, cancel, erase, terminate, cut, eliminate, strip, dismiss, scrub]
 version: "2.28"
 unicode: "fb6b"

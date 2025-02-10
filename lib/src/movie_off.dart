@@ -26,8 +26,8 @@ class MovieOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [film, video, cinema]
 category: Media
+tags: [film, video, cinema]
 version: "1.66"
 unicode: "f164"
 -->

@@ -26,8 +26,8 @@ class DevicesStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [favorite, highlight, rate, mark, award, commend, select, appreciate, honor, celebrate]
 category: Devices
+tags: [favorite, highlight, rate, mark, award, commend, select, appreciate, honor, celebrate]
 version: "2.10"
 unicode: "f8f6"
 -->

@@ -26,6 +26,7 @@ class FilterPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [attach, fix, secure, mark, stick, anchor, place, location, tag, position]
 version: "2.28"
 unicode: "fb85"

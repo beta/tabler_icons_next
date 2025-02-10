@@ -26,8 +26,8 @@ class WorldPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [halt, rest, stop, freeze, break, suspend, global, interval, wait, intermission]
 category: Map
+tags: [halt, rest, stop, freeze, break, suspend, global, interval, wait, intermission]
 version: "2.10"
 unicode: "f9e3"
 -->

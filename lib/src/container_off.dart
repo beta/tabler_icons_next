@@ -26,8 +26,8 @@ class ContainerOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [element, html, block, store, inside]
 category: Design
+tags: [element, html, block, store, inside]
 version: "1.65"
 unicode: "f107"
 -->

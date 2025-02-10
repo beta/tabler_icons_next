@@ -26,8 +26,8 @@ class LockOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [security, password, secure]
 category: System
+tags: [security, password, secure]
 version: "1.25"
 unicode: "ed1e"
 -->

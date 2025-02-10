@@ -26,8 +26,8 @@ class DevicesDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [decrease, descend, fall, drop, reduce, lower, dip, decline, downgrade, plummet]
 category: Devices
+tags: [decrease, descend, fall, drop, reduce, lower, dip, decline, downgrade, plummet]
 version: "2.10"
 unicode: "f8ec"
 -->

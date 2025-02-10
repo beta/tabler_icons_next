@@ -26,8 +26,8 @@ class TriangleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [delta, shape]
 category: Shapes
+tags: [delta, shape]
 version: "1.39"
 unicode: "ef02"
 -->

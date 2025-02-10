@@ -26,8 +26,8 @@ class GardenCartOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gardening, conctruction, wheel, wheelbarrow]
 category: Vehicles
+tags: [gardening, conctruction, wheel, wheelbarrow]
 unicode: "f3f1"
 version: "1.94"
 -->

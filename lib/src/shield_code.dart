@@ -26,8 +26,8 @@ class ShieldCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [protection, defense, program, security, guard, script, encrypt, encode, programming]
 category: System
+tags: [protection, defense, program, security, guard, script, encrypt, encode, programming]
 version: "2.10"
 unicode: "f9c2"
 -->

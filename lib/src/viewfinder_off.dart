@@ -26,8 +26,8 @@ class ViewfinderOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [target, aim, focus]
 category: Map
+tags: [target, aim, focus]
 version: "1.67"
 unicode: "f1c2"
 -->

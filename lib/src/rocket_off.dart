@@ -26,8 +26,8 @@ class RocketOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [universe, galaxy, space, journey, discover, extraterrestrial, spaceship]
 category: Map
+tags: [universe, galaxy, space, journey, discover, extraterrestrial, spaceship]
 version: "1.66"
 unicode: "f193"
 -->

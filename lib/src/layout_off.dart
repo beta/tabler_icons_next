@@ -26,8 +26,8 @@ class LayoutOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grid, columns, masonry, collage]
 category: Design
+tags: [grid, columns, masonry, collage]
 version: "1.66"
 unicode: "f151"
 -->

@@ -26,8 +26,8 @@ class CoinOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, earn, salary, change, dollar]
 category: E-commerce
+tags: [money, earn, salary, change, dollar]
 version: "1.63"
 unicode: "f0d1"
 -->

@@ -26,8 +26,8 @@ class DentalOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tooth, toothbrush, mouth, hygiene]
 category: Health
+tags: [tooth, toothbrush, mouth, hygiene]
 version: "1.65"
 unicode: "f110"
 -->

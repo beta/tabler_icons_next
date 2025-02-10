@@ -26,8 +26,8 @@ class MapPinX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cross, remove, cancel, delete, close, void, reject, exclude, terminate, stop]
 category: Map
+tags: [cross, remove, cancel, delete, close, void, reject, exclude, terminate, stop]
 version: "2.10"
 unicode: "f95b"
 -->

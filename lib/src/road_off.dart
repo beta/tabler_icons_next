@@ -26,8 +26,8 @@ class RoadOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [car, travel, journey, traffic, highway, route, racing]
 category: Map
+tags: [car, travel, journey, traffic, highway, route, racing]
 version: "1.66"
 unicode: "f191"
 -->

@@ -26,8 +26,8 @@ class MoonOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [night, dark mode]
 category: Weather
+tags: [night, dark mode]
 version: "1.66"
 unicode: "f162"
 -->

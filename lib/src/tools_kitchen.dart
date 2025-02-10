@@ -26,7 +26,7 @@ class ToolsKitchen extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-category: Map
+category: Food
 tags: [knife, fork, spoon, cutlery, eat, restaurant, menu, cafe, cook, cut, soup, dinner, breakfast, dining, plate, dish]
 version: "1.31"
 unicode: "ed64"

@@ -26,8 +26,8 @@ class BasketDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shopping, cart, money, currency, purchase, store, goods, finance, buy, cost]
 category: E-commerce
+tags: [shopping, cart, money, currency, purchase, store, goods, finance, buy, cost]
 version: "2.28"
 unicode: "fb49"
 -->

@@ -26,8 +26,8 @@ class FolderSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [find, seek, explore, investigate, probe, hunt, locate, discover, peruse, inspect]
 category: Document
+tags: [find, seek, explore, investigate, probe, hunt, locate, discover, peruse, inspect]
 version: "2.10"
 unicode: "f918"
 -->

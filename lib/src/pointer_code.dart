@@ -26,8 +26,8 @@ class PointerCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [program, development, software, tech, syntax, script, binary, engineering, compute, digital]
 category: System
+tags: [program, development, software, tech, syntax, script, binary, engineering, compute, digital]
 version: "2.10"
 unicode: "f99c"
 -->

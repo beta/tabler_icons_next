@@ -26,8 +26,8 @@ class DeviceIpadShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [distribute, broadcast, spread, transfer, send, exchange, disperse, convey, relay, propagate]
 category: Devices
+tags: [distribute, broadcast, spread, transfer, send, exchange, disperse, convey, relay, propagate]
 version: "2.10"
 unicode: "f8a9"
 -->

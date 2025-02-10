@@ -26,8 +26,8 @@ class PresentationOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [slideshow, display, exhibition, speech, topic, conference]
 category: Document
+tags: [slideshow, display, exhibition, speech, topic, conference]
 version: "1.66"
 unicode: "f183"
 -->

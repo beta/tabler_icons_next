@@ -26,8 +26,8 @@ class DeviceMobileCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [abort, dismiss, negate, revoke, stop, nullify, exit, discontinue, cease, halt]
 category: Devices
+tags: [abort, dismiss, negate, revoke, stop, nullify, exit, discontinue, cease, halt]
 version: "2.10"
 unicode: "f8ae"
 -->

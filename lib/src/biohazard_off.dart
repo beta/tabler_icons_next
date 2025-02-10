@@ -26,8 +26,8 @@ class BiohazardOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [danger, radioactive, toxic, microbe, virus, biotoxin]
 category: Symbols
+tags: [danger, radioactive, toxic, microbe, virus, biotoxin]
 version: "1.63"
 unicode: "f0b9"
 -->

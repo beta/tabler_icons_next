@@ -26,8 +26,8 @@ class BellDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, finance, currency, cash, wealth, income, revenue, funds, earnings, budget]
 category: System
+tags: [money, finance, currency, cash, wealth, income, revenue, funds, earnings, budget]
 version: "2.10"
 unicode: "f817"
 -->

@@ -26,6 +26,7 @@ class ShoppingCartCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [revoke, void, abort, stop, halt, annul, discontinue, suspend, cease, terminate]
 version: "2.28"
 unicode: "fb58"

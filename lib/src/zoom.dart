@@ -26,6 +26,7 @@ class Zoom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [find, magnifier, magnifying glass]
 version: "1.0"
 unicode: "fdaa"

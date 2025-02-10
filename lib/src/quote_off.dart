@@ -26,8 +26,8 @@ class QuoteOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [chat, message, text, punctuation, quotation, comment]
 category: Text
+tags: [chat, message, text, punctuation, quotation, comment]
 version: "1.66"
 unicode: "f188"
 -->

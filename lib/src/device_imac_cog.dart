@@ -26,8 +26,8 @@ class DeviceImacCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gear, mechanism, machinery, tool, adjust, configure, set, machine, operate, part]
 category: Devices
+tags: [gear, mechanism, machinery, tool, adjust, configure, set, machine, operate, part]
 version: "2.10"
 unicode: "f875"
 -->

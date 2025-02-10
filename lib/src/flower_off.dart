@@ -26,8 +26,8 @@ class FlowerOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [plant, garden, rose, lotus]
 category: Nature
+tags: [plant, garden, rose, lotus]
 version: "1.65"
 unicode: "f131"
 -->

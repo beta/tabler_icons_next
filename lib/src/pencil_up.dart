@@ -26,6 +26,7 @@ class PencilUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Design
 tags: [edit, increase, modify, ascend, raise, enhance, upgrade, boost, elevate, improve]
 version: "2.28"
 unicode: "fc0d"

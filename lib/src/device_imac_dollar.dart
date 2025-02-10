@@ -26,8 +26,8 @@ class DeviceImacDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, currency, finance, wealth, cash, funds, capital, income, profit, earnings]
 category: Devices
+tags: [money, currency, finance, wealth, cash, funds, capital, income, profit, earnings]
 version: "2.10"
 unicode: "f876"
 -->

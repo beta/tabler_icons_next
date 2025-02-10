@@ -26,6 +26,7 @@ class ShoppingCartHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [favorites, love, cherish, adore, affection, passion, emotion, fondness, devotion]
 version: "2.28"
 unicode: "fb61"

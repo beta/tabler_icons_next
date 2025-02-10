@@ -26,8 +26,8 @@ class ChartPieOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, diagram, graph, rhythm, data, analysis]
 category: Charts
+tags: [statistics, diagram, graph, rhythm, data, analysis]
 unicode: "f3d3"
 version: "1.94"
 -->

@@ -26,8 +26,8 @@ class VersionsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, variation, different, variant, alternative]
 category: Development
+tags: [app, variation, different, variant, alternative]
 version: "1.67"
 unicode: "f1c0"
 -->

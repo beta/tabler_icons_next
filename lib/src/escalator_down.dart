@@ -26,8 +26,8 @@ class EscalatorDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [descend, lower, elevate, transport, step, decline, decrease, move, drop, reduce]
 category: Map
+tags: [descend, lower, elevate, transport, step, decline, decrease, move, drop, reduce]
 version: "2.25"
 unicode: "fb04"
 -->

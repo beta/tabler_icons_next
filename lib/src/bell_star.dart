@@ -26,8 +26,8 @@ class BellStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [favorite, emphasize, highlight, promote, feature, showcase, priority, premier, foremost, select]
 category: System
+tags: [favorite, emphasize, highlight, promote, feature, showcase, priority, premier, foremost, select]
 version: "2.10"
 unicode: "f820"
 -->

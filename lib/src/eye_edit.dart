@@ -26,8 +26,8 @@ class EyeEdit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [modify, alter, change, vision, sight, update, adjust, revise, view, focus]
 category: System
+tags: [modify, alter, change, vision, sight, update, adjust, revise, view, focus]
 version: "2.9"
 unicode: "f7ee"
 -->

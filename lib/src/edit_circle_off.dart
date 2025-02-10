@@ -26,8 +26,8 @@ class EditCircleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pencil, change, update]
 category: Design
+tags: [pencil, change, update]
 version: "1.65"
 unicode: "f11d"
 -->

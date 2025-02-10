@@ -26,8 +26,8 @@ class TrafficLightsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [street, road, green, red, yellow, vehicle, stop, drive, crossing, pedestrian, crossroads, junction, intersection]
 category: Map
+tags: [street, road, green, red, yellow, vehicle, stop, drive, crossing, pedestrian, crossroads, junction, intersection]
 version: "1.67"
 unicode: "f1b9"
 -->

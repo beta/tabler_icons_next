@@ -26,8 +26,8 @@ class LockDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [finance, money, currency, account, wealth, transaction, protect, funds, investment]
 category: System
+tags: [finance, money, currency, account, wealth, transaction, protect, funds, investment]
 version: "2.10"
 unicode: "f929"
 -->

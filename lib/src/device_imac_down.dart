@@ -26,8 +26,8 @@ class DeviceImacDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [decrease, lower, descend, drop, reduce, fall, diminish, decline, plummet, subside]
 category: Devices
+tags: [decrease, lower, descend, drop, reduce, fall, diminish, decline, plummet, subside]
 version: "2.10"
 unicode: "f877"
 -->

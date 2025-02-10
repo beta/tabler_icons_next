@@ -26,8 +26,8 @@ class UserCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, preferences, configure, gear, tool, customize, options, adjust, control, manage]
 category: System
+tags: [settings, preferences, configure, gear, tool, customize, options, adjust, control, manage]
 version: "2.10"
 unicode: "f9d4"
 -->

@@ -26,8 +26,8 @@ class MusicOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sound, mp3, album, speakers, melody]
 category: Media
+tags: [sound, mp3, album, speakers, melody]
 version: "1.66"
 unicode: "f166"
 -->

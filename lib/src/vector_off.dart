@@ -26,8 +26,8 @@ class VectorOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [curve, parametric, design, vector graphics, placement]
 category: Design
+tags: [curve, parametric, design, vector graphics, placement]
 version: "1.67"
 unicode: "f1be"
 -->

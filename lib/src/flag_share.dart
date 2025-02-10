@@ -26,6 +26,7 @@ class FlagShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [broadcast, distribution, circulate, propagate, publicize, emit, transmit, divulge, announce, disseminate]
 version: "2.28"
 unicode: "fb9a"

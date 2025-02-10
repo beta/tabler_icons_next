@@ -26,8 +26,8 @@ class MailHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [love, affection, care, message, devotion, emotion, passion, romance, sympathy, fondness]
 category: Communication
+tags: [love, affection, care, message, devotion, emotion, passion, romance, sympathy, fondness]
 version: "2.10"
 unicode: "f93f"
 -->

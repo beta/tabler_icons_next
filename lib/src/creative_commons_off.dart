@@ -26,8 +26,8 @@ class CreativeCommonsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [licence, license]
 category: System
+tags: [licence, license]
 version: "1.65"
 unicode: "f10a"
 -->

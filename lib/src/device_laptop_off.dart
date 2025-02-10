@@ -26,8 +26,8 @@ class DeviceLaptopOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [workstation, mac, notebook, portable, screen, computer]
 category: Devices
+tags: [workstation, mac, notebook, portable, screen, computer]
 version: "1.58"
 unicode: "f061"
 -->

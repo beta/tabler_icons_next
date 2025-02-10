@@ -26,6 +26,7 @@ class LocationPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [marker, point, drop, pointer, site, place, spot, map, indicator, location]
 version: "2.28"
 unicode: "fbbb"

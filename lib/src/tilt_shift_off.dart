@@ -26,8 +26,8 @@ class TiltShiftOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, shift, photography, photo]
 category: Photography
+tags: [filter, shift, photography, photo]
 version: "1.67"
 unicode: "f1b3"
 -->

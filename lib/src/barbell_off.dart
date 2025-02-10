@@ -26,8 +26,8 @@ class BarbellOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weight, gym, fitness, powerlift]
 category: Sport
+tags: [weight, gym, fitness, powerlift]
 version: "1.62"
 unicode: "f0b2"
 -->

@@ -26,8 +26,8 @@ class IceCreamOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [candy, dessert, frozen, sweet]
 category: Food
+tags: [candy, dessert, frozen, sweet]
 version: "1.66"
 unicode: "f148"
 -->

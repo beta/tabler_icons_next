@@ -26,6 +26,7 @@ class MapRoute extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [path, way, course, track, journey, navigation, direction, trail, road, map]
 version: "2.34"
 unicode: "fc79"

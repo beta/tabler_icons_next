@@ -26,8 +26,8 @@ class AdOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [advert, advertisement, marketing, commercial, traffic]
 category: Design
+tags: [advert, advertisement, marketing, commercial, traffic]
 unicode: "f3b7"
 version: "1.94"
 -->

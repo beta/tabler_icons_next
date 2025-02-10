@@ -26,8 +26,8 @@ class BallAmericanFootballOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sport, game, sportsman, play, match, pitch]
 category: Sport
+tags: [sport, game, sportsman, play, match, pitch]
 unicode: "f3c3"
 version: "1.94"
 -->

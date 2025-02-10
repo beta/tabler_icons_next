@@ -26,8 +26,8 @@ class DeviceIpadUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ascend, elevate, increase, rise, upgrade, boost, lift, improve, advance, progress]
 category: Devices
+tags: [ascend, elevate, increase, rise, upgrade, boost, lift, improve, advance, progress]
 version: "2.10"
 unicode: "f8ab"
 -->

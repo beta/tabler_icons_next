@@ -26,8 +26,8 @@ class NoteOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [checkbox, brief, record, write, message]
 category: Document
+tags: [checkbox, brief, record, write, message]
 version: "1.66"
 unicode: "f169"
 -->

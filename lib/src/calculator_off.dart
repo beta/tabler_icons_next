@@ -26,8 +26,8 @@ class CalculatorOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [math, count, add, subtract, multiply, divide, amount]
 category: Devices
+tags: [math, count, add, subtract, multiply, divide, amount]
 version: "1.63"
 unicode: "f0c4"
 -->

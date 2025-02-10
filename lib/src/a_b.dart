@@ -26,6 +26,7 @@ class AB extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Development
 tags: [test, visual, user]
 version: "1.11"
 unicode: "ec36"

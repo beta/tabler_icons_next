@@ -26,8 +26,8 @@ class TableOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [spreadsheet, layout, grid, arrange, row, column]
 category: Database
+tags: [spreadsheet, layout, grid, arrange, row, column]
 version: "1.39"
 unicode: "eefa"
 -->

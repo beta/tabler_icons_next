@@ -26,8 +26,8 @@ class DeviceIpadCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, options, preferences, adjust, modify, configure, gear, tools, control, system]
 category: Devices
+tags: [settings, options, preferences, adjust, modify, configure, gear, tools, control, system]
 version: "2.10"
 unicode: "f889"
 -->

@@ -26,8 +26,8 @@ class FilterPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, increase, more, expand, amplify, grow, positive, multiply, enhance]
 category: System
+tags: [add, increase, more, expand, amplify, grow, positive, multiply, enhance]
 version: "2.12"
 unicode: "fa02"
 -->

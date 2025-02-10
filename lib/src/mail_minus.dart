@@ -26,8 +26,8 @@ class MailMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [subtract, reduce, deduct, message, decrease, lower, diminish, less, remove, minimize]
 category: Communication
+tags: [subtract, reduce, deduct, message, decrease, lower, diminish, less, remove, minimize]
 version: "2.10"
 unicode: "f940"
 -->

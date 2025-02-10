@@ -26,8 +26,8 @@ class EyeExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alert, warning, notification, vision, sight, attention, caution, notice, view, focus]
 category: System
+tags: [alert, warning, notification, vision, sight, attention, caution, notice, view, focus]
 version: "2.9"
 unicode: "f7ef"
 -->

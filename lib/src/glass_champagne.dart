@@ -26,6 +26,7 @@ class GlassChampagne extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Food
 tags: [bubbly, celebrate, toast, sparkling, fizz, bubbles, party, celebration, luxury, drink]
 version: "2.47"
 unicode: "fd9c"

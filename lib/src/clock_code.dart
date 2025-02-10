@@ -26,8 +26,8 @@ class ClockCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, coding, software, script, develop, instruction, algorithm, syntax, compile, execute]
 category: System
+tags: [programming, coding, software, script, develop, instruction, algorithm, syntax, compile, execute]
 version: "2.10"
 unicode: "f845"
 -->

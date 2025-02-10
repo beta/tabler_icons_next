@@ -26,8 +26,8 @@ class DeviceImacBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [flash, thunder, electricity, power, energy, charge, current, storm, lightning, shock]
 category: Devices
+tags: [flash, thunder, electricity, power, energy, charge, current, storm, lightning, shock]
 version: "2.10"
 unicode: "f871"
 -->

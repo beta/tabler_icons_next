@@ -26,8 +26,8 @@ class EggOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, easter, chicken]
 category: Food
+tags: [food, easter, chicken]
 version: "1.65"
 unicode: "f11f"
 -->

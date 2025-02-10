@@ -26,8 +26,8 @@ class FlagOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [banner, pin, report, map, warning, alert]
 category: Map
+tags: [banner, pin, report, map, warning, alert]
 version: "1.65"
 unicode: "f12d"
 -->

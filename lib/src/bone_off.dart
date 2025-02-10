@@ -26,8 +26,8 @@ class BoneOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [skeleton, human, dog, body]
 category: Food
+tags: [skeleton, human, dog, body]
 version: "1.63"
 unicode: "f0bb"
 -->

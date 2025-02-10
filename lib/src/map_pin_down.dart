@@ -26,8 +26,8 @@ class MapPinDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [drop, shift, descend, lower, decline, plunge, sink, reduce, fall, decrease]
 category: Map
+tags: [drop, shift, descend, lower, decline, plunge, sink, reduce, fall, decrease]
 version: "2.10"
 unicode: "f950"
 -->

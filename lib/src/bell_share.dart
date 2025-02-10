@@ -26,8 +26,8 @@ class BellShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [distribute, spread, circulate, divulge, broadcast, impart, reveal, pass, disseminate, partake]
 category: System
+tags: [distribute, spread, circulate, divulge, broadcast, impart, reveal, pass, disseminate, partake]
 version: "2.10"
 unicode: "f81f"
 -->

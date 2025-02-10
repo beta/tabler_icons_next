@@ -26,6 +26,7 @@ class MusicSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Media
 tags: [find, lookup, explore, discover, seek, track, locate, detect, hunt, scan]
 version: "2.28"
 unicode: "fbe4"

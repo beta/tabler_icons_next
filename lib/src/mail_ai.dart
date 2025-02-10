@@ -26,8 +26,8 @@ class MailAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [inbox, gmail, email, envelope, message]
 category: Communication
+tags: [inbox, gmail, email, envelope, message]
 version: "2.14"
 unicode: "fa31"
 -->

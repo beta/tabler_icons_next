@@ -26,8 +26,8 @@ class DownloadOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [save, arrow]
 category: Arrows
+tags: [save, arrow]
 version: "1.65"
 unicode: "f11c"
 -->

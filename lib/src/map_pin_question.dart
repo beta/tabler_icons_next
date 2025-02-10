@@ -26,8 +26,8 @@ class MapPinQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [inquire, ask, wonder, confuse, puzzle, curious, doubt, query, seek, probability]
 category: Map
+tags: [inquire, ask, wonder, confuse, puzzle, curious, doubt, query, seek, probability]
 version: "2.10"
 unicode: "f957"
 -->

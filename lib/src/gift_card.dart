@@ -26,6 +26,7 @@ class GiftCard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [coupon, present, voucher, shopping, birthday]
 version: "1.93"
 unicode: "f3aa"

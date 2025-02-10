@@ -26,8 +26,8 @@ class GrillOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, sasuage, beef, steak, bbq, cooking]
 category: Food
+tags: [food, sasuage, beef, steak, bbq, cooking]
 unicode: "f3f5"
 version: "1.94"
 -->

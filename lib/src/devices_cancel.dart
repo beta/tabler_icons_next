@@ -26,8 +26,8 @@ class DevicesCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [stop, end, abort, dismiss, void, terminate, nullify, revoke, erase, cease]
 category: Devices
+tags: [stop, end, abort, dismiss, void, terminate, nullify, revoke, erase, cease]
 version: "2.10"
 unicode: "f8e7"
 -->

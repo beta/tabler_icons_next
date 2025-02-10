@@ -26,8 +26,8 @@ class FolderStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [favorite, distinguished, stellar, premier, prominent, top, feature, significant, laurel, renowned]
 category: Document
+tags: [favorite, distinguished, stellar, premier, prominent, top, feature, significant, laurel, renowned]
 version: "2.10"
 unicode: "f91a"
 -->

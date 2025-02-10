@@ -26,8 +26,8 @@ class ArchiveOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [box, index, records, old, collect]
 category: Document
+tags: [box, index, records, old, collect]
 version: "1.62"
 unicode: "f0ad"
 -->

@@ -26,8 +26,8 @@ class DeviceWatchCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, mechanical, operation, adjust, configure, gear, control, options, modify, preferences]
 category: Devices
+tags: [settings, mechanical, operation, adjust, configure, gear, control, options, modify, preferences]
 version: "2.10"
 unicode: "f8d7"
 -->

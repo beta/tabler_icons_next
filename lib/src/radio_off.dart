@@ -26,8 +26,8 @@ class RadioOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, news, sound, broadcost, communication, station]
 category: Media
+tags: [music, news, sound, broadcost, communication, station]
 unicode: "f420"
 version: "1.94"
 -->

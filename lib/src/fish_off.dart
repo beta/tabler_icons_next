@@ -26,8 +26,8 @@ class FishOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, sea, animal, fishing, ocean, sushi]
 category: Animals
+tags: [food, sea, animal, fishing, ocean, sushi]
 version: "1.65"
 unicode: "f12b"
 -->

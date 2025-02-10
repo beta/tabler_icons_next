@@ -26,8 +26,8 @@ class DeviceImacCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [verify, confirm, authenticate, approve, validate, assure, inspect, examine, endorse, certify]
 category: Devices
+tags: [verify, confirm, authenticate, approve, validate, assure, inspect, examine, endorse, certify]
 version: "2.10"
 unicode: "f873"
 -->

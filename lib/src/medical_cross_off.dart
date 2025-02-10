@@ -26,8 +26,8 @@ class MedicalCrossOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, hospital, help, indication]
 category: Map
+tags: [sign, hospital, help, indication]
 version: "1.66"
 unicode: "f160"
 -->

@@ -26,8 +26,8 @@ class PointerUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, hand, gesture, arrow, movement, navigation, indicator, select, pointing, control]
 category: System
+tags: [direction, hand, gesture, arrow, movement, navigation, indicator, select, pointing, control]
 version: "2.10"
 unicode: "f9ab"
 -->

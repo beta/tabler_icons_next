@@ -26,8 +26,8 @@ class ShoppingBagPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, increase, enhance, boost, augment, expand, amplify, grow, supplement, upgrade]
 category: E-commerce
+tags: [add, increase, enhance, boost, augment, expand, amplify, grow, supplement, upgrade]
 version: "2.29"
 unicode: "fc1b"
 -->

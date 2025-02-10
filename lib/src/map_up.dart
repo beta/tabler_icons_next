@@ -26,6 +26,7 @@ class MapUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [elevate, raise, ascend, higher, boost, increase, climb, lift, improve, uplift]
 version: "2.28"
 unicode: "fbd3"

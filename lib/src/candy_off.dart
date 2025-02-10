@@ -26,8 +26,8 @@ class CandyOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sweet, food, sugar, cane, halloween]
 category: Food
+tags: [sweet, food, sugar, cane, halloween]
 version: "1.63"
 unicode: "f0c5"
 -->

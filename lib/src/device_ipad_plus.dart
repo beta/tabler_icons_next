@@ -26,8 +26,8 @@ class DeviceIpadPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, increase, expand, more, insert, augment, enhance, multiply, grow, include]
 category: Devices
+tags: [add, increase, expand, more, insert, augment, enhance, multiply, grow, include]
 version: "2.10"
 unicode: "f8a6"
 -->

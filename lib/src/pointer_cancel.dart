@@ -26,8 +26,8 @@ class PointerCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [stop, cross, close, end, terminate, halt, ban, forbid, erase, off]
 category: System
+tags: [stop, cross, close, end, terminate, halt, ban, forbid, erase, off]
 version: "2.10"
 unicode: "f99a"
 -->

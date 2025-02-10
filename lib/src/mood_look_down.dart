@@ -26,6 +26,7 @@ class MoodLookDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Mood
 tags: [downward-look, gaze-down, low-mood, sad, disheartened, dejected, downcast, downward-glance, melancholy, blue]
 version: "2.41"
 unicode: "fd37"

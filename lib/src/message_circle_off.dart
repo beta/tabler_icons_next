@@ -26,8 +26,8 @@ class MessageCircleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [comment, chat, reply]
 category: Communication
+tags: [comment, chat, reply]
 version: "1.28"
 unicode: "ed40"
 -->

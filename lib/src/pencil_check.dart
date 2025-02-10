@@ -26,6 +26,7 @@ class PencilCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Design
 tags: [edit, verify, confirm, approve, validate, update, note, draft, correct]
 version: "2.28"
 unicode: "fbff"

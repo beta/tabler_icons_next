@@ -26,8 +26,8 @@ class TargetOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [focus, bullseye, aim]
 category: Map
+tags: [focus, bullseye, aim]
 version: "1.67"
 unicode: "f1ad"
 -->

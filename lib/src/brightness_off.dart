@@ -26,8 +26,8 @@ class BrightnessOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [light, dark, screen]
 category: Photography
+tags: [light, dark, screen]
 unicode: "f3cd"
 version: "1.94"
 -->

@@ -26,8 +26,8 @@ class ShieldDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [protection, defense, decrease, lower, security, guard, fall, reduce, descend, diminish]
 category: System
+tags: [protection, defense, decrease, lower, security, guard, fall, reduce, descend, diminish]
 version: "2.10"
 unicode: "f9c5"
 -->

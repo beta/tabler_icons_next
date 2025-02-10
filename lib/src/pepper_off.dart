@@ -26,8 +26,8 @@ class PepperOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, spice, chili, jalapeño, hot, spicy]
 category: Food
+tags: [food, spice, chili, jalapeño, hot, spicy]
 version: "1.66"
 unicode: "f175"
 -->

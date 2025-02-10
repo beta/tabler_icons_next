@@ -26,8 +26,8 @@ class DevicesQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [inquire, ask, query, doubt, wonder, probe, investigate, curiosity, intrigue, exam]
 category: Devices
+tags: [inquire, ask, query, doubt, wonder, probe, investigate, curiosity, intrigue, exam]
 version: "2.10"
 unicode: "f8f3"
 -->

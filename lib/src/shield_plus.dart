@@ -26,8 +26,8 @@ class ShieldPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [protection, addition, increase, add, security, guard, extend, boost, grow, expand]
 category: System
+tags: [protection, addition, increase, add, security, guard, extend, boost, grow, expand]
 version: "2.10"
 unicode: "f9cb"
 -->

@@ -26,8 +26,8 @@ class WebhookOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [communication, interaction, comunity, browser]
 category: Development
+tags: [communication, interaction, comunity, browser]
 unicode: "f43d"
 version: "1.94"
 -->

@@ -26,8 +26,8 @@ class HexagonalPyramidOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape]
 category: Shapes
+tags: [3d, pattern, abstract, geometric, shape]
 version: "2.20"
 unicode: "faa6"
 -->

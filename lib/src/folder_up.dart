@@ -26,8 +26,8 @@ class FolderUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [increase, ascend, rise, elevate, enhance, upgrade, climb, lift, boost, advance]
 category: Document
+tags: [increase, ascend, rise, elevate, enhance, upgrade, climb, lift, boost, advance]
 version: "2.10"
 unicode: "f91c"
 -->

@@ -26,6 +26,7 @@ class PlayCard7 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Games
 tags: [seven, carding, game, deck, number, lucky, gamble, betting, poker, strategy]
 unicode: "10055"
 version: "3.18"

@@ -26,6 +26,7 @@ class MathCtg extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Math
 tags: [cotangent, angle, ratio, trigonometry, math, arc, circle, geometry, function, cosine]
 unicode: "ff35"
 version: "3.9"

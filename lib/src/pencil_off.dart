@@ -26,8 +26,8 @@ class PencilOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [write, draft, edit, note]
 category: Design
+tags: [write, draft, edit, note]
 version: "1.66"
 unicode: "f173"
 -->

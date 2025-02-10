@@ -26,8 +26,8 @@ class PrinterOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fax, office, device]
 category: Devices
+tags: [fax, office, device]
 version: "1.66"
 unicode: "f184"
 -->

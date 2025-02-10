@@ -26,8 +26,8 @@ class GolfOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, ball, play, hole, club-and-ball, stroke, luxury, pitch]
 category: Sport
+tags: [game, ball, play, hole, club-and-ball, stroke, luxury, pitch]
 version: "1.66"
 unicode: "f13a"
 -->

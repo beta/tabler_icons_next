@@ -26,8 +26,8 @@ class WindOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, breeze, tornado, typhoon, cyclone, hurricane]
 category: Weather
+tags: [weather, breeze, tornado, typhoon, cyclone, hurricane]
 version: "1.67"
 unicode: "f1c7"
 -->

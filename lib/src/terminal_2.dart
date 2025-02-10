@@ -26,6 +26,7 @@ class Terminal2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Development
 tags: [console, command, git, command line, command prompt]
 version: "1.7"
 unicode: "ebef"

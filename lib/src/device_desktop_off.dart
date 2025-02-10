@@ -26,8 +26,8 @@ class DeviceDesktopOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [monitor, computer, imac]
 category: Devices
+tags: [monitor, computer, imac]
 version: "1.39"
 unicode: "ee78"
 -->

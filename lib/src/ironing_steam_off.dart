@@ -26,8 +26,8 @@ class IroningSteamOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [clotches, housework, iron, smooth, water]
 category: Laundry
+tags: [clotches, housework, iron, smooth, water]
 unicode: "f2f8"
 version: "1.84"
 -->

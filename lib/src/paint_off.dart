@@ -26,8 +26,8 @@ class PaintOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [brush, renovation, refurbishment, color, wall]
 category: Design
+tags: [brush, renovation, refurbishment, color, wall]
 version: "1.66"
 unicode: "f16d"
 -->

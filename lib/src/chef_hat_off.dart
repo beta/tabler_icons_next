@@ -26,8 +26,8 @@ class ChefHatOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cooking, kitchen, restaurant, food, job]
 category: Food
+tags: [cooking, kitchen, restaurant, food, job]
 unicode: "f3d4"
 version: "1.94"
 -->

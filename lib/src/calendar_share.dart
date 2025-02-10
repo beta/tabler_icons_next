@@ -26,8 +26,8 @@ class CalendarShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [distribute, divide, exchange, disseminate, spread, impart, convey, dispense, communicate, allocate]
 category: System
+tags: [distribute, divide, exchange, disseminate, spread, impart, convey, dispense, communicate, allocate]
 version: "2.10"
 unicode: "f82f"
 -->

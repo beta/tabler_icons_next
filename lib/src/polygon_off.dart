@@ -26,8 +26,8 @@ class PolygonOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, form, geometry, circle, line]
 category: Design
+tags: [shape, form, geometry, circle, line]
 version: "1.66"
 unicode: "f182"
 -->

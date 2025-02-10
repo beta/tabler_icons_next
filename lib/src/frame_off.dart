@@ -26,8 +26,8 @@ class FrameOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [borderless, outlineless, no-border, unframed, unbordered, bare, naked, borderless-frame, no-outline, remove-frame, crop]
 category: Design
+tags: [borderless, outlineless, no-border, unframed, unbordered, bare, naked, borderless-frame, no-outline, remove-frame, crop]
 version: "1.66"
 unicode: "f135"
 -->

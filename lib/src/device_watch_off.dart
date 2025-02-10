@@ -26,8 +26,8 @@ class DeviceWatchOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arm, hour, date, minutes, sec., timer]
 category: Devices
+tags: [arm, hour, date, minutes, sec., timer]
 version: "1.58"
 unicode: "f065"
 -->

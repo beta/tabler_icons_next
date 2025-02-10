@@ -26,8 +26,8 @@ class BellCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [confirm, verify, approve, acknowledge, validate, authenticate, certify, affirm, assure, ratify]
 category: System
+tags: [confirm, verify, approve, acknowledge, validate, authenticate, certify, affirm, assure, ratify]
 version: "2.10"
 unicode: "f814"
 -->

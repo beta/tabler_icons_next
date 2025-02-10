@@ -26,8 +26,8 @@ class DashboardOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [home, car]
 category: System
+tags: [home, car]
 unicode: "f3e1"
 version: "1.94"
 -->

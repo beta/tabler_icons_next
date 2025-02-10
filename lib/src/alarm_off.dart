@@ -26,8 +26,8 @@ class AlarmOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, watch, clock, ring]
 category: System
+tags: [time, watch, clock, ring]
 version: "1.62"
 unicode: "f0a9"
 -->

@@ -26,8 +26,8 @@ class MessageUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [rise, elevate, increase, ascend, uplift, boost, climb, advance, enhance, improve]
 category: Communication
+tags: [rise, elevate, increase, ascend, uplift, boost, climb, advance, enhance, improve]
 version: "2.10"
 unicode: "f98e"
 -->

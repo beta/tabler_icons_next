@@ -26,8 +26,8 @@ class MountainOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alps, camping, mount everest, trekking]
 category: Nature
+tags: [alps, camping, mount everest, trekking]
 unicode: "f411"
 version: "1.94"
 -->

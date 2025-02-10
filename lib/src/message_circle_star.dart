@@ -26,8 +26,8 @@ class MessageCircleStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [favorite, highlight, best, important, notable, chat, conversation, dialogue, prominent, feature]
 category: Communication
+tags: [favorite, highlight, best, important, notable, chat, conversation, dialogue, prominent, feature]
 version: "2.10"
 unicode: "f980"
 -->

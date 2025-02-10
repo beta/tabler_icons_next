@@ -26,8 +26,8 @@ class BuildingMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [flat, office, city, urban, scyscraper, architecture, construction]
 category: Buildings
+tags: [flat, office, city, urban, scyscraper, architecture, construction]
 unicode: "10061"
 version: "3.19"
 -->

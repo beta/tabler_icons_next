@@ -26,6 +26,7 @@ class ShoppingCartBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [power, electric, shock, energy, charge, lightning, spark, voltage, current, thunder]
 version: "2.28"
 unicode: "fb57"

@@ -26,8 +26,8 @@ class PaletteOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [color, paint, painter, picture, board, artist]
 category: Design
+tags: [color, paint, painter, picture, board, artist]
 version: "1.66"
 unicode: "f16e"
 -->

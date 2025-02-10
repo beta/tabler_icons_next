@@ -26,8 +26,8 @@ class BellExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alert, warning, danger, notice, attention, critical, caution, emphasis, highlight, prominence]
 category: System
+tags: [alert, warning, danger, notice, attention, critical, caution, emphasis, highlight, prominence]
 version: "2.10"
 unicode: "f819"
 -->

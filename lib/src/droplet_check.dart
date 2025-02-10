@@ -26,8 +26,8 @@ class DropletCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [verify, confirm, approve, validate, mark, correct, tick, select, pass, okay]
 category: Design
+tags: [verify, confirm, approve, validate, mark, correct, tick, select, pass, okay]
 version: "2.10"
 unicode: "f8fb"
 -->

@@ -26,6 +26,7 @@ class Alt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Development
 tags: [alternative, substitute, replacement, variant, different, alternate, variation, stand-in, option, choice]
 version: "2.32"
 unicode: "fc54"

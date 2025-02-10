@@ -26,6 +26,7 @@ class HealthRecognition extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [life, doctor, healthy]
 version: "1.70"
 unicode: "f1fb"

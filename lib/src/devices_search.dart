@@ -26,8 +26,8 @@ class DevicesSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [explore, find, locate, seek, browse, scout, track, hunt, inspect, survey]
 category: Devices
+tags: [explore, find, locate, seek, browse, scout, track, hunt, inspect, survey]
 version: "2.10"
 unicode: "f8f4"
 -->

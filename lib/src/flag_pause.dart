@@ -26,6 +26,7 @@ class FlagPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [stop, break, halt, interrupt, freeze, rest, suspend, stall, hold, delay]
 version: "2.28"
 unicode: "fb95"

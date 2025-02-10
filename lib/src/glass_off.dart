@@ -26,8 +26,8 @@ class GlassOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [wine, cup, goblet]
 category: Food
+tags: [wine, cup, goblet]
 version: "1.39"
 unicode: "ee91"
 -->

@@ -26,8 +26,8 @@ class BellUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ascend, rise, elevate, climb, boost, increase, uplift, soar, advance, lift]
 category: System
+tags: [ascend, rise, elevate, climb, boost, increase, uplift, soar, advance, lift]
 version: "2.10"
 unicode: "f821"
 -->

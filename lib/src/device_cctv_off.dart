@@ -26,8 +26,8 @@ class DeviceCctvOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [closed, circuit, television, video, surveillance, signal, monitor, record]
 category: Devices
+tags: [closed, circuit, television, video, surveillance, signal, monitor, record]
 unicode: "f3e3"
 version: "1.94"
 -->

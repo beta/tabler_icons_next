@@ -26,8 +26,8 @@ class NotificationOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bell, alarm, reminder, important]
 category: System
+tags: [bell, alarm, reminder, important]
 version: "1.66"
 unicode: "f16b"
 -->

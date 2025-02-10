@@ -26,8 +26,8 @@ class CpuOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [processor, computer, chip, hardware, technology, electronic]
 category: Devices
+tags: [processor, computer, chip, hardware, technology, electronic]
 version: "1.65"
 unicode: "f108"
 -->

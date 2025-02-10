@@ -26,8 +26,8 @@ class AdjustmentsX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, close, exit, delete, remove, cancel, eliminate, terminate, block, reject]
 category: System
+tags: [settings, close, exit, delete, remove, cancel, eliminate, terminate, block, reject]
 version: "2.10"
 unicode: "f80d"
 -->

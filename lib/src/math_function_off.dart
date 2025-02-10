@@ -26,8 +26,8 @@ class MathFunctionOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [linear, statyscics, graph]
 category: Math
+tags: [linear, statyscics, graph]
 version: "1.66"
 unicode: "f15e"
 -->

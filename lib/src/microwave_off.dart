@@ -26,8 +26,8 @@ class MicrowaveOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [oven, kitchen, cooking, food, cook]
 category: Food
+tags: [oven, kitchen, cooking, food, cook]
 version: "1.76"
 unicode: "f264"
 -->

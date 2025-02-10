@@ -26,6 +26,7 @@ class LocationSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [find, discover, locate, seek, explore, look, investigate, probe, scan, delve]
 version: "2.28"
 unicode: "fbbe"

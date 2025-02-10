@@ -26,8 +26,8 @@ class ContrastOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [edit, paint, photo]
 category: Photography
+tags: [edit, paint, photo]
 unicode: "f3db"
 version: "1.94"
 -->

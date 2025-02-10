@@ -26,8 +26,8 @@ class MailShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [distribute, exchange, send, spread, broadcast, post, deliver, transmit, dispatch, convey]
 category: Communication
+tags: [distribute, exchange, send, spread, broadcast, post, deliver, transmit, dispatch, convey]
 version: "2.10"
 unicode: "f946"
 -->

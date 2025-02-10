@@ -26,8 +26,8 @@ class PictureInPictureOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [size, photo, elements, adjust, image]
 category: Media
+tags: [size, photo, elements, adjust, image]
 version: "1.28"
 unicode: "ed43"
 -->

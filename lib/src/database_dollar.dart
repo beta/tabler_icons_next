@@ -26,8 +26,8 @@ class DatabaseDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, finance, economy, value, cash, wealth, capital, fund, transaction, revenue]
 category: Database
+tags: [money, finance, economy, value, cash, wealth, capital, fund, transaction, revenue]
 version: "2.13"
 unicode: "fa11"
 -->

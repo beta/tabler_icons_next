@@ -26,8 +26,8 @@ class DevicesPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [stop, halt, wait, suspend, break, freeze, interlude, rest, delay, interruption]
 category: Devices
+tags: [stop, halt, wait, suspend, break, freeze, interlude, rest, delay, interruption]
 version: "2.10"
 unicode: "f8f0"
 -->

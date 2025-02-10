@@ -26,8 +26,8 @@ class BasketPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [attach, fix, fasten, stick, tack, secure, affix, anchor, bind, clasp]
 category: E-commerce
+tags: [attach, fix, fasten, stick, tack, secure, affix, anchor, bind, clasp]
 version: "2.28"
 unicode: "fb4f"
 -->

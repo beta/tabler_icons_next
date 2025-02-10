@@ -26,8 +26,8 @@ class CashOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [currency, payment, money, pay]
 category: E-commerce
+tags: [currency, payment, money, pay]
 version: "1.65"
 unicode: "f105"
 -->

@@ -26,8 +26,8 @@ class Plant2Off extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [nature, green, flower, pot, tree, leaf, greenery, root, stem, seed]
 category: Nature
+tags: [nature, green, flower, pot, tree, leaf, greenery, root, stem, seed]
 version: "1.66"
 unicode: "f17c"
 -->

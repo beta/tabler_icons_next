@@ -26,8 +26,8 @@ class ClipboardOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [copy, clipboard, paste, document, file, paper, note, text, page, sheet, blank]
 category: Document
+tags: [copy, clipboard, paste, document, file, paper, note, text, page, sheet, blank]
 version: "1.63"
 unicode: "f0ce"
 -->

@@ -26,8 +26,8 @@ class TemperatureOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, celcius, fahrenheit, cold, hot]
 category: Weather
+tags: [weather, celcius, fahrenheit, cold, hot]
 version: "1.67"
 unicode: "f1af"
 -->

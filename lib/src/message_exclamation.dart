@@ -26,8 +26,8 @@ class MessageExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alert, warning, notice, caution, important, urgency, attention, critical, forewarning, hazard]
 category: Communication
+tags: [alert, warning, notice, caution, important, urgency, attention, critical, forewarning, hazard]
 version: "2.10"
 unicode: "f986"
 -->

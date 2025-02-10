@@ -26,8 +26,8 @@ class DeviceIpadCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [program, script, developer, software, syntax, compile, execute, debug, algorithm, binary]
 category: Devices
+tags: [program, script, developer, software, syntax, compile, execute, debug, algorithm, binary]
 version: "2.10"
 unicode: "f888"
 -->

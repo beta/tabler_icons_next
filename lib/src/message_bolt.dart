@@ -26,8 +26,8 @@ class MessageBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [electric, fast, flash, speed, power, charge, energy, thunder, zap, lightning]
 category: Communication
+tags: [electric, fast, flash, speed, power, charge, energy, thunder, zap, lightning]
 version: "2.10"
 unicode: "f96d"
 -->

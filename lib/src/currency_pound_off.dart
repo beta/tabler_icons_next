@@ -26,8 +26,8 @@ class CurrencyPoundOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gbp, pound, sterling, british, britain, uk, money, banknote, pay]
 category: Currencies
+tags: [gbp, pound, sterling, british, britain, uk, money, banknote, pay]
 unicode: "f3df"
 version: "1.94"
 -->

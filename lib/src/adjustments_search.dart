@@ -26,8 +26,8 @@ class AdjustmentsSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, find, explore, seek, look, discover, examine, investigate, probe, inspect]
 category: System
+tags: [settings, find, explore, seek, look, discover, examine, investigate, probe, inspect]
 version: "2.10"
 unicode: "f809"
 -->

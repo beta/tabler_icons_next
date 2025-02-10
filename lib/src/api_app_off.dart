@@ -26,8 +26,8 @@ class ApiAppOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [development, software, developer, platform]
 category: Development
+tags: [development, software, developer, platform]
 version: "1.62"
 unicode: "f0ab"
 -->

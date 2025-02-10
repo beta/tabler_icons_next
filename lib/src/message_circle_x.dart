@@ -26,8 +26,8 @@ class MessageCircleX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [remove, delete, cancel, dismiss, eliminate, conversation, chat, dialogue, terminate, end]
 category: Communication
+tags: [remove, delete, cancel, dismiss, eliminate, conversation, chat, dialogue, terminate, end]
 version: "2.10"
 unicode: "f982"
 -->

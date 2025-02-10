@@ -26,8 +26,8 @@ class InfinityOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [endless, eternity, continuum, time]
 category: Math
+tags: [endless, eternity, continuum, time]
 unicode: "f3fe"
 version: "1.94"
 -->

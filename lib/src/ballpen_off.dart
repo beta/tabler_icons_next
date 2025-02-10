@@ -26,8 +26,8 @@ class BallpenOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [write, school, education, stationery, text]
 category: Text
+tags: [write, school, education, stationery, text]
 version: "1.62"
 unicode: "f0b1"
 -->

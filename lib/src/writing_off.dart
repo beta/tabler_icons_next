@@ -26,8 +26,8 @@ class WritingOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [name, certficate, sign, edit, write, document, pen, drawing, contract, signature]
 category: Text
+tags: [name, certficate, sign, edit, write, document, pen, drawing, contract, signature]
 version: "1.67"
 unicode: "f1cb"
 -->

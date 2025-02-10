@@ -26,8 +26,8 @@ class AccessPointOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [device, hosts, airwaves, wireless, network]
 category: Devices
+tags: [device, hosts, airwaves, wireless, network]
 version: "1.25"
 unicode: "ed1a"
 -->

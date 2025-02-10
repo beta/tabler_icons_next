@@ -26,8 +26,8 @@ class MessageCircleQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [inquiry, query, doubt, confusion, curiosity, help, conversation, chat, dialogue, communication]
 category: Communication
+tags: [inquiry, query, doubt, confusion, curiosity, help, conversation, chat, dialogue, communication]
 version: "2.10"
 unicode: "f97d"
 -->

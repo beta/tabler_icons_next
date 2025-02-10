@@ -26,6 +26,7 @@ class MapCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [verify, approve, confirm, validate, ensure, authenticate, inspect, certify, affirm]
 version: "2.28"
 unicode: "fbc5"

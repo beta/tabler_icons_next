@@ -26,8 +26,8 @@ class DeviceDesktopCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [abort, stop, void, end, halt, cease, discontinue, intercept, terminate, nullify]
 category: Devices
+tags: [abort, stop, void, end, halt, cease, discontinue, intercept, terminate, nullify]
 version: "2.10"
 unicode: "f85f"
 -->

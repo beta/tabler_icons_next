@@ -26,8 +26,8 @@ class DatabaseEdit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [modify, change, alter, revise, adjust, update, tweak, refine, customize, fine-tune]
 category: Database
+tags: [modify, change, alter, revise, adjust, update, tweak, refine, customize, fine-tune]
 version: "2.13"
 unicode: "fa12"
 -->

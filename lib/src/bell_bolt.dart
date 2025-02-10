@@ -26,8 +26,8 @@ class BellBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [lightning, electric, power, shock, zap, charge, energy, surge, spark, flash]
 category: System
+tags: [lightning, electric, power, shock, zap, charge, energy, surge, spark, flash]
 version: "2.10"
 unicode: "f812"
 -->

@@ -26,8 +26,8 @@ class BellOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alarm, sound, notification]
 category: System
+tags: [alarm, sound, notification]
 version: "1.22"
 unicode: "ece9"
 -->

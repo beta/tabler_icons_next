@@ -26,8 +26,8 @@ class Message2Minus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [subtract, remove, decrease, less, negative, deduct, reduce, takeaway, negate, diminish]
 category: Communication
+tags: [subtract, remove, decrease, less, negative, deduct, reduce, takeaway, negate, diminish]
 version: "2.10"
 unicode: "f964"
 -->

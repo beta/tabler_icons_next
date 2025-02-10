@@ -26,8 +26,8 @@ class SitemapOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [page, webpage, website, list, roadmap, index]
 category: Development
+tags: [page, webpage, website, list, roadmap, index]
 version: "1.67"
 unicode: "f1a6"
 -->

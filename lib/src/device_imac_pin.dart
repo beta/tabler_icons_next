@@ -26,8 +26,8 @@ class DeviceImacPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [attach, fasten, fix, secure, anchor, tack, clip, affix, stick, bind]
 category: Devices
+tags: [attach, fasten, fix, secure, anchor, tack, clip, affix, stick, bind]
 version: "2.10"
 unicode: "f87d"
 -->

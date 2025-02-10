@@ -26,6 +26,7 @@ class PencilQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Design
 tags: [edit, inquiry, doubt, ask, uncertain, wonder, query, research, explore, investigate]
 version: "2.28"
 unicode: "fc09"

@@ -26,6 +26,7 @@ class FlagDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [money, currency, finance, cash, funds, payment, wealth, economy, capital, trade]
 version: "2.28"
 unicode: "fb90"

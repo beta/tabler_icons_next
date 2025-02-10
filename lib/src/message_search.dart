@@ -26,8 +26,8 @@ class MessageSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [locate, discover, examine, scrutinize, analyze, seek, hunt, probe, explore, scan]
 category: Communication
+tags: [locate, discover, examine, scrutinize, analyze, seek, hunt, probe, explore, scan]
 version: "2.10"
 unicode: "f98c"
 -->

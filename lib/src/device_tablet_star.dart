@@ -26,8 +26,8 @@ class DeviceTabletStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tablet, favorite, rate, highlight, important, mark, thumbsup, ranking, shine, prominent]
 category: Devices
+tags: [tablet, favorite, rate, highlight, important, mark, thumbsup, ranking, shine, prominent]
 version: "2.10"
 unicode: "f8d0"
 -->

@@ -26,8 +26,8 @@ class PlugOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [electricity, charger, socket, connection]
 category: Devices
+tags: [electricity, charger, socket, connection]
 version: "1.66"
 unicode: "f180"
 -->

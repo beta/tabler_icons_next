@@ -26,8 +26,8 @@ class DeviceTabletBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [energy, quick, power, fast, lightning, electric, vital, dynamic, charge, speed]
 category: Devices
+tags: [energy, quick, power, fast, lightning, electric, vital, dynamic, charge, speed]
 version: "2.10"
 unicode: "f8c0"
 -->

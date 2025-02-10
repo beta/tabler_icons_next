@@ -26,8 +26,8 @@ class TablePlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [table, plus, add, insert, include, data-table, table-operation, table-add, add-to-table, include-in-table]
 category: Database
+tags: [table, plus, add, insert, include, data-table, table-operation, table-add, add-to-table, include-in-table]
 version: "2.13"
 unicode: "fa1f"
 -->

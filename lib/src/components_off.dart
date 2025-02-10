@@ -26,8 +26,8 @@ class ComponentsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hardware, technology, electronic, computer, design, ux, figma]
 category: Design
+tags: [hardware, technology, electronic, computer, design, ux, figma]
 version: "1.63"
 unicode: "f0d6"
 -->

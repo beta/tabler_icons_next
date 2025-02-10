@@ -26,8 +26,8 @@ class PinnedOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [board, attach, nail, pointed, corkboard, favourite, noticeboard]
 category: Map
+tags: [board, attach, nail, pointed, corkboard, favourite, noticeboard]
 version: "1.31"
 unicode: "ed5f"
 -->

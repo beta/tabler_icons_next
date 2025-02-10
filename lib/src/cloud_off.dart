@@ -26,8 +26,8 @@ class CloudOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, online]
 category: Weather
+tags: [weather, online]
 version: "1.28"
 unicode: "ed3e"
 -->

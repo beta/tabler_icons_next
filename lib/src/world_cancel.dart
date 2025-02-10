@@ -26,8 +26,8 @@ class WorldCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [stop, halt, terminate, void, invalidate, abort, end, cease, prevent, reject]
 category: Map
+tags: [stop, halt, terminate, void, invalidate, abort, end, cease, prevent, reject]
 version: "2.10"
 unicode: "f9da"
 -->

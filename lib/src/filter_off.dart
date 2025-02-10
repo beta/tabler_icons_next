@@ -26,8 +26,8 @@ class FilterOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [funnel, hopper, filtration]
 category: System
+tags: [funnel, hopper, filtration]
 version: "1.26"
 unicode: "ed2c"
 -->

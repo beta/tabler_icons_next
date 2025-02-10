@@ -26,6 +26,7 @@ class FlipFlops extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [summer, sand, sandals, beach, shoes]
 unicode: "f564"
 version: "1.106"

@@ -26,6 +26,7 @@ class PentagonMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Shapes
 tags: [subtract, decrease, reduce, deduct, remove, diminish, lessen, lower, abridge, curtail]
 unicode: "feb3"
 version: "3.2"

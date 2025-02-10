@@ -26,8 +26,8 @@ class AdjustmentsCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, dismiss, terminate, abort, halt, cease, stop, reject, refuse, deny]
 category: System
+tags: [settings, dismiss, terminate, abort, halt, cease, stop, reject, refuse, deny]
 version: "2.10"
 unicode: "f7fc"
 -->

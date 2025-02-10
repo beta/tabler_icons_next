@@ -26,6 +26,7 @@ class PlayCard8 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Games
 tags: [eight, carding, fun, deck, number, gameplay, gamble, odds, poker, strategy]
 unicode: "10054"
 version: "3.18"

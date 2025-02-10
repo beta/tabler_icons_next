@@ -26,8 +26,8 @@ class CakeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [baking, birthday, party, chocolate, sweet]
 category: Food
+tags: [baking, birthday, party, chocolate, sweet]
 version: "1.65"
 unicode: "f104"
 -->

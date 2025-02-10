@@ -26,8 +26,8 @@ class HexagonsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [diagram, chemistry, modules, geometric]
 category: Shapes
+tags: [diagram, chemistry, modules, geometric]
 unicode: "f3f9"
 version: "1.94"
 -->

@@ -26,6 +26,7 @@ class FileTextShield extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Document
 tags: [document, protection, security, safe, privacy, guard, lock, confidential, secure, data]
 unicode: "100f2"
 version: "3.27"

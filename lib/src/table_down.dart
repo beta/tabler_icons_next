@@ -26,8 +26,8 @@ class TableDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [table, down, arrow-down, table-arrow, descending, sort-down, data-table, directional, arrange-down, table-order]
 category: Database
+tags: [table, down, arrow-down, table-arrow, descending, sort-down, data-table, directional, arrange-down, table-order]
 version: "2.13"
 unicode: "fa1c"
 -->

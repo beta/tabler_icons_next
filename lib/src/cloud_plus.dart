@@ -26,8 +26,8 @@ class CloudPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, increase, gain, expand, grow, enhance, augment, build, boost, amplify]
 category: Weather
+tags: [add, increase, gain, expand, grow, enhance, augment, build, boost, amplify]
 version: "2.10"
 unicode: "f857"
 -->

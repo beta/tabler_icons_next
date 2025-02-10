@@ -26,8 +26,8 @@ class SchoolOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [students, class, teachers, professors, doctors, hall, classroom, subject, science, break, lesson]
 category: Map
+tags: [students, class, teachers, professors, doctors, hall, classroom, subject, science, break, lesson]
 version: "1.66"
 unicode: "f19a"
 -->

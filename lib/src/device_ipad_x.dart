@@ -26,8 +26,8 @@ class DeviceIpadX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [close, delete, remove, clear, terminate, cancel, erase, end, stop, banish]
 category: Devices
+tags: [close, delete, remove, clear, terminate, cancel, erase, end, stop, banish]
 version: "2.10"
 unicode: "f8ac"
 -->

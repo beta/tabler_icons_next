@@ -26,8 +26,8 @@ class PointerOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cursor, mouse, point, click, arrow]
 category: System
+tags: [cursor, mouse, point, click, arrow]
 version: "2.10"
 unicode: "f9a3"
 -->

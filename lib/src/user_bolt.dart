@@ -26,8 +26,8 @@ class UserBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fast, quick, speed, power, lightning, energy, electric, charge, dynamic, swift]
 category: System
+tags: [fast, quick, speed, power, lightning, energy, electric, charge, dynamic, swift]
 version: "2.10"
 unicode: "f9d1"
 -->

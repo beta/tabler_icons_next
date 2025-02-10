@@ -26,6 +26,7 @@ class PencilBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Design
 tags: [design, edit, modify, electric, lightning, sketch, illustrate, note, draw, creativity]
 version: "2.28"
 unicode: "fbfd"

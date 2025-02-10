@@ -26,8 +26,8 @@ class DnaOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [genetics, biology, chain, genetic, code, virus, organism]
 category: Health
+tags: [genetics, biology, chain, genetic, code, virus, organism]
 version: "1.65"
 unicode: "f11a"
 -->

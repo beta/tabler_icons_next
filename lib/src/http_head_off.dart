@@ -26,8 +26,8 @@ class HttpHeadOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [header, disable, metadata, info, network, request, omit, down, halt, block]
 category: Computers
+tags: [header, disable, metadata, info, network, request, omit, down, halt, block]
 unicode: "100e4"
 version: "3.26"
 -->

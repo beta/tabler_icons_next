@@ -26,8 +26,8 @@ class DeviceWatchUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [increase, ascend, rise, climb, elevate, boost, uplift, soar, advance, progress]
 category: Devices
+tags: [increase, ascend, rise, climb, elevate, boost, uplift, soar, advance, progress]
 version: "2.10"
 unicode: "f8e4"
 -->

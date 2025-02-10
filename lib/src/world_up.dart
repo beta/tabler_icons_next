@@ -26,8 +26,8 @@ class WorldUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ascend, rise, elevate, uplift, skyward, summit, advance, climb, soar, progress]
 category: Map
+tags: [ascend, rise, elevate, uplift, skyward, summit, advance, climb, soar, progress]
 version: "2.10"
 unicode: "f9ea"
 -->

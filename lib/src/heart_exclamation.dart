@@ -26,6 +26,7 @@ class HeartExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Shapes
 tags: [alert, caution, notice, warn, attention, important, critical, urgent, signal, highlight]
 version: "2.28"
 unicode: "fba6"

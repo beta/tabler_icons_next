@@ -26,8 +26,8 @@ class SpaceOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [keyboard, type, gap]
 category: Text
+tags: [keyboard, type, gap]
 version: "1.67"
 unicode: "f1aa"
 -->

@@ -26,8 +26,8 @@ class SmartHomeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [apple, devices, connection, link, wifi, bluetooth]
 category: Buildings
+tags: [apple, devices, connection, link, wifi, bluetooth]
 version: "1.67"
 unicode: "f1a7"
 -->

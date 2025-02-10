@@ -26,8 +26,8 @@ class MacroOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [video, photography, photo, camera]
 category: Photography
+tags: [video, photography, photo, camera]
 unicode: "f406"
 version: "1.94"
 -->

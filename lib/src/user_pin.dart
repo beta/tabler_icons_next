@@ -26,8 +26,8 @@ class UserPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [location, map, marker, point, spot, tag, place, position, site, locator]
 category: System
+tags: [location, map, marker, point, spot, tag, place, position, site, locator]
 version: "2.8"
 unicode: "f7ce"
 -->

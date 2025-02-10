@@ -26,6 +26,7 @@ class MusicDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Media
 tags: [currency, price, finance, money, trade, value, buy, wealth, economy, transaction]
 version: "2.28"
 unicode: "fbdb"

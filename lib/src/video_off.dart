@@ -26,8 +26,8 @@ class VideoOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [film, shoot, recording, taping, camera]
 category: Media
+tags: [film, shoot, recording, taping, camera]
 version: "1.25"
 unicode: "ed20"
 -->

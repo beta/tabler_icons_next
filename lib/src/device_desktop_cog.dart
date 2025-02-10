@@ -26,8 +26,8 @@ class DeviceDesktopCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, adjust, manage, configure, control, organize, customize, tune, optimize, arrange]
 category: Devices
+tags: [settings, adjust, manage, configure, control, organize, customize, tune, optimize, arrange]
 version: "2.10"
 unicode: "f862"
 -->

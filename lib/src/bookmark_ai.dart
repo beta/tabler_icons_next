@@ -26,8 +26,8 @@ class BookmarkAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [read, clip, marker, tag]
 category: Document
+tags: [read, clip, marker, tag]
 version: "2.35"
 unicode: "fc8a"
 -->

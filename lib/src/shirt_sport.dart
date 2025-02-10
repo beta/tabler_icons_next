@@ -26,6 +26,7 @@ class ShirtSport extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [basketball, soccer, football, player, clothes, game]
 version: "1.76"
 unicode: "f26c"

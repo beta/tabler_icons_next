@@ -26,6 +26,7 @@ class LocationPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [add, increase, expand, amplify, augment, extend, escalate, enlarge, boost, advance]
 version: "2.28"
 unicode: "fbbc"

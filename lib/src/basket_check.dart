@@ -26,8 +26,8 @@ class BasketCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shopping, cart, confirm, purchase, approval, store, goods, buy, decision, success]
 category: E-commerce
+tags: [shopping, cart, confirm, purchase, approval, store, goods, buy, decision, success]
 version: "2.28"
 unicode: "fb45"
 -->

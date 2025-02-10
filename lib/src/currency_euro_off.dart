@@ -26,8 +26,8 @@ class CurrencyEuroOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [euro, eur, trade, finance, europe, eu, money, banknote, pay]
 category: Currencies
+tags: [euro, eur, trade, finance, europe, eu, money, banknote, pay]
 unicode: "f3dd"
 version: "1.94"
 -->

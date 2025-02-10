@@ -26,6 +26,7 @@ class FilterDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [lower, descend, reduce, decrease, drop, down, minimize, fall, decline, sink]
 version: "2.28"
 unicode: "fb81"

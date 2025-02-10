@@ -26,10 +26,10 @@ class PlayCard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Games
 tags: [game, magic, trick, casino, entertainment, spade, heart, diamond, club, playing]
 version: "1.39"
 unicode: "eebf"
-category: Games
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

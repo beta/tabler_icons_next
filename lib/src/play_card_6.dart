@@ -26,6 +26,7 @@ class PlayCard6 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Games
 tags: [six, carding, cards, deck, number, gameplay, gambling, luck, poker, strategy]
 unicode: "10056"
 version: "3.18"

@@ -26,8 +26,8 @@ class TableShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [table, share, share-table, data-sharing, collaboration, data-table, table-collaboration, table-cooperation, share-data, spreadsheet]
 category: Database
+tags: [table, share, share-table, data-sharing, collaboration, data-table, table-collaboration, table-cooperation, share-data, spreadsheet]
 version: "2.13"
 unicode: "fa20"
 -->

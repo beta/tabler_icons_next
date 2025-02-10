@@ -26,8 +26,8 @@ class IdBadgeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identification, pass, card, identity]
 category: System
+tags: [identification, pass, card, identity]
 unicode: "f3fd"
 version: "1.94"
 -->

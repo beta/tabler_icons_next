@@ -26,8 +26,8 @@ class BasketUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ascend, rise, elevate, climb, increase, lift, soar, boost, advance, uplift]
 category: E-commerce
+tags: [ascend, rise, elevate, climb, increase, lift, soar, boost, advance, uplift]
 version: "2.28"
 unicode: "fb55"
 -->

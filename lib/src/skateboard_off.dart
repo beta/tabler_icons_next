@@ -26,8 +26,8 @@ class SkateboardOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [toy, vehicle, electrical]
 category: Vehicles
+tags: [toy, vehicle, electrical]
 unicode: "f42b"
 version: "1.94"
 -->

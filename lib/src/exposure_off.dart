@@ -26,8 +26,8 @@ class ExposureOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [light, bright, dark, camera]
 category: Photography
+tags: [light, bright, dark, camera]
 unicode: "f3eb"
 version: "1.94"
 -->

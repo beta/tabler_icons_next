@@ -26,6 +26,7 @@ class Auth2fa extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Development
 tags: [login, password, verification, code, two-step]
 version: "1.17"
 unicode: "eca0"

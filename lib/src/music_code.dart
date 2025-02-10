@@ -26,6 +26,7 @@ class MusicCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Media
 tags: [program, syntax, develop, script, compose, algorithm, digital, sequence, notation, process]
 version: "2.28"
 unicode: "fbd8"

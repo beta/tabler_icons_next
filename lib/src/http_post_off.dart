@@ -26,8 +26,8 @@ class HttpPostOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [send, upload, submit, broadcast, network, disable, halt, down, disconnect, block]
 category: Computers
+tags: [send, upload, submit, broadcast, network, disable, halt, down, disconnect, block]
 unicode: "100e1"
 version: "3.26"
 -->

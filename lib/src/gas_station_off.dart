@@ -26,8 +26,8 @@ class GasStationOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fuel, oil, cars, vehicles, shop, distributor]
 category: Vehicles
+tags: [fuel, oil, cars, vehicles, shop, distributor]
 version: "1.66"
 unicode: "f137"
 -->

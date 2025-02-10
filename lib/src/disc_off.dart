@@ -26,8 +26,8 @@ class DiscOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cd, music, album]
 category: Devices
+tags: [cd, music, album]
 version: "1.65"
 unicode: "f118"
 -->

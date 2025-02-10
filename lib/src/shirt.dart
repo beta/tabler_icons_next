@@ -26,6 +26,7 @@ class Shirt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [gear, outfit, mocker]
 version: "1.8"
 unicode: "ec0a"

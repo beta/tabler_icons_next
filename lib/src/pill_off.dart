@@ -26,8 +26,8 @@ class PillOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [drug, medication, illness, sickness, doctor, prescription]
 category: Health
+tags: [drug, medication, illness, sickness, doctor, prescription]
 version: "1.66"
 unicode: "f178"
 -->

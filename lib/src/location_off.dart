@@ -26,8 +26,8 @@ class LocationOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [navigation, map, direction, discover, travel]
 category: Map
+tags: [navigation, map, direction, discover, travel]
 version: "1.66"
 unicode: "f155"
 -->

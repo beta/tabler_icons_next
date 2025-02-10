@@ -26,8 +26,8 @@ class HeartOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [love, emotion, like, favorite, relationship]
 category: Shapes
+tags: [love, emotion, like, favorite, relationship]
 version: "1.66"
 unicode: "f141"
 -->

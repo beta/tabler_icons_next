@@ -26,8 +26,8 @@ class RulerOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [maths, dimensions, size, width, length, geometry, measure, technical]
 category: Design
+tags: [maths, dimensions, size, width, length, geometry, measure, technical]
 version: "1.66"
 unicode: "f196"
 -->

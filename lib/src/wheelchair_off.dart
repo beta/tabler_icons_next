@@ -26,8 +26,8 @@ class WheelchairOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [disabled, disability, patient, medical, handicapped]
 category: Vehicles
+tags: [disabled, disability, patient, medical, handicapped]
 unicode: "f43e"
 version: "1.94"
 -->

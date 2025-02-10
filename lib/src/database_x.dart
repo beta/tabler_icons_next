@@ -26,8 +26,8 @@ class DatabaseX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [delete, remove, cancel, erase, terminate, void, revoke, nullify, clear, discard]
 category: Database
+tags: [delete, remove, cancel, erase, terminate, void, revoke, nullify, clear, discard]
 version: "2.13"
 unicode: "fa1b"
 -->

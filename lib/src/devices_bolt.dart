@@ -26,8 +26,8 @@ class DevicesBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [lightning, charge, electricity, power, energy, flash, spark, shock, thunder, zap]
 category: Devices
+tags: [lightning, charge, electricity, power, energy, flash, spark, shock, thunder, zap]
 version: "2.10"
 unicode: "f8e6"
 -->

@@ -26,8 +26,8 @@ class FileAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [paper, new]
 category: Document
+tags: [paper, new]
 unicode: "ffa1"
 version: "3.12"
 -->

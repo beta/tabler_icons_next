@@ -26,8 +26,8 @@ class BatteryOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [energy, power, electricity]
 category: Devices
+tags: [energy, power, electricity]
 version: "1.25"
 unicode: "ed1c"
 -->

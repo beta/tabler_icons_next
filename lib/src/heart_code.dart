@@ -26,6 +26,7 @@ class HeartCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Shapes
 tags: [technology, developer, software, program, coding, script, algorithm, syntax, binary, logic]
 version: "2.28"
 unicode: "fba1"

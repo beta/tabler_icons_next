@@ -26,8 +26,8 @@ class ApertureOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hole, opening, vent]
 category: Photography
+tags: [hole, opening, vent]
 unicode: "f3bc"
 version: "1.94"
 -->

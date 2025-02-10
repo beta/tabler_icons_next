@@ -26,8 +26,8 @@ class DeviceImacUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [increase, rise, ascend, lift, elevate, grow, advance, upgrade, climb, uplift]
 category: Devices
+tags: [increase, rise, ascend, lift, elevate, grow, advance, upgrade, climb, uplift]
 version: "2.10"
 unicode: "f883"
 -->

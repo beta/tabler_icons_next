@@ -26,6 +26,7 @@ class FlagQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [query, ask, inquire, doubt, ponder, wonder, probe, interrogate, curiosity, uncertainty]
 version: "2.28"
 unicode: "fb98"

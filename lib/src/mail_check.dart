@@ -26,8 +26,8 @@ class MailCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [verify, confirm, validate, message, proof, approve, authentication, ensure, security, tick]
 category: Communication
+tags: [verify, confirm, validate, message, proof, approve, authentication, ensure, security, tick]
 version: "2.10"
 unicode: "f939"
 -->

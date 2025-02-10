@@ -26,6 +26,7 @@ class Hanger extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [clothes, wardrobe, hook, hang, wooden, plastic, wire, shop, store, clothing, fashion]
 version: "1.39"
 unicode: "ee9a"

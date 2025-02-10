@@ -26,8 +26,8 @@ class BrowserOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [internet, web, display]
 category: Devices
+tags: [internet, web, display]
 version: "1.63"
 unicode: "f0c1"
 -->

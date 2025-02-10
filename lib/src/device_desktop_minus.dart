@@ -26,8 +26,8 @@ class DeviceDesktopMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [decrease, subtract, lower, reduce, negative, diminish, downsize, deduct, withdraw, eliminate]
 category: Devices
+tags: [decrease, subtract, lower, reduce, negative, diminish, downsize, deduct, withdraw, eliminate]
 version: "2.10"
 unicode: "f867"
 -->

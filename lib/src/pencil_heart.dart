@@ -26,6 +26,7 @@ class PencilHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Design
 tags: [edit, favorite, love, cherish, affection, fondness, emotion, romance, like, preference]
 version: "2.28"
 unicode: "fc06"

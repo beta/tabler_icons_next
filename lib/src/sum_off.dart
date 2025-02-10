@@ -26,8 +26,8 @@ class SumOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [equation, add, plus, amount, total]
 category: Math
+tags: [equation, add, plus, amount, total]
 version: "1.67"
 unicode: "f1ab"
 -->

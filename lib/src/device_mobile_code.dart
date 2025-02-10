@@ -26,8 +26,8 @@ class DeviceMobileCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [program, script, develop, compute, encode, decode, software, debug, compile, algorithm]
 category: Devices
+tags: [program, script, develop, compute, encode, decode, software, debug, compile, algorithm]
 version: "2.10"
 unicode: "f8b0"
 -->

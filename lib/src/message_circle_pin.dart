@@ -26,8 +26,8 @@ class MessageCirclePin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [communication, chat, conversation, dialogue, talk, text, interaction, pinpoint, position, marker]
 category: Communication
+tags: [communication, chat, conversation, dialogue, talk, text, interaction, pinpoint, position, marker]
 version: "2.10"
 unicode: "f97b"
 -->

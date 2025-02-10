@@ -26,6 +26,7 @@ class EyeMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [subtract, reduce, decrease, vision, sight, lessen, diminish, remove, view, focus]
 version: "2.28"
 unicode: "fb73"

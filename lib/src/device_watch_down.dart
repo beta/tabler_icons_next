@@ -26,8 +26,8 @@ class DeviceWatchDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [descend, download, lower, reduce, fall, drop, sink, decrease, minimize, subside]
 category: Devices
+tags: [descend, download, lower, reduce, fall, drop, sink, decrease, minimize, subside]
 version: "2.10"
 unicode: "f8d9"
 -->

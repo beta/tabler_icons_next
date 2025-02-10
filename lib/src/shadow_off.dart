@@ -26,8 +26,8 @@ class ShadowOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [dark, sun, area, covered, dim, light, css, effect]
 category: Photography
+tags: [dark, sun, area, covered, dim, light, css, effect]
 version: "1.39"
 unicode: "eed7"
 -->

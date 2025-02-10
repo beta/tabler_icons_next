@@ -26,8 +26,8 @@ class RadioactiveOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [dangerous, precarious, danger, sign, symbol, warning, caution, chernobyl, reactor, atomic, powerhouses, generator]
 category: Symbols
+tags: [dangerous, precarious, danger, sign, symbol, warning, caution, chernobyl, reactor, atomic, powerhouses, generator]
 version: "1.66"
 unicode: "f189"
 -->

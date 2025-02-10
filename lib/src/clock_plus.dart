@@ -26,8 +26,8 @@ class ClockPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, increase, expand, raise, enlarge, amplify, boost, grow, supplement, hike]
 category: System
+tags: [add, increase, expand, raise, enlarge, amplify, boost, grow, supplement, hike]
 version: "2.8"
 unicode: "f7c5"
 -->

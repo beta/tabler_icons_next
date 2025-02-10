@@ -26,8 +26,8 @@ class FeatherOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bird, animal, nature]
 category: Nature
+tags: [bird, animal, nature]
 version: "1.65"
 unicode: "f128"
 -->

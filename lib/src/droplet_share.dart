@@ -26,8 +26,8 @@ class DropletShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [distribute, send, broadcast, spread, transmit, convey, deliver, impart, disseminate, assign]
 category: Design
+tags: [distribute, send, broadcast, spread, transmit, convey, deliver, impart, disseminate, assign]
 version: "2.10"
 unicode: "f908"
 -->

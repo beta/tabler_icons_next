@@ -26,8 +26,8 @@ class HttpTraceOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [track, path, network, audit, monitor, capture, disable, halt, down, log]
 category: Computers
+tags: [track, path, network, audit, monitor, capture, disable, halt, down, log]
 unicode: "100de"
 version: "3.26"
 -->

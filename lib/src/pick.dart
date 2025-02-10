@@ -26,6 +26,7 @@ class Pick extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Games
 tags: [select, choose, grab, pluck, individual, option, choice, preference, guitar, tool]
 version: "2.24"
 unicode: "fafc"

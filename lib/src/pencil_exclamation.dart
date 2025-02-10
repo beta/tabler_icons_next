@@ -26,6 +26,7 @@ class PencilExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Design
 tags: [edit, warning, highlight, alert, remark, note, importance, notice, emphasize, caution]
 version: "2.28"
 unicode: "fc05"

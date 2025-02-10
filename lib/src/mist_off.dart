@@ -26,8 +26,8 @@ class MistOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, visibility]
 category: Weather
+tags: [weather, visibility]
 unicode: "f410"
 version: "1.94"
 -->

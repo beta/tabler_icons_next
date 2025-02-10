@@ -26,8 +26,8 @@ class SettingsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cog, edit, gear, preferences, tools]
 category: System
+tags: [cog, edit, gear, preferences, tools]
 version: "1.66"
 unicode: "f19f"
 -->

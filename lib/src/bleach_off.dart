@@ -26,8 +26,8 @@ class BleachOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [clothing, washing, chemical, laundry]
 category: Laundry
+tags: [clothing, washing, chemical, laundry]
 unicode: "f2f2"
 version: "1.84"
 -->

@@ -26,8 +26,8 @@ class ColumnsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, gap, table]
 category: Text
+tags: [text, gap, table]
 version: "1.63"
 unicode: "f0d4"
 -->

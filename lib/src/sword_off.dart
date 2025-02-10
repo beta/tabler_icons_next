@@ -26,6 +26,7 @@ class SwordOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Games
 tags: [weapon, knight, blade, war, minecraft, warrior]
 unicode: "f434"
 version: "1.94"

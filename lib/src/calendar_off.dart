@@ -26,8 +26,8 @@ class CalendarOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [date, day, plan, schedule, agenda, calender]
 category: System
+tags: [date, day, plan, schedule, agenda, calender]
 version: "1.39"
 unicode: "ee1f"
 -->

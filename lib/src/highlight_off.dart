@@ -26,8 +26,8 @@ class HighlightOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [marker, important, highlighter, pen]
 category: Text
+tags: [marker, important, highlighter, pen]
 version: "1.66"
 unicode: "f144"
 -->

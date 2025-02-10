@@ -26,8 +26,8 @@ class AnchorOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hold, ship, harbor, docks]
 category: Map
+tags: [hold, ship, harbor, docks]
 version: "1.65"
 unicode: "f0f7"
 -->

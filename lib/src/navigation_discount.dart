@@ -26,6 +26,7 @@ class NavigationDiscount extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [sale, offer, promotion, deal, coupon, rebate, markdown, pricecut, bargain, savings]
 version: "2.28"
 unicode: "fbee"

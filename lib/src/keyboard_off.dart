@@ -26,8 +26,8 @@ class KeyboardOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [computer, laptop, device, type]
 category: Devices
+tags: [computer, laptop, device, type]
 version: "1.39"
 unicode: "eea0"
 -->

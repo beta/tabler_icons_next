@@ -26,8 +26,8 @@ class DropletQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ask, query, inquire, wonder, probe, explore, investigate, interrogate, quiz, challenge]
 category: Design
+tags: [ask, query, inquire, wonder, probe, explore, investigate, interrogate, quiz, challenge]
 version: "2.10"
 unicode: "f906"
 -->

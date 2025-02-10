@@ -26,8 +26,8 @@ class CardboardsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vr, virtual reality, watch, viewer, technology]
 category: Devices
+tags: [vr, virtual reality, watch, viewer, technology]
 version: "1.63"
 unicode: "f0c8"
 -->

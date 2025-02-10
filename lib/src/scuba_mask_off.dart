@@ -26,8 +26,8 @@ class ScubaMaskOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [dive, diving, water, holiday, underwater, snorkeling, equipment]
 category: Sport
+tags: [dive, diving, water, holiday, underwater, snorkeling, equipment]
 unicode: "f428"
 version: "1.94"
 -->

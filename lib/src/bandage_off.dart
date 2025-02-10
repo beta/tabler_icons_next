@@ -26,8 +26,8 @@ class BandageOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [patch, wound, cut, pain]
 category: Health
+tags: [patch, wound, cut, pain]
 unicode: "f3c4"
 version: "1.94"
 -->

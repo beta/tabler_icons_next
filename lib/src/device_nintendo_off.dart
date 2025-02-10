@@ -26,8 +26,8 @@ class DeviceNintendoOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gamepad, technology, game, console, controller]
 category: Devices
+tags: [gamepad, technology, game, console, controller]
 version: "1.65"
 unicode: "f111"
 -->

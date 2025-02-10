@@ -26,8 +26,8 @@ class MessageCircleHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [love, like, favorite, affection, care, circular, cherish, admire, emotion, fond]
 category: Communication
+tags: [love, like, favorite, affection, care, circular, cherish, admire, emotion, fond]
 version: "2.10"
 unicode: "f978"
 -->

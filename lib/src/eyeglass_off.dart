@@ -26,8 +26,8 @@ class EyeglassOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sight, defect, see, vision, frames, lenses, visually, impaired, myopia, far-sighted]
 category: Health
+tags: [sight, defect, see, vision, frames, lenses, visually, impaired, myopia, far-sighted]
 version: "1.65"
 unicode: "f126"
 -->

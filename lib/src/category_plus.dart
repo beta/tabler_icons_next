@@ -26,8 +26,8 @@ class CategoryPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [classification, add, group, identity, label, type, sort, filter, increase, organize]
 category: Shapes
+tags: [classification, add, group, identity, label, type, sort, filter, increase, organize]
 version: "2.40"
 unicode: "fd21"
 -->

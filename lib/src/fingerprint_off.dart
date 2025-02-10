@@ -26,8 +26,8 @@ class FingerprintOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [indentify, mark, surface, security, access]
 category: System
+tags: [indentify, mark, surface, security, access]
 version: "1.65"
 unicode: "f12a"
 -->

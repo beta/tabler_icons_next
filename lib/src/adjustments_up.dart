@@ -26,8 +26,8 @@ class AdjustmentsUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, increase, raise, grow, ascend, elevate, boost, uplift, rise, amplify]
 category: System
+tags: [settings, increase, raise, grow, ascend, elevate, boost, uplift, rise, amplify]
 version: "2.10"
 unicode: "f80c"
 -->

@@ -26,8 +26,8 @@ class BlurOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [edit, photo, photography, tool]
 category: Design
+tags: [edit, photo, photography, tool]
 unicode: "f3c6"
 version: "1.94"
 -->

@@ -26,6 +26,7 @@ class HorseToy extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Games
 tags: [baby, child, kid, rocking, fun]
 version: "1.78"
 unicode: "f28a"

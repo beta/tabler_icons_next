@@ -26,8 +26,8 @@ class SettingsCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gear, configuration, adjust, setup, control, script, program, developer, compile, syntax]
 category: System
+tags: [gear, configuration, adjust, setup, control, script, program, developer, compile, syntax]
 version: "2.10"
 unicode: "f9b0"
 -->

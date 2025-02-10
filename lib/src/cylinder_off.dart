@@ -26,8 +26,8 @@ class CylinderOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [geometry, gas, tube, object, piston]
 category: Shapes
+tags: [geometry, gas, tube, object, piston]
 version: "2.20"
 unicode: "fa98"
 -->

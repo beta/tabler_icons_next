@@ -26,8 +26,8 @@ class MarkdownOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [price, valuation, cost, exchange]
 category: Text
+tags: [price, valuation, cost, exchange]
 unicode: "f407"
 version: "1.94"
 -->

@@ -26,8 +26,8 @@ class BookmarkMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [remove, delete, subtract, reduce, decrease, takeaway, eliminate, lessen, deduct, trim]
 category: Document
+tags: [remove, delete, subtract, reduce, decrease, takeaway, eliminate, lessen, deduct, trim]
 version: "2.17"
 unicode: "fa5f"
 -->

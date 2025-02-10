@@ -26,8 +26,8 @@ class FridgeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [kitchen, cooler, control, freezer, food]
 category: Devices
+tags: [kitchen, cooler, control, freezer, food]
 unicode: "f3ef"
 version: "1.94"
 -->

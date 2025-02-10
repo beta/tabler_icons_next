@@ -26,8 +26,8 @@ class PoolOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [swim, water, swimmer, holiday, swimming, vacation, relax, sport]
 category: Sport
+tags: [swim, water, swimmer, holiday, swimming, vacation, relax, sport]
 unicode: "f41d"
 version: "1.94"
 -->

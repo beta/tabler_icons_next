@@ -26,8 +26,8 @@ class PhotoDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, currency, finance, wealth, economy, cash, snapshot, image, icon, symbol]
 category: Media
+tags: [money, currency, finance, wealth, economy, cash, snapshot, image, icon, symbol]
 version: "2.10"
 unicode: "f993"
 -->

@@ -26,8 +26,8 @@ class DropletCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, develop, compile, script, software, language, algorithm, syntax, command, debug]
 category: Design
+tags: [programming, develop, compile, script, software, language, algorithm, syntax, command, debug]
 version: "2.10"
 unicode: "f8fc"
 -->

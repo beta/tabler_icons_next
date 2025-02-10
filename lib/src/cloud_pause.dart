@@ -26,8 +26,8 @@ class CloudPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [halt, freeze, stop, delay, suspend, break, interruption, cease, hold]
 category: Weather
+tags: [halt, freeze, stop, delay, suspend, break, interruption, cease, hold]
 version: "2.10"
 unicode: "f855"
 -->

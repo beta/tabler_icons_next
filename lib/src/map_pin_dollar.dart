@@ -26,8 +26,8 @@ class MapPinDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [currency, value, payment, wealth, funds, cash, finance, profit, revenue, investment]
 category: Map
+tags: [currency, value, payment, wealth, funds, cash, finance, profit, revenue, investment]
 version: "2.10"
 unicode: "f94f"
 -->

@@ -26,8 +26,8 @@ class HelpOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tooltip, assistance, advice, support]
 category: System
+tags: [tooltip, assistance, advice, support]
 unicode: "f3f8"
 version: "1.94"
 -->

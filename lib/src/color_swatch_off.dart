@@ -26,8 +26,8 @@ class ColorSwatchOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sample, choice, selection]
 category: Design
+tags: [sample, choice, selection]
 version: "1.63"
 unicode: "f0d3"
 -->

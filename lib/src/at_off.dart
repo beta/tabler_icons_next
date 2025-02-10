@@ -26,8 +26,8 @@ class AtOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [email, message, mention, sign, "@"]
 category: Text
+tags: [email, message, mention, sign, "@"]
 version: "1.62"
 unicode: "f0b0"
 -->

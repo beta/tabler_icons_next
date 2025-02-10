@@ -26,8 +26,8 @@ class BugOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [germ, insect, error, nature]
 category: Development
+tags: [germ, insect, error, nature]
 version: "1.63"
 unicode: "f0c3"
 -->

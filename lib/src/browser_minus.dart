@@ -26,10 +26,10 @@ class BrowserMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Devices
 tags: [reduce, minimize, shrink, narrow, contract, lessen, decrease, diminish, lower, detract]
 unicode: "100af"
 version: "3.23"
-category: Devices
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

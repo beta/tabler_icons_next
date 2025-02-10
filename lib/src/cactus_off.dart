@@ -26,8 +26,8 @@ class CactusOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [plant, desert, spikes, nature, garden]
 category: Nature
+tags: [plant, desert, spikes, nature, garden]
 unicode: "f3cf"
 version: "1.94"
 -->

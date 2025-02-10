@@ -26,8 +26,8 @@ class FaceMaskOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coronavirus, virus, medical, hospital, doctor]
 category: Health
+tags: [coronavirus, virus, medical, hospital, doctor]
 version: "1.65"
 unicode: "f127"
 -->

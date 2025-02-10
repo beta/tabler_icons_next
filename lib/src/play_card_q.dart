@@ -26,6 +26,7 @@ class PlayCardQ extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Games
 tags: [queen, carding, crown, deck, royalty, high, prestige, poker, strategy, face]
 unicode: "1004f"
 version: "3.18"

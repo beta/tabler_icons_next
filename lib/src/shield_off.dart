@@ -26,8 +26,8 @@ class ShieldOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [safety, protect, protection]
 category: System
+tags: [safety, protect, protection]
 version: "1.22"
 unicode: "ecf8"
 -->

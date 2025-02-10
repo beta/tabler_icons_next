@@ -26,8 +26,8 @@ class BookOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [read, dictionary, magazine, library, booklet, novel]
 category: Document
+tags: [read, dictionary, magazine, library, booklet, novel]
 version: "1.63"
 unicode: "f0bc"
 -->

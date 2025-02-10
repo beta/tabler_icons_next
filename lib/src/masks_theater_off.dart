@@ -26,8 +26,8 @@ class MasksTheaterOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cinema, comedy, acting, face, art]
 category: Map
+tags: [cinema, comedy, acting, face, art]
 unicode: "f408"
 version: "1.94"
 -->

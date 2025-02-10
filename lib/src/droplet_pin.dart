@@ -26,8 +26,8 @@ class DropletPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [locate, mark, fix, attach, secure, fasten, anchor, place, determine, position]
 category: Design
+tags: [locate, mark, fix, attach, secure, fasten, anchor, place, determine, position]
 version: "2.10"
 unicode: "f904"
 -->

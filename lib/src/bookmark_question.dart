@@ -26,8 +26,8 @@ class BookmarkQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [inquire, ask, query, puzzle, unclear, mystify, wonder, interrogate, probe, scrutinize]
 category: Document
+tags: [inquire, ask, query, puzzle, unclear, mystify, wonder, interrogate, probe, scrutinize]
 version: "2.17"
 unicode: "fa61"
 -->

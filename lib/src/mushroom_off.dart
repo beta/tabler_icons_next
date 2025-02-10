@@ -26,8 +26,8 @@ class MushroomOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, vegetable, cooking, fungus, mushrooming]
 category: Food
+tags: [food, vegetable, cooking, fungus, mushrooming]
 unicode: "f412"
 version: "1.94"
 -->

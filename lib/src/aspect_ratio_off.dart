@@ -26,8 +26,8 @@ class AspectRatioOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [size, dimension, width, height, orientation]
 category: Media
+tags: [size, dimension, width, height, orientation]
 version: "1.62"
 unicode: "f0af"
 -->

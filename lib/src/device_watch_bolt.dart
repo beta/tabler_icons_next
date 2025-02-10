@@ -26,8 +26,8 @@ class DeviceWatchBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [speed, thunder, charge, energetic, flash, zap, power, lightning, burst, electric]
 category: Devices
+tags: [speed, thunder, charge, energetic, flash, zap, power, lightning, burst, electric]
 version: "2.10"
 unicode: "f8d3"
 -->

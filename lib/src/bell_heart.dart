@@ -26,8 +26,8 @@ class BellHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [love, affection, passion, adoration, care, fondness, devotion, attachment, tenderness, warmth]
 category: System
+tags: [love, affection, passion, adoration, care, fondness, devotion, attachment, tenderness, warmth]
 version: "2.10"
 unicode: "f81a"
 -->

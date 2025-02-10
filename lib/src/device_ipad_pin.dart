@@ -26,8 +26,8 @@ class DeviceIpadPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mark, location, place, point, map, navigation, gps, spot, destination, marker]
 category: Devices
+tags: [mark, location, place, point, map, navigation, gps, spot, destination, marker]
 version: "2.10"
 unicode: "f8a5"
 -->

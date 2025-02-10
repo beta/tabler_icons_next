@@ -26,8 +26,8 @@ class DeviceWatchPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [increase, more, add, expand, augment, boost, enhance, growth, escalate, raise]
 category: Devices
+tags: [increase, more, add, expand, augment, boost, enhance, growth, escalate, raise]
 version: "2.10"
 unicode: "f8df"
 -->

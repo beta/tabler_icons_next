@@ -26,8 +26,8 @@ class DialpadOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [keypad, telephone, phone, call, number]
 category: Devices
+tags: [keypad, telephone, phone, call, number]
 version: "1.65"
 unicode: "f114"
 -->

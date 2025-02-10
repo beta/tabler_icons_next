@@ -26,8 +26,8 @@ class PennantOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [flag, ship, sports, championship, mark, spot, winner]
 category: Map
+tags: [flag, ship, sports, championship, mark, spot, winner]
 version: "1.66"
 unicode: "f174"
 -->

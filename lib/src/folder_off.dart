@@ -26,8 +26,8 @@ class FolderOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cancel, "no", directory, dir]
 category: Document
+tags: [cancel, "no", directory, dir]
 version: "1.24"
 unicode: "ed14"
 -->

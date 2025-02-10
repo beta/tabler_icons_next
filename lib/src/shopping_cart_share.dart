@@ -26,6 +26,7 @@ class ShoppingCartShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [distribute, post, spread, publish, broadcast, divide, announce, impart, circulate, pass]
 version: "2.28"
 unicode: "fb68"

@@ -26,8 +26,8 @@ class CrutchesOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hospital, medical, disability, health, leg]
 category: Health
+tags: [hospital, medical, disability, health, leg]
 version: "1.65"
 unicode: "f10c"
 -->

@@ -26,8 +26,8 @@ class TypographyOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [type, display, typeface, point size, line length, line-spacing, letter-spacing, font]
 category: Text
+tags: [type, display, typeface, point size, line length, line-spacing, letter-spacing, font]
 version: "1.67"
 unicode: "f1ba"
 -->

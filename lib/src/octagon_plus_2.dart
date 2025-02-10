@@ -26,8 +26,8 @@ class OctagonPlus2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, increase, boost, enhance, amplify, enlarge, gain, expand, supplement, magnify]
 category: Shapes
+tags: [add, increase, boost, enhance, amplify, enlarge, gain, expand, supplement, magnify]
 version: "2.35"
 unicode: "fc93"
 -->

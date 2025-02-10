@@ -26,6 +26,7 @@ class BarcodeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [product, shop, scan, supermarket]
 version: "1.62"
 unicode: "f0b3"

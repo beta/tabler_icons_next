@@ -26,8 +26,8 @@ class Message2X extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [close, reject, terminate, dismiss, delete, erase, remove, cancel, end, abort]
 category: Communication
+tags: [close, reject, terminate, dismiss, delete, erase, remove, cancel, end, abort]
 version: "2.10"
 unicode: "f96c"
 -->

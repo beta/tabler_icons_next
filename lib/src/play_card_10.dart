@@ -26,6 +26,7 @@ class PlayCard10 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Games
 tags: [game, deck, ten, count, gamble, shuffle, deal, card, table, hand]
 unicode: "1005b"
 version: "3.18"

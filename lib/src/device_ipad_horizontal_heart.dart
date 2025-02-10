@@ -26,8 +26,8 @@ class DeviceIpadHorizontalHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [love, favorite, affection, like, passion, adore, care, emotion, fondness, attachment]
 category: Devices
+tags: [love, favorite, affection, like, passion, adore, care, emotion, fondness, attachment]
 version: "2.10"
 unicode: "f896"
 -->

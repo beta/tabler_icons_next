@@ -26,8 +26,8 @@ class CarOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vehicle, drive, driver, engine, motor, journey, trip]
 category: Vehicles
+tags: [vehicle, drive, driver, engine, motor, journey, trip]
 version: "1.63"
 unicode: "f0c7"
 -->

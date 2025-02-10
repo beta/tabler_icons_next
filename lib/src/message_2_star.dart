@@ -26,8 +26,8 @@ class Message2Star extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [favorite, highlight, important, mark, prominent, noteworthy, shine, top, notable, emphasize]
 category: Communication
+tags: [favorite, highlight, important, mark, prominent, noteworthy, shine, top, notable, emphasize]
 version: "2.10"
 unicode: "f96a"
 -->

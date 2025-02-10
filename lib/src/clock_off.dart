@@ -26,8 +26,8 @@ class ClockOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, watch, alarm]
 category: System
+tags: [time, watch, alarm]
 version: "1.63"
 unicode: "f0cf"
 -->

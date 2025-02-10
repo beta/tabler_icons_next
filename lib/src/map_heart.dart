@@ -26,6 +26,7 @@ class MapHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [love, affection, romance, care, passion, emotion, fondness, devotion, adore, cherish]
 version: "2.28"
 unicode: "fbcc"

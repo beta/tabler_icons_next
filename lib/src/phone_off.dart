@@ -26,8 +26,8 @@ class PhoneOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [call, mobile, conversation, landline, answer, number]
 category: Devices
+tags: [call, mobile, conversation, landline, answer, number]
 version: "1.22"
 unicode: "ecf5"
 -->

@@ -26,8 +26,8 @@ class DroneOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [device, fly, aircraft, surveillance, control, autonomous]
 category: Vehicles
+tags: [device, fly, aircraft, surveillance, control, autonomous]
 version: "1.39"
 unicode: "ee7e"
 -->

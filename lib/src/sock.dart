@@ -26,6 +26,7 @@ class Sock extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [clothing, clothes, foot, feet, leg, knit, wool, cotton, ankle]
 version: "1.39"
 unicode: "eee1"

@@ -26,8 +26,8 @@ class BasketPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [stop, halt, break, interruption, delay, wait, suspend, cease, rest, hold]
 category: E-commerce
+tags: [stop, halt, break, interruption, delay, wait, suspend, cease, rest, hold]
 version: "2.28"
 unicode: "fb4e"
 -->

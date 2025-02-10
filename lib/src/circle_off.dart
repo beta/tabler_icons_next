@@ -26,8 +26,8 @@ class CircleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [off, zero]
 category: Shapes
+tags: [off, zero]
 version: "1.39"
 unicode: "ee40"
 -->

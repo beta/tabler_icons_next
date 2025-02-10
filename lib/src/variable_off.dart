@@ -26,8 +26,8 @@ class VariableOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [maths, mathematics, science, calculate, function]
 category: Math
+tags: [maths, mathematics, science, calculate, function]
 version: "1.67"
 unicode: "f1bd"
 -->

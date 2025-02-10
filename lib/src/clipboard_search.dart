@@ -26,8 +26,8 @@ class ClipboardSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [find, look, research, explore, inspect, analyze, examine, scan, study, inquire]
 category: Document
+tags: [find, look, research, explore, inspect, analyze, examine, scan, study, inquire]
 unicode: "10098"
 version: "3.22"
 -->

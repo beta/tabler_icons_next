@@ -26,8 +26,8 @@ class MessageCirclePlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, increase, enhance, expand, augment, conversation, chat, dialogue, new, communication]
 category: Communication
+tags: [add, increase, enhance, expand, augment, conversation, chat, dialogue, new, communication]
 version: "2.10"
 unicode: "f97c"
 -->

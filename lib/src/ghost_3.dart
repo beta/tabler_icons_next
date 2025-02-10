@@ -26,6 +26,7 @@ class Ghost3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Games
 tags: [spirit, phantom, specter, apparition, wraith, shadow, poltergeist, entity, haunt, ethereal]
 version: "2.29"
 unicode: "fc13"

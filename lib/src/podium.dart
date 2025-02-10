@@ -26,6 +26,7 @@ class Podium extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Buildings
 tags: [speach, microphone, conference, politics, audience, presentation]
 version: "1.68"
 unicode: "f1d8"

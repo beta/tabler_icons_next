@@ -26,8 +26,8 @@ class CloudX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [delete, remove, cancel, close, terminate, end, reject, cut, dismiss, drop]
 category: Weather
+tags: [delete, remove, cancel, close, terminate, end, reject, cut, dismiss, drop]
 version: "2.10"
 unicode: "f85d"
 -->

@@ -26,8 +26,8 @@ class DatabaseOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [storage, data, memory]
 category: Database
+tags: [storage, data, memory]
 version: "1.39"
 unicode: "ee70"
 -->

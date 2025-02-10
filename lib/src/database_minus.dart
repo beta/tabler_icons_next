@@ -26,8 +26,8 @@ class DatabaseMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [subtract, reduce, remove, decrease, lessen, diminish, trim, cut, lower, contract]
 category: Database
+tags: [subtract, reduce, remove, decrease, lessen, diminish, trim, cut, lower, contract]
 version: "2.13"
 unicode: "fa16"
 -->

@@ -26,8 +26,8 @@ class DeviceMobileDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, finance, currency, cost, expense, price, value, fee, charge, transaction]
 category: Devices
+tags: [money, finance, currency, cost, expense, price, value, fee, charge, transaction]
 version: "2.10"
 unicode: "f8b2"
 -->

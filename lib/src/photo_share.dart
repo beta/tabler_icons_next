@@ -26,8 +26,8 @@ class PhotoShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [distribute, broadcast, spread, disseminate, post, photograph, connect, icon, send, transfer]
 category: Media
+tags: [distribute, broadcast, spread, disseminate, post, photograph, connect, icon, send, transfer]
 version: "2.10"
 unicode: "f998"
 -->

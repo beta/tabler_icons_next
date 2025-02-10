@@ -26,8 +26,8 @@ class CastOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [broadcast, stream, mirroring, apple, airplay, chromecast]
 category: Media
+tags: [broadcast, stream, mirroring, apple, airplay, chromecast]
 version: "1.63"
 unicode: "f0c9"
 -->

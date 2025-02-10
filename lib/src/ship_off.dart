@@ -26,8 +26,8 @@ class ShipOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sail, sail across, ocean, river, lake, sea, sailor, journey, transit, manufactures, containers]
 category: Vehicles
+tags: [sail, sail across, ocean, river, lake, sea, sailor, journey, transit, manufactures, containers]
 unicode: "f42a"
 version: "1.94"
 -->

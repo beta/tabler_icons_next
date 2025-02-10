@@ -26,8 +26,8 @@ class NfcOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [payment, nfc, cash, chip, shopping, cashless, pass, contactless]
 category: Devices
+tags: [payment, nfc, cash, chip, shopping, cashless, pass, contactless]
 version: "1.66"
 unicode: "f168"
 -->

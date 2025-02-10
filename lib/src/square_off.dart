@@ -26,8 +26,8 @@ class SquareOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [checkbox, box, shape]
 category: Shapes
+tags: [checkbox, box, shape]
 version: "1.39"
 unicode: "eeef"
 -->

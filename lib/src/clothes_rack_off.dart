@@ -26,6 +26,7 @@ class ClothesRackOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [hanger, furniture, fashion, clothing, stand]
 unicode: "f3d6"
 version: "1.94"

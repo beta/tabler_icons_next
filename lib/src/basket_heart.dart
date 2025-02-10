@@ -26,8 +26,8 @@ class BasketHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [love, favorites, wishlist, affection, romance, adore, preferences, passion, cherish, devotion]
 category: E-commerce
+tags: [love, favorites, wishlist, affection, romance, adore, preferences, passion, cherish, devotion]
 version: "2.28"
 unicode: "fb4c"
 -->

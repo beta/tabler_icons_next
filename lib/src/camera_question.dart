@@ -26,8 +26,8 @@ class CameraQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [photography, query, inquiry, lens, confusion, focus, doubt, investigation, curiosity, snapshot]
 category: Media
+tags: [photography, query, inquiry, lens, confusion, focus, doubt, investigation, curiosity, snapshot]
 version: "2.10"
 unicode: "f83e"
 -->

@@ -26,8 +26,8 @@ class AlertHexagonOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [warning, muted, caution, inactive, silent, unalerted, disabled, quiet, off, dormant]
 category: System
+tags: [warning, muted, caution, inactive, silent, unalerted, disabled, quiet, off, dormant]
 version: "2.33"
 unicode: "fc66"
 -->

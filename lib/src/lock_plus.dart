@@ -26,8 +26,8 @@ class LockPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, increase, additional, more, expand, extra, plus, growth, gain, increment]
 category: System
+tags: [add, increase, additional, more, expand, extra, plus, growth, gain, increment]
 version: "2.10"
 unicode: "f930"
 -->

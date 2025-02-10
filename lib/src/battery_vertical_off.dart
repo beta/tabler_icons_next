@@ -26,8 +26,8 @@ class BatteryVerticalOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [energy, power, electricity]
 category: Devices
+tags: [energy, power, electricity]
 unicode: "ff14"
 version: "3.7"
 -->

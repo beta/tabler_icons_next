@@ -26,8 +26,8 @@ class MailX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [delete, cancel, remove, erase, eliminate, dismiss, terminate, clear, dispose, nullify]
 category: Communication
+tags: [delete, cancel, remove, erase, eliminate, dismiss, terminate, clear, dispose, nullify]
 version: "2.10"
 unicode: "f949"
 -->

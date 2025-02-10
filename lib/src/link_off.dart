@@ -26,8 +26,8 @@ class LinkOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [zoom-filled]
 category: Text
+tags: [zoom-filled]
 unicode: "f402"
 version: "1.94"
 -->

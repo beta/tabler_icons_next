@@ -26,8 +26,8 @@ class DeviceDesktopQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [inquire, ask, query, probe, interrogate, wonder, doubt, speculate, ponder, explore]
 category: Devices
+tags: [inquire, ask, query, probe, interrogate, wonder, doubt, speculate, ponder, explore]
 version: "2.10"
 unicode: "f86b"
 -->

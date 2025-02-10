@@ -26,6 +26,7 @@ class Logs extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Development
 tags: [records, history, entries, journal, document, notebook, archive, chronicle, report, data]
 unicode: "fea7"
 version: "3.1"

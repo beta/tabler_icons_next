@@ -26,8 +26,8 @@ class Message2Plus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, increase, more, additional, positive, gain, supplement, expand, raise, amplify]
 category: Communication
+tags: [add, increase, more, additional, positive, gain, supplement, expand, raise, amplify]
 version: "2.10"
 unicode: "f967"
 -->

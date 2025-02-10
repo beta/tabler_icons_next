@@ -26,8 +26,8 @@ class MailCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [program, software, encrypt, message, decode, syntax, develop, language, script, compile]
 category: Communication
+tags: [program, software, encrypt, message, decode, syntax, develop, language, script, compile]
 version: "2.10"
 unicode: "f93a"
 -->

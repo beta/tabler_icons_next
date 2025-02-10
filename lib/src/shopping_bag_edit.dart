@@ -26,8 +26,8 @@ class ShoppingBagEdit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [purchase, modify, change, store, adjust, update, alter, revise, customize, adapt]
 category: E-commerce
+tags: [purchase, modify, change, store, adjust, update, alter, revise, customize, adapt]
 version: "2.29"
 unicode: "fc18"
 -->

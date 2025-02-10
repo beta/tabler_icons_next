@@ -26,6 +26,7 @@ class LocationCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [settings, gear, configure, adjust, control, modify, tune, regulate, calibrate, system]
 version: "2.28"
 unicode: "fbb3"

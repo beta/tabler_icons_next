@@ -26,6 +26,7 @@ class PlayCardJ extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Games
 tags: [jack, carding, face, deck, royal, cardgame, bet, luck, poker, strategy]
 unicode: "10051"
 version: "3.18"

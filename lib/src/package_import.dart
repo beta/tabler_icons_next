@@ -26,6 +26,7 @@ class PackageImport extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Development
 tags: [npm, box, container, delivery, shipping, courier]
 version: "1.59"
 unicode: "f07b"

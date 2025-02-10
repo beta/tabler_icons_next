@@ -26,8 +26,8 @@ class PyramidOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape]
 category: Shapes
+tags: [3d, pattern, abstract, geometric, shape]
 version: "1.66"
 unicode: "f187"
 -->

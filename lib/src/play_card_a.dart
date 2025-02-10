@@ -26,6 +26,7 @@ class PlayCardA extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Games
 tags: [ace, carding, high, deck, number, gameplay, gamble, top, poker, strategy]
 unicode: "10052"
 version: "3.18"

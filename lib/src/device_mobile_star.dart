@@ -26,8 +26,8 @@ class DeviceMobileStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [rate, favorite, highlight, excellence, best, quality, remarkable, superior, shine, outstanding]
 category: Devices
+tags: [rate, favorite, highlight, excellence, best, quality, remarkable, superior, shine, outstanding]
 version: "2.10"
 unicode: "f8bd"
 -->

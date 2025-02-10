@@ -26,8 +26,8 @@ class PointerQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [query, ask, inquiry, doubt, wonder, seek, unknown, mystery, curiosity, explore]
 category: System
+tags: [query, ask, inquiry, doubt, wonder, seek, unknown, mystery, curiosity, explore]
 version: "2.10"
 unicode: "f9a7"
 -->

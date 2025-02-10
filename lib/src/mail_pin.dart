@@ -26,8 +26,8 @@ class MailPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [location, anchor, place, marker, position, spot, fix, attach, locator, point]
 category: Communication
+tags: [location, anchor, place, marker, position, spot, fix, attach, locator, point]
 version: "2.10"
 unicode: "f942"
 -->

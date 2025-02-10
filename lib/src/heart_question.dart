@@ -26,6 +26,7 @@ class HeartQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Shapes
 tags: [query, curious, inquire, ask, wonder, doubt, puzzle, mystery, ponder, consider]
 version: "2.28"
 unicode: "fba9"

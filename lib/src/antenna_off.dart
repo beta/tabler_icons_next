@@ -26,8 +26,8 @@ class AntennaOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [reach, tv, network, connetion, signal, communication]
 category: Devices
+tags: [reach, tv, network, connetion, signal, communication]
 unicode: "f3bb"
 version: "1.94"
 -->

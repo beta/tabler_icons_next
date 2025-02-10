@@ -26,8 +26,8 @@ class CeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, marking, administration, administrative, conformity, health, safety, environment, protection, standards, product, europe, eea, economic, area, manufacture]
 category: Symbols
+tags: [sign, marking, administration, administrative, conformity, health, safety, environment, protection, standards, product, europe, eea, economic, area, manufacture]
 version: "1.63"
 unicode: "f0ca"
 -->

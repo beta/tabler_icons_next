@@ -26,6 +26,7 @@ class GlassCocktail extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Food
 tags: [mix, alcohol, drink, beverage, martini, shaker, refreshing, summer, beach, garnish]
 version: "2.47"
 unicode: "fd9d"

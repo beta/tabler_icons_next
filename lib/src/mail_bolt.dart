@@ -26,8 +26,8 @@ class MailBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [energy, charge, electric, quick, message, fast, rapid, speed, power, flash]
 category: Communication
+tags: [energy, charge, electric, quick, message, fast, rapid, speed, power, flash]
 version: "2.10"
 unicode: "f937"
 -->

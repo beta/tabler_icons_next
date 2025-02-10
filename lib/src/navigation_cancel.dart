@@ -26,6 +26,7 @@ class NavigationCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [stop, abort, end, halt, terminate, cut, cease, close, discontinue, exit]
 version: "2.28"
 unicode: "fbea"

@@ -26,6 +26,7 @@ class HeartCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Shapes
 tags: [approve, verify, confirm, agree, accept, validate, okay, pass]
 version: "2.28"
 unicode: "fba0"

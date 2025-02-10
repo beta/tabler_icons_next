@@ -26,6 +26,7 @@ class MusicUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Media
 tags: [increase, rise, elevate, advance, ascend, boost, grow, progress, climb, upward]
 version: "2.28"
 unicode: "fbe7"

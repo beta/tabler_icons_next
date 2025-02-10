@@ -26,8 +26,8 @@ class CloudCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [verify, confirm, approve, ok, validate, correct, tick, authenticate, certify, assert]
 category: Weather
+tags: [verify, confirm, approve, ok, validate, correct, tick, authenticate, certify, assert]
 version: "2.10"
 unicode: "f84d"
 -->

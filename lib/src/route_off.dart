@@ -26,8 +26,8 @@ class RouteOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [path, journey, direction, trail, navigate, travel, way, road, travel-route, route-way]
 category: Map
+tags: [path, journey, direction, trail, navigate, travel, way, road, travel-route, route-way]
 version: "1.66"
 unicode: "f194"
 -->

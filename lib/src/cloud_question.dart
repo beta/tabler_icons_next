@@ -26,8 +26,8 @@ class CloudQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [help, inquiry, doubt, uncertainty, ask, query, explore, clarification, puzzle, wonder]
 category: Weather
+tags: [help, inquiry, doubt, uncertainty, ask, query, explore, clarification, puzzle, wonder]
 version: "2.10"
 unicode: "f858"
 -->

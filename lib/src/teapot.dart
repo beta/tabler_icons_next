@@ -26,6 +26,7 @@ class Teapot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Food
 tags: [kettle, kitchen, hot, coffee, kitchenware]
 version: "1.105"
 unicode: "f552"

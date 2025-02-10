@@ -26,8 +26,8 @@ class PackageOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [npm, box, container]
 category: E-commerce
+tags: [npm, box, container]
 version: "1.66"
 unicode: "f16c"
 -->

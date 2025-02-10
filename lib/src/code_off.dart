@@ -26,8 +26,8 @@ class CodeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [brackets, source, programming, command]
 category: Text
+tags: [brackets, source, programming, command]
 version: "1.63"
 unicode: "f0d0"
 -->

@@ -26,8 +26,8 @@ class CashBanknoteOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, pay, bank, dollar, pound, yen, business]
 category: E-commerce
+tags: [money, pay, bank, dollar, pound, yen, business]
 version: "1.39"
 unicode: "ee24"
 -->

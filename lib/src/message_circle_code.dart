@@ -26,8 +26,8 @@ class MessageCircleCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, develop, script, circular, syntax, language, algorithm, logic, compile, compute]
 category: Communication
+tags: [programming, develop, script, circular, syntax, language, algorithm, logic, compile, compute]
 version: "2.10"
 unicode: "f973"
 -->

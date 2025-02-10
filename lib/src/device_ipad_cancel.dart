@@ -26,8 +26,8 @@ class DeviceIpadCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [abort, stop, terminate, remove, dismiss, void, annul, halt, discard]
 category: Devices
+tags: [abort, stop, terminate, remove, dismiss, void, annul, halt, discard]
 version: "2.10"
 unicode: "f886"
 -->

@@ -26,8 +26,8 @@ class SettingsBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gear, configuration, adjust, setup, control, power, energy, mechanics, wrench, tool]
 category: System
+tags: [gear, configuration, adjust, setup, control, power, energy, mechanics, wrench, tool]
 version: "2.10"
 unicode: "f9ad"
 -->

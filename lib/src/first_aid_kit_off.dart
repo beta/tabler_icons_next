@@ -26,8 +26,8 @@ class FirstAidKitOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [medical, healthcare, hospital, health]
 category: Health
+tags: [medical, healthcare, hospital, health]
 unicode: "f3ed"
 version: "1.94"
 -->

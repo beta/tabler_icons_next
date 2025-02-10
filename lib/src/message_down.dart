@@ -26,8 +26,8 @@ class MessageDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [decrease, lower, reduce, decline, drop, fall, diminish, descend, minimize, subside]
 category: Communication
+tags: [decrease, lower, reduce, decline, drop, fall, diminish, descend, minimize, subside]
 version: "2.10"
 unicode: "f985"
 -->

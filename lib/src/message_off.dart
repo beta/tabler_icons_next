@@ -26,8 +26,8 @@ class MessageOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [comment, chat, reply, communication, conversation, faq]
 category: Communication
+tags: [comment, chat, reply, communication, conversation, faq]
 version: "1.28"
 unicode: "ed41"
 -->

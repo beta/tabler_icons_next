@@ -26,8 +26,8 @@ class CaptureOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [photo, photographer, sharpen]
 category: Media
+tags: [photo, photographer, sharpen]
 version: "1.63"
 unicode: "f0c6"
 -->

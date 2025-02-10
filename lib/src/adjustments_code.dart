@@ -26,8 +26,8 @@ class AdjustmentsCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, program, develop, script, software, cypher, encrypt, decode, compile, syntax]
 category: System
+tags: [settings, program, develop, script, software, cypher, encrypt, decode, compile, syntax]
 version: "2.10"
 unicode: "f7fe"
 -->

@@ -26,8 +26,8 @@ class DeviceIpadHorizontalMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [subtract, remove, decrease, less, reduce, negative, deduct, takeaway, lower, abate]
 category: Devices
+tags: [subtract, remove, decrease, less, reduce, negative, deduct, takeaway, lower, abate]
 version: "2.10"
 unicode: "f897"
 -->

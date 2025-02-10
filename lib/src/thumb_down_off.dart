@@ -26,8 +26,8 @@ class ThumbDownOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [dislike, bad, emotion]
 category: System
+tags: [dislike, bad, emotion]
 unicode: "f436"
 version: "1.94"
 -->

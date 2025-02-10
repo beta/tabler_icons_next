@@ -26,6 +26,7 @@ class MapBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [charge, power, lightning, thunder, electric, energy, flash, zap, storm, force]
 version: "2.28"
 unicode: "fbc3"

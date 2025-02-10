@@ -26,8 +26,8 @@ class DisabledOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [wheelchair, handicapped]
 category: Health
+tags: [wheelchair, handicapped]
 version: "1.65"
 unicode: "f117"
 -->

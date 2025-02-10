@@ -26,6 +26,7 @@ class BorderTopPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Design
 tags: [add, top, enhance, expand, amplify, edge, extension, rise, enlarge, increase]
 unicode: "fdba"
 version: "3.0"

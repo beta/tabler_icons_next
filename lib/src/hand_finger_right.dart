@@ -26,6 +26,7 @@ class HandFingerRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Gestures
 tags: [point, gesture, direction, indicate, motion, signal, show, guide, rightward, indicator]
 unicode: "ff4d"
 version: "3.10"

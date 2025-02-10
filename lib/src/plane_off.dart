@@ -26,8 +26,8 @@ class PlaneOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [travel, journey, trip, airport, baggage, luggage]
 category: Vehicles
+tags: [travel, journey, trip, airport, baggage, luggage]
 version: "1.66"
 unicode: "f17a"
 -->

@@ -26,8 +26,8 @@ class TentOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [camping, holiday, vacation, outdoor, survival, travel, adventure]
 category: Map
+tags: [camping, holiday, vacation, outdoor, survival, travel, adventure]
 unicode: "f435"
 version: "1.94"
 -->

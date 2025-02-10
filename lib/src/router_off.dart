@@ -26,8 +26,8 @@ class RouterOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [wifi, device, wireless, signal, station, cast]
 category: Devices
+tags: [wifi, device, wireless, signal, station, cast]
 unicode: "f424"
 version: "1.94"
 -->

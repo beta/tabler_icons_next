@@ -26,8 +26,8 @@ class VaccineBottleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [medical, medicine, pharmacy, covid, virus, drug]
 category: Health
+tags: [medical, medicine, pharmacy, covid, virus, drug]
 unicode: "f439"
 version: "1.94"
 -->

@@ -26,8 +26,8 @@ class ClockPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [attach, secure, fasten, hold, fix, anchor, stick, keep, lock, steady]
 category: System
+tags: [attach, secure, fasten, hold, fix, anchor, stick, keep, lock, steady]
 version: "2.10"
 unicode: "f849"
 -->

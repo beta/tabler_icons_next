@@ -26,8 +26,8 @@ class EraserOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [delete, remove, eliminate, wipe-out]
 category: Text
+tags: [delete, remove, eliminate, wipe-out]
 version: "1.65"
 unicode: "f121"
 -->

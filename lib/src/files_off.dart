@@ -26,8 +26,8 @@ class FilesOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [forms, documents, stack, letter]
 category: Document
+tags: [forms, documents, stack, letter]
 version: "1.38"
 unicode: "edee"
 -->

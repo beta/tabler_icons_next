@@ -26,6 +26,7 @@ class EyeCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [program, develop, coding, debug, script, inspect, observe, software, analyze, computer]
 version: "2.28"
 unicode: "fb6f"

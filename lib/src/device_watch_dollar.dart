@@ -26,8 +26,8 @@ class DeviceWatchDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, payment, finance, budget, price, transaction, cost, economics, funds, currency]
 category: Devices
+tags: [money, payment, finance, budget, price, transaction, cost, economics, funds, currency]
 version: "2.10"
 unicode: "f8d8"
 -->

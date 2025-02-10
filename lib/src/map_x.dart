@@ -26,6 +26,7 @@ class MapX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [cross, cancel, forget, delete, deny, void, prohibit, exclude, disallow, annul]
 version: "2.28"
 unicode: "fbd4"

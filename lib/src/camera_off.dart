@@ -26,8 +26,8 @@ class CameraOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [video, photo, aperture]
 category: Media
+tags: [video, photo, aperture]
 version: "1.22"
 unicode: "ecee"
 -->

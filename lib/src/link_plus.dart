@@ -26,6 +26,7 @@ class LinkPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Text
 tags: [connect, add, join, attach, associate, relation, chain, link, combine, merge]
 version: "2.39"
 unicode: "fd17"

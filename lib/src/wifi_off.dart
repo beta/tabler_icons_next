@@ -26,8 +26,8 @@ class WifiOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [online, connection, signal, wireless]
 category: Devices
+tags: [online, connection, signal, wireless]
 version: "1.22"
 unicode: "ecfa"
 -->

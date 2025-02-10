@@ -26,8 +26,8 @@ class BottleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [water, drink, beer, energy, wine]
 category: Food
+tags: [water, drink, beer, energy, wine]
 unicode: "f3c8"
 version: "1.94"
 -->

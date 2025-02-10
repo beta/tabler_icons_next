@@ -26,8 +26,8 @@ class FilterEdit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [modify, alter, change, revise, update, edit, adjust, correct, amend, rewrite]
 category: System
+tags: [modify, alter, change, revise, update, edit, adjust, correct, amend, rewrite]
 version: "2.12"
 unicode: "fa00"
 -->

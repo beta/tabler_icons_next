@@ -26,6 +26,7 @@ class AugmentedReality extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [technology, dimensional, geometry]
 version: "1.55"
 unicode: "f023"

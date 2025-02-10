@@ -26,8 +26,8 @@ class IdOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identification, card, personal details]
 category: System
+tags: [identification, card, personal details]
 version: "1.66"
 unicode: "f149"
 -->

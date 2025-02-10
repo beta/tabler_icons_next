@@ -26,8 +26,8 @@ class DropletOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [water, rain, liquid]
 category: Design
+tags: [water, rain, liquid]
 version: "1.39"
 unicode: "ee83"
 -->

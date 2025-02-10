@@ -26,8 +26,8 @@ class HierarchyOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [relation, above, below, status, society, important]
 category: Design
+tags: [relation, above, below, status, society, important]
 unicode: "f3fa"
 version: "1.94"
 -->

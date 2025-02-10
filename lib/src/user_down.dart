@@ -26,8 +26,8 @@ class UserDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [descend, lower, below, drop, fall, decrease, diminish, sink, deflate]
 category: System
+tags: [descend, lower, below, drop, fall, decrease, diminish, sink, deflate]
 version: "2.10"
 unicode: "f9d6"
 -->

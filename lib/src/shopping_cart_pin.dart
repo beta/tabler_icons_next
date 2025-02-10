@@ -26,6 +26,7 @@ class ShoppingCartPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [attach, fix, anchor, stick, fasten, secure, tack, adhere, bind, nail]
 version: "2.28"
 unicode: "fb64"

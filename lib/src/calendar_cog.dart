@@ -26,8 +26,8 @@ class CalendarCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [schedule, settings, appointment, planning, date, adjust, configure, organize, tools, preferences]
 category: System
+tags: [schedule, settings, appointment, planning, date, adjust, configure, organize, tools, preferences]
 version: "2.10"
 unicode: "f826"
 -->

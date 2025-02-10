@@ -26,6 +26,7 @@ class Barcode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [product, shop, scan, supermarket]
 version: "1.5"
 unicode: "ebc6"

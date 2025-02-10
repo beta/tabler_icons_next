@@ -26,8 +26,8 @@ class RefreshOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [synchronization, reload, restart, spinner, loader, ajax, update, arrows]
 category: Arrows
+tags: [synchronization, reload, restart, spinner, loader, ajax, update, arrows]
 version: "1.66"
 unicode: "f18d"
 -->

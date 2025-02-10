@@ -26,6 +26,7 @@ class MusicExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Media
 tags: [alert, warning, notice, urgent, important, emphasis, highlight, attention, caution, remark]
 version: "2.28"
 unicode: "fbdd"

@@ -26,8 +26,8 @@ class BluetoothOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [wireless, connection, connect]
 category: Devices
+tags: [wireless, connection, connect]
 version: "1.22"
 unicode: "eceb"
 -->

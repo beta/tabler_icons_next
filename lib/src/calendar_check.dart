@@ -26,8 +26,8 @@ class CalendarCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [schedule, event, confirm, appointment, planning, date, reminder, online, organize, verify]
 category: System
+tags: [schedule, event, confirm, appointment, planning, date, reminder, online, organize, verify]
 version: "2.10"
 unicode: "f824"
 -->

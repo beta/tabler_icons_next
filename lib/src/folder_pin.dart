@@ -26,8 +26,8 @@ class FolderPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [attach, secure, fasten, cling, stick, anchor, fixate, immobilize, tie, press]
 category: Document
+tags: [attach, secure, fasten, cling, stick, anchor, fixate, immobilize, tie, press]
 version: "2.10"
 unicode: "f916"
 -->

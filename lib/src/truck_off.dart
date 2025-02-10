@@ -26,8 +26,8 @@ class TruckOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [transport, vahicle, van, lorry, cargo, delivery]
 category: Vehicles
+tags: [transport, vahicle, van, lorry, cargo, delivery]
 version: "1.39"
 unicode: "ef03"
 -->

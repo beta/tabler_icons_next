@@ -26,8 +26,8 @@ class CurrencyYenOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [japanese, yen, jpy, chinese, money, banknote, pay]
 category: Currencies
+tags: [japanese, yen, jpy, chinese, money, banknote, pay]
 unicode: "f3e0"
 version: "1.94"
 -->

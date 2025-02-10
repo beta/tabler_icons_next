@@ -26,8 +26,8 @@ class HttpOptionsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [choices, preferences, select, settings, disable, network, down, parameters, halt, disconnect]
 category: Computers
+tags: [choices, preferences, select, settings, disable, network, down, parameters, halt, disconnect]
 unicode: "100e3"
 version: "3.26"
 -->

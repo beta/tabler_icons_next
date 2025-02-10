@@ -26,8 +26,8 @@ class AdjustmentsBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, tweak, modify, electric, lightning, power, energy, zap, volt, charge]
 category: System
+tags: [settings, tweak, modify, electric, lightning, power, energy, zap, volt, charge]
 version: "2.10"
 unicode: "f7fb"
 -->

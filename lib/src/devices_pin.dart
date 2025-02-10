@@ -26,8 +26,8 @@ class DevicesPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [attach, secure, fix, fasten, stick, place, bookmark, position, clip, hold]
 category: Devices
+tags: [attach, secure, fix, fasten, stick, place, bookmark, position, clip, hold]
 version: "2.10"
 unicode: "f8f1"
 -->

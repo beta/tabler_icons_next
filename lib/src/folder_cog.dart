@@ -26,8 +26,8 @@ class FolderCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, gear, mechanism, instrument, machinery, adjust, calibrate, operate, tweak, engine]
 category: Document
+tags: [settings, gear, mechanism, instrument, machinery, adjust, calibrate, operate, tweak, engine]
 version: "2.10"
 unicode: "f910"
 -->

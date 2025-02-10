@@ -26,8 +26,8 @@ class SquareRoundedPlus2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [geometry, addition, math, symbol, calculate, increase, sum, augment, enlarge, advance]
 category: Shapes
+tags: [geometry, addition, math, symbol, calculate, increase, sum, augment, enlarge, advance]
 version: "2.35"
 unicode: "fc98"
 -->

@@ -26,8 +26,8 @@ class DeviceTabletCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tablet, program, development, software, script, coding, compose, dev, engineer, syntax]
 category: Devices
+tags: [tablet, program, development, software, script, coding, compose, dev, engineer, syntax]
 version: "2.10"
 unicode: "f8c3"
 -->

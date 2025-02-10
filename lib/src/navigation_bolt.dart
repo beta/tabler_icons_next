@@ -26,6 +26,7 @@ class NavigationBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [fast, electric, swift, speed, charge, lightning, dynamic, racing, accelerate, quick]
 version: "2.28"
 unicode: "fbe9"

@@ -26,8 +26,8 @@ class DevicesPcOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [computer, monitor, keyboard]
 category: Devices
+tags: [computer, monitor, keyboard]
 version: "1.65"
 unicode: "f113"
 -->

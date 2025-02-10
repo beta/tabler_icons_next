@@ -26,8 +26,8 @@ class RecycleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [trash, rubbish, recyclable, reuse, waste]
 category: Symbols
+tags: [trash, rubbish, recyclable, reuse, waste]
 version: "1.66"
 unicode: "f18c"
 -->

@@ -26,8 +26,8 @@ class RadarOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [location, navigation, gps, find, signal, technology, submarine]
 category: Map
+tags: [location, navigation, gps, find, signal, technology, submarine]
 unicode: "f41f"
 version: "1.94"
 -->

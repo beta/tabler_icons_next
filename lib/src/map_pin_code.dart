@@ -26,8 +26,8 @@ class MapPinCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cipher, cryptic, encrypt, program, key, script, syntax, translate, compute, algorithm]
 category: Map
+tags: [cipher, cryptic, encrypt, program, key, script, syntax, translate, compute, algorithm]
 version: "2.10"
 unicode: "f94d"
 -->

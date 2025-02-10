@@ -26,8 +26,8 @@ class CircleDashedX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cancel, multiply, close, cross, deny, exit, remove, reject, eliminate, terminate]
 category: Shapes
+tags: [cancel, multiply, close, cross, deny, exit, remove, reject, eliminate, terminate]
 version: "2.33"
 unicode: "fc75"
 -->

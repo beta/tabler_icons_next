@@ -26,8 +26,8 @@ class DeviceIpadHorizontalDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [descend, lower, decrease, drop, fall, sink, reduce, bottom, below, under]
 category: Devices
+tags: [descend, lower, decrease, drop, fall, sink, reduce, bottom, below, under]
 version: "2.10"
 unicode: "f894"
 -->

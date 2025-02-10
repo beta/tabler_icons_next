@@ -26,8 +26,8 @@ class LollipopOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [candy, food, sweet, halloween, dessert, sugar]
 category: Food
+tags: [candy, food, sweet, halloween, dessert, sugar]
 version: "1.66"
 unicode: "f157"
 -->

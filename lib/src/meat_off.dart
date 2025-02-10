@@ -26,8 +26,8 @@ class MeatOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, beef, steak, chicken, sasuage, dinner]
 category: Food
+tags: [food, beef, steak, chicken, sasuage, dinner]
 unicode: "f40a"
 version: "1.94"
 -->

@@ -26,8 +26,8 @@ class MapPinCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [configure, adjust, gear, apparatus, mechanism, tweak, system, settings, operation, process]
 category: Map
+tags: [configure, adjust, gear, apparatus, mechanism, tweak, system, settings, operation, process]
 version: "2.10"
 unicode: "f94e"
 -->

@@ -26,6 +26,7 @@ class NavigationExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [alert, attention, notice, warning, remark, surprise, point, caution, highlight, emphasis]
 version: "2.28"
 unicode: "fbf1"

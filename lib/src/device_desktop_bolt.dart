@@ -26,8 +26,8 @@ class DeviceDesktopBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [electric, charge, power, energy, lightning, thunder, storm, current, spark, shock]
 category: Devices
+tags: [electric, charge, power, energy, lightning, thunder, storm, current, spark, shock]
 version: "2.10"
 unicode: "f85e"
 -->

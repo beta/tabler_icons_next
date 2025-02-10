@@ -26,8 +26,8 @@ class HistoryOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [search, see, past, card, website]
 category: System
+tags: [search, see, past, card, website]
 unicode: "f3fb"
 version: "1.94"
 -->

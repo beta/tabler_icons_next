@@ -26,6 +26,7 @@ class Axe extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Games
 tags: [blade, wood, tool, hatchet]
 version: "1.48"
 unicode: "ef9f"

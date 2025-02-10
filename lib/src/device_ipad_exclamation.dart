@@ -26,8 +26,8 @@ class DeviceIpadExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alert, warning, notice, important, caution, attention, critical, urgent, alarm, notify]
 category: Devices
+tags: [alert, warning, notice, important, caution, attention, critical, urgent, alarm, notify]
 version: "2.10"
 unicode: "f88c"
 -->

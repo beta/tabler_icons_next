@@ -26,8 +26,8 @@ class DeviceMobileCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, options, configure, adjust, preferences, tune, modify, routine, control, customize]
 category: Devices
+tags: [settings, options, configure, adjust, preferences, tune, modify, routine, control, customize]
 version: "2.10"
 unicode: "f8b1"
 -->

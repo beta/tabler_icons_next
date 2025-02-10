@@ -26,8 +26,8 @@ class SettingsCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gear, configuration, adjust, setup, control, stop, abort, terminate, cease, halt]
 category: System
+tags: [gear, configuration, adjust, setup, control, stop, abort, terminate, cease, halt]
 version: "2.10"
 unicode: "f9ae"
 -->

@@ -26,8 +26,8 @@ class RainbowOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [colorful, weather, colors, colour, nature]
 category: Weather
+tags: [colorful, weather, colors, colour, nature]
 version: "1.66"
 unicode: "f18a"
 -->

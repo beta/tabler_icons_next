@@ -26,8 +26,8 @@ class HexagonMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [subtract, deduct, reduce, lessen, remove, six, polygon, shape, cut, decrease]
 category: Shapes
+tags: [subtract, deduct, reduce, lessen, remove, six, polygon, shape, cut, decrease]
 version: "2.35"
 unicode: "fc8f"
 -->

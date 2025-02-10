@@ -26,8 +26,8 @@ class LockDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [secure, fasten, anchor, fix, stabilize, guard, lock, hold, seat, retain]
 category: System
+tags: [secure, fasten, anchor, fix, stabilize, guard, lock, hold, seat, retain]
 version: "2.10"
 unicode: "f92a"
 -->

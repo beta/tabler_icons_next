@@ -26,8 +26,8 @@ class ClockBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fast, quick, speed, instant, lightning, rapid, swift, flash, hurry, urgent]
 category: System
+tags: [fast, quick, speed, instant, lightning, rapid, swift, flash, hurry, urgent]
 version: "2.10"
 unicode: "f844"
 -->

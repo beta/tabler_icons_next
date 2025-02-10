@@ -26,8 +26,8 @@ class ClockSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [find, explore, scan, analyze, inspect, investigate, seek, locate, examine, look]
 category: System
+tags: [find, explore, scan, analyze, inspect, investigate, seek, locate, examine, look]
 version: "2.8"
 unicode: "f7c7"
 -->

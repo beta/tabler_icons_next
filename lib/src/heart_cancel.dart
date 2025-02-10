@@ -26,6 +26,7 @@ class HeartCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Shapes
 tags: [stop, end, close, dislike, revoke, terminate, annul, cease, void]
 version: "2.28"
 unicode: "fb9f"

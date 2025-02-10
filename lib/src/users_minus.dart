@@ -26,8 +26,8 @@ class UsersMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [remove, subtract, reduce, decrease, diminish, deduct, lessen, takeaway, withdraw, deplete]
 category: System
+tags: [remove, subtract, reduce, decrease, diminish, deduct, lessen, takeaway, withdraw, deplete]
 version: "2.12"
 unicode: "fa0e"
 -->

@@ -26,8 +26,8 @@ class LanguageOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tongue, country, speech, speak, translate, communication, communicate, english, dialect, dictionary, word]
 category: Text
+tags: [tongue, country, speech, speak, translate, communication, communicate, english, dialect, dictionary, word]
 version: "1.66"
 unicode: "f14e"
 -->

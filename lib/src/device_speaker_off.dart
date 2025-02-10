@@ -26,8 +26,8 @@ class DeviceSpeakerOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sound, music, loud, audio, media]
 category: Devices
+tags: [sound, music, loud, audio, media]
 version: "1.65"
 unicode: "f112"
 -->

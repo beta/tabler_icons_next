@@ -26,8 +26,8 @@ class RosetteDiscountOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sale, reduction, price, cost, money, shopping, bargain]
 category: E-commerce
+tags: [sale, reduction, price, cost, money, shopping, bargain]
 unicode: "f3e6"
 version: "1.94"
 -->

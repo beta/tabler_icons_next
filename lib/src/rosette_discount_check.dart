@@ -26,8 +26,8 @@ class RosetteDiscountCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [reduction, price, cost, money, shopping, bargain, tick, done, verified, certificate, valid, official, success]
 category: E-commerce
+tags: [reduction, price, cost, money, shopping, bargain, tick, done, verified, certificate, valid, official, success]
 version: "1.70"
 unicode: "f1f8"
 -->

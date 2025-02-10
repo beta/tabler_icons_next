@@ -26,8 +26,8 @@ class PanoramaVerticalOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [photo, picture, panoramic]
 category: Photography
+tags: [photo, picture, panoramic]
 unicode: "f418"
 version: "1.94"
 -->

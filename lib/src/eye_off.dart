@@ -26,8 +26,8 @@ class EyeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [view, watch]
 category: System
+tags: [view, watch]
 version: "1.22"
 unicode: "ecf0"
 -->

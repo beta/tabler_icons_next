@@ -26,8 +26,8 @@ class BeachOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sand, sun, umbrella, vacation, travel]
 category: Map
+tags: [sand, sun, umbrella, vacation, travel]
 version: "1.62"
 unicode: "f0b7"
 -->

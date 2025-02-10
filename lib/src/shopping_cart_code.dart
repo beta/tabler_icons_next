@@ -26,6 +26,7 @@ class ShoppingCartCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [program, script, syntax, develop, software, coding, algorithm, markup, debug, compile]
 version: "2.28"
 unicode: "fb5a"

@@ -26,6 +26,7 @@ class PlayCard5 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Games
 tags: [card, five, game, deck, number, fun, gamble, luck, poker, strategy]
 unicode: "10057"
 version: "3.18"

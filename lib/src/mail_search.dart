@@ -26,8 +26,8 @@ class MailSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [find, locate, seek, explore, look, scan, detect, pursue, discover, trail]
 category: Communication
+tags: [find, locate, seek, explore, look, scan, detect, pursue, discover, trail]
 version: "2.10"
 unicode: "f945"
 -->

@@ -26,8 +26,8 @@ class DeviceWatchX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [close, cancel, end, terminate, remove, exit, delete, erase, reject, void]
 category: Devices
+tags: [close, cancel, end, terminate, remove, exit, delete, erase, reject, void]
 version: "2.10"
 unicode: "f8e5"
 -->

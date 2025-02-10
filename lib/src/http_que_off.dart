@@ -26,8 +26,8 @@ class HttpQueOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [routine, disable, sequence, network, order, batch, static, pause, halt, down]
 category: Computers
+tags: [routine, disable, sequence, network, order, batch, static, pause, halt, down]
 unicode: "100df"
 version: "3.26"
 -->

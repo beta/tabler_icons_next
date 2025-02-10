@@ -26,6 +26,7 @@ class EarScan extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [ear, scan, audiology, hearing-test, ear-exam, medical, healthcare, ear-scan, diagnosis, hearing-health]
 version: "2.43"
 unicode: "fd57"

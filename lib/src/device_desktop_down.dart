@@ -26,8 +26,8 @@ class DeviceDesktopDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [download, receive, store, save, transfer, fetch, acquire, sync, obtain, gather]
 category: Devices
+tags: [download, receive, store, save, transfer, fetch, acquire, sync, obtain, gather]
 version: "2.10"
 unicode: "f864"
 -->

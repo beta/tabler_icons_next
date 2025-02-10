@@ -26,6 +26,7 @@ class Prompt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Development
 tags: [command line, terminal, code]
 version: "1.0"
 unicode: "eb0f"

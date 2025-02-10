@@ -26,6 +26,7 @@ class EyeSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [find, explore, seek, vision, sight, look, discover, investigate, view, focus]
 version: "2.28"
 unicode: "fb78"

@@ -26,8 +26,8 @@ class DeviceWatchCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [program, engineer, script, develop, compose, syntax, software, debug, command, build]
 category: Devices
+tags: [program, engineer, script, develop, compose, syntax, software, debug, command, build]
 version: "2.10"
 unicode: "f8d6"
 -->

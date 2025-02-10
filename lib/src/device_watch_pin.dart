@@ -26,8 +26,8 @@ class DeviceWatchPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [attach, secure, fasten, bookmark, clip, stick, mark, peg, fix, place]
 category: Devices
+tags: [attach, secure, fasten, bookmark, clip, stick, mark, peg, fix, place]
 version: "2.10"
 unicode: "f8de"
 -->

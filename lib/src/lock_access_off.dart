@@ -26,8 +26,8 @@ class LockAccessOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [block, limited, restricted, unavailable, confidential]
 category: System
+tags: [block, limited, restricted, unavailable, confidential]
 unicode: "f404"
 version: "1.94"
 -->

@@ -26,8 +26,8 @@ class ParachuteOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [plane, aircraft, land, float, pilot]
 category: Vehicles
+tags: [plane, aircraft, land, float, pilot]
 version: "1.66"
 unicode: "f170"
 -->

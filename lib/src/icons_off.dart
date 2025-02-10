@@ -26,8 +26,8 @@ class IconsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [design, image, picture]
 category: Shapes
+tags: [design, image, picture]
 unicode: "f3fc"
 version: "1.94"
 -->

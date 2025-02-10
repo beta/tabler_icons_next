@@ -26,6 +26,7 @@ class ShoppingCartQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [ask, inquire, query, investigate, curiosity, explore, probe, interrogate, wonder, doubt]
 version: "2.28"
 unicode: "fb66"

@@ -26,8 +26,8 @@ class CameraCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [program, software, develop, encrypt, script, scripting, technology, data, cyber, compute]
 category: Media
+tags: [program, software, develop, encrypt, script, scripting, technology, data, cyber, compute]
 version: "2.10"
 unicode: "f836"
 -->

@@ -26,8 +26,8 @@ class BoxModelOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [css, cascading, style, section, element, square, website, container]
 category: Design
+tags: [css, cascading, style, section, element, square, website, container]
 unicode: "f3ca"
 version: "1.94"
 -->

@@ -26,8 +26,8 @@ class FireHydrantOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [water, emergency, fireman, safety, urban]
 category: Map
+tags: [water, emergency, fireman, safety, urban]
 unicode: "f3ec"
 version: "1.94"
 -->

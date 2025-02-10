@@ -26,6 +26,7 @@ class FilterCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [programming, syntax, script, develop, software, engineer, code, command, logic, algorithm]
 version: "2.28"
 unicode: "fb7f"

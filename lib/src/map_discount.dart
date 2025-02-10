@@ -26,6 +26,7 @@ class MapDiscount extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [bargain, sale, off, reduce, cut, decrease, deduct, concession, markdown, deal]
 version: "2.28"
 unicode: "fbc8"

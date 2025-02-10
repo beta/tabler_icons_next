@@ -26,8 +26,8 @@ class CraneOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [construction, building, machine, lifting]
 category: Vehicles
+tags: [construction, building, machine, lifting]
 version: "1.65"
 unicode: "f109"
 -->

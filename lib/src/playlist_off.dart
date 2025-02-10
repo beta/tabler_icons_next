@@ -26,8 +26,8 @@ class PlaylistOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, song, artist, spotify, track, play, record]
 category: Media
+tags: [music, song, artist, spotify, track, play, record]
 version: "1.66"
 unicode: "f17f"
 -->

@@ -26,8 +26,8 @@ class HourglassOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, timer, sand, clock]
 category: System
+tags: [time, timer, sand, clock]
 version: "1.66"
 unicode: "f147"
 -->

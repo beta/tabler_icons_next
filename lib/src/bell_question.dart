@@ -26,8 +26,8 @@ class BellQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ask, inquire, query, investigate, probe, examine, doubt, wonder, ponder, interrogate]
 category: System
+tags: [ask, inquire, query, investigate, probe, examine, doubt, wonder, ponder, interrogate]
 version: "2.10"
 unicode: "f81d"
 -->

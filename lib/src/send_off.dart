@@ -26,8 +26,8 @@ class SendOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [message, mail, email, gmail, paper, airplane, aeroplane]
 category: Communication
+tags: [message, mail, email, gmail, paper, airplane, aeroplane]
 unicode: "f429"
 version: "1.94"
 -->

@@ -26,8 +26,8 @@ class AdjustmentsCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, gear, mechanism, machinery, wheel, engine, operation, control, process, system]
 category: System
+tags: [settings, gear, mechanism, machinery, wheel, engine, operation, control, process, system]
 version: "2.10"
 unicode: "f7ff"
 -->

@@ -26,8 +26,8 @@ class ConeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [geometry, math, object, shape]
 category: Shapes
+tags: [geometry, math, object, shape]
 unicode: "f3d8"
 version: "1.94"
 -->

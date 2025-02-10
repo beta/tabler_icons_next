@@ -26,8 +26,8 @@ class MessageCircleCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, configure, gear, circular, adjust, tool, modify, customize, control, setup]
 category: Communication
+tags: [settings, configure, gear, circular, adjust, tool, modify, customize, control, setup]
 version: "2.10"
 unicode: "f974"
 -->

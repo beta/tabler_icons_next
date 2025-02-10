@@ -26,6 +26,7 @@ class ScanEye extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [technology, security, safety, safe, secure]
 version: "1.70"
 unicode: "f1ff"

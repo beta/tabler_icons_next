@@ -26,6 +26,7 @@ class EyeBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [observe, monitor, watch, inspect, electric, energy, charge, examine, view, scan]
 version: "2.28"
 unicode: "fb6d"

@@ -26,8 +26,8 @@ class PhotoBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [lightning, electricity, energy, power, fast, storm, icon, snap, photograph, instant]
 category: Media
+tags: [lightning, electricity, energy, power, fast, storm, icon, snap, photograph, instant]
 version: "2.10"
 unicode: "f990"
 -->

@@ -26,8 +26,8 @@ class AdjustmentsPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, add, increase, expand, enlarge, inflate, grow, gain, boost, more]
 category: System
+tags: [settings, add, increase, expand, enlarge, inflate, grow, gain, boost, more]
 version: "2.10"
 unicode: "f807"
 -->

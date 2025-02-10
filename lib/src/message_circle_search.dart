@@ -26,8 +26,8 @@ class MessageCircleSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [find, locate, explore, discover, investigate, conversation, chat, dialogue, seek, research]
 category: Communication
+tags: [find, locate, explore, discover, investigate, conversation, chat, dialogue, seek, research]
 version: "2.10"
 unicode: "f97e"
 -->

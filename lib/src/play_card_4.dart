@@ -26,6 +26,7 @@ class PlayCard4 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Games
 tags: [game, deck, four, quad, gamble, shuffle, deal, card, table, hand]
 unicode: "10058"
 version: "3.18"

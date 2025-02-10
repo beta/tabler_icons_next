@@ -26,8 +26,8 @@ class ScreenShareOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [monitor, stream, tv, mirroring, cast, online]
 category: Devices
+tags: [monitor, stream, tv, mirroring, cast, online]
 version: "1.24"
 unicode: "ed17"
 -->

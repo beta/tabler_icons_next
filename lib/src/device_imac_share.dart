@@ -26,8 +26,8 @@ class DeviceImacShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [spread, distribute, broadcast, communicate, dispense, impart, relay, transmit, convey, announce]
 category: Devices
+tags: [spread, distribute, broadcast, communicate, dispense, impart, relay, transmit, convey, announce]
 version: "2.10"
 unicode: "f881"
 -->

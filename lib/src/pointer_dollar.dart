@@ -26,8 +26,8 @@ class PointerDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, finance, currency, cash, wealth, income, pay, price, budget, value]
 category: System
+tags: [money, finance, currency, cash, wealth, income, pay, price, budget, value]
 version: "2.10"
 unicode: "f99e"
 -->

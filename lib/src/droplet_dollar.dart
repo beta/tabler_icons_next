@@ -26,8 +26,8 @@ class DropletDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [currency, money, finance, budget, cash, payment, price, exchange, transaction, economy]
 category: Design
+tags: [currency, money, finance, budget, cash, payment, price, exchange, transaction, economy]
 version: "2.10"
 unicode: "f8fe"
 -->

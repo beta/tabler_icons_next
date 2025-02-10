@@ -26,6 +26,7 @@ class NavigationStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Map
 tags: [favorite, highlight, fame, rate, celebrity, asterisk, notable, feature, shine, emphasis]
 version: "2.28"
 unicode: "fbfa"

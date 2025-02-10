@@ -26,8 +26,8 @@ class MessageCircleCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [abort, stop, dismiss, circular, reject, halt, void, terminate, cease, deny]
 category: Communication
+tags: [abort, stop, dismiss, circular, reject, halt, void, terminate, cease, deny]
 version: "2.10"
 unicode: "f971"
 -->

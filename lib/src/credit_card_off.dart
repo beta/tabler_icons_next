@@ -26,8 +26,8 @@ class CreditCardOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, purchase, payment, cc]
 category: E-commerce
+tags: [money, purchase, payment, cc]
 version: "1.24"
 unicode: "ed11"
 -->

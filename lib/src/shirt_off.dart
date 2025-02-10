@@ -26,6 +26,7 @@ class ShirtOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [gear, outfit, mocker]
 version: "1.66"
 unicode: "f1a2"

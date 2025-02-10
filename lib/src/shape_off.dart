@@ -26,8 +26,8 @@ class ShapeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [draw, square, form, create, outline]
 category: Design
+tags: [draw, square, form, create, outline]
 version: "1.66"
 unicode: "f1a0"
 -->

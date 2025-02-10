@@ -26,8 +26,8 @@ class ToolsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [preferences, edit, settings]
 category: Design
+tags: [preferences, edit, settings]
 version: "1.67"
 unicode: "f1b7"
 -->

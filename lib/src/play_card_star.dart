@@ -26,6 +26,7 @@ class PlayCardStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Games
 tags: [wild, joker, deck, special, bonus, shine, lucky, power, poker, strategy]
 unicode: "1004e"
 version: "3.18"

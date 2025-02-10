@@ -26,8 +26,8 @@ class BellPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [attach, secure, fix, fasten, anchor, tack, bind, affix, clasp, stick]
 category: System
+tags: [attach, secure, fix, fasten, anchor, tack, bind, affix, clasp, stick]
 version: "2.10"
 unicode: "f81c"
 -->

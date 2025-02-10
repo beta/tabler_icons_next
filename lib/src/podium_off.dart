@@ -26,6 +26,7 @@ class PodiumOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Buildings
 tags: [speach, microphone, conference, politics, audience, presentation]
 unicode: "f41b"
 version: "1.94"

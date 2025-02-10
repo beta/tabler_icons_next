@@ -26,6 +26,7 @@ class BowlSpoon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Food
 tags: [soup, breakfast, cereal, cutlery, utensils, dine, culinary, cookware, eat, dish]
 version: "2.46"
 unicode: "fd91"

@@ -26,8 +26,8 @@ class PaperBagOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [recycle, shopping, ecology, food]
 category: Food
+tags: [recycle, shopping, ecology, food]
 version: "1.66"
 unicode: "f16f"
 -->

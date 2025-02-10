@@ -26,8 +26,8 @@ class TagsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [label, price, shopping, promotion]
 category: E-commerce
+tags: [label, price, shopping, promotion]
 version: "1.49"
 unicode: "efc1"
 -->

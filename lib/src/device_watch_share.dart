@@ -26,8 +26,8 @@ class DeviceWatchShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [distribute, send, connect, post, transmit, publish, broadcast, exchange, propagate, spread]
 category: Devices
+tags: [distribute, send, connect, post, transmit, publish, broadcast, exchange, propagate, spread]
 version: "2.10"
 unicode: "f8e2"
 -->

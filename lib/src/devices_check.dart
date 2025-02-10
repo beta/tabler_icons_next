@@ -26,8 +26,8 @@ class DevicesCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [verify, confirm, validate, approve, tick, audit, inspect, review, affirm, authenticate]
 category: Devices
+tags: [verify, confirm, validate, approve, tick, audit, inspect, review, affirm, authenticate]
 version: "2.10"
 unicode: "f8e8"
 -->

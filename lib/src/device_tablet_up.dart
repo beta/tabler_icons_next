@@ -26,8 +26,8 @@ class DeviceTabletUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tablet, upload, rise, raise, increase, ascend, elevate, soar, climb, boost]
 category: Devices
+tags: [tablet, upload, rise, raise, increase, ascend, elevate, soar, climb, boost]
 version: "2.10"
 unicode: "f8d1"
 -->
