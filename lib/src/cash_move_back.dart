@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class Moneybag extends Icon {
-  const Moneybag({
+class CashMoveBack extends Icon {
+  const CashMoveBack({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,9 +26,8 @@ class Moneybag extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [finance, cash, dollar, currency, bank]
-unicode: "f506"
-version: "1.101"
+unicode: "10140"
+version: "3.31"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -41,8 +40,11 @@ version: "1.101"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M9.5 3h5a1.5 1.5 0 0 1 1.5 1.5a3.5 3.5 0 0 1 -3.5 3.5h-1a3.5 3.5 0 0 1 -3.5 -3.5a1.5 1.5 0 0 1 1.5 -1.5" />
-  <path d="M4 17v-1a8 8 0 1 1 16 0v1a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4" />
+  <path d="M7 15h-3a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v3" />
+  <path d="M12 19h-4a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v2.5" />
+  <path d="M15.914 13.417a2 2 0 1 0 -2.447 2.511" />
+  <path d="M16 19h6" />
+  <path d="M19 16l-3 3l3 3" />
 </svg>
 ''';
 }
