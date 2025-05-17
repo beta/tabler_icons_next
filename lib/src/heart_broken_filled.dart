@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class BookFilled extends Icon {
-  const BookFilled({
+class HeartBrokenFilled extends Icon {
+  const HeartBrokenFilled({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,8 +26,8 @@ class BookFilled extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-version: "2.19"
-unicode: "fa87"
+unicode: "1016a"
+version: "3.33"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,7 @@ unicode: "fa87"
   viewBox="0 0 24 24"
   fill="currentColor"
 >
-  <path d="M21.5 5.134a1 1 0 0 1 .493 .748l.007 .118v13a1 1 0 0 1 -1.5 .866a8 8 0 0 0 -7.5 -.266v-15.174a10 10 0 0 1 8.5 .708m-10.5 -.707l.001 15.174a8 8 0 0 0 -7.234 .117l-.327 .18l-.103 .044l-.049 .016l-.11 .026l-.061 .01l-.117 .006h-.042l-.11 -.012l-.077 -.014l-.108 -.032l-.126 -.056l-.095 -.056l-.089 -.067l-.06 -.056l-.073 -.082l-.064 -.089l-.022 -.036l-.032 -.06l-.044 -.103l-.016 -.049l-.026 -.11l-.01 -.061l-.004 -.049l-.002 -13.068a1 1 0 0 1 .5 -.866a10 10 0 0 1 8.5 -.707" />
+  <path d="M11.001 3.8l-.001 1.963l-1.894 3.79l-.047 .11a1 1 0 0 0 .341 1.137l3.332 2.499l-1.626 3.254a1 1 0 0 0 -.106 .447v3.417l-7.197 -7.127a6 6 0 0 1 6.956 -9.621zm5.77 -.739l.246 .037a6 6 0 0 1 3.184 10.193l-.044 .037l-7.157 7.088v-3.181l1.894 -3.788l.047 -.11a1 1 0 0 0 -.341 -1.137l-3.333 -2.5l1.627 -3.253a1 1 0 0 0 .106 -.447v-2.187a6 6 0 0 1 3.77 -.752" />
 </svg>
 ''';
 }
