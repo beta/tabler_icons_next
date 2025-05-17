@@ -1,3 +1,7 @@
+## 3.33.0
+
+- Add icons from upstream v3.33.0
+
 ## 3.31.0
 
 - Add icons from upstream v3.31.0
