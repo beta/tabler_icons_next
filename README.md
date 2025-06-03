@@ -8,38 +8,6 @@ Yet another [Tabler Icons](https://tabler.io/icons) package for Flutter that kee
 
 https://tabler-icons-next.betakuang.me/
 
-## ✴️ Migrate to v3
-
-v3.x comes with some breaking changes. Font icons and SVGs are no longer available, and each icon is now a individual widget.
-
-For example, to draw a check mark icon in v2, you may use
-
-```dart
-// v2
-
-Icon(TablerIcons.check)
-// or
-SvgPicture.string(TablerIconsSvg.check)
-```
-
-Now in v3 you should use
-
-```dart
-// v3
-
-Check()
-```
-
-To avoid confusion, you may want to add an alias to this package like
-
-```dart
-// v3
-
-import 'package:tabler_icons_next/tabler_icons_next.dart' as tabler;
-
-tabler.Check()
-```
-
 ## 🎉 Getting started
 
 ### Directly import
