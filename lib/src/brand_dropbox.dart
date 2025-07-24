@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class Language extends Icon {
-  const Language({
+class BrandDropbox extends Icon {
+  const BrandDropbox({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,11 +26,12 @@ class Language extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-category: Text
-tags: [tongue, country, speech, speak, translate, communication, communicate, english, dialect, dictionary, word]
-version: "1.5"
-unicode: "ebbe"
+tags: [productivity, storage, cloud, file-sharing]
+category: Brand
+unicode: "1018a"
+version: "3.34"
 -->
+
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="24"
@@ -42,12 +43,7 @@ unicode: "ebbe"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M9 6.371c0 4.418 -2.239 6.629 -5 6.629" />
-  <path d="M4 6.371h7" />
-  <path d="M5 9c0 2.144 2.252 3.908 6 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-  <path d="M6.694 3l.793 .582" />
+  <path d="M7.5 10.625l-4.5 -2.813l4.5 -2.812l4.5 2.813m-4.5 2.812l4.5 -2.813m-4.5 2.813l-4.5 2.823l4.5 2.802m0 -5.625l4.5 2.823m0 -5.636l4.5 2.791l4.5 -2.812l-4.5 -2.791l-4.5 2.813zm-4.5 8.438l4.5 -2.802m-4.5 2.802v1.123l4.5 2.627l4.5 -2.627v-1.123m-4.5 -2.802l4.5 -2.823l4.5 2.823l-4.5 2.802m-4.5 -2.802l4.5 2.802" />
 </svg>
 ''';
 }

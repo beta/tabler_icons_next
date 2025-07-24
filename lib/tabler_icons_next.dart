@@ -725,6 +725,7 @@ export 'src/brand_doctrine.dart';
 export 'src/brand_dolby_digital.dart';
 export 'src/brand_douban.dart';
 export 'src/brand_dribbble.dart';
+export 'src/brand_dropbox.dart';
 export 'src/brand_drops.dart';
 export 'src/brand_drupal.dart';
 export 'src/brand_edge.dart';

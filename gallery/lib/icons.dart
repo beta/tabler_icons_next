@@ -735,6 +735,7 @@ final outlineIcons = LinkedHashMap<String, Widget>.from({
   'BrandDolbyDigital': const tabler.BrandDolbyDigital(),
   'BrandDouban': const tabler.BrandDouban(),
   'BrandDribbble': const tabler.BrandDribbble(),
+  'BrandDropbox': const tabler.BrandDropbox(),
   'BrandDrops': const tabler.BrandDrops(),
   'BrandDrupal': const tabler.BrandDrupal(),
   'BrandEdge': const tabler.BrandEdge(),
