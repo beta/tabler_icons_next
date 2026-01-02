@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class MathOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [subject, count, plus, minus, times, math, off, calculation, equation, disabled]
 category: Math
-tags: [subject, count, plus, minus, times]
-unicode: "f409"
 version: "1.94"
+unicode: "f409"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

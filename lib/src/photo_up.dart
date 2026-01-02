@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class PhotoUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [gallery, load, send, arrow, north, photo, top, increase, content, up]
 category: Media
-tags: [image, gallery, load, send, arrow, north]
-unicode: "f38b"
 version: "1.91"
+unicode: "f38b"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

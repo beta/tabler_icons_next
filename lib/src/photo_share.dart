@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class PhotoShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [distribute, broadcast, spread, disseminate, post, photograph, connect, send, transfer, photo]
 category: Media
-tags: [distribute, broadcast, spread, disseminate, post, photograph, connect, icon, send, transfer]
 version: "2.10"
 unicode: "f998"
 -->

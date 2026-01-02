@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Diamonds extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gambling, game, casino, cards, poker]
+tags: [gambling, game, casino, cards, poker, diamonds, geometry, form, figure, pattern]
 category: Shapes
 version: "1.52"
 unicode: "eff5"
@@ -42,7 +42,7 @@ unicode: "eff5"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M10.831 20.413l-5.375 -6.91c-.608 -.783 -.608 -2.223 0 -3l5.375 -6.911a1.457 1.457 0 0 1 2.338 0l5.375 6.91c.608 .783 .608 2.223 0 3l-5.375 6.911a1.457 1.457 0 0 1 -2.338 0z" />
+  <path d="M10.831 20.413l-5.375 -6.91c-.608 -.783 -.608 -2.223 0 -3l5.375 -6.911a1.457 1.457 0 0 1 2.338 0l5.375 6.91c.608 .783 .608 2.223 0 3l-5.375 6.911a1.457 1.457 0 0 1 -2.338 0" />
 </svg>
 ''';
 }

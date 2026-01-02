@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class Abc extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [letters, alphabet, latin]
-unicode: "f567"
+category: Text
+tags: [letters, alphabet, latin, abc, text, characters, writing, language]
 version: "1.107"
+unicode: "f567"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

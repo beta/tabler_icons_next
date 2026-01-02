@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Bread extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, breakfast, sandwich, toast, baking]
+tags: [food, breakfast, sandwich, toast, baking, bread, meal, cuisine, eating, nutrition]
 category: Food
 version: "1.48"
 unicode: "efa3"
@@ -42,7 +42,7 @@ unicode: "efa3"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M18 4a3 3 0 0 1 2 5.235v8.765a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-8.764a3 3 0 0 1 1.824 -5.231h12.176v-.005z" />
+  <path d="M18 4a3 3 0 0 1 2 5.235v8.765a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-8.764a3 3 0 0 1 1.824 -5.231h12.176v-.005" />
 </svg>
 ''';
 }

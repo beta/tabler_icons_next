@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class Xd extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [emotion, funny, smile, giggle, playful, humor, joy, laugh, happy, amusement]
 version: "2.14"
 unicode: "fa33"
@@ -43,7 +44,7 @@ unicode: "fa33"
 >
   <path d="M6 8l4 8" />
   <path d="M6 16l4 -8" />
-  <path d="M14 8v8h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-2z" />
+  <path d="M14 8v8h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-2" />
 </svg>
 ''';
 }

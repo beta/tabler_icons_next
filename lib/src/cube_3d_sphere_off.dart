@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class Cube3dSphereOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [printing, vector, shape]
-unicode: "f3b5"
+category: System
+tags: [printing, vector, shape, cube, sphere, off, disabled, inactive, 3d]
 version: "1.94"
+unicode: "f3b5"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class CubeUnfolded extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [folding, filed, box, unwrapped]
-unicode: "f61c"
+category: System
+tags: [folding, filed, box, unwrapped, cube, unfolded]
 version: "1.115"
+unicode: "f61c"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +42,7 @@ version: "1.115"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M2 15h10v5h5v-5h5v-5h-10v-5h-5v5h-5z" />
+  <path d="M2 15h10v5h5v-5h5v-5h-10v-5h-5v5h-5l0 5" />
   <path d="M7 15v-5h5v5h5v-5" />
 </svg>
 ''';

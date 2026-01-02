@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -42,7 +42,6 @@ version: "3.0"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path stroke="none" d="M0 0h24v24H0z" />
   <path d="M8 13v.01" />
   <path d="M12 17v.01" />
   <path d="M12 12v.01" />

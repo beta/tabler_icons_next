@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class MoodUnamused extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, unfunny, unhappy, unsmilling]
+tags: [face, emoji, emotion, unfunny, unhappy, unsmilling, mood, unamused]
 category: Mood
 version: "1.83"
 unicode: "f2eb"
@@ -42,7 +42,7 @@ unicode: "f2eb"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
   <path d="M11 16l4 -1.5" />
   <path d="M10 10c-.5 -1 -2.5 -1 -3 0" />
   <path d="M17 10c-.5 -1 -2.5 -1 -3 0" />

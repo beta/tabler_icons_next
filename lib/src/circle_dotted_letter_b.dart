@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class CircleDottedLetterB extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bravo, second-letter, consonant, backup, beta, second, subsection, subordinate, quick]
+tags: [bravo, second-letter, consonant, backup, beta, second, subsection, subordinate, quick, circle]
 category: Letters
-unicode: "ff7e"
 version: "3.11"
+unicode: "ff7e"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ version: "3.11"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M10 16h2a2 2 0 1 0 0 -4h-2h2a2 2 0 1 0 0 -4h-2z" />
+  <path d="M10 16h2a2 2 0 1 0 0 -4h-2h2a2 2 0 1 0 0 -4h-2l0 8" />
   <path d="M7.5 4.21v.01" />
   <path d="M4.21 7.5v.01" />
   <path d="M3 12v.01" />

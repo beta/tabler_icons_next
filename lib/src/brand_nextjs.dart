@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandNextjs extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [website creation, web platform, software, web application functions]
+tags: [website creation, web platform, software, web application functions, brand, nextjs, logo, company, trademark, identity]
 category: Brand
 version: "1.64"
 unicode: "f0dd"

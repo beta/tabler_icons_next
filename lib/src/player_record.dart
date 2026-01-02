@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class PlayerRecord extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, song, playlist, melody, device, voice, recorder, dictation, machine]
+tags: [music, song, playlist, melody, device, voice, recorder, dictation, machine, player]
 category: Media
 version: "1.28"
 unicode: "ed47"
@@ -42,7 +42,7 @@ unicode: "ed47"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+  <path d="M5 12a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
 </svg>
 ''';
 }

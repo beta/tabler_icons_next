@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Infinity extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [endless, eternity, continuum, time, infinity, calculation, equation, mathematics, numeric, formula]
 category: Math
-tags: [endless, eternity, continuum, time]
 version: "1.2"
 unicode: "eb69"
 -->

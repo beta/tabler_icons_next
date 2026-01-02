@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class TimelineEvent extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [process, plan, planning, diagram, chart, roadmap]
+tags: [process, plan, planning, diagram, chart, roadmap, timeline, event, programming, software]
+category: Development
 version: "1.105"
 unicode: "f553"
-category: Development
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,10 +42,10 @@ category: Development
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 20m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M10 20a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M10 20h-6" />
   <path d="M14 20h6" />
-  <path d="M12 15l-2 -2h-3a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-3l-2 2z" />
+  <path d="M12 15l-2 -2h-3a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-3l-2 2" />
 </svg>
 ''';
 }

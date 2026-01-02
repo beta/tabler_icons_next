@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Umbrella extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [rain, weather, storm, wet, autumn, fall]
+category: System
+tags: [rain, weather, storm, wet, autumn, fall, umbrella]
 version: "1.7"
 unicode: "ebf1"
 -->
@@ -41,7 +42,7 @@ unicode: "ebf1"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 12a8 8 0 0 1 16 0z" />
+  <path d="M4 12a8 8 0 0 1 16 0l-16 0" />
   <path d="M12 12v6a2 2 0 0 0 4 0" />
 </svg>
 ''';

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class FolderRoot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Document
 tags: [base, origin, core, source, foundation, anchor, fundament, basis, groundwork, beginning]
 version: "2.42"
 unicode: "fd43"
@@ -41,7 +42,7 @@ unicode: "fd43"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 13m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M10 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M12 15v4" />
   <path d="M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2" />
 </svg>

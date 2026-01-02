@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ClockPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [time, stop, pause, wait, rest, off, clock, control, operation, break]
 category: System
-tags: [time, stop, pause, wait, rest, off]
 version: "1.105"
 unicode: "f548"
 -->

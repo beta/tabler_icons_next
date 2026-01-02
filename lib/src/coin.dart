@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class Coin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, earn, salary, change, dollar]
-version: "1.3"
+tags: [money, earn, salary, change, dollar, coin, store, purchase, shopping, retail]
 category: E-commerce
+version: "1.3"
 unicode: "eb82"
 -->
 <svg
@@ -42,7 +42,7 @@ unicode: "eb82"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
   <path d="M14.8 9a2 2 0 0 0 -1.8 -1h-2a2 2 0 1 0 0 4h2a2 2 0 1 1 0 4h-2a2 2 0 0 1 -1.8 -1" />
   <path d="M12 7v10" />
 </svg>

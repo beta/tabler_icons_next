@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Switch3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [arrows, direction, music, spotify, change, switch, navigation, flow, movement, route]
 category: Arrows
-tags: [arrows, direction, music, spotify, change]
 version: "1.35"
 unicode: "edc0"
 -->

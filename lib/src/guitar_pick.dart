@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class GuitarPick extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, instrument, melody, accesories]
-unicode: "f4c6"
+category: Design
+tags: [music, instrument, melody, accesories, guitar, pick, interface, component, widget, control]
 version: "1.98"
+unicode: "f4c6"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +42,7 @@ version: "1.98"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M16 18.5c2 -2.5 4 -6.5 4 -10.5c0 -2.946 -2.084 -4.157 -4.204 -4.654c-.864 -.23 -2.13 -.346 -3.796 -.346c-1.667 0 -2.932 .115 -3.796 .346c-2.12 .497 -4.204 1.708 -4.204 4.654c0 3.312 2 8 4 10.5c.297 .37 .618 .731 .963 1.081l.354 .347a3.9 3.9 0 0 0 5.364 0a14.05 14.05 0 0 0 1.319 -1.428z" />
+  <path d="M16 18.5c2 -2.5 4 -6.5 4 -10.5c0 -2.946 -2.084 -4.157 -4.204 -4.654c-.864 -.23 -2.13 -.346 -3.796 -.346c-1.667 0 -2.932 .115 -3.796 .346c-2.12 .497 -4.204 1.708 -4.204 4.654c0 3.312 2 8 4 10.5c.297 .37 .618 .731 .963 1.081l.354 .347a3.9 3.9 0 0 0 5.364 0a14.05 14.05 0 0 0 1.319 -1.428" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Drone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [device, fly, aircraft, surveillance, control, autonomous, drone, transport, travel, vehicle]
 category: Vehicles
-tags: [device, fly, aircraft, surveillance, control, autonomous]
 version: "1.33"
 unicode: "ed79"
 -->
@@ -42,7 +42,7 @@ unicode: "ed79"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M10 10h4v4h-4z" />
+  <path d="M10 10h4v4h-4l0 -4" />
   <path d="M10 10l-3.5 -3.5" />
   <path d="M9.96 6a3.5 3.5 0 1 0 -3.96 3.96" />
   <path d="M14 10l3.5 -3.5" />

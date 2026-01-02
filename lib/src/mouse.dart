@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Mouse extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [pointer, cursor, device, mouse, hardware, technology, electronic, gadget, equipment]
 category: Devices
-tags: [pointer, cursor, device]
 version: "1.0"
 unicode: "eaf9"
 -->
@@ -42,7 +42,7 @@ unicode: "eaf9"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M6 3m0 4a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-4a4 4 0 0 1 -4 -4z" />
+  <path d="M6 7a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-4a4 4 0 0 1 -4 -4l0 -10" />
   <path d="M12 7l0 4" />
 </svg>
 ''';

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class CreditCard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, purchase, payment, cc]
+tags: [money, purchase, payment, cc, credit, card, store, shopping, retail, business]
+category: E-commerce
 version: "1.0"
 unicode: "ea84"
-category: E-commerce
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ category: E-commerce
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 5m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+  <path d="M3 8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3l0 -8" />
   <path d="M3 10l18 0" />
   <path d="M7 15l.01 0" />
   <path d="M11 15l2 0" />

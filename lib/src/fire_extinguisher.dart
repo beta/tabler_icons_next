@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class FireExtinguisher extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [safety, emergency, protect, control, suppress, fight, putout, alarm, equipment, fixed]
 version: "2.24"
 unicode: "faf6"
@@ -41,7 +42,7 @@ unicode: "faf6"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 7a4 4 0 0 1 4 4v9a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1v-9a4 4 0 0 1 4 -4z" />
+  <path d="M12 7a4 4 0 0 1 4 4v9a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1v-9a4 4 0 0 1 4 -4" />
   <path d="M9 16h6" />
   <path d="M12 7v-3" />
   <path d="M16 5l-4 -1l4 -1" />

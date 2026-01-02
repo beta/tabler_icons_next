@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class CookieOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [food, sweet, cooking, snack, internet, privacy, cookie, off, meal, cuisine]
 category: Food
-tags: [food, sweet, cooking, snack, internet, privacy]
 version: "1.63"
 unicode: "f0d7"
 -->

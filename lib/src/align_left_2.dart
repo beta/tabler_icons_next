@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class AlignLeft2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [text, alignment, position, align, left, typography, writing, font, character, word]
 category: Text
-tags: [text, alignment, position]
-unicode: "ff00"
 version: "3.6"
+unicode: "ff00"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

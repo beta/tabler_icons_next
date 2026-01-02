@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ArrowUpFromArc extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [navigation, direction, upward, arch, symbol, flow, guide, path, interface, ui]
+tags: [navigation, direction, upward, arch, flow, guide, path, interface, ui, arrow]
 category: Arrows
 version: "2.46"
 unicode: "fd8c"

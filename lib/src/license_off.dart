@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class LicenseOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [authorisation, permission, consent, permit, document, agree]
+category: Document
+tags: [authorisation, permission, consent, permit, document, agree, license, off, disabled, inactive]
 version: "1.66"
 unicode: "f153"
 -->

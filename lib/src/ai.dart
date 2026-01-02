@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Ai extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [artificial intelligence, letters, text, technology, robot, automatic, character, programming, software, ai]
 category: Development
-tags: [artificial intelligence, letters, text, technology, robot, automatic, character]
-unicode: "fee7"
 version: "3.4"
+unicode: "fee7"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

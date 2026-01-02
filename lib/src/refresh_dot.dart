@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class RefreshDot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [again, reload, arrows, loading, replay, refresh, dot, navigation, flow, movement]
 category: Arrows
-tags: [again, reload, arrows, loading, replay]
 version: "1.49"
 unicode: "efbf"
 -->
@@ -44,7 +44,7 @@ unicode: "efbf"
 >
   <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
   <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
-  <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
 </svg>
 ''';
 }

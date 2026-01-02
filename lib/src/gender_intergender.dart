@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class GenderIntergender extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identity, transgender, intersex]
+tags: [identity, transgender, intersex, gender, intergender, person, human, individual]
 category: Gender
 version: "1.64"
 unicode: "f0ed"
@@ -44,7 +44,7 @@ unicode: "f0ed"
 >
   <path d="M13.5 11.5l6.5 6.5v-4" />
   <path d="M11.5 13.5l6.5 6.5" />
-  <path d="M9 4a5 5 0 1 1 0 10a5 5 0 0 1 0 -10z" />
+  <path d="M9 4a5 5 0 1 1 0 10a5 5 0 0 1 0 -10" />
   <path d="M14 20l2 -2" />
 </svg>
 ''';

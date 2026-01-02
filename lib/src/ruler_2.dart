@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Ruler2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [maths, dimensions, size, width, length, geometry, measure, technical, ruler, creative]
 category: Design
-tags: [maths, dimensions, size, width, length, geometry, measure, technical]
 version: "1.39"
 unicode: "eed2"
 -->
@@ -42,7 +42,7 @@ unicode: "eed2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M17 3l4 4l-14 14l-4 -4z" />
+  <path d="M17 3l4 4l-14 14l-4 -4l14 -14" />
   <path d="M16 7l-1.5 -1.5" />
   <path d="M13 10l-1.5 -1.5" />
   <path d="M10 13l-1.5 -1.5" />

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class GridDots extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [network, pattern, layout]
+tags: [network, pattern, layout, grid, dots, control, operation, function, interface, management]
 category: System
 version: "1.0"
 unicode: "eaba"
@@ -42,15 +42,15 @@ unicode: "eaba"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M19 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M19 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M4 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M11 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M18 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M4 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M11 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M18 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class Placeholder extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-unicode: "f626"
+category: Design
+tags: [input, form, placeholder, design]
 version: "1.116"
-tags: [input, form]
+unicode: "f626"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +44,7 @@ tags: [input, form]
 >
   <path d="M10 20.415a8 8 0 1 0 3 -15.415h-3" />
   <path d="M13 8l-3 -3l3 -3" />
-  <path d="M7 17l4 -4l-4 -4l-4 4z" />
+  <path d="M7 17l4 -4l-4 -4l-4 4l4 4" />
 </svg>
 ''';
 }

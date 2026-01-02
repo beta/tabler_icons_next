@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Eraser extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [delete, remove, eliminate, wipe-out, eraser, typography, writing, font, character, word]
 category: Text
-tags: [delete, remove, eliminate, wipe-out]
 version: "1.3"
 unicode: "eb8b"
 -->

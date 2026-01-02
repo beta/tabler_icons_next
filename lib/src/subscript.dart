@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Subscript extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [typography, below, formula, maths, fraction]
+tags: [typography, below, formula, maths, fraction, subscript, writing, font, character, word]
 category: Text
 version: "1.3"
 unicode: "eb9f"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Ankh extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [egypt, religion, cultures, community]
+tags: [egypt, religion, cultures, community, ankh, sign, mark, emblem, representation, indicator]
 category: Symbols
 version: "1.68"
 unicode: "f1cd"

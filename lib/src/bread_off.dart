@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BreadOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [food, breakfast, sandwich, toast, baking, bread, off, meal, cuisine, disabled]
 category: Food
-tags: [food, breakfast, sandwich, toast, baking]
-unicode: "f3cb"
 version: "1.94"
+unicode: "f3cb"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

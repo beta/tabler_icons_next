@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Favicon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [icon, browser, website, tab, bookmark, symbol, mark, identity, web, graphics]
+tags: [browser, website, tab, bookmark, mark, identity, web, graphics, favicon, creative]
 category: Design
 version: "2.44"
 unicode: "fd65"
@@ -42,10 +42,10 @@ unicode: "fd65"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M2 5m0 3a3 3 0 0 1 3 -3h14a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3z" />
+  <path d="M2 8a3 3 0 0 1 3 -3h14a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3l0 -8" />
   <path d="M6 10v4" />
   <path d="M11 10a2 2 0 1 0 0 4" />
-  <path d="M16 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M14 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
 </svg>
 ''';
 }

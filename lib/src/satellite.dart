@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Satellite extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [orbit, space, moon, earth, planet, communication, information, celestial, satellite, location]
 category: Map
-tags: [orbit, space, moon, earth, planet, communication, information, celestial]
 version: "1.39"
 unicode: "eed3"
 -->
@@ -42,7 +42,7 @@ unicode: "eed3"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3.707 6.293l2.586 -2.586a1 1 0 0 1 1.414 0l5.586 5.586a1 1 0 0 1 0 1.414l-2.586 2.586a1 1 0 0 1 -1.414 0l-5.586 -5.586a1 1 0 0 1 0 -1.414z" />
+  <path d="M3.707 6.293l2.586 -2.586a1 1 0 0 1 1.414 0l5.586 5.586a1 1 0 0 1 0 1.414l-2.586 2.586a1 1 0 0 1 -1.414 0l-5.586 -5.586a1 1 0 0 1 0 -1.414" />
   <path d="M6 10l-3 3l3 3l3 -3" />
   <path d="M10 6l3 -3l3 3l-3 3" />
   <path d="M12 12l1.5 1.5" />

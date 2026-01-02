@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class MessagePlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [comment, chat, reply, communication, conversation, message, plus, contact, add, more]
 category: Communication
-tags: [comment, chat, reply, communication, conversation]
 version: "1.16"
 unicode: "ec9a"
 -->

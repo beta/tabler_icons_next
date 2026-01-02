@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Window extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [house, view, glass, apartment, vehicle, light, frame, home, building, window]
 category: Buildings
-tags: [house, view, glass, apartment, vehicle, light, frame, home, building]
 version: "1.39"
 unicode: "ef06"
 -->
@@ -42,7 +42,7 @@ unicode: "ef06"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 3c-3.866 0 -7 3.272 -7 7v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1 -1v-10c0 -3.728 -3.134 -7 -7 -7z" />
+  <path d="M12 3c-3.866 0 -7 3.272 -7 7v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1 -1v-10c0 -3.728 -3.134 -7 -7 -7" />
   <path d="M5 13l14 0" />
   <path d="M12 3l0 18" />
 </svg>

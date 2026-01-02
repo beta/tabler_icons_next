@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Section extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [html, element, layout, divide, position, website]
+tags: [html, layout, divide, position, website, section, creative, artistic, visual, aesthetic]
 category: Design
 version: "1.39"
 unicode: "eed5"
@@ -52,7 +52,7 @@ unicode: "eed5"
   <path d="M8 4h.01" />
   <path d="M12 4h.01" />
   <path d="M16 4l0 .01" />
-  <path d="M4 8m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
+  <path d="M4 9a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1l0 -6" />
 </svg>
 ''';
 }

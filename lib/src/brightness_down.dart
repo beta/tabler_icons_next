@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class BrightnessDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [dark, darker, screen, brightness, down, bottom, decrease, fall, downward, camera]
 category: Photography
-tags: [dark, darker, screen]
 version: "1.3"
 unicode: "eb7d"
 -->
@@ -42,7 +42,7 @@ unicode: "eb7d"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
   <path d="M12 5l0 .01" />
   <path d="M17 7l0 .01" />
   <path d="M19 12l0 .01" />

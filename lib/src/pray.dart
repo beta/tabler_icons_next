@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Pray extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [religion, faith, christianity, islam, buddhism, judaism]
+category: System
+tags: [religion, faith, christianity, islam, buddhism, judaism, pray]
 version: "1.18"
 unicode: "ecbf"
 -->
@@ -41,7 +42,7 @@ unicode: "ecbf"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M11 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
   <path d="M7 20h8l-4 -4v-7l4 3l2 -2" />
 </svg>
 ''';

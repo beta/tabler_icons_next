@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class MathXDivideY2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [mathematic, expression, equation, math, divide, calculation, mathematics, numeric, formula, x]
 category: Math
-tags: [mathematic, expression, equation]
-unicode: "f4f0"
 version: "1.100"
+unicode: "f4f0"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

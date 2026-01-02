@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class LayersIntersect2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [merge, stack, layers, intersect, creative, artistic, visual, aesthetic, style, 2]
 category: Design
-tags: [merge, stack, graphic]
 version: "1.52"
 unicode: "eff8"
 -->
@@ -42,8 +42,8 @@ unicode: "eff8"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M8 4m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
-  <path d="M4 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
+  <path d="M8 6a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2l0 -8" />
+  <path d="M4 10a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2l0 -8" />
   <path d="M9 15l6 -6" />
 </svg>
 ''';

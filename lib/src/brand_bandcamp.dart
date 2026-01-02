@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandBandcamp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, website, music company, audio]
+tags: [music, website, music company, audio, brand, bandcamp, logo, company, trademark, identity]
 category: Brand
 version: "1.71"
 unicode: "f207"
@@ -42,7 +42,7 @@ unicode: "f207"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M8.5 6h13.5l-7 12h-13z" />
+  <path d="M8.5 6h13.5l-7 12h-13l6.5 -12" />
 </svg>
 ''';
 }

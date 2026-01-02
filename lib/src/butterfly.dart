@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class Butterfly extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [animal, insect, nature, fly, wings]
-version: "1.51"
+tags: [animal, insect, nature, fly, wings, butterfly, environment, natural, outdoor, ecosystem]
 category: Nature
+version: "1.51"
 unicode: "efd9"
 -->
 <svg
@@ -42,7 +42,7 @@ unicode: "efd9"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 18.176a3 3 0 1 1 -4.953 -2.449l-.025 .023a4.502 4.502 0 0 1 1.483 -8.75c1.414 0 2.675 .652 3.5 1.671a4.5 4.5 0 1 1 4.983 7.079a3 3 0 1 1 -4.983 2.25z" />
+  <path d="M12 18.176a3 3 0 1 1 -4.953 -2.449l-.025 .023a4.502 4.502 0 0 1 1.483 -8.75c1.414 0 2.675 .652 3.5 1.671a4.5 4.5 0 1 1 4.983 7.079a3 3 0 1 1 -4.983 2.25l-.005 .176" />
   <path d="M12 19v-10" />
   <path d="M9 3l3 2l3 -2" />
 </svg>

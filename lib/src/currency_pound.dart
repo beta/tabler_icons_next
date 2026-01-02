@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class CurrencyPound extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gbp, pound, sterling, british, britain, uk, money, banknote, pay]
+tags: [gbp, pound, sterling, british, britain, uk, money, banknote, pay, currency]
 category: Currencies
 version: "1.4"
 unicode: "ebac"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class SteeringWheelOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [drive, vehicle, direction, turn, holding, racing, steering, wheel, off, transport]
 category: Vehicles
-tags: [drive, vehicle, direction, turn, holding, racing]
-unicode: "f431"
 version: "1.94"
+unicode: "f431"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

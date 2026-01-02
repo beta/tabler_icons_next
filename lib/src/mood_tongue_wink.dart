@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class MoodTongueWink extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, happy, joke]
+tags: [face, emoji, emotion, happy, joke, mood, tongue, wink]
 category: Mood
 version: "1.83"
 unicode: "f2ea"
@@ -42,8 +42,8 @@ unicode: "f2ea"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18z" />
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
   <path d="M9 10h.01" />
   <path d="M10 14v2a2 2 0 0 0 4 0v-2" />
   <path d="M15.5 14h-7" />

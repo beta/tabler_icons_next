@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandCampaignmonitor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [technology, e-mail, site, cm, group]
+tags: [technology, e-mail, site, cm, group, brand, campaignmonitor, logo, company, trademark]
 category: Brand
-unicode: "f328"
 version: "1.86"
+unicode: "f328"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

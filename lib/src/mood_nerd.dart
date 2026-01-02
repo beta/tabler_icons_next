@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class MoodNerd extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [geek, face, bore]
+tags: [geek, face, bore, mood, nerd]
 category: Mood
 version: "1.83"
 unicode: "f2e1"
@@ -42,9 +42,9 @@ unicode: "f2e1"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-  <path d="M8 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M16 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M6 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M14 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
   <path d="M3.5 9h2.5" />
   <path d="M18 9h2.5" />

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class HomeX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [off, sale, commerce, home, house, main, architecture, structure, start, dashboard]
 category: Buildings
-tags: [off, sale, commerce]
-unicode: "f347"
 version: "1.87"
+unicode: "f347"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

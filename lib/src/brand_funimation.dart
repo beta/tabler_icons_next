@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandFunimation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [dubbing, japan, anime, stream, website]
+tags: [dubbing, japan, anime, stream, website, brand, funimation, logo, company, trademark]
 category: Brand
-unicode: "f655"
 version: "1.119"
+unicode: "f655"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,8 +42,8 @@ version: "1.119"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-  <path d="M8 13h8a4 4 0 1 1 -8 0z" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M8 13h8a4 4 0 1 1 -8 0" />
 </svg>
 ''';
 }

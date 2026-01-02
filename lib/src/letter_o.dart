@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class LetterO extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alphabet, symbol, text, code]
+tags: [alphabet, text, code, letter, character, typography, writing, o, glyph]
 category: Letters
 version: "1.12"
 unicode: "ec5e"

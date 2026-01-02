@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Gauge extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [car, dashboard, gauge, control, operation, function, interface, management]
 category: System
-tags: [car, dashboard]
 version: "1.0"
 unicode: "eab1"
 -->
@@ -42,8 +42,8 @@ unicode: "eab1"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-  <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
   <path d="M13.41 10.59l2.59 -2.59" />
   <path d="M7 12a5 5 0 0 1 5 -5" />
 </svg>

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandSteam extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [technology, video, game, digital, distribution, software, player, pc]
+tags: [technology, video, game, digital, distribution, software, player, pc, brand, steam]
 category: Brand
 version: "1.32"
 unicode: "ed6f"
@@ -42,8 +42,8 @@ unicode: "ed6f"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M16.5 5a4.5 4.5 0 1 1 -.653 8.953l-4.347 3.009l0 .038a3 3 0 0 1 -2.824 3l-.176 0a3 3 0 0 1 -2.94 -2.402l-2.56 -1.098v-3.5l3.51 1.755a2.989 2.989 0 0 1 2.834 -.635l2.727 -3.818a4.5 4.5 0 0 1 4.429 -5.302z" />
-  <circle cx="16.5" cy="9.5" r="1" fill="currentColor" />
+  <path d="M16.5 5a4.5 4.5 0 1 1 -.653 8.953l-4.347 3.009l0 .038a3 3 0 0 1 -2.824 3l-.176 0a3 3 0 0 1 -2.94 -2.402l-2.56 -1.098v-3.5l3.51 1.755a2.989 2.989 0 0 1 2.834 -.635l2.727 -3.818a4.5 4.5 0 0 1 4.429 -5.302" />
+  <path d="M15.5 9.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" fill="currentColor" />
 </svg>
 ''';
 }

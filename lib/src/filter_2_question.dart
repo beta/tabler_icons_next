@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class Filter2Question extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-category: Sytem
-unicode: "10151"
+tags: [filter, question, sort, organize, arrange, select, refine, sieve, screen, help]
+category: System
 version: "3.32"
+unicode: "10151"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

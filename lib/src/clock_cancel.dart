@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ClockCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [time, delete, remove, close, alarm, clock, cancel, control, operation, stop]
 category: System
-tags: [time, delete, remove, close, alarm]
 version: "1.105"
 unicode: "f546"
 -->
@@ -43,7 +43,7 @@ unicode: "f546"
   stroke-linejoin="round"
 >
   <path d="M20.997 12.25a9 9 0 1 0 -8.718 8.745" />
-  <path d="M19 19m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M16 19a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
   <path d="M17 21l4 -4" />
   <path d="M12 7v5l2 2" />
 </svg>

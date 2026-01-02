@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class RobotFace extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bot, android, ai, machine, cyborg, automaton, head, gizmo, mech]
+category: System
+tags: [bot, android, ai, machine, cyborg, automaton, head, gizmo, mech, robot]
 version: "2.37"
 unicode: "fcbe"
 -->
@@ -41,7 +42,7 @@ unicode: "fcbe"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M6 5h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2z" />
+  <path d="M6 5h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2" />
   <path d="M9 16c1 .667 2 1 3 1s2 -.333 3 -1" />
   <path d="M9 7l-1 -4" />
   <path d="M15 7l1 -4" />

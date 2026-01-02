@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Resize extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [picture, photo, alter, change, height, width]
+tags: [picture, photo, alter, change, height, width, resize, creative, artistic, visual]
 category: Design
 version: "1.39"
 unicode: "eecf"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class PointerOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [cursor, mouse, point, click, arrow, pointer, off, control, operation, disabled]
 category: System
-tags: [cursor, mouse, point, click, arrow]
 version: "2.10"
 unicode: "f9a3"
 -->

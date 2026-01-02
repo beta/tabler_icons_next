@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class TicketOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cinema, event, theatre, entry, fine, coupon, pass]
+category: Document
+tags: [cinema, event, theatre, entry, fine, coupon, pass, ticket, off, disabled]
 version: "1.67"
 unicode: "f1b2"
 -->

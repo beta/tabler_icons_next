@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class WebhookOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [communication, interaction, comunity, browser, webhook, off, programming, software, disabled, inactive]
 category: Development
-tags: [communication, interaction, comunity, browser]
-unicode: "f43d"
 version: "1.94"
+unicode: "f43d"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

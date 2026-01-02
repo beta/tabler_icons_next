@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class CircuitAmmeter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [diagram, electric, electricity]
+tags: [diagram, electric, electricity, circuit, ammeter, energy, voltage, power, current, interface]
 category: Electrical
 version: "1.77"
 unicode: "f271"
@@ -42,7 +42,7 @@ unicode: "f271"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+  <path d="M5 12a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
   <path d="M5 12h-3" />
   <path d="M19 12h3" />
   <path d="M10 14v-3c0 -1.036 .895 -2 2 -2s2 .964 2 2v3" />

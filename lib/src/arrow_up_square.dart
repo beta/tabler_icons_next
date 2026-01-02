@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ArrowUpSquare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, north]
+tags: [direction, north, arrow, square, pointer, top, increase, navigation, flow, rectangular]
 category: Arrows
 version: "1.35"
 unicode: "eda6"
@@ -44,7 +44,7 @@ unicode: "eda6"
 >
   <path d="M12 17l0 -14" />
   <path d="M15 6l-3 -3l-3 3" />
-  <path d="M10 21v-4h4v4z" />
+  <path d="M10 21v-4h4v4l-4 0" />
 </svg>
 ''';
 }

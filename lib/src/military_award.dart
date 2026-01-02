@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class MilitaryAward extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [achievement, honor, badge, medal, prize, army]
+category: System
+tags: [achievement, honor, badge, medal, prize, army, military, award]
 version: "1.50"
 unicode: "f079"
 -->
@@ -41,7 +42,7 @@ unicode: "f079"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 13m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+  <path d="M8 13a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
   <path d="M8.5 10.5l-1 -2.5h-5.5l2.48 5.788a2 2 0 0 0 1.84 1.212h2.18" />
   <path d="M15.5 10.5l1 -2.5h5.5l-2.48 5.788a2 2 0 0 1 -1.84 1.212h-2.18" />
 </svg>

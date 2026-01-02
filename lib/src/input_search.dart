@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class InputSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [find, website, field, explore]
+tags: [find, website, field, explore, input, search, look, seek, query, browse]
 category: Text
 version: "1.79"
 unicode: "f2a2"
@@ -43,7 +43,7 @@ unicode: "f2a2"
   stroke-linejoin="round"
 >
   <path d="M20 11v-2a2 2 0 0 0 -2 -2h-12a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h5" />
-  <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M15 18a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
   <path d="M20.2 20.2l1.8 1.8" />
 </svg>
 ''';

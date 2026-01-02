@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ArrowRightCircle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [drag, move]
+tags: [drag, move, arrow, right, circle, direction, pointer, navigation, flow, round]
 category: Arrows
 version: "1.35"
 unicode: "ea1e"
@@ -43,7 +43,7 @@ unicode: "ea1e"
   stroke-linejoin="round"
 >
   <path d="M18 15l3 -3l-3 -3" />
-  <path d="M5 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M3 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M7 12h14" />
 </svg>
 ''';

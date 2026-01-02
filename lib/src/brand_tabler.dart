@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandTabler extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, website, dashboard, download, open-source, ui]
+tags: [logo, website, dashboard, download, open-source, ui, brand, tabler, company, trademark]
 category: Brand
 version: "1.15"
 unicode: "ec8f"
@@ -44,7 +44,7 @@ unicode: "ec8f"
 >
   <path d="M8 9l3 3l-3 3" />
   <path d="M13 15h3" />
-  <path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" />
+  <path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4l0 -10" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ArrowMerge extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, north, up]
+tags: [direction, north, up, arrow, merge, pointer, navigation, flow, navigate, move]
 category: Arrows
 version: "1.57"
 unicode: "f04e"

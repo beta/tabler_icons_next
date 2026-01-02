@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Bulldozer extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tractor, construction, site, build, rear, machine]
+tags: [tractor, construction, site, build, rear, machine, bulldozer, transport, travel, vehicle]
 category: Vehicles
 version: "1.34"
 unicode: "ee1d"

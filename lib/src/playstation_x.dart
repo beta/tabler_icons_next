@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class PlaystationX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [controller, console, shape, joystick]
+tags: [controller, console, shape, joystick, playstation, hardware, technology, electronic, gadget, equipment]
 category: Devices
 version: "1.80"
 unicode: "f2b0"
@@ -42,7 +42,7 @@ unicode: "f2b0"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9z" />
+  <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9" />
   <path d="M8.5 8.5l7 7" />
   <path d="M8.5 15.5l7 -7" />
 </svg>

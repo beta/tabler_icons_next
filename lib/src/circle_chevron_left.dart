@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class CircleChevronLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, direction, west]
+tags: [shape, direction, west, circle, chevron, left, navigation, flow, round, circular]
 category: Arrows
-unicode: "f623"
 version: "1.116"
+unicode: "f623"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ version: "1.116"
   stroke-linejoin="round"
 >
   <path d="M13 15l-3 -3l3 -3" />
-  <path d="M21 12a9 9 0 1 0 -18 0a9 9 0 0 0 18 0z" />
+  <path d="M21 12a9 9 0 1 0 -18 0a9 9 0 0 0 18 0" />
 </svg>
 ''';
 }

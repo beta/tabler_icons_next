@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class PhotoOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [picture, landscape, camera, photo, off, content, entertainment, disabled, inactive, multimedia]
 category: Media
-tags: [image, picture, landscape, camera]
 version: "1.22"
 unicode: "ecf6"
 -->

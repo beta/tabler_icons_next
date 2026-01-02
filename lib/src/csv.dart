@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Csv extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [file, document, format, type, folder]
+tags: [file, document, format, type, folder, csv, plugin, addon, module, component]
 category: Extensions
 version: "2.5"
 unicode: "f791"

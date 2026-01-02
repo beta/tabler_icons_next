@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class ListLetters extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [alphabet, type, catalog, index, arrange, sequence, layout, write, text, document]
 version: "2.31"
 unicode: "fc47"
@@ -46,7 +47,7 @@ unicode: "fc47"
   <path d="M11 18h9" />
   <path d="M4 10v-4.5a1.5 1.5 0 0 1 3 0v4.5" />
   <path d="M4 8h3" />
-  <path d="M4 20h1.5a1.5 1.5 0 0 0 0 -3h-1.5h1.5a1.5 1.5 0 0 0 0 -3h-1.5v6z" />
+  <path d="M4 20h1.5a1.5 1.5 0 0 0 0 -3h-1.5h1.5a1.5 1.5 0 0 0 0 -3h-1.5v6" />
 </svg>
 ''';
 }

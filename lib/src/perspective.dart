@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Perspective extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [3d, perspective, transform, reshape, scale, geometry, form, figure, pattern, outline]
 category: Shapes
-tags: [3d, perspective, transform, reshape, scale]
 version: "1.39"
 unicode: "eebd"
 -->
@@ -42,7 +42,7 @@ unicode: "eebd"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M6.141 4.163l12 1.714a1 1 0 0 1 .859 .99v10.266a1 1 0 0 1 -.859 .99l-12 1.714a1 1 0 0 1 -1.141 -.99v-13.694a1 1 0 0 1 1.141 -.99z" />
+  <path d="M6.141 4.163l12 1.714a1 1 0 0 1 .859 .99v10.266a1 1 0 0 1 -.859 .99l-12 1.714a1 1 0 0 1 -1.141 -.99v-13.694a1 1 0 0 1 1.141 -.99" />
 </svg>
 ''';
 }

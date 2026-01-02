@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class InfoCircle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [information, advice, news, tip, sign]
+tags: [information, advice, news, tip, sign, info, circle, control, operation, round]
+category: System
 version: "1.0"
 unicode: "eac5"
-category: System
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

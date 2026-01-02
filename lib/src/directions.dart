@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Directions extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [travel, navigation, discover, directions, location, geography, place, position]
 category: Map
-tags: [travel, navigation, discover]
 version: "1.0"
 unicode: "ea8e"
 -->
@@ -46,8 +46,8 @@ unicode: "ea8e"
   <path d="M12 13v-4" />
   <path d="M12 5v-2" />
   <path d="M10 21h4" />
-  <path d="M8 5v4h11l2 -2l-2 -2z" />
-  <path d="M14 13v4h-8l-2 -2l2 -2z" />
+  <path d="M8 5v4h11l2 -2l-2 -2l-11 0" />
+  <path d="M14 13v4h-8l-2 -2l2 -2l8 0" />
 </svg>
 ''';
 }

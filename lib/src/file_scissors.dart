@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class FileScissors extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cut, cutting, tool, cutter, office]
+tags: [cut, cutting, tool, cutter, office, file, scissors, document, data, content]
 category: Document
 version: "1.56"
 unicode: "f03c"
@@ -43,9 +43,9 @@ unicode: "f03c"
   stroke-linejoin="round"
 >
   <path d="M14 3v4a1 1 0 0 0 1 1h4" />
-  <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
-  <path d="M15 17m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M9 17m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" />
+  <path d="M14 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M8 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
   <path d="M9 17l6 -6" />
   <path d="M15 17l-6 -6" />
 </svg>

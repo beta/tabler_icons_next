@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class WashDrycleanOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [laundry, clean, clear, clothes, wash, dryclean, off, disabled, inactive, cleaning]
 category: Laundry
-tags: [laundry, clean, clear, clothes]
 version: "1.85"
 unicode: "f323"
 -->

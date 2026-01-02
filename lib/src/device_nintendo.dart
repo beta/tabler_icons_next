@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class DeviceNintendo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gamepad, technology, game, console, controller]
+tags: [gamepad, technology, game, console, controller, device, nintendo, hardware, electronic, gadget]
 category: Devices
 version: "1.55"
 unicode: "f026"
@@ -42,10 +42,10 @@ unicode: "f026"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M10 20v-16h-3a4 4 0 0 0 -4 4v8a4 4 0 0 0 4 4h3z" />
-  <path d="M14 20v-16h3a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-3z" />
-  <circle cx="17.5" cy="15.5" r="1" fill="currentColor" />
-  <circle cx="6.5" cy="8.5" r="1" fill="currentColor" />
+  <path d="M10 20v-16h-3a4 4 0 0 0 -4 4v8a4 4 0 0 0 4 4h3" />
+  <path d="M14 20v-16h3a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-3" />
+  <path d="M16.5 15.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" fill="currentColor" />
+  <path d="M5.5 8.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" fill="currentColor" />
 </svg>
 ''';
 }

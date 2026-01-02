@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandOpera extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, browser, internet, free, program]
+tags: [logo, browser, internet, free, program, brand, opera, company, trademark, identity]
 category: Brand
 version: "1.9"
 unicode: "ec21"
@@ -42,8 +42,8 @@ unicode: "ec21"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-  <path d="M12 12m-3 0a3 5 0 1 0 6 0a3 5 0 1 0 -6 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M9 12a3 5 0 1 0 6 0a3 5 0 1 0 -6 0" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class AdCircleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [marketing, promotion, advertisement, shape]
+category: System
+tags: [marketing, promotion, advertisement, shape, circle, off, disabled, inactive, round, circular]
 version: "2.6"
 unicode: "f79d"
 -->

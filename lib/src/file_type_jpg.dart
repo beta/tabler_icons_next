@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class FileTypeJpg extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [image, photo, jpeg, picture, graphic, snapshot, visual, bitmap, raster, color]
+tags: [photo, jpeg, picture, snapshot, visual, bitmap, raster, color, file, type]
 category: Document
 version: "2.25"
 unicode: "fb0d"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class SquareForbid2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [box, disabled, off, block]
+category: Shapes
+tags: [box, disabled, off, block, square, forbid, rectangular, 2]
 version: "1.30"
 unicode: "ed5a"
 -->
@@ -41,7 +42,7 @@ unicode: "ed5a"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+  <path d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14" />
   <path d="M9 15l6 -6" />
 </svg>
 ''';

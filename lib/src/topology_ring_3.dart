@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class TopologyRing3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [hierarchy, network, structure, connection, topology, ring, computing, machine, processor, system]
 category: Computers
-tags: [hierarchy, network, structure, connection]
-unicode: "f5de"
 version: "1.112"
+unicode: "f5de"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,10 +42,10 @@ version: "1.112"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M8 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
-  <path d="M20 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
-  <path d="M20 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
-  <path d="M8 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+  <path d="M8 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
+  <path d="M20 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
+  <path d="M20 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
+  <path d="M8 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
   <path d="M6 8v8" />
   <path d="M18 16v-8" />
   <path d="M8 6h8" />

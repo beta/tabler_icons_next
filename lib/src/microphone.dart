@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Microphone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [record, sound, listen, microphone, content, entertainment, multimedia, broadcast, audio]
 category: Media
-tags: [record, sound, listen]
 version: "1.0"
 unicode: "eaf0"
 -->
@@ -42,7 +42,7 @@ unicode: "eaf0"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M9 2m0 3a3 3 0 0 1 3 -3h0a3 3 0 0 1 3 3v5a3 3 0 0 1 -3 3h0a3 3 0 0 1 -3 -3z" />
+  <path d="M9 5a3 3 0 0 1 3 -3a3 3 0 0 1 3 3v5a3 3 0 0 1 -3 3a3 3 0 0 1 -3 -3l0 -5" />
   <path d="M5 10a7 7 0 0 0 14 0" />
   <path d="M8 21l8 0" />
   <path d="M12 17l0 4" />

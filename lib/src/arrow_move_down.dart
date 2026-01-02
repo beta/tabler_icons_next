@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ArrowMoveDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, south, bottom]
+tags: [direction, south, bottom, arrow, move, down, pointer, decrease, navigation, flow]
 category: Arrows
 version: "1.81"
 unicode: "f2ba"
@@ -44,7 +44,7 @@ unicode: "f2ba"
 >
   <path d="M12 11v10" />
   <path d="M9 18l3 3l3 -3" />
-  <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M10 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Speakerphone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [voice, loud, microphone, loudspeaker, event, protest, speaker, shout, listen]
+tags: [voice, loud, microphone, loudspeaker, event, protest, speaker, shout, listen, speakerphone]
 category: Media
 version: "1.31"
 unicode: "ed61"
@@ -44,7 +44,7 @@ unicode: "ed61"
 >
   <path d="M18 8a3 3 0 0 1 0 6" />
   <path d="M10 8v11a1 1 0 0 1 -1 1h-1a1 1 0 0 1 -1 -1v-5" />
-  <path d="M12 8h0l4.524 -3.77a.9 .9 0 0 1 1.476 .692v12.156a.9 .9 0 0 1 -1.476 .692l-4.524 -3.77h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h8" />
+  <path d="M12 8l4.524 -3.77a.9 .9 0 0 1 1.476 .692v12.156a.9 .9 0 0 1 -1.476 .692l-4.524 -3.77h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h8" />
 </svg>
 ''';
 }

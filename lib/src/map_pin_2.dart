@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class MapPin2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [locate, landmark, site, fixed, anchor, point, attach, secure, embed, map]
 category: Map
-tags: [locate, landmark, site, fixed, anchor, point, attach, secure, embed, element]
 version: "2.31"
 unicode: "fc48"
 -->
@@ -45,7 +45,7 @@ unicode: "fc48"
   <path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7" />
   <path d="M9 4v13" />
   <path d="M15 7v5" />
-  <path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" />
+  <path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879" />
   <path d="M19 18v.01" />
 </svg>
 ''';

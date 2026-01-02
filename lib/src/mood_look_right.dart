@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class MoodLookRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [east, face, direction]
+tags: [east, face, direction, mood, look, right]
 category: Mood
 version: "1.81"
 unicode: "f2c6"
@@ -42,7 +42,7 @@ unicode: "f2c6"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18z" />
+  <path d="M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18" />
   <path d="M15 9h-.01" />
   <path d="M20 15h-4" />
 </svg>

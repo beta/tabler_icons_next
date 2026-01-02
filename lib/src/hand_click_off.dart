@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class HandClickOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [gesture, touch, press, phone, finger, index, forefinger, hand, mouse, click]
 category: Gestures
-tags: [gesture, touch, press, phone, finger, index, forefinger, hand, mouse]
-unicode: "100f1"
 version: "3.27"
+unicode: "100f1"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

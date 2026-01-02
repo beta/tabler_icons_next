@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class CameraMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [video, photo, aperture, camera, minus, content, entertainment, subtract, remove, less]
 category: Media
-tags: [video, photo, aperture]
 version: "1.11"
 unicode: "ec3a"
 -->

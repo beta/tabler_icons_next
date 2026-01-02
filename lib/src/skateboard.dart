@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Skateboard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [toy, vehicle, electrical]
+tags: [toy, vehicle, electrical, skateboard, transport, travel, automobile, mobility]
 category: Vehicles
 version: "1.18"
 unicode: "ecc2"
@@ -42,8 +42,8 @@ unicode: "ecc2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M7 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M17 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M5 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M15 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M3 9a2 1 0 0 0 2 1h14a2 1 0 0 0 2 -1" />
 </svg>
 ''';

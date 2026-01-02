@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Music extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [sound, mp3, album, speakers, melody, music, content, entertainment, multimedia, broadcast]
 category: Media
-tags: [sound, mp3, album, speakers, melody]
 version: "1.0"
 unicode: "eafc"
 -->

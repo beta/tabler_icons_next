@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class DialpadOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [keypad, telephone, phone, call, number, dialpad, off, hardware, technology, disabled]
 category: Devices
-tags: [keypad, telephone, phone, call, number]
 version: "1.65"
 unicode: "f114"
 -->
@@ -43,12 +43,12 @@ unicode: "f114"
   stroke-linejoin="round"
 >
   <path d="M7 7h-4v-4" />
-  <path d="M17 3h4v4h-4z" />
+  <path d="M17 3h4v4h-4l0 -4" />
   <path d="M10 6v-3h4v4h-3" />
-  <path d="M3 10h4v4h-4z" />
+  <path d="M3 10h4v4h-4l0 -4" />
   <path d="M17 13v-3h4v4h-3" />
   <path d="M14 14h-4v-4" />
-  <path d="M10 17h4v4h-4z" />
+  <path d="M10 17h4v4h-4l0 -4" />
   <path d="M3 3l18 18" />
 </svg>
 ''';

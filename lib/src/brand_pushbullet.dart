@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandPushbullet extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, transfer, tool, software]
+tags: [data, transfer, tool, software, brand, pushbullet, logo, company, trademark, identity]
 category: Brand
-unicode: "f330"
 version: "1.86"
+unicode: "f330"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,8 +42,8 @@ version: "1.86"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-  <path d="M11 8v8h2a4 4 0 1 0 0 -8h-2z" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M11 8v8h2a4 4 0 1 0 0 -8h-2" />
   <path d="M8 8v8" />
 </svg>
 ''';

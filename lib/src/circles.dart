@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Circles extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, marbles, balls, juggle, spots]
+tags: [shape, marbles, balls, juggle, spots, circles, round, circular, geometry, form]
 category: Shapes
 version: "1.21"
 unicode: "ece5"
@@ -42,9 +42,9 @@ unicode: "ece5"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
-  <path d="M6.5 17m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
-  <path d="M17.5 17m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+  <path d="M8 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+  <path d="M2.5 17a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+  <path d="M13.5 17a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
 </svg>
 ''';
 }

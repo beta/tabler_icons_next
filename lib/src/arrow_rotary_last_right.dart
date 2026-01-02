@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ArrowRotaryLastRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, north]
+tags: [direction, north, arrow, rotary, last, right, pointer, navigation, flow, navigate]
 category: Arrows
 version: "1.57"
 unicode: "f056"
@@ -42,7 +42,7 @@ unicode: "f056"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M9 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M6 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
   <path d="M9 15v6" />
   <path d="M11.5 9.5l6.5 -6.5" />
   <path d="M13 3h5v5" />

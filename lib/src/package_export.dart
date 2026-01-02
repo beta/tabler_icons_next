@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class PackageExport extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [npm, box, container, delivery, logistic, package, export, programming, software, coding]
 category: Development
-tags: [npm, box, container, delivery, logistic]
 version: "1.59"
 unicode: "f07a"
 -->

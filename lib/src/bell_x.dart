@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class BellX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [alarm, ring, sound, alert, disabled, bell, control, operation, function, interface]
 category: System
-tags: [alarm, ring, sound, alert, disabled]
 version: "1.37"
 unicode: "ede5"
 -->

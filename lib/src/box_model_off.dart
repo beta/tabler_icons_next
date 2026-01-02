@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BoxModelOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [css, cascading, style, section, square, website, container, box, model, off]
 category: Design
-tags: [css, cascading, style, section, element, square, website, container]
-unicode: "f3ca"
 version: "1.94"
+unicode: "f3ca"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

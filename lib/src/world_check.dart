@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class WorldCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [verify, approve, confirm, validate, correct, ensure, certify, global, accept, world]
 category: Map
-tags: [verify, approve, confirm, validate, correct, ensure, certify, global, accept]
 version: "2.10"
 unicode: "f9db"
 -->

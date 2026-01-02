@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class EyeCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [sight, visual, view, public, approve, eye, check, control, operation, confirm]
 category: System
-tags: [sight, visual, view, public, approve]
 version: "1.39"
 unicode: "ee88"
 -->

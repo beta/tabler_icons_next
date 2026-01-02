@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class SquareChevronsLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, direction, west]
+tags: [shape, direction, west, square, chevrons, left, navigation, flow, rectangular, movement]
 category: Arrows
-unicode: "f64c"
 version: "1.118"
+unicode: "f64c"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ version: "1.118"
 >
   <path d="M16 15l-3 -3l3 -3" />
   <path d="M11 15l-3 -3l3 -3" />
-  <path d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z" />
+  <path d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14" />
 </svg>
 ''';
 }

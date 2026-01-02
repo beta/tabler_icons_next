@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class LegoOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [toy, boy, face, play]
-unicode: "f401"
+category: System
+tags: [toy, boy, face, play, lego, off, disabled, inactive]
 version: "1.94"
+unicode: "f401"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

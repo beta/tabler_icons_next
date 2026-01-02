@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class SunHigh extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [temperature, hot, wheater, thermometer, forecast]
+tags: [temperature, hot, wheater, thermometer, forecast, sun, high, climate, meteorology, atmospheric]
 category: Weather
 version: "1.73"
 unicode: "f236"
@@ -42,7 +42,7 @@ unicode: "f236"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M14.828 14.828a4 4 0 1 0 -5.656 -5.656a4 4 0 0 0 5.656 5.656z" />
+  <path d="M14.828 14.828a4 4 0 1 0 -5.656 -5.656a4 4 0 0 0 5.656 5.656" />
   <path d="M6.343 17.657l-1.414 1.414" />
   <path d="M6.343 6.343l-1.414 -1.414" />
   <path d="M17.657 6.343l1.414 -1.414" />

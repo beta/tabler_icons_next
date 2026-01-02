@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class HistoryToggle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [on, off, control, interface]
+category: System
+tags: [on, off, control, interface, history, toggle, switch, option, setting, change]
 version: "1.70"
 unicode: "f1fc"
 -->

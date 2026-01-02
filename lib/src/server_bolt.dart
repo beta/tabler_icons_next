@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ServerBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [data, database, storage, lighting, power, energy, server, bolt, hardware, technology]
 category: Devices
-tags: [data, database, storage, lighting, power, energy]
 version: "1.85"
 unicode: "f320"
 -->
@@ -42,7 +42,7 @@ unicode: "f320"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+  <path d="M3 7a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3" />
   <path d="M15 20h-9a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h12" />
   <path d="M7 8v.01" />
   <path d="M7 16v.01" />

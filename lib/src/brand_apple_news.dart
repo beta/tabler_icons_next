@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -42,9 +42,9 @@ version: "3.8"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 14l6 6h-6z" />
-  <path d="M20 10l-6 -6h6z" />
-  <path d="M4 4v4l12 12h4v-4l-12 -12z" />
+  <path d="M4 14l6 6h-6l0 -6" />
+  <path d="M20 10l-6 -6h6l0 6" />
+  <path d="M4 4v4l12 12h4v-4l-12 -12l-4 0" />
 </svg>
 ''';
 }

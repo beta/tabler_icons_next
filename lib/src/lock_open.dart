@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class LockOpen extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [security, password, secure, unprotected, lock, open, private, control, operation, protected]
 category: System
-tags: [security, password, secure, unprotected]
 version: "1.0"
 unicode: "eae1"
 -->
@@ -42,8 +42,8 @@ unicode: "eae1"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 11m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
-  <path d="M12 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M5 13a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2l0 -6" />
+  <path d="M11 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
   <path d="M8 11v-5a4 4 0 0 1 8 0" />
 </svg>
 ''';

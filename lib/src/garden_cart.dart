@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class GardenCart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gardening, conctruction, wheel, wheelbarrow]
+tags: [gardening, conctruction, wheel, wheelbarrow, garden, cart, transport, travel, vehicle, automobile]
 category: Vehicles
 version: "1.74"
 unicode: "f23e"
@@ -42,7 +42,7 @@ unicode: "f23e"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M17.5 17.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
+  <path d="M15 17.5a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
   <path d="M6 8v11a1 1 0 0 0 1.806 .591l3.694 -5.091v.055" />
   <path d="M6 8h15l-3.5 7l-7.1 -.747a4 4 0 0 1 -3.296 -2.493l-2.853 -7.13a1 1 0 0 0 -.928 -.63h-1.323" />
 </svg>

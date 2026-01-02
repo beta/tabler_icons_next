@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class CurrencyBaht extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [thb, thai, baht, money, banknote, pay]
+tags: [thb, thai, baht, money, banknote, pay, currency, finance, payment, monetary]
 category: Currencies
 version: "1.39"
 unicode: "f08a"

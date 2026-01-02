@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandLinkedin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, website, corporation, work, business, internet]
+tags: [logo, website, corporation, work, business, internet, brand, linkedin, company, trademark]
 category: Brand
 version: "1.15"
 unicode: "ec8c"
@@ -46,7 +46,7 @@ unicode: "ec8c"
   <path d="M8 8v.01" />
   <path d="M12 16v-5" />
   <path d="M16 16v-3a2 2 0 1 0 -4 0" />
-  <path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" />
+  <path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4l0 -10" />
 </svg>
 ''';
 }

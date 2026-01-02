@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class NorthStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [compas, location, point, christmas, direction]
-version: "1.54"
+tags: [compas, location, point, christmas, direction, north, star, navigation, favorite, rating]
 category: Map
+version: "1.54"
 unicode: "f014"
 -->
 <svg

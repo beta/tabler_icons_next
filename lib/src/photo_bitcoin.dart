@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class PhotoBitcoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [crypto, currency, digital, finance, coin, blockchain, money, symbol, photography, snapshot]
-unicode: "ff31"
+category: Photography
+tags: [crypto, currency, digital, finance, coin, blockchain, money, photography, snapshot, photo]
 version: "3.9"
+unicode: "ff31"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

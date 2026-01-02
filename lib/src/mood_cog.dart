@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class MoodCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [emotion, feeling, happy, gear, preferences, face]
+tags: [emotion, feeling, happy, gear, preferences, face, mood, cog, settings, configuration]
 category: Mood
 version: "2.7"
 unicode: "f7b4"
@@ -43,7 +43,7 @@ unicode: "f7b4"
   stroke-linejoin="round"
 >
   <path d="M21 12a9 9 0 1 0 -8.983 9" />
-  <path d="M18.001 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M16.001 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M18.001 14.5v1.5" />
   <path d="M18.001 20v1.5" />
   <path d="M21.032 16.25l-1.299 .75" />

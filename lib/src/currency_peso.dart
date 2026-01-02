@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class CurrencyPeso extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, coin, cash, commerce, mexico]
+tags: [money, coin, cash, commerce, mexico, currency, peso, finance, payment, monetary]
 category: Currencies
-unicode: "f65f"
 version: "1.119"
+unicode: "f65f"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

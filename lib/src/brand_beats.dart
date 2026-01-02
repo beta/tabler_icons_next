@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandBeats extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, audio, headphones, audio equipment]
+tags: [music, audio, headphones, audio equipment, brand, beats, logo, company, trademark, identity]
 category: Brand
 version: "1.71"
 unicode: "f208"
@@ -42,8 +42,8 @@ unicode: "f208"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-  <path d="M12.5 12.5m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M9 12.5a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0" />
   <path d="M9 12v-8" />
 </svg>
 ''';

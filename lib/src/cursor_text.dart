@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class CursorText extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [editor, indicate, position, input, mouse, type, cursor, text, typography, writing]
 category: Text
-tags: [editor, indicate, position, input, mouse, type]
 version: "1.39"
 unicode: "ee6d"
 -->

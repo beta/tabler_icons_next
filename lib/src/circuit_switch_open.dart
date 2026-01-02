@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class CircuitSwitchOpen extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [diagram, electric, electricity, opened]
+tags: [diagram, electric, electricity, opened, circuit, switch, open, energy, voltage, power]
 category: Electrical
 version: "1.77"
 unicode: "f282"
@@ -44,8 +44,8 @@ unicode: "f282"
 >
   <path d="M2 12h2" />
   <path d="M20 12h2" />
-  <path d="M6 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M18 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M4 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M16 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M7.5 10.5l7.5 -5.5" />
 </svg>
 ''';

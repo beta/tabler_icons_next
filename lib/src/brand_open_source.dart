@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandOpenSource extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, code, developer, public, licence, technology]
+tags: [software, code, developer, public, licence, technology, brand, open, source, logo]
 category: Brand
 version: "1.36"
 unicode: "edd0"
@@ -42,7 +42,7 @@ unicode: "edd0"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 3a9 9 0 0 1 3.618 17.243l-2.193 -5.602a3 3 0 1 0 -2.849 0l-2.193 5.603a9 9 0 0 1 3.617 -17.244z" />
+  <path d="M12 3a9 9 0 0 1 3.618 17.243l-2.193 -5.602a3 3 0 1 0 -2.849 0l-2.193 5.603a9 9 0 0 1 3.617 -17.244" />
 </svg>
 ''';
 }

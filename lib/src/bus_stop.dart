@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BusStop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [transport, station, city, travel]
+tags: [transport, station, city, travel, bus, stop, vehicle, automobile, mobility]
 category: Vehicles
 version: "1.82"
 unicode: "f2d4"
@@ -42,8 +42,8 @@ unicode: "f2d4"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 3m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
-  <path d="M18 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M3 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -4" />
+  <path d="M16 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M10 5h7c2.761 0 5 3.134 5 7v5h-2" />
   <path d="M16 17h-8" />
   <path d="M16 5l1.5 7h4.5" />

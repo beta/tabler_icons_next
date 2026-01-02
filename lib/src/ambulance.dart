@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Ambulance extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vehicle, car, hospital, ward, doctor, rescuer]
+tags: [vehicle, car, hospital, ward, doctor, rescuer, ambulance, transport, travel, automobile]
 category: Vehicles
 version: "1.8"
 unicode: "ebf5"
@@ -42,8 +42,8 @@ unicode: "ebf5"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M5 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M15 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
   <path d="M6 10h4m-2 -2v4" />
 </svg>

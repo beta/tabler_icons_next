@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class DeviceMobileCharging extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [battery, charge, wireless, cable]
+tags: [battery, charge, wireless, cable, device, mobile, charging, hardware, technology, electronic]
 category: Devices
 version: "1.72"
 unicode: "f224"
@@ -42,7 +42,7 @@ unicode: "f224"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M6 3m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
+  <path d="M6 5a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2l0 -14" />
   <path d="M11 4h2" />
   <path d="M12 9.5l-1 2.5h2l-1 2.5" />
 </svg>

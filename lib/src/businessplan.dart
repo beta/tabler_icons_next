@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Businessplan extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [business, money, corporate, document, goal, achieve, manage, roadmap, grow]
+category: E-commerce
+tags: [business, money, corporate, document, goal, achieve, manage, roadmap, grow, businessplan]
 version: "1.39"
 unicode: "ee1e"
 -->
@@ -41,7 +42,7 @@ unicode: "ee1e"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M16 6m-5 0a5 3 0 1 0 10 0a5 3 0 1 0 -10 0" />
+  <path d="M11 6a5 3 0 1 0 10 0a5 3 0 1 0 -10 0" />
   <path d="M11 6v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4" />
   <path d="M11 10v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4" />
   <path d="M11 14v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4" />

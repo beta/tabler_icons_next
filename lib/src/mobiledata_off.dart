@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class MobiledataOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [disconnect, block, disable, inactive, unavailable, halt, offline, terminate, stop]
+category: System
+tags: [disconnect, block, disable, inactive, unavailable, halt, offline, terminate, stop, mobiledata]
 version: "2.11"
 unicode: "f9f4"
 -->

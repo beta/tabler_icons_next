@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Virus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [infection, illness, cell, infectious, health, virus, medical, wellness, healthcare, treatment]
 category: Health
-tags: [infection, illness, cell, infectious, health]
 version: "1.2"
 unicode: "eb74"
 -->
@@ -42,7 +42,7 @@ unicode: "eb74"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+  <path d="M7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
   <path d="M12 7v-4" />
   <path d="M11 3h2" />
   <path d="M15.536 8.464l2.828 -2.828" />

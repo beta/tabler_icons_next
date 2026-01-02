@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class CircleLetterX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cancel, "no"]
-version: "1.0"
+tags: [cancel, "no", circle, letter, round, circular, alphabet, character, typography, text]
 category: Letters
+version: "1.0"
 unicode: "f4ae"
 -->
 <svg
@@ -42,7 +42,7 @@ unicode: "f4ae"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
   <path d="M10 8l4 8" />
   <path d="M10 16l4 -8" />
 </svg>

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandMcdonalds extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, cheeseburger, hamburger, fries, fastfood]
+tags: [food, cheeseburger, hamburger, fries, fastfood, brand, mcdonalds, logo, company, trademark]
 category: Brand
 version: "1.75"
 unicode: "f251"

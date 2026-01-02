@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandMastercard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [payment, money, debit, finance]
+tags: [payment, money, debit, finance, brand, mastercard, logo, company, trademark, identity]
 category: Brand
 version: "1.43"
 unicode: "ef49"
@@ -42,9 +42,9 @@ unicode: "ef49"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M14 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M11 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
   <path d="M12 9.765a3 3 0 1 0 0 4.47" />
-  <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+  <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
 </svg>
 ''';
 }

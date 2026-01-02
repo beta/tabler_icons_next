@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class CoinTaka extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: E-commerce
 tags: [currency, money, bangladesh, finance, coin, trade, economy, exchange, wealth, funds]
 version: "2.39"
 unicode: "fd0d"

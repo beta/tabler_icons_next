@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class InnerShadowTopLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, circle, up, north, west]
+tags: [shape, circle, up, north, west, inner, shadow, top, left, creative]
 category: Design
-unicode: "f523"
 version: "1.103"
+unicode: "f523"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ version: "1.103"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 3a9 9 0 1 1 0 18a9 9 0 0 1 0 -18z" />
+  <path d="M12 3a9 9 0 1 1 0 18a9 9 0 0 1 0 -18" />
   <path d="M6 12a6 6 0 0 1 6 -6" />
 </svg>
 ''';

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class BookDownload extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [education, e-book, digital]
-version: "1.59"
+tags: [education, e-book, digital, book, download, file, paper, text, record, information]
 category: Document
+version: "1.59"
 unicode: "f070"
 -->
 <svg

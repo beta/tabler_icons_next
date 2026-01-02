@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Auth2fa extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [login, password, verification, code, two-step, auth, 2fa, programming, software, coding]
 category: Development
-tags: [login, password, verification, code, two-step]
 version: "1.17"
 unicode: "eca0"
 -->

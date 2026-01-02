@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Hexagons extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [diagram, chemistry, modules, geometric]
+tags: [diagram, chemistry, modules, geometric, hexagons, geometry, form, figure, pattern, outline]
 category: Shapes
 version: "1.61"
 unicode: "f09d"
@@ -42,7 +42,7 @@ unicode: "f09d"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 18v-5l4 -2l4 2v5l-4 2z" />
+  <path d="M4 18v-5l4 -2l4 2v5l-4 2l-4 -2" />
   <path d="M8 11v-5l4 -2l4 2v5" />
   <path d="M12 13l4 -2l4 2v5l-4 2l-4 -2" />
 </svg>

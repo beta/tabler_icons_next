@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Scooter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vehicle, drive, driver, engine, motor, journey, trip]
+tags: [vehicle, drive, driver, engine, motor, journey, trip, scooter, transport, travel]
 category: Vehicles
 version: "1.12"
 unicode: "ec6c"
@@ -42,8 +42,8 @@ unicode: "ec6c"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M18 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M6 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M16 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M4 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M8 17h5a6 6 0 0 1 5 -5v-5a2 2 0 0 0 -2 -2h-1" />
 </svg>
 ''';

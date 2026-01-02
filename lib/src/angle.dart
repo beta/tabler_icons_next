@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Angle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [geometry, math, degrees]
+tags: [geometry, math, degrees, angle, creative, artistic, visual, aesthetic, style, corner]
 category: Design
 version: "1.41"
 unicode: "ef20"

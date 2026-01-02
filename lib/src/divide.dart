@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Divide extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [separate, element, multiple, apart, separator, parts]
+tags: [separate, multiple, apart, separator, parts, divide, calculation, equation, mathematics, numeric]
 category: Math
 version: "1.31"
 unicode: "ed5c"
@@ -42,8 +42,8 @@ unicode: "ed5c"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <circle cx="12" cy="6" r="1" fill="currentColor" />
-  <circle cx="12" cy="18" r="1" fill="currentColor" />
+  <path d="M11 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" fill="currentColor" />
+  <path d="M11 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" fill="currentColor" />
   <path d="M5 12l14 0" />
 </svg>
 ''';

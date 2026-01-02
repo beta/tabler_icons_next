@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandPinterest extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, website, images, materials]
+tags: [logo, website, images, materials, brand, pinterest, company, trademark, identity, corporate]
 category: Brand
 version: "1.15"
 unicode: "ec8d"
@@ -44,7 +44,7 @@ unicode: "ec8d"
 >
   <path d="M8 20l4 -9" />
   <path d="M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7" />
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
 </svg>
 ''';
 }

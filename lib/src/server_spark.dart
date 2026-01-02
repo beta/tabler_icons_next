@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class ServerSpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [storage, hosting, www]
+tags: [storage, hosting, www, server, spark, hardware, technology, glitter, shine, flash]
 category: Devices
-unicode: "ffaf"
 version: "3.13"
+unicode: "ffaf"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ version: "3.13"
   stroke-linejoin="round"
 >
   <path d="M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5" />
-  <path d="M3 7a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+  <path d="M3 7a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3l0 -2" />
   <path d="M12 20h-6a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h10.5" />
   <path d="M7 8v.01" />
   <path d="M7 16v.01" />

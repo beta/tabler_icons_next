@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Prompt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [command line, terminal, code, prompt, programming, software, coding, technical, developer]
 category: Development
-tags: [command line, terminal, code]
 version: "1.0"
 unicode: "eb0f"
 -->

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class CurrencyDong extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vietnam, exchange, finance, money, cash]
+tags: [vietnam, exchange, finance, money, cash, currency, dong, payment, monetary, banking]
 category: Currencies
-unicode: "f36f"
 version: "1.90"
+unicode: "f36f"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ version: "1.90"
   stroke-linejoin="round"
 >
   <path d="M6 19h12" />
-  <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+  <path d="M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
   <path d="M16 16v-12" />
   <path d="M17 5h-4" />
 </svg>

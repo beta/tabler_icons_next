@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Fall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [collapse, damage, cliff, height, fall, medical, wellness, healthcare, treatment, care]
 category: Health
-tags: [collapse, damage, cliff, height]
 version: "1.18"
 unicode: "ecb9"
 -->
@@ -44,7 +44,7 @@ unicode: "ecb9"
 >
   <path d="M11 21l1 -5l-1 -4l-3 -4h4l3 -3" />
   <path d="M6 16l-1 -4l3 -4" />
-  <path d="M6 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M5 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
   <path d="M13.5 12h2.5l4 2" />
 </svg>
 ''';

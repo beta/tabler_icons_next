@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class BatteryEco extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [ecology, charge, energy, power, electricity, battery, eco, hardware, technology, electric]
 category: Devices
-tags: [ecology, charge, energy, power, electricity]
 version: "1.42"
 unicode: "ef3c"
 -->
@@ -43,7 +43,7 @@ unicode: "ef3c"
   stroke-linejoin="round"
 >
   <path d="M4 9a2 2 0 0 1 2 -2h11a2 2 0 0 1 2 2v.5a.5 .5 0 0 0 .5 .5a.5 .5 0 0 1 .5 .5v3a.5 .5 0 0 1 -.5 .5a.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-5.5" />
-  <path d="M3 16.143c0 -2.84 2.09 -5.143 4.667 -5.143h2.333v.857c0 2.84 -2.09 5.143 -4.667 5.143h-2.333v-.857z" />
+  <path d="M3 16.143c0 -2.84 2.09 -5.143 4.667 -5.143h2.333v.857c0 2.84 -2.09 5.143 -4.667 5.143h-2.333v-.857" />
   <path d="M3 20v-3" />
 </svg>
 ''';

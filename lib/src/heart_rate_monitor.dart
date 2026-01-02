@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class HeartRateMonitor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [medical, pulse, health, hospital, healthcare]
+tags: [medical, pulse, health, hospital, healthcare, heart, rate, monitor, wellness, love]
 category: Health
 version: "1.44"
 unicode: "ef61"
@@ -42,7 +42,7 @@ unicode: "ef61"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 4m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
+  <path d="M3 5a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1l0 -10" />
   <path d="M7 20h10" />
   <path d="M9 16v4" />
   <path d="M15 16v4" />

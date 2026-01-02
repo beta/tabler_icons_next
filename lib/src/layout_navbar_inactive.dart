@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class LayoutNavbarInactive extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [menu, navigation, directory, browse, navigate, layout, inactive, interface, tool, header]
 version: "2.42"
 unicode: "fd46"
@@ -41,7 +42,7 @@ unicode: "fd46"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z" />
+  <path d="M4 6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12" />
   <path d="M4 9h1" />
   <path d="M19 9h1" />
   <path d="M9 9h1" />

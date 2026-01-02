@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Analyze extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [analytics, data, statistics, graph]
+category: System
+tags: [analytics, data, statistics, graph, analyze, examination, study, review, assessment]
 version: "1.93"
 unicode: "f3a3"
 -->
@@ -43,9 +44,9 @@ unicode: "f3a3"
 >
   <path d="M20 11a8.1 8.1 0 0 0 -6.986 -6.918a8.095 8.095 0 0 0 -8.019 3.918" />
   <path d="M4 13a8.1 8.1 0 0 0 15 3" />
-  <path d="M19 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M5 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M18 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M4 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
 </svg>
 ''';
 }

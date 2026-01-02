@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Contrast2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [edit, paint, photo, contrast, camera, picture, capture, lens, image, 2]
 category: Photography
-tags: [edit, paint, photo]
 version: "1.50"
 unicode: "efc7"
 -->
@@ -42,7 +42,7 @@ unicode: "efc7"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+  <path d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -14" />
   <path d="M3 19h2.25c3.728 0 6.75 -3.134 6.75 -7s3.022 -7 6.75 -7h2.25" />
 </svg>
 ''';

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandSentry extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [technology, application, monitoring, error, tracking, software, cloud, development, app]
+tags: [technology, application, monitoring, error, tracking, software, cloud, development, app, brand]
 category: Brand
 version: "1.36"
 unicode: "edd5"

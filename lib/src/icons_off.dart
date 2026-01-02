@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class IconsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [design, picture, icons, off, disabled, inactive, geometry, form, figure, pattern]
 category: Shapes
-tags: [design, image, picture]
-unicode: "f3fc"
 version: "1.94"
+unicode: "f3fc"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ version: "1.94"
   stroke-linejoin="round"
 >
   <path d="M4.01 4.041a3.5 3.5 0 0 0 2.49 5.959c.975 0 1.865 -.357 2.5 -1m.958 -3.044a3.503 3.503 0 0 0 -2.905 -2.912" />
-  <path d="M2.5 21h8l-4 -7z" />
+  <path d="M2.5 21h8l-4 -7l-4 7" />
   <path d="M14 3l7 7" />
   <path d="M14 10l7 -7" />
   <path d="M18 14h3v3m0 4h-7v-7" />

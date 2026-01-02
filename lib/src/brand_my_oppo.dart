@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandMyOppo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mobile, app, services, membership]
+tags: [mobile, app, services, membership, brand, oppo, logo, company, trademark, identity]
 category: Brand
-unicode: "f4d7"
 version: "1.99"
+unicode: "f4d7"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ version: "1.99"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M18.316 5h-12.632l-3.418 4.019a1.089 1.089 0 0 0 .019 1.447l9.714 10.534l9.715 -10.49a1.09 1.09 0 0 0 .024 -1.444l-3.422 -4.066z" />
+  <path d="M18.316 5h-12.632l-3.418 4.019a1.089 1.089 0 0 0 .019 1.447l9.714 10.534l9.715 -10.49a1.09 1.09 0 0 0 .024 -1.444l-3.422 -4.066" />
   <path d="M9 11l3 3l3 -3" />
 </svg>
 ''';

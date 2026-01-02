@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Snowman extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [winter, christmas, snow, cold, frosty]
+category: Nature
+tags: [winter, christmas, snow, cold, frosty, snowman]
 version: "1.76"
 unicode: "f26d"
 -->
@@ -41,7 +42,7 @@ unicode: "f26d"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 3a4 4 0 0 1 2.906 6.75a6 6 0 1 1 -5.81 0a4 4 0 0 1 2.904 -6.75z" />
+  <path d="M12 3a4 4 0 0 1 2.906 6.75a6 6 0 1 1 -5.81 0a4 4 0 0 1 2.904 -6.75" />
   <path d="M17.5 11.5l2.5 -1.5" />
   <path d="M6.5 11.5l-2.5 -1.5" />
   <path d="M12 13h.01" />

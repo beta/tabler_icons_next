@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Flask2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [liquid, container, glass, chemistry, test, laboratory, experimental, beta, flask, medical]
 category: Health
-tags: [liquid, container, glass, chemistry, test, laboratory, experimental, beta]
 version: "1.44"
 unicode: "ef60"
 -->
@@ -43,7 +43,7 @@ unicode: "ef60"
   stroke-linejoin="round"
 >
   <path d="M6.1 15h11.8" />
-  <path d="M14 3v7.342a6 6 0 0 1 1.318 10.658h-6.635a6 6 0 0 1 1.317 -10.66v-7.34h4z" />
+  <path d="M14 3v7.342a6 6 0 0 1 1.318 10.658h-6.635a6 6 0 0 1 1.317 -10.66v-7.34h4" />
   <path d="M9 3h6" />
 </svg>
 ''';

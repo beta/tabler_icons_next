@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandDiscord extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, application, logo, communication, talks, gamers, freeware, platform]
+tags: [app, application, logo, communication, talks, gamers, freeware, platform, brand, discord]
 category: Brand
 version: "1.21"
 unicode: "ece3"

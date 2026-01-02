@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class MathCos extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [mathematic, cosinus, trigonometry, function, math, cos, calculation, equation, mathematics, numeric]
 category: Math
-tags: [mathematic, cosinus, trigonometry, function]
-unicode: "ff1f"
 version: "3.8"
+unicode: "ff1f"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

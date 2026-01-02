@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandCpp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, programming, language, coding]
+tags: [code, programming, language, coding, brand, cpp, logo, company, trademark, identity]
 category: Brand
-unicode: "f5fe"
 version: "1.114"
+unicode: "f5fe"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

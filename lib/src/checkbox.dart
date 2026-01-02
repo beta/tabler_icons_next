@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Checkbox extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [survey, confirm, tick, "yes", to-do, checkbox, control, operation, approve, function]
 category: System
-tags: [survey, confirm, tick, "yes", to-do]
 version: "1.4"
 unicode: "eba6"
 -->

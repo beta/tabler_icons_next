@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Share3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [network, link, connection]
+tags: [network, link, connection, share, navigation, flow, distribute, send, publish, broadcast]
 category: Arrows
 version: "2.7"
 unicode: "f7bd"
@@ -42,7 +42,7 @@ unicode: "f7bd"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M13 4v4c-6.575 1.028 -9.02 6.788 -10 12c-.037 .206 5.384 -5.962 10 -6v4l8 -7l-8 -7z" />
+  <path d="M13 4v4c-6.575 1.028 -9.02 6.788 -10 12c-.037 .206 5.384 -5.962 10 -6v4l8 -7l-8 -7" />
 </svg>
 ''';
 }

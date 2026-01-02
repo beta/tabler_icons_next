@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Sunset2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [east, horizon, landscape, morning, sunset, climate, forecast, meteorology, atmospheric, conditions]
 category: Weather
-tags: [east, horizon, landscape, morning]
 version: "1.73"
 unicode: "f23a"
 -->

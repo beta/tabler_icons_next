@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class DeviceWatch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [arm, hour, date, minutes, sec., timer, device, watch, hardware, technology]
 category: Devices
-tags: [arm, hour, date, minutes, sec., timer]
 version: "1.8"
 unicode: "ebf9"
 -->
@@ -42,7 +42,7 @@ unicode: "ebf9"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M6 9a3 3 0 0 1 3 -3h6a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3v-6z" />
+  <path d="M6 9a3 3 0 0 1 3 -3h6a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3v-6" />
   <path d="M9 18v3h6v-3" />
   <path d="M9 6v-3h6v3" />
 </svg>

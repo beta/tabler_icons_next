@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class Mobiledata extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [connect, enable, active, available, network, signal, communication, online, transmission, service]
 version: "2.11"
 unicode: "f9f5"

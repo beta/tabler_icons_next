@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class DeviceProjector extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [display, presentation, screen, show, project, beam, visual, image, view, demonstrate]
+category: System
+tags: [display, presentation, screen, show, project, beam, visual, view, demonstrate, device]
 version: "2.29"
 unicode: "fc11"
 -->

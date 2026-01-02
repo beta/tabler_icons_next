@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class SquarePercentage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [geometry, fraction, ratio, calculate, evaluate, determine, measure, symbol, statistic, proportion]
+category: Shapes
+tags: [geometry, fraction, ratio, calculate, evaluate, determine, measure, statistic, proportion, square]
 version: "2.45"
 unicode: "fd83"
 -->
@@ -41,7 +42,7 @@ unicode: "fd83"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z" />
+  <path d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14" />
   <path d="M9 15.037l6 -6" />
   <path d="M9 9.068v.014" />
   <path d="M15 15.082v.016" />

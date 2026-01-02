@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ZodiacTaurus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, horoscope, constellation, stars]
+tags: [sign, horoscope, constellation, stars, zodiac, taurus, astrology, star]
 category: Zodiac
 version: "1.17"
 unicode: "ecb6"
@@ -43,7 +43,7 @@ unicode: "ecb6"
   stroke-linejoin="round"
 >
   <path d="M6 3a6 6 0 0 0 12 0" />
-  <path d="M12 15m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
+  <path d="M6 15a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
 </svg>
 ''';
 }

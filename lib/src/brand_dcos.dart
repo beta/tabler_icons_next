@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandDcos extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [os, operating, system, cloud, services, networking]
+tags: [os, operating, system, cloud, services, networking, brand, dcos, logo, company]
 category: Brand
-unicode: "f32a"
 version: "1.86"
+unicode: "f32a"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ version: "1.86"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 18l18 -12h-18l9 14l9 -14v10l-18 -10z" />
+  <path d="M3 18l18 -12h-18l9 14l9 -14v10l-18 -10l0 12" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class GitPullRequestClosed extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, version control, command]
+tags: [code, version control, command, git, pull, request, closed, versioning, repository, tracking]
+category: Version control
 version: "1.46"
 unicode: "ef7f"
-category: Version control
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +42,9 @@ category: Version control
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M6 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M6 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M18 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M4 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M4 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M16 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M6 8v8" />
   <path d="M18 11v5" />
   <path d="M16 4l4 4m0 -4l-4 4" />

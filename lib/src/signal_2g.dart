@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Signal2g extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mobile, network, phone, wifi, connection]
+tags: [mobile, network, phone, wifi, connection, signal, hardware, technology, 2g, electronic]
+category: Devices
 version: "2.5"
 unicode: "f79a"
-category: Devices
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

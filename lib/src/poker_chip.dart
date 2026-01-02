@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class PokerChip extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [casino, game, money, gambling]
+tags: [casino, game, money, gambling, poker, chip, entertainment, playing, recreation, fun]
+category: Games
 version: "1.102"
 unicode: "f515"
-category: Games
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,8 +42,8 @@ category: Games
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-  <path d="M12 12m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
   <path d="M12 3v4" />
   <path d="M12 17v4" />
   <path d="M3 12h4" />

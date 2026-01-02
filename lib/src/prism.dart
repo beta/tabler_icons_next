@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Prism extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [3d, pattern, abstract, geometric, shape, prism, geometry, form, figure, outline]
 category: Shapes
-tags: [3d, pattern, abstract, geometric, shape]
 version: "2.20"
 unicode: "fab1"
 -->
@@ -43,7 +43,7 @@ unicode: "fab1"
   stroke-linejoin="round"
 >
   <path d="M12 9v13" />
-  <path d="M19 17.17l-5.98 4.485a1.7 1.7 0 0 1 -2.04 0l-5.98 -4.485a2.5 2.5 0 0 1 -1 -2v-11.17a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v11.17a2.5 2.5 0 0 1 -1 2z" />
+  <path d="M19 17.17l-5.98 4.485a1.7 1.7 0 0 1 -2.04 0l-5.98 -4.485a2.5 2.5 0 0 1 -1 -2v-11.17a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v11.17a2.5 2.5 0 0 1 -1 2" />
   <path d="M4.3 3.3l6.655 5.186a1.7 1.7 0 0 0 2.09 0l6.655 -5.186" />
 </svg>
 ''';

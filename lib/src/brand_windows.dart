@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandWindows extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, system, os, computer, microsoft]
+tags: [logo, system, os, computer, microsoft, brand, windows, company, trademark, identity]
 category: Brand
 version: "1.20"
 unicode: "ecd8"
@@ -42,7 +42,7 @@ unicode: "ecd8"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M17.8 20l-12 -1.5c-1 -.1 -1.8 -.9 -1.8 -1.9v-9.2c0 -1 .8 -1.8 1.8 -1.9l12 -1.5c1.2 -.1 2.2 .8 2.2 1.9v12.1c0 1.2 -1.1 2.1 -2.2 1.9z" />
+  <path d="M17.8 20l-12 -1.5c-1 -.1 -1.8 -.9 -1.8 -1.9v-9.2c0 -1 .8 -1.8 1.8 -1.9l12 -1.5c1.2 -.1 2.2 .8 2.2 1.9v12.1c0 1.2 -1.1 2.1 -2.2 1.9l0 .1" />
   <path d="M12 5l0 14" />
   <path d="M4 12l16 0" />
 </svg>

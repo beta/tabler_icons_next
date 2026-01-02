@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Sunrise extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [west, horizon, landscape, evening]
+tags: [west, horizon, landscape, evening, sunrise, climate, forecast, meteorology, atmospheric, conditions]
 category: Weather
 version: "1.10"
 unicode: "ef1c"

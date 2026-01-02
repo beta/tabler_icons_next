@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class OvalVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, graphic, circle]
+tags: [shape, circle, oval, vertical, geometry, form, figure, pattern, outline]
 category: Shapes
 version: "1.55"
 unicode: "f02d"
@@ -42,7 +42,7 @@ unicode: "f02d"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 12c0 -3.314 4.03 -6 9 -6s9 2.686 9 6s-4.03 6 -9 6s-9 -2.686 -9 -6z" />
+  <path d="M3 12c0 -3.314 4.03 -6 9 -6s9 2.686 9 6s-4.03 6 -9 6s-9 -2.686 -9 -6" />
 </svg>
 ''';
 }

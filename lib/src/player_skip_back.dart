@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class PlayerSkipBack extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [button, player, video, film, music, cancel, rewind, reverse]
+tags: [button, player, video, film, music, cancel, rewind, reverse, skip, back]
 category: Media
 version: "1.28"
 unicode: "ed48"
@@ -42,7 +42,7 @@ unicode: "ed48"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M20 5v14l-12 -7z" />
+  <path d="M20 5v14l-12 -7l12 -7" />
   <path d="M4 5l0 14" />
 </svg>
 ''';

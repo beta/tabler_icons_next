@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class CurrencyHryvnia extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, finance, money, cash, ukraine]
+tags: [exchange, finance, money, cash, ukraine, currency, hryvnia, payment, monetary, banking]
 category: Currencies
-unicode: "f372"
 version: "1.90"
+unicode: "f372"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

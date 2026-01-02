@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class HomeUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [arrow, higher, house, north, home, main, top, increase, architecture, structure]
 category: Buildings
-tags: [arrow, higher, house, north]
-unicode: "f346"
 version: "1.87"
+unicode: "f346"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

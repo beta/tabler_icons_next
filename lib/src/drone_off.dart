@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class DroneOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [device, fly, aircraft, surveillance, control, autonomous, drone, off, transport, travel]
 category: Vehicles
-tags: [device, fly, aircraft, surveillance, control, autonomous]
 version: "1.39"
 unicode: "ee7e"
 -->

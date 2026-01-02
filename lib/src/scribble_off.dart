@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class ScribbleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [kid, doodle, draw, drawing, scribble, off, disabled, inactive, typography, writing]
 category: Text
-tags: [kid, doodle, draw, drawing]
-unicode: "f427"
 version: "1.94"
+unicode: "f427"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

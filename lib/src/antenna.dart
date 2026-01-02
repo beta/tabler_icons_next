@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class Antenna extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [reach, tv, network, connetion, signal, communication]
-version: "1.61"
+tags: [reach, tv, network, connetion, signal, communication, antenna, hardware, technology, electronic]
 category: Devices
+version: "1.61"
 unicode: "f094"
 -->
 <svg

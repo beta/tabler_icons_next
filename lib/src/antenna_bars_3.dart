@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class AntennaBars3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [signal, wireless, wi-fi, quality]
+tags: [signal, wireless, wi-fi, quality, antenna, bars, hardware, technology, electronic, gadget]
 category: Devices
 version: "1.19"
 unicode: "ecc9"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BuildingCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [flat, office, city, urban, scyscraper, architecture, construction, building, cog, structure]
 category: Buildings
-tags: [flat, office, city, urban, scyscraper, architecture, construction]
-unicode: "10062"
 version: "3.19"
+unicode: "10062"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ version: "3.19"
   <path d="M14 8h1" />
   <path d="M14 12h1" />
   <path d="M5 21v-16c0 -.53 .211 -1.039 .586 -1.414c.375 -.375 .884 -.586 1.414 -.586h10c.53 0 1.039 .211 1.414 .586c.375 .375 .586 .884 .586 1.414v7" />
-  <path d="M16 18c0 .53 .211 1.039 .586 1.414c.375 .375 .884 .586 1.414 .586c.53 0 1.039 -.211 1.414 -.586c.375 -.375 .586 -.884 .586 -1.414c0 -.53 -.211 -1.039 -.586 -1.414c-.375 -.375 -.884 -.586 -1.414 -.586c-.53 0 -1.039 .211 -1.414 .586c-.375 .375 -.586 .884 -.586 1.414z" />
+  <path d="M16 18c0 .53 .211 1.039 .586 1.414c.375 .375 .884 .586 1.414 .586c.53 0 1.039 -.211 1.414 -.586c.375 -.375 .586 -.884 .586 -1.414c0 -.53 -.211 -1.039 -.586 -1.414c-.375 -.375 -.884 -.586 -1.414 -.586c-.53 0 -1.039 .211 -1.414 .586c-.375 .375 -.586 .884 -.586 1.414" />
   <path d="M18 14.5v1.5" />
   <path d="M18 20v1.5" />
   <path d="M21.032 16.25l-1.299 .75" />

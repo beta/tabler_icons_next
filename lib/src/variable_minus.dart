@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class VariableMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [off, delete, maths, mathematics, science, calculate, function, variable, minus, calculation]
 category: Math
-tags: [off, delete, maths, mathematics, science, calculate, function]
-unicode: "f36a"
 version: "1.89"
+unicode: "f36a"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class TruckDelivery extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [order, purchase, online, shop, store, e-commerce, lorry]
+tags: [order, purchase, online, shop, store, e-commerce, lorry, truck, delivery, shopping]
 category: E-commerce
 version: "1.11"
 unicode: "ec4b"
@@ -42,8 +42,8 @@ unicode: "ec4b"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M5 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M15 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
   <path d="M3 9l4 0" />
 </svg>

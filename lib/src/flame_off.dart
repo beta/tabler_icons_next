@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class FlameOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fire, fireplace, light, burn, bonfire, smoke, barbecue]
+category: Nature
+tags: [fire, fireplace, light, burn, bonfire, smoke, barbecue, flame, off, disabled]
 version: "1.65"
 unicode: "f12e"
 -->

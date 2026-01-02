@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Lambda extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [letter, alphabet, greek, math]
-unicode: "f541"
-version: "1.104"
+tags: [letter, alphabet, greek, math, lambda, character, typography, text, writing]
 category: Letters
+version: "1.104"
+unicode: "f541"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

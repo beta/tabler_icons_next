@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Pinned extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [board, attach, nail, pointed, corkboard, favourite, noticeboard, pinned, location, navigation]
 category: Map
-tags: [board, attach, nail, pointed, corkboard, favourite, noticeboard]
 version: "1.31"
 unicode: "ed60"
 -->

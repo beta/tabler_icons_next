@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class BrowserPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [internet, web, display, new, add, browser, plus, hardware, technology, more]
 category: Devices
-tags: [internet, web, display, new, add]
 version: "1.51"
 unicode: "efd7"
 -->

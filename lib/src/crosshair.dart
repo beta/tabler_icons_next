@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Crosshair extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [reticle, tag, tracer, measurement, target]
+category: System
+tags: [reticle, tag, tracer, measurement, target, crosshair]
 version: "1.11"
 unicode: "ec3e"
 -->

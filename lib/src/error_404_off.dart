@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Error404Off extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [web, page, not, found, message, error, 404, off, disabled, inactive]
 category: Computers
-tags: [web, page, not, found, message]
 version: "1.65"
 unicode: "f122"
 -->

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class TrashX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [bin, litter, recycle, remove, delete, throw, away, waste, trash, control]
 category: System
-tags: [bin, litter, recycle, remove, delete, throw, away, waste]
 version: "1.46"
 unicode: "ef88"
 -->

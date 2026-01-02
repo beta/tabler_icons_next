@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class ViewportTall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [elongate, extend, stretch, high, lofty, elevated, lengthy, prolong, tower, vertical]
 unicode: "fee8"
 version: "3.5"

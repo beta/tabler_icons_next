@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class ExclamationMarkOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [warning, caution, alert, danger, "!"]
+category: System
+tags: [warning, caution, alert, danger, "!", exclamation, mark, off, disabled, inactive]
 version: "1.65"
 unicode: "f124"
 -->

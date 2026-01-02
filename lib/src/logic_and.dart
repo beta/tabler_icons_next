@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class LogicAnd extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gate, technology, electirical, it]
+tags: [gate, technology, electirical, it, logic, and, boolean, operation, reasoning, conditional]
 category: Logic
 version: "1.74"
 unicode: "f240"
@@ -45,7 +45,7 @@ unicode: "f240"
   <path d="M22 12h-5" />
   <path d="M2 9h5" />
   <path d="M2 15h5" />
-  <path d="M9 5c6 0 8 3.5 8 7s-2 7 -8 7h-2v-14h2z" />
+  <path d="M9 5c6 0 8 3.5 8 7s-2 7 -8 7h-2v-14h2" />
 </svg>
 ''';
 }

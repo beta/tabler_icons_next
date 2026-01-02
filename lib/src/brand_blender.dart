@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandBlender extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, graphic, 3d, animation]
+tags: [software, 3d, animation, brand, blender, logo, company, trademark, identity, corporate]
 category: Brand
-unicode: "f326"
 version: "1.86"
+unicode: "f326"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,8 +42,8 @@ version: "1.86"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M15 14m-6 0a6 5 0 1 0 12 0a6 5 0 1 0 -12 0" />
-  <path d="M15 14m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M9 14a6 5 0 1 0 12 0a6 5 0 1 0 -12 0" />
+  <path d="M14 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
   <path d="M3 16l9 -6.5" />
   <path d="M6 9h9" />
   <path d="M13 5l5.65 5" />

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class Percentage60 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [sixty, percentage, threefifths, fraction, part, segment, portion, section, cross-section, division]
 unicode: "fedc"
 version: "3.4"
@@ -41,7 +42,7 @@ version: "3.4"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 3a9 9 0 1 1 -5.162 16.373l5.162 -7.373z" fill="currentColor" stroke="none" />
+  <path d="M12 3a9 9 0 1 1 -5.162 16.373l5.162 -7.373v-9" fill="currentColor" stroke="none" />
   <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
 </svg>
 ''';

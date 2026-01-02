@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandGraphql extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, communication, server]
+tags: [software, communication, server, brand, graphql, logo, company, trademark, identity, corporate]
 category: Brand
-unicode: "f32c"
 version: "1.86"
+unicode: "f32c"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,8 +42,8 @@ version: "1.86"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 8l8 -5l8 5v8l-8 5l-8 -5z" />
-  <path d="M12 4l7.5 12h-15z" />
+  <path d="M4 8l8 -5l8 5v8l-8 5l-8 -5l0 -8" />
+  <path d="M12 4l7.5 12h-15l7.5 -12" />
   <path d="M11 3a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
   <path d="M11 21a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
   <path d="M3 8a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />

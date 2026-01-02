@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class TemperatureMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [weather, celcius, fahrenheit, cold, hot, temperature, minus, climate, forecast, subtract]
 category: Weather
-tags: [weather, celcius, fahrenheit, cold, hot]
 version: "1.7"
 unicode: "ebed"
 -->

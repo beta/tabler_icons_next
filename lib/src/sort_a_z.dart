@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class SortAZ extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alphabet, letters, alphabetical]
+tags: [alphabet, letters, alphabetical, sort, typography, writing, font, character, word, a]
 category: Text
 version: "1.105"
 unicode: "f54f"

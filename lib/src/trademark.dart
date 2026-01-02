@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class Trademark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [legal, product, company, own, ownership, brand, law, right, certificate]
-version: "1.8"
+tags: [legal, product, company, own, ownership, brand, law, right, certificate, trademark]
 category: Symbols
+version: "1.8"
 unicode: "ec0e"
 -->
 <svg

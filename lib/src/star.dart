@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Star extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [favorite, like, mark, bookmark, grade, star, control, operation, rating, function]
 category: System
-tags: [favorite, like, mark, bookmark, grade]
 version: "1.0"
 unicode: "eb2e"
 -->
@@ -42,7 +42,7 @@ unicode: "eb2e"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+  <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873l-6.158 -3.245" />
 </svg>
 ''';
 }

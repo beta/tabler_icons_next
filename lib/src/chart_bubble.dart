@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ChartBubble extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, diagram, graph, rhythm, data, analysis]
+tags: [statistics, diagram, graph, rhythm, data, analysis, chart, bubble, visualization, analytics]
 category: Charts
 version: "1.13"
 unicode: "ec75"
@@ -42,9 +42,9 @@ unicode: "ec75"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M6 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-  <path d="M16 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M14.5 7.5m-4.5 0a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0" />
+  <path d="M3 16a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M14 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M10 7.5a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0" />
 </svg>
 ''';
 }

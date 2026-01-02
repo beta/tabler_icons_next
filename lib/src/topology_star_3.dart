@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class TopologyStar3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [hierarchy, network, structure, connection, topology, star, favorite, rating, computing, machine]
 category: Computers
-tags: [hierarchy, network, structure, connection]
-unicode: "f5e1"
 version: "1.112"
+unicode: "f5e1"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,13 +42,13 @@ version: "1.112"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M10 19a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
-  <path d="M18 5a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
-  <path d="M10 5a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
-  <path d="M6 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
-  <path d="M18 19a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
-  <path d="M14 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
-  <path d="M22 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+  <path d="M10 19a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
+  <path d="M18 5a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
+  <path d="M10 5a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
+  <path d="M6 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
+  <path d="M18 19a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
+  <path d="M14 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
+  <path d="M22 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
   <path d="M6 12h4" />
   <path d="M14 12h4" />
   <path d="M15 7l-2 3" />

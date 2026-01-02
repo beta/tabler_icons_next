@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandValorant extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, fps, videogame, shooter]
+tags: [game, fps, videogame, shooter, brand, valorant, logo, company, trademark, identity]
 category: Brand
-unicode: "f39f"
 version: "1.92"
+unicode: "f39f"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,8 +42,8 @@ version: "1.92"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M14.5 14h4.5l2 -2v-6z" />
-  <path d="M9 19h5l-11 -13v6z" />
+  <path d="M14.5 14h4.5l2 -2v-6l-6.5 8" />
+  <path d="M9 19h5l-11 -13v6l6 7" />
 </svg>
 ''';
 }

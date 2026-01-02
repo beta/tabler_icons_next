@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Sum extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [equation, add, plus, amount, total, sum, calculation, mathematics, numeric, formula]
 category: Math
-tags: [equation, add, plus, amount, total]
 version: "1.2"
 unicode: "eb73"
 -->

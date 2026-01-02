@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandGoogle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, enterprise, browser, internet, web, discover]
+tags: [logo, enterprise, browser, internet, web, discover, brand, google, company, trademark]
 category: Brand
 version: "1.18"
 unicode: "ec1f"
@@ -42,7 +42,7 @@ unicode: "ec1f"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M20.945 11a9 9 0 1 1 -3.284 -5.997l-2.655 2.392a5.5 5.5 0 1 0 2.119 6.605h-4.125v-3h7.945z" />
+  <path d="M20.945 11a9 9 0 1 1 -3.284 -5.997l-2.655 2.392a5.5 5.5 0 1 0 2.119 6.605h-4.125v-3h7.945" />
 </svg>
 ''';
 }

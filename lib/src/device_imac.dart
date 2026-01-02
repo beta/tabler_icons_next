@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class DeviceImac extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [computer, monitor, apple, desktop, pc]
+tags: [computer, monitor, apple, desktop, pc, device, imac, hardware, technology, electronic]
 category: Devices
 version: "2.6"
 unicode: "f7a7"
@@ -42,7 +42,7 @@ unicode: "f7a7"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 4a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-12z" />
+  <path d="M3 4a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-12" />
   <path d="M3 13h18" />
   <path d="M8 21h8" />
   <path d="M10 17l-.5 4" />

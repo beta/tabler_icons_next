@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class GenderTrasvesti extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identity, birth, male, female, heterosexual, homosexual]
+tags: [identity, birth, male, female, heterosexual, homosexual, gender, trasvesti, person, human]
 category: Gender
 version: "1.64"
 unicode: "f0f2"
@@ -42,7 +42,7 @@ unicode: "f0f2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M15 20a5 5 0 1 1 0 -10a5 5 0 0 1 0 10z" />
+  <path d="M15 20a5 5 0 1 1 0 -10a5 5 0 0 1 0 10" />
   <path d="M6 6l5.4 5.4" />
   <path d="M4 8l4 -4" />
 </svg>

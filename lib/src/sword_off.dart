@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class SwordOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [weapon, knight, blade, war, minecraft, warrior, sword, off, disabled, inactive]
 category: Games
-tags: [weapon, knight, blade, war, minecraft, warrior]
-unicode: "f434"
 version: "1.94"
+unicode: "f434"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

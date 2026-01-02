@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,10 @@ class MoneybagMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-unicode: "1013b"
+category: E-commerce
+tags: [moneybag, minus, wealth, rich, money, finance, savings, treasure, subtract, remove]
 version: "3.31"
+unicode: "1013b"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

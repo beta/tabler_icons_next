@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class RepeatOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [reuse, redo, action, replay, loop, flip, repeat, off, content, entertainment]
 category: Media
-tags: [reuse, redo, action, replay, loop, flip]
 version: "1.66"
 unicode: "f18e"
 -->

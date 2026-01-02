@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class FilterOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [funnel, hopper, filtration, filter, off, control, operation, disabled, inactive, sort]
 category: System
-tags: [funnel, hopper, filtration]
 version: "1.26"
 unicode: "ed2c"
 -->

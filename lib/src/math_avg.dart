@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class MathAvg extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [symbol]
+tags: [math, avg, calculation, equation, mathematics, numeric, formula]
 category: Math
 version: "1.64"
 unicode: "f0f4"
@@ -43,7 +43,7 @@ unicode: "f0f4"
   stroke-linejoin="round"
 >
   <path d="M3 21l18 -18" />
-  <path d="M12 12m-8 0a8 8 0 1 0 16 0a8 8 0 1 0 -16 0" />
+  <path d="M4 12a8 8 0 1 0 16 0a8 8 0 1 0 -16 0" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Artboard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [graphics, drawing, design, art, canvas, artboard, creative, artistic, visual, aesthetic]
 category: Design
-tags: [graphics, drawing, design, art, canvas]
 version: "1.1"
 unicode: "ea2a"
 -->
@@ -42,7 +42,7 @@ unicode: "ea2a"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M8 8m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
+  <path d="M8 9a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1l0 -6" />
   <path d="M3 8l1 0" />
   <path d="M3 16l1 0" />
   <path d="M8 3l0 1" />

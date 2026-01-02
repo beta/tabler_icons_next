@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandSublimeText extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, text, editing, programming]
+tags: [software, text, editing, programming, brand, sublime, logo, company, trademark, identity]
 category: Brand
 version: "1.45"
 unicode: "ef74"
@@ -42,8 +42,8 @@ unicode: "ef74"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M19 8l-14 4.5v-5.5l14 -4.5z" />
-  <path d="M19 17l-14 4.5v-5.5l14 -4.5z" />
+  <path d="M19 8l-14 4.5v-5.5l14 -4.5l0 5.5" />
+  <path d="M19 17l-14 4.5v-5.5l14 -4.5l0 5.5" />
   <path d="M19 11.5l-14 -4.5" />
   <path d="M5 12.5l14 4.5" />
 </svg>

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class AccessPointOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [device, hosts, airwaves, wireless, network, access, point, off, hardware, technology]
 category: Devices
-tags: [device, hosts, airwaves, wireless, network]
 version: "1.25"
 unicode: "ed1a"
 -->

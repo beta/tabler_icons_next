@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Badge8k extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, high, resolution, video, display]
-unicode: "f557"
-version: "1.106"
+tags: [shape, high, resolution, video, display, badge, 8k, award, achievement, recognition]
 category: Badges
+version: "1.106"
+unicode: "f557"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,11 +42,11 @@ category: Badges
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+  <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -10" />
   <path d="M14 9v6" />
   <path d="M17 9l-2 3l2 3" />
   <path d="M15 12h-1" />
-  <path d="M8.5 12h-.5a1 1 0 0 1 -1 -1v-1a1 1 0 0 1 1 -1h1a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1zh-.5a1 1 0 0 0 -1 1v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1 -1v-1a1 1 0 0 0 -1 -1" />
+  <path d="M8.5 12h-.5a1 1 0 0 1 -1 -1v-1a1 1 0 0 1 1 -1h1a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-1a1 1 0 0 0 -1 1v1a1 1 0 0 0 1 1h1a1 1 0 0 0 1 -1v-1a1 1 0 0 0 -1 -1" />
 </svg>
 ''';
 }

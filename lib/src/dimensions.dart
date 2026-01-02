@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Dimensions extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [width, height, size, breadth, depth]
+tags: [width, height, size, breadth, depth, dimensions, creative, artistic, visual, aesthetic]
 category: Design
 version: "1.39"
 unicode: "ee7b"
@@ -48,7 +48,7 @@ unicode: "ee7b"
   <path d="M19 10v11" />
   <path d="M17 19l2 2l2 -2" />
   <path d="M21 12l-2 -2l-2 2" />
-  <path d="M3 10m0 2a2 2 0 0 1 2 -2h7a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2z" />
+  <path d="M3 12a2 2 0 0 1 2 -2h7a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2l0 -7" />
 </svg>
 ''';
 }

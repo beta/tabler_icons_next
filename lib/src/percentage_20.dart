@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class Percentage20 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [twenty, fifth, quintile, component, fifthpart, fraction, portion, segment, slice, chunk]
 unicode: "fee2"
 version: "3.4"
@@ -41,7 +42,7 @@ version: "3.4"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 3a9 9 0 0 1 8.497 6.025l-8.497 2.975z" fill="currentColor" stroke="none" />
+  <path d="M12 3a9 9 0 0 1 8.497 6.025l-8.497 2.975v-9" fill="currentColor" stroke="none" />
   <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
 </svg>
 ''';

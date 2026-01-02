@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ListCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [to-do, checklist, form, template, task, reminder, schedule, agenda, list, check]
 category: Text
-tags: [to-do, checklist, form, template, task, reminder, schedule, agenda]
 version: "1.2"
 unicode: "eb6a"
 -->

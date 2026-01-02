@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class Tilde extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [key, sign, about, rounding, math]
-unicode: "f4a5"
+category: System
+tags: [key, sign, about, rounding, math, tilde]
 version: "1.96"
+unicode: "f4a5"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

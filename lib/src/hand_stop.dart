@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class HandStop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [forbiddance, nixing, ban, interdicting, hand, stop, touch, action, motion, interaction]
 category: Gestures
-tags: [forbiddance, nixing, ban, interdicting]
 version: "1.10"
 unicode: "ec2e"
 -->

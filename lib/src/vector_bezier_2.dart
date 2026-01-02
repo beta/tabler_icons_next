@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class VectorBezier2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [curve, parametric, design, vector graphics, representation, vector, bezier, creative, artistic, visual]
 category: Design
-tags: [curve, parametric, design, vector graphics, representation]
 version: "1.27"
 unicode: "f1a3"
 -->
@@ -42,12 +42,12 @@ unicode: "f1a3"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 3m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
-  <path d="M17 17m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+  <path d="M3 4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2" />
+  <path d="M17 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2" />
   <path d="M7 5l7 0" />
   <path d="M10 19l7 0" />
-  <path d="M9 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M15 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M8 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M14 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
   <path d="M7 5.5a5 6.5 0 0 1 5 6.5a5 6.5 0 0 0 5 6.5" />
 </svg>
 ''';

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandLinktree extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hyperlinks, social media, freemium service, website]
+tags: [hyperlinks, social media, freemium service, website, brand, linktree, logo, company, trademark, identity]
 category: Brand
 version: "1.69"
 unicode: "f1e7"

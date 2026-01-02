@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ArrowsDiff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, right, left, west, east]
+tags: [direction, right, left, west, east, arrows, diff, navigation, flow, movement]
 category: Arrows
 version: "1.79"
 unicode: "f296"

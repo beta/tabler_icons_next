@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class SmokingNo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ban, prohibition, cigarette, public place]
-version: "1.18"
+tags: [ban, prohibition, cigarette, public place, smoking, medical, wellness, no, healthcare, treatment]
 category: Health
+version: "1.18"
 unicode: "ecc3"
 -->
 <svg

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class HomeInfinity extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [house, dashboard, living, building, endless, home, infinity, main, architecture, structure]
 category: Buildings
-tags: [house, dashboard, living, building, endless]
-unicode: "f505"
 version: "1.101"
+unicode: "f505"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

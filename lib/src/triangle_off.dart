@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class TriangleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [delta, shape, triangle, off, disabled, inactive, geometry, form, figure, pattern]
 category: Shapes
-tags: [delta, shape]
 version: "1.39"
 unicode: "ef02"
 -->

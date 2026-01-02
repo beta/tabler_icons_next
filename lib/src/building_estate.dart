@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BuildingEstate extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [office, property, work, architecture]
+tags: [office, property, work, architecture, building, estate, structure, construction, interface, component]
 category: Buildings
-unicode: "f5a5"
 version: "1.110"
+unicode: "f5a5"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ version: "1.110"
 >
   <path d="M3 21h18" />
   <path d="M19 21v-4" />
-  <path d="M19 17a2 2 0 0 0 2 -2v-2a2 2 0 1 0 -4 0v2a2 2 0 0 0 2 2z" />
+  <path d="M19 17a2 2 0 0 0 2 -2v-2a2 2 0 1 0 -4 0v2a2 2 0 0 0 2 2" />
   <path d="M14 21v-14a3 3 0 0 0 -3 -3h-4a3 3 0 0 0 -3 3v14" />
   <path d="M9 17v4" />
   <path d="M8 13h2" />

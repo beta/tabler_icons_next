@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class SquareRoundedPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [shape, add, new, create, square, rounded, plus, rectangular, more, increase]
 category: Shapes
-tags: [shape, add, new, create]
-unicode: "f63f"
 version: "1.117"
+unicode: "f63f"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ version: "1.117"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+  <path d="M12 3c7.2 0 9 1.8 9 9c0 7.2 -1.8 9 -9 9c-7.2 0 -9 -1.8 -9 -9c0 -7.2 1.8 -9 9 -9" />
   <path d="M15 12h-6" />
   <path d="M12 9v6" />
 </svg>

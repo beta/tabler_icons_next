@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class AlphabetCyrillic extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [russia, letters, language]
+tags: [russia, letters, language, alphabet, cyrillic, typography, writing, font, character, word]
 category: Text
 version: "1.69"
 unicode: "f1df"

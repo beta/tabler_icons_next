@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Razor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shaver, barber, grooming, beard, moustache]
-unicode: "f4b5"
-version: "1.97"
+tags: [shaver, barber, grooming, beard, moustache, razor, medical, wellness, healthcare, treatment]
 category: Health
+version: "1.97"
+unicode: "f4b5"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +42,9 @@ category: Health
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M7 3h10v4h-10z" />
+  <path d="M7 3h10v4h-10l0 -4" />
   <path d="M12 7v4" />
-  <path d="M12 11a2 2 0 0 1 2 2v6a2 2 0 1 1 -4 0v-6a2 2 0 0 1 2 -2z" />
+  <path d="M12 11a2 2 0 0 1 2 2v6a2 2 0 1 1 -4 0v-6a2 2 0 0 1 2 -2" />
 </svg>
 ''';
 }

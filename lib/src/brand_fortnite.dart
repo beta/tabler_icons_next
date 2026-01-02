@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandFortnite extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [games, online, battle, multiplayer, gun, weapon, building]
+tags: [games, online, battle, multiplayer, gun, weapon, building, brand, fortnite, logo]
 category: Brand
 version: "1.76"
 unicode: "f260"
@@ -42,7 +42,7 @@ unicode: "f260"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M8 3h7.5l-.5 4h-3v3h3v3.5h-3v6.5l-4 1z" />
+  <path d="M8 3h7.5l-.5 4h-3v3h3v3.5h-3v6.5l-4 1l0 -18" />
 </svg>
 ''';
 }

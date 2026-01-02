@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class FoldDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [arrow, move, toggle, fold, down, bottom, decrease, navigation, flow, fall]
 category: Arrows
-tags: [arrow, move, toggle]
 version: "1.30"
 unicode: "ed54"
 -->

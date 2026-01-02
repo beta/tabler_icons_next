@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class DatabaseOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [storage, data, memory, database, off, disabled, inactive, repository, records, information]
 category: Database
-tags: [storage, data, memory]
 version: "1.39"
 unicode: "ee70"
 -->

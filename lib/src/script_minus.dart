@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ScriptMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [code, programming, coding, remove, delete, script, minus, subtract, less, decrease]
 category: Document
-tags: [code, programming, coding, remove, delete]
 version: "1.82"
 unicode: "f2d7"
 -->

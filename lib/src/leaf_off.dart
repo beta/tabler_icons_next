@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class LeafOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [nature, plant, tree, autumn, fall, greenery, flower, forest, garden, leaf]
 category: Nature
-tags: [nature, plant, tree, autumn, fall, greenery, flower, forest, garden]
-unicode: "f400"
 version: "1.94"
+unicode: "f400"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

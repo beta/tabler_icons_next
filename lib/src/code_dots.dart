@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class CodeDots extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [program, script, programmer]
+tags: [program, script, programmer, code, dots, programming, software, development, coding, typography]
 category: Text
-unicode: "f61a"
 version: "1.115"
+unicode: "f61a"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

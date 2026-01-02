@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Svg extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [file, format, extension, filetype, plugin, addon, module, component, svg, extra]
 category: Extensions
-tags: [file, format, extension, graphic, filetype]
 version: "1.75"
 unicode: "f25a"
 -->

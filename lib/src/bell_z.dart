@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BellZ extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alarm, bell, clock, date, snooze, time]
+tags: [alarm, bell, clock, date, snooze, time, control, operation, function, interface]
+category: System
 version: "1.52"
 unicode: "eff1"
-category: System
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class MessageDots extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [comment, chat, reply, message, dots, contact, conversation, messaging, interaction]
 category: Communication
-tags: [comment, chat, reply]
 version: "1.0"
 unicode: "eaee"
 -->
@@ -45,7 +45,7 @@ unicode: "eaee"
   <path d="M12 11v.01" />
   <path d="M8 11v.01" />
   <path d="M16 11v.01" />
-  <path d="M18 4a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-5l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3z" />
+  <path d="M18 4a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-5l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3l12 0" />
 </svg>
 ''';
 }

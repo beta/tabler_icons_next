@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class TipJar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [donate, contribution, money, charity, fund, gift, jar, support, currency, help]
 unicode: "feea"
 version: "3.5"
@@ -45,7 +46,7 @@ version: "3.5"
   <path d="M12 9v1" />
   <path d="M12 16v1" />
   <path d="M17 4v1.882c0 .685 .387 1.312 1 1.618s1 .933 1 1.618v8.882a3 3 0 0 1 -3 3h-8a3 3 0 0 1 -3 -3v-8.882c0 -.685 .387 -1.312 1 -1.618s1 -.933 1 -1.618v-1.882" />
-  <path d="M6 4h12z" />
+  <path d="M6 4h12l-12 0" />
 </svg>
 ''';
 }

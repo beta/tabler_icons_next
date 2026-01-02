@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class FridgeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [kitchen, cooler, control, freezer, food, fridge, off, hardware, technology, disabled]
 category: Devices
-tags: [kitchen, cooler, control, freezer, food]
-unicode: "f3ef"
 version: "1.94"
+unicode: "f3ef"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

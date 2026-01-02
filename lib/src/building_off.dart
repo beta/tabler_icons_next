@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BuildingOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [flat, office, city, urban, scyscraper, architecture, construction, building, off, structure]
 category: Buildings
-tags: [flat, office, city, urban, scyscraper, architecture, construction]
-unicode: "fefd"
 version: "3.6"
+unicode: "fefd"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

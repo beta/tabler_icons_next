@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Exposure0 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [digit, math, number, evaluation]
+tags: [digit, math, number, evaluation, exposure, camera, picture, capture, lens, image]
 category: Photography
 version: "1.79"
 unicode: "f29c"
@@ -42,7 +42,7 @@ unicode: "f29c"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 19a4 4 0 0 0 4 -4v-6a4 4 0 1 0 -8 0v6a4 4 0 0 0 4 4z" />
+  <path d="M12 19a4 4 0 0 0 4 -4v-6a4 4 0 1 0 -8 0v6a4 4 0 0 0 4 4" />
 </svg>
 ''';
 }

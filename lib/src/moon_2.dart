@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Moon2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [night, dark mode, moon, climate, forecast, meteorology, atmospheric, conditions, 2]
 category: Weather
-tags: [night, dark mode]
 version: "1.21"
 unicode: "ece6"
 -->
@@ -43,7 +43,7 @@ unicode: "ece6"
   stroke-linejoin="round"
 >
   <path d="M16.418 4.157a8 8 0 0 0 0 15.686" />
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
 </svg>
 ''';
 }

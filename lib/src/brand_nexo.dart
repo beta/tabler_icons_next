@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandNexo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coin, crypto, cryptocurrency, digital]
+tags: [coin, crypto, cryptocurrency, digital, brand, nexo, logo, company, trademark, identity]
 category: Brand
-unicode: "f5a2"
 version: "1.110"
+unicode: "f5a2"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ version: "1.110"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M17 3l5 3v12l-5 3l-10 -6v-6l10 6v-6l-5 -3z" />
+  <path d="M17 3l5 3v12l-5 3l-10 -6v-6l10 6v-6l-5 -3l5 -3" />
   <path d="M12 6l-5 -3l-5 3v12l5 3l4.7 -3.13" />
 </svg>
 ''';

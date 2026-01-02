@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Numbers extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [math, counting, calculator, calculate, one, two, three, four, five]
+tags: [math, counting, calculator, calculate, one, two, three, four, five, numbers]
+category: Numbers
 version: "1.54"
 unicode: "f015"
-category: Numbers
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

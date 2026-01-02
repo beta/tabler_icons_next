@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Compass extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [navigation, safari, travel, direction, discover, compass, location, geography, place, position]
 category: Map
-tags: [navigation, safari, travel, direction, discover]
 version: "1.0"
 unicode: "ea79"
 -->
@@ -43,7 +43,7 @@ unicode: "ea79"
   stroke-linejoin="round"
 >
   <path d="M8 16l2 -6l6 -2l-2 6l-6 2" />
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
   <path d="M12 3l0 2" />
   <path d="M12 19l0 2" />
   <path d="M3 12l2 0" />

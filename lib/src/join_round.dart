@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class JoinRound extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [curve, arc, smooth, bend, rounded, connect, boundary, joint, seam]
-unicode: "ff4b"
+category: System
+tags: [curve, arc, smooth, bend, rounded, connect, boundary, joint, seam, join]
 version: "3.10"
+unicode: "ff4b"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

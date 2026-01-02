@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class MoodSadSquint extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, mad]
+tags: [face, emoji, emotion, mad, mood, sad, squint, interface, component, widget]
 category: Mood
 version: "1.83"
 unicode: "f2e4"
@@ -42,7 +42,7 @@ unicode: "f2e4"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
   <path d="M14.5 16.05a3.5 3.5 0 0 0 -5 0" />
   <path d="M8.5 11.5l1.5 -1.5l-1.5 -1.5" />
   <path d="M15.5 11.5l-1.5 -1.5l1.5 -1.5" />

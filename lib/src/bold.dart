@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Bold extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [font, style, boldface, bold, typography, writing, character, word]
 category: Text
-tags: [font, style, boldface]
 version: "1.3"
 unicode: "eb7b"
 -->
@@ -42,7 +42,7 @@ unicode: "eb7b"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M7 5h6a3.5 3.5 0 0 1 0 7h-6z" />
+  <path d="M7 5h6a3.5 3.5 0 0 1 0 7h-6l0 -7" />
   <path d="M13 12h1a3.5 3.5 0 0 1 0 7h-7v-7" />
 </svg>
 ''';

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class PlugConnectedX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [unfasten, unplug, disconnect, plug, connected, hardware, technology, electronic, gadget, equipment]
 category: Devices
-tags: [unfasten, unplug, disconnect]
 version: "1.61"
 unicode: "f0a0"
 -->
@@ -43,8 +43,8 @@ unicode: "f0a0"
   stroke-linejoin="round"
 >
   <path d="M20 16l-4 4" />
-  <path d="M7 12l5 5l-1.5 1.5a3.536 3.536 0 1 1 -5 -5l1.5 -1.5z" />
-  <path d="M17 12l-5 -5l1.5 -1.5a3.536 3.536 0 1 1 5 5l-1.5 1.5z" />
+  <path d="M7 12l5 5l-1.5 1.5a3.536 3.536 0 1 1 -5 -5l1.5 -1.5" />
+  <path d="M17 12l-5 -5l1.5 -1.5a3.536 3.536 0 1 1 5 5l-1.5 1.5" />
   <path d="M3 21l2.5 -2.5" />
   <path d="M18.5 5.5l2.5 -2.5" />
   <path d="M10 11l-2 2" />

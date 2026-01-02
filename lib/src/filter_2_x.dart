@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class Filter2X extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-category: Sytem
-unicode: "1014c"
+tags: [filter, sort, organize, arrange, select, refine, sieve, screen, 2, x]
+category: System
 version: "3.32"
+unicode: "1014c"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

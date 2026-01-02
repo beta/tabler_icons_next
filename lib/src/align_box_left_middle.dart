@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class AlignBoxLeftMiddle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, type, west]
+tags: [text, type, west, align, box, left, middle, typography, writing, font]
 category: Text
-unicode: "f534"
 version: "1.104"
+unicode: "f534"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ version: "1.104"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+  <path d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14" />
   <path d="M9 15h-2" />
   <path d="M13 12h-6" />
   <path d="M11 9h-4" />

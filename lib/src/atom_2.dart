@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Atom2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [unit, element, part, electrons, protons, neutrons]
+category: Nature
+tags: [unit, part, electrons, protons, neutrons, atom, 2, particle, molecule, science]
 version: "1.7"
 unicode: "ebdf"
 -->
@@ -41,7 +42,7 @@ unicode: "ebdf"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
   <path d="M12 21l0 .01" />
   <path d="M3 9l0 .01" />
   <path d="M21 9l0 .01" />

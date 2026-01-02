@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ArrowBarToLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [drag, move]
+tags: [drag, move, arrow, bar, left, direction, pointer, navigation, flow, navigate]
 category: Arrows
 version: "1.15"
 unicode: "ec89"

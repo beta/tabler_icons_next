@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Gizmo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [system, network, tech, connection]
+category: Design
+tags: [system, network, tech, connection, gizmo]
 version: "1.55"
 unicode: "f02b"
 -->
@@ -43,9 +44,9 @@ unicode: "f02b"
 >
   <path d="M20 19l-8 -5.5l-8 5.5" />
   <path d="M12 4v9.5" />
-  <path d="M12 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M4 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M20 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M11 4a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M3 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M19 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
 </svg>
 ''';
 }

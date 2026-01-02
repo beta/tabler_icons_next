@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class AerialLift extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cable, car, gondola, mountains, ski, tramway]
+tags: [cable, car, gondola, mountains, ski, tramway, aerial, lift, transport, travel]
 category: Vehicles
 version: "1.39"
 unicode: "edfe"
@@ -42,7 +42,10 @@ unicode: "edfe"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 5l16 -2m-8 1v10m-5.106 -6h10.306c2.45 3 2.45 9 -.2 12h-10.106c-2.544 -3 -2.544 -9 0 -12zm-1.894 6h14" />
+  <path d="M4 5l16 -2" />
+  <path d="M12 4v10" />
+  <path d="M6.894 8h10.306c2.45 3 2.45 9 -.2 12h-10.106c-2.544 -3 -2.544 -9 0 -12" />
+  <path d="M5 14h14" />
 </svg>
 ''';
 }

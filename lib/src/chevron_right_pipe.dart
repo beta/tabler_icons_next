@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ChevronRightPipe extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, direction, right, forward, navigate, proceed, symbol, point, guide, indicator]
+tags: [arrow, direction, right, forward, navigate, proceed, point, guide, indicator, chevron]
 category: Arrows
 version: "2.23"
 unicode: "fae5"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class IceCream extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [candy, dessert, frozen, sweet, ice, cream, meal, cuisine, eating, nutrition]
 category: Food
-tags: [candy, dessert, frozen, sweet]
 version: "1.0"
 unicode: "eac2"
 -->
@@ -43,7 +43,7 @@ unicode: "eac2"
   stroke-linejoin="round"
 >
   <path d="M12 21.5v-4.5" />
-  <path d="M8 17h8v-10a4 4 0 1 0 -8 0v10z" />
+  <path d="M8 17h8v-10a4 4 0 1 0 -8 0v10" />
   <path d="M8 10.5l8 -3.5" />
   <path d="M8 14.5l8 -3.5" />
 </svg>

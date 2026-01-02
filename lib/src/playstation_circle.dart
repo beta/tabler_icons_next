@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class PlaystationCircle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [controller, console, shape, joystick]
+tags: [controller, console, shape, joystick, playstation, circle, hardware, technology, round, circular]
 category: Devices
 version: "1.80"
 unicode: "f2ad"
@@ -42,8 +42,8 @@ unicode: "f2ad"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9z" />
-  <path d="M12 12m-4.5 0a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0" />
+  <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9" />
+  <path d="M7.5 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0" />
 </svg>
 ''';
 }

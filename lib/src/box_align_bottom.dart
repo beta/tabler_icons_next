@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BoxAlignBottom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [rectangle, side, down, south]
+tags: [rectangle, side, down, south, box, align, bottom, creative, artistic, visual]
 category: Design
 version: "1.80"
 unicode: "f2a8"
@@ -42,7 +42,7 @@ unicode: "f2a8"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 14h16v5a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1v-5z" />
+  <path d="M4 14h16v5a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1v-5" />
   <path d="M4 9v.01" />
   <path d="M4 4v.01" />
   <path d="M9 4v.01" />

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class PlusEqual extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [math, sign, adding, equation]
+tags: [math, sign, adding, equation, plus, equal, calculation, add, more, increase]
 category: Math
 version: "2.6"
 unicode: "f7ad"

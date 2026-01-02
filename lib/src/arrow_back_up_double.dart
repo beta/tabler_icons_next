@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class ArrowBackUpDouble extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [navigation, direction, return, reverse, double, path, symbol, interface, ui, gesture]
+tags: [navigation, direction, return, reverse, double, path, interface, ui, gesture, arrow]
+category: Arrows
 version: "2.11"
 unicode: "f9ec"
-category: Arrows
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

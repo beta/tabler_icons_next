@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,10 @@ class CashBanknoteMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-unicode: "10147"
+category: E-commerce
+tags: [cash, banknote, minus, money, currency, payment, finance, dollar, subtract, remove]
 version: "3.31"
+unicode: "10147"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

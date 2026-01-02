@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class Servicemark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [trademark, sign, symbol, registration]
-version: "1.8"
+tags: [trademark, sign, registration, servicemark, mark, emblem, representation, indicator]
 category: Symbols
+version: "1.8"
 unicode: "ec09"
 -->
 <svg

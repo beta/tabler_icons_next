@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Broadcast extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [communication, tv, signal, media, sound, connection, network]
+tags: [communication, tv, signal, media, sound, connection, network, broadcast, hardware, technology]
 category: Devices
 version: "1.69"
 unicode: "f1e9"
@@ -44,7 +44,7 @@ unicode: "f1e9"
 >
   <path d="M18.364 19.364a9 9 0 1 0 -12.728 0" />
   <path d="M15.536 16.536a5 5 0 1 0 -7.072 0" />
-  <path d="M12 13m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M11 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class MessageLanguage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [communication, translate, alphabet, letter]
-version: "1.48"
+tags: [communication, translate, alphabet, letter, message, language, contact, conversation, messaging, interaction]
 category: Communication
+version: "1.48"
 unicode: "efae"
 -->
 <svg

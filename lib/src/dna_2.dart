@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Dna2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [genetics, biology, chain, genetic, code, virus, organism, dna, medical, wellness]
 category: Health
-tags: [genetics, biology, chain, genetic, code, virus, organism]
 version: "1.44"
 unicode: "ef5c"
 -->

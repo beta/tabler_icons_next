@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class TowerOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [building, castle, fortress, palace, tower, off, architecture, structure, disabled, inactive]
 category: Buildings
-tags: [building, castle, fortress, palace]
 version: "1.81"
 unicode: "f2ca"
 -->

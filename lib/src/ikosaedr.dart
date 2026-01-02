@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class Ikosaedr extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Design
 tags: [geometry, polyhedron, twenty, faces, shapes, 3d, solid, structure, form, multisided]
 unicode: "fec6"
 version: "3.3"
@@ -47,7 +48,7 @@ version: "3.3"
   <path d="M20.7 17h-17.4" />
   <path d="M11.76 2.03l-4.26 6.97l-4.3 7.84" />
   <path d="M12.24 2.03q 2.797 4.44 4.26 6.97t 4.3 7.84" />
-  <path d="M12 17l-4.5 -8h9z" />
+  <path d="M12 17l-4.5 -8h9l-4.5 8" />
   <path d="M12 17v5" />
 </svg>
 ''';

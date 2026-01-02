@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ColorPickerOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [timbre, saturation, paint, brush, choice, selection, sample, color, picker, off]
 category: Design
-tags: [timbre, saturation, paint, image, brush, choice, selection, sample]
 version: "1.63"
 unicode: "f0d2"
 -->

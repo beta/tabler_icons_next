@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ArrowBigLeftLines extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, west]
+tags: [direction, west, arrow, big, left, lines, pointer, navigation, flow, navigate]
 category: Arrows
 version: "1.52"
 unicode: "efeb"
@@ -42,7 +42,7 @@ unicode: "efeb"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 15v3.586a1 1 0 0 1 -1.707 .707l-6.586 -6.586a1 1 0 0 1 0 -1.414l6.586 -6.586a1 1 0 0 1 1.707 .707v3.586h3v6h-3z" />
+  <path d="M12 15v3.586a1 1 0 0 1 -1.707 .707l-6.586 -6.586a1 1 0 0 1 0 -1.414l6.586 -6.586a1 1 0 0 1 1.707 .707v3.586h3v6h-3" />
   <path d="M21 15v-6" />
   <path d="M18 15v-6" />
 </svg>

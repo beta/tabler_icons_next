@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class SunLow extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [temperature, cold, wheater, thermometer, forecast]
+tags: [temperature, cold, wheater, thermometer, forecast, sun, low, climate, meteorology, atmospheric]
 category: Weather
 version: "1.73"
 unicode: "f237"
@@ -42,7 +42,7 @@ unicode: "f237"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+  <path d="M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
   <path d="M4 12h.01" />
   <path d="M12 4v.01" />
   <path d="M20 12h.01" />

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandD3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, charts, javascript, js]
+tags: [data, charts, javascript, js, brand, logo, company, trademark, identity, corporate]
 category: Brand
 version: "1.75"
 unicode: "f24e"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Shovel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [garden, tool, digging, farm, dirt, gardening]
+category: Design
+tags: [garden, tool, digging, farm, dirt, gardening, shovel]
 version: "1.68"
 unicode: "f1d9"
 -->
@@ -43,7 +44,7 @@ unicode: "f1d9"
 >
   <path d="M17 4l3 3" />
   <path d="M18.5 5.5l-8 8" />
-  <path d="M8.276 11.284l4.44 4.44a.968 .968 0 0 1 0 1.369l-2.704 2.704a4.108 4.108 0 0 1 -5.809 -5.81l2.704 -2.703a.968 .968 0 0 1 1.37 0z" />
+  <path d="M8.276 11.284l4.44 4.44a.968 .968 0 0 1 0 1.369l-2.704 2.704a4.108 4.108 0 0 1 -5.809 -5.81l2.704 -2.703a.968 .968 0 0 1 1.37 0l-.001 0" />
 </svg>
 ''';
 }

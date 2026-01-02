@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Bible extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [religion, holy, christian, miracle, church]
+category: Text
+tags: [religion, holy, christian, miracle, church, bible]
 version: "1.50"
 unicode: "efc4"
 -->
@@ -41,7 +42,7 @@ unicode: "efc4"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M19 4v16h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12z" />
+  <path d="M19 4v16h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12" />
   <path d="M19 16h-12a2 2 0 0 0 -2 2" />
   <path d="M12 7v6" />
   <path d="M10 9h4" />

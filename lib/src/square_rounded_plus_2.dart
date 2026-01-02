@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class SquareRoundedPlus2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [geometry, addition, math, calculate, increase, sum, augment, enlarge, advance, square]
 category: Shapes
-tags: [geometry, addition, math, symbol, calculate, increase, sum, augment, enlarge, advance]
 version: "2.35"
 unicode: "fc98"
 -->

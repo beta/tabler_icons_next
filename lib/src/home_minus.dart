@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class HomeMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [remove, delete, cancel, close, home, minus, house, main, architecture, structure]
 category: Buildings
-tags: [remove, delete, cancel, close]
-unicode: "f33d"
 version: "1.87"
+unicode: "f33d"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

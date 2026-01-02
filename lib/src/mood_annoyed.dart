@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class MoodAnnoyed extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [appalled, agitated, upset, angry, face]
+tags: [appalled, agitated, upset, angry, face, mood, annoyed]
 category: Mood
 version: "1.83"
 unicode: "f2e0"
@@ -42,7 +42,7 @@ unicode: "f2e0"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18z" />
+  <path d="M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18" />
   <path d="M15 14c-2 0 -3 1 -3.5 2.05" />
   <path d="M9 10h-.01" />
   <path d="M15 10h-.01" />

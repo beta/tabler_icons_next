@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class AspectRatioOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [size, dimension, width, height, orientation, aspect, ratio, off, content, entertainment]
 category: Media
-tags: [size, dimension, width, height, orientation]
 version: "1.62"
 unicode: "f0af"
 -->

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Rosette extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, badge, star, medal]
+tags: [shape, badge, star, medal, rosette, geometry, form, figure, pattern, outline]
 category: Shapes
-unicode: "f599"
 version: "1.109"
+unicode: "f599"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

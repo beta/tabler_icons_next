@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class BadgeAdOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [shape, marketing, media, promotion, advertising, advertisement, badge, off, disabled, inactive]
 category: Badges
-tags: [shape, marketing, media, promotion, advertising, advertisement]
 version: "2.46"
 unicode: "fd8f"
 -->

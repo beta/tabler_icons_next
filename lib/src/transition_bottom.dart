@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class TransitionBottom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, south, down, moving]
+tags: [direction, south, down, moving, transition, bottom, navigation, flow, movement, route]
 category: Arrows
 version: "1.80"
 unicode: "f2b2"
@@ -43,7 +43,7 @@ unicode: "f2b2"
   stroke-linejoin="round"
 >
   <path d="M21 18a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3" />
-  <path d="M3 3m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v0a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+  <path d="M3 6a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3" />
   <path d="M12 9v8" />
   <path d="M9 14l3 3l3 -3" />
 </svg>

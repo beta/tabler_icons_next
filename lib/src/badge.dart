@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Badge extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [army, badge, military, rank, soldier, war]
+category: Badges
+tags: [army, badge, military, rank, soldier, war, label, tag, marker, indicator]
 version: "1.50"
 unicode: "efc2"
 -->
@@ -41,7 +42,7 @@ unicode: "efc2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M17 17v-13l-5 3l-5 -3v13l5 3z" />
+  <path d="M17 17v-13l-5 3l-5 -3v13l5 3l5 -3" />
 </svg>
 ''';
 }

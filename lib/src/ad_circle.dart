@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class AdCircle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [marketing, promotion, advertisement, shape]
+category: System
+tags: [marketing, promotion, advertisement, shape, circle, round, circular, ad]
 version: "2.6"
 unicode: "f79e"
 -->
@@ -41,10 +42,10 @@ unicode: "f79e"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-10 0a10 10 0 1 0 20 0a10 10 0 1 0 -20 0" />
+  <path d="M2 12a10 10 0 1 0 20 0a10 10 0 1 0 -20 0" />
   <path d="M7 15v-4.5a1.5 1.5 0 0 1 3 0v4.5" />
   <path d="M7 13h3" />
-  <path d="M14 9v6h1a2 2 0 0 0 2 -2v-2a2 2 0 0 0 -2 -2h-1z" />
+  <path d="M14 9v6h1a2 2 0 0 0 2 -2v-2a2 2 0 0 0 -2 -2h-1" />
 </svg>
 ''';
 }

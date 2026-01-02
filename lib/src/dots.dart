@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,8 @@ class Dots extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-in-bg: false
+tags: [hellip, more, ellipsis, dots, control, operation, function, interface, management]
 category: System
-tags: [hellip, more, ellipsis]
 version: "1.0"
 unicode: "ea95"
 -->
@@ -43,9 +42,9 @@ unicode: "ea95"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
 </svg>
 ''';
 }

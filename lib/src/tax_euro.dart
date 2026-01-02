@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class TaxEuro extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Currencies
 tags: [finance, charge, duty, levy, value, monetary, currency, europe, assessment, payment]
 unicode: "fef0"
 version: "3.5"
@@ -42,7 +43,7 @@ version: "3.5"
   stroke-linejoin="round"
 >
   <path d="M8.487 21h7.026a4 4 0 0 0 3.808 -5.224l-1.706 -5.306a5 5 0 0 0 -4.76 -3.47h-1.71a5 5 0 0 0 -4.76 3.47l-1.706 5.306a4 4 0 0 0 3.808 5.224" />
-  <path d="M15 3q -1 4 -3 4t -3 -4z" />
+  <path d="M15 3q -1 4 -3 4t -3 -4l6 0" />
   <path d="M12 14h-3" />
   <path d="M14 11.172a3 3 0 1 0 0 5.656" />
 </svg>

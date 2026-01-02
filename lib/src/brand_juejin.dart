@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandJuejin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [development, new, technologies, developers]
+tags: [development, new, technologies, developers, brand, juejin, logo, company, trademark, identity]
 category: Brand
 version: "2.7"
 unicode: "f7b0"
@@ -44,7 +44,7 @@ unicode: "f7b0"
 >
   <path d="M2 12l10 7.422l10 -7.422" />
   <path d="M7 9l5 4l5 -4" />
-  <path d="M11 6l1 .8l1 -.8l-1 -.8z" />
+  <path d="M11 6l1 .8l1 -.8l-1 -.8l-1 .8" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Glass extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [wine, cup, goblet, glass, meal, cuisine, eating, nutrition, culinary]
 category: Food
-tags: [wine, cup, goblet]
 version: "1.0"
 unicode: "eab8"
 -->
@@ -45,7 +45,7 @@ unicode: "eab8"
   <path d="M8 21h8" />
   <path d="M12 16v5" />
   <path d="M17 5l1 6c0 3.012 -2.686 5 -6 5s-6 -1.988 -6 -5l1 -6" />
-  <path d="M12 5m-5 0a5 2 0 1 0 10 0a5 2 0 1 0 -10 0" />
+  <path d="M7 5a5 2 0 1 0 10 0a5 2 0 1 0 -10 0" />
 </svg>
 ''';
 }

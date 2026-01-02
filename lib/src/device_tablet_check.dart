@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class DeviceTabletCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [tablet, verify, approve, confirm, tick, validation, okay, accept, pass, device]
 category: Devices
-tags: [tablet, verify, approve, confirm, tick, validation, okay, accept, pass]
 version: "2.10"
 unicode: "f8c2"
 -->

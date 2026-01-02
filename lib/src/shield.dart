@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Shield extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [safety, protect, protection, shield, control, operation, function, interface, management]
 category: System
-tags: [safety, protect, protection]
 version: "1.0"
 unicode: "eb24"
 -->

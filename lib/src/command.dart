@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Command extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [apple, key, keyboard, cmd, command, sign, mark, emblem, representation, indicator]
 category: Symbols
-tags: [apple, key, keyboard, cmd]
 version: "1.0"
 unicode: "ea78"
 -->

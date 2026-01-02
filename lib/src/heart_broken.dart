@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class HeartBroken extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [love, emotion, like, favorite, relationship]
-version: "1.18"
+tags: [love, emotion, like, favorite, relationship, heart, broken, medical, wellness, healthcare]
 category: Health
+version: "1.18"
 unicode: "ecba"
 -->
 <svg

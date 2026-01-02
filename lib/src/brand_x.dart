@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [twitter, brand, logo, company, trademark, identity, corporate, business, x]
 category: Brand
 version: "2.29"
 unicode: "fc0f"
-tags:  [twitter]
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ tags:  [twitter]
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+  <path d="M4 4l11.733 16h4.267l-11.733 -16l-4.267 0" />
   <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
 </svg>
 ''';

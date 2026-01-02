@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class CylinderPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [3d, pattern, abstract, geometric, shape, cylinder, plus, add, more, increase]
 category: Shapes
-tags: [3d, pattern, abstract, geometric, shape]
 version: "2.20"
 unicode: "fa99"
 -->
@@ -42,7 +42,7 @@ unicode: "fa99"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 6m-7 0a7 3 0 1 0 14 0a7 3 0 1 0 -14 0" />
+  <path d="M5 6a7 3 0 1 0 14 0a7 3 0 1 0 -14 0" />
   <path d="M5 6v12c0 1.657 3.134 3 7 3c.173 0 .345 -.003 .515 -.008m6.485 -8.992v-6" />
   <path d="M16 19h6" />
   <path d="M19 16v6" />

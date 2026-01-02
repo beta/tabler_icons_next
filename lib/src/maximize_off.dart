@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class MaximizeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [fullscreen, maximize, expand, window, size, resize, direction, off, content, entertainment]
 category: Media
-tags: [fullscreen, maximize, expand, window, size, resize, direction]
 version: "1.66"
 unicode: "f15f"
 -->

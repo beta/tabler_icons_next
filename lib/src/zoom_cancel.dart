@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ZoomCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [magnifying glass, zoom, cancel, location, navigation, magnify, enlarge, scale, focus, view]
 category: Map
-tags: [magnifying glass]
 version: "1.11"
 unicode: "ec4d"
 -->
@@ -42,7 +42,7 @@ unicode: "ec4d"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+  <path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
   <path d="M8 8l4 4" />
   <path d="M12 8l-4 4" />
   <path d="M21 21l-6 -6" />

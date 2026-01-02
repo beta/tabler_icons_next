@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Zoom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [find, magnifier, magnifying glass, zoom, location, navigation, magnify, enlarge, scale, focus]
 category: Map
-tags: [find, magnifier, magnifying glass]
 version: "1.0"
 unicode: "fdaa"
 -->
@@ -42,7 +42,7 @@ unicode: "fdaa"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+  <path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
   <path d="M21 21l-6 -6" />
 </svg>
 ''';

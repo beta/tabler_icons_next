@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class MessageCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [coding, programming, chat, program, message, code, contact, conversation, script, software]
 category: Communication
-tags: [coding, programming, chat, program]
 version: "1.54"
 unicode: "f013"
 -->

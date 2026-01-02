@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class EmpathizeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [pepole, understund, thinking, care, empathize, off, medical, wellness, disabled, inactive]
 category: Health
-tags: [pepole, understund, thinking, care]
-unicode: "f3e9"
 version: "1.94"
+unicode: "f3e9"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

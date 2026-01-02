@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Ad2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [advert, advertisement, marketing, commercial, traffic, creative, artistic, ad, visual, aesthetic]
 category: Design
-tags: [advert, advertisement, marketing, commercial, traffic]
 version: "1.41"
 unicode: "ef1f"
 -->
@@ -44,7 +44,7 @@ unicode: "ef1f"
 >
   <path d="M11.933 5h-6.933v16h13v-8" />
   <path d="M14 17h-5" />
-  <path d="M9 13h5v-4h-5z" />
+  <path d="M9 13h5v-4h-5v4" />
   <path d="M15 5v-2" />
   <path d="M18 6l2 -2" />
   <path d="M19 9h2" />

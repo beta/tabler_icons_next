@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Delta extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [letter, alphabet, greek, math]
-unicode: "f53c"
-version: "1.104"
+tags: [letter, alphabet, greek, math, delta, character, typography, text, writing]
 category: Letters
+version: "1.104"
+unicode: "f53c"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ category: Letters
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 20h16l-8 -16z" />
+  <path d="M4 20h16l-8 -16l-8 16" />
 </svg>
 ''';
 }

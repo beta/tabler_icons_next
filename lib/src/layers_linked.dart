@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class LayersLinked extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [data, network, layers, linked, creative, artistic, visual, aesthetic, style]
 category: Design
-tags: [data, network]
 version: "1.39"
 unicode: "eea1"
 -->

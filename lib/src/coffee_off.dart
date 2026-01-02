@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class CoffeeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [espresso, hot, cup, latte, cafe, drink, coffee, off, meal, cuisine]
 category: Food
-tags: [espresso, hot, cup, latte, cafe, drink]
 version: "1.65"
 unicode: "f106"
 -->

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class CurrencySom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, finance, money, cash, kyrgyzstan]
+tags: [exchange, finance, money, cash, kyrgyzstan, currency, som, payment, monetary, banking]
 category: Currencies
-unicode: "f37c"
 version: "1.90"
+unicode: "f37c"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ version: "1.90"
   stroke-linejoin="round"
 >
   <path d="M10 18v-12h-5v10a2 2 0 0 1 -2 2" />
-  <path d="M14 6v12h4a3 3 0 0 0 0 -6h-4h4a3 3 0 0 0 0 -6h-4z" />
+  <path d="M14 6v12h4a3 3 0 0 0 0 -6h-4h4a3 3 0 0 0 0 -6h-4" />
 </svg>
 ''';
 }

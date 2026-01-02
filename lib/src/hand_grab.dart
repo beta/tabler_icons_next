@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class HandGrab extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hold, fist, drop, catch]
+tags: [hold, fist, drop, catch, hand, grab, touch, action, motion, interaction]
 category: Gestures
 version: "1.60"
 unicode: "f091"

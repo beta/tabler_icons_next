@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandNationalGeographic extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [institution, scientific, educational, nonprofit]
+tags: [institution, scientific, educational, nonprofit, brand, national, geographic, logo, company, trademark]
 category: Brand
-unicode: "f603"
 version: "1.114"
+unicode: "f603"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ version: "1.114"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M7 3h10v18h-10z" />
+  <path d="M7 3h10v18h-10l0 -18" />
 </svg>
 ''';
 }

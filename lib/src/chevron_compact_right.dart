@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ChevronCompactRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, direction, navigate, forward, move, point, indicator, symbol, guide, orient]
+tags: [arrow, direction, navigate, forward, move, point, indicator, guide, orient, chevron]
 category: Arrows
 version: "2.24"
 unicode: "faf2"

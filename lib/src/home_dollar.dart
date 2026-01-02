@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class HomeDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [buisness, house, estate, finance, building, money, home, dollar, main, architecture]
 category: Buildings
-tags: [buisness, house, estate, finance, building, money]
-unicode: "f339"
 version: "1.87"
+unicode: "f339"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

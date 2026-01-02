@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandDisney extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [films, castle, serials, magic, fantasia]
+tags: [films, castle, serials, magic, fantasia, brand, disney, logo, company, trademark]
 category: Brand
 version: "1.71"
 unicode: "f20a"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class StackMiddle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [layers, depth, center, arrangement, position, sequence, structure, order, layout, median]
 version: "2.40"
 unicode: "fd2a"
@@ -42,7 +43,7 @@ unicode: "fd2a"
   stroke-linejoin="round"
 >
   <path d="M16 10l4 -2l-8 -4l-8 4l4 2" />
-  <path d="M12 12l-4 -2l-4 2l8 4l8 -4l-4 -2l-4 2z" fill="currentColor" />
+  <path d="M12 12l-4 -2l-4 2l8 4l8 -4l-4 -2l-4 2" fill="currentColor" />
   <path d="M8 14l-4 2l8 4l8 -4l-4 -2" />
 </svg>
 ''';

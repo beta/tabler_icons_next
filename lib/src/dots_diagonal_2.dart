@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,8 @@ class DotsDiagonal2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [hellip, more, ellipsis, dots, diagonal, control, operation, function, interface, management]
 category: System
-in-bg: false
-tags: [hellip, more, ellipsis]
 version: "1.0"
 unicode: "ea92"
 -->
@@ -43,9 +42,9 @@ unicode: "ea92"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M7 7m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M17 17m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M6 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M16 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
 </svg>
 ''';
 }

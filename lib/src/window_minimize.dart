@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class WindowMinimize extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [screen, browser, size, resize, minimum]
+tags: [screen, browser, size, resize, minimum, window, minimize, control, operation, function]
 category: System
 version: "1.69"
 unicode: "f1f2"
@@ -42,7 +42,7 @@ unicode: "f1f2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 16m0 1a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1z" />
+  <path d="M3 17a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1l0 -3" />
   <path d="M4 12v-6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-6" />
   <path d="M15 13h-4v-4" />
   <path d="M11 13l5 -5" />

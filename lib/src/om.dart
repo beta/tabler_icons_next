@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Om extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hinduism, religion, hindu, symbol]
+tags: [hinduism, religion, hindu, om, sign, mark, emblem, representation, indicator]
 category: Symbols
-unicode: "f58d"
 version: "1.109"
+unicode: "f58d"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

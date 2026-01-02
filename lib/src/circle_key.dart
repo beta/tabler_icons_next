@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class CircleKey extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, lock, door, acsses]
-unicode: "f633"
+category: Shapes
+tags: [shape, lock, door, acsses, circle, key, round, circular]
 version: "1.117"
+unicode: "f633"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -41,8 +42,8 @@ version: "1.117"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M14 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0z" />
+  <path d="M12 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0" />
   <path d="M12.5 11.5l-4 4l1.5 1.5" />
   <path d="M12 15l-1.5 -1.5" />
 </svg>

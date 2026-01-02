@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class LetterQSmall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [q, quebec, seventeenth, letter, alphabet, character, typeface, glyph, script, symbol]
+tags: [q, quebec, seventeenth, letter, alphabet, character, typeface, glyph, script, small]
 category: Letters
 version: "2.38"
 unicode: "fcd7"
@@ -42,7 +42,7 @@ unicode: "fcd7"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2z" />
+  <path d="M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2" />
   <path d="M13 15l1 1" />
 </svg>
 ''';

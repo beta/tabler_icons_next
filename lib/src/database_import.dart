@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class DatabaseImport extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, file, storage, backup, system]
+tags: [data, file, storage, backup, system, database, import, repository, records, information]
 category: Database
 version: "1.39"
 unicode: "ee6f"

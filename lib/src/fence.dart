@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Fence extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [garden, home, house, farm, wood, barrier]
+tags: [garden, home, house, farm, wood, barrier, fence, architecture, structure, construction]
 category: Buildings
 version: "1.41"
 unicode: "ef2a"
@@ -42,7 +42,7 @@ unicode: "ef2a"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 12v4h16v-4z" />
+  <path d="M4 12v4h16v-4l-16 0" />
   <path d="M6 16v4h4v-4m0 -4v-6l-2 -2l-2 2v6" />
   <path d="M14 16v4h4v-4m0 -4v-6l-2 -2l-2 2v6" />
 </svg>

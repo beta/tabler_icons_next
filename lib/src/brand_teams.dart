@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandTeams extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [microsoft, technology]
+tags: [microsoft, technology, brand, teams, logo, company, trademark, identity, corporate, business]
 category: Brand
 version: "2.23"
 unicode: "fadf"
@@ -42,7 +42,7 @@ unicode: "fadf"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 7h10v10h-10z" />
+  <path d="M3 7h10v10h-10l0 -10" />
   <path d="M6 10h4" />
   <path d="M8 10v4" />
   <path d="M8.104 17c.47 2.274 2.483 4 4.896 4a5 5 0 0 0 5 -5v-7h-5" />

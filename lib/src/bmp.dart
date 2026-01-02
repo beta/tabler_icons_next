@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Bmp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [format, filetype, file, document]
+tags: [format, filetype, file, document, bmp, plugin, addon, module, component, extra]
+category: Extensions
 version: "1.93"
 unicode: "f3a6"
-category: Extensions
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ category: Extensions
   stroke-linejoin="round"
 >
   <path d="M18 16v-8h2a2 2 0 1 1 0 4h-2" />
-  <path d="M6 14a2 2 0 0 1 -2 2h-2v-8h2a2 2 0 1 1 0 4h-2h2a2 2 0 0 1 2 2z" />
+  <path d="M6 14a2 2 0 0 1 -2 2h-2v-8h2a2 2 0 1 1 0 4h-2h2a2 2 0 0 1 2 2" />
   <path d="M9 16v-8l3 6l3 -6v8" />
 </svg>
 ''';

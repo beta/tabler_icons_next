@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ShieldCheckered extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [knight, guard, defence, protect]
+tags: [knight, guard, defence, protect, shield, checkered, control, operation, confirm, approve]
 category: System
 version: "1.47"
 unicode: "ef9a"

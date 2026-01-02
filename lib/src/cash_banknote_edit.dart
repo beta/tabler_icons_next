@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,10 @@ class CashBanknoteEdit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-unicode: "10149"
+category: E-commerce
+tags: [cash, banknote, edit, modify, change, update, revise, adjust, money, currency]
 version: "3.31"
+unicode: "10149"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +45,7 @@ version: "3.31"
   <path d="M11 18h-6a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v3" />
   <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
   <path d="M6 12h.01" />
-  <path d="M18.42 15.61a2.1 2.1 0 1 1 2.97 2.97l-3.39 3.42h-3v-3z" />
+  <path d="M18.42 15.61a2.1 2.1 0 1 1 2.97 2.97l-3.39 3.42h-3v-3l3.42 -3.39" />
 </svg>
 ''';
 }

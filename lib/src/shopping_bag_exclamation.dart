@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ShoppingBagExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [purchase, buy, alert, notice, store, warning, attention, caution, highlight, shopping]
 category: E-commerce
-tags: [purchase, buy, alert, notice, store, warning, attention, caution, highlight]
 version: "2.29"
 unicode: "fc19"
 -->

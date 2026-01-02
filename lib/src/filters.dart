@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Filters extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [design, editing, effects]
+category: System
+tags: [design, editing, effects, filters]
 version: "2.5"
 unicode: "f793"
 -->
@@ -41,7 +42,7 @@ unicode: "f793"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 8m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+  <path d="M7 8a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
   <path d="M8 11a5 5 0 1 0 3.998 1.997" />
   <path d="M12.002 19.003a5 5 0 1 0 3.998 -8.003" />
 </svg>

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class DeviceMobile extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [iphone, phone, smartphone, cellphone, device, mobile, hardware, technology, electronic, gadget]
 category: Devices
-tags: [iphone, phone, smartphone, cellphone]
 version: "1.0"
 unicode: "ea8a"
 -->
@@ -42,7 +42,7 @@ unicode: "ea8a"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M6 5a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-14z" />
+  <path d="M6 5a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-14" />
   <path d="M11 4h2" />
   <path d="M12 17v.01" />
 </svg>

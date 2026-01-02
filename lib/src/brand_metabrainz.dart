@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandMetabrainz extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [website, database, open-source, musicbrainz, listenbrainz, bookbrainz, critiquebrainz]
+tags: [website, database, open-source, musicbrainz, listenbrainz, bookbrainz, critiquebrainz, brand, metabrainz, logo]
 category: Brand
-unicode: "ff12"
 version: "3.7"
+unicode: "ff12"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,8 +42,8 @@ version: "3.7"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 7v10l7 4v-18z" />
-  <path d="M21 7v10l-7 4v-18z" />
+  <path d="M3 7v10l7 4v-18l-7 4" />
+  <path d="M21 7v10l-7 4v-18l7 4" />
 </svg>
 ''';
 }

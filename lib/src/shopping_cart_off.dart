@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ShoppingCartOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [shop, store, buy, purchase, product, bag, trolley, supermarket, grocery, shopping]
 category: E-commerce
-tags: [shop, store, buy, purchase, product, bag, trolley, supermarket, grocery]
 version: "1.39"
 unicode: "eedc"
 -->
@@ -42,7 +42,7 @@ unicode: "eedc"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M4 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M17 17a2 2 0 1 0 2 2" />
   <path d="M17 17h-11v-11" />
   <path d="M9.239 5.231l10.761 .769l-1 7h-2m-4 0h-7" />

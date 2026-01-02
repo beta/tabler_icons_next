@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class BrandLastfm extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [radio station, website, music, media player]
-version: "1.53"
+tags: [radio station, website, music, media player, brand, lastfm, logo, company, trademark, identity]
 category: Brand
+version: "1.53"
 unicode: "f001"
 -->
 <svg

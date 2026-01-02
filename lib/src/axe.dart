@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Axe extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [blade, wood, tool, hatchet, axe, entertainment, playing, recreation, fun, activity]
 category: Games
-tags: [blade, wood, tool, hatchet]
 version: "1.48"
 unicode: "ef9f"
 -->
@@ -43,7 +43,7 @@ unicode: "ef9f"
   stroke-linejoin="round"
 >
   <path d="M13 9l7.383 7.418c.823 .82 .823 2.148 0 2.967a2.11 2.11 0 0 1 -2.976 0l-7.407 -7.385" />
-  <path d="M6.66 15.66l-3.32 -3.32a1.25 1.25 0 0 1 .42 -2.044l3.24 -1.296l6 -6l3 3l-6 6l-1.296 3.24a1.25 1.25 0 0 1 -2.044 .42z" />
+  <path d="M6.66 15.66l-3.32 -3.32a1.25 1.25 0 0 1 .42 -2.044l3.24 -1.296l6 -6l3 3l-6 6l-1.296 3.24a1.25 1.25 0 0 1 -2.044 .42" />
 </svg>
 ''';
 }

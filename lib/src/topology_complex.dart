@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class TopologyComplex extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hierarchy, network, structure, connection]
+tags: [hierarchy, network, structure, connection, topology, complex, computing, machine, processor, system]
 category: Computers
-unicode: "f5da"
 version: "1.112"
+unicode: "f5da"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,11 +42,11 @@ version: "1.112"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M20 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
-  <path d="M8 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
-  <path d="M8 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
-  <path d="M20 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
-  <path d="M14 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+  <path d="M20 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
+  <path d="M8 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
+  <path d="M8 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
+  <path d="M20 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
+  <path d="M14 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
   <path d="M7.5 7.5l3 3" />
   <path d="M6 8v8" />
   <path d="M18 16v-8" />

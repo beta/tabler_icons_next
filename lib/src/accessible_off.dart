@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class AccessibleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [low-vision, blind, disability, handicapped]
+category: Health
+tags: [low-vision, blind, disability, handicapped, accessible, off, disabled, inactive, accessibility, inclusive]
 version: "1.62"
 unicode: "f0a7"
 -->

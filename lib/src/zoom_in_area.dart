@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ZoomInArea extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [selected, square, magnifier, enlargement]
+tags: [selected, square, magnifier, enlargement, zoom, area, location, navigation, magnify, enlarge]
 category: Map
 version: "1.68"
 unicode: "f1dc"
@@ -44,7 +44,7 @@ unicode: "f1dc"
 >
   <path d="M15 13v4" />
   <path d="M13 15h4" />
-  <path d="M15 15m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+  <path d="M10 15a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
   <path d="M22 22l-3 -3" />
   <path d="M6 18h-1a2 2 0 0 1 -2 -2v-1" />
   <path d="M3 11v-1" />

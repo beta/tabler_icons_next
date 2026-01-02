@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandVolkswagen extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [car, vehicle, transportation, van, traveling]
+tags: [car, vehicle, transportation, van, traveling, brand, volkswagen, logo, company, trademark]
 category: Brand
 version: "1.102"
 unicode: "f50e"
@@ -42,7 +42,7 @@ unicode: "f50e"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9z" />
+  <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9" />
   <path d="M5 7l4.5 11l1.5 -5h2l1.5 5l4.5 -11" />
   <path d="M9 4l2 6h2l2 -6" />
 </svg>

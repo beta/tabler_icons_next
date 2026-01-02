@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Dashboard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [home, car, dashboard, control, operation, function, interface, management]
 category: System
-tags: [home, car]
 version: "1.0"
 unicode: "ea87"
 -->
@@ -42,9 +42,9 @@ unicode: "ea87"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 13m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M10 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M13.45 11.55l2.05 -2.05" />
-  <path d="M6.4 20a9 9 0 1 1 11.2 0z" />
+  <path d="M6.4 20a9 9 0 1 1 11.2 0l-11.2 0" />
 </svg>
 ''';
 }

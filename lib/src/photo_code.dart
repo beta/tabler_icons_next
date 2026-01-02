@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class PhotoCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [program, script, software, binary, developer, html, markup, syntax, photograph, photo]
 category: Media
-tags: [program, script, software, binary, developer, html, markup, syntax, photograph]
 version: "2.10"
 unicode: "f991"
 -->

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Focus2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [spotlight, attention, center, aim, target, focus, camera, picture, capture, image]
 category: Photography
-tags: [spotlight, attention, center, aim, target]
 version: "1.6"
 unicode: "ebd3"
 -->
@@ -42,8 +42,8 @@ unicode: "ebd3"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <circle cx="12" cy="12" r=".5" fill="currentColor" />
-  <path d="M12 12m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+  <path d="M11.5 12a.5 .5 0 1 0 1 0a.5 .5 0 1 0 -1 0" fill="currentColor" />
+  <path d="M5 12a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
   <path d="M12 3l0 2" />
   <path d="M3 12l2 0" />
   <path d="M12 19l0 2" />

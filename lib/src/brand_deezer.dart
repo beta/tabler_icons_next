@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandDeezer extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, media, sound, singer]
+tags: [music, media, sound, singer, brand, deezer, logo, company, trademark, identity]
 category: Brand
 version: "2.5"
 unicode: "f78b"
@@ -42,16 +42,16 @@ unicode: "f78b"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 16.5h2v.5h-2z" />
-  <path d="M8 16.5h2.5v.5h-2.5z" />
-  <path d="M16 17h-2.5v-.5h2.5z" />
-  <path d="M21.5 17h-2.5v-.5h2.5z" />
-  <path d="M21.5 13h-2.5v.5h2.5z" />
-  <path d="M21.5 9.5h-2.5v.5h2.5z" />
-  <path d="M21.5 6h-2.5v.5h2.5z" />
-  <path d="M16 13h-2.5v.5h2.5z" />
-  <path d="M8 13.5h2.5v-.5h-2.5z" />
-  <path d="M8 9.5h2.5v.5h-2.5z" />
+  <path d="M3 16.5h2v.5h-2l0 -.5" />
+  <path d="M8 16.5h2.5v.5h-2.5l0 -.5" />
+  <path d="M16 17h-2.5v-.5h2.5l0 .5" />
+  <path d="M21.5 17h-2.5v-.5h2.5l0 .5" />
+  <path d="M21.5 13h-2.5v.5h2.5l0 -.5" />
+  <path d="M21.5 9.5h-2.5v.5h2.5l0 -.5" />
+  <path d="M21.5 6h-2.5v.5h2.5l0 -.5" />
+  <path d="M16 13h-2.5v.5h2.5l0 -.5" />
+  <path d="M8 13.5h2.5v-.5h-2.5l0 .5" />
+  <path d="M8 9.5h2.5v.5h-2.5l0 -.5" />
 </svg>
 ''';
 }

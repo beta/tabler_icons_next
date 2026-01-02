@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Microphone2Off extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [record, sound, listen, sing, microphone, off, content, entertainment, disabled, inactive]
 category: Media
-tags: [record, sound, listen, sing]
-unicode: "f40d"
 version: "1.94"
+unicode: "f40d"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

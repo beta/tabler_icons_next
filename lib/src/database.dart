@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Database extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [storage, data, memory, database, repository, records, information, table, content, record]
 category: Database
-tags: [storage, data, memory]
 version: "1.0"
 unicode: "ea88"
 -->
@@ -42,7 +42,7 @@ unicode: "ea88"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 6m-8 0a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
+  <path d="M4 6a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
   <path d="M4 6v6a8 3 0 0 0 16 0v-6" />
   <path d="M4 12v6a8 3 0 0 0 16 0v-6" />
 </svg>

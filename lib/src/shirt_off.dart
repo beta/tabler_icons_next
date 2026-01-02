@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ShirtOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [gear, outfit, mocker, shirt, off, store, purchase, disabled, inactive, shopping]
 category: E-commerce
-tags: [gear, outfit, mocker]
 version: "1.66"
 unicode: "f1a2"
 -->

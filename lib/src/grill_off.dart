@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class GrillOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [food, sasuage, beef, steak, bbq, cooking, grill, off, meal, cuisine]
 category: Food
-tags: [food, sasuage, beef, steak, bbq, cooking]
-unicode: "f3f5"
 version: "1.94"
+unicode: "f3f5"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

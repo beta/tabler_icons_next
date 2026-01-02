@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class LayoutDistributeVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [position, design, around, layout, distribute, vertical, creative, artistic, visual, aesthetic]
 category: Design
-tags: [position, element, design, around]
 version: "1.0"
 unicode: "ead6"
 -->
@@ -44,7 +44,7 @@ unicode: "ead6"
 >
   <path d="M4 4l0 16" />
   <path d="M20 4l0 16" />
-  <path d="M9 6m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+  <path d="M9 8a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2l0 -8" />
 </svg>
 ''';
 }

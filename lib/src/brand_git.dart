@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandGit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, coding, software, perl, boume shell]
+tags: [programming, coding, software, perl, boume shell, brand, git, logo, company, trademark]
 category: Brand
 version: "1.45"
 unicode: "ef6f"
@@ -42,13 +42,13 @@ unicode: "ef6f"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M16 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M12 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M12 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M15 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M11 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M11 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
   <path d="M12 15v-6" />
   <path d="M15 11l-2 -2" />
   <path d="M11 7l-1.9 -1.9" />
-  <path d="M13.446 2.6l7.955 7.954a2.045 2.045 0 0 1 0 2.892l-7.955 7.955a2.045 2.045 0 0 1 -2.892 0l-7.955 -7.955a2.045 2.045 0 0 1 0 -2.892l7.955 -7.955a2.045 2.045 0 0 1 2.892 0z" />
+  <path d="M13.446 2.6l7.955 7.954a2.045 2.045 0 0 1 0 2.892l-7.955 7.955a2.045 2.045 0 0 1 -2.892 0l-7.955 -7.955a2.045 2.045 0 0 1 0 -2.892l7.955 -7.955a2.045 2.045 0 0 1 2.892 0" />
 </svg>
 ''';
 }

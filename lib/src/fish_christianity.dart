@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class FishChristianity extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [religion, jesus, faith, christian]
+tags: [religion, jesus, faith, christian, fish, christianity, sign, mark, emblem, representation]
 category: Symbols
-unicode: "f58b"
 version: "1.109"
+unicode: "f58b"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

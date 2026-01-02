@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Heartbeat extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pulse, medical, ecg, cardiology, fitness, chart]
+tags: [pulse, medical, ecg, cardiology, fitness, chart, heartbeat, wellness, love, like]
 category: Health
 version: "1.47"
 unicode: "ef92"

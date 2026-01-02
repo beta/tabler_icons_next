@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Pool extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [swim, water, swimmer, holiday, swimming, vacation, relax, sport]
+tags: [swim, water, swimmer, holiday, swimming, vacation, relax, sport, pool, athletic]
 category: Sport
 version: "1.34"
 unicode: "ed91"

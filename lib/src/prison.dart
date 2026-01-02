@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class Prison extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [jail, policeman, police, cop, handcuff, arrest, prisoner, thief]
-version: "1.45"
+tags: [jail, policeman, police, cop, handcuff, arrest, prisoner, thief, prison, location]
 category: Map
+version: "1.45"
 unicode: "ef79"
 -->
 <svg
@@ -47,7 +47,7 @@ unicode: "ef79"
   <path d="M6 4v5" />
   <path d="M6 15v5" />
   <path d="M10 4v5" />
-  <path d="M11 9h-6v6h6z" />
+  <path d="M11 9h-6v6h6l0 -6" />
   <path d="M10 15v5" />
   <path d="M8 12h-.01" />
 </svg>

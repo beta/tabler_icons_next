@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Bubble extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [comment, chat, reply, communication, conversation, faq, message, text, bubble, contact]
 category: Communication
-tags: [comment, chat, reply, communication, conversation, faq, message, text]
-unicode: "feba"
 version: "3.2"
+unicode: "feba"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

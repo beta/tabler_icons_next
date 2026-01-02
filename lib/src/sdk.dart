@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Sdk extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [development, programming, programmer, web, app]
+tags: [development, programming, programmer, web, app, sdk, software, coding, technical, developer]
+category: Development
 version: "1.93"
 unicode: "f3af"
-category: Development
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ category: Development
   <path d="M17 8v8" />
   <path d="M21 8l-3 4l3 4" />
   <path d="M17 12h1" />
-  <path d="M10 8v8h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-2z" />
+  <path d="M10 8v8h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-2" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ClockStop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, watch, alarm, pause, off]
+tags: [time, watch, alarm, pause, off, clock, stop, control, operation, function]
 category: System
 version: "1.105"
 unicode: "f54b"
@@ -44,7 +44,7 @@ unicode: "f54b"
 >
   <path d="M21 12a9 9 0 1 0 -9 9" />
   <path d="M12 7v5l1 1" />
-  <path d="M16 16h6v6h-6z" />
+  <path d="M16 16h6v6h-6l0 -6" />
 </svg>
 ''';
 }

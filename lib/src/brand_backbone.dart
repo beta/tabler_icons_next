@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandBackbone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [javascript, programmers, creation, websites]
+tags: [javascript, programmers, creation, websites, brand, backbone, logo, company, trademark, identity]
 category: Brand
-unicode: "f325"
 version: "1.86"
+unicode: "f325"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,8 +42,8 @@ version: "1.86"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 20l14 -8l-14 -8z" />
-  <path d="M19 20l-14 -8l14 -8z" />
+  <path d="M5 20l14 -8l-14 -8l0 16" />
+  <path d="M19 20l-14 -8l14 -8l0 16" />
 </svg>
 ''';
 }

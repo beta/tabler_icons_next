@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Anchor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [hold, ship, harbor, docks, anchor, location, navigation, geography, place, position]
 category: Map
-tags: [hold, ship, harbor, docks]
 version: "1.3"
 unicode: "eb76"
 -->
@@ -43,7 +43,7 @@ unicode: "eb76"
   stroke-linejoin="round"
 >
   <path d="M12 9v12m-8 -8a8 8 0 0 0 16 0m1 0h-2m-14 0h-2" />
-  <path d="M12 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
 </svg>
 ''';
 }

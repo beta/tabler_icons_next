@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandPicsart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [photo, photography, software, video, editing]
+tags: [photo, photography, software, video, editing, brand, picsart, logo, company, trademark]
 category: Brand
-unicode: "f4d9"
 version: "1.99"
+unicode: "f4d9"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,8 +42,8 @@ version: "1.99"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 9m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
-  <path d="M12 9m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M5 9a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+  <path d="M9 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
   <path d="M5 9v11a2 2 0 1 0 4 0v-4.5" />
 </svg>
 ''';

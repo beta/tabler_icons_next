@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class LollipopOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [candy, food, sweet, halloween, dessert, sugar, lollipop, off, meal, cuisine]
 category: Food
-tags: [candy, food, sweet, halloween, dessert, sugar]
 version: "1.66"
 unicode: "f157"
 -->

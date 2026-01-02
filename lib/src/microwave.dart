@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Microwave extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [oven, kitchen, cooking, food, cook]
+tags: [oven, kitchen, cooking, food, cook, microwave, meal, cuisine, eating, nutrition]
+category: Food
 version: "1.74"
 unicode: "f248"
-category: Food
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ category: Food
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 6m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
+  <path d="M3 7a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1l0 -10" />
   <path d="M15 6v12" />
   <path d="M18 12h.01" />
   <path d="M18 15h.01" />

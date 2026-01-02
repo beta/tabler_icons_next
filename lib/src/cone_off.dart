@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class ConeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [geometry, math, object, shape, cone, off, disabled, inactive, form, figure]
 category: Shapes
-tags: [geometry, math, object, shape]
-unicode: "f3d8"
 version: "1.94"
+unicode: "f3d8"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

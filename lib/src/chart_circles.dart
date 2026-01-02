@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ChartCircles extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, analysis, analyse, graph]
+tags: [statistics, analysis, analyse, graph, chart, circles, visualization, round, circular, analytics]
 category: Charts
 version: "1.39"
 unicode: "ee2b"
@@ -42,8 +42,8 @@ unicode: "ee2b"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M9.5 9.5m-5.5 0a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0" />
-  <path d="M14.5 14.5m-5.5 0a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0" />
+  <path d="M4 9.5a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0" />
+  <path d="M9 14.5a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Devices2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [computer, monitor, keyboard, devices, hardware, technology, electronic, gadget, equipment, 2]
 category: Devices
-tags: [computer, monitor, keyboard]
 version: "1.26"
 unicode: "ed29"
 -->
@@ -43,10 +43,10 @@ unicode: "ed29"
   stroke-linejoin="round"
 >
   <path d="M10 15h-6a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h6" />
-  <path d="M13 4m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
+  <path d="M13 5a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1l0 -14" />
   <path d="M7 19l3 0" />
   <path d="M17 8l0 .01" />
-  <path d="M17 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M16 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
   <path d="M9 15l0 4" />
 </svg>
 ''';

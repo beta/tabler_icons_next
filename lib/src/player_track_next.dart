@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class PlayerTrackNext extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, forward, play, song, playlist]
+tags: [music, forward, play, song, playlist, player, track, next, content, entertainment]
 category: Media
 version: "1.28"
 unicode: "ed4b"
@@ -42,8 +42,8 @@ unicode: "ed4b"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 5v14l8 -7z" />
-  <path d="M14 5v14l8 -7z" />
+  <path d="M3 5v14l8 -7l-8 -7" />
+  <path d="M14 5v14l8 -7l-8 -7" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Outbound extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [call, exit, telephone, out]
+category: System
+tags: [call, exit, telephone, out, outbound]
 version: "1.74"
 unicode: "f249"
 -->
@@ -41,7 +42,7 @@ unicode: "f249"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
   <path d="M9 15l6 -6" />
   <path d="M11 9h4v4" />
 </svg>

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Home2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [house, dashboard, living, building, home, main, architecture, structure, start, construction]
 category: Buildings
-tags: [house, dashboard, living, building]
 version: "1.1"
 unicode: "eac0"
 -->
@@ -44,7 +44,7 @@ unicode: "eac0"
 >
   <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
   <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
-  <path d="M10 12h4v4h-4z" />
+  <path d="M10 12h4v4h-4l0 -4" />
 </svg>
 ''';
 }

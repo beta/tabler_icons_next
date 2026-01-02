@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BackpackOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [education, school, learning, adventure, travel, backpack, off, store, purchase, disabled]
 category: E-commerce
-tags: [education, school, learning, adventure, travel]
-unicode: "f3c2"
 version: "1.94"
+unicode: "f3c2"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

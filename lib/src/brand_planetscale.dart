@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandPlanetscale extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mysql, database, developers]
+tags: [mysql, database, developers, brand, planetscale, logo, company, trademark, identity, corporate]
 category: Brand
 version: "2.5"
 unicode: "f78f"
@@ -42,8 +42,8 @@ unicode: "f78f"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M20.993 11.63a9 9 0 0 1 -9.362 9.362l9.362 -9.362z" />
-  <path d="M12 3a9.001 9.001 0 0 1 8.166 5.211l-11.955 11.955a9 9 0 0 1 3.789 -17.166z" />
+  <path d="M20.993 11.63a9 9 0 0 1 -9.362 9.362l9.362 -9.362" />
+  <path d="M12 3a9.001 9.001 0 0 1 8.166 5.211l-11.955 11.955a9 9 0 0 1 3.789 -17.166" />
   <path d="M12 12l-6 6" />
 </svg>
 ''';

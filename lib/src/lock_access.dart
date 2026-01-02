@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class LockAccess extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [block, limited, restricted, unavailable, confidential]
+tags: [block, limited, restricted, unavailable, confidential, lock, access, secure, private, control]
+category: System
 version: "1.39"
 unicode: "eeaa"
-category: System
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ category: System
   <path d="M4 16v2a2 2 0 0 0 2 2h2" />
   <path d="M16 4h2a2 2 0 0 1 2 2v2" />
   <path d="M16 20h2a2 2 0 0 0 2 -2v-2" />
-  <path d="M8 11m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
+  <path d="M8 12a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1l0 -3" />
   <path d="M10 11v-2a2 2 0 1 1 4 0v2" />
 </svg>
 ''';

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class DoorEnter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [entrance, open, in, entry]
+category: System
+tags: [entrance, open, in, entry, door, enter]
 version: "1.43"
 unicode: "ef4c"
 -->

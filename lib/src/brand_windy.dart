@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandWindy extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, sun, cold, hot, rain, forecast]
+tags: [weather, sun, cold, hot, rain, forecast, brand, windy, logo, company]
 category: Brand
-unicode: "f4dd"
 version: "1.99"
+unicode: "f4dd"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

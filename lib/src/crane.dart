@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Crane extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [construction, building, machine, lifting]
+tags: [construction, building, machine, lifting, crane, transport, travel, vehicle, automobile, mobility]
 category: Vehicles
 version: "1.41"
 unicode: "ef27"

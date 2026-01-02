@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class JewishStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [judaism, israel, religion, bright]
-unicode: "f3ff"
-version: "1.94"
+tags: [judaism, israel, religion, bright, jewish, star, favorite, rating, geometry, form]
 category: Shapes
+version: "1.94"
+unicode: "f3ff"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ category: Shapes
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 2l3 5h6l-3 5l3 5h-6l-3 5l-3 -5h-6l3 -5l-3 -5h6z" />
+  <path d="M12 2l3 5h6l-3 5l3 5h-6l-3 5l-3 -5h-6l3 -5l-3 -5h6l3 -5" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Hdr extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [high, dynamic, range, photography, contrast, intensity, clarity, capability, richness, image]
+tags: [high, dynamic, range, photography, contrast, intensity, clarity, capability, richness, hdr]
 category: Photography
 version: "2.18"
 unicode: "fa7b"
@@ -45,7 +45,7 @@ unicode: "fa7b"
   <path d="M3 16v-8" />
   <path d="M7 8v8" />
   <path d="M3 12h4" />
-  <path d="M10 8v8h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-2z" />
+  <path d="M10 8v8h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-2" />
   <path d="M17 12h2a2 2 0 1 0 0 -4h-2v8m4 0l-3 -4" />
 </svg>
 ''';

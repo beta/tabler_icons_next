@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class BracketsAngleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, syntax, programming, development, deactivate, exclude, remove, cancel, suspend]
+category: Design
+tags: [code, syntax, programming, development, deactivate, exclude, remove, cancel, suspend, brackets]
 version: "2.37"
 unicode: "fcb1"
 -->

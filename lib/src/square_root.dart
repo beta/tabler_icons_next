@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class SquareRoot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mathematics, maths, science, calculate, calculator, algebra]
+tags: [mathematics, maths, science, calculate, calculator, algebra, square, root, calculation, equation]
 category: Math
 version: "1.39"
 unicode: "eef1"

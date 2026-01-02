@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class RecordMail extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [voice, voicemail, message]
+category: System
+tags: [voice, voicemail, message, record, mail, email, letter, post]
 version: "1.1"
 unicode: "eb12"
 -->
@@ -41,8 +42,8 @@ unicode: "eb12"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M7 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-  <path d="M17 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M4 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M14 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
   <path d="M7 15l10 0" />
 </svg>
 ''';

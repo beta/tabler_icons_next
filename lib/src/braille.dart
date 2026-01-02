@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Braille extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [blind, alphabet, disability, letters, read]
+category: Health
+tags: [blind, alphabet, disability, letters, read, braille, accessibility, a11y, vision, impaired, inclusive, tactile]
 version: "1.105"
 unicode: "f545"
 -->
@@ -41,9 +42,9 @@ unicode: "f545"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M15 5a1 1 0 1 0 2 0a1 1 0 0 0 -2 0z" />
-  <path d="M7 5a1 1 0 1 0 2 0a1 1 0 0 0 -2 0z" />
-  <path d="M7 19a1 1 0 1 0 2 0a1 1 0 0 0 -2 0z" />
+  <path d="M15 5a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
+  <path d="M7 5a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
+  <path d="M7 19a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
   <path d="M16 12h.01" />
   <path d="M8 12h.01" />
   <path d="M16 19h.01" />

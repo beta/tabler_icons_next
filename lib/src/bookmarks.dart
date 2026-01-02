@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Bookmarks extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [read, clip, marker, tag, bookmarks, file, paper, text, record, information]
 category: Document
-tags: [read, clip, marker, tag]
 version: "1.24"
 unicode: "ed08"
 -->
@@ -42,7 +42,7 @@ unicode: "ed08"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M15 10v11l-5 -3l-5 3v-11a3 3 0 0 1 3 -3h4a3 3 0 0 1 3 3z" />
+  <path d="M15 10v11l-5 -3l-5 3v-11a3 3 0 0 1 3 -3h4a3 3 0 0 1 3 3" />
   <path d="M11 3h5a3 3 0 0 1 3 3v11" />
 </svg>
 ''';

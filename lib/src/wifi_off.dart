@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class WifiOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [online, connection, signal, wireless, wifi, off, internet, hardware, technology, disabled]
 category: Devices
-tags: [online, connection, signal, wireless]
 version: "1.22"
 unicode: "ecfa"
 -->

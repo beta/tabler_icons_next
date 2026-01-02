@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class PlaneInflight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [travel, vacation, summer, sea, ocean, skies, clouds]
+tags: [travel, vacation, summer, sea, ocean, skies, clouds, plane, inflight, transport]
 category: Vehicles
 version: "1.47"
 unicode: "ef98"
@@ -42,7 +42,7 @@ unicode: "ef98"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M15 11.085h5a2 2 0 1 1 0 4h-15l-3 -6h3l2 2h3l-2 -7h3l4 7z" />
+  <path d="M15 11.085h5a2 2 0 1 1 0 4h-15l-3 -6h3l2 2h3l-2 -7h3l4 7" />
   <path d="M3 21h18" />
 </svg>
 ''';

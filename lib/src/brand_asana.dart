@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandAsana extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [task, management, project management, manage, collaborate, collaboration, team, teamwork, technology]
+tags: [task, management, project management, manage, collaborate, collaboration, team, teamwork, technology, brand]
 category: Brand
 version: "1.36"
 unicode: "edc5"
@@ -42,9 +42,9 @@ unicode: "edc5"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 7m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-  <path d="M17 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-  <path d="M7 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M9 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M14 16a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M4 16a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
 </svg>
 ''';
 }

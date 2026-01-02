@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class AddressBookOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [contact, contacts, phonebook, profile, resources]
-unicode: "f3b8"
+category: Communication
+tags: [contact, contacts, phonebook, profile, resources, address, book, off, disabled, inactive]
 version: "1.94"
+unicode: "f3b8"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

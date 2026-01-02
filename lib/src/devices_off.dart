@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class DevicesOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [computer, laptop, notebook, tablet, phone, mobile, mac, iphone, devices, off]
 category: Devices
-tags: [computer, laptop, notebook, tablet, phone, mobile, mac, iphone]
-unicode: "f3e4"
 version: "1.94"
+unicode: "f3e4"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

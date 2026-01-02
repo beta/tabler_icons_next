@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class MathXFloorDivideY extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [math, expression, equation, floor, division]
+tags: [math, expression, equation, floor, division, divide, calculation, mathematics, numeric, formula]
 category: Math
-unicode: "10073"
 version: "3.20"
+unicode: "10073"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

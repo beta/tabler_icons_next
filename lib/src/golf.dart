@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Golf extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [game, ball, play, hole, club-and-ball, stroke, luxury, pitch, golf, athletic]
 category: Sport
-tags: [game, ball, play, hole, club-and-ball, stroke, luxury, pitch]
 version: "1.34"
 unicode: "ed8c"
 -->

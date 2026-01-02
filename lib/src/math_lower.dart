@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class MathLower extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mathematic, sign, expressionm, less]
+tags: [mathematic, sign, expressionm, less, math, lower, calculation, equation, mathematics, numeric]
 category: Math
-unicode: "f4eb"
 version: "1.100"
+unicode: "f4eb"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

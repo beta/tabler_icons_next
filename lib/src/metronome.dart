@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class Metronome extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [tempo, rhythm, beat, timing, pace, measure, timekeeper, count, cadence, meter]
 version: "2.40"
 unicode: "fd25"
@@ -42,7 +43,7 @@ unicode: "fd25"
   stroke-linejoin="round"
 >
   <path d="M14.153 8.188l-.72 -3.236a2.493 2.493 0 0 0 -4.867 0l-3.025 13.614a2 2 0 0 0 1.952 2.434h7.014a2 2 0 0 0 1.952 -2.434l-.524 -2.357m-4.935 1.791l9 -13" />
-  <path d="M20 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M19 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
 </svg>
 ''';
 }

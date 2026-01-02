@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class PhotoAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [picture, landscape, camera, photo, content, entertainment, ai, multimedia, broadcast, audio]
 category: Media
-tags: [image, picture, landscape, camera]
 version: "2.14"
 unicode: "fa32"
 -->

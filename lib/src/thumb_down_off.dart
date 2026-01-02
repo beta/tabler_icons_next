@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class ThumbDownOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [dislike, bad, emotion, thumb, down, off, bottom, decrease, control, operation]
 category: System
-tags: [dislike, bad, emotion]
-unicode: "f436"
 version: "1.94"
+unicode: "f436"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class ArrowBadgeLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [army, badge, military, rank, soldier, war, west]
+tags: [army, badge, military, rank, soldier, war, west, arrow, left, direction]
 category: Arrows
-unicode: "f60c"
 version: "1.115"
+unicode: "f60c"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ version: "1.115"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M11 17h6l-4 -5l4 -5h-6l-4 5z" />
+  <path d="M11 17h6l-4 -5l4 -5h-6l-4 5l4 5" />
 </svg>
 ''';
 }

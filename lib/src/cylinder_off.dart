@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class CylinderOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [geometry, gas, tube, object, piston, cylinder, off, disabled, inactive, form]
 category: Shapes
-tags: [geometry, gas, tube, object, piston]
 version: "2.20"
 unicode: "fa98"
 -->

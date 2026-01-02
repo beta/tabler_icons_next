@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Script extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, programming, coding, document, development]
+tags: [code, programming, coding, document, development, script, file, paper, text, record]
 category: Document
 version: "1.82"
 unicode: "f2da"

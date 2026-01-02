@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class HandSanitizer extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hygiene, gel, alcohol, wash, virus]
-unicode: "f5f4"
-version: "1.113"
+tags: [hygiene, gel, alcohol, wash, virus, hand, sanitizer, medical, wellness, healthcare]
 category: Health
+version: "1.113"
+unicode: "f5f4"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ category: Health
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M7 21h10v-10a3 3 0 0 0 -3 -3h-4a3 3 0 0 0 -3 3v10z" />
+  <path d="M7 21h10v-10a3 3 0 0 0 -3 -3h-4a3 3 0 0 0 -3 3v10" />
   <path d="M15 3h-6a2 2 0 0 0 -2 2" />
   <path d="M12 3v5" />
   <path d="M12 11v4" />

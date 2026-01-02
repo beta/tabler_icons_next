@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class MugOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [tea, coffee, drink, container, jug, mug, off, meal, cuisine, disabled]
 category: Food
-tags: [tea, coffee, drink, container, jug]
 version: "1.66"
 unicode: "f165"
 -->

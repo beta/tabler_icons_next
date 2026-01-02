@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandNpm extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [package, manager, node.js, javascript]
+tags: [package, manager, node.js, javascript, brand, npm, logo, company, trademark, identity]
 category: Brand
-unicode: "f569"
 version: "1.107"
+unicode: "f569"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ version: "1.107"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M1 8h22v7h-12v2h-4v-2h-6z" />
+  <path d="M1 8h22v7h-12v2h-4v-2h-6l0 -7" />
   <path d="M7 8v7" />
   <path d="M14 8v7" />
   <path d="M17 11v4" />

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class OctagonOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [shape, geometric, math, 2d, building, government, octagon, off, disabled, inactive]
 category: Shapes
-tags: [shape, geometric, math, 2d, building, government]
 version: "1.39"
 unicode: "eeb8"
 -->

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandBandlab extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [make, music, online, cloud, webstie]
+tags: [make, music, online, cloud, webstie, brand, bandlab, logo, company, trademark]
 category: Brand
-unicode: "f5fa"
 version: "1.114"
+unicode: "f5fa"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

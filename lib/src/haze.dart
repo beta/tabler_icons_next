@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Haze extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [climate, meterology, weather, morning]
+tags: [climate, meterology, weather, morning, haze, forecast, meteorology, atmospheric, conditions]
 category: Weather
 version: "1.48"
 unicode: "efaa"

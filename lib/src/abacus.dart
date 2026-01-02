@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class Abacus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [abacus, math, counting, adding up]
-version: "1.58"
+tags: [abacus, math, counting, adding up, calculation, equation, mathematics, numeric, formula]
 category: Math
+version: "1.58"
 unicode: "f05c"
 -->
 <svg

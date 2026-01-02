@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Link extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [zoom-filled]
+tags: [zoom-filled, link, url, connection, hyperlink, reference, attach, join, typography, writing]
 category: Text
 version: "1.0"
 unicode: "eade"

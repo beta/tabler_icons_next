@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandCodecov extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coding, analysis, archive, merge]
+tags: [coding, analysis, archive, merge, brand, codecov, logo, company, trademark, identity]
 category: Brand
-unicode: "f329"
 version: "1.86"
+unicode: "f329"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

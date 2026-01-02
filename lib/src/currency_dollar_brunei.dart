@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class CurrencyDollarBrunei extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, buisness, commerce]
+tags: [exchange, buisness, commerce, currency, dollar, brunei, finance, payment, money, usd]
 category: Currencies
-unicode: "f36c"
 version: "1.90"
+unicode: "f36c"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ version: "1.90"
   <path d="M21 6h-4a3 3 0 0 0 0 6h1a3 3 0 0 1 0 6h-4" />
   <path d="M17 20v-2" />
   <path d="M18 6v-2" />
-  <path d="M3 6v12h4a3 3 0 0 0 0 -6h-4h4a3 3 0 0 0 0 -6h-4z" />
+  <path d="M3 6v12h4a3 3 0 0 0 0 -6h-4h4a3 3 0 0 0 0 -6h-4" />
 </svg>
 ''';
 }

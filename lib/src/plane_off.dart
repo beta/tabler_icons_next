@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class PlaneOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [travel, journey, trip, airport, baggage, luggage, plane, off, transport, disabled]
 category: Vehicles
-tags: [travel, journey, trip, airport, baggage, luggage]
 version: "1.66"
 unicode: "f17a"
 -->

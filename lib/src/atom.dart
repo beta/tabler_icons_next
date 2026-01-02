@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Atom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [unit, element, part, electrons]
+category: Nature
+tags: [unit, part, electrons, atom, particle, molecule, science, physics, chemistry]
 version: "1.3"
 unicode: "eb79"
 -->

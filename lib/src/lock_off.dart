@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class LockOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [security, password, secure, lock, off, private, control, operation, disabled, inactive]
 category: System
-tags: [security, password, secure]
 version: "1.25"
 unicode: "ed1e"
 -->

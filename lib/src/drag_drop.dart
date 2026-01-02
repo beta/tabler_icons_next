@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class DragDrop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [location, gesture, move]
-version: "1.3"
+tags: [location, gesture, move, drag, drop, creative, artistic, visual, aesthetic, style]
 category: Design
+version: "1.3"
 unicode: "eb89"
 -->
 <svg

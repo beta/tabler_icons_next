@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Cross extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [prayer, church, catholic, jezus, religion]
+tags: [prayer, church, catholic, jezus, religion, cross, sign, mark, emblem, representation]
 category: Symbols
 version: "1.47"
 unicode: "ef8f"
@@ -42,7 +42,7 @@ unicode: "ef8f"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M10 21h4v-9h5v-4h-5v-5h-4v5h-5v4h5z" />
+  <path d="M10 21h4v-9h5v-4h-5v-5h-4v5h-5v4h5l0 9" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class TransitionLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, west, moving]
+tags: [direction, west, moving, transition, left, navigation, flow, movement, route, path]
 category: Arrows
 version: "1.80"
 unicode: "f2b3"
@@ -43,7 +43,7 @@ unicode: "f2b3"
   stroke-linejoin="round"
 >
   <path d="M6 21a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 3 -3" />
-  <path d="M21 6v12a3 3 0 0 1 -6 0v-12a3 3 0 0 1 6 0z" />
+  <path d="M21 6v12a3 3 0 0 1 -6 0v-12a3 3 0 0 1 6 0" />
   <path d="M15 12h-8" />
   <path d="M10 9l-3 3l3 3" />
 </svg>

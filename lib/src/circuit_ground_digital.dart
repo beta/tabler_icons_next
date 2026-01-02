@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class CircuitGroundDigital extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [electric, electricity, diagram]
+tags: [electric, electricity, diagram, circuit, ground, digital, energy, voltage, power, current]
 category: Electrical
 version: "1.77"
 unicode: "f27b"
@@ -43,7 +43,7 @@ unicode: "f27b"
   stroke-linejoin="round"
 >
   <path d="M12 13v-10" />
-  <path d="M12 21l-6 -8h12z" />
+  <path d="M12 21l-6 -8h12l-6 8" />
 </svg>
 ''';
 }

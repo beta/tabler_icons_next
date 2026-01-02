@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class LocationBroken extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [delete, map, navigation, pin]
+tags: [delete, map, navigation, pin, location, broken, geography, place, position]
 category: Map
 version: "1.81"
 unicode: "f2c4"

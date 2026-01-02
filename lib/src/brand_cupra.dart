@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandCupra extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [car, seat, sport, formentor, ateca, leon]
+tags: [car, seat, sport, formentor, ateca, leon, brand, cupra, logo, company]
 category: Brand
-unicode: "f4d1"
 version: "1.99"
+unicode: "f4d1"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

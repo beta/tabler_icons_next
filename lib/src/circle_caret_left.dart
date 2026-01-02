@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class CircleCaretLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, shape, west]
+tags: [direction, shape, west, circle, caret, left, navigation, flow, round, circular]
 category: Arrows
-unicode: "f4aa"
 version: "1.97"
+unicode: "f4aa"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,8 +42,8 @@ version: "1.97"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M9 12l4 -4v8z" />
-  <path d="M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18z" />
+  <path d="M9 12l4 -4v8l-4 -4" />
+  <path d="M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class ArrowElbowLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bend, direction, turn, left, symbol, path, navigation, interface, ui, route]
+tags: [bend, direction, turn, left, path, navigation, interface, ui, route, arrow]
+category: Arrows
 version: "2.11"
 unicode: "f9ed"
-category: Arrows
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

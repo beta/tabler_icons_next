@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Sos extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [help, emergency, signal, message, alert]
+category: System
+tags: [help, emergency, signal, message, alert, sos]
 version: "1.74"
 unicode: "f24a"
 -->

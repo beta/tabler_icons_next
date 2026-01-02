@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Comet extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [space, universe, star, orb, glow, night]
+tags: [space, universe, star, orb, glow, night, comet, climate, forecast, meteorology]
 category: Weather
 version: "1.13"
 unicode: "ec76"
@@ -42,7 +42,7 @@ unicode: "ec76"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M15.5 18.5l-3 1.5l.5 -3.5l-2 -2l3 -.5l1.5 -3l1.5 3l3 .5l-2 2l.5 3.5z" />
+  <path d="M15.5 18.5l-3 1.5l.5 -3.5l-2 -2l3 -.5l1.5 -3l1.5 3l3 .5l-2 2l.5 3.5l-3 -1.5" />
   <path d="M4 4l7 7" />
   <path d="M9 4l3.5 3.5" />
   <path d="M4 9l3.5 3.5" />

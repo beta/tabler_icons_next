@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class Jetpack extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fly, rocket, transport, space, future]
-unicode: "f581"
+category: System
+tags: [fly, rocket, transport, space, future, jetpack]
 version: "1.108"
+unicode: "f581"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -41,8 +42,8 @@ version: "1.108"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M10 6a3 3 0 1 0 -6 0v7h6v-7z" />
-  <path d="M14 13h6v-7a3 3 0 0 0 -6 0v7z" />
+  <path d="M10 6a3 3 0 1 0 -6 0v7h6v-7" />
+  <path d="M14 13h6v-7a3 3 0 0 0 -6 0v7" />
   <path d="M5 16c0 2.333 .667 4 2 5c1.333 -1 2 -2.667 2 -5" />
   <path d="M15 16c0 2.333 .667 4 2 5c1.333 -1 2 -2.667 2 -5" />
   <path d="M10 8h4" />

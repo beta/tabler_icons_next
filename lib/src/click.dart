@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Click extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [select, cursor]
+category: System
+tags: [select, cursor, click, design]
 version: "1.5"
 unicode: "ebbc"
 -->

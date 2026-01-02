@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandSocketIo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [library, javascript, web, app, communication]
+tags: [library, javascript, web, app, communication, brand, socket, logo, company, trademark]
 category: Brand
-unicode: "f49b"
 version: "1.96"
+unicode: "f49b"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +42,9 @@ version: "1.96"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-  <path d="M11 11h1l3 -4z" />
-  <path d="M12 13h1l-4 4z" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M11 11h1l3 -4l-4 4" />
+  <path d="M12 13h1l-4 4l3 -4" />
 </svg>
 ''';
 }

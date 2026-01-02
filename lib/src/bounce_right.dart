@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BounceRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ball, east, motion, jump]
+tags: [ball, east, motion, jump, bounce, right, creative, artistic, visual, aesthetic]
 category: Design
-unicode: "f59e"
 version: "1.110"
+unicode: "f59e"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ version: "1.110"
   stroke-linejoin="round"
 >
   <path d="M4 15.5c3 -1 5.5 -.5 8 4.5c.5 -3 1.5 -5.5 3 -8" />
-  <path d="M18 9a2 2 0 1 1 0 -4a2 2 0 0 1 0 4z" />
+  <path d="M18 9a2 2 0 1 1 0 -4a2 2 0 0 1 0 4" />
 </svg>
 ''';
 }

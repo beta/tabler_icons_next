@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class FileOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [paper, new, file, off, document, data, disabled, inactive, content, record]
 category: Document
-tags: [paper, new]
 version: "1.22"
 unicode: "ecf2"
 -->

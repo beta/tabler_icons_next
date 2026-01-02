@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class LayoutAlignRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [position, design, layout, align, right, creative, artistic, visual, aesthetic, style]
 category: Design
-tags: [position, element, design]
 version: "1.0"
 unicode: "ead1"
 -->
@@ -43,7 +43,7 @@ unicode: "ead1"
   stroke-linejoin="round"
 >
   <path d="M20 4l0 16" />
-  <path d="M4 9m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
+  <path d="M4 11a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2l0 -2" />
 </svg>
 ''';
 }

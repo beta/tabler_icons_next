@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Briefcase2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bag, baggage, folder, carrier, documents, suitcase, job, work, luggage]
+category: Design
+tags: [bag, baggage, folder, carrier, documents, suitcase, job, work, luggage, briefcase]
 version: "2.25"
 unicode: "fb03"
 -->
@@ -41,7 +42,7 @@ unicode: "fb03"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 9a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-9z" />
+  <path d="M3 9a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-9" />
   <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
 </svg>
 ''';

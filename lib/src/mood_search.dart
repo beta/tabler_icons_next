@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class MoodSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [emotion, feeling, happy, face, find, explore]
+tags: [emotion, feeling, happy, face, find, explore, mood, search, look, seek]
 category: Mood
 version: "2.7"
 unicode: "f7ba"
@@ -46,7 +46,7 @@ unicode: "f7ba"
   <path d="M9 10h.01" />
   <path d="M15 10h.01" />
   <path d="M9.5 15c.658 .672 1.56 1 2.5 1" />
-  <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M15 18a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
   <path d="M20.2 20.2l1.8 1.8" />
 </svg>
 ''';

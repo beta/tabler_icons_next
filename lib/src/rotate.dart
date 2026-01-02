@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Rotate extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [refresh, synchronization, reload, restart, spinner, loader, ajax, update, arrows]
+tags: [refresh, synchronization, reload, restart, spinner, loader, ajax, update, arrows, rotate]
 category: Arrows
 version: "1.0"
 unicode: "eb16"

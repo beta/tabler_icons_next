@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class LogicBuffer extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gate, technology, electirical, it]
+tags: [gate, technology, electirical, it, logic, buffer, boolean, operation, reasoning, conditional]
 category: Logic
 version: "1.74"
 unicode: "f241"
@@ -45,7 +45,7 @@ unicode: "f241"
   <path d="M22 12h-5" />
   <path d="M2 9h5" />
   <path d="M2 15h5" />
-  <path d="M7 5l10 7l-10 7z" />
+  <path d="M7 5l10 7l-10 7l0 -14" />
 </svg>
 ''';
 }

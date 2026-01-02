@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class PhotoCircle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [round, oval, loop, border, frame, snap, capture, shape, photograph, icon]
+category: Photography
+tags: [round, oval, loop, border, frame, snap, capture, shape, photograph, photo]
 version: "2.31"
 unicode: "fc4a"
 -->

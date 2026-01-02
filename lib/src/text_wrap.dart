@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class TextWrap extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [wrap, column, text, typography, writing]
+tags: [wrap, column, text, typography, writing, font, character, word]
 category: Text
 version: "1.6"
 unicode: "ebdd"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class Desk extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [workspace, workstation, table, office-desk, workplace, furniture, desk-setup, desktop, office-furniture, working]
 version: "2.41"
 unicode: "fd35"

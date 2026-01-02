@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class TextDirectionRtl extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [left, right, bidi]
+tags: [left, right, bidi, text, direction, rtl, typography, writing, font, character]
 category: Text
 version: "1.39"
 unicode: "eefd"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class World extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [earth, globe, global, language, union, world, location, navigation, geography, place]
 category: Map
-tags: [earth, globe, global, language, union]
 version: "1.0"
 unicode: "eb54"
 -->

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class CarCrane extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [transport, truck, machine, lifter]
+tags: [transport, truck, machine, lifter, car, crane, travel, vehicle, automobile, mobility]
 category: Vehicles
 version: "1.41"
 unicode: "ef25"
@@ -42,8 +42,8 @@ unicode: "ef25"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M3 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M15 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M7 18h8m4 0h2v-6a5 5 0 0 0 -5 -5h-1l1.5 5h4.5" />
   <path d="M12 18v-11h3" />
   <path d="M3 17v-5h9" />

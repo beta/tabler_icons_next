@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Theater extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [movie, film, show, mask, entertainment]
+tags: [movie, film, show, mask, entertainment, theater, location, navigation, geography, place]
+category: Map
 version: "2.5"
 unicode: "f79b"
-category: Map
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ category: Map
   stroke-linejoin="round"
 >
   <path d="M4 20h16" />
-  <path d="M20 16v-10a2 2 0 0 0 -2 -2h-12a2 2 0 0 0 -2 2v10l4 -6c2.667 1.333 5.333 1.333 8 0l4 6z" />
+  <path d="M20 16v-10a2 2 0 0 0 -2 -2h-12a2 2 0 0 0 -2 2v10l4 -6c2.667 1.333 5.333 1.333 8 0l4 6" />
 </svg>
 ''';
 }

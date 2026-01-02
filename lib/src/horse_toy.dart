@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class HorseToy extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [baby, child, kid, rocking, fun, horse, toy, entertainment, playing, recreation]
 category: Games
-tags: [baby, child, kid, rocking, fun]
 version: "1.78"
 unicode: "f28a"
 -->

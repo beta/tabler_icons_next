@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class AlphabetHebrew extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [language, alphabet, hebrew, jewish, typography, writing, font, character, word, letters]
 category: Text
-tags: [language, alphabet, hebrew, jewish]
-unicode: "ff2d"
 version: "3.8"
+unicode: "ff2d"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

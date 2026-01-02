@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class LetterBSmall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [b, beta, second, letter, alphabet, character, typeface, glyph, script, symbol]
+tags: [b, beta, second, letter, alphabet, character, typeface, glyph, script, small]
 category: Letters
 version: "2.38"
 unicode: "fcc8"
@@ -42,7 +42,7 @@ unicode: "fcc8"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M10 16h2a2 2 0 1 0 0 -4h-2h2a2 2 0 1 0 0 -4h-2v8z" />
+  <path d="M10 16h2a2 2 0 1 0 0 -4h-2h2a2 2 0 1 0 0 -4h-2v8" />
 </svg>
 ''';
 }

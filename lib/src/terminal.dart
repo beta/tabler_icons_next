@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Terminal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [console, command, git, command line, command prompt]
+category: System
+tags: [console, command, git, command line, command prompt, terminal]
 version: "1.6"
 unicode: "ebdc"
 -->

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class AlphabetGreek extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [letters, language, alpha, beta]
+tags: [letters, language, alpha, beta, alphabet, greek, typography, writing, font, character]
 category: Text
 version: "1.69"
 unicode: "f1e0"
@@ -43,7 +43,7 @@ unicode: "f1e0"
   stroke-linejoin="round"
 >
   <path d="M10 10v7" />
-  <path d="M5 10m0 2a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-1a2 2 0 0 1 -2 -2z" />
+  <path d="M5 12a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-1a2 2 0 0 1 -2 -2l0 -3" />
   <path d="M14 20v-11a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2" />
 </svg>
 ''';

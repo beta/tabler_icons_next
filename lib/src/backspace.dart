@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Backspace extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [delete, remove, eliminate, backspace, typography, writing, font, character, word]
 category: Text
-tags: [delete, remove, eliminate]
 version: "1.0"
 unicode: "ea2d"
 -->
@@ -42,7 +42,7 @@ unicode: "ea2d"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M20 6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-11l-5 -5a1.5 1.5 0 0 1 0 -2l5 -5z" />
+  <path d="M20 6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-11l-5 -5a1.5 1.5 0 0 1 0 -2l5 -5l11 0" />
   <path d="M12 10l4 4m0 -4l-4 4" />
 </svg>
 ''';

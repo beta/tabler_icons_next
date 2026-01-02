@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class DeviceMobileRotated extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [iphone, phone, smartphone, cellphone]
+tags: [iphone, phone, smartphone, cellphone, device, mobile, rotated, hardware, technology, electronic]
 category: Devices
 version: "1.20"
 unicode: "ecdb"
@@ -42,7 +42,7 @@ unicode: "ecdb"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 6m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+  <path d="M3 8a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -8" />
   <path d="M20 11v2" />
   <path d="M7 12h-.01" />
 </svg>

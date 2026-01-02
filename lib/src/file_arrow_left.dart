@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class FileArrowLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [document, import, page, move]
+tags: [document, import, page, move, file, arrow, left, data, direction, pointer]
 category: Document
 version: "1.56"
 unicode: "f033"
@@ -43,7 +43,7 @@ unicode: "f033"
   stroke-linejoin="round"
 >
   <path d="M14 3v4a1 1 0 0 0 1 1h4" />
-  <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+  <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" />
   <path d="M15 15h-6" />
   <path d="M11.5 17.5l-2.5 -2.5l2.5 -2.5" />
 </svg>

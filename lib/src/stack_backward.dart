@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class StackBackward extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [layers, depth, background, arrangement, reorder, reverse, underneath, position, sequence, arrange]
 version: "2.40"
 unicode: "fd27"
@@ -42,7 +43,7 @@ unicode: "fd27"
   stroke-linejoin="round"
 >
   <path d="M14 12l6 -3l-8 -4l-8 4l6 3" />
-  <path d="M10 12l-6 3l8 4l8 -4l-6 -3l-2 1z" fill="currentColor" />
+  <path d="M10 12l-6 3l8 4l8 -4l-6 -3l-2 1l-2 -1" fill="currentColor" />
 </svg>
 ''';
 }

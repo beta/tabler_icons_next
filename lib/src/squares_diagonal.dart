@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class SquaresDiagonal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [boxes, layers]
+tags: [boxes, layers, squares, diagonal, creative, artistic, rectangular, visual, aesthetic, style]
 category: Design
 version: "1.39"
 unicode: "eef5"
@@ -42,7 +42,7 @@ unicode: "eef5"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
+  <path d="M8 10a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2l0 -8" />
   <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2" />
   <path d="M8.586 19.414l10.827 -10.827" />
 </svg>

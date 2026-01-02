@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Article extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [news, newspaper, media, blog]
+tags: [news, newspaper, media, blog, article, file, paper, text, record, information]
 category: Document
 version: "1.69"
 unicode: "f1e2"
@@ -42,7 +42,7 @@ unicode: "f1e2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+  <path d="M3 6a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -12" />
   <path d="M7 8h10" />
   <path d="M7 12h10" />
   <path d="M7 16h10" />

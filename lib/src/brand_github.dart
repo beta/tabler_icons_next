@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandGithub extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, website, hosting, project, programming, software, development]
+tags: [logo, website, hosting, project, programming, software, development, brand, github, company]
 category: Brand
 version: "1.18"
 unicode: "ec1c"

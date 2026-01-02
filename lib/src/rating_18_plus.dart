@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class Rating18Plus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [film, video, photo, movie, age, limiter]
-version: "1.76"
+tags: [film, video, photo, movie, age, limiter, rating, plus, add, more]
 category: Symbols
+version: "1.76"
 unicode: "f269"
 -->
 <svg
@@ -42,9 +42,9 @@ unicode: "f269"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-  <path d="M11.5 10.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
-  <path d="M11.5 13.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M10 10.5a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+  <path d="M10 13.5a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
   <path d="M7 15v-6" />
   <path d="M15.5 12h3" />
   <path d="M17 10.5v3" />

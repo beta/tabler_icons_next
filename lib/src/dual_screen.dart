@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -42,7 +42,7 @@ unicode: "fa59"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 4l8 3v15l-8 -3z" />
+  <path d="M5 4l8 3v15l-8 -3l0 -15" />
   <path d="M13 19h6v-15h-14" />
 </svg>
 ''';

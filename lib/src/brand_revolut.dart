@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandRevolut extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bank, money, finance, change, currency]
+tags: [bank, money, finance, change, currency, brand, revolut, logo, company, trademark]
 category: Brand
-unicode: "f4da"
 version: "1.99"
+unicode: "f4da"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,8 +42,8 @@ version: "1.99"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 10h3v10h-3z" />
-  <path d="M14.5 4h-9.5v3h9.4a1.5 1.5 0 0 1 0 3h-3.4v4l4 6h4l-5 -7h.5a4.5 4.5 0 1 0 0 -9z" />
+  <path d="M5 10h3v10h-3l0 -10" />
+  <path d="M14.5 4h-9.5v3h9.4a1.5 1.5 0 0 1 0 3h-3.4v4l4 6h4l-5 -7h.5a4.5 4.5 0 1 0 0 -9" />
 </svg>
 ''';
 }

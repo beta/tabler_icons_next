@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class SeparatorHorizontal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [divider, space, separate, set apart, flat-lying]
+tags: [divider, space, separate, set apart, flat-lying, separator, horizontal, typography, writing, font]
 category: Text
 version: "1.13"
 unicode: "ec79"

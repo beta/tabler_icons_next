@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class Galaxy extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [universe, cosmos, nebula, astronomy, stardust, constellation, celestial, stellar, intergalactic, macrocosm]
 version: "2.37"
 unicode: "fcb6"

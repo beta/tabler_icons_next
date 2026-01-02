@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class MathNot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mathematic, sign, expression]
+tags: [mathematic, sign, expression, math, not, calculation, equation, mathematics, numeric, formula]
 category: Math
-unicode: "f4ec"
 version: "1.100"
+unicode: "f4ec"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

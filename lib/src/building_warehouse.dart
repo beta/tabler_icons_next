@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BuildingWarehouse extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [store, inventory, stuff, things, machinery]
+tags: [store, inventory, stuff, things, machinery, building, warehouse, architecture, structure, construction]
 category: Buildings
 version: "1.7"
 unicode: "ebe3"

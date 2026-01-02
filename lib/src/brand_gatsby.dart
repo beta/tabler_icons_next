@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandGatsby extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [framework, webpage, creation, software]
+tags: [framework, webpage, creation, software, brand, gatsby, logo, company, trademark, identity]
 category: Brand
-unicode: "f396"
 version: "1.92"
+unicode: "f396"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ version: "1.92"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3.296 14.297l6.407 6.407a9.018 9.018 0 0 1 -6.325 -6.116l-.082 -.291z" />
+  <path d="M3.296 14.297l6.407 6.407a9.018 9.018 0 0 1 -6.325 -6.116l-.082 -.291" />
   <path d="M16 13h5c-.41 3.603 -3.007 6.59 -6.386 7.614l-11.228 -11.229a9 9 0 0 1 15.66 -2.985" />
 </svg>
 ''';

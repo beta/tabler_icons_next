@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class Filter2Search extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-category: Sytem
-unicode: "10150"
+tags: [filter, search, find, look, seek, query, browse, sort, organize, arrange]
+category: System
 version: "3.32"
+unicode: "10150"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +45,7 @@ version: "3.32"
   <path d="M4 6h16" />
   <path d="M6 12h8.5" />
   <path d="M9 18h2" />
-  <path d="M15 18c0 .796 .316 1.559 .879 2.121c.563 .563 1.326 .879 2.121 .879c.796 0 1.559 -.316 2.121 -.879c.563 -.563 .879 -1.326 .879 -2.121c0 -.796 -.316 -1.559 -.879 -2.121c-.563 -.563 -1.326 -.879 -2.121 -.879c-.796 0 -1.559 .316 -2.121 .879c-.563 .563 -.879 1.326 -.879 2.121z" />
+  <path d="M15 18c0 .796 .316 1.559 .879 2.121c.563 .563 1.326 .879 2.121 .879c.796 0 1.559 -.316 2.121 -.879c.563 -.563 .879 -1.326 .879 -2.121c0 -.796 -.316 -1.559 -.879 -2.121c-.563 -.563 -1.326 -.879 -2.121 -.879c-.796 0 -1.559 .316 -2.121 .879c-.563 .563 -.879 1.326 -.879 2.121" />
   <path d="M20.2 20.2l1.8 1.8" />
 </svg>
 ''';

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Macro extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [video, photography, photo, camera]
+tags: [video, photography, photo, camera, macro, picture, capture, lens, image]
 category: Photography
 version: "1.39"
 unicode: "eeab"
@@ -46,7 +46,7 @@ unicode: "eeab"
   <path d="M18 15a6 6 0 0 0 -6 6" />
   <path d="M12 21a6 6 0 0 0 -6 -6" />
   <path d="M12 21v-10" />
-  <path d="M12 11a5 5 0 0 1 -5 -5v-3l3 2l2 -2l2 2l3 -2v3a5 5 0 0 1 -5 5z" />
+  <path d="M12 11a5 5 0 0 1 -5 -5v-3l3 2l2 -2l2 2l3 -2v3a5 5 0 0 1 -5 5" />
 </svg>
 ''';
 }

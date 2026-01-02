@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Rotate3d extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [rotation, geometry, 3d, modeling]
+category: System
+tags: [rotation, geometry, 3d, modeling, rotate]
 version: "1.55"
 unicode: "f020"
 -->
@@ -43,7 +44,7 @@ unicode: "f020"
 >
   <path d="M12 3a7 7 0 0 1 7 7v4l-3 -3" />
   <path d="M22 11l-3 3" />
-  <path d="M8 15.5l-5 -3l5 -3l5 3v5.5l-5 3z" />
+  <path d="M8 15.5l-5 -3l5 -3l5 3v5.5l-5 3l0 -5.5" />
   <path d="M3 12.5v5.5l5 3" />
   <path d="M8 15.545l5 -3.03" />
 </svg>

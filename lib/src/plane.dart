@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Plane extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [travel, journey, trip, airport, baggage, luggage, plane, transport, vehicle, automobile]
 category: Vehicles
-tags: [travel, journey, trip, airport, baggage, luggage]
 version: "1.2"
 unicode: "eb6f"
 -->
@@ -42,7 +42,7 @@ unicode: "eb6f"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M16 10h4a2 2 0 0 1 0 4h-4l-4 7h-3l2 -7h-4l-2 2h-3l2 -4l-2 -4h3l2 2h4l-2 -7h3z" />
+  <path d="M16 10h4a2 2 0 0 1 0 4h-4l-4 7h-3l2 -7h-4l-2 2h-3l2 -4l-2 -4h3l2 2h4l-2 -7h3l4 7" />
 </svg>
 ''';
 }

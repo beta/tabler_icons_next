@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class WashPress extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [laundry, clean, clear, clothes, machine, permanent]
+tags: [laundry, clean, clear, clothes, machine, permanent, wash, press, cleaning, washing]
 category: Laundry
-unicode: "f308"
 version: "1.84"
+unicode: "f308"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

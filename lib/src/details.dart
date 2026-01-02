@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Details extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [geometric, half, shape, highlight, triangle]
+category: System
+tags: [geometric, half, shape, highlight, triangle, details]
 version: "1.39"
 unicode: "ee71"
 -->
@@ -42,7 +43,7 @@ unicode: "ee71"
   stroke-linejoin="round"
 >
   <path d="M11.999 3l.001 17" />
-  <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0z" />
+  <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
 </svg>
 ''';
 }

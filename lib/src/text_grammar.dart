@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -27,7 +27,7 @@ class TextGrammar extends Icon {
 
   static const String _svg = '''<!--
 tags: [language, syntax, structure, writing, rules, edit, correct, composition, linguistics, sentence]
-Category: Text
+category: Text
 version: "2.44"
 unicode: "fd6d"
 -->
@@ -49,6 +49,5 @@ unicode: "fd6d"
   <path d="M4 16h12" />
   <path d="M4 20h6" />
   <path d="M14 20l2 2l5 -5" />
-</svg>
-''';
+</svg>''';
 }

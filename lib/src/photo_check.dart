@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class PhotoCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [success, complete, gallery, photo, check, content, entertainment, confirm, approve, multimedia]
 category: Media
-tags: [success, complete, image, gallery]
-unicode: "f35e"
 version: "1.89"
+unicode: "f35e"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Spider extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [halloween, animal, scary, horror, cobweb, insect]
+tags: [halloween, animal, scary, horror, cobweb, insect, spider, creature, wildlife, nature]
 category: Animals
 version: "1.78"
 unicode: "f293"
@@ -48,8 +48,8 @@ unicode: "f293"
   <path d="M19 4v2l-5 5" />
   <path d="M21.5 9.5l-1.5 1.5h-6" />
   <path d="M20 19v-2l-6 -6" />
-  <path d="M12 15m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
-  <path d="M12 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M8 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+  <path d="M10 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
 </svg>
 ''';
 }

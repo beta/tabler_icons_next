@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class FishBone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, skeleton, cat, sea]
+tags: [food, skeleton, cat, sea, fish, bone, creature, wildlife, nature, living]
 category: Animals
 version: "1.78"
 unicode: "f287"

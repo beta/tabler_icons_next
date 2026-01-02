@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class CaretDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [next, bottom, dropdown, show, more, caret, down, decrease, navigation, flow]
 category: Arrows
-tags: [next, bottom, dropdown, show, more]
 version: "1.2"
 unicode: "eb5d"
 -->

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Cactus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [plant, desert, spikes, nature, garden]
+tags: [plant, desert, spikes, nature, garden, cactus, environment, natural, outdoor, ecosystem]
 category: Nature
 version: "1.72"
 unicode: "f21b"

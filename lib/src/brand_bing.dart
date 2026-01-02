@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandBing extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [search, result, find, engine, internet, microsoft, web, technology]
+tags: [search, result, find, engine, internet, microsoft, web, technology, brand, bing]
 category: Brand
 version: "1.36"
 unicode: "edc6"
@@ -42,7 +42,7 @@ unicode: "edc6"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 3l4 1.5v12l6 -2.5l-2 -1l-1 -4l7 2.5v4.5l-10 5l-4 -2z" />
+  <path d="M5 3l4 1.5v12l6 -2.5l-2 -1l-1 -4l7 2.5v4.5l-10 5l-4 -2l0 -16" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Tooltip extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [info, help, information, advise]
+tags: [info, help, information, advise, tooltip, control, operation, function, interface, management]
 category: System
 version: "1.82"
 unicode: "f2dd"
@@ -42,8 +42,8 @@ unicode: "f2dd"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M12 13l-1.707 -1.707a1 1 0 0 0 -.707 -.293h-2.586a2 2 0 0 1 -2 -2v-3a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-2.586a1 1 0 0 0 -.707 .293l-1.707 1.707z" />
+  <path d="M10 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M12 13l-1.707 -1.707a1 1 0 0 0 -.707 -.293h-2.586a2 2 0 0 1 -2 -2v-3a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-2.586a1 1 0 0 0 -.707 .293l-1.707 1.707" />
 </svg>
 ''';
 }

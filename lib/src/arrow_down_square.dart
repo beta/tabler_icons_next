@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ArrowDownSquare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [drag, move]
+tags: [drag, move, arrow, down, square, direction, pointer, bottom, decrease, navigation]
 category: Arrows
 version: "1.35"
 unicode: "ed9a"
@@ -44,7 +44,7 @@ unicode: "ed9a"
 >
   <path d="M12 7v14" />
   <path d="M9 18l3 3l3 -3" />
-  <path d="M14 3v4h-4v-4z" />
+  <path d="M14 3v4h-4v-4l4 0" />
 </svg>
 ''';
 }

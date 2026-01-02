@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class ToiletPaper extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bathroom, hygiene, wc, cleaning, rubbing]
+category: System
+tags: [bathroom, hygiene, wc, cleaning, rubbing, toilet, paper]
 version: "1.50"
 unicode: "efd3"
 -->
@@ -41,7 +42,7 @@ unicode: "efd3"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M6 10m-3 0a3 7 0 1 0 6 0a3 7 0 1 0 -6 0" />
+  <path d="M3 10a3 7 0 1 0 6 0a3 7 0 1 0 -6 0" />
   <path d="M21 10c0 -3.866 -1.343 -7 -3 -7" />
   <path d="M6 3h12" />
   <path d="M21 10v10l-3 -1l-3 2l-3 -3l-3 2v-10" />

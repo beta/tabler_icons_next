@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BuildingStore extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shopping, shop, supermarket, market, products, retail, buy, sell]
+tags: [shopping, shop, supermarket, market, products, retail, buy, sell, building, store]
 category: Buildings
 version: "1.1"
 unicode: "ea4e"

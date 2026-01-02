@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class Percentage30 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [thirty, percent, fraction, third, tranche, part, segment, portion, slice, section]
 unicode: "fee0"
 version: "3.4"
@@ -41,7 +42,7 @@ version: "3.4"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 3a9 9 0 0 1 8.495 11.973l-8.495 -2.973z" fill="currentColor" stroke="none" />
+  <path d="M12 3a9 9 0 0 1 8.495 11.973l-8.495 -2.973v-9" fill="currentColor" stroke="none" />
   <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
 </svg>
 ''';

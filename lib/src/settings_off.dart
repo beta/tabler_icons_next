@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class SettingsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [cog, edit, gear, preferences, tools, settings, off, config, options, control]
 category: System
-tags: [cog, edit, gear, preferences, tools]
 version: "1.66"
 unicode: "f19f"
 -->

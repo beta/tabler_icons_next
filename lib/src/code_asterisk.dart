@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class CodeAsterisk extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coding, programming, html]
+tags: [coding, programming, html, code, asterisk, script, software, development, typography, writing]
 category: Text
 version: "1.85"
 unicode: "f312"

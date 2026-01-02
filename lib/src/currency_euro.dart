@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class CurrencyEuro extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [euro, eur, trade, finance, europe, eu, money, banknote, pay]
+tags: [euro, eur, trade, finance, europe, eu, money, banknote, pay, currency]
 category: Currencies
 version: "1.3"
 unicode: "eb85"

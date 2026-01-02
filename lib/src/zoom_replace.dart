@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ZoomReplace extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [find, change, switch, swap]
+tags: [find, change, switch, swap, zoom, replace, location, navigation, magnify, enlarge]
 category: Map
 version: "1.79"
 unicode: "f2a7"

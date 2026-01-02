@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class Armchair2Off extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [seat, chair, sofa, home, furniture]
-unicode: "f3bd"
+category: Buildings
+tags: [seat, chair, sofa, home, furniture, armchair, off, disabled, inactive, 2]
 version: "1.94"
+unicode: "f3bd"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

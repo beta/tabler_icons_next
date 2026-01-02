@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class SmartHome extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [apple, devices, connection, link, wifi, bluetooth, smart, home, house, main]
 category: Buildings
-tags: [apple, devices, connection, link, wifi, bluetooth]
 version: "1.20"
 unicode: "ecde"
 -->

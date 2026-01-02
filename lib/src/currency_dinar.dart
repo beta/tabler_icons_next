@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class CurrencyDinar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [kwd, dinar, kuwait, money, banknote, pay]
+tags: [kwd, dinar, kuwait, money, banknote, pay, currency, finance, payment, monetary]
 category: Currencies
 version: "1.39"
 unicode: "ee54"

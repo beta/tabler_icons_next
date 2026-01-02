@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class PhotoDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [money, currency, finance, wealth, economy, cash, snapshot, photo, dollar, usd]
 category: Media
-tags: [money, currency, finance, wealth, economy, cash, snapshot, image, icon, symbol]
 version: "2.10"
 unicode: "f993"
 -->

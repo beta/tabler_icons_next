@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class ChartPieOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [statistics, diagram, graph, rhythm, data, analysis, chart, pie, off, visualization]
 category: Charts
-tags: [statistics, diagram, graph, rhythm, data, analysis]
-unicode: "f3d3"
 version: "1.94"
+unicode: "f3d3"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

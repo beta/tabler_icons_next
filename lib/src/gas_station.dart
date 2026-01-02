@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class GasStation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fuel, oil, cars, vehicles, shop, distributor]
+tags: [fuel, oil, cars, vehicles, shop, distributor, gas, station, transport, travel]
 category: Vehicles
 version: "1.14"
 unicode: "ec7d"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Number71Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [seventy-one, digit, count, numeral, value, sequence, symbol, numeric, figure, calculate]
+tags: [seventy-one, digit, count, numeral, value, sequence, numeric, figure, calculate, number]
 category: Numbers
-unicode: "ffdb"
 version: "3.14"
+unicode: "ffdb"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

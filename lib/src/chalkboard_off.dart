@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class ChalkboardOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [school, classroom, education, learn, chalkboard, off, disabled, inactive, board, teaching]
 category: Document
-tags: [school, classroom, education, learn]
-unicode: "f3d1"
 version: "1.94"
+unicode: "f3d1"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

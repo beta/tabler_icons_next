@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Diamond extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [jewellery, crystal, mineral, jewelry, ring]
+category: Shapes
+tags: [jewellery, crystal, mineral, jewelry, ring, diamond]
 version: "1.2"
 unicode: "eb65"
 -->

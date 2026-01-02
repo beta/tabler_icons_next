@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Components extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hardware, technology, electronic, computer, design, ux, figma]
+tags: [hardware, technology, electronic, computer, design, ux, figma, components, creative, artistic]
 category: Design
 version: "1.48"
 unicode: "efa5"
@@ -42,10 +42,10 @@ unicode: "efa5"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 12l3 3l3 -3l-3 -3z" />
-  <path d="M15 12l3 3l3 -3l-3 -3z" />
-  <path d="M9 6l3 3l3 -3l-3 -3z" />
-  <path d="M9 18l3 3l3 -3l-3 -3z" />
+  <path d="M3 12l3 3l3 -3l-3 -3l-3 3" />
+  <path d="M15 12l3 3l3 -3l-3 -3l-3 3" />
+  <path d="M9 6l3 3l3 -3l-3 -3l-3 3" />
+  <path d="M9 18l3 3l3 -3l-3 -3l-3 3" />
 </svg>
 ''';
 }

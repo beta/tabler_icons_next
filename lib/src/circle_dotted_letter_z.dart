@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class CircleDottedLetterZ extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alphabet, monogram, typography, symbol, emblem, character, initial, graphic, design, decoration]
+tags: [alphabet, monogram, typography, emblem, character, initial, design, decoration, circle, dotted]
 category: Letters
-unicode: "ff66"
 version: "3.11"
+unicode: "ff66"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

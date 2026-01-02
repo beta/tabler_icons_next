@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Apple extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fruit, healthy, diet, fitness]
+tags: [fruit, healthy, diet, fitness, apple, meal, cuisine, eating, nutrition, culinary]
 category: Food
 version: "1.41"
 unicode: "ef21"

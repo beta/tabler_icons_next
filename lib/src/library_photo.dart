@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class LibraryPhoto extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [image, gallery, album, pictures, photography, archive, collection, snapshot, catalog, photos]
+category: System
+tags: [gallery, album, pictures, photography, archive, collection, snapshot, catalog, photos, library]
 version: "2.42"
 unicode: "fd4a"
 -->
@@ -41,7 +42,7 @@ unicode: "fd4a"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M7 3m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+  <path d="M7 5.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667l0 -8.666" />
   <path d="M4.012 7.26a2.005 2.005 0 0 0 -1.012 1.737v10c0 1.1 .9 2 2 2h10c.75 0 1.158 -.385 1.5 -1" />
   <path d="M17 7h.01" />
   <path d="M7 13l3.644 -3.644a1.21 1.21 0 0 1 1.712 0l3.644 3.644" />

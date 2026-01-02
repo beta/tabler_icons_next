@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class AlphabetThai extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [language, alphabet, thailand, thai, typography, writing, font, character, word, letters]
 category: Text
-tags: [language, alphabet, thailand]
-unicode: "ff2b"
 version: "3.8"
+unicode: "ff2b"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

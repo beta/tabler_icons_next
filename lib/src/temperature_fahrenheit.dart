@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class TemperatureFahrenheit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, celcius, fahrenheit, cold, hot]
+tags: [weather, celcius, fahrenheit, cold, hot, temperature, climate, forecast, meteorology, atmospheric]
 category: Weather
 version: "1.1"
 unicode: "eb37"
@@ -42,7 +42,7 @@ unicode: "eb37"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M6 8m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M4 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M13 12l5 0" />
   <path d="M20 6h-6a1 1 0 0 0 -1 1v11" />
 </svg>

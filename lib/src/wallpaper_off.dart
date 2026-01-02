@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class WallpaperOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [picture, image, photo, decoration, house, room, decor]
+category: System
+tags: [picture, photo, decoration, house, room, decor, wallpaper, off, disabled, inactive]
 version: "1.67"
 unicode: "f1c5"
 -->
@@ -42,7 +43,7 @@ unicode: "f1c5"
   stroke-linejoin="round"
 >
   <path d="M10 6h8a2 2 0 0 1 2 2v8m-.58 3.409a2 2 0 0 1 -1.42 .591h-12" />
-  <path d="M6 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M4 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M8 18v-10m-3.427 -3.402c-.353 .362 -.573 .856 -.573 1.402v12" />
   <path d="M3 3l18 18" />
 </svg>

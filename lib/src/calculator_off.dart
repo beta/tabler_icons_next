@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class CalculatorOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [math, count, add, subtract, multiply, divide, amount, calculator, off, hardware]
 category: Devices
-tags: [math, count, add, subtract, multiply, divide, amount]
 version: "1.63"
 unicode: "f0c4"
 -->

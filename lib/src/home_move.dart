@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class HomeMove extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [relocation, moving, house, change, exchange, home, move, main, architecture, structure]
 category: Buildings
-tags: [relocation, moving, house, change, exchange]
-unicode: "f33e"
 version: "1.87"
+unicode: "f33e"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

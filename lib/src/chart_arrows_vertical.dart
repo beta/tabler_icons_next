@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ChartArrowsVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, data, value, variable, scale, statistical, level, increase, decrease]
+tags: [statistics, data, value, variable, scale, statistical, level, increase, decrease, chart]
 category: Charts
 version: "1.39"
 unicode: "ee29"

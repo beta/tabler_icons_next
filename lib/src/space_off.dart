@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class SpaceOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [keyboard, type, gap, space, off, disabled, inactive, typography, writing, font]
 category: Text
-tags: [keyboard, type, gap]
 version: "1.67"
 unicode: "f1aa"
 -->

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandWish extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shopping, online, tools, gadgets, toys]
+tags: [shopping, online, tools, gadgets, toys, brand, wish, logo, company, trademark]
 category: Brand
 version: "1.71"
 unicode: "f212"

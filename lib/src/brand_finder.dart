@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandFinder extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, files, manager, macos, osx, programming]
+tags: [software, files, manager, macos, osx, programming, brand, finder, logo, company]
 category: Brand
 version: "1.72"
 unicode: "f218"
@@ -42,7 +42,7 @@ unicode: "f218"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 4m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
+  <path d="M3 5a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1l0 -14" />
   <path d="M7 8v1" />
   <path d="M17 8v1" />
   <path d="M12.5 4c-.654 1.486 -1.26 3.443 -1.5 9h2.5c-.19 2.867 .094 5.024 .5 7" />

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class FolderMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [directory, dir, folder, minus, collection, container, group, subtract, remove, less]
 category: Document
-tags: [directory, dir]
 version: "1.0"
 unicode: "eaaa"
 -->

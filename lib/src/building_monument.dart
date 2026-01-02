@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BuildingMonument extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [history, memorial, commemorative]
+tags: [history, memorial, commemorative, building, monument, architecture, structure, construction, property, interface]
 category: Buildings
 version: "1.26"
 unicode: "ed26"

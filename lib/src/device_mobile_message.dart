@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class DeviceMobileMessage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [iphone, phone, smartphone, cellphone, sms, texting, chat, text, device, mobile]
 category: Devices
-tags: [iphone, phone, smartphone, cellphone, sms, texting, chat, text]
 version: "1.39"
 unicode: "ee79"
 -->
@@ -42,7 +42,7 @@ unicode: "ee79"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M11 3h10v8h-3l-4 2v-2h-3z" />
+  <path d="M11 3h10v8h-3l-4 2v-2h-3l0 -8" />
   <path d="M15 16v4a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1h2" />
   <path d="M10 18v.01" />
 </svg>

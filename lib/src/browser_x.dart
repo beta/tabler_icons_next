@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class BrowserX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [internet, web, display, close, browser, hardware, technology, electronic, gadget, equipment]
 category: Devices
-tags: [internet, web, display, close]
 version: "1.51"
 unicode: "efd8"
 -->
@@ -42,7 +42,7 @@ unicode: "efd8"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
+  <path d="M4 5a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1l0 -14" />
   <path d="M4 8h16" />
   <path d="M8 4v4" />
   <path d="M10 16l4 -4" />

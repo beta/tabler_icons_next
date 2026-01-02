@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class CircleTriangle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, down, shape, geometry]
+category: Shapes
+tags: [arrow, down, shape, geometry, circle, triangle, round, circular]
 version: "1.54"
 unicode: "f011"
 -->
@@ -41,8 +42,8 @@ unicode: "f011"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-  <path d="M12 20l7 -12h-14z" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M12 20l7 -12h-14l7 12" />
 </svg>
 ''';
 }

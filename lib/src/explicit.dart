@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Explicit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [adult, content, xxx, curse, words, porn]
+category: System
+tags: [adult, content, xxx, curse, words, porn, explicit]
 version: "1.75"
 unicode: "f256"
 -->
@@ -41,7 +42,7 @@ unicode: "f256"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
+  <path d="M4 5a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1l0 -14" />
   <path d="M14 8h-4v8h4" />
   <path d="M14 12h-4" />
 </svg>

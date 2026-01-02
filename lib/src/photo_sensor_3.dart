@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class PhotoSensor3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [focus, lens, photograpy, camera, photo, sensor, picture, capture, image, 3]
 category: Photography
-tags: [focus, lens, photograpy, camera]
 version: "2.5"
 unicode: "f797"
 -->
@@ -46,7 +46,7 @@ unicode: "f797"
   <path d="M20 17v1a2 2 0 0 1 -2 2h-1" />
   <path d="M7 20h-1a2 2 0 0 1 -2 -2v-1" />
   <path d="M4 7v-1a2 2 0 0 1 2 -2h1" />
-  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
   <path d="M12 18v2" />
   <path d="M4 12h2" />
   <path d="M12 4v2" />

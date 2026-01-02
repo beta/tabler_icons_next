@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class LogicNot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gate, technology, electirical, it]
+tags: [gate, technology, electirical, it, logic, not, boolean, operation, reasoning, conditional]
 category: Logic
 version: "1.74"
 unicode: "f244"
@@ -45,8 +45,8 @@ unicode: "f244"
   <path d="M22 12h-3" />
   <path d="M2 9h3" />
   <path d="M2 15h3" />
-  <path d="M5 5l10 7l-10 7z" />
-  <path d="M17 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M5 5l10 7l-10 7l0 -14" />
+  <path d="M15 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
 </svg>
 ''';
 }

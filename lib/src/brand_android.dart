@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandAndroid extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [os, company, system, interface, software, logo]
+tags: [os, company, system, interface, software, logo, brand, android, trademark, identity]
 category: Brand
 version: "1.9"
 unicode: "ec16"

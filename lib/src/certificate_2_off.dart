@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Certificate2Off extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [award, license, document, achievement, course, complete, certificate, off, disabled, inactive]
 category: Document
-tags: [award, license, document, achievement, course, complete]
 version: "1.63"
 unicode: "f0cb"
 -->

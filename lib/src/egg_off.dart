@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class EggOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [food, easter, chicken, egg, off, meal, cuisine, disabled, inactive, eating]
 category: Food
-tags: [food, easter, chicken]
 version: "1.65"
 unicode: "f11f"
 -->

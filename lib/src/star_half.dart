@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class StarHalf extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [favorite, like, mark, bookmark, grade, star, half, control, operation, rating]
 category: System
-tags: [favorite, like, mark, bookmark, grade]
 version: "1.24"
 unicode: "ed19"
 -->
@@ -42,7 +42,7 @@ unicode: "ed19"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253z" />
+  <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l.007 15.748" />
 </svg>
 ''';
 }

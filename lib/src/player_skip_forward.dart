@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class PlayerSkipForward extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [button, player, video, film, music, omit]
+tags: [button, player, video, film, music, omit, skip, forward, content, entertainment]
 category: Media
 version: "1.28"
 unicode: "ed49"
@@ -42,7 +42,7 @@ unicode: "ed49"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 5v14l12 -7z" />
+  <path d="M4 5v14l12 -7l-12 -7" />
   <path d="M20 5l0 14" />
 </svg>
 ''';

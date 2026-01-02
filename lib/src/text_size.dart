@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class TextSize extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [font, edit, document, type, letter]
+tags: [font, edit, document, type, letter, text, size, typography, writing, character, accessibility, a11y, resize, readability]
 category: Text
 version: "1.80"
 unicode: "f2b1"

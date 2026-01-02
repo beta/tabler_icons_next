@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class GenderThird extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identity, none, female]
+tags: [identity, none, female, gender, third, person, human, individual]
 category: Gender
 version: "1.64"
 unicode: "f0f0"
@@ -42,9 +42,9 @@ unicode: "f0f0"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M11 12a5 5 0 1 0 10 0a5 5 0 0 0 -10 0z" />
+  <path d="M11 12a5 5 0 1 0 10 0a5 5 0 0 0 -10 0" />
   <path d="M11 12h-3" />
-  <path d="M8 12l-5 -4v8z" />
+  <path d="M8 12l-5 -4v8l5 -4" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class GenderFemme extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identity, lesbian]
+tags: [identity, lesbian, gender, femme, person, human, individual]
 category: Gender
 version: "1.64"
 unicode: "f0e8"
@@ -42,7 +42,7 @@ unicode: "f0e8"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 9m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+  <path d="M7 9a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
   <path d="M12 14v7" />
   <path d="M7 18h10" />
 </svg>

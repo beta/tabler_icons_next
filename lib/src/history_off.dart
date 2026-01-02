@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class HistoryOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [search, see, past, card, website, history, off, control, operation, disabled]
 category: System
-tags: [search, see, past, card, website]
-unicode: "f3fb"
 version: "1.94"
+unicode: "f3fb"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandFiverr extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [marketplace, creative, proffesional, services]
+tags: [marketplace, creative, proffesional, services, brand, fiverr, logo, company, trademark, identity]
 category: Brand
 version: "2.6"
 unicode: "f7a4"
@@ -42,7 +42,7 @@ unicode: "f7a4"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M15 3h-2a6 6 0 0 0 -6 6h-3v4h3v8h4v-7h4v7h4v-11h-8v-1.033a1.967 1.967 0 0 1 2 -1.967h2v-4z" />
+  <path d="M15 3h-2a6 6 0 0 0 -6 6h-3v4h3v8h4v-7h4v7h4v-11h-8v-1.033a1.967 1.967 0 0 1 2 -1.967h2v-4" />
 </svg>
 ''';
 }

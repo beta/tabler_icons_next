@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Bus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vehicle, drive, driver, engine, motor, journey, trip]
+tags: [vehicle, drive, driver, engine, motor, journey, trip, bus, transport, travel]
 category: Vehicles
 version: "1.7"
 unicode: "ebe4"
@@ -42,8 +42,8 @@ unicode: "ebe4"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M6 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M18 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M4 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M16 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M4 17h-2v-11a1 1 0 0 1 1 -1h14a5 7 0 0 1 5 7v5h-2m-4 0h-8" />
   <path d="M16 5l1.5 7l4.5 0" />
   <path d="M2 10l15 0" />

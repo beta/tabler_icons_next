@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Aperture extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [hole, opening, vent, aperture, camera, picture, capture, lens, image]
 category: Photography
-tags: [hole, opening, vent]
 version: "1.2"
 unicode: "eb58"
 -->
@@ -42,7 +42,7 @@ unicode: "eb58"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
   <path d="M3.6 15h10.55" />
   <path d="M6.551 4.938l3.26 10.034" />
   <path d="M17.032 4.636l-8.535 6.201" />

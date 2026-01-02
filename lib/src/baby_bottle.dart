@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BabyBottle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [kid, milk, child, food, drink, feeding]
-unicode: "f5d2"
-version: "1.112"
+tags: [kid, milk, child, food, drink, feeding, baby, bottle, medical, wellness]
 category: Health
+version: "1.112"
+unicode: "f5d2"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ category: Health
 >
   <path d="M5 10h14" />
   <path d="M12 2v2" />
-  <path d="M12 4a5 5 0 0 1 5 5v11a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-11a5 5 0 0 1 5 -5z" />
+  <path d="M12 4a5 5 0 0 1 5 5v11a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-11a5 5 0 0 1 5 -5" />
 </svg>
 ''';
 }

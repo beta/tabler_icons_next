@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BuildingPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [flat, office, city, urban, scyscraper, architecture, construction, building, plus, structure]
 category: Buildings
-tags: [flat, office, city, urban, scyscraper, architecture, construction]
-unicode: "10060"
 version: "3.19"
+unicode: "10060"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

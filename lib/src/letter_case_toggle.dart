@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class LetterCaseToggle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [typography, font, text, style, content]
+tags: [typography, font, text, style, content, letter, case, toggle, writing, character]
 category: Text
 version: "1.39"
 unicode: "eea3"
@@ -42,7 +42,7 @@ unicode: "eea3"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M6.5 15.5m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0" />
+  <path d="M3 15.5a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0" />
   <path d="M14 19v-10.5a3.5 3.5 0 0 1 7 0v10.5" />
   <path d="M14 13h7" />
   <path d="M10 12v7" />

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class SquareRotatedForbid2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, geometry, rhombus, ban, restricted]
+category: Shapes
+tags: [shape, geometry, rhombus, ban, restricted, square, rotated, forbid, rectangular, 2]
 version: "1.54"
 unicode: "f01b"
 -->
@@ -41,7 +42,7 @@ unicode: "f01b"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M13.446 2.6l7.955 7.954a2.045 2.045 0 0 1 0 2.892l-7.955 7.955a2.045 2.045 0 0 1 -2.892 0l-7.955 -7.955a2.045 2.045 0 0 1 0 -2.892l7.955 -7.955a2.045 2.045 0 0 1 2.892 0z" />
+  <path d="M13.446 2.6l7.955 7.954a2.045 2.045 0 0 1 0 2.892l-7.955 7.955a2.045 2.045 0 0 1 -2.892 0l-7.955 -7.955a2.045 2.045 0 0 1 0 -2.892l7.955 -7.955a2.045 2.045 0 0 1 2.892 0" />
   <path d="M9.5 9.5l5 5" />
 </svg>
 ''';

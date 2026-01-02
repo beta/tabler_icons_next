@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandUnsplash extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [picture, photo, photography, search, image, stock]
+tags: [picture, photo, photography, search, stock, brand, unsplash, logo, company, trademark]
 category: Brand
 version: "1.36"
 unicode: "edd8"
@@ -42,7 +42,8 @@ unicode: "edd8"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 11h5v4h6v-4h5v9h-16zm5 -7h6v4h-6z" />
+  <path d="M4 11h5v4h6v-4h5v9h-16v-9" />
+  <path d="M9 4h6v4h-6l0 -4" />
 </svg>
 ''';
 }

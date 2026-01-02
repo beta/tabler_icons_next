@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class AdjustmentsHorizontal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [equalizer, sliders, controls, settings, filter, adjustments, horizontal, control, operation, function]
 category: System
-tags: [equalizer, sliders, controls, settings, filter]
 version: "1.11"
 unicode: "ec38"
 -->
@@ -42,13 +42,13 @@ unicode: "ec38"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M14 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M12 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M4 6l8 0" />
   <path d="M16 6l4 0" />
-  <path d="M8 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M4 12l2 0" />
   <path d="M10 12l10 0" />
-  <path d="M17 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M15 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M4 18l11 0" />
   <path d="M19 18l1 0" />
 </svg>

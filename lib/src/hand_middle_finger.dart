@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class HandMiddleFinger extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [signal, gesture, curse, vulgarism, abuse, hand, middle, finger, touch, action]
 category: Gestures
-tags: [signal, gesture, curse, vulgarism, abuse]
 version: "1.10"
 unicode: "ec2d"
 -->

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Gps extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [navigation, directions, global, positioning, system, satnav, radionavigation, travel, car]
+tags: [navigation, directions, global, positioning, system, satnav, radionavigation, travel, car, gps]
 category: Map
 version: "1.33"
 unicode: "ed7a"
@@ -42,8 +42,8 @@ unicode: "ed7a"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-  <path d="M12 17l-1 -4l-4 -1l9 -4z" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M12 17l-1 -4l-4 -1l9 -4l-4 9" />
 </svg>
 ''';
 }

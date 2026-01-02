@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class MoodSad2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [face, emoji, emotion, mad, mood, sad, 2]
 category: Mood
-tags: [face, emoji, emotion, mad]
 version: "1.83"
 unicode: "f2e2"
 -->
@@ -42,7 +42,7 @@ unicode: "f2e2"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
   <path d="M14.5 16.05a3.5 3.5 0 0 0 -5 0" />
   <path d="M10 9.25c-.5 1 -2.5 1 -3 0" />
   <path d="M17 9.25c-.5 1 -2.5 1 -3 0" />

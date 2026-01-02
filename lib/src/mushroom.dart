@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Mushroom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, vegetable, cooking, fungus, mushrooming]
+tags: [food, vegetable, cooking, fungus, mushrooming, mushroom, meal, cuisine, eating, nutrition]
 category: Food
 version: "1.40"
 unicode: "ef14"
@@ -42,7 +42,7 @@ unicode: "ef14"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M20 11.1c0 -4.474 -3.582 -8.1 -8 -8.1s-8 3.626 -8 8.1a.9 .9 0 0 0 .9 .9h14.2a.9 .9 0 0 0 .9 -.9z" />
+  <path d="M20 11.1c0 -4.474 -3.582 -8.1 -8 -8.1s-8 3.626 -8 8.1a.9 .9 0 0 0 .9 .9h14.2a.9 .9 0 0 0 .9 -.9" />
   <path d="M10 12v7a2 2 0 1 0 4 0v-7" />
 </svg>
 ''';

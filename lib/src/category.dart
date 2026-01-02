@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Category extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [folder, menu, tag, game]
+tags: [folder, menu, tag, game, category, geometry, form, figure, pattern, outline]
 category: Shapes
 version: "1.70"
 unicode: "f1f6"
@@ -42,10 +42,10 @@ unicode: "f1f6"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 4h6v6h-6z" />
-  <path d="M14 4h6v6h-6z" />
-  <path d="M4 14h6v6h-6z" />
-  <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M4 4h6v6h-6l0 -6" />
+  <path d="M14 4h6v6h-6l0 -6" />
+  <path d="M4 14h6v6h-6l0 -6" />
+  <path d="M14 17a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
 </svg>
 ''';
 }

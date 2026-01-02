@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class MacroOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [video, photography, photo, camera, macro, off, disabled, inactive, picture, image]
 category: Photography
-tags: [video, photography, photo, camera]
-unicode: "f406"
 version: "1.94"
+unicode: "f406"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

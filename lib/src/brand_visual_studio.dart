@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandVisualStudio extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, microsoft, programming, developers, coding]
+tags: [software, microsoft, programming, developers, coding, brand, visual, studio, see, view]
 category: Brand
 version: "1.45"
 unicode: "ef76"
@@ -42,7 +42,7 @@ unicode: "ef76"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 8l2 -1l10 13l4 -2v-12l-4 -2l-10 13l-2 -1z" />
+  <path d="M4 8l2 -1l10 13l4 -2v-12l-4 -2l-10 13l-2 -1l0 -8" />
 </svg>
 ''';
 }

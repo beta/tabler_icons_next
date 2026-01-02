@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Cup extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coffee, drink, water, food]
+tags: [coffee, drink, water, food, cup, meal, cuisine, eating, nutrition, culinary]
 category: Food
 version: "1.41"
 unicode: "ef28"
@@ -42,7 +42,7 @@ unicode: "ef28"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 11h14v-3h-14z" />
+  <path d="M5 11h14v-3h-14l0 3" />
   <path d="M17.5 11l-1.5 10h-8l-1.5 -10" />
   <path d="M6 8v-1a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1" />
   <path d="M15 5v-2" />

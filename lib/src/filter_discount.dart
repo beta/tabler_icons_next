@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class FilterDiscount extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [sale, reduction, offer, save, deal, discount, bargain, cheap, cost, cut]
 version: "2.28"
 unicode: "fb80"

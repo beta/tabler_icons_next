@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Cell extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [biology, molecule, chemistry, human, laboratory]
+category: Design
+tags: [biology, molecule, chemistry, human, laboratory, cell]
 version: "1.58"
 unicode: "f05f"
 -->
@@ -41,7 +42,7 @@ unicode: "f05f"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M8 4l-4 2v5l4 2l4 -2v-5z" />
+  <path d="M8 4l-4 2v5l4 2l4 -2v-5l-4 -2" />
   <path d="M12 11l4 2l4 -2v-5l-4 -2l-4 2" />
   <path d="M8 13v5l4 2l4 -2v-5" />
 </svg>

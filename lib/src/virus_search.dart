@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class VirusSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [covid, coronavirus, biology, infection, infected, cell, viral, infectious, disease, virus]
 category: Health
-tags: [covid, coronavirus, biology, infection, infected, cell, viral, infectious, disease]
 version: "1.31"
 unicode: "ed67"
 -->
@@ -57,7 +57,7 @@ unicode: "ed67"
   <path d="M3 13v-2" />
   <path d="M8.464 8.464l-2.828 -2.828" />
   <path d="M4.929 6.343l1.414 -1.413" />
-  <path d="M17.5 17.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
+  <path d="M15 17.5a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
   <path d="M19.5 19.5l2.5 2.5" />
 </svg>
 ''';

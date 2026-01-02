@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandPhp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, coding, script, format, file]
+tags: [programming, coding, script, format, file, brand, php, logo, company, trademark]
 category: Brand
 version: "1.45"
 unicode: "ef72"
@@ -42,7 +42,7 @@ unicode: "ef72"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-10 0a10 9 0 1 0 20 0a10 9 0 1 0 -20 0" />
+  <path d="M2 12a10 9 0 1 0 20 0a10 9 0 1 0 -20 0" />
   <path d="M5.5 15l.395 -1.974l.605 -3.026h1.32a1 1 0 0 1 .986 1.164l-.167 1a1 1 0 0 1 -.986 .836h-1.653" />
   <path d="M15.5 15l.395 -1.974l.605 -3.026h1.32a1 1 0 0 1 .986 1.164l-.167 1a1 1 0 0 1 -.986 .836h-1.653" />
   <path d="M12 7.5l-1 5.5" />

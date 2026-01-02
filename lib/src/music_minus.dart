@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class MusicMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [reduce, negative, lower, subtract, diminish, less, decline, decrement, down, music]
 category: Media
-tags: [reduce, negative, lower, subtract, diminish, less, decline, decrement, down]
 version: "2.28"
 unicode: "fbdf"
 -->

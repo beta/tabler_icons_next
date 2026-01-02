@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class Massage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [physiotherapy, spa, relax, sports, therapy, treatment, spine]
-version: "1.39"
+tags: [physiotherapy, spa, relax, sports, therapy, treatment, spine, massage, medical, wellness]
 category: Health
+version: "1.39"
 unicode: "eeb1"
 -->
 <svg
@@ -42,8 +42,8 @@ unicode: "eeb1"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 17m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M9 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M3 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M8 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
   <path d="M4 22l4 -2v-3h12" />
   <path d="M11 20h9" />
   <path d="M8 14l3 -2l1 -4c3 1 3 4 3 6" />

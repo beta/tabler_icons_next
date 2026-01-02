@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class DevicesPc extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [computer, monitor, keyboard, devices, hardware, technology, pc, electronic, gadget, equipment]
 category: Devices
-tags: [computer, monitor, keyboard]
 version: "1.39"
 unicode: "ee7a"
 -->
@@ -42,8 +42,8 @@ unicode: "ee7a"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 5h6v14h-6z" />
-  <path d="M12 9h10v7h-10z" />
+  <path d="M3 5h6v14h-6l0 -14" />
+  <path d="M12 9h10v7h-10l0 -7" />
   <path d="M14 19h6" />
   <path d="M17 16v3" />
   <path d="M6 13v.01" />

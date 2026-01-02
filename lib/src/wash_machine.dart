@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class WashMachine extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bathroom, clean, cleaning, laundry, machine, clothes]
+tags: [bathroom, clean, cleaning, laundry, machine, clothes, wash, hardware, technology, electronic]
 category: Devices
 version: "1.75"
 unicode: "f25e"
@@ -42,8 +42,8 @@ unicode: "f25e"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
-  <path d="M12 14m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+  <path d="M5 5a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2l0 -14" />
+  <path d="M8 14a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
   <path d="M8 6h.01" />
   <path d="M11 6h.01" />
   <path d="M14 6h2" />

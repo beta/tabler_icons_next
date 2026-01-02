@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Thermometer extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [temperature, hot, cold, weather, medical, fever, celsius]
+tags: [temperature, hot, cold, weather, medical, fever, celsius, thermometer, wellness, healthcare]
 category: Health
 version: "1.44"
 unicode: "ef67"
@@ -42,7 +42,7 @@ unicode: "ef67"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M19 5a2.828 2.828 0 0 1 0 4l-8 8h-4v-4l8 -8a2.828 2.828 0 0 1 4 0z" />
+  <path d="M19 5a2.828 2.828 0 0 1 0 4l-8 8h-4v-4l8 -8a2.828 2.828 0 0 1 4 0" />
   <path d="M16 7l-1.5 -1.5" />
   <path d="M13 10l-1.5 -1.5" />
   <path d="M10 13l-1.5 -1.5" />

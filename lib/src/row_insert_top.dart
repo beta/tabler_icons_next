@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class RowInsertTop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [table, layout, add, below, macro, excel]
+tags: [table, layout, add, below, macro, excel, row, insert, top, storage]
 category: Database
 version: "1.39"
 unicode: "eed1"
@@ -42,7 +42,7 @@ unicode: "eed1"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 18v-4a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
+  <path d="M4 18v-4a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1" />
   <path d="M12 9v-4" />
   <path d="M10 7l4 0" />
 </svg>

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Robot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [technology, ai, machine, bot, android, robot, entertainment, playing, recreation, fun]
 category: Games
-tags: [technology, ai, machine, bot, android]
 version: "1.53"
 unicode: "f00b"
 -->
@@ -42,7 +42,7 @@ unicode: "f00b"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M6 4m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
+  <path d="M6 6a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2l0 -4" />
   <path d="M12 2v2" />
   <path d="M9 12v9" />
   <path d="M15 12v9" />

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class FileOrientation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [document, arrow, change, modify, page]
+tags: [document, arrow, change, modify, page, file, orientation, data, content, record]
 category: Document
 version: "1.79"
 unicode: "f2a1"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class ArticleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [news, newspaper, media, blog, article, off, disabled, inactive, file, paper]
 category: Document
-tags: [news, newspaper, media, blog]
-unicode: "f3bf"
 version: "1.94"
+unicode: "f3bf"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

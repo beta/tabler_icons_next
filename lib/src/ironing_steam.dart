@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class IroningSteam extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [clotches, housework, iron, smooth, water]
+tags: [clotches, housework, iron, smooth, water, ironing, steam, cleaning, washing, clothes]
 category: Laundry
-unicode: "f2f9"
 version: "1.84"
+unicode: "f2f9"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

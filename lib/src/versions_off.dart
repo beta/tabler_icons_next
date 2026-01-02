@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class VersionsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [app, variation, different, variant, alternative, versions, off, programming, software, disabled]
 category: Development
-tags: [app, variation, different, variant, alternative]
 version: "1.67"
 unicode: "f1c0"
 -->

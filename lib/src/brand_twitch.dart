@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandTwitch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, platform, streaming, streamers, videos, films, chat, subs]
+tags: [logo, platform, streaming, streamers, videos, films, chat, subs, brand, twitch]
 category: Brand
 version: "1.23"
 unicode: "ed05"
@@ -42,7 +42,7 @@ unicode: "ed05"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 5v11a1 1 0 0 0 1 1h2v4l4 -4h5.584c.266 0 .52 -.105 .707 -.293l2.415 -2.414c.187 -.188 .293 -.442 .293 -.708v-8.585a1 1 0 0 0 -1 -1h-14a1 1 0 0 0 -1 1z" />
+  <path d="M4 5v11a1 1 0 0 0 1 1h2v4l4 -4h5.584c.266 0 .52 -.105 .707 -.293l2.415 -2.414c.187 -.188 .293 -.442 .293 -.708v-8.585a1 1 0 0 0 -1 -1h-14a1 1 0 0 0 -1 1l.001 0" />
   <path d="M16 8l0 4" />
   <path d="M12 8l0 4" />
 </svg>

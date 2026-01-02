@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandLinqpad extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [framework, programmers, database]
+tags: [framework, programmers, database, brand, linqpad, logo, company, trademark, identity, corporate]
 category: Brand
-unicode: "f562"
 version: "1.106"
+unicode: "f562"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ version: "1.106"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 21h3.5l2.5 -6l2.5 -1l2.5 7h4l1 -4.5l-2 -1l-7 -12l-6 -.5l1.5 4l2.5 .5l1 2.5l-7 8z" />
+  <path d="M5 21h3.5l2.5 -6l2.5 -1l2.5 7h4l1 -4.5l-2 -1l-7 -12l-6 -.5l1.5 4l2.5 .5l1 2.5l-7 8l1 3" />
 </svg>
 ''';
 }

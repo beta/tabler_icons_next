@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class ChartSankey extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [graph, diagram, curves, analytics]
+tags: [graph, diagram, curves, analytics, chart, sankey, statistics, visualization, metrics, report]
 category: Charts
-unicode: "f619"
 version: "1.115"
+unicode: "f619"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

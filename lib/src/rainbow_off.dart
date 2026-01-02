@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class RainbowOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [colorful, weather, colors, colour, nature, rainbow, off, climate, forecast, disabled]
 category: Weather
-tags: [colorful, weather, colors, colour, nature]
 version: "1.66"
 unicode: "f18a"
 -->

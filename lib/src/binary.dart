@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Binary extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [binary]
+tags: [binary, code, digital, computer, programming, data, bit, byte, numeric, computing]
+category: Computers
 version: "1.39"
 unicode: "ee08"
-category: Computers
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -43,8 +43,8 @@ category: Computers
   stroke-linejoin="round"
 >
   <path d="M11 10v-5h-1m8 14v-5h-1" />
-  <path d="M15 5m0 .5a.5 .5 0 0 1 .5 -.5h2a.5 .5 0 0 1 .5 .5v4a.5 .5 0 0 1 -.5 .5h-2a.5 .5 0 0 1 -.5 -.5z" />
-  <path d="M10 14m0 .5a.5 .5 0 0 1 .5 -.5h2a.5 .5 0 0 1 .5 .5v4a.5 .5 0 0 1 -.5 .5h-2a.5 .5 0 0 1 -.5 -.5z" />
+  <path d="M15 5.5a.5 .5 0 0 1 .5 -.5h2a.5 .5 0 0 1 .5 .5v4a.5 .5 0 0 1 -.5 .5h-2a.5 .5 0 0 1 -.5 -.5l0 -4" />
+  <path d="M10 14.5a.5 .5 0 0 1 .5 -.5h2a.5 .5 0 0 1 .5 .5v4a.5 .5 0 0 1 -.5 .5h-2a.5 .5 0 0 1 -.5 -.5l0 -4" />
   <path d="M6 10h.01m-.01 9h.01" />
 </svg>
 ''';

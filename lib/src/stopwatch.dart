@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Stopwatch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [timer, time, watch, clock, run, race]
+tags: [timer, time, watch, clock, run, race, stopwatch, control, operation, function]
 category: System
-unicode: "ff9b"
 version: "3.12"
+unicode: "ff9b"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ version: "3.12"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 13a7 7 0 1 0 14 0a7 7 0 0 0 -14 0z" />
+  <path d="M5 13a7 7 0 1 0 14 0a7 7 0 0 0 -14 0" />
   <path d="M14.5 10.5l-2.5 2.5" />
   <path d="M17 8l1 -1" />
   <path d="M14 3h-4" />

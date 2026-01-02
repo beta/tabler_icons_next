@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BandageOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [patch, wound, cut, pain, bandage, off, medical, wellness, disabled, inactive]
 category: Health
-tags: [patch, wound, cut, pain]
-unicode: "f3c4"
 version: "1.94"
+unicode: "f3c4"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

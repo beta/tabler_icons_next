@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class CellSignalOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mobile, phone, connetcion, wireless, network]
-version: "1.60"
+tags: [mobile, phone, connetcion, wireless, network, cell, signal, off, hardware, technology]
 category: Devices
+version: "1.60"
 unicode: "f088"
 -->
 <svg

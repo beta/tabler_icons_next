@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Usb extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [drive, cable, plug, device, technology, connect]
+category: System
+tags: [drive, cable, plug, device, technology, connect, usb]
 version: "1.53"
 unicode: "f00c"
 -->
@@ -41,13 +42,13 @@ unicode: "f00c"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M10 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M12 17v-11.5" />
   <path d="M7 10v3l5 3" />
   <path d="M12 14.5l5 -2v-2.5" />
-  <path d="M16 10h2v-2h-2z" />
-  <path d="M7 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M10 5.5h4l-2 -2.5z" />
+  <path d="M16 10h2v-2h-2l0 2" />
+  <path d="M6 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M10 5.5h4l-2 -2.5l-2 2.5" />
 </svg>
 ''';
 }

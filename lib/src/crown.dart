@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Crown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [symbol, queen, king, prince, princess, dynasty, royalty]
+category: Design
+tags: [queen, king, prince, princess, dynasty, royalty, crown]
 version: "1.24"
 unicode: "ed12"
 -->
@@ -41,7 +42,7 @@ unicode: "ed12"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 6l4 6l5 -4l-2 10h-14l-2 -10l5 4z" />
+  <path d="M12 6l4 6l5 -4l-2 10h-14l-2 -10l5 4l4 -6" />
 </svg>
 ''';
 }

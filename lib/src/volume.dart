@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Volume extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [music, sound, speaker, volume, content, entertainment, multimedia, broadcast, audio, accessibility, a11y, hearing]
 category: Media
-tags: [music, sound, speaker]
 version: "1.0"
 unicode: "eb51"
 -->

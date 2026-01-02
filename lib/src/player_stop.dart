@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class PlayerStop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, song, playlist, melody, device, voice, silence, break]
+tags: [music, song, playlist, melody, device, voice, silence, break, player, stop]
 category: Media
 version: "1.28"
 unicode: "ed4a"
@@ -42,7 +42,7 @@ unicode: "ed4a"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 5m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
+  <path d="M5 7a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2l0 -10" />
 </svg>
 ''';
 }

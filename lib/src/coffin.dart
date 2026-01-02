@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class Coffin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [halloween, death, scary, horror, cementry]
-unicode: "f579"
+category: Design
+tags: [halloween, death, scary, horror, cementry, coffin]
 version: "1.108"
+unicode: "f579"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +42,7 @@ version: "1.108"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M7 3l-2 6l2 12h6l2 -12l-2 -6z" />
+  <path d="M7 3l-2 6l2 12h6l2 -12l-2 -6l-6 0" />
   <path d="M10 7v5" />
   <path d="M8 9h4" />
   <path d="M13 21h4l2 -12l-2 -6h-4" />

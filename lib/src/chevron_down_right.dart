@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ChevronDownRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [move, aside, bottom]
+tags: [move, aside, bottom, chevron, down, right, decrease, navigation, flow, fall]
 category: Arrows
 version: "1.24"
 unicode: "ed0a"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandStackshare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [website, developers, tech, opensource]
+tags: [website, developers, tech, opensource, brand, stackshare, logo, company, trademark, identity]
 category: Brand
-unicode: "f607"
 version: "1.114"
+unicode: "f607"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +42,9 @@ version: "1.114"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M19 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M19 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M5 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M17 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M17 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M3 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M7 12h3l3.5 6h3.5" />
   <path d="M17 6h-3.5l-3.5 6" />
 </svg>

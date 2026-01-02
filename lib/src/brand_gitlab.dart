@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandGitlab extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, website, software, code, programming, programmers]
+tags: [logo, website, software, code, programming, programmers, brand, gitlab, company, trademark]
 category: Brand
 version: "1.9"
 unicode: "ec1d"
@@ -42,7 +42,7 @@ unicode: "ec1d"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M21 14l-9 7l-9 -7l3 -11l3 7h6l3 -7z" />
+  <path d="M21 14l-9 7l-9 -7l3 -11l3 7h6l3 -7l3 11" />
 </svg>
 ''';
 }

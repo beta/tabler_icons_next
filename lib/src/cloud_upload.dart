@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class CloudUpload extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [files]
-version: "1.0"
+tags: [files, cloud, upload, storage, online, import, transfer, control, operation, server]
 category: System
+version: "1.0"
 unicode: "ea75"
 -->
 <svg

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class RollercoasterOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [adrenaline, height, speed, funfair, fun, attraction, extreme, rollercoaster, off, transport]
 category: Vehicles
-tags: [adrenaline, height, speed, funfair, fun, attraction, extreme]
-unicode: "f423"
 version: "1.94"
+unicode: "f423"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ version: "1.94"
   <path d="M8 21v-3" />
   <path d="M12 21v-9" />
   <path d="M16 9.5v2.5m0 4v5" />
-  <path d="M15 3h5v3h-5z" />
+  <path d="M15 3h5v3h-5l0 -3" />
   <path d="M9.446 5.415l.554 -.415l2 2.5l-.285 .213m-2.268 1.702l-1.447 1.085l-1.8 -.5l-.2 -2l1.139 -.854" />
   <path d="M3 3l18 18" />
 </svg>

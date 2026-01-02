@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class BrightnessAuto extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Photography
 tags: [adjustment, sensor, light, screen, display, automatic, control, level, adaptation, contrast]
 version: "2.47"
 unicode: "fd99"
@@ -41,7 +42,7 @@ unicode: "fd99"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M6 6h3.5l2.5 -2.5l2.5 2.5h3.5v3.5l2.5 2.5l-2.5 2.5v3.5h-3.5l-2.5 2.5l-2.5 -2.5h-3.5v-3.5l-2.5 -2.5l2.5 -2.5z" />
+  <path d="M6 6h3.5l2.5 -2.5l2.5 2.5h3.5v3.5l2.5 2.5l-2.5 2.5v3.5h-3.5l-2.5 2.5l-2.5 -2.5h-3.5v-3.5l-2.5 -2.5l2.5 -2.5l0 -3.5" />
   <path d="M10 14.5v-3.5a2 2 0 1 1 4 0v3.5" />
   <path d="M10 13h4" />
 </svg>

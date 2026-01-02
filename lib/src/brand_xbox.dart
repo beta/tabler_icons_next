@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandXbox extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, console, videogame, controller]
+tags: [game, console, videogame, controller, brand, xbox, logo, company, trademark, identity]
 category: Brand
 version: "1.79"
 unicode: "f298"
@@ -42,7 +42,7 @@ unicode: "f298"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
   <path d="M6.5 5c7.72 2.266 10.037 7.597 12.5 12.5" />
   <path d="M17.5 5c-7.72 2.266 -10.037 7.597 -12.5 12.5" />
 </svg>

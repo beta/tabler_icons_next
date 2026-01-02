@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Superscript extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [typography, above, maths, fraction, trademark, footer]
+tags: [typography, above, maths, fraction, trademark, footer, superscript, writing, font, character]
 category: Text
 version: "1.3"
 unicode: "eba0"

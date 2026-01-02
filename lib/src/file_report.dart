@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class FileReport extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [stats, data, paper, document, chart, format]
+tags: [stats, data, paper, document, chart, format, file, report, content, record]
 category: Document
 version: "1.38"
 unicode: "eded"
@@ -42,7 +42,7 @@ unicode: "eded"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M17 17m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+  <path d="M13 17a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
   <path d="M17 13v4h4" />
   <path d="M12 3v4a1 1 0 0 0 1 1h4" />
   <path d="M11.5 21h-6.5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v2m0 3v4" />

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ShoppingCartUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [increase, ascend, rise, elevate, boost, grow, amplify, escalate, climb, shopping]
 category: E-commerce
-tags: [increase, ascend, rise, elevate, boost, grow, amplify, escalate, climb]
 version: "2.28"
 unicode: "fb6a"
 -->

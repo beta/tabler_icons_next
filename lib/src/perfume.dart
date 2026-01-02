@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Perfume extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [spray, smell, cosmetics, beauty, scent, perfume, store, purchase, shopping, retail]
 category: E-commerce
-tags: [spray, smell, cosmetics, beauty, scent]
-unicode: "f509"
 version: "1.101"
+unicode: "f509"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -44,9 +44,9 @@ version: "1.101"
 >
   <path d="M10 6v3" />
   <path d="M14 6v3" />
-  <path d="M5 9m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
-  <path d="M12 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M9 3h6v3h-6z" />
+  <path d="M5 11a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2l0 -8" />
+  <path d="M10 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M9 3h6v3h-6l0 -3" />
 </svg>
 ''';
 }

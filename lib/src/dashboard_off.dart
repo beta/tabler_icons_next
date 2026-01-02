@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class DashboardOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [home, car, dashboard, off, control, operation, disabled, inactive, function, interface]
 category: System
-tags: [home, car]
-unicode: "f3e1"
 version: "1.94"
+unicode: "f3e1"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Sailboat2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [sailor, journey, sea, lake, ocean, river, sailboat, transport, travel, vehicle]
 category: Vehicles
-tags: [sailor, journey, sea, lake, ocean, river]
-unicode: "f5f7"
 version: "1.113"
+unicode: "f5f7"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

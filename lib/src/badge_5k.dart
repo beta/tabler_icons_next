@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Badge5k extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [emblem, award, medallion, symbol, accolade, honor, merit, distinction, prize, recognition]
-unicode: "100b3"
-version: "3.23"
+tags: [emblem, award, medallion, accolade, honor, merit, distinction, prize, recognition, label]
 category: Badges
+version: "3.23"
+unicode: "100b3"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ category: Badges
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+  <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -10" />
   <path d="M14 9v6" />
   <path d="M17 9l-2 3l2 3" />
   <path d="M15 12h-1" />

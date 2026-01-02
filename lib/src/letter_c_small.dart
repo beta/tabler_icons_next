@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class LetterCSmall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [c, charlie, third, letter, alphabet, character, typeface, glyph, script, symbol]
+tags: [c, charlie, third, letter, alphabet, character, typeface, glyph, script, small]
 category: Letters
 version: "2.38"
 unicode: "fcc9"

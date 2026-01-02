@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Volcano extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [erumption, lava, nature, danger, explosion]
+tags: [erumption, lava, nature, danger, explosion, volcano, location, navigation, geography, place]
+category: Map
 version: "2.5"
 unicode: "f79c"
-category: Map
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

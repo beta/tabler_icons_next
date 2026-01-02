@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Brush extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [paint, art, picture, paintbrush, painter, theme, brush, creative, artistic, visual]
 category: Design
-tags: [paint, art, picture, paintbrush, painter, theme]
 version: "1.5"
 unicode: "ebb8"
 -->

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class CirclePercentage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Shapes
 tags: [finance, discount, interest, rate, calculation, measurement, ratio, percent, statistics, math]
 version: "2.45"
 unicode: "fd7b"

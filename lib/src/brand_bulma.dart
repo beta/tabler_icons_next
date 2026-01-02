@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandBulma extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, coding, html, css]
+tags: [programming, coding, html, css, brand, bulma, logo, company, trademark, identity]
 category: Brand
-unicode: "f327"
 version: "1.86"
+unicode: "f327"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ version: "1.86"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 16l1 -9l5 -5l6.5 6l-3.5 4l5 5l-8 5z" />
+  <path d="M5 16l1 -9l5 -5l6.5 6l-3.5 4l5 5l-8 5l-6 -6" />
 </svg>
 ''';
 }

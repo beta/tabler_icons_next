@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class PlaylistX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [off, delete, remove, playlist, content, entertainment, multimedia, broadcast, audio, x]
 category: Media
-tags: [off, delete, remove]
 version: "1.53"
 unicode: "f009"
 -->

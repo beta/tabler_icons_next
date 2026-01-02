@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class ChartHistogram extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [graph, diagram, curves, analytics]
-unicode: "f65c"
-version: "1.119"
+tags: [graph, diagram, curves, analytics, chart, histogram, statistics, visualization, metrics, report]
 category: Charts
+version: "1.119"
+unicode: "f65c"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

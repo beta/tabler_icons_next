@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class EarOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [sound, listen, music, hear, loud, speakers, ear, off, medical, wellness, accessibility, a11y, deaf, hearing-impaired]
 category: Health
-tags: [sound, listen, music, hear, loud, speakers]
 version: "1.39"
 unicode: "ee84"
 -->

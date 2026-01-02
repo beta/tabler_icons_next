@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class TemplateOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [grid, columns, masonry, collage, template, off, creative, artistic, disabled, inactive]
 category: Design
-tags: [grid, columns, masonry, collage]
 version: "1.67"
 unicode: "f1b0"
 -->
@@ -43,7 +43,7 @@ unicode: "f1b0"
   stroke-linejoin="round"
 >
   <path d="M8 4h11a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-7m-4 0h-3a1 1 0 0 1 -1 -1v-2c0 -.271 .108 -.517 .283 -.697" />
-  <path d="M4 12m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+  <path d="M4 13a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -6" />
   <path d="M16 12h4" />
   <path d="M14 16h2" />
   <path d="M14 20h6" />

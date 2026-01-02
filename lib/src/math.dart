@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Math extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [subject, count, plus, minus, times]
+tags: [subject, count, plus, minus, times, math, calculation, equation, mathematics, numeric]
 category: Math
 version: "1.7"
 unicode: "ebeb"

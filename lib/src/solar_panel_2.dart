@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class SolarPanel2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [energy, sun, power, ecology, electricity]
+category: System
+tags: [energy, sun, power, ecology, electricity, solar, panel, section, area, region]
 version: "2.7"
 unicode: "f7be"
 -->
@@ -47,7 +48,7 @@ unicode: "f7be"
   <path d="M12 9v1" />
   <path d="M17.2 7.2l.707 .707" />
   <path d="M6.8 7.2l-.7 .7" />
-  <path d="M4.28 21h15.44a1 1 0 0 0 .97 -1.243l-1.5 -6a1 1 0 0 0 -.97 -.757h-12.44a1 1 0 0 0 -.97 .757l-1.5 6a1 1 0 0 0 .97 1.243z" />
+  <path d="M4.28 21h15.44a1 1 0 0 0 .97 -1.243l-1.5 -6a1 1 0 0 0 -.97 -.757h-12.44a1 1 0 0 0 -.97 .757l-1.5 6a1 1 0 0 0 .97 1.243" />
   <path d="M4 17h16" />
   <path d="M10 13l-1 8" />
   <path d="M14 13l1 8" />

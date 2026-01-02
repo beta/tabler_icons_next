@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class ActivityHeartbeat extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pulse, lifeline, impuls, hospital, heartrate]
+category: Health
+tags: [pulse, lifeline, impuls, hospital, heartrate, activity, heartbeat, love, like, motion]
 version: "1.64"
 unicode: "f0db"
 -->

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class TargetArrow extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [goal, aim, archery, archer]
+tags: [goal, aim, archery, archer, target, arrow, direction, pointer, athletic, fitness]
+category: Sport
 version: "1.102"
 unicode: "f51a"
-category: Sport
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,10 +42,10 @@ category: Sport
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
   <path d="M12 7a5 5 0 1 0 5 5" />
   <path d="M13 3.055a9 9 0 1 0 7.941 7.945" />
-  <path d="M15 6v3h3l3 -3h-3v-3z" />
+  <path d="M15 6v3h3l3 -3h-3v-3l-3 3" />
   <path d="M15 9l-3 3" />
 </svg>
 ''';

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Curling extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, sport, olympic, winter, snow]
+tags: [game, sport, olympic, winter, snow, curling, athletic, fitness, exercise, physical]
 category: Sport
 version: "1.50"
 unicode: "efc8"
@@ -42,7 +42,7 @@ unicode: "efc8"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 9m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v2a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+  <path d="M4 13a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v2a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4l0 -2" />
   <path d="M4 14h16" />
   <path d="M8 5h6a2 2 0 0 1 2 2v2" />
 </svg>

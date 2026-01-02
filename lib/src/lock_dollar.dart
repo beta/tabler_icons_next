@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class LockDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [finance, money, currency, account, wealth, transaction, protect, funds, investment, lock]
 category: System
-tags: [finance, money, currency, account, wealth, transaction, protect, funds, investment]
 version: "2.10"
 unicode: "f929"
 -->

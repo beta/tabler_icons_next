@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class Label extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tag, sticker, marker, badge, identifier, notate, record, name, plot]
-unicode: "ff38"
+category: System
+tags: [tag, sticker, marker, badge, identifier, notate, record, name, plot, label]
 version: "3.9"
+unicode: "ff38"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

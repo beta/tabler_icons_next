@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class SpacingHorizontal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [align, between, text, gap]
+tags: [align, between, text, gap, spacing, horizontal, file, paper, record, information]
+category: Document
 version: "1.43"
 unicode: "ef54"
-category: Document
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

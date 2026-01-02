@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Certificate2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [award, license, document, achievement, course, complete, certificate, file, paper, text]
 category: Document
-tags: [award, license, document, achievement, course, complete]
 version: "1.59"
 unicode: "f073"
 -->
@@ -42,7 +42,7 @@ unicode: "f073"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 15m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M9 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
   <path d="M10 7h4" />
   <path d="M10 18v4l2 -1l2 1v-4" />
   <path d="M10 19h-2a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-2" />

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class AdjustmentsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [equalizer, sliders, controls, settings, filter, adjustments, off, control, operation, disabled]
 category: System
-tags: [equalizer, sliders, controls, settings, filter]
 version: "1.62"
 unicode: "f0a8"
 -->

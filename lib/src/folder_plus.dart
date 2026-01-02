@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class FolderPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [add, create, new, directory, dir, folder, plus, collection, container, group]
 category: Document
-tags: [add, create, new, directory, dir]
 version: "1.0"
 unicode: "eaab"
 -->

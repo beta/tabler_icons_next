@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class BugOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [germ, insect, error, nature, bug, off, programming, software, disabled, inactive]
 category: Development
-tags: [germ, insect, error, nature]
 version: "1.63"
 unicode: "f0c3"
 -->

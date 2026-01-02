@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandGravatar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [avatar, image, face, blog, comment, represent, online, technology]
+tags: [avatar, face, blog, comment, represent, online, technology, brand, gravatar, logo]
 category: Brand
 version: "1.36"
 unicode: "edcc"

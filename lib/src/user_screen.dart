@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class UserScreen extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [display, monitor, view, digital, interface, technology, projector, visualize, image, show]
+tags: [display, monitor, view, digital, interface, technology, projector, visualize, show, user]
 category: Media
-unicode: "fea0"
 version: "3.1"
+unicode: "fea0"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

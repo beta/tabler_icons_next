@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Ban extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: ["no", reject, restriction, prohibited]
+category: System
+tags: ["no", reject, restriction, prohibited, ban]
 version: "1.0"
 unicode: "ea2e"
 -->
@@ -41,7 +42,7 @@ unicode: "ea2e"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
   <path d="M5.7 5.7l12.6 12.6" />
 </svg>
 ''';

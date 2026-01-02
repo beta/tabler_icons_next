@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class CloudStorm extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, lightning]
+tags: [weather, lightning, cloud, storm, storage, online, climate, forecast, server, sync]
 category: Weather
 version: "1.0"
 unicode: "ea74"

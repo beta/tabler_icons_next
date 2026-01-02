@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Trident extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [three, spear, weapon, sharp, tool]
+category: Design
+tags: [three, spear, weapon, sharp, tool, trident]
 version: "1.18"
 unicode: "ecc5"
 -->

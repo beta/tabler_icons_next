@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class CurrencyEthereum extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ethereum, digital, crypto, ether, blockchain, money, banknote, pay]
+tags: [ethereum, digital, crypto, ether, blockchain, money, banknote, pay, currency, finance]
 category: Currencies
 version: "1.39"
 unicode: "ee59"
@@ -42,8 +42,8 @@ unicode: "ee59"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M6 12l6 -9l6 9l-6 9z" />
-  <path d="M6 12l6 -3l6 3l-6 2z" />
+  <path d="M6 12l6 -9l6 9l-6 9l-6 -9" />
+  <path d="M6 12l6 -3l6 3l-6 2l-6 -2" />
 </svg>
 ''';
 }

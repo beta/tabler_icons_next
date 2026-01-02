@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class TemperatureSnow extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [cold, winter, climate, chills, freeze, degree, weather, forecast, frost, ice]
 version: "2.47"
 unicode: "fda3"

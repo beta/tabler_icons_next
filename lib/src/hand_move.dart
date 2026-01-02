@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class HandMove extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gesture, swipe, right, left, up, down]
+tags: [gesture, swipe, right, left, up, down, hand, move, transfer, shift]
 category: Gestures
 version: "1.43"
 unicode: "ef50"

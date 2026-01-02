@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class CashBanknote extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [money, pay, bank, dollar, pound, yen, business, cash, banknote, store]
 category: E-commerce
-tags: [money, pay, bank, dollar, pound, yen, business]
 version: "1.39"
 unicode: "ee25"
 -->
@@ -43,7 +43,7 @@ unicode: "ee25"
   stroke-linejoin="round"
 >
   <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
-  <path d="M3 8a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+  <path d="M3 8a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -8" />
   <path d="M18 12h.01" />
   <path d="M6 12h.01" />
 </svg>

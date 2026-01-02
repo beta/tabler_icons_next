@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class PennantOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [flag, ship, sports, championship, mark, spot, winner, pennant, off, location]
 category: Map
-tags: [flag, ship, sports, championship, mark, spot, winner]
 version: "1.66"
 unicode: "f174"
 -->

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class HeartPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [halt, break, stop, wait, intermission, timeless, rest, brief, suspend, heart]
 category: Shapes
-tags: [halt, break, stop, wait, intermission, timeless, rest, brief, suspend]
 version: "2.28"
 unicode: "fba7"
 -->

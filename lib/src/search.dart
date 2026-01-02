@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Search extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [find, magnifier, magnifying glass]
+category: System
+tags: [find, magnifier, magnifying glass, search, look, seek, query, browse]
 version: "1.0"
 unicode: "eb1c"
 -->
@@ -41,7 +42,7 @@ unicode: "eb1c"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+  <path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
   <path d="M21 21l-6 -6" />
 </svg>
 ''';

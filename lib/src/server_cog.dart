@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ServerCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [settings, storage, data, database, server, cog, hardware, technology, gear, configuration]
 category: Devices
-tags: [settings, storage, data, database]
 version: "1.85"
 unicode: "f321"
 -->
@@ -42,9 +42,9 @@ unicode: "f321"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+  <path d="M3 7a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-2" />
   <path d="M12 20h-6a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h10.5" />
-  <path d="M18 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M16 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M18 14.5v1.5" />
   <path d="M18 20v1.5" />
   <path d="M21.032 16.25l-1.299 .75" />

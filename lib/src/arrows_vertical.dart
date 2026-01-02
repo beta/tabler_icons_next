@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ArrowsVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [expand, stretch, top, bottom]
+tags: [expand, stretch, top, bottom, arrows, vertical, navigation, flow, movement, route]
 category: Arrows
 version: "1.2"
 unicode: "eb5b"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandInertia extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [create, app, online, javascript]
+tags: [create, app, online, javascript, brand, inertia, logo, company, trademark, identity]
 category: Brand
-unicode: "f34a"
 version: "1.88"
+unicode: "f34a"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,8 +42,8 @@ version: "1.88"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12.5 8l4 4l-4 4h4.5l4 -4l-4 -4z" />
-  <path d="M3.5 8l4 4l-4 4h4.5l4 -4l-4 -4z" />
+  <path d="M12.5 8l4 4l-4 4h4.5l4 -4l-4 -4l-4.5 0" />
+  <path d="M3.5 8l4 4l-4 4h4.5l4 -4l-4 -4l-4.5 0" />
 </svg>
 ''';
 }

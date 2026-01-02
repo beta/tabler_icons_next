@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class HomeCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [house, tick, mark, assure, safety, home, check, main, architecture, structure]
 category: Buildings
-tags: [house, tick, mark, assure, safety]
-unicode: "f337"
 version: "1.87"
+unicode: "f337"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Cylinder extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [geometry, gas, tube, object, piston]
+tags: [geometry, gas, tube, object, piston, cylinder, form, figure, pattern, outline]
 category: Shapes
 version: "1.105"
 unicode: "f54c"
@@ -42,7 +42,7 @@ unicode: "f54c"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 6m-7 0a7 3 0 1 0 14 0a7 3 0 1 0 -14 0" />
+  <path d="M5 6a7 3 0 1 0 14 0a7 3 0 1 0 -14 0" />
   <path d="M5 6v12c0 1.657 3.134 3 7 3s7 -1.343 7 -3v-12" />
 </svg>
 ''';

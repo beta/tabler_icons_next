@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandAlpineJs extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [javascript, programming, coding]
+tags: [javascript, programming, coding, brand, alpine, logo, company, trademark, identity, corporate]
 category: Brand
-unicode: "f324"
 version: "1.86"
+unicode: "f324"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ version: "1.86"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 11.5l4.5 4.5h9l-9 -9z" />
+  <path d="M3 11.5l4.5 4.5h9l-9 -9l-4.5 4.5" />
   <path d="M16.5 16l4.5 -4.5l-4.5 -4.5l-4.5 4.5" />
 </svg>
 ''';

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class MapCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [verify, approve, confirm, validate, ensure, authenticate, inspect, certify, affirm, map]
 category: Map
-tags: [verify, approve, confirm, validate, ensure, authenticate, inspect, certify, affirm]
 version: "2.28"
 unicode: "fbc5"
 -->

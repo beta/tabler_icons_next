@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class PictureInPictureOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [size, photo, elements, adjust, picture, off, content, entertainment, disabled, in]
 category: Media
-tags: [size, photo, elements, adjust, image]
 version: "1.28"
 unicode: "ed43"
 -->
@@ -43,7 +43,7 @@ unicode: "ed43"
   stroke-linejoin="round"
 >
   <path d="M11 19h-6a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4" />
-  <path d="M14 14m0 1a1 1 0 0 1 1 -1h5a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1z" />
+  <path d="M14 15a1 1 0 0 1 1 -1h5a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1l0 -3" />
   <path d="M7 9l4 4" />
   <path d="M7 12v-3h3" />
 </svg>

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class AdjustmentsAlt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [equalizer, sliders, controls, settings, filter, adjustments, alt, control, operation, function]
 category: System
-tags: [equalizer, sliders, controls, settings, filter]
 version: "1.11"
 unicode: "ec37"
 -->
@@ -42,13 +42,13 @@ unicode: "ec37"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 8h4v4h-4z" />
+  <path d="M4 8h4v4h-4l0 -4" />
   <path d="M6 4l0 4" />
   <path d="M6 12l0 8" />
-  <path d="M10 14h4v4h-4z" />
+  <path d="M10 14h4v4h-4l0 -4" />
   <path d="M12 4l0 10" />
   <path d="M12 18l0 2" />
-  <path d="M16 5h4v4h-4z" />
+  <path d="M16 5h4v4h-4l0 -4" />
   <path d="M18 4l0 1" />
   <path d="M18 9l0 11" />
 </svg>

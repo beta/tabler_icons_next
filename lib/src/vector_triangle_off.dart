@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class VectorTriangleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [curve, parametric, design, vector graphics, placement, vector, triangle, off, creative, artistic]
 category: Design
-tags: [curve, parametric, design, vector graphics, placement]
 version: "1.67"
 unicode: "f1bf"
 -->
@@ -43,7 +43,7 @@ unicode: "f1bf"
   stroke-linejoin="round"
 >
   <path d="M10 6v-1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-1" />
-  <path d="M3 17m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+  <path d="M3 18a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -2" />
   <path d="M20.705 20.709a1 1 0 0 1 -.705 .291h-2a1 1 0 0 1 -1 -1v-2c0 -.28 .115 -.532 .3 -.714" />
   <path d="M6.5 17.1l3.749 -6.823" />
   <path d="M13.158 9.197l-.658 -1.197" />

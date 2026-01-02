@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Blur extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [edit, photo, photography, tool]
+tags: [edit, photo, photography, tool, blur, creative, artistic, visual, aesthetic, style]
 category: Design
 version: "1.47"
 unicode: "ef8c"
@@ -42,7 +42,7 @@ unicode: "ef8c"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 21a9.01 9.01 0 0 0 2.32 -.302a9 9 0 0 0 1.74 -16.733a9 9 0 1 0 -4.06 17.035z" />
+  <path d="M12 21a9.01 9.01 0 0 0 2.32 -.302a9 9 0 0 0 1.74 -16.733a9 9 0 1 0 -4.06 17.035" />
   <path d="M12 3v17" />
   <path d="M12 12h9" />
   <path d="M12 9h8" />

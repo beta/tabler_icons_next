@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class CircleDashedLetterY extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alphabet, uppercase, character, text, symbol, type, font, typography, letter, writing]
+tags: [alphabet, uppercase, character, text, type, font, typography, letter, writing, circle]
 category: Letters
-unicode: "ff81"
 version: "3.11"
+unicode: "ff81"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

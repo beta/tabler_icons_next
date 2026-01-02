@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class Transform extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [change, convert, adaptation, direction]
-unicode: "f38e"
+category: System
+tags: [change, convert, adaptation, direction, transform]
 version: "1.91"
+unicode: "f38e"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

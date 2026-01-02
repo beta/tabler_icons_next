@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ArrowBigUpLine extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, north]
+tags: [direction, north, arrow, big, line, pointer, top, increase, navigation, flow]
 category: Arrows
 version: "1.52"
 unicode: "efee"
@@ -42,7 +42,7 @@ unicode: "efee"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z" />
+  <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6" />
   <path d="M9 21h6" />
 </svg>
 ''';

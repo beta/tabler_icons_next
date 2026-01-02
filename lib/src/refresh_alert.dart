@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class RefreshAlert extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [synchronization, reload, restart, spinner, loader, ajax, update, arrows]
-version: "1.0"
+tags: [synchronization, reload, restart, spinner, loader, ajax, update, arrows, refresh, alert]
 category: Arrows
+version: "1.0"
 unicode: "ed57"
 -->
 <svg

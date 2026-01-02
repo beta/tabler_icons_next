@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class ArrowsRandom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, north, south, west, east]
-version: "1.61"
+tags: [direction, north, south, west, east, arrows, random, navigation, flow, movement]
 category: Arrows
+version: "1.61"
 unicode: "f095"
 -->
 <svg

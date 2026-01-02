@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class ArrowBarToLeftDashed extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [arrow, bar, left, dashed, direction, pointer, navigation, flow, navigate, move]
 category: Arrows
-unicode: "10163"
 version: "3.32"
+unicode: "10163"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

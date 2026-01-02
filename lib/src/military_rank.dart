@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class MilitaryRank extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [soldier, army, private, private second class, private first class, specialist, corporal, sergeant, staff sergeant]
+category: System
+tags: [soldier, army, private, private second class, private first class, specialist, corporal, sergeant, staff sergeant, military]
 version: "1.50"
 unicode: "efcf"
 -->
@@ -41,7 +42,7 @@ unicode: "efcf"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M18 7v12a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-12l6 -4z" />
+  <path d="M18 7v12a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-12l6 -4l6 4" />
   <path d="M10 13l2 -1l2 1" />
   <path d="M10 17l2 -1l2 1" />
   <path d="M10 9l2 -1l2 1" />

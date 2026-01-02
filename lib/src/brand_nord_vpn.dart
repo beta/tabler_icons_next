@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandNordVpn extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [protects, device, software]
+tags: [protects, device, software, brand, nord, vpn, logo, company, trademark, identity]
 category: Brand
-unicode: "f37f"
 version: "1.91"
+unicode: "f37f"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

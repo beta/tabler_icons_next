@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class IdOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [identification, card, personal details, off, control, operation, disabled, inactive, id, function]
 category: System
-tags: [identification, card, personal details]
 version: "1.66"
 unicode: "f149"
 -->

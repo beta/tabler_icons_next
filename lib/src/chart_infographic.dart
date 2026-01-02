@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ChartInfographic extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, data, value, variable, scale, statistical, bar, information, report]
+tags: [statistics, data, value, variable, scale, statistical, bar, information, report, chart]
 category: Charts
 version: "1.39"
 unicode: "ee30"
@@ -42,7 +42,7 @@ unicode: "ee30"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M7 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+  <path d="M3 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
   <path d="M7 3v4h4" />
   <path d="M9 17l0 4" />
   <path d="M17 14l0 7" />

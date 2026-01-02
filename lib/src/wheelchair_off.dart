@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class WheelchairOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [disabled, disability, patient, medical, handicapped, wheelchair, off, transport, accessibility, a11y, inclusive, mobility, inactive]
 category: Vehicles
-tags: [disabled, disability, patient, medical, handicapped]
-unicode: "f43e"
 version: "1.94"
+unicode: "f43e"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ version: "1.94"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M8 16m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+  <path d="M3 16a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
   <path d="M17.582 17.59a2 2 0 0 0 2.833 2.824" />
   <path d="M14 14h-1.4" />
   <path d="M6 6v5" />

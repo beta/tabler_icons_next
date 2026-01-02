@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class GraphOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [analytics, raport, statistics, chart]
-unicode: "f3f4"
+category: System
+tags: [analytics, raport, statistics, chart, graph, off, disabled, inactive]
 version: "1.94"
+unicode: "f3f4"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

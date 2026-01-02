@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class DeviceHeartMonitor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hospital, rate, healthcare, health]
-version: "1.58"
+tags: [hospital, rate, healthcare, health, device, heart, monitor, hardware, technology, love]
 category: Devices
+version: "1.58"
 unicode: "f060"
 -->
 <svg
@@ -42,7 +42,7 @@ unicode: "f060"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+  <path d="M4 6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2l0 -12" />
   <path d="M4 9h6l1 -2l2 4l1 -2h6" />
   <path d="M4 14h16" />
   <path d="M14 17v.01" />

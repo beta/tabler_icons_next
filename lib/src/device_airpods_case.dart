@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class DeviceAirpodsCase extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, audio, apple, iphone, wireless, sound]
+tags: [music, audio, apple, iphone, wireless, sound, device, airpods, case, hardware]
 category: Devices
-unicode: "f646"
 version: "1.118"
+unicode: "f646"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ version: "1.118"
   stroke-linejoin="round"
 >
   <path d="M21 10h-18" />
-  <path d="M3 4m0 4a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" />
+  <path d="M3 8a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4l0 -8" />
   <path d="M7 10v1.5a1.5 1.5 0 0 0 1.5 1.5h7a1.5 1.5 0 0 0 1.5 -1.5v-1.5" />
 </svg>
 ''';

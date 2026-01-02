@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class BellRinging extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [alarm, sound, notification, bell, ringing, control, operation, function, interface, management]
 category: System
-tags: [alarm, sound, notification]
 version: "1.24"
 unicode: "ed07"
 -->

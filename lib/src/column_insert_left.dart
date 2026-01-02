@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ColumnInsertLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [database, table, cells, arrow]
+tags: [database, table, cells, arrow, column, insert, left, storage, repository, records]
 category: Database
 version: "1.39"
 unicode: "ee44"
@@ -42,7 +42,7 @@ unicode: "ee44"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M14 4h4a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1z" />
+  <path d="M14 4h4a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1" />
   <path d="M5 12l4 0" />
   <path d="M7 10l0 4" />
 </svg>

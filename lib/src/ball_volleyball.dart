@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BallVolleyball extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [point, set, match, attacker, ace, setter, serve]
+tags: [point, set, match, attacker, ace, setter, serve, ball, volleyball, athletic]
 category: Sport
 version: "1.10"
 unicode: "ec2b"
@@ -42,7 +42,7 @@ unicode: "ec2b"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
   <path d="M12 12a8 8 0 0 0 8 4" />
   <path d="M7.5 13.5a12 12 0 0 0 8.5 6.5" />
   <path d="M12 12a8 8 0 0 0 -7.464 4.928" />

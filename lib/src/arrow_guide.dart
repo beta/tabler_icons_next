@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ArrowGuide extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, west, bend, navigation]
+tags: [direction, west, bend, navigation, arrow, guide, pointer, flow, navigate, move]
 category: Arrows
 version: "1.73"
 unicode: "f22a"
@@ -42,7 +42,7 @@ unicode: "f22a"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M3 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M7 19h3a2 2 0 0 0 2 -2v-8a2 2 0 0 1 2 -2h7" />
   <path d="M18 4l3 3l-3 3" />
 </svg>

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandTwilio extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [communication, answering, calls, messages]
+tags: [communication, answering, calls, messages, brand, twilio, logo, company, trademark, identity]
 category: Brand
-unicode: "f617"
 version: "1.115"
+unicode: "f617"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,11 +42,11 @@ version: "1.115"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0z" />
-  <path d="M9 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M15 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M9 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0" />
+  <path d="M8 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M14 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M14 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M8 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
 </svg>
 ''';
 }

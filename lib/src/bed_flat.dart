@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class BedFlat extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Buildings
 tags: [mattress, sofa, couch, futon, sleeping, restful, horizontal, recline, lying, horizontal-bed]
 version: "2.36"
 unicode: "fca1"
@@ -41,8 +42,8 @@ unicode: "fca1"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 11m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M10 13h11v-2a3 3 0 0 0 -3 -3h-8v5z" />
+  <path d="M3 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M10 13h11v-2a3 3 0 0 0 -3 -3h-8v5" />
   <path d="M3 16h18" />
 </svg>
 ''';

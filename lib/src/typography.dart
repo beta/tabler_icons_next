@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Typography extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [type, display, typeface, point size, line length, line-spacing, letter-spacing, font, typography, writing]
 category: Text
-tags: [type, display, typeface, point size, line length, line-spacing, letter-spacing, font]
 version: "1.5"
 unicode: "ebc5"
 -->

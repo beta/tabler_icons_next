@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BuildingCarousel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [amusement, park, fair, merry-go-round, fun, entertaianment]
+tags: [amusement, park, fair, merry-go-round, fun, entertaianment, building, carousel, architecture, structure]
 category: Buildings
 version: "1.34"
 unicode: "ed87"
@@ -42,12 +42,12 @@ unicode: "ed87"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
-  <path d="M5 8m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M12 4m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M19 8m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M5 16m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M19 16m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M6 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
+  <path d="M3 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M10 4a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M17 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M3 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M17 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M8 22l4 -10l4 10" />
 </svg>
 ''';

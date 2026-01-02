@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class AugmentedReality extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [technology, dimensional, geometry, augmented, reality, control, operation, function, interface, management]
 category: System
-tags: [technology, dimensional, geometry]
 version: "1.55"
 unicode: "f023"
 -->
@@ -47,7 +47,7 @@ unicode: "f023"
   <path d="M16 4h2a2 2 0 0 1 2 2v2" />
   <path d="M16 20h2a2 2 0 0 0 2 -2v-2" />
   <path d="M12 12.5l4 -2.5" />
-  <path d="M8 10l4 2.5v4.5l4 -2.5v-4.5l-4 -2.5z" />
+  <path d="M8 10l4 2.5v4.5l4 -2.5v-4.5l-4 -2.5l-4 2.5" />
   <path d="M8 10v4.5l4 2.5" />
 </svg>
 ''';

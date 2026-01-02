@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Send extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [message, mail, email, gmail, paper, airplane, aeroplane, send, contact, conversation]
 category: Communication
-tags: [message, mail, email, gmail, paper, airplane, aeroplane]
 version: "1.0"
 unicode: "eb1e"
 -->

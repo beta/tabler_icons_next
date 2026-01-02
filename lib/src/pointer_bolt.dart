@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class PointerBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [flash, energy, electric, shock, power, lightning, alert, impact, quick, pointer]
 category: System
-tags: [flash, energy, electric, shock, symbol, power, lightning, alert, impact, quick]
 version: "2.10"
 unicode: "f999"
 -->

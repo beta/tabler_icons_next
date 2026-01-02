@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Sofa extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [chair, seat, home, furniture, couch]
+category: System
+tags: [chair, seat, home, furniture, couch, sofa, settee, lounge]
 version: "1.48"
 unicode: "efaf"
 -->
@@ -41,7 +42,7 @@ unicode: "efaf"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 11a2 2 0 0 1 2 2v1h12v-1a2 2 0 1 1 4 0v5a1 1 0 0 1 -1 1h-18a1 1 0 0 1 -1 -1v-5a2 2 0 0 1 2 -2z" />
+  <path d="M4 11a2 2 0 0 1 2 2v1h12v-1a2 2 0 1 1 4 0v5a1 1 0 0 1 -1 1h-18a1 1 0 0 1 -1 -1v-5a2 2 0 0 1 2 -2" />
   <path d="M4 11v-3a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v3" />
   <path d="M12 5v9" />
 </svg>

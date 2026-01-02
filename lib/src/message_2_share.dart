@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Message2Share extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [sharing, email, mail, communication, post, message, share, contact, conversation, distribute]
 category: Communication
-tags: [sharing, email, mail, communication, post]
 version: "1.59"
 unicode: "f077"
 -->

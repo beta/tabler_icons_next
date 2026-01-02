@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class CircuitChangeover extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [electric, diagram, electricity, change]
+tags: [electric, diagram, electricity, change, circuit, changeover, energy, voltage, power, current]
 category: Electrical
 version: "1.77"
 unicode: "f278"
@@ -44,10 +44,10 @@ unicode: "f278"
 >
   <path d="M2 12h2" />
   <path d="M20 7h2" />
-  <path d="M6 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M18 7m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M4 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M16 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M20 17h2" />
-  <path d="M18 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M16 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M7.5 10.5l8.5 -3.5" />
 </svg>
 ''';

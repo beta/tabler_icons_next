@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Math1Divide3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [calculations, mathematic, quarter]
+tags: [calculations, mathematic, quarter, math, divide, calculation, equation, mathematics, numeric, formula]
 category: Math
-unicode: "f4e3"
 version: "1.100"
+unicode: "f4e3"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

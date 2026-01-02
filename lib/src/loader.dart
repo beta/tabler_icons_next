@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Loader extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [process, download, upload, loader, loading]
+tags: [process, download, upload, loader, loading, control, operation, function, interface, management]
 category: System
 version: "1.17"
 unicode: "eca3"

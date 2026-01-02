@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Filter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [funnel, hopper, filtration, filter, control, operation, sort, organize, arrange, select]
 category: System
-tags: [funnel, hopper, filtration]
 version: "1.0"
 unicode: "eaa5"
 -->
@@ -42,7 +42,7 @@ unicode: "eaa5"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 4h16v2.172a2 2 0 0 1 -.586 1.414l-4.414 4.414v7l-6 2v-8.5l-4.48 -4.928a2 2 0 0 1 -.52 -1.345v-2.227z" />
+  <path d="M4 4h16v2.172a2 2 0 0 1 -.586 1.414l-4.414 4.414v7l-6 2v-8.5l-4.48 -4.928a2 2 0 0 1 -.52 -1.345v-2.227" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Versions extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, variation, different, variant, alternative]
+tags: [app, variation, different, variant, alternative, versions, programming, software, coding, technical]
+category: Development
 version: "1.29"
 unicode: "ed52"
-category: Development
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ category: Development
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M10 5m0 2a2 2 0 0 1 2 -2h6a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2z" />
+  <path d="M10 7a2 2 0 0 1 2 -2h6a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2l0 -10" />
   <path d="M7 7l0 10" />
   <path d="M4 8l0 8" />
 </svg>

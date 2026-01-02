@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Accessible extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [low-vision, blind, disability, handicapped]
+category: Health
+tags: [low-vision, blind, disability, handicapped, accessible, accessibility, inclusive, barrier-free]
 version: "1.4"
 unicode: "eba9"
 -->
@@ -41,9 +42,9 @@ unicode: "eba9"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
   <path d="M10 16.5l2 -3l2 3m-2 -3v-2l3 -1m-6 0l3 1" />
-  <circle cx="12" cy="7.5" r=".5" fill="currentColor" />
+  <path d="M11.5 7.5a.5 .5 0 1 0 1 0a.5 .5 0 1 0 -1 0" fill="currentColor" />
 </svg>
 ''';
 }

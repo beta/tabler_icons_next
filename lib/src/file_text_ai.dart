@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class FileTextAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [data, pdf, txt, file, text, document, content, record, ai, paper]
 category: Document
-tags: [data, pdf, txt]
 version: "2.14"
 unicode: "fa27"
 -->

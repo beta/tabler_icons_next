@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class LinkOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [zoom-filled, link, off, disabled, inactive, url, connection, hyperlink, reference, attach]
 category: Text
-tags: [zoom-filled]
-unicode: "f402"
 version: "1.94"
+unicode: "f402"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

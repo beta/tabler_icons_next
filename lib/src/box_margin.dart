@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BoxMargin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [css, cascading, style, section, space, text, content, outside, container]
+tags: [css, cascading, style, section, space, text, content, outside, container, box]
 category: Design
 version: "1.39"
 unicode: "ee0b"
@@ -42,7 +42,7 @@ unicode: "ee0b"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M8 8h8v8h-8z" />
+  <path d="M8 8h8v8h-8l0 -8" />
   <path d="M4 4v.01" />
   <path d="M8 4v.01" />
   <path d="M12 4v.01" />

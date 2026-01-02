@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class MailAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [inbox, gmail, email, envelope, message, mail, contact, conversation, letter, post]
 category: Communication
-tags: [inbox, gmail, email, envelope, message]
 version: "2.14"
 unicode: "fa31"
 -->

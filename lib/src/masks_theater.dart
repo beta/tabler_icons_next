@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class MasksTheater extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cinema, comedy, acting, face, art]
+tags: [cinema, comedy, acting, face, art, masks, theater, location, navigation, geography]
+category: Map
 version: "1.76"
 unicode: "f263"
-category: Map
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ category: Map
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M13.192 9h6.616a2 2 0 0 1 1.992 2.183l-.567 6.182a4 4 0 0 1 -3.983 3.635h-1.5a4 4 0 0 1 -3.983 -3.635l-.567 -6.182a2 2 0 0 1 1.992 -2.183z" />
+  <path d="M13.192 9h6.616a2 2 0 0 1 1.992 2.183l-.567 6.182a4 4 0 0 1 -3.983 3.635h-1.5a4 4 0 0 1 -3.983 -3.635l-.567 -6.182a2 2 0 0 1 1.992 -2.183" />
   <path d="M15 13h.01" />
   <path d="M18 13h.01" />
   <path d="M15 16.5c1 .667 2 .667 3 0" />

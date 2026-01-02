@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Number123 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [numbers, digit, one, two, three]
-unicode: "f554"
-version: "1.106"
+tags: [numbers, digit, one, two, three, number, 123, numeric, numeral, count]
 category: Numbers
+version: "1.106"
+unicode: "f554"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

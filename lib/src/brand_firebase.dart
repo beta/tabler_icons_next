@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandFirebase extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [development, coding, programming, mobile apps]
+tags: [development, coding, programming, mobile apps, brand, firebase, logo, company, trademark, identity]
 category: Brand
 version: "1.45"
 unicode: "ef6e"

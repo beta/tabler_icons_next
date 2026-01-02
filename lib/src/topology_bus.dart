@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class TopologyBus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hierarchy, network, structure, connection]
+tags: [hierarchy, network, structure, connection, topology, bus, computing, machine, processor, system]
 category: Computers
-unicode: "f5d9"
 version: "1.112"
+unicode: "f5d9"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +42,9 @@ version: "1.112"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M14 10a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
-  <path d="M6 10a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
-  <path d="M22 10a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+  <path d="M14 10a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
+  <path d="M6 10a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
+  <path d="M22 10a2 2 0 1 0 -4 0a2 2 0 0 0 4 0" />
   <path d="M2 16h20" />
   <path d="M4 12v4" />
   <path d="M12 12v4" />

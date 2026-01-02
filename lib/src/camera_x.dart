@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class CameraX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [photography, delete, remove, cancel, close, terminate, dismiss, end, snapshot, camera]
 category: Media
-tags: [photography, delete, remove, cancel, close, terminate, dismiss, end, snapshot]
 version: "2.10"
 unicode: "f843"
 -->

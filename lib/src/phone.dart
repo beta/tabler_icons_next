@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Phone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [call, mobile, conversation, landline, answer, number, phone, hardware, technology, contact]
 category: Devices
-tags: [call, mobile, conversation, landline, answer, number]
 version: "1.0"
 unicode: "eb09"
 -->

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandGoogleDrive extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, cloud, disc, documents, sheet, presentation, file, edit]
+tags: [logo, cloud, disc, documents, sheet, presentation, file, edit, brand, google]
 category: Brand
 version: "1.9"
 unicode: "ec1e"
@@ -42,9 +42,9 @@ unicode: "ec1e"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 10l-6 10l-3 -5l6 -10z" />
+  <path d="M12 10l-6 10l-3 -5l6 -10l3 5" />
   <path d="M9 15h12l-3 5h-12" />
-  <path d="M15 15l-6 -10h6l6 10z" />
+  <path d="M15 15l-6 -10h6l6 10l-6 0" />
 </svg>
 ''';
 }

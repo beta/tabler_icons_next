@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class FolderOpen extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Document
 tags: [access, unseal, uncover, unlock, expose, reveal, unshield, available, accessible, visible]
 version: "2.24"
 unicode: "faf7"

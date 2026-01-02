@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class Restore extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [recover, repair, reinstate, redeem, revive, return, reset, retrieve, reestablish, fix]
 version: "2.24"
 unicode: "fafd"
@@ -43,7 +44,7 @@ unicode: "fafd"
 >
   <path d="M3.06 13a9 9 0 1 0 .49 -4.087" />
   <path d="M3 4.001v5h5" />
-  <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
 </svg>
 ''';
 }

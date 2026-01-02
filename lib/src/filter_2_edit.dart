@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class Filter2Edit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-category: Sytem
-unicode: "10157"
+tags: [filter, edit, modify, change, update, revise, adjust, sort, organize, arrange]
+category: System
 version: "3.32"
+unicode: "10157"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +45,7 @@ version: "3.32"
   <path d="M4 6h16" />
   <path d="M6 12h11" />
   <path d="M9 18h2" />
-  <path d="M18.42 15.61c.195 -.195 .426 -.35 .681 -.455c.255 -.106 .528 -.16 .804 -.16c.276 0 .549 .054 .804 .16c.255 .106 .486 .26 .681 .455c.195 .195 .35 .427 .455 .681c.106 .255 .16 .528 .16 .804c0 .276 -.054 .549 -.16 .804c-.105 .255 -.26 .486 -.455 .681l-3.39 3.42h-3v-3l3.42 -3.39z" />
+  <path d="M18.42 15.61c.195 -.195 .426 -.35 .681 -.455c.255 -.106 .528 -.16 .804 -.16c.276 0 .549 .054 .804 .16c.255 .106 .486 .26 .681 .455c.195 .195 .35 .427 .455 .681c.106 .255 .16 .528 .16 .804c0 .276 -.054 .549 -.16 .804c-.105 .255 -.26 .486 -.455 .681l-3.39 3.42h-3v-3l3.42 -3.39" />
 </svg>
 ''';
 }

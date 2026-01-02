@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Highlight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [marker, important, highlighter, pen]
+tags: [marker, important, highlighter, pen, highlight, typography, writing, font, character, word]
 category: Text
 version: "1.42"
 unicode: "ef3f"
@@ -45,7 +45,7 @@ unicode: "ef3f"
   <path d="M3 19h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
   <path d="M12.5 5.5l4 4" />
   <path d="M4.5 13.5l4 4" />
-  <path d="M21 15v4h-8l4 -4z" />
+  <path d="M21 15v4h-8l4 -4l4 0" />
 </svg>
 ''';
 }

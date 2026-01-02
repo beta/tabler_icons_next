@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class FileHorizontal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [paper, new]
+tags: [paper, new, file, horizontal, document, data, content, record, text, information]
 category: Document
 version: "1.4"
 unicode: "ebb0"
@@ -43,7 +43,7 @@ unicode: "ebb0"
   stroke-linejoin="round"
 >
   <path d="M16 5v4a1 1 0 0 0 1 1h4" />
-  <path d="M3 7v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2 -2v-7l-5 -5h-11a2 2 0 0 0 -2 2z" />
+  <path d="M3 7v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2 -2v-7l-5 -5h-11a2 2 0 0 0 -2 2" />
 </svg>
 ''';
 }

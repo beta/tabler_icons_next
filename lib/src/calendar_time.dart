@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class CalendarTime extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [plan, timetable, schedule, meeting, busy, month, year, date, calender, calendar]
 category: System
-tags: [plan, timetable, schedule, meeting, busy, month, year, date, calender]
 version: "1.39"
 unicode: "ee21"
 -->
@@ -43,7 +43,7 @@ unicode: "ee21"
   stroke-linejoin="round"
 >
   <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <path d="M18 18m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+  <path d="M14 18a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
   <path d="M15 3v4" />
   <path d="M7 3v4" />
   <path d="M3 11h16" />

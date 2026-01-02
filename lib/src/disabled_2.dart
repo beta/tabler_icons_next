@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Disabled2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [wheelchair, accessible, handicapped, disabled, medical, wellness, healthcare, treatment, care, 2]
 category: Health
-tags: [wheelchair, accessible, handicapped]
 version: "1.4"
 unicode: "ebaf"
 -->
@@ -42,7 +42,7 @@ unicode: "ebaf"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M17 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M15 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M9 11a5 5 0 1 0 3.95 7.95" />
   <path d="M19 20l-4 -5h-4l3 -5l-4 -3l-4 1" />
 </svg>

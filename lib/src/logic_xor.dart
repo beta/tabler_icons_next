@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class LogicXor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gate, technology, electirical, it]
+tags: [gate, technology, electirical, it, logic, xor, boolean, operation, reasoning, conditional]
 category: Logic
 version: "1.74"
 unicode: "f247"
@@ -46,7 +46,7 @@ unicode: "f247"
   <path d="M2 9h6" />
   <path d="M2 15h6" />
   <path d="M7 19c1.778 -4.667 1.778 -9.333 0 -14" />
-  <path d="M10 5c10.667 2.1 10.667 12.6 0 14c1.806 -4.667 1.806 -9.333 0 -14z" />
+  <path d="M10 5c10.667 2.1 10.667 12.6 0 14c1.806 -4.667 1.806 -9.333 0 -14" />
 </svg>
 ''';
 }

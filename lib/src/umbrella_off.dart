@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class UmbrellaOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [rain, weather, storm, wet, autumn, fall]
+category: System
+tags: [rain, weather, storm, wet, autumn, fall, umbrella, off, disabled, inactive]
 version: "1.67"
 unicode: "f1bb"
 -->

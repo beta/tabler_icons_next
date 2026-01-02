@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class KeyboardHide extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [computer, laptop, device, type]
+tags: [computer, laptop, device, type, keyboard, hide, hardware, technology, electronic, gadget]
 category: Devices
 version: "1.14"
 unicode: "ec7e"
@@ -42,7 +42,7 @@ unicode: "ec7e"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M2 3m0 2a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2z" />
+  <path d="M2 5a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2l0 -8" />
   <path d="M6 7l0 .01" />
   <path d="M10 7l0 .01" />
   <path d="M14 7l0 .01" />

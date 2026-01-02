@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class LaurelWreath3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Design
 tags: [victory, achievement, winner, honor, prize, celebrate, ornament, receive, medal, praise]
 unicode: "ff46"
 version: "3.10"

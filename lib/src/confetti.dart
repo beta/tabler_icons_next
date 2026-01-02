@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Confetti extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [party, celebrate, streamers, paper, parade, wedding, celebration]
+category: Design
+tags: [party, celebrate, streamers, paper, parade, wedding, celebration, confetti]
 version: "1.39"
 unicode: "ee46"
 -->
@@ -50,7 +51,7 @@ unicode: "ee46"
   <path d="M18 13l2 -.5" />
   <path d="M18 19h2" />
   <path d="M19 18v2" />
-  <path d="M14 16.518l-6.518 -6.518l-4.39 9.58a1 1 0 0 0 1.329 1.329l9.579 -4.39z" />
+  <path d="M14 16.518l-6.518 -6.518l-4.39 9.58a1 1 0 0 0 1.329 1.329l9.579 -4.39" />
 </svg>
 ''';
 }

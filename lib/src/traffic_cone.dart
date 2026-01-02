@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class TrafficCone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [street, road, vehicle, repair, warning, lane, drive, traffic, cone, location]
 category: Map
-tags: [street, road, vehicle, repair, warning, lane, drive]
 version: "1.8"
 unicode: "ec0f"
 -->

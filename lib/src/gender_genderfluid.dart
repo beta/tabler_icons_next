@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class GenderGenderfluid extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identity, indefinite]
+tags: [identity, indefinite, gender, genderfluid, person, human, individual, interface, component, widget]
 category: Gender
 version: "1.64"
 unicode: "f0e9"
@@ -42,7 +42,7 @@ unicode: "f0e9"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M10 15.464a4 4 0 1 0 4 -6.928a4 4 0 0 0 -4 6.928z" />
+  <path d="M10 15.464a4 4 0 1 0 4 -6.928a4 4 0 0 0 -4 6.928" />
   <path d="M15.464 14l3 -5.196" />
   <path d="M5.536 15.195l3 -5.196" />
   <path d="M12 12h.01" />

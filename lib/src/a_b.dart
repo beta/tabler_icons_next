@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class AB extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [test, visual, user, programming, software, coding, technical, developer, a, b]
 category: Development
-tags: [test, visual, user]
 version: "1.11"
 unicode: "ec36"
 -->

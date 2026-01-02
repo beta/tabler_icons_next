@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class BookmarkOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [read, clip, marker, tag, bookmark, off, disabled, inactive, file, paper]
 category: Document
-tags: [read, clip, marker, tag]
 version: "1.22"
 unicode: "eced"
 -->

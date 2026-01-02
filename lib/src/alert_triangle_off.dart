@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class AlertTriangleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [warning, danger, caution, risk, alert, triangle, off, control, operation, disabled]
 category: System
-tags: [warning, danger, caution, risk]
 version: "2.33"
 unicode: "fc69"
 -->

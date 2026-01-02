@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Lamp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [light, room, decoration, electic, energy]
+category: Design
+tags: [light, room, decoration, electic, energy, lamp]
 version: "1.48"
 unicode: "efab"
 -->
@@ -43,7 +44,7 @@ unicode: "efab"
 >
   <path d="M9 20h6" />
   <path d="M12 20v-8" />
-  <path d="M5 12h14l-4 -8h-6z" />
+  <path d="M5 12h14l-4 -8h-6l-4 8" />
 </svg>
 ''';
 }

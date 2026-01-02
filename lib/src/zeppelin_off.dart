@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class ZeppelinOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [airship, transport, ballon, flying, travel, zeppelin, off, disabled, inactive, vehicle]
 category: Vehicles
-tags: [airship, transport, ballon, flying, travel]
-unicode: "f43f"
 version: "1.94"
+unicode: "f43f"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

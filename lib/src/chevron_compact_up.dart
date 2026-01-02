@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ChevronCompactUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, direction, upward, ascend, elevate, uplift, point, symbol, navigate, move]
+tags: [arrow, direction, upward, ascend, elevate, uplift, point, navigate, move, chevron]
 category: Arrows
 version: "2.24"
 unicode: "faf3"

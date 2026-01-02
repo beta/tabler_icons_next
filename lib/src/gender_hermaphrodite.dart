@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class GenderHermaphrodite extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identify, intersexuality, hybrid]
+tags: [identify, intersexuality, hybrid, gender, hermaphrodite, identity, person, human, individual]
 category: Gender
 version: "1.64"
 unicode: "f0ec"
@@ -44,7 +44,7 @@ unicode: "f0ec"
 >
   <path d="M12 14v7" />
   <path d="M9 18h6" />
-  <path d="M12 6a4 4 0 1 1 0 8a4 4 0 0 1 0 -8z" />
+  <path d="M12 6a4 4 0 1 1 0 8a4 4 0 0 1 0 -8" />
   <path d="M15 3a3 3 0 1 1 -6 0" />
 </svg>
 ''';

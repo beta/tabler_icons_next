@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ColorSwatchOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [sample, choice, selection, color, swatch, off, creative, artistic, disabled, inactive]
 category: Design
-tags: [sample, choice, selection]
 version: "1.63"
 unicode: "f0d3"
 -->

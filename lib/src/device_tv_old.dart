@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class DeviceTvOld extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [film, watch, audio, video, media, retro, antenna]
+tags: [film, watch, audio, video, media, retro, antenna, device, old, hardware]
 category: Devices
 version: "1.68"
 unicode: "f1d3"
@@ -42,7 +42,7 @@ unicode: "f1d3"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+  <path d="M3 9a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -9" />
   <path d="M16 3l-4 4l-4 -4" />
   <path d="M15 7v13" />
   <path d="M18 15v.01" />

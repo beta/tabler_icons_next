@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class LivePhoto extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [capture, photo, movement, sound, memory, camera, live, picture, lens, image]
 category: Photography
-tags: [capture, photo, movement, sound, memory, image, camera]
 version: "1.1"
 unicode: "eadf"
 -->
@@ -42,8 +42,8 @@ unicode: "eadf"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M12 12m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+  <path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
   <path d="M15.9 20.11l0 .01" />
   <path d="M19.04 17.61l0 .01" />
   <path d="M20.77 14l0 .01" />

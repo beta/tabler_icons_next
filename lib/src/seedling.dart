@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Seedling extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [nature, greenery, grow, soil, harvest, plant, flower, tree, leaf, seedling]
 category: Nature
-tags: [nature, greenery, grow, soil, harvest, plant, flower, tree, leaf]
 version: "1.29"
 unicode: "ed51"
 -->

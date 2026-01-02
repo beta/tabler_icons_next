@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class WashGentle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [laundry, clean, clear, clothes, machine, delicate]
+tags: [laundry, clean, clear, clothes, machine, delicate, wash, gentle, cleaning, washing]
 category: Laundry
-unicode: "f306"
 version: "1.84"
+unicode: "f306"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

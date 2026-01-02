@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Cpu2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [processor, computer, chip, hardware, technology, electronic, cpu, gadget, equipment, 2]
 category: Devices
-tags: [processor, computer, chip, hardware, technology, electronic]
 version: "1.59"
 unicode: "f075"
 -->
@@ -42,7 +42,7 @@ unicode: "f075"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 5m0 1a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1z" />
+  <path d="M5 6a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1l0 -12" />
   <path d="M8 10v-2h2m6 6v2h-2m-4 0h-2v-2m8 -4v-2h-2" />
   <path d="M3 10h2" />
   <path d="M3 14h2" />

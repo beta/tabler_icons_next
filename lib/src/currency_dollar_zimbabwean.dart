@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class CurrencyDollarZimbabwean extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, buisness, commerce]
+tags: [exchange, buisness, commerce, currency, dollar, zimbabwean, finance, payment, money, usd]
 category: Currencies
-unicode: "f36e"
 version: "1.90"
+unicode: "f36e"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

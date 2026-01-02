@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class Gymnastics extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [exercise, flexible, balance, strength, acrobatics, sport, routine, fitness, stretch, performance]
 version: "2.42"
 unicode: "fd44"

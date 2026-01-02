@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class HomeSpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [house, dashboard, living, building]
+tags: [house, dashboard, living, building, home, spark, main, architecture, structure, start]
 category: Buildings
-unicode: "ffb5"
 version: "3.13"
+unicode: "ffb5"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

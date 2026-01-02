@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandGrammarly extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, editor, detects, mistakes, grammar]
+tags: [text, editor, detects, mistakes, grammar, brand, grammarly, logo, company, trademark]
 category: Brand
-unicode: "f32b"
 version: "1.86"
+unicode: "f32b"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ version: "1.86"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
   <path d="M15.697 9.434a4.5 4.5 0 1 0 .217 4.788" />
   <path d="M13.5 14h2.5v2.5" />
 </svg>

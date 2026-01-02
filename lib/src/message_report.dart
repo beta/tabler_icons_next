@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class MessageReport extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [comment, chat, reply, communication, conversation, message, report, contact, messaging, interaction]
 category: Communication
-tags: [comment, chat, reply, communication, conversation]
 version: "1.16"
 unicode: "ec9b"
 -->
@@ -42,7 +42,7 @@ unicode: "ec9b"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M18 4a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-5l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12z" />
+  <path d="M18 4a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-5l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12" />
   <path d="M12 8v3" />
   <path d="M12 14v.01" />
 </svg>

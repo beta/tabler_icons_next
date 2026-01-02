@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class ShovelPitchforks extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Design
 tags: [shovel, pitchfork, digging-tool, gardening, agriculture, farm-tool, manual-labor, soil, gardening-implement, dig]
 version: "2.41"
 unicode: "fd3a"
@@ -43,7 +44,7 @@ unicode: "fd3a"
 >
   <path d="M5 3h4" />
   <path d="M7 3v12" />
-  <path d="M4 15h6v3a3 3 0 0 1 -6 0v-3z" />
+  <path d="M4 15h6v3a3 3 0 0 1 -6 0v-3" />
   <path d="M14 21v-3a3 3 0 0 1 6 0v3" />
   <path d="M17 21v-18" />
 </svg>

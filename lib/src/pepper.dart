@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Pepper extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, spice, chili, jalapeño, hot, spicy]
+tags: [food, spice, chili, jalapeño, hot, spicy, pepper, meal, cuisine, eating]
 category: Food
 version: "1.40"
 unicode: "ef15"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class WreckingBall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [demolish, building, wrecker, metal, swing, knock, down]
+tags: [demolish, building, wrecker, metal, swing, knock, down, wrecking, ball, transport]
 category: Vehicles
 version: "1.34"
 unicode: "ed97"
@@ -42,9 +42,9 @@ unicode: "ed97"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M19 13m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M4 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M13 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M17 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M2 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M11 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
   <path d="M13 19l-9 0" />
   <path d="M4 15l9 0" />
   <path d="M8 12v-5h2a3 3 0 0 1 3 3v5" />

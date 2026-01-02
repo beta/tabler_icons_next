@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ToggleLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: ["on", "off", switch, toggle, left, control, operation, function, interface, management]
 category: System
-tags: ["on", "off", switch]
 version: "1.0"
 unicode: "eb3e"
 -->
@@ -42,8 +42,8 @@ unicode: "eb3e"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M8 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M2 6m0 6a6 6 0 0 1 6 -6h8a6 6 0 0 1 6 6v0a6 6 0 0 1 -6 6h-8a6 6 0 0 1 -6 -6z" />
+  <path d="M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M2 12a6 6 0 0 1 6 -6h8a6 6 0 0 1 6 6a6 6 0 0 1 -6 6h-8a6 6 0 0 1 -6 -6" />
 </svg>
 ''';
 }

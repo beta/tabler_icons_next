@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ArrowRampRight3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [direction, east, arrow, ramp, right, pointer, navigation, flow, navigate, move]
 category: Arrows
-tags: [direction, east]
 version: "1.57"
 unicode: "f052"
 -->

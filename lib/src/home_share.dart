@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class HomeShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [house, dashboard, living, building, network, link, connection, home, share, main]
 category: Buildings
-tags: [house, dashboard, living, building, network, link, connection]
-unicode: "f342"
 version: "1.87"
+unicode: "f342"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

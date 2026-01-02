@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class SunWind extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [temperature, wheater, thermometer, forecast, windy]
+tags: [temperature, wheater, thermometer, forecast, windy, sun, wind, climate, meteorology, atmospheric]
 category: Weather
 version: "1.73"
 unicode: "f238"

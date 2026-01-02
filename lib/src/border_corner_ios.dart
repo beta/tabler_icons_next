@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class BorderCornerIos extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Shapes
 tags: [apple, iphone, style, device, technology, interface, ios, smartphone, design, theme]
 version: "2.47"
 unicode: "fd98"

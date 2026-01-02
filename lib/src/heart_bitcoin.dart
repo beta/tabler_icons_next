@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class HeartBitcoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Health
 tags: [crypto, currency, blockchain, finance, digital, love, money, cryptocurrency, investment, decentralized]
 unicode: "ff3b"
 version: "3.9"

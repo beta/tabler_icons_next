@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class ArrowUpDashed extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [top, point]
+tags: [top, point, arrow, dashed, direction, pointer, increase, navigation, flow, navigate]
 category: Arrows
-unicode: "10063"
 version: "3.19"
+unicode: "10063"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

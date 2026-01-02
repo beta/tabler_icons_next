@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ChartRadar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, data, value, two, dimensions, variable, report, points]
+tags: [statistics, data, value, two, dimensions, variable, report, points, chart, radar]
 category: Charts
 version: "1.33"
 unicode: "ed77"
@@ -42,8 +42,8 @@ unicode: "ed77"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 3l9.5 7l-3.5 11h-12l-3.5 -11z" />
-  <path d="M12 7.5l5.5 4l-2.5 5.5h-6.5l-2 -5.5z" />
+  <path d="M12 3l9.5 7l-3.5 11h-12l-3.5 -11l9.5 -7" />
+  <path d="M12 7.5l5.5 4l-2.5 5.5h-6.5l-2 -5.5l5.5 -4" />
   <path d="M2.5 10l9.5 3l9.5 -3" />
   <path d="M12 3v10l6 8" />
   <path d="M6 21l6 -8" />

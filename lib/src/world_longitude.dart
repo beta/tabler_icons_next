@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class WorldLongitude extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [earth, globe, global, language, union, world, longitude, location, navigation, geography]
 category: Map
-tags: [earth, globe, global, language, union]
 version: "1.26"
 unicode: "ed2f"
 -->
@@ -42,7 +42,7 @@ unicode: "ed2f"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
   <path d="M11.5 3a11.2 11.2 0 0 0 0 18" />
   <path d="M12.5 3a11.2 11.2 0 0 1 0 18" />
   <path d="M12 3l0 18" />

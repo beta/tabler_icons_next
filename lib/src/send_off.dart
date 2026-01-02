@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class SendOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [message, mail, email, gmail, paper, airplane, aeroplane, send, off, contact]
 category: Communication
-tags: [message, mail, email, gmail, paper, airplane, aeroplane]
-unicode: "f429"
 version: "1.94"
+unicode: "f429"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

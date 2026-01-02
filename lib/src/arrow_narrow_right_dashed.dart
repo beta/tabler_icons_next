@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class ArrowNarrowRightDashed extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [next, proceed, point, pointer]
+tags: [next, proceed, point, pointer, arrow, narrow, right, dashed, direction, navigation]
 category: Arrows
-unicode: "10066"
 version: "3.19"
+unicode: "10066"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class CloudOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [weather, online, cloud, off, storage, climate, forecast, disabled, inactive, server]
 category: Weather
-tags: [weather, online]
 version: "1.28"
 unicode: "ed3e"
 -->

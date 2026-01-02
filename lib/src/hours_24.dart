@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Hours24 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [clock, time, day, support, service]
-unicode: "f5e7"
-version: "1.113"
+tags: [clock, time, day, support, service, hours, control, operation, 24, function]
 category: System
+version: "1.113"
+unicode: "f5e7"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

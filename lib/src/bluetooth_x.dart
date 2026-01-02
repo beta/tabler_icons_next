@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class BluetoothX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [multimedia, technology, disabled, connection, communication, bluetooth, hardware, electronic, gadget, equipment]
 category: Devices
-tags: [multimedia, technology, disabled, connection, communication]
 version: "1.60"
 unicode: "f081"
 -->

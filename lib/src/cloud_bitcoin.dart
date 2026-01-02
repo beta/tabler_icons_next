@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class CloudBitcoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [cryptocurrency, finance, money, blockchain, digital, currency, wealth, investment, trade, transaction]
 unicode: "ff3e"
 version: "3.9"

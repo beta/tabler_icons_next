@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class Point extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [dot, label]
+category: System
+tags: [dot, label, point, design]
 version: "1.0"
 unicode: "eb0c"
 -->
@@ -41,7 +42,7 @@ unicode: "eb0c"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+  <path d="M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
 </svg>
 ''';
 }

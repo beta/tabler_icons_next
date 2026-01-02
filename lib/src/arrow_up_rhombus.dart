@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class ArrowUpRhombus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [proceed, swipe, below, shape, top, north]
+tags: [proceed, swipe, below, shape, top, north, arrow, rhombus, direction, pointer]
 category: Arrows
-unicode: "f620"
 version: "1.116"
+unicode: "f620"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ version: "1.116"
 >
   <path d="M12 16v-13" />
   <path d="M15 6l-3 -3l-3 3" />
-  <path d="M14.5 18.5l-2.5 2.5l-2.5 -2.5l2.5 -2.5z" />
+  <path d="M14.5 18.5l-2.5 2.5l-2.5 -2.5l2.5 -2.5l2.5 2.5" />
 </svg>
 ''';
 }

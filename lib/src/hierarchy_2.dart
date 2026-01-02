@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Hierarchy2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [relation, above, below, status, society, important, hierarchy, creative, artistic, visual]
 category: Design
-tags: [relation, above, below, status, society, important]
 version: "1.39"
 unicode: "ee9d"
 -->
@@ -42,9 +42,9 @@ unicode: "ee9d"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M10 3h4v4h-4z" />
-  <path d="M3 17h4v4h-4z" />
-  <path d="M17 17h4v4h-4z" />
+  <path d="M10 3h4v4h-4l0 -4" />
+  <path d="M3 17h4v4h-4l0 -4" />
+  <path d="M17 17h4v4h-4l0 -4" />
   <path d="M7 17l5 -4l5 4" />
   <path d="M12 7l0 6" />
 </svg>

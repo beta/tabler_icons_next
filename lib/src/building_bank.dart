@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BuildingBank extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [architecture, city, urban, construction, money, credit, loan, workplace]
+tags: [architecture, city, urban, construction, money, credit, loan, workplace, building, bank]
 category: Buildings
 version: "1.7"
 unicode: "ebe2"

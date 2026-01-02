@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class UserX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [cancel, remove, person, account, unsubscribe, user, control, operation, profile, member]
 category: System
-tags: [cancel, remove, person, account, unsubscribe]
 version: "1.0"
 unicode: "eb4c"
 -->

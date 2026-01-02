@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ListDetails extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [to-do, checklist, form, template, task, reminder, schedule, agenda]
+tags: [to-do, checklist, form, template, task, reminder, schedule, agenda, list, details]
 category: Text
 version: "1.42"
 unicode: "ef40"
@@ -46,8 +46,8 @@ unicode: "ef40"
   <path d="M13 9h5" />
   <path d="M13 15h8" />
   <path d="M13 19h5" />
-  <path d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
-  <path d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+  <path d="M3 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
+  <path d="M3 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
 </svg>
 ''';
 }

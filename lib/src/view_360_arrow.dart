@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class View360Arrow extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [rotate, view, degree, virtual, vr]
-unicode: "f62f"
+category: System
+tags: [rotate, view, degree, virtual, vr, 360, arrow, direction, pointer, navigate]
 version: "1.117"
+unicode: "f62f"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

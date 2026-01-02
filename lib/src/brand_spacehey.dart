@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandSpacehey extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [internet, network, social, website]
+tags: [internet, network, social, website, brand, spacehey, logo, company, trademark, identity]
 category: Brand
-unicode: "f4fc"
 version: "1.101"
+unicode: "f4fc"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +42,9 @@ version: "1.101"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M17 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-  <path d="M14 20h6v-6a3 3 0 0 0 -6 0v6z" />
-  <path d="M11 8v2.5a3.5 3.5 0 0 1 -3.5 3.5h-.5a3 3 0 0 1 0 -6h4z" />
+  <path d="M15 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M14 20h6v-6a3 3 0 0 0 -6 0v6" />
+  <path d="M11 8v2.5a3.5 3.5 0 0 1 -3.5 3.5h-.5a3 3 0 0 1 0 -6h4" />
 </svg>
 ''';
 }

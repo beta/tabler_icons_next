@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Pills extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [drug, medication, illness, sickness, doctor, prescription]
+tags: [drug, medication, illness, sickness, doctor, prescription, pills, medical, wellness, healthcare]
 category: Health
 version: "1.44"
 unicode: "ef66"
@@ -42,8 +42,8 @@ unicode: "ef66"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M8 8m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
-  <path d="M17 17m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+  <path d="M3 8a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+  <path d="M13 17a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
   <path d="M4.5 4.5l7 7" />
   <path d="M19.5 14.5l-5 5" />
 </svg>

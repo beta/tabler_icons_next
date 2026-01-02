@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class BeachOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [sand, sun, umbrella, vacation, travel, beach, off, location, navigation, disabled]
 category: Map
-tags: [sand, sun, umbrella, vacation, travel]
 version: "1.62"
 unicode: "f0b7"
 -->

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrightnessOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [light, dark, screen, brightness, off, disabled, inactive, camera, picture, image]
 category: Photography
-tags: [light, dark, screen]
-unicode: "f3cd"
 version: "1.94"
+unicode: "f3cd"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

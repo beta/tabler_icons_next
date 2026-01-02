@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class Tent extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [camping, holiday, vacation, outdoor, survival, travel, adventure]
-version: "1.39"
+tags: [camping, holiday, vacation, outdoor, survival, travel, adventure, tent, location, navigation]
 category: Map
+version: "1.39"
 unicode: "eefb"
 -->
 <svg

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class Brain extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mind, human, iq, inteligence, organ]
+tags: [mind, human, iq, inteligence, organ, brain, medical, wellness, healthcare, treatment]
 category: Health
-unicode: "f59f"
 version: "1.110"
+unicode: "f59f"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

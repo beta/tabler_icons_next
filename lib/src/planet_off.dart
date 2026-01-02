@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class PlanetOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [earth, uranus, universe, space, galaxy, orbit, atmosphere, planet, off, location]
 category: Map
-tags: [earth, uranus, universe, space, galaxy, orbit, atmosphere]
 version: "1.66"
 unicode: "f17b"
 -->
@@ -42,7 +42,6 @@ unicode: "f17b"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M18.816 13.58c1.956 1.825 3.157 3.449 3.184 4.445m-3.428 .593c-2.098 -.634 -4.944 -2.03 -7.919 -3.976c-5.47 -3.579 -9.304 -7.664 -8.56 -9.123c.32 -.628 1.591 -.6 3.294 -.113" />
   <path d="M7.042 7.059a7 7 0 0 0 9.908 9.89m1.581 -2.425a7 7 0 0 0 -9.057 -9.054" />
   <path d="M3 3l18 18" />
 </svg>

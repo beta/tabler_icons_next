@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class PlayerEject extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [media, multimedia, music, audio, control, figures]
+tags: [media, multimedia, music, audio, control, figures, player, eject, content, entertainment]
 category: Media
 version: "1.49"
 unicode: "efbc"
@@ -42,8 +42,8 @@ unicode: "efbc"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 12h14l-7 -8z" />
-  <path d="M5 16m0 1a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1z" />
+  <path d="M5 12h14l-7 -8l-7 8" />
+  <path d="M5 17a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1l0 -2" />
 </svg>
 ''';
 }

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Fountain extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [park, decoration, water, spring, public]
+tags: [park, decoration, water, spring, public, fountain, location, navigation, geography, place]
 category: Map
 version: "1.61"
 unicode: "f09b"
@@ -46,7 +46,7 @@ unicode: "f09b"
   <path d="M15 16v-5a2 2 0 1 1 4 0" />
   <path d="M12 16v-10a3 3 0 0 1 6 0" />
   <path d="M6 6a3 3 0 0 1 6 0" />
-  <path d="M3 16h18v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-2z" />
+  <path d="M3 16h18v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-2" />
 </svg>
 ''';
 }

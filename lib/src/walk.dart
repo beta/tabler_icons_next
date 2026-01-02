@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Walk extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ambulation, dislocating, movement, motion, destination]
+tags: [ambulation, dislocating, movement, motion, destination, walk, athletic, fitness, exercise, game]
 category: Sport
 version: "1.14"
 unicode: "ec87"
@@ -42,7 +42,7 @@ unicode: "ec87"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M13 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M12 4a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
   <path d="M7 21l3 -4" />
   <path d="M16 21l-2 -4l-3 -3l1 -6" />
   <path d="M6 12l2 -3l4 -1l3 3l3 1" />

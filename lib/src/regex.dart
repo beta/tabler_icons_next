@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Regex extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [regular, expression, code, replace, programming, coding, variables]
+tags: [regular, expression, code, replace, programming, coding, variables, regex, typography, writing]
 category: Text
 version: "1.85"
 unicode: "f31f"
@@ -42,7 +42,7 @@ unicode: "f31f"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M6.5 15a2.5 2.5 0 1 1 0 5a2.5 2.5 0 0 1 0 -5z" />
+  <path d="M6.5 15a2.5 2.5 0 1 1 0 5a2.5 2.5 0 0 1 0 -5" />
   <path d="M17 7.875l3 -1.687" />
   <path d="M17 7.875v3.375" />
   <path d="M17 7.875l-3 -1.687" />

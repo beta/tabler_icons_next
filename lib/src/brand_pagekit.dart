@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandPagekit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [content, management, system, website, component, modular, technology]
+tags: [content, management, system, website, component, modular, technology, brand, pagekit, logo]
 category: Brand
 version: "1.36"
 unicode: "edd1"

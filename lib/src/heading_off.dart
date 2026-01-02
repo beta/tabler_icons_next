@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class HeadingOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [main, text, headline, style, styling, html, heading, off, disabled, inactive]
 category: Text
-tags: [main, text, headline, style, styling, html]
 version: "1.66"
 unicode: "f13f"
 -->

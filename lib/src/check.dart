@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Check extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [tick, "yes", confirm, check, control, operation, approve, function, interface, management]
 category: System
-tags: [tick, "yes", confirm]
 version: "1.0"
 unicode: "ea5e"
 -->

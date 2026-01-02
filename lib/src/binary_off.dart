@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BinaryOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [binary, off, disabled, inactive, code, digital, computer, programming, data, bit]
 category: Computers
-tags: [binary]
-unicode: "f3c5"
 version: "1.94"
+unicode: "f3c5"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -44,8 +44,8 @@ version: "1.94"
 >
   <path d="M11 7v-2h-1" />
   <path d="M18 19v-1" />
-  <path d="M15.5 5h2a.5 .5 0 0 1 .5 .5v4a.5 .5 0 0 1 -.5 .5h-2a.5 .5 0 0 1 -.5 -.5v-4a.5 .5 0 0 1 .5 -.5z" />
-  <path d="M10.5 14h2a.5 .5 0 0 1 .5 .5v4a.5 .5 0 0 1 -.5 .5h-2a.5 .5 0 0 1 -.5 -.5v-4a.5 .5 0 0 1 .5 -.5z" />
+  <path d="M15.5 5h2a.5 .5 0 0 1 .5 .5v4a.5 .5 0 0 1 -.5 .5h-2a.5 .5 0 0 1 -.5 -.5v-4a.5 .5 0 0 1 .5 -.5" />
+  <path d="M10.5 14h2a.5 .5 0 0 1 .5 .5v4a.5 .5 0 0 1 -.5 .5h-2a.5 .5 0 0 1 -.5 -.5v-4a.5 .5 0 0 1 .5 -.5" />
   <path d="M6 10v.01" />
   <path d="M6 19v.01" />
   <path d="M3 3l18 18" />

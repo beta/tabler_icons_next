@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Devices extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [computer, laptop, notebook, tablet, phone, mobile, mac, iphone, devices, hardware]
 category: Devices
-tags: [computer, laptop, notebook, tablet, phone, mobile, mac, iphone]
 version: "1.3"
 unicode: "eb87"
 -->
@@ -42,7 +42,7 @@ unicode: "eb87"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M13 9a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1v-10z" />
+  <path d="M13 9a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1v-10" />
   <path d="M18 8v-3a1 1 0 0 0 -1 -1h-13a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h9" />
   <path d="M16 9h2" />
 </svg>

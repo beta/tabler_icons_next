@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandDaysCounter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, mobile, highlights, days, birthday]
+tags: [app, mobile, highlights, days, birthday, brand, counter, logo, company, trademark]
 category: Brand
-unicode: "f4d2"
 version: "1.99"
+unicode: "f4d2"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

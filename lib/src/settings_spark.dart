@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class SettingsSpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cog, edit, gear, preferences, tools]
+tags: [cog, edit, gear, preferences, tools, settings, spark, config, options, control]
 category: System
-unicode: "ffae"
 version: "3.13"
+unicode: "ffae"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

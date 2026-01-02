@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class VaccineBottleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [medical, medicine, pharmacy, covid, virus, drug, vaccine, bottle, off, wellness]
 category: Health
-tags: [medical, medicine, pharmacy, covid, virus, drug]
-unicode: "f439"
 version: "1.94"
+unicode: "f439"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

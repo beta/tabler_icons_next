@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class Bomb extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [explosion, weapon, military, war]
-unicode: "f59c"
+category: Design
+tags: [explosion, weapon, military, war, bomb]
 version: "1.110"
+unicode: "f59c"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +42,7 @@ version: "1.110"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M15.349 5.349l3.301 3.301a1.2 1.2 0 0 1 0 1.698l-.972 .972a7.5 7.5 0 1 1 -5 -5l.972 -.972a1.2 1.2 0 0 1 1.698 0z" />
+  <path d="M15.349 5.349l3.301 3.301a1.2 1.2 0 0 1 0 1.698l-.972 .972a7.5 7.5 0 1 1 -5 -5l.972 -.972a1.2 1.2 0 0 1 1.698 0l.001 .001" />
   <path d="M17 7l1.293 -1.293a2.414 2.414 0 0 0 .707 -1.707a1 1 0 0 1 1 -1h1" />
   <path d="M7 13a3 3 0 0 1 3 -3" />
 </svg>

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class ChessRook extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, figure, strategy, pawn]
-unicode: "f56f"
-version: "1.107"
+tags: [game, figure, strategy, pawn, chess, rook, athletic, fitness, exercise, physical]
 category: Sport
+version: "1.107"
+unicode: "f56f"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ category: Sport
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M8 16l-1.447 .724a1 1 0 0 0 -.553 .894v2.382h12v-2.382a1 1 0 0 0 -.553 -.894l-1.447 -.724h-8z" />
+  <path d="M8 16l-1.447 .724a1 1 0 0 0 -.553 .894v2.382h12v-2.382a1 1 0 0 0 -.553 -.894l-1.447 -.724h-8" />
   <path d="M8 16l1 -9h6l1 9" />
   <path d="M6 4l.5 3h11l.5 -3" />
   <path d="M10 4v3" />

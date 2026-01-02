@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BrandShazam extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, technology, device, music, sound, play, discover, artist, recognize]
+tags: [app, technology, device, music, sound, play, discover, artist, recognize, brand]
 category: Brand
 version: "1.36"
 unicode: "edd6"
@@ -44,7 +44,7 @@ unicode: "edd6"
 >
   <path d="M10 12l2 -2a2.828 2.828 0 0 1 4 0a2.828 2.828 0 0 1 0 4l-3 3" />
   <path d="M14 12l-2 2a2.828 2.828 0 1 1 -4 -4l3 -3" />
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
 </svg>
 ''';
 }

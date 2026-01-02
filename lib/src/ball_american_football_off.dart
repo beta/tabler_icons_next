@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BallAmericanFootballOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [sport, game, sportsman, play, match, pitch, ball, american, football, off]
 category: Sport
-tags: [sport, game, sportsman, play, match, pitch]
-unicode: "f3c3"
 version: "1.94"
+unicode: "f3c3"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Columns1 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [layout, grid, design, arranegment]
+tags: [layout, grid, design, arranegment, columns, typography, writing, font, character, word]
 category: Text
 version: "2.1"
 unicode: "f6d4"
@@ -42,7 +42,7 @@ unicode: "f6d4"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 3m0 1a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v16a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1z" />
+  <path d="M5 4a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v16a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1l0 -16" />
 </svg>
 ''';
 }

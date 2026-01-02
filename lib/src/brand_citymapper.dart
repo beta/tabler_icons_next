@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandCitymapper extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, transport, public, software]
+tags: [app, transport, public, software, brand, citymapper, logo, company, trademark, identity]
 category: Brand
-unicode: "f5fc"
 version: "1.114"
+unicode: "f5fc"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,8 +42,8 @@ version: "1.114"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 11a1 1 0 1 1 -1 1.013a1 1 0 0 1 1 -1v-.013z" />
-  <path d="M21 11a1 1 0 1 1 -1 1.013a1 1 0 0 1 1 -1v-.013z" />
+  <path d="M3 11a1 1 0 1 1 -1 1.013a1 1 0 0 1 1 -1v-.013" />
+  <path d="M21 11a1 1 0 1 1 -1 1.013a1 1 0 0 1 1 -1v-.013" />
   <path d="M8 12h8" />
   <path d="M13 9l3 3l-3 3" />
 </svg>

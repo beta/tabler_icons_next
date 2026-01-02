@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class CarFan1 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: Vehicles
 tags: [vehicle, ventilation, cooling, airflow, auto, automobile, drive, mechanic, transport, climate]
 unicode: "fdb7"
 version: "3.0"
@@ -41,10 +42,10 @@ version: "3.0"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12v-9l4.912 1.914a1.7 1.7 0 0 1 .428 2.925z" />
+  <path d="M12 12v-9l4.912 1.914a1.7 1.7 0 0 1 .428 2.925l-5.34 4.161" />
   <path d="M14.424 15.03l-2.424 -3.03h6" />
-  <path d="M12 12h-9l1.914 -4.912a1.7 1.7 0 0 1 2.925 -.428z" />
-  <path d="M12 12v9l-4.912 -1.914a1.7 1.7 0 0 1 -.428 -2.925z" />
+  <path d="M12 12h-9l1.914 -4.912a1.7 1.7 0 0 1 2.925 -.428l4.161 5.34" />
+  <path d="M12 12v9l-4.912 -1.914a1.7 1.7 0 0 1 -.428 -2.925l5.34 -4.161" />
   <path d="M18 17l2 -2v6" />
 </svg>
 ''';

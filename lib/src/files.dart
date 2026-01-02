@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Files extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [forms, documents, stack, letter, files, file, paper, text, record, information]
 category: Document
-tags: [forms, documents, stack, letter]
 version: "1.38"
 unicode: "edef"
 -->
@@ -43,7 +43,7 @@ unicode: "edef"
   stroke-linejoin="round"
 >
   <path d="M15 3v4a1 1 0 0 0 1 1h4" />
-  <path d="M18 17h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h4l5 5v7a2 2 0 0 1 -2 2z" />
+  <path d="M18 17h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h4l5 5v7a2 2 0 0 1 -2 2" />
   <path d="M16 17v2a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" />
 </svg>
 ''';

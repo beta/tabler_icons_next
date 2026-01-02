@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandMysql extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [opensource, database, system, web, app]
+tags: [opensource, database, system, web, app, brand, mysql, logo, company, trademark]
 category: Brand
-unicode: "f614"
 version: "1.115"
+unicode: "f614"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

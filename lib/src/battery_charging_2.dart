@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class BatteryCharging2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [charge, energy, power, electricity, battery, charging, hardware, technology, electric, electronic]
 category: Devices
-tags: [charge, energy, power, electricity]
 version: "1.42"
 unicode: "ef3b"
 -->
@@ -43,7 +43,7 @@ unicode: "ef3b"
   stroke-linejoin="round"
 >
   <path d="M4 9a2 2 0 0 1 2 -2h11a2 2 0 0 1 2 2v.5a.5 .5 0 0 0 .5 .5a.5 .5 0 0 1 .5 .5v3a.5 .5 0 0 1 -.5 .5a.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-4.5" />
-  <path d="M3 15h6v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2v-2z" />
+  <path d="M3 15h6v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2v-2" />
   <path d="M6 22v-3" />
   <path d="M4 15v-2.5" />
   <path d="M8 15v-2.5" />

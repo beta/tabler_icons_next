@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class Upload extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [file, arrow, upload, import, transfer, navigation, flow, send, publish, movement]
 category: Arrows
-tags: [file, arrow]
 version: "1.0"
 unicode: "eb47"
 -->

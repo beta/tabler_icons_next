@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class TipJarPound extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [donate, contribution, money, pound, charity, fund, gift, jar, support, currency]
 unicode: "feeb"
 version: "3.5"
@@ -42,7 +43,7 @@ version: "3.5"
   stroke-linejoin="round"
 >
   <path d="M17 4v1.882c0 .685 .387 1.312 1 1.618s1 .933 1 1.618v8.882a3 3 0 0 1 -3 3h-8a3 3 0 0 1 -3 -3v-8.882c0 -.685 .387 -1.312 1 -1.618s1 -.933 1 -1.618v-1.882" />
-  <path d="M6 4h12z" />
+  <path d="M6 4h12l-12 0" />
   <path d="M14 10h-1a2 2 0 0 0 -2 2v2c0 1.105 -.395 2 -1.5 2h4.5" />
   <path d="M10 13h3" />
 </svg>

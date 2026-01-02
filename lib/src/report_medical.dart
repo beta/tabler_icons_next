@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ReportMedical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hospital, doctor, health, sickness, illness, test, results]
+tags: [hospital, doctor, health, sickness, illness, test, results, report, medical, file]
 category: Document
 version: "1.39"
 unicode: "eecc"
@@ -43,7 +43,7 @@ unicode: "eecc"
   stroke-linejoin="round"
 >
   <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
-  <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+  <path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2" />
   <path d="M10 14l4 0" />
   <path d="M12 12l0 4" />
 </svg>

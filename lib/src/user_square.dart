@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,6 +26,7 @@ class UserSquare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+category: System
 tags: [border, frame, rectangle, shape, geometry, design, pattern, corners, form, angular]
 version: "2.31"
 unicode: "fc51"
@@ -43,7 +44,7 @@ unicode: "fc51"
 >
   <path d="M9 10a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
   <path d="M6 21v-1a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v1" />
-  <path d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z" />
+  <path d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14" />
 </svg>
 ''';
 }

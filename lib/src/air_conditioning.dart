@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class AirConditioning extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cold, ice, home, cooling, heating, hot]
+category: Devices
+tags: [cold, ice, home, cooling, heating, hot, air, conditioning]
 version: "1.93"
 unicode: "f3a2"
 -->
@@ -44,7 +45,7 @@ unicode: "f3a2"
   <path d="M8 16a3 3 0 0 1 -3 3" />
   <path d="M16 16a3 3 0 0 0 3 3" />
   <path d="M12 16v4" />
-  <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+  <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -4" />
   <path d="M7 13v-3a1 1 0 0 1 1 -1h8a1 1 0 0 1 1 1v3" />
 </svg>
 ''';

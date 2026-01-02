@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -41,7 +41,7 @@ Future<LinkedHashMap<String, String>> processDir(String path,
     final content = file
         .readAsStringSync()
         .replaceFirst('stroke-width="2"', 'stroke-width="<STROKE_WIDTH>"');
-    final output = """// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+    final output = """// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -99,7 +99,7 @@ Future<void> generateImports(
     (filename) => "export 'src/$filename.dart';",
   );
 
-  final output = '''// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+  final output = '''// Copyright (c) 2026Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -131,7 +131,7 @@ Future<void> generateGalleryIcons(
     return "  '$name': const tabler.$widgetName(),";
   });
 
-  final output = '''// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+  final output = '''// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class PhotoScan extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [image, capture, photograph, picture, snapshot, scan-image, photogrammetry, visual-scan, picture-analysis, photo-analysis]
+tags: [capture, photograph, picture, snapshot, scan-image, photogrammetry, visual-scan, picture-analysis, photo-analysis, photo]
 category: System
 version: "2.36"
 unicode: "fca8"

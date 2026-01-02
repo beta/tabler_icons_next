@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class XPowerY extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [math, expression, equation, power, raised]
+tags: [math, expression, equation, power, raised, calculation, mathematics, numeric, formula, x]
 category: Math
-unicode: "10072"
 version: "3.20"
+unicode: "10072"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

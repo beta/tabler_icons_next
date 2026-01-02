@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class MailSpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [inbox, gmail, email, envelope, message]
+tags: [inbox, gmail, email, envelope, message, mail, spark, contact, conversation, letter]
 category: Communication
-unicode: "ffb3"
 version: "3.13"
+unicode: "ffb3"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

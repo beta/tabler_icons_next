@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class CloudFog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, online]
+tags: [weather, online, cloud, fog, storage, climate, forecast, server, sync, meteorology]
 category: Weather
 version: "1.20"
 unicode: "ecd9"

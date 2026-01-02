@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class GrillFork extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cook, cooking, bbq, meat, tool]
+tags: [cook, cooking, bbq, meat, tool, grill, fork, meal, cuisine, eating]
 category: Food
-unicode: "f35b"
 version: "1.89"
+unicode: "f35b"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ version: "1.89"
   stroke-linejoin="round"
 >
   <path d="M5 5l11.5 11.5" />
-  <path d="M19.347 16.575l1.08 1.079a1.96 1.96 0 0 1 -2.773 2.772l-1.08 -1.079a1.96 1.96 0 0 1 2.773 -2.772z" />
+  <path d="M19.347 16.575l1.08 1.079a1.96 1.96 0 0 1 -2.773 2.772l-1.08 -1.079a1.96 1.96 0 0 1 2.773 -2.772" />
   <path d="M3 7l3.05 3.15a2.9 2.9 0 0 0 4.1 -4.1l-3.15 -3.05" />
 </svg>
 ''';

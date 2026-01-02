@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class CurrencyKip extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, finance, money, cash, laos]
+tags: [exchange, finance, money, cash, laos, currency, kip, payment, monetary, banking]
 category: Currencies
-unicode: "f373"
 version: "1.90"
+unicode: "f373"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

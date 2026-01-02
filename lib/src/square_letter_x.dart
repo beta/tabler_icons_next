@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class SquareLetterX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cancel, close, delete, remove, times, clear, "no"]
-version: "1.0"
+tags: [cancel, close, delete, remove, times, clear, "no", square, letter, rectangular]
 category: Letters
+version: "1.0"
 unicode: "f4bc"
 -->
 <svg
@@ -42,7 +42,7 @@ unicode: "f4bc"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+  <path d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14" />
   <path d="M10 8l4 8" />
   <path d="M10 16l4 -8" />
 </svg>

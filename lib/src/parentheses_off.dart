@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ParenthesesOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [brackets, aside, punctuation, mark, insert, parentheses, off, calculation, equation, disabled]
 category: Math
-tags: [brackets, aside, punctuation, mark, insert]
 version: "1.66"
 unicode: "f171"
 -->

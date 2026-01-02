@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class DotsCircleHorizontal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [more, options, dots, circle, horizontal, control, operation, round, circular, function]
 category: System
-tags: [more, options]
 version: "1.0"
 unicode: "ea91"
 -->
@@ -42,7 +42,7 @@ unicode: "ea91"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
   <path d="M8 12l0 .01" />
   <path d="M12 12l0 .01" />
   <path d="M16 12l0 .01" />

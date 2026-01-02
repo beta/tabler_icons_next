@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,9 @@ class Baseline extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [align, arrow, bottom, format, vertical]
-version: "1.55"
+tags: [align, arrow, bottom, format, vertical, baseline, typography, writing, font, character]
 category: Text
+version: "1.55"
 unicode: "f024"
 -->
 <svg

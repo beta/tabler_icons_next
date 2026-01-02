@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ClockEdit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [time, edit, create, alarm, clock, modify, change, update, control, operation]
 category: System
-tags: [time, edit, create, alarm]
 version: "1.105"
 unicode: "f547"
 -->
@@ -44,7 +44,7 @@ unicode: "f547"
 >
   <path d="M21 12a9 9 0 1 0 -9.972 8.948c.32 .034 .644 .052 .972 .052" />
   <path d="M12 7v5l2 2" />
-  <path d="M18.42 15.61a2.1 2.1 0 0 1 2.97 2.97l-3.39 3.42h-3v-3l3.42 -3.39z" />
+  <path d="M18.42 15.61a2.1 2.1 0 0 1 2.97 2.97l-3.39 3.42h-3v-3l3.42 -3.39" />
 </svg>
 ''';
 }

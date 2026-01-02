@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ContainerOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [html, block, store, inside, container, off, creative, artistic, disabled, visual]
 category: Design
-tags: [element, html, block, store, inside]
 version: "1.65"
 unicode: "f107"
 -->

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class BoxModel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [css, cascading, style, section, element, square, website, container]
+tags: [css, cascading, style, section, square, website, container, box, model, creative]
 category: Design
 version: "1.39"
 unicode: "ee0c"
@@ -42,8 +42,8 @@ unicode: "ee0c"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M8 8h8v8h-8z" />
-  <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+  <path d="M8 8h8v8h-8l0 -8" />
+  <path d="M4 6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2l0 -12" />
   <path d="M16 16l3.3 3.3" />
   <path d="M16 8l3.3 -3.3" />
   <path d="M8 8l-3.3 -3.3" />

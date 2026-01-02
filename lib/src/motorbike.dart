@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Motorbike extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [engine, ride, trip, journey, road, street, vehicle, motorcycle]
+tags: [engine, ride, trip, journey, road, street, vehicle, motorcycle, motorbike, transport]
 category: Vehicles
 version: "1.39"
 unicode: "eeb6"
@@ -42,8 +42,8 @@ unicode: "eeb6"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-  <path d="M19 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M2 16a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M16 16a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
   <path d="M7.5 14h5l4 -4h-10.5m1.5 4l4 -4" />
   <path d="M13 6h2l1.5 3l2 4" />
 </svg>

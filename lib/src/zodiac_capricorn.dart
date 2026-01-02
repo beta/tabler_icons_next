@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class ZodiacCapricorn extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, horoscope, constellation, stars]
+tags: [sign, horoscope, constellation, stars, zodiac, capricorn, astrology, star]
 category: Zodiac
 version: "1.17"
 unicode: "ecaf"
@@ -44,7 +44,7 @@ unicode: "ecaf"
 >
   <path d="M4 4a3 3 0 0 1 3 3v9" />
   <path d="M7 7a3 3 0 0 1 6 0v11a3 3 0 0 1 -3 3" />
-  <path d="M16 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M13 17a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
 </svg>
 ''';
 }

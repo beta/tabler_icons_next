@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class Spray extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [paint, clean, hygiene, graffiti]
-unicode: "f50b"
+category: System
+tags: [paint, clean, hygiene, graffiti, spray]
 version: "1.101"
+unicode: "f50b"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +42,7 @@ version: "1.101"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 10m0 2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2z" />
+  <path d="M4 12a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2l0 -7" />
   <path d="M6 10v-4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v4" />
   <path d="M15 7h.01" />
   <path d="M18 9h.01" />

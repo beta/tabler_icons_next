@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class HomeDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [property, estate, bottom, south, house, home, down, main, decrease, architecture]
 category: Buildings
-tags: [property, estate, bottom, south, house]
-unicode: "f33b"
 version: "1.87"
+unicode: "f33b"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

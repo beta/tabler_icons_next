@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class FloatRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [position]
+tags: [position, float, right, typography, writing, font, character, word]
 category: Text
 version: "1.4"
 unicode: "ebb3"
@@ -42,7 +42,7 @@ unicode: "ebb3"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M14 5m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+  <path d="M14 6a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
   <path d="M4 7l6 0" />
   <path d="M4 11l6 0" />
   <path d="M4 15l16 0" />

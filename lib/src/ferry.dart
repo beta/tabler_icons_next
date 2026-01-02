@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class Ferry extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ferry, sea, ocean, engine, travel, lake]
+tags: [ferry, sea, ocean, engine, travel, lake, boat, ship, water, transport]
 category: Vehicles
 unicode: "10074"
 version: "3.20"
@@ -42,7 +42,7 @@ version: "3.20"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M2 18h15.293c1.02 0 1.972 -.503 2.536 -1.34l2.171 -3.66h-18.479z" />
+  <path d="M2 18h15.293c1.02 0 1.972 -.503 2.536 -1.34l2.171 -3.66h-18.479l-1.521 5" />
   <path d="M14 8l-1 -2" />
   <path d="M6.107 12.675l1.384 -4.675h8l2.675 4.598" />
 </svg>

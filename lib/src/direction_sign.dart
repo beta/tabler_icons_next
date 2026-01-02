@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,8 @@ class DirectionSign extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, navigation, forward, right]
+category: System
+tags: [arrow, navigation, forward, right, direction, sign, way, route, path, course]
 version: "1.70"
 unicode: "f1f7"
 -->
@@ -41,7 +42,7 @@ unicode: "f1f7"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3.32 12.774l7.906 7.905c.427 .428 1.12 .428 1.548 0l7.905 -7.905a1.095 1.095 0 0 0 0 -1.548l-7.905 -7.905a1.095 1.095 0 0 0 -1.548 0l-7.905 7.905a1.095 1.095 0 0 0 0 1.548z" />
+  <path d="M3.32 12.774l7.906 7.905c.427 .428 1.12 .428 1.548 0l7.905 -7.905a1.095 1.095 0 0 0 0 -1.548l-7.905 -7.905a1.095 1.095 0 0 0 -1.548 0l-7.905 7.905a1.095 1.095 0 0 0 0 1.548" />
   <path d="M8 12h7.5" />
   <path d="M12 8.5l3.5 3.5l-3.5 3.5" />
 </svg>

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,8 +26,8 @@ class ShirtSport extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [basketball, soccer, football, player, clothes, game, shirt, sport, store, purchase]
 category: E-commerce
-tags: [basketball, soccer, football, player, clothes, game]
 version: "1.76"
 unicode: "f26c"
 -->

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class QrcodeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+tags: [scan, data, qrcode, off, hardware, technology, disabled, inactive, electronic, gadget]
 category: Devices
-tags: [scan, data]
-unicode: "f41e"
 version: "1.94"
+unicode: "f41e"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -44,9 +44,9 @@ version: "1.94"
 >
   <path d="M8 4h1a1 1 0 0 1 1 1v1m-.297 3.711a1 1 0 0 1 -.703 .289h-4a1 1 0 0 1 -1 -1v-4c0 -.275 .11 -.524 .29 -.705" />
   <path d="M7 17v.01" />
-  <path d="M14 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+  <path d="M14 5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
   <path d="M7 7v.01" />
-  <path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+  <path d="M4 15a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1l0 -4" />
   <path d="M17 7v.01" />
   <path d="M20 14v.01" />
   <path d="M14 14v3" />

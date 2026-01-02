@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,7 +26,7 @@ class CircuitDiode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [diagram, electric, electronic, led]
+tags: [diagram, electric, electronic, led, circuit, diode, energy, voltage, power, current]
 category: Electrical
 version: "1.77"
 unicode: "f27a"
@@ -44,7 +44,7 @@ unicode: "f27a"
 >
   <path d="M22 12h-6" />
   <path d="M2 12h6" />
-  <path d="M8 7l8 5l-8 5z" />
+  <path d="M8 7l8 5l-8 5l0 -10" />
   <path d="M16 7v10" />
 </svg>
 ''';

@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,9 +26,10 @@ class Pentagram extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [evil, scary, satanism, halloween]
-unicode: "f586"
+category: Design
+tags: [evil, scary, satanism, halloween, pentagram]
 version: "1.108"
+unicode: "f586"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -41,8 +42,8 @@ version: "1.108"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M5.636 5.636a9 9 0 1 1 12.728 12.728a9 9 0 0 1 -12.728 -12.728z" />
-  <path d="M15.236 11l5.264 4h-6.5l-2 6l-2 -6h-6.5l5.276 -4l-2.056 -6.28l5.28 3.78l5.28 -3.78z" />
+  <path d="M5.636 5.636a9 9 0 1 1 12.728 12.728a9 9 0 0 1 -12.728 -12.728" />
+  <path d="M15.236 11l5.264 4h-6.5l-2 6l-2 -6h-6.5l5.276 -4l-2.056 -6.28l5.28 3.78l5.28 -3.78l-2.044 6.28" />
 </svg>
 ''';
 }

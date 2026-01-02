@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class AlertCircle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [warning, danger, caution, risk]
+tags: [warning, danger, caution, risk, alert, circle, control, operation, round, circular]
+category: System
 version: "1.0"
 unicode: "ea05"
-category: System
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

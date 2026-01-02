@@ -1,4 +1,4 @@
-// Copyright (c) 2024 Beta Kuang <beta.kuang@gmail.com>
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
@@ -26,10 +26,10 @@ class BrandFlutter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tools, programmer, creation, aplication]
+tags: [tools, programmer, creation, aplication, brand, flutter, logo, company, trademark, identity]
 category: Brand
-unicode: "f395"
 version: "1.92"
+unicode: "f395"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,8 +42,8 @@ version: "1.92"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M7 14l-3 -3l8 -8h6z" />
-  <path d="M14 21l-5 -5l5 -5h5l-5 5l5 5z" />
+  <path d="M7 14l-3 -3l8 -8h6l-11 11" />
+  <path d="M14 21l-5 -5l5 -5h5l-5 5l5 5l-5 0" />
 </svg>
 ''';
 }
