@@ -28,7 +28,7 @@ class Number41Small extends Icon {
   static const String _svg = '''<!--
 tags: [tiny, fortyone, digit41, numeric, miniature, icon41, num41, small41, fourone, miniscule]
 category: Numbers
-unicode: "fff9"
+unicode: "10216"
 version: "3.14"
 -->
 <svg

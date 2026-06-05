@@ -26,6 +26,8 @@ class CrownFilled extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
+version: "3.37"
+unicode: "101c4"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"

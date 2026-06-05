@@ -1,0 +1,50 @@
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
+import 'internal/icon.dart';
+
+class EarphoneBluetooth extends Icon {
+  const EarphoneBluetooth({
+    super.key,
+    super.strokeWidth,
+    super.width,
+    super.height,
+    super.fit,
+    super.alignment,
+    super.matchTextDirection,
+    super.allowDrawingOutsideViewBox,
+    super.placeholderBuilder,
+    super.colorFilter,
+    super.color,
+    super.colorBlendMode,
+    super.semanticsLabel,
+    super.excludeFromSemantics,
+    super.clipBehavior,
+    super.theme,
+  }) : super(_svg);
+
+  static const String _svg = '''<!--
+tags: [earphone, earbud, bluetooth, wireless, audio, headset, hardware, technology, gadget, equipment]
+category: Devices
+unicode: "1023a"
+version: "3.42"
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="<STROKE_WIDTH>"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M6.57 12.77a6.9 6.9 0 0 1 -.57 -2.77a7 7 0 0 1 14 0" />
+  <path d="M9 16l-1 1" />
+  <path d="M10.83 19.83l6.36 -6.37a1 1 0 0 0 0 -1.41l-4.19 -4.24a1 1 0 0 0 -1.41 0l-6.42 6.36a4 4 0 0 0 0 5.66a4 4 0 0 0 5.66 0" />
+</svg>
+''';
+}

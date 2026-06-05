@@ -28,7 +28,7 @@ class Number38Small extends Icon {
   static const String _svg = '''<!--
 tags: [tiny, thirtyeight, digit38, numeric, miniature, icon38, num38, small38, threeeight, miniscule]
 category: Numbers
-unicode: "fffc"
+unicode: "10213"
 version: "3.14"
 -->
 <svg
