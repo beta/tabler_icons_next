@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class FlipVertical extends Icon {
-  const FlipVertical({
+class UnderlineOff extends Icon {
+  const UnderlineOff({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,10 +26,10 @@ class FlipVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mirror, rotate, flip, vertical, creative, artistic, visual, aesthetic, style]
-category: Design
-version: "1.0"
-unicode: "eaa8"
+tags: [underscore, off, emphasis, horizontal, typography, underline, writing, font, character, word]
+category: Text
+unicode: "10269"
+version: "3.45"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +42,10 @@ unicode: "eaa8"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 12l18 0" />
-  <path d="M7 16l10 0l-10 5l0 -5" />
-  <path d="M7 8l10 0l-10 -5l0 5" />
+  <path d="M7 7.4v2.6c0 2.8 2.2 5 5 5c.9 0 1.8 -.2 2.4 -.6" />
+  <path d="M5 19h14" />
+  <path d="M3 2.7l18 18" />
+  <path d="M16.4 12.4c.4 -.7 .6 -1.5 .6 -2.4v-5" />
 </svg>
 ''';
 }

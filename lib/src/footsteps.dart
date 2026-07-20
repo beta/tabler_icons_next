@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class FlipVertical extends Icon {
-  const FlipVertical({
+class Footsteps extends Icon {
+  const Footsteps({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,10 +26,10 @@ class FlipVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mirror, rotate, flip, vertical, creative, artistic, visual, aesthetic, style]
-category: Design
-version: "1.0"
-unicode: "eaa8"
+tags: [steps, footsteps, footprint, walking, fitness, activity, wellness, pedometer, path, exercise]
+category: Health
+unicode: "10265"
+version: "3.44"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +42,10 @@ unicode: "eaa8"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 12l18 0" />
-  <path d="M7 16l10 0l-10 5l0 -5" />
-  <path d="M7 8l10 0l-10 -5l0 5" />
+  <path d="M4 16.5a2.5 2.5 0 0 0 5 0a1.5 1.5 0 0 0 -1.5 -1.5h-2a1.5 1.5 0 0 0 -1.5 1.5" />
+  <path d="M15 18.5a2.5 2.5 0 0 0 5 0a1.5 1.5 0 0 0 -1.5 -1.5h-2a1.5 1.5 0 0 0 -1.5 1.5" />
+  <path d="M8.52 12h-4.04c-.348 0 -.678 -.179 -.823 -.496c-1.326 -2.904 -.774 -8.504 2.843 -8.504s4.17 5.6 2.843 8.504c-.145 .317 -.475 .496 -.824 .496" />
+  <path d="M19.52 14h-4.04c-.348 0 -.678 -.179 -.823 -.496c-1.326 -2.904 -.774 -8.504 2.843 -8.504s4.17 5.6 2.843 8.504c-.145 .317 -.475 .496 -.824 .496" />
 </svg>
 ''';
 }

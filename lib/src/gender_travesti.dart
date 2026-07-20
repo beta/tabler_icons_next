@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class FlipVertical extends Icon {
-  const FlipVertical({
+class GenderTravesti extends Icon {
+  const GenderTravesti({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,10 +26,10 @@ class FlipVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mirror, rotate, flip, vertical, creative, artistic, visual, aesthetic, style]
-category: Design
-version: "1.0"
-unicode: "eaa8"
+tags: [identity, birth, male, female, heterosexual, homosexual, gender, travesti, person, human]
+category: Gender
+version: "1.64"
+unicode: "f0f2"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +42,9 @@ unicode: "eaa8"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 12l18 0" />
-  <path d="M7 16l10 0l-10 5l0 -5" />
-  <path d="M7 8l10 0l-10 -5l0 5" />
+  <path d="M15 20a5 5 0 1 1 0 -10a5 5 0 0 1 0 10" />
+  <path d="M6 6l5.4 5.4" />
+  <path d="M4 8l4 -4" />
 </svg>
 ''';
 }

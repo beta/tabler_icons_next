@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class FlipVertical extends Icon {
-  const FlipVertical({
+class MoodConfusedFilled extends Icon {
+  const MoodConfusedFilled({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,25 +26,17 @@ class FlipVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mirror, rotate, flip, vertical, creative, artistic, visual, aesthetic, style]
-category: Design
-version: "1.0"
-unicode: "eaa8"
+version: "2.9"
+unicode: "f7f2"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="24"
   height="24"
   viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="<STROKE_WIDTH>"
-  stroke-linecap="round"
-  stroke-linejoin="round"
+  fill="currentColor"
 >
-  <path d="M3 12l18 0" />
-  <path d="M7 16l10 0l-10 5l0 -5" />
-  <path d="M7 8l10 0l-10 -5l0 5" />
+  <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.43 10.162a11 11 0 0 0 -6.6 1.65a1 1 0 0 0 1.06 1.696a9 9 0 0 1 5.4 -1.35a1 1 0 0 0 .14 -1.996zm-6.56 -4.502l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm6 0l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007z" />
 </svg>
 ''';
 }

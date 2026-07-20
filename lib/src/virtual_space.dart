@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class FlipVertical extends Icon {
-  const FlipVertical({
+class VirtualSpace extends Icon {
+  const VirtualSpace({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,10 +26,10 @@ class FlipVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mirror, rotate, flip, vertical, creative, artistic, visual, aesthetic, style]
-category: Design
-version: "1.0"
-unicode: "eaa8"
+tags: [virtual, space, spatial, 3d, environment, room, metaverse, augmented, reality, dimension, immersive]
+category: System
+unicode: "10268"
+version: "3.45"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +42,10 @@ unicode: "eaa8"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 12l18 0" />
-  <path d="M7 16l10 0l-10 5l0 -5" />
-  <path d="M7 8l10 0l-10 -5l0 5" />
+  <path d="M16 14.808a25 25 0 0 0 -4 -.312c-1.439 0 -2.796 .113 -4 .312" />
+  <path d="M21 17.439c0 1.148 -2.034 2.142 -4.997 2.625l-.003 -10.439c2.965 -.482 5 -1.477 5 -2.625v-.064c0 -1.622 -4.03 -2.936 -9 -2.936s-9 1.314 -9 2.936c0 1.148 2.035 2.142 5 2.624l-.003 10.44c-2.963 -.483 -4.997 -1.477 -4.997 -2.625" />
+  <path d="M3 6.936v10.439" />
+  <path d="M21 6.936v10.439" />
 </svg>
 ''';
 }

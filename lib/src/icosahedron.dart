@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class FlipVertical extends Icon {
-  const FlipVertical({
+class Icosahedron extends Icon {
+  const Icosahedron({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,10 +26,10 @@ class FlipVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mirror, rotate, flip, vertical, creative, artistic, visual, aesthetic, style]
 category: Design
-version: "1.0"
-unicode: "eaa8"
+tags: [geometry, polyhedron, twenty, faces, shapes, 3d, solid, structure, form, multisided]
+unicode: "fec6"
+version: "3.3"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +42,14 @@ unicode: "eaa8"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 12l18 0" />
-  <path d="M7 16l10 0l-10 5l0 -5" />
-  <path d="M7 8l10 0l-10 -5l0 5" />
+  <path d="M21 8.007v7.986a2 2 0 0 1 -1.006 1.735l-7 4.007a2 2 0 0 1 -1.988 0l-7 -4.007a2 2 0 0 1 -1.006 -1.735v-7.986a2 2 0 0 1 1.006 -1.735l7 -4.007a2 2 0 0 1 1.988 0l7 4.007a2 2 0 0 1 1.006 1.735" />
+  <path d="M3.29 6.97l4.21 2.03" />
+  <path d="M20.71 6.97l-4.21 2.03" />
+  <path d="M20.7 17h-17.4" />
+  <path d="M11.76 2.03l-4.26 6.97l-4.3 7.84" />
+  <path d="M12.24 2.03q 2.797 4.44 4.26 6.97t 4.3 7.84" />
+  <path d="M12 17l-4.5 -8h9l-4.5 8" />
+  <path d="M12 17v5" />
 </svg>
 ''';
 }

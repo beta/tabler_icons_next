@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class FlipVertical extends Icon {
-  const FlipVertical({
+class TabClose extends Icon {
+  const TabClose({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,10 +26,10 @@ class FlipVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mirror, rotate, flip, vertical, creative, artistic, visual, aesthetic, style]
-category: Design
-version: "1.0"
-unicode: "eaa8"
+tags: [browser, tab, close, panel, window, hide, collapse, minimize, interface, ui, dock]
+category: System
+unicode: "10270"
+version: "3.45"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +42,10 @@ unicode: "eaa8"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 12l18 0" />
-  <path d="M7 16l10 0l-10 5l0 -5" />
-  <path d="M7 8l10 0l-10 -5l0 5" />
+  <path d="M3 21v-1a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v1" />
+  <path d="M6 15a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2" />
+  <path d="M15 6l-3 3l-3 -3" />
+  <path d="M12 9v-6" />
 </svg>
 ''';
 }

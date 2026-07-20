@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class FlipVertical extends Icon {
-  const FlipVertical({
+class Physiotherapist extends Icon {
+  const Physiotherapist({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,10 +26,10 @@ class FlipVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mirror, rotate, flip, vertical, creative, artistic, visual, aesthetic, style]
-category: Design
-version: "1.0"
-unicode: "eaa8"
+tags: [physiotherapy, spa, therapy, treatment, pain, exercise, physotherapist, medical, wellness, healthcare]
+category: Health
+version: "1.39"
+unicode: "eebe"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +42,12 @@ unicode: "eaa8"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 12l18 0" />
-  <path d="M7 16l10 0l-10 5l0 -5" />
-  <path d="M7 8l10 0l-10 -5l0 5" />
+  <path d="M9 15l-1 -3l4 -2l4 1h3.5" />
+  <path d="M3 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M11 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+  <path d="M12 17v-7" />
+  <path d="M8 20h7l1 -4l4 -2" />
+  <path d="M18 20h3" />
 </svg>
 ''';
 }

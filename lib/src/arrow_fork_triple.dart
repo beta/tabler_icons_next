@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class FlipVertical extends Icon {
-  const FlipVertical({
+class ArrowForkTriple extends Icon {
+  const ArrowForkTriple({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,10 +26,10 @@ class FlipVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mirror, rotate, flip, vertical, creative, artistic, visual, aesthetic, style]
-category: Design
-version: "1.0"
-unicode: "eaa8"
+tags: [direction, arrow, fork, pointer, navigation, flow, navigate, split, branch, triple, three, diverge, path]
+category: Arrows
+unicode: "10276"
+version: "3.45"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +42,12 @@ unicode: "eaa8"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 12l18 0" />
-  <path d="M7 16l10 0l-10 5l0 -5" />
-  <path d="M7 8l10 0l-10 -5l0 5" />
+  <path d="M12 3v18" />
+  <path d="M16 7l-4 -4l-4 4" />
+  <path d="M16 11h5v5" />
+  <path d="M8 11h-5v5" />
+  <path d="M3 11l8.293 8.293c.453 .453 .707 1.067 .707 1.707" />
+  <path d="M21 11l-8.293 8.293a2.4 2.4 0 0 0 -.707 1.707" />
 </svg>
 ''';
 }

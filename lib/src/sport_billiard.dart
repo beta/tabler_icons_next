@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class FlipVertical extends Icon {
-  const FlipVertical({
+class SportBilliard extends Icon {
+  const SportBilliard({
     super.key,
     super.strokeWidth,
     super.width,
@@ -26,10 +26,10 @@ class FlipVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mirror, rotate, flip, vertical, creative, artistic, visual, aesthetic, style]
-category: Design
-version: "1.0"
-unicode: "eaa8"
+tags: [pool, game, ball, pub, entertainment, sport, billiard, athletic, fitness, exercise]
+category: Sport
+version: "1.39"
+unicode: "eee4"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +42,9 @@ unicode: "eaa8"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M3 12l18 0" />
-  <path d="M7 16l10 0l-10 5l0 -5" />
-  <path d="M7 8l10 0l-10 -5l0 5" />
+  <path d="M10 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M10 14a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M4 12a8 8 0 1 0 16 0a8 8 0 1 0 -16 0" />
 </svg>
 ''';
 }
