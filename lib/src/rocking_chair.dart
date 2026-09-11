@@ -1,0 +1,51 @@
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
+import 'internal/icon.dart';
+
+class RockingChair extends Icon {
+  const RockingChair({
+    super.key,
+    super.strokeWidth,
+    super.width,
+    super.height,
+    super.fit,
+    super.alignment,
+    super.matchTextDirection,
+    super.allowDrawingOutsideViewBox,
+    super.placeholderBuilder,
+    super.colorFilter,
+    super.color,
+    super.colorBlendMode,
+    super.semanticsLabel,
+    super.excludeFromSemantics,
+    super.clipBehavior,
+    super.theme,
+  }) : super(_svg);
+
+  static const String _svg = '''<!--
+tags: [chair, rocking, seat, furniture, home, relax, comfort, nursery, sitting, interior]
+category: Buildings
+unicode: "1028a"
+version: "3.46"
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="<STROKE_WIDTH>"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 3l1.478 6.65a3 3 0 0 0 2.929 2.35h9.593" />
+  <path d="M10 12l-3.5 7.5" />
+  <path d="M14 12l3.5 7.5" />
+  <path d="M3 16c1.966 2.992 4.75 5 9 5s7.035 -2.002 9 -5" />
+</svg>
+''';
+}

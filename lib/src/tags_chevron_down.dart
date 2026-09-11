@@ -1,0 +1,49 @@
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
+import 'internal/icon.dart';
+
+class TagsChevronDown extends Icon {
+  const TagsChevronDown({
+    super.key,
+    super.strokeWidth,
+    super.width,
+    super.height,
+    super.fit,
+    super.alignment,
+    super.matchTextDirection,
+    super.allowDrawingOutsideViewBox,
+    super.placeholderBuilder,
+    super.colorFilter,
+    super.color,
+    super.colorBlendMode,
+    super.semanticsLabel,
+    super.excludeFromSemantics,
+    super.clipBehavior,
+    super.theme,
+  }) : super(_svg);
+
+  static const String _svg = '''<!--
+tags: [label, price, tags, chevron, down, shopping, store, purchase, retail, business]
+category: E-commerce
+unicode: "10286"
+version: "3.46"
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="<STROKE_WIDTH>"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 3v13.446c0 .345 .155 .665 .411 .848l6.125 4.375a.78 .78 0 0 0 .928 0l6.125 -4.375a1.04 1.04 0 0 0 .411 -.848v-13.446l-7 5l-7 -5" />
+  <path d="M5 10l6.536 4.669a.78 .78 0 0 0 .928 0l6.536 -4.669" />
+</svg>
+''';
+}

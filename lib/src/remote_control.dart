@@ -1,0 +1,50 @@
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
+import 'internal/icon.dart';
+
+class RemoteControl extends Icon {
+  const RemoteControl({
+    super.key,
+    super.strokeWidth,
+    super.width,
+    super.height,
+    super.fit,
+    super.alignment,
+    super.matchTextDirection,
+    super.allowDrawingOutsideViewBox,
+    super.placeholderBuilder,
+    super.colorFilter,
+    super.color,
+    super.colorBlendMode,
+    super.semanticsLabel,
+    super.excludeFromSemantics,
+    super.clipBehavior,
+    super.theme,
+  }) : super(_svg);
+
+  static const String _svg = '''<!--
+tags: [control, remote, tv, television, device, signal, wireless, hardware, technology, gadget]
+category: Devices
+unicode: "1028b"
+version: "3.46"
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="<STROKE_WIDTH>"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M9 14a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2v-5" />
+  <path d="M20 9c-.914 -3.455 -4.15 -6 -8 -6c-3.853 0 -7.089 2.542 -8 6" />
+  <path d="M15 9c-.69 -1.2 -1.517 -2 -3 -2s-2.31 .801 -3 2" />
+</svg>
+''';
+}
