@@ -29,7 +29,7 @@ class AlignRight2 extends Icon {
 tags: [text, alignment, position, align, right, typography, writing, font, character, word]
 category: Text
 version: "3.6"
-unicode: "feff"
+unicode: "1028e"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
