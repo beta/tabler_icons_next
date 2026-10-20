@@ -26,7 +26,7 @@ class ShieldHalf extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [safe, security, secure, safety, protect, protection, shield, half, control, operation]
+tags: [security, protection, shield, half, partial, safety, guard, secure]
 category: System
 version: "1.88"
 unicode: "f358"

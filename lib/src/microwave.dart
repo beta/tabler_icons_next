@@ -26,7 +26,7 @@ class Microwave extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [oven, kitchen, cooking, food, cook, microwave, meal, cuisine, eating, nutrition]
+tags: [oven, kitchen, appliance, cooking, heat, reheat, food, microwave]
 category: Food
 version: "1.74"
 unicode: "f248"

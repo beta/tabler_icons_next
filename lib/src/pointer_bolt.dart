@@ -26,7 +26,7 @@ class PointerBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [flash, energy, electric, shock, power, lightning, alert, impact, quick, pointer]
+tags: [cursor, mouse-pointer, mouse, lightning, flash, power, energy, fast, arrow, click, pointer]
 category: System
 version: "2.10"
 unicode: "f999"

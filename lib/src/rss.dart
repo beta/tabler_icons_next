@@ -27,7 +27,7 @@ class Rss extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [feed, subscribe, rss, design]
+tags: [feed, rss-feed, subscribe, news, blog, syndication, podcast, rss]
 version: "1.0"
 unicode: "eb19"
 -->

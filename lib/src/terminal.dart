@@ -27,7 +27,7 @@ class Terminal extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [console, command, git, command line, command prompt, terminal]
+tags: [console, command-line, cli, shell, prompt, bash, cmd, command, code, terminal]
 version: "1.6"
 unicode: "ebdc"
 -->

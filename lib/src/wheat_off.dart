@@ -27,7 +27,7 @@ class WheatOff extends Icon {
 
   static const String _svg = '''<!--
 category: Food
-tags: [food, nature, greenary, grow, soil, harvest, plant, leaf, tree, flower]
+tags: [gluten-free, wheat, grain, allergen, disabled, wheat-free, allergy, food]
 unicode: "100a9"
 version: "3.23"
 -->

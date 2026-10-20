@@ -26,7 +26,7 @@ class Music extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sound, mp3, album, speakers, melody, music, content, entertainment, multimedia, broadcast]
+tags: [song, audio, sound, note, melody, track, mp3, playlist, player, tune, media, spotify, music]
 category: Media
 version: "1.0"
 unicode: "eafc"

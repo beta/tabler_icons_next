@@ -26,7 +26,7 @@ class BrandGraphql extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, communication, server, brand, graphql, logo, company, trademark, identity, corporate]
+tags: [graphql, api, query, language, schema, meta, logo, brand]
 category: Brand
 version: "1.86"
 unicode: "f32c"

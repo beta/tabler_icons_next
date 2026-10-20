@@ -27,7 +27,7 @@ class Cube3dSphere extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [printing, vector, shape, cube, sphere, 3d]
+tags: [3d, 3d-printing, sphere, cube, model, object, vector, rendering, ar]
 version: "1.20"
 unicode: "ecd7"
 -->

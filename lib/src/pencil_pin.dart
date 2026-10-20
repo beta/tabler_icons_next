@@ -27,7 +27,7 @@ class PencilPin extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [edit, attach, stick, mark, highlight, bookmark, tack, flag, fix, secure]
+tags: [edit, write, draw, modify, pen, compose, pinned, location, map-pin, marker, update, change]
 version: "2.28"
 unicode: "fc08"
 -->

@@ -26,7 +26,7 @@ class Database extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [storage, data, memory, database, repository, records, information, table, content, record]
+tags: [database, db, data, storage, sql, server, records, table, backend, disk]
 category: Database
 version: "1.0"
 unicode: "ea88"

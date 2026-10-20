@@ -27,7 +27,7 @@ class HttpPutOff extends Icon {
 
   static const String _svg = '''<!--
 category: Computers
-tags: [place, insert, upload, network, disable, halt, down, submit, transfer, store]
+tags: [put, update, http, api, request, method, rest, endpoint, web, disabled, off-state, unavailable, none]
 unicode: "100e0"
 version: "3.26"
 -->

@@ -26,7 +26,7 @@ class Logout extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exit, shut, unplug, close, logout, control, operation, function, interface, management]
+tags: [logout, log-out, sign-out, signout, exit, leave, arrow-right-from-bracket, account]
 category: System
 version: "1.4"
 unicode: "eba8"

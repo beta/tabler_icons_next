@@ -26,7 +26,7 @@ class CarGarage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [auto-shop, vehicle-repair, automobile-maintenance, parking-garage, car-storage, automotive, garage-service, car-park, vehicle-maintenance, car-repair]
+tags: [garage, car, parking, car-park, carport, auto-repair, car-service, vehicle]
 category: Buildings
 version: "2.34"
 unicode: "fc77"

@@ -27,7 +27,7 @@ class CashEdit extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [cash, edit, modify, change, update, revise, adjust, money, currency, payment]
+tags: [cash, money, payment, currency, finance, dollar, banknote, edit, pencil, modify, update, bill]
 version: "3.31"
 unicode: "10143"
 -->

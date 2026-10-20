@@ -27,7 +27,7 @@ class MailCancel extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [abort, stop, message, close, terminate, undo, revert, void, discontinue, invalidate]
+tags: [mail, email, envelope, message, inbox, letter, e-mail, cancel, cancelled, blocked, forbidden, denied]
 version: "2.10"
 unicode: "f938"
 -->

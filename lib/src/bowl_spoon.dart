@@ -27,7 +27,7 @@ class BowlSpoon extends Icon {
 
   static const String _svg = '''<!--
 category: Food
-tags: [soup, breakfast, cereal, cutlery, utensils, dine, culinary, cookware, eat, dish]
+tags: [soup, cereal, food, meal, breakfast, soup-bowl, porridge, cereal-bowl]
 version: "2.46"
 unicode: "fd91"
 -->

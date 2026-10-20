@@ -27,7 +27,7 @@ class AiGateway extends Icon {
 
   static const String _svg = '''<!--
 category: Development
-tags: [artificial, intelligence, gateway, api, entry, access, bridge, portal, connection, integration, interface, network]
+tags: [artificial-intelligence, api, proxy, llm, router, integration, access, endpoint, connection, gateway]
 unicode: "101f7"
 version: "3.39"
 -->

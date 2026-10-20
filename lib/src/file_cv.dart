@@ -26,7 +26,7 @@ class FileCv extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [resume, career, profile, document, job, application, work, history, experience, portfolio]
+tags: [cv, resume, curriculum-vitae, job, career, application, profile, hiring, recruitment, document]
 category: Document
 version: "2.16"
 unicode: "fa5a"

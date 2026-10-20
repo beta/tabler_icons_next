@@ -27,7 +27,7 @@ class Umbrella2 extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [rain, weather, storm, wet, autumn, fall, umbrella, 2]
+tags: [umbrella, rain, weather, protection, insurance, parasol, shelter, rainy]
 version: "3.7"
 unicode: "ff0e"
 -->

@@ -26,7 +26,7 @@ class FileSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [search, data, paper, document, format, file, find, look, seek, content]
+tags: [search, find, lookup, magnifier, document, file, browse, explore, query]
 category: Document
 version: "1.31"
 unicode: "ed5d"

@@ -26,7 +26,7 @@ class ZoomQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ask, help, support, cue, "?", zoom, question, location, navigation, magnify]
+tags: [zoom, magnifier, magnifying-glass, search, help, faq, ask, support, unknown, question]
 category: Map
 version: "1.37"
 unicode: "edeb"

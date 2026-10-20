@@ -26,7 +26,7 @@ class BrandGravatar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [avatar, face, blog, comment, represent, online, technology, brand, gravatar, logo]
+tags: [gravatar, avatar, profile, picture, wordpress, automattic, user, logo, brand]
 category: Brand
 version: "1.36"
 unicode: "edcc"

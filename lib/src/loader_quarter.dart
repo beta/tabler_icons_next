@@ -26,7 +26,7 @@ class LoaderQuarter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [process, download, upload, loader, loading, quarter, control, operation, function, interface]
+tags: [loading, loader, spinner, progress, wait, busy, pending, buffering, quarter, processing, circular-progress]
 category: System
 version: "1.17"
 unicode: "eca2"

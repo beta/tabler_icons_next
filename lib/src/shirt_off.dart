@@ -26,7 +26,7 @@ class ShirtOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gear, outfit, mocker, shirt, off, store, purchase, disabled, inactive, shopping]
+tags: [t-shirt, tshirt, clothes, clothing, apparel, fashion, shop, disabled, unavailable, inactive, hidden, shirt, off]
 category: E-commerce
 version: "1.66"
 unicode: "f1a2"

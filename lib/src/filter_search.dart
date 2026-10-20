@@ -27,7 +27,7 @@ class FilterSearch extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [find, locate, explore, discover, inspect, seek, detect, look, scan, hunt]
+tags: [funnel, filtering, sort, find, magnifier, magnifying-glass, lookup, refine, narrow, zoom, query]
 version: "2.28"
 unicode: "fb87"
 -->

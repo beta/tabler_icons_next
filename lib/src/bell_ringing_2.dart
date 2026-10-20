@@ -26,7 +26,7 @@ class BellRinging2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alarm, sound, notification, bell, ringing, control, operation, function, interface, management]
+tags: [notification, alert, reminder, notify, alarm, ring, active, new-notification, bell, ringing]
 category: System
 version: "1.37"
 unicode: "ede4"

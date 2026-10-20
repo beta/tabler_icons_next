@@ -26,7 +26,7 @@ class PlayerTrackPrev extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, forward, play, song, playlist, player, track, prev, content, entertainment]
+tags: [previous, prev, previous-track, rewind, back, media, music, audio, controls, player, track]
 category: Media
 version: "1.28"
 unicode: "ed4c"

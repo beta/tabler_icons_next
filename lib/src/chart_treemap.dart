@@ -26,7 +26,7 @@ class ChartTreemap extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [diagram, analytics, buisness, data, chart, treemap, statistics, visualization, metrics, report]
+tags: [chart, graph, statistics, analytics, data, report, diagram, treemap, hierarchy, blocks, visualization]
 category: Charts
 version: "1.91"
 unicode: "f381"

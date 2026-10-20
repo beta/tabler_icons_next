@@ -26,7 +26,7 @@ class CodeMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [remove, delete, insert, braces, code, minus, programming, script, software, development]
+tags: [minus, remove, collapse, brackets, code, programming, developer, coding]
 category: Text
 version: "1.39"
 unicode: "ee42"

@@ -26,7 +26,7 @@ class VectorSpline extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [math, line, curve, geometry, vector, spline, creative, artistic, visual, aesthetic]
+tags: [spline, curve, vector, path, line, graph, design, vector-graphics]
 category: Design
 version: "1.106"
 unicode: "f565"

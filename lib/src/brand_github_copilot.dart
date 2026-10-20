@@ -26,7 +26,7 @@ class BrandGithubCopilot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ai, artificial, intelligence, autocomplete, coding, brand, github, copilot, logo, company]
+tags: [github-copilot, copilot, ai, assistant, autocomplete, coding, github, logo, brand]
 category: Brand
 version: "1.97"
 unicode: "f4a8"

@@ -26,7 +26,7 @@ class FileBarcode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [document, code, qr, ticket, scan, file, barcode, data, content, record]
+tags: [barcode, qr-code, ticket, scan, label, document, file, product, inventory]
 category: Document
 version: "1.56"
 unicode: "f035"

@@ -26,7 +26,7 @@ class ExerciseBall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ball, fitness, pilates, yoga, stability, workout, gym, exercise, balance, core]
+tags: [exercise-ball, yoga-ball, swiss-ball, pilates, fitness, gym, balance, stability, workout, exercise, ball]
 category: Sport
 unicode: "1024c"
 version: "3.43"

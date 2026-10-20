@@ -26,7 +26,7 @@ class Error404 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [web, page, not, found, message, error, 404, computing, machine, processor]
+tags: [404, error, not-found, page-not-found, missing, broken-link, http, web, status]
 category: Computers
 version: "1.55"
 unicode: "f027"

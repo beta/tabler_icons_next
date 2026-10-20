@@ -26,7 +26,7 @@ class Infinity2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [infinity, endless, eternity, loop, mathematics, math, symbol, continuum, forever, equation]
+tags: [infinity, endless, forever, unlimited, loop, eternity, math, symbol]
 category: Math
 unicode: "10237"
 version: "3.42"

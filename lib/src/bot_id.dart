@@ -27,7 +27,7 @@ class BotId extends Icon {
 
   static const String _svg = '''<!--
 category: Development
-tags: [robot, identifier, automation, machine, authentication, identity, digital, user, account, recognition, verify, credentials]
+tags: [robot, identity, authentication, verification, credentials, account, bot-verification, identification]
 unicode: "101f6"
 version: "3.39"
 -->

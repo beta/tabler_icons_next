@@ -26,7 +26,7 @@ class TagMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [label, price, tag, minus, store, purchase, subtract, remove, less, decrease]
+tags: [label, price-tag, remove, subtract, delete, untag, price, sale, shopping, tag, minus]
 category: E-commerce
 version: "1.0"
 unicode: "eb34"

@@ -26,7 +26,7 @@ class Stopwatch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [timer, time, watch, clock, run, race, stopwatch, control, operation, function]
+tags: [timer, time, chronometer, stop-watch, clock, race, lap, countdown, stopwatch]
 category: System
 version: "3.12"
 unicode: "ff9b"

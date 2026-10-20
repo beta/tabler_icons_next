@@ -27,7 +27,7 @@ class HeartDown extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [lower, drop, decrease, reduce, decline, fall, plunge, abate, descend, sink]
+tags: [heart, love, like, favorite, favourite, arrow-down, download, decrease, lower]
 version: "2.28"
 unicode: "fba5"
 -->

@@ -26,7 +26,7 @@ class ArrowRoundaboutRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, west, traffic, circle, arrow, roundabout, right, pointer, navigation, flow]
+tags: [rotary, traffic-circle, road, directions, navigation, gps, u-turn, pointer, arrow, roundabout, right]
 category: Arrows
 version: "1.73"
 unicode: "f22c"

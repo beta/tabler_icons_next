@@ -26,7 +26,7 @@ class BrandCodesandbox extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [online, code, editor, prototyping, prototype, web, app, programming, integrated, development, environment, technology]
+tags: [codesandbox, code, editor, sandbox, ide, online, playground, prototype, logo, brand]
 category: Brand
 version: "1.32"
 unicode: "ed6a"

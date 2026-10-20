@@ -26,7 +26,7 @@ class CalendarDue extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [date, deadline, schedule, calendar, due, control, operation, function, interface, management]
+tags: [calendar, date, schedule, event, day, planner, agenda, due, deadline, due-date, today, appointment]
 category: System
 version: "1.116"
 unicode: "f621"

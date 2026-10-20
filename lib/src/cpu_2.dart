@@ -26,7 +26,7 @@ class Cpu2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [processor, computer, chip, hardware, technology, electronic, cpu, gadget, equipment, 2]
+tags: [cpu, processor, chip, microchip, hardware, computer, semiconductor, core, integrated-circuit]
 category: Devices
 version: "1.59"
 unicode: "f075"

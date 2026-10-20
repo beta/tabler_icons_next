@@ -27,7 +27,7 @@ class BellHeart extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [love, affection, passion, adoration, care, fondness, devotion, attachment, tenderness, warmth]
+tags: [notification, alert, reminder, notify, alarm, favorite, love, like, wishlist]
 version: "2.10"
 unicode: "f81a"
 -->

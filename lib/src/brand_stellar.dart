@@ -26,7 +26,7 @@ class BrandStellar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [stellar, xlm, lumens, blockchain, cryptocurrency, crypto, logo, brand, company, trademark]
+tags: [stellar, xlm, lumens, blockchain, cryptocurrency, crypto, logo, brand]
 category: Brand
 unicode: "10243"
 version: "3.42"

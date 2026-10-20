@@ -27,7 +27,7 @@ class DeviceMobilePlus extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [add, increase, more, expand, grow, insert, boost, multiply, enlarge, extend]
+tags: [phone, smartphone, iphone, add, new, create, insert, android, cellphone, device, more]
 version: "2.10"
 unicode: "f8b9"
 -->

@@ -27,7 +27,7 @@ class MapPinPause extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [halt, stop, break, interrupt, pause, wait, hold, delay, stall, freeze]
+tags: [pin, marker, location, place, gps, map, point, poi, pause, paused, wait, hold, suspend]
 version: "2.10"
 unicode: "f954"
 -->

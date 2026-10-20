@@ -26,7 +26,7 @@ class Filter2Minus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, minus, sort, organize, arrange, select, refine, sieve, screen, subtract]
+tags: [filter, filtering, sort, remove, subtract, delete, reduce, refine, list, options, less, minus]
 category: System
 version: "3.32"
 unicode: "10155"

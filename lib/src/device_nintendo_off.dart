@@ -26,7 +26,7 @@ class DeviceNintendoOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gamepad, technology, game, console, controller, device, nintendo, off, hardware, disabled]
+tags: [nintendo-switch, switch, console, game-console, gaming, handheld, disabled, inactive, unavailable, slash, turn-off, controller, gamepad, device, nintendo, off]
 category: Devices
 version: "1.65"
 unicode: "f111"

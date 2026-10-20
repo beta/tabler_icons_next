@@ -27,7 +27,7 @@ class FingerprintScan extends Icon {
 
   static const String _svg = '''<!--
 category: Health
-tags: [biometric, security, identity, authentication, access, verify, unique, pattern, touch, print]
+tags: [fingerprint-scan, touch-id, biometric, scanner, authentication, identity, security, unlock, verify]
 version: "2.37"
 unicode: "fcb5"
 -->

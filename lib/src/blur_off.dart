@@ -26,7 +26,7 @@ class BlurOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [edit, photo, photography, tool, blur, off, creative, artistic, disabled, inactive]
+tags: [gaussian, soft, focus, filter, effect, photo, disabled, blur, off]
 category: Design
 version: "1.94"
 unicode: "f3c6"

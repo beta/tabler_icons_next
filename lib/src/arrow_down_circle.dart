@@ -26,7 +26,7 @@ class ArrowDownCircle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [proceed, swipe, below, bottom, arrow, down, circle, direction, pointer, decrease]
+tags: [direction, south, downward, bottom, round, circular, pointer, navigation, arrow, down, circle]
 category: Arrows
 version: "1.0"
 unicode: "ea11"

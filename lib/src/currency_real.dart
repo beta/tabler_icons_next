@@ -26,7 +26,7 @@ class CurrencyReal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [brl, brazilian, real, finance, money, banknote, pay, currency, payment, monetary]
+tags: [real, brl, brazil, brazilian, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "ee63"

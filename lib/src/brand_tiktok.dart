@@ -26,7 +26,7 @@ class BrandTiktok extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, app, application, mobile, video, music, brand, tiktok, company, trademark]
+tags: [tiktok, video, short-video, social, social-media, music, bytedance, logo, brand]
 category: Brand
 version: "1.13"
 unicode: "ec73"

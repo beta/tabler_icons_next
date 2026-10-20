@@ -26,7 +26,7 @@ class ArrowBarBoth extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, bar, navigation, indicator, bi-directional, interface, ui, path, flow, arrow]
+tags: [expand, resize, horizontal, width, double-arrow, left-right, stretch, pointer, arrow, bar]
 category: Arrows
 version: "2.23"
 unicode: "fadd"

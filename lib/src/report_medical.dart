@@ -26,7 +26,7 @@ class ReportMedical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hospital, doctor, health, sickness, illness, test, results, report, medical, file]
+tags: [medical-report, health, hospital, doctor, test-results, medical-record, file, report, medical]
 category: Document
 version: "1.39"
 unicode: "eecc"

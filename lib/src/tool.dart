@@ -26,7 +26,7 @@ class Tool extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [preferences, edit, settings, tool, control, operation, function, interface, management]
+tags: [wrench, spanner, tool, repair, fix, settings, maintenance, tools]
 category: System
 version: "1.0"
 unicode: "eb40"

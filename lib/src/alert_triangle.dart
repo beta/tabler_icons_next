@@ -26,7 +26,7 @@ class AlertTriangle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [warning, danger, caution, risk, alert, triangle, control, operation, function, interface]
+tags: [warning, caution, danger, error, hazard, exclamation, attention, risk, notice, alert, triangle]
 category: System
 version: "1.0"
 unicode: "ea06"

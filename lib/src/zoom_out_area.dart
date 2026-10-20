@@ -26,7 +26,7 @@ class ZoomOutArea extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [selected, square, magnifier, diminishing, zoom, out, area, location, navigation, magnify]
+tags: [zoom-out, area, selection, shrink, reduce, region, magnifier, zooming, zoom, out]
 category: Map
 version: "1.68"
 unicode: "f1dd"

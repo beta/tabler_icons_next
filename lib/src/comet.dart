@@ -26,7 +26,7 @@ class Comet extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [space, universe, star, orb, glow, night, comet, climate, forecast, meteorology]
+tags: [comet, meteor, shooting-star, space, astronomy, asteroid, falling-star, sky, night]
 category: Weather
 version: "1.13"
 unicode: "ec76"

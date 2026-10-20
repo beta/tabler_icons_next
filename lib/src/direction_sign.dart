@@ -27,7 +27,7 @@ class DirectionSign extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [arrow, navigation, forward, right, direction, sign, way, route, path, course]
+tags: [direction-sign, signpost, road-sign, navigation, route, turn, way, traffic-sign, guide, direction, sign]
 version: "1.70"
 unicode: "f1f7"
 -->

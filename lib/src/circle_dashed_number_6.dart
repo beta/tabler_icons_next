@@ -26,7 +26,7 @@ class CircleDashedNumber6 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [six, sextet, sixth, hex, senary, sextuple, sixfold, sixsome, hexad, hexagon]
+tags: [6, six, number, digit, numeral, count, step, circle, dashed, badge]
 category: Numbers
 version: "2.33"
 unicode: "fc71"

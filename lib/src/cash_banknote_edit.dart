@@ -27,7 +27,7 @@ class CashBanknoteEdit extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [cash, banknote, edit, modify, change, update, revise, adjust, money, currency]
+tags: [banknote, cash, money, bill, payment, currency, finance, edit, pencil, modify, update, dollar, note]
 version: "3.31"
 unicode: "10149"
 -->

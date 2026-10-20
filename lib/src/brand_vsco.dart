@@ -26,7 +26,7 @@ class BrandVsco extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [photography, application, brand, vsco, logo, company, trademark, identity, corporate, business]
+tags: [vsco, photo-editor, photography, filters, camera, app, logo, brand]
 category: Brand
 version: "1.86"
 unicode: "f334"

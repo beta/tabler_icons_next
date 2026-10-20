@@ -26,7 +26,7 @@ class Hours24 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [clock, time, day, support, service, hours, control, operation, 24, function]
+tags: [24-hours, 24h, 24-7, around-the-clock, support, service, clock, time, open, hours]
 category: System
 version: "1.113"
 unicode: "f5e7"

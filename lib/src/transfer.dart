@@ -27,7 +27,7 @@ class Transfer extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [move, exchange, send, transfer, switch, change, shift, swap, share, flow]
+tags: [transfer, swap, exchange, arrows, move, send, receive, transaction]
 version: "2.29"
 unicode: "fc1f"
 -->

@@ -26,7 +26,7 @@ class HomeHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [love, sweet, dating, care, safety, home, heart, house, main, architecture]
+tags: [home, house, homepage, building, residence, real-estate, favorite, love, like, favourite, heart]
 category: Buildings
 version: "1.88"
 unicode: "f353"

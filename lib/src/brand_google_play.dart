@@ -26,7 +26,7 @@ class BrandGooglePlay extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, application, app, shop, store, online, brand, google, play, company]
+tags: [google-play, play-store, google, android, app-store, apps, store, download, logo, brand, play]
 category: Brand
 version: "1.26"
 unicode: "ed25"

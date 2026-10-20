@@ -27,7 +27,7 @@ class PointerCog extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [gear, mechanism, settings, wrench, adjust, configure, tool, system, process, machinery]
+tags: [cursor, mouse-pointer, mouse, settings, gear, configuration, preferences, arrow, click]
 version: "2.10"
 unicode: "f99d"
 -->

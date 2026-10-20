@@ -26,7 +26,7 @@ class LetterSpacing extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [typography, font, space, character, word, letter, spacing, writing, alphabet, glyph]
+tags: [letter-spacing, tracking, kerning, character-spacing, typography, font, text, letter, spacing]
 category: Text
 version: "1.39"
 unicode: "eea6"

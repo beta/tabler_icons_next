@@ -26,7 +26,7 @@ class ChartBar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, diagram, graph, rhythm, data, analysis, chart, bar, visualization, analytics]
+tags: [chart, graph, statistics, analytics, data, report, diagram, bar-chart, bars, histogram, column, visualization, bar]
 category: Charts
 version: "1.0"
 unicode: "ea59"

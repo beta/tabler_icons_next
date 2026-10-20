@@ -27,7 +27,7 @@ class DropletHeart extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [love, affection, care, compassion, emotion, romance, adore, cherish, fondness, devotion]
+tags: [drop, water, liquid, love, like, favorite, favourite, rain, ink, color]
 version: "2.10"
 unicode: "f901"
 -->

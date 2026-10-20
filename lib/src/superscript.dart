@@ -26,7 +26,7 @@ class Superscript extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [typography, above, maths, fraction, trademark, footer, superscript, writing, font, character]
+tags: [superscript, exponent, power, text, formatting, editor, typography, font]
 category: Text
 version: "1.3"
 unicode: "eba0"

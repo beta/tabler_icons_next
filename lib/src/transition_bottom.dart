@@ -26,7 +26,7 @@ class TransitionBottom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, south, down, moving, transition, bottom, navigation, flow, movement, route]
+tags: [transition, animation, slide, move, down, bottom, effect, slide-down]
 category: Arrows
 version: "1.80"
 unicode: "f2b2"

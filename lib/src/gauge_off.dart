@@ -26,7 +26,7 @@ class GaugeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [car, dashboard, gauge, off, control, operation, disabled, inactive, function, interface]
+tags: [gauge, speedometer, dashboard, performance, meter, speed, disabled, inactive, unavailable, slash, turn-off, measure, dial, off]
 category: System
 version: "1.66"
 unicode: "f138"

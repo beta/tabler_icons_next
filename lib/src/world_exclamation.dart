@@ -27,7 +27,7 @@ class WorldExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [alert, important, notice, attention, caution, warning, global, highlight, urgent, remark]
+tags: [globe, earth, world, internet, global, web, international, warning, alert, error, attention, important]
 version: "2.10"
 unicode: "f9e0"
 -->

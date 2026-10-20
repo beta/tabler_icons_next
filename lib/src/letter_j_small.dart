@@ -26,7 +26,7 @@ class LetterJSmall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [j, juliett, tenth, letter, alphabet, character, typeface, glyph, script, small]
+tags: [letter, character, alphabet, lowercase, small, minuscule, text, typography, font, glyph, j]
 category: Letters
 version: "2.38"
 unicode: "fcd0"

@@ -27,7 +27,7 @@ class FolderOpen extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [access, unseal, uncover, unlock, expose, reveal, unshield, available, accessible, visible]
+tags: [folder-open, open-folder, directory, open, browse, files, explore, expand, dir]
 version: "2.24"
 unicode: "faf7"
 -->

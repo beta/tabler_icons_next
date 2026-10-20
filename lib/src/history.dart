@@ -26,7 +26,7 @@ class History extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [search, see, past, card, website, history, control, operation, function, interface]
+tags: [history, recent, clock, time, past, undo, restore, revision, timeline, log]
 category: System
 version: "1.7"
 unicode: "ebea"

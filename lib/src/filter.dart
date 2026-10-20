@@ -26,7 +26,7 @@ class Filter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [funnel, hopper, filtration, filter, control, operation, sort, organize, arrange, select]
+tags: [filter, funnel, filtering, sort, refine, narrow, search-options, query, conditions]
 category: System
 version: "1.0"
 unicode: "eaa5"

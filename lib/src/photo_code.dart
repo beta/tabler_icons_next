@@ -26,7 +26,7 @@ class PhotoCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [program, script, software, binary, developer, html, markup, syntax, photograph, photo]
+tags: [image, picture, gallery, img, photography, media, programming, coding, developer, embed, html, thumbnail, landscape, photo]
 category: Media
 version: "2.10"
 unicode: "f991"

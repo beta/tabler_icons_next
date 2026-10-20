@@ -26,7 +26,7 @@ class MoodHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [emotion, feeling, happy, face, love, care, romantic, mood, heart, like]
+tags: [love, like, favorite, in-love, smile, emoji, smiley, face, emotion, feeling, reaction, mood, heart]
 category: Mood
 version: "2.7"
 unicode: "f7b6"

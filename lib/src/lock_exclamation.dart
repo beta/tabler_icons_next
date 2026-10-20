@@ -27,7 +27,7 @@ class LockExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [security, alert, caution, warn, restricted, notice, attention, important, danger, secure]
+tags: [lock, padlock, locked, security, secure, password, private, protected, warning, alert, error, important, attention]
 version: "2.10"
 unicode: "f92b"
 -->

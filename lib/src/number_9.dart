@@ -26,7 +26,7 @@ class Number9 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [nine, maths, value, quantity, calculate, calculation, total, amount, sum, order, digit]
+tags: [nine, number, digit, numeral, count, ninth, numeric, character]
 category: Numbers
 version: "1.38"
 unicode: "edf9"

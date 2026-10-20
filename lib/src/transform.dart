@@ -27,7 +27,7 @@ class Transform extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [change, convert, adaptation, direction, transform]
+tags: [transform, convert, change, reshape, morph, anchor, transformation, modify]
 version: "1.91"
 unicode: "f38e"
 -->

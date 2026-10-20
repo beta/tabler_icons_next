@@ -27,7 +27,7 @@ class CategoryPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [classification, add, group, identity, label, type, sort, filter, increase, organize]
+tags: [category, categories, grid, apps, menu, dashboard, tiles, add, new, create, plus, add-category, layout]
 version: "2.40"
 unicode: "fd21"
 -->

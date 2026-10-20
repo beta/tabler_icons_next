@@ -27,7 +27,7 @@ class ScaleOutline extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [weight, weigh, diet, healthy, measurement, scale, outline]
+tags: [weight, weighing-scale, bathroom-scale, weigh, diet, fitness, measurement, scale, outline]
 version: "1.43"
 unicode: "ef53"
 -->

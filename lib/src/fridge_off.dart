@@ -26,7 +26,7 @@ class FridgeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [kitchen, cooler, control, freezer, food, fridge, off, hardware, technology, disabled]
+tags: [fridge, refrigerator, freezer, kitchen, appliance, cold, disabled, inactive, unavailable, slash, turn-off, food, cooler, off]
 category: Devices
 version: "1.94"
 unicode: "f3ef"

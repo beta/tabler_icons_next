@@ -27,7 +27,7 @@ class DeviceDesktopHeart extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [love, favorite, affection, admire, cherish, emotion, fondness, like, adore, desire]
+tags: [heart, favorite, like, love, desktop, monitor, computer, screen, pc]
 version: "2.10"
 unicode: "f866"
 -->

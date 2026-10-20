@@ -27,7 +27,7 @@ class FlagSearch extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [find, discover, seek, locate, look, explore, hunt, inspect, track, identify]
+tags: [report, banner, milestone, find, magnifier, magnifying-glass, lookup, mark, country, goal, zoom, query]
 version: "2.28"
 unicode: "fb99"
 -->

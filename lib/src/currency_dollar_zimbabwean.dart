@@ -26,7 +26,7 @@ class CurrencyDollarZimbabwean extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, buisness, commerce, currency, dollar, zimbabwean, finance, payment, money, usd]
+tags: [zimbabwean-dollar, zwl, zimbabwe, dollar, currency, money, symbol, cash, finance, payment, zimbabwean]
 category: Currencies
 version: "1.90"
 unicode: "f36e"

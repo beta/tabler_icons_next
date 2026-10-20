@@ -26,7 +26,7 @@ class BrandMongodb extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [database, c++, system, open, programmers, brand, mongodb, logo, company, trademark]
+tags: [mongodb, mongo, database, nosql, document-store, leaf, logo, brand]
 category: Brand
 version: "1.115"
 unicode: "f613"

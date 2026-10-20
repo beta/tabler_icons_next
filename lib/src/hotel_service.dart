@@ -27,7 +27,7 @@ class HotelService extends Icon {
 
   static const String _svg = '''<!--
 category: Buildings
-tags: [food, reception, accommodation, room, bell, hotel, service]
+tags: [bell, service-bell, hotel, reception, concierge, front-desk, hospitality, call, service]
 version: "1.46"
 unicode: "ef80"
 -->

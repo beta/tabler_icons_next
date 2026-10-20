@@ -26,7 +26,7 @@ class RefreshOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [synchronization, reload, restart, spinner, loader, ajax, update, arrows, refresh, off]
+tags: [refresh, reload, sync, no-sync, update, reset, arrows, disabled, unavailable, inactive, hidden, off]
 category: Arrows
 version: "1.66"
 unicode: "f18d"

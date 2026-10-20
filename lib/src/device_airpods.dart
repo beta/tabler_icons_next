@@ -26,7 +26,7 @@ class DeviceAirpods extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, iphone, apple, wireless, headphones, sound, earbuds, device, airpods, hardware]
+tags: [airpods, earbuds, earphones, headphones, wireless, apple, audio, music, bluetooth, device]
 category: Devices
 version: "1.110"
 unicode: "f5a9"

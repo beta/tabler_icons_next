@@ -27,7 +27,7 @@ class DeviceIpadHorizontalCode extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [program, developer, software, script, syntax, compile, execute, debug, language, binary]
+tags: [code, programming, developer, coding, script, ipad, tablet, apple, ios, landscape]
 version: "2.10"
 unicode: "f891"
 -->

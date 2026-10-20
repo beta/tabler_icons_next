@@ -27,7 +27,7 @@ class CloudDown extends Icon {
 
   static const String _svg = '''<!--
 category: Weather
-tags: [download, retrieve, access, fetch, obtain, transfer, sync, get, acquire, receive]
+tags: [download, cloud-download, arrow-down, save, sync, backup, cloud, storage]
 version: "2.10"
 unicode: "f851"
 -->

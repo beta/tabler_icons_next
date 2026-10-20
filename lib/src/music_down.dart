@@ -27,7 +27,7 @@ class MusicDown extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [decrease, lower, reduce, fall, drop, descend, diminish, diminutive, below, decline]
+tags: [song, audio, sound, note, melody, track, download, arrow-down, decrease, mp3, playlist, player]
 version: "2.28"
 unicode: "fbdc"
 -->

@@ -26,7 +26,7 @@ class ArrowRotaryLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, west, arrow, rotary, left, pointer, navigation, flow, navigate, move]
+tags: [roundabout, traffic-circle, road, directions, navigation, gps, pointer, direction, arrow, rotary, left]
 category: Arrows
 version: "1.57"
 unicode: "f057"

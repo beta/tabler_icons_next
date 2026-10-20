@@ -26,7 +26,7 @@ class PlayerSkipBack extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [button, player, video, film, music, cancel, rewind, reverse, skip, back]
+tags: [skip-back, previous, prev, back, rewind, beginning, media, music, video, controls, player, skip]
 category: Media
 version: "1.28"
 unicode: "ed48"

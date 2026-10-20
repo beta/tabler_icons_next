@@ -27,7 +27,7 @@ class Woman extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [girl, female, gender, woman]
+tags: [woman, female, girl, lady, person, gender, women, feminine]
 version: "1.0"
 unicode: "eb53"
 -->

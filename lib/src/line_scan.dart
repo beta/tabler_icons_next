@@ -27,7 +27,7 @@ class LineScan extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [detect, trace, analyze, inspect, examine, linear, scan, survey, review, gauge]
+tags: [line-scan, scan, scanner, barcode, scanning, laser, read, detect]
 version: "2.37"
 unicode: "fcb8"
 -->

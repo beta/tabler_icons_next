@@ -26,7 +26,7 @@ class FileHorizontal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [paper, new, file, horizontal, document, data, content, record, text, information]
+tags: [landscape, horizontal, document, file, page, paper, orientation, sheet]
 category: Document
 version: "1.4"
 unicode: "ebb0"

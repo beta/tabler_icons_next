@@ -26,7 +26,7 @@ class BrandTopbuzz extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [video, gif, articles, news, brand, topbuzz, logo, company, trademark, identity]
+tags: [topbuzz, news, video, articles, aggregator, logo, brand, media, bytedance]
 category: Brand
 version: "1.102"
 unicode: "f50d"

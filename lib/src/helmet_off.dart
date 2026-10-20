@@ -26,7 +26,7 @@ class HelmetOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [safety, f1, racing, motorcycle, builder, helmet, off, athletic, fitness, disabled]
+tags: [helmet, safety, protection, motorcycle, bike, disabled, off-state, unavailable, off]
 category: Sport
 version: "1.66"
 unicode: "f143"

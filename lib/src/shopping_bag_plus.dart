@@ -27,7 +27,7 @@ class ShoppingBagPlus extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [add, increase, enhance, boost, augment, expand, amplify, grow, supplement, upgrade]
+tags: [shopping-bag, bag, shop, add, new, create, insert, store, purchase, buy, ecommerce]
 version: "2.29"
 unicode: "fc1b"
 -->

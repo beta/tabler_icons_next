@@ -26,7 +26,7 @@ class BrandDingtalk extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [platform, communication, company, mobile, brand, dingtalk, logo, trademark, identity, corporate]
+tags: [dingtalk, alibaba, messaging, chat, business, communication, china, logo, brand]
 category: Brand
 version: "1.113"
 unicode: "f5ea"

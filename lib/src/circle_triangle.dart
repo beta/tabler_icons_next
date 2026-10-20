@@ -27,7 +27,7 @@ class CircleTriangle extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [arrow, down, shape, geometry, circle, triangle, round, circular]
+tags: [triangle, caret, shape, geometry, circle, dropdown, down, warning]
 version: "1.54"
 unicode: "f011"
 -->

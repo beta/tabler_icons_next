@@ -26,7 +26,7 @@ class HexagonalPrismOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, hexagonal, prism, off, disabled, inactive]
+tags: [prism, hexagonal, 3d, shape, geometry, disabled, off-state, unavailable, none, off]
 category: Shapes
 version: "2.20"
 unicode: "faa3"

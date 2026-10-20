@@ -26,7 +26,7 @@ class Devices2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [computer, monitor, keyboard, devices, hardware, technology, electronic, gadget, equipment, 2]
+tags: [devices, desktop, computer, monitor, keyboard, phone, responsive, multi-device, pc, workstation]
 category: Devices
 version: "1.26"
 unicode: "ed29"

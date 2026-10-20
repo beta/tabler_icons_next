@@ -27,7 +27,7 @@ class Alt extends Icon {
 
   static const String _svg = '''<!--
 category: Development
-tags: [alternative, substitute, replacement, variant, different, alternate, variation, stand-in, option, choice]
+tags: [alternative, alternate, option-key, keyboard, key, variant, modifier]
 version: "2.32"
 unicode: "fc54"
 -->

@@ -26,7 +26,7 @@ class FileAlert extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [danger, risk, warning, check, caution, document, error, file, alert, data]
+tags: [alert, warning, error, attention, document, file, caution, problem, exclamation]
 category: Document
 version: "1.37"
 unicode: "ede6"

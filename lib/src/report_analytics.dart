@@ -26,7 +26,7 @@ class ReportAnalytics extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, results, business, sales, analysis, analyse, bar, chart, report, analytics]
+tags: [analytics, statistics, chart, graph, report, dashboard, results, business, sales]
 category: Document
 version: "1.39"
 unicode: "eecb"

@@ -26,7 +26,7 @@ class Apps extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [application, add-on, user, download, mobile, apps, programming, software, coding, technical]
+tags: [applications, grid, launcher, menu, dashboard, app-drawer, modules, widgets, apps]
 category: Development
 version: "1.5"
 unicode: "ebb6"

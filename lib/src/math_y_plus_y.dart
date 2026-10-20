@@ -26,7 +26,7 @@ class MathYPlusY extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mathematic, expression, equation, math, plus, calculation, add, more, increase, positive]
+tags: [addition, plus, add, sum, variable, formula, algebra, mathematics, math]
 category: Math
 version: "1.100"
 unicode: "f4f8"

@@ -26,7 +26,7 @@ class Ironing2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [clotches, housework, iron, smooth, ironing, cleaning, washing, clothes, garment, textile]
+tags: [iron, ironing, laundry, clothes, garment, care-label, wrinkle, medium-heat, medium-temperature, two-dots, wool, silk]
 category: Laundry
 version: "1.84"
 unicode: "f2f5"

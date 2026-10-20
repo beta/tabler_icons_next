@@ -26,7 +26,7 @@ class ArrowWaveRightUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, north, arrow, wave, right, pointer, top, increase, navigation, flow]
+tags: [wavy, squiggle, curve, direction, east, north, pointer, navigation, arrow, wave, right]
 category: Arrows
 version: "1.35"
 unicode: "edab"

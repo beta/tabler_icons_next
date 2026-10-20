@@ -26,7 +26,7 @@ class QuoteOpen extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [quotation, citation, saying, text, quote, typography, writing, open, speech]
+tags: [quotation, quotation-marks, opening-quote, blockquote, citation, cite, text, quote, open]
 category: Text
 unicode: "10224"
 version: "3.41"

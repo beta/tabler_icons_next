@@ -26,7 +26,7 @@ class DeviceHeartMonitor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hospital, rate, healthcare, health, device, heart, monitor, hardware, technology, love]
+tags: [heart-monitor, ecg, ekg, heart-rate, pulse, vital-signs, hospital, medical, health, device, heart, monitor]
 category: Devices
 version: "1.58"
 unicode: "f060"

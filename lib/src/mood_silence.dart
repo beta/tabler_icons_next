@@ -26,7 +26,7 @@ class MoodSilence extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, quiet, mood, silence]
+tags: [silence, quiet, mute, shush, zipped, secret, emoji, smiley, face, emotion, feeling, reaction, mood]
 category: Mood
 version: "1.83"
 unicode: "f2e6"

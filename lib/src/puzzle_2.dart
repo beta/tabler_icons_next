@@ -26,7 +26,7 @@ class Puzzle2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [jigsaw, extension, add-on, puzzle, entertainment, playing, recreation, fun, activity, 2]
+tags: [jigsaw, extension, plugin, add-on, addon, piece, solution, game, puzzle]
 category: Games
 version: "1.46"
 unicode: "ef83"

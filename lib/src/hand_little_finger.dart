@@ -26,7 +26,7 @@ class HandLittleFinger extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [small, body, human, palm, hand, little, finger, touch, action, motion]
+tags: [hand, little-finger, pinky, gesture, body, finger, palm, little]
 category: Gestures
 version: "1.39"
 unicode: "ee95"

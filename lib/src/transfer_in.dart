@@ -26,7 +26,7 @@ class TransferIn extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [input, insert, import, send, transfer, store, purchase, in, shopping, retail]
+tags: [transfer-in, import, incoming, receive, arrow, inbound, exchange, download, transfer, in]
 category: E-commerce
 version: "1.41"
 unicode: "ef2f"

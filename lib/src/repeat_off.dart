@@ -26,7 +26,7 @@ class RepeatOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [reuse, redo, action, replay, loop, flip, repeat, off, content, entertainment]
+tags: [loop, repeat, replay, no-repeat, repeat-all, cycle, redo, disabled, unavailable, inactive, hidden, off]
 category: Media
 version: "1.66"
 unicode: "f18e"

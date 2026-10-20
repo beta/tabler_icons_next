@@ -27,7 +27,7 @@ class Elevator extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [hotel, up, down, service, door, lift, elevator]
+tags: [elevator, lift, floor, building, up-down, hotel, accessibility, stairs-alternative]
 version: "1.51"
 unicode: "efdf"
 -->

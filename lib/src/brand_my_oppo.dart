@@ -26,7 +26,7 @@ class BrandMyOppo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mobile, app, services, membership, brand, oppo, logo, company, trademark, identity]
+tags: [my-oppo, oppo, smartphone, mobile, app, membership, android, logo, brand]
 category: Brand
 version: "1.99"
 unicode: "f4d7"

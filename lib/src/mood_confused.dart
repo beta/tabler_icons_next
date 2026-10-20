@@ -26,7 +26,7 @@ class MoodConfused extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, frown, mood, confused]
+tags: [confused, puzzled, uncertain, unsure, emoji, smiley, face, emotion, feeling, reaction, mood]
 category: Mood
 version: "1.0"
 unicode: "eaf3"

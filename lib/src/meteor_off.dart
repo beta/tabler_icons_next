@@ -26,7 +26,7 @@ class MeteorOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [space, comet, astronomy, galaxy, cosmos, meteor, off, environment, natural, disabled]
+tags: [shooting-star, comet, asteroid, space, astronomy, disabled, slash, meteor, off]
 category: Nature
 version: "1.94"
 unicode: "f40c"

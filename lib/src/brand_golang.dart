@@ -26,7 +26,7 @@ class BrandGolang extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [language, programming, app, write, c++, java, brand, golang, logo, company]
+tags: [golang, go, google, programming, language, code, logo, brand]
 category: Brand
 version: "2.5"
 unicode: "f78d"

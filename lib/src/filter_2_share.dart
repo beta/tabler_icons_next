@@ -26,7 +26,7 @@ class Filter2Share extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, share, sort, organize, arrange, select, refine, sieve, screen, distribute]
+tags: [filter, filtering, sort, send, forward, export, social, refine, list, options, distribute, share]
 category: System
 version: "3.32"
 unicode: "1014f"

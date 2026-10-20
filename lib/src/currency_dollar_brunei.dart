@@ -26,7 +26,7 @@ class CurrencyDollarBrunei extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, buisness, commerce, currency, dollar, brunei, finance, payment, money, usd]
+tags: [brunei-dollar, bnd, brunei, dollar, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.90"
 unicode: "f36c"

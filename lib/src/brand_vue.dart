@@ -26,7 +26,7 @@ class BrandVue extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, coding, javascript, document, software, brand, vue, logo, company, trademark]
+tags: [vue, vuejs, javascript, framework, frontend, ui, web, logo, brand]
 category: Brand
 version: "1.64"
 unicode: "f0e0"

@@ -27,7 +27,7 @@ class CalendarCode extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [schedule, program, appointment, planning, date, script, application, organize, develop, software]
+tags: [calendar, date, schedule, event, day, planner, agenda, code, developer, programming, embed, script, appointment]
 version: "2.10"
 unicode: "f825"
 -->

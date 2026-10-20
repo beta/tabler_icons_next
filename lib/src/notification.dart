@@ -26,7 +26,7 @@ class Notification extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bell, alarm, reminder, important, notification, control, operation, function, interface, management]
+tags: [bell, alert, badge, dot, reminder, unread, inbox, message, new, notification]
 category: System
 version: "1.0"
 unicode: "eafe"

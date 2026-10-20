@@ -26,7 +26,7 @@ class Container extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [html, block, store, inside, container, creative, artistic, visual, aesthetic, style]
+tags: [container, box, wrapper, div, block, layout, html, section, frame]
 category: Design
 version: "1.39"
 unicode: "ee47"

@@ -26,7 +26,7 @@ class Video extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [film, shoot, recording, taping, camera, video, content, entertainment, multimedia, broadcast]
+tags: [video, camera, camcorder, recording, movie, film, record, vlog]
 category: Media
 version: "1.25"
 unicode: "ed22"

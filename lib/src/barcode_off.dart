@@ -26,7 +26,7 @@ class BarcodeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [product, shop, scan, supermarket, barcode, off, control, operation, disabled, inactive]
+tags: [scan, scanner, product, upc, ean, code, price, shop, inventory, disabled, barcode, off]
 category: System
 version: "1.62"
 unicode: "f0b3"

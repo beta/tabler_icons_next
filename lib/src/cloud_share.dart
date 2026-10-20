@@ -27,7 +27,7 @@ class CloudShare extends Icon {
 
   static const String _svg = '''<!--
 category: Weather
-tags: [distribute, transmit, convey, extend, spread, offer, provide, broadcast, present, give]
+tags: [share, send, export, social, cloud, cloud-storage, online, sync, storage, weather]
 version: "2.10"
 unicode: "f85a"
 -->

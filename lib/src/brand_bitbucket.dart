@@ -26,7 +26,7 @@ class BrandBitbucket extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [version, control, repository, hosting, atlassian, source, code, development, git, technology]
+tags: [bitbucket, atlassian, git, repository, version-control, code, hosting, logo, brand]
 category: Brand
 version: "1.36"
 unicode: "edc7"

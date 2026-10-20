@@ -27,7 +27,7 @@ class TransformPoint extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [reshape, edit, adjust, modify, transform, center, point, change, design, move]
+tags: [transform, anchor-point, origin, pivot, center, reference, anchor, transform-origin, point]
 version: "2.47"
 unicode: "fda9"
 -->

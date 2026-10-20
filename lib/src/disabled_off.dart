@@ -26,7 +26,7 @@ class DisabledOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [wheelchair, handicapped, disabled, off, medical, wellness, inactive, healthcare, treatment, care]
+tags: [wheelchair, accessibility, accessible, handicapped, disability, a11y, disabled, inactive, unavailable, slash, turn-off, mobility, impairment, off]
 category: Health
 version: "1.65"
 unicode: "f117"

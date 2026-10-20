@@ -27,7 +27,7 @@ class DeviceMobileStar extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [rate, favorite, highlight, excellence, best, quality, remarkable, superior, shine, outstanding]
+tags: [phone, smartphone, iphone, favorite, favourite, bookmark, rating, android, cellphone, device, featured, starred]
 version: "2.10"
 unicode: "f8bd"
 -->

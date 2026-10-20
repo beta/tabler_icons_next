@@ -27,7 +27,7 @@ class Desk extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [workspace, workstation, table, office-desk, workplace, furniture, desk-setup, desktop, office-furniture, working]
+tags: [desk, office, workspace, workstation, table, furniture, work, desktop, study]
 version: "2.41"
 unicode: "fd35"
 -->

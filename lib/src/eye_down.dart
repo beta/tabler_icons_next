@@ -27,7 +27,7 @@ class EyeDown extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [direction, drop, vision, sight, descend, lower, decline, view, focus, fall]
+tags: [view, visibility, show, download, arrow-down, decrease, lower, see, vision, preview, watch, receive]
 version: "2.28"
 unicode: "fb72"
 -->

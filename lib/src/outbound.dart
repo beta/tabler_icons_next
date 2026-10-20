@@ -27,7 +27,7 @@ class Outbound extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [call, exit, telephone, out, outbound]
+tags: [outbound-link, external, arrow-up-right, export, outgoing, exit, circle, outbound]
 version: "1.74"
 unicode: "f249"
 -->

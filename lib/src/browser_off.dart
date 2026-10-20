@@ -26,7 +26,7 @@ class BrowserOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [internet, web, display, browser, off, hardware, technology, disabled, inactive, electronic]
+tags: [browser, window, web, internet, webpage, website, tab, disabled, off, unavailable, inactive, offline, app]
 category: Devices
 version: "1.63"
 unicode: "f0c1"

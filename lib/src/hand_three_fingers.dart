@@ -26,7 +26,7 @@ class HandThreeFingers extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [body, human, palm, hand, three, fingers, touch, action, motion, interaction]
+tags: [hand, three-fingers, gesture, count, palm, finger, three, fingers]
 category: Gestures
 version: "1.39"
 unicode: "ee98"

@@ -27,7 +27,7 @@ class AiAgent extends Icon {
 
   static const String _svg = '''<!--
 category: Development
-tags: [artificial, intelligence, assistant, automation, robot, chatbot, machine, learning, smart, digital, virtual, automated]
+tags: [artificial-intelligence, assistant, chatbot, bot, robot, automation, agentic, llm, machine-learning, virtual-assistant]
 unicode: "101f9"
 version: "3.39"
 -->

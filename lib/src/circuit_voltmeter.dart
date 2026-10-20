@@ -26,7 +26,7 @@ class CircuitVoltmeter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [diagram, electric, electricity, component, circuit, voltmeter, energy, voltage, power, current]
+tags: [voltmeter, voltage, volts, meter, measure, circuit, electronics, electrical, schematic, diagram, electricity, component]
 category: Electrical
 version: "1.77"
 unicode: "f283"

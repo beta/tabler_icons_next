@@ -26,7 +26,7 @@ class LassoPolygon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [geometry, adobe, tool, shape, lasso, polygon, creative, artistic, visual, aesthetic]
+tags: [lasso, polygonal-lasso, polygon, select, selection, tool, photoshop, freeform]
 category: Design
 version: "1.91"
 unicode: "f388"

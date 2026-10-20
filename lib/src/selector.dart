@@ -26,7 +26,7 @@ class Selector extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrows, select, dropdown, chevron, down, south, bottom, direction, input, selector]
+tags: [dropdown, select-box, combobox, picker, chevrons, up-down, input, form, selector]
 category: Arrows
 version: "1.0"
 unicode: "eb1d"

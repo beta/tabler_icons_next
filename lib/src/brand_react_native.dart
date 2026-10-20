@@ -26,7 +26,7 @@ class BrandReactNative extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, tools, app, javascript, js, brand, react, native, logo, company]
+tags: [react-native, react, meta, mobile, cross-platform, javascript, app, logo, brand, native]
 category: Brand
 version: "1.45"
 unicode: "ef73"

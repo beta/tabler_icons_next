@@ -27,7 +27,7 @@ class ShieldQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [protection, inquiry, query, ask, security, guard, wonder, doubt, interrogate, puzzle]
+tags: [security, protection, protect, help, faq, unknown, support, guard, safety, secure]
 version: "2.10"
 unicode: "f9cc"
 -->

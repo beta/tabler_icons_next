@@ -27,7 +27,7 @@ class ClearAll extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [app, clear, all, emails, phone]
+tags: [clear-all, clear, dismiss, notifications, remove-all, delete-all, list, lines, all]
 version: "1.39"
 unicode: "ee41"
 -->

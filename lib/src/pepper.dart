@@ -26,7 +26,7 @@ class Pepper extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, spice, chili, jalapeño, hot, spicy, pepper, meal, cuisine, eating]
+tags: [chili, chilli, hot, spicy, vegetable, food, paprika, pepper]
 category: Food
 version: "1.40"
 unicode: "ef15"

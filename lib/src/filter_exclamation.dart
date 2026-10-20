@@ -27,7 +27,7 @@ class FilterExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [alert, warning, important, notice, caution, exclaim, attention, highlight, notify, signal]
+tags: [funnel, filtering, sort, warning, alert, error, attention, refine, narrow, important, caution]
 version: "2.28"
 unicode: "fb82"
 -->

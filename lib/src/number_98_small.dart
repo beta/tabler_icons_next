@@ -26,7 +26,7 @@ class Number98Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [numerical, digit, math, counter, calc, arithmetics, value, figure, quantity, sum]
+tags: [ninety-eight, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 unicode: "ffc0"
 version: "3.14"

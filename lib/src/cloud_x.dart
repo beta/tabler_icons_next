@@ -27,7 +27,7 @@ class CloudX extends Icon {
 
   static const String _svg = '''<!--
 category: Weather
-tags: [delete, remove, cancel, close, terminate, end, reject, cut, dismiss, drop]
+tags: [x, sync-error, failed, error, remove, delete, cloud, cloud-storage, online, offline]
 version: "2.10"
 unicode: "f85d"
 -->

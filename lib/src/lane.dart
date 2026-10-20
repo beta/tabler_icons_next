@@ -27,7 +27,7 @@ class Lane extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [pathway, track, route, corridor, passage, road, line, ribbon, strip, course]
+tags: [lane, road, track, two-lines, parallel, lines, pathway]
 version: "2.24"
 unicode: "faf9"
 -->

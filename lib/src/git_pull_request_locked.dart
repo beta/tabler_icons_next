@@ -26,7 +26,7 @@ class GitPullRequestLocked extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, version control, git, pull, request, locked, lock, secure, protected, repository]
+tags: [git, pull-request, pr, locked, protected, secure, version-control, github, gitlab, pull, request]
 category: Version control
 unicode: "102ac"
 version: "3.48"

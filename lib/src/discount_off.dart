@@ -26,7 +26,7 @@ class DiscountOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sale, reduction, price, cost, money, shopping, bargain, discount, off, store]
+tags: [discount, sale, percent, percentage, promo, coupon, disabled, inactive, unavailable, slash, turn-off, deal, offer, off]
 category: E-commerce
 version: "1.94"
 unicode: "f3e7"

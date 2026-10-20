@@ -26,7 +26,7 @@ class MoodNervous extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [angry, stressed, worry, frustrated, mood, nervous]
+tags: [nervous, anxious, stressed, worried, tense, emoji, smiley, face, emotion, feeling, reaction, mood]
 category: Mood
 version: "1.47"
 unicode: "ef96"

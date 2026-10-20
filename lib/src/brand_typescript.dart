@@ -26,7 +26,7 @@ class BrandTypescript extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [language, programmers, opensource, javascript, brand, typescript, logo, company, trademark, identity]
+tags: [typescript, ts, microsoft, javascript, programming, language, logo, brand]
 category: Brand
 version: "1.113"
 unicode: "f5f1"

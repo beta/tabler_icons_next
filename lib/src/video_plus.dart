@@ -26,7 +26,7 @@ class VideoPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [film, shoot, recording, taping, camera, closeup, video, plus, content, entertainment]
+tags: [video, camera, recording, add, create, new, vlog, film, plus]
 category: Media
 version: "1.25"
 unicode: "ed21"

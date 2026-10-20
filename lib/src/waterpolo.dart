@@ -26,7 +26,7 @@ class Waterpolo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [aquatic, sport, pool, game, ball, team, watergame, swimming, athletic, match]
+tags: [water-polo, swimming, pool, ball, sport, team, water, aquatic]
 category: Sport
 version: "2.17"
 unicode: "fa6f"

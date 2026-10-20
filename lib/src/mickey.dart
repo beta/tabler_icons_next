@@ -27,7 +27,7 @@ class Mickey extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [fable, cartoon, mouse, kids, mickey]
+tags: [mouse, cartoon, disney, ears, character, kids, animation, mickey]
 version: "1.79"
 unicode: "f2a3"
 -->

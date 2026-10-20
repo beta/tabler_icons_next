@@ -26,7 +26,7 @@ class WiperWash extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [car, pane, vehicle, sprinkler, scour, wiper, wash, transport, travel, automobile]
+tags: [wiper, windshield, windscreen, washer, car, vehicle, windshield-wiper, wipers, wash]
 category: Vehicles
 version: "1.17"
 unicode: "ecaa"

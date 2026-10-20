@@ -26,7 +26,7 @@ class Checkbox extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [survey, confirm, tick, "yes", to-do, checkbox, control, operation, approve, function]
+tags: [checkbox, check, tick, checked, todo, task, form, select, done]
 category: System
 version: "1.4"
 unicode: "eba6"

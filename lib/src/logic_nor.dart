@@ -26,7 +26,7 @@ class LogicNor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gate, technology, electirical, it, logic, nor, boolean, operation, reasoning, conditional]
+tags: [logic, gate, boolean, circuit, electronics, digital, operator, binary, not-or, schematic, electrical, nor]
 category: Logic
 version: "1.74"
 unicode: "f243"

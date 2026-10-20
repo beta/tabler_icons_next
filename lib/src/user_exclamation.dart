@@ -26,7 +26,7 @@ class UserExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [user, account, note, excitement, admiration, mark, exclamation, person, control, operation]
+tags: [person, account, profile, avatar, member, warning, alert, error, attention, important, report, user, exclamation]
 category: System
 version: "1.8"
 unicode: "ec12"

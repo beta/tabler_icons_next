@@ -26,7 +26,7 @@ class BrandSteam extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [technology, video, game, digital, distribution, software, player, pc, brand, steam]
+tags: [steam, valve, games, gaming, store, pc, video-game, logo, brand]
 category: Brand
 version: "1.32"
 unicode: "ed6f"

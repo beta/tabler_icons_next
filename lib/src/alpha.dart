@@ -26,7 +26,7 @@ class Alpha extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [letter, alphabet, greek, math, alpha, character, typography, text, writing]
+tags: [greek, letter, character, math, symbol, alphabet, transparency, opacity, alpha]
 category: Letters
 version: "1.105"
 unicode: "f543"

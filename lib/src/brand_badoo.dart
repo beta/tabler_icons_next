@@ -26,7 +26,7 @@ class BrandBadoo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [website, communication, chat, social media, brand, badoo, logo, company, trademark, identity]
+tags: [badoo, dating, social, chat, app, meet, logo, brand]
 category: Brand
 version: "1.71"
 unicode: "f206"

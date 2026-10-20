@@ -27,7 +27,7 @@ class UserPause extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [break, stop, halt, wait, freeze, cease, intermission, delay, suspend, breather]
+tags: [person, account, profile, avatar, member, paused, suspended, hold, away, inactive]
 version: "2.10"
 unicode: "f9d7"
 -->

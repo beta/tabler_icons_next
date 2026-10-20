@@ -26,7 +26,7 @@ class ShapeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [draw, square, form, create, outline, shape, off, creative, artistic, disabled]
+tags: [vector, nodes, path, pen-tool, bezier, edit-shape, anchor-points, disabled, unavailable, inactive, hidden, shape, off]
 category: Design
 version: "1.66"
 unicode: "f1a0"

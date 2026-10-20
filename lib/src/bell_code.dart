@@ -27,7 +27,7 @@ class BellCode extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [program, script, develop, software, algorithm, compile, debug, cipher, encrypt, decode]
+tags: [notification, alert, reminder, notify, alarm, developer, programming, source-code, html, dev]
 version: "2.10"
 unicode: "f815"
 -->

@@ -27,7 +27,7 @@ class CodeVariablePlus extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [add, increase, extend, expand, augment, boost, enhance, amplify, raise, enlarge]
+tags: [variable, plus, add, add-variable, insert, placeholder, parameter, code, programming]
 unicode: "100ac"
 version: "3.23"
 -->

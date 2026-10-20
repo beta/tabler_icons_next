@@ -26,7 +26,7 @@ class BoxAlignBottom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [rectangle, side, down, south, box, align, bottom, creative, artistic, visual]
+tags: [alignment, position, layout, corner, align-box, flexbox, placement, anchor, box, align, bottom]
 category: Design
 version: "1.80"
 unicode: "f2a8"

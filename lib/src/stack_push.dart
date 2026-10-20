@@ -26,7 +26,7 @@ class StackPush extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrange, data, level, layout, arrow, stack, push, creative, artistic, visual]
+tags: [stack, push, data-structure, lifo, add, layers, arrow-in, programming]
 category: Design
 version: "1.73"
 unicode: "f235"

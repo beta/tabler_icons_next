@@ -27,7 +27,7 @@ class HeartBitcoin extends Icon {
 
   static const String _svg = '''<!--
 category: Health
-tags: [crypto, currency, blockchain, finance, digital, love, money, cryptocurrency, investment, decentralized]
+tags: [heart, love, like, favorite, favourite, bitcoin, crypto, cryptocurrency, btc]
 unicode: "ff3b"
 version: "3.9"
 -->

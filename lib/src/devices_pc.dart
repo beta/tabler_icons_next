@@ -26,7 +26,7 @@ class DevicesPc extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [computer, monitor, keyboard, devices, hardware, technology, pc, electronic, gadget, equipment]
+tags: [pc, desktop, computer, tower, monitor, keyboard, workstation, devices, hardware]
 category: Devices
 version: "1.39"
 unicode: "ee7a"

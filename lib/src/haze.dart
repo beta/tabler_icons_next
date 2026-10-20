@@ -26,7 +26,7 @@ class Haze extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [climate, meterology, weather, morning, haze, forecast, meteorology, atmospheric, conditions]
+tags: [haze, fog, mist, smog, weather, forecast, sun, morning, hazy]
 category: Weather
 version: "1.48"
 unicode: "efaa"

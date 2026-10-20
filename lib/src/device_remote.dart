@@ -26,7 +26,7 @@ class DeviceRemote extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [control, tv, home, television, device, remote, hardware, technology, electronic, gadget]
+tags: [remote-control, remote, tv, television, controller, channel, clicker, home, device]
 category: Devices
 version: "2.5"
 unicode: "f792"

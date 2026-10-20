@@ -26,7 +26,7 @@ class FolderSparkle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [folder, directory, files, sparkle, ai, magic, generate, smart, highlight, new]
+tags: [folder, directory, ai, sparkle, magic, smart, generated, new, highlight]
 category: Document
 unicode: "102b0"
 version: "3.48"

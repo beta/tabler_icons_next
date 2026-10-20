@@ -26,7 +26,7 @@ class Link extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [zoom-filled, link, url, connection, hyperlink, reference, attach, join, typography, writing]
+tags: [link, url, hyperlink, chain, anchor, connection, href, attach]
 category: Text
 version: "1.0"
 unicode: "eade"

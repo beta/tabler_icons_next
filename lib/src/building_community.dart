@@ -26,7 +26,7 @@ class BuildingCommunity extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [place, skyscraper, district neighborhood, area, building, community, architecture, structure, construction, property]
+tags: [community, neighborhood, district, town, city, buildings, houses, residential, building]
 category: Buildings
 version: "1.8"
 unicode: "ebf6"

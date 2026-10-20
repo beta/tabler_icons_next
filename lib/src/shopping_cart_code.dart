@@ -27,7 +27,7 @@ class ShoppingCartCode extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [program, script, syntax, develop, software, coding, algorithm, markup, debug, compile]
+tags: [shopping-cart, cart, basket, code, developer, programming, script, trolley, shop, store, checkout, ecommerce, buy]
 version: "2.28"
 unicode: "fb5a"
 -->

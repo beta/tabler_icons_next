@@ -27,7 +27,7 @@ class EscalatorUp extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [ascend, elevate, rise, climb, increase, step, upward, lift, boost, soar]
+tags: [escalator, escalator-up, moving-stairs, up, stairs, mall, airport, metro, ascend]
 version: "2.25"
 unicode: "fb05"
 -->

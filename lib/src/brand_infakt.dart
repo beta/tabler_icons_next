@@ -27,7 +27,7 @@ class BrandInfakt extends Icon {
 
   static const String _svg = '''<!--
 category: Brand
-tags: [invoice, accounting, polish, infakt, finance, billing, brand, software, company]
+tags: [infakt, invoice, accounting, billing, finance, polish, software, logo, brand]
 unicode: "1020a"
 version: "3.40"
 -->

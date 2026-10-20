@@ -26,7 +26,7 @@ class LassoOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cowboy, western, sheriff, man, tool, west, lasso, off, creative, artistic]
+tags: [lasso, select, selection, tool, rope, disabled, off-state, unavailable, off]
 category: Design
 version: "1.66"
 unicode: "f14f"

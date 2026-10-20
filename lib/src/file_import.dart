@@ -26,7 +26,7 @@ class FileImport extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, data, paper, document, format, file, import, content, record, text]
+tags: [import, upload, load, open, arrow, document, file, input, incoming]
 category: Document
 version: "1.37"
 unicode: "edea"

@@ -26,7 +26,7 @@ class GitCompare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, version control, command, git, compare, versioning, repository, tracking, revision]
+tags: [git, compare, diff, difference, changes, version-control, github, gitlab, review]
 category: Version control
 version: "1.0"
 unicode: "eab4"

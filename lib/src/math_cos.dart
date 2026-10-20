@@ -26,7 +26,7 @@ class MathCos extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mathematic, cosinus, trigonometry, function, math, cos, calculation, equation, mathematics, numeric]
+tags: [cosine, cos, trigonometry, function, mathematics, formula, angle, math]
 category: Math
 version: "3.8"
 unicode: "ff1f"

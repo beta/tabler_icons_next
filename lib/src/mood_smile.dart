@@ -26,7 +26,7 @@ class MoodSmile extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, mood, smile]
+tags: [smile, happy, smiling, glad, positive, emoji, smiley, face, emotion, feeling, reaction, mood]
 category: Mood
 version: "1.0"
 unicode: "eaf7"

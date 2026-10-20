@@ -26,7 +26,7 @@ class MoodAnnoyed extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [appalled, agitated, upset, angry, face, mood, annoyed]
+tags: [annoyed, irritated, upset, frustrated, unhappy, emoji, smiley, face, emotion, feeling, reaction, mood]
 category: Mood
 version: "1.83"
 unicode: "f2e0"

@@ -26,7 +26,7 @@ class AlphabetThai extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [language, alphabet, thailand, thai, typography, writing, font, character, word, letters]
+tags: [thailand, language, script, letters, writing, text, siamese, character, typography, alphabet, thai]
 category: Text
 version: "3.8"
 unicode: "ff2b"

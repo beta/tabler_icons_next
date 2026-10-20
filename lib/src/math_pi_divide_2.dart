@@ -26,7 +26,7 @@ class MathPiDivide2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mathematic, sign, expression, math, divide, calculation, equation, pi, mathematics, numeric]
+tags: [pi, half-pi, fraction, radians, angle, mathematics, divide, math]
 category: Math
 version: "1.100"
 unicode: "f4ed"

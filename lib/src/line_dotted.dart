@@ -26,7 +26,7 @@ class LineDotted extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [geometric, segment, link, connection, line, dotted, creative, artistic, visual, aesthetic]
+tags: [line, dotted, dots, stroke, border-style, segment, draw]
 category: Design
 version: "1.39"
 unicode: "eea8"

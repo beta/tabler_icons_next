@@ -27,7 +27,7 @@ class CloudBolt extends Icon {
 
   static const String _svg = '''<!--
 category: Weather
-tags: [storm, electricity, thunder, lightning, energy, power, strike, shock, flash, weather]
+tags: [storm, thunderstorm, lightning, thunder, weather, bolt, rain, forecast, cloud]
 version: "2.10"
 unicode: "f84b"
 -->

@@ -26,7 +26,7 @@ class DatabaseExport extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, backup, file, storage, system, database, export, repository, records, information]
+tags: [export, backup, dump, download, database, db, data, storage, sql]
 category: Database
 version: "1.39"
 unicode: "ee6e"

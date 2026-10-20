@@ -26,7 +26,7 @@ class SortAscendingNumbers extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, classify, arrange, order, sort, ascending, numbers, typography, writing, font]
+tags: [sort, ascending, numeric, numbers, order, arrange]
 category: Text
 version: "1.40"
 unicode: "ef19"

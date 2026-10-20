@@ -27,7 +27,7 @@ class BracketsAngleOff extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [code, syntax, programming, development, deactivate, exclude, remove, cancel, suspend, brackets]
+tags: [angle-brackets, code, html, xml, markup, tags, programming, syntax, chevrons, disabled, brackets]
 version: "2.37"
 unicode: "fcb1"
 -->

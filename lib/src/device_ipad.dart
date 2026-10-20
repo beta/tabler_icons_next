@@ -26,7 +26,7 @@ class DeviceIpad extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tablet, apple, mobile, technology, ios, device, ipad, hardware, electronic, gadget]
+tags: [ipad, tablet, apple, ios, mobile, device, portrait, touchscreen]
 category: Devices
 version: "1.118"
 unicode: "f648"

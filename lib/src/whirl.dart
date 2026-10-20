@@ -26,7 +26,7 @@ class Whirl extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cosmos, galaxy, space, spin, spiral, hypnosis, whirl, climate, forecast, meteorology]
+tags: [spiral, swirl, vortex, whirlpool, spin, hypnosis, twirl, whirlwind, whirl]
 category: Weather
 version: "1.102"
 unicode: "f51d"

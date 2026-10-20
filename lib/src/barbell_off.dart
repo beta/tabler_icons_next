@@ -26,7 +26,7 @@ class BarbellOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weight, gym, fitness, powerlift, barbell, off, athletic, disabled, inactive, exercise]
+tags: [dumbbell, weights, gym, fitness, workout, exercise, weightlifting, training, disabled, barbell, off]
 category: Sport
 version: "1.62"
 unicode: "f0b2"

@@ -27,7 +27,7 @@ class DetailsOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [geometric, half, shape, highlight, triangle, details, off, disabled, inactive]
+tags: [details, summary, disclosure, triangle, expand, accordion, html, off, disabled]
 version: "1.94"
 unicode: "f3e2"
 -->

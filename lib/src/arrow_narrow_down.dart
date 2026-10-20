@@ -26,7 +26,7 @@ class ArrowNarrowDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bottom, proceed, swipe, next, arrow, narrow, down, direction, pointer, decrease]
+tags: [thin, slim, direction, south, downward, bottom, pointer, navigation, arrow, narrow, down]
 category: Arrows
 version: "1.0"
 unicode: "ea1a"

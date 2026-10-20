@@ -26,7 +26,7 @@ class Switch2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrows, direction, music, spotify, change, switch, navigation, flow, movement, route]
+tags: [shuffle, random, swap, arrows, exchange, playlist, music, random-order, repeat, switch]
 category: Arrows
 version: "1.35"
 unicode: "edbf"

@@ -27,7 +27,7 @@ class UmbrellaOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [rain, weather, storm, wet, autumn, fall, umbrella, off, disabled, inactive]
+tags: [umbrella, rain, weather, protection, disabled, inactive, parasol, shelter, off]
 version: "1.67"
 unicode: "f1bb"
 -->

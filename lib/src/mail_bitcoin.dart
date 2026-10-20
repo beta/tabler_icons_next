@@ -27,7 +27,7 @@ class MailBitcoin extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [crypto, currency, message, virtual, send, transaction, exchange, digital, coin, transfer]
+tags: [mail, email, envelope, message, inbox, letter, e-mail, bitcoin, crypto, cryptocurrency, btc]
 unicode: "ff36"
 version: "3.9"
 -->

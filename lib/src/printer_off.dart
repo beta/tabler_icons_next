@@ -26,7 +26,7 @@ class PrinterOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fax, office, device, printer, off, hardware, technology, disabled, inactive, electronic]
+tags: [print, printer, printing, no-print, fax, unavailable, paper, disabled, inactive, hidden, off]
 category: Devices
 version: "1.66"
 unicode: "f184"

@@ -26,7 +26,7 @@ class BrandOpenSource extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, code, developer, public, licence, technology, brand, open, source, logo]
+tags: [open-source, oss, osi, free-software, license, code, community, logo, brand, open, source]
 category: Brand
 version: "1.36"
 unicode: "edd0"

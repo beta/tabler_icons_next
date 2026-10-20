@@ -26,7 +26,7 @@ class CameraRotate extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [photo, photography, picture, face, instagram, portrait, digital, smartphone, selfie, camera]
+tags: [camera, photo, photography, picture, video, lens, image, rotate, switch-camera, flip, front-camera, selfie]
 category: Photography
 version: "1.39"
 unicode: "ee22"

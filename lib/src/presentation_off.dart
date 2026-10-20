@@ -26,7 +26,7 @@ class PresentationOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [slideshow, display, exhibition, speech, topic, conference, presentation, off, disabled, inactive]
+tags: [presentation-board, slides, slideshow, powerpoint, whiteboard, unavailable, keynote, disabled, inactive, hidden, presentation, off]
 category: Document
 version: "1.66"
 unicode: "f183"

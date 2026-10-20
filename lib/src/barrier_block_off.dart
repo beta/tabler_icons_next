@@ -27,7 +27,7 @@ class BarrierBlockOff extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [construction, stop, traffic, barricade, street, barrier, block, off, disabled, inactive]
+tags: [roadblock, construction, road-closed, obstacle, blocked, roadwork, disabled, barrier, block, off]
 version: "1.62"
 unicode: "f0b5"
 -->

@@ -26,7 +26,7 @@ class ZoomMoney extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [magnifying, glass, magnifier, earn, pay, sum, total, finance, financial, zoom]
+tags: [zoom, magnifier, magnifying-glass, search, money, price, finance, dollar, compare, budget]
 category: Map
 version: "1.39"
 unicode: "ef0a"

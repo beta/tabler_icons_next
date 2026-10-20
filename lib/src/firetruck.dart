@@ -26,7 +26,7 @@ class Firetruck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [help, rescuer, vehicle, fireman, extinguishing, firetruck, transport, travel, automobile, mobility]
+tags: [firetruck, fire-truck, fire-engine, firefighter, fire-department, emergency, rescue, vehicle, ambulance]
 category: Vehicles
 version: "1.7"
 unicode: "ebe8"

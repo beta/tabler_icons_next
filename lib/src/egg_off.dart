@@ -26,7 +26,7 @@ class EggOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, easter, chicken, egg, off, meal, cuisine, disabled, inactive, eating]
+tags: [egg, food, breakfast, easter, chicken, protein, disabled, inactive, unavailable, slash, turn-off, cooking, oval, off]
 category: Food
 version: "1.65"
 unicode: "f11f"

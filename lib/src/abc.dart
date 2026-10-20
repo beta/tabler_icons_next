@@ -27,7 +27,7 @@ class Abc extends Icon {
 
   static const String _svg = '''<!--
 category: Text
-tags: [letters, alphabet, latin, abc, text, characters, writing, language]
+tags: [letters, alphabet, text, characters, latin, spelling, typography, font, writing, language, abc]
 version: "1.107"
 unicode: "f567"
 -->

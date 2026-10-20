@@ -26,7 +26,7 @@ class Milk extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, drink, cow, healthy, breakfast, bottle, coffee, milk, meal, cuisine]
+tags: [dairy, drink, bottle, carton, breakfast, beverage, cow, food, milk]
 category: Food
 version: "1.40"
 unicode: "ef13"

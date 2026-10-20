@@ -26,7 +26,7 @@ class BrandVercel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [develop, preview, programmers, build, publish, brand, vercel, logo, company, trademark]
+tags: [vercel, hosting, deployment, nextjs, serverless, frontend, cloud, triangle, logo, brand]
 category: Brand
 version: "1.41"
 unicode: "ef24"

@@ -26,7 +26,7 @@ class PhotoEdit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gallery, tool, create, photo, edit, modify, change, update, content, revise]
+tags: [image, picture, gallery, img, photography, media, pencil, modify, change, update, thumbnail, landscape, photo, edit]
 category: Media
 version: "1.89"
 unicode: "f360"

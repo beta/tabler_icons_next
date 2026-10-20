@@ -26,7 +26,7 @@ class SortAscendingLetters extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, classify, arrange, order, sort, ascending, letters, typography, writing, font]
+tags: [sort, ascending, alphabetical, letters, order, arrange]
 category: Text
 version: "1.40"
 unicode: "ef18"

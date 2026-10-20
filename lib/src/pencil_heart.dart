@@ -27,7 +27,7 @@ class PencilHeart extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [edit, favorite, love, cherish, affection, fondness, emotion, romance, like, preference]
+tags: [edit, write, draw, modify, pen, compose, favorite, like, love, update, change]
 version: "2.28"
 unicode: "fc06"
 -->

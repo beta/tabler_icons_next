@@ -26,7 +26,7 @@ class LivePhoto extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [capture, photo, movement, sound, memory, camera, live, picture, lens, image]
+tags: [live-photo, live, photo, camera, motion, picture, image, capture]
 category: Photography
 version: "1.1"
 unicode: "eadf"

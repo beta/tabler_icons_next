@@ -26,7 +26,7 @@ class ColumnsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, gap, table, columns, off, disabled, inactive, typography, writing, font]
+tags: [columns, text-columns, layout, multi-column, text, typography, off, disabled]
 category: Text
 version: "1.63"
 unicode: "f0d4"

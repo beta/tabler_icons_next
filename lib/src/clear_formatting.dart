@@ -26,7 +26,7 @@ class ClearFormatting extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, return, default, clear, formatting, typography, writing, font, character, word]
+tags: [clear-formatting, remove-formatting, reset, format, text, style, eraser, typography, editor, clear, formatting]
 category: Text
 version: "1.7"
 unicode: "ebe5"

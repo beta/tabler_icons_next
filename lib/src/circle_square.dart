@@ -26,7 +26,7 @@ class CircleSquare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, spot, math, circle, square, round, circular, rectangular, geometry, form]
+tags: [circle, square, shape, geometry, shapes, stop, record, inside]
 category: Shapes
 version: "1.21"
 unicode: "ece4"

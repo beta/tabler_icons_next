@@ -27,7 +27,7 @@ class Binoculars extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [birds, explorer, field glasses, magnifying eye glasses, observe, view, watch, binoculars]
+tags: [search, find, explore, view, spy, sightseeing, zoom, watch, binoculars]
 version: "3.6"
 unicode: "fefe"
 -->

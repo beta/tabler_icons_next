@@ -26,7 +26,7 @@ class BrandZeit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [consulting, software, brand, zeit, logo, company, trademark, identity, corporate, business]
+tags: [zeit, vercel, hosting, deployment, serverless, logo, brand, nextjs, now]
 category: Brand
 version: "1.86"
 unicode: "f335"

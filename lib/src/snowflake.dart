@@ -26,7 +26,7 @@ class Snowflake extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [winter, weather, cold, frost, snowflake, climate, forecast, meteorology, atmospheric, conditions]
+tags: [snow, winter, cold, frost, freeze, ice, christmas, snowflake]
 category: Weather
 version: "1.8"
 unicode: "ec0b"

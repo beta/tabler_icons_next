@@ -26,7 +26,7 @@ class PlayerRecord extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, song, playlist, melody, device, voice, recorder, dictation, machine, player]
+tags: [record, rec, recording, circle, dot, media, video, audio, live, capture, controls, player]
 category: Media
 version: "1.28"
 unicode: "ed47"

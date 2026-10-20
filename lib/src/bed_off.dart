@@ -27,7 +27,7 @@ class BedOff extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [furniture, sleeping, comfortable, bedroom, mattress, resting, relax, sleep, futon, cozy]
+tags: [sleep, bedroom, hotel, rest, night, furniture, accommodation, disabled]
 version: "1.65"
 unicode: "f100"
 -->

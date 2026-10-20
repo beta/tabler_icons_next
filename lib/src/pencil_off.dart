@@ -26,7 +26,7 @@ class PencilOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [write, draft, edit, note, pencil, off, creative, artistic, disabled, inactive]
+tags: [read-only, no-edit, locked, edit, write, draw, modify, pen, compose, disabled, inactive, slash, crossed-out, update, change, pencil, off]
 category: Design
 version: "1.66"
 unicode: "f173"

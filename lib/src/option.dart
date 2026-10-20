@@ -27,7 +27,7 @@ class Option extends Icon {
 
   static const String _svg = '''<!--
 category: Symbols
-tags: [apple, key, keyboard, option]
+tags: [alt, alt-key, option-key, keyboard, mac, apple, modifier, key, option]
 version: "1.0"
 unicode: "1019f"
 -->

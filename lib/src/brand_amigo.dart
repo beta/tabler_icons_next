@@ -26,7 +26,7 @@ class BrandAmigo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [friend, ally, partner, companion, support, network, connection, colleague, associate, brand]
+tags: [amigo, app, social, mobile, logo, brand, company, friends, chat]
 category: Brand
 version: "1.114"
 unicode: "f5f9"

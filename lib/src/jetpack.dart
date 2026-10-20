@@ -27,7 +27,7 @@ class Jetpack extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [fly, rocket, transport, space, future, jetpack]
+tags: [jetpack, rocket, fly, flight, sci-fi, future, space, transport]
 version: "1.108"
 unicode: "f581"
 -->

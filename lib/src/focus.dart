@@ -26,7 +26,7 @@ class Focus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [target, bullseye, aim, focus, camera, picture, capture, lens, image]
+tags: [focus, target, bullseye, aim, center, camera, autofocus, precision, goal]
 category: Photography
 version: "1.3"
 unicode: "eb8d"

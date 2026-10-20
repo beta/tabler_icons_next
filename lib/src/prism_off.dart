@@ -26,7 +26,7 @@ class PrismOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, prism, off, disabled, inactive, geometry]
+tags: [triangular-prism, 3d, shape, disabled, unavailable, inactive, hidden, geometry, solid, object, prism, off]
 category: Shapes
 version: "2.20"
 unicode: "faaf"

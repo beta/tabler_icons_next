@@ -26,7 +26,7 @@ class RoadOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [car, travel, journey, traffic, highway, route, racing, road, off, location]
+tags: [street, highway, route, closed-road, lane, travel, traffic, disabled, unavailable, inactive, hidden, road, off]
 category: Map
 version: "1.66"
 unicode: "f191"

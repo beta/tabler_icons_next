@@ -26,7 +26,7 @@ class GitPullRequestDraft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, version control, command, git, pull, request, draft, versioning, repository, tracking]
+tags: [git, pull-request, pr, draft, work-in-progress, wip, version-control, github, gitlab, pull, request]
 category: Version control
 version: "1.49"
 unicode: "efb7"

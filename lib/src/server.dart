@@ -26,7 +26,7 @@ class Server extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [storage, hosting, www, server, hardware, technology, electronic, gadget, equipment]
+tags: [database, hosting, datacenter, backend, storage, rack, cloud, server]
 category: Devices
 version: "1.0"
 unicode: "eb1f"

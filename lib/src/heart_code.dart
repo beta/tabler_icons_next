@@ -27,7 +27,7 @@ class HeartCode extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [technology, developer, software, program, coding, script, algorithm, syntax, binary, logic]
+tags: [heart, love, like, favorite, favourite, code, developer, programming, dev, embed]
 version: "2.28"
 unicode: "fba1"
 -->

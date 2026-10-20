@@ -26,7 +26,7 @@ class RegexOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [regular, expression, code, replace, programming, coding, variables, regex, off, disabled]
+tags: [regular-expression, regexp, pattern, code, match, search, replace, disabled, unavailable, inactive, hidden, regex, off]
 category: Text
 version: "1.94"
 unicode: "f421"

@@ -26,7 +26,7 @@ class CashCoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [currency, payment, money, pay, cash, coin, banknote, finance, change, purchase]
+tags: [cash, money, payment, currency, finance, dollar, banknote, coin, coins, change, bill]
 category: E-commerce
 unicode: "1029e"
 version: "3.47"

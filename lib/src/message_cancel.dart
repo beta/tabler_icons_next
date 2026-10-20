@@ -27,7 +27,7 @@ class MessageCancel extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [abort, stop, dismiss, terminate, reject, halt, void, cease, cancelation, deny]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, cancelled, stop, abort, blocked, forbidden, reply, communication, dm]
 version: "2.10"
 unicode: "f96e"
 -->

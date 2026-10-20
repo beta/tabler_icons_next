@@ -26,7 +26,7 @@ class VaccineBottleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [medical, medicine, pharmacy, covid, virus, drug, vaccine, bottle, off, wellness]
+tags: [vaccine, vial, bottle, medicine, medical, disabled, inactive, vaccination, off]
 category: Health
 version: "1.94"
 unicode: "f439"

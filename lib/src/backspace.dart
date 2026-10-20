@@ -26,7 +26,7 @@ class Backspace extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [delete, remove, eliminate, backspace, typography, writing, font, character, word]
+tags: [delete, erase, remove, keyboard, key, clear, undo, backspace]
 category: Text
 version: "1.0"
 unicode: "ea2d"

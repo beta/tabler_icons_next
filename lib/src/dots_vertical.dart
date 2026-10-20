@@ -26,7 +26,7 @@ class DotsVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hellip, more, ellipsis, dots, vertical, control, operation, function, interface, management]
+tags: [kebab, more, menu, options, ellipsis, vertical, three-dots, overflow, actions, more-vert, dots]
 category: System
 version: "1.0"
 unicode: "ea94"

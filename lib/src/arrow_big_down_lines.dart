@@ -26,7 +26,7 @@ class ArrowBigDownLines extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, south, arrow, big, down, lines, pointer, bottom, decrease, navigation]
+tags: [large, bold, thick, direction, south, downward, bottom, pointer, arrow, big, down, lines]
 category: Arrows
 version: "1.52"
 unicode: "efe9"

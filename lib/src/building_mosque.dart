@@ -26,7 +26,7 @@ class BuildingMosque extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [worship, religion, islam, architecture, prayer, dome, minaret, community, faith, sacred]
+tags: [mosque, islam, muslim, religion, prayer, worship, minaret, dome, building]
 category: Buildings
 version: "2.16"
 unicode: "fa57"

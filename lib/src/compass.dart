@@ -26,7 +26,7 @@ class Compass extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [navigation, safari, travel, direction, discover, compass, location, geography, place, position]
+tags: [compass, navigation, direction, explore, discover, north, travel, orientation, safari]
 category: Map
 version: "1.0"
 unicode: "ea79"

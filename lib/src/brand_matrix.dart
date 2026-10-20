@@ -26,7 +26,7 @@ class BrandMatrix extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [non, profit, communication, ip, devices, brand, matrix, logo, company, trademark]
+tags: [matrix, messaging, chat, protocol, decentralized, element, logo, brand]
 category: Brand
 version: "1.113"
 unicode: "f5eb"

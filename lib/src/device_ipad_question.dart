@@ -27,7 +27,7 @@ class DeviceIpadQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [help, query, info, inquire, ask, support, doubt, faq, problem, confusion]
+tags: [ipad, tablet, apple, help, faq, support, unknown, ios, device, mobile, info, ask]
 version: "2.10"
 unicode: "f8a7"
 -->

@@ -26,7 +26,7 @@ class Soup extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, cooking, restaurant, bowl, hot, kitchen, soup, meal, cuisine, eating]
+tags: [bowl, soup, food, meal, hot, ramen]
 category: Food
 version: "1.41"
 unicode: "ef2e"

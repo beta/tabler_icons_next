@@ -27,7 +27,7 @@ class MusicPause extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [halt, break, interval, stop, suspend, freeze, hold, rest, wait, cease]
+tags: [song, audio, sound, note, melody, track, paused, hold, wait, suspend, mp3, playlist, player]
 version: "2.28"
 unicode: "fbe0"
 -->

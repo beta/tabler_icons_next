@@ -27,7 +27,7 @@ class LocationPause extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [halt, break, stop, interruption, cease, freeze, wait, delay, suspend, linger]
+tags: [location, navigation, gps, arrow, pointer, direction, map, position, pause, paused, wait, hold, suspend]
 version: "2.28"
 unicode: "fbba"
 -->

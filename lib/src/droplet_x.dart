@@ -27,7 +27,7 @@ class DropletX extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [close, refuse, cross, delete, cancel, remove, terminate, disallow, ban, prohibit]
+tags: [drop, water, liquid, close, delete, remove, cancel, rain, ink, color, clear, error]
 version: "2.10"
 unicode: "f90b"
 -->

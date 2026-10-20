@@ -27,7 +27,7 @@ class MapStar extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [favorite, highlight, feature, premium, elite, top, famous, prominent, renowned, prestige]
+tags: [map, navigation, location, travel, geography, directions, atlas, star, starred, favorite, rating, bookmark]
 version: "2.28"
 unicode: "fbd2"
 -->

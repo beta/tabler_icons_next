@@ -26,7 +26,7 @@ class TableAlias extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, database, chart, table, alias, storage, repository, records, information]
+tags: [table, alias, database, sql, data, spreadsheet, rename, excel, sheet]
 category: Database
 version: "1.75"
 unicode: "f25b"

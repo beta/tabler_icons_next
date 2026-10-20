@@ -26,7 +26,7 @@ class Sandbox extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [play, construct, test, experiment, game, create, box, soil, sandpit, mock]
+tags: [sandpit, test, testing, playground, experiment, sand, bucket, kids]
 category: System
 version: "2.44"
 unicode: "fd6c"

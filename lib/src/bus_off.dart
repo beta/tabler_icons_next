@@ -26,7 +26,7 @@ class BusOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vehicle, drive, driver, engine, motor, journey, trip, bus, off, transport]
+tags: [bus, public-transport, transit, transportation, vehicle, travel, disabled, off, unavailable, inactive, no-bus]
 category: Vehicles
 version: "1.94"
 unicode: "f3ce"

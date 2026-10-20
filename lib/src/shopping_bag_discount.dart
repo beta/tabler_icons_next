@@ -26,7 +26,7 @@ class ShoppingBagDiscount extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [purchase, buy, sale, store, offer, reduce, save, bargain, deal, cut]
+tags: [shopping-bag, bag, shop, sale, discount, coupon, promo, deal, store, purchase, buy, ecommerce]
 category: E-commerce
 version: "2.29"
 unicode: "fc17"

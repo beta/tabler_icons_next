@@ -26,7 +26,7 @@ class FileReport extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [stats, data, paper, document, chart, format, file, report, content, record]
+tags: [report, statistics, stats, chart, audit, document, file, summary, time, analysis]
 category: Document
 version: "1.38"
 unicode: "eded"

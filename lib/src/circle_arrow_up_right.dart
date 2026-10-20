@@ -26,7 +26,7 @@ class CircleArrowUpRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, direction, north, top, east, circle, arrow, right, pointer, increase]
+tags: [arrow, up-right, northeast, diagonal, arrow-circle, circle, round, button, direction, navigation, right]
 category: Arrows
 version: "2.3"
 unicode: "f702"

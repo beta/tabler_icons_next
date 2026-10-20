@@ -26,7 +26,7 @@ class HierarchyOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [relation, above, below, status, society, important, hierarchy, off, creative, artistic]
+tags: [hierarchy, org-chart, organization, tree, structure, diagram, disabled, off-state, unavailable, off]
 category: Design
 version: "1.94"
 unicode: "f3fa"

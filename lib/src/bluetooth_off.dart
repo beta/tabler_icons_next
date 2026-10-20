@@ -26,7 +26,7 @@ class BluetoothOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [wireless, connection, connect, bluetooth, off, hardware, technology, disabled, inactive, electronic]
+tags: [wireless, connection, pairing, headphones, devices, disabled, disconnected, bluetooth, off]
 category: Devices
 version: "1.22"
 unicode: "eceb"

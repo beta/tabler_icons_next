@@ -27,7 +27,7 @@ class MathCtg extends Icon {
 
   static const String _svg = '''<!--
 category: Math
-tags: [cotangent, angle, ratio, trigonometry, math, arc, circle, geometry, function, cosine]
+tags: [cotangent, cot, ctg, trigonometry, function, mathematics, formula, angle, math]
 unicode: "ff35"
 version: "3.9"
 -->

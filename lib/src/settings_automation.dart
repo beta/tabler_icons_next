@@ -26,7 +26,7 @@ class SettingsAutomation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [system, technology, automate, configure, device, program, settings, automation, preferences, config]
+tags: [cog, gear, preferences, automation, automate, workflow, auto, play, configuration, options, config, settings]
 category: System
 version: "1.39"
 unicode: "eed6"

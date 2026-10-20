@@ -26,7 +26,7 @@ class ColorPickerOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [timbre, saturation, paint, brush, choice, selection, sample, color, picker, off]
+tags: [color-picker, colour, eyedropper, pipette, dropper, sample, off, disabled, color, picker]
 category: Design
 version: "1.63"
 unicode: "f0d2"

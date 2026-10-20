@@ -26,7 +26,7 @@ class RectangularPrismPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, rectangular, prism, plus, add, more]
+tags: [cuboid, box, 3d, add, new, create, insert, shape, geometry, solid, rectangular, prism, plus]
 category: Shapes
 version: "2.20"
 unicode: "fab4"

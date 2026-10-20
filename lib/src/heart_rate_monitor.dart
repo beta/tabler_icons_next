@@ -26,7 +26,7 @@ class HeartRateMonitor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [medical, pulse, health, hospital, healthcare, heart, rate, monitor, wellness, love]
+tags: [heart-rate, ekg, ecg, monitor, pulse, cardiogram, medical, health, hospital, vitals, heart, rate]
 category: Health
 version: "1.44"
 unicode: "ef61"

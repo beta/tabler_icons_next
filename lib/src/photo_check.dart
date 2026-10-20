@@ -26,7 +26,7 @@ class PhotoCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [success, complete, gallery, photo, check, content, entertainment, confirm, approve, multimedia]
+tags: [image, picture, gallery, img, photography, media, done, success, confirmed, approved, verified, tick, thumbnail, landscape, photo, check]
 category: Media
 version: "1.89"
 unicode: "f35e"

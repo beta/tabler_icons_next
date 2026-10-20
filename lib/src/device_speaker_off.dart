@@ -26,7 +26,7 @@ class DeviceSpeakerOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sound, music, loud, audio, media, device, speaker, off, hardware, technology]
+tags: [speaker, loudspeaker, audio, sound, music, stereo, disabled, inactive, unavailable, slash, turn-off, hifi, subwoofer, device, off]
 category: Devices
 version: "1.65"
 unicode: "f112"

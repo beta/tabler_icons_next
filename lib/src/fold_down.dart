@@ -26,7 +26,7 @@ class FoldDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, move, toggle, fold, down, bottom, decrease, navigation, flow, fall]
+tags: [fold-down, collapse, expand, arrow-down, toggle, fold, accordion, minimize, down]
 category: Arrows
 version: "1.30"
 unicode: "ed54"

@@ -26,7 +26,7 @@ class BrandPaypay extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [japan, electronic, payment, services, mobile, brand, paypay, logo, company, trademark]
+tags: [paypay, payment, mobile-payment, japan, wallet, qr, logo, brand]
 category: Brand
 version: "1.113"
 unicode: "f5ec"

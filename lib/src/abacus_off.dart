@@ -26,7 +26,7 @@ class AbacusOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [abacus, math, counting, adding up, off, calculation, equation, disabled, inactive, mathematics]
+tags: [counting, calculation, math, mathematics, calculator, count, beads, arithmetic, numbers, disabled, inactive, abacus, off]
 category: Math
 version: "1.94"
 unicode: "f3b6"

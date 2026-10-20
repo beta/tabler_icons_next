@@ -27,7 +27,7 @@ class Analyze extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [analytics, data, statistics, graph, analyze, examination, study, review, assessment]
+tags: [analytics, analysis, data, statistics, insights, research, report, chart, examine, analyze]
 version: "1.93"
 unicode: "f3a3"
 -->

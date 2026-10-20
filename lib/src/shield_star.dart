@@ -27,7 +27,7 @@ class ShieldStar extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [protection, highlight, excellent, security, guard, favorite, elite, premium, focus, top]
+tags: [security, protection, protect, favorite, featured, rating, bookmark, premium, guard, safety, secure]
 version: "2.10"
 unicode: "f9cf"
 -->

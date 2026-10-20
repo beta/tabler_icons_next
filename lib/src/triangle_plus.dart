@@ -27,7 +27,7 @@ class TrianglePlus extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [add, increase, expand, raise, more, enlarge, boost, augment, enhance, amplify]
+tags: [triangle, shape, add, create, new, delta, polygon, triangular]
 version: "2.35"
 unicode: "fc9d"
 -->

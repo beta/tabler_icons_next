@@ -27,7 +27,7 @@ class CameraUp extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [photography, upload, increase, rise, ascend, elevate, lens, promote, upgrade, snapshot]
+tags: [camera, photo, photography, picture, video, lens, image, upload, arrow-up, increase, raise]
 version: "2.10"
 unicode: "f842"
 -->

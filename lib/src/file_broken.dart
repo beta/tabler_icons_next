@@ -26,7 +26,7 @@ class FileBroken extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [document, error, demaged, delete, file, broken, data, content, record, paper]
+tags: [broken, corrupted, damaged, error, missing, file, document, invalid, failed]
 category: Document
 version: "1.101"
 unicode: "f501"

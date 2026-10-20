@@ -26,7 +26,7 @@ class CalendarPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [date, day, plan, schedule, agenda, add, calender, calendar, plus, control]
+tags: [calendar, date, schedule, event, day, planner, agenda, add, new, create, plus, add-event, new-event, appointment]
 category: System
 version: "1.5"
 unicode: "ebba"

@@ -26,7 +26,7 @@ class LayoutCards extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [position, design, arrangement, layout, cards, creative, artistic, visual, aesthetic, style]
+tags: [cards, card-view, layout, grid, ui, tiles]
 category: Design
 version: "1.8"
 unicode: "ec13"

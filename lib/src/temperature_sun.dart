@@ -27,7 +27,7 @@ class TemperatureSun extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [heat, warm, climate, summer, degree, weather, forecast, sun, shine, hot]
+tags: [hot, heat, warm, summer, sun, temperature, thermometer, weather]
 version: "2.47"
 unicode: "fda4"
 -->

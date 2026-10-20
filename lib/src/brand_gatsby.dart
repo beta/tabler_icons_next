@@ -26,7 +26,7 @@ class BrandGatsby extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [framework, webpage, creation, software, brand, gatsby, logo, company, trademark, identity]
+tags: [gatsby, gatsbyjs, react, static-site, framework, web, javascript, logo, brand]
 category: Brand
 version: "1.92"
 unicode: "f396"

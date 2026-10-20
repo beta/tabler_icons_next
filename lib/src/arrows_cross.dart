@@ -26,7 +26,7 @@ class ArrowsCross extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, north, south, arrows, cross, navigation, flow, movement, route, path]
+tags: [crossing, shuffle, swap, intersect, exchange, pointer, navigation, direction, arrows, cross]
 category: Arrows
 version: "1.53"
 unicode: "effe"

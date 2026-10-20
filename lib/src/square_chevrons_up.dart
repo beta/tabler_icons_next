@@ -26,7 +26,7 @@ class SquareChevronsUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, direction, north, top, square, chevrons, increase, navigation, flow, rectangular]
+tags: [chevrons-up, double-chevron, chevrons, square, box, button, up, north]
 category: Arrows
 version: "1.118"
 unicode: "f64e"

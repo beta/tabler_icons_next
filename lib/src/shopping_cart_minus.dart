@@ -27,7 +27,7 @@ class ShoppingCartMinus extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [deduct, reduce, decrease, subtract, diminish, remove, shorten, cut, downsize, minimize]
+tags: [shopping-cart, cart, basket, remove-from-cart, remove, subtract, minus, trolley, shop, store, checkout, ecommerce, buy]
 version: "2.28"
 unicode: "fb62"
 -->

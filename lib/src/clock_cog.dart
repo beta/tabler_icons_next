@@ -27,7 +27,7 @@ class ClockCog extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [mechanism, gear, machine, system, engine, rotate, process, function, operate, engineer]
+tags: [cog, settings, gear, schedule-settings, configuration, cron, clock, time]
 version: "2.8"
 unicode: "f7c2"
 -->

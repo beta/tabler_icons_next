@@ -26,7 +26,7 @@ class Math1Divide3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [calculations, mathematic, quarter, math, divide, calculation, equation, mathematics, numeric, formula]
+tags: [third, fraction, one-third, divide, division, ratio, mathematics, math]
 category: Math
 version: "1.100"
 unicode: "f4e3"

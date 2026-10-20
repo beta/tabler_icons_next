@@ -26,7 +26,7 @@ class FileUnknown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [missing, unidentified, anonymous, file, unknown, document, data, content, record, paper]
+tags: [unknown, question, help, unrecognized, missing, unsupported, document, file, undefined]
 category: Document
 version: "1.56"
 unicode: "f042"

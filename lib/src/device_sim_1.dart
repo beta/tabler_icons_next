@@ -26,7 +26,7 @@ class DeviceSim1 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [card, phone, mobile, smartphone, device, sim, hardware, technology, electronic, gadget]
+tags: [sim-card, sim, sim-1, dual-sim, first, mobile, carrier, phone, cellular, device]
 category: Devices
 version: "1.97"
 unicode: "f4af"

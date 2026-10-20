@@ -26,7 +26,7 @@ class FileTypePhp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [scripting, backend, server, web, dynamic, programming, php, open-source, hypertext, preprocessor]
+tags: [php, script, backend, server, web, code, wordpress, laravel, file-format, extension]
 category: Document
 version: "2.25"
 unicode: "fb11"

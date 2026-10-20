@@ -26,7 +26,7 @@ class Number14Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fourteen, fourteenth, quattuordecade, quattuordecuple, quattuordecad, fourteenfold, quattuordecenary, quattuordec, quattuordecuplet, 14th]
+tags: [fourteen, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fce7"

@@ -26,7 +26,7 @@ class Line extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [geometric, segment, link, connection, line, creative, artistic, visual, aesthetic, style]
+tags: [line, segment, stroke, straight, draw, shape, geometry]
 category: Design
 version: "1.11"
 unicode: "ec40"

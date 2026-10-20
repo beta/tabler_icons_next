@@ -26,7 +26,7 @@ class FlipVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mirror, rotate, flip, vertical, creative, artistic, visual, aesthetic, style]
+tags: [flip-vertical, mirror, reflect, flip, symmetry, image-edit, transform, vertical]
 category: Design
 version: "1.0"
 unicode: "eaa8"

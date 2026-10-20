@@ -27,7 +27,7 @@ class MessageCircleQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [inquiry, query, doubt, confusion, curiosity, help, conversation, chat, dialogue, communication]
+tags: [chat, comment, speech-bubble, round, conversation, sms, help, faq, support, unknown, ask, reply, communication, dm]
 version: "2.10"
 unicode: "f97d"
 -->

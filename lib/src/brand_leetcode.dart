@@ -26,7 +26,7 @@ class BrandLeetcode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coding, practice, challenges, programming, algorithm, prep, interview, solve, developer, test]
+tags: [leetcode, coding, interview, algorithm, challenges, programming, practice, logo, brand]
 category: Brand
 version: "2.16"
 unicode: "fa51"

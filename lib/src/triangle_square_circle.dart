@@ -26,7 +26,7 @@ class TriangleSquareCircle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, geometry, round, angle, triangle, square, circle, circular, rectangular, form]
+tags: [shapes, geometry, triangle, square, circle, elements, primitives, delta, polygon]
 category: Shapes
 version: "1.21"
 unicode: "ece8"

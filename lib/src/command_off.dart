@@ -26,7 +26,7 @@ class CommandOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [apple, key, keyboard, cmd, command, off, disabled, inactive, sign, mark]
+tags: [command, cmd, keyboard, shortcut, key, mac, hotkey, off, disabled]
 category: Symbols
 version: "1.94"
 unicode: "f3d7"

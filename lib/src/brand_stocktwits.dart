@@ -26,7 +26,7 @@ class BrandStocktwits extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [finance, investment, stock, trade, market, share, community, tweet, platform, discussion]
+tags: [stocktwits, stocks, investing, trading, social, finance, market, logo, brand]
 category: Brand
 version: "2.45"
 unicode: "fd78"

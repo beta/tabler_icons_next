@@ -26,7 +26,7 @@ class PhotoScan extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [capture, photograph, picture, snapshot, scan-image, photogrammetry, visual-scan, picture-analysis, photo-analysis, photo]
+tags: [scan, image, recognition, picture, ocr, scanner, capture, camera, focus, vision, photo]
 category: System
 version: "2.36"
 unicode: "fca8"

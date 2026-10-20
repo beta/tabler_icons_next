@@ -27,7 +27,7 @@ class FolderQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [query, inquire, ask, puzzle, enquire, interrogate, probe, wonder, doubt, uncertainty]
+tags: [directory, dir, files, help, faq, support, unknown, archive, project, info, ask]
 version: "2.10"
 unicode: "f917"
 -->

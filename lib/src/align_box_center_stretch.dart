@@ -26,7 +26,7 @@ class AlignBoxCenterStretch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [distribute, organize, align, stretch, center, balance, expand, even, layout, arrange]
+tags: [alignment, layout, position, text-align, flexbox, justify, container, anchor, fill, middle, centered, align, center, stretch]
 category: Text
 version: "2.22"
 unicode: "facc"

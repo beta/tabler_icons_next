@@ -26,7 +26,7 @@ class CircleDashedNumber9 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [nine, nonet, ninth, nona, novenary, nonuple, ninefold, ninesome, nonad, ennead]
+tags: [9, nine, number, digit, numeral, count, step, circle, dashed, badge]
 category: Numbers
 version: "2.33"
 unicode: "fc74"

@@ -26,7 +26,7 @@ class FunctionOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [math, linear, statyscics, graph, function, off, calculation, equation, disabled, inactive]
+tags: [function, fx, formula, math, f-of-x, calculus, disabled, inactive, unavailable, slash, turn-off, graph, equation, off]
 category: Math
 version: "1.94"
 unicode: "f3f0"

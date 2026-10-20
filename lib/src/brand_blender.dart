@@ -26,7 +26,7 @@ class BrandBlender extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, 3d, animation, brand, blender, logo, company, trademark, identity, corporate]
+tags: [blender, 3d, modeling, animation, rendering, open-source, software, logo, brand]
 category: Brand
 version: "1.86"
 unicode: "f326"

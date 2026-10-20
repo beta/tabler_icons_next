@@ -26,7 +26,7 @@ class BrandPagekit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [content, management, system, website, component, modular, technology, brand, pagekit, logo]
+tags: [pagekit, cms, content-management, website, php, logo, brand, open-source, builder]
 category: Brand
 version: "1.36"
 unicode: "edd1"

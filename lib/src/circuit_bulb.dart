@@ -26,7 +26,7 @@ class CircuitBulb extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [lamp, light, electric, electricity, circuit, bulb, energy, voltage, power, current]
+tags: [bulb, lamp, light, lightbulb, circuit, electronics, electrical, schematic, diagram, electricity, component]
 category: Electrical
 version: "1.77"
 unicode: "f273"

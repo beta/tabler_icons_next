@@ -27,7 +27,7 @@ class HospitalCircle extends Icon {
 
   static const String _svg = '''<!--
 category: Health
-tags: [medical-center, healthcare, clinic, emergency, hospital-round, health, care, medical-facility, circle-hospital, health-center]
+tags: [hospital, medical, clinic, health, healthcare, emergency, sign, h, circle]
 version: "2.43"
 unicode: "fd58"
 -->

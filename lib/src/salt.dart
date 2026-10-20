@@ -26,7 +26,7 @@ class Salt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, cooking, kitchen, spice, salty, salt, meal, cuisine, eating, nutrition]
+tags: [salt-shaker, shaker, seasoning, spice, kitchen, cooking, food, salt]
 category: Food
 version: "1.40"
 unicode: "ef16"

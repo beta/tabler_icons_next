@@ -26,7 +26,7 @@ class Number4Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [four, quartet, quadruple, tetrad, fourfold, quaternary, quadrant, quartile, quadruplet, quad]
+tags: [four, number, digit, numeral, count, fourth, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcf9"

@@ -26,7 +26,7 @@ class Exposure0 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [digit, math, number, evaluation, exposure, camera, picture, capture, lens, image]
+tags: [exposure, exposure-compensation, ev, zero, camera, photo, photography, brightness]
 category: Photography
 version: "1.79"
 unicode: "f29c"

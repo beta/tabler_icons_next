@@ -26,7 +26,7 @@ class BallBaseball extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sport, game, competition, pitch, ball, baseball, athletic, fitness, exercise, physical]
+tags: [softball, mlb, sport, game, sports, team-sport, play, match, athletics, ball, baseball]
 category: Sport
 version: "1.48"
 unicode: "efa0"

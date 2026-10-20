@@ -27,7 +27,7 @@ class ChristmasBall extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [holiday-ball, festive, ornament, decoration, christmas, bauble, celebration, seasonal, holiday, decorative]
+tags: [bauble, ornament, xmas, christmas, holiday, decoration, festive, new-year, winter]
 version: "2.41"
 unicode: "fd31"
 -->

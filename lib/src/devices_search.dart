@@ -27,7 +27,7 @@ class DevicesSearch extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [explore, find, locate, seek, browse, scout, track, hunt, inspect, survey]
+tags: [responsive, multi-device, computer, find, magnifier, magnifying-glass, lookup, laptop, phone, tablet, desktop, zoom, query]
 version: "2.10"
 unicode: "f8f4"
 -->

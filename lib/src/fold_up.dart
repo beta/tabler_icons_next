@@ -26,7 +26,7 @@ class FoldUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, move, toggle, fold, top, increase, navigation, flow, rise, upward]
+tags: [fold-up, collapse, expand, arrow-up, toggle, fold, accordion, minimize, up]
 category: Arrows
 version: "1.30"
 unicode: "ed55"

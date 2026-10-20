@@ -26,7 +26,7 @@ class MedicalCross extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, hospital, help, indication, medical, cross, location, navigation, geography, place]
+tags: [health, hospital, first-aid, medicine, healthcare, doctor, emergency, pharmacy, plus, medical, cross]
 category: Map
 version: "1.10"
 unicode: "ec2f"

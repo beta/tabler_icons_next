@@ -26,7 +26,7 @@ class Confucius extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [culture, religion, philosophy, tradition, confucius, sign, mark, emblem, representation, indicator]
+tags: [confucius, confucianism, chinese, religion, philosophy, symbol, tradition, culture]
 category: Symbols
 version: "1.109"
 unicode: "f58a"

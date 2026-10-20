@@ -26,7 +26,7 @@ class BrandEvernote extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, organisation, notes, storage, archiving, brand, evernote, logo, company, trademark]
+tags: [evernote, notes, note-taking, productivity, notebook, app, logo, brand]
 category: Brand
 version: "1.114"
 unicode: "f600"

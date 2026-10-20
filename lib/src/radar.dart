@@ -26,7 +26,7 @@ class Radar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [location, navigation, gps, find, signal, technology, submarine, radar, geography, place]
+tags: [scan, sonar, detection, tracking, signal, gps, locate, search, radar]
 category: Map
 version: "1.54"
 unicode: "f017"

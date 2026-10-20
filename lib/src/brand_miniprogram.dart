@@ -26,7 +26,7 @@ class BrandMiniprogram extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mini, apps, mobile, development, platform, integrate, features, experience, interaction, technology]
+tags: [miniprogram, mini-program, wechat, mini-apps, app, mobile, logo, brand]
 category: Brand
 unicode: "f602"
 version: "1.114"

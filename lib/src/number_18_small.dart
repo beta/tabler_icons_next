@@ -26,7 +26,7 @@ class Number18Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [eighteen, eighteenth, octodecade, octodecuple, octodecad, eighteenfold, octodecenary, octodec, octodecuplet, 18th]
+tags: [eighteen, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fceb"

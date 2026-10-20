@@ -26,7 +26,7 @@ class MathAvg extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [math, avg, calculation, equation, mathematics, numeric, formula]
+tags: [average, mean, diameter, statistics, mathematics, empty-set, calculation, math, avg]
 category: Math
 version: "1.64"
 unicode: "f0f4"

@@ -27,7 +27,7 @@ class CopyPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Text
-tags: [increase, add, amplify, expand, enhance, augment, boost, replicate, multiply, grow]
+tags: [plus, add, new, create, copy, duplicate, clone, clipboard, paste]
 unicode: "fdae"
 version: "3.0"
 -->

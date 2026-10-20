@@ -26,7 +26,7 @@ class BrandBandlab extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [make, music, online, cloud, webstie, brand, bandlab, logo, company, trademark]
+tags: [bandlab, music, audio, daw, recording, studio, creation, social, logo, brand]
 category: Brand
 version: "1.114"
 unicode: "f5fa"

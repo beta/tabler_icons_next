@@ -26,7 +26,7 @@ class SquaresDiagonal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [boxes, layers, squares, diagonal, creative, artistic, rectangular, visual, aesthetic, style]
+tags: [squares, boxes, layers, overlap, intersect, diagonal, shapes, copy]
 category: Design
 version: "1.39"
 unicode: "eef5"

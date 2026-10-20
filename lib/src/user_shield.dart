@@ -27,7 +27,7 @@ class UserShield extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [protection, security, defend, safeguard, guard, armor, cover, shield, safety, fortify]
+tags: [person, account, profile, avatar, member, security, protection, admin, privacy, secure, guard, shield]
 version: "2.8"
 unicode: "f7d0"
 -->

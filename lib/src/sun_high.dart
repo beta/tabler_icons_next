@@ -26,7 +26,7 @@ class SunHigh extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [temperature, hot, wheater, thermometer, forecast, sun, high, climate, meteorology, atmospheric]
+tags: [sun, high-temperature, heat, hot, weather, forecast, summer, sunny, daylight, high]
 category: Weather
 version: "1.73"
 unicode: "f236"

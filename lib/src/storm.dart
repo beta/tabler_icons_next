@@ -26,7 +26,7 @@ class Storm extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, cloud, lighting, rain, wind, tornado, storm, climate, forecast, tempest]
+tags: [weather, thunderstorm, hurricane, cyclone, wind, rain, climate, lightning, thunder, storm]
 category: Weather
 version: "1.74"
 unicode: "f24c"

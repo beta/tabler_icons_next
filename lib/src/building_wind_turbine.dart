@@ -26,7 +26,7 @@ class BuildingWindTurbine extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [power, ecology, electricity, energy, building, wind, turbine, architecture, structure, construction]
+tags: [wind-turbine, windmill, wind, energy, renewable, power, electricity, eco, green, building, turbine]
 category: Buildings
 version: "1.98"
 unicode: "f4c0"

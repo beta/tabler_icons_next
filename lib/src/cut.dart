@@ -26,7 +26,7 @@ class Cut extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [scissors, divide, hairdresser, sharp, cut, creative, artistic, visual, aesthetic, style]
+tags: [cut, scissors, clip, trim, snip, cut-paste, clipboard, edit]
 category: Design
 version: "1.0"
 unicode: "ea86"

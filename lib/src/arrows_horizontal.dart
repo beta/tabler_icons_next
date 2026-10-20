@@ -26,7 +26,7 @@ class ArrowsHorizontal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [zoom, stretch, left, right, arrows, horizontal, navigation, flow, movement, route]
+tags: [left-right, width, resize, expand, pointer, navigation, direction, arrows, horizontal]
 category: Arrows
 version: "1.2"
 unicode: "eb59"

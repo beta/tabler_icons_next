@@ -26,7 +26,7 @@ class BrightnessDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [dark, darker, screen, brightness, down, bottom, decrease, fall, downward, camera]
+tags: [brightness, light, display, screen, sun, luminosity, contrast, decrease, dim, darker, lower, minus, down]
 category: Photography
 version: "1.3"
 unicode: "eb7d"

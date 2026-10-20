@@ -26,7 +26,7 @@ class ReceiptOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bill, restaurant, shop, price, pay, money, total, tax, receipt, off]
+tags: [bill, invoice, payment, purchase, transaction, disabled, unavailable, inactive, hidden, receipt, off]
 category: Document
 version: "1.38"
 unicode: "edfb"

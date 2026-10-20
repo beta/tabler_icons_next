@@ -26,7 +26,7 @@ class ArrowRightSquare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, east, arrow, right, square, pointer, navigation, flow, rectangular, navigate]
+tags: [direction, east, next, forward, box, pointer, navigation, arrow, right, square]
 category: Arrows
 version: "1.35"
 unicode: "eda2"

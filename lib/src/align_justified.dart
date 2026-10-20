@@ -26,7 +26,7 @@ class AlignJustified extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, alignment, position, align, justified, typography, writing, font, character, word]
+tags: [text-align, alignment, paragraph, typography, text, format, formatting, justify, justification, block, align, justified]
 category: Text
 version: "1.0"
 unicode: "ea08"

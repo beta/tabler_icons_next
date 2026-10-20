@@ -27,7 +27,7 @@ class BellSchool extends Icon {
 
   static const String _svg = '''<!--
 category: Buildings
-tags: [alarm, education, alert, sound, notification, study, bell, school]
+tags: [school-bell, ring, education, class, break, timer, class-bell, lesson, recess, bell, school]
 version: "1.58"
 unicode: "f05e"
 -->

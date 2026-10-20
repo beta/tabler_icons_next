@@ -26,7 +26,7 @@ class ClipboardX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [copy, "no", clipboard, file, paper, text, record, information, x]
+tags: [x, close, remove, delete, cancel, rejected, failed, clipboard, paste, document, task, notes]
 category: Document
 version: "1.0"
 unicode: "ea6e"

@@ -26,7 +26,7 @@ class BrowserX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [internet, web, display, close, browser, hardware, technology, electronic, gadget, equipment]
+tags: [browser, window, web, internet, webpage, website, tab, close, remove, delete, cancel, dismiss, close-tab, error, app]
 category: Devices
 version: "1.51"
 unicode: "efd8"

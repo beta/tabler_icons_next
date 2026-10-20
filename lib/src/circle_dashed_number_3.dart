@@ -26,7 +26,7 @@ class CircleDashedNumber3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [three, triple, trio, third, triad, treble, trinity, threesome, ternary, triune]
+tags: [3, three, number, digit, numeral, count, step, circle, dashed, badge]
 category: Numbers
 version: "2.33"
 unicode: "fc6e"

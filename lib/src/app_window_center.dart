@@ -26,7 +26,7 @@ class AppWindowCenter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [browser, page, website, web, interface, app, window, application, software, layout, center, middle, position, align]
+tags: [browser, application, interface, webpage, website, desktop, layout, middle, modal, dialog, app, window, center]
 category: System
 unicode: "10277"
 version: "3.45"

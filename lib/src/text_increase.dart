@@ -26,7 +26,7 @@ class TextIncrease extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [expand, margin, size, editor, edit, text, increase, typography, writing, font]
+tags: [font-size, bigger, increase, enlarge, text-size, typography, editor, formula, text]
 category: Text
 version: "1.70"
 unicode: "f203"

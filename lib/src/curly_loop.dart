@@ -27,7 +27,7 @@ class CurlyLoop extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [voicemail, power, infinity, curly, loop]
+tags: [curly-loop, loop, curl, voicemail, infinity, swirl, symbol, emoji, curly]
 version: "1.20"
 unicode: "ecda"
 -->

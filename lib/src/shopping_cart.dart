@@ -26,7 +26,7 @@ class ShoppingCart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shop, store, buy, purchase, product, bag, trolley, supermarket, grocery, shopping]
+tags: [cart, basket, trolley, shop, store, checkout, ecommerce, buy, purchase, supermarket, shopping]
 category: E-commerce
 version: "1.1"
 unicode: "eb25"

@@ -27,7 +27,7 @@ class Timezone extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [zone, utc, offset, region, location, local, difference, standard, time, clock]
+tags: [time-zone, timezone, utc, gmt, world-clock, offset, region, clock]
 unicode: "feed"
 version: "3.5"
 -->

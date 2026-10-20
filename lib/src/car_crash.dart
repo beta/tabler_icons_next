@@ -26,7 +26,7 @@ class CarCrash extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [accident, collision, damage, insurance, car, crash, transport, travel, vehicle, automobile]
+tags: [car-crash, accident, collision, crash, damage, insurance, car, vehicle]
 category: Vehicles
 version: "1.48"
 unicode: "efa4"

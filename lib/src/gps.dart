@@ -26,7 +26,7 @@ class Gps extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [navigation, directions, global, positioning, system, satnav, radionavigation, travel, car, gps]
+tags: [gps, navigation, location, satellite, satnav, compass, direction, positioning, map, tracking]
 category: Map
 version: "1.33"
 unicode: "ed7a"

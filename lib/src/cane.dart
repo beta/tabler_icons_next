@@ -26,7 +26,7 @@ class Cane extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [candy, christmas, sweet, food, decoration, cane, medical, wellness, healthcare, treatment]
+tags: [cane, candy-cane, christmas, sweet, candy, holiday, xmas, peppermint]
 category: Health
 version: "1.102"
 unicode: "f50f"

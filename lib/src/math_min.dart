@@ -26,7 +26,7 @@ class MathMin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [math, min, calculation, equation, mathematics, numeric, formula]
+tags: [minimum, min, lower-bound, limit, mathematics, function, formula, math]
 category: Math
 version: "1.64"
 unicode: "f0f6"

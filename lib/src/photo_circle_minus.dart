@@ -26,7 +26,7 @@ class PhotoCircleMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [subtract, reduce, delete, decrease, minus, empty, border, rim, round, picture]
+tags: [image, picture, round, gallery, img, media, remove, delete, subtract, minus]
 category: Media
 version: "2.32"
 unicode: "fc62"

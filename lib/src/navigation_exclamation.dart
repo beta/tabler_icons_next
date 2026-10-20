@@ -27,7 +27,7 @@ class NavigationExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [alert, attention, notice, warning, remark, surprise, point, caution, highlight, emphasis]
+tags: [gps, arrow, direction, location, cursor, compass, warning, alert, error, attention, important, route, map, pointer]
 version: "2.28"
 unicode: "fbf1"
 -->

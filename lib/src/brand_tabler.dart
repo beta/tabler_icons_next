@@ -26,7 +26,7 @@ class BrandTabler extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, website, dashboard, download, open-source, ui, brand, tabler, company, trademark]
+tags: [tabler, tabler-icons, icons, dashboard, ui, open-source, logo, brand]
 category: Brand
 version: "1.15"
 unicode: "ec8f"

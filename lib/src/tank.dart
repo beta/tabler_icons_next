@@ -26,7 +26,7 @@ class Tank extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [war, military, armour, vehicle, gun, attack, shoot, battle, battlefield, tank]
+tags: [military, army, war, armored, vehicle, weapon, battle, tanks, tank]
 category: Vehicles
 version: "1.34"
 unicode: "ed95"

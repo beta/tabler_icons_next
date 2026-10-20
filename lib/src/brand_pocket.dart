@@ -26,7 +26,7 @@ class BrandPocket extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, software, application, app, mobile, device, gathering, storage, brand, pocket]
+tags: [pocket, read-later, bookmarks, save, articles, mozilla, logo, brand]
 category: Brand
 version: "1.23"
 unicode: "ed00"

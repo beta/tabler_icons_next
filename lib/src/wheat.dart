@@ -27,7 +27,7 @@ class Wheat extends Icon {
 
   static const String _svg = '''<!--
 category: Food
-tags: [food, nature, greenary, grow, soil, harvest, plant, leaf, tree, flower]
+tags: [wheat, grain, gluten, cereal, crop, farm, agriculture, bread]
 unicode: "100a8"
 version: "3.23"
 -->

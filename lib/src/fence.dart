@@ -26,7 +26,7 @@ class Fence extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [garden, home, house, farm, wood, barrier, fence, architecture, structure, construction]
+tags: [fence, barrier, garden, yard, boundary, farm, wooden-fence, enclosure, property]
 category: Buildings
 version: "1.41"
 unicode: "ef2a"

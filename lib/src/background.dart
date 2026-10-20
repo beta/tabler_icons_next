@@ -26,7 +26,7 @@ class Background extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [backdrop, setting, context, environment, scene, ambient, surroundings, scape, contextual, atmosphere]
+tags: [layer, backdrop, wallpaper, layers, bring-to-back, design, canvas]
 category: Design
 version: "2.41"
 unicode: "fd2c"

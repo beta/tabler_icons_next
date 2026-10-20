@@ -26,7 +26,7 @@ class FileCertificate extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [certificate, license, diploma, document, format, data, paper, file, content, record]
+tags: [certificate, diploma, license, award, certification, credential, document, achievement, degree, file]
 category: Document
 version: "1.29"
 unicode: "ed4d"

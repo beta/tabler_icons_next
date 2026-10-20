@@ -26,7 +26,7 @@ class BorderSides extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [edges, flanks, limits, boundaries, perimeter, frames, boundary, outlines, borders, contours]
+tags: [table, cell, spreadsheet, excel, format, edge, edges]
 category: Design
 version: "2.6"
 unicode: "f7a1"

@@ -27,7 +27,7 @@ class CircleOpenArrowDown extends Icon {
 
   static const String _svg = '''<!--
 category: Arrows
-tags: [circle, open, arrow, down, direction, south, navigation, pointer, round]
+tags: [arrow, down, south, bottom, circle, open, round, cycle, refresh, direction, navigation]
 unicode: "10209"
 version: "3.40"
 -->

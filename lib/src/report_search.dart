@@ -26,7 +26,7 @@ class ReportSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [analytic, statistics, data, results, graph, document, report, search, find, look]
+tags: [report, search, find, analytics, document, data, results]
 category: Document
 version: "1.46"
 unicode: "ef84"

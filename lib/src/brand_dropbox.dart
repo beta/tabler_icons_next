@@ -26,7 +26,7 @@ class BrandDropbox extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [productivity, storage, cloud, file-sharing, brand, dropbox, logo, company, trademark, identity]
+tags: [dropbox, cloud, storage, file-sharing, sync, backup, files, logo, brand]
 category: Brand
 version: "3.34"
 unicode: "1018a"

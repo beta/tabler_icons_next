@@ -26,7 +26,7 @@ class Number84Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [eighty-four, digit, count, numeral, value, sequence, numeric, figure, calculate, number]
+tags: [eighty-four, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "3.14"
 unicode: "ffce"

@@ -26,7 +26,7 @@ class BrandPhp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, coding, script, format, file, brand, php, logo, company, trademark]
+tags: [php, programming, language, backend, server, web, code, logo, brand]
 category: Brand
 version: "1.45"
 unicode: "ef72"

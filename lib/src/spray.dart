@@ -27,7 +27,7 @@ class Spray extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [paint, clean, hygiene, graffiti, spray]
+tags: [spray-can, aerosol, paint, graffiti, cleaning, spray]
 version: "1.101"
 unicode: "f50b"
 -->

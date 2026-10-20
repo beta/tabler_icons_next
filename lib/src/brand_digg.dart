@@ -26,7 +26,7 @@ class BrandDigg extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [news, content, share, viral, articles, community, discovery, insights, topics, media]
+tags: [digg, news, social, aggregator, links, community, logo, brand]
 category: Brand
 version: "2.18"
 unicode: "fa73"

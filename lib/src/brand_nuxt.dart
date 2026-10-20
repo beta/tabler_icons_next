@@ -26,7 +26,7 @@ class BrandNuxt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, app development, library, javascript, js, brand, nuxt, logo, company, trademark]
+tags: [nuxt, nuxtjs, vue, framework, ssr, javascript, web, logo, brand]
 category: Brand
 version: "1.64"
 unicode: "f0de"

@@ -26,7 +26,7 @@ class FileCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [list, document, accept, done, tick, checkmark, file, check, data, confirm]
+tags: [file-check, done, approved, verified, confirmed, complete, document, checkmark, tick, success, file, check]
 category: Document
 version: "1.0"
 unicode: "ea9c"

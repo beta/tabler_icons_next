@@ -27,7 +27,7 @@ class MessageCircleX extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [remove, delete, cancel, dismiss, eliminate, conversation, chat, dialogue, terminate, end]
+tags: [chat, comment, speech-bubble, round, conversation, sms, close, delete, remove, cancel, clear, reply, communication, dm]
 version: "2.10"
 unicode: "f982"
 -->

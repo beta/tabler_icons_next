@@ -26,7 +26,7 @@ class Home2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [house, dashboard, living, building, home, main, architecture, structure, start, construction]
+tags: [home, house, homepage, main, start, dashboard, building, residence, real-estate]
 category: Buildings
 version: "1.1"
 unicode: "eac0"

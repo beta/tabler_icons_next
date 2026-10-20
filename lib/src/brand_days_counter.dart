@@ -26,7 +26,7 @@ class BrandDaysCounter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, mobile, highlights, days, birthday, brand, counter, logo, company, trademark]
+tags: [days-counter, countdown, counter, days, app, events, logo, brand]
 category: Brand
 version: "1.99"
 unicode: "f4d2"

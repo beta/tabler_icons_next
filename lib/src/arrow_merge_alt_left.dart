@@ -26,7 +26,7 @@ class ArrowMergeAltLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [merge-left, shift-left, combine-left, direction-left, join-left, move-left, alt-left-arrow, leftward, left-shift, left-merge]
+tags: [join, combine, converge, git, pull-request, branch, pointer, navigation]
 category: Arrows
 version: "2.36"
 unicode: "fc9f"

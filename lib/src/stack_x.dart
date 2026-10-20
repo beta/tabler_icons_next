@@ -26,7 +26,7 @@ class StackX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pile, elements, layout, stack, layers, cancel, remove, delete, close, reject]
+tags: [layers, stack, remove, delete, cancel, close, z-order, stacked, layer]
 category: Design
 unicode: "102a1"
 version: "3.48"

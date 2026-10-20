@@ -27,7 +27,7 @@ class WalletOff extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [money, pay, banknote, coin, payment, bank, wallet, off, disabled, inactive]
+tags: [wallet, money, payment, purse, finance, disabled, inactive, bricks, off]
 version: "1.67"
 unicode: "f1c4"
 -->

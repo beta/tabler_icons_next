@@ -26,7 +26,7 @@ class TruckLoading extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [transport, delivery, logistics, vehicle, truck, loading, store, purchase, shopping, retail]
+tags: [loading, truck, lorry, logistics, freight, cargo, shipping, warehouse]
 category: E-commerce
 version: "1.68"
 unicode: "f1da"

@@ -27,7 +27,7 @@ class DoorExit extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [out, close, leave, door, exit]
+tags: [exit, leave, logout, sign-out, log-out, check-out, door, emergency-exit, quit]
 version: "1.43"
 unicode: "ef4d"
 -->

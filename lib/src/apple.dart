@@ -26,7 +26,7 @@ class Apple extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fruit, healthy, diet, fitness, apple, meal, cuisine, eating, nutrition, culinary]
+tags: [fruit, food, healthy, fresh, diet, vegetarian, nutrition, snack, apple]
 category: Food
 version: "1.41"
 unicode: "ef21"

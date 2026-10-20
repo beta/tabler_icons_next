@@ -26,7 +26,7 @@ class Hierarchy extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [relation, above, below, status, society, important, hierarchy, creative, artistic, visual]
+tags: [hierarchy, org-chart, organization, tree, structure, diagram, network, parent-child, flowchart, sitemap]
 category: Design
 version: "1.39"
 unicode: "ee9e"

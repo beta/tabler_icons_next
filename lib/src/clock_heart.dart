@@ -27,7 +27,7 @@ class ClockHeart extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [love, affection, romance, care, passion, admiration, fondness, sentiment, emotion, devotion]
+tags: [heart, favorite, love, like, date, anniversary, clock, time, schedule]
 version: "2.8"
 unicode: "f7c4"
 -->

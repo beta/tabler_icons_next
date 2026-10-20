@@ -27,7 +27,7 @@ class Number3 extends Icon {
 
   static const String _svg = '''<!--
 category: Numbers
-tags: [three, maths, value, quantity, calculate, calculation, total, amount, sum, order, digit]
+tags: [three, number, digit, numeral, count, third, numeric, character]
 version: "1.38"
 unicode: "edf3"
 -->

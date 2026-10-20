@@ -26,7 +26,7 @@ class FileSpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [paper, new, file, spark, document, data, content, record, glitter, shine]
+tags: [document, page, paper, ai, magic, sparkle, smart, doc, sheet, new, shine, file, spark]
 category: Document
 version: "3.13"
 unicode: "ffb9"

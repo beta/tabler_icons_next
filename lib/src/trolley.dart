@@ -26,7 +26,7 @@ class Trolley extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shopping, market, shop, delivery, trolley, transport, travel, vehicle, automobile, mobility]
+tags: [trolley, hand-truck, dolly, cart, luggage, moving, delivery, handcart]
 category: Vehicles
 version: "1.98"
 unicode: "f4cc"

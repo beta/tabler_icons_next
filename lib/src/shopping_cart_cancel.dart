@@ -27,7 +27,7 @@ class ShoppingCartCancel extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [revoke, void, abort, stop, halt, annul, discontinue, suspend, cease, terminate]
+tags: [shopping-cart, cart, basket, cancel, block, stop, forbidden, ban, trolley, shop, store, checkout, ecommerce, buy]
 version: "2.28"
 unicode: "fb58"
 -->

@@ -27,7 +27,7 @@ class SettingsDown extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [gear, configuration, adjust, setup, control, decrease, lower, minimize, descend, reduce]
+tags: [cog, gear, preferences, download, arrow-down, decrease, lower, configuration, options, config]
 version: "2.10"
 unicode: "f9b3"
 -->

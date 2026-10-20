@@ -26,7 +26,7 @@ class Cheese extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, mouse, cooking, pizza, sandwiches, product, edam, gouda, cheese, meal]
+tags: [cheese, food, dairy, cheddar, slice, snack, mouse, swiss-cheese, emmental]
 category: Food
 version: "1.41"
 unicode: "ef26"

@@ -26,7 +26,7 @@ class BrandPrintables extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [design, 3d, template, file, download, model, creative, digital, art, blueprint]
+tags: [printables, prusa, 3d-printing, 3d, models, download, community, logo, brand]
 category: Brand
 version: "2.40"
 unicode: "fd1b"

@@ -26,7 +26,7 @@ class Trekking extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [adventure, travel, walking, hiking, activity, trekking, athletic, fitness, exercise, game]
+tags: [hiking, trekking, hiker, walking, backpack, outdoor, adventure, hike]
 category: Sport
 version: "1.110"
 unicode: "f5ad"

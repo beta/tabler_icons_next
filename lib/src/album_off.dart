@@ -27,7 +27,7 @@ class AlbumOff extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [photos, photography, gallery, music, album, off, disabled, inactive, collection, pictures]
+tags: [photos, gallery, images, pictures, music, collection, playlist, cd, media, disabled, inactive, album, off]
 version: "1.94"
 unicode: "f3b9"
 -->

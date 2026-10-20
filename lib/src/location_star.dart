@@ -27,7 +27,7 @@ class LocationStar extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [favorite, rate, highlight, notable, prestige, celebrity, important, acclaim, renown, shine]
+tags: [location, navigation, gps, arrow, pointer, direction, map, position, star, starred, favorite, rating, bookmark]
 version: "2.28"
 unicode: "fbc0"
 -->

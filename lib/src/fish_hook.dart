@@ -27,7 +27,7 @@ class FishHook extends Icon {
 
   static const String _svg = '''<!--
 category: Animals
-tags: [fishing, bait, hanging, catch, water, fish, hook]
+tags: [fish-hook, fishing, hook, bait, catch, lure, angling, tackle, webhook, fish]
 version: "1.70"
 unicode: "f1f9"
 -->

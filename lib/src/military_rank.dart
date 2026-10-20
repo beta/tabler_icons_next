@@ -27,7 +27,7 @@ class MilitaryRank extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [soldier, army, private, private second class, private first class, specialist, corporal, sergeant, staff sergeant, military]
+tags: [rank, chevron, army, stripes, insignia, soldier, sergeant, badge, military]
 version: "1.50"
 unicode: "efcf"
 -->

@@ -26,7 +26,7 @@ class Help extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tooltip, assistance, advice, support, help, control, operation, function, interface, management]
+tags: [help, question, support, faq, info, question-mark, assistance, unknown]
 category: System
 version: "1.1"
 unicode: "eabf"

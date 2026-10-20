@@ -26,7 +26,7 @@ class FileDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, finance, invoice, file, dollar, document, data, content, record, currency]
+tags: [document, page, paper, money, price, payment, cost, doc, sheet, currency, usd, finance, file, dollar]
 category: Document
 version: "1.51"
 unicode: "efe0"

@@ -26,7 +26,7 @@ class Backhoe extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [rear, equipment, digger, excavation, tractor, loader, construction, site, excavator, backhoe]
+tags: [excavator, digger, construction, tractor, bulldozer, machinery, vehicle, backhoe]
 category: Vehicles
 version: "1.34"
 unicode: "ed86"

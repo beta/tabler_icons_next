@@ -26,7 +26,7 @@ class MathXFloorDivideY extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [math, expression, equation, floor, division, divide, calculation, mathematics, numeric, formula]
+tags: [floor-division, integer-division, divide, floor, variables, formula, mathematics, math]
 category: Math
 version: "3.20"
 unicode: "10073"

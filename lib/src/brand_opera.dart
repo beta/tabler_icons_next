@@ -26,7 +26,7 @@ class BrandOpera extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, browser, internet, free, program, brand, opera, company, trademark, identity]
+tags: [opera, browser, web, internet, logo, brand, opera-gx, norway]
 category: Brand
 version: "1.9"
 unicode: "ec21"

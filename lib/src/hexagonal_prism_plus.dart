@@ -26,7 +26,7 @@ class HexagonalPrismPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, hexagonal, prism, plus, add, more]
+tags: [prism, hexagonal, 3d, shape, geometry, add, new, create, plus]
 category: Shapes
 version: "2.20"
 unicode: "faa4"

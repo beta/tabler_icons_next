@@ -26,7 +26,7 @@ class BuildingChurch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [religion, chapel, sanctuary, temple, cathedral, pray, prayer, building, church, architecture]
+tags: [church, chapel, religion, christian, cathedral, prayer, worship, building]
 category: Buildings
 version: "1.1"
 unicode: "ea4c"

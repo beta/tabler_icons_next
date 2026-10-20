@@ -26,7 +26,7 @@ class CurrencyAfghani extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, coin, cash, commerce, afghanistan, currency, afghani, finance, payment, monetary]
+tags: [afghani, afn, afghanistan, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.119"
 unicode: "f65e"

@@ -26,7 +26,7 @@ class CircuitChangeover extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [electric, diagram, electricity, change, circuit, changeover, energy, voltage, power, current]
+tags: [changeover, switch, toggle, spdt, relay, circuit, electronics, electrical, schematic, diagram, electricity, component]
 category: Electrical
 version: "1.77"
 unicode: "f278"

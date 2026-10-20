@@ -27,7 +27,7 @@ class MoneybagMoveBack extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [moneybag, move, back, wealth, rich, money, finance, savings, treasure, transfer]
+tags: [money, sack, bag, cash, savings, wealth, refund, return, cashback, receive, incoming, arrow-left, finance, dollar, budget, moneybag, move, back]
 version: "3.31"
 unicode: "1013a"
 -->

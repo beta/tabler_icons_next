@@ -26,7 +26,7 @@ class FileSpreadsheet extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [table, extension, excel, format, file, spreadsheet, document, data, content, record]
+tags: [spreadsheet, excel, sheet, table, csv, xls, google-sheets, document, data, grid, file]
 category: Document
 version: "1.56"
 unicode: "f03e"

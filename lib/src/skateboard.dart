@@ -26,7 +26,7 @@ class Skateboard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [toy, vehicle, electrical, skateboard, transport, travel, automobile, mobility]
+tags: [skate, skateboarding, board, deck, wheels, sport, skateboard]
 category: Vehicles
 version: "1.18"
 unicode: "ecc2"

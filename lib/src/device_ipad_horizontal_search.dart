@@ -27,7 +27,7 @@ class DeviceIpadHorizontalSearch extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [find, explore, look, seek, track, hunt, browse, scan, inspect, discover]
+tags: [search, find, magnifier, lookup, ipad, tablet, apple, ios, landscape]
 version: "2.10"
 unicode: "f89d"
 -->

@@ -26,7 +26,7 @@ class ZodiacGemini extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, horoscope, constellation, stars, zodiac, gemini, astrology, star]
+tags: [zodiac, horoscope, astrology, star-sign, sign, twins, constellation, astrological, gemini]
 category: Zodiac
 version: "1.17"
 unicode: "ecb0"

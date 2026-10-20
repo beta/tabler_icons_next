@@ -27,7 +27,7 @@ class Spy extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [security, incognito, privacy, browser, web, spy]
+tags: [incognito, private-browsing, privacy, anonymous, secret, agent, detective, spy]
 version: "1.72"
 unicode: "f227"
 -->

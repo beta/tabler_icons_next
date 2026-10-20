@@ -26,7 +26,7 @@ class BuildingCarousel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [amusement, park, fair, merry-go-round, fun, entertaianment, building, carousel, architecture, structure]
+tags: [carousel, merry-go-round, amusement-park, fair, fun, funfair, ride, entertainment, building]
 category: Buildings
 version: "1.34"
 unicode: "ed87"

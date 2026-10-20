@@ -27,7 +27,7 @@ class DropletPause extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [stop, break, halt, interruption, wait, delay, suspend, freeze, hold, stall]
+tags: [drop, water, liquid, paused, hold, suspend, wait, rain, ink, color, break]
 version: "2.10"
 unicode: "f903"
 -->

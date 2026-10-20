@@ -26,7 +26,7 @@ class MoodSadSquint extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, mad, mood, sad, squint, interface, component, widget]
+tags: [sad, squint, unhappy, frown, pain, emoji, smiley, face, emotion, feeling, reaction, mood]
 category: Mood
 version: "1.83"
 unicode: "f2e4"

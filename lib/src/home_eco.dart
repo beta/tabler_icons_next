@@ -26,7 +26,7 @@ class HomeEco extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ecology, energy, nature, leaf, house, home, eco, main, architecture, structure]
+tags: [home, house, eco, green, energy, ecology, sustainable, leaf, environment]
 category: Buildings
 version: "1.88"
 unicode: "f351"

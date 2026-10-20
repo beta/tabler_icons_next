@@ -27,7 +27,7 @@ class Message2Minus extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [subtract, remove, decrease, less, negative, deduct, reduce, takeaway, negate, diminish]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, remove, delete, subtract, reply, communication, dm]
 version: "2.10"
 unicode: "f964"
 -->

@@ -27,7 +27,7 @@ class Inbox extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [mail, gmail, email, envelope, post, inbox]
+tags: [inbox, mail, email, tray, messages, received, incoming, mailbox]
 version: "1.0"
 unicode: "eac4"
 -->

@@ -26,7 +26,7 @@ class BrandDeviantart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, community, internet, works, designer, project, presenting, artist, discussion, website, platform]
+tags: [deviantart, art, artist, community, gallery, portfolio, creative, logo, brand]
 category: Brand
 version: "1.23"
 unicode: "ecfb"

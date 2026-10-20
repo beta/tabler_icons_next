@@ -27,7 +27,7 @@ class Message2Up extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [upload, increase, rise, ascend, grow, climb, surge, lift, advance, boost]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, upload, arrow-up, increase, reply, communication, dm]
 version: "2.10"
 unicode: "f96b"
 -->

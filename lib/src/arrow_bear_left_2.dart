@@ -26,7 +26,7 @@ class ArrowBearLeft2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, north, arrow, bear, left, pointer, navigation, flow, navigate, move]
+tags: [bear-left, keep-left, fork, turn, road, directions, navigation, gps, route, arrow, bear, left]
 category: Arrows
 version: "1.57"
 unicode: "f044"

@@ -26,7 +26,7 @@ class TrashX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bin, litter, recycle, remove, delete, throw, away, waste, trash, control]
+tags: [delete, remove, bin, garbage, trash-can, empty-trash, discard, waste, rubbish, trash]
 category: System
 version: "1.46"
 unicode: "ef88"

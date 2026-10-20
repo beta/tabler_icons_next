@@ -26,7 +26,7 @@ class BatteryVerticalOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [energy, power, electricity, battery, vertical, off, charge, hardware, technology, disabled]
+tags: [power, energy, charge, level, phone, mobile, dead, disabled, no-battery, battery, vertical, off]
 category: Devices
 version: "3.7"
 unicode: "ff14"

@@ -27,7 +27,7 @@ class CirclePlusMinus extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [circle, plus, minus, add, remove, expand, collapse, round, control]
+tags: [plus-minus, add, remove, toggle, expand, collapse, difference, tolerance, circle, plus, minus]
 unicode: "10205"
 version: "3.40"
 -->

@@ -26,7 +26,7 @@ class CornerLeftUpDouble extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, point, above, top, corner, left, double, increase, navigation, flow]
+tags: [double, corner-arrow, arrow, corner, left-up, turn, bend, undo, direction, navigation, left]
 category: Arrows
 version: "1.39"
 unicode: "ee4b"

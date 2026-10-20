@@ -27,7 +27,7 @@ class LibraryPlus extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [add, increase, include, plus, archive, collection, library, books, expand, enhance]
+tags: [library, books, bookshelf, collection, add, new, create, plus]
 version: "2.42"
 unicode: "fd4b"
 -->

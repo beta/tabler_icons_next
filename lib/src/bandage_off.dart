@@ -26,7 +26,7 @@ class BandageOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [patch, wound, cut, pain, bandage, off, medical, wellness, disabled, inactive]
+tags: [band-aid, plaster, bandaid, wound, injury, first-aid, medical, disabled, bandage, off]
 category: Health
 version: "1.94"
 unicode: "f3c4"

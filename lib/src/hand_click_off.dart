@@ -26,7 +26,7 @@ class HandClickOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gesture, touch, press, phone, finger, index, forefinger, hand, mouse, click]
+tags: [hand, click, tap, touch, pointer, cursor, finger, no-click, disabled, off-state]
 category: Gestures
 version: "3.27"
 unicode: "100f1"

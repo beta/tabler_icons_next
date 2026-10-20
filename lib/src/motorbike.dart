@@ -26,7 +26,7 @@ class Motorbike extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [engine, ride, trip, journey, road, street, vehicle, motorcycle, motorbike, transport]
+tags: [motorcycle, bike, scooter, ride, vehicle, transport, biker, motorbike]
 category: Vehicles
 version: "1.39"
 unicode: "eeb6"

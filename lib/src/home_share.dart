@@ -26,7 +26,7 @@ class HomeShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [house, dashboard, living, building, network, link, connection, home, share, main]
+tags: [home, house, homepage, building, residence, real-estate, share, send, forward]
 category: Buildings
 version: "1.87"
 unicode: "f342"

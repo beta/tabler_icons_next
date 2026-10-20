@@ -26,7 +26,7 @@ class CylinderOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [geometry, gas, tube, object, piston, cylinder, off, disabled, inactive, form]
+tags: [cylinder, 3d, shape, geometry, solid, tube, off, disabled]
 category: Shapes
 version: "2.20"
 unicode: "fa98"

@@ -27,7 +27,7 @@ class DevicesShare extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [distribute, send, transmit, post, broadcast, exchange, spread, circulate, propagate, connect]
+tags: [responsive, multi-device, computer, send, forward, export, social, laptop, phone, tablet, desktop, distribute]
 version: "2.10"
 unicode: "f8f5"
 -->

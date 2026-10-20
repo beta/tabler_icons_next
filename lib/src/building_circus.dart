@@ -26,7 +26,7 @@ class BuildingCircus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tent, show, carnival, clown, building, circus, architecture, structure, construction, property]
+tags: [circus, tent, carnival, show, entertainment, fair, building, big-top, clown]
 category: Buildings
 version: "1.98"
 unicode: "f4bf"

@@ -26,7 +26,7 @@ class FileCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [paper, new, file, code, document, data, content, record, programming, script]
+tags: [code, source-code, programming, script, developer, html, document, file, coding]
 category: Document
 version: "1.6"
 unicode: "ebd0"

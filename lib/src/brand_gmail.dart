@@ -26,7 +26,7 @@ class BrandGmail extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [google, message, mail, communication, brand, gmail, logo, company, trademark, identity]
+tags: [gmail, google, email, mail, inbox, message, logo, brand]
 category: Brand
 version: "1.48"
 unicode: "efa2"

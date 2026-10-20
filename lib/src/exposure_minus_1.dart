@@ -26,7 +26,7 @@ class ExposureMinus1 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [digit, math, number, evaluation, exposure, minus, subtract, remove, less, decrease]
+tags: [exposure, exposure-compensation, ev, minus-one, darker, camera, photo, photography, brightness, minus]
 category: Photography
 version: "1.79"
 unicode: "f29d"

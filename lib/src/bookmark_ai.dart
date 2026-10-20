@@ -26,7 +26,7 @@ class BookmarkAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [read, clip, marker, tag, bookmark, ai, file, paper, text, record]
+tags: [save, saved, favorite, read-later, tag, marker, artificial-intelligence, smart, bookmark, ai]
 category: Document
 version: "2.35"
 unicode: "fc8a"

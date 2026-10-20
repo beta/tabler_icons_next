@@ -26,7 +26,7 @@ class WindowMaximize extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fullscreen, browser, size, full, resize, window, maximize, control, operation, function]
+tags: [maximize, fullscreen, expand, enlarge, window, resize, gust, windows, maximise]
 category: System
 version: "1.69"
 unicode: "f1f1"

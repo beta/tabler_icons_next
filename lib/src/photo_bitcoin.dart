@@ -27,7 +27,7 @@ class PhotoBitcoin extends Icon {
 
   static const String _svg = '''<!--
 category: Photography
-tags: [crypto, currency, digital, finance, coin, blockchain, money, photography, snapshot, photo]
+tags: [image, picture, gallery, img, photography, media, crypto, btc, cryptocurrency, thumbnail, landscape, photo]
 version: "3.9"
 unicode: "ff31"
 -->

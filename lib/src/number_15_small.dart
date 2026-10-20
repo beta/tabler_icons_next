@@ -26,7 +26,7 @@ class Number15Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fifteen, fifteenth, quindecade, quindecuple, quindecad, fifteenfold, quindecenary, quindec, quindecuplet, 15th]
+tags: [fifteen, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fce8"

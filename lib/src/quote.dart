@@ -26,7 +26,7 @@ class Quote extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [chat, message, text, punctuation, quotation, comment, quote, typography, writing, font]
+tags: [quotation, quotation-marks, blockquote, citation, testimonial, cite, text, punctuation, quote]
 category: Text
 version: "1.49"
 unicode: "efbe"

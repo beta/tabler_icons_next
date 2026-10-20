@@ -27,7 +27,7 @@ class DeviceDesktopX extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [remove, delete, erase, cancel, discard, omit, exclude, obliterate, purge, terminate]
+tags: [x, close, remove, delete, cancel, error, failed, desktop, monitor, computer, screen, pc]
 version: "2.10"
 unicode: "f870"
 -->

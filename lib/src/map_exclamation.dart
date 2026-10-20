@@ -27,7 +27,7 @@ class MapExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [alert, warn, caution, notice, emphasis, signal, highlight, stress, attention, callout]
+tags: [map, navigation, location, travel, geography, directions, atlas, warning, alert, error, important, attention]
 version: "2.28"
 unicode: "fbcb"
 -->

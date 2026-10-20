@@ -26,7 +26,7 @@ class MessageChatbot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [automatic, robot, assistant, support, message, chatbot, contact, conversation, messaging, interaction]
+tags: [chatbot, bot, robot, assistant, ai, support, chat, auto-reply, speech-bubble, virtual-assistant, customer-service, message]
 category: Communication
 version: "1.91"
 unicode: "f38a"

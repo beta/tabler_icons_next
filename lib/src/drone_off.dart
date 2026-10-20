@@ -26,7 +26,7 @@ class DroneOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [device, fly, aircraft, surveillance, control, autonomous, drone, off, transport, travel]
+tags: [drone, quadcopter, uav, aerial, camera-drone, fly, disabled, inactive, unavailable, slash, turn-off, flying, remote-control, off]
 category: Vehicles
 version: "1.39"
 unicode: "ee7e"

@@ -26,7 +26,7 @@ class BrandDeliveroo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, online, delivery, supplier, brand, deliveroo, logo, company, trademark, identity]
+tags: [deliveroo, food-delivery, delivery, takeaway, restaurant, food, order, logo, brand]
 category: Brand
 version: "1.99"
 unicode: "f4d3"

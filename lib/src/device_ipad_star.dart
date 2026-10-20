@@ -27,7 +27,7 @@ class DeviceIpadStar extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [favorite, highlight, rate, score, best, top, important, lead, premium, noteworthy]
+tags: [ipad, tablet, apple, favorite, favourite, bookmark, rating, ios, device, mobile, featured, starred]
 version: "2.10"
 unicode: "f8aa"
 -->

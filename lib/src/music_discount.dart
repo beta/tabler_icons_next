@@ -27,7 +27,7 @@ class MusicDiscount extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [offer, sale, reduce, discounted, promotion, bargain, deal, cut, rebate, markdown]
+tags: [song, audio, sound, note, melody, track, sale, promo, offer, percent, coupon, mp3, playlist, player]
 version: "2.28"
 unicode: "fbda"
 -->

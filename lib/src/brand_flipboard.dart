@@ -26,7 +26,7 @@ class BrandFlipboard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [news, newspapper, social, media, brand, flipboard, logo, company, trademark, identity]
+tags: [flipboard, news, magazine, reader, aggregator, social, logo, brand]
 category: Brand
 version: "1.71"
 unicode: "f20b"

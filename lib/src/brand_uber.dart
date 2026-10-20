@@ -26,7 +26,7 @@ class BrandUber extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [taxi, transport, car, food, brand, uber, logo, company, trademark, identity]
+tags: [uber, taxi, ride-sharing, rideshare, cab, transport, uber-eats, logo, brand]
 category: Brand
 version: "1.45"
 unicode: "ef75"

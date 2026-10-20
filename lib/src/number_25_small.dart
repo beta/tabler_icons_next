@@ -26,7 +26,7 @@ class Number25Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [twenty-five, 25th, twenty-fifth, viginti-quinto, viginti-fifth, twenty, and, five, plus, 25]
+tags: [twenty-five, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcf3"

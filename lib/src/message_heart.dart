@@ -27,7 +27,7 @@ class MessageHeart extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [love, like, affection, favorable, admire, cherish, favor, appreciate, fondness, emotional]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, favorite, like, love, reply, communication, dm]
 version: "2.10"
 unicode: "f987"
 -->

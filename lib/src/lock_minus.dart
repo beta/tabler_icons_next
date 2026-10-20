@@ -27,7 +27,7 @@ class LockMinus extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [decrease, deduct, subtract, reduce, less, lower, diminish, deduction, down, minimize]
+tags: [lock, padlock, locked, security, secure, password, private, protected, remove, subtract, minus, delete]
 version: "2.10"
 unicode: "f92d"
 -->

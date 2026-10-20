@@ -26,7 +26,7 @@ class Settings2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cog, edit, gear, preferences, tools, settings, config, options, control, operation]
+tags: [cog, gear, preferences, configuration, options, config, setup, control, settings]
 category: System
 version: "1.110"
 unicode: "f5ac"

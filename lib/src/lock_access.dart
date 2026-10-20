@@ -26,7 +26,7 @@ class LockAccess extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [block, limited, restricted, unavailable, confidential, lock, access, secure, private, control]
+tags: [access-control, lock, restricted, secure, protected, private, authorization, access]
 category: System
 version: "1.39"
 unicode: "eeaa"

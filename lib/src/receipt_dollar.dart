@@ -27,7 +27,7 @@ class ReceiptDollar extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [currency, bill, transaction, invoice, payment, finance, economy, account, cash, document]
+tags: [receipt, bill, invoice, dollar, usd, payment, currency, money, transaction]
 version: "2.44"
 unicode: "fd67"
 -->

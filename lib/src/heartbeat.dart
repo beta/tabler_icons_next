@@ -26,7 +26,7 @@ class Heartbeat extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pulse, medical, ecg, cardiology, fitness, chart, heartbeat, wellness, love, like]
+tags: [heartbeat, pulse, heart-rate, ekg, ecg, cardio, medical, health, vitals, fitness]
 category: Health
 version: "1.47"
 unicode: "ef92"

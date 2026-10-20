@@ -26,7 +26,7 @@ class Jpg extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [file, format, type, document, filetype, jpg, plugin, addon, module, component]
+tags: [jpg, jpeg, image, file, format, photo, picture, extension]
 category: Extensions
 version: "1.93"
 unicode: "f3ac"

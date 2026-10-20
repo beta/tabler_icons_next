@@ -26,7 +26,7 @@ class SquareLetterX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cancel, close, delete, remove, times, clear, "no", square, letter, rectangular]
+tags: [letter, x, character, alphabet, square, box]
 category: Letters
 version: "1.0"
 unicode: "f4bc"

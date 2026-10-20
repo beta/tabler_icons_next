@@ -26,7 +26,7 @@ class HomeSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [find, estate, house, building, home, search, main, look, seek, architecture]
+tags: [home, house, homepage, building, residence, real-estate, search, find, lookup, magnifier, explore]
 category: Buildings
 version: "1.87"
 unicode: "f341"

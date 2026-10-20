@@ -1,0 +1,56 @@
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
+import 'internal/icon.dart';
+
+class TriangleDashed extends Icon {
+  const TriangleDashed({
+    super.key,
+    super.strokeWidth,
+    super.width,
+    super.height,
+    super.fit,
+    super.alignment,
+    super.matchTextDirection,
+    super.allowDrawingOutsideViewBox,
+    super.placeholderBuilder,
+    super.colorFilter,
+    super.color,
+    super.colorBlendMode,
+    super.semanticsLabel,
+    super.excludeFromSemantics,
+    super.clipBehavior,
+    super.theme,
+  }) : super(_svg);
+
+  static const String _svg = '''<!--
+tags: [triangle, dashed, dotted, shape, geometry, delta, polygon, triangular]
+category: Shapes
+unicode: "102b4"
+version: "3.49"
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="<STROKE_WIDTH>"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M10.17 4.128c.32 -.688 1.042 -1.131 1.837 -1.128c.795 .002 1.513 .45 1.829 1.14" />
+  <path d="M14 20.027h2" />
+  <path d="M15.874 7.486l1 1.639" />
+  <path d="M18.849 12.414l1 1.638" />
+  <path d="M21.835 17.36c.28 .587 .226 1.269 -.145 1.81a2.03 2.03 0 0 1 -1.69 .86" />
+  <path d="M4 20.027a2.03 2.03 0 0 1 -1.702 -.864a1.8 1.8 0 0 1 -.137 -1.822" />
+  <path d="M5.136 12.414l-1 1.638" />
+  <path d="M8 20.027h2" />
+  <path d="M8.102 7.486l-1 1.639" />
+</svg>
+''';
+}

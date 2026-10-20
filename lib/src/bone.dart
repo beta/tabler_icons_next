@@ -26,7 +26,7 @@ class Bone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [skeleton, human, dog, body, bone, meal, cuisine, eating, nutrition, culinary]
+tags: [skeleton, dog, medical, anatomy, fracture, dog-bone, pet, orthopedic, broken-bone, bone]
 category: Food
 version: "1.35"
 unicode: "edb8"

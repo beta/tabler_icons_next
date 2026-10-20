@@ -26,7 +26,7 @@ class BadgeHd extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, video, display, resolution, movie, badge, hd, award, achievement, recognition]
+tags: [high-definition, 720p, 1080p, resolution, video, quality, screen, display, badge, hd]
 category: Badges
 version: "1.106"
 unicode: "f55b"

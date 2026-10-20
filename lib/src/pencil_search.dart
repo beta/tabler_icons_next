@@ -27,7 +27,7 @@ class PencilSearch extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [edit, find, locate, explore, discover, inquire, research, scan, track, browse]
+tags: [edit, write, draw, modify, pen, compose, find, magnifier, lookup, zoom, update, change]
 version: "2.28"
 unicode: "fc0a"
 -->

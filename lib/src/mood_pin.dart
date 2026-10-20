@@ -26,7 +26,7 @@ class MoodPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [emotion, feeling, happy, face, location, map, mood, pin, attach, fix]
+tags: [pinned, location, map-pin, status, emoji, smiley, face, emotion, feeling, reaction, mood, pin]
 category: Mood
 version: "2.7"
 unicode: "f7b8"

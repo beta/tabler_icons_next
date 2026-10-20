@@ -27,7 +27,7 @@ class CodeVariable extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [constant, loop, iterator, operand, identifier, expression, function, placeholder, code, variable]
+tags: [variable, var, function, placeholder, parameter, token, code, programming, developer, braces]
 version: "3.23"
 unicode: "100ab"
 -->

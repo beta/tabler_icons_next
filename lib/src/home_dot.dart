@@ -26,7 +26,7 @@ class HomeDot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [notification, alert, monitor, home, dot, house, main, architecture, structure, start]
+tags: [home, house, notification, dot, badge, unread, alert, status]
 category: Buildings
 version: "1.87"
 unicode: "f33a"

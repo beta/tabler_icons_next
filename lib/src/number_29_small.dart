@@ -26,7 +26,7 @@ class Number29Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [twenty-nine, 29th, twenty-ninth, viginti-nono, viginti-ninth, twenty, and, nine, plus, 29]
+tags: [twenty-nine, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcf7"

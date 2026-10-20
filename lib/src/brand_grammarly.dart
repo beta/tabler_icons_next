@@ -26,7 +26,7 @@ class BrandGrammarly extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, editor, detects, mistakes, grammar, brand, grammarly, logo, company, trademark]
+tags: [grammarly, grammar, spelling, writing, spell-check, text, assistant, logo, brand]
 category: Brand
 version: "1.86"
 unicode: "f32b"

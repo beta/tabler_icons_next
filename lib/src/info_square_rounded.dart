@@ -26,7 +26,7 @@ class InfoSquareRounded extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [help, support, shape, information, question, info, square, rounded, control, operation]
+tags: [info, information, about, details, help, tip, i, square-rounded, squircle, notice, square, rounded]
 category: System
 version: "1.117"
 unicode: "f635"

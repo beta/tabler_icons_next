@@ -26,7 +26,7 @@ class CircuitAmmeter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [diagram, electric, electricity, circuit, ammeter, energy, voltage, power, current, interface]
+tags: [ammeter, current, amperes, amp, meter, measure, circuit, electronics, electrical, schematic, diagram, electricity, component]
 category: Electrical
 version: "1.77"
 unicode: "f271"

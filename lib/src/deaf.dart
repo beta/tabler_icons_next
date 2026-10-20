@@ -26,7 +26,7 @@ class Deaf extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hearing, impaired, disability, accessibility, a11y, ear, deaf, hard-of-hearing, inclusive, barrier-free]
+tags: [deaf, hearing-impaired, hard-of-hearing, ear, hearing, accessibility, a11y, disability, sign-language]
 category: Health
 unicode: "101ac"
 version: "3.36"

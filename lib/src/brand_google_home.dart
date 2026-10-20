@@ -26,7 +26,7 @@ class BrandGoogleHome extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, control, devices, speaker, brand, google, home, house, main, start]
+tags: [google-home, google, smart-home, home, speaker, assistant, iot, logo, brand]
 category: Brand
 version: "1.114"
 unicode: "f601"

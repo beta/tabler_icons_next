@@ -26,7 +26,7 @@ class BallBasketball extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, round, quarter, basket, nba, ball, basketball, athletic, fitness, exercise]
+tags: [nba, hoop, sport, game, sports, team-sport, play, match, athletics, ball, basketball]
 category: Sport
 version: "1.1"
 unicode: "ec28"

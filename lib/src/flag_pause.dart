@@ -27,7 +27,7 @@ class FlagPause extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [stop, break, halt, interrupt, freeze, rest, suspend, stall, hold, delay]
+tags: [report, banner, milestone, paused, hold, suspend, wait, mark, country, goal, break]
 version: "2.28"
 unicode: "fb95"
 -->

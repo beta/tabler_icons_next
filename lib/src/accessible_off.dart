@@ -27,7 +27,7 @@ class AccessibleOff extends Icon {
 
   static const String _svg = '''<!--
 category: Health
-tags: [low-vision, blind, disability, handicapped, accessible, off, disabled, inactive, accessibility, inclusive]
+tags: [accessibility, wheelchair, disability, handicapped, a11y, inclusive, person, ada, barrier-free, disabled, inactive, accessible, off]
 version: "1.62"
 unicode: "f0a7"
 -->

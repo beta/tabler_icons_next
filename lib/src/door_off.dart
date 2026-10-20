@@ -27,7 +27,7 @@ class DoorOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [entrance, home, house, room, door, off, disabled, inactive]
+tags: [door, entrance, entry, room, home, house, disabled, inactive, unavailable, slash, turn-off, doorway, access, off]
 version: "1.65"
 unicode: "f11b"
 -->

@@ -27,7 +27,7 @@ class CloudStar extends Icon {
 
   static const String _svg = '''<!--
 category: Weather
-tags: [favorite, best, highlight, top, rated, acclaim, celebrate, praise, honor, prestige]
+tags: [star, favorite, bookmark, rating, featured, cloud, cloud-storage, online, sync, storage, weather]
 version: "2.10"
 unicode: "f85b"
 -->

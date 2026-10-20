@@ -27,7 +27,7 @@ class DeviceWatchPin extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [attach, secure, fasten, bookmark, clip, stick, mark, peg, fix, place]
+tags: [smartwatch, wearable, apple-watch, location, map-pin, marker, place, wristwatch, device, fitness-tracker, gps, geolocation]
 version: "2.10"
 unicode: "f8de"
 -->

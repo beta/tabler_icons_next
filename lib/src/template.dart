@@ -26,7 +26,7 @@ class Template extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grid, columns, masonry, collage, template, creative, artistic, visual, aesthetic, style]
+tags: [layout, grid, template, masonry, collage, blocks, wireframe, dashboard]
 category: Design
 version: "1.1"
 unicode: "eb39"

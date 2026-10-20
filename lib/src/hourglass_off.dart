@@ -26,7 +26,7 @@ class HourglassOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, timer, sand, clock, hourglass, off, control, operation, disabled, inactive]
+tags: [hourglass, sand-timer, timer, time, disabled, off-state, unavailable, off]
 category: System
 version: "1.66"
 unicode: "f147"

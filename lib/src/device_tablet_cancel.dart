@@ -27,7 +27,7 @@ class DeviceTabletCancel extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [tablet, cancel, remove, stop, block, end, terminate, discontinue, halt, interfere]
+tags: [tablet, ipad, android, cancel, stop, abort, block, touchscreen, device, mobile, denied, forbidden]
 version: "2.10"
 unicode: "f8c1"
 -->

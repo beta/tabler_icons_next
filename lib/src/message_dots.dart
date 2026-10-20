@@ -26,7 +26,7 @@ class MessageDots extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [comment, chat, reply, message, dots, contact, conversation, messaging, interaction]
+tags: [chat, typing, ellipsis, speech-bubble, comment, conversation, more, waiting, writing, pending, message, dots]
 category: Communication
 version: "1.0"
 unicode: "eaee"

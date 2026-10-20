@@ -27,7 +27,7 @@ class AddressBookOff extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [contact, contacts, phonebook, profile, resources, address, book, off, disabled, inactive]
+tags: [contacts, contact, phonebook, directory, people, address-list, rolodex, disabled, inactive, address, book, off]
 version: "1.94"
 unicode: "f3b8"
 -->

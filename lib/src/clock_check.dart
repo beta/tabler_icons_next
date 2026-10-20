@@ -26,7 +26,7 @@ class ClockCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [confirm, verify, approve, validate, assure, certify, endorse, ratify, clock, check]
+tags: [check, done, on-time, completed, confirmed, approved, clock, time, schedule]
 category: System
 version: "2.8"
 unicode: "f7c1"

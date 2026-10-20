@@ -26,7 +26,7 @@ class ChristmasTree extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [holidays, pine, decorate, decoration, gift, present, carol, evergreen, spruce, fir, winter]
+tags: [xmas, christmas, holiday, pine, spruce, fir, evergreen, decoration, winter, festive, new-year]
 category: Nature
 version: "1.33"
 unicode: "ed78"

@@ -27,7 +27,7 @@ class InputX extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [cross, cancel, remove, delete, not, clear, erase, exit, close, negate]
+tags: [input, text-field, form, field, clear, invalid, error, validation, remove, cancel]
 version: "2.32"
 unicode: "fc5c"
 -->

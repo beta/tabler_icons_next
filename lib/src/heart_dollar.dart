@@ -26,7 +26,7 @@ class HeartDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, currency, wealth, cost, finance, pay, price, bank, economy, heart]
+tags: [heart, love, like, favorite, favourite, money, price, payment, cost, finance, usd]
 category: Shapes
 version: "2.28"
 unicode: "fba4"

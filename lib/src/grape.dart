@@ -26,7 +26,7 @@ class Grape extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grape, fruit, vine, wine, berry, healthy, food, organic, nutrition, vineyard]
+tags: [grapes, fruit, vine, wine, berry, food, vineyard, healthy, organic, grape]
 category: Food
 unicode: "10239"
 version: "3.42"

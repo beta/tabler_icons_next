@@ -27,7 +27,7 @@ class WaveSawTool extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [pulse, signal, ratio, rate, volume, wave, saw, tool]
+tags: [sawtooth, wave, waveform, signal, oscillator, audio, synth, sound-wave, saw, tool]
 version: "1.19"
 unicode: "ecd3"
 -->

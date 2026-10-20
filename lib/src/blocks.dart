@@ -27,7 +27,7 @@ class Blocks extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [structure, stack, build, cube, brick, construct, arrange, assemble, piece, model]
+tags: [building-blocks, components, modules, lego, cubes, stack, bricks]
 unicode: "100b2"
 version: "3.23"
 -->

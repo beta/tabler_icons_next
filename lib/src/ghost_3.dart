@@ -27,7 +27,7 @@ class Ghost3 extends Icon {
 
   static const String _svg = '''<!--
 category: Games
-tags: [spirit, phantom, specter, apparition, wraith, shadow, poltergeist, entity, haunt, ethereal]
+tags: [ghost, halloween, spooky, spirit, phantom, boo, horror, haunted, scary]
 version: "2.29"
 unicode: "fc13"
 -->

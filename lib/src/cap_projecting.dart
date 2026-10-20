@@ -26,7 +26,7 @@ class CapProjecting extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [headwear, visor, shield, sunshade, headgear, apparel, hat, protection, shade, cover]
+tags: [cap, line-cap, stroke, stroke-cap, projecting, square-cap, line-end, vector]
 category: Design
 unicode: "ff22"
 version: "3.8"

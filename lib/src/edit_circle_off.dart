@@ -26,7 +26,7 @@ class EditCircleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pencil, change, update, edit, circle, off, modify, creative, artistic, disabled]
+tags: [edit, pencil, write, modify, change, update, disabled, inactive, unavailable, slash, turn-off, circle, pen, off]
 category: Design
 version: "1.65"
 unicode: "f11d"

@@ -26,7 +26,7 @@ class Pinned extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [board, attach, nail, pointed, corkboard, favourite, noticeboard, pinned, location, navigation]
+tags: [pin, pushpin, thumbtack, tack, sticky, attach, keep, fixed, noticeboard, corkboard, pinned]
 category: Map
 version: "1.31"
 unicode: "ed60"

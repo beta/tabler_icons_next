@@ -26,7 +26,7 @@ class InnerShadowTop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, circle, up, north, inner, shadow, top, creative, artistic, visual]
+tags: [shadow, inner-shadow, shade, shading, effect, circle, sphere, design, light, top, up, north, inset, inner]
 category: Design
 version: "1.103"
 unicode: "f525"

@@ -27,7 +27,7 @@ class MusicX extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [close, delete, cancel, remove, end, terminate, exit, void, stop, abandon]
+tags: [song, audio, sound, note, melody, track, close, delete, remove, cancel, clear, mp3, playlist, player]
 version: "2.28"
 unicode: "fbe8"
 -->

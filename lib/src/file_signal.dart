@@ -26,7 +26,7 @@ class FileSignal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [wi-fi, connection, internet, online, connected, file, signal, document, data, content]
+tags: [signal, wifi, wireless, connection, online, sync, cloud, document, file]
 category: Document
 version: "1.56"
 unicode: "f03d"

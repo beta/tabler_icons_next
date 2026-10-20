@@ -27,7 +27,7 @@ class LocationDollar extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [currency, money, finance, cash, payment, economy, wealth, income, fund, transaction]
+tags: [location, navigation, gps, arrow, pointer, direction, map, position, money, price, payment, cost, finance, usd]
 version: "2.28"
 unicode: "fbb5"
 -->

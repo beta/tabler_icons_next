@@ -27,7 +27,7 @@ class Man extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [guy, boy, male, gender, man]
+tags: [man, male, boy, guy, gender, person, restroom, toilet, men]
 version: "1.0"
 unicode: "eae6"
 -->

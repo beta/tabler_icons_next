@@ -26,7 +26,7 @@ class FileTypeHtml extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [web, markup, internet, browser, code, site, html, hypertext, format, front-end]
+tags: [html, web, markup, webpage, website, browser, code, file-format, extension]
 category: Document
 version: "2.25"
 unicode: "fb0c"

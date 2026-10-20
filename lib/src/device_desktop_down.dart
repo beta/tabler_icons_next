@@ -27,7 +27,7 @@ class DeviceDesktopDown extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [download, receive, store, save, transfer, fetch, acquire, sync, obtain, gather]
+tags: [down, download, arrow-down, decrease, desktop, monitor, computer, screen, pc]
 version: "2.10"
 unicode: "f864"
 -->

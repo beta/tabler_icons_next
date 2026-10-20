@@ -27,7 +27,7 @@ class PointerCancel extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [stop, cross, close, end, terminate, halt, ban, forbid, erase, off]
+tags: [cursor, mouse-pointer, mouse, cancel, block, stop, forbidden, ban, arrow, click]
 version: "2.10"
 unicode: "f99a"
 -->

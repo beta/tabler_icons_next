@@ -27,7 +27,7 @@ class CalendarQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [inquiry, query, ask, doubt, ponder, wonder, hesitate, probe, investigate, explore]
+tags: [calendar, date, schedule, event, day, planner, agenda, question, help, unknown, faq, support, appointment]
 version: "2.10"
 unicode: "f82d"
 -->

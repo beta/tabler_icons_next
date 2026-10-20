@@ -26,7 +26,7 @@ class AlphabetRunes extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alphabet, runes, viking, nordic, ancient, letters, language, font, futhark, norse, text]
+tags: [runic, futhark, viking, norse, nordic, ancient, letters, alphabet, runes]
 category: Text
 unicode: "101b0"
 version: "3.36"

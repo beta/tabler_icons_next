@@ -27,7 +27,7 @@ class LockHeart extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [privacy, affection, care, secure, safe, love, devotion, protection, guard, lock]
+tags: [lock, padlock, locked, security, secure, password, private, protected, favorite, love, like, favourite]
 version: "2.10"
 unicode: "f92c"
 -->

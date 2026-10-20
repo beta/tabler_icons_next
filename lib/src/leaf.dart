@@ -26,7 +26,7 @@ class Leaf extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [nature, plant, tree, autumn, fall, greenery, flower, forest, garden, leaf]
+tags: [leaf, nature, plant, eco, green, ecology, environment, organic, vegan]
 category: Nature
 version: "1.29"
 unicode: "ed4f"

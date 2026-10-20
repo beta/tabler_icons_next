@@ -27,7 +27,7 @@ class Chisel extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [tool, equipment, work, wood, chisel]
+tags: [tool, woodworking, carpentry, carving, craft, wood, workshop, diy, build, chisel]
 version: "1.91"
 unicode: "f383"
 -->

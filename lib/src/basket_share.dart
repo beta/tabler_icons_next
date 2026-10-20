@@ -27,7 +27,7 @@ class BasketShare extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [distribute, circulate, spread, disseminate, broadcast, divulge, reveal, partake, impart, pass]
+tags: [cart, shopping-cart, ecommerce, shop, store, send, forward, export, social]
 version: "2.28"
 unicode: "fb53"
 -->

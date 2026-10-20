@@ -26,7 +26,7 @@ class Plus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, create, new, "+", plus, calculation, equation, more, increase, positive]
+tags: [add, new, create, insert, more, plus-sign, increase, positive, math, cross, plus]
 category: Math
 version: "1.0"
 unicode: "eb0b"

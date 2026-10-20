@@ -26,7 +26,7 @@ class TopologyFull extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hierarchy, network, structure, connection, topology, full, computing, machine, processor, system]
+tags: [topology, network, mesh, full-mesh, nodes, connection, diagram, infrastructure, lan, full]
 category: Computers
 version: "1.112"
 unicode: "f5dc"

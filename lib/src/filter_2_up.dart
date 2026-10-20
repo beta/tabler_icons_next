@@ -26,7 +26,7 @@ class Filter2Up extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, top, increase, rise, upward, sort, organize, arrange, select, refine]
+tags: [filter, filtering, sort, upload, arrow-up, increase, raise, refine, list, options, send]
 category: System
 version: "3.32"
 unicode: "1014d"

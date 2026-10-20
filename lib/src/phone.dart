@@ -26,7 +26,7 @@ class Phone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [call, mobile, conversation, landline, answer, number, phone, hardware, technology, contact]
+tags: [call, telephone, contact, dial, mobile, handset, ring, support, hotline, phone]
 category: Devices
 version: "1.0"
 unicode: "eb09"

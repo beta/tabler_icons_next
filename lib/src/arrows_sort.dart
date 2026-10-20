@@ -26,7 +26,7 @@ class ArrowsSort extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [top, bottom, parallel, order, arrows, sort, navigation, flow, movement, route]
+tags: [order, reorder, ascending, descending, up-down, pointer, navigation, direction, arrows, sort]
 category: Arrows
 version: "1.2"
 unicode: "eb5a"

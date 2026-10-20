@@ -26,7 +26,7 @@ class AlertSquareRounded extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [warning, attention, caution, inform, notify, square, alarm, signal, warn, alert]
+tags: [warning, error, info, danger, caution, attention, exclamation, notice, box, squircle, alert, square]
 version: "2.10"
 unicode: "f810"
 category: System

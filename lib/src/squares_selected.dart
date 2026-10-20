@@ -27,7 +27,7 @@ class SquaresSelected extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [checkbox, chosen, highlight, marked, pick, selected, choice, option, choose, preference]
+tags: [squares, boxes, layers, selected, selection, active, highlight, overlap]
 unicode: "fea3"
 version: "3.1"
 -->

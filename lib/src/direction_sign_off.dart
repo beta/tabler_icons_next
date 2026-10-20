@@ -27,7 +27,7 @@ class DirectionSignOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [arrow, navigation, forward, right, direction, sign, off, disabled, inactive, way]
+tags: [direction-sign, signpost, road-sign, navigation, route, turn, disabled, inactive, unavailable, slash, turn-off, way, traffic-sign, direction, sign, off]
 version: "1.94"
 unicode: "f3e5"
 -->

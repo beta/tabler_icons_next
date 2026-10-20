@@ -26,7 +26,7 @@ class TextWrapDisabled extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, alignment, position, wrap, disabled, typography, writing, font, character, word]
+tags: [no-wrap, nowrap, word-wrap, overflow, text-wrap, disabled, formula, text, typography, wrap]
 category: Text
 version: "1.17"
 unicode: "eca7"

@@ -26,7 +26,7 @@ class HandRingFinger extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [body, human, palm, hand, ring, finger, touch, action, motion, interaction]
+tags: [hand, ring-finger, gesture, body, finger, palm, ring]
 category: Gestures
 version: "1.39"
 unicode: "ee96"

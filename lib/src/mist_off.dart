@@ -26,7 +26,7 @@ class MistOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, visibility, mist, off, climate, forecast, disabled, inactive, meteorology, atmospheric]
+tags: [fog, haze, foggy, weather, clear, disabled, slash, mist, off]
 category: Weather
 version: "1.94"
 unicode: "f410"

@@ -26,7 +26,7 @@ class Triangles extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shapes, figure, geometry, geometric, pyramid, design, triangles, form, pattern, outline]
+tags: [triangles, shapes, geometry, pattern, delta, polygon, triangle, polygons]
 category: Shapes
 version: "1.61"
 unicode: "f0a5"

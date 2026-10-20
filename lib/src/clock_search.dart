@@ -27,7 +27,7 @@ class ClockSearch extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [find, explore, scan, analyze, inspect, investigate, seek, locate, examine, look]
+tags: [search, find, history, lookup, recent, find-time, clock, time, schedule]
 version: "2.8"
 unicode: "f7c7"
 -->

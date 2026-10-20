@@ -27,7 +27,7 @@ class ScaleOutlineOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [weight, weigh, diet, healthy, measurement, scale, outline, off, disabled, inactive]
+tags: [weight, weighing-scale, weigh, diet, bathroom-scale, fitness, measurement, disabled, unavailable, inactive, hidden, scale, outline, off]
 version: "1.66"
 unicode: "f199"
 -->

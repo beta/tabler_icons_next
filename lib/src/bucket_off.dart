@@ -26,7 +26,7 @@ class BucketOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [collection, container, water, liquid, bucket, off, creative, artistic, disabled, inactive]
+tags: [bucket, pail, container, water, fill, paint, disabled, off, unavailable, inactive]
 category: Design
 version: "1.65"
 unicode: "f103"

@@ -26,7 +26,7 @@ class MoodEmpty extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, mood, empty]
+tags: [blank, expressionless, neutral, meh, no-mood, emoji, smiley, face, emotion, feeling, reaction, mood, empty]
 category: Mood
 version: "1.0"
 unicode: "eeb5"

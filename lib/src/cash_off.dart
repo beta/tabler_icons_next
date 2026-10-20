@@ -26,7 +26,7 @@ class CashOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [currency, payment, money, pay, cash, off, store, purchase, disabled, inactive]
+tags: [cash, money, payment, currency, finance, dollar, banknote, disabled, off, unavailable, inactive, no-cash, cashless, bill]
 category: E-commerce
 version: "1.65"
 unicode: "f105"

@@ -27,7 +27,7 @@ class BriefcaseOff extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [bag, baggage, folder, carrier, documents, suitcase, job, work, luggage, briefcase]
+tags: [briefcase, business, work, job, portfolio, bag, office, disabled, off, unavailable, inactive, unemployed, suitcase, career]
 version: "1.94"
 unicode: "f3cc"
 -->

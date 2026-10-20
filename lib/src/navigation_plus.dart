@@ -27,7 +27,7 @@ class NavigationPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [add, increase, gain, more, expand, augment, include, positive, additional, supplement]
+tags: [gps, arrow, direction, location, cursor, compass, add, new, create, insert, route, map, pointer]
 version: "2.28"
 unicode: "fbf6"
 -->

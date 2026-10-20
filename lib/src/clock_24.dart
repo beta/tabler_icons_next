@@ -26,7 +26,7 @@ class Clock24 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, hour, watch, timepiece, twenty-four-hour, 24-hour, military, clock-face, round-clock, day-night]
+tags: [24-hour, 24-7, round-the-clock, always-open, nonstop, time-format, clock, time, hour]
 category: System
 version: "2.32"
 unicode: "fc57"

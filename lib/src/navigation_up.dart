@@ -27,7 +27,7 @@ class NavigationUp extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [ascend, rise, elevate, climb, increase, surge, uplift, upward, boost, advance]
+tags: [gps, arrow, direction, location, cursor, compass, up, arrow-up, north, increase, route, map, pointer]
 version: "2.28"
 unicode: "fbfb"
 -->

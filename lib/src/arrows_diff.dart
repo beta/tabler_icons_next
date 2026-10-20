@@ -26,7 +26,7 @@ class ArrowsDiff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, right, left, west, east, arrows, diff, navigation, flow, movement]
+tags: [difference, compare, left-right, swap, versus, pointer, navigation, direction, arrows, diff]
 category: Arrows
 version: "1.79"
 unicode: "f296"

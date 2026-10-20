@@ -26,7 +26,7 @@ class BrandTed extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [nonprofit, website, scientific, conferences, organised, brand, ted, logo, company, trademark]
+tags: [ted, ted-talks, talks, conference, ideas, education, logo, brand]
 category: Brand
 version: "1.119"
 unicode: "f658"

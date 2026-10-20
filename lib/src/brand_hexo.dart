@@ -26,7 +26,7 @@ class BrandHexo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [blog, static, site, generator, framework, node, content, publish, deploy, create]
+tags: [hexo, blog, static-site, generator, nodejs, framework, logo, brand]
 category: Brand
 version: "2.16"
 unicode: "fa50"

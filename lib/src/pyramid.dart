@@ -26,7 +26,7 @@ class Pyramid extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, pyramid, geometry, form, figure, outline]
+tags: [3d, shape, geometry, solid, triangle, egypt, pyramid]
 category: Shapes
 version: "1.39"
 unicode: "eec5"

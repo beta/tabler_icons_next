@@ -27,7 +27,7 @@ class HandFingerOff extends Icon {
 
   static const String _svg = '''<!--
 category: Gestures
-tags: [point, show, index, forefinger, body, human, palm, click, press, touch, mouse, pointer]
+tags: [hand, finger, pointer, cursor, touch, no-touch, disabled, off-state, unavailable]
 version: "1.66"
 unicode: "f13d"
 -->

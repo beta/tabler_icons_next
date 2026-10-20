@@ -26,7 +26,7 @@ class LocationBroken extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [delete, map, navigation, pin, location, broken, geography, place, position]
+tags: [location, navigation, gps, arrow, pointer, no-signal, lost, broken, error]
 category: Map
 version: "1.81"
 unicode: "f2c4"

@@ -27,7 +27,7 @@ class NavigationBolt extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [fast, electric, swift, speed, charge, lightning, dynamic, racing, accelerate, quick]
+tags: [gps, arrow, direction, location, cursor, compass, lightning, flash, fast, energy, power, route, map, pointer]
 version: "2.28"
 unicode: "fbe9"
 -->

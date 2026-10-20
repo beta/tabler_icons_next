@@ -26,7 +26,7 @@ class PlaystationCircle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [controller, console, shape, joystick, playstation, circle, hardware, technology, round, circular]
+tags: [playstation, ps, controller, gamepad, button, circle, console, gaming, sony]
 category: Devices
 version: "1.80"
 unicode: "f2ad"

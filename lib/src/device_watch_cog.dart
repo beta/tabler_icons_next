@@ -27,7 +27,7 @@ class DeviceWatchCog extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [settings, mechanical, operation, adjust, configure, gear, control, options, modify, preferences]
+tags: [smartwatch, wearable, apple-watch, settings, gear, config, configuration, wristwatch, device, fitness-tracker, preferences, options]
 version: "2.10"
 unicode: "f8d7"
 -->

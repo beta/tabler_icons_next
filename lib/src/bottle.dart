@@ -26,7 +26,7 @@ class Bottle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [water, drink, beer, energy, wine, bottle, meal, cuisine, eating, nutrition]
+tags: [water, drink, plastic, beverage, flask, water-bottle, plastic-bottle, bottle]
 category: Food
 version: "1.40"
 unicode: "ef0b"

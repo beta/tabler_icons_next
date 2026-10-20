@@ -26,7 +26,7 @@ class Broadcast extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [communication, tv, signal, media, sound, connection, network, broadcast, hardware, technology]
+tags: [broadcast, signal, antenna, radio, transmission, podcast, live, wireless, streaming]
 category: Devices
 version: "1.69"
 unicode: "f1e9"

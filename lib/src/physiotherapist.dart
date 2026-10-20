@@ -26,7 +26,7 @@ class Physiotherapist extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [physiotherapy, spa, therapy, treatment, pain, exercise, physotherapist, medical, wellness, healthcare]
+tags: [physiotherapy, rehabilitation, therapy, massage, healthcare, treatment, physio]
 category: Health
 version: "1.39"
 unicode: "eebe"

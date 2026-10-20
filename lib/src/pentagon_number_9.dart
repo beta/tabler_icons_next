@@ -26,7 +26,7 @@ class PentagonNumber9 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [nine, nonet, novem, ninth, nonary, ennead, ninefold, nonuple, nones, enneagon]
+tags: [nine, number, digit, pentagon, shape, badge, numeral, count]
 category: Numbers
 version: "2.34"
 unicode: "fc87"

@@ -26,7 +26,7 @@ class RewindBackward10 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [reverse, rewind, ten, time, back, playback, go-back, control, step-back, media]
+tags: [rewind, backward, skip-back, go-back, 10-seconds, ten, replay, media, video, controls]
 category: Media
 version: "2.21"
 unicode: "faba"

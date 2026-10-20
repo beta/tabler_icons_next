@@ -26,7 +26,7 @@ class EditCircle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pencil, change, update, edit, circle, modify, creative, artistic, round, circular]
+tags: [edit, pencil, write, modify, change, update, circle, pen, compose]
 category: Design
 version: "1.39"
 unicode: "ee85"

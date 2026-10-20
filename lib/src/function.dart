@@ -26,7 +26,7 @@ class $Function extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [math, linear, statyscics, graph, function, calculation, equation, mathematics, numeric, formula]
+tags: [function, fx, formula, math, f-of-x, calculus, graph, equation, programming]
 category: Math
 version: "1.72"
 unicode: "f225"

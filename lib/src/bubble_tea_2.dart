@@ -27,7 +27,7 @@ class BubbleTea2 extends Icon {
 
   static const String _svg = '''<!--
 category: Food
-tags: [drink, taiwanese, flavor, boba, beverage, refreshment, sweet, pearl, milk, tapioca]
+tags: [bubble-tea, boba, milk-tea, tapioca, drink, beverage, tea, cup]
 unicode: "ff52"
 version: "3.10"
 -->

@@ -26,7 +26,7 @@ class HeadsetOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, headphones, audio, sound, customer, headset, off, content, entertainment, disabled]
+tags: [headset, headphones, microphone, support, customer-service, disabled, off-state, unavailable, off]
 category: Media
 version: "1.94"
 unicode: "f3f6"

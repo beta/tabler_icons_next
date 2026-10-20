@@ -26,7 +26,7 @@ class CreativeCommonsSa extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [licence, license, creative, commons, control, operation, sa, function, interface, management]
+tags: [sa, share-alike, sharealike, creative-commons, cc, license, copyright, open, attribution, legal, creative, commons]
 category: System
 version: "1.72"
 unicode: "f222"

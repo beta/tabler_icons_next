@@ -26,7 +26,7 @@ class DeviceMobileMessage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [iphone, phone, smartphone, cellphone, sms, texting, chat, text, device, mobile]
+tags: [sms, text-message, message, chat, notification, phone, smartphone, iphone, texting, mms, device, mobile]
 category: Devices
 version: "1.39"
 unicode: "ee79"

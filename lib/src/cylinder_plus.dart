@@ -26,7 +26,7 @@ class CylinderPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, cylinder, plus, add, more, increase]
+tags: [cylinder, 3d, shape, geometry, solid, plus, add, new, create]
 category: Shapes
 version: "2.20"
 unicode: "fa99"

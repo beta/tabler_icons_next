@@ -26,7 +26,7 @@ class Headphones extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, headset, audio, sound, customer, headphones, content, entertainment, multimedia, broadcast]
+tags: [headphones, headset, earphones, audio, music, sound, listen, podcast]
 category: Media
 version: "1.0"
 unicode: "eabd"

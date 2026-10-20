@@ -26,7 +26,7 @@ class Number5Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [five, quintet, quintuple, pentad, fivefold, quinary, quint, quintuplet, fifth, penta]
+tags: [five, number, digit, numeral, count, fifth, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcfa"

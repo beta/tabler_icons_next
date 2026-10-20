@@ -26,7 +26,7 @@ class Blockquote extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [citation, quotation, saying, text, section, style, styling, css, blockquote, typography]
+tags: [quote, quotation, citation, text, format, markdown, quote-block, pull-quote, blockquote]
 category: Text
 version: "1.39"
 unicode: "ee09"

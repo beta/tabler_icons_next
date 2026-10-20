@@ -26,7 +26,7 @@ class StormOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, cloud, lighting, rain, wind, tornado, storm, off, climate, forecast]
+tags: [weather, thunderstorm, hurricane, cyclone, wind, disabled, inactive, lightning, thunder, storm, off]
 category: Weather
 version: "1.94"
 unicode: "f433"

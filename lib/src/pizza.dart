@@ -26,7 +26,7 @@ class Pizza extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, cheese, italy, pepperoni, margherita, capricciosa, rucole, pizza, meal, cuisine]
+tags: [pizza-slice, slice, food, fast-food, italian, cheese, pepperoni, restaurant, meal, delivery, pizza]
 category: Food
 version: "1.35"
 unicode: "edbb"

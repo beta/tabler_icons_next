@@ -26,7 +26,7 @@ class BrandTwitch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, platform, streaming, streamers, videos, films, chat, subs, brand, twitch]
+tags: [twitch, streaming, live-streaming, gaming, video, streamer, amazon, logo, brand]
 category: Brand
 version: "1.23"
 unicode: "ed05"

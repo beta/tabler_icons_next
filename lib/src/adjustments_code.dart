@@ -27,7 +27,7 @@ class AdjustmentsCode extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [settings, program, develop, script, software, cypher, encrypt, decode, compile, syntax]
+tags: [settings, sliders, controls, filter, options, preferences, tune, developer, programming, source-code, html, dev]
 version: "2.10"
 unicode: "f7fe"
 -->

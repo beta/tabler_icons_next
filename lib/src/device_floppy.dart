@@ -26,7 +26,7 @@ class DeviceFloppy extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [save, file, disk, device, floppy, hardware, technology, electronic, gadget, equipment]
+tags: [floppy, floppy-disk, save, disk, diskette, storage, file, retro, device]
 category: Devices
 version: "1.2"
 unicode: "eb62"

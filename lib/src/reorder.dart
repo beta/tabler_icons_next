@@ -27,7 +27,7 @@ class Reorder extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [arrange, organize, sort, structure, sequence, position, alignment, list, adjust, systemize]
+tags: [drag, sort, arrange, rearrange, order, list, move, drag-and-drop]
 version: "2.29"
 unicode: "fc15"
 -->

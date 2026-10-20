@@ -26,7 +26,7 @@ class HomeEdit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [house, building, renovation, estate, home, edit, main, modify, change, update]
+tags: [home, house, homepage, building, residence, real-estate, edit, pencil, modify, update, renovation]
 category: Buildings
 version: "1.88"
 unicode: "f352"

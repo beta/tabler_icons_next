@@ -27,7 +27,7 @@ class DeviceImacCode extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [program, script, develop, compile, encode, syntax, markup, algorithm, debug, sequence]
+tags: [code, programming, developer, coding, script, imac, mac, apple, computer, desktop, monitor]
 version: "2.10"
 unicode: "f874"
 -->

@@ -26,7 +26,7 @@ class FileEuro extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, finance, buisness, file, euro, document, data, content, record, paper]
+tags: [euro, invoice, bill, money, finance, payment, eur, document, price, receipt, file]
 category: Document
 version: "1.51"
 unicode: "efe1"

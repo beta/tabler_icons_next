@@ -26,7 +26,7 @@ class CursorText extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [editor, indicate, position, input, mouse, type, cursor, text, typography, writing]
+tags: [cursor, text-cursor, caret, i-beam, input, text-field, typing, editor, select-text, text]
 category: Text
 version: "1.39"
 unicode: "ee6d"

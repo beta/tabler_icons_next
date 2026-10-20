@@ -26,7 +26,7 @@ class Menu2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bars, hamburger, navigation, burger, menu, control, operation, function, interface, management]
+tags: [hamburger, hamburger-menu, burger, bars, navigation, nav, lines, sidebar, toggle, menu]
 category: System
 version: "1.11"
 unicode: "ec42"

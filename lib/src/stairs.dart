@@ -26,7 +26,7 @@ class Stairs extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [building, step, floor, staircase, stairs, location, navigation, geography, place, position]
+tags: [staircase, stairway, steps, floor, building, stair, climb, level, stairs]
 category: Map
 version: "1.17"
 unicode: "eca6"

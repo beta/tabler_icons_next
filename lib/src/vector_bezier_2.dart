@@ -26,7 +26,7 @@ class VectorBezier2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [curve, parametric, design, vector graphics, representation, vector, bezier, creative, artistic, visual]
+tags: [bezier, curve, vector, path, pen-tool, anchor, handles, design]
 category: Design
 version: "1.27"
 unicode: "f1a3"

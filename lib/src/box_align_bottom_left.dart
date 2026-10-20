@@ -26,7 +26,7 @@ class BoxAlignBottomLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cube, side, down, south-west, box, align, bottom, left, creative, artistic]
+tags: [alignment, position, layout, corner, align-box, flexbox, placement, anchor, box, align, bottom, left]
 category: Design
 version: "1.82"
 unicode: "f2ce"

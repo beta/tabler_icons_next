@@ -26,7 +26,7 @@ class Number1Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [one, singular, first, unit, solitary, individual, alone, unique, sole, individualistic]
+tags: [one, number, digit, numeral, count, first, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fce2"

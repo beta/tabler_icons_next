@@ -26,7 +26,7 @@ class BrandAsana extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [task, management, project management, manage, collaborate, collaboration, team, teamwork, technology, brand]
+tags: [asana, project-management, task, todo, team, collaboration, productivity, logo, brand]
 category: Brand
 version: "1.36"
 unicode: "edc5"

@@ -26,7 +26,7 @@ class Camera extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [video, photo, aperture, camera, content, entertainment, multimedia, broadcast, audio]
+tags: [camera, photo, photography, picture, video, lens, image, snapshot]
 category: Media
 version: "1.0"
 unicode: "ea54"

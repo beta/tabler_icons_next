@@ -26,7 +26,7 @@ class CameraAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [video, photo, aperture, camera, content, entertainment, ai, multimedia, broadcast, audio]
+tags: [camera, photo, photography, picture, video, lens, image, ai, artificial-intelligence, smart]
 category: Media
 version: "3.12"
 unicode: "ffa8"

@@ -26,7 +26,7 @@ class LayersDifference extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [layered-difference, layer-intersect, intersecting-layers, layer-subtract, difference, overlap, comparison, layer-blend, merge-layers, layer-comparison, stack]
+tags: [layers, difference, exclude, boolean, pathfinder, overlap, shape, vector, design]
 category: Design
 version: "1.0"
 unicode: "eac8"

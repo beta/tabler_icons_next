@@ -26,7 +26,7 @@ class SwitchHorizontal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [toggle, left, right, arrows, switch, horizontal, navigation, flow, movement, route]
+tags: [swap, exchange, arrows, left-right, transfer, horizontal, toggle, flip, switch]
 category: Arrows
 version: "1.0"
 unicode: "eb31"

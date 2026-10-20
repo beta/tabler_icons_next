@@ -26,7 +26,7 @@ class Backpack extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [education, school, learning, adventure, travel, backpack, store, purchase, shopping, retail]
+tags: [bag, rucksack, school, travel, hiking, luggage, schoolbag, knapsack, camping, backpack]
 category: E-commerce
 version: "1.43"
 unicode: "ef47"

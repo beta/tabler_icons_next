@@ -27,7 +27,7 @@ class Uhd extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [ultra, high, definition, resolution, crystal, clear, sharp, detail, vivid, brilliant]
+tags: [uhd, 4k, ultra-hd, resolution, video, quality, display, ultra-high-definition]
 unicode: "100aa"
 version: "3.23"
 -->

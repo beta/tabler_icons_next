@@ -26,7 +26,7 @@ class BuildingCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [flat, office, city, urban, scyscraper, architecture, construction, building, cog, structure]
+tags: [building, office, city, architecture, skyscraper, real-estate, company, settings, cog, gear, configure, preferences, options, facility-management]
 category: Buildings
 version: "3.19"
 unicode: "10062"

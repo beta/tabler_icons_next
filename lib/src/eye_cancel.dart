@@ -27,7 +27,7 @@ class EyeCancel extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [close, deny, reject, stop, eliminate, remove, delete, terminate, void, quit]
+tags: [view, visibility, show, cancel, stop, abort, block, see, vision, preview, watch, denied, forbidden]
 version: "2.28"
 unicode: "fb6e"
 -->

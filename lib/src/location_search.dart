@@ -27,7 +27,7 @@ class LocationSearch extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [find, discover, locate, seek, explore, look, investigate, probe, scan, delve]
+tags: [location, navigation, gps, arrow, pointer, direction, map, position, search, find, lookup, magnifier, explore]
 version: "2.28"
 unicode: "fbbe"
 -->

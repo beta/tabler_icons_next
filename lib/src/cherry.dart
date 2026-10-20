@@ -26,7 +26,7 @@ class Cherry extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fruit, food, sweet, healthy, cherry, environment, natural, outdoor, ecosystem, earth]
+tags: [cherries, fruit, food, berry, sweet, healthy, summer, dessert, cherry]
 category: Nature
 version: "1.102"
 unicode: "f511"

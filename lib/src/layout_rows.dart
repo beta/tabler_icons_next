@@ -26,7 +26,7 @@ class LayoutRows extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grid, masonry, collage, layout, rows, creative, artistic, visual, aesthetic, style]
+tags: [rows, layout, split, horizontal, grid, ui]
 category: Design
 version: "1.0"
 unicode: "ead8"

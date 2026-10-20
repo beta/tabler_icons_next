@@ -27,7 +27,7 @@ class FolderPin extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [attach, secure, fasten, cling, stick, anchor, fixate, immobilize, tie, press]
+tags: [directory, dir, files, location, map-pin, marker, place, archive, project, gps, geolocation]
 version: "2.10"
 unicode: "f916"
 -->

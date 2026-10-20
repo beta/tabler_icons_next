@@ -26,7 +26,7 @@ class DropletOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [water, rain, liquid, droplet, off, creative, artistic, disabled, inactive, visual]
+tags: [drop, water, liquid, rain, ink, color, disabled, inactive, unavailable, slash, turn-off, droplet, off]
 category: Design
 version: "1.39"
 unicode: "ee83"

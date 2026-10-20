@@ -26,7 +26,7 @@ class CircleDottedLetterP extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [papa, sixteenth-letter, consonant, point, place, path, pair, plan, push, pull]
+tags: [p, letter-p, letter, alphabet, character, uppercase, initial, circle, dotted, badge]
 category: Letters
 unicode: "ff70"
 version: "3.11"

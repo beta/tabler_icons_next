@@ -26,7 +26,7 @@ class HeartPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, love, favourite, like, heart, plus, more, increase, positive, additional]
+tags: [add-favorite, add-to-wishlist, heart, love, like, favorite, favourite, add, new, create, plus, wishlist]
 category: Shapes
 version: "1.66"
 unicode: "f142"

@@ -26,7 +26,7 @@ class Upload extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [file, arrow, upload, import, transfer, navigation, flow, send, publish, movement]
+tags: [upload, import, send, arrow-up, cloud, file, transfer, arrow]
 category: Arrows
 version: "1.0"
 unicode: "eb47"

@@ -26,7 +26,7 @@ class MoodTongueWink extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, happy, joke, mood, tongue, wink]
+tags: [tongue, wink, playful, silly, joke, cheeky, emoji, smiley, face, emotion, feeling, reaction, mood]
 category: Mood
 version: "1.83"
 unicode: "f2ea"

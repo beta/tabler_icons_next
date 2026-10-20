@@ -26,7 +26,7 @@ class Sunset2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [east, horizon, landscape, morning, sunset, climate, forecast, meteorology, atmospheric, conditions]
+tags: [sun, evening, dusk, night, horizon, weather, sunny, daylight, sunset]
 category: Weather
 version: "1.73"
 unicode: "f23a"

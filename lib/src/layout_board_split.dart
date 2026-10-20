@@ -26,7 +26,7 @@ class LayoutBoardSplit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grid, columns, masonry, collage, layout, board, split, creative, artistic, visual]
+tags: [board, split, layout, grid, dashboard, tiles, template, ui]
 category: Design
 version: "1.47"
 unicode: "ef94"

@@ -27,7 +27,7 @@ class MapPinUp extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [elevate, raise, increase, ascend, advance, boost, climb, uplift, lift, heighten]
+tags: [pin, marker, location, place, gps, map, point, poi, arrow-up, upload, increase, raise]
 version: "2.10"
 unicode: "f95a"
 -->

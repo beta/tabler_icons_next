@@ -26,7 +26,7 @@ class CircleDotted extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, point, check, circle, dotted, round, circular, geometry, form, figure]
+tags: [dotted, dashed, circle, round, shape, placeholder, empty, pending, loading, outline]
 category: Shapes
 version: "1.26"
 unicode: "ed28"

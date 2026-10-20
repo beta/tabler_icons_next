@@ -27,7 +27,7 @@ class FilterHeart extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [love, romantic, like, affection, favorite, heartbeat, care, emotion, passion, desire]
+tags: [funnel, filtering, sort, love, like, favorite, favourite, refine, narrow]
 version: "2.28"
 unicode: "fb83"
 -->

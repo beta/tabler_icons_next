@@ -26,7 +26,7 @@ class TabClose extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [browser, tab, close, panel, window, hide, collapse, minimize, interface, ui, dock]
+tags: [tab, close, browser, window, panel, dismiss, remove, close-tab, x]
 category: System
 unicode: "10270"
 version: "3.45"

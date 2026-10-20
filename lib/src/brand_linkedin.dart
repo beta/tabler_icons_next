@@ -26,7 +26,7 @@ class BrandLinkedin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, website, corporation, work, business, internet, brand, linkedin, company, trademark]
+tags: [linkedin, social, professional, network, jobs, career, business, microsoft, logo, brand]
 category: Brand
 version: "1.15"
 unicode: "ec8c"

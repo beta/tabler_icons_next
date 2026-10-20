@@ -26,7 +26,7 @@ class Milkshake extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [drink, sweet, food, cocktail, cream, milkshake, meal, cuisine, eating, nutrition]
+tags: [shake, smoothie, drink, dessert, ice-cream, sweet, straw, beverage, milkshake]
 category: Food
 version: "1.98"
 unicode: "f4c8"

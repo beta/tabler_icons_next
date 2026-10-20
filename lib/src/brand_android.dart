@@ -26,7 +26,7 @@ class BrandAndroid extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [os, company, system, interface, software, logo, brand, android, trademark, identity]
+tags: [android, google, os, operating-system, mobile, smartphone, robot, app, logo, brand]
 category: Brand
 version: "1.9"
 unicode: "ec16"

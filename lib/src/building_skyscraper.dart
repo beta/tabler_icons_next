@@ -26,7 +26,7 @@ class BuildingSkyscraper extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [city, urban, office, workplace, corporation, hotel, apartments, building, skyscraper, architecture]
+tags: [skyscraper, tower, high-rise, city, office, downtown, building, architecture]
 category: Buildings
 version: "1.8"
 unicode: "ec39"

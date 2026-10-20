@@ -26,7 +26,7 @@ class ScubaMask extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [dive, diving, water, holiday, underwater, snorkeling, equipment, scuba, mask, athletic]
+tags: [diving-mask, snorkel, snorkeling, goggles, diving, underwater, scuba, mask]
 category: Sport
 version: "1.39"
 unicode: "eed4"

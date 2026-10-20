@@ -26,7 +26,7 @@ class BrandRedux extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [library, javascript, menagment, centralization, application, status, brand, redux, logo, company]
+tags: [redux, javascript, react, state-management, library, logo, brand, store, flux]
 category: Brand
 version: "1.93"
 unicode: "f3a8"

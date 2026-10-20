@@ -26,7 +26,7 @@ class BucketDroplet extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [water, liquid, drop, tool, fill, bucket, droplet, creative, artistic, visual]
+tags: [bucket, fill, paint-bucket, color-fill, paint, drop, water, tool, droplet]
 category: Design
 version: "1.107"
 unicode: "f56a"

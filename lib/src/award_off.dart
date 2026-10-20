@@ -27,7 +27,7 @@ class AwardOff extends Icon {
 
   static const String _svg = '''<!--
 category: Badges
-tags: [prize, reward, competition, contest, win, award, off, disabled, inactive]
+tags: [medal, prize, achievement, reward, winner, ribbon, badge, certificate, disabled, inactive, award, off]
 version: "1.65"
 unicode: "f0fa"
 -->

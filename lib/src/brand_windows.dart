@@ -26,7 +26,7 @@ class BrandWindows extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, system, os, computer, microsoft, brand, windows, company, trademark, identity]
+tags: [windows, microsoft, os, operating-system, pc, desktop, logo, brand]
 category: Brand
 version: "1.20"
 unicode: "ecd8"

@@ -27,7 +27,7 @@ class Ladder extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [up, equipment, garden, climb, climbing, ladder]
+tags: [ladder, climb, stairs, steps, equipment, construction, career]
 version: "1.51"
 unicode: "efe2"
 -->

@@ -26,7 +26,7 @@ class Prescription extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [doctor, pharmacy, drug, pills, medical, disease, prescription, wellness, healthcare, treatment]
+tags: [rx, medicine, pharmacy, drug, medication, doctor, medical, pharmacist, prescription]
 category: Health
 version: "1.47"
 unicode: "ef99"

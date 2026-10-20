@@ -27,7 +27,7 @@ class HeartUp extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [rise, increase, grow, boost, ascend, advance, uplift, soar, elevate, climb]
+tags: [heart, love, like, favorite, favourite, arrow-up, upload, increase, raise]
 version: "2.28"
 unicode: "fbad"
 -->

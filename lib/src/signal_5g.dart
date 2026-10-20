@@ -26,7 +26,7 @@ class Signal5g extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mobile, network, connetion, wi-fi, wireless, smartphone, technology, signal, hardware, 5g]
+tags: [5g, mobile-network, cellular, signal, network, connection, mobile-data]
 category: Devices
 version: "1.69"
 unicode: "f1f0"

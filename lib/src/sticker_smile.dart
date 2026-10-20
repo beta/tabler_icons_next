@@ -26,7 +26,7 @@ class StickerSmile extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [label, stamp, adhesive, sticker, smile, emoji, face, mood, emotion, reaction]
+tags: [sticker, emoji, smiley, smile, face, decal, label, happy]
 category: Design
 unicode: "10291"
 version: "3.47"

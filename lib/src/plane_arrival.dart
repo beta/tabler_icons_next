@@ -26,7 +26,7 @@ class PlaneArrival extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [travel, land, journey, trip, airport, baggage, luggage, plane, arrival, transport]
+tags: [landing, arrivals, arrival, airplane, flight, airport, land, travel, aircraft, plane]
 category: Vehicles
 version: "1.3"
 unicode: "eb99"

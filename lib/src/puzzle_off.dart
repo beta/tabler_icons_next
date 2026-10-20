@@ -26,7 +26,7 @@ class PuzzleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [jigsaw, extension, add-on, puzzle, off, disabled, inactive, entertainment, playing, recreation]
+tags: [jigsaw, extension, plugin, add-on, piece, disabled, unavailable, inactive, hidden, puzzle, off]
 category: Games
 version: "1.66"
 unicode: "f186"

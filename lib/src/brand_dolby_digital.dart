@@ -26,7 +26,7 @@ class BrandDolbyDigital extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cinema, technology, sound, home, brand, dolby, digital, logo, company, trademark]
+tags: [dolby, dolby-digital, audio, sound, surround, cinema, logo, brand, digital]
 category: Brand
 version: "1.99"
 unicode: "f4d4"

@@ -26,7 +26,7 @@ class TopologyStarRing3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hierarchy, network, structure, connection, topology, star, ring, favorite, rating, computing]
+tags: [topology, network, star, ring, hybrid, nodes, connection, diagram, infrastructure, lan]
 category: Computers
 version: "1.112"
 unicode: "f5e3"

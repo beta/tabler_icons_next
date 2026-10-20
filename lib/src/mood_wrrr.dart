@@ -26,7 +26,7 @@ class MoodWrrr extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, disgusted, mood, wrrr]
+tags: [disgusted, grumpy, angry, annoyed, grr, emoji, smiley, face, emotion, feeling, reaction, mood, wrrr]
 category: Mood
 version: "1.83"
 unicode: "f2ee"

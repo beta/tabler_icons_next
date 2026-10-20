@@ -26,7 +26,7 @@ class CurrencyDollarCanadian extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [trade, dollar, cad, canadian, money, banknote, pay, currency, finance, payment]
+tags: [canadian-dollar, cad, canada, dollar, currency, money, symbol, cash, finance, payment, canadian]
 category: Currencies
 version: "1.39"
 unicode: "ee57"

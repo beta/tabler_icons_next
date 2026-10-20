@@ -27,7 +27,7 @@ class Subtask extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [management, break down, work, subtask]
+tags: [subtask, task, todo, checklist, hierarchy, tree, project, management]
 version: "1.16"
 unicode: "ec9f"
 -->

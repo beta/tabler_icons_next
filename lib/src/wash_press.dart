@@ -26,7 +26,7 @@ class WashPress extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [laundry, clean, clear, clothes, machine, permanent, wash, press, cleaning, washing]
+tags: [laundry, care-label, clothes, washing, permanent-press, machine-wash, laundry-symbol, garment, textile, wash, press]
 category: Laundry
 version: "1.84"
 unicode: "f308"

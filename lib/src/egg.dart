@@ -26,7 +26,7 @@ class Egg extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, easter, chicken, egg, meal, cuisine, eating, nutrition, culinary]
+tags: [egg, food, breakfast, easter, chicken, protein, cooking, oval]
 category: Food
 version: "1.3"
 unicode: "eb8a"

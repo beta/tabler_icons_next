@@ -27,7 +27,7 @@ class Wood extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [tree, forest, natural, timber, log, wood]
+tags: [wood, timber, log, lumber, tree, woodwork, logs, firewood]
 version: "1.88"
 unicode: "f359"
 -->

@@ -27,7 +27,7 @@ class UserEdit extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [modify, change, update, revise, correct, alter, adjust, compose, rewrite, amend]
+tags: [person, account, profile, avatar, member, edit, pencil, modify, edit-profile, update]
 version: "2.8"
 unicode: "f7cc"
 -->

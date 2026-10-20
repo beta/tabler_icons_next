@@ -26,7 +26,7 @@ class BrandWix extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, maker, web, website, brand, wix, company, trademark, identity, corporate]
+tags: [wix, website-builder, no-code, web, hosting, cms, logo, brand]
 category: Brand
 version: "1.92"
 unicode: "f3a1"

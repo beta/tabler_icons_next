@@ -26,7 +26,7 @@ class ChartPie4 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, diagram, graph, rhythm, data, analysis, chart, pie, visualization, analytics]
+tags: [chart, graph, statistics, analytics, data, report, diagram, pie-chart, pie, percentage, visualization]
 category: Charts
 version: "1.39"
 unicode: "ee33"

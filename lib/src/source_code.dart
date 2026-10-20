@@ -26,7 +26,7 @@ class SourceCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, coding, html, development, source, code, software, script, technical, developer]
+tags: [code, html, brackets, programming, development, source]
 category: Development
 version: "1.96"
 unicode: "f4a2"

@@ -26,7 +26,7 @@ class Signal2g extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mobile, network, phone, wifi, connection, signal, hardware, technology, 2g, electronic]
+tags: [2g, mobile-network, cellular, signal, network, connection, mobile-data]
 category: Devices
 version: "2.5"
 unicode: "f79a"

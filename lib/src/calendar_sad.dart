@@ -26,7 +26,7 @@ class CalendarSad extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [unhappy, gloomy, depressed, melancholy, downcast, sorrowful, mournful, dejected, somber, forlorn]
+tags: [calendar, date, schedule, event, day, planner, agenda, sad, unhappy, bad-day, frown, emoji, appointment]
 category: System
 version: "2.40"
 unicode: "fd1d"

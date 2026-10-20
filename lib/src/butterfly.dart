@@ -26,7 +26,7 @@ class Butterfly extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [animal, insect, nature, fly, wings, butterfly, environment, natural, outdoor, ecosystem]
+tags: [butterfly, insect, nature, moth, wings, spring, animal, bug, garden]
 category: Nature
 version: "1.51"
 unicode: "efd9"

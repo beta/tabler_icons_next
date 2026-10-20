@@ -27,7 +27,7 @@ class PencilStar extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [edit, highlight, favorite, important, rank, prominent, special, mark, feature, ideal]
+tags: [edit, write, draw, modify, pen, compose, favorite, bookmark, rating, featured, update, change]
 version: "2.28"
 unicode: "fc0c"
 -->

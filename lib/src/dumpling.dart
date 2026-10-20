@@ -27,7 +27,7 @@ class Dumpling extends Icon {
 
   static const String _svg = '''<!--
 category: Food
-tags: [food, chinese, asian, meal, snack, dough, meat, vegetable, steamed, boiled, fried, cuisine, traditional, delicious, tasty]
+tags: [dumpling, dim-sum, gyoza, chinese-food, asian-food, food, dish, pierogi, momo, steamed]
 unicode: "feb5"
 version: "3.2"
 -->

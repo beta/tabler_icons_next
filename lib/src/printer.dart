@@ -26,7 +26,7 @@ class Printer extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fax, office, device, printer, hardware, technology, electronic, gadget, equipment]
+tags: [print, printing, paper, office, fax, device, document, hardcopy, printer]
 category: Devices
 version: "1.0"
 unicode: "eb0e"

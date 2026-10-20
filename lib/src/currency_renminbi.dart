@@ -26,7 +26,7 @@ class CurrencyRenminbi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [renminbi, cny, chinese, yuan, money, banknote, pay, currency, finance, payment]
+tags: [renminbi, rmb, cny, yuan, china, chinese, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "ee64"

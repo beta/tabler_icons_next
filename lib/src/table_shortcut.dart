@@ -26,7 +26,7 @@ class TableShortcut extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, database, chart, network, server, table, shortcut, storage, repository, records]
+tags: [table, shortcut, link, database, sql, data, spreadsheet, excel, sheet]
 category: Database
 version: "1.75"
 unicode: "f25d"

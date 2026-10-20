@@ -26,7 +26,7 @@ class AlphabetArabic extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [language, writing, text, script, culture, letters, font, arab, linguistics, communication]
+tags: [arab, language, script, letters, writing, text, typography, character, alphabet, arabic]
 category: Text
 unicode: "ff2f"
 version: "3.8"

@@ -26,7 +26,7 @@ class BrandThreads extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [textile, discussion, conversation, needlework, clothing, forum, dialogue, social, sewing, fabric]
+tags: [threads, meta, instagram, social, social-media, microblog, logo, brand]
 category: Brand
 version: "2.25"
 unicode: "fb02"

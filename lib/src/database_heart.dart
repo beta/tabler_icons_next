@@ -27,7 +27,7 @@ class DatabaseHeart extends Icon {
 
   static const String _svg = '''<!--
 category: Database
-tags: [love, favorite, affection, emotion, liking, preference, fondness, admire, cherish, adore]
+tags: [heart, favorite, like, love, database, db, data, storage, sql, server]
 version: "2.13"
 unicode: "fa14"
 -->

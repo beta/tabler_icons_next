@@ -26,7 +26,7 @@ class Meat extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, beef, steak, chicken, sasuage, dinner, meat, meal, cuisine, eating]
+tags: [beef, steak, ham, meat-on-bone, protein, dinner, food, bbq, butcher, meat]
 category: Food
 version: "1.40"
 unicode: "ef12"

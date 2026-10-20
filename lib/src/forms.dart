@@ -26,7 +26,7 @@ class Forms extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [formbuilder, input, url, textarea, forms, typography, writing, font, character, word]
+tags: [forms, form, input, text-field, textarea, form-builder, cursor, field, survey]
 category: Text
 version: "1.39"
 unicode: "ee8f"

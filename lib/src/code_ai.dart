@@ -26,7 +26,7 @@ class CodeAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ai, artificial intelligence, code, programming, assistant, copilot, autocomplete, snippet, editor, development]
+tags: [ai, ai-code, copilot, code-assistant, autocomplete, code-generation, llm, programming, developer, sparkle, code]
 category: Development
 unicode: "10267"
 version: "3.44"

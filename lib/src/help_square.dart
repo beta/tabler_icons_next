@@ -26,7 +26,7 @@ class HelpSquare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [support, aid, assist, guide, rectangle, box, frame, border, straight, outline]
+tags: [help, question, support, faq, question-mark, square, info, box, assistance]
 version: "2.10"
 unicode: "f920"
 category: System

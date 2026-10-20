@@ -26,7 +26,7 @@ class ScanCube extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [scan, cube, 3d, object, model, capture, spatial, augmented, mesh, reality]
+tags: [3d-scan, scan, cube, model, capture, augmented-reality, ar]
 category: System
 unicode: "1025d"
 version: "3.44"

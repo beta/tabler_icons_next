@@ -26,7 +26,7 @@ class BrandSafari extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, browser, internet, iphone, ipad, MacBook, compass, apple, discover, brand]
+tags: [safari, apple, browser, web, internet, macos, ios, compass, logo, brand]
 category: Brand
 version: "1.9"
 unicode: "ec23"

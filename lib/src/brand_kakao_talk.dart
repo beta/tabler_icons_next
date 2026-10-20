@@ -26,7 +26,7 @@ class BrandKakaoTalk extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [kakao-talk, messaging, communication, chat, social, app, talk, branding, kakao, conversation]
+tags: [kakaotalk, kakao, messaging, chat, messenger, korea, app, logo, brand, talk]
 category: Brand
 version: "2.41"
 unicode: "fd2d"

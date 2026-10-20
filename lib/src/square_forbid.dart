@@ -27,7 +27,7 @@ class SquareForbid extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [box, disabled, off, block, square, forbid, rectangular]
+tags: [forbidden, block, ban, disabled, stop, square, box, forbid]
 version: "1.30"
 unicode: "ed5b"
 -->

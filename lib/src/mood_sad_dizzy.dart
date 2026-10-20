@@ -26,7 +26,7 @@ class MoodSadDizzy extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, mad, displeased, mood, sad, dizzy]
+tags: [dizzy, sad, dead, knocked-out, unhappy, emoji, smiley, face, emotion, feeling, reaction, mood]
 category: Mood
 version: "1.83"
 unicode: "f2e3"

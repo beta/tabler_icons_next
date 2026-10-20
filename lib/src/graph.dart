@@ -27,7 +27,7 @@ class Graph extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [analytics, raport, statistics, chart, graph]
+tags: [chart, line-chart, analytics, statistics, stats, report, trend, data, diagram, plot, graph]
 version: "1.78"
 unicode: "f288"
 -->

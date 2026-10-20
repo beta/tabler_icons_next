@@ -26,7 +26,7 @@ class Disc extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cd, music, album, disc, hardware, technology, electronic, gadget, equipment]
+tags: [cd, dvd, disc, disk, compact-disc, album, music, media, optical, vinyl]
 category: Devices
 version: "1.0"
 unicode: "ea90"

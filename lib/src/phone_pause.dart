@@ -26,7 +26,7 @@ class PhonePause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [call, mute, mobile, landline, conversation, phone, pause, hardware, technology, contact]
+tags: [on-hold, call, telephone, contact, dial, mobile, handset, paused, hold, wait, suspend, phone, pause]
 category: Devices
 version: "1.0"
 unicode: "eb08"

@@ -26,7 +26,7 @@ class CurrencyKroneSwedish extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [krone, kronor, krona, swedish, icelandic, norwegian, estonian, money, banknote, pay]
+tags: [krona, sek, swedish, sweden, kronor, nok, norwegian, currency, money, symbol, cash, finance, payment, krone]
 category: Currencies
 version: "1.39"
 unicode: "ee5e"

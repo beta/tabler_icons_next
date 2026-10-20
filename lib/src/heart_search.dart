@@ -27,7 +27,7 @@ class HeartSearch extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [find, locate, explore, discover, look, seek, scan, investigate, examine, probe]
+tags: [heart, love, like, favorite, favourite, search, find, lookup, magnifier, explore]
 version: "2.28"
 unicode: "fbaa"
 -->

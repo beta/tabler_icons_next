@@ -26,7 +26,7 @@ class SkateboardOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [toy, vehicle, electrical, skateboard, off, transport, travel, disabled, inactive, automobile]
+tags: [skate, skateboarding, board, deck, wheels, sport, disabled, unavailable, inactive, hidden, skateboard, off]
 category: Vehicles
 version: "1.94"
 unicode: "f42b"

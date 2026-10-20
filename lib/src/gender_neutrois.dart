@@ -26,7 +26,7 @@ class GenderNeutrois extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identity, none, transgender, gender, neutrois, person, human, individual]
+tags: [neutrois, gender, non-binary, identity, lgbt, lgbtq, symbol]
 category: Gender
 version: "1.64"
 unicode: "f0ef"

@@ -26,7 +26,7 @@ class InnerShadowBottomLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, circle, down, south, west, inner, shadow, bottom, left, creative]
+tags: [shadow, inner-shadow, shade, shading, effect, circle, sphere, design, light, bottom-left, south-west, corner, inset, inner, bottom, left]
 category: Design
 version: "1.103"
 unicode: "f51e"

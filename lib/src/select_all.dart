@@ -27,7 +27,7 @@ class SelectAll extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [highlight, choose, pick, elect, mark, set, check, complete, fill, total]
+tags: [check-all, select-all, selection, highlight, checkbox, all]
 version: "2.11"
 unicode: "f9f7"
 -->

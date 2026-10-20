@@ -27,7 +27,7 @@ class ObjectScan extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [barcode, reader, scanner, inventory, retail, identification, inspection, analyze, tracking, detect]
+tags: [scan, scanner, 3d-scan, object-detection, recognition, focus, frame, vision, ar]
 unicode: "fef1"
 version: "3.5"
 -->

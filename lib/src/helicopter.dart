@@ -26,7 +26,7 @@ class Helicopter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [land, takeoff, navy, travel, aircraft, platform, fly, pilot, journey, rotorcraft, hover]
+tags: [helicopter, chopper, aircraft, rotorcraft, fly, aviation, transport, travel]
 category: Vehicles
 version: "1.34"
 unicode: "ed8e"

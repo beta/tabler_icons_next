@@ -26,7 +26,7 @@ class Drone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [device, fly, aircraft, surveillance, control, autonomous, drone, transport, travel, vehicle]
+tags: [drone, quadcopter, uav, aerial, camera-drone, fly, flying, remote-control, aircraft, surveillance]
 category: Vehicles
 version: "1.33"
 unicode: "ed79"

@@ -26,7 +26,7 @@ class BrandFacebook extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, app, application, community, social, communication, website, user, post, images, photos, comment, feedback, fb]
+tags: [facebook, fb, meta, social, social-network, social-media, community, logo, brand]
 category: Brand
 version: "1.18"
 unicode: "ec1a"

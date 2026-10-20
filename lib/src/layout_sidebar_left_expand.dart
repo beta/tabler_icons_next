@@ -26,7 +26,7 @@ class LayoutSidebarLeftExpand extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grid, aside, column, columns, menu, navigation, layout, sidebar, left, expand]
+tags: [sidebar, expand, show, open, drawer, side-panel, left, layout, ui]
 category: Design
 version: "1.53"
 unicode: "f005"

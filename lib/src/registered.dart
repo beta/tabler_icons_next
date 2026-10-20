@@ -26,7 +26,7 @@ class Registered extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [copyright, trademark, rights, registered, sign, mark, emblem, representation, indicator]
+tags: [registered-trademark, trademark, copyright, r, symbol, brand, legal, registered]
 category: Symbols
 version: "1.0"
 unicode: "eb14"

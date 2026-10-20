@@ -26,7 +26,7 @@ class TiltShift extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, shift, photography, photo, tilt, camera, picture, capture, lens, image]
+tags: [tilt-shift, blur, focus, lens, photo, camera, filter, miniature, tilt, shift]
 category: Photography
 version: "1.39"
 unicode: "eefe"

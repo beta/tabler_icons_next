@@ -26,7 +26,7 @@ class Dog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pet, animal, cute, bone, home, puppy, dog, creature, wildlife, nature]
+tags: [dog, puppy, pet, animal, canine, doggy, veterinary, paw, pet-friendly]
 category: Animals
 version: "1.119"
 unicode: "f660"

@@ -27,7 +27,7 @@ class Outlet extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [socket, electricity, electrical, plug in, device, outlet]
+tags: [socket, power-outlet, plug, electricity, power, wall-socket, electrical, outlet]
 version: "1.6"
 unicode: "ebd7"
 -->

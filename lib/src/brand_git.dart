@@ -26,7 +26,7 @@ class BrandGit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, coding, software, perl, boume shell, brand, git, logo, company, trademark]
+tags: [git, version-control, vcs, repository, source-control, commit, branch, logo, brand]
 category: Brand
 version: "1.45"
 unicode: "ef6f"

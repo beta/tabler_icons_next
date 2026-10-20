@@ -26,7 +26,7 @@ class DragDrop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [location, gesture, move, drag, drop, creative, artistic, visual, aesthetic, style]
+tags: [drag-and-drop, drag, drop, move, reorder, cursor, pointer, arrange, dnd, upload]
 category: Design
 version: "1.3"
 unicode: "eb89"

@@ -27,7 +27,7 @@ class Pick extends Icon {
 
   static const String _svg = '''<!--
 category: Games
-tags: [select, choose, grab, pluck, individual, option, choice, preference, guitar, tool]
+tags: [pickaxe, mining, dig, tool, minecraft, miner, work]
 version: "2.24"
 unicode: "fafc"
 -->

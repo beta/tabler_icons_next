@@ -26,7 +26,7 @@ class CurrencyLyd extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, finance, money, cash, libya, currency, lyd, payment, monetary, banking]
+tags: [libyan-dinar, lyd, libya, dinar, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.90"
 unicode: "f375"

@@ -26,7 +26,7 @@ class KeyboardHide extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [computer, laptop, device, type, keyboard, hide, hardware, technology, electronic, gadget]
+tags: [keyboard, hide, hide-keyboard, dismiss, collapse, typing, input]
 category: Devices
 version: "1.14"
 unicode: "ec7e"

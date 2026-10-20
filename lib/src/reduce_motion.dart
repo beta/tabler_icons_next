@@ -26,7 +26,7 @@ class ReduceMotion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [motion, animation, accessibility, reduce, settings, preferences, a11y, movement, vestibular, effects]
+tags: [accessibility, a11y, animation, motion, prefers-reduced-motion, settings, preferences, vestibular, reduce]
 category: System
 unicode: "10294"
 version: "3.47"

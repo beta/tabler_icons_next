@@ -26,7 +26,7 @@ class CameraSpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [video, photo, aperture, camera, spark, content, entertainment, glitter, shine, flash]
+tags: [camera, photo, photography, picture, video, lens, image, spark, sparkle, magic, shine]
 category: Media
 version: "3.13"
 unicode: "ffbc"

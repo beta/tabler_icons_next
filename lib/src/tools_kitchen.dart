@@ -27,7 +27,7 @@ class ToolsKitchen extends Icon {
 
   static const String _svg = '''<!--
 category: Food
-tags: [knife, fork, spoon, cutlery, eat, restaurant, menu, cafe, cook, cut, soup, dinner, breakfast, dining, plate, dish]
+tags: [cutlery, utensils, fork, knife, spoon, restaurant, food, dining]
 version: "1.31"
 unicode: "ed64"
 -->

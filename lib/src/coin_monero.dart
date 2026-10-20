@@ -26,7 +26,7 @@ class CoinMonero extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, earn, salary, change, coin, monero, store, purchase, shopping, retail]
+tags: [monero, xmr, crypto, cryptocurrency, privacy, coin, money, cash, currency, payment, finance, change]
 category: E-commerce
 version: "1.96"
 unicode: "f4a0"

@@ -26,7 +26,7 @@ class NetworkOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [connection, internet, communication, connect, web, signal, network, off, disabled, inactive]
+tags: [internet, connection, offline, no-internet, disconnected, disabled, slash, network, off]
 category: Computers
 version: "1.94"
 unicode: "f414"

@@ -26,7 +26,7 @@ class ArrowRightToArc extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [navigation, direction, rightward, arch, interface, path, flow, guide, ui, arrow]
+tags: [direction, east, next, forward, curve, pointer, navigation, arrow]
 category: Arrows
 version: "2.46"
 unicode: "fd8b"

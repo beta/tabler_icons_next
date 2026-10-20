@@ -26,7 +26,7 @@ class Receipt2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bill, restaurant, shop, price, pay, money, total, tax, receipt, file]
+tags: [bill, invoice, payment, purchase, transaction, money, shopping, paper, total, tax, receipt]
 category: Document
 version: "1.38"
 unicode: "edfa"

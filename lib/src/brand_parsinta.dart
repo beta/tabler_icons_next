@@ -26,7 +26,7 @@ class BrandParsinta extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [learning, online, educational, courses, tutorials, platform, video, technology, knowledge, instruction]
+tags: [parsinta, learning, courses, education, tutorials, video, logo, brand]
 category: Brand
 version: "2.31"
 unicode: "fc42"

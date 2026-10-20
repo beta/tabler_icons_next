@@ -27,7 +27,7 @@ class Recharging extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [battery, power, charge, socket, electricity, device, phone, laptop, low, recharging]
+tags: [charging, battery, power, charge, electricity, phone, recharging]
 version: "1.39"
 unicode: "eeca"
 -->

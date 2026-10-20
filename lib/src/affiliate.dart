@@ -27,7 +27,7 @@ class Affiliate extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [network, connection, collaboration, people, connect, organization, networking, affiliate]
+tags: [network, connections, affiliate-marketing, referral, partners, hub, nodes, share, social, affiliate]
 version: "1.39"
 unicode: "edff"
 -->

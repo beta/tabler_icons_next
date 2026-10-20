@@ -26,7 +26,7 @@ class Message2Ai extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [chat, conversation, message, ai, artificial intelligence, assistant, chatbot, bot, generate, smart]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, artificial-intelligence, ai-assistant, generative, llm, chatgpt, reply, communication, dm, message, ai]
 category: Communication
 unicode: "102aa"
 version: "3.48"

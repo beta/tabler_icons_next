@@ -26,7 +26,7 @@ class SwipeRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gesture, swipe, rightward-swipe, scroll-right, slide-right, touch-gesture, screen-swipe, gesture-control, interaction, user-swipe]
+tags: [gesture, touch, swipe, slide, scroll-right, hand, mobile, east]
 category: Arrows
 version: "2.43"
 unicode: "fd60"

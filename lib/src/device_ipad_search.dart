@@ -27,7 +27,7 @@ class DeviceIpadSearch extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [find, look, seek, explore, browse, scan, locate, detect, sift, investigate]
+tags: [ipad, tablet, apple, find, magnifier, magnifying-glass, lookup, ios, device, mobile, zoom, query]
 version: "2.10"
 unicode: "f8a8"
 -->

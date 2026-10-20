@@ -26,7 +26,7 @@ class ChartPpf extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [graph, diagram, curves, chart, ppf, statistics, visualization, analytics, metrics, report]
+tags: [chart, graph, statistics, analytics, data, report, diagram, ppf, production-possibility-frontier, curve, economics, visualization]
 category: Charts
 version: "1.115"
 unicode: "f618"

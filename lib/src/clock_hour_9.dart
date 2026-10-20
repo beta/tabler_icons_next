@@ -26,7 +26,7 @@ class ClockHour9 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, watch, timer, alarm, minutes, seconds, clock, hour, control, operation]
+tags: [9, 9-oclock, hour, clock, time, watch, schedule, timer, clock-face]
 category: System
 version: "1.85"
 unicode: "f31e"

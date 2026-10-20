@@ -26,7 +26,7 @@ class Minus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [subtract, less, minus, calculation, equation, remove, decrease, negative, mathematics, numeric]
+tags: [subtract, remove, less, negative, dash, hyphen, minimize, collapse, delete, minus]
 category: Math
 version: "1.0"
 unicode: "eaf2"

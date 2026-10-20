@@ -27,7 +27,7 @@ class PointerMinus extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [subtract, decrease, reduce, less, deduct, takeaway, minus, negative, lower, cut]
+tags: [cursor, mouse-pointer, mouse, remove, subtract, delete, less, arrow, click, minus]
 version: "2.10"
 unicode: "f9a2"
 -->

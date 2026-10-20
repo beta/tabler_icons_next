@@ -26,7 +26,7 @@ class CircuitCellPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [electric, diagram, electricity, battery, power, circuit, cell, plus, energy, add]
+tags: [cell, battery, positive, plus, power, voltage, circuit, electronics, electrical, schematic, diagram, electricity, component]
 category: Electrical
 version: "1.77"
 unicode: "f276"

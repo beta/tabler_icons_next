@@ -26,7 +26,7 @@ class LetterOSmall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [o, oscar, fifteenth, letter, alphabet, character, typeface, glyph, script, small]
+tags: [letter, character, alphabet, lowercase, small, minuscule, text, typography, font, glyph, o]
 category: Letters
 version: "2.38"
 unicode: "fcd5"

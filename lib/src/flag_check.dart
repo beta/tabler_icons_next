@@ -27,7 +27,7 @@ class FlagCheck extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [confirm, verify, approve, validate, okay, certify, endorse, affirm, ensure, accept]
+tags: [report, banner, milestone, done, success, confirmed, approved, mark, country, goal, verified, tick, checkmark, ok]
 version: "2.28"
 unicode: "fb8c"
 -->

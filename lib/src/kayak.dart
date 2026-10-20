@@ -26,7 +26,7 @@ class Kayak extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [water, adventure, river, camp, sport, summer, activity, kayak, athletic, fitness]
+tags: [kayak, canoe, paddle, boat, water, sport, river, rowing, outdoor]
 category: Sport
 version: "1.68"
 unicode: "f1d6"

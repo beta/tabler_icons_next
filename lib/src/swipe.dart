@@ -27,7 +27,7 @@ class Swipe extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [right, left, gesture, scroll, swipe]
+tags: [gesture, touch, swipe, slide, drag, hand, mobile, finger]
 version: "1.105"
 unicode: "f551"
 -->

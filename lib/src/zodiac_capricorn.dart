@@ -26,7 +26,7 @@ class ZodiacCapricorn extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, horoscope, constellation, stars, zodiac, capricorn, astrology, star]
+tags: [zodiac, horoscope, astrology, star-sign, sign, goat, constellation, astrological, capricorn]
 category: Zodiac
 version: "1.17"
 unicode: "ecaf"

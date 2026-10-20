@@ -27,7 +27,7 @@ class BorderRightPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [add, right, enhance, expand, boost, increase, enlarge, amplify, edge, extend]
+tags: [table, cell, spreadsheet, excel, format, edge, add, right]
 unicode: "fdbb"
 version: "3.0"
 -->

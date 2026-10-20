@@ -26,7 +26,7 @@ class BrandGithub extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, website, hosting, project, programming, software, development, brand, github, company]
+tags: [github, git, repository, code, hosting, version-control, octocat, microsoft, developer, logo, brand]
 category: Brand
 version: "1.18"
 unicode: "ec1c"

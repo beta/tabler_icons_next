@@ -26,7 +26,7 @@ class PodiumOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [speach, microphone, conference, politics, audience, presentation, podium, off, architecture, structure]
+tags: [lectern, speech, speaker, presentation, conference, unavailable, stage, disabled, inactive, hidden, podium, off]
 category: Buildings
 version: "1.94"
 unicode: "f41b"

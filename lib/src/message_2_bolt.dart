@@ -27,7 +27,7 @@ class Message2Bolt extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [flash, notify, alert, urgent, communication, text, quick, instant, fast, prompt]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, lightning, flash, fast, energy, power, reply, communication, dm]
 version: "2.10"
 unicode: "f95c"
 -->

@@ -26,7 +26,7 @@ class PaintOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [brush, renovation, refurbishment, color, wall, paint, off, creative, artistic, disabled]
+tags: [paint-roller, roller, painting, brush, disabled, slash, decorate, colour, color, inactive, paint, off]
 category: Design
 version: "1.66"
 unicode: "f16d"

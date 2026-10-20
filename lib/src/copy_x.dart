@@ -27,7 +27,7 @@ class CopyX extends Icon {
 
   static const String _svg = '''<!--
 category: Text
-tags: [delete, remove, cancel, erase, discard, nullify, revoke, void, terminate, clear]
+tags: [x, close, remove, delete, cancel, copy, duplicate, clone, clipboard, paste]
 unicode: "fdad"
 version: "3.0"
 -->

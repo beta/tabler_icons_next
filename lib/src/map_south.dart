@@ -26,7 +26,7 @@ class MapSouth extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [down, below, lower, under, beneath, sub, southward, descend, bottom, inferior]
+tags: [map, south, compass, direction, south-arrow, navigation, cardinal]
 category: Map
 version: "2.32"
 unicode: "fc5f"

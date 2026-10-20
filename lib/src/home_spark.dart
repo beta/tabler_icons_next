@@ -26,7 +26,7 @@ class HomeSpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [house, dashboard, living, building, home, spark, main, architecture, structure, start]
+tags: [home, house, homepage, building, residence, real-estate, ai, sparkle, magic, new, auto, spark]
 category: Buildings
 version: "3.13"
 unicode: "ffb5"

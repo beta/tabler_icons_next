@@ -26,7 +26,7 @@ class HelpCircle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [assist, support, guide, aid, resolve, explain, instruct, clarify, help, circle]
+tags: [help, question, support, faq, question-mark, circle, info, assistance, unknown]
 category: System
 version: "2.10"
 unicode: "f91d"

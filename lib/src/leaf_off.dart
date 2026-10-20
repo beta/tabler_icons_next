@@ -26,7 +26,7 @@ class LeafOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [nature, plant, tree, autumn, fall, greenery, flower, forest, garden, leaf]
+tags: [leaf, nature, plant, eco, green, disabled, off-state, unavailable]
 category: Nature
 version: "1.94"
 unicode: "f400"

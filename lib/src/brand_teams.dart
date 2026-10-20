@@ -26,7 +26,7 @@ class BrandTeams extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [microsoft, technology, brand, teams, logo, company, trademark, identity, corporate, business]
+tags: [teams, microsoft-teams, microsoft, chat, meeting, video-call, collaboration, logo, brand]
 category: Brand
 version: "2.23"
 unicode: "fadf"

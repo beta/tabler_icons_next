@@ -26,7 +26,7 @@ class Trademark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [legal, product, company, own, ownership, brand, law, right, certificate, trademark]
+tags: [trademark, tm, brand, legal, copyright, registered, symbol, ip]
 category: Symbols
 version: "1.8"
 unicode: "ec0e"

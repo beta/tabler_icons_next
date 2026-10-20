@@ -27,7 +27,7 @@ class JoinStraight extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [align, linear, direct, connection, straight, line, junction, link, connect, seam]
+tags: [join, miter, straight, line-join, stroke, corner, vector, design, svg]
 unicode: "ff4a"
 version: "3.10"
 -->

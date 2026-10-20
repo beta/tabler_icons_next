@@ -26,7 +26,7 @@ class Coin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, earn, salary, change, dollar, coin, store, purchase, shopping, retail]
+tags: [coin, dollar, money, cash, currency, payment, finance, price, change, token]
 category: E-commerce
 version: "1.3"
 unicode: "eb82"

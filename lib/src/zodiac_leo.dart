@@ -26,7 +26,7 @@ class ZodiacLeo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, horoscope, constellation, stars, zodiac, leo, astrology, star]
+tags: [zodiac, horoscope, astrology, star-sign, sign, lion, constellation, astrological, leo]
 category: Zodiac
 version: "1.17"
 unicode: "ecb1"

@@ -26,7 +26,7 @@ class Loader4 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [loader, loading, spinner, progress, wait, process, interface, ui, busy, system]
+tags: [loading, loader, spinner, progress, wait, busy, pending, buffering, processing, throbber, activity-indicator]
 category: System
 unicode: "10235"
 version: "3.42"

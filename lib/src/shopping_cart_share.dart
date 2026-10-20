@@ -27,7 +27,7 @@ class ShoppingCartShare extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [distribute, post, spread, publish, broadcast, divide, announce, impart, circulate, pass]
+tags: [shopping-cart, cart, basket, share, send, export, forward, trolley, shop, store, checkout, ecommerce, buy]
 version: "2.28"
 unicode: "fb68"
 -->

@@ -26,7 +26,7 @@ class DeviceAirtag extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [track, locate, find, device, detect, trace, navigation, signal, tag, gadget]
+tags: [airtag, tracker, tag, find-my, locate, apple, bluetooth, lost-item, gps, device]
 category: Devices
 version: "2.23"
 unicode: "fae6"

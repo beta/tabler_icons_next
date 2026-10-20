@@ -26,7 +26,7 @@ class BrandAzure extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [microsoft, azure, cloud, computing, technology, services, software, platform, it, digital]
+tags: [azure, microsoft, cloud, hosting, computing, server, infrastructure, platform, logo, brand]
 category: Brand
 version: "2.16"
 unicode: "fa4d"

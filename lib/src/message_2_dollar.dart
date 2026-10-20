@@ -27,7 +27,7 @@ class Message2Dollar extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [finance, currency, money, price, cost, budget, cash, transaction, payment, investment]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, money, price, payment, paid, usd, cost, reply, communication, dm]
 version: "2.10"
 unicode: "f960"
 -->

@@ -26,7 +26,7 @@ class Skull extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [halloween, skeleton, dead, pirate, danger, horror, skull, medical, wellness, healthcare]
+tags: [death, dead, danger, poison, pirate, halloween, skeleton, skull]
 category: Health
 version: "1.78"
 unicode: "f292"

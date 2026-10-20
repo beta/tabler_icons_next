@@ -27,7 +27,7 @@ class Sticker2 extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [label-2, adhesive, decorative-label, tag-2, sticky-note, decal, post-it, sticker-label, paper-sticker, 2nd-sticker]
+tags: [sticker, label, decal, adhesive, sticky-note, post-it, peel, emoji, badge]
 version: "2.41"
 unicode: "fd3d"
 -->

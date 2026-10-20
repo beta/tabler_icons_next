@@ -26,7 +26,7 @@ class PhotoShield extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gallery, safety, secure, photo, shield, content, entertainment, multimedia, broadcast, audio]
+tags: [image, protected, secure, picture, privacy, security, copyright, safe, gallery, photo, shield]
 category: Media
 version: "1.89"
 unicode: "f365"

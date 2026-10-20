@@ -26,7 +26,7 @@ class FileTypeJsx extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [react, javascript, xml, component, frontend, ui, view, interface, jsx, markup]
+tags: [jsx, react, javascript, component, code, frontend, file-format, extension]
 category: Document
 version: "2.25"
 unicode: "fb0f"

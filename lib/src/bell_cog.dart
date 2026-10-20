@@ -27,7 +27,7 @@ class BellCog extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [settings, options, preferences, configuration, adjust, tweak, calibrate, modulate, fine-tune, customize]
+tags: [notification, alert, reminder, notify, alarm, settings, gear, configuration, preferences, options]
 version: "2.10"
 unicode: "f816"
 -->

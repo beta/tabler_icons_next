@@ -26,7 +26,7 @@ class SquareOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [checkbox, box, shape, square, off, disabled, inactive, rectangular, geometry, form]
+tags: [square, box, checkbox, shape, disabled, inactive, unavailable, crossed-out, off]
 category: Shapes
 version: "1.39"
 unicode: "eeef"

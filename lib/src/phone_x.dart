@@ -26,7 +26,7 @@ class PhoneX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ring, mobile, conversation, answer, dial, landline, phone, call, hardware, technology]
+tags: [missed-call, declined, call, telephone, contact, dial, mobile, handset, close, delete, remove, cancel, clear, phone]
 category: Devices
 version: "1.8"
 unicode: "ec07"

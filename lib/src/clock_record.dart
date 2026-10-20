@@ -26,7 +26,7 @@ class ClockRecord extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, watch, alarm, recording, clock, record, control, operation, function, interface]
+tags: [record, recording, rec, time-recording, timer, clock, time, stopwatch, timelapse]
 category: System
 version: "1.105"
 unicode: "f54a"

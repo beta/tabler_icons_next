@@ -26,7 +26,7 @@ class FilePencil extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [edit, write, editing, text, file, pencil, document, data, content, record]
+tags: [edit, pencil, write, modify, document, file, compose, update, draft, rename]
 category: Document
 version: "1.56"
 unicode: "f039"

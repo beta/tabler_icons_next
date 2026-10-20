@@ -26,7 +26,7 @@ class IceSkating extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [winter, skate, sport, figure, activity, hockey, ice, skating, athletic, fitness]
+tags: [ice-skating, skate, skates, figure-skating, winter, sport, hockey, rink, ice, skating]
 category: Sport
 version: "1.50"
 unicode: "efcb"

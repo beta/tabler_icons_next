@@ -26,7 +26,7 @@ class Login extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [initialize, password, enter, account, permission, login, navigation, flow, movement, route]
+tags: [login, log-in, sign-in, signin, enter, arrow-right-to-bracket, account, authentication]
 category: Arrows
 version: "1.4"
 unicode: "eba7"

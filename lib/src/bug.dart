@@ -26,7 +26,7 @@ class Bug extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [germ, insect, error, nature, bug, programming, software, coding, technical, developer]
+tags: [bug, debug, error, issue, insect, beetle, problem, fix, software, defect]
 category: Development
 version: "1.1"
 unicode: "ea48"

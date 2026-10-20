@@ -27,7 +27,7 @@ class PlayCardStar extends Icon {
 
   static const String _svg = '''<!--
 category: Games
-tags: [wild, joker, deck, special, bonus, shine, lucky, power, poker, strategy]
+tags: [playing-card, card, joker, wild-card, star, poker, casino, deck, card-game, bonus]
 unicode: "1004e"
 version: "3.18"
 -->

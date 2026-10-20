@@ -26,7 +26,7 @@ class StepInto extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vector, placement, among, within, step, into, navigation, flow, movement, route]
+tags: [debug, debugger, step-into, breakpoint, developer, code, arrow, debugging, breakpoints, step, into]
 category: Arrows
 version: "1.20"
 unicode: "ece0"

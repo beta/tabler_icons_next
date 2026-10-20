@@ -26,7 +26,7 @@ class CodeDots extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [program, script, programmer, code, dots, programming, software, development, coding, typography]
+tags: [code, brackets, ellipsis, dots, programming, developer, coding, loading, typing, html]
 category: Text
 version: "1.115"
 unicode: "f61a"

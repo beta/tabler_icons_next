@@ -27,7 +27,7 @@ class CloudMinus extends Icon {
 
   static const String _svg = '''<!--
 category: Weather
-tags: [subtract, reduce, decrease, lessen, deduct, remove, lower, diminish, shorten, cut]
+tags: [minus, remove, subtract, less, cloud, cloud-storage, online, sync, storage, weather]
 version: "2.10"
 unicode: "f854"
 -->

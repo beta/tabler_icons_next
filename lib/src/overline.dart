@@ -26,7 +26,7 @@ class Overline extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [above, overbar, overscore, horizontal, overline, typography, writing, font, character, word]
+tags: [overscore, text-decoration, typography, text-format, underline-top, bar, font, overline]
 category: Text
 version: "1.39"
 unicode: "eebb"

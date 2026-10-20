@@ -27,7 +27,7 @@ class Flame extends Icon {
 
   static const String _svg = '''<!--
 category: Nature
-tags: [fire, fireplace, light, burn, bonfire, smoke, barbecue, flame]
+tags: [flame, fire, hot, burn, trending, popular, heat, lit, streak, campfire]
 version: "1.35"
 unicode: "ec2c"
 -->

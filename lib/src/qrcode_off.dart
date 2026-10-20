@@ -26,7 +26,7 @@ class QrcodeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [scan, data, qrcode, off, hardware, technology, disabled, inactive, electronic, gadget]
+tags: [qr-code, qr, barcode, scan, code, unavailable, scanner, disabled, inactive, hidden, qrcode, off]
 category: Devices
 version: "1.94"
 unicode: "f41e"

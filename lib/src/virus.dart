@@ -26,7 +26,7 @@ class Virus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [infection, illness, cell, infectious, health, virus, medical, wellness, healthcare, treatment]
+tags: [virus, bacteria, germ, infection, disease, covid, bug, pathogen]
 category: Health
 version: "1.2"
 unicode: "eb74"

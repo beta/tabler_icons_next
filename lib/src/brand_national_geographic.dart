@@ -26,7 +26,7 @@ class BrandNationalGeographic extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [institution, scientific, educational, nonprofit, brand, national, geographic, logo, company, trademark]
+tags: [national-geographic, natgeo, nature, science, magazine, tv, documentary, logo, brand, national, geographic]
 category: Brand
 version: "1.114"
 unicode: "f603"

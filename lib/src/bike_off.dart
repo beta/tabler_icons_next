@@ -26,7 +26,7 @@ class BikeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cycling, bicycle, sport, wheel, bike, off, transport, travel, disabled, inactive]
+tags: [bicycle, cycling, cycle, ride, transport, vehicle, disabled, bike, off]
 category: Vehicles
 version: "1.62"
 unicode: "f0b8"

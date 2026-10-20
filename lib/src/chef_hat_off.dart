@@ -26,7 +26,7 @@ class ChefHatOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cooking, kitchen, restaurant, food, job, chef, hat, off, meal, cuisine]
+tags: [chef, cook, cooking, kitchen, restaurant, toque, culinary, off, disabled, closed, hat]
 category: Food
 version: "1.94"
 unicode: "f3d4"

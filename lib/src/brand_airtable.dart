@@ -26,7 +26,7 @@ class BrandAirtable extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [creation of, sharing, database, interface, brand, airtable, logo, company, trademark, identity]
+tags: [airtable, database, spreadsheet, no-code, table, productivity, collaboration, logo, brand]
 category: Brand
 version: "1.45"
 unicode: "ef6a"

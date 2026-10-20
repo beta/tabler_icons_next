@@ -26,7 +26,7 @@ class Csv extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [file, document, format, type, folder, csv, plugin, addon, module, component]
+tags: [csv, file, spreadsheet, data, export, import, comma-separated, table, excel, format]
 category: Extensions
 version: "2.5"
 unicode: "f791"

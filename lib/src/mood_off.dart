@@ -26,7 +26,7 @@ class MoodOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sad, happy, emoji, smiley, neutral, face, mood, off, disabled, inactive]
+tags: [disabled, no-emoji, inactive, slash, emoji, smiley, face, emotion, feeling, reaction, mood, off]
 category: Mood
 version: "1.66"
 unicode: "f161"

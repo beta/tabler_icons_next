@@ -27,7 +27,7 @@ class NavigationMinus extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [subtract, remove, decrease, reduce, deduct, less, negate, takeaway, negative, shorten]
+tags: [gps, arrow, direction, location, cursor, compass, remove, delete, subtract, route, map, pointer]
 version: "2.28"
 unicode: "fbf3"
 -->

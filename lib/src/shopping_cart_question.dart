@@ -27,7 +27,7 @@ class ShoppingCartQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [ask, inquire, query, investigate, curiosity, explore, probe, interrogate, wonder, doubt]
+tags: [shopping-cart, cart, basket, help, faq, unknown, support, trolley, shop, store, checkout, ecommerce, buy]
 version: "2.28"
 unicode: "fb66"
 -->

@@ -27,7 +27,7 @@ class FolderStats extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [folder, stats, statistics, chart, analytics, data, report, directory, graph, files]
+tags: [folder, directory, stats, statistics, analytics, chart, report, data, metrics]
 unicode: "1029c"
 version: "3.47"
 -->

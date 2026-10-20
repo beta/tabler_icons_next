@@ -26,7 +26,7 @@ class EyeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [view, watch, eye, off, control, operation, disabled, inactive, function, interface, visibility, accessibility, a11y, hidden]
+tags: [hide, hidden, invisible, visibility-off, eye-slash, unseen, password-hide, private, not-visible, eye, off]
 category: System
 version: "1.22"
 unicode: "ecf0"

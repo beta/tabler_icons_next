@@ -27,7 +27,7 @@ class WorldBolt extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [fast, instant, speed, global, electric, impact, energy, strike, lightning, flash]
+tags: [globe, earth, world, internet, global, web, international, lightning, fast, flash, power, energy]
 version: "2.10"
 unicode: "f9d9"
 -->

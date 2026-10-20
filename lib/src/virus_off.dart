@@ -26,7 +26,7 @@ class VirusOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [infection, illness, cell, infectious, health, virus, off, medical, wellness, disabled]
+tags: [virus, bacteria, germ, infection, disease, disabled, inactive, pathogen, off]
 category: Health
 version: "1.31"
 unicode: "ed66"

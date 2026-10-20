@@ -27,7 +27,7 @@ class CloudHeart extends Icon {
 
   static const String _svg = '''<!--
 category: Weather
-tags: [love, affection, care, passion, emotion, fondness, devotion, warmth, kindness, relationship]
+tags: [heart, favorite, like, love, cloud, cloud-storage, online, sync, storage, weather]
 version: "2.10"
 unicode: "f853"
 -->

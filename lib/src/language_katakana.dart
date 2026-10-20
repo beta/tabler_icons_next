@@ -27,7 +27,7 @@ class LanguageKatakana extends Icon {
 
   static const String _svg = '''<!--
 category: Text
-tags: [tongue, country, speech, speak, translate, communication, communicate, english, dialect, dictionary, word]
+tags: [language, katakana, japanese, translate, translation, localization, i18n, kana]
 version: "1.45"
 unicode: "ef78"
 -->

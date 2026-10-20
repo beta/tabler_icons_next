@@ -27,7 +27,7 @@ class ViewportTall extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [elongate, extend, stretch, high, lofty, elevated, lengthy, prolong, tower, vertical]
+tags: [viewport, tall, expand, height, stretch, responsive, arrows, screen]
 unicode: "fee8"
 version: "3.5"
 -->

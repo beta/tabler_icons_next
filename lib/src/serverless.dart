@@ -27,7 +27,7 @@ class Serverless extends Icon {
 
   static const String _svg = '''<!--
 category: Development
-tags: [cloud, function, server, compute, lambda, scalable, hosting, backend, deploy, automation, payg, infrastructure]
+tags: [lambda, functions, faas, cloud, backend, deploy, compute, scalable]
 unicode: "101eb"
 version: "3.39"
 -->

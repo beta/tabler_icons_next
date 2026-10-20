@@ -26,7 +26,7 @@ class Forklift extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [store, warehouse, inventory, exporting, forklift, transport, travel, vehicle, automobile, mobility]
+tags: [forklift, warehouse, logistics, lift, pallet, cargo, inventory, shipping, industrial, vehicle]
 category: Vehicles
 version: "1.7"
 unicode: "ebe9"

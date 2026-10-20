@@ -27,7 +27,7 @@ class ExclamationCircle extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [warning, error, shape, caution, alert, exclamation, circle, round, circular, important]
+tags: [exclamation, alert, warning, error, info, attention, important, circle, notice, caution]
 version: "1.117"
 unicode: "f634"
 -->

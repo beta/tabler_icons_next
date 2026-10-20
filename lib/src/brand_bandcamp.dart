@@ -26,7 +26,7 @@ class BrandBandcamp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, website, music company, audio, brand, bandcamp, logo, company, trademark, identity]
+tags: [bandcamp, music, audio, album, artist, store, indie, streaming, logo, brand]
 category: Brand
 version: "1.71"
 unicode: "f207"

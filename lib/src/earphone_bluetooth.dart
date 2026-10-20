@@ -26,7 +26,7 @@ class EarphoneBluetooth extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [earphone, earbud, bluetooth, wireless, audio, headset, hardware, technology, gadget, equipment]
+tags: [earbuds, earphones, airpods, bluetooth, wireless, headphones, audio, music, in-ear, earphone]
 category: Devices
 unicode: "1023a"
 version: "3.42"

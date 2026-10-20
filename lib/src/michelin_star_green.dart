@@ -26,7 +26,7 @@ class MichelinStarGreen extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sustainable, ecofriendly, responsible, ethical, green, environment, quality, dining, food, cuisine]
+tags: [michelin, green-star, sustainable, eco, restaurant, gastronomy, award, gourmet, green]
 category: Food
 version: "2.23"
 unicode: "faea"

@@ -26,7 +26,7 @@ class DoorHanger extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [door, hanger, hotel, room, sign, notice, hospitality, accommodation, entrance, home]
+tags: [door-hanger, do-not-disturb, hotel, room-service, sign, privacy, hospitality, tag, door, hanger]
 category: Buildings
 unicode: "1023b"
 version: "3.42"

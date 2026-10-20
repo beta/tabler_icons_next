@@ -27,7 +27,7 @@ class Codeblock extends Icon {
 
   static const String _svg = '''<!--
 category: Development
-tags: [code, snippet, programming, syntax, developer, script, source, text, highlight, editor, block, technical]
+tags: [code-block, snippet, code, syntax, highlight, source, editor, markdown, pre, programming, developer]
 unicode: "101f4"
 version: "3.39"
 -->

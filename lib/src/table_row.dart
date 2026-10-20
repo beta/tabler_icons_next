@@ -26,7 +26,7 @@ class TableRow extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [table, row, data-table, spreadsheet, table-structure, row-wise, information, grid, table-row-wise, dataset]
+tags: [row, spreadsheet, grid, data, table, excel, cells, sheet, tabular]
 category: Database
 version: "2.24"
 unicode: "fb00"

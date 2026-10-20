@@ -26,7 +26,7 @@ class Cannabis extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [marijuana, weed, drug, cbd, medical, cannabis, environment, natural, outdoor, ecosystem]
+tags: [cannabis, marijuana, weed, hemp, cbd, leaf, drug, medical]
 category: Nature
 version: "1.98"
 unicode: "f4c1"

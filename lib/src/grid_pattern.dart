@@ -27,7 +27,7 @@ class GridPattern extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [grid, mesh, net, line, pattern]
+tags: [grid, pattern, mesh, net, table, lines, background, layout]
 version: "1.50"
 unicode: "efc9"
 -->

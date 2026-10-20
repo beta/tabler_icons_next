@@ -26,7 +26,7 @@ class NorthStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [compas, location, point, christmas, direction, north, star, navigation, favorite, rating]
+tags: [star, compass, guiding-star, polaris, direction, christmas, sparkle, navigation, north]
 category: Map
 version: "1.54"
 unicode: "f014"

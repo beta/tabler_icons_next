@@ -27,7 +27,7 @@ class HeartHandshake extends Icon {
 
   static const String _svg = '''<!--
 category: Health
-tags: [support, care, friends, couple, relation, heart, handshake, love, like]
+tags: [handshake, heart, care, support, charity, donation, volunteer, partnership, kindness, trust]
 version: "1.64"
 unicode: "f0f3"
 -->

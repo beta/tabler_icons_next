@@ -26,7 +26,7 @@ class BrandReason extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logic, debate, discussion, thinking, rational, argument, sense, intellect, judgment, mental]
+tags: [reason, reasonml, ocaml, programming, language, meta, logo, brand]
 category: Brand
 unicode: "f49a"
 version: "1.96"

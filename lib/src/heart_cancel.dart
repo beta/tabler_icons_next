@@ -26,7 +26,7 @@ class HeartCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [stop, end, close, dislike, revoke, terminate, annul, cease, void, heart]
+tags: [heart, love, like, favorite, favourite, cancel, cancelled, blocked, forbidden, denied]
 category: Shapes
 version: "2.28"
 unicode: "fb9f"

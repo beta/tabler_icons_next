@@ -26,7 +26,7 @@ class Sketching extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sketch, drawing, pencil, freehand, draft, creative, illustration, art, design, stroke]
+tags: [sketch, drawing, pencil, freehand, draft, illustration, art]
 category: Design
 unicode: "1025c"
 version: "3.44"

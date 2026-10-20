@@ -27,7 +27,7 @@ class CameraCog extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [settings, gear, adjust, tune, configure, mechanism, system, setup, preferences, arrangement]
+tags: [camera, photo, photography, picture, video, lens, image, settings, cog, gear, configure, preferences, options]
 version: "2.10"
 unicode: "f837"
 -->

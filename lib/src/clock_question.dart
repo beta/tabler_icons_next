@@ -27,7 +27,7 @@ class ClockQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [inquire, ask, ponder, wonder, consider, query, investigate, probe, speculate, doubt]
+tags: [question, help, unknown, pending, uncertain, clock, time, schedule]
 version: "2.8"
 unicode: "f7c6"
 -->

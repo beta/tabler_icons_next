@@ -26,7 +26,7 @@ class BrandDiscord extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, application, logo, communication, talks, gamers, freeware, platform, brand, discord]
+tags: [discord, chat, messaging, voice, gaming, community, server, logo, brand]
 category: Brand
 version: "1.21"
 unicode: "ece3"

@@ -26,7 +26,7 @@ class PlaneOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [travel, journey, trip, airport, baggage, luggage, plane, off, transport, disabled]
+tags: [airplane, flight, no-flights, cancelled-flight, airplane-mode, aircraft, unavailable, disabled, inactive, hidden, plane, off]
 category: Vehicles
 version: "1.66"
 unicode: "f17a"

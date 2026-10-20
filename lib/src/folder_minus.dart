@@ -26,7 +26,7 @@ class FolderMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [directory, dir, folder, minus, collection, container, group, subtract, remove, less]
+tags: [directory, dir, files, remove, subtract, delete, reduce, archive, project, less, folder, minus]
 category: Document
 version: "1.0"
 unicode: "eaaa"

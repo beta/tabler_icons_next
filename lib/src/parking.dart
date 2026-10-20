@@ -26,7 +26,7 @@ class Parking extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, car, vehicle, space, parking, location, navigation, geography, place, position]
+tags: [parking-lot, car, park, sign, p, vehicle, garage, parking]
 category: Map
 version: "1.0"
 unicode: "eb03"

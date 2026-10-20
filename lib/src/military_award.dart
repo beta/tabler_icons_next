@@ -27,7 +27,7 @@ class MilitaryAward extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [achievement, honor, badge, medal, prize, army, military, award]
+tags: [medal, badge, honor, award, achievement, army, soldier, decoration, military]
 version: "1.50"
 unicode: "f079"
 -->

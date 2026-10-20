@@ -27,7 +27,7 @@ class LocationCog extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [settings, gear, configure, adjust, control, modify, tune, regulate, calibrate, system]
+tags: [location, navigation, gps, arrow, pointer, direction, map, position, settings, gear, cog, configuration, preferences, options]
 version: "2.28"
 unicode: "fbb3"
 -->

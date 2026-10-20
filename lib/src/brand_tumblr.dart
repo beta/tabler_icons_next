@@ -26,7 +26,7 @@ class BrandTumblr extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, website, platform, blog, community, brand, tumblr, company, trademark, identity]
+tags: [tumblr, blog, blogging, social, social-media, logo, brand, microblog, posts]
 category: Brand
 version: "1.23"
 unicode: "ed04"

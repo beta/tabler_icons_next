@@ -26,7 +26,7 @@ class PointerCollaboration extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cursor, pointer, collaboration, multi-user, teamwork, remote, session, share, design, presence]
+tags: [cursors, multiplayer, collaboration, presence, teamwork, co-editing, real-time, remote, figma, users, pointer]
 category: System
 unicode: "1025f"
 version: "3.44"

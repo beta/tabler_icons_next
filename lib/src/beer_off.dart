@@ -26,7 +26,7 @@ class BeerOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alcohol, drink, beverage, bar, pub, beer, off, meal, cuisine, disabled]
+tags: [drink, alcohol, pub, bar, mug, pint, brewery, no-alcohol, disabled, beer, off]
 category: Food
 version: "1.65"
 unicode: "f101"

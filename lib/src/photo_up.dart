@@ -26,7 +26,7 @@ class PhotoUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gallery, load, send, arrow, north, photo, top, increase, content, up]
+tags: [image, picture, gallery, img, photography, media, upload, arrow-up, increase, thumbnail, landscape, photo, up]
 category: Media
 version: "1.91"
 unicode: "f38b"

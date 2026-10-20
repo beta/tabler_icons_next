@@ -26,7 +26,7 @@ class BrandDrupal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, content, management, creation, application, brand, drupal, logo, company, trademark]
+tags: [drupal, cms, content-management, php, website, open-source, logo, brand]
 category: Brand
 version: "1.92"
 unicode: "f393"

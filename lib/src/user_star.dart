@@ -27,7 +27,7 @@ class UserStar extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [favorite, highlight, shine, glow, stellar, bright, famous, prominent, recognize, feature]
+tags: [person, account, profile, avatar, member, favorite, featured, vip, rating, bookmark]
 version: "2.8"
 unicode: "f7d1"
 -->

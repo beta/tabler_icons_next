@@ -26,7 +26,7 @@ class BrandTwilio extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [communication, answering, calls, messages, brand, twilio, logo, company, trademark, identity]
+tags: [twilio, sms, api, communication, calls, messaging, voip, logo, brand]
 category: Brand
 version: "1.115"
 unicode: "f617"

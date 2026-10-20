@@ -26,7 +26,7 @@ class CurrencyYuan extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, finance, money, cash, china, currency, yuan, payment, monetary, banking]
+tags: [yuan, cny, rmb, china, chinese, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.79"
 unicode: "f29a"

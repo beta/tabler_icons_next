@@ -26,7 +26,7 @@ class PencilPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, edit, write, create, more, pencil, plus, creative, artistic, increase]
+tags: [edit, write, draw, modify, pen, compose, add, new, create, insert, update, change, pencil, plus]
 category: Design
 version: "1.69"
 unicode: "f1ec"

@@ -26,7 +26,7 @@ class Presentation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [slideshow, display, exhibition, speech, topic, conference, presentation, file, paper, text]
+tags: [presentation-board, slides, slideshow, powerpoint, keynote, whiteboard, screen, meeting, lecture, chart, presentation]
 category: Document
 version: "1.2"
 unicode: "eb70"

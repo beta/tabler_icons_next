@@ -27,7 +27,7 @@ class DirectionArrows extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [arrows, directional, navigate, wayfinding, pointing, route, orientation, arrow-sign, guidance, direction]
+tags: [direction, arrows, navigation, move, pan, dpad, four-way, up-down-left-right, controls, orientation]
 version: "2.41"
 unicode: "fd36"
 -->

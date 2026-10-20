@@ -26,7 +26,7 @@ class DiscOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cd, music, album, disc, off, hardware, technology, disabled, inactive, electronic]
+tags: [cd, dvd, disc, disk, compact-disc, album, disabled, inactive, unavailable, slash, turn-off, music, media, off]
 category: Devices
 version: "1.65"
 unicode: "f118"

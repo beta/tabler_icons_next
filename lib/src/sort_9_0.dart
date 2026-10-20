@@ -26,7 +26,7 @@ class Sort90 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [numbers, one, two, three, four, five, numerical, sort, typography, writing]
+tags: [sort, numeric, numbers, descending, order, 9-0, arrange]
 category: Text
 version: "1.105"
 unicode: "f54e"

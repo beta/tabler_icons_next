@@ -26,7 +26,7 @@ class CaretDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [next, bottom, dropdown, show, more, caret, down, decrease, navigation, flow]
+tags: [caret-down, caret, triangle, arrow-down, dropdown, expand, down, select, chevron]
 category: Arrows
 version: "1.2"
 unicode: "eb5d"

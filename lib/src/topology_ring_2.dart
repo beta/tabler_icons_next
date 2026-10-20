@@ -26,7 +26,7 @@ class TopologyRing2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hierarchy, network, structure, connection, topology, ring, computing, machine, processor, system]
+tags: [topology, network, ring, circular, nodes, connection, diagram, infrastructure, lan]
 category: Computers
 version: "1.112"
 unicode: "f5dd"

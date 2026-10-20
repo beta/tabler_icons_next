@@ -27,7 +27,7 @@ class Pray extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [religion, faith, christianity, islam, buddhism, judaism, pray]
+tags: [prayer, praying, hands, religion, faith, worship, namaste, thanks, please, pray]
 version: "1.18"
 unicode: "ecbf"
 -->

@@ -26,7 +26,7 @@ class HexagonAsterisk extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hexagon, asterisk, star, symbol, shape, mark, required, mandatory, important, password]
+tags: [asterisk, hexagon, required, mandatory, star, symbol, important, wildcard, footnote]
 category: Shapes
 unicode: "101ab"
 version: "3.36"

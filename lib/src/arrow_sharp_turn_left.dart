@@ -26,7 +26,7 @@ class ArrowSharpTurnLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, north, down, arrow, sharp, turn, left, pointer, navigation, flow]
+tags: [sharp-turn, hairpin, road, directions, navigation, gps, west, pointer, arrow, sharp, turn, left]
 category: Arrows
 version: "1.57"
 unicode: "f05a"

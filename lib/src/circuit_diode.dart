@@ -26,7 +26,7 @@ class CircuitDiode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [diagram, electric, electronic, led, circuit, diode, energy, voltage, power, current]
+tags: [diode, semiconductor, led, rectifier, circuit, electronics, electrical, schematic, diagram, electricity, component]
 category: Electrical
 version: "1.77"
 unicode: "f27a"

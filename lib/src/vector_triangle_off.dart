@@ -26,7 +26,7 @@ class VectorTriangleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [curve, parametric, design, vector graphics, placement, vector, triangle, off, creative, artistic]
+tags: [vector, triangle, graphics, path, disabled, inactive, vector-graphics, bezier, off]
 category: Design
 version: "1.67"
 unicode: "f1bf"

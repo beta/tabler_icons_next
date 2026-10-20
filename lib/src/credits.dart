@@ -27,7 +27,7 @@ class Credits extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [acknowledgment, attribution, recognition, thanks, reward, points, balance, payment, debt, score, reputation, honor]
+tags: [credits, points, tokens, coins, balance, reward, score, wallet, currency]
 unicode: "101f2"
 version: "3.39"
 -->

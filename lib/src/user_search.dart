@@ -26,7 +26,7 @@ class UserSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [find, account, profile, magnifier, user, search, person, look, seek, control]
+tags: [person, account, profile, avatar, member, search, find, lookup, magnifier, directory, user]
 category: System
 version: "1.46"
 unicode: "ef89"

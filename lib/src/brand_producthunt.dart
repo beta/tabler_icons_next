@@ -26,7 +26,7 @@ class BrandProducthunt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [technology, product, share, discover, new, novelty, web, geek, brand, producthunt]
+tags: [product-hunt, producthunt, products, launch, startups, discover, tech, logo, brand]
 category: Brand
 version: "1.36"
 unicode: "edd3"

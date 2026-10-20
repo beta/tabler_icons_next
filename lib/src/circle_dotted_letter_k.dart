@@ -26,7 +26,7 @@ class CircleDottedLetterK extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [kilo, eleventh-letter, consonant, key, keep, kick, kind, kite, knot, knock]
+tags: [k, letter-k, letter, alphabet, character, uppercase, initial, circle, dotted, badge]
 category: Letters
 unicode: "ff75"
 version: "3.11"

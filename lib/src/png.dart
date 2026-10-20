@@ -26,7 +26,7 @@ class Png extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [file, format, type, document, filetype, png, plugin, addon, module, component]
+tags: [image, file, extension, format, picture, filetype, graphics, transparent, png]
 category: Extensions
 version: "1.93"
 unicode: "f3ad"

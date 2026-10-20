@@ -27,7 +27,7 @@ class TipJarEuro extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [donate, contribution, money, euro, charity, fund, gift, jar, support, currency]
+tags: [tip, donation, donate, jar, money, euro, eur, charity, gratuity]
 unicode: "feec"
 version: "3.5"
 -->

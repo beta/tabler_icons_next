@@ -26,7 +26,7 @@ class StarHalf extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [favorite, like, mark, bookmark, grade, star, half, control, operation, rating]
+tags: [rating, half-star, rate, review, score, favorite, partial, stars, rating-star, star, half]
 category: System
 version: "1.24"
 unicode: "ed19"

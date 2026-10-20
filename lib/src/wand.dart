@@ -27,7 +27,7 @@ class Wand extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [magic, tool, color, pixel, design, wand]
+tags: [magic, magic-wand, wizard, auto, ai, sparkle, tool, magic-trick, wand]
 version: "1.5"
 unicode: "ebcb"
 -->

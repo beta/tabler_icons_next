@@ -27,7 +27,7 @@ class FolderUser extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [folder, user, person, profile, personal, account, directory, home, owner, files]
+tags: [folder, directory, user, personal, home, profile, account, shared-folder, owner]
 unicode: "1029b"
 version: "3.47"
 -->

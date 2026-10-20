@@ -27,7 +27,7 @@ class EyeMinus extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [subtract, reduce, decrease, vision, sight, lessen, diminish, remove, view, focus]
+tags: [view, visibility, show, remove, subtract, delete, reduce, see, vision, preview, watch, less]
 version: "2.28"
 unicode: "fb73"
 -->

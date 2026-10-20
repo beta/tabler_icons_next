@@ -26,7 +26,7 @@ class BrandNextcloud extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, technology, file, hosting, php, javascript, brand, nextcloud, logo, company]
+tags: [nextcloud, cloud, storage, self-hosted, file-sharing, sync, open-source, logo, brand]
 category: Brand
 version: "1.99"
 unicode: "f4d8"

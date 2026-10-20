@@ -27,7 +27,7 @@ class PencilCode extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [program, edit, develop, debug, script, software, syntax, design, modify, write]
+tags: [edit, write, draw, modify, pen, compose, programming, coding, developer, embed, html, update, change]
 version: "2.28"
 unicode: "fc00"
 -->

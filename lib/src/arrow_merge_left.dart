@@ -26,7 +26,7 @@ class ArrowMergeLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, up, north, higher, arrow, merge, left, pointer, navigation, flow]
+tags: [join, combine, converge, git, pull-request, branch, pointer, navigation, arrow, merge, left]
 category: Arrows
 version: "1.74"
 unicode: "f23c"

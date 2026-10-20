@@ -27,7 +27,7 @@ class Screenshot extends Icon {
 
   static const String _svg = '''<!--
 category: Photography
-tags: [capture, photo, screenshot, design]
+tags: [screen-capture, capture, snapshot, crop, print-screen, screenshot]
 version: "1.70"
 unicode: "f201"
 -->

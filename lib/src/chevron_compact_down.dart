@@ -26,7 +26,7 @@ class ChevronCompactDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [navigation, collapse, direction, arrow, dropdown, toggle, contract, downward, reduce, minimize]
+tags: [chevron, compact, small, thin, arrow, down, expand, dropdown, open, more, direction, navigation]
 category: Arrows
 version: "2.24"
 unicode: "faf0"

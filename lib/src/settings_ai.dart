@@ -26,7 +26,7 @@ class SettingsAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, ai, artificial, intelligence, config, gear, preferences, machine-learning, options, cog]
+tags: [cog, gear, preferences, ai, artificial-intelligence, machine-learning, smart, configuration, options, config, settings]
 category: System
 unicode: "101a7"
 version: "3.36"

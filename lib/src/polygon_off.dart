@@ -26,7 +26,7 @@ class PolygonOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, form, geometry, circle, line, polygon, off, creative, artistic, disabled]
+tags: [shape, vertices, nodes, geometry, vector, polygon, points, disabled, unavailable, inactive, hidden, off]
 category: Design
 version: "1.66"
 unicode: "f182"

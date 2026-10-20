@@ -26,7 +26,7 @@ class IndentDecrease extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [line, position, block, margin, paragraph, indent, decrease, typography, writing, font]
+tags: [outdent, indent-decrease, unindent, text-editor, paragraph, align, typography, format, indent, decrease]
 category: Text
 version: "1.3"
 unicode: "eb91"

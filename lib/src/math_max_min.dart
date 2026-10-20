@@ -27,7 +27,7 @@ class MathMaxMin extends Icon {
 
   static const String _svg = '''<!--
 category: Math
-tags: [optimize, extreme, bound, limit, peak, minimum, maximum, calculate, analyze, extent]
+tags: [maximum, minimum, max, min, range, bounds, limits, mathematics, function]
 version: "2.47"
 unicode: "fda0"
 -->

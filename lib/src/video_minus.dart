@@ -26,7 +26,7 @@ class VideoMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [film, shoot, recording, taping, camera, remotion, video, minus, content, entertainment]
+tags: [video, camera, recording, remove, subtract, delete, vlog, film, minus]
 category: Media
 version: "1.25"
 unicode: "ed1f"

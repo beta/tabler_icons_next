@@ -26,7 +26,7 @@ class DeviceComputerCameraOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [video, meeting, record, recording, webcam, device, computer, camera, off, hardware]
+tags: [webcam, web-camera, camera, video-off, camera-off, video-call, meeting, off, disabled, device, computer]
 category: Devices
 version: "1.39"
 unicode: "ee75"

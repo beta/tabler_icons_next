@@ -26,7 +26,7 @@ class Shoe extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sport, boots, boot, footwear, sneaker, nike, adidas, shoe, store, purchase]
+tags: [sneaker, sneakers, footwear, running-shoe, clothing, fashion, shop, shoe]
 category: E-commerce
 version: "1.50"
 unicode: "efd2"

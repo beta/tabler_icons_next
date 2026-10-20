@@ -26,7 +26,7 @@ class Massage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [physiotherapy, spa, relax, sports, therapy, treatment, spine, massage, medical, wellness]
+tags: [spa, physiotherapy, relax, therapy, wellness, back, treatment, body-care, relaxation, massage]
 category: Health
 version: "1.39"
 unicode: "eeb1"

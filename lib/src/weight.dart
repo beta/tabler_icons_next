@@ -27,7 +27,7 @@ class Weight extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [gym, fitness, balance, exercise, sport, weight]
+tags: [weight, kettlebell, scale, mass, heavy, gym, fitness, kg]
 version: "1.108"
 unicode: "f589"
 -->

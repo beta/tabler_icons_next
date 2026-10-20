@@ -26,7 +26,7 @@ class SectionSign extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [legal, paragraph, law, section, sign, typography, writing, font, character, word]
+tags: [paragraph, law, legal, section-symbol, sign, typography, section]
 category: Text
 version: "1.54"
 unicode: "f019"

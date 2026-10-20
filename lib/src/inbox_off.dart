@@ -27,7 +27,7 @@ class InboxOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [mail, gmail, email, envelope, post, inbox, off, disabled, inactive]
+tags: [inbox, mail, email, tray, messages, empty, disabled, off-state, unavailable, off]
 version: "1.66"
 unicode: "f14a"
 -->

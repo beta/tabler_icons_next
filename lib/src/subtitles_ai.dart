@@ -26,7 +26,7 @@ class SubtitlesAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [subtitles, ai, captions, accessibility, a11y, video, text, generate, automatic, speech-to-text]
+tags: [captions, closed-captions, cc, ai, artificial-intelligence, auto-generate, transcript, video, accessibility, subtitles]
 category: Media
 unicode: "101a4"
 version: "3.36"

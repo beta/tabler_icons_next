@@ -26,7 +26,7 @@ class Router extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [wifi, device, wireless, signal, station, cast, router, hardware, technology, electronic]
+tags: [wifi, wireless, modem, internet, network, access-point, lan, router]
 category: Devices
 version: "1.0"
 unicode: "eb18"

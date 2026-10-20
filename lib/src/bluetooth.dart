@@ -26,7 +26,7 @@ class Bluetooth extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [wireless, connection, connect, bluetooth, hardware, technology, electronic, gadget, equipment]
+tags: [wireless, connection, pairing, headphones, devices, bt, wireless-connection, bluetooth-on, audio, pair, bluetooth]
 category: Devices
 version: "1.0"
 unicode: "ea37"

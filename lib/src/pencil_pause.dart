@@ -27,7 +27,7 @@ class PencilPause extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [edit, halt, stop, break, interrupt, delay, hold, wait, design, cease]
+tags: [edit, write, draw, modify, pen, compose, paused, hold, wait, suspend, update, change]
 version: "2.28"
 unicode: "fc07"
 -->

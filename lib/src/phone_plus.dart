@@ -26,7 +26,7 @@ class PhonePlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [call, signal, mobile, landline, conversation, phone, plus, hardware, technology, contact]
+tags: [add-contact, new-call, call, telephone, contact, dial, mobile, handset, add, new, create, insert, phone, plus]
 category: Devices
 version: "1.8"
 unicode: "ec06"

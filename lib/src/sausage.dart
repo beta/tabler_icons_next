@@ -26,7 +26,7 @@ class Sausage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, grill, bonfire, campfire, meat, hot-dog, sausage, meal, cuisine, eating]
+tags: [hot-dog, food, grill, bbq, meat, sausage]
 category: Food
 version: "1.40"
 unicode: "ef17"

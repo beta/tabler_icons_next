@@ -27,7 +27,7 @@ class LocationX extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [close, remove, delete, cancel, cross, negate, eliminate, terminate, end, exit]
+tags: [location, navigation, gps, arrow, pointer, direction, map, position, remove, delete, close, cancel, cross]
 version: "2.28"
 unicode: "fbc2"
 -->

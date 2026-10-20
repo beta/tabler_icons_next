@@ -26,7 +26,7 @@ class SquareRounded extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, box, figure, geometry, square, rounded, rectangular, form, pattern, outline]
+tags: [square, rounded, squircle, shape, box, rectangle, geometry, checkbox]
 category: Shapes
 version: "1.109"
 unicode: "f59a"

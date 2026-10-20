@@ -27,7 +27,7 @@ class Typeface extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [font, text, lettering, typography, style, design, print, glyph, format, character]
+tags: [typeface, font, typography, letter, text, glyph, fonts, glyphs]
 unicode: "fdab"
 version: "3.0"
 -->

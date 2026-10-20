@@ -26,7 +26,7 @@ class Om extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hinduism, religion, hindu, om, sign, mark, emblem, representation, indicator]
+tags: [aum, hinduism, buddhism, yoga, meditation, spiritual, religion, symbol, om]
 category: Symbols
 version: "1.109"
 unicode: "f58d"

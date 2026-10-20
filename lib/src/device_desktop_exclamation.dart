@@ -27,7 +27,7 @@ class DeviceDesktopExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [alert, notice, warning, caution, attention, signal, notify, announce, indicate, alarm]
+tags: [exclamation, warning, alert, error, attention, important, desktop, monitor, computer, screen, pc]
 version: "2.10"
 unicode: "f865"
 -->

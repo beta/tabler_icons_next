@@ -27,7 +27,7 @@ class DeviceTabletMinus extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [tablet, subtract, deduct, reduce, decrease, lessen, diminish, mini, shorten, lower]
+tags: [tablet, ipad, android, remove, subtract, delete, reduce, touchscreen, device, mobile, less]
 version: "2.10"
 unicode: "f8c9"
 -->

@@ -26,7 +26,7 @@ class BrandDisqus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [comment, blog, service, website, online, platform, social, networking, technology, brand]
+tags: [disqus, comments, commenting, blog, discussion, widget, logo, brand]
 category: Brand
 version: "1.36"
 unicode: "edc9"

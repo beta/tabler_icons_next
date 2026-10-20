@@ -26,7 +26,7 @@ class BrandCupra extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [car, seat, sport, formentor, ateca, leon, brand, cupra, logo, company]
+tags: [cupra, car, automotive, seat, vehicle, sport, logo, brand]
 category: Brand
 version: "1.99"
 unicode: "f4d1"

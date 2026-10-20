@@ -26,7 +26,7 @@ class LocationMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [subtract, reduce, decrease, lessen, diminish, remove, takeaway, minus, negate, location]
+tags: [location, navigation, gps, arrow, pointer, direction, map, position, remove, subtract, minus, delete]
 category: Map
 version: "2.28"
 unicode: "fbb9"

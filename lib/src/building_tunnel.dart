@@ -26,7 +26,7 @@ class BuildingTunnel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [train, road, underground, subway, building, tunnel, architecture, structure, construction, property]
+tags: [tunnel, underground, road, railway, subway, passage, transit, infrastructure, building]
 category: Buildings
 version: "1.110"
 unicode: "f5a6"

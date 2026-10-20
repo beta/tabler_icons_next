@@ -26,7 +26,7 @@ class BounceLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ball, west, motion, jump, bounce, left, creative, artistic, visual, aesthetic]
+tags: [jump, ball, motion, animation, bouncing, rebound, hop, trajectory, bounce, left]
 category: Design
 version: "1.110"
 unicode: "f59d"

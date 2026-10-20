@@ -27,7 +27,7 @@ class DatabaseShare extends Icon {
 
   static const String _svg = '''<!--
 category: Database
-tags: [distribute, spread, allocate, give, transfer, exchange, dispense, broadcast, circulate, communicate]
+tags: [share, send, export, social, database, db, data, storage, sql, server]
 version: "2.13"
 unicode: "fa19"
 -->

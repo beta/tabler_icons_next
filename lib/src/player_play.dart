@@ -26,7 +26,7 @@ class PlayerPlay extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [start, video, film, music, player, play, content, entertainment, multimedia, broadcast]
+tags: [play, start, run, media, video, audio, music, resume, triangle, controls, button, player]
 category: Media
 version: "1.28"
 unicode: "ed46"

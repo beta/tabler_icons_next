@@ -26,7 +26,7 @@ class ZoomOut extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [magnifying glass, zoom, out, location, navigation, magnify, enlarge, scale, focus, view, accessibility, a11y, vision]
+tags: [zoom-out, shrink, reduce, minus, magnifier, magnifying-glass, scale, zooming, zoom, out]
 category: Map
 version: "1.0"
 unicode: "eb57"

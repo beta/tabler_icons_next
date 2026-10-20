@@ -26,7 +26,7 @@ class HomeRibbon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [contract, certifited, achievement, home, ribbon, house, main, architecture, structure, start]
+tags: [home, house, ribbon, award, certificate, best, quality, achievement, real-estate]
 category: Buildings
 version: "1.88"
 unicode: "f355"

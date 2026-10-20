@@ -27,7 +27,7 @@ class MusicPin extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [attach, fix, bookmark, point, secure, marker, fasten, stick, location, anchor]
+tags: [song, audio, sound, note, melody, track, pinned, location, map-pin, marker, mp3, playlist, player]
 version: "2.28"
 unicode: "fbe1"
 -->

@@ -26,7 +26,7 @@ class Polaroid extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [picture, photo, camera, polarization, develop, film, lens, polaroid, capture, image]
+tags: [instant-photo, photo, picture, image, snapshot, instant-camera, camera, film, memories, polaroid]
 category: Photography
 version: "1.39"
 unicode: "eec2"

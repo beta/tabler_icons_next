@@ -27,7 +27,7 @@ class Key extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [password, login, authentication, secure, key]
+tags: [key, password, login, access, authentication, unlock, security, credential, api-key]
 version: "1.0"
 unicode: "eac7"
 -->

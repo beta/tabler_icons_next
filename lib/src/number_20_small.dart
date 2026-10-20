@@ -26,7 +26,7 @@ class Number20Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [twenty, twentieth, vigintidecade, vigintidecuple, vigintidecad, twentyfold, vigintidecenary, vigintidec, vigintidecuplet, 20th]
+tags: [twenty, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcee"

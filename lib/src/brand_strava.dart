@@ -26,7 +26,7 @@ class BrandStrava extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [run, ride, hike, activity, gps, sport, app, brand, strava, logo]
+tags: [strava, running, cycling, fitness, sport, gps, workout, activity, logo, brand]
 category: Brand
 version: "1.75"
 unicode: "f254"

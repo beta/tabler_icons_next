@@ -26,7 +26,7 @@ class Ambulance extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vehicle, car, hospital, ward, doctor, rescuer, ambulance, transport, travel, automobile]
+tags: [emergency, hospital, medical, paramedic, rescue, vehicle, 911, health, ems, ambulance]
 category: Vehicles
 version: "1.8"
 unicode: "ebf5"

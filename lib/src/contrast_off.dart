@@ -26,7 +26,7 @@ class ContrastOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [edit, paint, photo, contrast, off, disabled, inactive, camera, picture, image]
+tags: [contrast, brightness, dark-mode, theme, photo, edit, off, disabled]
 category: Photography
 version: "1.94"
 unicode: "f3db"

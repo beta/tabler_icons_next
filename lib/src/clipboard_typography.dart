@@ -26,7 +26,7 @@ class ClipboardTypography extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [document, list, raport, paper, clipboard, typography, file, text, record, information]
+tags: [typography, text, font, content, writing, report, clipboard, paste, document, task, notes]
 category: Document
 version: "1.88"
 unicode: "f34f"

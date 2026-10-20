@@ -26,7 +26,7 @@ class BuildingCottage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [small, house, countryside, live, farm, rural, outskirts, building, cottage, architecture]
+tags: [cottage, house, home, cabin, rural, countryside, farm, building]
 category: Buildings
 version: "1.39"
 unicode: "ee1b"

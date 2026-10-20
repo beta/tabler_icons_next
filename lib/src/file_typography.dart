@@ -26,7 +26,7 @@ class FileTypography extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [font, text, format, type, size, file, typography, document, data, content]
+tags: [typography, font, text, type, letter, document, file, ttf, otf, woff]
 category: Document
 version: "1.56"
 unicode: "f041"

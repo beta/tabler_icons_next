@@ -26,7 +26,7 @@ class TimelineEventPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [calendar, schedule, date, add, new, timeline, event, plus, programming, software]
+tags: [timeline, event, milestone, add, create, new, events, chronology, plus]
 category: Development
 version: "1.119"
 unicode: "f664"

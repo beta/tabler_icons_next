@@ -27,7 +27,7 @@ class CoinTaka extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [currency, money, bangladesh, finance, coin, trade, economy, exchange, wealth, funds]
+tags: [taka, bdt, bangladesh, coin, money, cash, currency, payment, finance, change]
 version: "2.39"
 unicode: "fd0d"
 -->

@@ -27,7 +27,7 @@ class StackForward extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [layers, depth, foreground, arrangement, advance, position, sequence, structure, order, arrange]
+tags: [layers, bring-forward, arrange, order, z-index, depth, move-up, z-order, stacked]
 version: "2.40"
 unicode: "fd28"
 -->

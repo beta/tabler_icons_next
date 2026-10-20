@@ -26,7 +26,7 @@ class HeartStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [favorite, rate, special, highlight, important, standout, spotlight, shine, admire, heart]
+tags: [heart, love, like, favorite, favourite, star, starred, rating, bookmark]
 category: Shapes
 version: "2.28"
 unicode: "fbac"

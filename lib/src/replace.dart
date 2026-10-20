@@ -27,7 +27,7 @@ class Replace extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [change, place, position, move, exchange, replace]
+tags: [swap, exchange, switch, substitute, change, move, replace]
 version: "1.5"
 unicode: "ebc7"
 -->

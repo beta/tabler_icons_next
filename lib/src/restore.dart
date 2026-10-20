@@ -27,7 +27,7 @@ class Restore extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [recover, repair, reinstate, redeem, revive, return, reset, retrieve, reestablish, fix]
+tags: [recover, restore-backup, undo, reset, revert, history, retrieve, backup]
 version: "2.24"
 unicode: "fafd"
 -->

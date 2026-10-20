@@ -26,7 +26,7 @@ class MailOpened extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [inbox, gmail, email, envelope, message, read, mail, opened, contact, conversation]
+tags: [mail, email, envelope, opened, read, open-mail, message, e-mail]
 category: Communication
 version: "1.0"
 unicode: "eae4"

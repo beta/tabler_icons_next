@@ -26,7 +26,7 @@ class NavigationNorth extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [upward, arctic, northern, polar, topside, ascend, climb, uphill, northward, cardinal]
+tags: [north, up, arrow, direction, compass, gps, heading, cardinal, orientation, top]
 category: Map
 version: "2.37"
 unicode: "fcbb"

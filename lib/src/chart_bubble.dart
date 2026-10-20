@@ -26,7 +26,7 @@ class ChartBubble extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, diagram, graph, rhythm, data, analysis, chart, bubble, visualization, analytics]
+tags: [chart, graph, statistics, analytics, data, report, diagram, bubble-chart, bubbles, visualization, bubble]
 category: Charts
 version: "1.13"
 unicode: "ec75"

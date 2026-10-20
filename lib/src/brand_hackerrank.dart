@@ -26,7 +26,7 @@ class BrandHackerrank extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coding, skills, challenges, technology, competition, practice, learn, language, developer, programmer]
+tags: [hackerrank, coding, challenges, interview, programming, practice, developer, logo, brand]
 category: Brand
 unicode: "ff23"
 version: "3.8"

@@ -26,7 +26,7 @@ class FileStack extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [document, duplicate, data, add, file, stack, content, record, paper, text]
+tags: [stack, files, multiple, documents, copy, duplicate, layers, collection, pile, file]
 category: Document
 version: "1.101"
 unicode: "f503"

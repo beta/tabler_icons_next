@@ -26,7 +26,7 @@ class CurrencyRiyal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [riyal, sar, saudi, money, banknote, pay, currency, finance, payment, monetary]
+tags: [riyal, sar, saudi, saudi-arabia, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "ee66"

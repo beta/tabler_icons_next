@@ -26,7 +26,7 @@ class VolumeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, sound, speaker, volume, off, content, entertainment, disabled, inactive, multimedia]
+tags: [volume, mute, muted, sound-off, speaker, audio, silent, disabled, off]
 category: Media
 version: "1.67"
 unicode: "f1c3"

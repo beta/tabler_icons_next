@@ -27,7 +27,7 @@ class ShoppingCartCog extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [settings, gear, control, adjust, configure, tune, calibrate, manage, preference, customize]
+tags: [shopping-cart, cart, basket, settings, gear, configuration, preferences, trolley, shop, store, checkout, ecommerce, buy]
 version: "2.28"
 unicode: "fb5b"
 -->

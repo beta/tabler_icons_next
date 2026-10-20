@@ -26,7 +26,7 @@ class Pentagon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, figure, math, geometry, form, pentagon, pattern, outline]
+tags: [shape, polygon, five-sided, geometry, figure, pentagonal, 5-sides, polygon-shape, outline, pentagon]
 category: Shapes
 version: "1.51"
 unicode: "efe3"

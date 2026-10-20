@@ -26,7 +26,7 @@ class EmailStamp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [email, mail, stamp, postmark, envelope, certified, letter, postage, delivery, communication]
+tags: [postage-stamp, stamp, mail, email, letter, postmark, post, envelope, postal]
 category: Communication
 unicode: "10266"
 version: "3.44"

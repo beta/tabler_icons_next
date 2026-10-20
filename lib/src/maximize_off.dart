@@ -26,7 +26,7 @@ class MaximizeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fullscreen, maximize, expand, window, size, resize, direction, off, content, entertainment]
+tags: [fullscreen, expand, enlarge, resize, full-screen, disabled, slash, maximize, off]
 category: Media
 version: "1.66"
 unicode: "f15f"

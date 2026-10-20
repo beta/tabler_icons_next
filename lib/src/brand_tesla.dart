@@ -26,7 +26,7 @@ class BrandTesla extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tesla, vehicle, motor, car, electricity, electric, ai, brand, logo, company]
+tags: [tesla, electric-car, car, ev, vehicle, elon-musk, automotive, logo, brand]
 category: Brand
 version: "3.22"
 unicode: "10099"

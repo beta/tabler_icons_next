@@ -26,7 +26,7 @@ class ArrowsJoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, east, arrows, join, navigation, flow, movement, route, path, pointers]
+tags: [merge, combine, converge, merging, funnel, unite, pointer, navigation, arrows, join]
 category: Arrows
 version: "1.35"
 unicode: "edaf"

@@ -26,7 +26,7 @@ class SettingsSpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cog, edit, gear, preferences, tools, settings, spark, config, options, control]
+tags: [cog, gear, preferences, ai, magic, sparkle, smart, configuration, options, config, settings, spark]
 category: System
 version: "3.13"
 unicode: "ffae"

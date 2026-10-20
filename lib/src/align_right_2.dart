@@ -26,7 +26,7 @@ class AlignRight2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, alignment, position, align, right, typography, writing, font, character, word]
+tags: [text-align, alignment, paragraph, typography, text, format, formatting, flush-right, right-align, align, right]
 category: Text
 version: "3.6"
 unicode: "1028e"

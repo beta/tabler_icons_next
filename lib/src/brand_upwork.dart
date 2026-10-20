@@ -26,7 +26,7 @@ class BrandUpwork extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [freelancer, software, finance, brand, upwork, logo, company, trademark, identity, corporate]
+tags: [upwork, freelance, freelancer, jobs, marketplace, hire, logo, brand]
 category: Brand
 version: "1.92"
 unicode: "f39e"

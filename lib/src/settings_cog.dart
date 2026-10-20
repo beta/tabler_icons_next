@@ -27,7 +27,7 @@ class SettingsCog extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [gear, configuration, adjust, setup, control, wheel, mechanism, tooth, gadget, machinery]
+tags: [cog, gear, preferences, settings, configuration, options, config]
 version: "2.10"
 unicode: "f9b1"
 -->

@@ -26,7 +26,7 @@ class ShoppingBagExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [purchase, buy, alert, notice, store, warning, attention, caution, highlight, shopping]
+tags: [shopping-bag, bag, shop, warning, alert, error, attention, important, store, purchase, buy, ecommerce, shopping]
 category: E-commerce
 version: "2.29"
 unicode: "fc19"

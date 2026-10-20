@@ -26,7 +26,7 @@ class LungsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [anatomy, human, medical, respiratory, breathe, organ, lungs, off, wellness, disabled]
+tags: [lungs, breathe, breathing, respiratory, anatomy, disabled, off-state, unavailable, off]
 category: Health
 version: "1.94"
 unicode: "f405"

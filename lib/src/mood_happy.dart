@@ -26,7 +26,7 @@ class MoodHappy extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, mood, happy, application, program, software, tool]
+tags: [happy, smile, joy, glad, cheerful, grin, emoji, smiley, face, emotion, feeling, reaction, mood]
 category: Mood
 version: "1.0"
 unicode: "eaf4"

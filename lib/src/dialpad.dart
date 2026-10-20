@@ -26,7 +26,7 @@ class Dialpad extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [keypad, telephone, phone, call, number, dialpad, hardware, technology, electronic, gadget]
+tags: [dialpad, keypad, numpad, dial, phone, call, numbers, keyboard, pin-code, telephone]
 category: Devices
 version: "1.58"
 unicode: "f067"

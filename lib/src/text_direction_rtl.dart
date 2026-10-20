@@ -26,7 +26,7 @@ class TextDirectionRtl extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [left, right, bidi, text, direction, rtl, typography, writing, font, character]
+tags: [right-to-left, rtl, text-direction, bidi, arabic, hebrew, paragraph, writing, text, direction]
 category: Text
 version: "1.39"
 unicode: "eefd"

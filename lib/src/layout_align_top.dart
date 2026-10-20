@@ -26,7 +26,7 @@ class LayoutAlignTop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [position, design, layout, align, top, creative, artistic, visual, aesthetic, style]
+tags: [align-top, align, top, alignment, layout, position, design]
 category: Design
 version: "1.0"
 unicode: "ead2"

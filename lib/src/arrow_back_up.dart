@@ -26,7 +26,7 @@ class ArrowBackUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pointer, return, revert, reverse, undo, left, arrow, back, direction, top]
+tags: [undo, return, revert, previous, reply, history, pointer, navigation, arrow, back]
 category: Arrows
 version: "1.3"
 unicode: "eb77"

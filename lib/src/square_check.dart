@@ -26,7 +26,7 @@ class SquareCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [checkbox, "yes", square, check, rectangular, confirm, approve, geometry, form, figure]
+tags: [checkbox, checked, check, done, task, selected, tick, square]
 category: Shapes
 version: "1.0"
 unicode: "eb28"

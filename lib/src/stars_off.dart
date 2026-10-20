@@ -26,7 +26,7 @@ class StarsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [favorite, like, mark, grade, bookmark, space, universe, extraterrestrial, galaxy, stars]
+tags: [sparkle, rating, favorites, night, sky, space, disabled, inactive, stars]
 category: System
 version: "1.94"
 unicode: "f430"

@@ -26,7 +26,7 @@ class BrandTrello extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [visual, tool, board, kanban, brand, trello, logo, company, trademark, identity]
+tags: [trello, atlassian, kanban, board, project-management, tasks, logo, brand]
 category: Brand
 version: "1.92"
 unicode: "f39d"

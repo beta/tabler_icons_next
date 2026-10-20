@@ -26,7 +26,7 @@ class Columns1 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [layout, grid, design, arranegment, columns, typography, writing, font, character, word]
+tags: [one-column, single-column, layout, grid, columns, page, structure, full-width]
 category: Text
 version: "2.1"
 unicode: "f6d4"

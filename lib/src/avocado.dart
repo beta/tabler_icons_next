@@ -27,7 +27,7 @@ class Avocado extends Icon {
 
   static const String _svg = '''<!--
 category: Food
-tags: [fruit, food, green, nutrition, healthy, ingredient, diet, vegetable, meal, snack]
+tags: [fruit, food, vegetable, guacamole, healthy, diet, vegan]
 version: "2.46"
 unicode: "fd8e"
 -->

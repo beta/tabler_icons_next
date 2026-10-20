@@ -26,7 +26,7 @@ class MessageLanguage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [communication, translate, alphabet, letter, message, language, contact, conversation, messaging, interaction]
+tags: [translate, translation, language, chat, multilingual, i18n, localization, speech-bubble, foreign, message]
 category: Communication
 version: "1.48"
 unicode: "efae"

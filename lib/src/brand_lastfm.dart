@@ -26,7 +26,7 @@ class BrandLastfm extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [radio station, website, music, media player, brand, lastfm, logo, company, trademark, identity]
+tags: [lastfm, last-fm, music, scrobble, radio, listening, logo, brand]
 category: Brand
 version: "1.53"
 unicode: "f001"

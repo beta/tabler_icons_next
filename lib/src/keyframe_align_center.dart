@@ -26,7 +26,7 @@ class KeyframeAlignCenter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [middle, animation, shape, keyframe, align, center, content, entertainment, multimedia, broadcast]
+tags: [keyframe, animation, timeline, motion, diamond, video-editing, frame, align, center, middle]
 category: Media
 version: "1.108"
 unicode: "f582"

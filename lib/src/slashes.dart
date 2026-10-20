@@ -27,7 +27,7 @@ class Slashes extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [sign, key, button, dash, divide, slashes]
+tags: [double-slash, comment, code, separator, divide, slashes]
 version: "1.108"
 unicode: "f588"
 -->

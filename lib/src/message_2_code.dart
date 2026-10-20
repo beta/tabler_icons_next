@@ -26,7 +26,7 @@ class Message2Code extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coding, programming, chat, program, message, code, contact, conversation, script, software]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, programming, coding, developer, embed, html, reply, communication, dm, message, code]
 category: Communication
 version: "1.54"
 unicode: "f012"

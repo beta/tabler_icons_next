@@ -27,7 +27,7 @@ class WaveSine extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [pulse, signal, ratio, rate, volume, wave, sine]
+tags: [sine, wave, waveform, signal, oscillator, audio, frequency, sound-wave]
 version: "1.19"
 unicode: "ecd4"
 -->

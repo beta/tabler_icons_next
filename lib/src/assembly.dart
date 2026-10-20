@@ -26,7 +26,7 @@ class Assembly extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [assembly, engineering, manufacturing, production, robotics, programming, software, coding, technical, developer]
+tags: [component, module, part, build, manufacturing, package, piece, assembly]
 category: Development
 version: "1.75"
 unicode: "f24d"

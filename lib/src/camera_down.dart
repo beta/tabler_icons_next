@@ -27,7 +27,7 @@ class CameraDown extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [descend, reduce, lower, decrease, sink, diminish, fall, plummet, subside, ebb]
+tags: [camera, photo, photography, picture, video, lens, image, download, arrow-down, decrease, lower]
 version: "2.10"
 unicode: "f839"
 -->

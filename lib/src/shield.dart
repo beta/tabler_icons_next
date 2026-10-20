@@ -26,7 +26,7 @@ class Shield extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [safety, protect, protection, shield, control, operation, function, interface, management]
+tags: [security, protection, protect, guard, safety, secure, defense, antivirus, shield]
 category: System
 version: "1.0"
 unicode: "eb24"

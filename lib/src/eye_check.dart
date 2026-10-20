@@ -26,7 +26,7 @@ class EyeCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sight, visual, view, public, approve, eye, check, control, operation, confirm]
+tags: [view, visibility, show, done, success, confirmed, approved, see, vision, preview, watch, verified, tick, checkmark, ok, eye, check]
 category: System
 version: "1.39"
 unicode: "ee88"

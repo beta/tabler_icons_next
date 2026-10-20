@@ -27,7 +27,7 @@ class MoodPuzzled extends Icon {
 
   static const String _svg = '''<!--
 category: Mood
-tags: [confused-mood, perplexed, bewildered, puzzled, uncertain, ambiguous, confounding, mystery, riddle, enigma]
+tags: [puzzled, confused, perplexed, thinking, unsure, emoji, smiley, face, emotion, feeling, reaction]
 version: "2.41"
 unicode: "fd39"
 -->

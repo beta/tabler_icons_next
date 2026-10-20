@@ -26,7 +26,7 @@ class MoodUnamused extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, unfunny, unhappy, unsmilling, mood, unamused]
+tags: [unamused, bored, annoyed, unimpressed, meh, emoji, smiley, face, emotion, feeling, reaction, mood]
 category: Mood
 version: "1.83"
 unicode: "f2eb"

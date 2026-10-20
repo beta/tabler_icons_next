@@ -26,7 +26,7 @@ class PizzaOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, cheese, italy, pepperoni, margherita, capricciosa, rucole, pizza, off, meal]
+tags: [pizza, slice, food, fast-food, italian, no-food, unavailable, disabled, inactive, hidden, off]
 category: Food
 version: "1.66"
 unicode: "f179"

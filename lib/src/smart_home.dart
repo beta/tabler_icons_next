@@ -26,7 +26,7 @@ class SmartHome extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [apple, devices, connection, link, wifi, bluetooth, smart, home, house, main]
+tags: [home-automation, smart-house, iot, connected-home, house, home, wifi, smart]
 category: Buildings
 version: "1.20"
 unicode: "ecde"

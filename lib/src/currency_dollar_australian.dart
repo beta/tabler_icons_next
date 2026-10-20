@@ -26,7 +26,7 @@ class CurrencyDollarAustralian extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [dollar, aud, australian, money, banknote, pay, currency, finance, payment, usd]
+tags: [australian-dollar, aud, australia, dollar, currency, money, symbol, cash, finance, payment, australian]
 category: Currencies
 version: "1.39"
 unicode: "ee56"

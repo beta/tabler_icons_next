@@ -27,7 +27,7 @@ class Xd extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [emotion, funny, smile, giggle, playful, humor, joy, laugh, happy, amusement]
+tags: [xd, laugh, lol, emoticon, funny, smiley, haha, emoji]
 version: "2.14"
 unicode: "fa33"
 -->

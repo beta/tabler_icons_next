@@ -27,7 +27,7 @@ class PinEnd extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [pin, location-pin, map-pin, marker, place-pin, destination-pin, end-pin, point, position-pin, mark-end]
+tags: [pin, end, finish, destination, endpoint, marker, map-pin, location, waypoint]
 version: "2.43"
 unicode: "fd5b"
 -->

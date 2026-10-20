@@ -26,7 +26,7 @@ class HelpTriangle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [support, aid, assist, guide, pyramid, three, angle, corner, pointed, tip]
+tags: [help, question, support, faq, question-mark, triangle, info, warning]
 version: "2.10"
 unicode: "f921"
 category: System

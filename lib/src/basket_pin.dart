@@ -27,7 +27,7 @@ class BasketPin extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [attach, fix, fasten, stick, tack, secure, affix, anchor, bind, clasp]
+tags: [cart, shopping-cart, ecommerce, shop, store, location, map-pin, marker, place, pinned]
 version: "2.28"
 unicode: "fb4f"
 -->

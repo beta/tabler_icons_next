@@ -27,7 +27,7 @@ class ToolsKitchen3 extends Icon {
 
   static const String _svg = '''<!--
 category: Food
-tags: [cooking, utensils, home, equipment, cook, culinary, appliances, kitchen, food, cutlery]
+tags: [cutlery, utensils, fork, knife, spoon, restaurant, food, dining, kitchen]
 version: "2.40"
 unicode: "fd2b"
 -->

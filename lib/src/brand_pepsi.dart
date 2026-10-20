@@ -26,7 +26,7 @@ class BrandPepsi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, cola, coke, drink, bottle, carbonated, brand, pepsi, logo, company]
+tags: [pepsi, soda, cola, drink, beverage, soft-drink, pepsico, logo, brand]
 category: Brand
 version: "1.76"
 unicode: "f261"

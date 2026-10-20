@@ -26,7 +26,7 @@ class MilkOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, drink, cow, healthy, breakfast, bottle, coffee, milk, off, meal]
+tags: [dairy-free, lactose-free, vegan, drink, bottle, disabled, slash, milk, off]
 category: Food
 version: "1.94"
 unicode: "f40f"

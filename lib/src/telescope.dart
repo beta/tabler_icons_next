@@ -27,7 +27,7 @@ class Telescope extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [astronomy, moon, observation, vision, space, astrology, telescope]
+tags: [astronomy, space, stars, observe, observatory, explore, discover, telescopic, science, telescope]
 version: "1.59"
 unicode: "f07d"
 -->

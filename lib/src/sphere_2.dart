@@ -26,7 +26,7 @@ class Sphere2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sphere, 3d, ball, round, geometry, shape, globe, orb, form, outline]
+tags: [ball, globe, orb, 3d, shape, geometry, solid, sphere]
 category: Shapes
 unicode: "10258"
 version: "3.44"

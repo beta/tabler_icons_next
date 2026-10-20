@@ -27,7 +27,7 @@ class Blob extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [shape, form, mass, clump, bulk, group, cluster, lump, patch, chunk]
+tags: [shape, organic, fluid, amorphous, splash, blob-shape, liquid, irregular-shape, abstract]
 unicode: "feaf"
 version: "3.1"
 -->

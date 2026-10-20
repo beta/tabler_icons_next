@@ -26,7 +26,7 @@ class CameraMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [video, photo, aperture, camera, minus, content, entertainment, subtract, remove, less]
+tags: [camera, photo, photography, picture, video, lens, image, remove, minus, subtract, delete]
 category: Media
 version: "1.11"
 unicode: "ec3a"

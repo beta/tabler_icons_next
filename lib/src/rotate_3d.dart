@@ -27,7 +27,7 @@ class Rotate3d extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [rotation, geometry, 3d, modeling, rotate]
+tags: [rotate, 3d, rotation, orbit, model, view, 360]
 version: "1.55"
 unicode: "f020"
 -->

@@ -27,7 +27,7 @@ class DeviceIpadHorizontalCancel extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [abort, stop, dismiss, void, remove, terminate, annul, reject, deny, halt]
+tags: [cancel, stop, abort, blocked, forbidden, ipad, tablet, apple, ios, landscape]
 version: "2.10"
 unicode: "f88f"
 -->

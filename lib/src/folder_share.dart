@@ -27,7 +27,7 @@ class FolderShare extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [distribute, allocate, divide, disperse, convey, propagate, transmit, circulate, handout, interaction]
+tags: [directory, dir, files, send, forward, export, social, archive, project, distribute]
 version: "2.10"
 unicode: "f919"
 -->

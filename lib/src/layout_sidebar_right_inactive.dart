@@ -27,7 +27,7 @@ class LayoutSidebarRightInactive extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [navigation, panel, align, right, side, border, menu, toolbar, inactive, interface]
+tags: [sidebar, side-panel, drawer, right, layout, ui, inactive, disabled]
 version: "2.42"
 unicode: "fd48"
 -->

@@ -26,7 +26,7 @@ class HandLoveYou extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [heavy, metal, party, concert, rebel, hand, love, you, touch, action]
+tags: [love-you, rock, metal, horns, hand, gesture, sign-language, ily, concert, party, love, you]
 category: Gestures
 version: "1.39"
 unicode: "ee97"

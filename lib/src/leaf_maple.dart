@@ -26,7 +26,7 @@ class LeafMaple extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [maple, leaf, autumn, fall, canada, tree, nature, forest, foliage, botany]
+tags: [maple-leaf, maple, leaf, canada, autumn, fall, nature, tree]
 category: Nature
 unicode: "10249"
 version: "3.43"

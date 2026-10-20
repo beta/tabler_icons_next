@@ -26,7 +26,7 @@ class BlendMode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [merge, mix, combine, fuse, integrate, unify, amalgamate, blend, harmonize, synthesize]
+tags: [blending, overlay, multiply, mix, layer, opacity, photoshop, design, blend]
 category: Design
 unicode: "feb0"
 version: "3.1"

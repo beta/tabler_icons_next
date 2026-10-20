@@ -26,7 +26,7 @@ class Mouse2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [computer, hardware, pointer, cursor, device, mouse, technology, electronic, gadget, equipment]
+tags: [computer-mouse, pointer, click, cursor, peripheral, device, scroll, mouse]
 category: Devices
 version: "1.68"
 unicode: "f1d7"

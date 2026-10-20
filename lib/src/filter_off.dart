@@ -26,7 +26,7 @@ class FilterOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [funnel, hopper, filtration, filter, off, control, operation, disabled, inactive, sort]
+tags: [funnel, filtering, sort, refine, narrow, disabled, inactive, unavailable, slash, turn-off, filter, off]
 category: System
 version: "1.26"
 unicode: "ed2c"

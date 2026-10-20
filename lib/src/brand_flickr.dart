@@ -26,7 +26,7 @@ class BrandFlickr extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, website, house, facilitate, sharing, digital, photos, images, brand, flickr]
+tags: [flickr, photos, photo-sharing, images, photography, gallery, logo, brand]
 category: Brand
 version: "1.23"
 unicode: "ecfe"

@@ -26,7 +26,7 @@ class ScanEye extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [technology, security, safety, safe, secure, scan, eye, control, operation, function]
+tags: [eye-scan, retina, biometric, face-id, view, visibility, security, scan, eye]
 category: System
 version: "1.70"
 unicode: "f1ff"

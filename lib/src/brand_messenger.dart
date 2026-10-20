@@ -26,7 +26,7 @@ class BrandMessenger extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, app, application, communication, text, messages, communicator, photos, images, videos, giphy]
+tags: [messenger, facebook-messenger, meta, chat, messaging, message, logo, brand]
 category: Brand
 version: "1.13"
 unicode: "ec71"

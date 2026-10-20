@@ -26,7 +26,7 @@ class CurrencyBahraini extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bahraini, bhd, commerce, dinar, money, banknote, pay, currency, finance, payment]
+tags: [bahraini-dinar, bhd, bahrain, dinar, currency, money, symbol, cash, finance, payment, bahraini]
 category: Currencies
 version: "1.39"
 unicode: "ee51"

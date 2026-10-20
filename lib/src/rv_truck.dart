@@ -27,7 +27,7 @@ class RvTruck extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [vehicle, transport, drive, trailer, auto, motorhome, camper, caravan, hauler, truck]
+tags: [rv, camper, motorhome, caravan, vehicle, camping, travel, truck]
 version: "2.37"
 unicode: "fcc0"
 -->

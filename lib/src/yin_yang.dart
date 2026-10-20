@@ -26,7 +26,7 @@ class YinYang extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [equality, good, evil, balance, peace, yin, yang, sign, mark, emblem]
+tags: [yin-yang, balance, harmony, taoism, peace, symbol, yinyang, tao, yin, yang]
 category: Symbols
 version: "1.10"
 unicode: "ec35"

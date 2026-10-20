@@ -27,7 +27,7 @@ class Explicit extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [adult, content, xxx, curse, words, porn, explicit]
+tags: [explicit, nsfw, adult, mature, 18-plus, parental-advisory, content-warning, rating]
 version: "1.75"
 unicode: "f256"
 -->

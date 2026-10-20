@@ -26,7 +26,7 @@ class BrandLoom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [video, messages, osx, record, screen, camera, brand, loom, logo, company]
+tags: [loom, screen-recording, video, recording, messages, screencast, logo, brand]
 category: Brand
 version: "1.45"
 unicode: "ef70"

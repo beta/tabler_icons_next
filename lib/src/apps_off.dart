@@ -26,7 +26,7 @@ class AppsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [application, add-on, user, download, mobile, apps, off, programming, software, disabled]
+tags: [applications, grid, launcher, menu, dashboard, disabled, inactive, apps, off]
 category: Development
 version: "1.62"
 unicode: "f0ac"

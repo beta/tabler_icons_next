@@ -26,7 +26,7 @@ class Tallymarks extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, numerical, consistent, system, counting, tallymarks, calculation, equation, mathematics, numeric]
+tags: [tally, tally-marks, count, counting, score, five, marks, tallying, tallymarks]
 category: Math
 version: "1.11"
 unicode: "ec4a"

@@ -26,7 +26,7 @@ class BrandCucumber extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, tool, gherkin, programming, ruby, javascript, brand, cucumber, logo, company]
+tags: [cucumber, bdd, testing, gherkin, test-automation, ruby, logo, brand]
 category: Brand
 version: "1.45"
 unicode: "ef6c"

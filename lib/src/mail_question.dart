@@ -27,7 +27,7 @@ class MailQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [inquire, ask, query, doubt, wonder, explore, seek, puzzle, curious, probe]
+tags: [mail, email, envelope, message, inbox, letter, e-mail, help, question, faq, unknown, support]
 version: "2.10"
 unicode: "f944"
 -->

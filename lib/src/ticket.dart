@@ -27,7 +27,7 @@ class Ticket extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [cinema, event, theatre, entry, fine, coupon, pass, ticket]
+tags: [ticket, pass, coupon, admission, event, cinema, concert, voucher]
 version: "1.0"
 unicode: "eb3d"
 -->

@@ -26,7 +26,7 @@ class GitCommit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, version control, command, git, commit, versioning, repository, tracking, revision]
+tags: [git, commit, version-control, vcs, history, changes, github, gitlab, repository, push]
 category: Version control
 version: "1.0"
 unicode: "eab3"

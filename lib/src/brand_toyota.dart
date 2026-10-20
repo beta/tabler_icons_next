@@ -26,7 +26,7 @@ class BrandToyota extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [car, transport, transportation, brand, toyota, logo, company, trademark, identity, corporate]
+tags: [toyota, car, automotive, vehicle, japan, logo, brand, automobile, prius]
 category: Brand
 version: "1.76"
 unicode: "f262"

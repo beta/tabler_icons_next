@@ -26,7 +26,7 @@ class AlignCenter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, alignment, position, align, center, typography, writing, font, character, word]
+tags: [text-align, alignment, paragraph, typography, text, format, formatting, centered, middle, align, center]
 category: Text
 version: "1.0"
 unicode: "ea07"

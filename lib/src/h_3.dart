@@ -26,7 +26,7 @@ class H3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [header, text, editor, h3, heading, typography, writing, font, character, word]
+tags: [h3, heading, header, title, headline, text-editor, markdown, html, typography, text-format, rich-text]
 category: Text
 version: "1.16"
 unicode: "ec96"

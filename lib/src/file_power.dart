@@ -26,7 +26,7 @@ class FilePower extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [archive, energy, battery, ecology, file, power, document, data, content, record]
+tags: [power, energy, battery, electricity, document, file, on-off, startup]
 category: Document
 version: "1.56"
 unicode: "f03a"

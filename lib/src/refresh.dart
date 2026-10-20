@@ -26,7 +26,7 @@ class Refresh extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [synchronization, reload, restart, spinner, loader, ajax, update, arrows, refresh, navigation]
+tags: [reload, sync, update, reset, arrows, loader, spinner, restart, refresh]
 category: Arrows
 version: "1.0"
 unicode: "eb13"

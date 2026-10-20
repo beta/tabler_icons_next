@@ -26,7 +26,7 @@ class FileDescription extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, paper, report, details, job, file, description, document, data, content]
+tags: [description, document, text, details, notes, article, content, report, page, lines, file]
 category: Document
 version: "1.55"
 unicode: "f028"

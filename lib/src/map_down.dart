@@ -27,7 +27,7 @@ class MapDown extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [decrease, lower, reduce, descend, drop, decline, fall, sink, plunge, subside]
+tags: [map, navigation, location, travel, geography, directions, atlas, arrow-down, download, decrease, lower]
 version: "2.28"
 unicode: "fbca"
 -->

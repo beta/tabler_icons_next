@@ -27,7 +27,7 @@ class DeviceDesktopCancel extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [abort, stop, void, end, halt, cease, discontinue, intercept, terminate, nullify]
+tags: [cancel, stop, abort, blocked, forbidden, desktop, monitor, computer, screen, pc]
 version: "2.10"
 unicode: "f85f"
 -->

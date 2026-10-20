@@ -26,7 +26,7 @@ class AxisX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [math, geometry, axis, navigation, flow, movement, route, path, x]
+tags: [x-axis, horizontal, chart, graph, coordinate, abscissa, math, axis, x]
 category: Arrows
 version: "1.43"
 unicode: "ef45"

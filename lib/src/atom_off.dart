@@ -27,7 +27,7 @@ class AtomOff extends Icon {
 
   static const String _svg = '''<!--
 category: Nature
-tags: [unit, part, electrons, atom, off, disabled, inactive, particle, molecule, science]
+tags: [science, physics, chemistry, nuclear, molecule, electron, react, laboratory, disabled, inactive, atom, off]
 version: "1.65"
 unicode: "f0f9"
 -->

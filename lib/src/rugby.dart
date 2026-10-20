@@ -26,7 +26,7 @@ class Rugby extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [rugby, sport, ball, goal, pitch, match, athletic, team, tournament, fitness]
+tags: [rugby-ball, ball, sport, american-football, team, match, rugby]
 category: Sport
 unicode: "10247"
 version: "3.43"

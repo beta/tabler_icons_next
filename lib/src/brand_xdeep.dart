@@ -26,7 +26,7 @@ class BrandXdeep extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [diving, equipment, underwater, gear, adventure, exploration, submarine, scuba, ocean, dive]
+tags: [xdeep, diving, scuba, dive, equipment, underwater, gear, logo, brand]
 category: Brand
 version: "2.29"
 unicode: "fc10"

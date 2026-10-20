@@ -26,7 +26,7 @@ class CurrencyZcash extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [zcash, zec, privacy, crypto, cryptocurrency, blockchain, money, digital, finance, coin]
+tags: [zcash, zec, privacy, crypto, cryptocurrency, blockchain, coin, digital-currency, currency, money]
 category: Currencies
 unicode: "1023d"
 version: "3.42"

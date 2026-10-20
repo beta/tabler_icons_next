@@ -26,7 +26,7 @@ class Aperture extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hole, opening, vent, aperture, camera, picture, capture, lens, image]
+tags: [camera, lens, shutter, photography, photo, iris, diaphragm, focus, aperture]
 category: Photography
 version: "1.2"
 unicode: "eb58"

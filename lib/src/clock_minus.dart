@@ -27,7 +27,7 @@ class ClockMinus extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [subtract, reduce, decrease, deduct, lessen, remove, diminish, shrink, deplete, shorten]
+tags: [minus, remove, subtract-time, less-time, shorten, clock, time, schedule, timer]
 version: "2.10"
 unicode: "f848"
 -->

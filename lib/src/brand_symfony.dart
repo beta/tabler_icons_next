@@ -26,7 +26,7 @@ class BrandSymfony extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [framework, php, software, build, web, application, brand, symfony, logo, company]
+tags: [symfony, php, framework, web, backend, logo, brand, mvc, open-source]
 category: Brand
 version: "1.115"
 unicode: "f616"

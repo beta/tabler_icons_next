@@ -26,7 +26,7 @@ class Heart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [love, emotion, like, favorite, relationship, heart, geometry, form, figure, pattern]
+tags: [heart, love, like, favorite, favourite, wishlist, valentine, emotion, health]
 category: Shapes
 version: "1.0"
 unicode: "eabe"

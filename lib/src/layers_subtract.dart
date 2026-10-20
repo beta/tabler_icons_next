@@ -26,7 +26,7 @@ class LayersSubtract extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [layered-subtraction, layer-removal, remove-layer, subtract-layers, subtracting, layer-reduction, layer-elimination, layer-reduce, layer-removing, remove, stack]
+tags: [layers, subtract, minus-front, boolean, pathfinder, remove, shape, vector, design]
 category: Design
 version: "1.0"
 unicode: "eaca"

@@ -26,7 +26,7 @@ class MathMax extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [math, max, calculation, equation, mathematics, numeric, formula]
+tags: [maximum, max, upper-bound, limit, mathematics, function, formula, math]
 category: Math
 version: "1.64"
 unicode: "f0f5"

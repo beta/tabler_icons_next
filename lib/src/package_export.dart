@@ -26,7 +26,7 @@ class PackageExport extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [npm, box, container, delivery, logistic, package, export, programming, software, coding]
+tags: [export, box, parcel, shipping, send, dispatch, outbound, arrow, package]
 category: Development
 version: "1.59"
 unicode: "f07a"

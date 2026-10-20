@@ -26,7 +26,7 @@ class Train extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [railway, rails, tgv, journey, travel, network, route, passenger, train, transport]
+tags: [train, railway, rail, locomotive, metro, transport, travel, railroad]
 category: Vehicles
 version: "1.34"
 unicode: "ed96"

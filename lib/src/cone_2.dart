@@ -26,7 +26,7 @@ class Cone2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [geometry, math, object, shape, cone, form, figure, pattern, outline, 2]
+tags: [cone, 3d, shape, geometry, solid, inverted, math, object]
 category: Shapes
 version: "1.51"
 unicode: "efdc"

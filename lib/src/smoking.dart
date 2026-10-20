@@ -26,7 +26,7 @@ class Smoking extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cigarette, public place, smoking, medical, wellness, healthcare, treatment, care]
+tags: [cigarette, smoke, smoking-area, tobacco, cigar, vape, smoker, nicotine, smoking]
 category: Health
 version: "1.18"
 unicode: "ecc4"

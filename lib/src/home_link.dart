@@ -26,7 +26,7 @@ class HomeLink extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [address, technology, smart, internet, home, link, house, main, architecture, structure]
+tags: [home, house, link, smart-home, connected, internet, iot, network]
 category: Buildings
 version: "1.88"
 unicode: "f354"

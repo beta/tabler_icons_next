@@ -26,7 +26,7 @@ class Sdk extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [development, programming, programmer, web, app, sdk, software, coding, technical, developer]
+tags: [software-development-kit, development, library, api, programming, code, sdk]
 category: Development
 version: "1.93"
 unicode: "f3af"

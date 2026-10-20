@@ -26,7 +26,7 @@ class CurrencyRipple extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ripple, xrp, digital, crypto, money, banknote, pay, currency, finance, payment]
+tags: [ripple, xrp, crypto, cryptocurrency, blockchain, coin, digital-currency, currency, money]
 category: Currencies
 version: "1.39"
 unicode: "ee65"

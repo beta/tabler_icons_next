@@ -26,7 +26,7 @@ class JumpRope extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sport, fitness, workout, gym, skipping, cardio, fit, shape, jump, rope]
+tags: [jump-rope, skipping-rope, skipping, fitness, workout, cardio, exercise, gym, jump, rope]
 category: Sport
 version: "1.34"
 unicode: "ed8f"

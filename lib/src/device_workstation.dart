@@ -26,7 +26,7 @@ class DeviceWorkstation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [workspace, workstation, desk, office, computer, monitor, working, workplace, table, desktop, setup]
+tags: [workstation, desk, office, desktop, computer, monitor, workspace, workplace, setup, remote-work]
 category: System
 unicode: "10273"
 version: "3.45"

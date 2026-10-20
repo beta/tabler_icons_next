@@ -26,7 +26,7 @@ class FileDots extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [more, menu, info, file, dots, document, data, content, record, paper]
+tags: [more, options, ellipsis, menu, loading, document, file, pending, actions, dots]
 category: Document
 version: "1.56"
 unicode: "f038"

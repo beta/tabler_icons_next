@@ -26,7 +26,7 @@ class SquareNumber8 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [eight, zero, number, digit, quantity, amount, order, maths, sum, total]
+tags: [eight, number, digit, numeral, square, box, badge, count, step, numbered]
 category: Numbers
 version: "1.39"
 unicode: "eeed"

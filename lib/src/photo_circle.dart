@@ -27,7 +27,7 @@ class PhotoCircle extends Icon {
 
   static const String _svg = '''<!--
 category: Photography
-tags: [round, oval, loop, border, frame, snap, capture, shape, photograph, photo]
+tags: [image, picture, round, gallery, img, media, thumbnail, avatar, circle-image, photo]
 version: "2.31"
 unicode: "fc4a"
 -->

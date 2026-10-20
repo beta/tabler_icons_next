@@ -26,7 +26,7 @@ class Number0Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [zero, nil, null, none, naught, nought, nothing, void, zilch, zip]
+tags: [zero, number, digit, numeral, count, null, nil, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fce1"

@@ -26,7 +26,7 @@ class DeviceTabletOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ipad, mobile, touchscreen, portable, device, tablet, off, hardware, technology, disabled]
+tags: [tablet, ipad, android, touchscreen, device, mobile, disabled, inactive, unavailable, slash, turn-off, off]
 category: Devices
 version: "1.58"
 unicode: "f063"

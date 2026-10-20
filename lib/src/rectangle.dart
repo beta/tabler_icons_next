@@ -26,7 +26,7 @@ class Rectangle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, geometric, math, rectangle, geometry, form, figure, pattern, outline]
+tags: [shape, geometry, box, frame, horizontal, rectangle]
 category: Shapes
 version: "1.27"
 unicode: "ed37"

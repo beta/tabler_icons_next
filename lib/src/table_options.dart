@@ -26,7 +26,7 @@ class TableOptions extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [edit, chart, customization, repair, settings, table, options, storage, repository, records]
+tags: [table, settings, options, configure, customize, spreadsheet, data, excel, sheet]
 category: Database
 version: "1.75"
 unicode: "f25c"

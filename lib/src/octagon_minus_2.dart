@@ -27,7 +27,7 @@ class OctagonMinus2 extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [subtract, decrease, reduce, lower, lessen, discount, diminish, abstract, deduct, withdraw]
+tags: [stop, remove, minus, shape, polygon, octagon, delete, blocked]
 version: "2.35"
 unicode: "fc91"
 -->

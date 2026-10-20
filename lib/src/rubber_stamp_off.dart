@@ -26,7 +26,7 @@ class RubberStampOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [rubber, stamp, seal, letter, mail, document, signature, off, disabled, inactive]
+tags: [stamp, seal, approved, signature, notary, document, disabled, unavailable, inactive, hidden, rubber, off]
 category: Document
 version: "1.110"
 unicode: "f5aa"

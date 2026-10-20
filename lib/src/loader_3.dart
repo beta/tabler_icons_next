@@ -26,7 +26,7 @@ class Loader3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [process, download, upload, loader, loading, control, operation, function, interface, management]
+tags: [loading, loader, spinner, progress, wait, busy, pending, buffering, processing, throbber, activity-indicator]
 category: System
 version: "1.102"
 unicode: "f513"

@@ -26,7 +26,7 @@ class PointerStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [favorite, highlight, important, special, gold, rate, shine, elite, pointer, star]
+tags: [cursor, mouse-pointer, mouse, favorite, featured, rating, bookmark, premium, arrow, click, pointer, star]
 category: System
 version: "2.10"
 unicode: "f9aa"

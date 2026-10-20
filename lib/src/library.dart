@@ -27,7 +27,7 @@ class Library extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [archive, collection, books, catalog, shelves, repository, knowledge, read, information, account]
+tags: [library, books, bookshelf, shelf, archive, collection, reading, knowledge]
 version: "2.42"
 unicode: "fd4c"
 -->

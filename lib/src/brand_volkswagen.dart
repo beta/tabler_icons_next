@@ -26,7 +26,7 @@ class BrandVolkswagen extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [car, vehicle, transportation, van, traveling, brand, volkswagen, logo, company, trademark]
+tags: [volkswagen, vw, car, automotive, vehicle, germany, logo, brand]
 category: Brand
 version: "1.102"
 unicode: "f50e"

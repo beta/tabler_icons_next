@@ -26,7 +26,7 @@ class ArrowRampLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, side, turn, arrow, ramp, left, pointer, navigation, flow, navigate]
+tags: [road, exit, highway, directions, navigation, gps, pointer, direction, arrow, ramp, left]
 category: Arrows
 version: "1.28"
 unicode: "ed3c"

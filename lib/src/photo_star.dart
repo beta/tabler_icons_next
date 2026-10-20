@@ -26,7 +26,7 @@ class PhotoStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gallery, favourite, best, photo, star, content, entertainment, favorite, rating, multimedia]
+tags: [image, picture, gallery, img, photography, media, favorite, bookmark, rating, featured, thumbnail, landscape, photo, star]
 category: Media
 version: "1.89"
 unicode: "f366"

@@ -26,7 +26,7 @@ class FileInfinity extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [document, eternity, sync, loop, file, infinity, data, content, record, paper]
+tags: [infinity, loop, unlimited, endless, sync, document, file, forever, recurring]
 category: Document
 version: "1.101"
 unicode: "f502"

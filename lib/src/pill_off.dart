@@ -26,7 +26,7 @@ class PillOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [drug, medication, illness, sickness, doctor, prescription, pill, off, medical, wellness]
+tags: [medicine, capsule, drug, pharmacy, disabled, slash, medication, tablet, no-drugs, inactive, pill, off]
 category: Health
 version: "1.66"
 unicode: "f178"

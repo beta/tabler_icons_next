@@ -27,7 +27,7 @@ class FaceIdError extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [scan, apple, iphone, ipad, face, error, id]
+tags: [face-id, face-recognition, error, failed, biometric, authentication, scan, sad, apple, iphone, face, id]
 version: "1.48"
 unicode: "efa7"
 -->

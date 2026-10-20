@@ -26,7 +26,7 @@ class LayoutList extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [position, design, doable, layout, list, creative, artistic, visual, aesthetic, style]
+tags: [list, list-view, layout, rows, items, ui]
 category: Design
 version: "1.8"
 unicode: "ec14"

@@ -26,7 +26,7 @@ class WorldDownload extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [global, down, globe, arrow, earth, world, download, location, navigation, geography]
+tags: [globe, earth, world, internet, global, web, international, download, arrow-down, cloud]
 category: Map
 version: "1.46"
 unicode: "ef8a"

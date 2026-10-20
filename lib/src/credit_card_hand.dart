@@ -27,7 +27,7 @@ class CreditCardHand extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [credit-card, payment, hand, give, receive, transaction, purchase, pos, checkout, banking]
+tags: [hand, pay, contactless, give, checkout, pos, credit-card, card, payment, debit-card, bank-card, purchase]
 unicode: "1022e"
 version: "3.41"
 -->

@@ -26,7 +26,7 @@ class DualScreen extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [display, monitor, interface, view, multitask, split, setup, extend, panel, screen]
+tags: [dual-screen, two-monitors, multi-monitor, second-screen, display, monitor, split-screen, extend, multitasking, screen]
 category: Devices
 version: "2.16"
 unicode: "fa59"

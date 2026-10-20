@@ -26,7 +26,7 @@ class ArrowsMaximize extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fullscreen, expand, arrows, maximize, navigation, flow, movement, route, path, pointers]
+tags: [expand, fullscreen, enlarge, resize, zoom, pointer, navigation, direction, arrows, maximize]
 category: Arrows
 version: "1.0"
 unicode: "ea28"

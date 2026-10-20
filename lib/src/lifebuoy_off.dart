@@ -27,7 +27,7 @@ class LifebuoyOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [life ring, help, support, lifebuoy, off, disabled, inactive]
+tags: [lifebuoy, life-ring, lifesaver, help, support, disabled, off-state, unavailable, off]
 version: "1.66"
 unicode: "f154"
 -->

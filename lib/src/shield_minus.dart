@@ -27,7 +27,7 @@ class ShieldMinus extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [protection, reduce, decrease, lessen, security, guard, subtract, remove, withdraw, diminish]
+tags: [security, protection, protect, remove, subtract, delete, less, guard, safety, secure]
 version: "2.10"
 unicode: "f9c8"
 -->

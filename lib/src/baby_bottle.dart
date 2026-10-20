@@ -26,7 +26,7 @@ class BabyBottle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [kid, milk, child, food, drink, feeding, baby, bottle, medical, wellness]
+tags: [infant, milk, feeding, child, newborn, nursing, formula, toddler, nursery, baby, bottle]
 category: Health
 version: "1.112"
 unicode: "f5d2"

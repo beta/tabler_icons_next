@@ -27,7 +27,7 @@ class MapDollar extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [currency, money, finance, cash, economy, payment, funds, wealth, revenue, profit]
+tags: [map, navigation, location, travel, geography, directions, atlas, money, price, payment, cost, finance, usd]
 version: "2.28"
 unicode: "fbc9"
 -->

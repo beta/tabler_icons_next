@@ -26,7 +26,7 @@ class AnchorOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hold, ship, harbor, docks, anchor, off, location, navigation, disabled, inactive]
+tags: [ship, boat, marine, nautical, sea, harbor, port, sailor, navy, dock, disabled, inactive, anchor, off]
 category: Map
 version: "1.65"
 unicode: "f0f7"

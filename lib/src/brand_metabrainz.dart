@@ -26,7 +26,7 @@ class BrandMetabrainz extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [website, database, open-source, musicbrainz, listenbrainz, bookbrainz, critiquebrainz, brand, metabrainz, logo]
+tags: [metabrainz, musicbrainz, open-source, database, music, metadata, logo, brand]
 category: Brand
 version: "3.7"
 unicode: "ff12"

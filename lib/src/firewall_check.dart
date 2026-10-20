@@ -27,7 +27,7 @@ class FirewallCheck extends Icon {
 
   static const String _svg = '''<!--
 category: Development
-tags: [security, protection, verify, validation, shield, safety, inspection, approve, guard, defense, audit, secure]
+tags: [firewall, security, protected, secure, network, verified, shield, safe, brick-wall, cybersecurity]
 unicode: "101f1"
 version: "3.39"
 -->

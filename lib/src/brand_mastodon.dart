@@ -26,7 +26,7 @@ class BrandMastodon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [web, app, social, nodes, network, brand, mastodon, logo, company, trademark]
+tags: [mastodon, fediverse, social, social-network, microblog, decentralized, logo, brand]
 category: Brand
 version: "1.75"
 unicode: "f250"

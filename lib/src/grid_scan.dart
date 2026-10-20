@@ -26,7 +26,7 @@ class GridScan extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, matrix, layout, pattern, dimension, analysis, structure, mapping, inspection, grid-data]
+tags: [grid, scan, scanner, viewfinder, matrix, inspect, focus, detect, layout]
 category: System
 version: "2.36"
 unicode: "fca7"

@@ -27,7 +27,7 @@ class DevicesCancel extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [stop, end, abort, dismiss, void, terminate, nullify, revoke, erase, cease]
+tags: [responsive, multi-device, computer, cancel, stop, abort, block, laptop, phone, tablet, desktop, denied, forbidden]
 version: "2.10"
 unicode: "f8e7"
 -->

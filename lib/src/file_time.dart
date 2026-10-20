@@ -26,7 +26,7 @@ class FileTime extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [clock, planning, history, watch, file, time, document, data, content, record]
+tags: [time, clock, history, recent, schedule, deadline, document, file, timestamp, pending]
 category: Document
 version: "1.56"
 unicode: "f040"

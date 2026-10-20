@@ -26,7 +26,7 @@ class LayoutSidebar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grid, aside, column, columns, layout, sidebar, creative, artistic, visual, aesthetic]
+tags: [sidebar, side-panel, drawer, left, layout, ui, navigation]
 category: Design
 version: "1.0"
 unicode: "eada"

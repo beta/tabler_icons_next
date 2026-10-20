@@ -26,7 +26,7 @@ class Radio extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, news, sound, broadcost, communication, station, radio, content, entertainment, multimedia]
+tags: [fm, am, radio-station, tuner, broadcast, music, news, audio, receiver, radio]
 category: Media
 version: "1.41"
 unicode: "ef2d"

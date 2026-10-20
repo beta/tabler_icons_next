@@ -27,7 +27,7 @@ class DropletPin extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [locate, mark, fix, attach, secure, fasten, anchor, place, determine, position]
+tags: [drop, water, liquid, location, map-pin, marker, place, rain, ink, color, gps, geolocation]
 version: "2.10"
 unicode: "f904"
 -->

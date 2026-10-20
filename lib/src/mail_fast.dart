@@ -26,7 +26,7 @@ class MailFast extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [send, massage, quick, delivery, speed, communication, mail, fast, email, message]
+tags: [mail, email, envelope, send, express, fast, quick, delivery, sent]
 category: Communication
 version: "1.58"
 unicode: "f069"

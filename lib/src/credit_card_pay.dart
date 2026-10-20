@@ -26,7 +26,7 @@ class CreditCardPay extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [payment-card, credit-pay, card-payment, transaction, credit-transaction, purchase, buy, payment, credit, card]
+tags: [pay, payment, transaction, charge, transfer, credit-card, card, debit-card, bank-card, checkout, purchase, credit]
 category: E-commerce
 version: "2.41"
 unicode: "fd32"

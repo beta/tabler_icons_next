@@ -26,7 +26,7 @@ class PhotoCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [delete, gallery, photo, cancel, content, entertainment, stop, abort, close, dismiss]
+tags: [image, picture, gallery, img, photography, media, cancelled, stop, abort, blocked, forbidden, thumbnail, landscape, photo, cancel]
 category: Media
 version: "1.89"
 unicode: "f35d"

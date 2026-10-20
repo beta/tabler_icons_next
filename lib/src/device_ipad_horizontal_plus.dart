@@ -27,7 +27,7 @@ class DeviceIpadHorizontalPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [add, increase, expand, augment, more, grow, gain, amplify, enlarge, boost]
+tags: [plus, add, new, create, ipad, tablet, apple, ios, landscape]
 version: "2.10"
 unicode: "f89b"
 -->

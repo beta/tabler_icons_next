@@ -26,7 +26,7 @@ class BrandSlack extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, free, internet, service, stuff, electron, app, application, communicator, textual, audio, multimedia]
+tags: [slack, chat, messaging, team, communication, workspace, channels, salesforce, logo, brand]
 category: Brand
 version: "1.13"
 unicode: "ec72"

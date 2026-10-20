@@ -26,7 +26,7 @@ class CurrencyPeso extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, coin, cash, commerce, mexico, currency, peso, finance, payment, monetary]
+tags: [peso, mxn, mexico, mexican, php, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.119"
 unicode: "f65f"

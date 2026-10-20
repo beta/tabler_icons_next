@@ -27,7 +27,7 @@ class Vs extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [compare, against, contrast, compete, rival, match, versus, contest, challenge, battle]
+tags: [versus, vs, compare, comparison, battle, match, fight, opponents]
 version: "2.31"
 unicode: "fc52"
 -->

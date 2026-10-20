@@ -26,7 +26,7 @@ class BrandVk extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [technology, social, media, networking, service, russian, brand, logo, company, trademark]
+tags: [vk, vkontakte, social, social-network, russia, logo, brand, messenger]
 category: Brand
 version: "1.32"
 unicode: "ed72"

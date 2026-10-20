@@ -26,7 +26,7 @@ class Tooltip extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [info, help, information, advise, tooltip, control, operation, function, interface, management]
+tags: [tooltip, hint, popover, info, help, hover, callout, tools, tip]
 category: System
 version: "1.82"
 unicode: "f2dd"

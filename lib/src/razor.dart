@@ -26,7 +26,7 @@ class Razor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shaver, barber, grooming, beard, moustache, razor, medical, wellness, healthcare, treatment]
+tags: [shaver, shaving, barber, grooming, beard, moustache, blade, razor]
 category: Health
 version: "1.97"
 unicode: "f4b5"

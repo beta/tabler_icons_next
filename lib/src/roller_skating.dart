@@ -26,7 +26,7 @@ class RollerSkating extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sport, hobby, fitness, roller, skating, athletic, exercise, game, physical]
+tags: [roller-skates, skates, skating, rollerblade, sport, hobby, roller]
 category: Sport
 version: "1.50"
 unicode: "efd1"

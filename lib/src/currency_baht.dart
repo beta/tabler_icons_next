@@ -26,7 +26,7 @@ class CurrencyBaht extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [thb, thai, baht, money, banknote, pay, currency, finance, payment, monetary]
+tags: [baht, thb, thailand, thai, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "f08a"

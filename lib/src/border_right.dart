@@ -26,7 +26,7 @@ class BorderRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [table, side, line, border, right, creative, artistic, visual, aesthetic, style]
+tags: [table, cell, spreadsheet, excel, format, edge, cell-border, outline, border, right]
 category: Design
 version: "1.0"
 unicode: "ea42"

@@ -27,7 +27,7 @@ class Prong extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [fork, split, divide, branch, part, section, tine, tool, connector, spike]
+tags: [fork, tine, hook, tool, connector, branch, split]
 version: "2.47"
 unicode: "fda1"
 -->

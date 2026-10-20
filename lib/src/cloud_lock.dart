@@ -26,7 +26,7 @@ class CloudLock extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [security, secure, locked, password, cloud, lock, storage, online, private, control]
+tags: [lock, secure, security, private, encrypted, protected, cloud, storage, password]
 category: System
 version: "1.51"
 unicode: "efdb"

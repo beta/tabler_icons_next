@@ -26,7 +26,7 @@ class Regex extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [regular, expression, code, replace, programming, coding, variables, regex, typography, writing]
+tags: [regular-expression, regexp, pattern, code, match, search, replace, programming, regex]
 category: Text
 version: "1.85"
 unicode: "f31f"

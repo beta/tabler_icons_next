@@ -26,7 +26,7 @@ class Package extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [npm, box, container, package, store, purchase, shopping, retail, business]
+tags: [box, parcel, delivery, shipping, product, cube, container, 3d, package]
 category: E-commerce
 version: "1.0"
 unicode: "eaff"

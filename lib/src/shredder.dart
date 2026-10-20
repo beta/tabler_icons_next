@@ -26,7 +26,7 @@ class Shredder extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [paper, document, destroy, device, office, confidential, shredder, hardware, technology, electronic]
+tags: [paper-shredder, shred, destroy, delete, confidential, document, office, shredder]
 category: Devices
 version: "1.39"
 unicode: "eedf"

@@ -26,7 +26,7 @@ class Prompt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [command line, terminal, code, prompt, programming, software, coding, technical, developer]
+tags: [terminal, command-line, cli, shell, console, bash, cmd, command, chevron, prompt]
 category: Development
 version: "1.0"
 unicode: "eb0f"

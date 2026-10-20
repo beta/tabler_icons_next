@@ -27,7 +27,7 @@ class HeartX extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [close, delete, remove, exit, cancel, revoke, eliminate, end, terminate, discard]
+tags: [heart, love, like, favorite, favourite, unfavorite, unlike, remove, delete, close, cancel, cross]
 version: "2.28"
 unicode: "fbae"
 -->

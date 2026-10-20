@@ -27,7 +27,7 @@ class WorldSearch extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [explore, find, seek, lookup, inspect, scan, global, hunt, pursue, discover]
+tags: [globe, earth, world, internet, global, web, international, search, find, lookup, magnifier, web-search]
 version: "2.10"
 unicode: "f9e7"
 -->

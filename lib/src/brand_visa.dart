@@ -26,7 +26,7 @@ class BrandVisa extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [payment, card, method, pay, brand, visa, logo, company, trademark, identity]
+tags: [visa, credit-card, payment, card, debit, finance, logo, brand]
 category: Brand
 version: "1.91"
 unicode: "f380"

@@ -26,7 +26,7 @@ class Seedling extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [nature, greenery, grow, soil, harvest, plant, flower, tree, leaf, seedling]
+tags: [sprout, plant, growth, seed, grow, garden, eco, nature, seedling]
 category: Nature
 version: "1.29"
 unicode: "ed51"

@@ -26,7 +26,7 @@ class GrillSpatula extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cook, cooking, bbq, meat, tool, grill, spatula, meal, cuisine, eating]
+tags: [spatula, turner, grill, bbq, barbecue, cooking, utensil, tool, kitchen, flipper]
 category: Food
 version: "1.89"
 unicode: "f35c"

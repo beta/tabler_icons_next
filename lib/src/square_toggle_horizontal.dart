@@ -26,7 +26,7 @@ class SquareToggleHorizontal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [box, clone, move, square, toggle, horizontal, creative, artistic, rectangular, visual]
+tags: [toggle, switch, swap, split, duplicate, clone, compare, horizontal, square, box]
 category: Design
 version: "1.39"
 unicode: "eef3"

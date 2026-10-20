@@ -26,7 +26,7 @@ class ArrowsVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [expand, stretch, top, bottom, arrows, vertical, navigation, flow, movement, route]
+tags: [up-down, height, resize, expand, pointer, navigation, direction, arrows, vertical]
 category: Arrows
 version: "1.2"
 unicode: "eb5b"

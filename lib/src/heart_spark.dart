@@ -26,7 +26,7 @@ class HeartSpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [love, emotion, like, favorite, relationship, heart, spark, glitter, shine, flash]
+tags: [heart, love, like, favorite, favourite, ai, sparkle, magic, new, auto, spark]
 category: Shapes
 version: "3.13"
 unicode: "ffb6"

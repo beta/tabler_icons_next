@@ -26,7 +26,7 @@ class Orbit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [space, planet, satellite, trajectory, rotation, gravity, astronomy, science, physics, electron, nucleus, orbit]
+tags: [satellite, planet, space, astronomy, orbital, rotation, cosmos, orbit]
 category: Nature
 unicode: "10296"
 version: "3.47"

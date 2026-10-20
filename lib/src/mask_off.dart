@@ -26,7 +26,7 @@ class MaskOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [edit, layer, mask, tool, design, off, creative, artistic, disabled, inactive]
+tags: [layer-mask, clipping, masking, design, layer, disabled, slash, unmask, mask, off]
 category: Design
 version: "1.39"
 unicode: "eeaf"

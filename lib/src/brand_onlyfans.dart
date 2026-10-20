@@ -26,7 +26,7 @@ class BrandOnlyfans extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [website, platform, photos, videos, stream, pay, brand, onlyfans, logo, company]
+tags: [onlyfans, creator, subscription, content, social, logo, brand, fans, paywall]
 category: Brand
 version: "1.114"
 unicode: "f605"

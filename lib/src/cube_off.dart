@@ -26,7 +26,7 @@ class CubeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, cube, off, disabled, inactive, geometry]
+tags: [cube, 3d, box, shape, geometry, block, off, disabled]
 category: Shapes
 version: "2.20"
 unicode: "fa95"

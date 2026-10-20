@@ -27,7 +27,7 @@ class Hammer extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [tool, repair, building, construction, hammer]
+tags: [hammer, tool, repair, build, construction, fix, diy, hardware, maintenance]
 version: "1.47"
 unicode: "ef91"
 -->

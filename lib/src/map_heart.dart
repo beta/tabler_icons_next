@@ -27,7 +27,7 @@ class MapHeart extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [love, affection, romance, care, passion, emotion, fondness, devotion, adore, cherish]
+tags: [map, navigation, location, travel, geography, directions, atlas, favorite, love, like, favourite]
 version: "2.28"
 unicode: "fbcc"
 -->

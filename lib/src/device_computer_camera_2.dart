@@ -26,7 +26,7 @@ class DeviceComputerCamera2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [camera, webcam, computer, monitor, screen, video, recording, hardware, technology, device]
+tags: [webcam, web-camera, camera, video-call, video-conference, meeting, computer, device]
 category: Devices
 unicode: "1023c"
 version: "3.42"

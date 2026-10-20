@@ -26,7 +26,7 @@ class RowInsertBottom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [table, layout, add, below, macro, excel, row, insert, bottom, storage]
+tags: [table, row, add-row, insert, below, spreadsheet, excel, grid, bottom]
 category: Database
 version: "1.39"
 unicode: "eed0"

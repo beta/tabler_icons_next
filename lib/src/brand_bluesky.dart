@@ -26,7 +26,7 @@ class BrandBluesky extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [decentralized, network, protocol, innovative, communication, new-wave, future, tech, connectivity, open]
+tags: [bluesky, social, social-network, microblog, decentralized, at-protocol, twitter-alternative, butterfly, logo, brand]
 category: Brand
 version: "2.45"
 unicode: "fd75"

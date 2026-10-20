@@ -27,7 +27,7 @@ class DeviceImacPause extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [halt, stop, break, suspend, interruption, freeze, hold, delay, interlude, stall]
+tags: [pause, paused, wait, hold, imac, mac, apple, computer, desktop, monitor]
 version: "2.10"
 unicode: "f87c"
 -->

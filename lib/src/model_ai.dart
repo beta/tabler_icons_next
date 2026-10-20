@@ -26,7 +26,7 @@ class ModelAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [model, ai, artificial intelligence, machine learning, neural network, nodes, graph, llm, training, connection]
+tags: [ai-model, machine-learning, ml, artificial-intelligence, neural-network, llm, cube, deep-learning, model, ai]
 category: Development
 unicode: "102a6"
 version: "3.48"

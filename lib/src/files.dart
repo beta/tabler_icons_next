@@ -26,7 +26,7 @@ class Files extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [forms, documents, stack, letter, files, file, paper, text, record, information]
+tags: [files, documents, multiple, copy, duplicate, pages, stack, papers, collection]
 category: Document
 version: "1.38"
 unicode: "edef"

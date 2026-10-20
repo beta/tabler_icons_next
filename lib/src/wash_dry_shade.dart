@@ -26,7 +26,7 @@ class WashDryShade extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [laundry, clean, clear, clothes, wash, dry, shade, cleaning, washing, garment]
+tags: [laundry, care-label, clothes, washing, dry-in-shade, dry, drying, laundry-symbol, garment, wash, shade]
 category: Laundry
 version: "1.84"
 unicode: "f303"

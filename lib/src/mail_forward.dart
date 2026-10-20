@@ -26,7 +26,7 @@ class MailForward extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [send, recipient, email, inbox, message, mail, forward, contact, conversation, letter]
+tags: [mail, email, envelope, forward, send, arrow-right, reply, e-mail]
 category: Communication
 version: "1.39"
 unicode: "eeac"

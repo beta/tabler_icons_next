@@ -26,7 +26,7 @@ class Stack2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pile, elements, layout, wrap, stack, creative, artistic, visual, aesthetic, style]
+tags: [layers, stack, pile, layout, elements, components, levels, z-order, stacked]
 category: Design
 version: "1.39"
 unicode: "eef7"

@@ -26,7 +26,7 @@ class SquareRoundedMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, delete, remove, close, cancel, square, rounded, minus, rectangular, subtract]
+tags: [minus, remove, subtract, delete, collapse, button, squircle, rounded, square]
 category: Shapes
 version: "1.117"
 unicode: "f63e"

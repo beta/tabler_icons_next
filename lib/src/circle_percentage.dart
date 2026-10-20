@@ -27,7 +27,7 @@ class CirclePercentage extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [finance, discount, interest, rate, calculation, measurement, ratio, percent, statistics, math]
+tags: [percent, percentage, discount, sale, ratio, rate, interest, tax, circle, round]
 version: "2.45"
 unicode: "fd7b"
 -->

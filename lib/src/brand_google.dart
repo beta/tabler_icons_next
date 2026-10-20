@@ -26,7 +26,7 @@ class BrandGoogle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, enterprise, browser, internet, web, discover, brand, google, company, trademark]
+tags: [google, search, alphabet, search-engine, web, internet, logo, brand]
 category: Brand
 version: "1.18"
 unicode: "ec1f"

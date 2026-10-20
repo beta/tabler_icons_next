@@ -27,7 +27,7 @@ class Device3dLens extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [3d, lens, optics, depth, field-of-view, camera, hardware, sensor, measurement, calibration]
+tags: [3d-lens, lens, depth, 3d, camera, optics, sensor, device, hardware]
 unicode: "1022c"
 version: "3.41"
 -->

@@ -27,7 +27,7 @@ class CircleDashedMinus extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [subtract, minus-symbol, decrease, negative, remove, less, reduce, takeaway, deduct, negate]
+tags: [minus, remove, subtract, less, dashed, circle, round, collapse, negative]
 unicode: "feb7"
 version: "3.2"
 -->

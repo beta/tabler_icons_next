@@ -27,7 +27,7 @@ class Filters extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [design, editing, effects, filters]
+tags: [filters, effects, photo-filters, instagram, color, blend, overlay, editing, image]
 version: "2.5"
 unicode: "f793"
 -->

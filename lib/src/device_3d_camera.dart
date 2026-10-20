@@ -27,7 +27,7 @@ class Device3dCamera extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [3d, depth-camera, scanner, sensor, capture, hardware, device, spatial, technology, modeling]
+tags: [3d-camera, depth-camera, 3d-scanner, scanner, lidar, sensor, camera, device, hardware, 3d]
 unicode: "1022d"
 version: "3.41"
 -->

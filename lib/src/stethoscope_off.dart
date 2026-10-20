@@ -27,7 +27,7 @@ class StethoscopeOff extends Icon {
 
   static const String _svg = '''<!--
 category: Health
-tags: [doctor, medical, physician, test, examination, health, illness, sickness, scrutiny, hospital]
+tags: [doctor, medical, physician, health, checkup, hospital, disabled, inactive]
 unicode: "f432"
 version: "1.94"
 -->

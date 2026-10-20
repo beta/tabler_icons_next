@@ -26,7 +26,7 @@ class ArrowLeftDashed extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [back, swipe, return, arrow, left, dashed, direction, pointer, navigation, flow]
+tags: [direction, west, previous, back, dotted, pointer, navigation, arrow, left, dashed]
 category: Arrows
 version: "3.19"
 unicode: "10069"

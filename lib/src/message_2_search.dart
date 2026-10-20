@@ -27,7 +27,7 @@ class Message2Search extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [find, look, explore, seek, scan, discover, locate, probe, inspect, inquire]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, find, magnifier, lookup, zoom, reply, communication, dm]
 version: "2.10"
 unicode: "f969"
 -->

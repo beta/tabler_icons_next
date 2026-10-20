@@ -26,7 +26,7 @@ class ChessRook extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, figure, strategy, pawn, chess, rook, athletic, fitness, exercise, physical]
+tags: [rook, castle, tower, chess, chess-piece, piece, board-game, game, strategy, play]
 category: Sport
 version: "1.107"
 unicode: "f56f"

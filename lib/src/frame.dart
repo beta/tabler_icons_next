@@ -26,7 +26,7 @@ class Frame extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [border, outline, enclosure, surround, edge, boundary, perimeter, framework, structure, container, crop]
+tags: [frame, picture-frame, border, crop, canvas, artboard, outline, figma-frame, layout]
 category: Design
 version: "1.0"
 unicode: "eaaf"

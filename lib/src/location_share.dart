@@ -27,7 +27,7 @@ class LocationShare extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [distribute, give, send, forward, assign, allocate, disseminate, spread, impart, divide]
+tags: [location, navigation, gps, arrow, pointer, direction, map, position, share, send, forward]
 version: "2.28"
 unicode: "fbbf"
 -->

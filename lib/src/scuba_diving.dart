@@ -26,7 +26,7 @@ class ScubaDiving extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [dive, diving, water, open water, underwater, scuba, athletic, fitness, exercise, game]
+tags: [diving, diver, underwater, scuba, sea, swimming, snorkeling]
 category: Sport
 version: "2.42"
 unicode: "fd4e"

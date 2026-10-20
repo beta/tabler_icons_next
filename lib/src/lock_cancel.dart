@@ -27,7 +27,7 @@ class LockCancel extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [revoke, remove, undo, void, nullify, abort, cease, delete, stop, end]
+tags: [lock, padlock, locked, security, secure, password, private, protected, cancel, cancelled, blocked, forbidden, denied]
 version: "2.10"
 unicode: "f925"
 -->

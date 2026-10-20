@@ -26,7 +26,7 @@ class SecretPhrases extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [seed, recovery, phrase, mnemonic, wallet, crypto, backup, password, security, words]
+tags: [seed-phrase, recovery-phrase, mnemonic, wallet, crypto, backup, password, words, security]
 category: System
 unicode: "10292"
 version: "3.47"

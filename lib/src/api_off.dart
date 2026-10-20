@@ -26,7 +26,7 @@ class ApiOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, coding, program, code, configuration, api, off, software, disabled, inactive]
+tags: [interface, rest, endpoint, developer, integration, programming, code, webhook, sdk, disabled, inactive, api, off]
 category: Development
 version: "1.65"
 unicode: "f0f8"

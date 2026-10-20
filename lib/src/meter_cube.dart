@@ -27,7 +27,7 @@ class MeterCube extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [volume, capacity, space, measurement, quantity, size, dimension, amount, bulk, measure]
+tags: [cubic-meter, m3, volume, capacity, unit, measurement, metric]
 version: "2.45"
 unicode: "fd7c"
 -->

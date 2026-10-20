@@ -27,7 +27,7 @@ class Eyeglass extends Icon {
 
   static const String _svg = '''<!--
 category: Health
-tags: [sight, defect, see, vision, frames, lenses, visually, impaired, myopia, far-sighted]
+tags: [glasses, eyeglasses, spectacles, optician, vision, reading, eyewear, nerd, optics]
 version: "1.39"
 unicode: "ee8a"
 -->

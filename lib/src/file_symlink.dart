@@ -26,7 +26,7 @@ class FileSymlink extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, format, extension, document, file, symlink, data, content, record, paper]
+tags: [symlink, symbolic-link, shortcut, alias, link, document, file, reference]
 category: Document
 version: "1.30"
 unicode: "ed53"

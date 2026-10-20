@@ -27,7 +27,7 @@ class DeviceWatchHeart extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [fitness, health, wellness, cardio, monitor, pulse, bpm, exercise, track, vitals]
+tags: [smartwatch, heart-rate, pulse, health, fitness, fitness-tracker, bpm, wearable, cardio, apple-watch]
 version: "2.10"
 unicode: "f8db"
 -->

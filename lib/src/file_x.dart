@@ -26,7 +26,7 @@ class FileX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [remove, delete, erase, file, document, data, content, record, paper, text]
+tags: [delete, remove, close, cancel, error, discard, document, file, trash]
 category: Document
 version: "1.0"
 unicode: "eaa3"

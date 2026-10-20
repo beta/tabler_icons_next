@@ -27,7 +27,7 @@ class Braille extends Icon {
 
   static const String _svg = '''<!--
 category: Health
-tags: [blind, alphabet, disability, letters, read, braille, accessibility, a11y, vision, impaired, inclusive, tactile]
+tags: [blind, accessibility, a11y, tactile, reading, visually-impaired, dots, alphabet, braille]
 version: "1.105"
 unicode: "f545"
 -->

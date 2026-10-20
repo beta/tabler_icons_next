@@ -26,7 +26,7 @@ class PigOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [animal, farm, pork, mud, pink, piggy, bank, pig, off, creature]
+tags: [animal, farm, pork, piggy, no-pork, disabled, slash, pig, off]
 category: Animals
 version: "1.66"
 unicode: "f177"

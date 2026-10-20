@@ -27,7 +27,7 @@ class FilterCode extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [programming, syntax, script, develop, software, engineer, code, command, logic, algorithm]
+tags: [funnel, filtering, sort, code, programming, developer, coding, refine, narrow, html, embed]
 version: "2.28"
 unicode: "fb7f"
 -->

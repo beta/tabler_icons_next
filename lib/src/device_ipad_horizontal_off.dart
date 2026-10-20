@@ -26,7 +26,7 @@ class DeviceIpadHorizontalOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tablet, apple, mobile, technology, ios, device, ipad, horizontal, off, hardware]
+tags: [ipad, tablet, apple, ios, landscape, horizontal, off, disabled, device]
 category: Devices
 version: "2.10"
 unicode: "f898"

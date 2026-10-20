@@ -26,7 +26,7 @@ class CircleDashedNumber0 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [zero, none, null, void, zilch, emptiness, circle-zero, nothing, naught, cipher]
+tags: [0, zero, number, digit, numeral, count, step, circle, dashed, badge]
 category: Numbers
 version: "2.33"
 unicode: "fc6b"

@@ -26,7 +26,7 @@ class BrandPowershell extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [microsoft, command, interpreter, software, opensource, brand, powershell, logo, company, trademark]
+tags: [powershell, microsoft, terminal, shell, command-line, console, script, logo, brand]
 category: Brand
 version: "1.113"
 unicode: "f5ed"

@@ -26,7 +26,7 @@ class CurrencyDram extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, finance, money, cash, armenia, currency, dram, payment, monetary, banking]
+tags: [dram, amd, armenia, armenian, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.90"
 unicode: "f370"

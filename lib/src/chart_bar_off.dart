@@ -26,7 +26,7 @@ class ChartBarOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, diagram, graph, rhythm, data, analysis, chart, bar, off, visualization]
+tags: [chart, graph, statistics, analytics, data, report, diagram, disabled, off, unavailable, inactive, bar-chart, no-data, visualization, bar]
 category: Charts
 version: "1.94"
 unicode: "f3d2"

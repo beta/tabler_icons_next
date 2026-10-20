@@ -26,7 +26,7 @@ class AntennaBarsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [signal, wireless, wi-fi, quality, antenna, bars, off, hardware, technology, disabled]
+tags: [signal-strength, signal, cellular, reception, mobile, network, wireless, connection, no-signal, disabled, offline, antenna, bars, off]
 category: Devices
 version: "1.62"
 unicode: "f0aa"

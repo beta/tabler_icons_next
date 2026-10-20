@@ -26,7 +26,7 @@ class BrandNordVpn extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [protects, device, software, brand, nord, vpn, logo, company, trademark, identity]
+tags: [nordvpn, vpn, security, privacy, network, encryption, logo, brand, nord]
 category: Brand
 version: "1.91"
 unicode: "f37f"

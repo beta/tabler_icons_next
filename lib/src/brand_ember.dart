@@ -26,7 +26,7 @@ class BrandEmber extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [library, javascript, web, app, framework, brand, ember, logo, company, trademark]
+tags: [ember, emberjs, javascript, framework, frontend, web, logo, brand]
 category: Brand
 version: "1.96"
 unicode: "f497"

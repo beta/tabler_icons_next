@@ -27,7 +27,7 @@ class Social extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [society, community, collectivity, social]
+tags: [community, network, people, connections, group, society, social]
 version: "1.7"
 unicode: "ebec"
 -->

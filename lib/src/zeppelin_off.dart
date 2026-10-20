@@ -26,7 +26,7 @@ class ZeppelinOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [airship, transport, ballon, flying, travel, zeppelin, off, disabled, inactive, vehicle]
+tags: [zeppelin, airship, blimp, dirigible, disabled, inactive, aviation, airship-off, off]
 category: Vehicles
 version: "1.94"
 unicode: "f43f"

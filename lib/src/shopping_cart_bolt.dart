@@ -27,7 +27,7 @@ class ShoppingCartBolt extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [power, electric, shock, energy, charge, lightning, spark, voltage, current, thunder]
+tags: [shopping-cart, cart, basket, lightning, flash, power, energy, fast, trolley, shop, store, checkout, ecommerce, buy]
 version: "2.28"
 unicode: "fb57"
 -->

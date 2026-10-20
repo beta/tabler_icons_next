@@ -26,7 +26,7 @@ class ArrowRotaryFirstRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, south, arrow, rotary, first, right, pointer, navigation, flow, navigate]
+tags: [roundabout, traffic-circle, road, directions, navigation, gps, first-exit, pointer, arrow, rotary, first, right]
 category: Arrows
 version: "1.57"
 unicode: "f054"

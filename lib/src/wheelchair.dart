@@ -26,7 +26,7 @@ class Wheelchair extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [disabled, disability, patient, medical, handicapped, wheelchair, transport, travel, accessibility, a11y, inclusive, mobility, barrier-free]
+tags: [wheelchair, accessibility, accessible, disabled, handicap, a11y, wheels, mobility]
 category: Vehicles
 version: "1.68"
 unicode: "f1db"

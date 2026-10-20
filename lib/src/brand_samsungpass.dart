@@ -26,7 +26,7 @@ class BrandSamsungpass extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [management, storage, personal, information, id, password, brand, samsungpass, logo, company]
+tags: [samsung-pass, samsung, password-manager, passwords, authentication, biometric, logo, brand, samsungpass]
 category: Brand
 version: "1.99"
 unicode: "f4db"

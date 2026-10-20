@@ -27,7 +27,7 @@ class LanguageHiragana extends Icon {
 
   static const String _svg = '''<!--
 category: Text
-tags: [tongue, country, speech, speak, translate, communication, communicate, english, dialect, dictionary, word]
+tags: [language, hiragana, japanese, translate, translation, localization, i18n, kana]
 version: "1.45"
 unicode: "ef77"
 -->

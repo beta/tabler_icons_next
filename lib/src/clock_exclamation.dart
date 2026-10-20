@@ -27,7 +27,7 @@ class ClockExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [alert, warning, caution, notice, attention, important, urgent, announce, inform, notify]
+tags: [exclamation, warning, alert, overdue, deadline, urgent, clock, time]
 version: "2.10"
 unicode: "f847"
 -->

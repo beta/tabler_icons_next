@@ -26,7 +26,7 @@ class Torii extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [japan, gate, asia, building, monument, torii, sign, mark, emblem, representation]
+tags: [torii, gate, japan, japanese, shinto, shrine, temple, landmark]
 category: Symbols
 version: "1.109"
 unicode: "f59b"

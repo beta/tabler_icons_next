@@ -26,7 +26,7 @@ class BrandChrome extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [browser, internet, web, logo, brand, chrome, company, trademark, identity, corporate]
+tags: [chrome, google-chrome, browser, google, web, internet, logo, brand]
 category: Brand
 version: "1.9"
 unicode: "ec18"

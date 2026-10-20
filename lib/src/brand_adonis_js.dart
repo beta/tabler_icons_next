@@ -26,7 +26,7 @@ class BrandAdonisJs extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [framework, web, app, typescript, brand, adonis, logo, company, trademark, identity]
+tags: [adonisjs, nodejs, node, framework, typescript, backend, javascript, logo, brand, adonis]
 category: Brand
 version: "1.96"
 unicode: "f496"

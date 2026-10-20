@@ -26,7 +26,7 @@ class BrandPlanetscale extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mysql, database, developers, brand, planetscale, logo, company, trademark, identity, corporate]
+tags: [planetscale, mysql, database, serverless, vitess, developer, logo, brand]
 category: Brand
 version: "2.5"
 unicode: "f78f"

@@ -26,7 +26,7 @@ class BodyScan extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [medical, health, biometric, wellness, check-up, diagnostic, physical, anatomy, examination, body-health]
+tags: [biometric, health, medical, diagnostic, full-body, scanner, x-ray, checkup, examination]
 category: System
 version: "2.36"
 unicode: "fca3"

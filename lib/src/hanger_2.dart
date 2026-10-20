@@ -27,7 +27,7 @@ class Hanger2 extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [clothes, wardrobe, hook, hang, wooden, plastic, wire, shop, store, clothing, fashion]
+tags: [hanger, coat-hanger, clothes, clothing, wardrobe, closet, fashion, apparel, cloakroom]
 version: "1.61"
 unicode: "f09c"
 -->

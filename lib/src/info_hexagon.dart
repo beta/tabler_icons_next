@@ -26,7 +26,7 @@ class InfoHexagon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [help, support, shape, information, question, info, hexagon, control, operation, function]
+tags: [info, information, about, details, help, tip, i, hexagon, notice]
 category: System
 version: "2.6"
 unicode: "f7aa"

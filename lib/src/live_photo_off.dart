@@ -26,7 +26,7 @@ class LivePhotoOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [capture, photo, movement, sound, memory, camera, live, off, disabled, picture]
+tags: [live-photo, photo, camera, motion, disabled, off-state, unavailable, live, off]
 category: Photography
 version: "1.94"
 unicode: "f403"

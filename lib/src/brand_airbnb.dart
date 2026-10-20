@@ -26,7 +26,7 @@ class BrandAirbnb extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [flat, apartment, holiday, vacation, city, break, book, brand, airbnb, logo]
+tags: [airbnb, rental, vacation, travel, accommodation, booking, holiday, apartment, hotel, logo, brand]
 category: Brand
 version: "1.32"
 unicode: "ed68"

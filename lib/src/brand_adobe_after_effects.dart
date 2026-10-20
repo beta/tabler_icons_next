@@ -26,7 +26,7 @@ class BrandAdobeAfterEffects extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [animation, motion, video, design, graphics, editing, post-production, visuals, media, effect]
+tags: [creative-cloud, after-effects, ae, motion-graphics, animation, vfx, video, compositing, logo]
 category: Brand
 unicode: "ff2a"
 version: "3.8"

@@ -26,7 +26,7 @@ class FileFunction extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, document, extension, paper, file, function, content, record, text, information]
+tags: [function, formula, math, fx, document, file, calculation, code, script]
 category: Document
 version: "1.104"
 unicode: "f53e"

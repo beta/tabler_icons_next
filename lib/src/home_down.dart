@@ -26,7 +26,7 @@ class HomeDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [property, estate, bottom, south, house, home, down, main, decrease, architecture]
+tags: [home, house, homepage, building, residence, real-estate, arrow-down, download, decrease, lower, down]
 category: Buildings
 version: "1.87"
 unicode: "f33b"

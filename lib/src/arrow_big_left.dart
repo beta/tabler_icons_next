@@ -26,7 +26,7 @@ class ArrowBigLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, west, arrow, big, left, pointer, navigation, flow, navigate, move]
+tags: [large, bold, thick, direction, west, previous, back, pointer, arrow, big, left]
 category: Arrows
 version: "1.37"
 unicode: "eddb"

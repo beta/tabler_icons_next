@@ -26,7 +26,7 @@ class ItalicOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [typography, off, font, typeface, emphasise, italic, writing, character, word]
+tags: [italic, text-editor, typography, font, text-format, remove-italic, disabled, off-state, off]
 category: Text
 unicode: "10271"
 version: "3.45"

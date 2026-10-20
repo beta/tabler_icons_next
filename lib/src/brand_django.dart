@@ -26,7 +26,7 @@ class BrandDjango extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [creation, web, application, framework, brand, django, logo, company, trademark, identity]
+tags: [django, python, framework, web, backend, logo, brand, django-rest, orm]
 category: Brand
 version: "1.88"
 unicode: "f349"

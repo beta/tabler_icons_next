@@ -26,7 +26,7 @@ class BrandBeats extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, audio, headphones, audio equipment, brand, beats, logo, company, trademark, identity]
+tags: [beats, beats-by-dre, headphones, audio, music, apple, speaker, logo, brand]
 category: Brand
 version: "1.71"
 unicode: "f208"

@@ -27,7 +27,7 @@ class View360Arrow extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [rotate, view, degree, virtual, vr, 360, arrow, direction, pointer, navigate]
+tags: [360, panorama, panoramic, degrees, rotate, view, vr, arrow]
 version: "1.117"
 unicode: "f62f"
 -->

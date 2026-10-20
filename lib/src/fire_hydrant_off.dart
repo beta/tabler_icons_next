@@ -26,7 +26,7 @@ class FireHydrantOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [water, emergency, fireman, safety, urban, fire, hydrant, off, location, navigation]
+tags: [fire-hydrant, hydrant, fire, firefighter, water, emergency, disabled, inactive, unavailable, slash, turn-off, street, safety, off]
 category: Map
 version: "1.94"
 unicode: "f3ec"

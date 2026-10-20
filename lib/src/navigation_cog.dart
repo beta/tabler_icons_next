@@ -27,7 +27,7 @@ class NavigationCog extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [settings, gear, mechanism, adjustment, options, preferences, customization, control, wheel, configuration]
+tags: [gps, arrow, direction, location, cursor, compass, settings, gear, config, preferences, options, route, map, pointer]
 version: "2.28"
 unicode: "fbed"
 -->

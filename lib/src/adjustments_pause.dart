@@ -27,7 +27,7 @@ class AdjustmentsPause extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [settings, break, halt, stop, temporary, wait, intermission, hold, suspend, interruption]
+tags: [settings, sliders, controls, filter, options, preferences, tune, paused, hold, suspend, wait]
 version: "2.10"
 unicode: "f805"
 -->

@@ -26,7 +26,7 @@ class TransitionTop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, north, up, moving, transition, top, navigation, flow, movement, route]
+tags: [transition, animation, slide, move, up, top, effect, slide-up]
 category: Arrows
 version: "1.80"
 unicode: "f2b5"

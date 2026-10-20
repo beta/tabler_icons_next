@@ -26,7 +26,7 @@ class Headset extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, headphones, audio, sound, customer, headset, content, entertainment, multimedia, broadcast]
+tags: [headset, headphones, microphone, support, customer-service, call-center, help-desk, audio, gaming]
 category: Media
 version: "1.3"
 unicode: "eb90"

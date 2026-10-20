@@ -27,7 +27,7 @@ class RecordMailOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [voice, voicemail, message, record, mail, off, email, disabled, inactive, letter]
+tags: [voicemail, voice-message, message, voice, recording, phone, answering-machine, disabled, unavailable, inactive, hidden, record, mail, off]
 version: "1.66"
 unicode: "f18b"
 -->

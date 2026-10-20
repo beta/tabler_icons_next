@@ -27,7 +27,7 @@ class Steam extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [app, social, games, platform, software, steam]
+tags: [valve, gaming, games, platform, store, pc-gaming, app, network, nodes, steam]
 version: "1.74"
 unicode: "f24b"
 -->

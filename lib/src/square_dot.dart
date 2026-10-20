@@ -26,7 +26,7 @@ class SquareDot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [corner, shape, point, square, dot, rectangular, geometry, form, figure, pattern]
+tags: [square, dot, box, checkbox, radio, point]
 category: Shapes
 version: "1.30"
 unicode: "ed59"

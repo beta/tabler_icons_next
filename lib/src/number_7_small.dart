@@ -26,7 +26,7 @@ class Number7Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [seven, septet, septuple, heptad, sevenfold, septenary, sept, septuplet, seventh, hepta]
+tags: [seven, number, digit, numeral, count, seventh, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcfc"

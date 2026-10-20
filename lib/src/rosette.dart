@@ -26,7 +26,7 @@ class Rosette extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, badge, star, medal, rosette, geometry, form, figure, pattern, outline]
+tags: [badge, award, seal, medal, certificate, verified, rosette]
 category: Shapes
 version: "1.109"
 unicode: "f599"

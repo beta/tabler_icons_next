@@ -26,7 +26,7 @@ class CurrencyLitecoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [litecoin, crypto, segwit, lightning network, blockchain, p2p, peer, transaction, money, banknote, pay]
+tags: [litecoin, ltc, crypto, cryptocurrency, blockchain, coin, digital-currency, currency, money]
 category: Currencies
 version: "1.39"
 unicode: "ee61"

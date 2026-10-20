@@ -27,7 +27,7 @@ class Exchange extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [cantor, money, product, student, exchange]
+tags: [exchange, swap, currency-exchange, trade, convert, transfer, switch, arrows, money]
 version: "1.7"
 unicode: "ebe7"
 -->

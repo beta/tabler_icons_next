@@ -27,7 +27,7 @@ class LabelOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [mute, inactive, dormant, quiet, deactivate, silent, void, unmarked, disengage, disable]
+tags: [label, tag, badge, untag, sticker, disabled, off-state, unavailable]
 unicode: "ff39"
 version: "3.9"
 -->

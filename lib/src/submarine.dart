@@ -26,7 +26,7 @@ class Submarine extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sea, ocean, underwater, shipwater, war, submarine, transport, travel, vehicle, automobile]
+tags: [sea, ocean, underwater, navy, vessel, boat, ship, transport, submarine]
 category: Vehicles
 version: "1.34"
 unicode: "ed94"

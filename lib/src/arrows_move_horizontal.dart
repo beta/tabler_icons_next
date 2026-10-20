@@ -26,7 +26,7 @@ class ArrowsMoveHorizontal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, west, east, left, right, arrows, move, horizontal, navigation, flow]
+tags: [drag, pan, left-right, resize-horizontal, width, pointer, navigation, direction, arrows, move, horizontal]
 category: Arrows
 version: "1.73"
 unicode: "f22d"

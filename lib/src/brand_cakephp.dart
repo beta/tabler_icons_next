@@ -26,7 +26,7 @@ class BrandCakephp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [framework, make, app, web, php, brand, cakephp, logo, company, trademark]
+tags: [cakephp, php, framework, web, backend, mvc, logo, brand]
 category: Brand
 version: "2.7"
 unicode: "f7af"

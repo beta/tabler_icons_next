@@ -26,7 +26,7 @@ class CrossOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [prayer, church, catholic, jezus, religion, cross, off, disabled, inactive, sign]
+tags: [cross, christian, christianity, church, religion, faith, crucifix, off, disabled]
 category: Symbols
 version: "1.65"
 unicode: "f10b"

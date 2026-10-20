@@ -26,7 +26,7 @@ class GlobeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [world, travel, journey, trip, planet, earth, globe, off, location, navigation]
+tags: [globe, world, earth, planet, international, global, disabled, inactive, unavailable, slash, turn-off, language, geography, off]
 category: Map
 version: "1.66"
 unicode: "f139"

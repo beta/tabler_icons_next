@@ -26,7 +26,7 @@ class Sunrise extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [west, horizon, landscape, evening, sunrise, climate, forecast, meteorology, atmospheric, conditions]
+tags: [sun, morning, dawn, day, horizon, weather, sunny, daylight, sunrise]
 category: Weather
 version: "1.10"
 unicode: "ef1c"

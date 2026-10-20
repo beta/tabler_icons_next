@@ -27,7 +27,7 @@ class Lego extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [toy, boy, face, play, lego]
+tags: [lego, toy, brick, block, building-block, play, kids, minifigure]
 version: "1.0"
 unicode: "eadc"
 -->

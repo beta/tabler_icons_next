@@ -27,7 +27,7 @@ class BorderLeftPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [add, left, increase, enlarge, expand, include, adjust, augment, edge, boost]
+tags: [table, cell, spreadsheet, excel, format, edge, add, left]
 unicode: "fdbc"
 version: "3.0"
 -->

@@ -26,7 +26,7 @@ class UserX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cancel, remove, person, account, unsubscribe, user, control, operation, profile, member]
+tags: [person, account, profile, avatar, member, remove, delete, cancel, close, block, unfollow, user]
 category: System
 version: "1.0"
 unicode: "eb4c"

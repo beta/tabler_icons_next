@@ -26,7 +26,7 @@ class SoccerField extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [football, pitch, player, vall, goal, goalkeeper, kick, ball, score, sport, sportsman]
+tags: [football-field, pitch, soccer, football, stadium, sport]
 category: Sport
 version: "1.34"
 unicode: "ed92"

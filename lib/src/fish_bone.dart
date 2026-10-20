@@ -26,7 +26,7 @@ class FishBone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, skeleton, cat, sea, fish, bone, creature, wildlife, nature, living]
+tags: [fish-bone, skeleton, bones, leftovers, cat-food, fish, seafood, dead, ishikawa, bone]
 category: Animals
 version: "1.78"
 unicode: "f287"

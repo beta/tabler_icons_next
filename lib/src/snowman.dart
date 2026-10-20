@@ -27,7 +27,7 @@ class Snowman extends Icon {
 
   static const String _svg = '''<!--
 category: Nature
-tags: [winter, christmas, snow, cold, frosty, snowman]
+tags: [snow, winter, christmas, holiday, cold, snowman]
 version: "1.76"
 unicode: "f26d"
 -->

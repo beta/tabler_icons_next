@@ -26,7 +26,7 @@ class BrandWish extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shopping, online, tools, gadgets, toys, brand, wish, logo, company, trademark]
+tags: [wish, shopping, ecommerce, online-store, marketplace, logo, brand, marketplace-app, deals]
 category: Brand
 version: "1.71"
 unicode: "f212"

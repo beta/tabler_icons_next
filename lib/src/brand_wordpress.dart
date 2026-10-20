@@ -26,7 +26,7 @@ class BrandWordpress extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logotype, web, website, glyph, social, brand, wordpress, logo, company, trademark]
+tags: [wordpress, wp, cms, blog, website, automattic, php, logo, brand]
 category: Brand
 version: "1.82"
 unicode: "f2d3"

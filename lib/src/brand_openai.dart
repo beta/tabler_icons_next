@@ -26,7 +26,7 @@ class BrandOpenai extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [nonprofit, artificial, intelligence, website, brand, openai, logo, company, trademark, identity]
+tags: [openai, chatgpt, gpt, ai, artificial-intelligence, llm, logo, brand]
 category: Brand
 version: "2.5"
 unicode: "f78e"

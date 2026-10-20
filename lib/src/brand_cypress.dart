@@ -26,7 +26,7 @@ class BrandCypress extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [test, automation, user, interface, javascript, brand, cypress, logo, company, trademark]
+tags: [cypress, testing, e2e, test-automation, javascript, qa, logo, brand]
 category: Brand
 version: "1.86"
 unicode: "f333"

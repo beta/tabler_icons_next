@@ -26,7 +26,7 @@ class ShieldX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [unprotected, protection, cancel, "no", shield, control, operation, function, interface, management]
+tags: [security, protection, protect, unprotected, insecure, unsafe, error, not-secure, guard, safety, secure, shield]
 category: System
 version: "1.0"
 unicode: "eb23"

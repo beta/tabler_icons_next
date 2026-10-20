@@ -27,7 +27,7 @@ class MapPinStar extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [highlight, favorite, feature, emphasize, spotlight, shine, premium, top, elite, noteworthy]
+tags: [pin, marker, location, place, gps, map, point, poi, star, starred, favorite, rating, bookmark]
 version: "2.10"
 unicode: "f959"
 -->

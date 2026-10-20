@@ -26,7 +26,7 @@ class Backslash extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [character, typography, escape, code, text, programming, syntax, keyboard, punctuation, backslash]
+tags: [slash, symbol, character, escape, path, punctuation, reverse-slash, divider, backslash]
 category: Math
 version: "2.21"
 unicode: "fab9"

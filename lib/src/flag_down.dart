@@ -27,7 +27,7 @@ class FlagDown extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [decrease, lower, reduce, drop, fall, decline, dim, subside, descend, minimize]
+tags: [report, banner, milestone, download, arrow-down, decrease, lower, mark, country, goal, receive]
 version: "2.28"
 unicode: "fb91"
 -->

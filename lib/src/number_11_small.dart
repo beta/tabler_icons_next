@@ -26,7 +26,7 @@ class Number11Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [eleven, undecade, eleventh, undecuple, undecad, elevenfold, undecenary, undec, undecuplet, 11th]
+tags: [eleven, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fce4"

@@ -26,7 +26,7 @@ class Fish extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, sea, animal, fishing, ocean, sushi, fish, creature, wildlife, nature]
+tags: [fish, seafood, sea, ocean, aquarium, fishing, food, animal, marine]
 category: Animals
 version: "1.41"
 unicode: "ef2b"

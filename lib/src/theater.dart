@@ -26,7 +26,7 @@ class Theater extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [movie, film, show, mask, entertainment, theater, location, navigation, geography, place]
+tags: [theatre, drama, masks, comedy, tragedy, performance, stage, show, acting, theater]
 category: Map
 version: "2.5"
 unicode: "f79b"

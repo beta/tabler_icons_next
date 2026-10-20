@@ -27,7 +27,7 @@ class CameraPin extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [attach, connect, fix, secure, fasten, affix, anchor, hold, link, stick]
+tags: [camera, photo, photography, picture, video, lens, image, pin, pinned, location, map-pin, geotag]
 version: "2.10"
 unicode: "f83d"
 -->

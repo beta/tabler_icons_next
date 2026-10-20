@@ -27,7 +27,7 @@ class ClockStar extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [favorite, highlight, top, best, fame, acclaim, praise, recognition, stellar, noteworthy]
+tags: [star, favorite, bookmark, featured, important, priority, clock, time, schedule]
 version: "2.8"
 unicode: "f7c9"
 -->

@@ -26,7 +26,7 @@ class DevicesPcOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [computer, monitor, keyboard, devices, off, hardware, technology, disabled, inactive, pc]
+tags: [pc, desktop, computer, tower, monitor, keyboard, disabled, inactive, unavailable, slash, turn-off, workstation, devices, off]
 category: Devices
 version: "1.65"
 unicode: "f113"

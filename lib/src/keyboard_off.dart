@@ -26,7 +26,7 @@ class KeyboardOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [computer, laptop, device, type, keyboard, off, hardware, technology, disabled, inactive]
+tags: [keyboard, typing, input, computer, disabled, off-state, unavailable, off]
 category: Devices
 version: "1.39"
 unicode: "eea0"

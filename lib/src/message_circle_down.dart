@@ -27,7 +27,7 @@ class MessageCircleDown extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [download, decrease, lower, drop, reduce, descend, bottom, circular, subsided, below]
+tags: [chat, comment, speech-bubble, round, conversation, sms, download, arrow-down, decrease, reply, communication, dm]
 version: "2.10"
 unicode: "f976"
 -->

@@ -27,7 +27,7 @@ class OctagonPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [add, increase, boost, enhance, amplify, enlarge, gain, expand, supplement, magnify]
+tags: [add, plus, shape, polygon, octagon, new, create]
 version: "2.35"
 unicode: "fc94"
 -->

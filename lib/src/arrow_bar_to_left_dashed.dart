@@ -26,7 +26,7 @@ class ArrowBarToLeftDashed extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, bar, left, dashed, direction, pointer, navigation, flow, navigate, move]
+tags: [direction, west, previous, back, to-edge, dotted, pointer, navigation, arrow, bar, left, dashed]
 category: Arrows
 version: "3.32"
 unicode: "10163"

@@ -26,7 +26,7 @@ class ColorFilter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hue, brightness, effects, sotring, tools, color, filter, creative, artistic, sort]
+tags: [color-filter, colour, filter, rgb, blend, channels, hue, overlay, effects, palette, color]
 category: Design
 version: "1.110"
 unicode: "f5a8"

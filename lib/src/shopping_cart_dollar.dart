@@ -27,7 +27,7 @@ class ShoppingCartDollar extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [money, currency, cash, finance, fund, price, value, cost, economy, wealth]
+tags: [shopping-cart, cart, basket, money, price, payment, cost, usd, currency, trolley, shop, store, checkout, ecommerce, buy]
 version: "2.28"
 unicode: "fb5e"
 -->

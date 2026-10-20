@@ -26,7 +26,7 @@ class Filter2Code extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, code, sort, organize, arrange, select, refine, sieve, screen, programming]
+tags: [filter, filtering, sort, code, programming, developer, coding, refine, list, options, html, embed]
 category: System
 version: "3.32"
 unicode: "1015c"

@@ -26,7 +26,7 @@ class BoxModel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [css, cascading, style, section, square, website, container, box, model, creative]
+tags: [css, layout, margin, padding, border, box-sizing, spacing, whitespace, box, model]
 category: Design
 version: "1.39"
 unicode: "ee0c"

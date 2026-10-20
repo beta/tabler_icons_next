@@ -27,7 +27,7 @@ class Tilde extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [key, sign, about, rounding, math, tilde]
+tags: [tilde, approximately, approx, wave, symbol, keyboard, math, swung-dash]
 version: "1.96"
 unicode: "f4a5"
 -->

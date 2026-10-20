@@ -26,7 +26,7 @@ class HelicopterLanding extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pad, helipad, land, takeoff, navy, travel, aircraft, platform, fly, helicopter]
+tags: [helipad, helicopter, landing, heliport, h, aviation, aircraft, chopper, pad]
 category: Vehicles
 version: "1.34"
 unicode: "ed8d"

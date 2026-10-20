@@ -27,7 +27,7 @@ class BellCancel extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [stop, end, terminate, close, reject, eliminate, annul, void, abolish, halt]
+tags: [notification, alert, reminder, notify, alarm, cancelled, abort, stop, blocked, forbidden]
 version: "2.10"
 unicode: "f813"
 -->

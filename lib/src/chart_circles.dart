@@ -26,7 +26,7 @@ class ChartCircles extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, analysis, analyse, graph, chart, circles, visualization, round, circular, analytics]
+tags: [chart, graph, statistics, analytics, data, report, diagram, circles, venn, overlap, visualization]
 category: Charts
 version: "1.39"
 unicode: "ee2b"

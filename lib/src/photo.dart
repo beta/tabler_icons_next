@@ -26,7 +26,7 @@ class Photo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [picture, landscape, camera, photo, content, entertainment, multimedia, broadcast, audio]
+tags: [image, picture, gallery, img, photography, media, thumbnail, landscape, jpg, png, wallpaper, photo]
 category: Media
 version: "1.0"
 unicode: "eb0a"

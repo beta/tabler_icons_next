@@ -26,7 +26,7 @@ class LayersUnion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [stack, join, layers, union, creative, artistic, visual, aesthetic, style]
+tags: [layers, union, merge, combine, unite, boolean, pathfinder, shape, vector, design]
 category: Design
 version: "1.0"
 unicode: "eacb"

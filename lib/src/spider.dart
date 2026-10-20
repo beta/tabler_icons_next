@@ -26,7 +26,7 @@ class Spider extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [halloween, animal, scary, horror, cobweb, insect, spider, creature, wildlife, nature]
+tags: [halloween, insect, bug, cobweb, arachnid, spider]
 category: Animals
 version: "1.78"
 unicode: "f293"

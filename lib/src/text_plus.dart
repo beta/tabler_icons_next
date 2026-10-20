@@ -26,7 +26,7 @@ class TextPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, new, document, file, edit, text, plus, more, increase, positive]
+tags: [add-text, insert, text, new, paragraph, editor, formula, typography, add, plus]
 category: Text
 version: "1.79"
 unicode: "f2a5"

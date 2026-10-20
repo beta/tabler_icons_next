@@ -26,7 +26,7 @@ class HourglassEmpty extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [material, measure, time, timer, clock, sand, hourglass, empty, control, operation]
+tags: [hourglass, sand-timer, timer, time, empty, expired, timeout, ended]
 category: System
 version: "1.66"
 unicode: "f146"

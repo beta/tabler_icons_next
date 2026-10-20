@@ -26,7 +26,7 @@ class FileShredder extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shred, destroy, cut, file, shredder, document, data, content, record, paper]
+tags: [shredder, shred, destroy, delete, permanently-delete, confidential, document, file, security]
 category: Document
 version: "1.0"
 unicode: "eaa1"

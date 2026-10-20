@@ -27,7 +27,7 @@ class Language extends Icon {
 
   static const String _svg = '''<!--
 category: Text
-tags: [tongue, country, speech, speak, translate, communication, communicate, english, dialect, dictionary, word]
+tags: [language, translate, translation, localization, i18n, multilingual, locale, internationalization, dictionary]
 version: "1.5"
 unicode: "ebbe"
 -->

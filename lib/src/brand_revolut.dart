@@ -26,7 +26,7 @@ class BrandRevolut extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bank, money, finance, change, currency, brand, revolut, logo, company, trademark]
+tags: [revolut, bank, banking, fintech, money, card, finance, logo, brand]
 category: Brand
 version: "1.99"
 unicode: "f4da"

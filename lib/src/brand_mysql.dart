@@ -26,7 +26,7 @@ class BrandMysql extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [opensource, database, system, web, app, brand, mysql, logo, company, trademark]
+tags: [mysql, database, sql, oracle, relational, dolphin, open-source, logo, brand]
 category: Brand
 version: "1.115"
 unicode: "f614"

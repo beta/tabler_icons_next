@@ -27,7 +27,7 @@ class FilterStar extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [highlight, favorite, rank, rate, prefer, best, fame, spotlight, premium, emphasize]
+tags: [funnel, filtering, sort, favorite, favourite, bookmark, rating, refine, narrow, featured, starred]
 version: "2.12"
 unicode: "fa03"
 -->

@@ -26,7 +26,7 @@ class Speedboat extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [motorboat, holiday, sea, ocean, engine, travel, lake, summer, speedboat, transport]
+tags: [motorboat, boat, speed, water, ship, speedboat]
 category: Vehicles
 version: "1.34"
 unicode: "ed93"

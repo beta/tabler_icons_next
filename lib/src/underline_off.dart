@@ -26,7 +26,7 @@ class UnderlineOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [underscore, off, emphasis, horizontal, typography, underline, writing, font, character, word]
+tags: [underline, text, formatting, editor, typography, disabled, remove, underscore, off]
 category: Text
 unicode: "10269"
 version: "3.45"

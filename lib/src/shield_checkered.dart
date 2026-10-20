@@ -26,7 +26,7 @@ class ShieldCheckered extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [knight, guard, defence, protect, shield, checkered, control, operation, confirm, approve]
+tags: [security, protection, shield, coat-of-arms, crest, knight, heraldry, guard, checkered]
 category: System
 version: "1.47"
 unicode: "ef9a"

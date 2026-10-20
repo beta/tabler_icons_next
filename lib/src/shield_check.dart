@@ -26,7 +26,7 @@ class ShieldCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [safety, protect, protection, "yes", add, shield, check, control, operation, confirm]
+tags: [security, protection, protect, verified, secured, safe, approved, check, tick, guard, safety, secure, shield]
 category: System
 version: "1.0"
 unicode: "eb22"

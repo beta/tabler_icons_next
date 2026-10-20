@@ -27,7 +27,7 @@ class ShieldHeart extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [protection, love, care, affection, security, guard, compassion, protect, defense, preserve]
+tags: [security, protection, protect, favorite, love, like, wishlist, guard, safety, secure]
 version: "2.10"
 unicode: "f9c7"
 -->

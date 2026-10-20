@@ -26,7 +26,7 @@ class BrandCashapp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [payment, finance, mobile, app, money, transfer, brand, cashapp, logo, company]
+tags: [cash-app, cashapp, payment, money, transfer, finance, mobile, square, block, logo, brand]
 category: Brand
 version: "1.92"
 unicode: "f391"

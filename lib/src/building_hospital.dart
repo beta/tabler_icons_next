@@ -26,7 +26,7 @@ class BuildingHospital extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [doctor, sickness, illness, nurse, medication, emergency, treat, surgery, building, hospital]
+tags: [hospital, clinic, medical, health, healthcare, emergency, doctor, building]
 category: Buildings
 version: "1.1"
 unicode: "ea4d"

@@ -26,7 +26,7 @@ class BrandHbo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tv, channels, film, movie, serials, brand, hbo, logo, company, trademark]
+tags: [hbo, hbo-max, tv, streaming, movies, series, television, logo, brand]
 category: Brand
 version: "1.119"
 unicode: "f657"

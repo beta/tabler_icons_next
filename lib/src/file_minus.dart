@@ -26,7 +26,7 @@ class FileMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [remove, delete, file, minus, document, data, content, record, subtract, less]
+tags: [remove, delete, subtract, minus, document, file, less, reduce]
 category: Document
 version: "1.0"
 unicode: "ea9e"

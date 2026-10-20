@@ -26,7 +26,7 @@ class DeviceNintendo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gamepad, technology, game, console, controller, device, nintendo, hardware, electronic, gadget]
+tags: [nintendo-switch, switch, console, game-console, gaming, handheld, controller, gamepad, video-game, device, nintendo]
 category: Devices
 version: "1.55"
 unicode: "f026"

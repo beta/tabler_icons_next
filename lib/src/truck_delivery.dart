@@ -26,7 +26,7 @@ class TruckDelivery extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [order, purchase, online, shop, store, e-commerce, lorry, truck, delivery, shopping]
+tags: [delivery, shipping, truck, lorry, shipment, order, courier, dispatch]
 category: E-commerce
 version: "1.11"
 unicode: "ec4b"

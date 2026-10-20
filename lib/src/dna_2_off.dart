@@ -26,7 +26,7 @@ class Dna2Off extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [genetics, biology, chain, genetic, code, virus, organism, dna, off, medical]
+tags: [dna, genetics, gene, genome, biology, helix, disabled, inactive, unavailable, slash, turn-off, double-helix, science, off]
 category: Health
 version: "1.65"
 unicode: "f119"

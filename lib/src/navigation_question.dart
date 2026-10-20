@@ -27,7 +27,7 @@ class NavigationQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [ask, inquire, query, doubt, enquiry, uncertain, confusion, probe, puzzle, interrogate]
+tags: [gps, arrow, direction, location, cursor, compass, help, faq, support, unknown, ask, route, map, pointer]
 version: "2.28"
 unicode: "fbf7"
 -->

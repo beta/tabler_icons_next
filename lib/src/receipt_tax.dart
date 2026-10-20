@@ -26,7 +26,7 @@ class ReceiptTax extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [income, percentage, money, finance, charge, obligation, taxpayer, vat, receipt, tax]
+tags: [tax, vat, percentage, receipt, bill, invoice, payment, finance]
 category: Document
 version: "1.5"
 unicode: "edbd"

@@ -26,7 +26,7 @@ class Brightness extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [light, dark, screen, brightness, camera, picture, capture, lens, image]
+tags: [brightness, light, display, screen, sun, luminosity, contrast, theme, dark-mode, light-mode, half]
 category: Photography
 version: "1.3"
 unicode: "eb7f"

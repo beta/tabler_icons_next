@@ -26,7 +26,7 @@ class BrandGoogleAnalytics extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [advertising, track, website, traffic, e-commerce, online, technology, brand, google, analytics]
+tags: [google-analytics, analytics, google, stats, traffic, tracking, web, metrics, logo, brand]
 category: Brand
 version: "1.36"
 unicode: "edcb"

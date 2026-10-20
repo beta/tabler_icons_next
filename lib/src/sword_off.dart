@@ -26,7 +26,7 @@ class SwordOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weapon, knight, blade, war, minecraft, warrior, sword, off, disabled, inactive]
+tags: [weapon, blade, knight, fight, disabled, inactive, peace, no-weapons, sword, off]
 category: Games
 version: "1.94"
 unicode: "f434"

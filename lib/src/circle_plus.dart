@@ -26,7 +26,7 @@ class CirclePlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, create, new, circle, plus, round, circular, more, increase, positive]
+tags: [plus, add, new, create, more, expand, insert, circle, round, button]
 category: Shapes
 version: "1.0"
 unicode: "ea69"

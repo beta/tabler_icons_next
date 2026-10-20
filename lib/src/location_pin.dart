@@ -27,7 +27,7 @@ class LocationPin extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [marker, point, drop, pointer, site, place, spot, map, indicator, location]
+tags: [location-pin, pin, marker, place, gps, map, navigation, location]
 version: "2.28"
 unicode: "fbbb"
 -->

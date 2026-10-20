@@ -26,7 +26,7 @@ class SquareMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [remove, delete, indeterminate, square, minus, rectangular, subtract, less, decrease, negative, geometry]
+tags: [minus, indeterminate, checkbox, collapse, remove, subtract, square]
 category: Shapes
 version: "1.0"
 unicode: "1019e"

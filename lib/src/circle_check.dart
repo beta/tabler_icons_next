@@ -26,7 +26,7 @@ class CircleCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [accept, yes, tick, done, circle, check, round, circular, confirm, approve]
+tags: [check, done, success, confirmed, approved, tick, ok, verified, complete, correct, checkmark, circle]
 category: Shapes
 version: "1.0"
 unicode: "ea67"

@@ -26,7 +26,7 @@ class Number22Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [twenty-two, 22nd, twenty-second, viginti-duo, viginti-second, twenty, and, two, plus, 2th2]
+tags: [twenty-two, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcf0"

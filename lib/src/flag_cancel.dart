@@ -27,7 +27,7 @@ class FlagCancel extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [abort, terminate, stop, void, nullify, cease, discontinue, break, quash, revoke]
+tags: [report, banner, milestone, cancel, stop, abort, block, mark, country, goal, denied, forbidden]
 version: "2.28"
 unicode: "fb8b"
 -->

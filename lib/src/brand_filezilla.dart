@@ -26,7 +26,7 @@ class BrandFilezilla extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ftp, transfer, file, upload, download, protocol, client, server, network, connect]
+tags: [filezilla, ftp, sftp, file-transfer, client, upload, server, logo, brand]
 category: Brand
 version: "2.18"
 unicode: "fa76"

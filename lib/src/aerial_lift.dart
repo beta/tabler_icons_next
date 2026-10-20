@@ -26,7 +26,7 @@ class AerialLift extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cable, car, gondola, mountains, ski, tramway, aerial, lift, transport, travel]
+tags: [cable-car, gondola, ski-lift, chairlift, cableway, tramway, mountain, ski, transport, aerial, lift]
 category: Vehicles
 version: "1.39"
 unicode: "edfe"

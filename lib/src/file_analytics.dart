@@ -26,7 +26,7 @@ class FileAnalytics extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, statistics, report, chart, document, paper, file, analytics, content, record]
+tags: [analytics, report, chart, statistics, stats, data, document, dashboard, metrics, graph, file]
 category: Document
 version: "1.37"
 unicode: "ede7"

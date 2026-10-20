@@ -26,7 +26,7 @@ class BrandTether extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coin, crypto, cryptocurrency, digital, brand, tether, logo, company, trademark, identity]
+tags: [tether, usdt, stablecoin, crypto, cryptocurrency, coin, logo, brand]
 category: Brand
 version: "1.110"
 unicode: "f5a3"

@@ -26,7 +26,7 @@ class ChartHistogram extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [graph, diagram, curves, analytics, chart, histogram, statistics, visualization, metrics, report]
+tags: [chart, graph, statistics, analytics, data, report, diagram, histogram, distribution, bell-curve, visualization]
 category: Charts
 version: "1.119"
 unicode: "f65c"

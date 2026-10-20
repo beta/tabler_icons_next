@@ -26,7 +26,7 @@ class DotsDiagonal2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hellip, more, ellipsis, dots, diagonal, control, operation, function, interface, management]
+tags: [dots, more, ellipsis, diagonal, menu, options, overflow, three-dots]
 category: System
 version: "1.0"
 unicode: "ea92"

@@ -26,7 +26,7 @@ class BrandAlipay extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pay, china, electronically, alibaba, brand, alipay, logo, company, trademark, identity]
+tags: [alipay, payment, wallet, mobile-payment, alibaba, china, money, fintech, logo, brand]
 category: Brand
 version: "2.6"
 unicode: "f7a2"

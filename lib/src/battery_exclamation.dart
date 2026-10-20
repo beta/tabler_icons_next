@@ -26,7 +26,7 @@ class BatteryExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [energy, power, electricity, battery, exclamation, charge, hardware, technology, electric, alert]
+tags: [power, energy, charge, level, phone, mobile, low-battery, warning, alert, error, battery, exclamation]
 category: Devices
 version: "3.7"
 unicode: "ff1d"

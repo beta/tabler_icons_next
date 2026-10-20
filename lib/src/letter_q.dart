@@ -26,7 +26,7 @@ class LetterQ extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alphabet, text, code, letter, character, typography, writing, q, glyph]
+tags: [letter, character, alphabet, uppercase, capital, initial, text, typography, font, glyph, q]
 category: Letters
 version: "1.12"
 unicode: "ec60"

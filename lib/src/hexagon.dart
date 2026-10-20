@@ -26,7 +26,7 @@ class Hexagon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, geometric, math, 2d, hexagon, geometry, form, figure, pattern, outline]
+tags: [hexagon, shape, polygon, six-sided, geometry, honeycomb, figure]
 category: Shapes
 version: "1.8"
 unicode: "ec02"

@@ -26,7 +26,7 @@ class BadgeAdOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, marketing, media, promotion, advertising, advertisement, badge, off, disabled, inactive]
+tags: [advertisement, ad-block, no-ads, sponsored, disabled, adblock, ads, label, badge, off]
 category: Badges
 version: "2.46"
 unicode: "fd8f"

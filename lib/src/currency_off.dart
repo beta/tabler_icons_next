@@ -26,7 +26,7 @@ class CurrencyOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [target, goal, focus, marketing, currency, off, finance, payment, disabled, inactive]
+tags: [currency, money, symbol, free, no-money, finance, off, disabled]
 category: Currencies
 version: "1.94"
 unicode: "f3de"

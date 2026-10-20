@@ -27,7 +27,7 @@ class SpiralOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [hypnosis, rotation, growth, spiral, off, disabled, inactive]
+tags: [swirl, hypnosis, spin, rotate, vortex, twirl, loop, disabled, unavailable, inactive, hidden, spiral, off]
 version: "1.94"
 unicode: "f42e"
 -->

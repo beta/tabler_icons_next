@@ -26,7 +26,7 @@ class BrandGrindr extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, communication, dating, gay, lgbt, brand, grindr, logo, company, trademark]
+tags: [grindr, dating, gay, lgbt, app, social, logo, brand]
 category: Brand
 version: "1.71"
 unicode: "f20d"

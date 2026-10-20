@@ -26,7 +26,7 @@ class DotsCircleHorizontal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [more, options, dots, circle, horizontal, control, operation, round, circular, function]
+tags: [more, options, ellipsis, meatballs, menu, dots, overflow, three-dots, actions, circle, horizontal]
 category: System
 version: "1.0"
 unicode: "ea91"

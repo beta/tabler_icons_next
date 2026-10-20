@@ -26,7 +26,7 @@ class Webhook extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [communication, interaction, comunity, browser, webhook, programming, software, coding, technical, developer]
+tags: [webhook, api, integration, callback, http, event, trigger, automation]
 category: Development
 version: "1.54"
 unicode: "f01e"

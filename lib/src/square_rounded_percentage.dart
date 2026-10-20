@@ -27,7 +27,7 @@ class SquareRoundedPercentage extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [geometry, fraction, ratio, calculate, evaluate, determine, proportion, percentage, statistic, square]
+tags: [percent, percentage, discount, sale, ratio, proportion, statistic, squircle, rounded, square, badge]
 version: "2.45"
 unicode: "fd84"
 -->

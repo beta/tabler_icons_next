@@ -26,7 +26,7 @@ class PlaneTilt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [up, higher, north, travel, plane, tilt, transport, vehicle, automobile, mobility]
+tags: [airplane, flight, takeoff, aircraft, travel, fly, jet, airport, plane, tilt]
 category: Vehicles
 version: "1.69"
 unicode: "f1ed"

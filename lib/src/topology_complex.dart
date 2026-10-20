@@ -26,7 +26,7 @@ class TopologyComplex extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hierarchy, network, structure, connection, topology, complex, computing, machine, processor, system]
+tags: [topology, network, mesh, complex, nodes, connection, diagram, infrastructure, lan]
 category: Computers
 version: "1.112"
 unicode: "f5da"

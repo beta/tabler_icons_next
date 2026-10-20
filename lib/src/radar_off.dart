@@ -26,7 +26,7 @@ class RadarOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [location, navigation, gps, find, signal, technology, submarine, radar, off, disabled]
+tags: [scan, sonar, detection, tracking, signal, gps, locate, disabled, unavailable, inactive, hidden, radar, off]
 category: Map
 version: "1.94"
 unicode: "f41f"

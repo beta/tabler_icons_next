@@ -27,7 +27,7 @@ class LocationHeart extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [love, affection, like, passion, emotion, fondness, adoration, desire, appreciation, care]
+tags: [location, navigation, gps, arrow, pointer, direction, map, position, favorite, love, like, favourite]
 version: "2.28"
 unicode: "fbb8"
 -->

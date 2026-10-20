@@ -26,7 +26,7 @@ class ChartCandle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, diagram, graph, rhythm, data, analysis, chart, candle, visualization, analytics]
+tags: [chart, graph, statistics, analytics, data, report, diagram, candlestick, stock, trading, finance, market, visualization, candle]
 category: Charts
 version: "1.0"
 unicode: "ea5a"

@@ -26,7 +26,7 @@ class LetterWSmall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [w, whiskey, twenty-third, letter, alphabet, character, typeface, glyph, script, small]
+tags: [letter, character, alphabet, lowercase, small, minuscule, text, typography, font, glyph, w]
 category: Letters
 version: "2.38"
 unicode: "fcdd"

@@ -26,7 +26,7 @@ class Seo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [www, web, browser, search, result, seo, programming, software, coding, technical]
+tags: [search-engine-optimization, search, ranking, google, web, marketing, seo]
 category: Development
 version: "1.76"
 unicode: "f26b"

@@ -27,7 +27,7 @@ class FolderBolt extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [lightning, fast, electric, swift, speed, vitality, dynamic, powerful, energize, charge]
+tags: [directory, dir, files, lightning, flash, energy, power, archive, project, charge, electric, fast]
 version: "2.10"
 unicode: "f90c"
 -->

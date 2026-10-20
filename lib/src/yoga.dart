@@ -26,7 +26,7 @@ class Yoga extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pose, sport, meditation, fitness, yoga, athletic, exercise, game, physical]
+tags: [yoga, meditation, pose, exercise, fitness, relax, wellness, stretch]
 category: Sport
 version: "1.54"
 unicode: "f01f"

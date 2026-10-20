@@ -27,7 +27,7 @@ class MusicSearch extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [find, lookup, explore, discover, seek, track, locate, detect, hunt, scan]
+tags: [song, audio, sound, note, melody, track, find, magnifier, lookup, zoom, mp3, playlist, player]
 version: "2.28"
 unicode: "fbe4"
 -->

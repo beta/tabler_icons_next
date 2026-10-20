@@ -26,7 +26,7 @@ class HexagonalPyramid extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, hexagonal, pyramid, geometry, form, figure]
+tags: [pyramid, hexagonal, 3d, shape, geometry, solid, polyhedron, math, object]
 category: Shapes
 version: "2.20"
 unicode: "faa8"

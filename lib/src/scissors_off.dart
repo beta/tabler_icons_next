@@ -26,7 +26,7 @@ class ScissorsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cut, paper, file, document, hairdresser, blade, sharp, scissors, off, creative]
+tags: [cut, cutting, clipboard, crop, trim, tool, disabled, unavailable, inactive, hidden, scissors, off]
 category: Design
 version: "1.66"
 unicode: "f19b"

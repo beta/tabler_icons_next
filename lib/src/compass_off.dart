@@ -26,7 +26,7 @@ class CompassOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [navigation, safari, travel, direction, discover, compass, off, location, disabled, inactive]
+tags: [compass, navigation, direction, explore, north, travel, off, disabled]
 category: Map
 version: "1.63"
 unicode: "f0d5"

@@ -26,7 +26,7 @@ class BrandPatreon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [artist, software, creator, patron, art, subscription, income, earn, brand, patreon]
+tags: [patreon, creator, membership, subscription, donations, support, crowdfunding, logo, brand]
 category: Brand
 version: "1.36"
 unicode: "edd2"

@@ -26,7 +26,7 @@ class BrandDatabricks extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [databricks, data, analytics, big, science, machine, learning, platform, engineering, processing, ai]
+tags: [databricks, data, analytics, big-data, spark, machine-learning, ai, lakehouse, logo, brand]
 category: Brand
 version: "2.31"
 unicode: "fc41"

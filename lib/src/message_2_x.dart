@@ -27,7 +27,7 @@ class Message2X extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [close, reject, terminate, dismiss, delete, erase, remove, cancel, end, abort]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, close, delete, remove, cancel, clear, reply, communication, dm]
 version: "2.10"
 unicode: "f96c"
 -->

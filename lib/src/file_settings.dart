@@ -26,7 +26,7 @@ class FileSettings extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [edit, options, configuration, control, file, settings, document, data, preferences, config]
+tags: [settings, config, configuration, preferences, gear, options, document, file, setup]
 category: Document
 version: "1.55"
 unicode: "f029"

@@ -26,7 +26,7 @@ class LiveView extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [camera, preview, photo, live, view, location, navigation, geography, place, position]
+tags: [live-view, live, camera, viewfinder, preview, streaming, focus, view]
 category: Map
 version: "1.12"
 unicode: "ec6b"

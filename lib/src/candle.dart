@@ -27,7 +27,7 @@ class Candle extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [light, birthday, decoration, halloween, fire, christmas, candle]
+tags: [candle, candlelight, flame, light, wax, decoration, birthday, christmas]
 version: "1.50"
 unicode: "efc6"
 -->

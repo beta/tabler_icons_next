@@ -26,7 +26,7 @@ class FileTextAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, pdf, txt, file, text, document, content, record, ai, paper]
+tags: [ai, artificial-intelligence, generated, text, document, summary, llm, chatgpt, smart, file]
 category: Document
 version: "2.14"
 unicode: "fa27"

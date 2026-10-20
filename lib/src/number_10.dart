@@ -27,7 +27,7 @@ class Number10 extends Icon {
 
   static const String _svg = '''<!--
 category: Numbers
-tags: [ten, decimal, base, tenth, numeric, doublefive, dime, score, count, digits]
+tags: [ten, number, digit, numeral, count, tenth, numeric, character]
 unicode: "1005e"
 version: "3.18"
 -->

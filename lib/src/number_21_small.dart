@@ -26,7 +26,7 @@ class Number21Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [twenty-one, 21st, twenty-first, viginti-uno, viginti-first, twenty, and, one, plus, 21th]
+tags: [twenty-one, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcef"

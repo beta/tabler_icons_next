@@ -26,7 +26,7 @@ class Number12Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [twelve, duodecade, twelfth, duodecuple, duodecad, twelvefold, duodenary, duodec, duodecuplet, 12th]
+tags: [twelve, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fce5"

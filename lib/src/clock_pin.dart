@@ -27,7 +27,7 @@ class ClockPin extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [attach, secure, fasten, hold, fix, anchor, stick, keep, lock, steady]
+tags: [pin, location, timezone, local-time, clock, time, place, marker]
 version: "2.10"
 unicode: "f849"
 -->

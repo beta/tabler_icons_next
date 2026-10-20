@@ -26,7 +26,7 @@ class Ruler2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [maths, dimensions, size, width, length, geometry, measure, technical, ruler, creative]
+tags: [measure, measurement, dimensions, size, length, width, scale, ruler]
 category: Design
 version: "1.39"
 unicode: "eed2"

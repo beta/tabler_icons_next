@@ -27,7 +27,7 @@ class FilterQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [query, ask, inquire, interrogate, wonder, probe, doubt, curiosity, uncertain, mystery]
+tags: [funnel, filtering, sort, help, faq, support, unknown, refine, narrow, info, ask]
 version: "2.28"
 unicode: "fb86"
 -->

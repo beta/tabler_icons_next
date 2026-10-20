@@ -27,7 +27,7 @@ class NewSection extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [add, component, layout, page, new, section]
+tags: [add-section, insert, plus, layout, block, page, dashed, placeholder, new, section]
 version: "1.5"
 unicode: "ebc1"
 -->

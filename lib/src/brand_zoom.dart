@@ -26,7 +26,7 @@ class BrandZoom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [program, video, chat, meetings, online, brand, zoom, logo, company, trademark]
+tags: [zoom, video-call, meeting, video-conference, call, chat, logo, brand]
 category: Brand
 version: "1.71"
 unicode: "f215"

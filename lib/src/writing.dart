@@ -27,7 +27,7 @@ class Writing extends Icon {
 
   static const String _svg = '''<!--
 category: Text
-tags: [name, certficate, sign, edit, write, document, pen, drawing, contract, signature]
+tags: [writing, pen, write, note, edit, compose, document, signing]
 version: "1.39"
 unicode: "ef08"
 -->

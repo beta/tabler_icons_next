@@ -27,7 +27,7 @@ class MoneybagMinus extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [moneybag, minus, wealth, rich, money, finance, savings, treasure, subtract, remove]
+tags: [expense, withdraw, spend, money, sack, bag, cash, savings, wealth, remove, delete, subtract, finance, dollar, budget, moneybag, minus]
 version: "3.31"
 unicode: "1013b"
 -->

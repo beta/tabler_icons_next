@@ -26,7 +26,7 @@ class ExternalLinkOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [connection, outbound, redirect, new tab, tab, square, arrow, external, link, off]
+tags: [external-link, link-off, new-tab, no-link, unlink, disabled, outbound, arrow, url, external, link, off]
 category: System
 version: "1.65"
 unicode: "f125"

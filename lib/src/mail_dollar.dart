@@ -27,7 +27,7 @@ class MailDollar extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [currency, economy, finance, money, wealth, message, payment, cost, fund, transaction]
+tags: [mail, email, envelope, message, inbox, letter, e-mail, money, price, payment, cost, finance, usd]
 version: "2.10"
 unicode: "f93c"
 -->

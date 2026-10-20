@@ -26,7 +26,7 @@ class Mountain extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alps, camping, mount everest, trekking, mountain, environment, natural, outdoor, ecosystem, earth]
+tags: [mountains, peak, hill, landscape, hiking, climbing, nature, outdoor, terrain, mountain]
 category: Nature
 version: "1.47"
 unicode: "ef97"

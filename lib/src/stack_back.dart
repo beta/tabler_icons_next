@@ -27,7 +27,7 @@ class StackBack extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [layers, depth, background, arrangement, structure, order, position, sequence, arrange, layout]
+tags: [layers, send-to-back, arrange, order, z-index, depth, background, bottom]
 version: "2.40"
 unicode: "fd26"
 -->

@@ -26,7 +26,7 @@ class ListSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [find, agenda, shopping, list, search, look, seek, query, browse, typography]
+tags: [list, search, filter, find, lookup, query, items]
 category: Text
 version: "1.39"
 unicode: "eea9"

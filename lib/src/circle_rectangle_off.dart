@@ -26,7 +26,7 @@ class CircleRectangleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, geometric, geometry, figure, circle, rectangle, off, disabled, inactive, round]
+tags: [circle, rectangle, shape, geometry, pill, button, off, disabled]
 category: Shapes
 version: "1.63"
 unicode: "f0cd"

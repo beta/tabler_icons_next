@@ -26,7 +26,7 @@ class LayoutBoard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grid, columns, masonry, collage, layout, board, creative, artistic, visual, aesthetic]
+tags: [board, layout, grid, dashboard, tiles, template, ui]
 category: Design
 version: "1.47"
 unicode: "ef95"

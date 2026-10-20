@@ -26,7 +26,7 @@ class Report extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, timesheet, analysis, analyse, results, business, company, report, file, paper]
+tags: [document, analytics, results, business, summary, timesheet, file, paper, report]
 category: Document
 version: "1.39"
 unicode: "eece"

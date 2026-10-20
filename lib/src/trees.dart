@@ -26,7 +26,7 @@ class Trees extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [nature, greenery, park, leaf, trunk, stem, root, forest, garden, trees]
+tags: [trees, forest, woods, nature, park, plants, tree, forestry]
 category: Map
 version: "1.35"
 unicode: "ec10"

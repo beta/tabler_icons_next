@@ -26,7 +26,7 @@ class BrandShopee extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shopping, online, media, shop, ecommerce, brand, shopee, logo, company, trademark]
+tags: [shopee, shopping, ecommerce, marketplace, online-store, asia, logo, brand]
 category: Brand
 version: "1.75"
 unicode: "f252"

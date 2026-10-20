@@ -27,7 +27,7 @@ class DeviceIpadHorizontalShare extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [distribute, exchange, broadcast, post, propagate, spread, forward, communicate, divide, circulate]
+tags: [share, send, export, social, ipad, tablet, apple, ios, landscape]
 version: "2.10"
 unicode: "f89e"
 -->

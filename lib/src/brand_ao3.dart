@@ -26,7 +26,7 @@ class BrandAo3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [open, source, make, webstie, fanfiction, brand, ao3, logo, company, trademark]
+tags: [ao3, archive-of-our-own, fanfiction, fanfic, writing, archive, fandom, logo, brand]
 category: Brand
 version: "1.113"
 unicode: "f5e8"

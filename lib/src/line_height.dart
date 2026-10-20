@@ -26,7 +26,7 @@ class LineHeight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [space, inline, display, line, height, typography, writing, font, character, word]
+tags: [line-height, leading, line-spacing, text, typography, paragraph, spacing, line, height]
 category: Text
 version: "1.3"
 unicode: "eb94"

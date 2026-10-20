@@ -26,7 +26,7 @@ class BinaryTree extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, diversity, it, math, binary, tree, code, digital, computer, programming]
+tags: [hierarchy, structure, algorithm, data-structure, nodes, org-chart, graph, branching, binary, tree]
 category: Computers
 version: "1.112"
 unicode: "f5d4"

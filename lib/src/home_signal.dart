@@ -26,7 +26,7 @@ class HomeSignal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [wi-fi, communication, internet, wireless, home, signal, house, main, architecture, structure]
+tags: [home, house, wifi, signal, wireless, smart-home, network, iot, internet]
 category: Buildings
 version: "1.88"
 unicode: "f356"

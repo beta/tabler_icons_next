@@ -26,7 +26,7 @@ class Filter2Bolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, bolt, sort, organize, arrange, select, refine, sieve, screen, lightning]
+tags: [filter, filtering, sort, lightning, flash, energy, power, refine, list, options, charge, electric, fast, bolt]
 category: System
 version: "3.32"
 unicode: "1015f"

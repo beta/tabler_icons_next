@@ -26,7 +26,7 @@ class Strikethrough extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [typography, horizontal, deleted, removed, unimportant, strikethrough, writing, font, character, word]
+tags: [strike-through, strike, text, formatting, editor, typography, deleted, crossed-out, font, strikethrough]
 category: Text
 version: "1.3"
 unicode: "eb9e"

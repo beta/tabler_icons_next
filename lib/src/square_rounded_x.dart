@@ -26,7 +26,7 @@ class SquareRoundedX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, close, delete, cross, square, rounded, rectangular, geometry, form, figure]
+tags: [close, cancel, delete, remove, dismiss, exit, clear, cross, times, squircle, rounded, square]
 category: Shapes
 version: "1.117"
 unicode: "f640"

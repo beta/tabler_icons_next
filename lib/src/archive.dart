@@ -26,7 +26,7 @@ class Archive extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [box, index, records, old, collect, archive, file, paper, text, record]
+tags: [storage, box, archived, save, backup, files, records, storage-box, archive]
 category: Document
 version: "1.0"
 unicode: "ea0b"

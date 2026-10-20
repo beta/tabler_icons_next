@@ -26,7 +26,7 @@ class Qrcode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [scan, data, qrcode, hardware, technology, electronic, gadget, equipment]
+tags: [qr-code, qr, barcode, scan, scanner, code, link, payment, ticket, qrcode]
 category: Devices
 version: "1.0"
 unicode: "eb11"

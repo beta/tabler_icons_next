@@ -27,7 +27,7 @@ class LanguageOff extends Icon {
 
   static const String _svg = '''<!--
 category: Text
-tags: [tongue, country, speech, speak, translate, communication, communicate, english, dialect, dictionary, word]
+tags: [language, translate, translation, localization, i18n, disabled, off-state, unavailable]
 version: "1.66"
 unicode: "f14e"
 -->

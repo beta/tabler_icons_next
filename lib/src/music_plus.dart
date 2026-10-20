@@ -27,7 +27,7 @@ class MusicPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [increase, add, expand, grow, augment, boost, elevate, extra, enhance, gain]
+tags: [song, audio, sound, note, melody, track, add, new, create, insert, mp3, playlist, player]
 version: "2.28"
 unicode: "fbe2"
 -->

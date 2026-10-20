@@ -26,7 +26,7 @@ class Cloud extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, online, cloud, storage, climate, forecast, server, sync, meteorology, atmospheric]
+tags: [weather, cloudy, cloud-storage, online, server, sync, internet, overcast, forecast, icloud, cloud]
 category: Weather
 version: "1.0"
 unicode: "ea76"

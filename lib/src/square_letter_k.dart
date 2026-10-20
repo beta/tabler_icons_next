@@ -26,7 +26,7 @@ class SquareLetterK extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, alphabet, sign, latin, square, letter, rectangular, character, typography, text]
+tags: [letter, k, character, alphabet, square, box]
 category: Letters
 version: "1.95"
 unicode: "f486"

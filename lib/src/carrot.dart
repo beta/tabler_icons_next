@@ -26,7 +26,7 @@ class Carrot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, healthy, rabbit, vegetable, carrot, meal, cuisine, eating, nutrition, culinary]
+tags: [carrot, vegetable, veggie, food, healthy, vegan, rabbit, orange, root]
 category: Food
 version: "1.72"
 unicode: "f21c"

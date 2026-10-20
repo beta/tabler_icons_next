@@ -27,7 +27,7 @@ class GuitarPick extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [music, instrument, melody, accesories, guitar, pick, interface, component, widget, control]
+tags: [guitar-pick, plectrum, guitar, music, instrument, rock, band, pick]
 version: "1.98"
 unicode: "f4c6"
 -->

@@ -26,7 +26,7 @@ class WorldWww extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [internet, online, web, website, browser, world, www, location, navigation, geography]
+tags: [www, website, web, internet, url, domain, browser, globe, world]
 category: Map
 version: "1.91"
 unicode: "f38f"

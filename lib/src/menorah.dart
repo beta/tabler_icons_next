@@ -26,7 +26,7 @@ class Menorah extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [judaism, religion, cultures, jewish, menorah, sign, mark, emblem, representation, indicator]
+tags: [judaism, jewish, hanukkah, chanukah, candles, religion, holiday, candelabra, menorah]
 category: Symbols
 version: "1.109"
 unicode: "f58c"

@@ -26,7 +26,7 @@ class BallBowling extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [round, strike, spare, pin, ball, bowling, athletic, fitness, exercise, game]
+tags: [ten-pin, sport, game, strike, sports, team-sport, play, match, athletics, ball, bowling]
 category: Sport
 version: "1.10"
 unicode: "ec29"

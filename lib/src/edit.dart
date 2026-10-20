@@ -26,7 +26,7 @@ class Edit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pencil, change, update, edit, modify, creative, artistic, revise, adjust, visual]
+tags: [edit, pencil, write, modify, change, update, rename, compose, pen, draw]
 category: Design
 version: "1.0"
 unicode: "ea98"

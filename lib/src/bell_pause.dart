@@ -27,7 +27,7 @@ class BellPause extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [stop, halt, break, suspend, delay, interruption, wait, cease, rest, hold]
+tags: [notification, alert, reminder, notify, alarm, paused, hold, suspend, wait]
 version: "2.10"
 unicode: "f81b"
 -->

@@ -26,7 +26,7 @@ class Gauge extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [car, dashboard, gauge, control, operation, function, interface, management]
+tags: [gauge, speedometer, dashboard, performance, meter, speed, measure, dial, metrics, kpi]
 category: System
 version: "1.0"
 unicode: "eab1"

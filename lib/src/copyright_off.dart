@@ -26,7 +26,7 @@ class CopyrightOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [licence, license, copyright, off, disabled, inactive, sign, mark, emblem, representation]
+tags: [copyright, license, rights, legal, public-domain, symbol, off, disabled]
 category: Symbols
 version: "1.63"
 unicode: "f0da"

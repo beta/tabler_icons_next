@@ -26,7 +26,7 @@ class CurrencyKroneCzech extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [czech, czk, koruna, money, banknote, pay, currency, krone, finance, payment]
+tags: [koruna, czk, czech, krone, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "ee5c"

@@ -26,7 +26,7 @@ class ArrowZigZag extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, cursor, pointer, turn, move, arrow, zig, zag, navigation, flow]
+tags: [zigzag, zig-zag, jagged, path, direction, irregular, pointer, navigation, arrow, zig, zag]
 category: Arrows
 version: "1.97"
 unicode: "f4a7"

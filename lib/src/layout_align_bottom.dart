@@ -26,7 +26,7 @@ class LayoutAlignBottom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [position, design, layout, align, bottom, creative, artistic, visual, aesthetic, style]
+tags: [align-bottom, align, bottom, alignment, layout, position, design]
 category: Design
 version: "1.0"
 unicode: "eacd"

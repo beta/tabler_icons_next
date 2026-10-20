@@ -26,7 +26,7 @@ class DeviceSdCard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [memory, storage, technology, data, device, card, hardware, sd, electronic, gadget]
+tags: [sd-card, memory-card, microsd, storage, flash, camera, memory, data, card, device, sd]
 category: Devices
 version: "1.91"
 unicode: "f384"

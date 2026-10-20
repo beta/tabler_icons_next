@@ -27,7 +27,7 @@ class BellQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [ask, inquire, query, investigate, probe, examine, doubt, wonder, ponder, interrogate]
+tags: [notification, alert, reminder, notify, alarm, help, faq, unknown, support, question-mark]
 version: "2.10"
 unicode: "f81d"
 -->

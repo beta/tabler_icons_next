@@ -26,7 +26,7 @@ class MathXDivide2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mathematic, expression, equation, math, divide, calculation, mathematics, numeric, formula, x]
+tags: [fraction, divide, division, half, variable, formula, mathematics, math, x]
 category: Math
 version: "1.100"
 unicode: "f4ef"

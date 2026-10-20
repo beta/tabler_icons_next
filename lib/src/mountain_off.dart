@@ -26,7 +26,7 @@ class MountainOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alps, camping, mount everest, trekking, mountain, off, environment, natural, disabled, inactive]
+tags: [mountains, peak, hill, landscape, hiking, disabled, slash, mountain, off]
 category: Nature
 version: "1.94"
 unicode: "f411"

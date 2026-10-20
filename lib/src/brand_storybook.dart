@@ -26,7 +26,7 @@ class BrandStorybook extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tool, creation, interface, application, brand, storybook, logo, company, trademark, identity]
+tags: [storybook, ui, components, documentation, frontend, design-system, testing, logo, brand]
 category: Brand
 version: "1.86"
 unicode: "f332"

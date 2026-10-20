@@ -26,7 +26,7 @@ class SeparatorVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [divider, space, separate, set apart, upright, separator, vertical, typography, writing, font]
+tags: [divider, line, vertical, separation, column, separator]
 category: Text
 version: "1.13"
 unicode: "ec7a"

@@ -26,7 +26,7 @@ class BaselineDensitySmall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [small, tiny, little, miniature, compact, petite, mini, micro, diminutive, wee]
+tags: [line-height, spacing, typography, text, compact, comfortable, leading, line-spacing, vertical-rhythm, small]
 version: "2.11"
 unicode: "f9f2"
 category: Text

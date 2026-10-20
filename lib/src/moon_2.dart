@@ -26,7 +26,7 @@ class Moon2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [night, dark mode, moon, climate, forecast, meteorology, atmospheric, conditions, 2]
+tags: [night, dark-mode, dark, theme, crescent, sleep, lunar, evening, moon]
 category: Weather
 version: "1.21"
 unicode: "ece6"

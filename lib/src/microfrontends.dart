@@ -27,7 +27,7 @@ class Microfrontends extends Icon {
 
   static const String _svg = '''<!--
 category: Development
-tags: [frontend, micro, modular, architecture, split, components, application, separate, independent, federation, modules, structure]
+tags: [micro-frontends, frontend, architecture, modules, modular, components, web-app, split]
 unicode: "101ee"
 version: "3.39"
 -->

@@ -26,7 +26,7 @@ class RewindBackward60 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [reverse, backward, reverse-60, rewind, undo, start, rotate-60, previous, step-back, reset]
+tags: [rewind, backward, skip-back, go-back, 60-seconds, sixty, replay, media, video, controls]
 category: Media
 version: "2.21"
 unicode: "fac1"

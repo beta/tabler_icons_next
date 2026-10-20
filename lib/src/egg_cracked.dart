@@ -26,7 +26,7 @@ class EggCracked extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [breaking, broken, food, breakfast, egg, cracked, meal, cuisine, eating, nutrition]
+tags: [egg, cracked, broken, hatch, easter, breakfast, food, shell]
 category: Food
 version: "1.82"
 unicode: "f2d6"

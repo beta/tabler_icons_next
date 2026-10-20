@@ -26,7 +26,7 @@ class HeadingOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [main, text, headline, style, styling, html, heading, off, disabled, inactive]
+tags: [heading, header, title, typography, text-editor, disabled, off-state, unavailable, off]
 category: Text
 version: "1.66"
 unicode: "f13f"

@@ -27,7 +27,7 @@ class BracketsAngle extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [code, syntax, markup, programming, language, punctuation, tags, development, text, interface]
+tags: [angle-brackets, code, html, xml, markup, tags, programming, syntax, chevrons]
 version: "2.37"
 unicode: "fcb2"
 -->

@@ -26,7 +26,7 @@ class ClipboardCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [copy, "yes", clipboard, check, confirm, approve, file, paper, text, record]
+tags: [check, done, completed, approved, tick, todo, task-done, checklist, clipboard, paste, document, task, notes]
 category: Document
 version: "1.0"
 unicode: "ea6c"

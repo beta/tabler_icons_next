@@ -27,7 +27,7 @@ class Canary extends Icon {
 
   static const String _svg = '''<!--
 category: Development
-tags: [bird, release, testing, deployment, warning, monitor, alert, early, detection, safety, check, indicator]
+tags: [canary, bird, canary-release, deployment, testing, rollout, early-warning, beta, feature-flag]
 unicode: "101f5"
 version: "3.39"
 -->

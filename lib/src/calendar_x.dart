@@ -27,7 +27,7 @@ class CalendarX extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [close, delete, remove, terminate, reject, end, discard, annul, erase, cancel]
+tags: [calendar, date, schedule, event, day, planner, agenda, close, remove, delete, cancel, dismiss, appointment]
 version: "2.10"
 unicode: "f832"
 -->

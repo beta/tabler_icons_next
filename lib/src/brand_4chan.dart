@@ -26,7 +26,7 @@ class Brand4chan extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bulletin, board, music, photography, share, brand, 4chan, logo, company, trademark]
+tags: [imageboard, forum, message-board, social, community, logo, imageboard-site, anonymous, brand, 4chan]
 category: Brand
 version: "1.96"
 unicode: "f494"

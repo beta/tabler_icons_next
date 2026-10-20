@@ -27,7 +27,7 @@ class CubeSend extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [box, delivery, package, shipping, cube, send]
+tags: [cube, box, package, send, ship, shipping, delivery, deploy, 3d]
 version: "1.115"
 unicode: "f61b"
 -->

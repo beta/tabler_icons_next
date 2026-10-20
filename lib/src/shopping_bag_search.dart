@@ -27,7 +27,7 @@ class ShoppingBagSearch extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [find, locate, discover, explore, investigate, browse, inquire, inspect, seek, look]
+tags: [shopping-bag, bag, shop, find, lookup, magnifier, browse, store, purchase, buy, ecommerce]
 version: "2.29"
 unicode: "fc1c"
 -->

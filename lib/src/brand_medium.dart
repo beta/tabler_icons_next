@@ -26,7 +26,7 @@ class BrandMedium extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, website, brand, wordmark, design, medium, company, trademark, identity, corporate]
+tags: [medium, blog, blogging, articles, writing, publishing, logo, brand]
 category: Brand
 version: "1.13"
 unicode: "ec70"

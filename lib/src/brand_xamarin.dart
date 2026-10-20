@@ -26,7 +26,7 @@ class BrandXamarin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [development, platform, mobile, application, cross-platform, framework, software, coding, tools, technology]
+tags: [xamarin, microsoft, dotnet, csharp, mobile, cross-platform, framework, logo, brand]
 category: Brand
 version: "2.18"
 unicode: "fa7a"

@@ -26,7 +26,7 @@ class CircleDottedLetterY extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alphabet, monogram, typography, emblem, character, initial, design, decoration, circle, dotted]
+tags: [y, letter-y, letter, alphabet, character, uppercase, initial, circle, dotted, badge]
 category: Letters
 version: "3.11"
 unicode: "ff67"

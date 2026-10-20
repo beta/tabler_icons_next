@@ -26,7 +26,7 @@ class DeviceVisionProWifi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [advanced, sight, future, virtual, augmented, headset, vr, ar, wifi, wireless, connection, network, signal]
+tags: [apple-vision-pro, vision-pro, vr, ar, headset, mixed-reality, wifi, wireless, connected, network, virtual-reality]
 category: Devices
 unicode: "10274"
 version: "3.45"

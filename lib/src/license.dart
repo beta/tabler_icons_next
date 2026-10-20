@@ -27,7 +27,7 @@ class License extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [authorisation, permission, consent, permit, document, agree, license]
+tags: [license, certificate, document, agreement, permit, terms, legal, contract]
 version: "1.5"
 unicode: "ebc0"
 -->

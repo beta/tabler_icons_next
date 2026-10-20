@@ -27,7 +27,7 @@ class BasketDown extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [shopping, cart, purchase, lower, store, goods, buy, drop, offload, inventory]
+tags: [cart, shopping-cart, ecommerce, shop, store, download, arrow-down, decrease, lower]
 version: "2.28"
 unicode: "fb4a"
 -->

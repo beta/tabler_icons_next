@@ -26,7 +26,7 @@ class BrandRadixUi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [opensource, library, web, application, high, quality, brand, radix, logo, company]
+tags: [radix-ui, radix, react, components, ui, primitives, library, logo, brand]
 category: Brand
 version: "2.5"
 unicode: "f790"

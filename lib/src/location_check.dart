@@ -27,7 +27,7 @@ class LocationCheck extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [verify, confirm, approve, validate, tick, pass, authenticate, mark, agree, okay]
+tags: [location, navigation, gps, arrow, pointer, direction, map, position, done, success, confirmed, verified, approved, checkmark, tick]
 version: "2.28"
 unicode: "fbb1"
 -->

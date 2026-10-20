@@ -26,7 +26,7 @@ class HomeCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [house, tick, mark, assure, safety, home, check, main, architecture, structure]
+tags: [home, house, homepage, building, residence, real-estate, done, success, confirmed, verified, approved, checkmark, tick, check]
 category: Buildings
 version: "1.87"
 unicode: "f337"

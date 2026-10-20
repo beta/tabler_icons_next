@@ -27,7 +27,7 @@ class Coffin extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [halloween, death, scary, horror, cementry, coffin]
+tags: [coffin, death, dead, funeral, grave, halloween, horror, vampire, casket]
 version: "1.108"
 unicode: "f579"
 -->

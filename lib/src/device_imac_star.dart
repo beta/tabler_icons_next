@@ -27,7 +27,7 @@ class DeviceImacStar extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [favorite, highlight, feature, emphasize, mark, notable, premium, prominent, standout, top]
+tags: [star, favorite, bookmark, rating, featured, imac, mac, apple, computer, desktop, monitor]
 version: "2.10"
 unicode: "f882"
 -->

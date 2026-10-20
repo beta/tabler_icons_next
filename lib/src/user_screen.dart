@@ -26,7 +26,7 @@ class UserScreen extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [display, monitor, view, digital, interface, technology, projector, visualize, show, user]
+tags: [video-call, webcam, presenter, meeting, conference, screen, user, person]
 category: Media
 version: "3.1"
 unicode: "fea0"

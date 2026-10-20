@@ -26,7 +26,7 @@ class BrightnessUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [light, screen, brightness, top, increase, rise, upward, up, camera, picture]
+tags: [brightness, light, display, screen, sun, luminosity, contrast, increase, brighter, higher, plus, up]
 category: Photography
 version: "1.3"
 unicode: "eb7e"

@@ -26,7 +26,7 @@ class BrandJira extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [project, management, agile, software, tasks, issues, brand, jira, logo, company]
+tags: [jira, atlassian, project-management, issues, tickets, agile, tracking, logo, brand]
 category: Brand
 unicode: "10231"
 version: "3.41"

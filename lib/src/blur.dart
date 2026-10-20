@@ -26,7 +26,7 @@ class Blur extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [edit, photo, photography, tool, blur, creative, artistic, visual, aesthetic, style]
+tags: [gaussian, soft, focus, filter, effect, photo, blurry, defocus, blur]
 category: Design
 version: "1.47"
 unicode: "ef8c"

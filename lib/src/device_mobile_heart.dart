@@ -27,7 +27,7 @@ class DeviceMobileHeart extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [love, emotion, favorite, affection, like, care, passion, adore, fondness, devotion]
+tags: [phone, smartphone, iphone, love, like, favorite, favourite, android, cellphone, device]
 version: "2.10"
 unicode: "f8b5"
 -->

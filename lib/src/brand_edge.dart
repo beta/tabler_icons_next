@@ -26,7 +26,7 @@ class BrandEdge extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [browser, internet, web, logo, explorer, brand, edge, company, trademark, identity]
+tags: [edge, microsoft-edge, browser, microsoft, web, internet, logo, brand]
 category: Brand
 version: "1.23"
 unicode: "ecfc"

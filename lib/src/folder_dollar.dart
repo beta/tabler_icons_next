@@ -27,7 +27,7 @@ class FolderDollar extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [finance, money, currency, wealth, econ, coin, bill, budget, funds, capital]
+tags: [directory, dir, files, money, price, payment, cost, archive, project, currency, usd, finance]
 version: "2.10"
 unicode: "f911"
 -->

@@ -26,7 +26,7 @@ class RockingChair extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [chair, rocking, seat, furniture, home, relax, comfort, nursery, sitting, interior]
+tags: [chair, rocking, seat, furniture, home, relax, nursery]
 category: Buildings
 unicode: "1028a"
 version: "3.46"

@@ -26,7 +26,7 @@ class NoCopyright extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cancel, copy, restriction, copyright, control, operation, no, function, interface, management]
+tags: [copyright-free, public-domain, copyleft, license, rights, cc0, creative-commons, no, copyright]
 category: System
 version: "1.49"
 unicode: "efb9"

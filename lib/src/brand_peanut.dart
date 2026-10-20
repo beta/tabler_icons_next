@@ -26,7 +26,7 @@ class BrandPeanut extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [social, app, mobile, women, brand, peanut, logo, company, trademark, identity]
+tags: [peanut, social, app, women, community, mothers, logo, brand]
 category: Brand
 version: "1.92"
 unicode: "f39b"

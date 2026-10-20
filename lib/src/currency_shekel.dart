@@ -26,7 +26,7 @@ class CurrencyShekel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [curency, ils, israeli, shekel, money, banknote, pay, currency, finance, payment]
+tags: [shekel, ils, israel, israeli, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "ee68"

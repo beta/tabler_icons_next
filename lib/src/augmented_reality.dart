@@ -26,7 +26,7 @@ class AugmentedReality extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [technology, dimensional, geometry, augmented, reality, control, operation, function, interface, management]
+tags: [ar, virtual, 3d, scan, vr, mixed-reality, camera, augmented, reality]
 category: System
 version: "1.55"
 unicode: "f023"

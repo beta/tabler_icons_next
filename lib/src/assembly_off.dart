@@ -26,7 +26,7 @@ class AssemblyOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [assembly, engineering, manufacturing, production, robotics, off, programming, software, disabled, inactive]
+tags: [component, module, part, build, manufacturing, package, piece, disabled, inactive, assembly, off]
 category: Development
 version: "1.94"
 unicode: "f3c0"

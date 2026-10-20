@@ -26,7 +26,7 @@ class RosetteNumber8 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, number, digit, rosette, numeric, numeral, count, quantity, 8]
+tags: [number, 8, eight, digit, badge, rosette, numeral]
 category: Numbers
 version: "1.109"
 unicode: "f597"

@@ -26,7 +26,7 @@ class Hours12 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, duration, noon, midday, clock, watch, halfday, period, count, dozen]
+tags: [12-hours, 12h, half-day, clock, time, duration, hours, twelve]
 category: System
 version: "2.32"
 unicode: "fc53"

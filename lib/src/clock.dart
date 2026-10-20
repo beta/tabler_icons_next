@@ -26,7 +26,7 @@ class Clock extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, watch, alarm, clock, control, operation, function, interface, management]
+tags: [time, watch, hour, schedule, timer, clock-face, history, pending, wall-clock, minutes, clock]
 category: System
 version: "1.0"
 unicode: "ea70"

@@ -26,7 +26,7 @@ class RosetteDiscount extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sale, reduction, price, cost, money, shopping, bargain, rosette, discount, store]
+tags: [discount-badge, sale, discount, coupon, percent, promo, deal, offer, badge, rosette]
 category: E-commerce
 version: "1.5"
 unicode: "ee7c"

@@ -26,7 +26,7 @@ class GitBranchX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, version control, git, branch, delete, remove, cancel, close, reject, repository]
+tags: [git, branch, delete, remove, close, cancel, failed, version-control, github]
 category: Version control
 unicode: "102ae"
 version: "3.48"

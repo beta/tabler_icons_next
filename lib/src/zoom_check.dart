@@ -26,7 +26,7 @@ class ZoomCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [verify, magnifying, glass, magnifier, ok, done, zoom, check, location, navigation]
+tags: [zoom, magnifier, magnifying-glass, search, done, success, confirmed, approved, verified, found, check]
 category: Map
 version: "1.39"
 unicode: "ef09"

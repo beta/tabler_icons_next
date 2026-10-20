@@ -26,7 +26,7 @@ class MessageShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sharing, email, mail, communication, post, message, share, contact, conversation, distribute]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, send, forward, export, social, reply, communication, dm, message, share]
 category: Communication
 version: "1.59"
 unicode: "f078"

@@ -26,7 +26,7 @@ class Reload extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [refresh, repeat, update, sync, loading, reload, navigation, flow, movement, route]
+tags: [refresh, sync, update, repeat, restart, rotate, arrow, reload]
 category: Arrows
 version: "1.93"
 unicode: "f3ae"

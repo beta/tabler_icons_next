@@ -26,7 +26,7 @@ class CoffeeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [espresso, hot, cup, latte, cafe, drink, coffee, off, meal, cuisine]
+tags: [coffee, cup, mug, cafe, espresso, hot-drink, beverage, off, disabled, no-coffee]
 category: Food
 version: "1.65"
 unicode: "f106"

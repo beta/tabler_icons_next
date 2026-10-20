@@ -27,7 +27,7 @@ class TableHeart extends Icon {
 
   static const String _svg = '''<!--
 category: Database
-tags: [table, heart, like, favorite, love, data-table, table-icon, heart-symbol, table-like, table-favorite]
+tags: [table, favorite, love, like, spreadsheet, data, excel, sheet, tabular, heart]
 version: "2.13"
 unicode: "fa1d"
 -->

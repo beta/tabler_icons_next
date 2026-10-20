@@ -26,7 +26,7 @@ class BatteryEco extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ecology, charge, energy, power, electricity, battery, eco, hardware, technology, electric]
+tags: [power, energy, charge, level, phone, mobile, power-saving, low-power-mode, green, battery, eco]
 category: Devices
 version: "1.42"
 unicode: "ef3c"

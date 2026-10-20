@@ -26,7 +26,7 @@ class BrandVinted extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [website, clothes, trading, exchange, sale, shopping, brand, vinted, logo, company]
+tags: [vinted, second-hand, clothes, fashion, marketplace, resale, shopping, logo, brand]
 category: Brand
 version: "1.71"
 unicode: "f20f"

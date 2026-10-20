@@ -26,7 +26,7 @@ class Pdf extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [file, document, type, format, extencion, pdf, plugin, addon, module, component]
+tags: [pdf-file, document, acrobat, file-type, adobe, export, portable, pdf]
 category: Extensions
 version: "2.6"
 unicode: "f7ac"

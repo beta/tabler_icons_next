@@ -26,7 +26,7 @@ class PointerOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cursor, mouse, point, click, arrow, pointer, off, control, operation, disabled]
+tags: [cursor, mouse-pointer, mouse, disabled, unavailable, inactive, hidden, arrow, click, pointer, off]
 category: System
 version: "2.10"
 unicode: "f9a3"

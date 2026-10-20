@@ -26,7 +26,7 @@ class GardenCart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gardening, conctruction, wheel, wheelbarrow, garden, cart, transport, travel, vehicle, automobile]
+tags: [wheelbarrow, garden-cart, garden, gardening, construction, cart, yard, barrow, dirt]
 category: Vehicles
 version: "1.74"
 unicode: "f23e"

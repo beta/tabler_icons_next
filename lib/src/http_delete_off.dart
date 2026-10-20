@@ -27,7 +27,7 @@ class HttpDeleteOff extends Icon {
 
   static const String _svg = '''<!--
 category: Computers
-tags: [erase, cancel, remove, uninstall, clear, network, void, delete, disconnect, disable]
+tags: [delete, remove, http, api, request, method, rest, endpoint, web, disabled, off-state, unavailable, none]
 unicode: "100e6"
 version: "3.26"
 -->

@@ -26,7 +26,7 @@ class BoxPadding extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [css, cascading, style, section, space, text, content, website, container, inside]
+tags: [spacing, css, box-model, layout, inside, inner-spacing, whitespace]
 category: Design
 version: "1.39"
 unicode: "ee18"

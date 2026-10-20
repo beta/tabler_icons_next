@@ -27,7 +27,7 @@ class DeviceIpadHorizontalQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [inquiry, ask, query, doubt, wonder, ponder, investigate, explore, seek, probe]
+tags: [question, help, faq, unknown, support, ipad, tablet, apple, ios, landscape]
 version: "2.10"
 unicode: "f89c"
 -->

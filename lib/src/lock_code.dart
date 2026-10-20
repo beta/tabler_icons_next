@@ -27,7 +27,7 @@ class LockCode extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [encrypt, decrypt, cipher, password, secure, protect, key, pin, safeguard, access]
+tags: [lock, padlock, locked, security, secure, password, private, protected, pin-code, passcode, encrypt, encryption, code]
 version: "2.10"
 unicode: "f927"
 -->

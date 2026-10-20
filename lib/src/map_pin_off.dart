@@ -26,7 +26,7 @@ class MapPinOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [navigation, location, travel, pin, position, marker, map, off, disabled, inactive]
+tags: [pin, marker, location, place, gps, disabled, off-state, unavailable, map, off]
 category: Map
 version: "1.22"
 unicode: "ecf3"

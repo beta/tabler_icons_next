@@ -26,7 +26,7 @@ class VaccineOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [illness, sickness, disease, injection, medicine, medical, doctor, nurse, vaccine, off]
+tags: [vaccine, syringe, injection, needle, medical, disabled, inactive, vaccination, off]
 category: Health
 version: "1.67"
 unicode: "f1bc"

@@ -27,7 +27,7 @@ class FolderHeart extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [love, affection, emotion, care, favor, adore, benevolence, devotion, fondness, cherish]
+tags: [directory, dir, files, love, like, favorite, favourite, archive, project]
 version: "2.10"
 unicode: "f914"
 -->

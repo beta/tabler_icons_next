@@ -27,7 +27,7 @@ class DeviceDesktopDollar extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [finance, money, wealth, cash, economics, capital, budget, assets, funds, revenue]
+tags: [dollar, money, price, payment, cost, finance, desktop, monitor, computer, screen, pc]
 version: "2.10"
 unicode: "f863"
 -->

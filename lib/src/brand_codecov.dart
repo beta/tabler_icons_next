@@ -26,7 +26,7 @@ class BrandCodecov extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coding, analysis, archive, merge, brand, codecov, logo, company, trademark, identity]
+tags: [codecov, code-coverage, testing, ci, coverage, report, developer, logo, brand]
 category: Brand
 version: "1.86"
 unicode: "f329"

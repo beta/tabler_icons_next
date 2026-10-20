@@ -26,7 +26,7 @@ class List extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [task, unordered, bullets, agenda, shopping, list, typography, writing, font, character]
+tags: [list, bullet-list, unordered-list, bullets, items, menu, text-editor]
 category: Text
 version: "1.2"
 unicode: "eb6b"

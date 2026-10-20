@@ -26,7 +26,7 @@ class ToggleRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: ["on", "off", switch, toggle, right, control, operation, function, interface, management]
+tags: [toggle, switch, on, on-off, checkbox, setting, control, enabled, right]
 category: System
 version: "1.0"
 unicode: "eb3f"

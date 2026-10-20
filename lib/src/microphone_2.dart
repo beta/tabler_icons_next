@@ -26,7 +26,7 @@ class Microphone2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [record, sound, listen, sing, microphone, content, entertainment, multimedia, broadcast, audio]
+tags: [mic, karaoke, sing, voice, audio, sound, podcast, recording, microphone]
 category: Media
 version: "1.41"
 unicode: "ef2c"

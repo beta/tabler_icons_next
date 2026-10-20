@@ -26,7 +26,7 @@ class LockSquare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [privaty, safe, secure, privacy, lock, square, private, control, operation, rectangular]
+tags: [lock, padlock, locked, secure, private, protected, square]
 category: System
 version: "1.43"
 unicode: "ef51"

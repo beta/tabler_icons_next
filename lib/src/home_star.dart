@@ -26,7 +26,7 @@ class HomeStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [best, favourite, like, house, home, star, main, architecture, structure, favorite]
+tags: [home, house, homepage, building, residence, real-estate, star, starred, favorite, rating, bookmark]
 category: Buildings
 version: "1.87"
 unicode: "f344"

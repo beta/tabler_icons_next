@@ -26,7 +26,7 @@ class Power extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: ["on", "off", turn on, turn off, electricity, power, hardware, technology, electronic, gadget]
+tags: [power-button, power-off, on-off, shutdown, turn-off, turn-on, switch, standby, restart, toggle, power]
 category: Devices
 version: "1.0"
 unicode: "eb0d"

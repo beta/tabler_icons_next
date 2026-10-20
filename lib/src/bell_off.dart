@@ -26,7 +26,7 @@ class BellOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alarm, sound, notification, bell, off, control, operation, disabled, inactive, function]
+tags: [notification, alert, reminder, notify, alarm, mute, silent, do-not-disturb, disabled, notifications-off, bell, off]
 category: System
 version: "1.22"
 unicode: "ece9"

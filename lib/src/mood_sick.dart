@@ -26,7 +26,7 @@ class MoodSick extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, suffering, unhealthy, mood, sick]
+tags: [sick, ill, unwell, nausea, disease, emoji, smiley, face, emotion, feeling, reaction, mood]
 category: Mood
 version: "1.83"
 unicode: "f2e5"

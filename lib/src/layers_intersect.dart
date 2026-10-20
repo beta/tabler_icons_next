@@ -26,7 +26,7 @@ class LayersIntersect extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [layered-intersection, layer-difference, intersecting, layer-overlap, intersection, intersecting-layers, layer-interaction, layer-cross, layers-crossing, layer-junction, stack]
+tags: [layers, intersect, intersection, boolean, pathfinder, overlap, shape, vector, design]
 category: Design
 version: "1.0"
 unicode: "eac9"

@@ -26,7 +26,7 @@ class Shape extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [draw, square, form, create, outline, shape, creative, artistic, visual, aesthetic]
+tags: [vector, nodes, path, bezier, pen-tool, edit-shape, anchor-points, design, shape]
 category: Design
 version: "1.3"
 unicode: "eb9c"

@@ -27,7 +27,7 @@ class Deselect extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [unselect, clear-selection, deselection, unpick, uncheck, deactivate, unmark, remove-selection, untag, unchoose]
+tags: [deselect, unselect, clear-selection, select-none, selection, uncheck, marquee, dashed]
 version: "2.11"
 unicode: "f9f3"
 -->

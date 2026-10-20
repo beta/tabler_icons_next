@@ -26,7 +26,7 @@ class Geometry extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [build, architecture, create, compass, geometry, location, navigation, geography, place, position]
+tags: [geometry, compass, drafting, math, architecture, construction, drawing, protractor, measure]
 category: Map
 version: "1.39"
 unicode: "ee90"

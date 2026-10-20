@@ -26,7 +26,7 @@ class AlignBoxBottomLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, type, west, corner, align, box, bottom, left, typography, writing]
+tags: [alignment, layout, position, text-align, flexbox, justify, container, anchor, align, box, bottom, left]
 category: Text
 version: "1.104"
 unicode: "f531"

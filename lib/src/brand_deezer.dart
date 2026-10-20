@@ -26,7 +26,7 @@ class BrandDeezer extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, media, sound, singer, brand, deezer, logo, company, trademark, identity]
+tags: [deezer, music, streaming, audio, songs, playlist, logo, brand]
 category: Brand
 version: "2.5"
 unicode: "f78b"

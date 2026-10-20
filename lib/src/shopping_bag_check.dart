@@ -27,7 +27,7 @@ class ShoppingBagCheck extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [purchase, buy, verify, approve, store, bag, confirm, secure, validate, acquire]
+tags: [shopping-bag, bag, shop, done, success, confirmed, approved, tick, verified, store, purchase, buy, ecommerce]
 version: "2.29"
 unicode: "fc16"
 -->

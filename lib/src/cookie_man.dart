@@ -27,7 +27,7 @@ class CookieMan extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [identity, person, individual, figure, character, personage, being, life, human, profile]
+tags: [cookie, gingerbread, gingerbread-man, biscuit, christmas, dessert, sweet, bakery]
 unicode: "fdb2"
 version: "3.0"
 -->

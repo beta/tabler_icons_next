@@ -26,7 +26,7 @@ class AlignLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, alignment, position, align, left, typography, writing, font, character, word]
+tags: [text-align, alignment, paragraph, typography, text, format, formatting, flush-left, left-align, align, left]
 category: Text
 version: "1.0"
 unicode: "ea09"

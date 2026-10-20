@@ -26,7 +26,7 @@ class BrandFiverr extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [marketplace, creative, proffesional, services, brand, fiverr, logo, company, trademark, identity]
+tags: [fiverr, freelance, freelancer, gig, marketplace, services, jobs, logo, brand]
 category: Brand
 version: "2.6"
 unicode: "f7a4"

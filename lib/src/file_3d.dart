@@ -26,7 +26,7 @@ class File3d extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [model, document, file, data, content, record, 3d, paper, text, information]
+tags: [3d-file, 3d-model, obj, stl, cad, model, document, 3d-printing, mesh, file, 3d]
 category: Document
 version: "1.56"
 unicode: "f032"

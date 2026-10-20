@@ -26,7 +26,7 @@ class BrandVisualStudio extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, microsoft, programming, developers, coding, brand, visual, studio, see, view]
+tags: [visual-studio, microsoft, ide, code, editor, programming, dotnet, logo, brand, visual, studio]
 category: Brand
 version: "1.45"
 unicode: "ef76"

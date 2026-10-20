@@ -26,7 +26,7 @@ class BrandLine extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [chat, messaging, communication, social, app, connection, friends, call, stickers, interaction]
+tags: [line, messaging, chat, messenger, app, japan, logo, brand]
 category: Brand
 version: "2.9"
 unicode: "f7e8"

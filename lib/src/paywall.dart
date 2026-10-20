@@ -27,7 +27,7 @@ class Paywall extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [subscription, access, payment, content, exclusive, restricted, premium, member, entry, gate]
+tags: [premium, subscription, locked, paid-content, lock, pricing, member, upgrade]
 version: "2.45"
 unicode: "fd7e"
 -->

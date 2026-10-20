@@ -26,7 +26,7 @@ class LayoutBottombarCollapse extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grid, aside, column, columns, menu, navigation, layout, bottombar, collapse, creative]
+tags: [bottom-bar, footer, collapse, hide, panel, layout, ui, bottombar]
 category: Design
 version: "1.78"
 unicode: "f28b"

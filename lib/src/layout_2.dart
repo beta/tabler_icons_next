@@ -26,7 +26,7 @@ class Layout2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grid, columns, masonry, collage, layout, creative, artistic, visual, aesthetic, style]
+tags: [layout, grid, template, ui, wireframe, tiles, page, structure, masonry]
 category: Design
 version: "1.0"
 unicode: "eacc"

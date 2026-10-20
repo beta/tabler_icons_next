@@ -26,7 +26,7 @@ class PentagonNumber5 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [five, quintet, quin, penta, fifth, quinary, pentad, pentagon, fiver, cinque]
+tags: [five, number, digit, pentagon, shape, badge, numeral, count]
 category: Numbers
 version: "2.34"
 unicode: "fc83"

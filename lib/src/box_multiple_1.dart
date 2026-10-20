@@ -26,7 +26,7 @@ class BoxMultiple1 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [css, cascading, style, sheet, background, section, one, website, layer, box]
+tags: [stack, layers, copy, duplicate, boxes, number, one, digit, numbered, box]
 category: Numbers
 version: "1.39"
 unicode: "ee0e"

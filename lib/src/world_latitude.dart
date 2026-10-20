@@ -26,7 +26,7 @@ class WorldLatitude extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [earth, globe, global, language, union, world, latitude, location, navigation, geography]
+tags: [latitude, parallels, globe, earth, world, geography, coordinates, planet]
 category: Map
 version: "1.26"
 unicode: "ed2e"

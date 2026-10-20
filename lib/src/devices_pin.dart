@@ -27,7 +27,7 @@ class DevicesPin extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [attach, secure, fix, fasten, stick, place, bookmark, position, clip, hold]
+tags: [responsive, multi-device, computer, location, map-pin, marker, place, laptop, phone, tablet, desktop, gps, geolocation]
 version: "2.10"
 unicode: "f8f1"
 -->

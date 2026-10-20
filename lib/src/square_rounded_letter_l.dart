@@ -26,7 +26,7 @@ class SquareRoundedLetterL extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, alphabet, sign, latin, square, rounded, letter, rectangular, character, typography]
+tags: [letter, alphabet, character, latin, initial, square, rounded, squircle, box, badge]
 category: Letters
 version: "1.111"
 unicode: "f5b9"

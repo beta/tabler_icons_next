@@ -26,7 +26,7 @@ class MessageForward extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [email, mail, send, chat, communication, arrow, message, forward, contact, conversation]
+tags: [forward, send, share, chat, speech-bubble, arrow-right, redirect, email, mail, reply, message]
 category: Communication
 version: "1.78"
 unicode: "f28f"

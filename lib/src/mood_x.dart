@@ -26,7 +26,7 @@ class MoodX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [emotion, feeling, happy, face, delete, close, mood, x]
+tags: [close, delete, remove, dead, emoji, smiley, face, emotion, feeling, reaction, mood, x]
 category: Mood
 version: "2.7"
 unicode: "f7bc"

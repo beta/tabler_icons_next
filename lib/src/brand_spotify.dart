@@ -26,7 +26,7 @@ class BrandSpotify extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, app, application, platform, music, listening, streaming, podcast, brand, spotify]
+tags: [spotify, music, streaming, podcast, playlist, audio, songs, logo, brand]
 category: Brand
 version: "1.23"
 unicode: "ed03"

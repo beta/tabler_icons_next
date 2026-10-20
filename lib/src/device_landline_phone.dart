@@ -26,7 +26,7 @@ class DeviceLandlinePhone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [telephone, call, comunication, digital, device, landline, phone, mobile, hardware, technology]
+tags: [telephone, landline, desk-phone, office-phone, call, handset, receiver, contact, communication, device, phone]
 category: Devices
 version: "1.118"
 unicode: "f649"

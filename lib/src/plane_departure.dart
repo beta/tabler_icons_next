@@ -26,7 +26,7 @@ class PlaneDeparture extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [travel, take off, journey, trip, airport, baggage, luggage, plane, departure, transport]
+tags: [takeoff, take-off, departures, departure, airplane, flight, airport, travel, aircraft, plane]
 category: Vehicles
 version: "1.3"
 unicode: "eb9a"

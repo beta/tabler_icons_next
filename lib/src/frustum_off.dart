@@ -26,7 +26,7 @@ class FrustumOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, frustum, off, disabled, inactive, geometry]
+tags: [frustum, truncated-cone, cone, 3d, geometry, shape, disabled, inactive, unavailable, slash, turn-off, solid, off]
 category: Shapes
 version: "2.20"
 unicode: "fa9d"

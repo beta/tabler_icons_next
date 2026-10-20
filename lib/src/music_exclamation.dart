@@ -27,7 +27,7 @@ class MusicExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [alert, warning, notice, urgent, important, emphasis, highlight, attention, caution, remark]
+tags: [song, audio, sound, note, melody, track, warning, alert, error, attention, important, mp3, playlist, player]
 version: "2.28"
 unicode: "fbdd"
 -->

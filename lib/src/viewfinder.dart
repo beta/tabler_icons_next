@@ -26,7 +26,7 @@ class Viewfinder extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [target, aim, focus, viewfinder, location, navigation, geography, place, position]
+tags: [viewfinder, crosshair, target, aim, focus, camera, focus-frame, frame]
 category: Map
 version: "1.0"
 unicode: "eb4e"

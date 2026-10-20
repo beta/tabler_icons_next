@@ -26,7 +26,7 @@ class PlusMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [math, sign, adding, subtraction, plus, minus, calculation, equation, add, more]
+tags: [plus-or-minus, tolerance, approximately, math, sign, symbol, positive, negative, plus, minus]
 category: Math
 version: "2.6"
 unicode: "f7ae"

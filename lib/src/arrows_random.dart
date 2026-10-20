@@ -26,7 +26,7 @@ class ArrowsRandom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, north, south, west, east, arrows, random, navigation, flow, movement]
+tags: [shuffle, mix, chaos, randomize, scatter, pointer, navigation, direction, arrows, random]
 category: Arrows
 version: "1.61"
 unicode: "f095"

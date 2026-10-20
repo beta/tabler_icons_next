@@ -26,7 +26,7 @@ class Perspective extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, perspective, transform, reshape, scale, geometry, form, figure, pattern, outline]
+tags: [3d, perspective-transform, skew, distort, depth, transform, design, perspective]
 category: Shapes
 version: "1.39"
 unicode: "eebd"

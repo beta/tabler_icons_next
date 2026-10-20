@@ -26,7 +26,7 @@ class BrandAuth0 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [security, authentication, identity, access, login, authorization, verification, credentials, sso, federation]
+tags: [auth0, authentication, login, sso, identity, security, okta, oauth, logo, brand]
 category: Brand
 version: "2.37"
 unicode: "fcb3"

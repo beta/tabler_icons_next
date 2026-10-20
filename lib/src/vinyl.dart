@@ -26,7 +26,7 @@ class Vinyl extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, audio, dj, sound, retro, musical, vinyl, hardware, technology, electronic]
+tags: [vinyl, record, lp, music, disc, turntable, dj, album]
 category: Devices
 version: "1.53"
 unicode: "f00d"

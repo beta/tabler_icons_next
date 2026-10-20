@@ -26,7 +26,7 @@ class TextScanAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, scan, ai, ocr, recognition, document, intelligence, capture, reading, extract]
+tags: [ocr, ai, artificial-intelligence, scan, text-recognition, document, extract, formula, text]
 category: System
 unicode: "10257"
 version: "3.44"

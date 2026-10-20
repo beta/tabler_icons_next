@@ -26,7 +26,7 @@ class Shadow extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [dark, sun, area, covered, dim, light, css, effect, shadow, camera]
+tags: [drop-shadow, box-shadow, shade, effect, css, dark, light, shadow]
 category: Photography
 version: "1.39"
 unicode: "eed8"

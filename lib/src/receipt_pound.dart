@@ -26,7 +26,7 @@ class ReceiptPound extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [currency, bill, transaction, invoice, payment, finance, economy, account, cash, document]
+tags: [receipt, bill, invoice, pound, gbp, sterling, payment, currency, money, transaction]
 category: E-commerce
 version: "2.44"
 unicode: "fd69"

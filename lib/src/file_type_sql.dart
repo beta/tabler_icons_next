@@ -26,7 +26,7 @@ class FileTypeSql extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [database, query, language, data, table, sql, structure, querying, relational, management]
+tags: [sql, database, query, db, mysql, postgresql, script, file-format, extension]
 category: Document
 version: "2.25"
 unicode: "fb15"

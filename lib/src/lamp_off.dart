@@ -27,7 +27,7 @@ class LampOff extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [light, room, decoration, electic, energy, lamp, off, disabled, inactive]
+tags: [lamp, light, lighting, dark, disabled, off-state, unavailable, off]
 version: "1.66"
 unicode: "f14d"
 -->

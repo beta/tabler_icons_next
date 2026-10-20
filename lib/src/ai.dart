@@ -26,7 +26,7 @@ class Ai extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [artificial intelligence, letters, text, technology, robot, automatic, character, programming, software, ai]
+tags: [artificial-intelligence, machine-learning, ml, smart, llm, chatbot, letters, text, gpt, ai]
 category: Development
 version: "3.4"
 unicode: "fee7"

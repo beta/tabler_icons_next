@@ -26,7 +26,7 @@ class FileDownload extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [save, transfer, input, file, download, document, data, content, record, paper]
+tags: [download, save, arrow-down, export, document, file, get, receive]
 category: Document
 version: "1.0"
 unicode: "ea9d"

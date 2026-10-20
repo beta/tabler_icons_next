@@ -27,7 +27,7 @@ class LocationCode extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [programming, software, script, algorithm, cipher, decode, encode, function, syntax, compile]
+tags: [location, navigation, gps, arrow, pointer, direction, map, position, code, developer, programming, dev, embed]
 version: "2.28"
 unicode: "fbb2"
 -->

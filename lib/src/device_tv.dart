@@ -26,7 +26,7 @@ class DeviceTv extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [screen, display, movie, film, watch, audio, video, media, device, hardware]
+tags: [tv, television, smart-tv, screen, display, monitor, video, movie, streaming, device]
 category: Devices
 version: "1.0"
 unicode: "ea8d"

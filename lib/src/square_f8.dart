@@ -26,7 +26,7 @@ class SquareF8 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, keyboard, button, key, hotkey, square, control, operation, rectangular, f8]
+tags: [function-key, f8, keyboard, key, button, hotkey, shortcut, square]
 category: System
 version: "1.103"
 unicode: "f52e"

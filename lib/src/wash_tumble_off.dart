@@ -26,7 +26,7 @@ class WashTumbleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [laundry, clean, clear, clothes, wash, tumble, off, disabled, inactive, cleaning]
+tags: [laundry, care-label, clothes, washing, do-not-tumble-dry, no-dryer, disabled, laundry-symbol, garment, wash, tumble, off]
 category: Laundry
 version: "1.84"
 unicode: "f310"

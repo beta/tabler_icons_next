@@ -26,7 +26,7 @@ class IrregularPolyhedron extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, irregular, polyhedron, geometry, form, figure]
+tags: [polyhedron, irregular, 3d, shape, geometry, solid, polygon, math, object]
 category: Shapes
 version: "2.20"
 unicode: "faab"

@@ -26,7 +26,7 @@ class TextCaption extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [document, file, lettering, picture, text, caption, typography, writing, font, character, accessibility, a11y, subtitles]
+tags: [caption, image-caption, figure, photo, text, description, formula, typography]
 category: Text
 version: "1.96"
 unicode: "f4a4"

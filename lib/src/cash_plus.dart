@@ -27,7 +27,7 @@ class CashPlus extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [cash, plus, money, currency, payment, finance, dollar, banknote, add, more]
+tags: [cash, money, payment, currency, finance, dollar, banknote, add, new, create, plus, deposit, income, bill]
 version: "3.31"
 unicode: "1013e"
 -->

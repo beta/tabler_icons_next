@@ -26,7 +26,7 @@ class NoiseReduction extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [noise, reduction, denoise, photo, audio, filter, editing, clarity, smooth, enhancement]
+tags: [denoise, noise-cancelling, audio, filter, photo-editing, clean, grain, anc, noise, reduction]
 category: Design
 unicode: "10263"
 version: "3.44"

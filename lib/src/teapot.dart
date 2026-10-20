@@ -26,7 +26,7 @@ class Teapot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [kettle, kitchen, hot, coffee, kitchenware, teapot, meal, cuisine, eating, nutrition]
+tags: [tea, kettle, pot, drink, beverage, kitchen, hot, teakettle, teapot]
 category: Food
 version: "1.105"
 unicode: "f552"

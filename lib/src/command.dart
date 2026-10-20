@@ -26,7 +26,7 @@ class Command extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [apple, key, keyboard, cmd, command, sign, mark, emblem, representation, indicator]
+tags: [command, cmd, keyboard, shortcut, key, mac, apple, hotkey, modifier]
 category: Symbols
 version: "1.0"
 unicode: "ea78"

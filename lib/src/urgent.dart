@@ -27,7 +27,7 @@ class Urgent extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [alert, important, urgent, design]
+tags: [urgent, alarm, siren, emergency, alert, important, priority, beacon]
 version: "1.0"
 unicode: "eb48"
 -->

@@ -27,7 +27,7 @@ class DeviceWatchQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [inquire, ask, query, help, uncertainty, doubt, confusion, wonder, puzzle, interrogate]
+tags: [smartwatch, wearable, apple-watch, help, faq, support, unknown, wristwatch, device, fitness-tracker, info, ask]
 version: "2.10"
 unicode: "f8e0"
 -->

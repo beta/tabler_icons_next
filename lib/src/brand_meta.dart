@@ -26,7 +26,7 @@ class BrandMeta extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [social media, facebook, fb, instagram, messegner, giphy, brand, meta, logo, company]
+tags: [meta, facebook, social, instagram, whatsapp, company, infinity, logo, brand]
 category: Brand
 version: "1.49"
 unicode: "efb0"

@@ -27,7 +27,7 @@ class DatabasePlus extends Icon {
 
   static const String _svg = '''<!--
 category: Database
-tags: [add, increase, expand, enlarge, amplify, grow, enhance, boost, supplement, raise]
+tags: [plus, add, new, create, database, db, data, storage, sql, server]
 version: "2.13"
 unicode: "fa17"
 -->

@@ -26,7 +26,7 @@ class SpacingHorizontal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [align, between, text, gap, spacing, horizontal, file, paper, record, information]
+tags: [horizontal-spacing, gap, letter-spacing, spacing, align, distribute, horizontal]
 category: Document
 version: "1.43"
 unicode: "ef54"

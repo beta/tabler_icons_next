@@ -26,7 +26,7 @@ class PlugConnected extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [power, electricity, cable, socket, plug, connected, hardware, technology, electronic, gadget]
+tags: [connected, plugged-in, plugin, connection, integration, link, power, socket, cable, online, plug]
 category: Devices
 version: "1.53"
 unicode: "f00a"

@@ -26,7 +26,7 @@ class CropPortrait extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [portrait-crop, aspect-ratio-portrait, vertical-crop, portrait-mode, tall-crop, portrait-format, vertical-aspect, vertical-frame, portrait, crop]
+tags: [portrait, vertical, tall, crop, aspect-ratio, resize, image, photo, frame, trim, edit]
 category: Design
 version: "2.43"
 unicode: "fd56"

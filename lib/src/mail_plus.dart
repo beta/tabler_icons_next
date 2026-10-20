@@ -27,7 +27,7 @@ class MailPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [add, increase, augment, enhance, expand, amplify, combine, supplement, grow, include]
+tags: [mail, email, envelope, message, inbox, letter, e-mail, add, new, create, plus]
 version: "2.10"
 unicode: "f943"
 -->

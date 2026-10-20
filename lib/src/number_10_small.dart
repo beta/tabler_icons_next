@@ -26,7 +26,7 @@ class Number10Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ten, decade, decuple, decad, tenfold, decenary, dec, decuplet, tenth, deca]
+tags: [ten, number, digit, numeral, count, tenth, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fce3"

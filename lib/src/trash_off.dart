@@ -26,7 +26,7 @@ class TrashOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [garbage, delete, remove, bin, ash-bin, uninstall, dustbin, trash, off, control]
+tags: [delete, remove, bin, garbage, trash-can, disabled, inactive, waste, rubbish, trash, off]
 category: System
 version: "1.31"
 unicode: "ed65"

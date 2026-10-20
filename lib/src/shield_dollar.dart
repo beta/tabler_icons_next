@@ -27,7 +27,7 @@ class ShieldDollar extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [protection, finance, currency, money, security, guard, wealth, cost, economy, budget]
+tags: [security, protection, protect, money, price, payment, cost, usd, currency, guard, safety, secure]
 version: "2.10"
 unicode: "f9c4"
 -->

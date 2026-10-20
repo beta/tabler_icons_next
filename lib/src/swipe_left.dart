@@ -26,7 +26,7 @@ class SwipeLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gesture, swipe, leftward-swipe, scroll-left, slide-left, touch-gesture, screen-swipe, gesture-control, interaction, user-swipe]
+tags: [gesture, touch, swipe, slide, scroll-left, hand, mobile, west]
 category: Arrows
 version: "2.43"
 unicode: "fd5f"

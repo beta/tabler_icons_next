@@ -26,7 +26,7 @@ class BrandPinterest extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, website, images, materials, brand, pinterest, company, trademark, identity, corporate]
+tags: [pinterest, pins, images, inspiration, social, boards, logo, brand]
 category: Brand
 version: "1.15"
 unicode: "ec8d"

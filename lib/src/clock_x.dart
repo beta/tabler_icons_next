@@ -27,7 +27,7 @@ class ClockX extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [close, delete, remove, stop, terminate, cancel, end, reject, deny, halt]
+tags: [x, close, remove, delete, expired, overdue, clock, time, schedule]
 version: "2.8"
 unicode: "f7cb"
 -->

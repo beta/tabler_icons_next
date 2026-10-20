@@ -26,7 +26,7 @@ class Components extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hardware, technology, electronic, computer, design, ux, figma, components, creative, artistic]
+tags: [components, component, design-system, figma, ui-kit, library, instance, symbols, blocks]
 category: Design
 version: "1.48"
 unicode: "efa5"

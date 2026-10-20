@@ -26,7 +26,7 @@ class Notdef extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [notdef, missing, glyph, font, typography, placeholder, unicode, invalid, character, tofu]
+tags: [missing-glyph, tofu, placeholder, font, glyph, unicode, unknown-character, box, typography, notdef]
 category: Text
 unicode: "10248"
 version: "3.43"

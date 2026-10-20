@@ -27,7 +27,7 @@ class ShovelPitchforks extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [shovel, pitchfork, digging-tool, gardening, agriculture, farm-tool, manual-labor, soil, gardening-implement, dig]
+tags: [shovel, pitchfork, farming, gardening, tools, agriculture, dig, garden]
 version: "2.41"
 unicode: "fd3a"
 -->

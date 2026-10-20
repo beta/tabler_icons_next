@@ -26,7 +26,7 @@ class HandStop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [forbiddance, nixing, ban, interdicting, hand, stop, touch, action, motion, interaction]
+tags: [stop, hand, palm, halt, block, raise-hand, wait, gesture, high-five]
 category: Gestures
 version: "1.10"
 unicode: "ec2e"

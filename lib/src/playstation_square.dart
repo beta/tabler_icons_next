@@ -26,7 +26,7 @@ class PlaystationSquare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [controller, console, shape, joystick, playstation, square, hardware, technology, rectangular, electronic]
+tags: [playstation, ps, controller, gamepad, button, square, console, gaming, sony]
 category: Devices
 version: "1.80"
 unicode: "f2ae"

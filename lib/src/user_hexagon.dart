@@ -27,7 +27,7 @@ class UserHexagon extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [shape, geometry, six, polygon, structure, design, pattern, angles, form, figure]
+tags: [person, account, profile, avatar, member, hexagon, badge, shape]
 version: "2.31"
 unicode: "fc4e"
 -->

@@ -27,7 +27,7 @@ class PlayCard9 extends Icon {
 
   static const String _svg = '''<!--
 category: Games
-tags: [nine, carding, casino, deck, number, gameplay, wager, luck, poker, strategy]
+tags: [playing-card, card, nine, 9, number, poker, casino, deck, card-game, cards]
 unicode: "10053"
 version: "3.18"
 -->

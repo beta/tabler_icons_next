@@ -27,7 +27,7 @@ class DeviceMobileShare extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [spread, distribute, communicate, send, broadcast, disperse, exchange, relay, transmit, propagate]
+tags: [phone, smartphone, iphone, send, forward, export, social, android, cellphone, device, distribute]
 version: "2.10"
 unicode: "f8bc"
 -->

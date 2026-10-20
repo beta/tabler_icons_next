@@ -26,7 +26,7 @@ class Tie extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [suit, buisness, fashion, clothes, accessory, clothing, tie, store, purchase, shopping]
+tags: [necktie, suit, business, formal, clothing, fashion, office, menswear, tie]
 category: E-commerce
 version: "1.59"
 unicode: "f07e"

@@ -27,7 +27,7 @@ class DevicesCog extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [settings, gear, adjust, configure, setup, tool, mechanism, system, control, preferences]
+tags: [responsive, multi-device, computer, settings, gear, config, configuration, laptop, phone, tablet, desktop, preferences, options]
 version: "2.10"
 unicode: "f8ea"
 -->

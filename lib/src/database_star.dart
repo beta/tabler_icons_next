@@ -27,7 +27,7 @@ class DatabaseStar extends Icon {
 
   static const String _svg = '''<!--
 category: Database
-tags: [favorite, highlight, featured, notable, remarkable, important, prestige, prime, top, noteworthy]
+tags: [star, favorite, bookmark, rating, featured, database, db, data, storage, sql, server]
 version: "2.13"
 unicode: "fa1a"
 -->

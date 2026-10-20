@@ -26,7 +26,7 @@ class MathYMinusY extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mathematic, expression, equation, math, minus, calculation, subtract, remove, less, decrease]
+tags: [subtraction, minus, subtract, variable, formula, algebra, mathematics, math]
 category: Math
 version: "1.100"
 unicode: "f4f7"

@@ -27,7 +27,7 @@ class MessageCircleShare extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [distribute, spread, broadcast, talk, communication, dialogue, transmit, exchange, send, forward]
+tags: [chat, comment, speech-bubble, round, conversation, sms, send, forward, export, social, reply, communication, dm]
 version: "2.10"
 unicode: "f97f"
 -->

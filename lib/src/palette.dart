@@ -26,7 +26,7 @@ class Palette extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [color, paint, painter, picture, board, artist, palette, creative, artistic, visual]
+tags: [color, colour, palette-colors, paint, art, painter, theme, swatch, palette]
 category: Design
 version: "1.1"
 unicode: "eb01"

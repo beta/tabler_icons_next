@@ -26,7 +26,7 @@ class Space extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [keyboard, type, gap, space, typography, writing, font, character, word, cosmos]
+tags: [spacebar, space-bar, keyboard, key, whitespace, space]
 category: Text
 version: "1.8"
 unicode: "ec0c"

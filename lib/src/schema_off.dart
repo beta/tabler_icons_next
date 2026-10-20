@@ -26,7 +26,7 @@ class SchemaOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [graph, data, infography, schema, off, disabled, inactive, storage, repository, records]
+tags: [database-schema, diagram, data, model, tables, structure, erd, disabled, unavailable, inactive, hidden, schema, off]
 category: Database
 version: "1.94"
 unicode: "f426"

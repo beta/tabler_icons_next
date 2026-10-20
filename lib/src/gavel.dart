@@ -27,7 +27,7 @@ class Gavel extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [justice, law, hammer, legal, auction, gavel]
+tags: [gavel, judge, law, court, legal, justice, auction, hammer, verdict, bid]
 version: "1.47"
 unicode: "ef90"
 -->

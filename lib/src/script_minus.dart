@@ -26,7 +26,7 @@ class ScriptMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, programming, coding, remove, delete, script, minus, subtract, less, decrease]
+tags: [script, code, file, remove, subtract, delete, less, minus]
 category: Document
 version: "1.82"
 unicode: "f2d7"

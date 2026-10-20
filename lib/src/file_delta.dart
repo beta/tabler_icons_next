@@ -26,7 +26,7 @@ class FileDelta extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, document, extension, paper, file, delta, content, record, text, information]
+tags: [delta, difference, change, version, document, file, math, greek, diff]
 category: Document
 version: "1.104"
 unicode: "f53d"

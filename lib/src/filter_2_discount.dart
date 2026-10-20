@@ -26,7 +26,7 @@ class Filter2Discount extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, discount, sort, organize, arrange, select, refine, sieve, screen, sale]
+tags: [filter, filtering, sort, sale, promo, percent, coupon, refine, list, options, deal, offer, discount]
 category: System
 version: "3.32"
 unicode: "1015a"

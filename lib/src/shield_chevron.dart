@@ -26,7 +26,7 @@ class ShieldChevron extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [knight, guard, defence, protect, shield, chevron, control, operation, function, interface]
+tags: [security, protection, shield, badge, rank, military, crest, guard, chevron]
 category: System
 version: "1.47"
 unicode: "ef9b"

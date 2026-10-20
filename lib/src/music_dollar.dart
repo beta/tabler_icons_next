@@ -27,7 +27,7 @@ class MusicDollar extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [currency, price, finance, money, trade, value, buy, wealth, economy, transaction]
+tags: [song, audio, sound, note, melody, track, money, price, payment, paid, usd, cost, mp3, playlist, player]
 version: "2.28"
 unicode: "fbdb"
 -->

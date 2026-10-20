@@ -27,7 +27,7 @@ class Box extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [cube, app, application, package, container, box]
+tags: [package, parcel, delivery, shipping, 3d, cube, product, box]
 version: "1.0"
 unicode: "ea45"
 -->

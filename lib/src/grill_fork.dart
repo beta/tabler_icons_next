@@ -26,7 +26,7 @@ class GrillFork extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cook, cooking, bbq, meat, tool, grill, fork, meal, cuisine, eating]
+tags: [fork, grill, bbq, barbecue, cooking, meat, utensil, tool, kitchen]
 category: Food
 version: "1.89"
 unicode: "f35b"

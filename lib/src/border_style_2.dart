@@ -26,7 +26,7 @@ class BorderStyle2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [google, excel, sheets, border, style, creative, artistic, visual, aesthetic, 2]
+tags: [table, cell, spreadsheet, excel, format, edge, line-style, dashed, solid, border, style]
 category: Design
 version: "1.41"
 unicode: "ef22"

@@ -26,7 +26,7 @@ class MapPin2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [locate, landmark, site, fixed, anchor, point, attach, secure, embed, map]
+tags: [pin, marker, location, place, gps, map, point, poi, destination]
 category: Map
 version: "2.31"
 unicode: "fc48"

@@ -26,7 +26,7 @@ class BuildingEiffelTower extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [eiffel, tower, paris, france, landmark, monument, architecture, tourism, iconic, building]
+tags: [eiffel-tower, paris, france, landmark, monument, tower, tourism, travel, building, eiffel]
 category: Buildings
 unicode: "10251"
 version: "3.43"

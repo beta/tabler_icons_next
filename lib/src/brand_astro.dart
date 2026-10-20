@@ -26,7 +26,7 @@ class BrandAstro extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [space, stars, galaxy, planet, universe, cosmos, astronomy, celestial, orbit, starlight]
+tags: [astro, astrojs, framework, static-site, web, javascript, frontend, ssg, logo, brand]
 category: Brand
 unicode: "fdb9"
 version: "3.0"

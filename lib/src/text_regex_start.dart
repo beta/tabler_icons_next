@@ -26,7 +26,7 @@ class TextRegexStart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [regular, expression, regex, code, programming, coding, pattern, text, start, begin, anchor, caret, beginning]
+tags: [regex, regexp, regular-expression, start-of-line, anchor, caret, pattern, formula, text, start]
 category: Text
 unicode: "1026a"
 version: "3.45"

@@ -26,7 +26,7 @@ class Duplicate extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [copy, clone, replicate, double, twin, repeat, multiply, layers, paste, reproduce]
+tags: [duplicate, copy, clone, replicate, paste, double, layers, content-copy]
 category: Text
 unicode: "102b2"
 version: "3.48"

@@ -26,7 +26,7 @@ class SquareRoundedCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, tick, accpet, done, yes, square, rounded, check, rectangular, confirm]
+tags: [check, checkmark, tick, done, success, confirmed, approved, checkbox, checked, squircle, square, rounded]
 category: Shapes
 version: "1.117"
 unicode: "f63d"

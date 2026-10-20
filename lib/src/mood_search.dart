@@ -26,7 +26,7 @@ class MoodSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [emotion, feeling, happy, face, find, explore, mood, search, look, seek]
+tags: [search, find, emoji-picker, lookup, emoji, smiley, face, emotion, feeling, reaction, mood]
 category: Mood
 version: "2.7"
 unicode: "f7ba"

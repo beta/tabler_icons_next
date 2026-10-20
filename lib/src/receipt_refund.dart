@@ -26,7 +26,7 @@ class ReceiptRefund extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bill, restaurant, shop, price, pay, money, total, give, back, return]
+tags: [refund, return, money-back, bill, invoice, receipt, payment, reimbursement]
 category: Document
 version: "1.38"
 unicode: "edfc"

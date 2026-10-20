@@ -27,7 +27,7 @@ class Alien extends Icon {
 
   static const String _svg = '''<!--
 category: Nature
-tags: [universe, extraterrestrial, ufo, space, galaxy, planet, alien, creature, foreign]
+tags: [ufo, extraterrestrial, space, et, martian, creature, sci-fi, outer-space, alien]
 version: "1.7"
 unicode: "ebde"
 -->

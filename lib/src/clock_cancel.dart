@@ -26,7 +26,7 @@ class ClockCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, delete, remove, close, alarm, clock, cancel, control, operation, stop]
+tags: [cancel, stop, abort, overdue, expired, clock, time, schedule, timer]
 category: System
 version: "1.105"
 unicode: "f546"

@@ -26,7 +26,7 @@ class CircuitCapacitorPolarized extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [diagram, electric, electricity, circuit, capacitor, polarized, energy, voltage, power, current]
+tags: [capacitor, polarized, electrolytic, charge, circuit, electronics, electrical, schematic, diagram, electricity, component]
 category: Electrical
 version: "1.77"
 unicode: "f274"

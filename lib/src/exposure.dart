@@ -26,7 +26,7 @@ class Exposure extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [light, bright, dark, camera, exposure, picture, capture, lens, image]
+tags: [exposure, brightness, contrast, camera, photo, photography, light, adjustment, ev]
 category: Photography
 version: "1.3"
 unicode: "eb8c"

@@ -26,7 +26,7 @@ class Number19Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [nineteen, nineteenth, novendecade, novendecuple, novendecad, nineteenfold, novendecenary, novendec, novendecuplet, 19th]
+tags: [nineteen, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcec"

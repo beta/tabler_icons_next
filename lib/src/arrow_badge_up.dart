@@ -26,7 +26,7 @@ class ArrowBadgeUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [army, badge, military, rank, soldier, war, north, arrow, direction, pointer]
+tags: [chevron, caret, arrowhead, direction, rank, north, upward, top, arrow, badge]
 category: Arrows
 version: "1.115"
 unicode: "f60e"

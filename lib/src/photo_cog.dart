@@ -27,7 +27,7 @@ class PhotoCog extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [gear, settings, preference, configure, tool, mechanism, adjust, tune, photo, visual]
+tags: [image, picture, gallery, img, photography, media, settings, gear, config, preferences, options, thumbnail, landscape, photo]
 version: "2.10"
 unicode: "f992"
 -->

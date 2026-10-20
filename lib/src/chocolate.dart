@@ -26,7 +26,7 @@ class Chocolate extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [chocolate, sweet, candy, dessert, cocoa, confection, treat, food, snack, sugar]
+tags: [chocolate-bar, candy, sweet, dessert, cocoa, snack, treat, sugar, food, chocolate]
 category: Food
 unicode: "1024e"
 version: "3.43"

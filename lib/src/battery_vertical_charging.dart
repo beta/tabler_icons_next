@@ -26,7 +26,7 @@ class BatteryVerticalCharging extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [charge, energy, power, electricity, battery, vertical, charging, hardware, technology, electric]
+tags: [power, energy, charge, level, phone, mobile, plug-in, recharge, battery, vertical, charging]
 category: Devices
 version: "3.7"
 unicode: "ff17"

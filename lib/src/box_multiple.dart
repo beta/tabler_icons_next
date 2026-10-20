@@ -27,7 +27,7 @@ class BoxMultiple extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [css, cascading, style, sheet, background, section, website, layer, box, multiple]
+tags: [stack, layers, copy, duplicate, boxes, copies, layered, box, multiple]
 version: "1.39"
 unicode: "ee17"
 -->

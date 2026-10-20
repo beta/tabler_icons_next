@@ -26,7 +26,7 @@ class BorderBottom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [table, side, line, border, bottom, creative, artistic, visual, aesthetic, style]
+tags: [table, cell, spreadsheet, excel, format, edge, cell-border, outline, border, bottom]
 category: Design
 version: "1.0"
 unicode: "ea3c"

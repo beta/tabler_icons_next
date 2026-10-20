@@ -26,7 +26,7 @@ class LogicAnd extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gate, technology, electirical, it, logic, and, boolean, operation, reasoning, conditional]
+tags: [logic, gate, boolean, circuit, electronics, digital, operator, binary, conjunction, schematic, electrical, and]
 category: Logic
 version: "1.74"
 unicode: "f240"

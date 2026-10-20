@@ -26,7 +26,7 @@ class BrandTinder extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [date, dating, app, love, affection, affair, couple, technology, networking, swipe, match]
+tags: [tinder, dating, app, match, swipe, love, flame, logo, brand]
 category: Brand
 version: "1.32"
 unicode: "ed71"

@@ -27,7 +27,7 @@ class MessageUser extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [identity, member, person, individual, participant, customer, viewer, visitor, client, account]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, person, profile, account, avatar, reply, communication, dm]
 unicode: "fec4"
 version: "3.3"
 -->

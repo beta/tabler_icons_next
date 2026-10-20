@@ -26,7 +26,7 @@ class BrandLinqpad extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [framework, programmers, database, brand, linqpad, logo, company, trademark, identity, corporate]
+tags: [linqpad, dotnet, csharp, linq, database, query, ide, logo, brand]
 category: Brand
 version: "1.106"
 unicode: "f562"

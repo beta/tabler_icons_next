@@ -27,8 +27,8 @@ class Forbid2 extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [banish, prohibit, interdict, outlaw, restrict, abolish, refrain, restrain, hinder, block]
-tag: [access, restriction, ban, limit]
+tags: [forbid, forbidden, prohibited, not-allowed, no-entry, ban, block, restricted, denied, stop]
+tag: [access, restriction, limit]
 version: "1.6"
 unicode: "ebd4"
 -->

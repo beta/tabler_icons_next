@@ -26,7 +26,7 @@ class BrandZwift extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [technology, bike, sport, movement, game, brand, zwift, logo, company, trademark]
+tags: [zwift, cycling, indoor-cycling, fitness, running, game, sport, logo, brand]
 category: Brand
 version: "1.71"
 unicode: "f216"

@@ -27,7 +27,7 @@ class PhoneDone extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [complete, finished, successful, answered, call, communication, conversation, connect, end-call, check]
+tags: [call-completed, call, telephone, contact, dial, mobile, handset, done, success, confirmed, approved, verified, tick]
 unicode: "ff9e"
 version: "3.12"
 -->

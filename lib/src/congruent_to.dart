@@ -27,7 +27,7 @@ class CongruentTo extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [equal, similar, alike, match, correspond, identical, mirror, parallel, equivalent, consistent]
+tags: [congruent, equal, equivalent, identical, approximately, math, symbol, operator, geometry]
 unicode: "ffa3"
 version: "3.12"
 -->

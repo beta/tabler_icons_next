@@ -26,7 +26,7 @@ class Decimal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [point, fraction, numeric, number, mathematics, decimal-point, decimal-system, fractional, math, dot]
+tags: [decimal, decimal-point, point, number, fraction, float, math, numeric, format]
 category: Math
 version: "2.14"
 unicode: "fa26"

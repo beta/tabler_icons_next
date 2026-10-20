@@ -26,7 +26,7 @@ class RepeatOnce extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [reuse, redo, action, replay, loop, repeat, once, content, entertainment, multimedia]
+tags: [loop, repeat-one, replay, single, once, music, repeat]
 category: Media
 version: "1.2"
 unicode: "eb71"

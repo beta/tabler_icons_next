@@ -26,7 +26,7 @@ class BroadcastOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [communication, tv, signal, media, sound, connection, network, broadcast, off, hardware]
+tags: [broadcast, signal, antenna, radio, transmission, podcast, live, disabled, off, unavailable, inactive, offline, no-signal]
 category: Devices
 version: "1.69"
 unicode: "f1e8"

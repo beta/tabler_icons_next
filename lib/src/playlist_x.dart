@@ -26,7 +26,7 @@ class PlaylistX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [off, delete, remove, playlist, content, entertainment, multimedia, broadcast, audio, x]
+tags: [remove-from-playlist, delete, remove, music, songs, queue, list, clear, playlist, x]
 category: Media
 version: "1.53"
 unicode: "f009"

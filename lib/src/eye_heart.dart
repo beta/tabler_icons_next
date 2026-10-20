@@ -27,7 +27,7 @@ class EyeHeart extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [love, affection, vision, sight, emotion, passion, admire, adore, view, focus]
+tags: [view, visibility, show, love, like, favorite, favourite, see, vision, preview, watch]
 version: "2.9"
 unicode: "f7f0"
 -->

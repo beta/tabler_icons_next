@@ -26,7 +26,7 @@ class Stethoscope extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [doctor, medical, physician, test, examination, health, illness, sickness, scrutiny, hospital]
+tags: [doctor, medical, physician, health, checkup, examination, hospital, healthcare]
 version: "1.33"
 category: Health
 unicode: "edbe"

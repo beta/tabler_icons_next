@@ -27,7 +27,7 @@ class EyePin extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [attach, fasten, secure, vision, sight, hold, fix, stick, view, focus]
+tags: [view, visibility, show, location, map-pin, marker, place, see, vision, preview, watch, gps, geolocation]
 version: "2.28"
 unicode: "fb75"
 -->

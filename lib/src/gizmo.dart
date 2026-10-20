@@ -27,7 +27,7 @@ class Gizmo extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [system, network, tech, connection, gizmo]
+tags: [gizmo, transform, 3d, axis, move-tool, handles, manipulator, blender, xyz, orientation]
 version: "1.55"
 unicode: "f02b"
 -->

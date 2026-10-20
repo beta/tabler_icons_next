@@ -27,7 +27,7 @@ class Bulb extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [energy, power, electricity, creativity, light, idea, bulb]
+tags: [bulb, lightbulb, light, idea, lamp, tip, hint, creativity, innovation]
 version: "1.0"
 unicode: "ea51"
 -->

@@ -26,7 +26,7 @@ class Browser extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [internet, web, display, browser, hardware, technology, electronic, gadget, equipment]
+tags: [browser, window, web, internet, webpage, website, tab, app]
 category: Devices
 version: "1.5"
 unicode: "ebb7"

@@ -26,7 +26,7 @@ class PlaystationTriangle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [controller, console, shape, joystick, playstation, triangle, hardware, technology, electronic, gadget]
+tags: [playstation, ps, controller, gamepad, button, triangle, console, gaming, sony]
 category: Devices
 version: "1.80"
 unicode: "f2af"

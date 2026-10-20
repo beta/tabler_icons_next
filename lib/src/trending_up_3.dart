@@ -26,7 +26,7 @@ class TrendingUp3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, grow, increase, progress, trending, top, navigation, flow, rise, upward]
+tags: [trend, up, growth, increase, rise, chart, profit, rising, trending]
 category: Arrows
 version: "1.35"
 unicode: "edc4"

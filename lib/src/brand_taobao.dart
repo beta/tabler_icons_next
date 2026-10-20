@@ -26,7 +26,7 @@ class BrandTaobao extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [china, platform, shopping, online, brand, taobao, logo, company, trademark, identity]
+tags: [taobao, alibaba, shopping, ecommerce, marketplace, china, logo, brand]
 category: Brand
 version: "1.113"
 unicode: "f5ef"

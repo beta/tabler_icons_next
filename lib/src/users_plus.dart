@@ -27,7 +27,7 @@ class UsersPlus extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [add, increase, expand, grow, enlarge, amplify, supplement, augment, boost, enhance]
+tags: [people, group, team, add, invite, new, members, user]
 version: "2.12"
 unicode: "fa0f"
 -->

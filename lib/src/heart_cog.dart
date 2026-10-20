@@ -27,7 +27,7 @@ class HeartCog extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [settings, adjust, configure, gear, mechanics, tool, customize, control, function, optimize]
+tags: [heart, love, like, favorite, favourite, settings, gear, cog, configuration, preferences, options]
 version: "2.28"
 unicode: "fba2"
 -->

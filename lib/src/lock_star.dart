@@ -27,7 +27,7 @@ class LockStar extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [favorite, rate, prefer, importance, highlight, prominent, priority, noteworthy, marked, prestige]
+tags: [lock, padlock, locked, security, secure, password, private, protected, star, starred, favorite, rating, bookmark]
 version: "2.10"
 unicode: "f934"
 -->

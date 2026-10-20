@@ -26,7 +26,7 @@ class WashTemperature2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [laundry, clean, clear, clothes, low, cold, wash, temperature, cleaning, washing]
+tags: [laundry, care-label, clothes, washing, temperature, warm, 40-degrees, laundry-symbol, garment, wash]
 category: Laundry
 version: "1.84"
 unicode: "f30a"

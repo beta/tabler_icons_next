@@ -27,7 +27,7 @@ class HeartExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [alert, caution, notice, warn, attention, important, critical, urgent, signal, highlight]
+tags: [heart, love, like, favorite, favourite, warning, alert, error, important, attention]
 version: "2.28"
 unicode: "fba6"
 -->

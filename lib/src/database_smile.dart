@@ -27,7 +27,7 @@ class DatabaseSmile extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [happy, joyful, cheerful, content, pleased, delighted, bright, sunny, gleeful, jovial]
+tags: [smile, happy, healthy, ok, database, db, data, storage, emoji]
 version: "2.47"
 unicode: "fd9b"
 -->

@@ -26,7 +26,7 @@ class InfoSquare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [information, advice, news, tip, sign, info, square, control, operation, rectangular]
+tags: [info, information, about, details, help, tip, i, square, notice]
 category: System
 version: "1.0"
 unicode: "eac6"

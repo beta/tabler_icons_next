@@ -26,7 +26,7 @@ class FileTypeJpg extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [photo, jpeg, picture, snapshot, visual, bitmap, raster, color, file, type]
+tags: [jpg, jpeg, image, photo, picture, raster, file-format, extension, graphic, file, type]
 category: Document
 version: "2.25"
 unicode: "fb0d"

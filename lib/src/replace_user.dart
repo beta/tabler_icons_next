@@ -27,7 +27,7 @@ class ReplaceUser extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [swap, exchange, change, substitute, switch, alternate, modify, update, alter, transition]
+tags: [switch-user, swap-user, change-user, substitute, account, user, person, exchange]
 unicode: "100f0"
 version: "3.27"
 -->

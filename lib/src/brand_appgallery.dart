@@ -26,7 +26,7 @@ class BrandAppgallery extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [games, apps, online, store, video, brand, appgallery, logo, company, trademark]
+tags: [appgallery, huawei, app-store, apps, store, android, download, logo, brand]
 category: Brand
 version: "1.73"
 unicode: "f231"

@@ -26,7 +26,7 @@ class Acorn extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [acorn, oak, nut, seed, forest, nature, autumn, wildlife, tree, woodland]
+tags: [oak, nut, seed, tree, autumn, fall, forest, nature, squirrel, acorn]
 category: Nature
 unicode: "10255"
 version: "3.43"

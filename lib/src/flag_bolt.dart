@@ -27,7 +27,7 @@ class FlagBolt extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [electricity, energy, power, speed, charge, thunder, zap, storm, blast, current]
+tags: [report, banner, milestone, lightning, flash, energy, power, mark, country, goal, charge, electric, fast]
 version: "2.28"
 unicode: "fb8a"
 -->

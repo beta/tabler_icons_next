@@ -26,7 +26,7 @@ class Filter2Down extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, down, bottom, decrease, fall, downward, sort, organize, arrange, select]
+tags: [filter, filtering, sort, download, arrow-down, decrease, lower, refine, list, options, receive, down]
 category: System
 version: "3.32"
 unicode: "10158"

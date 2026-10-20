@@ -26,7 +26,7 @@ class MapWest extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [left, westward, sunset, horizon, westbound, western, navigate, direction, sunfall, occidental]
+tags: [map, west, compass, direction, west-arrow, navigation, cardinal]
 category: Map
 version: "2.32"
 unicode: "fc60"

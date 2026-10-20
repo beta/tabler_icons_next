@@ -27,7 +27,7 @@ class CloudSearch extends Icon {
 
   static const String _svg = '''<!--
 category: Weather
-tags: [find, look, locate, discover, explore, research, seek, inspect, browse, scan]
+tags: [search, find, magnifier, lookup, cloud, cloud-storage, online, sync, storage, weather]
 version: "2.10"
 unicode: "f859"
 -->

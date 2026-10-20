@@ -26,7 +26,7 @@ class CloudSnow extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, blizzard, cloud, snow, storage, online, climate, forecast, server, sync]
+tags: [snow, snowy, snowfall, winter, blizzard, weather, forecast, cloud]
 category: Weather
 version: "1.0"
 unicode: "ea73"

@@ -27,7 +27,7 @@ class FileExcel extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [spreadsheet, data, charts, tables, analysis, calculation, document, finance, figures, worksheet]
+tags: [excel, spreadsheet, xls, xlsx, microsoft, office, table, sheet, document, data]
 unicode: "fef3"
 version: "3.5"
 -->

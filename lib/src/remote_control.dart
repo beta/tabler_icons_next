@@ -26,7 +26,7 @@ class RemoteControl extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [control, remote, tv, television, device, signal, wireless, hardware, technology, gadget]
+tags: [remote, tv, television, controller, device, infrared, buttons, control]
 category: Devices
 unicode: "1028b"
 version: "3.46"

@@ -26,7 +26,7 @@ class Zip extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [file, document, folder, compress, archive, filetype, zip, plugin, addon, module]
+tags: [zip, archive, compress, compressed, file, rar, extension, zip-file]
 category: Extensions
 version: "1.93"
 unicode: "f3b4"

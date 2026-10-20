@@ -26,7 +26,7 @@ class BrandRedhat extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, entrepreneurship, creation, brand, redhat, logo, company, trademark, identity, corporate]
+tags: [red-hat, redhat, linux, rhel, enterprise, open-source, ibm, logo, brand]
 category: Brand
 version: "1.86"
 unicode: "f331"

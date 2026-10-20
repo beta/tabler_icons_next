@@ -26,7 +26,7 @@ class PlayBugs extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bugs, play, debug, errors, insects, programming, software, coding, developer, media]
+tags: [debug, run-tests, bugs, start, play, debugger, testing, errors, development]
 category: Development
 unicode: "1028c"
 version: "3.46"

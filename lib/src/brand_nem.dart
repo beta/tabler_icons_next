@@ -26,7 +26,7 @@ class BrandNem extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coin, crypto, cryptocurrency, digital, brand, nem, logo, company, trademark, identity]
+tags: [nem, xem, crypto, cryptocurrency, blockchain, coin, logo, brand]
 category: Brand
 version: "1.110"
 unicode: "f5a1"

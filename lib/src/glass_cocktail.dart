@@ -27,7 +27,7 @@ class GlassCocktail extends Icon {
 
   static const String _svg = '''<!--
 category: Food
-tags: [mix, alcohol, drink, beverage, martini, shaker, refreshing, summer, beach, garnish]
+tags: [cocktail, martini, glass, drink, bar, alcohol, party, beverage, happy-hour]
 version: "2.47"
 unicode: "fd9d"
 -->

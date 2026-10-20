@@ -26,7 +26,7 @@ class Lambda extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [letter, alphabet, greek, math, lambda, character, typography, text, writing]
+tags: [lambda, greek, letter, math, function, aws-lambda, serverless, symbol, character]
 category: Letters
 version: "1.104"
 unicode: "f541"

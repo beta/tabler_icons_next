@@ -27,7 +27,7 @@ class Needle extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [sewing, tailoring, craft, tailor, needle]
+tags: [sewing, pin, tailor, craft, stitch, sew, injection, needle]
 version: "1.101"
 unicode: "f508"
 -->

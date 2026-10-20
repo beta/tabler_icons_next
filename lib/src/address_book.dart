@@ -27,7 +27,7 @@ class AddressBook extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [contact, contacts, phonebook, profile, resources, address, book]
+tags: [contacts, contact, phonebook, directory, people, address-list, rolodex, address, book]
 version: "1.55"
 unicode: "f021"
 -->

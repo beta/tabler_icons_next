@@ -26,7 +26,7 @@ class Rollercoaster extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [adrenaline, height, speed, funfair, fun, attraction, extreme, rollercoaster, transport, travel]
+tags: [roller-coaster, amusement-park, theme-park, funfair, ride, attraction, fun, rollercoaster]
 category: Vehicles
 version: "1.61"
 unicode: "f0a2"

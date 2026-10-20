@@ -26,7 +26,7 @@ class DeviceImac extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [computer, monitor, apple, desktop, pc, device, imac, hardware, technology, electronic]
+tags: [imac, mac, apple, computer, desktop, monitor, all-in-one, screen, pc, device]
 category: Devices
 version: "2.6"
 unicode: "f7a7"

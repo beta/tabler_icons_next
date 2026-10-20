@@ -26,7 +26,7 @@ class Filter2Cancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, cancel, sort, organize, arrange, select, refine, sieve, screen, stop]
+tags: [filter, filtering, sort, cancel, stop, abort, block, refine, list, options, denied, forbidden]
 category: System
 version: "3.32"
 unicode: "1015e"

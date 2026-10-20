@@ -26,7 +26,7 @@ class CloudStorm extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, lightning, cloud, storm, storage, online, climate, forecast, server, sync]
+tags: [storm, thunderstorm, lightning, thunder, weather, forecast, rain, cloud]
 category: Weather
 version: "1.0"
 unicode: "ea74"

@@ -26,7 +26,7 @@ class TruckReturn extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [order, purchase, online, shop, store, e-commerce, lorry, truck, return, shopping]
+tags: [return, returns, refund, truck, shipping, delivery, reverse, freight]
 category: E-commerce
 version: "1.11"
 unicode: "ec4c"

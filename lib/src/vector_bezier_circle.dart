@@ -26,7 +26,7 @@ class VectorBezierCircle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [curve, drafting, reshape, shape, vector, bezier, circle, creative, artistic, round]
+tags: [bezier, circle, curve, vector, path, pen-tool, design, vector-graphics]
 category: Design
 version: "1.98"
 unicode: "f4ce"

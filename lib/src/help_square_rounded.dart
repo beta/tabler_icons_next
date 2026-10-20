@@ -26,7 +26,7 @@ class HelpSquareRounded extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [support, aid, assist, guide, rounded, curved, soften, bubble, smooth, contour]
+tags: [help, question, support, faq, question-mark, square-rounded, squircle, info, assistance, rounded]
 version: "2.10"
 unicode: "f91f"
 category: System

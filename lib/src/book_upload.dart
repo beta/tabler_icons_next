@@ -26,7 +26,7 @@ class BookUpload extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [e-book, e-learning, education, reading, book, upload, import, transfer, send, publish]
+tags: [read, reading, library, education, study, literature, novel, ebook, publish, book, upload]
 category: Document
 version: "1.59"
 unicode: "f071"

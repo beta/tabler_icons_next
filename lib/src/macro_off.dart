@@ -26,7 +26,7 @@ class MacroOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [video, photography, photo, camera, macro, off, disabled, inactive, picture, image]
+tags: [macro, close-up, camera, photo, photography, disabled, off-state, unavailable, off]
 category: Photography
 version: "1.94"
 unicode: "f406"

@@ -27,7 +27,7 @@ class DeviceIpadDown extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [download, descend, lower, decrease, drop, reduce, fall, sink, bottom, under]
+tags: [down, download, arrow-down, decrease, ipad, tablet, apple, ios, mobile]
 version: "2.10"
 unicode: "f88b"
 -->

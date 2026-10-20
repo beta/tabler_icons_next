@@ -27,7 +27,7 @@ class DeviceMobileUp extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [increase, ascend, rise, elevate, boost, improve, uplift, advance, enhance, grow]
+tags: [phone, smartphone, iphone, upload, arrow-up, increase, raise, android, cellphone, device, send]
 version: "2.10"
 unicode: "f8be"
 -->

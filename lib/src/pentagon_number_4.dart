@@ -26,7 +26,7 @@ class PentagonNumber4 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [four, quartet, quadruple, quadrangle, quart, quaternary, quad, foursome, quadro, fourfold]
+tags: [four, number, digit, pentagon, shape, badge, numeral, count]
 category: Numbers
 version: "2.34"
 unicode: "fc82"

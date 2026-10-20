@@ -26,7 +26,7 @@ class Ship extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sail, sail across, ocean, river, lake, sea, sailor, journey, transit, manufactures, containers]
+tags: [boat, cruise, ship, ferry, vessel, sea, ocean, shipping, freight]
 category: Vehicles
 version: "1.14"
 unicode: "ec84"

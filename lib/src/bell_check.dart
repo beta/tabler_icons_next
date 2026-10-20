@@ -27,7 +27,7 @@ class BellCheck extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [confirm, verify, approve, acknowledge, validate, authenticate, certify, affirm, assure, ratify]
+tags: [notification, alert, reminder, notify, alarm, done, success, confirmed, approved, complete, tick, ok]
 version: "2.10"
 unicode: "f814"
 -->

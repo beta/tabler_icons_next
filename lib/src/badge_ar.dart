@@ -26,7 +26,7 @@ class BadgeAr extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, agumented, reality, techonoly, badge, ar, award, achievement, recognition, certificate]
+tags: [augmented-reality, label, virtual, 3d, ar-badge, mixed-reality, tag, technology, badge, ar]
 category: Badges
 version: "1.106"
 unicode: "f559"

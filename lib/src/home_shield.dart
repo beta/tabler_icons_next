@@ -26,7 +26,7 @@ class HomeShield extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [security, safety, secure, safe, home, shield, house, main, architecture, structure]
+tags: [home, house, shield, security, protection, insurance, safe, home-security]
 category: Buildings
 version: "1.87"
 unicode: "f343"

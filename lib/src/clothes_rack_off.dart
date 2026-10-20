@@ -26,7 +26,7 @@ class ClothesRackOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hanger, furniture, fashion, clothing, stand, clothes, rack, off, store, purchase]
+tags: [clothes-rack, hanger, wardrobe, clothes, clothing, fashion, closet, off, disabled, rack]
 category: E-commerce
 version: "1.94"
 unicode: "f3d6"

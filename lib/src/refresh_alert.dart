@@ -26,7 +26,7 @@ class RefreshAlert extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [synchronization, reload, restart, spinner, loader, ajax, update, arrows, refresh, alert]
+tags: [refresh, reload, sync, error, warning, failed, update, alert]
 category: Arrows
 version: "1.0"
 unicode: "ed57"

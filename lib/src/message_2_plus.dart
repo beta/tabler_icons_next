@@ -27,7 +27,7 @@ class Message2Plus extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [add, increase, more, additional, positive, gain, supplement, expand, raise, amplify]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, add, new, create, insert, reply, communication, dm]
 version: "2.10"
 unicode: "f967"
 -->

@@ -27,7 +27,7 @@ class Point extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [dot, label, point, design]
+tags: [dot, circle, bullet, marker, spot, small-circle, point]
 version: "1.0"
 unicode: "eb0c"
 -->

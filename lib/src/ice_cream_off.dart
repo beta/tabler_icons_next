@@ -26,7 +26,7 @@ class IceCreamOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [candy, dessert, frozen, sweet, ice, cream, off, meal, cuisine, disabled]
+tags: [ice-cream, gelato, dessert, frozen, sweet, disabled, off-state, unavailable, ice, cream, off]
 category: Food
 version: "1.66"
 unicode: "f148"

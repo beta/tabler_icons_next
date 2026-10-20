@@ -26,7 +26,7 @@ class Rotate360 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [degree, circle, camera, spin, rotation, rotate, 360, navigation, flow, movement]
+tags: [360-degrees, rotate, rotation, spin, panorama, 360, view]
 category: Arrows
 version: "1.46"
 unicode: "ef85"

@@ -26,7 +26,7 @@ class BuildingBank extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [architecture, city, urban, construction, money, credit, loan, workplace, building, bank]
+tags: [bank, finance, money, institution, government, courthouse, museum, columns, building]
 category: Buildings
 version: "1.7"
 unicode: "ebe2"

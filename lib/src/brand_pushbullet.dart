@@ -26,7 +26,7 @@ class BrandPushbullet extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, transfer, tool, software, brand, pushbullet, logo, company, trademark, identity]
+tags: [pushbullet, notifications, push, file-transfer, sync, devices, logo, brand]
 category: Brand
 version: "1.86"
 unicode: "f330"

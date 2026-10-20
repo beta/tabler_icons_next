@@ -27,7 +27,7 @@ class MapCancel extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [void, dismiss, negate, stop, abort, halt, revoke, quit, retract, discontinue]
+tags: [map, navigation, location, travel, geography, directions, atlas, cancel, cancelled, blocked, forbidden, denied]
 version: "2.28"
 unicode: "fbc4"
 -->

@@ -26,7 +26,7 @@ class StepOut extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vector, placement, outside, except, step, out, navigation, flow, movement, route]
+tags: [debug, debugger, step-out, breakpoint, developer, code, arrow, debugging, breakpoints, step, out]
 category: Arrows
 version: "1.20"
 unicode: "ece1"

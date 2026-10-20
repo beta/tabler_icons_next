@@ -27,7 +27,7 @@ class SquareAsterisk extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [shapes, star, password, security, square, asterisk, rectangular]
+tags: [asterisk, required, password, star, square, box]
 version: "1.54"
 unicode: "f01a"
 -->

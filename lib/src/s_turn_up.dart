@@ -26,7 +26,7 @@ class STurnUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, direction, top, north, turn, increase, navigation, flow, rise, upward]
+tags: [s-curve, arrow, curve, turn, up, north, direction, route]
 category: Arrows
 version: "1.102"
 unicode: "f519"

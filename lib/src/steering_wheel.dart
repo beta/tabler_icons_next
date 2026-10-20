@@ -26,7 +26,7 @@ class SteeringWheel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [drive, vehicle, direction, turn, holding, racing, steering, wheel, transport, travel]
+tags: [car, drive, driving, vehicle, steer, wheel, automotive, racing, steering]
 category: Vehicles
 version: "1.13"
 unicode: "ec7b"

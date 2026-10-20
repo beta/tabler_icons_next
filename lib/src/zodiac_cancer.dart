@@ -26,7 +26,7 @@ class ZodiacCancer extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, horoscope, constellation, stars, zodiac, cancer, astrology, star]
+tags: [zodiac, horoscope, astrology, star-sign, sign, crab, constellation, astrological, cancer]
 category: Zodiac
 version: "1.17"
 unicode: "ecae"

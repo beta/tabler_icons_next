@@ -27,7 +27,7 @@ class BadgeOff extends Icon {
 
   static const String _svg = '''<!--
 category: Badges
-tags: [army, badge, military, rank, soldier, war, off, disabled, inactive, label]
+tags: [label, tag, rank, military, chevron, insignia, disabled, inactive, badge, off]
 version: "1.65"
 unicode: "f0fb"
 -->

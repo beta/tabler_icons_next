@@ -26,7 +26,7 @@ class ScriptPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, programming, coding, add, new, script, plus, more, increase, positive]
+tags: [script, code, file, add, new, create, insert, plus]
 category: Document
 version: "1.82"
 unicode: "f2d8"

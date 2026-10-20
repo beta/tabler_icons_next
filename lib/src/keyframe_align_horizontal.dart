@@ -26,7 +26,7 @@ class KeyframeAlignHorizontal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [animation, shape, keyframe, align, horizontal, content, entertainment, multimedia, broadcast, audio]
+tags: [keyframe, animation, timeline, motion, diamond, video-editing, frame, align, horizontal]
 category: Media
 version: "1.108"
 unicode: "f583"

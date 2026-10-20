@@ -26,7 +26,7 @@ class SunLow extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [temperature, cold, wheater, thermometer, forecast, sun, low, climate, meteorology, atmospheric]
+tags: [sun, low-temperature, cool, weather, forecast, winter, sunny, daylight, low]
 category: Weather
 version: "1.73"
 unicode: "f237"

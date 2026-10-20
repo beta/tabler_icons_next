@@ -26,7 +26,7 @@ class Antenna extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [reach, tv, network, connetion, signal, communication, antenna, hardware, technology, electronic]
+tags: [signal, broadcast, tv, radio, network, transmission, tower, wireless, reception, antenna]
 category: Devices
 version: "1.61"
 unicode: "f094"

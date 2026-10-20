@@ -26,7 +26,7 @@ class FilePhone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [save, transfer, input, file, phone, document, data, call, mobile, content]
+tags: [phone, call, contact, phone-book, directory, document, file, mobile, telephone]
 category: Document
 version: "1.20"
 unicode: "ecdc"

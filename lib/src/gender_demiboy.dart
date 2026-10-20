@@ -26,7 +26,7 @@ class GenderDemiboy extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identity, demimale, demi, gender, demiboy, person, human, individual]
+tags: [demiboy, demimale, gender, non-binary, identity, lgbt, lgbtq, symbol]
 category: Gender
 version: "1.64"
 unicode: "f0e4"

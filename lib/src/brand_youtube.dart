@@ -26,7 +26,7 @@ class BrandYoutube extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, platform, channel, film, video, youtuber, maker, comments, stream, streamer]
+tags: [youtube, google, video, streaming, channel, player, play, youtuber, logo, brand]
 category: Brand
 version: "1.15"
 unicode: "ec90"

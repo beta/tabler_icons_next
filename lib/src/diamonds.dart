@@ -26,7 +26,7 @@ class Diamonds extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gambling, game, casino, cards, poker, diamonds, geometry, form, figure, pattern]
+tags: [diamonds, card-suit, playing-cards, poker, casino, cards, suit, gambling, game]
 category: Shapes
 version: "1.52"
 unicode: "eff5"

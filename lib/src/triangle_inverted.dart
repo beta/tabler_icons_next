@@ -26,7 +26,7 @@ class TriangleInverted extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, geometry, geometric, pyramid, design, triangle, inverted, form, figure, pattern]
+tags: [triangle, inverted, upside-down, shape, geometry, delta, polygon, triangular]
 category: Shapes
 version: "1.54"
 unicode: "f01d"

@@ -26,7 +26,7 @@ class GenderEpicene extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identity, genderqueer, transgender, gender, epicene, person, human, individual]
+tags: [epicene, gender, non-binary, identity, lgbt, lgbtq, symbol]
 category: Gender
 version: "1.64"
 unicode: "f0e6"

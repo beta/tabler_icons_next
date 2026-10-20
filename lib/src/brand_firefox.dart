@@ -26,7 +26,7 @@ class BrandFirefox extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [browser, internet, web, logo, brand, firefox, company, trademark, identity, corporate]
+tags: [firefox, mozilla, browser, web, internet, logo, brand, open-source, fox]
 category: Brand
 version: "1.23"
 unicode: "ecfd"

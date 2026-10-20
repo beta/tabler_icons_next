@@ -26,7 +26,7 @@ class Asterisk extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [star, password, security, asterisk, typography, writing, font, character, word]
+tags: [star, required, password, wildcard, footnote, symbol, mandatory, asterisk]
 category: Text
 version: "1.51"
 unicode: "efd5"

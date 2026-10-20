@@ -26,7 +26,7 @@ class CurrencyRuble extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [rub, russian, ruble, money, banknote, pay, currency, finance, payment]
+tags: [ruble, rouble, rub, russia, russian, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "ee67"

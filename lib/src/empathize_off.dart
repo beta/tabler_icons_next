@@ -26,7 +26,7 @@ class EmpathizeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pepole, understund, thinking, care, empathize, off, medical, wellness, disabled, inactive]
+tags: [empathize, empathy, care, support, understanding, compassion, disabled, inactive, unavailable, slash, turn-off, people, listen, off]
 category: Health
 version: "1.94"
 unicode: "f3e9"

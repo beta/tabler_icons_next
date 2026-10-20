@@ -26,7 +26,7 @@ class BrandSkype extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, application, app, communication, talks, call, video, internet, camera, brand]
+tags: [skype, microsoft, video-call, call, chat, messaging, voip, logo, brand]
 category: Brand
 version: "1.23"
 unicode: "ed02"

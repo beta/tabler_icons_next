@@ -27,7 +27,7 @@ class X extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [cancel, remove, delete, empty, close, x]
+tags: [close, cancel, remove, delete, dismiss, exit, clear, cross, times, multiply, x]
 version: "1.0"
 unicode: "eb55"
 -->

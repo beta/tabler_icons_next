@@ -26,7 +26,7 @@ class Satellite extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [orbit, space, moon, earth, planet, communication, information, celestial, satellite, location]
+tags: [space, orbit, communication, satellite-dish, gps, signal, satellite]
 category: Map
 version: "1.39"
 unicode: "eed3"

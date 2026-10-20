@@ -27,7 +27,7 @@ class MapLock extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [map, lock, security, location, protected, access, secure]
+tags: [map, lock, locked, private, secure, location, navigation]
 unicode: "10203"
 version: "3.40"
 -->

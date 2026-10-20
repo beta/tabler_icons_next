@@ -26,7 +26,7 @@ class Blind extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vision, impaired, disability, accessibility, a11y, low-vision, cane, stick, inclusive, barrier-free]
+tags: [blindness, visually-impaired, low-vision, cane, accessibility, disability, a11y]
 category: Health
 unicode: "101af"
 version: "3.36"

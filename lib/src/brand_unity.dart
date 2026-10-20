@@ -26,7 +26,7 @@ class BrandUnity extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [engine, creation, 3d, 2d, brand, unity, logo, company, trademark, identity]
+tags: [unity, game-engine, gamedev, 3d, 2d, games, logo, brand]
 category: Brand
 version: "1.96"
 unicode: "f49d"

@@ -26,7 +26,7 @@ class Stretching extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exercise, yoga, workout, fitness, gym, body, stretching, athletic, game, physical]
+tags: [exercise, yoga, workout, fitness, gym, stretch, warmup, flexibility, stretching]
 category: Sport
 version: "1.82"
 unicode: "f2db"

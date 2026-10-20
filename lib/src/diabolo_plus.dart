@@ -26,7 +26,7 @@ class DiaboloPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, diabolo, plus, add, more, increase]
+tags: [diabolo, 3d, geometry, shape, solid, add, new, create, plus]
 category: Shapes
 version: "2.20"
 unicode: "fa9b"

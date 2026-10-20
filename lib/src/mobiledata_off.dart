@@ -27,7 +27,7 @@ class MobiledataOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [disconnect, block, disable, inactive, unavailable, halt, offline, terminate, stop, mobiledata]
+tags: [mobile-data, cellular, network, offline, no-data, disabled, slash, mobiledata]
 version: "2.11"
 unicode: "f9f4"
 -->

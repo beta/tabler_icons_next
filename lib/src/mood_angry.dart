@@ -26,7 +26,7 @@ class MoodAngry extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mad, feeling, face, nervous, mood, angry]
+tags: [angry, mad, rage, furious, upset, emoji, smiley, face, emotion, feeling, reaction, mood]
 category: Mood
 version: "1.83"
 unicode: "f2de"

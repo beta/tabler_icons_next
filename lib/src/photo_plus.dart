@@ -26,7 +26,7 @@ class PhotoPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gallery, add, new, photo, plus, content, entertainment, more, increase, positive]
+tags: [add-image, upload-image, image, picture, gallery, img, photography, media, add, new, create, insert, thumbnail, landscape, photo, plus]
 category: Media
 version: "1.89"
 unicode: "f363"

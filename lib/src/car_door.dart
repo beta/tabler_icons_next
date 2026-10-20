@@ -26,7 +26,7 @@ class CarDoor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [car, door, vehicle, auto, automobile, transport, travel, hatch, panel, garage]
+tags: [car-door, door, car, vehicle, open-door, automobile, entry, auto]
 category: Vehicles
 unicode: "10250"
 version: "3.43"

@@ -26,7 +26,7 @@ class Number3Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [three, trio, triplet, third, treble, triad, tertiary, threesome, triple, triangular]
+tags: [three, number, digit, numeral, count, third, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcf8"

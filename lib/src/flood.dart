@@ -26,7 +26,7 @@ class Flood extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [flood, flooding, water, disaster, storm, climate, weather, damage, rise, house]
+tags: [flood, flooding, water, disaster, storm, rain, natural-disaster, weather, emergency, insurance]
 category: Weather
 unicode: "1024b"
 version: "3.43"

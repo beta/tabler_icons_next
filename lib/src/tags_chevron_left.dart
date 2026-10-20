@@ -26,7 +26,7 @@ class TagsChevronLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [label, price, tags, chevron, left, shopping, store, purchase, retail, business]
+tags: [labels, tags, chevron, caret, dropdown, previous, categories, filter, select, left]
 category: E-commerce
 unicode: "10285"
 version: "3.46"

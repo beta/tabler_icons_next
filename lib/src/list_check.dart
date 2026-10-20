@@ -26,7 +26,7 @@ class ListCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [to-do, checklist, form, template, task, reminder, schedule, agenda, list, check]
+tags: [checklist, todo, to-do, tasks, list, check, done, completed]
 category: Text
 version: "1.2"
 unicode: "eb6a"

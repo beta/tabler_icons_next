@@ -26,7 +26,7 @@ class PlugX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [electricity, charger, socket, connection, discharge, end charging, charge off, plug, hardware, technology]
+tags: [unplug, disconnect, electricity, power, socket, plug, charging-off, error, remove]
 category: Devices
 version: "1.61"
 unicode: "f0a1"

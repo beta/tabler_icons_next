@@ -26,7 +26,7 @@ class Capture extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [photo, photographer, sharpen, capture, content, entertainment, multimedia, broadcast, audio]
+tags: [capture, screenshot, screen-capture, crop, focus, frame, scan, photo]
 category: Media
 version: "1.11"
 unicode: "ec3c"

@@ -26,7 +26,7 @@ class Sun extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, light, mode, brightness, sun, climate, forecast, meteorology, atmospheric, conditions]
+tags: [light-mode, light, theme, day, brightness, weather, sunny, bright, sun]
 category: Weather
 version: "1.0"
 unicode: "eb30"

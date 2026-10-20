@@ -26,7 +26,7 @@ class Ufo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alien, space, astronomy, spaceship, galaxy, ufo, entertainment, playing, recreation, fun]
+tags: [ufo, alien, spaceship, flying-saucer, sci-fi, space, extraterrestrial, outer-space]
 category: Games
 version: "1.76"
 unicode: "f26f"

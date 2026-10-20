@@ -26,7 +26,7 @@ class BrandVimeo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, website, sharing, watching, video, users, brand, vimeo, company, trademark]
+tags: [vimeo, video, streaming, player, hosting, logo, brand, videos, creators]
 category: Brand
 version: "1.23"
 unicode: "ed06"

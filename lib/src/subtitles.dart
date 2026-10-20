@@ -26,7 +26,7 @@ class Subtitles extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [captions, closed-captioning, cc, accessibility, a11y, hearing, deaf, video, text, inclusive]
+tags: [captions, closed-captions, cc, accessibility, a11y, video, text, transcript]
 category: Media
 unicode: "101a1"
 version: "3.36"

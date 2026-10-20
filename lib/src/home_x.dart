@@ -26,7 +26,7 @@ class HomeX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [off, sale, commerce, home, house, main, architecture, structure, start, dashboard]
+tags: [home, house, homepage, building, residence, real-estate, remove, delete, close, cancel, cross]
 category: Buildings
 version: "1.87"
 unicode: "f347"

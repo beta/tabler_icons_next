@@ -26,7 +26,7 @@ class BuildingOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [flat, office, city, urban, scyscraper, architecture, construction, building, off, structure]
+tags: [building, office, city, architecture, skyscraper, real-estate, company, disabled, off, unavailable, inactive]
 category: Buildings
 version: "3.6"
 unicode: "fefd"

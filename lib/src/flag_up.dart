@@ -27,7 +27,7 @@ class FlagUp extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [increase, ascend, elevate, climb, rise, advance, boost, progress, lift, uplift]
+tags: [report, banner, milestone, upload, arrow-up, increase, raise, mark, country, goal, send]
 version: "2.28"
 unicode: "fb9c"
 -->

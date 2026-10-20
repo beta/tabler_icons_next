@@ -26,7 +26,7 @@ class BrandX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [twitter, brand, logo, company, trademark, identity, corporate, business, x]
+tags: [x, twitter, tweet, social, social-media, microblog, logo, brand]
 category: Brand
 version: "2.29"
 unicode: "fc0f"

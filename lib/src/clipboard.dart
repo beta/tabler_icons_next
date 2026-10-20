@@ -27,7 +27,7 @@ class Clipboard extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [copy, clipboard, paste, document, file, paper, note, text, page, sheet, blank]
+tags: [clipboard, paste, copy, document, task, notes, checklist, board]
 version: "1.0"
 unicode: "ea6f"
 -->

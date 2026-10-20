@@ -27,7 +27,7 @@ class DropletDown extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [descend, lower, decrease, drop, fall, sink, subside, diminish, reduce, decline]
+tags: [drop, water, liquid, download, arrow-down, decrease, lower, rain, ink, color, receive]
 version: "2.10"
 unicode: "f8ff"
 -->

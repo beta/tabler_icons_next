@@ -26,7 +26,7 @@ class ChartFunnel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [analytics, conversion, process, data, visualization, statistics, stages, analysis, pathway, steps]
+tags: [chart, graph, statistics, analytics, data, report, diagram, funnel, conversion, sales-funnel, pipeline, visualization]
 category: Charts
 unicode: "fef5"
 version: "3.5"

@@ -27,7 +27,7 @@ class FlagCode extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [program, software, develop, script, application, compile, debug, algorithm, command, markup]
+tags: [report, banner, milestone, code, programming, developer, coding, mark, country, goal, html, embed]
 version: "2.28"
 unicode: "fb8d"
 -->

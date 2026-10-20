@@ -26,7 +26,7 @@ class HelpOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tooltip, assistance, advice, support, help, off, control, operation, disabled, inactive]
+tags: [help, question, support, faq, question-mark, disabled, off-state, unavailable, off]
 category: System
 version: "1.94"
 unicode: "f3f8"

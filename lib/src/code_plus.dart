@@ -26,7 +26,7 @@ class CodePlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, insert, braces, code, plus, programming, script, software, development, coding]
+tags: [plus, add, insert-code, new, brackets, code, programming, developer, coding]
 category: Text
 version: "1.39"
 unicode: "ee43"

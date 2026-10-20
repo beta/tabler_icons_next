@@ -27,7 +27,7 @@ class BathOff extends Icon {
 
   static const String _svg = '''<!--
 category: Buildings
-tags: [water, clean, hygiene, bathroom, tub, bath, off, disabled, inactive]
+tags: [bathtub, bathroom, shower, spa, hotel, wash, disabled, bath, off]
 version: "1.65"
 unicode: "f0ff"
 -->

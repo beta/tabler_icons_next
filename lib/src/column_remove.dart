@@ -26,7 +26,7 @@ class ColumnRemove extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [delete, erase, omit, exclude, withdraw, take, subtract, extract, cut, eliminate]
+tags: [remove-column, delete-column, column, table, spreadsheet, grid, cells, x]
 category: Database
 version: "2.24"
 unicode: "faf4"

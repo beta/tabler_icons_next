@@ -26,7 +26,7 @@ class Sunglasses extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [summer, sun, look, shades, eyewear, sunglasses, medical, wellness, healthcare, treatment]
+tags: [glasses, shades, eyewear, summer, sun, sunny, cool, daylight, eyeglasses, sunglasses]
 category: Health
 version: "1.73"
 unicode: "f239"

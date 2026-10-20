@@ -26,7 +26,7 @@ class BrandMastercard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [payment, money, debit, finance, brand, mastercard, logo, company, trademark, identity]
+tags: [mastercard, credit-card, payment, card, debit, finance, logo, brand]
 category: Brand
 version: "1.43"
 unicode: "ef49"

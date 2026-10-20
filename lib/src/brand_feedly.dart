@@ -26,7 +26,7 @@ class BrandFeedly extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [feedly, rss, reader, news, aggregator, content, discovery, information, consumption, feed, newsfeed, app]
+tags: [feedly, rss, reader, news, feed, aggregator, logo, brand]
 category: Brand
 version: "2.18"
 unicode: "fa75"

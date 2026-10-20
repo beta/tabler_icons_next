@@ -26,7 +26,7 @@ class AlphabetKorean extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [language, alphabet, korean, typography, writing, font, character, word, letters, characters]
+tags: [hangul, language, script, letters, writing, text, hanguk, cjk, character, typography, alphabet, korean]
 category: Text
 version: "3.8"
 unicode: "ff2c"

@@ -26,7 +26,7 @@ class Signature extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [name, certficate, sign, edit, write, document, writing, signature, typography, font]
+tags: [sign, e-signature, autograph, handwriting, sign-document, contract, signature]
 category: Text
 version: "1.39"
 unicode: "eee0"

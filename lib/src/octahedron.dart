@@ -26,7 +26,7 @@ class Octahedron extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, octahedron, geometry, form, figure, outline]
+tags: [3d, shape, polyhedron, geometry, solid, diamond, crystal, octahedron]
 category: Shapes
 version: "2.20"
 unicode: "faae"

@@ -26,7 +26,7 @@ class VirtualSpace extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [virtual, space, spatial, 3d, environment, room, metaverse, augmented, reality, dimension, immersive]
+tags: [virtual-reality, vr, metaverse, 3d, space, immersive, augmented-reality, vr-headset, virtual]
 category: System
 unicode: "10268"
 version: "3.45"

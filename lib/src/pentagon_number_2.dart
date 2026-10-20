@@ -26,7 +26,7 @@ class PentagonNumber2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [two, pair, duo, double, twosome, binary, twin, couple, dyad, second]
+tags: [two, number, digit, pentagon, shape, badge, numeral, count]
 category: Numbers
 version: "2.34"
 unicode: "fc80"

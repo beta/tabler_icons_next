@@ -26,7 +26,7 @@ class EaseInOut extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [animation, graph, curve, function, ease, out, creative, artistic, in, visual]
+tags: [ease-in-out, easing, animation, transition, curve, bezier, motion, timing-function, s-curve, ease, in, out]
 category: Design
 version: "1.107"
 unicode: "f572"

@@ -26,7 +26,7 @@ class CopyOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [clipboard, clone, duplicate, copy, off, disabled, inactive, typography, writing, font]
+tags: [off, disabled, no-copy, copy-protection, copy, duplicate, clone, clipboard, paste]
 category: Text
 version: "1.63"
 unicode: "f0d8"

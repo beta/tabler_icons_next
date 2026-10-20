@@ -26,7 +26,7 @@ class BrandQq extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [china, communicator, internet, brand, logo, company, trademark, identity, corporate, qq]
+tags: [qq, tencent, messaging, chat, messenger, china, penguin, logo, brand]
 category: Brand
 version: "1.114"
 unicode: "f606"

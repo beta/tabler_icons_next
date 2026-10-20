@@ -26,7 +26,7 @@ class WashDryDip extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [laundry, clean, clear, clothes, wash, dry, dip, cleaning, washing, garment]
+tags: [laundry, care-label, clothes, washing, drip-dry, dry, drying, laundry-symbol, garment, wash, dip]
 category: Laundry
 version: "1.84"
 unicode: "f2fe"

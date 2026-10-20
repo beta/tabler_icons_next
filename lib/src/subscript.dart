@@ -26,7 +26,7 @@ class Subscript extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [typography, below, formula, maths, fraction, subscript, writing, font, character, word]
+tags: [subscript, text, formatting, editor, typography, formula, chemistry, font]
 category: Text
 version: "1.3"
 unicode: "eb9f"

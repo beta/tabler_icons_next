@@ -26,7 +26,7 @@ class HttpQue extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [question, query, inquiry, ask, intersection, fork, path, avenue, solution, route]
+tags: [query, search, safe-method, http, api, request, method, rest, endpoint, web]
 category: Computers
 version: "2.16"
 unicode: "fa5b"

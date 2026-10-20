@@ -27,7 +27,7 @@ class MailUp extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [elevate, raise, boost, climb, ascend, rise, uplift, advance, promote, upgrade]
+tags: [mail, email, envelope, message, inbox, letter, e-mail, send, outgoing, arrow-up, upload, increase, raise]
 version: "2.10"
 unicode: "f948"
 -->

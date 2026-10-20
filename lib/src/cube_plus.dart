@@ -26,7 +26,7 @@ class CubePlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, cube, plus, add, more, increase]
+tags: [cube, 3d, box, shape, block, plus, add, new, create]
 category: Shapes
 version: "2.20"
 unicode: "fa96"

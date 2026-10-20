@@ -27,7 +27,7 @@ class Grain extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [dots, pattern, random, round, circle, nodes, grain]
+tags: [grain, noise, dots, pattern, texture, dither, halftone, film-grain, stipple]
 version: "1.39"
 unicode: "ee92"
 -->

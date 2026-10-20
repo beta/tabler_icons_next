@@ -26,7 +26,7 @@ class CurrentLocation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [localization, maps, navigation, pin, target, current, location, geography, place, position]
+tags: [current-location, my-location, gps, locate-me, crosshair, position, navigation, map, target, current, location]
 category: Map
 version: "1.22"
 unicode: "ecef"

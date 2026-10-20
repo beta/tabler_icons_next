@@ -26,7 +26,7 @@ class PhoneIncoming extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [call, answer, mobile, landline, conversation, phone, incoming, hardware, technology, contact]
+tags: [incoming-call, receive, call, telephone, inbound, arrow, handset, ringing, phone, incoming]
 category: Devices
 version: "1.0"
 unicode: "eb06"

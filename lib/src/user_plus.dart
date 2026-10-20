@@ -26,7 +26,7 @@ class UserPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, create, new, person, people, follow, subscribe, role, user, plus]
+tags: [person, account, profile, avatar, member, add, new, invite, follow, register, signup, subscribe, user, plus]
 category: System
 version: "1.0"
 unicode: "eb4b"

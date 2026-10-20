@@ -26,7 +26,7 @@ class BrandSnapchat extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, app, application, photos, sending, images, mobile, video, brand, snapchat]
+tags: [snapchat, snap, social, messaging, photos, stories, ghost, logo, brand]
 category: Brand
 version: "1.9"
 unicode: "ec25"

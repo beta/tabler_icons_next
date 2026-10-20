@@ -26,7 +26,7 @@ class Tractor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [countryside, vehicle, harvest, machine, motor, farm, trailer, tractor, transport, travel]
+tags: [tractor, farm, farming, agriculture, vehicle, harvest, farmer, tractors]
 category: Vehicles
 version: "1.8"
 unicode: "ec0d"

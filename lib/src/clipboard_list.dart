@@ -26,7 +26,7 @@ class ClipboardList extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [copy, items, clipboard, list, file, paper, text, record, information]
+tags: [list, checklist, todo, tasks, items, inventory, clipboard, paste, document, task, notes]
 category: Document
 version: "1.0"
 unicode: "ea6d"

@@ -26,7 +26,7 @@ class PlaneInflight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [travel, vacation, summer, sea, ocean, skies, clouds, plane, inflight, transport]
+tags: [in-flight, flying, airplane, flight, travel, trip, aircraft, sky, clouds, plane, inflight]
 category: Vehicles
 version: "1.47"
 unicode: "ef98"

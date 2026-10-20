@@ -26,7 +26,7 @@ class PokerChip extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [casino, game, money, gambling, poker, chip, entertainment, playing, recreation, fun]
+tags: [casino, chip, poker, gambling, bet, token, coin, game]
 category: Games
 version: "1.102"
 unicode: "f515"

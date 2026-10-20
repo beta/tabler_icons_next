@@ -26,7 +26,7 @@ class CircleAsterisk extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [circle, asterisk, star, symbol, shape, mark, required, mandatory, important, password]
+tags: [asterisk, required, mandatory, star, wildcard, symbol, footnote, circle, round]
 category: Shapes
 unicode: "101ad"
 version: "3.36"

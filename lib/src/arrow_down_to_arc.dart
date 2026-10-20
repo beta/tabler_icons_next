@@ -26,7 +26,7 @@ class ArrowDownToArc extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [navigation, direction, downward, arch, flow, path, guide, interface, ui, arrow]
+tags: [direction, south, downward, bottom, curve, pointer, navigation, arrow]
 category: Arrows
 version: "2.46"
 unicode: "fd87"

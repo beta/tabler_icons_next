@@ -26,7 +26,7 @@ class BrandLivewire extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [live, framework, dynamic, components, php, laravel, web, reactive, mvc, interface]
+tags: [livewire, laravel, php, framework, components, reactive, logo, brand]
 category: Brand
 version: "2.45"
 unicode: "fd76"

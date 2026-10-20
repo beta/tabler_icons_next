@@ -26,7 +26,7 @@ class Paint extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [brush, renovation, refurbishment, color, wall, paint, creative, artistic, visual, aesthetic]
+tags: [paint-roller, roller, painting, decorate, wall, brush, color, colour, paint]
 category: Design
 version: "1.0"
 unicode: "eb00"

@@ -26,7 +26,7 @@ class ZoomExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alert, caution, error, search, warning, zoom, exclamation, location, navigation, magnify]
+tags: [zoom, magnifier, magnifying-glass, search, warning, alert, error, attention, no-results, exclamation]
 category: Map
 version: "1.59"
 unicode: "f080"

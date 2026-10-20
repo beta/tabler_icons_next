@@ -27,7 +27,7 @@ class LicenseOff extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [authorisation, permission, consent, permit, document, agree, license, off, disabled, inactive]
+tags: [license, certificate, document, agreement, disabled, off-state, unavailable, off]
 version: "1.66"
 unicode: "f153"
 -->

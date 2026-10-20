@@ -26,7 +26,7 @@ class HulaHoop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hula, hoop, fitness, exercise, toy, spin, waist, workout, fun, cardio]
+tags: [hula-hoop, hoop, fitness, exercise, toy, workout, spin, hula]
 category: Sport
 unicode: "1024a"
 version: "3.43"

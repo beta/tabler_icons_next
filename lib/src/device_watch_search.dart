@@ -27,7 +27,7 @@ class DeviceWatchSearch extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [find, locate, discover, explore, seek, look, browse, scout, investigate, probe]
+tags: [smartwatch, wearable, apple-watch, find, magnifier, magnifying-glass, lookup, wristwatch, device, fitness-tracker, zoom, query]
 version: "2.10"
 unicode: "f8e1"
 -->

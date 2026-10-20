@@ -27,7 +27,7 @@ class LinkPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Text
-tags: [connect, add, join, attach, associate, relation, chain, link, combine, merge]
+tags: [add-link, link, url, hyperlink, chain, insert-link, attach, plus]
 version: "2.39"
 unicode: "fd17"
 -->

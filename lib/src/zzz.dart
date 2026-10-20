@@ -27,7 +27,7 @@ class Zzz extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [sleep, sleeping, bed, dream, snooze, rest, zzz]
+tags: [sleep, sleeping, snooze, rest, nap, idle, sleepy, tired, asleep, zzz]
 version: "1.72"
 unicode: "f228"
 -->

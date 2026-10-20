@@ -26,7 +26,7 @@ class DeviceMobileRotated extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [iphone, phone, smartphone, cellphone, device, mobile, rotated, hardware, technology, electronic]
+tags: [landscape, rotate, horizontal, phone, smartphone, iphone, orientation, cellphone, device, mobile, rotated]
 category: Devices
 version: "1.20"
 unicode: "ecdb"

@@ -27,7 +27,7 @@ class DatabaseSearch extends Icon {
 
   static const String _svg = '''<!--
 category: Database
-tags: [find, lookup, explore, discover, locate, probe, scan, inspect, seek, browse]
+tags: [search, find, magnifier, lookup, database, db, data, storage, sql, server]
 version: "2.13"
 unicode: "fa18"
 -->

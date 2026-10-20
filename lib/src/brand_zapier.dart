@@ -26,7 +26,7 @@ class BrandZapier extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [automated, create, app, buissnes, brand, zapier, logo, company, trademark, identity]
+tags: [zapier, automation, integration, workflow, no-code, apps, logo, brand]
 category: Brand
 version: "1.96"
 unicode: "f49f"

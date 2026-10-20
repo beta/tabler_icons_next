@@ -26,7 +26,7 @@ class InfoOctagon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [help, support, shape, information, question, info, octagon, control, operation, function]
+tags: [info, information, about, details, help, tip, i, octagon, notice]
 category: System
 version: "2.6"
 unicode: "f7ab"

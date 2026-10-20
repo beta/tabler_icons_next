@@ -26,7 +26,7 @@ class EggFried extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, breakfast, cooking, kitchen, egg, fried, meal, cuisine, eating, nutrition]
+tags: [fried-egg, egg, breakfast, sunny-side-up, cooking, frying-pan, food, brunch, fried]
 category: Food
 version: "1.91"
 unicode: "f386"

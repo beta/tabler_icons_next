@@ -26,7 +26,7 @@ class Flask extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [liquid, container, glass, chemistry, test, laboratory, experimental, beta, flask, medical]
+tags: [flask, lab, laboratory, chemistry, science, experiment, beta, test, potion, beaker]
 category: Health
 version: "1.6"
 unicode: "ebd2"

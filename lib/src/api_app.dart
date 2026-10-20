@@ -26,7 +26,7 @@ class ApiApp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [development, software, developer, platform, api, app, programming, coding, technical, application]
+tags: [application, interface, developer, platform, integration, programming, sdk, api, app]
 category: Development
 version: "1.53"
 unicode: "effc"

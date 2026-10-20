@@ -27,7 +27,7 @@ class Hexagon3d extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [geometry, six, dimensional, shape, hexagon, 3d]
+tags: [hexagon, 3d, cube, box, shape, geometry, isometric, polygon]
 version: "1.98"
 unicode: "f4c7"
 -->

@@ -26,7 +26,7 @@ class BrandAlpineJs extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [javascript, programming, coding, brand, alpine, logo, company, trademark, identity, corporate]
+tags: [alpinejs, alpine, javascript, js, framework, frontend, web, development, logo, brand]
 category: Brand
 version: "1.86"
 unicode: "f324"

@@ -26,7 +26,7 @@ class BrandMailgun extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [delivery, service, tracking, pickup, brand, mailgun, logo, company, trademark, identity]
+tags: [mailgun, email, api, smtp, delivery, transactional, logo, brand]
 category: Brand
 version: "1.86"
 unicode: "f32e"

@@ -26,7 +26,7 @@ class RouteAltRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alternate-right, alternate-route, right-path, alternate-way, right-trail, alt-right-road, rightward-route, shift-right, change-right, right-road]
+tags: [route, alternate-route, detour, path, directions, right, navigation]
 category: Map
 version: "2.36"
 unicode: "fcaa"

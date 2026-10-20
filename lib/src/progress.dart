@@ -26,7 +26,7 @@ class Progress extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [development, status, update, advancement, indicator, growth, evolution, flow, improvement, track]
+tags: [loading, loader, in-progress, status, pending, partial, percentage, spinner, indicator]
 version: "2.12"
 unicode: "fa0d"
 category: System

@@ -26,7 +26,7 @@ class Cooker extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [kitchen, cook, oven, chef, cooker, meal, cuisine, eating, nutrition, culinary]
+tags: [cooker, pot, rice-cooker, pressure-cooker, kitchen, cooking, stove, appliance, chef]
 category: Food
 version: "1.108"
 unicode: "f57a"

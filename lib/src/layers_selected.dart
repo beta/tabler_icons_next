@@ -26,7 +26,7 @@ class LayersSelected extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [stack, arrange, pile, order, sort, group, select, organize, choose, layout]
+tags: [layers, selected, stack, select, layer, arrange, design]
 category: Design
 unicode: "fea9"
 version: "3.1"

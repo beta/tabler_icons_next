@@ -26,7 +26,7 @@ class BrandZalando extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [footwear, shoes, clotches, app, online, shop, brand, zalando, logo, company]
+tags: [zalando, fashion, shoes, clothes, shopping, ecommerce, online-store, logo, brand]
 category: Brand
 version: "1.96"
 unicode: "f49e"

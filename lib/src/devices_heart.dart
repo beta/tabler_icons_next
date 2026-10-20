@@ -27,7 +27,7 @@ class DevicesHeart extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [love, compassion, care, affection, emotion, adore, cherish, fondness, devotion, attachment]
+tags: [responsive, multi-device, computer, love, like, favorite, favourite, laptop, phone, tablet, desktop]
 version: "2.10"
 unicode: "f8ee"
 -->

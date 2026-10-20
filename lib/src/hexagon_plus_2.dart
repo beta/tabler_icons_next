@@ -27,7 +27,7 @@ class HexagonPlus2 extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [add, augment, increase, enlarge, union, six, expand, multiply, grow, enhance]
+tags: [hexagon, plus, add, new, create, polygon, shape]
 version: "2.35"
 unicode: "fc90"
 -->

@@ -26,7 +26,7 @@ class PerspectiveOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, perspective, transform, reshape, scale, off, disabled, inactive, geometry, form]
+tags: [3d, perspective-transform, skew, distort, disabled, slash, depth, transform, inactive, perspective, off]
 category: Shapes
 version: "1.66"
 unicode: "f176"

@@ -26,7 +26,7 @@ class LineDashed extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [geometric, segment, link, connection, line, dashed, creative, artistic, visual, aesthetic]
+tags: [line, dashed, dashes, stroke, border-style, segment, draw]
 category: Design
 version: "1.39"
 unicode: "eea7"

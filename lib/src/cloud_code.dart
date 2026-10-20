@@ -26,7 +26,7 @@ class CloudCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, development, software, script, syntax, algorithm, computing, debugging, engineering, cloud]
+tags: [code, programming, serverless, devops, cloud-computing, deploy, developer, cloud, api]
 category: Weather
 version: "2.10"
 unicode: "f84e"

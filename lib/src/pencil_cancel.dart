@@ -27,7 +27,7 @@ class PencilCancel extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [edit, abort, delete, remove, revise, erase, adjust, draft, retract, discard]
+tags: [edit, write, draw, modify, pen, compose, cancelled, stop, abort, blocked, forbidden, update, change]
 version: "2.28"
 unicode: "fbfe"
 -->

@@ -26,7 +26,7 @@ class Window extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [house, view, glass, apartment, vehicle, light, frame, home, building, window]
+tags: [window, house, home, glass, frame, building, gust, windows]
 category: Buildings
 version: "1.39"
 unicode: "ef06"

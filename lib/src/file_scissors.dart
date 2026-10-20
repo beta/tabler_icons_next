@@ -26,7 +26,7 @@ class FileScissors extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cut, cutting, tool, cutter, office, file, scissors, document, data, content]
+tags: [cut, scissors, trim, split, clip, document, file, cutting, office]
 category: Document
 version: "1.56"
 unicode: "f03c"

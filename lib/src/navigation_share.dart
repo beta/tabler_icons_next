@@ -27,7 +27,7 @@ class NavigationShare extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [distribute, exchange, broadcast, spread, circulate, publish, post, collaborate, connect, send]
+tags: [gps, arrow, direction, location, cursor, compass, send, forward, export, social, route, map, pointer]
 version: "2.28"
 unicode: "fbf9"
 -->

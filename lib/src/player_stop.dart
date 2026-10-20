@@ -26,7 +26,7 @@ class PlayerStop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, song, playlist, melody, device, voice, silence, break, player, stop]
+tags: [stop, square, halt, end, media, music, video, audio, controls, button, player]
 category: Media
 version: "1.28"
 unicode: "ed4a"

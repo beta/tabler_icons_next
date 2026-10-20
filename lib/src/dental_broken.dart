@@ -27,7 +27,7 @@ class DentalBroken extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [tooth, dentist, medical, care, caries, dental, broken]
+tags: [dental, tooth, broken-tooth, teeth, dentist, cavity, caries, toothache, medical, broken]
 version: "1.78"
 unicode: "f286"
 -->

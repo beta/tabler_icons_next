@@ -26,7 +26,7 @@ class BrandSocketIo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [library, javascript, web, app, communication, brand, socket, logo, company, trademark]
+tags: [socket-io, socketio, websocket, realtime, javascript, library, nodejs, logo, brand, socket]
 category: Brand
 version: "1.96"
 unicode: "f49b"

@@ -26,7 +26,7 @@ class EPassport extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [id, online, mobile, app, travel, passport, store, purchase, shopping, retail]
+tags: [e-passport, passport, biometric-passport, travel, id, identity, document, border, immigration, electronic]
 category: E-commerce
 version: "1.99"
 unicode: "f4df"

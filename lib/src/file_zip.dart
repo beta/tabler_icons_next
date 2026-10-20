@@ -26,7 +26,7 @@ class FileZip extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [forms, documents, stack, letter, archive, rar, zipped, extention, bundle, format]
+tags: [zip, archive, compressed, compression, rar, 7z, package, bundle, document, file]
 category: Document
 version: "1.29"
 unicode: "ed4e"

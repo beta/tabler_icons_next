@@ -26,7 +26,7 @@ class ChargingPile extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [electric, electricity, hybrid, tesla, station, electronic, point, charging, pile, transport]
+tags: [charging-station, ev-charger, electric-car, charger, ev, charging, plug, electricity, pile]
 category: Vehicles
 version: "1.39"
 unicode: "ee26"

@@ -27,7 +27,7 @@ class MailStar extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [favorite, highlight, feature, notable, distinguish, accent, mark, prominent, emphasize, shine]
+tags: [mail, email, envelope, message, inbox, letter, e-mail, star, starred, favorite, rating, bookmark]
 version: "2.10"
 unicode: "f947"
 -->

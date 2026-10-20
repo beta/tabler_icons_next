@@ -26,7 +26,7 @@ class Angle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [geometry, math, degrees, angle, creative, artistic, visual, aesthetic, style, corner]
+tags: [geometry, degrees, protractor, corner, math, measure, triangle, angle]
 category: Design
 version: "1.41"
 unicode: "ef20"

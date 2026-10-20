@@ -26,7 +26,7 @@ class SportBilliard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pool, game, ball, pub, entertainment, sport, billiard, athletic, fitness, exercise]
+tags: [billiards, pool, snooker, 8-ball, eight-ball, game, ball, sport, billiard]
 category: Sport
 version: "1.39"
 unicode: "eee4"

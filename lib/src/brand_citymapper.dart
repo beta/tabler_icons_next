@@ -26,7 +26,7 @@ class BrandCitymapper extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, transport, public, software, brand, citymapper, logo, company, trademark, identity]
+tags: [citymapper, transit, public-transport, navigation, directions, city, map, app, logo, brand]
 category: Brand
 version: "1.114"
 unicode: "f5fc"

@@ -26,7 +26,7 @@ class SunWind extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [temperature, wheater, thermometer, forecast, windy, sun, wind, climate, meteorology, atmospheric]
+tags: [sun, wind, windy, weather, forecast, breeze, sunny, daylight]
 category: Weather
 version: "1.73"
 unicode: "f238"

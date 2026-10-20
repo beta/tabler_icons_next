@@ -26,7 +26,7 @@ class Thermometer extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [temperature, hot, cold, weather, medical, fever, celsius, thermometer, wellness, healthcare]
+tags: [temperature, fever, medical, health, celsius, fahrenheit, weather, thermostat, thermometer]
 category: Health
 version: "1.44"
 unicode: "ef67"

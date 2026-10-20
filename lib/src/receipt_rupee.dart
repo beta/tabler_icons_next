@@ -27,7 +27,7 @@ class ReceiptRupee extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [currency, bill, transaction, invoice, payment, finance, economy, account, cash, document]
+tags: [receipt, bill, invoice, rupee, inr, payment, currency, money, transaction]
 version: "2.45"
 unicode: "fd82"
 -->

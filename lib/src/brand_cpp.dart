@@ -26,7 +26,7 @@ class BrandCpp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, programming, language, coding, brand, cpp, logo, company, trademark, identity]
+tags: [cpp, programming, language, code, coding, logo, brand, cplusplus]
 category: Brand
 version: "1.114"
 unicode: "f5fe"

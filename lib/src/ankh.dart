@@ -26,7 +26,7 @@ class Ankh extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [egypt, religion, cultures, community, ankh, sign, mark, emblem, representation, indicator]
+tags: [egypt, egyptian, symbol, cross, religion, ancient, life, hieroglyph, ankh]
 category: Symbols
 version: "1.68"
 unicode: "f1cd"

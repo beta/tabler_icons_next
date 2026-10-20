@@ -26,7 +26,7 @@ class CpuOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [processor, computer, chip, hardware, technology, electronic, cpu, off, disabled, inactive]
+tags: [cpu, processor, chip, microchip, hardware, computer, off, disabled]
 category: Devices
 version: "1.65"
 unicode: "f108"

@@ -26,7 +26,7 @@ class Number54Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tiny, fiftyfour, digit54, numeric, miniature, icon54, num54, small54, fivefour, miniscule]
+tags: [fifty-four, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 unicode: "ffec"
 version: "3.14"

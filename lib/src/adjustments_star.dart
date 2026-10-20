@@ -27,7 +27,7 @@ class AdjustmentsStar extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [settings, favorite, highlight, feature, mark, promote, shine, emphasize, reward, special]
+tags: [settings, sliders, controls, filter, options, preferences, tune, favorite, rating, featured, starred, bookmark]
 version: "2.10"
 unicode: "f80b"
 -->

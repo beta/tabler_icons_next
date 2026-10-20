@@ -26,7 +26,7 @@ class Cardboards extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vr, virtual reality, watch, viewer, technology, cardboards, hardware, electronic, gadget, equipment]
+tags: [cardboard, vr, virtual-reality, headset, goggles, google-cardboard, glasses, metaverse, cardboards]
 category: Devices
 version: "1.33"
 unicode: "ed74"

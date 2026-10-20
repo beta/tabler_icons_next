@@ -26,7 +26,7 @@ class CircleDot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [crosshair, shape, geometry, circle, dot, round, circular, form, figure, pattern]
+tags: [radio, radio-button, selected, record, target, bullseye, dot, point, circle, round]
 category: Shapes
 version: "1.49"
 unicode: "efb1"

@@ -26,7 +26,7 @@ class Mars extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [male, mars, planet, gender, masculine, sign, mark, emblem, representation, symbol]
+tags: [male, man, gender, masculine, symbol, sex, boy, planet, astrology, mars]
 category: Symbols
 version: "1.14"
 unicode: "ec80"

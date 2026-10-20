@@ -26,7 +26,7 @@ class Multiplier05x extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [count, calculate, math, multiplier, calculation, equation, 5x, mathematics, numeric, formula]
+tags: [half-speed, slow, multiplier, playback-speed, times, x0-5, multiply, 5x]
 category: Math
 version: "1.42"
 unicode: "ef41"

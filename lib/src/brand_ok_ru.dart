@@ -26,7 +26,7 @@ class BrandOkRu extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [socialmedia, message, posts, brand, logo, company, trademark, identity, corporate, ok]
+tags: [ok-ru, odnoklassniki, social, social-network, russia, logo, brand, vk, ok]
 category: Brand
 version: "1.92"
 unicode: "f399"

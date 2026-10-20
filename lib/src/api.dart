@@ -26,7 +26,7 @@ class Api extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, coding, program, code, configuration, api, software, technical, developer, interface]
+tags: [interface, rest, endpoint, developer, integration, programming, code, webhook, sdk, api]
 category: Development
 version: "1.53"
 unicode: "effd"

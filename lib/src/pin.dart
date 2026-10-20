@@ -26,7 +26,7 @@ class Pin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [thing, localization, maps, clip, place, location, pin, navigation, attach, fix]
+tags: [pushpin, thumbtack, tack, pinned, attach, sticky, keep, bookmark, noticeboard, pin]
 category: Map
 version: "1.16"
 unicode: "ec9c"

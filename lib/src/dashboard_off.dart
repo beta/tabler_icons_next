@@ -26,7 +26,7 @@ class DashboardOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [home, car, dashboard, off, control, operation, disabled, inactive, function, interface]
+tags: [dashboard, gauge, speedometer, meter, performance, speed, off, disabled]
 category: System
 version: "1.94"
 unicode: "f3e1"

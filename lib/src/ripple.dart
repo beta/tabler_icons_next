@@ -26,7 +26,7 @@ class Ripple extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [wave, water, breeze, ocean, sea, ripple, environment, natural, outdoor, ecosystem]
+tags: [wave, water, waves, ocean, sea, ripples, ripple]
 category: Nature
 version: "1.33"
 unicode: "ed82"

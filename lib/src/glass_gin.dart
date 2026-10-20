@@ -27,7 +27,7 @@ class GlassGin extends Icon {
 
   static const String _svg = '''<!--
 category: Food
-tags: [juniper, spirit, alcohol, liquor, distilled, drink, tonic, bitter, cocktail, botanical]
+tags: [gin, gin-tonic, glass, drink, bar, alcohol, cocktail, liquor, beverage]
 version: "2.47"
 unicode: "fd9e"
 -->

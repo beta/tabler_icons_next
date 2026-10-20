@@ -26,7 +26,7 @@ class CircuitPushbutton extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [diagram, electric, electricity, open, circuit, pushbutton, energy, voltage, power, current]
+tags: [pushbutton, button, switch, push, momentary, circuit, electronics, electrical, schematic, diagram, electricity, component]
 category: Electrical
 version: "1.77"
 unicode: "f27f"

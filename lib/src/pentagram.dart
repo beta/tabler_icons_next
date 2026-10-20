@@ -27,7 +27,7 @@ class Pentagram extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [evil, scary, satanism, halloween, pentagram]
+tags: [star, five-pointed-star, pentacle, occult, witchcraft, shape, magic, pentagram]
 version: "1.108"
 unicode: "f586"
 -->

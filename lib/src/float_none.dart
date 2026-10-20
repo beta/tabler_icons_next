@@ -26,7 +26,7 @@ class FloatNone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [position, float, none, typography, writing, font, character, word]
+tags: [float, none, no-wrap, image-position, inline, layout, css, alignment]
 category: Text
 version: "1.24"
 unicode: "ed13"

@@ -26,7 +26,7 @@ class ChevronUpLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [move, aside, top, chevron, left, increase, navigation, flow, rise, upward]
+tags: [chevron, arrow, up-left, diagonal, northwest, corner, direction, navigation, angle, left]
 category: Arrows
 version: "1.24"
 unicode: "ed0b"

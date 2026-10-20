@@ -26,7 +26,7 @@ class Txt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [file, format, type, document, filetype, txt, plugin, addon, module, component]
+tags: [txt, text, file, plain-text, document, format, extension, txt-file]
 category: Extensions
 version: "1.93"
 unicode: "f3b1"

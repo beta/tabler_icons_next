@@ -26,7 +26,7 @@ class BrandKotlin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, language, programmer, development, developer, technology, brand, kotlin, logo, company]
+tags: [kotlin, jetbrains, programming, language, android, jvm, code, logo, brand]
 category: Brand
 version: "1.32"
 unicode: "ed6d"

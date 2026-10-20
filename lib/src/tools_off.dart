@@ -26,7 +26,7 @@ class ToolsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [preferences, edit, settings, tools, off, creative, artistic, disabled, inactive, visual]
+tags: [tools, wrench, screwdriver, repair, settings, disabled, inactive, toolbox, off]
 category: Design
 version: "1.67"
 unicode: "f1b7"

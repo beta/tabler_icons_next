@@ -27,7 +27,7 @@ class NavigationCode extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [program, development, syntax, coding, script, sequence, algorithm, method, digital, parse]
+tags: [gps, arrow, direction, location, cursor, compass, programming, coding, developer, embed, html, route, map, pointer]
 version: "2.28"
 unicode: "fbec"
 -->

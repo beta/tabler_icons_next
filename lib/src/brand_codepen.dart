@@ -26,7 +26,7 @@ class BrandCodepen extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, community, internet, codes, programing, programmer, source, website, platform, designer]
+tags: [codepen, code, editor, playground, html, css, javascript, frontend, snippet, logo, brand]
 category: Brand
 version: "1.13"
 unicode: "ec6f"

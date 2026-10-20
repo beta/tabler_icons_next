@@ -26,7 +26,7 @@ class CornerUpRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [move, arrow, corner, right, top, increase, navigation, flow, rise, upward]
+tags: [corner-arrow, arrow, corner, up-right, turn, forward, share, redo, direction, navigation, right]
 category: Arrows
 version: "1.0"
 unicode: "ea83"

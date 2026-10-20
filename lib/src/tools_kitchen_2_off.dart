@@ -27,7 +27,7 @@ class ToolsKitchen2Off extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [knife, fork, spoon, cutlery, eat, restaurant, menu, cafe, cook, cut, soup, dinner, breakfast, dining, plate, dish]
+tags: [cutlery, utensils, fork, knife, restaurant, food, disabled, inactive]
 version: "1.67"
 unicode: "f1b5"
 -->

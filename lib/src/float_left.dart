@@ -26,7 +26,7 @@ class FloatLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [position, float, left, typography, writing, font, character, word]
+tags: [float, left, align-left, image-position, text-wrap, layout, css, alignment, wrap]
 category: Text
 version: "1.4"
 unicode: "ebb2"

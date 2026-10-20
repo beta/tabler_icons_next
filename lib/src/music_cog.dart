@@ -27,7 +27,7 @@ class MusicCog extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [settings, gear, adjust, control, mechanism, configure, modulate, tweak, system, arrange]
+tags: [song, audio, sound, note, melody, track, settings, gear, config, preferences, options, mp3, playlist, player]
 version: "2.28"
 unicode: "fbd9"
 -->

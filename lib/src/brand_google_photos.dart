@@ -26,7 +26,7 @@ class BrandGooglePhotos extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gallery, videos, photography, website, brand, google, photos, logo, company, trademark]
+tags: [google-photos, google, photos, gallery, images, backup, pictures, logo, brand]
 category: Brand
 version: "1.71"
 unicode: "f20c"

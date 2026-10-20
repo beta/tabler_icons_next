@@ -26,7 +26,7 @@ class Walk extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ambulation, dislocating, movement, motion, destination, walk, athletic, fitness, exercise, game]
+tags: [walk, walking, pedestrian, person, steps, hiking, walker, stroll]
 category: Sport
 version: "1.14"
 unicode: "ec87"

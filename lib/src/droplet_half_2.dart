@@ -26,7 +26,7 @@ class DropletHalf2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [water, rain, liquid, fill, droplet, half, creative, artistic, visual, aesthetic]
+tags: [droplet, drop, half, contrast, color, fill, opacity, ink, liquid, water]
 category: Design
 version: "1.39"
 unicode: "ee81"

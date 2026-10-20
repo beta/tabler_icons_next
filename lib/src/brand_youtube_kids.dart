@@ -26,7 +26,7 @@ class BrandYoutubeKids extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [video, program, young, children, maker, stories, youtuber, brand, youtube, kids]
+tags: [youtube-kids, youtube, kids, children, video, streaming, google, logo, brand]
 category: Brand
 version: "1.71"
 unicode: "f214"

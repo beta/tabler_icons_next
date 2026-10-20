@@ -27,7 +27,7 @@ class MeterSquare extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [area, size, measure, dimensions, space, extent, region, scope, expanse, measurement]
+tags: [square-meter, m2, area, surface, unit, measurement, metric]
 version: "2.45"
 unicode: "fd7d"
 -->

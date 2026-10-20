@@ -26,7 +26,7 @@ class CarSuv extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sport-utility, crossover, automobile, suv, off-road, four-wheel-drive, vehicle, transportation, auto, truck]
+tags: [suv, car, sport-utility, crossover, jeep, 4x4, automobile, vehicle]
 category: Vehicles
 version: "2.35"
 unicode: "fc8b"

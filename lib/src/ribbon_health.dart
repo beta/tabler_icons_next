@@ -26,7 +26,7 @@ class RibbonHealth extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [medical, care, heatlh, medic, healthcare, ribbon, health, sign, mark, emblem]
+tags: [awareness-ribbon, ribbon, cancer, charity, health, medical, support, aids]
 category: Symbols
 version: "1.109"
 unicode: "f58e"

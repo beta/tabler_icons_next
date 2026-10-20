@@ -26,7 +26,7 @@ class BrandSnapseed extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [edit, photo, editor, google, brand, snapseed, logo, company, trademark, identity]
+tags: [snapseed, google, photo-editor, photo, editing, app, logo, brand]
 category: Brand
 version: "1.75"
 unicode: "f253"

@@ -27,7 +27,7 @@ class Lamp2 extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [light, room, decoration, electic, energy, lamp, 2]
+tags: [lamp, light, desk-lamp, lighting, bulb, room, furniture, decoration]
 version: "1.61"
 unicode: "f09e"
 -->

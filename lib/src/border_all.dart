@@ -26,7 +26,7 @@ class BorderAll extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [table, side, line, border, all, creative, artistic, visual, aesthetic, style]
+tags: [table, cell, spreadsheet, excel, format, edge, all-borders, grid, border, all]
 category: Design
 version: "1.0"
 unicode: "ea3b"

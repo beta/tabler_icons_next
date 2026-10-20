@@ -26,7 +26,7 @@ class VariableMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [off, delete, maths, mathematics, science, calculate, function, variable, minus, calculation]
+tags: [variable, function, math, formula, code, remove, subtract, delete, minus]
 category: Math
 version: "1.89"
 unicode: "f36a"

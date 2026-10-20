@@ -26,7 +26,7 @@ class FountainOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [park, decoration, water, spring, public, fountain, off, location, navigation, disabled]
+tags: [fountain, park, water, city, plaza, public, disabled, inactive, unavailable, slash, turn-off, decoration, spring, off]
 category: Map
 version: "1.66"
 unicode: "f134"

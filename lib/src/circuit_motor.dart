@@ -26,7 +26,7 @@ class CircuitMotor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [circuity, diagram, electric, electricity, circuit, motor, energy, voltage, power, current]
+tags: [motor, engine, electric-motor, circuit, electronics, electrical, schematic, diagram, electricity, component]
 category: Electrical
 version: "1.77"
 unicode: "f27e"

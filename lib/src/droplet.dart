@@ -26,7 +26,7 @@ class Droplet extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [water, rain, liquid, droplet, creative, artistic, visual, aesthetic, style]
+tags: [droplet, drop, water, liquid, rain, blood, ink, color, fill, humidity]
 category: Design
 version: "1.0"
 unicode: "ea97"

@@ -26,7 +26,7 @@ class CurrencyHusd extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [husd, huobi, stablecoin, crypto, cryptocurrency, dollar, money, finance, digital, payment]
+tags: [husd, huobi, stablecoin, dollar, crypto, cryptocurrency, blockchain, coin, digital-currency, currency, money]
 category: Currencies
 unicode: "1023f"
 version: "3.42"

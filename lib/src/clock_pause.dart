@@ -26,7 +26,7 @@ class ClockPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, stop, pause, wait, rest, off, clock, control, operation, break]
+tags: [pause, paused, wait, hold, timer, clock, time, schedule, break]
 category: System
 version: "1.105"
 unicode: "f548"

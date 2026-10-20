@@ -27,7 +27,7 @@ class ChalkboardTeacher extends Icon {
 
   static const String _svg = '''<!--
 category: Buildings
-tags: [chalkboard, teacher, board, classroom, education, teaching, school, educator, instructor, professor]
+tags: [chalkboard, blackboard, board, classroom, school, education, teaching, teacher, lecture, lesson, tutor, presentation]
 version: "3.32"
 unicode: "10160"
 -->

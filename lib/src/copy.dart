@@ -26,7 +26,7 @@ class Copy extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [clipboard, clone, duplicate, copy, typography, writing, font, character, word]
+tags: [copy, duplicate, clone, clipboard, paste, copy-paste, files, documents]
 category: Text
 version: "1.0"
 unicode: "ea7a"

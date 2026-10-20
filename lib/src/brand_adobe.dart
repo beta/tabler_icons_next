@@ -26,7 +26,7 @@ class BrandAdobe extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [photoshop, illustrator, indesign, brand, adobe, logo, company, trademark, identity, corporate]
+tags: [creative-cloud, design, creative, software, logo, photoshop, illustrator, company, brand, adobe]
 category: Brand
 version: "1.64"
 unicode: "f0dc"

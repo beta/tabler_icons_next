@@ -26,7 +26,7 @@ class Omega extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alphabet, greek, final, last, omega, calculation, equation, mathematics, numeric, formula]
+tags: [greek, letter, ohm, resistance, symbol, physics, character, omega]
 category: Math
 version: "1.3"
 unicode: "eb97"

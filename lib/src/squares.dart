@@ -26,7 +26,7 @@ class Squares extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [boxes, layers, squares, creative, artistic, rectangular, visual, aesthetic, style]
+tags: [squares, boxes, layers, copy, duplicate, overlap, stack, shapes]
 category: Design
 version: "1.39"
 unicode: "eef6"

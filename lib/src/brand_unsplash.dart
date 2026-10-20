@@ -26,7 +26,7 @@ class BrandUnsplash extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [picture, photo, photography, search, stock, brand, unsplash, logo, company, trademark]
+tags: [unsplash, stock-photos, photos, images, photography, free, logo, brand]
 category: Brand
 version: "1.36"
 unicode: "edd8"

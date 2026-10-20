@@ -26,7 +26,7 @@ class PyramidPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, pyramid, plus, add, more, increase]
+tags: [3d, shape, geometry, add, new, create, insert, solid, triangle, egypt, pyramid, plus]
 category: Shapes
 version: "2.20"
 unicode: "fab2"

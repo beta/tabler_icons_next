@@ -26,7 +26,7 @@ class BrandMixpanel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [analytics, buisness, software, application, brand, mixpanel, logo, company, trademark, identity]
+tags: [mixpanel, analytics, product-analytics, tracking, events, data, logo, brand]
 category: Brand
 version: "1.92"
 unicode: "f397"

@@ -26,7 +26,7 @@ class CurrencyMonero extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, finance, money, cash, cryptocurrency, currency, monero, payment, monetary, banking]
+tags: [monero, xmr, privacy, crypto, cryptocurrency, blockchain, coin, digital-currency, currency, money]
 category: Currencies
 version: "1.90"
 unicode: "f377"

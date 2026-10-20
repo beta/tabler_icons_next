@@ -26,7 +26,7 @@ class Bow extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, archer, hunt, hunter, bow, athletic, fitness, exercise, game, physical]
+tags: [archery, archer, arrow, hunting, weapon, target, bow-and-arrow, longbow, bow]
 category: Sport
 version: "1.61"
 unicode: "f096"

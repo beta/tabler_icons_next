@@ -27,7 +27,7 @@ class MapPinQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [inquire, ask, wonder, confuse, puzzle, curious, doubt, query, seek, probability]
+tags: [pin, marker, location, place, gps, map, point, poi, help, question, faq, unknown, support]
 version: "2.10"
 unicode: "f957"
 -->

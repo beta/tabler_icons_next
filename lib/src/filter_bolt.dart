@@ -27,7 +27,7 @@ class FilterBolt extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [lightning, fast, quick, speed, energy, electric, zap, power, bolt, electricity]
+tags: [funnel, filtering, sort, lightning, flash, energy, power, refine, narrow, charge, electric, fast, bolt]
 version: "2.28"
 unicode: "fb7c"
 -->

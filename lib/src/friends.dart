@@ -27,7 +27,7 @@ class Friends extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [people, boy, girl, man, woman, friends]
+tags: [friends, people, couple, users, group, boy, girl, social, team, family]
 version: "1.0"
 unicode: "eab0"
 -->

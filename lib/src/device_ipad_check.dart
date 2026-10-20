@@ -27,7 +27,7 @@ class DeviceIpadCheck extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [approve, confirm, verify, validate, accept, tick, pass, complete, success, okay]
+tags: [check, done, success, confirmed, approved, tick, ok, verified, ipad, tablet, apple, ios, mobile]
 version: "2.10"
 unicode: "f887"
 -->

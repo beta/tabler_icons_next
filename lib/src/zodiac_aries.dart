@@ -26,7 +26,7 @@ class ZodiacAries extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, horoscope, constellation, stars, zodiac, aries, astrology, star]
+tags: [zodiac, horoscope, astrology, star-sign, sign, ram, constellation, astrological, aries]
 category: Zodiac
 version: "1.17"
 unicode: "ecad"

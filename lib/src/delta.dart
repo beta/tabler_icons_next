@@ -26,7 +26,7 @@ class Delta extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [letter, alphabet, greek, math, delta, character, typography, text, writing]
+tags: [delta, greek, triangle, difference, change, math, letter, symbol]
 category: Letters
 version: "1.104"
 unicode: "f53c"

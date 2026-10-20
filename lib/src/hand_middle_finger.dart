@@ -26,7 +26,7 @@ class HandMiddleFinger extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [signal, gesture, curse, vulgarism, abuse, hand, middle, finger, touch, action]
+tags: [middle-finger, hand, gesture, rude, offensive, vulgar, insult, middle, finger]
 category: Gestures
 version: "1.10"
 unicode: "ec2d"

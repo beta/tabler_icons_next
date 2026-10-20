@@ -26,7 +26,7 @@ class AdjustmentsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [equalizer, sliders, controls, settings, filter, adjustments, off, control, operation, disabled]
+tags: [settings, sliders, controls, filter, options, preferences, tune, equalizer, disabled, inactive, adjustments, off]
 category: System
 version: "1.62"
 unicode: "f0a8"

@@ -26,7 +26,7 @@ class Variable extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [maths, mathematics, science, calculate, function, variable, calculation, equation, numeric, formula]
+tags: [variable, function, math, formula, code, programming, x, var]
 category: Math
 version: "1.39"
 unicode: "ef05"

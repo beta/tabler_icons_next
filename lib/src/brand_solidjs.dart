@@ -26,7 +26,7 @@ class BrandSolidjs extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [library, framework, developers, programmers, javascript, brand, solidjs, logo, company, trademark]
+tags: [solidjs, solid, javascript, framework, reactive, frontend, ui, logo, brand]
 category: Brand
 version: "1.113"
 unicode: "f5ee"

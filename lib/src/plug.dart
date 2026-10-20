@@ -26,7 +26,7 @@ class Plug extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [electricity, charger, socket, connection, plug, hardware, technology, electronic, gadget, equipment]
+tags: [power-plug, electricity, power, socket, outlet, charger, connect, connection, electric, cable, plug]
 category: Devices
 version: "1.6"
 unicode: "ebd9"

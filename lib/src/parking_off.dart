@@ -26,7 +26,7 @@ class ParkingOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, car, vehicle, space, parking, off, location, navigation, disabled, inactive]
+tags: [no-parking, parking-lot, car, park, disabled, slash, parking-forbidden, vehicle, garage, inactive, parking, off]
 category: Map
 version: "1.66"
 unicode: "f172"

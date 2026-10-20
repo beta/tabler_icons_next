@@ -26,7 +26,7 @@ class Artboard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [graphics, drawing, design, art, canvas, artboard, creative, artistic, visual, aesthetic]
+tags: [canvas, frame, design, workspace, drawing, graphics, art-board, layout, artboard]
 category: Design
 version: "1.1"
 unicode: "ea2a"

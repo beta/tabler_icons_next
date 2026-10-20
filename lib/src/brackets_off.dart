@@ -26,7 +26,7 @@ class BracketsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [punctuation, additional, information, brackets, off, calculation, equation, disabled, inactive, mathematics]
+tags: [square-brackets, code, array, programming, syntax, punctuation, disabled, brackets, off]
 category: Math
 version: "1.63"
 unicode: "f0c0"

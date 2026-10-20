@@ -26,7 +26,7 @@ class GridDots extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [network, pattern, layout, grid, dots, control, operation, function, interface, management]
+tags: [dots, grid, apps, app-launcher, menu, waffle, layout, pattern, dot-grid]
 category: System
 version: "1.0"
 unicode: "eaba"

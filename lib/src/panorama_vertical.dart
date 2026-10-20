@@ -26,7 +26,7 @@ class PanoramaVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [photo, picture, panoramic, panorama, vertical, camera, capture, lens, image]
+tags: [panorama, tall, photo, image, portrait, panoramic, vertical-panorama, image-format, vertical]
 category: Photography
 version: "1.27"
 unicode: "ed34"

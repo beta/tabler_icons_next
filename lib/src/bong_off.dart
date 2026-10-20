@@ -27,7 +27,7 @@ class BongOff extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [smoke, smoking, cannabis, marijuana, drugs, bong, off, disabled, inactive]
+tags: [smoking, cannabis, marijuana, weed, pipe, drugs, no-smoking, disabled, bong, off]
 version: "1.94"
 unicode: "f3c7"
 -->

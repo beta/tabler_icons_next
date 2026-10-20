@@ -26,7 +26,7 @@ class BuildingArch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arc, curve, dome, monument, history, architecture, building, arch, structure, construction]
+tags: [arch, triumphal-arch, monument, landmark, gate, architecture, history, building]
 category: Buildings
 version: "1.1"
 unicode: "ea49"

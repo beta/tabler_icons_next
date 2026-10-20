@@ -27,7 +27,7 @@ class DeviceWatchBolt extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [speed, thunder, charge, energetic, flash, zap, power, lightning, burst, electric]
+tags: [smartwatch, wearable, apple-watch, lightning, flash, energy, power, wristwatch, device, fitness-tracker, charge, electric, fast]
 version: "2.10"
 unicode: "f8d3"
 -->

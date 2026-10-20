@@ -27,7 +27,7 @@ class DeviceTabletX extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [tablet, close, delete, exit, stop, remove, terminate, cross, cancel, end]
+tags: [tablet, ipad, android, close, delete, remove, cancel, touchscreen, device, mobile, clear, error]
 version: "2.10"
 unicode: "f8d2"
 -->

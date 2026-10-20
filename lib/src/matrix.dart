@@ -26,7 +26,7 @@ class Matrix extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grid, array, system, structure, arrangement, schema, chart, layout, framework, matrix]
+tags: [grid, dots, array, table, mathematics, linear-algebra, pattern, layout, matrix]
 category: Math
 version: "3.24"
 unicode: "100bc"

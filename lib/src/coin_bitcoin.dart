@@ -26,7 +26,7 @@ class CoinBitcoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, earn, salary, change, coin, bitcoin, store, purchase, shopping, retail]
+tags: [bitcoin, btc, crypto, cryptocurrency, blockchain, coin, money, cash, currency, payment, finance, change]
 category: E-commerce
 version: "1.81"
 unicode: "f2be"

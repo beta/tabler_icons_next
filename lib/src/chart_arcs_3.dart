@@ -26,7 +26,7 @@ class ChartArcs3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, diagram, graph, rhythm, data, analysis, chart, arcs, visualization, analytics]
+tags: [chart, graph, statistics, analytics, data, report, diagram, arcs, radial, progress, gauge, visualization]
 category: Charts
 version: "1.39"
 unicode: "ee27"

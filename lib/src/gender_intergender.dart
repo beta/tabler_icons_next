@@ -26,7 +26,7 @@ class GenderIntergender extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identity, transgender, intersex, gender, intergender, person, human, individual]
+tags: [intergender, intersex, gender, identity, lgbt, lgbtq, symbol]
 category: Gender
 version: "1.64"
 unicode: "f0ed"

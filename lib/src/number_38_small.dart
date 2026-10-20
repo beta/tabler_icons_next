@@ -26,7 +26,7 @@ class Number38Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tiny, thirtyeight, digit38, numeric, miniature, icon38, num38, small38, threeeight, miniscule]
+tags: [thirty-eight, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 unicode: "10213"
 version: "3.14"

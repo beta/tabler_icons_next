@@ -26,7 +26,7 @@ class CalendarRepeat extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [recur, redo, reoccur, cycle, rerun, loop, reiterate, replicate, persist, continue]
+tags: [calendar, date, schedule, event, day, planner, agenda, repeat, recurring, loop, cycle, recurring-event, appointment]
 category: System
 version: "2.22"
 unicode: "fad2"

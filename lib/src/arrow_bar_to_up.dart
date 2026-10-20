@@ -26,7 +26,7 @@ class ArrowBarToUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [drag, move, arrow, bar, direction, pointer, top, increase, navigation, flow]
+tags: [direction, north, upward, top, to-edge, limit, end, upload, arrow, bar]
 category: Arrows
 version: "1.15"
 unicode: "ec8b"

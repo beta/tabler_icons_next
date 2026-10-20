@@ -26,7 +26,7 @@ class MicrophoneOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [record, sound, listen, microphone, off, content, entertainment, disabled, inactive, multimedia]
+tags: [mic, mute, muted, unmute, voice, audio, no-sound, disabled, slash, microphone, off]
 category: Media
 version: "1.24"
 unicode: "ed16"

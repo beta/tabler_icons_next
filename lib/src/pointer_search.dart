@@ -27,7 +27,7 @@ class PointerSearch extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [find, look, seek, discover, explore, locate, detect, browse, inspect, survey]
+tags: [cursor, mouse-pointer, mouse, find, lookup, magnifier, browse, arrow, click]
 version: "2.10"
 unicode: "f9a8"
 -->

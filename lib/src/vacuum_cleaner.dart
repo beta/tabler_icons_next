@@ -27,7 +27,7 @@ class VacuumCleaner extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [robot, clean, hoover, home, electronics, vacuum, cleaner]
+tags: [vacuum, hoover, robot-vacuum, roomba, cleaning, housework, home, cleaner]
 version: "1.112"
 unicode: "f5e6"
 -->

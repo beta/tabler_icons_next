@@ -26,7 +26,7 @@ class ZoomScan extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [magnify, enlarge, analyze, focus, enhance, view, magnification, zoom-in, scan-zoom, magnify-scan]
+tags: [zoom, magnifier, magnifying-glass, search, scan, focus, analyze, inspect]
 category: System
 version: "2.36"
 unicode: "fcb0"

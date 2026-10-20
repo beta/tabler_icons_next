@@ -26,7 +26,7 @@ class Dragon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [animal, creature, living, organism, fantasy, monster]
+tags: [dragon, fantasy, mythology, monster, creature, legend, game, dnd, fire]
 category: Animals
 unicode: "10272"
 version: "3.45"

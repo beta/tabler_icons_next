@@ -27,7 +27,7 @@ class Cell extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [biology, molecule, chemistry, human, laboratory, cell]
+tags: [cell, biology, microbiology, organism, microscope, science, laboratory, bacteria]
 version: "1.58"
 unicode: "f05f"
 -->

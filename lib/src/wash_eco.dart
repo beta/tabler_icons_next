@@ -27,7 +27,7 @@ class WashEco extends Icon {
 
   static const String _svg = '''<!--
 category: Laundry
-tags: [green, sustainable, eco-friendly, conserve, planet, environment, economical, preserve, resource, efficiency]
+tags: [laundry, care-label, clothes, washing, eco, green, sustainable, energy-saving]
 version: "2.18"
 unicode: "fa80"
 -->

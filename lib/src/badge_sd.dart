@@ -26,7 +26,7 @@ class BadgeSd extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, card, memory, sim, phone, badge, sd, award, achievement, recognition]
+tags: [standard-definition, resolution, video, quality, screen, display, low-quality, 480p, badge, sd]
 category: Badges
 version: "1.106"
 unicode: "f55c"

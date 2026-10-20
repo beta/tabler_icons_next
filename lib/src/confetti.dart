@@ -27,7 +27,7 @@ class Confetti extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [party, celebrate, streamers, paper, parade, wedding, celebration, confetti]
+tags: [confetti, party, celebration, celebrate, party-popper, tada, congratulations, birthday, festive]
 version: "1.39"
 unicode: "ee46"
 -->

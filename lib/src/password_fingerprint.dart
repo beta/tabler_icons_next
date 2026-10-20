@@ -26,7 +26,7 @@ class PasswordFingerprint extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [biometric, security, authentication, identity, access, login, verify, privacy, protection, recognition]
+tags: [biometric, fingerprint, touch-id, login, authentication, unlock, security, password]
 category: System
 version: "2.34"
 unicode: "fc7b"

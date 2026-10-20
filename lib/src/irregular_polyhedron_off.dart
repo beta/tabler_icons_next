@@ -26,7 +26,7 @@ class IrregularPolyhedronOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, irregular, polyhedron, off, disabled, inactive]
+tags: [polyhedron, irregular, 3d, shape, geometry, disabled, off-state, unavailable, none, off]
 category: Shapes
 version: "2.20"
 unicode: "faa9"

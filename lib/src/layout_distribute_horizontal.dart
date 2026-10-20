@@ -26,7 +26,7 @@ class LayoutDistributeHorizontal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [position, design, around, layout, distribute, horizontal, creative, artistic, visual, aesthetic]
+tags: [distribute, distribute-horizontal, spacing, align, layout, design, horizontal]
 category: Design
 version: "1.0"
 unicode: "ead5"

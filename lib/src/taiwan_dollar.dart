@@ -26,7 +26,7 @@ class TaiwanDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [taiwan, twd, ntd, dollar, currency, money, finance, payment, banknote, pay]
+tags: [twd, ntd, new-taiwan-dollar, currency, money, taiwan, finance, payment, cash, dollar]
 category: Currencies
 unicode: "10246"
 version: "3.43"

@@ -26,7 +26,7 @@ class BrandNeteaseMusic extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cloud, sound, app, stream, china, brand, netease, music, logo, company]
+tags: [netease-music, netease, music, streaming, cloud-music, china, audio, logo, brand]
 category: Brand
 version: "1.114"
 unicode: "f604"

@@ -26,7 +26,7 @@ class CastOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [broadcast, stream, mirroring, apple, airplay, chromecast, cast, off, content, entertainment]
+tags: [cast, screencast, chromecast, airplay, screen-mirroring, stream, tv, disabled, off, unavailable, inactive, stop-casting, disconnect]
 category: Media
 version: "1.63"
 unicode: "f0c9"

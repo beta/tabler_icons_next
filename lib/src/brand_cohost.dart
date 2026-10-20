@@ -26,7 +26,7 @@ class BrandCohost extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [web, website, app, social, nodes, network, community, communication, user, post, images, photos, comment, feedback]
+tags: [cohost, social, social-network, blog, posts, community, logo, brand]
 category: Brand
 unicode: "f5d5"
 version: "1.112"

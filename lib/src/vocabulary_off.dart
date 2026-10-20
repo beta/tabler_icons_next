@@ -26,7 +26,7 @@ class VocabularyOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [language, traffic, text, book, study, dictionary, vocabulary, off, disabled, inactive]
+tags: [vocabulary, dictionary, translate, language, disabled, inactive, glossary, words, off]
 category: Text
 version: "1.94"
 unicode: "f43b"

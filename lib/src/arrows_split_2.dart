@@ -26,7 +26,7 @@ class ArrowsSplit2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, navigation, east, arrows, split, flow, movement, route, path, 2]
+tags: [diverge, branch, fork, divide, pointer, navigation, direction, arrows, split]
 category: Arrows
 version: "1.35"
 unicode: "edb4"

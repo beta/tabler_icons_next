@@ -26,7 +26,7 @@ class CoinYuan extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, earn, salary, change, coin, yuan, store, purchase, shopping, retail]
+tags: [yuan, cny, rmb, renminbi, china, chinese, coin, money, cash, currency, payment, finance, change]
 category: E-commerce
 version: "1.81"
 unicode: "f2c3"

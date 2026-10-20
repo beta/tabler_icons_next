@@ -26,7 +26,7 @@ class BrandXing extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [web, media, network, site, social, brand, xing, logo, company, trademark]
+tags: [xing, social, professional, network, jobs, career, business, logo, brand]
 category: Brand
 version: "1.72"
 unicode: "f21a"

@@ -26,7 +26,7 @@ class MathEqualLower extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mathematic, less, than, equation, sign, math, equal, lower, calculation, mathematics]
+tags: [less-than-or-equal, lte, comparison, inequality, operator, mathematics, symbol, math, equal, lower]
 category: Math
 version: "1.100"
 unicode: "f4e5"

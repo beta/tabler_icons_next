@@ -26,7 +26,7 @@ class BrandSnowflake extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, cloud, platform, website, brand, snowflake, logo, company, trademark, identity]
+tags: [snowflake, data-warehouse, cloud, data, analytics, database, logo, brand]
 category: Brand
 version: "1.115"
 unicode: "f615"

@@ -26,7 +26,7 @@ class CameraBitcoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cryptocurrency, blockchain, digital, currency, investment, crypto, technology, finance, bitcoin, token]
+tags: [camera, photo, photography, picture, video, lens, image, bitcoin, crypto, cryptocurrency, btc]
 category: Media
 unicode: "ffa7"
 version: "3.12"

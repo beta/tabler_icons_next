@@ -26,7 +26,7 @@ class BrandGoogleDrive extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, cloud, disc, documents, sheet, presentation, file, edit, brand, google]
+tags: [google-drive, google, cloud, storage, files, docs, sharing, logo, brand]
 category: Brand
 version: "1.9"
 unicode: "ec1e"

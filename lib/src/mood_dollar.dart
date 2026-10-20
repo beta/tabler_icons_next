@@ -26,7 +26,7 @@ class MoodDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [emotion, feeling, happy, face, money, coin, mood, dollar, currency, usd]
+tags: [money, rich, price, payment, happy, emoji, smiley, face, emotion, feeling, reaction, mood, dollar]
 category: Mood
 version: "2.7"
 unicode: "f7b5"

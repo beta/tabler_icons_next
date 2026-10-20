@@ -26,7 +26,7 @@ class CaptureOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [photo, photographer, sharpen, capture, off, content, entertainment, disabled, inactive, multimedia]
+tags: [capture, screenshot, screen-capture, crop, focus, frame, disabled, off, unavailable, inactive]
 category: Media
 version: "1.63"
 unicode: "f0c6"

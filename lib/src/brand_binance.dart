@@ -26,7 +26,7 @@ class BrandBinance extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [website, crypto, cryptocurrency, exchange, brand, binance, logo, company, trademark, identity]
+tags: [binance, crypto, cryptocurrency, exchange, bitcoin, trading, blockchain, logo, brand]
 category: Brand
 version: "1.110"
 unicode: "f5a0"

@@ -27,7 +27,7 @@ class StackBackward extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [layers, depth, background, arrangement, reorder, reverse, underneath, position, sequence, arrange]
+tags: [layers, send-backward, arrange, order, z-index, depth, move-down, z-order, stacked]
 version: "2.40"
 unicode: "fd27"
 -->

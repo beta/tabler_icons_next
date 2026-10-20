@@ -26,7 +26,7 @@ class ColorSwatchOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sample, choice, selection, color, swatch, off, creative, artistic, disabled, inactive]
+tags: [color-swatch, swatches, colour, palette, theme, paint, off, disabled, color, swatch]
 category: Design
 version: "1.63"
 unicode: "f0d3"

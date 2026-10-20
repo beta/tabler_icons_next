@@ -26,7 +26,7 @@ class Packages extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [delivery, boxes, storage, packages, programming, software, coding, technical, developer]
+tags: [boxes, parcels, delivery, shipping, products, stack, inventory, warehouse, packages]
 category: Development
 version: "1.81"
 unicode: "f2c9"

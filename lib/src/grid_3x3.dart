@@ -26,7 +26,7 @@ class Grid3x3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [layout, pattern, matrix, arrangement, gridlines, cell, structure, block, squares, grid-pattern]
+tags: [grid, layout, table, matrix, tic-tac-toe, 3x3, cells, squares, gridlines, pattern, nine]
 category: Design
 version: "2.36"
 unicode: "fca4"

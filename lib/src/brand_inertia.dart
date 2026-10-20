@@ -26,7 +26,7 @@ class BrandInertia extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [create, app, online, javascript, brand, inertia, logo, company, trademark, identity]
+tags: [inertia, inertiajs, javascript, laravel, spa, framework, logo, brand]
 category: Brand
 version: "1.88"
 unicode: "f34a"

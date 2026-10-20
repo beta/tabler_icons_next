@@ -26,7 +26,7 @@ class WebhookOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [communication, interaction, comunity, browser, webhook, off, programming, software, disabled, inactive]
+tags: [webhook, api, integration, callback, disabled, inactive, webhooks, automation, off]
 category: Development
 version: "1.94"
 unicode: "f43d"

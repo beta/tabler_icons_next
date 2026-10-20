@@ -26,7 +26,7 @@ class Fold extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, move, merge, fold, navigation, flow, movement, route, path]
+tags: [fold, collapse, merge, arrows, compress, together, minimize, shrink, unfold]
 category: Arrows
 version: "1.30"
 unicode: "ed56"

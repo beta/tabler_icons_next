@@ -26,7 +26,7 @@ class Footsteps extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [steps, footsteps, footprint, walking, fitness, activity, wellness, pedometer, path, exercise]
+tags: [footsteps, footprints, steps, walk, walking, pedometer, track, trail, fitness, path]
 category: Health
 unicode: "10265"
 version: "3.44"

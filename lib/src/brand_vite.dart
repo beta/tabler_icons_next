@@ -26,7 +26,7 @@ class BrandVite extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, building, tool, programming, web, projects, brand, vite, logo, company]
+tags: [vite, vitejs, build-tool, bundler, frontend, javascript, dev-server, logo, brand]
 category: Brand
 version: "1.113"
 unicode: "f5f2"

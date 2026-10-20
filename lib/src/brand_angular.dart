@@ -26,7 +26,7 @@ class BrandAngular extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, coding, typescript, brand, angular, logo, company, trademark, identity, corporate]
+tags: [angular, angularjs, google, javascript, typescript, framework, frontend, web, logo, brand]
 category: Brand
 version: "1.45"
 unicode: "ef6b"

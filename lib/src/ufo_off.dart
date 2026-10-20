@@ -27,7 +27,7 @@ class UfoOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [alien, space, astronomy, spaceship, galaxy, ufo, off, disabled, inactive, flying-saucer]
+tags: [ufo, alien, spaceship, flying-saucer, disabled, inactive, extraterrestrial, outer-space, off]
 version: "1.76"
 unicode: "f26e"
 -->

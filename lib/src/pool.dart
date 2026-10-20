@@ -26,7 +26,7 @@ class Pool extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [swim, water, swimmer, holiday, swimming, vacation, relax, sport, pool, athletic]
+tags: [swimming-pool, swimming, swim, water, ladder, holiday, vacation, hotel, amenities, spa, pool]
 category: Sport
 version: "1.34"
 unicode: "ed91"

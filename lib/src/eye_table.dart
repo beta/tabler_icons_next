@@ -26,7 +26,7 @@ class EyeTable extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vision, sight, text, ophthalmology, disease, eye, table, medical, wellness, healthcare]
+tags: [eye-chart, snellen, eye-test, vision-test, optometry, ophthalmology, eyesight, optician, medical, eye, table]
 category: Health
 version: "1.44"
 unicode: "ef5e"

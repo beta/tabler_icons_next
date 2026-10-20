@@ -26,7 +26,7 @@ class ViewportNarrow extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, account, excel, tight, viewport, narrow, hardware, technology, electronic, gadget]
+tags: [viewport, narrow, shrink, width, compress, collapse, responsive, arrows]
 category: Devices
 version: "1.7"
 unicode: "ebf3"

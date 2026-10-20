@@ -26,7 +26,7 @@ class BrandDisney extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [films, castle, serials, magic, fantasia, brand, disney, logo, company, trademark]
+tags: [disney, disney-plus, movies, films, streaming, entertainment, castle, logo, brand]
 category: Brand
 version: "1.71"
 unicode: "f20a"

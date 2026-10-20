@@ -27,7 +27,7 @@ class AdjustmentsHeart extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [settings, love, affection, passion, romance, emotion, fondness, devotion, cherish, admire]
+tags: [settings, sliders, controls, filter, options, preferences, tune, favorite, love, like, wishlist]
 version: "2.10"
 unicode: "f803"
 -->

@@ -27,7 +27,7 @@ class WandOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [magic, tool, color, pixel, design, wand, off, disabled, inactive]
+tags: [magic, magic-wand, wizard, tool, disabled, inactive, magic-trick, magic-off, wand, off]
 version: "1.67"
 unicode: "f1c6"
 -->

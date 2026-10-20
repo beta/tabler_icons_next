@@ -27,7 +27,7 @@ class MathTg extends Icon {
 
   static const String _svg = '''<!--
 category: Math
-tags: [tangent, math, trigonometry, ratio, angle, circle, geometry, line, function, curve]
+tags: [tangent, tan, tg, trigonometry, function, mathematics, formula, angle, math]
 unicode: "ff33"
 version: "3.9"
 -->

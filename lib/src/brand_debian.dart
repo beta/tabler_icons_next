@@ -26,7 +26,7 @@ class BrandDebian extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [operating system, linux, computer, gnu, brand, debian, logo, company, trademark, identity]
+tags: [debian, linux, os, operating-system, distro, gnu, open-source, logo, brand]
 category: Brand
 version: "1.44"
 unicode: "ef57"

@@ -26,7 +26,7 @@ class ArrowsMinimize extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fullscreen, exit, close, arrows, minimize, navigation, flow, movement, route, path]
+tags: [collapse, shrink, exit-fullscreen, reduce, pointer, navigation, direction, arrows, minimize]
 category: Arrows
 version: "1.0"
 unicode: "ea29"

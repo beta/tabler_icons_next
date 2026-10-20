@@ -27,7 +27,7 @@ class LocationDown extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [descend, fall, decrease, drop, lower, sink, diminish, reduce, subside, plunge]
+tags: [location, navigation, gps, arrow, pointer, direction, map, position, arrow-down, download, decrease, lower]
 version: "2.28"
 unicode: "fbb6"
 -->

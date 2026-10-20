@@ -27,7 +27,7 @@ class PointerExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [alert, warn, notice, caution, attention, mark, highlight, important, emphasize, urgent]
+tags: [cursor, mouse-pointer, mouse, warning, alert, error, attention, important, arrow, click]
 version: "2.10"
 unicode: "f9a0"
 -->

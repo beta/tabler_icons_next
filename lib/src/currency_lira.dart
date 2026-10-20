@@ -26,7 +26,7 @@ class CurrencyLira extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [lira, trade, turkish, try, money, banknote, pay, currency, finance, payment]
+tags: [lira, try, turkey, turkish, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "ee60"

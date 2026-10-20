@@ -26,7 +26,7 @@ class DeviceAudioTape extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [record, music, radio, cassette, recording, play, device, audio, tape, hardware]
+tags: [audio-tape, cassette, tape, mixtape, retro, music, audio, recording, record, device]
 category: Devices
 version: "1.39"
 unicode: "ee73"

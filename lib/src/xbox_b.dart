@@ -26,7 +26,7 @@ class XboxB extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [controller, joystick, button, xbox, hardware, technology, electronic, gadget, equipment, b]
+tags: [xbox, controller, gamepad, button, game, console, b, microsoft]
 category: Devices
 version: "1.80"
 unicode: "f2b7"

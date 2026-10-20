@@ -26,7 +26,7 @@ class Emphasis extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [highlight, priority, stress, emphasis, typography, writing, font, character, word]
+tags: [emphasis, underline, highlight, text, typography, formatting, stress, important]
 category: Text
 version: "1.6"
 unicode: "ebcf"

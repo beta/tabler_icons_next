@@ -26,7 +26,7 @@ class FirstAidKit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [medical, healthcare, hospital, health, first, aid, kit, wellness, treatment, care]
+tags: [first-aid, first-aid-kit, medkit, medical-kit, emergency, health, red-cross, hospital, injury, first, aid, kit]
 category: Health
 version: "1.44"
 unicode: "ef5f"

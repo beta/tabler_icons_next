@@ -27,7 +27,7 @@ class OlympicTorch extends Icon {
 
   static const String _svg = '''<!--
 category: Sport
-tags: [olympics, torch, flame, ceremony, games, relay, athlete, sport, fire, tradition]
+tags: [torch, flame, fire, olympics, olympic-games, sport, champion, relay]
 unicode: "10228"
 version: "3.41"
 -->

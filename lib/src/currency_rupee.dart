@@ -26,7 +26,7 @@ class CurrencyRupee extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [inr, indian, rupee, exchange, money, banknote, pay, currency, finance, payment]
+tags: [rupee, inr, india, indian, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.4"
 unicode: "ebad"

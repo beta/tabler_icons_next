@@ -26,7 +26,7 @@ class MathFunction extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [linear, statyscics, graph, math, function, calculation, equation, mathematics, numeric, formula]
+tags: [function, fx, formula, equation, spreadsheet, excel, mathematics, expression, math]
 category: Math
 version: "1.39"
 unicode: "eeb2"

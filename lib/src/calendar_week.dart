@@ -26,7 +26,7 @@ class CalendarWeek extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weekly-calendar, week-view, date-week, weekly-schedule, timeframe, calendar-grid, week, week-planner, weekly, date-grid]
+tags: [calendar, date, schedule, event, day, planner, agenda, week, weekly, week-view, appointment]
 category: System
 version: "2.41"
 unicode: "fd30"

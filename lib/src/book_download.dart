@@ -26,7 +26,7 @@ class BookDownload extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [education, e-book, digital, book, download, file, paper, text, record, information]
+tags: [read, reading, library, education, study, literature, novel, ebook, save, book, download]
 category: Document
 version: "1.59"
 unicode: "f070"

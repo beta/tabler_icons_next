@@ -26,7 +26,7 @@ class Code extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [brackets, source, programming, command, code, script, software, development, coding, typography]
+tags: [brackets, angle-brackets, html, source, programming, developer, coding, embed, markup, tag, code]
 category: Text
 version: "1.0"
 unicode: "ea77"

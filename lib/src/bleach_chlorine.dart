@@ -26,7 +26,7 @@ class BleachChlorine extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [clothing, washing, chemical, laundry, detergent, clean, bleach, chlorine, cleaning, clothes]
+tags: [laundry, washing, clothes, care-label, textile, laundry-symbol, washing-instructions, cleaning, chemical, bleach, chlorine]
 category: Laundry
 version: "1.84"
 unicode: "f2f0"

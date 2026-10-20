@@ -26,7 +26,7 @@ class Network extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [connection, internet, communication, connect, web, signal, network, computing, machine, processor]
+tags: [internet, connection, globe, web, world-wide, lan, wifi, online, communication, network]
 category: Computers
 version: "1.61"
 unicode: "f09f"

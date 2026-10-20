@@ -26,7 +26,7 @@ class LayoutAlignLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [position, design, layout, align, left, creative, artistic, visual, aesthetic, style]
+tags: [align-left, align, left, alignment, layout, position, design]
 category: Design
 version: "1.0"
 unicode: "eacf"

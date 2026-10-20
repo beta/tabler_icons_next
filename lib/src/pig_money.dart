@@ -26,7 +26,7 @@ class PigMoney extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coin, finance, saving, bank, pig, money, creature, wildlife, nature, living]
+tags: [piggy-bank, savings, save, money, bank, deposit, finance, budget, pig]
 category: Animals
 version: "1.91"
 unicode: "f38c"

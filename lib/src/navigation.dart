@@ -26,7 +26,7 @@ class Navigation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [map, location, direction, pin, gps, navigation, geography, place, position]
+tags: [gps, arrow, direction, location, cursor, compass, route, map, pointer, send, current-location, near-me, travel, navigation]
 category: Map
 version: "1.81"
 unicode: "f2c8"

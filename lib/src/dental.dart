@@ -26,7 +26,7 @@ class Dental extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tooth, toothbrush, mouth, hygiene, dental, medical, wellness, healthcare, treatment, care]
+tags: [dental, tooth, teeth, dentist, dentistry, oral, mouth, health, medical]
 category: Health
 version: "1.55"
 unicode: "f025"

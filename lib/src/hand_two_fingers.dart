@@ -26,7 +26,7 @@ class HandTwoFingers extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [body, human, palm, gesture, hand, two, fingers, touch, action, motion]
+tags: [hand, two-fingers, peace, victory, gesture, count, finger, two, fingers]
 category: Gestures
 version: "1.39"
 unicode: "ee99"

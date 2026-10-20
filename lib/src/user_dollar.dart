@@ -27,7 +27,7 @@ class UserDollar extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [currency, money, finance, economy, cash, wealth, bank, trade, investment, payment]
+tags: [person, account, profile, avatar, member, money, payment, salary, finance, customer, client, usd]
 version: "2.10"
 unicode: "f9d5"
 -->

@@ -26,7 +26,7 @@ class RulerMeasure extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [maths, dimensions, size, width, length, geometry, measure, technical, distance, ruler]
+tags: [measure, measurement, dimensions, distance, size, length, width, ruler]
 category: Design
 version: "1.78"
 unicode: "f291"

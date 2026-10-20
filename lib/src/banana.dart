@@ -26,7 +26,7 @@ class Banana extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [banana, fruit, tropical, healthy, food, snack, peel, potassium, meal, nutrition]
+tags: [fruit, food, healthy, tropical, snack, yellow, potassium, vegan, banana]
 category: Food
 unicode: "10253"
 version: "3.43"

@@ -27,7 +27,7 @@ class MusicCancel extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [mute, stop, disable, halt, silence, cut, end, disconnect, terminate, block]
+tags: [song, audio, sound, note, melody, track, cancelled, stop, abort, blocked, forbidden, mp3, playlist, player]
 version: "2.28"
 unicode: "fbd6"
 -->

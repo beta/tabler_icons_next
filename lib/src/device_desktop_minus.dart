@@ -27,7 +27,7 @@ class DeviceDesktopMinus extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [decrease, subtract, lower, reduce, negative, diminish, downsize, deduct, withdraw, eliminate]
+tags: [minus, remove, subtract, less, desktop, monitor, computer, screen, pc]
 version: "2.10"
 unicode: "f867"
 -->

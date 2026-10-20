@@ -26,7 +26,7 @@ class DeviceGamepad extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, play, entertainment, console, joystick, joypad, controller, device, gamepad, hardware]
+tags: [gamepad, controller, game-controller, gaming, joystick, joypad, console, play, video-game, device]
 category: Devices
 version: "1.2"
 unicode: "eb63"

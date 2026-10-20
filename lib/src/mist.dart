@@ -26,7 +26,7 @@ class Mist extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, visibility, mist, climate, forecast, meteorology, atmospheric, conditions]
+tags: [fog, haze, foggy, weather, visibility, cloudy, smog, mist]
 category: Weather
 version: "1.10"
 unicode: "ec30"

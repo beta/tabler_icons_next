@@ -27,7 +27,7 @@ class ExclamationMark extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [warning, caution, alert, danger, "!", exclamation, mark, important, notice, attention]
+tags: [exclamation, exclamation-point, alert, warning, important, attention, error, bang, caution, mark]
 version: "1.49"
 unicode: "efb4"
 -->

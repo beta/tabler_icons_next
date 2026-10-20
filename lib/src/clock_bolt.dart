@@ -27,7 +27,7 @@ class ClockBolt extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [fast, quick, speed, instant, lightning, rapid, swift, flash, hurry, urgent]
+tags: [bolt, lightning, fast, quick, express, speed, clock, time, urgent]
 version: "2.10"
 unicode: "f844"
 -->

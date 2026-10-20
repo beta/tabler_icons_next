@@ -27,7 +27,7 @@ class DeviceDesktopSearch extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [find, locate, explore, discover, seek, hunt, probe, scan, survey, inspect]
+tags: [search, find, magnifier, lookup, desktop, monitor, computer, screen, pc]
 version: "2.10"
 unicode: "f86c"
 -->

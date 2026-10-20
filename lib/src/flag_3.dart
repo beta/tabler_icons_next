@@ -26,7 +26,7 @@ class Flag3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [banner, pin, report, map, warning, alert, flag, location, navigation, geography]
+tags: [flag, pennant, banner, report, milestone, mark, goal, triangle]
 category: Map
 version: "1.39"
 unicode: "ee8d"

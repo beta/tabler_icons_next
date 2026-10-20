@@ -26,7 +26,7 @@ class FlipFlops extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [summer, sand, sandals, beach, shoes, flip, flops, store, purchase, shopping]
+tags: [flip-flops, sandals, slippers, beach, summer, vacation, holiday, footwear, shoes, flip, flops]
 category: E-commerce
 version: "1.106"
 unicode: "f564"

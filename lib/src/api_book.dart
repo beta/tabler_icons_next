@@ -26,7 +26,7 @@ class ApiBook extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, coding, program, code, configuration, api, software, technical, developer, interface]
+tags: [api-docs, documentation, reference, developer, guide, manual, programming, interface, api]
 category: Development
 unicode: "1020b"
 version: "3.40"

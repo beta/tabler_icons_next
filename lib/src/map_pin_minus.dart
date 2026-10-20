@@ -27,7 +27,7 @@ class MapPinMinus extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [decrease, subtract, remove, reduce, lessen, detract, shorten, minimize, negate, deduct]
+tags: [pin, marker, location, place, gps, map, point, poi, remove, subtract, minus, delete]
 version: "2.10"
 unicode: "f953"
 -->

@@ -26,7 +26,7 @@ class CurrencyDollarSingapore extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [singapore, dollar, exchange, sgd, money, banknote, pay, currency, finance, payment]
+tags: [singapore-dollar, sgd, singapore, dollar, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "ee58"

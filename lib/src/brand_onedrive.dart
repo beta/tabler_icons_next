@@ -26,7 +26,7 @@ class BrandOnedrive extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [virtual, disk, microsoft, cloud, brand, onedrive, logo, company, trademark, identity]
+tags: [onedrive, microsoft, cloud, storage, files, sync, backup, logo, brand]
 category: Brand
 version: "1.112"
 unicode: "f5d7"

@@ -27,7 +27,7 @@ class ToiletPaper extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [bathroom, hygiene, wc, cleaning, rubbing, toilet, paper]
+tags: [toilet-paper, toilet-roll, tissue, bathroom, restroom, wc, hygiene, toilet, paper]
 version: "1.50"
 unicode: "efd3"
 -->

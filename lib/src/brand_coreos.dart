@@ -26,7 +26,7 @@ class BrandCoreos extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [operating, system, linux, programmers, brand, coreos, logo, company, trademark, identity]
+tags: [coreos, linux, operating-system, os, container, red-hat, logo, brand]
 category: Brand
 version: "1.114"
 unicode: "f5fd"

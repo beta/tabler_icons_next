@@ -26,7 +26,7 @@ class ZoomCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [magnifying glass, zoom, cancel, location, navigation, magnify, enlarge, scale, focus, view]
+tags: [zoom, magnifier, magnifying-glass, search, cancel, clear-search, stop, close]
 category: Map
 version: "1.11"
 unicode: "ec4d"

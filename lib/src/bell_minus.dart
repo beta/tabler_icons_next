@@ -26,7 +26,7 @@ class BellMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [notification, alarm, alert, remove, ring, bell, minus, control, operation, subtract]
+tags: [notification, alert, reminder, notify, alarm, remove, subtract, reduce, less, bell, minus]
 category: System
 version: "1.37"
 unicode: "ede2"

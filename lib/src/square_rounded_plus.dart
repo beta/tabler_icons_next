@@ -26,7 +26,7 @@ class SquareRoundedPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, add, new, create, square, rounded, plus, rectangular, more, increase]
+tags: [add, create, new, insert, plus, button, expand, squircle, rounded, square]
 category: Shapes
 version: "1.117"
 unicode: "f63f"

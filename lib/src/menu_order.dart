@@ -26,7 +26,7 @@ class MenuOrder extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [move, arrows, up, down, south, north, bottom, top, menu, order]
+tags: [reorder, sort, drag-handle, arrows, up-down, move, order, rearrange, menu]
 category: System
 version: "1.113"
 unicode: "f5f5"

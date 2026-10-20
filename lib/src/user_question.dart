@@ -27,7 +27,7 @@ class UserQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [inquiry, ask, query, doubt, wonder, puzzle, investigation, seek, probe, interrogate]
+tags: [person, account, profile, avatar, member, help, unknown, faq, ask, support, anonymous, guest]
 version: "2.8"
 unicode: "f7cf"
 -->

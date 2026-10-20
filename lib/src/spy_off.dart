@@ -27,7 +27,7 @@ class SpyOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [security, incognito, privacy, browser, web, spy, off, disabled, inactive]
+tags: [incognito, private-browsing, privacy, anonymous, secret, agent, detective, disabled, unavailable, inactive, hidden, spy, off]
 version: "1.94"
 unicode: "f42f"
 -->

@@ -27,7 +27,7 @@ class BorderBottomPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [add, bottom, increase, augment, expand, enclose, edge, underline, extend, boost]
+tags: [table, cell, spreadsheet, excel, format, edge, add, bottom]
 unicode: "fdbd"
 version: "3.0"
 -->

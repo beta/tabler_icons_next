@@ -26,7 +26,7 @@ class BrandThreejs extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [javascript, 3d, library, interface, software, make, animation, brand, threejs, logo]
+tags: [threejs, three-js, 3d, webgl, javascript, library, graphics, logo, brand]
 category: Brand
 version: "1.113"
 unicode: "f5f0"

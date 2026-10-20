@@ -26,7 +26,7 @@ class MessageCircleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [comment, chat, reply, message, circle, off, contact, conversation, disabled, inactive]
+tags: [chat, comment, speech-bubble, round, conversation, sms, disabled, inactive, slash, crossed-out, reply, communication, dm, message, circle, off]
 category: Communication
 version: "1.28"
 unicode: "ed40"

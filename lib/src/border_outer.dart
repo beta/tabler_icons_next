@@ -26,7 +26,7 @@ class BorderOuter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [table, side, line, border, outer, creative, artistic, visual, aesthetic, style]
+tags: [table, cell, spreadsheet, excel, format, edge, outside, outline, border, outer]
 category: Design
 version: "1.0"
 unicode: "ea41"

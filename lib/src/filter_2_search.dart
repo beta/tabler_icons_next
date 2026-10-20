@@ -26,7 +26,7 @@ class Filter2Search extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, search, find, look, seek, query, browse, sort, organize, arrange]
+tags: [filter, filtering, sort, find, magnifier, magnifying-glass, lookup, refine, list, options, zoom, query, search]
 category: System
 version: "3.32"
 unicode: "10150"

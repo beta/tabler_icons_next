@@ -26,7 +26,7 @@ class BrandNextjs extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [website creation, web platform, software, web application functions, brand, nextjs, logo, company, trademark, identity]
+tags: [nextjs, next, vercel, react, framework, ssr, web, javascript, logo, brand]
 category: Brand
 version: "1.64"
 unicode: "f0dd"

@@ -26,7 +26,7 @@ class Bat extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [animal, halloween, vampire, scary, blood, bat, creature, wildlife, nature, living]
+tags: [animal, halloween, vampire, night, spooky, nocturnal, animal-bat, vampire-bat, batman, bat]
 category: Animals
 version: "1.78"
 unicode: "f284"

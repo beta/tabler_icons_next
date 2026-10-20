@@ -26,7 +26,7 @@ class FocusCentered extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, photo, photography, camera, focus, centered, control, operation, function, interface]
+tags: [focus, center, centered, camera, photo, viewfinder, frame, crop, target]
 category: System
 version: "1.55"
 unicode: "f02a"

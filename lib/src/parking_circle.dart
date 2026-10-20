@@ -27,7 +27,7 @@ class ParkingCircle extends Icon {
 
   static const String _svg = '''<!--
 category: Symbols
-tags: [parking, parking-lot, circle-parking, vehicle-parking, parking-zone, parking-area, parking-circle, car-park, round-parking, circle-lot]
+tags: [parking-lot, car, park, sign, p, vehicle, round, badge, parking]
 version: "2.43"
 unicode: "fd5a"
 -->

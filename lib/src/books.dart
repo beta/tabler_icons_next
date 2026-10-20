@@ -26,7 +26,7 @@ class Books extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [education, learning, reading, school, library, books, file, paper, text, record]
+tags: [library, reading, education, study, literature, bookshelf, book-stack, reading-list, books]
 category: Document
 version: "1.52"
 unicode: "eff2"

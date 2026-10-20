@@ -26,7 +26,7 @@ class Number46Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tiny, fortysix, digit46, numeric, miniature, icon46, num46, small46, foursix, miniscule]
+tags: [forty-six, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 unicode: "1021b"
 version: "3.14"

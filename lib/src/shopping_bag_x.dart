@@ -27,7 +27,7 @@ class ShoppingBagX extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [delete, remove, cancel, terminate, exclude, annul, erase, cut, negate, obliterate]
+tags: [shopping-bag, bag, shop, delete, remove, close, cancel, error, store, purchase, buy, ecommerce]
 version: "2.29"
 unicode: "fc1d"
 -->

@@ -26,7 +26,7 @@ class SortAZ extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alphabet, letters, alphabetical, sort, typography, writing, font, character, word, a]
+tags: [sort, alphabetical, ascending, order, a-z, letters, arrange, a]
 category: Text
 version: "1.105"
 unicode: "f54f"

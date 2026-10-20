@@ -27,7 +27,7 @@ class DeviceDesktopPin extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [attach, fasten, fix, secure, anchor, tack, clip, affix, stick, bind]
+tags: [pin, location, marker, place, desktop, monitor, computer, screen, pc]
 version: "2.10"
 unicode: "f869"
 -->

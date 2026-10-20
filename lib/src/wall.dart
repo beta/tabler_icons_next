@@ -26,7 +26,7 @@ class Wall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [brick, security, firewall, building, renovation, construction, wall, architecture, structure, property]
+tags: [wall, brick, firewall, construction, building, bricks, brickwall, barrier]
 category: Buildings
 version: "1.45"
 unicode: "ef7a"

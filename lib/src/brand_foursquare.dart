@@ -26,7 +26,7 @@ class BrandFoursquare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, website, community, social, network, brand, foursquare, rectangular, company, trademark]
+tags: [foursquare, location, check-in, places, social, map, logo, brand]
 category: Brand
 version: "1.23"
 unicode: "ecff"

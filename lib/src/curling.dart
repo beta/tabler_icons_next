@@ -26,7 +26,7 @@ class Curling extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, sport, olympic, winter, snow, curling, athletic, fitness, exercise, physical]
+tags: [curling, stone, curling-stone, winter-sport, olympics, ice, sport, game]
 category: Sport
 version: "1.50"
 unicode: "efc8"

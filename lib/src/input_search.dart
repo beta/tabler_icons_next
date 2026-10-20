@@ -26,7 +26,7 @@ class InputSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [find, website, field, explore, input, search, look, seek, query, browse]
+tags: [search-bar, search-box, search-field, input, text-field, find, query, form, search]
 category: Text
 version: "1.79"
 unicode: "f2a2"

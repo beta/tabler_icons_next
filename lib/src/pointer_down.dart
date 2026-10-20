@@ -27,7 +27,7 @@ class PointerDown extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [descend, lower, fall, bottom, drop, decrease, reduce, subside, below, sink]
+tags: [cursor, mouse-pointer, mouse, download, arrow-down, decrease, lower, arrow, click]
 version: "2.10"
 unicode: "f99f"
 -->

@@ -27,7 +27,7 @@ class LegoOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [toy, boy, face, play, lego, off, disabled, inactive]
+tags: [lego, toy, brick, block, play, disabled, off-state, unavailable, off]
 version: "1.94"
 unicode: "f401"
 -->

@@ -26,7 +26,7 @@ class BrandPython extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, language, programming, source, brand, python, company, trademark, identity, corporate]
+tags: [python, programming, language, code, scripting, snake, logo, brand]
 category: Brand
 version: "1.23"
 unicode: "ed01"

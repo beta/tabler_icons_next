@@ -26,7 +26,7 @@ class CurrentLocationOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [localization, maps, navigation, pin, target, current, location, off, disabled, inactive]
+tags: [current-location, my-location, gps, location-off, no-gps, navigation, map, off, disabled, current, location]
 category: Map
 version: "1.65"
 unicode: "f10e"

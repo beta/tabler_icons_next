@@ -27,7 +27,7 @@ class DropletPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [add, increase, expand, boost, augment, enhance, raise, grow, multiply, supplement]
+tags: [drop, water, liquid, add, new, create, insert, rain, ink, color, more]
 version: "2.10"
 unicode: "f905"
 -->

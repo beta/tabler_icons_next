@@ -26,7 +26,7 @@ class NavigationOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [map, location, direction, pin, gps, navigation, off, disabled, inactive, geography]
+tags: [gps, arrow, direction, location, cursor, compass, disabled, inactive, slash, crossed-out, route, map, pointer, navigation, off]
 category: Map
 version: "1.94"
 unicode: "f413"

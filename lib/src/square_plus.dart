@@ -26,7 +26,7 @@ class SquarePlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, create, new, square, plus, rectangular, more, increase, positive, additional]
+tags: [add, create, new, insert, plus, button, square, box, expand]
 category: Shapes
 version: "1.0"
 unicode: "eb2a"

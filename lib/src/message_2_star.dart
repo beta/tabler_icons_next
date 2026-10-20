@@ -27,7 +27,7 @@ class Message2Star extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [favorite, highlight, important, mark, prominent, noteworthy, shine, top, notable, emphasize]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, favorite, bookmark, rating, featured, reply, communication, dm]
 version: "2.10"
 unicode: "f96a"
 -->

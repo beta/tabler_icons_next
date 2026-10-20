@@ -27,7 +27,7 @@ class FirewallFlame extends Icon {
 
   static const String _svg = '''<!--
 category: Development
-tags: [security, protection, fire, burn, block, shield, defense, barrier, guard, hot, blaze, safety]
+tags: [firewall, security, network, fire, protection, brick-wall, block, cybersecurity, threat, attack]
 unicode: "101f0"
 version: "3.39"
 -->

@@ -26,7 +26,7 @@ class RoadSign extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [telltale, prohibitive, indicative, cautionary, codex, restrictions, road, sign, location, navigation]
+tags: [traffic-sign, signpost, street-sign, direction, sign, warning, road]
 category: Map
 version: "1.20"
 unicode: "ecdd"

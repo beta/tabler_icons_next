@@ -26,7 +26,7 @@ class DeviceCameraPhone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [smartphone, technology, photo, gadget, photography, device, camera, phone, call, mobile]
+tags: [camera-phone, smartphone, phone, mobile, camera, photo, selfie, device]
 category: Devices
 version: "1.73"
 unicode: "f233"

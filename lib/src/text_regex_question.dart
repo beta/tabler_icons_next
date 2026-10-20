@@ -26,7 +26,7 @@ class TextRegexQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [regular, expression, regex, code, programming, coding, pattern, text, question, optional, quantifier, mark]
+tags: [regex, regexp, regular-expression, optional, quantifier, pattern, match, formula, text, question]
 category: Text
 unicode: "1026b"
 version: "3.45"

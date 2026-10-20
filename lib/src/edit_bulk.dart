@@ -26,7 +26,7 @@ class EditBulk extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pencil, change, update, edit, modify, bulk, batch, multiple, list, mass]
+tags: [bulk-edit, batch, multiple, edit, pencil, mass-edit, list, modify, update, bulk]
 category: Design
 unicode: "1029d"
 version: "3.47"

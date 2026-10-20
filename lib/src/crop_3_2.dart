@@ -26,7 +26,7 @@ class Crop32 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [portrait-crop, aspect-ratio-3-2, vertical-crop, portrait-mode, tall-crop, 3-by-2, portrait-format, vertical-aspect, vertical-frame, portrait]
+tags: [3-2, photo, 3x2, crop, aspect-ratio, resize, image, frame, trim, edit]
 category: Design
 version: "2.43"
 unicode: "fd52"

@@ -26,7 +26,7 @@ class BrandZhihu extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [forum, make, question, answers, website, brand, zhihu, logo, company, trademark]
+tags: [zhihu, questions, answers, q-and-a, forum, china, community, logo, brand]
 category: Brand
 version: "1.114"
 unicode: "f60a"

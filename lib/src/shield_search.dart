@@ -27,7 +27,7 @@ class ShieldSearch extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [protection, explore, find, locate, security, guard, scout, detect, scan, seek]
+tags: [security, protection, protect, find, lookup, magnifier, browse, guard, safety, secure]
 version: "2.10"
 unicode: "f9cd"
 -->

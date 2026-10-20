@@ -27,7 +27,7 @@ class Icosahedron extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [geometry, polyhedron, twenty, faces, shapes, 3d, solid, structure, form, multisided]
+tags: [icosahedron, polyhedron, 3d, shape, geometry, solid, d20, dice, twenty-sided]
 unicode: "fec6"
 version: "3.3"
 -->

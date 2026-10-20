@@ -26,7 +26,7 @@ class TextSize extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [font, edit, document, type, letter, text, size, typography, writing, character, accessibility, a11y, resize, readability]
+tags: [font-size, text-size, typography, font, letter, type, formula, text, size]
 category: Text
 version: "1.80"
 unicode: "f2b1"

@@ -26,7 +26,7 @@ class BrandCSharp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coding, programming, files, language, brand, sharp, logo, company, trademark, identity]
+tags: [c-sharp, csharp, dotnet, microsoft, programming, language, code, logo, brand, sharp]
 category: Brand
 version: "1.53"
 unicode: "f003"

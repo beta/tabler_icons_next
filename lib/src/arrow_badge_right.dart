@@ -26,7 +26,7 @@ class ArrowBadgeRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [army, badge, military, rank, soldier, war, east, arrow, right, direction]
+tags: [chevron, caret, arrowhead, direction, rank, east, next, forward, arrow, badge, right]
 category: Arrows
 version: "1.115"
 unicode: "f60d"

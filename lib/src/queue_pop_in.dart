@@ -27,7 +27,7 @@ class QueuePopIn extends Icon {
 
   static const String _svg = '''<!--
 category: Development
-tags: [queue, pop, in, insert, stack, data-structure, add, development]
+tags: [queue, enqueue, push, insert, add, data-structure, fifo, stack, pop, in]
 unicode: "10200"
 version: "3.40"
 -->

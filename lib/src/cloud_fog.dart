@@ -26,7 +26,7 @@ class CloudFog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, online, cloud, fog, storage, climate, forecast, server, sync, meteorology]
+tags: [fog, foggy, mist, haze, weather, cloudy, forecast, cloud]
 category: Weather
 version: "1.20"
 unicode: "ecd9"

@@ -27,7 +27,7 @@ class MapPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [expand, enlarge, add, increase, grow, upscale, multiply, boost, enhance, extend]
+tags: [map, navigation, location, travel, geography, directions, atlas, add, new, create, plus]
 version: "2.28"
 unicode: "fbcf"
 -->

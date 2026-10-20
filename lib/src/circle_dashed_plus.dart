@@ -27,7 +27,7 @@ class CircleDashedPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [add, plus-symbol, increase, positive, augment, more, addition, enhance, supplement, plus-sign]
+tags: [plus, add, new, create, dashed, circle, round, placeholder, empty-state, expand]
 unicode: "feb6"
 version: "3.2"
 -->

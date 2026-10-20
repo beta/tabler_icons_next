@@ -26,7 +26,7 @@ class InfoCircle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [information, advice, news, tip, sign, info, circle, control, operation, round]
+tags: [info, information, about, details, help, tip, i, circle, notice]
 category: System
 version: "1.0"
 unicode: "eac5"

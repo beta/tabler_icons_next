@@ -26,7 +26,7 @@ class CoinYen extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, earn, salary, change, coin, yen, store, purchase, shopping, retail]
+tags: [yen, jpy, japan, japanese, coin, money, cash, currency, payment, finance, change]
 category: E-commerce
 version: "1.81"
 unicode: "f2c2"

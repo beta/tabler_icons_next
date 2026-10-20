@@ -26,7 +26,7 @@ class MessagePlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [comment, chat, reply, communication, conversation, message, plus, contact, add, more]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, add, new, create, insert, reply, communication, dm, message, plus]
 category: Communication
 version: "1.16"
 unicode: "ec9a"

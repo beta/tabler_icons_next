@@ -26,7 +26,7 @@ class BuildingStore extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shopping, shop, supermarket, market, products, retail, buy, sell, building, store]
+tags: [store, shop, retail, market, storefront, supermarket, commerce, building]
 category: Buildings
 version: "1.1"
 unicode: "ea4e"

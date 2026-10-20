@@ -27,7 +27,7 @@ class DeviceWatchCode extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [program, engineer, script, develop, compose, syntax, software, debug, command, build]
+tags: [smartwatch, wearable, apple-watch, code, programming, developer, coding, wristwatch, device, fitness-tracker, html, embed]
 version: "2.10"
 unicode: "f8d6"
 -->

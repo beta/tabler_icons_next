@@ -27,7 +27,7 @@ class DeviceTabletDollar extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [tablet, money, currency, finance, payment, price, cash, transaction, budget, funds]
+tags: [tablet, ipad, android, money, price, payment, cost, touchscreen, device, mobile, currency, usd, finance]
 version: "2.10"
 unicode: "f8c5"
 -->

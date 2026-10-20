@@ -26,7 +26,7 @@ class VectorBezierArc extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [curve, drafting, reshape, shape, vector, bezier, arc, creative, artistic, visual]
+tags: [bezier, arc, curve, vector, path, pen-tool, design, vector-graphics]
 category: Design
 version: "1.98"
 unicode: "f4cd"

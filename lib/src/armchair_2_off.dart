@@ -27,7 +27,7 @@ class Armchair2Off extends Icon {
 
   static const String _svg = '''<!--
 category: Buildings
-tags: [seat, chair, sofa, home, furniture, armchair, off, disabled, inactive, 2]
+tags: [chair, furniture, seat, sofa, couch, living-room, interior, home, disabled, unavailable, armchair, off]
 version: "1.94"
 unicode: "f3bd"
 -->

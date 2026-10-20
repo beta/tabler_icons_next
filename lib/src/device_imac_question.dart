@@ -27,7 +27,7 @@ class DeviceImacQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [inquire, ask, query, probe, interrogate, wonder, doubt, speculate, ponder, explore]
+tags: [question, help, faq, unknown, support, imac, mac, apple, computer, desktop, monitor]
 version: "2.10"
 unicode: "f87f"
 -->

@@ -26,7 +26,7 @@ class Clock12 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, hour, watch, timepiece, twelve-hour, am/pm, noon, midday, daytime, clock-face]
+tags: [twelve, 12-hour, noon, midnight, am, pm, time-format, clock, time, hour]
 category: System
 version: "2.32"
 unicode: "fc56"

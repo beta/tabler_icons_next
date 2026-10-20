@@ -27,7 +27,7 @@ class DeviceMobileCheck extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [confirm, verify, approve, validate, tick, correct, ok, authenticate, affirm, accredit]
+tags: [phone, smartphone, iphone, done, success, confirmed, approved, android, cellphone, device, verified, tick, checkmark, ok]
 version: "2.10"
 unicode: "f8af"
 -->

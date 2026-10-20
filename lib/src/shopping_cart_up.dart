@@ -26,7 +26,7 @@ class ShoppingCartUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [increase, ascend, rise, elevate, boost, grow, amplify, escalate, climb, shopping]
+tags: [shopping-cart, cart, basket, upload, arrow-up, increase, raise, trolley, shop, store, checkout, ecommerce, buy, shopping]
 category: E-commerce
 version: "2.28"
 unicode: "fb6a"

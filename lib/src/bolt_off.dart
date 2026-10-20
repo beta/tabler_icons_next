@@ -27,7 +27,7 @@ class BoltOff extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [energy, power, electricity, storm, lightning, flash, bolt, off, disabled, inactive]
+tags: [lightning, flash, electricity, power, energy, thunder, fast, zap, disabled, no-power, bolt, off]
 version: "1.22"
 unicode: "ecec"
 -->

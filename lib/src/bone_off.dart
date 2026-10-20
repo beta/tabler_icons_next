@@ -26,7 +26,7 @@ class BoneOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [skeleton, human, dog, body, bone, off, meal, cuisine, disabled, inactive]
+tags: [skeleton, dog, medical, anatomy, fracture, disabled, no-bones, bone, off]
 category: Food
 version: "1.63"
 unicode: "f0bb"

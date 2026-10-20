@@ -26,7 +26,7 @@ class CreativeCommonsNd extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [licence, license, creative, commons, control, operation, nd, function, interface, management]
+tags: [nd, no-derivatives, no-derivs, creative-commons, cc, license, copyright, open, attribution, legal, creative, commons]
 category: System
 version: "1.72"
 unicode: "f221"

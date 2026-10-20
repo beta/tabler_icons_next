@@ -26,7 +26,7 @@ class ExposureOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [light, bright, dark, camera, exposure, off, disabled, inactive, picture, image]
+tags: [exposure, brightness, contrast, camera, photo, photography, disabled, inactive, unavailable, slash, turn-off, light, adjustment, off]
 category: Photography
 version: "1.94"
 unicode: "f3eb"

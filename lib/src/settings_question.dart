@@ -27,7 +27,7 @@ class SettingsQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [configuration, inquiry, query, help, preferences, setup, tools, assistance, support, guide]
+tags: [cog, gear, preferences, help, faq, unknown, support, configuration, options, config]
 version: "2.10"
 unicode: "f9ba"
 -->

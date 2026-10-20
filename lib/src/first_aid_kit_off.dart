@@ -26,7 +26,7 @@ class FirstAidKitOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [medical, healthcare, hospital, health, first, aid, kit, off, wellness, disabled]
+tags: [first-aid, first-aid-kit, medkit, medical-kit, emergency, health, disabled, inactive, unavailable, slash, turn-off, red-cross, hospital, first, aid, kit, off]
 category: Health
 version: "1.94"
 unicode: "f3ed"

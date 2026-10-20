@@ -27,7 +27,7 @@ class Luggage extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [travel, vacation, suitcase, bag, holiday, baggage, luggage]
+tags: [luggage, suitcase, baggage, bag, travel, trip, vacation, holiday]
 version: "1.48"
 unicode: "efad"
 -->

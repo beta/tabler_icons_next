@@ -27,7 +27,7 @@ class Texture extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [pattern, abstract, decoration, background, fashion, texture]
+tags: [pattern, texture, background, fabric, surface, grain, material, formula, noise]
 version: "1.102"
 unicode: "f51b"
 -->

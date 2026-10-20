@@ -27,7 +27,7 @@ class DeviceIpadHorizontalExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [alert, warning, caution, notice, attention, important, critical, urgent, alarm, notify]
+tags: [exclamation, warning, alert, error, attention, important, ipad, tablet, apple, ios, landscape]
 version: "2.10"
 unicode: "f895"
 -->

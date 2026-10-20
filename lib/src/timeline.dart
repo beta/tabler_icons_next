@@ -27,7 +27,7 @@ class Timeline extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [process, plan, planning, diagram, chart, roadmap, timeline]
+tags: [timeline, history, roadmap, progress, events, process, steps, chronology]
 version: "1.55"
 unicode: "f031"
 -->

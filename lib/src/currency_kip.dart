@@ -26,7 +26,7 @@ class CurrencyKip extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, finance, money, cash, laos, currency, kip, payment, monetary, banking]
+tags: [kip, lak, laos, lao, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.90"
 unicode: "f373"

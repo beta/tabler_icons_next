@@ -26,7 +26,7 @@ class CardboardsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vr, virtual reality, watch, viewer, technology, cardboards, off, hardware, disabled, inactive]
+tags: [cardboard, vr, virtual-reality, headset, goggles, disabled, off, unavailable, inactive, cardboards]
 category: Devices
 version: "1.63"
 unicode: "f0c8"

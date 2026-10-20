@@ -26,7 +26,7 @@ class Minimize extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exit, close, minimize, content, entertainment, multimedia, broadcast, audio]
+tags: [shrink, collapse, exit-fullscreen, reduce, smaller, corners, window, compress, minimize]
 category: Media
 version: "1.0"
 unicode: "eaf1"

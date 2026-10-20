@@ -26,7 +26,7 @@ class Tower extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [building, castle, fortress, palace, tower, architecture, structure, construction, property]
+tags: [tower, castle, fortress, rook, chess, building, turret, fort]
 category: Buildings
 version: "1.81"
 unicode: "f2cb"

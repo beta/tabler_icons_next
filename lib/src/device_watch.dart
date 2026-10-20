@@ -26,7 +26,7 @@ class DeviceWatch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arm, hour, date, minutes, sec., timer, device, watch, hardware, technology]
+tags: [smartwatch, watch, wristwatch, apple-watch, wearable, fitness-tracker, time, clock, device]
 category: Devices
 version: "1.8"
 unicode: "ebf9"

@@ -26,7 +26,7 @@ class ArrowsMove extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, navigation, left, right, up, down, north, south, west, east, higher, lower]
+tags: [drag, pan, reposition, all-directions, cross, pointer, navigation, direction]
 category: Arrows
 version: "1.73"
 unicode: "f22f"

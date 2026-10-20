@@ -26,7 +26,7 @@ class ArrowAutofitLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, west, arrow, autofit, left, pointer, navigation, flow, navigate, move]
+tags: [fit, resize, west, previous, back, layout, pointer, navigation, arrow, autofit, left]
 category: Arrows
 version: "1.42"
 unicode: "ef34"

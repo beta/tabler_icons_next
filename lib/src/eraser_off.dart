@@ -26,7 +26,7 @@ class EraserOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [delete, remove, eliminate, wipe-out, eraser, off, disabled, inactive, typography, writing]
+tags: [eraser, erase, rubber, delete, clear, remove, disabled, inactive, unavailable, slash, turn-off, clean, wipe, off]
 category: Text
 version: "1.65"
 unicode: "f121"

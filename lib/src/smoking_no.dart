@@ -26,7 +26,7 @@ class SmokingNo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ban, prohibition, cigarette, public place, smoking, medical, wellness, no, healthcare, treatment]
+tags: [no-smoking, non-smoking, smoke-free, cigarette, forbidden, prohibited, ban, smoking, no]
 category: Health
 version: "1.18"
 unicode: "ecc3"

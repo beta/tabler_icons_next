@@ -26,7 +26,7 @@ class HomeFilled extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-unicode: "fe2b"
+unicode: "102b3"
 version: "3.0"
 -->
 <svg

@@ -26,7 +26,7 @@ class MathPi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mathematic, sign, expression, math, calculation, equation, pi, mathematics, numeric, formula]
+tags: [pi, constant, circle, greek, mathematics, symbol, number, math, geometry, radius]
 category: Math
 version: "1.100"
 unicode: "f4ee"

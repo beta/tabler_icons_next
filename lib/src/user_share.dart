@@ -27,7 +27,7 @@ class UserShare extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [distribute, communicate, connect, link, exchange, send, transmit, relay, broadcast, disseminate]
+tags: [person, account, profile, avatar, member, share, send, forward, invite, refer]
 version: "2.10"
 unicode: "f9d8"
 -->

@@ -26,7 +26,7 @@ class GhostOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [spirit, transparent, fairytale, horror, movie, shadow, haunt, ghost, off, disabled]
+tags: [ghost, halloween, spooky, spirit, phantom, boo, disabled, inactive, unavailable, slash, turn-off, horror, haunted, off]
 category: Games
 version: "1.94"
 unicode: "f3f2"

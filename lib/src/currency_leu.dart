@@ -26,7 +26,7 @@ class CurrencyLeu extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [leu, loti, lempira, lek, lilangani, money, banknote, pay, currency, finance]
+tags: [leu, ron, romania, romanian, mdl, moldova, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "ee5f"

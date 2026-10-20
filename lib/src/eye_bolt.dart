@@ -27,7 +27,7 @@ class EyeBolt extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [observe, monitor, watch, inspect, electric, energy, charge, examine, view, scan]
+tags: [view, visibility, show, lightning, flash, energy, power, see, vision, preview, watch, charge, electric, fast]
 version: "2.28"
 unicode: "fb6d"
 -->

@@ -26,7 +26,7 @@ class Ferry extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ferry, sea, ocean, engine, travel, lake, boat, ship, water, transport]
+tags: [ferry, boat, ship, cruise, sea, ocean, travel, transport, port, sailing]
 category: Vehicles
 unicode: "10074"
 version: "3.20"

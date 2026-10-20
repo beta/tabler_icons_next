@@ -26,7 +26,7 @@ class Spade extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cards, casino, poker, shapes, gamble, spade, geometry, form, figure, pattern]
+tags: [spades, cards, poker, casino, suit, playing-card, spade]
 category: Shapes
 version: "1.52"
 unicode: "effa"

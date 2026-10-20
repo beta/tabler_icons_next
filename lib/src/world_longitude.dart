@@ -26,7 +26,7 @@ class WorldLongitude extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [earth, globe, global, language, union, world, longitude, location, navigation, geography]
+tags: [longitude, meridians, globe, earth, world, geography, coordinates, planet]
 category: Map
 version: "1.26"
 unicode: "ed2f"

@@ -26,7 +26,7 @@ class BrandDrops extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [education, learning, language, word, game, design, brand, drops, logo, company]
+tags: [drops, language, learning, education, vocabulary, app, logo, brand]
 category: Brand
 version: "1.99"
 unicode: "f4d5"

@@ -27,7 +27,7 @@ class FolderExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [alert, warn, notify, caution, attention, important, notice, emphasize, signal, highlight]
+tags: [directory, dir, files, warning, alert, error, attention, archive, project, important, caution]
 version: "2.10"
 unicode: "f913"
 -->

@@ -26,7 +26,7 @@ class GolfOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, ball, play, hole, club-and-ball, stroke, luxury, pitch, golf, off]
+tags: [golf, golf-course, flag, hole, putt, sport, disabled, inactive, unavailable, slash, turn-off, club, green, off]
 category: Sport
 version: "1.66"
 unicode: "f13a"

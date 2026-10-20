@@ -27,7 +27,7 @@ class MoneybagPlus extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [moneybag, plus, wealth, rich, money, finance, savings, treasure, add, more]
+tags: [deposit, income, earn, money, sack, bag, cash, savings, wealth, add, new, create, insert, finance, dollar, moneybag, plus]
 version: "3.31"
 unicode: "10138"
 -->

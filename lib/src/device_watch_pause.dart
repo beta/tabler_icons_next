@@ -27,7 +27,7 @@ class DeviceWatchPause extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [stop, halt, break, wait, freeze, interruption, cease, suspend, delay, hold]
+tags: [smartwatch, wearable, apple-watch, paused, hold, suspend, wait, wristwatch, device, fitness-tracker, break]
 version: "2.10"
 unicode: "f8dd"
 -->

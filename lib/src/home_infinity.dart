@@ -26,7 +26,7 @@ class HomeInfinity extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [house, dashboard, living, building, endless, home, infinity, main, architecture, structure]
+tags: [home, house, infinity, forever, endless, loop, lifetime, residence]
 category: Buildings
 version: "1.101"
 unicode: "f505"

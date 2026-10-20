@@ -27,7 +27,7 @@ class Message2Heart extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [love, like, favorite, affection, care, passion, cherish, admire, emotion, fond]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, favorite, like, love, reply, communication, dm]
 version: "2.10"
 unicode: "f963"
 -->

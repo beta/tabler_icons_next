@@ -26,7 +26,7 @@ class TextRegexPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [regular, expression, regex, code, programming, coding, pattern, text, plus, add, quantifier, repeat]
+tags: [regex, regexp, regular-expression, one-or-more, quantifier, pattern, match, formula, text, plus]
 category: Text
 unicode: "1026c"
 version: "3.45"

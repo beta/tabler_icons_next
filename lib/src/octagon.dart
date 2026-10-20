@@ -26,7 +26,7 @@ class Octagon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, geometric, math, 2d, building, government, octagon, geometry, form, figure]
+tags: [shape, polygon, stop-sign, eight-sided, geometry, figure, octagonal, 8-sides, outline, octagon]
 category: Shapes
 version: "1.18"
 unicode: "ecbd"

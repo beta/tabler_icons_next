@@ -27,7 +27,7 @@ class Scale extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [weigh, balance, amount, heavy, light, libra, scale]
+tags: [balance, scales, justice, law, weigh, libra, legal, equality, scale]
 version: "1.1"
 unicode: "ebc2"
 -->

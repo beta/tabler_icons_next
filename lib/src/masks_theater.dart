@@ -26,7 +26,7 @@ class MasksTheater extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cinema, comedy, acting, face, art, masks, theater, location, navigation, geography]
+tags: [theater, theatre, drama, comedy, tragedy, acting, performance, stage, arts, show, masks]
 category: Map
 version: "1.76"
 unicode: "f263"

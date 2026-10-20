@@ -26,7 +26,7 @@ class Html extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, coding, file, web, programming, page, html, plugin, addon, module]
+tags: [html, html5, code, markup, web, tag, file, web-development, developer]
 category: Extensions
 version: "2.7"
 unicode: "f7b1"

@@ -26,7 +26,7 @@ class FilePercent extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, document, extension, paper, file, percent, content, record, text, information]
+tags: [percent, percentage, discount, tax, statistics, interest, document, file, rate]
 category: Document
 version: "1.104"
 unicode: "f540"

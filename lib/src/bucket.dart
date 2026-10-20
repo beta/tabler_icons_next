@@ -26,7 +26,7 @@ class Bucket extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [collection, container, water, liquid, bucket, creative, artistic, visual, aesthetic, style]
+tags: [bucket, pail, container, water, fill, paint, bin, tool]
 category: Design
 version: "1.0"
 unicode: "ea47"

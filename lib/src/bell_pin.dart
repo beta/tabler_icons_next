@@ -27,7 +27,7 @@ class BellPin extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [attach, secure, fix, fasten, anchor, tack, bind, affix, clasp, stick]
+tags: [notification, alert, reminder, notify, alarm, location, map-pin, marker, place, pinned]
 version: "2.10"
 unicode: "f81c"
 -->

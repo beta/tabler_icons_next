@@ -26,7 +26,7 @@ class GenderAgender extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identity, genderless, gender, agender, person, human, individual]
+tags: [agender, genderless, gender, non-binary, identity, lgbt, lgbtq, symbol]
 category: Gender
 version: "1.64"
 unicode: "f0e1"

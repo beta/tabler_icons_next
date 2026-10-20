@@ -26,7 +26,7 @@ class MapPinned extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [map, pin, pinned, location, marker, place, navigation, position, saved, destination]
+tags: [map, pin, pinned, location, marker, place, navigation, saved, destination]
 category: Map
 unicode: "10298"
 version: "3.47"

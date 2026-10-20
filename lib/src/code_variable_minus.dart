@@ -27,7 +27,7 @@ class CodeVariableMinus extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [subtract, reduce, deduct, diminish, decrease, lower, abate, decline, cut, shorten]
+tags: [variable, minus, remove, delete-variable, placeholder, parameter, code, programming]
 unicode: "100ad"
 version: "3.23"
 -->

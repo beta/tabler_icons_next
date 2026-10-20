@@ -27,7 +27,7 @@ class CircleDashedCheck extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [check, success, done, complete, tick, correct, confirm, approved, verified, valid, yes, circle, dashed]
+tags: [check, done, success, tick, pending, in-progress, draft, checkmark, dashed, circle, complete]
 unicode: "feb8"
 version: "3.2"
 -->

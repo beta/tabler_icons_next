@@ -26,7 +26,7 @@ class CircleDottedLetterM extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mike, thirteenth-letter, consonant, move, mix, march, match, mark, mind, mint]
+tags: [m, letter-m, letter, alphabet, character, uppercase, initial, circle, dotted, badge]
 category: Letters
 unicode: "ff73"
 version: "3.11"

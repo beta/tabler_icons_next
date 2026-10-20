@@ -27,7 +27,7 @@ class ReplaceOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [change, place, position, move, exchange, replace, off, disabled, inactive]
+tags: [swap, exchange, switch, substitute, change, move, disabled, unavailable, inactive, hidden, replace, off]
 version: "1.94"
 unicode: "f422"
 -->

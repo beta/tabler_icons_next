@@ -26,7 +26,7 @@ class CurrencyNano extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, nano, crypto, blockchain, pay, p2p, digital, currency, finance, payment]
+tags: [nano, xno, crypto, cryptocurrency, blockchain, coin, digital-currency, currency, money]
 category: Currencies
 version: "2.6"
 unicode: "f7a6"

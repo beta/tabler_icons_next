@@ -26,7 +26,7 @@ class PhoneCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ring, mobile, conversation, answer, dial, landline, phone, check, call, hardware]
+tags: [call-accepted, call, telephone, contact, dial, mobile, handset, done, success, confirmed, approved, verified, tick, phone, check]
 category: Devices
 version: "1.8"
 unicode: "ec05"

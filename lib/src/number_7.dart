@@ -26,7 +26,7 @@ class Number7 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [seven, maths, value, quantity, calculate, calculation, total, amount, sum, order, digit]
+tags: [seven, number, digit, numeral, count, seventh, numeric, character]
 category: Numbers
 version: "1.38"
 unicode: "edf7"

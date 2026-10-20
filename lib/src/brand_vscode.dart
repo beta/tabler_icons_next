@@ -26,7 +26,7 @@ class BrandVscode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, editor, software, brand, vscode, logo, company, trademark, identity, corporate]
+tags: [vscode, visual-studio-code, microsoft, code, editor, ide, programming, logo, brand]
 category: Brand
 version: "1.92"
 unicode: "f3a0"

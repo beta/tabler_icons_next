@@ -26,7 +26,7 @@ class BrandFirebase extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [development, coding, programming, mobile apps, brand, firebase, logo, company, trademark, identity]
+tags: [firebase, google, backend, database, hosting, mobile, baas, logo, brand]
 category: Brand
 version: "1.45"
 unicode: "ef6e"

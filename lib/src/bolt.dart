@@ -27,7 +27,7 @@ class Bolt extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [energy, power, electricity, storm, lightning, flash, bolt, quick, fast, speed]
+tags: [lightning, flash, electricity, power, energy, thunder, fast, zap, bolt]
 version: "1.0"
 unicode: "ea38"
 -->

@@ -26,7 +26,7 @@ class Voice2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [voice, assistant, ai, speech, sound, wave, audio, talk, siri, orb]
+tags: [voice, speech, audio, waveform, assistant, ai, talk, microphone]
 category: Media
 unicode: "10290"
 version: "3.47"

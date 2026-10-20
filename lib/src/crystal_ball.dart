@@ -27,7 +27,7 @@ class CrystalBall extends Icon {
 
   static const String _svg = '''<!--
 category: Nature
-tags: [magic, fortune, christmas, witch, future, crystal, ball]
+tags: [crystal-ball, fortune, fortune-telling, magic, future, prediction, psychic, forecast, mystic, crystal, ball]
 version: "1.108"
 unicode: "f57b"
 -->

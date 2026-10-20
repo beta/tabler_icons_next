@@ -26,7 +26,7 @@ class AppWindowBottomRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [browser, page, website, web, interface, app, window, application, software, layout, bottom, right, corner, position]
+tags: [browser, application, interface, webpage, website, desktop, layout, corner, panel, app, window, bottom, right]
 category: System
 unicode: "10279"
 version: "3.45"

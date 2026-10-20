@@ -26,7 +26,7 @@ class LockCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [verify, confirm, approve, validate, tick, authenticate, ensure, secure, agree, lock]
+tags: [lock, padlock, locked, security, secure, password, private, protected, done, success, confirmed, verified, approved, checkmark, tick]
 category: System
 version: "2.10"
 unicode: "f926"

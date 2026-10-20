@@ -26,7 +26,7 @@ class CalendarSmile extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [happy, joy, cheerful, delight, grin, beaming, pleased, content, satisfied, blissful]
+tags: [calendar, date, schedule, event, day, planner, agenda, smile, happy, good-day, emoji, appointment]
 category: System
 version: "2.40"
 unicode: "fd1e"

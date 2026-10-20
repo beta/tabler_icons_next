@@ -26,7 +26,7 @@ class BrandSpacehey extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [internet, network, social, website, brand, spacehey, logo, company, trademark, identity]
+tags: [spacehey, social, social-network, myspace, retro, logo, brand, community, friends]
 category: Brand
 version: "1.101"
 unicode: "f4fc"

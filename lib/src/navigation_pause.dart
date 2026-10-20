@@ -27,7 +27,7 @@ class NavigationPause extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [stop, halt, wait, break, intermission, rest, delay, freeze, pausebutton, cease]
+tags: [gps, arrow, direction, location, cursor, compass, paused, hold, wait, suspend, route, map, pointer]
 version: "2.28"
 unicode: "fbf4"
 -->

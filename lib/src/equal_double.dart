@@ -26,7 +26,7 @@ class EqualDouble extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coding, programming, code, sign, equal, double, calculation, equation, mathematics, numeric]
+tags: [double-equal, equality, comparison, operator, equals, programming, code, javascript, math, equal, double]
 category: Math
 version: "1.100"
 unicode: "f4e1"

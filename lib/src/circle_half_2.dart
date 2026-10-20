@@ -26,7 +26,7 @@ class CircleHalf2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, split, slash, circle, half, round, circular, geometry, form, figure]
+tags: [contrast, dark-mode, theme, half, striped, hatched, split, circle, shape]
 category: Shapes
 version: "1.52"
 unicode: "eff3"

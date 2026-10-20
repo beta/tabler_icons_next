@@ -26,7 +26,7 @@ class MoodNerd extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [geek, face, bore, mood, nerd]
+tags: [nerd, geek, glasses, smart, clever, emoji, smiley, face, emotion, feeling, reaction, mood]
 category: Mood
 version: "1.83"
 unicode: "f2e1"

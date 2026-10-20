@@ -26,7 +26,7 @@ class BrandStackoverflow extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [social, media, programming, website, brand, stackoverflow, logo, company, trademark, identity]
+tags: [stack-overflow, stackoverflow, programming, questions, answers, developer, community, q-and-a, logo, brand]
 category: Brand
 version: "1.43"
 unicode: "ef58"

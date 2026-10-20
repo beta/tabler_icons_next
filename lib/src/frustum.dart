@@ -26,7 +26,7 @@ class Frustum extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, frustum, geometry, form, figure, outline]
+tags: [frustum, truncated-cone, cone, 3d, geometry, shape, solid]
 category: Shapes
 version: "2.20"
 unicode: "fa9f"

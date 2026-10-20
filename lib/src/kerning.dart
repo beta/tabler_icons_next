@@ -26,7 +26,7 @@ class Kerning extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, editor, font, calligraphy, kerning, typography, writing, character, word]
+tags: [kerning, letter-spacing, tracking, typography, font, text, spacing]
 category: Text
 version: "1.49"
 unicode: "efb8"

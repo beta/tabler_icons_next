@@ -26,7 +26,7 @@ class DeviceMobileOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [iphone, phone, smartphone, cellphone, device, mobile, off, hardware, technology, disabled]
+tags: [phone, smartphone, iphone, android, cellphone, device, disabled, inactive, unavailable, slash, turn-off, mobile, off]
 category: Devices
 version: "1.58"
 unicode: "f062"

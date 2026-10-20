@@ -26,7 +26,7 @@ class BrandCake extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [dessert, bake, sweet, pastry, frosting, celebration, treat, confection, homemade, delicious]
+tags: [cake, app, logo, brand, company, language-learning, english, education]
 category: Brand
 version: "2.6"
 unicode: "f7a3"

@@ -26,7 +26,7 @@ class Filter2Pause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, pause, sort, organize, arrange, select, refine, sieve, screen, stop]
+tags: [filter, filtering, sort, paused, hold, suspend, wait, refine, list, options, break, pause]
 category: System
 version: "3.32"
 unicode: "10154"

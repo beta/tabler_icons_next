@@ -27,7 +27,7 @@ class MusicHeart extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [love, affection, care, adore, passion, fond, like, cherish, emotion, feel]
+tags: [song, audio, sound, note, melody, track, favorite, like, love, mp3, playlist, player]
 version: "2.28"
 unicode: "fbde"
 -->

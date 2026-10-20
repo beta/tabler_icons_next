@@ -27,7 +27,7 @@ class ShieldBolt extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [protection, defense, electric, charge, security, guard, safety, bolt, power, impact]
+tags: [security, protection, protect, lightning, flash, power, energy, fast, guard, safety, secure, bolt]
 version: "2.10"
 unicode: "f9c0"
 -->

@@ -26,7 +26,7 @@ class BrandCoinbase extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cryptocurrencies, bitcoin, ethereum, traded company, brand, coinbase, logo, company, trademark, identity]
+tags: [coinbase, crypto, cryptocurrency, exchange, bitcoin, ethereum, wallet, trading, logo, brand]
 category: Brand
 version: "1.71"
 unicode: "f209"

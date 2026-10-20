@@ -26,7 +26,7 @@ class Swimming extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sport, water, pool, style, athletics, competitive, swimming, athletic, fitness, exercise]
+tags: [swim, swimmer, pool, water, sport, summer, athlete, olympics, swimming]
 category: Sport
 version: "1.14"
 unicode: "ec92"

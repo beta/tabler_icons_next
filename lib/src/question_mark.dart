@@ -27,7 +27,7 @@ class QuestionMark extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [sign, ask, sentence, word, letters, "?", question, mark, help, inquiry]
+tags: [help, question, faq, unknown, ask, support, info, query, mark]
 version: "1.16"
 unicode: "ec9d"
 -->

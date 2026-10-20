@@ -26,7 +26,7 @@ class TextWrapColumn extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [wrap, column, text, typography, writing, font, character, word]
+tags: [word-wrap, wrap, column, columns, text-wrap, paragraph, formatting, formula, text]
 category: Text
 version: "3.2"
 unicode: "feb2"

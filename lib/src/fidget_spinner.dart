@@ -27,7 +27,7 @@ class FidgetSpinner extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [toy, spinning, gadget, kids, children, loader, loading, fidget, spinner]
+tags: [fidget-spinner, spinner, toy, spin, loading, loader, stress-relief, rotate, fidget]
 version: "1.58"
 unicode: "f068"
 -->

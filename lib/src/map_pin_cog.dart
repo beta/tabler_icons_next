@@ -27,7 +27,7 @@ class MapPinCog extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [configure, adjust, gear, apparatus, mechanism, tweak, system, settings, operation, process]
+tags: [pin, marker, location, place, gps, map, point, poi, settings, gear, cog, configuration, preferences, options]
 version: "2.10"
 unicode: "f94e"
 -->

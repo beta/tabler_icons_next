@@ -26,7 +26,7 @@ class BrandTabnine extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ai, code, completion, assistant, programming, ide, brand, logo, autocomplete, developer]
+tags: [tabnine, ai, code-completion, autocomplete, assistant, coding, logo, brand]
 category: Brand
 unicode: "101ae"
 version: "3.36"

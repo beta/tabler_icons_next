@@ -26,7 +26,7 @@ class BrandMantine extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [creation, web, application, development, brand, mantine, logo, company, trademark, identity]
+tags: [mantine, react, components, ui, library, design-system, logo, brand]
 category: Brand
 version: "1.86"
 unicode: "f32f"

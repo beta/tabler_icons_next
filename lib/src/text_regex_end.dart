@@ -26,7 +26,7 @@ class TextRegexEnd extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [regular, expression, regex, code, programming, coding, pattern, text, end, finish, anchor, dollar, termination]
+tags: [regex, regexp, regular-expression, end-of-line, anchor, dollar, pattern, formula, text, end]
 category: Text
 unicode: "1026d"
 version: "3.45"

@@ -26,7 +26,7 @@ class AlignBoxRightTop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, type, east, up, north, corner, align, box, right, top]
+tags: [alignment, layout, position, text-align, flexbox, justify, container, anchor, align, box, right, top]
 category: Text
 version: "1.104"
 unicode: "f538"

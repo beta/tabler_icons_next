@@ -27,7 +27,7 @@ class CalendarUp extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [increase, rise, ascend, elevate, boost, uplift, advance, soar, enhance, improve]
+tags: [calendar, date, schedule, event, day, planner, agenda, upload, arrow-up, increase, raise, appointment]
 version: "2.10"
 unicode: "f831"
 -->

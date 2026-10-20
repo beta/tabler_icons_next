@@ -26,7 +26,7 @@ class Wifi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [online, connection, signal, wireless, wifi, internet, hardware, technology, network, electronic]
+tags: [wifi, wi-fi, wireless, internet, network, signal, connection, hotspot]
 category: Devices
 version: "1.0"
 unicode: "eb52"

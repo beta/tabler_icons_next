@@ -27,7 +27,7 @@ class DeviceImacHeart extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [love, favorite, like, affection, emotion, passion, devotion, admiration, fondness, desire]
+tags: [heart, favorite, like, love, imac, mac, apple, computer, desktop, monitor]
 version: "2.10"
 unicode: "f879"
 -->

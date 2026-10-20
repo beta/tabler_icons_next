@@ -26,7 +26,7 @@ class FileLike extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [approved, document, file, like, data, content, record, paper, text, information]
+tags: [like, thumbs-up, approve, approved, good, favorite, document, file, feedback]
 category: Document
 version: "1.26"
 unicode: "ed2b"

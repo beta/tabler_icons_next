@@ -26,7 +26,7 @@ class Speakerphone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [voice, loud, microphone, loudspeaker, event, protest, speaker, shout, listen, speakerphone]
+tags: [megaphone, bullhorn, loudspeaker, announcement, marketing, promotion, broadcast, speakerphone]
 category: Media
 version: "1.31"
 unicode: "ed61"

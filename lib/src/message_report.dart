@@ -26,7 +26,7 @@ class MessageReport extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [comment, chat, reply, communication, conversation, message, report, contact, messaging, interaction]
+tags: [report, flag, abuse, spam, warning, chat, comment, speech-bubble, feedback, complaint, moderation, message]
 category: Communication
 version: "1.16"
 unicode: "ec9b"

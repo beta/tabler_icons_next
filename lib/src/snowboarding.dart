@@ -27,7 +27,7 @@ class Snowboarding extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [sport, winter, snow, board, riding, slope, extreme, mountain, action, freestyle]
+tags: [snowboard, winter, snow, ski, sport, extreme, mountain]
 version: "2.42"
 unicode: "fd4f"
 -->

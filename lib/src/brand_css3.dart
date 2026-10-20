@@ -26,7 +26,7 @@ class BrandCss3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cascading, style, sheet, programming, development, web, website, technology, brand, css3]
+tags: [css3, css, stylesheet, styles, web, frontend, html, logo, brand]
 category: Brand
 version: "1.32"
 unicode: "ed6b"

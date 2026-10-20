@@ -26,7 +26,7 @@ class SquareRotatedOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, sign, geometry, geometric, quadrilateral, rhombus, square, rotated, off, disabled]
+tags: [diamond, rhombus, shape, geometry, disabled, inactive, unavailable, rhombus-shape, kite, square, rotated, off]
 category: Shapes
 version: "1.39"
 unicode: "eef2"

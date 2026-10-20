@@ -26,7 +26,7 @@ class ChartDots extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, data, value, variable, scale, statistical, chart, dots, visualization, analytics]
+tags: [chart, graph, statistics, analytics, data, report, diagram, dots, scatter, plot, points, visualization]
 category: Charts
 version: "1.39"
 unicode: "ee2f"

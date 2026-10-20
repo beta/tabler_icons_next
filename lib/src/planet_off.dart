@@ -26,7 +26,7 @@ class PlanetOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [earth, uranus, universe, space, galaxy, orbit, atmosphere, planet, off, location]
+tags: [saturn, planet, space, astronomy, orbit, universe, galaxy, disabled, unavailable, inactive, hidden, off]
 category: Map
 version: "1.66"
 unicode: "f17b"

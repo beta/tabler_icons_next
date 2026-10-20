@@ -26,7 +26,7 @@ class PentagonNumber8 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [eight, octet, octuple, octagon, octad, ogdoad, eighth, octonary, octothorpe, eightfold]
+tags: [eight, number, digit, pentagon, shape, badge, numeral, count]
 category: Numbers
 version: "2.34"
 unicode: "fc86"

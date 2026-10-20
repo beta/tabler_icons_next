@@ -26,7 +26,7 @@ class Venus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [female, venus, planet, gender, feminine, sign, mark, emblem, representation, symbol]
+tags: [venus, female, woman, gender, feminine, symbol, woman-symbol, femininity]
 category: Symbols
 version: "1.14"
 unicode: "ec86"

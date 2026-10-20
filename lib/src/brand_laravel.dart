@@ -26,7 +26,7 @@ class BrandLaravel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [framework, software, php, modular, application, building, system, brand, laravel, logo]
+tags: [laravel, php, framework, web, backend, mvc, logo, brand]
 category: Brand
 version: "1.88"
 unicode: "f34b"

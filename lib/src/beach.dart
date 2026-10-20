@@ -26,7 +26,7 @@ class Beach extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sand, sun, umbrella, vacation, travel, beach, location, navigation, geography, place]
+tags: [umbrella, parasol, summer, vacation, holiday, sea, sun, travel, beach]
 category: Map
 version: "1.42"
 unicode: "ef3d"

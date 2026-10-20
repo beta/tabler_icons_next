@@ -27,7 +27,7 @@ class AdjustmentsSearch extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [settings, find, explore, seek, look, discover, examine, investigate, probe, inspect]
+tags: [settings, sliders, controls, filter, options, preferences, tune, find, magnifier, lookup, magnifying-glass]
 version: "2.10"
 unicode: "f809"
 -->

@@ -26,7 +26,7 @@ class CameraOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [video, photo, aperture, camera, off, content, entertainment, disabled, inactive, multimedia]
+tags: [camera, photo, photography, picture, video, lens, image, disabled, off, unavailable, inactive, camera-disabled, no-camera]
 category: Media
 version: "1.22"
 unicode: "ecee"

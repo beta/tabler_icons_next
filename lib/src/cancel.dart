@@ -26,7 +26,7 @@ class Cancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cancel, no, stop, abort, close, dismiss, reject, decline, geometry, form]
+tags: [cancel, stop, forbidden, ban, block, prohibited, not-allowed, no, circle, slash]
 category: Shapes
 version: "3.7"
 unicode: "ff11"

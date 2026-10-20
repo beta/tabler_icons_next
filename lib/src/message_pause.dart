@@ -27,7 +27,7 @@ class MessagePause extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [halt, stop, break, interrupt, suspend, delay, freeze, block, intermission, cessation]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, paused, hold, wait, suspend, reply, communication, dm]
 version: "2.10"
 unicode: "f989"
 -->

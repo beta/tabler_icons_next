@@ -26,7 +26,7 @@ class SquareRotated extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, sign, geometry, geometric, quadrilateral, rhombus, square, rotated, rectangular, form]
+tags: [diamond, rhombus, rotated, shape, geometry, quadrilateral, lozenge, rhombus-shape, kite, square]
 category: Shapes
 version: "1.20"
 unicode: "ecdf"

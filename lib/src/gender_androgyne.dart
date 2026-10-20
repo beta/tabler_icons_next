@@ -26,7 +26,7 @@ class GenderAndrogyne extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identity, intersex, feminine, genderqueer, gender, androgyne, person, human, individual]
+tags: [androgyne, androgynous, gender, non-binary, identity, lgbt, lgbtq, symbol]
 category: Gender
 version: "1.64"
 unicode: "f0e2"

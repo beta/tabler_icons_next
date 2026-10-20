@@ -27,7 +27,7 @@ class Usb extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [drive, cable, plug, device, technology, connect, usb]
+tags: [usb, plug, connector, cable, port, device, flash-drive, usb-port]
 version: "1.53"
 unicode: "f00c"
 -->

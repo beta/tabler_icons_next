@@ -26,7 +26,7 @@ class BrandWalmart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shop, supermarket, food, drinking, groceries, shopping, brand, walmart, logo, company]
+tags: [walmart, supermarket, retail, store, shopping, groceries, logo, brand]
 category: Brand
 version: "1.71"
 unicode: "f211"

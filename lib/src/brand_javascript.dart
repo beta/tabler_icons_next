@@ -26,7 +26,7 @@ class BrandJavascript extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [js, language, programming, brand, javascript, logo, company, trademark, identity, corporate]
+tags: [javascript, js, ecmascript, programming, language, code, web, logo, brand]
 category: Brand
 version: "1.40"
 unicode: "ef0c"

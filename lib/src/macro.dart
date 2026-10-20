@@ -26,7 +26,7 @@ class Macro extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [video, photography, photo, camera, macro, picture, capture, lens, image]
+tags: [macro, close-up, camera, photo, photography, flower, lens, focus]
 category: Photography
 version: "1.39"
 unicode: "eeab"

@@ -27,7 +27,7 @@ class SolarPanel extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [energy, sun, power, ecology, electricity, solar, panel, section, area, region]
+tags: [solar-power, solar, energy, renewable, panel, photovoltaic, sun, green]
 version: "2.7"
 unicode: "f7bf"
 -->

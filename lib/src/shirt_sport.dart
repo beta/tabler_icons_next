@@ -26,7 +26,7 @@ class ShirtSport extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [basketball, soccer, football, player, clothes, game, shirt, sport, store, purchase]
+tags: [jersey, sports-shirt, kit, team, football, soccer, clothes, shirt, sport]
 category: E-commerce
 version: "1.76"
 unicode: "f26c"

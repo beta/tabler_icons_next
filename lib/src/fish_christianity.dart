@@ -26,7 +26,7 @@ class FishChristianity extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [religion, jesus, faith, christian, fish, christianity, sign, mark, emblem, representation]
+tags: [ichthys, jesus-fish, christian, christianity, religion, faith, church, symbol, jesus, fish]
 category: Symbols
 version: "1.109"
 unicode: "f58b"

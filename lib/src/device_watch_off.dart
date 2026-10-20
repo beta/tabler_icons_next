@@ -26,7 +26,7 @@ class DeviceWatchOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arm, hour, date, minutes, sec., timer, device, watch, off, hardware]
+tags: [smartwatch, wearable, apple-watch, wristwatch, device, fitness-tracker, disabled, inactive, unavailable, slash, turn-off, watch, off]
 category: Devices
 version: "1.58"
 unicode: "f065"

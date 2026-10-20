@@ -26,7 +26,7 @@ class TableImport extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [spreadsheet, layout, grid, arrange, row, column, cells, sheet, arrow, table]
+tags: [table, import, upload, spreadsheet, csv, excel, data, sheet, tabular]
 category: Database
 version: "1.39"
 unicode: "eef9"

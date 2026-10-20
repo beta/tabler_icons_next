@@ -27,7 +27,7 @@ class CloudCog extends Icon {
 
   static const String _svg = '''<!--
 category: Weather
-tags: [settings, gear, preferences, adjust, configure, customize, tune, adapt, modulate, refine]
+tags: [cog, settings, gear, configuration, preferences, cloud, cloud-storage, online, sync, storage, weather]
 version: "2.10"
 unicode: "f84f"
 -->

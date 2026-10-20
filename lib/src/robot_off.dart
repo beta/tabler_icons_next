@@ -27,7 +27,7 @@ class RobotOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [technology, ai, machine, bot, android, robot, off, disabled, inactive]
+tags: [bot, ai, android, automation, machine, assistant, chatbot, disabled, unavailable, inactive, hidden, robot, off]
 version: "1.66"
 unicode: "f192"
 -->

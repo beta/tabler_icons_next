@@ -27,7 +27,7 @@ class MusicQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [inquiry, ask, doubt, query, wonder, interrogate, explore, quiz, seek, probe]
+tags: [song, audio, sound, note, melody, track, help, faq, support, unknown, ask, mp3, playlist, player]
 version: "2.28"
 unicode: "fbe3"
 -->

@@ -27,7 +27,7 @@ class WorldStar extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [globe, stellar, earth, universe, cosmos, planet, celestial, galaxy, shine, astronomy]
+tags: [globe, earth, world, internet, global, web, international, favorite, rating, featured, bookmark, star]
 version: "2.10"
 unicode: "f9e9"
 -->

@@ -26,7 +26,7 @@ class Rainbow extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [colorful, weather, colors, colour, nature, rainbow, climate, forecast, meteorology, atmospheric]
+tags: [colorful, colors, colour, weather, rain, nature, pride, lgbt, rainbow]
 category: Weather
 version: "1.35"
 unicode: "edbc"

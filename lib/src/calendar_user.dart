@@ -26,7 +26,7 @@ class CalendarUser extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [person, participant, profile, individual, member, identity, account, actor, registrant, subscriber]
+tags: [calendar, date, schedule, event, day, planner, agenda, user, person, profile, account, member, meeting, attendee, appointment]
 category: System
 version: "2.40"
 unicode: "fd1f"

@@ -26,7 +26,7 @@ class Keyframe extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [animation, shape, design, align, keyframe, content, entertainment, multimedia, broadcast, audio]
+tags: [keyframe, animation, timeline, motion, diamond, video-editing, frame, after-effects, tween]
 category: Media
 version: "1.107"
 unicode: "f576"

@@ -27,7 +27,7 @@ class Horseshoe extends Icon {
 
   static const String _svg = '''<!--
 category: Animals
-tags: [luck, charm, u-shape, curve, horse, clover, protection, metal, safety, horseshoe]
+tags: [horseshoe, luck, lucky, horse, good-luck, charm, fortune]
 version: "2.37"
 unicode: "fcb7"
 -->

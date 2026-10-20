@@ -26,7 +26,7 @@ class GitMergeQueue extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, version control, git, merge, queue, pipeline, ci, automation, list, repository]
+tags: [git, merge-queue, queue, merge, ci, pipeline, version-control, github, automation]
 category: Version control
 unicode: "102ad"
 version: "3.48"

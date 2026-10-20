@@ -26,7 +26,7 @@ class AB extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [test, visual, user, programming, software, coding, technical, developer, a, b]
+tags: [ab-test, split-test, experiment, variant, comparison, compare, testing, optimization, versus, a, b]
 category: Development
 version: "1.11"
 unicode: "ec36"

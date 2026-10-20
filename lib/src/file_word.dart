@@ -27,7 +27,7 @@ class FileWord extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [document, word, text, editor, office, file, write, typing, paper, microsoft]
+tags: [word, microsoft-word, doc, docx, text-document, office, writing, document, file]
 unicode: "fef2"
 version: "3.5"
 -->

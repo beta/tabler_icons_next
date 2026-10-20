@@ -26,7 +26,7 @@ class DeviceTvOld extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [film, watch, audio, video, media, retro, antenna, device, old, hardware]
+tags: [tv, television, old-tv, retro, vintage, crt, antenna, broadcast, video, screen, device, old]
 category: Devices
 version: "1.68"
 unicode: "f1d3"

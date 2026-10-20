@@ -26,7 +26,7 @@ class FolderAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [folder, directory, files, ai, artificial intelligence, assistant, smart, generate, automation, organize]
+tags: [folder, directory, ai, artificial-intelligence, smart, generated, automation, files, assistant]
 category: Document
 unicode: "102b1"
 version: "3.48"

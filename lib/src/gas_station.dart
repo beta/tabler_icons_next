@@ -26,7 +26,7 @@ class GasStation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fuel, oil, cars, vehicles, shop, distributor, gas, station, transport, travel]
+tags: [gas-station, petrol-station, fuel, gas, petrol, refuel, pump, diesel, car, filling-station, station]
 category: Vehicles
 version: "1.14"
 unicode: "ec7d"

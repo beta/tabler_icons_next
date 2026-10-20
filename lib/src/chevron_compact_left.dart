@@ -26,7 +26,7 @@ class ChevronCompactLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [navigation, direction, arrow, toggle, previous, leftward, back, slide, reverse, shift]
+tags: [chevron, compact, small, thin, arrow, left, back, previous, prev, return, direction, navigation]
 category: Arrows
 version: "2.24"
 unicode: "faf1"

@@ -26,7 +26,7 @@ class CurrencyForint extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [huf, hungarian, business, forint, money, banknote, pay, currency, finance, payment]
+tags: [forint, huf, hungary, hungarian, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "ee5a"

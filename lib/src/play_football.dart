@@ -26,7 +26,7 @@ class PlayFootball extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [soccer, sport, field, goal, ball, team, competition, athlete, kick, game]
+tags: [soccer, football, player, kick, ball, goal, sport, team, match]
 category: Sport
 version: "2.17"
 unicode: "fa67"

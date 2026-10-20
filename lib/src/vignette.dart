@@ -26,7 +26,7 @@ class Vignette extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vignette, photo, edge, frame, darkening, effect, portrait, editing, lens, artistic]
+tags: [vignette, photo, effect, filter, edge, darken, image, editing]
 category: Design
 unicode: "10256"
 version: "3.44"

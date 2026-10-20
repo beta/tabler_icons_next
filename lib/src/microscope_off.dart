@@ -27,7 +27,7 @@ class MicroscopeOff extends Icon {
 
   static const String _svg = '''<!--
 category: Health
-tags: [school, education, learning, laboratory, experimental, chemistry, biology, medical, bacteria, technology, test]
+tags: [science, laboratory, lab, biology, research, disabled, slash]
 unicode: "f40e"
 version: "1.94"
 -->

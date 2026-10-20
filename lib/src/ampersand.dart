@@ -26,7 +26,7 @@ class Ampersand extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [and, also, besides, moreover, ampersand, calculation, equation, mathematics, numeric, formula]
+tags: [and, symbol, character, typography, punctuation, sign, and-sign, et, conjunction, ampersand]
 category: Math
 version: "1.73"
 unicode: "f229"

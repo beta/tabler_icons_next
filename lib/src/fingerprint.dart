@@ -26,7 +26,7 @@ class Fingerprint extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [indentify, mark, surface, security, access, fingerprint, control, operation, function, interface]
+tags: [fingerprint, biometric, touch-id, authentication, identity, security, unlock, scan, login, id]
 category: System
 version: "1.6"
 unicode: "ebd1"

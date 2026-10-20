@@ -26,7 +26,7 @@ class SquareRotatedAsterisk extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [square, rotated, diamond, asterisk, star, symbol, shape, mark, required, password]
+tags: [diamond, asterisk, star, required, mandatory, wildcard, symbol, rhombus, shape, square, rotated]
 category: Shapes
 unicode: "101a5"
 version: "3.36"

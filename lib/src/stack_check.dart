@@ -26,7 +26,7 @@ class StackCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pile, elements, layout, stack, layers, check, approve, verified, complete, success]
+tags: [layers, stack, done, success, confirmed, approved, verified, tick, check]
 category: Design
 unicode: "102a4"
 version: "3.48"

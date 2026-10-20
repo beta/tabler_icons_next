@@ -27,7 +27,7 @@ class JoinRound extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [curve, arc, smooth, bend, rounded, connect, boundary, joint, seam, join]
+tags: [join, round, line-join, stroke, corner, rounded, vector, design, svg]
 version: "3.10"
 unicode: "ff4b"
 -->

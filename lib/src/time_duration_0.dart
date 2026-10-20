@@ -26,7 +26,7 @@ class TimeDuration0 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [start, zero, time, clock, reset, begin, initial, nop, default, none]
+tags: [duration, zero, timer, time, clock, reset, start, none]
 category: System
 version: "2.22"
 unicode: "fad4"

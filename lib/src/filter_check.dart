@@ -27,7 +27,7 @@ class FilterCheck extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [confirm, approve, validate, ok, tick, check, verify, success, complete, yes]
+tags: [funnel, filtering, sort, done, success, confirmed, approved, refine, narrow, verified, tick, checkmark, ok, check]
 version: "2.28"
 unicode: "fb7e"
 -->

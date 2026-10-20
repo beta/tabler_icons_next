@@ -26,7 +26,7 @@ class CloudDataConnection extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [media, network, storage, access, cloud, data, connection, online, server, sync]
+tags: [cloud, network, connection, data, server, hosting, infrastructure, api, online, sync]
 category: Computers
 version: "1.68"
 unicode: "f1d1"

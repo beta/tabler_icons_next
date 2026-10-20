@@ -27,7 +27,7 @@ class IceCream2 extends Icon {
 
   static const String _svg = '''<!--
 category: Food
-tags: [sweet, cold, dessert, food, taste, frozen, snack, flavour, flavor, cone]
+tags: [ice-cream, gelato, dessert, cone, frozen, sweet, scoop, summer]
 version: "1.39"
 unicode: "ee9f"
 -->

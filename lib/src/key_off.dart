@@ -27,7 +27,7 @@ class KeyOff extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [password, login, authentication, secure, key, off, disabled, inactive]
+tags: [key, password, access, authentication, security, disabled, off-state, unavailable, off]
 version: "1.66"
 unicode: "f14b"
 -->

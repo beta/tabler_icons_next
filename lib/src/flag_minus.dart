@@ -27,7 +27,7 @@ class FlagMinus extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [subtract, reduce, decrease, deduct, less, negative, diminish, lower, shrink, takeaway]
+tags: [report, banner, milestone, remove, subtract, delete, reduce, mark, country, goal, less]
 version: "2.28"
 unicode: "fb94"
 -->

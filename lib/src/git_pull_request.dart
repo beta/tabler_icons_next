@@ -26,7 +26,7 @@ class GitPullRequest extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, version control, command, git, pull, request, versioning, repository, tracking, revision]
+tags: [git, pull-request, pr, merge-request, mr, code-review, version-control, github, gitlab, pull, request]
 category: Version control
 version: "1.0"
 unicode: "eab6"

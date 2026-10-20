@@ -26,7 +26,7 @@ class GitCherryPick extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, version control, command, git, cherry, pick, versioning, repository, tracking, revision]
+tags: [git, cherry-pick, commit, version-control, vcs, github, gitlab, repository, pick, cherry]
 category: Version control
 version: "1.108"
 unicode: "f57e"

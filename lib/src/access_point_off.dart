@@ -26,7 +26,7 @@ class AccessPointOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [device, hosts, airwaves, wireless, network, access, point, off, hardware, technology]
+tags: [wifi, wireless, router, hotspot, network, internet, signal, hardware, connectivity, disabled, no-signal, offline, disconnected, access, point, off]
 category: Devices
 version: "1.25"
 unicode: "ed1a"

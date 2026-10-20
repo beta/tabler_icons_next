@@ -27,7 +27,7 @@ class CircleKey extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [shape, lock, door, acsses, circle, key, round, circular]
+tags: [key, password, access, login, security, unlock, auth, circle, round]
 version: "1.117"
 unicode: "f633"
 -->

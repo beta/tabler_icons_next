@@ -26,7 +26,7 @@ class Id extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identification, card, personal details, control, operation, id, function, interface, management]
+tags: [id, id-card, identity, identification, card, personal-details, profile, license]
 category: System
 version: "1.1"
 unicode: "eac3"

@@ -26,7 +26,7 @@ class RosetteAsterisk extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [rosette, asterisk, star, badge, award, symbol, mark, required, certificate, ribbon]
+tags: [badge, asterisk, required, award, seal, certificate, rosette]
 category: Shapes
 unicode: "101a8"
 version: "3.36"

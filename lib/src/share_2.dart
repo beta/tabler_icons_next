@@ -26,7 +26,7 @@ class Share2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [network, link, connection, share, navigation, flow, distribute, send, publish, broadcast]
+tags: [export, upload, share-external, forward, send, arrow, box, ios-share, share]
 category: Arrows
 version: "2.5"
 unicode: "f799"

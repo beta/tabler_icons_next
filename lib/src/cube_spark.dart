@@ -26,7 +26,7 @@ class CubeSpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, cube, spark, glitter, shine, flash]
+tags: [cube, 3d, box, spark, sparkle, new, ai, generate, magic, shine]
 category: Shapes
 version: "3.13"
 unicode: "ffbb"

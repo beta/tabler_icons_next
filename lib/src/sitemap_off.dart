@@ -26,7 +26,7 @@ class SitemapOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [page, webpage, website, list, roadmap, index, sitemap, off, programming, software]
+tags: [site-map, hierarchy, tree, structure, org-chart, diagram, navigation, disabled, unavailable, inactive, hidden, sitemap, off]
 category: Development
 version: "1.67"
 unicode: "f1a6"

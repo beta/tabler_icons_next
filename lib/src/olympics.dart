@@ -26,7 +26,7 @@ class Olympics extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, play, sport, sportsman, champion, win, medal, sporting, event, competition, athlete]
+tags: [olympic-rings, olympic-games, rings, sport, championship, competition, games]
 category: Sport
 version: "1.39"
 unicode: "eeba"

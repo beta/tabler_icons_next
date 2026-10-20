@@ -26,7 +26,7 @@ class RouterOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [wifi, device, wireless, signal, station, cast, router, off, hardware, technology]
+tags: [wifi, wireless, modem, internet, network, offline, access-point, disabled, unavailable, inactive, hidden, router, off]
 category: Devices
 version: "1.94"
 unicode: "f424"

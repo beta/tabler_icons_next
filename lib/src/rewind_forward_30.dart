@@ -26,7 +26,7 @@ class RewindForward30 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [forward, advance, fast-forward, rewind, skip, jump, next, move-30, fast, ahead]
+tags: [fast-forward, forward, skip-forward, skip-ahead, 30-seconds, thirty, media, video, controls, rewind]
 category: Media
 version: "2.21"
 unicode: "fac5"

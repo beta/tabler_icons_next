@@ -26,7 +26,7 @@ class PencilAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [write, edit, draft, pencil, ai, artificial intelligence, assistant, generate, smart, autocomplete]
+tags: [edit, write, draw, modify, pen, compose, artificial-intelligence, ai-assistant, generative, llm, chatgpt, update, change, pencil, ai]
 category: Design
 unicode: "102a5"
 version: "3.48"

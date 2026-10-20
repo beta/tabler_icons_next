@@ -27,7 +27,7 @@ class LockSearch extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [find, locate, seek, browse, explore, look, investigate, discover, detect, inquire]
+tags: [lock, padlock, locked, security, secure, password, private, protected, search, find, lookup, magnifier, explore]
 version: "2.10"
 unicode: "f932"
 -->

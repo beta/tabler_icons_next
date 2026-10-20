@@ -27,7 +27,7 @@ class Horse extends Icon {
 
   static const String _svg = '''<!--
 category: Animals
-tags: [equine, equestrian, stallion, mare, pony, steed, riding, hoofed-animal, horseback, thoroughbred]
+tags: [horse, equine, equestrian, riding, pony, stallion, animal, farm, racing]
 version: "2.31"
 unicode: "fc46"
 -->

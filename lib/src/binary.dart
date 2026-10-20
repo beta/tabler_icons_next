@@ -26,7 +26,7 @@ class Binary extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [binary, code, digital, computer, programming, data, bit, byte, numeric, computing]
+tags: [code, zero, one, computer, data, bits, programming, binary]
 category: Computers
 version: "1.39"
 unicode: "ee08"

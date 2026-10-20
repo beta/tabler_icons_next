@@ -26,7 +26,7 @@ class Crop54 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [custom-crop, aspect-ratio-5-4, fixed-crop, image-format, 5-by-4, customized-crop, fixed-aspect, dimensional-crop, specific-crop, custom-aspect]
+tags: [5-4, 5x4, crop, aspect-ratio, resize, image, photo, frame, trim, edit]
 category: Design
 version: "2.43"
 unicode: "fd53"

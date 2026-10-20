@@ -27,7 +27,7 @@ class PlantOff extends Icon {
 
   static const String _svg = '''<!--
 category: Nature
-tags: [nature, green, flower, pot, tree, leaf, greenery, root, stem, seed]
+tags: [potted-plant, houseplant, pot, leaf, disabled, unavailable, inactive, hidden, garden, nature]
 version: "1.66"
 unicode: "f17d"
 -->

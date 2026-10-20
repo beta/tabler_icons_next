@@ -26,7 +26,7 @@ class BrandSignal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, application, communication, text, messages, communicator, software, opensource, brand, signal, logo, company, trademark]
+tags: [signal, messenger, messaging, chat, private, encrypted, secure, logo, brand]
 category: Brand
 unicode: "10275"
 version: "3.45"

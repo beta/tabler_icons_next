@@ -27,7 +27,7 @@ class ClockDollar extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [money, finance, budget, invest, value, wealth, cost, price, pay, earn]
+tags: [dollar, money, billing, hourly-rate, time-is-money, overtime, payroll, clock, time]
 version: "2.10"
 unicode: "f846"
 -->

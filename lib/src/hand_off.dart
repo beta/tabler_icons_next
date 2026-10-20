@@ -26,7 +26,7 @@ class HandOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [disclaimer, body, hand, off, disabled, inactive, touch, action, motion, interaction]
+tags: [hand, no-touch, do-not-touch, disabled, off-state, unavailable, gesture, palm, off]
 category: Gestures
 version: "1.24"
 unicode: "ed15"

@@ -26,7 +26,7 @@ class FlagOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [banner, pin, report, map, warning, alert, flag, off, location, navigation]
+tags: [report, banner, milestone, mark, country, goal, disabled, inactive, unavailable, slash, turn-off, flag, off]
 category: Map
 version: "1.65"
 unicode: "f12d"

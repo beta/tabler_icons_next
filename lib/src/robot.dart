@@ -26,7 +26,7 @@ class Robot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [technology, ai, machine, bot, android, robot, entertainment, playing, recreation, fun]
+tags: [bot, ai, android, automation, machine, assistant, chatbot, droid, robot]
 category: Games
 version: "1.53"
 unicode: "f00b"

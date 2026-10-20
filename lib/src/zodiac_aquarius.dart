@@ -26,7 +26,7 @@ class ZodiacAquarius extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, horoscope, constellation, stars, zodiac, aquarius, astrology, star]
+tags: [zodiac, horoscope, astrology, star-sign, sign, water-bearer, constellation, astrological, aquarius]
 category: Zodiac
 version: "1.17"
 unicode: "ecac"

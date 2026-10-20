@@ -27,7 +27,7 @@ class CalendarStar extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [favorite, highlight, acclaim, award, praise, commend, notable, shine, recognize, distinguish]
+tags: [calendar, date, schedule, event, day, planner, agenda, star, favorite, starred, featured, rating, special-day, holiday, appointment]
 version: "2.10"
 unicode: "f830"
 -->

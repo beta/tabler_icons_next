@@ -26,7 +26,7 @@ class CaretRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [next, play, more, caret, right, navigation, flow, movement, route, path]
+tags: [caret-right, caret, triangle, arrow-right, right, next, play, forward, chevron]
 category: Arrows
 version: "1.2"
 unicode: "eb5f"

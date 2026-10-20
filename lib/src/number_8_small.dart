@@ -26,7 +26,7 @@ class Number8Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [eight, octet, octuple, octad, eightfold, octenary, oct, octuplet, eighth, octa]
+tags: [eight, number, digit, numeral, count, eighth, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcfd"

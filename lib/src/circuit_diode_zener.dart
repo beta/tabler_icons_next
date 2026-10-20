@@ -26,7 +26,7 @@ class CircuitDiodeZener extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [electric, electricity, diagram, digital, circuit, diode, zener, energy, voltage, power]
+tags: [zener, diode, semiconductor, voltage-regulator, circuit, electronics, electrical, schematic, diagram, electricity, component]
 category: Electrical
 version: "1.77"
 unicode: "f279"

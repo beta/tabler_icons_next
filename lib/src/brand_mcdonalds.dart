@@ -26,7 +26,7 @@ class BrandMcdonalds extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, cheeseburger, hamburger, fries, fastfood, brand, mcdonalds, logo, company, trademark]
+tags: [mcdonalds, fast-food, burger, restaurant, food, fries, logo, brand]
 category: Brand
 version: "1.75"
 unicode: "f251"

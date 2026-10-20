@@ -26,7 +26,7 @@ class Dashboard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [home, car, dashboard, control, operation, function, interface, management]
+tags: [dashboard, gauge, speedometer, meter, performance, speed, analytics, admin, overview]
 category: System
 version: "1.0"
 unicode: "ea87"

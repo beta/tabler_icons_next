@@ -27,7 +27,7 @@ class MapMinus extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [subtract, reduce, lessen, decrease, diminish, lower, deduct, decline, shrink, contract]
+tags: [map, navigation, location, travel, geography, directions, atlas, remove, subtract, minus, delete]
 version: "2.28"
 unicode: "fbcd"
 -->

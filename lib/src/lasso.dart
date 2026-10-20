@@ -26,7 +26,7 @@ class Lasso extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cowboy, western, sheriff, man, tool, west, lasso, creative, artistic, visual]
+tags: [lasso, select, selection, tool, rope, cowboy, freeform-select, photoshop]
 category: Design
 version: "1.48"
 unicode: "efac"

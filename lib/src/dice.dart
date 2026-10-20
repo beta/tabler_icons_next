@@ -26,7 +26,7 @@ class Dice extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, boardgame, roll, throw, cube, numbers, gambling, dice, entertainment, playing]
+tags: [dice, die, game, board-game, random, roll, gambling, chance, luck, casino]
 category: Games
 version: "1.2"
 unicode: "eb66"

@@ -26,7 +26,7 @@ class CircleChevronLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, direction, west, circle, chevron, left, navigation, flow, round, circular]
+tags: [chevron, left, west, back, previous, chevron-circle, circle, round, button, angle, direction, navigation]
 category: Arrows
 version: "1.116"
 unicode: "f623"

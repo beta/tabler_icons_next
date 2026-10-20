@@ -26,7 +26,7 @@ class BrowserCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [internet, web, display, done, tick, browser, check, hardware, technology, confirm]
+tags: [browser, window, web, internet, webpage, website, tab, check, done, success, confirmed, approved, verified, app]
 category: Devices
 version: "1.51"
 unicode: "efd6"

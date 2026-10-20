@@ -26,7 +26,7 @@ class FileVector extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [eps, format, file, vector, document, data, content, record, paper, text]
+tags: [vector, svg, eps, ai, illustration, graphic, bezier, document, file, design]
 category: Document
 version: "1.56"
 unicode: "f043"

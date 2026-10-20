@@ -26,7 +26,7 @@ class BrandYatse extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [multimedia, technology, pilot, software, android, brand, yatse, logo, company, trademark]
+tags: [yatse, kodi, remote, android, media-center, app, logo, brand]
 category: Brand
 version: "1.71"
 unicode: "f213"

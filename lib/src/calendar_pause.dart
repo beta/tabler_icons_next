@@ -27,7 +27,7 @@ class CalendarPause extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [break, halt, stop, pause, interval, interruption, suspend, rest, freeze, delay]
+tags: [calendar, date, schedule, event, day, planner, agenda, pause, paused, hold, suspend, postpone, appointment]
 version: "2.10"
 unicode: "f82b"
 -->

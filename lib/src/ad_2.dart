@@ -26,7 +26,7 @@ class Ad2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [advert, advertisement, marketing, commercial, traffic, creative, artistic, ad, visual, aesthetic]
+tags: [advertisement, advert, advertising, marketing, commercial, promotion, sponsored, ads, billboard, ad]
 category: Design
 version: "1.41"
 unicode: "ef1f"

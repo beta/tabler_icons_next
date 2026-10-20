@@ -27,7 +27,7 @@ class FlagQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [query, ask, inquire, doubt, ponder, wonder, probe, interrogate, curiosity, uncertainty]
+tags: [report, banner, milestone, help, faq, support, unknown, mark, country, goal, info, ask]
 version: "2.28"
 unicode: "fb98"
 -->

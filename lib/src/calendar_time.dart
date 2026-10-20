@@ -26,7 +26,7 @@ class CalendarTime extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [plan, timetable, schedule, meeting, busy, month, year, date, calender, calendar]
+tags: [calendar, date, schedule, event, day, planner, agenda, time, clock, datetime, reminder, appointment]
 category: System
 version: "1.39"
 unicode: "ee21"

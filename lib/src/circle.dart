@@ -26,7 +26,7 @@ class Circle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [off, zero, circle, round, circular, geometry, form, figure, pattern, outline]
+tags: [round, dot, shape, geometry, ellipse, ring, radio, record, full-stop, circle]
 category: Shapes
 version: "1.0"
 unicode: "ea6b"

@@ -27,7 +27,7 @@ class Tax extends Icon {
 
   static const String _svg = '''<!--
 category: Currencies
-tags: [finance, charge, duty, levy, value, government, revenue, fee, assessment, payment]
+tags: [tax, taxes, vat, fee, duty, finance, government, percentage, invoice]
 unicode: "feee"
 version: "3.5"
 -->

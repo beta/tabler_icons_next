@@ -27,7 +27,7 @@ class Door extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [entrance, home, house, room, door]
+tags: [door, entrance, entry, room, home, house, doorway, access]
 version: "1.43"
 unicode: "ef4e"
 -->

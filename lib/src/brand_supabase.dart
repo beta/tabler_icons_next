@@ -26,7 +26,7 @@ class BrandSupabase extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [opensource, database, software, storage, brand, supabase, logo, company, trademark, identity]
+tags: [supabase, database, postgres, backend, baas, firebase-alternative, open-source, logo, brand]
 category: Brand
 version: "2.1"
 unicode: "f6d3"

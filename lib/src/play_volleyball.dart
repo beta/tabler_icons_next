@@ -26,7 +26,7 @@ class PlayVolleyball extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [net, spike, court, ball, team, block, sport, game, athlete, serve]
+tags: [volleyball, player, spike, serve, net, ball, beach, sport, team]
 category: Sport
 version: "2.17"
 unicode: "fa69"

@@ -26,7 +26,7 @@ class Bulldozer extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tractor, construction, site, build, rear, machine, bulldozer, transport, travel, vehicle]
+tags: [bulldozer, construction, excavator, machinery, heavy-equipment, building, site, vehicle]
 category: Vehicles
 version: "1.34"
 unicode: "ee1d"

@@ -26,7 +26,7 @@ class BrandYahoo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [web, services, technology, inbox, mail, news, search, brand, yahoo, logo]
+tags: [yahoo, search, email, mail, news, web, portal, logo, brand]
 category: Brand
 version: "1.32"
 unicode: "ed73"

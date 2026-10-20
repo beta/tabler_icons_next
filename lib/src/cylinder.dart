@@ -26,7 +26,7 @@ class Cylinder extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [geometry, gas, tube, object, piston, cylinder, form, figure, pattern, outline]
+tags: [cylinder, 3d, shape, geometry, solid, tube, can, database]
 category: Shapes
 version: "1.105"
 unicode: "f54c"

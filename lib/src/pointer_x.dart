@@ -27,7 +27,7 @@ class PointerX extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [cancel, close, hand, action, deny, decline, gesture, stop, navigation, control]
+tags: [cursor, mouse-pointer, mouse, delete, remove, close, cancel, error, arrow, click]
 version: "2.10"
 unicode: "f9ac"
 -->

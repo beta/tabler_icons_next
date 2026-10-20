@@ -26,7 +26,7 @@ class Eye extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [view, watch, eye, control, operation, function, interface, management, visibility, accessibility, a11y, vision]
+tags: [eye, view, visibility, show, see, preview, visible, watch, vision, password-show]
 category: System
 version: "1.0"
 unicode: "ea9a"

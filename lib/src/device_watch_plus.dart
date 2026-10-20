@@ -27,7 +27,7 @@ class DeviceWatchPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [increase, more, add, expand, augment, boost, enhance, growth, escalate, raise]
+tags: [smartwatch, wearable, apple-watch, add, new, create, insert, wristwatch, device, fitness-tracker, more]
 version: "2.10"
 unicode: "f8df"
 -->

@@ -26,7 +26,7 @@ class DeviceIpadHorizontalStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [favorite, highlight, important, notable, prominent, emphasize, shine, remarkable, bright, device]
+tags: [star, favorite, bookmark, rating, featured, ipad, tablet, apple, ios, landscape, device]
 category: Devices
 version: "2.10"
 unicode: "f89f"

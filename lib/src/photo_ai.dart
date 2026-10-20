@@ -26,7 +26,7 @@ class PhotoAi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [picture, landscape, camera, photo, content, entertainment, ai, multimedia, broadcast, audio]
+tags: [image, picture, gallery, img, photography, media, artificial-intelligence, ai-assistant, generative, llm, chatgpt, thumbnail, landscape, photo, ai]
 category: Media
 version: "2.14"
 unicode: "fa32"

@@ -26,7 +26,7 @@ class IdBadgeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identification, pass, card, identity, badge, off, control, operation, disabled, inactive]
+tags: [id-badge, badge, employee, identity, identification, disabled, off-state, unavailable, off]
 category: System
 version: "1.94"
 unicode: "f3fd"

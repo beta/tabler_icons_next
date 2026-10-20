@@ -26,7 +26,7 @@ class ZodiacSagittarius extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, horoscope, constellation, stars, zodiac, sagittarius, astrology, star]
+tags: [zodiac, horoscope, astrology, star-sign, sign, archer, constellation, astrological, sagittarius]
 category: Zodiac
 version: "1.17"
 unicode: "ecb4"

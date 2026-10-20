@@ -26,7 +26,7 @@ class CapStraight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [headwear, direct, linear, apparel, hat, protection, headgear, fashion, align, uniform]
+tags: [cap, line-cap, stroke, stroke-cap, straight, butt-cap, line-end, vector]
 category: Design
 unicode: "ff20"
 version: "3.8"

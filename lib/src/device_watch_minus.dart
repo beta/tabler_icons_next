@@ -27,7 +27,7 @@ class DeviceWatchMinus extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [decrease, less, reduce, subtract, deduct, remove, negative, downscale, diminish, lower]
+tags: [smartwatch, wearable, apple-watch, remove, subtract, delete, reduce, wristwatch, device, fitness-tracker, less]
 version: "2.10"
 unicode: "f8dc"
 -->

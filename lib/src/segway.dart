@@ -27,7 +27,7 @@ class Segway extends Icon {
 
   static const String _svg = '''<!--
 category: Vehicles
-tags: [segway, personal-transporter, electric, self-balancing, scooter, mobility, vehicle, ride, urban, transport]
+tags: [personal-transporter, self-balancing, electric, scooter, vehicle, ride, segway]
 unicode: "10221"
 version: "3.41"
 -->

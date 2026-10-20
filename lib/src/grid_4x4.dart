@@ -26,7 +26,7 @@ class Grid4x4 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [layout, matrix, pattern, gridlines, arrangement, structure, block, squares, four-by-four, grid-pattern]
+tags: [grid, layout, table, matrix, 4x4, cells, squares, gridlines, pattern, sixteen]
 category: Design
 version: "2.36"
 unicode: "fca5"

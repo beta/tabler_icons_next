@@ -26,7 +26,7 @@ class BubbleMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [comment, chat, reply, communication, conversation, faq, message, text, bubble, minus]
+tags: [speech-bubble, chat, message, comment, conversation, reply, talk, remove, minus, subtract, delete, bubble]
 category: Communication
 version: "3.2"
 unicode: "febe"

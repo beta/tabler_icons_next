@@ -26,7 +26,7 @@ class BorderCornerSquare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [blocky, quadrilateral, sharp, cornered, rectangular, angled, edge, boxy, geometry, 90degree]
+tags: [sharp, no-radius, css, square-corner, sharp-corner, right-angle, edge]
 category: Design
 version: "2.44"
 unicode: "fd64"

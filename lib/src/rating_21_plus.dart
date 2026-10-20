@@ -26,7 +26,7 @@ class Rating21Plus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [film, video, photo, movie, age, limiter, rating, plus, add, more]
+tags: [age-rating, age-limit, age-restriction, 21-plus, adult, pegi, movie, film, content-rating, rating, plus]
 category: Symbols
 version: "1.76"
 unicode: "f26a"

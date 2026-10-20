@@ -26,7 +26,7 @@ class ZodiacScorpio extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, horoscope, constellation, stars, zodiac, scorpio, astrology, star]
+tags: [zodiac, horoscope, astrology, star-sign, sign, scorpion, constellation, astrological, scorpio]
 category: Zodiac
 version: "1.17"
 unicode: "ecb5"

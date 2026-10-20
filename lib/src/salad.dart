@@ -26,7 +26,7 @@ class Salad extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, vegetable, vegan, healthy, salad, meal, cuisine, eating, nutrition, culinary]
+tags: [food, vegetables, healthy, vegan, vegetarian, bowl, meal, diet, salad]
 category: Food
 version: "1.101"
 unicode: "f50a"

@@ -26,7 +26,7 @@ class FileTypeXls extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [spreadsheet, excel, data, table, calculation, cell, xls, office, financial, grid]
+tags: [xls, xlsx, excel, spreadsheet, microsoft, office, table, file-format, extension]
 category: Document
 version: "2.25"
 unicode: "fb1b"

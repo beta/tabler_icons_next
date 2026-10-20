@@ -26,7 +26,7 @@ class HealthRecognition extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [life, doctor, healthy, health, recognition, control, operation, function, interface, management]
+tags: [health-recognition, health, scan, heart, vitals, biometric, checkup, medical, wellness, recognition]
 category: System
 version: "1.70"
 unicode: "f1fb"

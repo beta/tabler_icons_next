@@ -26,7 +26,7 @@ class SquareRoundedNumber4 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, number, digit, square, rounded, rectangular, numeric, numeral, count, quantity]
+tags: [four, number, digit, numeral, square, rounded, squircle, box, badge, count, step, numbered]
 category: Numbers
 version: "1.111"
 unicode: "f5cc"

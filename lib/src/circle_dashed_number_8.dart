@@ -26,7 +26,7 @@ class CircleDashedNumber8 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [eight, octet, eighth, octa, octonary, octuple, eightfold, eightsome, octad, octagon]
+tags: [8, eight, number, digit, numeral, count, step, circle, dashed, badge]
 category: Numbers
 version: "2.33"
 unicode: "fc73"

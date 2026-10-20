@@ -26,7 +26,7 @@ class Bmp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [format, filetype, file, document, bmp, plugin, addon, module, component, extra]
+tags: [bitmap, image, file, format, extension, picture, bmp-file, image-format, bmp]
 category: Extensions
 version: "1.93"
 unicode: "f3a6"

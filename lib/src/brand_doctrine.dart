@@ -26,7 +26,7 @@ class BrandDoctrine extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [database, programming, library, php, brand, doctrine, logo, company, trademark, identity]
+tags: [doctrine, php, orm, database, library, symfony, logo, brand]
 category: Brand
 version: "1.45"
 unicode: "ef6d"

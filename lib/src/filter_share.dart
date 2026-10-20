@@ -27,7 +27,7 @@ class FilterShare extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [distribute, send, give, show, offer, broadcast, relay, assign, pass, transfer]
+tags: [funnel, filtering, sort, send, forward, export, social, refine, narrow, distribute]
 version: "2.28"
 unicode: "fb88"
 -->

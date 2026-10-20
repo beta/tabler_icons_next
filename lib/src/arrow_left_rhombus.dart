@@ -26,7 +26,7 @@ class ArrowLeftRhombus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [proceed, swipe, below, shape, west, arrow, left, rhombus, direction, pointer]
+tags: [direction, west, previous, back, diamond, pointer, navigation, arrow, left, rhombus]
 category: Arrows
 version: "1.116"
 unicode: "f61e"

@@ -26,7 +26,7 @@ class CalendarMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [date, day, plan, schedule, agenda, calender, calendar, minus, control, operation]
+tags: [calendar, date, schedule, event, day, planner, agenda, remove, minus, subtract, delete, appointment]
 category: System
 version: "1.5"
 unicode: "ebb9"

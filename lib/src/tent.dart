@@ -26,7 +26,7 @@ class Tent extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [camping, holiday, vacation, outdoor, survival, travel, adventure, tent, location, navigation]
+tags: [camping, camp, outdoor, hiking, travel, vacation, adventure, campsite, tent]
 category: Map
 version: "1.39"
 unicode: "eefb"

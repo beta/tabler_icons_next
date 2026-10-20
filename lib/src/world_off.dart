@@ -26,7 +26,7 @@ class WorldOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [earth, globe, global, language, union, world, off, location, navigation, disabled]
+tags: [globe, earth, world, internet, global, web, international, offline, disabled, inactive, no-internet, off]
 category: Map
 version: "1.67"
 unicode: "f1ca"

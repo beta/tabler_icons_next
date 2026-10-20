@@ -26,7 +26,7 @@ class AlarmMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alarm, bell, notification, delete, remove, minus, control, operation, subtract, less]
+tags: [alarm-clock, clock, time, wake-up, reminder, timer, ring, morning, remove, subtract, alarm, minus]
 category: System
 version: "1.117"
 unicode: "f630"

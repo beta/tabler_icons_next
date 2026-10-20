@@ -26,7 +26,7 @@ class CurrencyWon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [korean, kpw, north, won, money, banknote, pay, currency, finance, payment]
+tags: [won, krw, kpw, korea, korean, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "ee6b"

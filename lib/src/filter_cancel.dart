@@ -27,7 +27,7 @@ class FilterCancel extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [stop, end, terminate, void, abort, cancel, nullify, halt, dismiss, revoke]
+tags: [funnel, filtering, sort, cancel, stop, abort, block, refine, narrow, denied, forbidden]
 version: "2.28"
 unicode: "fb7d"
 -->

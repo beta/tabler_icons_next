@@ -26,7 +26,7 @@ class Badge3d extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, movie, glasses, film, badge, 3d, award, achievement, recognition, certificate]
+tags: [three-dimensional, movie, cinema, glasses, video, label, 3d-movie, stereoscopic, badge, 3d]
 category: Badges
 version: "1.106"
 unicode: "f555"

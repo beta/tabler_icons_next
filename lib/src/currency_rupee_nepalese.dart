@@ -26,7 +26,7 @@ class CurrencyRupeeNepalese extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, finance, money, cash, nepal, currency, rupee, nepalese, payment, monetary]
+tags: [nepalese-rupee, npr, nepal, rupee, currency, money, symbol, cash, finance, payment, nepalese]
 category: Currencies
 version: "1.90"
 unicode: "f37b"

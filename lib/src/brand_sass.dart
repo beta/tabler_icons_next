@@ -26,7 +26,7 @@ class BrandSass extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [technology, preprocessor, script, language, programming, css, syntax, compile, brand, sass]
+tags: [sass, scss, css, preprocessor, stylesheet, web, frontend, logo, brand]
 category: Brand
 version: "1.36"
 unicode: "edd4"

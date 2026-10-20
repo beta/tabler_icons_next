@@ -26,7 +26,7 @@ class BrandD3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, charts, javascript, js, brand, logo, company, trademark, identity, corporate]
+tags: [d3, d3js, charts, data-visualization, javascript, svg, dataviz, logo, brand]
 category: Brand
 version: "1.75"
 unicode: "f24e"

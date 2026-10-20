@@ -27,7 +27,7 @@ class Matchstick extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [fire, flame, burn, spark, matchstick]
+tags: [match, fire, flame, burn, light, ignite, spark, campfire, matchstick]
 version: "1.107"
 unicode: "f577"
 -->

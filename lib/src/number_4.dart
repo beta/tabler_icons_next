@@ -26,7 +26,7 @@ class Number4 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [four, maths, value, quantity, calculate, calculation, total, amount, sum, order, digit]
+tags: [four, number, digit, numeral, count, fourth, numeric, character]
 category: Numbers
 version: "1.38"
 unicode: "edf4"

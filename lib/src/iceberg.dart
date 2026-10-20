@@ -27,7 +27,7 @@ class Iceberg extends Icon {
 
   static const String _svg = '''<!--
 category: Nature
-tags: [iceberg, ice, glacier, arctic, polar, cold, ocean, sea, climate, environment]
+tags: [iceberg, ice, glacier, arctic, polar, cold, ocean, climate, tip-of-the-iceberg]
 unicode: "1022a"
 version: "3.41"
 -->

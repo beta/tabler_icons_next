@@ -26,7 +26,7 @@ class ZodiacPisces extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, horoscope, constellation, stars, zodiac, pisces, astrology, star]
+tags: [zodiac, horoscope, astrology, star-sign, sign, fish, constellation, astrological, pisces]
 category: Zodiac
 version: "1.17"
 unicode: "ecb3"

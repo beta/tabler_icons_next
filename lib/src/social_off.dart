@@ -27,7 +27,7 @@ class SocialOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [society, community, collectivity, social, off, disabled, inactive]
+tags: [community, network, people, connections, group, society, disabled, unavailable, inactive, hidden, social, off]
 version: "1.67"
 unicode: "f1a9"
 -->

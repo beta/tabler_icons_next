@@ -26,7 +26,7 @@ class MoodWink extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, smile, funny, happy, mood, wink]
+tags: [wink, playful, flirt, joke, smile, emoji, smiley, face, emotion, feeling, reaction, mood]
 category: Mood
 version: "1.83"
 unicode: "f2ed"

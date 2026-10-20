@@ -26,7 +26,7 @@ class SquareRoundedMinus2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [geometry, subtraction, math, decrease, calculate, reduce, deduct, minimize, subtract, square]
+tags: [minus, remove, subtract, delete, collapse, button, squircle, rounded, square]
 category: Shapes
 version: "2.35"
 unicode: "fc97"

@@ -26,7 +26,7 @@ class Old extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [senior, person, elderly, age, old, medical, wellness, healthcare, treatment, care]
+tags: [elderly, senior, old-man, grandfather, cane, aged, walking-stick, person, old]
 category: Health
 version: "1.39"
 unicode: "eeb9"

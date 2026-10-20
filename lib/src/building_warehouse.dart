@@ -26,7 +26,7 @@ class BuildingWarehouse extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [store, inventory, stuff, things, machinery, building, warehouse, architecture, structure, construction]
+tags: [warehouse, storage, inventory, logistics, depot, stock, building, distribution, storehouse]
 category: Buildings
 version: "1.7"
 unicode: "ebe3"

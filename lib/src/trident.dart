@@ -27,7 +27,7 @@ class Trident extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [three, spear, weapon, sharp, tool, trident]
+tags: [trident, spear, fork, weapon, poseidon, neptune, spearhead, pitchfork]
 version: "1.18"
 unicode: "ecc5"
 -->

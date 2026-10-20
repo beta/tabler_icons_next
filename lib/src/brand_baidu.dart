@@ -26,7 +26,7 @@ class BrandBaidu extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [china, ai, network, company, brand, baidu, logo, trademark, identity, corporate]
+tags: [baidu, search, search-engine, china, internet, ai, logo, brand]
 category: Brand
 version: "1.113"
 unicode: "f5e9"

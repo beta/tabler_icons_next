@@ -26,7 +26,7 @@ class DatabaseImport extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, file, storage, backup, system, database, import, repository, records, information]
+tags: [import, restore, upload, load, database, db, data, storage, sql]
 category: Database
 version: "1.39"
 unicode: "ee6f"

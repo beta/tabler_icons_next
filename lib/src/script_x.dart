@@ -26,7 +26,7 @@ class ScriptX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, programming, coding, remove, delete, script, file, paper, text, record]
+tags: [script, code, file, delete, remove, close, cancel, error]
 category: Document
 version: "1.82"
 unicode: "f2d9"

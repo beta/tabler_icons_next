@@ -27,7 +27,7 @@ class MoodSpark extends Icon {
 
   static const String _svg = '''<!--
 category: Mood
-tags: [inspiration, ignite, emotion, joy, brightness, enthusiasm, energy, creativity, light, sparkle]
+tags: [sparkle, excited, inspired, ai, magic, happy, emoji, smiley, face, emotion, feeling, reaction]
 unicode: "ffb2"
 version: "3.13"
 -->

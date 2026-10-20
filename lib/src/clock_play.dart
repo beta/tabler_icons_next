@@ -26,7 +26,7 @@ class ClockPlay extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, hour, work, alarm, on, clock, play, control, operation, function]
+tags: [play, start, resume, timer, clock, time, running, start-time, schedule]
 category: System
 version: "1.105"
 unicode: "f549"

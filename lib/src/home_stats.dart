@@ -26,7 +26,7 @@ class HomeStats extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [analytics, business, finance, home, stats, house, main, architecture, structure, start]
+tags: [home, house, stats, statistics, analytics, chart, real-estate, dashboard]
 category: Buildings
 version: "1.87"
 unicode: "f345"

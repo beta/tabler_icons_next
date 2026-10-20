@@ -27,7 +27,7 @@ class BrightnessAuto extends Icon {
 
   static const String _svg = '''<!--
 category: Photography
-tags: [adjustment, sensor, light, screen, display, automatic, control, level, adaptation, contrast]
+tags: [brightness, light, display, screen, sun, luminosity, contrast, auto, automatic, adaptive, sensor]
 version: "2.47"
 unicode: "fd99"
 -->

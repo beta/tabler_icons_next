@@ -26,7 +26,7 @@ class ClipboardData extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [document, report, file, list, analytics, clipboard, data, paper, text, record]
+tags: [data, report, analytics, chart, statistics, stats, clipboard, paste, document, task, notes]
 category: Document
 version: "1.106"
 unicode: "f563"

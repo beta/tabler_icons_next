@@ -26,7 +26,7 @@ class FileStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [favourite, bookmark, like, file, star, document, data, favorite, rating, content]
+tags: [document, page, paper, favorite, favourite, bookmark, rating, doc, sheet, featured, starred, file, star]
 category: Document
 version: "1.56"
 unicode: "f03f"

@@ -26,7 +26,7 @@ class Filter2Question extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, question, sort, organize, arrange, select, refine, sieve, screen, help]
+tags: [filter, filtering, sort, help, faq, support, unknown, refine, list, options, info, ask, question]
 category: System
 version: "3.32"
 unicode: "10151"

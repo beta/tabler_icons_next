@@ -26,7 +26,7 @@ class RectangularPrism extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, rectangular, prism, geometry, form, figure]
+tags: [cuboid, box, 3d, shape, geometry, solid, rectangular, prism]
 category: Shapes
 version: "2.20"
 unicode: "fab5"

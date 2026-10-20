@@ -27,7 +27,7 @@ class InputAi extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [data, feed, imbibe, consume, machine, learning, process, entry, artificial, intelligence]
+tags: [input, ai, prompt, text-field, chatbot, llm, artificial-intelligence, form, field]
 version: "2.32"
 unicode: "fc5a"
 -->

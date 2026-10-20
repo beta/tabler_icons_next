@@ -27,7 +27,7 @@ class UserSquareRounded extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [border, frame, rectangle, shape, geometry, design, pattern, corners, form, angular]
+tags: [person, account, profile, avatar, member, square, rounded, squircle, badge, frame]
 version: "2.31"
 unicode: "fc50"
 -->

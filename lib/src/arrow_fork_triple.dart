@@ -26,7 +26,7 @@ class ArrowForkTriple extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, arrow, fork, pointer, navigation, flow, navigate, split, branch, triple, three, diverge, path]
+tags: [split, branch, three, diverge, path, route, junction, pointer, arrow, fork, triple]
 category: Arrows
 unicode: "10276"
 version: "3.45"

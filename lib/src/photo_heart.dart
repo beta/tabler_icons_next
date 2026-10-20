@@ -26,7 +26,7 @@ class PhotoHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gallery, love, romance, wedding, photo, heart, content, entertainment, like, multimedia]
+tags: [image, picture, gallery, img, photography, media, favorite, like, love, thumbnail, landscape, photo, heart]
 category: Media
 version: "1.89"
 unicode: "f361"

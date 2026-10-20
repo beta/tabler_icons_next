@@ -26,7 +26,7 @@ class CircuitSwitchOpen extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [diagram, electric, electricity, opened, circuit, switch, open, energy, voltage, power]
+tags: [switch, open, off, disconnected, circuit, electronics, electrical, schematic, diagram, electricity, component]
 category: Electrical
 version: "1.77"
 unicode: "f282"

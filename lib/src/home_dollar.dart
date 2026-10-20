@@ -26,7 +26,7 @@ class HomeDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [buisness, house, estate, finance, building, money, home, dollar, main, architecture]
+tags: [home, house, homepage, building, residence, real-estate, mortgage, rent, price, property, money, payment, cost, finance, usd, dollar]
 category: Buildings
 version: "1.87"
 unicode: "f339"

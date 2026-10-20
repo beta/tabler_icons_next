@@ -26,7 +26,7 @@ class ArrowsShuffle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, random, cross, mix, music, arrows, shuffle, navigation, flow, movement]
+tags: [random, mix, playlist, music, crossing, pointer, navigation, direction, arrows, shuffle]
 category: Arrows
 version: "1.53"
 unicode: "f000"

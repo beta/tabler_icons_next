@@ -26,7 +26,7 @@ class ArrowElbowLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bend, direction, turn, left, path, navigation, interface, ui, route, arrow]
+tags: [bend, turn, corner, direction, west, route, pointer, navigation, arrow, left]
 category: Arrows
 version: "2.11"
 unicode: "f9ed"

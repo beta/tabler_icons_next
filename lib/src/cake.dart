@@ -26,7 +26,7 @@ class Cake extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [baking, birthday, party, chocolate, sweet, cake, meal, cuisine, eating, nutrition]
+tags: [cake, birthday, party, celebration, dessert, sweet, bakery, anniversary]
 category: Food
 version: "1.54"
 unicode: "f00f"

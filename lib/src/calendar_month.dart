@@ -26,7 +26,7 @@ class CalendarMonth extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [monthly-calendar, month-view, date-month, monthly-schedule, timeframe, calendar-grid, month, month-planner, monthly, date-grid]
+tags: [calendar, date, schedule, event, day, planner, agenda, month, monthly, month-view, grid, appointment]
 category: System
 version: "2.41"
 unicode: "fd2f"

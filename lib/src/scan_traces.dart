@@ -27,7 +27,7 @@ class ScanTraces extends Icon {
 
   static const String _svg = '''<!--
 category: Development
-tags: [scan, trace, debug, inspect, track, follow, investigate, analyze, monitor, detect, examine, audit]
+tags: [tracing, scan, trace, debug, inspect, monitor, observability]
 unicode: "101ec"
 version: "3.39"
 -->

@@ -26,7 +26,7 @@ class CurrencyBitcoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [crypto, bitcoin, lightning network, mining, digital, blockchain, p2p, peer, money, banknote, pay]
+tags: [bitcoin, btc, satoshi, mining, crypto, cryptocurrency, blockchain, coin, digital-currency, currency, money]
 category: Currencies
 version: "1.4"
 unicode: "ebab"

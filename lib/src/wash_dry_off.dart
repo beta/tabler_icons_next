@@ -26,7 +26,7 @@ class WashDryOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [laundry, clean, clear, clothes, wash, dry, off, disabled, inactive, cleaning]
+tags: [laundry, care-label, clothes, washing, do-not-dry, no-dry, disabled, laundry-symbol, garment, wash, dry, off]
 category: Laundry
 version: "1.84"
 unicode: "f301"

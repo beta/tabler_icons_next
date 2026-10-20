@@ -26,7 +26,7 @@ class ClipboardCopy extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [duplicate, paste, document, task, clipboard, copy, file, paper, text, record]
+tags: [copy, duplicate, paste, clone, clipboard, document, task, notes]
 category: Document
 version: "1.79"
 unicode: "f299"

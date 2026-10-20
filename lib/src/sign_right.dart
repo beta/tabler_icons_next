@@ -26,7 +26,7 @@ class SignRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, east, navigation, arrow, navigate, sign, right, location, geography, place]
+tags: [signpost, direction-sign, arrow-right, right, east, direction, road-sign, sign]
 category: Map
 version: "1.58"
 unicode: "f06c"

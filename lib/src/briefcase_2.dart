@@ -27,7 +27,7 @@ class Briefcase2 extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [bag, baggage, folder, carrier, documents, suitcase, job, work, luggage, briefcase]
+tags: [briefcase, business, work, job, portfolio, bag, office, suitcase, career]
 version: "2.25"
 unicode: "fb03"
 -->

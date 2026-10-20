@@ -26,7 +26,7 @@ class Vault extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vault, safe, security, lock, bank, secure, storage, protect, password, private]
+tags: [vault, safe, security, bank, lock, secure, storage, money]
 category: System
 unicode: "1027d"
 version: "3.46"

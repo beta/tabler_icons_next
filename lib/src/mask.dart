@@ -26,7 +26,7 @@ class Mask extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [edit, layer, mask, tool, design, creative, artistic, visual, aesthetic, style]
+tags: [layer-mask, clipping, masking, design, photoshop, edit, layer, image-editing, mask]
 category: Design
 version: "1.39"
 unicode: "eeb0"

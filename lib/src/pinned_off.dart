@@ -26,7 +26,7 @@ class PinnedOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [board, attach, nail, pointed, corkboard, favourite, noticeboard, pinned, off, location]
+tags: [unpin, unpinned, pin, pushpin, thumbtack, detach, unstick, disabled, unavailable, inactive, hidden, pinned, off]
 category: Map
 version: "1.31"
 unicode: "ed5f"

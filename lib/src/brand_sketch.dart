@@ -26,7 +26,7 @@ class BrandSketch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, editor, edit, apple, commercial, brand, sketch, company, trademark, identity]
+tags: [sketch, design, ui, vector, editor, mac, prototyping, logo, brand]
 category: Brand
 version: "1.9"
 unicode: "ec24"

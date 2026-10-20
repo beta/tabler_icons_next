@@ -27,7 +27,7 @@ class MapShield extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [map, shield, security, protection, location, safe, guarded]
+tags: [map, shield, safe, secure, protection, location, safety]
 unicode: "10202"
 version: "3.40"
 -->

@@ -26,7 +26,7 @@ class MoodSmileDizzy extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, happy, smiley, mood, smile, dizzy]
+tags: [dizzy, happy, smile, giddy, silly, emoji, smiley, face, emotion, feeling, reaction, mood]
 category: Mood
 version: "1.83"
 unicode: "f2e8"

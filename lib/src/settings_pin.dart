@@ -27,7 +27,7 @@ class SettingsPin extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [configuration, pinning, setup, preferences, tools, attachment, location, organize, widget, management]
+tags: [cog, gear, preferences, pinned, pushpin, location, attach, configuration, options, config]
 version: "2.10"
 unicode: "f9b8"
 -->

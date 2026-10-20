@@ -26,7 +26,7 @@ class RotateClockwise2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [refresh, synchronization, reload, restart, spinner, loader, ajax, update, arrows, rotate]
+tags: [rotate, rotation, clockwise, refresh, reload, spin, redo, arrow]
 category: Arrows
 version: "1.4"
 unicode: "ebb5"

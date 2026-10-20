@@ -26,7 +26,7 @@ class BrandValorant extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, fps, videogame, shooter, brand, valorant, logo, company, trademark, identity]
+tags: [valorant, riot-games, game, fps, shooter, video-game, gaming, logo, brand]
 category: Brand
 version: "1.92"
 unicode: "f39f"

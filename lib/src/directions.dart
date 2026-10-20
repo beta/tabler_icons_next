@@ -26,7 +26,7 @@ class Directions extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [travel, navigation, discover, directions, location, geography, place, position]
+tags: [directions, signpost, navigation, route, way, travel, map, guide, crossroads]
 category: Map
 version: "1.0"
 unicode: "ea8e"

@@ -26,7 +26,7 @@ class BuildingBridge extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [architecture, urban, river, overpass, city, countryside, building, bridge, structure, construction]
+tags: [bridge, river, crossing, overpass, architecture, construction, road, infrastructure, landmark, building]
 category: Buildings
 version: "1.1"
 unicode: "ea4b"

@@ -26,7 +26,7 @@ class ChessBishop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, figure, strategy, pawn, chess, bishop, athletic, fitness, exercise, physical]
+tags: [bishop, chess, chess-piece, piece, board-game, game, strategy, play]
 category: Sport
 version: "1.107"
 unicode: "f56b"

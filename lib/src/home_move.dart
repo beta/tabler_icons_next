@@ -26,7 +26,7 @@ class HomeMove extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [relocation, moving, house, change, exchange, home, move, main, architecture, structure]
+tags: [home, house, move, moving, relocation, relocate, real-estate]
 category: Buildings
 version: "1.87"
 unicode: "f33e"

@@ -26,7 +26,7 @@ class ClefStaff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [staff, clef, music, notation, sheet, score, melody, treble, classical, orchestra]
+tags: [staff, stave, treble-clef, music, notation, sheet-music, score, melody, song, clef]
 category: Media
 unicode: "10241"
 version: "3.42"

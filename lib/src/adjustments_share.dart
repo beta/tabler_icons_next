@@ -27,7 +27,7 @@ class AdjustmentsShare extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [settings, distribute, spread, transmit, broadcast, impart, exchange, pass, disseminate, convey]
+tags: [settings, sliders, controls, filter, options, preferences, tune, send, forward, export, social]
 version: "2.10"
 unicode: "f80a"
 -->

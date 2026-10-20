@@ -26,7 +26,7 @@ class BrandDcos extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [os, operating, system, cloud, services, networking, brand, dcos, logo, company]
+tags: [dcos, mesosphere, os, cloud, cluster, containers, operating-system, logo, brand]
 category: Brand
 version: "1.86"
 unicode: "f32a"

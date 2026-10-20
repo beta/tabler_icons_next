@@ -26,7 +26,7 @@ class BrandNodejs extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [javascript, runtime, server, development, backend, framework, scalable, event, asynchronous, network]
+tags: [nodejs, node, javascript, runtime, server, backend, npm, logo, brand]
 category: Brand
 version: "2.23"
 unicode: "fae0"

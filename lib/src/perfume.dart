@@ -26,7 +26,7 @@ class Perfume extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [spray, smell, cosmetics, beauty, scent, perfume, store, purchase, shopping, retail]
+tags: [fragrance, cologne, scent, spray, bottle, beauty, cosmetics, perfume]
 category: E-commerce
 version: "1.101"
 unicode: "f509"

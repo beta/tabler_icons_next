@@ -26,7 +26,7 @@ class Json extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [file, document, type, format, extencion, json, plugin, addon, module, component]
+tags: [json, file, format, data, api, config, javascript, object, extension]
 category: Extensions
 version: "2.7"
 unicode: "f7b2"

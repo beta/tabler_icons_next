@@ -27,7 +27,7 @@ class AB2 extends Icon {
 
   static const String _svg = '''<!--
 category: Text
-tags: [test, visual, user, design, a, b, 2]
+tags: [ab-test, split-test, experiment, variant, comparison, compare, swap, testing, versus, a, b]
 version: "1.76"
 unicode: "f25f"
 -->

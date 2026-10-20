@@ -27,7 +27,7 @@ class ExplicitOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [adult, content, xxx, curse, words, porn, explicit, off, disabled, inactive]
+tags: [explicit, nsfw, adult, mature, 18-plus, parental-advisory, disabled, inactive, unavailable, slash, turn-off, content-warning, rating, off]
 version: "1.94"
 unicode: "f3ea"
 -->

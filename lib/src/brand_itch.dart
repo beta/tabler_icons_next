@@ -26,7 +26,7 @@ class BrandItch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, indie, platform, play, developer, download, collection, community, creative, interactive]
+tags: [itch, itch-io, indie, games, game, gaming, store, logo, brand]
 category: Brand
 version: "2.14"
 unicode: "fa22"

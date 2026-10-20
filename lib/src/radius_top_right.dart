@@ -26,7 +26,7 @@ class RadiusTopRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [round, corner, rounded, border, css, style, top, radius, right, creative]
+tags: [border-radius, corner, rounded, round, top, right, css, style, radius]
 category: Design
 version: "1.39"
 unicode: "eec9"

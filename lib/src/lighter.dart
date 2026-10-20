@@ -27,7 +27,7 @@ class Lighter extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [fire, flame, camping, light, burn, adventure, lighter]
+tags: [lighter, fire, flame, burn, smoking, zippo, camping, ignite]
 version: "2.5"
 unicode: "f794"
 -->

@@ -26,7 +26,7 @@ class H5 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [header, text, editor, h5, heading, typography, writing, font, character, word]
+tags: [h5, heading, header, title, headline, text-editor, markdown, html, typography, text-format, rich-text]
 category: Text
 version: "1.16"
 unicode: "ec98"

@@ -26,7 +26,7 @@ class PlugOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [electricity, charger, socket, connection, plug, off, hardware, technology, disabled, inactive]
+tags: [unplug, unplugged, no-power, power-off, disconnected, electricity, plug, disabled, unavailable, inactive, hidden, off]
 category: Devices
 version: "1.66"
 unicode: "f180"

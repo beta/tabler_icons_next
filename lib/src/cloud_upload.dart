@@ -26,7 +26,7 @@ class CloudUpload extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [files, cloud, upload, storage, online, import, transfer, control, operation, server]
+tags: [upload, cloud-upload, sync, backup, publish, cloud, storage, online, server]
 category: System
 version: "1.0"
 unicode: "ea75"

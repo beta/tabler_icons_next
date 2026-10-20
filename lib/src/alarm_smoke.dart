@@ -27,7 +27,7 @@ class AlarmSmoke extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [alert, hazard, safety, sensor, device, warning, detector, emergency, protection, system]
+tags: [smoke-detector, fire-alarm, detector, sensor, fire, safety, emergency, warning]
 unicode: "100b6"
 version: "3.23"
 -->

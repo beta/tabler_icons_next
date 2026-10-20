@@ -26,7 +26,7 @@ class Message2Sparkle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [chat, conversation, message, sparkle, ai, magic, generate, assistant, smart, highlight]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, ai, magic, generate, sparkles, assistant, reply, communication, dm, message, sparkle]
 category: Communication
 unicode: "102a9"
 version: "3.48"

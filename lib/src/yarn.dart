@@ -26,7 +26,7 @@ class Yarn extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [yarn, wool, knitting, craft, sewing, thread, ball, textile, fabric, hobby]
+tags: [yarn, wool, knitting, crochet, thread, craft, ball, knit]
 category: Design
 unicode: "1027c"
 version: "3.46"

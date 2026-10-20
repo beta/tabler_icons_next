@@ -27,7 +27,7 @@ class PointOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [dot, label, point, off, disabled, inactive]
+tags: [dot, bullet, marker, no-dot, hidden, circle, spot, disabled, unavailable, inactive, point, off]
 version: "1.66"
 unicode: "f181"
 -->

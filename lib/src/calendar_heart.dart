@@ -27,7 +27,7 @@ class CalendarHeart extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [love, affection, passion, devotion, romance, amour, care, fondness, esteem, cherish]
+tags: [calendar, date, schedule, event, day, planner, agenda, heart, favorite, like, love, anniversary, valentine, date-night, appointment]
 version: "2.10"
 unicode: "f82a"
 -->

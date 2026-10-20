@@ -26,7 +26,7 @@ class Buildings extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [flat, office, city, urban, scyscraper, architecture, construction, buildings, structure, property]
+tags: [buildings, city, town, urban, office, architecture, real-estate, skyline]
 category: Buildings
 version: "3.9"
 unicode: "ff40"

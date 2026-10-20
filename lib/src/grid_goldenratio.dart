@@ -26,7 +26,7 @@ class GridGoldenratio extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [layout, pattern, matrix, arrangement, golden-ratio, cell, structure, ratio, gridlines, grid-structure]
+tags: [golden-ratio, grid, composition, layout, rule-of-thirds, design, photography, proportion, fibonacci]
 category: Design
 version: "2.36"
 unicode: "fca6"

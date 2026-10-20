@@ -26,7 +26,7 @@ class BrandMercedes extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [car, racing, f1, bus, van, brand, mercedes, logo, company, trademark]
+tags: [mercedes, mercedes-benz, car, automotive, vehicle, luxury, logo, brand]
 category: Brand
 version: "1.59"
 unicode: "f072"

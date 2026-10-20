@@ -26,7 +26,7 @@ class HomeExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [warning, danger, accident, house, home, exclamation, main, architecture, structure, start]
+tags: [home, house, homepage, building, residence, real-estate, warning, alert, error, important, attention, exclamation]
 category: Buildings
 version: "1.87"
 unicode: "f33c"

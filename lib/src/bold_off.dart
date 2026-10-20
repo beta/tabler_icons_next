@@ -26,7 +26,7 @@ class BoldOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [font, style, boldface, bold, off, disabled, inactive, typography, writing, character]
+tags: [text, format, formatting, typography, font, strong, disabled, bold, off]
 category: Text
 version: "1.63"
 unicode: "f0ba"

@@ -26,7 +26,7 @@ class CakeRoll extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [dessert, pastry, roll, sweet, delicacy, treat, bake, confection, culinary, indulgence]
+tags: [cake-roll, swiss-roll, roll, cake, dessert, pastry, sweet, bakery]
 category: Food
 unicode: "100bd"
 version: "3.24"

@@ -26,7 +26,7 @@ class HandMove extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gesture, swipe, right, left, up, down, hand, move, transfer, shift]
+tags: [hand, move, pan, drag, gesture, swipe, scroll, grab, navigate]
 category: Gestures
 version: "1.43"
 unicode: "ef50"

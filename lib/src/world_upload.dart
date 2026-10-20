@@ -26,7 +26,7 @@ class WorldUpload extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [earth, global, up, globe, arrow, internet, world, upload, import, transfer]
+tags: [globe, earth, world, internet, global, web, international, upload, arrow-up, cloud]
 category: Map
 version: "1.46"
 unicode: "ef8b"

@@ -26,7 +26,7 @@ class Script extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, programming, coding, document, development, script, file, paper, text, record]
+tags: [code, programming, development, scroll, file, script]
 category: Document
 version: "1.82"
 unicode: "f2da"

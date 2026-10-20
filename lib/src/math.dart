@@ -26,7 +26,7 @@ class Math extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [subject, count, plus, minus, times, math, calculation, equation, mathematics, numeric]
+tags: [calculator, mathematics, plus, minus, multiply, divide, arithmetic, operations, symbols, calculation, math]
 category: Math
 version: "1.7"
 unicode: "ebeb"

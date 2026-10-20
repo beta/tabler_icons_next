@@ -26,7 +26,7 @@ class CurrencyDong extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vietnam, exchange, finance, money, cash, currency, dong, payment, monetary, banking]
+tags: [dong, vnd, vietnam, vietnamese, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.90"
 unicode: "f36f"

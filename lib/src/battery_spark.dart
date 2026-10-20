@@ -26,7 +26,7 @@ class BatterySpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [energy, power, electricity, battery, spark, charge, hardware, technology, electric, glitter]
+tags: [power, energy, charge, level, phone, mobile, ai, smart, magic, sparkle, battery, spark]
 category: Devices
 version: "3.13"
 unicode: "ffbd"

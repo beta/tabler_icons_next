@@ -26,7 +26,7 @@ class TimelineEventExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [calendar, schedule, date, error, warring, timeline, event, exclamation, programming, software]
+tags: [timeline, event, milestone, warning, alert, error, attention, events, exclamation]
 category: Development
 version: "1.119"
 unicode: "f662"

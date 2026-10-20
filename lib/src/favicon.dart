@@ -26,7 +26,7 @@ class Favicon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [browser, website, tab, bookmark, mark, identity, web, graphics, favicon, creative]
+tags: [favicon, site-icon, browser-tab, website, web, tab, icon, bookmark, brand]
 category: Design
 version: "2.44"
 unicode: "fd65"

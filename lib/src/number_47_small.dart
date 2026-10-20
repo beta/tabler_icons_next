@@ -26,7 +26,7 @@ class Number47Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tiny, fortyseven, digit47, numeric, miniature, icon47, num47, small47, fourseven, miniscule]
+tags: [forty-seven, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 unicode: "1021c"
 version: "3.14"

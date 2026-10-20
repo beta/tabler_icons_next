@@ -26,7 +26,7 @@ class ChartInfographic extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, data, value, variable, scale, statistical, bar, information, report, chart]
+tags: [chart, graph, statistics, analytics, data, report, diagram, infographic, dashboard, visualization]
 category: Charts
 version: "1.39"
 unicode: "ee30"

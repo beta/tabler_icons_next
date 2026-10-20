@@ -26,7 +26,7 @@ class Plunger extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [plunger, toilet, bathroom, hygiene, wc, plumbing, clog, drain, cleaning, pipe]
+tags: [toilet, plumbing, plumber, bathroom, drain, clog, unclog, wc, cleaning, plunger]
 category: Health
 unicode: "10232"
 version: "3.42"

@@ -26,7 +26,7 @@ class Crop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [photo, crop, creative, artistic, visual, aesthetic, style]
+tags: [crop, trim, cut, resize, image, photo, frame, edit, aspect-ratio]
 category: Design
 version: "1.0"
 unicode: "ea85"

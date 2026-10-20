@@ -26,7 +26,7 @@ class CircleLetterC extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, alphabet, sign, latin, circle, letter, round, circular, character, typography]
+tags: [c, letter-c, letter, alphabet, character, uppercase, initial, monogram, circle, round, badge]
 category: Letters
 version: "1.95"
 unicode: "f443"

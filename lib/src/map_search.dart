@@ -26,7 +26,7 @@ class MapSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [location, navigation, gps, find, pin, map, search, look, seek, query]
+tags: [map, navigation, location, travel, geography, directions, atlas, search, find, lookup, magnifier, explore, find-location]
 category: Map
 version: "1.46"
 unicode: "ef82"

@@ -27,7 +27,7 @@ class FilterDiscount extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [sale, reduction, offer, save, deal, discount, bargain, cheap, cost, cut]
+tags: [funnel, filtering, sort, sale, promo, percent, coupon, refine, narrow, deal, offer, discount]
 version: "2.28"
 unicode: "fb80"
 -->

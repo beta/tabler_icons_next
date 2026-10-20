@@ -26,7 +26,7 @@ class BrandUbuntu extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [os, operating, system, linux, gnu, brand, ubuntu, logo, company, trademark]
+tags: [ubuntu, linux, os, operating-system, canonical, distro, logo, brand]
 category: Brand
 version: "1.44"
 unicode: "ef59"

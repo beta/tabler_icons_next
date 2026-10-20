@@ -26,7 +26,7 @@ class BrandKickstarter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [crowdfunding, platform, project, creative, idea, business, launch, technology, brand, kickstarter]
+tags: [kickstarter, crowdfunding, funding, projects, backers, startup, logo, brand]
 category: Brand
 version: "1.36"
 unicode: "edce"

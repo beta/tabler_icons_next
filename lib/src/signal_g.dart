@@ -26,7 +26,7 @@ class SignalG extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [wireless, network, connectivity, telecom, mobile, cellular, communication, coverage, signal, data]
+tags: [gprs, g, 2g, mobile-network, cellular, signal, network, connection, mobile-data]
 version: "2.11"
 unicode: "f9fa"
 category: Devices

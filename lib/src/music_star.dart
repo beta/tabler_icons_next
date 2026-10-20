@@ -27,7 +27,7 @@ class MusicStar extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [favorite, highlight, best, top, bright, shine, selection, elite, premium, noteworthy]
+tags: [song, audio, sound, note, melody, track, favorite, bookmark, rating, featured, mp3, playlist, player]
 version: "2.28"
 unicode: "fbe6"
 -->

@@ -27,7 +27,7 @@ class RouteSquare2 extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [square-route, route-square, path, journey, direction, trail, navigate, travel, way, square-direction]
+tags: [route, path, directions, navigation, map, trip]
 version: "2.36"
 unicode: "fcab"
 -->

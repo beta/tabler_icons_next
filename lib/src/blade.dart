@@ -27,7 +27,7 @@ class Blade extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [razor, beard, barber, cut, blade]
+tags: [razor, shave, shaving, barber, cut, razor-blade, grooming, beard, sharp, blade]
 version: "1.98"
 unicode: "f4bd"
 -->

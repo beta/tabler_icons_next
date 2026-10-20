@@ -26,7 +26,7 @@ class TransactionYen extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [japan, currency, exchange, trade, payment, cash, money, yen, finance, transfer]
+tags: [transaction, payment, transfer, yen, jpy, japan, money, exchange]
 category: E-commerce
 version: "2.44"
 unicode: "fd72"

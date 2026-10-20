@@ -27,7 +27,7 @@ class MailPause extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [halt, suspend, wait, message, break, stop, delay, interrupt, hold, cease]
+tags: [mail, email, envelope, message, inbox, letter, e-mail, pause, paused, wait, hold, suspend]
 version: "2.10"
 unicode: "f941"
 -->

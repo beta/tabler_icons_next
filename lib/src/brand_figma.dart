@@ -26,7 +26,7 @@ class BrandFigma extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, editor, implement, prototyping, brand, figma, company, trademark, identity, corporate]
+tags: [figma, design, ui, ux, prototyping, editor, vector, collaboration, logo, brand]
 category: Brand
 version: "1.16"
 unicode: "ec93"

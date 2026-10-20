@@ -26,7 +26,7 @@ class FlagSpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [banner, pin, report, map, warning, alert, flag, spark, location, navigation]
+tags: [flag, ai, magic, sparkle, new, highlight, milestone, smart, spark]
 category: Map
 version: "3.13"
 unicode: "ffb7"

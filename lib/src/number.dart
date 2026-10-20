@@ -26,7 +26,7 @@ class Number extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [one, two, three, four, five, six, seven, eight, nine, ten, math, counting]
+tags: [numbers, digit, numeral, numeric, count, hash, pound, sharp]
 version: "1.70"
 unicode: "f1fe"
 category: Numbers

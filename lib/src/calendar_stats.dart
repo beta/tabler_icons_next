@@ -27,7 +27,7 @@ class CalendarStats extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [plan, timetable, schedule, meeting, busy, month, year, date, statistics, calender]
+tags: [calendar, date, schedule, event, day, planner, agenda, stats, statistics, chart, analytics, report, appointment]
 version: "1.39"
 unicode: "ee20"
 -->

@@ -27,7 +27,7 @@ class AlertSmallOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [notification, muted, disable, quiet, silent, suppressed, inactive, off, halt, interrupted]
+tags: [exclamation, exclamation-mark, warning, attention, disabled, inactive, muted, no-warning, off]
 version: "2.33"
 unicode: "fc67"
 -->

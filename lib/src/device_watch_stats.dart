@@ -26,7 +26,7 @@ class DeviceWatchStats extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [steps, pulse, hour, date, device, watch, stats, hardware, technology, electronic]
+tags: [smartwatch, fitness-tracker, activity, stats, steps, health, wearable, pulse, chart, apple-watch, device, watch]
 category: Devices
 version: "1.46"
 unicode: "ef7d"

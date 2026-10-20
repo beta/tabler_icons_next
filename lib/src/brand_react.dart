@@ -26,7 +26,7 @@ class BrandReact extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [library, javascript, creation, interface, software, brand, react, logo, company, trademark]
+tags: [react, reactjs, meta, javascript, library, frontend, ui, jsx, logo, brand]
 category: Brand
 version: "1.88"
 unicode: "f34c"

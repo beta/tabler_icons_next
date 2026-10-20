@@ -26,7 +26,7 @@ class BrandHtml5 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, development, web, website, technology, markup, language, brand, html5, logo]
+tags: [html5, html, markup, web, frontend, language, logo, brand]
 category: Brand
 version: "1.32"
 unicode: "ed6c"

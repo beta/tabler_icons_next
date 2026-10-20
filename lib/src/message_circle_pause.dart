@@ -27,7 +27,7 @@ class MessageCirclePause extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [halt, stop, break, circular, wait, delay, hold, suspend, intervene, freeze]
+tags: [chat, comment, speech-bubble, round, conversation, sms, paused, hold, wait, suspend, reply, communication, dm]
 version: "2.10"
 unicode: "f97a"
 -->

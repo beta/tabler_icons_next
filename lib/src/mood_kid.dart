@@ -26,7 +26,7 @@ class MoodKid extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, mood, kid]
+tags: [kid, child, baby, children, young, emoji, smiley, face, emotion, feeling, reaction, mood]
 category: Mood
 version: "1.8"
 unicode: "ec03"

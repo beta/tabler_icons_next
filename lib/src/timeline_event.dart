@@ -26,7 +26,7 @@ class TimelineEvent extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [process, plan, planning, diagram, chart, roadmap, timeline, event, programming, software]
+tags: [timeline, event, milestone, history, roadmap, schedule, events, chronology]
 category: Development
 version: "1.105"
 unicode: "f553"

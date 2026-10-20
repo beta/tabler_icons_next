@@ -26,7 +26,7 @@ class Tex extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [file, document, type, format, filetype, tex, typography, writing, font, character]
+tags: [latex, tex, typesetting, document, math, file, format, formula]
 category: Text
 version: "1.99"
 unicode: "f4e0"

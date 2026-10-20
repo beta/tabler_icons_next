@@ -26,7 +26,7 @@ class Abacus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [abacus, math, counting, adding up, calculation, equation, mathematics, numeric, formula]
+tags: [counting, calculation, math, mathematics, calculator, count, beads, arithmetic, numbers, abacus]
 category: Math
 version: "1.58"
 unicode: "f05c"

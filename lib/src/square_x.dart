@@ -26,7 +26,7 @@ class SquareX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cancel, close, delete, remove, times, clear, "no", square, rectangular, geometry]
+tags: [close, cancel, delete, remove, dismiss, exit, clear, cross, times, square, box]
 category: Shapes
 version: "1.0"
 unicode: "eb2b"

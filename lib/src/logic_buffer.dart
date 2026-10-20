@@ -26,7 +26,7 @@ class LogicBuffer extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gate, technology, electirical, it, logic, buffer, boolean, operation, reasoning, conditional]
+tags: [logic, gate, boolean, circuit, electronics, digital, operator, binary, repeater, schematic, electrical, buffer]
 category: Logic
 version: "1.74"
 unicode: "f241"

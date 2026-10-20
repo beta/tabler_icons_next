@@ -26,7 +26,7 @@ class BrandFlightradar24 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [plane, route, fly, height, speed, statistisc, brand, flightradar24, logo, company]
+tags: [flightradar24, flight, tracker, plane, airplane, aviation, radar, logo, brand]
 category: Brand
 version: "1.99"
 unicode: "f4d6"

@@ -26,7 +26,7 @@ class BrandHeadlessui extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tailwind, css, js, javascript, brand, headlessui, logo, company, trademark, identity]
+tags: [headless-ui, headlessui, tailwind, react, vue, components, ui, logo, brand]
 category: Brand
 version: "1.86"
 unicode: "f32d"

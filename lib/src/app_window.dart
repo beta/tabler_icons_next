@@ -27,7 +27,7 @@ class AppWindow extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [browser, page, website, web, interface, app, window, application, program, software]
+tags: [browser, application, interface, webpage, website, desktop, program, software, screen, app, window]
 version: "1.52"
 unicode: "efe6"
 -->

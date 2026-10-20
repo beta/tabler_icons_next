@@ -27,7 +27,7 @@ class PencilCog extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [edit, settings, adjust, configure, customize, craft, develop, tweak, optimize, fine-tune]
+tags: [edit, write, draw, modify, pen, compose, settings, gear, config, preferences, options, update, change]
 version: "2.28"
 unicode: "fc01"
 -->

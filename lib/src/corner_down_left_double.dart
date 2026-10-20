@@ -26,7 +26,7 @@ class CornerDownLeftDouble extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, previous, back, return, below, point, corner, down, left, double]
+tags: [double, corner-arrow, arrow, corner, down-left, turn, return, enter, reply-all, back, direction, navigation, down, left]
 category: Arrows
 version: "1.39"
 unicode: "ee48"

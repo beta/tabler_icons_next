@@ -27,7 +27,7 @@ class NavigationDollar extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [currency, money, finance, cash, payment, wealth, transaction, banknote, funds, economics]
+tags: [gps, arrow, direction, location, cursor, compass, money, price, payment, paid, usd, cost, route, map, pointer]
 version: "2.28"
 unicode: "fbef"
 -->

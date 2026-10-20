@@ -27,7 +27,7 @@ class TrendingUpDown extends Icon {
 
   static const String _svg = '''<!--
 category: Charts
-tags: [trend, chart, up, down, growth, decline, statistics, data, arrow, navigation]
+tags: [trend, up, down, volatility, fluctuation, chart, statistics, market]
 unicode: "101fb"
 version: "3.40"
 -->

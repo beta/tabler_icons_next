@@ -27,7 +27,7 @@ class EyeSearch extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [find, explore, seek, vision, sight, look, discover, investigate, view, focus]
+tags: [view, visibility, show, find, magnifier, magnifying-glass, lookup, see, vision, preview, watch, zoom, query]
 version: "2.28"
 unicode: "fb78"
 -->

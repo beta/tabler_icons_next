@@ -26,7 +26,7 @@ class BrandElastic extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, analysis, data, search, brand, elastic, logo, company, trademark, identity]
+tags: [elastic, elasticsearch, search, analytics, logging, kibana, elk, logo, brand]
 category: Brand
 version: "1.115"
 unicode: "f611"

@@ -27,7 +27,7 @@ class Crosshair extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [reticle, tag, tracer, measurement, target, crosshair]
+tags: [crosshair, target, aim, reticle, crosshairs, focus, select, precision, center]
 version: "1.11"
 unicode: "ec3e"
 -->

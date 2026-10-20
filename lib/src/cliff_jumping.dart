@@ -26,7 +26,7 @@ class CliffJumping extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [rock, fall, movement, motion, trampoline, height, cliff, jumping, athletic, fitness]
+tags: [cliff-jumping, diving, jump, extreme-sport, water, adventure, sport, height, cliff, jumping]
 category: Sport
 version: "3.6"
 unicode: "fefc"

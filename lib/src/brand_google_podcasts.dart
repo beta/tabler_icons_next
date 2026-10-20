@@ -26,7 +26,7 @@ class BrandGooglePodcasts extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, android, ios, discover, listen, brand, google, podcasts, logo, company]
+tags: [google-podcasts, podcast, google, audio, listen, episodes, logo, brand, podcasts]
 category: Brand
 version: "1.119"
 unicode: "f656"

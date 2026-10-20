@@ -26,7 +26,7 @@ class BrandOpenvpn extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, creating, secure, connection, brand, openvpn, logo, company, trademark, identity]
+tags: [openvpn, vpn, security, network, encryption, tunnel, logo, brand]
 category: Brand
 version: "1.92"
 unicode: "f39a"

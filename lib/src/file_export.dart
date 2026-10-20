@@ -26,7 +26,7 @@ class FileExport extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, data, paper, document, format, file, export, content, record, text]
+tags: [export, save-as, send, share, arrow-right, document, file, output, extract]
 category: Document
 version: "1.37"
 unicode: "ede9"

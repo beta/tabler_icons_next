@@ -26,7 +26,7 @@ class BrandSvelte extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, coding, interface, web app, brand, svelte, logo, company, trademark, identity]
+tags: [svelte, sveltekit, javascript, framework, frontend, web, ui, logo, brand]
 category: Brand
 version: "1.64"
 unicode: "f0df"

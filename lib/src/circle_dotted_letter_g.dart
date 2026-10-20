@@ -26,7 +26,7 @@ class CircleDottedLetterG extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [golf, seventh-letter, consonant, goal, grow, greet, globe, gauge, guard, glance]
+tags: [g, letter-g, letter, alphabet, character, uppercase, initial, circle, dotted, badge]
 category: Letters
 unicode: "ff79"
 version: "3.11"

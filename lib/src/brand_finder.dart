@@ -26,7 +26,7 @@ class BrandFinder extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, files, manager, macos, osx, programming, brand, finder, logo, company]
+tags: [finder, macos, apple, file-manager, files, mac, logo, brand]
 category: Brand
 version: "1.72"
 unicode: "f218"

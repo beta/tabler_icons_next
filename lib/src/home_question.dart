@@ -26,7 +26,7 @@ class HomeQuestion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [support, help, information, ask, anwser, "?", home, question, house, main]
+tags: [home, house, homepage, building, residence, real-estate, help, question, faq, unknown, support]
 category: Buildings
 version: "1.87"
 unicode: "f340"

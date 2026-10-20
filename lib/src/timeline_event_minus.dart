@@ -26,7 +26,7 @@ class TimelineEventMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [calendar, schedule, date, delete, remove, timeline, event, minus, programming, software]
+tags: [timeline, event, milestone, remove, subtract, delete, events, chronology, minus]
 category: Development
 version: "1.119"
 unicode: "f663"

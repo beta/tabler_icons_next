@@ -26,7 +26,7 @@ class HomePlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, building, new, create, home, plus, house, main, architecture, structure]
+tags: [home, house, homepage, building, residence, real-estate, add, new, create, plus]
 category: Buildings
 version: "1.87"
 unicode: "f33f"

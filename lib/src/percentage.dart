@@ -26,7 +26,7 @@ class Percentage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, math, economics, cash, bank account, chart, graph, diagram, statistic, percentage]
+tags: [percent, percentage-sign, discount, rate, ratio, proportion, statistics, math, sale, percentage]
 category: Math
 version: "1.22"
 unicode: "ecf4"

@@ -26,7 +26,7 @@ class BrandStorytel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [audiobook, stream, phone, tablet, digital, subscription, service, brand, storytel, logo]
+tags: [storytel, audiobook, audio, books, ebook, subscription, logo, brand]
 category: Brand
 version: "1.114"
 unicode: "f608"

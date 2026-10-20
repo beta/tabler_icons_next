@@ -26,7 +26,7 @@ class CurrencyCent extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cent, coin, money, centavo, penny, banknote, pay, currency, finance, payment]
+tags: [cent, penny, centavo, coin, change, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "ee53"

@@ -26,7 +26,7 @@ class PhoneOutgoing extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [call, signal, mobile, landline, conversation, phone, outgoing, hardware, technology, contact]
+tags: [outgoing-call, call, telephone, outbound, arrow, dial, handset, phone, outgoing]
 category: Devices
 version: "1.0"
 unicode: "eb07"

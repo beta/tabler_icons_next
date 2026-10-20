@@ -26,7 +26,7 @@ class Mailbox extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [send, recipient, email, inbox, message, reply, post, mailbox, contact, conversation]
+tags: [mailbox, postbox, letterbox, mail, post, letter, delivery, inbox]
 category: Communication
 version: "1.39"
 unicode: "eead"

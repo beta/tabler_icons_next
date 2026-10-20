@@ -26,7 +26,7 @@ class Number123 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [numbers, digit, one, two, three, number, 123, numeric, numeral, count]
+tags: [numbers, digits, numeric, count, one-two-three, counting, numeral, number-format, input-type, number]
 category: Numbers
 version: "1.106"
 unicode: "f554"

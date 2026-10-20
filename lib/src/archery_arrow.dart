@@ -27,7 +27,7 @@ class ArcheryArrow extends Icon {
 
   static const String _svg = '''<!--
 category: Games
-tags: [bow, target, shoot, sports, archer, hunting, bullseye, flight, quiver, precision]
+tags: [bow, target, bullseye, shoot, sport, aim, archer, precision]
 version: "2.32"
 unicode: "fc55"
 -->

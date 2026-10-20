@@ -26,7 +26,7 @@ class AugmentedRealityOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [technology, dimensional, geometry, augmented, reality, off, control, operation, disabled, inactive]
+tags: [ar, augmented-reality, virtual, 3d, scan, vr, mixed-reality, camera, disabled, inactive, augmented, reality, off]
 category: System
 version: "1.94"
 unicode: "f3c1"

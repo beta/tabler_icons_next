@@ -26,7 +26,7 @@ class DeviceCctv extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [closed, circuit, television, video, surveillance, signal, monitor, record, device, cctv]
+tags: [cctv, security-camera, surveillance, camera, monitoring, video, security, cam, device]
 category: Devices
 version: "1.39"
 unicode: "ee74"

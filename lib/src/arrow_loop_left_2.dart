@@ -26,7 +26,7 @@ class ArrowLoopLeft2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, west, arrow, loop, left, pointer, navigation, flow, navigate, move]
+tags: [u-turn, return, cycle, repeat, direction, west, pointer, navigation, arrow, loop, left]
 category: Arrows
 version: "1.57"
 unicode: "f04c"

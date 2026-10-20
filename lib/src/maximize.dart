@@ -26,7 +26,7 @@ class Maximize extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fullscreen, maximize, expand, window, size, resize, direction, content, entertainment, multimedia]
+tags: [fullscreen, expand, enlarge, resize, full-screen, corners, zoom-in, window, maximize]
 category: Media
 version: "1.0"
 unicode: "eaea"

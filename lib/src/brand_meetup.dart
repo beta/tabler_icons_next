@@ -26,7 +26,7 @@ class BrandMeetup extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [events, community, network, connect, social, group, organize, gather, activity, interaction]
+tags: [meetup, events, community, groups, social, networking, logo, brand]
 category: Brand
 version: "2.33"
 unicode: "fc6a"

@@ -26,7 +26,7 @@ class DiscGolf extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [frisbee, throw, sport, activity, disc, golf, athletic, fitness, exercise, game]
+tags: [disc-golf, frisbee, ultimate, disc, throw, sport, outdoor, game, basket, golf]
 category: Sport
 version: "1.91"
 unicode: "f385"

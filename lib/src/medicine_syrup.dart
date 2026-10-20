@@ -26,7 +26,7 @@ class MedicineSyrup extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bottle, pharmacy, healthcare, health, mixture, drug, medicine, syrup, medical, wellness]
+tags: [syrup, medicine, bottle, pharmacy, drug, cough-syrup, healthcare, dose, spoon]
 category: Health
 version: "1.44"
 unicode: "ef63"

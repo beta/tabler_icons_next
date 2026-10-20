@@ -27,7 +27,7 @@ class NavigationCheck extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [approve, confirm, validate, verify, agree, accept, okay, pass, authorization, tick]
+tags: [gps, arrow, direction, location, cursor, compass, done, success, confirmed, approved, verified, tick, route, map, pointer]
 version: "2.28"
 unicode: "fbeb"
 -->

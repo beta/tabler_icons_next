@@ -26,7 +26,7 @@ class BrandAlgolia extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [web, browser, software, efficient, ai, brand, algolia, logo, company, trademark]
+tags: [algolia, search, search-engine, api, saas, instant-search, developer, logo, brand]
 category: Brand
 version: "1.92"
 unicode: "f390"

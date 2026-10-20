@@ -26,7 +26,7 @@ class CurrencySom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, finance, money, cash, kyrgyzstan, currency, som, payment, monetary, banking]
+tags: [som, kgs, kyrgyzstan, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.90"
 unicode: "f37c"

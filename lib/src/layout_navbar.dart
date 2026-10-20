@@ -26,7 +26,7 @@ class LayoutNavbar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grid, row, header, layout, navbar, creative, artistic, visual, aesthetic, style]
+tags: [navbar, header, top-bar, navigation, menu-bar, layout, ui]
 category: Design
 version: "1.0"
 unicode: "ead7"

@@ -26,7 +26,7 @@ class BrandVivaldi extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [browser, internet, web, free, program, brand, vivaldi, logo, company, trademark]
+tags: [vivaldi, browser, web, internet, logo, brand, chromium, privacy]
 category: Brand
 version: "1.71"
 unicode: "f210"

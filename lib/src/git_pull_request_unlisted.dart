@@ -26,7 +26,7 @@ class GitPullRequestUnlisted extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, version control, git, pull, request, unlisted, hidden, private, draft, repository]
+tags: [git, pull-request, pr, unlisted, hidden, private, version-control, github, gitlab, pull, request]
 category: Version control
 unicode: "102ab"
 version: "3.48"

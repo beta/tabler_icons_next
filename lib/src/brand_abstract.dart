@@ -26,7 +26,7 @@ class BrandAbstract extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [design, software, web, ux, brand, abstract, logo, company, trademark, identity]
+tags: [design-tool, version-control, sketch, collaboration, logo, design-app, software, brand, abstract]
 category: Brand
 version: "1.96"
 unicode: "f495"

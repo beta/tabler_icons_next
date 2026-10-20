@@ -26,7 +26,7 @@ class BrandBehance extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, website, adobe, project, views, marks, platform, designer, brand, behance]
+tags: [behance, adobe, portfolio, design, creative, showcase, designer, social, logo, brand]
 category: Brand
 version: "1.13"
 unicode: "ec6e"

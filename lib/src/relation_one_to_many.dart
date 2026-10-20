@@ -26,7 +26,7 @@ class RelationOneToMany extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, model, analysis, multiple, connection, database, link, relation, one, many]
+tags: [one-to-many, database, erd, entity, relationship, model, data, sql, relation, one, many]
 category: Database
 version: "1.33"
 unicode: "ed80"

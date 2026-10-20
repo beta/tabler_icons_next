@@ -26,7 +26,7 @@ class Karate extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [martial, art, self, defence, defend, strike, compat, oriental, fight, kick]
+tags: [karate, martial-arts, self-defense, fight, kick, dojo, judo, taekwondo, sport]
 category: Sport
 version: "1.27"
 unicode: "ed32"

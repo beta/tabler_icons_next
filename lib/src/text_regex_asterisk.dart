@@ -26,7 +26,7 @@ class TextRegexAsterisk extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [regular, expression, regex, code, programming, coding, pattern, text, asterisk, star, wildcard, quantifier, repeat]
+tags: [regex, regexp, regular-expression, wildcard, asterisk, pattern, match, any, text]
 category: Text
 unicode: "1026e"
 version: "3.45"

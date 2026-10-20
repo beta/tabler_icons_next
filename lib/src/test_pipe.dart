@@ -27,7 +27,7 @@ class TestPipe extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [sample, color, flask, liquid, container, glass, chemistry, test, laboratory, experimental, beta]
+tags: [test-tube, lab, laboratory, chemistry, science, experiment, sample, vial, tube, test]
 version: "1.0"
 unicode: "eb3a"
 -->

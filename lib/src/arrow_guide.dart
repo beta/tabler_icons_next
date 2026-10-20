@@ -26,7 +26,7 @@ class ArrowGuide extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, west, bend, navigation, arrow, guide, pointer, flow, navigate, move]
+tags: [route, bend, path, direction, west, navigation, pointer, arrow, guide]
 category: Arrows
 version: "1.73"
 unicode: "f22a"

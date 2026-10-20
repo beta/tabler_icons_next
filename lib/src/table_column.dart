@@ -26,7 +26,7 @@ class TableColumn extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [table, column, data-table, spreadsheet, table-structure, columnar, information, grid, table-columnar, dataset]
+tags: [column, spreadsheet, grid, data, table, excel, cells, sheet, tabular]
 category: Database
 version: "2.24"
 unicode: "faff"

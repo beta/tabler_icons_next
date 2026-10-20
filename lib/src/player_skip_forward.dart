@@ -26,7 +26,7 @@ class PlayerSkipForward extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [button, player, video, film, music, omit, skip, forward, content, entertainment]
+tags: [skip-forward, next, skip, forward, end, media, music, video, controls, player]
 category: Media
 version: "1.28"
 unicode: "ed49"

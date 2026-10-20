@@ -26,7 +26,7 @@ class TagsChevronRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [label, price, tags, chevron, right, shopping, store, purchase, retail, business]
+tags: [labels, tags, chevron, caret, dropdown, next, categories, filter, select, right]
 category: E-commerce
 unicode: "10284"
 version: "3.46"

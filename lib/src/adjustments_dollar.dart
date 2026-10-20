@@ -27,7 +27,7 @@ class AdjustmentsDollar extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [settings, currency, finance, money, cash, funds, economy, bank, wealth, coin]
+tags: [settings, sliders, controls, filter, options, preferences, tune, money, price, payment, cost, finance, usd, currency]
 version: "2.10"
 unicode: "f800"
 -->

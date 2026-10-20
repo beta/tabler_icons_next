@@ -27,7 +27,7 @@ class InputCheck extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [verify, validate, review, inspect, control, tick, confirm, examine, approve, audit]
+tags: [input, text-field, form, field, valid, validation, verified, check, done, success]
 version: "2.32"
 unicode: "fc5b"
 -->

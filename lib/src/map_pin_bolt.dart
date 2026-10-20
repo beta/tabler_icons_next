@@ -27,7 +27,7 @@ class MapPinBolt extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [energize, spark, charge, thunder, dynamic, lightning, flash, impulse, storm, shock]
+tags: [pin, marker, location, place, gps, map, point, poi, energy, lightning, power, electric, fast, flash]
 version: "2.10"
 unicode: "f94a"
 -->

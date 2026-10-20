@@ -26,7 +26,7 @@ class PentagonNumber0 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [zero, none, nil, null, nothing, naught, cipher, void, blank, empty]
+tags: [zero, number, digit, pentagon, shape, badge, numeral, count]
 category: Numbers
 version: "2.34"
 unicode: "fc7e"

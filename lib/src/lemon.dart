@@ -26,7 +26,7 @@ class Lemon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fruit, citrus, lime, food, vitamin, slice, lemon, meal, cuisine, eating]
+tags: [lemon, lime, citrus, fruit, food, vitamin, sour, slice]
 category: Food
 version: "1.40"
 unicode: "ef10"

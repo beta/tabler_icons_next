@@ -26,7 +26,7 @@ class CashBanknote extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, pay, bank, dollar, pound, yen, business, cash, banknote, store]
+tags: [banknote, cash, money, bill, payment, currency, finance, pay, salary, dollar, note]
 category: E-commerce
 version: "1.39"
 unicode: "ee25"

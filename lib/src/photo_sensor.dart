@@ -26,7 +26,7 @@ class PhotoSensor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [focus, lens, photograpy, camera, photo, sensor, picture, capture, image]
+tags: [camera, sensor, focus, viewfinder, frame, capture, image, photography, photo]
 category: Photography
 version: "2.5"
 unicode: "f798"

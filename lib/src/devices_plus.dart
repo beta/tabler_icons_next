@@ -27,7 +27,7 @@ class DevicesPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [add, increase, expand, enhance, augment, gain, boost, grow, advance, accumulate]
+tags: [responsive, multi-device, computer, add, new, create, insert, laptop, phone, tablet, desktop, more]
 version: "2.10"
 unicode: "f8f2"
 -->

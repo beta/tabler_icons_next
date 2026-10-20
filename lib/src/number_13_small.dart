@@ -26,7 +26,7 @@ class Number13Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [thirteen, thirteenth, tredecade, tredecuple, tredecad, thirteenfold, tredecenary, tredec, tredecuplet, 13th]
+tags: [thirteen, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fce6"

@@ -26,7 +26,7 @@ class AirBalloon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [travel, adventure, attraction, fly, transport, air, balloon, vehicle, automobile, mobility]
+tags: [hot-air-balloon, travel, flight, fly, adventure, sky, trip, tourism, air, balloon]
 category: Vehicles
 version: "1.97"
 unicode: "f4a6"

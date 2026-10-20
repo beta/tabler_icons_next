@@ -27,7 +27,7 @@ class Share extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [network, link, connection, share, distribute, send, publish, broadcast, spread]
+tags: [share-nodes, network, connect, social, send, link, distribute, share]
 version: "1.0"
 unicode: "eb21"
 -->

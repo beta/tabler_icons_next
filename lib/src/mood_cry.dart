@@ -26,7 +26,7 @@ class MoodCry extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, mad, mood, cry]
+tags: [crying, tears, sad, upset, sob, emoji, smiley, face, emotion, feeling, reaction, mood, cry]
 category: Mood
 version: "1.18"
 unicode: "ecbb"

@@ -26,7 +26,7 @@ class Oval extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, egg, circle, zero, oval, geometry, form, figure, pattern, outline]
+tags: [ellipse, shape, oval-horizontal, egg, geometry, figure, elliptical, round, outline, oval]
 category: Shapes
 version: "1.55"
 unicode: "f02e"

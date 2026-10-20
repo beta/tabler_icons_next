@@ -26,7 +26,7 @@ class HomeOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [house, dashboard, living, building, home, off, main, architecture, structure, disabled]
+tags: [home, house, homepage, disabled, off-state, unavailable, off]
 category: Buildings
 version: "1.66"
 unicode: "f145"

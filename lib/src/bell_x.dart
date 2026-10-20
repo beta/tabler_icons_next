@@ -26,7 +26,7 @@ class BellX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alarm, ring, sound, alert, disabled, bell, control, operation, function, interface]
+tags: [notification, alert, reminder, notify, alarm, remove, delete, cancel, close, error, bell]
 category: System
 version: "1.37"
 unicode: "ede5"

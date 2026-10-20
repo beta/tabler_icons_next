@@ -26,7 +26,7 @@ class Windmill extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [generate, power, blade, energy, electricity, windmill, location, navigation, geography, place]
+tags: [windmill, wind-turbine, mill, energy, renewable, farm, gust, wind-power]
 category: Map
 version: "1.33"
 unicode: "ed85"

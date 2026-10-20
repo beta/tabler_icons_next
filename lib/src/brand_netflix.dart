@@ -26,7 +26,7 @@ class BrandNetflix extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [series, tv, episode, movie, film, media, watch, app, technology, brand]
+tags: [netflix, streaming, movies, series, tv, video, films, entertainment, logo, brand]
 category: Brand
 version: "1.36"
 unicode: "edcf"

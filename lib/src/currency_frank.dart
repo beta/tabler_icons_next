@@ -26,7 +26,7 @@ class CurrencyFrank extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [chf, business, swiss, franc, money, banknote, pay, currency, frank, finance]
+tags: [franc, frank, chf, swiss, switzerland, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "ee5b"

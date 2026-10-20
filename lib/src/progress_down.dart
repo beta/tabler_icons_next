@@ -27,7 +27,7 @@ class ProgressDown extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [download, decrease, status, reduce, indicator, lower, drop, update, process, navigation]
+tags: [progress, loading, download, downloading, arrow-down, status]
 version: "2.12"
 unicode: "fa0a"
 -->

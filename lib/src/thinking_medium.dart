@@ -26,7 +26,7 @@ class ThinkingMedium extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [thinking, thought, mind, brain, ai, reasoning, intelligence, idea, medium, cognition]
+tags: [reasoning, thinking, ai, brain, effort, medium, intelligence, mind, level]
 category: Development
 unicode: "10280"
 version: "3.46"

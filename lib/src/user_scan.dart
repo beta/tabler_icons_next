@@ -26,7 +26,7 @@ class UserScan extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identity, biometric, authentication, recognition, profile, verification, user-data, user-profile, scan-identity, identity-verification]
+tags: [face-id, face-recognition, biometric, scan, identity, verification, user, authentication]
 category: System
 version: "2.36"
 unicode: "fcaf"

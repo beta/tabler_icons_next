@@ -27,7 +27,7 @@ class DeviceProjector extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [display, presentation, screen, show, project, beam, visual, view, demonstrate, device]
+tags: [projector, presentation, beamer, cinema, screening, slides, meeting, movie, display, device]
 version: "2.29"
 unicode: "fc11"
 -->

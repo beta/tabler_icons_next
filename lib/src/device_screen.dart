@@ -27,7 +27,7 @@ class DeviceScreen extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [screen, display, monitor, broken, defect, hardware, device, repair, quality, diagnostic]
+tags: [screen, display, monitor, broken-screen, cracked, damaged, repair, defect, device]
 unicode: "1022b"
 version: "3.41"
 -->

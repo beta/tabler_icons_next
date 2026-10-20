@@ -26,7 +26,7 @@ class BrandBunpo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [learn, japanese, app, grammatic, brand, bunpo, logo, company, trademark, identity]
+tags: [bunpo, japanese, language, learning, grammar, education, app, logo, brand]
 category: Brand
 version: "1.99"
 unicode: "f4cf"

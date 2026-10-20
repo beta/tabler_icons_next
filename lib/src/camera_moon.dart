@@ -26,7 +26,7 @@ class CameraMoon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [night, lunar, dark, evening, nocturnal, stellar, celestial, astronomy, crescent, eclipse]
+tags: [camera, photo, photography, picture, video, lens, image, night, night-mode, moon, dark, low-light]
 category: Media
 unicode: "ffa6"
 version: "3.12"

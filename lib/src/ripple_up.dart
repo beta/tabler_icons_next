@@ -26,7 +26,7 @@ class RippleUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ripple, wave, up, arrow, water, effect, animation, flow, stream, upload]
+tags: [wave, ripple, arrow-up, upload, water, flow, up]
 category: Arrows
 unicode: "101a9"
 version: "3.36"

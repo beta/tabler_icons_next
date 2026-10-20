@@ -26,7 +26,7 @@ class BorderNone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [table, border, none, creative, artistic, visual, aesthetic, style]
+tags: [table, cell, spreadsheet, excel, format, edge, no-border, clear, border, none]
 category: Design
 version: "1.0"
 unicode: "ea40"

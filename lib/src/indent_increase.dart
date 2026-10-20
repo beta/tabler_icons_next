@@ -26,7 +26,7 @@ class IndentIncrease extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [line, position, block, margin, paragraph, indent, increase, typography, writing, font]
+tags: [indent, indent-increase, text-editor, paragraph, align, typography, format, tab, increase]
 category: Text
 version: "1.3"
 unicode: "eb92"

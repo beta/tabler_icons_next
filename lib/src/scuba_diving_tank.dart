@@ -26,7 +26,7 @@ class ScubaDivingTank extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [dive, diving, water, open water, underwater, pressure, compressed air, air, scuba, tank]
+tags: [diving, oxygen-tank, air-tank, scuba, underwater, diver, tank]
 category: Sport
 version: "3.6"
 unicode: "fefa"

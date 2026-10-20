@@ -26,7 +26,7 @@ class CreditCardOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [money, purchase, payment, cc, credit, card, off, store, disabled, inactive]
+tags: [credit-card, card, payment, pay, debit-card, bank-card, checkout, purchase, off, disabled, declined, blocked, credit]
 category: E-commerce
 version: "1.24"
 unicode: "ed11"

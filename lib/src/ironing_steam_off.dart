@@ -26,7 +26,7 @@ class IroningSteamOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [clotches, housework, iron, smooth, water, ironing, steam, off, disabled, inactive]
+tags: [iron, ironing, laundry, clothes, garment, care-label, wrinkle, no-steam, steam, disabled, off-state, unavailable, none, off]
 category: Laundry
 version: "1.84"
 unicode: "f2f8"

@@ -26,7 +26,7 @@ class GripHorizontal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [picture, abstract, design, across, dots, drag, grip, horizontal, control, operation]
+tags: [grip, drag, handle, drag-handle, reorder, sortable, dots, move, grabber, horizontal]
 category: System
 version: "1.8"
 unicode: "ec00"

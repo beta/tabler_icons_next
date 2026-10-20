@@ -26,7 +26,7 @@ class Filter2Check extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, check, confirm, approve, sort, organize, arrange, select, refine, sieve]
+tags: [filter, filtering, sort, done, success, confirmed, approved, refine, list, options, verified, tick, checkmark, ok, check]
 category: System
 version: "3.32"
 unicode: "1015d"

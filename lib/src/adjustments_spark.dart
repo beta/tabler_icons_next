@@ -26,7 +26,7 @@ class AdjustmentsSpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [equalizer, sliders, controls, settings, filter, adjustments, spark, control, operation, glitter]
+tags: [settings, sliders, controls, filter, options, preferences, tune, ai, magic, sparkle, smart, generate, adjustments, spark]
 category: System
 version: "3.13"
 unicode: "ffbe"

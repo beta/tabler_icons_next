@@ -27,7 +27,7 @@ class Percentage100 extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [full, whole, complete, total, entire, max, absolute, consummate, perfect, finished]
+tags: [full, complete, percent, progress, pie-chart, ratio, share, fraction, loading, proportion, statistics]
 unicode: "fee3"
 version: "3.4"
 -->

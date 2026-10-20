@@ -26,7 +26,7 @@ class RadioOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, news, sound, broadcost, communication, station, radio, off, content, entertainment]
+tags: [fm, am, radio-station, tuner, broadcast, mute, music, disabled, unavailable, inactive, hidden, radio, off]
 category: Media
 version: "1.94"
 unicode: "f420"

@@ -27,7 +27,7 @@ class Moustache extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [man, face, beard, male, moustache]
+tags: [mustache, facial-hair, beard, man, gentleman, movember, hipster, moustache]
 version: "1.98"
 unicode: "f4c9"
 -->

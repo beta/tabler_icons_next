@@ -26,7 +26,7 @@ class DeviceUsb extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [connect, port, external, storage, data, transfer, plug, interface, peripheral, hardware]
+tags: [usb, usb-stick, flash-drive, pendrive, thumb-drive, memory-stick, storage, port, plug, connector]
 category: Devices
 version: "2.32"
 unicode: "fc59"

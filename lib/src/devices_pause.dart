@@ -27,7 +27,7 @@ class DevicesPause extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [stop, halt, wait, suspend, break, freeze, interlude, rest, delay, interruption]
+tags: [responsive, multi-device, computer, paused, hold, suspend, wait, laptop, phone, tablet, desktop, break]
 version: "2.10"
 unicode: "f8f0"
 -->

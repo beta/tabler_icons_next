@@ -27,7 +27,7 @@ class OlympicsOff extends Icon {
 
   static const String _svg = '''<!--
 category: Sport
-tags: [game, play, sport, sportsman, champion, win, medal, sporting, event, competition, athlete]
+tags: [olympic-rings, olympic-games, rings, sport, disabled, slash, olympic, games, inactive]
 unicode: "f416"
 version: "1.94"
 -->

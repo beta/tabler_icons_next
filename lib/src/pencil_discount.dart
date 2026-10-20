@@ -27,7 +27,7 @@ class PencilDiscount extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [edit, reduce, bargain, offer, deal, promotion, price, sale, adjust, markdown]
+tags: [edit, write, draw, modify, pen, compose, sale, promo, offer, percent, coupon, update, change]
 version: "2.28"
 unicode: "fc02"
 -->

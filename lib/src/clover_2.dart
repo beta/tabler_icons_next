@@ -26,7 +26,7 @@ class Clover2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [luck, leaf, patrick, irleand, irish, clover, environment, natural, outdoor, ecosystem]
+tags: [clover, shamrock, luck, lucky, three-leaf, st-patricks, irish, ireland, leaf, plant]
 category: Nature
 version: "1.72"
 unicode: "f21e"

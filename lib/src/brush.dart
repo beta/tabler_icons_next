@@ -26,7 +26,7 @@ class Brush extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [paint, art, picture, paintbrush, painter, theme, brush, creative, artistic, visual]
+tags: [brush, paintbrush, paint, art, draw, painting, theme, style, design]
 category: Design
 version: "1.5"
 unicode: "ebb8"

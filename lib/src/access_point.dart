@@ -26,7 +26,7 @@ class AccessPoint extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [device, hosts, airwaves, wireless, network, access, point, hardware, technology, electronic]
+tags: [wifi, wireless, router, hotspot, network, internet, signal, hardware, connectivity, access, point]
 category: Devices
 version: "1.25"
 unicode: "ed1b"

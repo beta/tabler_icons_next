@@ -26,7 +26,7 @@ class Target extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [focus, bullseye, aim, target, location, navigation, geography, place, position]
+tags: [bullseye, aim, goal, focus, objective, crosshair, target, goals]
 category: Map
 version: "1.0"
 unicode: "eb35"

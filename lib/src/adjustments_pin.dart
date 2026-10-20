@@ -27,7 +27,7 @@ class AdjustmentsPin extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [settings, attach, fix, secure, lock, hold, fasten, anchor, nail, clip]
+tags: [settings, sliders, controls, filter, options, preferences, tune, location, map-pin, marker, place, pinned]
 version: "2.10"
 unicode: "f806"
 -->

@@ -27,7 +27,7 @@ class Certificate extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [document, official, attest, signature, birth, death, gift, authenticity, seal, course, complete, qualification]
+tags: [certificate, diploma, award, document, license, qualification, achievement, credential, badge, seal]
 version: "1.33"
 unicode: "ed76"
 -->

@@ -26,7 +26,7 @@ class BrandNexo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coin, crypto, cryptocurrency, digital, brand, nexo, logo, company, trademark, identity]
+tags: [nexo, crypto, cryptocurrency, lending, finance, coin, logo, brand]
 category: Brand
 version: "1.110"
 unicode: "f5a2"

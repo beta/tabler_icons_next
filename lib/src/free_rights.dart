@@ -27,7 +27,7 @@ class FreeRights extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [justice, inviolability, freedom, free, rights]
+tags: [free-rights, copyright-free, royalty-free, public-domain, creative-commons, license, free, rights]
 version: "1.49"
 unicode: "efb6"
 -->

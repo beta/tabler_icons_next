@@ -27,7 +27,7 @@ class ClockUp extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [increase, ascend, raise, uplift, improve, elevate, boost, advance, growth, rise]
+tags: [up, increase, more-time, arrow-up, clock, time, schedule, extend]
 version: "2.8"
 unicode: "f7ca"
 -->

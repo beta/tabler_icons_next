@@ -26,7 +26,7 @@ class BoxAlignTopRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cube, side, up, north-east, box, align, top, right, creative, artistic]
+tags: [alignment, position, layout, corner, align-box, flexbox, placement, anchor, box, align, top, right]
 category: Design
 version: "1.82"
 unicode: "f2d1"

@@ -27,7 +27,7 @@ class BasketCheck extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [shopping, cart, confirm, purchase, approval, store, goods, buy, decision, success]
+tags: [cart, shopping-cart, ecommerce, shop, store, done, success, confirmed, approved, complete, tick, ok]
 version: "2.28"
 unicode: "fb45"
 -->

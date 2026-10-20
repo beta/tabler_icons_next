@@ -27,7 +27,7 @@ class DeviceWatchCancel extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [abort, dismiss, stop, remove, discontinue, end, terminate, nullify, revoke, cease]
+tags: [smartwatch, wearable, apple-watch, cancel, stop, abort, block, wristwatch, device, fitness-tracker, denied, forbidden]
 version: "2.10"
 unicode: "f8d4"
 -->

@@ -26,7 +26,7 @@ class BrushOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [paint, art, picture, paintbrush, painter, theme, brush, off, creative, artistic]
+tags: [brush, paintbrush, paint, art, draw, painting, disabled, off, unavailable, inactive]
 category: Design
 version: "1.63"
 unicode: "f0c2"

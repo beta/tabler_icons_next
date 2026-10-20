@@ -26,7 +26,7 @@ class Deer extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [animal, christmas, santa, forest, deer, creature, wildlife, nature, living, organism]
+tags: [deer, reindeer, animal, antlers, christmas, forest, wildlife, elk, hunting]
 category: Animals
 version: "1.98"
 unicode: "f4c5"

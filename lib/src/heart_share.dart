@@ -27,7 +27,7 @@ class HeartShare extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [social, connect, distribute, forward, send, give, spread, network, exchange, post]
+tags: [heart, love, like, favorite, favourite, share, send, forward]
 version: "2.28"
 unicode: "fbab"
 -->

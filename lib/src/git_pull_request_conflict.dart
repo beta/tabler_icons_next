@@ -26,7 +26,7 @@ class GitPullRequestConflict extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [git, pull request, conflict, merge, code, repository, version control, branch, rebase, versioning]
+tags: [git, pull-request, pr, merge-conflict, conflict, rebase, version-control, github, gitlab]
 category: Version control
 unicode: "10264"
 version: "3.44"

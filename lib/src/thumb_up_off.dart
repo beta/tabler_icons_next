@@ -26,7 +26,7 @@ class ThumbUpOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [like, emotion, good, love, thumb, off, top, increase, control, operation]
+tags: [like, thumbs-up, upvote, feedback, disabled, inactive, unlike, thumbs, vote, thumb, off]
 category: System
 version: "1.94"
 unicode: "f437"

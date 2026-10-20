@@ -26,7 +26,7 @@ class RippleDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ripple, wave, down, arrow, water, effect, animation, flow, stream, download]
+tags: [wave, ripple, arrow-down, download, water, flow, down]
 category: Arrows
 unicode: "101aa"
 version: "3.36"

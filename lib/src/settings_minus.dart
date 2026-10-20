@@ -27,7 +27,7 @@ class SettingsMinus extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [gear, configuration, adjust, setup, control, decrease, reduce, subtract, deduct, less]
+tags: [cog, gear, preferences, remove, subtract, delete, less, configuration, options, config]
 version: "2.10"
 unicode: "f9b6"
 -->

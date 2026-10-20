@@ -26,7 +26,7 @@ class FloatRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [position, float, right, typography, writing, font, character, word]
+tags: [float, right, align-right, image-position, text-wrap, layout, css, alignment, wrap]
 category: Text
 version: "1.4"
 unicode: "ebb3"

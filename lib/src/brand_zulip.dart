@@ -26,7 +26,7 @@ class BrandZulip extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [chat, software, phyton, javascript, brand, zulip, logo, company, trademark, identity]
+tags: [zulip, chat, messaging, team, open-source, communication, logo, brand]
 category: Brand
 version: "1.99"
 unicode: "f4de"

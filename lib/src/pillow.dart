@@ -27,7 +27,7 @@ class Pillow extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [pillow, cushion, bedding, sleep, rest, bed, furniture, comfort, hotel, home]
+tags: [cushion, sleep, bed, rest, bedroom, pillowcase, comfort, pillow]
 unicode: "10226"
 version: "3.41"
 -->

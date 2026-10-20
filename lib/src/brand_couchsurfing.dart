@@ -26,7 +26,7 @@ class BrandCouchsurfing extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, website, accommodation, lodging, brand, couchsurfing, logo, company, trademark, identity]
+tags: [couchsurfing, travel, accommodation, hospitality, hosting, stay, logo, brand]
 category: Brand
 version: "1.92"
 unicode: "f392"

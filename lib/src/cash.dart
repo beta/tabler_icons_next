@@ -26,7 +26,7 @@ class Cash extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [currency, payment, money, pay, cash, store, purchase, finance, dollar, banknote]
+tags: [cash, money, payment, currency, finance, dollar, banknote, pay, bill]
 category: E-commerce
 version: "1.0"
 unicode: "ea55"

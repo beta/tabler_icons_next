@@ -26,7 +26,7 @@ class MoodCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [emotion, feeling, happy, tick, accept, face, mood, check, confirm, approve]
+tags: [done, success, approved, satisfied, happy, emoji, smiley, face, emotion, feeling, reaction, mood, check]
 category: Mood
 version: "2.7"
 unicode: "f7b3"

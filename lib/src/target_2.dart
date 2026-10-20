@@ -26,7 +26,7 @@ class Target2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [target, bullseye, archery, aim, shooting, precision, focus, range, sport, practice]
+tags: [bullseye, aim, goal, focus, objective, archery, dartboard, goals, target]
 category: Sport
 unicode: "10245"
 version: "3.43"

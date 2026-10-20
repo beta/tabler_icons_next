@@ -26,7 +26,7 @@ class Escalator extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [transport, move, stairs, conveyor, step, elevate, rise, platform, climb, system]
+tags: [escalator, moving-stairs, stairs, mall, airport, metro, subway, public-transport, station]
 category: Map
 version: "2.25"
 unicode: "fb06"

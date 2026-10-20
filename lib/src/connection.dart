@@ -27,7 +27,7 @@ class Connection extends Icon {
 
   static const String _svg = '''<!--
 category: Development
-tags: [link, network, connect, attach, plug, relationship, bond, bridge, join, wire, cable, integration]
+tags: [connection, network, link, connected, integration, connect, nodes, graph, relationship]
 unicode: "101f3"
 version: "3.39"
 -->

@@ -26,7 +26,7 @@ class Checks extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tick, "yes", confirm, checks, control, operation, approve, function, interface, management]
+tags: [checks, double-check, checkmarks, ticks, read, seen, delivered, done, all-done]
 category: System
 version: "1.4"
 unicode: "ebaa"

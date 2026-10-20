@@ -26,7 +26,7 @@ class CurrencyGuarani extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, finance, money, cash, paraguay, currency, guarani, payment, monetary, banking]
+tags: [guarani, pyg, paraguay, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.90"
 unicode: "f371"

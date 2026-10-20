@@ -26,7 +26,7 @@ class DeviceAnalytics extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [analyze, analyse, data, traffic, user, device, analytics, hardware, technology, electronic]
+tags: [analytics, monitor, stats, statistics, chart, dashboard, reports, screen, computer, data, device]
 category: Devices
 version: "1.39"
 unicode: "ee72"

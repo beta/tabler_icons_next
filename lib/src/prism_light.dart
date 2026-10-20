@@ -27,7 +27,7 @@ class PrismLight extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [optics, refraction, geometry, spectrum, physics, transparency, shape, brightness, science, glass]
+tags: [light, refraction, spectrum, rainbow, dispersion, optics, physics, science, glass]
 unicode: "fea6"
 version: "3.1"
 -->

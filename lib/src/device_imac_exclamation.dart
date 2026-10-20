@@ -27,7 +27,7 @@ class DeviceImacExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [alert, warn, caution, attention, notice, emphasis, highlight, stress, importance, announcement]
+tags: [exclamation, warning, alert, error, attention, important, imac, mac, apple, computer, desktop, monitor]
 version: "2.10"
 unicode: "f878"
 -->

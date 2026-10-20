@@ -26,7 +26,7 @@ class Square extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [checkbox, box, shape, square, rectangular, geometry, form, figure, pattern, outline]
+tags: [box, rectangle, shape, geometry, stop, checkbox, square]
 category: Shapes
 version: "1.0"
 unicode: "eb2c"

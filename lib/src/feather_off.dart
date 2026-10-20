@@ -26,7 +26,7 @@ class FeatherOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bird, animal, nature, feather, off, environment, natural, disabled, inactive, outdoor]
+tags: [feather, quill, light, lightweight, bird, write, disabled, inactive, unavailable, slash, turn-off, plume, writing, off]
 category: Nature
 version: "1.65"
 unicode: "f128"

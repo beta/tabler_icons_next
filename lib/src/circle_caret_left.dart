@@ -26,7 +26,7 @@ class CircleCaretLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, shape, west, circle, caret, left, navigation, flow, round, circular]
+tags: [caret, triangle, left, west, back, previous, caret-circle, circle, round, button, play, direction, navigation]
 category: Arrows
 version: "1.97"
 unicode: "f4aa"

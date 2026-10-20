@@ -26,7 +26,7 @@ class Anchor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hold, ship, harbor, docks, anchor, location, navigation, geography, place, position]
+tags: [ship, boat, marine, nautical, sea, harbor, port, sailor, navy, dock, anchor]
 category: Map
 version: "1.3"
 unicode: "eb76"

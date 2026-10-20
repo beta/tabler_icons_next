@@ -26,7 +26,7 @@ class BrandTorchain extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coin, crypto, cryptocurrency, digital, brand, torchain, logo, company, trademark, identity]
+tags: [torchain, crypto, cryptocurrency, blockchain, coin, logo, brand, token, web3]
 category: Brand
 version: "1.110"
 unicode: "f5a4"

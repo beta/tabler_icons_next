@@ -26,7 +26,7 @@ class Signal4gPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mobile, network, connetion, wi-fi, wireless, smartphone, technology, signal, plus, hardware]
+tags: [4g-plus, 4g, lte-advanced, mobile-network, cellular, signal, network, connection, mobile-data, plus]
 category: Devices
 version: "1.75"
 unicode: "f259"

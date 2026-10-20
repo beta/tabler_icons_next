@@ -26,7 +26,7 @@ class OctagonOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, geometric, math, 2d, building, government, octagon, off, disabled, inactive]
+tags: [shape, polygon, stop-sign, disabled, slash, eight-sided, geometry, inactive, octagon, off]
 category: Shapes
 version: "1.39"
 unicode: "eeb8"

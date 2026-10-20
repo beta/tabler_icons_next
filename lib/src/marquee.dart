@@ -27,7 +27,7 @@ class Marquee extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [tag, tracer, html, animation, text, marquee]
+tags: [selection, select-tool, dashed, rectangle, crop, frame, area, bounding-box, drag-select, marquee]
 version: "1.13"
 unicode: "ec77"
 -->

@@ -26,7 +26,7 @@ class PentagonNumber7 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [seven, septet, septuple, septenary, heptad, heptagon, sevenfold, seventh, sept, sevin]
+tags: [seven, number, digit, pentagon, shape, badge, numeral, count]
 category: Numbers
 version: "2.34"
 unicode: "fc85"

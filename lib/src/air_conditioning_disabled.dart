@@ -27,7 +27,7 @@ class AirConditioningDisabled extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [cold, home, cooling, hot, off, air, conditioning, disabled]
+tags: [ac, air-conditioner, aircon, cooling, cold, climate, hvac, temperature, home, appliance, off, inactive, air, conditioning, disabled]
 version: "1.105"
 unicode: "f542"
 -->

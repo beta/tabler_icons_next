@@ -26,7 +26,7 @@ class ColorSwatch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sample, choice, selection, color, swatch, creative, artistic, visual, aesthetic, style]
+tags: [color-swatch, swatches, colour, palette, color-palette, theme, paint, samples, shades, color, swatch]
 category: Design
 version: "1.2"
 unicode: "eb61"

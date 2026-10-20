@@ -27,7 +27,7 @@ class HazeMoon extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [blur, night, sky, cloud, opaque, dim, luminosity, atmosphere, twilight, haze]
+tags: [haze, fog, mist, night, moon, weather, forecast, hazy, cloudy]
 version: "2.24"
 unicode: "faf8"
 -->

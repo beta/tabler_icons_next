@@ -26,7 +26,7 @@ class Scooter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vehicle, drive, driver, engine, motor, journey, trip, scooter, transport, travel]
+tags: [vespa, moped, motorbike, vehicle, transport, ride, scooter]
 category: Vehicles
 version: "1.12"
 unicode: "ec6c"

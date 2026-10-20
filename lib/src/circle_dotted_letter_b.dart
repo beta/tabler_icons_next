@@ -26,7 +26,7 @@ class CircleDottedLetterB extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bravo, second-letter, consonant, backup, beta, second, subsection, subordinate, quick, circle]
+tags: [b, letter-b, letter, alphabet, character, uppercase, initial, circle, dotted, badge]
 category: Letters
 version: "3.11"
 unicode: "ff7e"

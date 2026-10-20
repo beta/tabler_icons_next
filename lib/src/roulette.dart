@@ -26,7 +26,7 @@ class Roulette extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [roulette, casino, gambling, wheel, chance, bet, game, luck, entertainment, vegas]
+tags: [casino, gambling, wheel, chance, bet, game, luck, spin, roulette]
 category: Games
 unicode: "1025e"
 version: "3.44"

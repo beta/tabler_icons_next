@@ -27,7 +27,7 @@ class ExclamationMarkOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [warning, caution, alert, danger, "!", exclamation, mark, off, disabled, inactive]
+tags: [exclamation, exclamation-point, alert, warning, important, attention, disabled, inactive, unavailable, slash, turn-off, error, bang, mark, off]
 version: "1.65"
 unicode: "f124"
 -->

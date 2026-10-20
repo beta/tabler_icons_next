@@ -27,7 +27,7 @@ class CameraPause extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [break, rest, halt, stop, interrupt, freeze, hold, suspend, delay, breather]
+tags: [camera, photo, photography, picture, video, lens, image, pause, paused, hold, suspend]
 version: "2.10"
 unicode: "f83c"
 -->

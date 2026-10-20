@@ -26,7 +26,7 @@ class BrandBackbone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [javascript, programmers, creation, websites, brand, backbone, logo, company, trademark, identity]
+tags: [backbone, backbonejs, javascript, js, framework, library, mvc, web, logo, brand]
 category: Brand
 version: "1.86"
 unicode: "f325"

@@ -26,7 +26,7 @@ class PlayerEject extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [media, multimedia, music, audio, control, figures, player, eject, content, entertainment]
+tags: [eject, media, cd, dvd, disk, unmount, open, button, controls, player]
 category: Media
 version: "1.49"
 unicode: "efbc"

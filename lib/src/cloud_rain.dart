@@ -26,7 +26,7 @@ class CloudRain extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, dry, cloud, rain, storage, online, climate, forecast, server, sync]
+tags: [rain, rainy, showers, drizzle, weather, forecast, precipitation, cloud]
 category: Weather
 version: "1.0"
 unicode: "ea72"

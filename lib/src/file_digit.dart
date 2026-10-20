@@ -26,7 +26,7 @@ class FileDigit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [boolean, binary, exe, file, digit, document, data, content, record, paper]
+tags: [binary, digits, numbers, bits, exe, executable, data, document, file, code, digit]
 category: Document
 version: "1.48"
 unicode: "efa8"

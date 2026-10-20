@@ -26,7 +26,7 @@ class Whisk extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [whisk, kitchen, cooking, baking, food, utensil, mix, beat, eggs, chef]
+tags: [whisk, kitchen, baking, cooking, utensil, mix, eggbeater, whisker]
 category: Food
 unicode: "101a0"
 version: "3.36"

@@ -26,7 +26,7 @@ class Basket extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shop, store, online, shopping, basket, purchase, retail, business]
+tags: [shopping, cart, shopping-basket, ecommerce, shop, store, buy, checkout, basket]
 category: E-commerce
 version: "1.7"
 unicode: "ebe1"

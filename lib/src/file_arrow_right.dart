@@ -26,7 +26,7 @@ class FileArrowRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [document, export, page, move, file, arrow, right, data, direction, pointer]
+tags: [export, move, document, file, arrow-right, next, outgoing, transfer, send, arrow, right]
 category: Document
 version: "1.56"
 unicode: "f034"

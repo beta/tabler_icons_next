@@ -27,7 +27,7 @@ class GoGame extends Icon {
 
   static const String _svg = '''<!--
 category: Games
-tags: [strategy, board, mind, game, go]
+tags: [go, baduk, weiqi, board-game, strategy, stones, game, asian-game]
 version: "1.102"
 unicode: "f512"
 -->

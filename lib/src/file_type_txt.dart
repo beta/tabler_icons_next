@@ -26,7 +26,7 @@ class FileTypeTxt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, plain, note, ascii, file, document, writing, data, info, txt]
+tags: [txt, text, plain-text, notes, document, readme, file-format, extension, file]
 category: Document
 version: "2.25"
 unicode: "fb19"

@@ -26,7 +26,7 @@ class PhotoSpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [picture, landscape, camera, photo, spark, content, entertainment, glitter, shine, flash]
+tags: [image, picture, gallery, img, photography, media, ai, magic, generate, sparkles, assistant, thumbnail, landscape, photo, spark]
 category: Media
 version: "3.13"
 unicode: "ffb0"

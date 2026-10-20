@@ -26,7 +26,7 @@ class AlarmOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, watch, clock, ring, alarm, off, control, operation, disabled, inactive]
+tags: [alarm-clock, clock, time, wake-up, reminder, timer, ring, morning, disabled, silent, mute, alarm, off]
 category: System
 version: "1.62"
 unicode: "f0a9"

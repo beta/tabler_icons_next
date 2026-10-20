@@ -26,7 +26,7 @@ class Italic extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [typography, font, typeface, emphasise, italic, writing, character, word]
+tags: [italic, text-editor, typography, font, text-format, emphasis, style, slanted]
 category: Text
 version: "1.3"
 unicode: "eb93"

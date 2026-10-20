@@ -26,7 +26,7 @@ class GitBranch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, version control, command, git, branch, versioning, repository, tracking, revision]
+tags: [git, branch, version-control, vcs, source-control, repository, github, gitlab, code]
 category: Version control
 version: "1.0"
 unicode: "eab2"

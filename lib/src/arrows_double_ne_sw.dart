@@ -26,7 +26,7 @@ class ArrowsDoubleNeSw extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, north, south, arrows, double, navigation, flow, ne, sw, movement]
+tags: [diagonal, exchange, swap, northeast, southwest, pointer, navigation, direction, arrows, double, ne, sw]
 category: Arrows
 version: "1.37"
 unicode: "edde"

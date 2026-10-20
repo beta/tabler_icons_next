@@ -27,7 +27,7 @@ class NavigationStar extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [favorite, highlight, fame, rate, celebrity, asterisk, notable, feature, shine, emphasis]
+tags: [gps, arrow, direction, location, cursor, compass, favorite, bookmark, rating, featured, route, map, pointer]
 version: "2.28"
 unicode: "fbfa"
 -->

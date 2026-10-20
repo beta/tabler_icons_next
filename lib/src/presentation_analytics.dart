@@ -26,7 +26,7 @@ class PresentationAnalytics extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [slideshow, display, exhibition, speech, topic, conference, presentation, analytics, file, paper]
+tags: [presentation, chart, analytics, statistics, report, slides, dashboard, meeting, graph, business]
 category: Document
 version: "1.39"
 unicode: "eec3"

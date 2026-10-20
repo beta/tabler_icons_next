@@ -26,7 +26,7 @@ class SunMoon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, day, night, hot, cold, sun, moon, climate, forecast, meteorology]
+tags: [theme, dark-mode, light-mode, toggle, day, night, appearance, weather, sun, moon]
 category: Weather
 version: "1.96"
 unicode: "f4a3"

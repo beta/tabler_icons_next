@@ -26,7 +26,7 @@ class FileInvoice extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [accounting, bill, statement, settlement, finance, file, invoice, document, data, content]
+tags: [invoice, bill, receipt, payment, accounting, billing, statement, finance, document, order, file]
 category: Document
 version: "1.2"
 unicode: "eb67"

@@ -26,7 +26,7 @@ class Filter2Spark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, spark, sort, organize, arrange, select, refine, sieve, screen, glitter]
+tags: [filter, filtering, sort, ai, magic, sparkle, smart, refine, list, options, new, shine, spark]
 category: System
 version: "3.32"
 unicode: "1014e"

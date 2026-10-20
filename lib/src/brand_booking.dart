@@ -26,7 +26,7 @@ class BrandBooking extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [flat, apartment, holiday, vacation, city, break, book, rent, brand, booking]
+tags: [booking, booking-com, hotel, travel, accommodation, reservation, vacation, holiday, logo, brand]
 category: Brand
 version: "1.36"
 unicode: "edc8"

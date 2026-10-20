@@ -26,7 +26,7 @@ class AlarmPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alarm, bell, notification, add, new, plus, control, operation, more, increase]
+tags: [alarm-clock, clock, time, wake-up, reminder, timer, ring, morning, add, new, create, alarm, plus]
 category: System
 version: "1.117"
 unicode: "f631"

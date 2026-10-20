@@ -26,7 +26,7 @@ class BrandGoogleOne extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, software, storage, cloud, brand, google, one, logo, company, trademark]
+tags: [google-one, google, cloud, storage, subscription, backup, logo, brand, one]
 category: Brand
 version: "1.73"
 unicode: "f232"

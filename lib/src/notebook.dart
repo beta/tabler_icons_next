@@ -26,7 +26,7 @@ class Notebook extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [study, learn, diary, write, journal, page, paper, jot down, notebook, file]
+tags: [notepad, journal, diary, book, notes, writing, study, planner, notebook]
 category: Document
 version: "1.3"
 unicode: "eb96"

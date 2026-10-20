@@ -26,7 +26,7 @@ class GenderHermaphrodite extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identify, intersexuality, hybrid, gender, hermaphrodite, identity, person, human, individual]
+tags: [hermaphrodite, intersex, gender, identity, lgbt, lgbtq, symbol]
 category: Gender
 version: "1.64"
 unicode: "f0ec"

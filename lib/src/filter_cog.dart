@@ -27,7 +27,7 @@ class FilterCog extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [gear, settings, mechanism, adjust, configure, cog, engine, tune, optimize, system]
+tags: [funnel, filtering, sort, settings, gear, config, configuration, refine, narrow, preferences, options, cog]
 version: "2.12"
 unicode: "f9fe"
 -->

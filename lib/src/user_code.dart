@@ -27,7 +27,7 @@ class UserCode extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [developer, programmer, software, technology, script, program, logic, syntax, coding, engineer]
+tags: [person, account, profile, avatar, member, developer, programmer, engineer, coder]
 version: "2.10"
 unicode: "f9d3"
 -->

@@ -27,7 +27,7 @@ class DeviceIpadHorizontalCheck extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [approve, confirm, pass, success, verify, accept, tick, complete, validate, okay]
+tags: [check, done, success, confirmed, approved, tick, ok, verified, ipad, tablet, apple, ios, landscape]
 version: "2.10"
 unicode: "f890"
 -->

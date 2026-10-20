@@ -26,7 +26,7 @@ class STurnLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, direction, west, turn, left, navigation, flow, movement, route, path]
+tags: [s-curve, arrow, curve, turn, left, west, direction, route]
 category: Arrows
 version: "1.102"
 unicode: "f517"

@@ -27,7 +27,7 @@ class DeviceMobileSearch extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [find, discover, look, seek, locate, explore, inspect, probe, hunt, scan]
+tags: [phone, smartphone, iphone, find, magnifier, magnifying-glass, lookup, android, cellphone, device, zoom, query]
 version: "2.10"
 unicode: "f8bb"
 -->

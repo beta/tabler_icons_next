@@ -26,7 +26,7 @@ class LayoutSidebarRight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grid, aside, column, columns, layout, sidebar, right, creative, artistic, visual]
+tags: [sidebar, side-panel, drawer, right, layout, ui, navigation]
 category: Design
 version: "1.0"
 unicode: "ead9"

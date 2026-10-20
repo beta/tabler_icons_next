@@ -27,7 +27,7 @@ class DeviceDesktopQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [inquire, ask, query, probe, interrogate, wonder, doubt, speculate, ponder, explore]
+tags: [question, help, faq, unknown, support, desktop, monitor, computer, screen, pc]
 version: "2.10"
 unicode: "f86b"
 -->

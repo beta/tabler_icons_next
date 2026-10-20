@@ -27,7 +27,7 @@ class InputSpark extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [ignite, light, start, energize, power, initiate, kindle, trigger, active, catalyst]
+tags: [input, text-field, ai, prompt, magic, sparkle, form, field, autocomplete]
 unicode: "ffb4"
 version: "3.13"
 -->

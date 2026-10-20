@@ -26,7 +26,7 @@ class GitBranchCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, version control, git, branch, check, approve, verified, merged, success, repository]
+tags: [git, branch, version-control, merged, done, success, checks-passed, github, approved, check]
 category: Version control
 unicode: "102af"
 version: "3.48"

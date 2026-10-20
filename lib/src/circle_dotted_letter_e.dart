@@ -26,7 +26,7 @@ class CircleDottedLetterE extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [echo, vowel, fifth-letter, end, execute, eagle, expect, entry, east, earth]
+tags: [e, letter-e, letter, alphabet, character, uppercase, initial, circle, dotted, badge]
 category: Letters
 unicode: "ff7b"
 version: "3.11"

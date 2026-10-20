@@ -26,7 +26,7 @@ class Chalkboard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [school, classroom, education, learn, chalkboard, board, teaching, file, paper, text]
+tags: [chalkboard, blackboard, board, classroom, school, education, teaching, presentation]
 category: Document
 version: "1.88"
 unicode: "f34d"

@@ -26,7 +26,7 @@ class TagsChevronUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [label, price, tags, chevron, up, shopping, store, purchase, retail, business]
+tags: [labels, tags, chevron, caret, dropdown, collapse, categories, filter, select, up]
 category: E-commerce
 unicode: "10283"
 version: "3.46"

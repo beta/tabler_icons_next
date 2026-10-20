@@ -26,7 +26,7 @@ class LetterHSmall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [h, hotel, eighth, letter, alphabet, character, typeface, glyph, script, small]
+tags: [letter, character, alphabet, lowercase, small, minuscule, text, typography, font, glyph, h]
 category: Letters
 version: "2.38"
 unicode: "fcce"

@@ -26,7 +26,7 @@ class BrandWindy extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, sun, cold, hot, rain, forecast, brand, windy, logo, company]
+tags: [windy, weather, forecast, wind, map, radar, logo, brand]
 category: Brand
 version: "1.99"
 unicode: "f4dd"

@@ -26,7 +26,7 @@ class FileIsr extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [report, inventory, statistics, survey, document, analysis, audit, record, data, review]
+tags: [isr, report, inventory, sales, stock, document, file, audit, statement]
 category: Document
 unicode: "feac"
 version: "3.1"

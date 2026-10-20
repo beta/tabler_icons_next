@@ -26,7 +26,7 @@ class SatelliteOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [orbit, space, moon, earth, planet, communication, information, celestial, satellite, off]
+tags: [space, orbit, communication, satellite-dish, gps, signal, disabled, unavailable, inactive, hidden, satellite, off]
 category: Map
 version: "1.66"
 unicode: "f197"

@@ -26,7 +26,7 @@ class BrandWhatsapp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, app, application, communication, text, messages, communicator, photos, images, videos, giphy]
+tags: [whatsapp, meta, messenger, messaging, chat, phone, message, logo, brand]
 category: Brand
 version: "1.13"
 unicode: "ec74"

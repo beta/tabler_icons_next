@@ -27,7 +27,7 @@ class DropletUp extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [ascend, rise, increase, elevate, climb, boost, grow, advance, amplify, soar]
+tags: [drop, water, liquid, upload, arrow-up, increase, raise, rain, ink, color, send]
 version: "2.10"
 unicode: "f90a"
 -->

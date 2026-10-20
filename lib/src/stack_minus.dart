@@ -26,7 +26,7 @@ class StackMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pile, elements, layout, stack, layers, minus, remove, subtract, decrease, delete]
+tags: [layers, stack, remove, subtract, delete, reduce, z-order, stacked, layer, minus]
 category: Design
 unicode: "102a3"
 version: "3.48"

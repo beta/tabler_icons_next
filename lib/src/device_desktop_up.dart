@@ -27,7 +27,7 @@ class DeviceDesktopUp extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [increase, rise, ascend, lift, elevate, grow, advance, upgrade, climb, uplift]
+tags: [up, upload, arrow-up, increase, desktop, monitor, computer, screen, pc]
 version: "2.10"
 unicode: "f86f"
 -->

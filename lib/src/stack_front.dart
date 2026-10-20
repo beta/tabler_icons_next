@@ -27,7 +27,7 @@ class StackFront extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [layers, depth, foreground, arrangement, position, sequence, structure, priority, place, front]
+tags: [layers, bring-to-front, arrange, order, z-index, depth, foreground, top, front]
 version: "2.40"
 unicode: "fd29"
 -->

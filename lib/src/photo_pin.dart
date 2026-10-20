@@ -26,7 +26,7 @@ class PhotoPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [location, map, point, place, marker, peg, snapshot, indicator, photo, pin]
+tags: [image, picture, gallery, img, photography, media, pinned, location, map-pin, marker, thumbnail, landscape, photo, pin]
 category: Media
 version: "2.10"
 unicode: "f996"

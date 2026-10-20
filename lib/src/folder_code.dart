@@ -27,7 +27,7 @@ class FolderCode extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [program, develop, script, algorithm, compile, syntax, debug, software, compute, configure]
+tags: [directory, dir, files, code, programming, developer, coding, archive, project, html, embed]
 version: "2.10"
 unicode: "f90f"
 -->

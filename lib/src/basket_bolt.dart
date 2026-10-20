@@ -27,7 +27,7 @@ class BasketBolt extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [shopping, cart, electronics, purchase, energy, charge, store, goods, buy, lightning]
+tags: [cart, shopping-cart, ecommerce, shop, store, flash, lightning, power, energy, fast, quick]
 version: "2.28"
 unicode: "fb43"
 -->

@@ -26,7 +26,7 @@ class FolderPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, create, new, directory, dir, folder, plus, collection, container, group]
+tags: [directory, dir, files, add, new, create, insert, archive, project, more, folder, plus]
 category: Document
 version: "1.0"
 unicode: "eaab"

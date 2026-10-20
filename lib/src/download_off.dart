@@ -26,7 +26,7 @@ class DownloadOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [save, arrow, download, off, navigation, flow, disabled, inactive, movement, route]
+tags: [download, save, arrow-down, import, get, receive, disabled, inactive, unavailable, slash, turn-off, transfer, fetch, off]
 category: Arrows
 version: "1.65"
 unicode: "f11c"

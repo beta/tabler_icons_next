@@ -26,7 +26,7 @@ class BrandBumble extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, dating, social, media, communication, brand, bumble, logo, company, trademark]
+tags: [bumble, dating, app, social, match, bee, logo, brand]
 category: Brand
 version: "1.114"
 unicode: "f5fb"

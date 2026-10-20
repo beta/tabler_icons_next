@@ -26,7 +26,7 @@ class Number23Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [twenty-three, 23rd, twenty-third, viginti-tertio, viginti-third, twenty, and, three, plus, 23]
+tags: [twenty-three, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcf1"

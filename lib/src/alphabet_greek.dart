@@ -26,7 +26,7 @@ class AlphabetGreek extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [letters, language, alpha, beta, alphabet, greek, typography, writing, font, character]
+tags: [alpha, beta, language, script, letters, writing, text, alphabet, greek]
 category: Text
 version: "1.69"
 unicode: "f1e0"

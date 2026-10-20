@@ -26,7 +26,7 @@ class SwipeUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gesture, swipe, upward-swipe, scroll-up, slide-up, touch-gesture, screen-swipe, gesture-control, interaction, user-swipe]
+tags: [gesture, touch, swipe, slide, scroll-up, hand, mobile, north]
 category: Arrows
 version: "2.43"
 unicode: "fd61"

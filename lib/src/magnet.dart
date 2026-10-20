@@ -27,7 +27,7 @@ class Magnet extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [magnetic field, pole, iron, attract, magnet]
+tags: [magnet, magnetic, attract, attraction, physics, pull, snap]
 version: "1.0"
 unicode: "eae3"
 -->

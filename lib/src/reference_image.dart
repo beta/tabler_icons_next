@@ -26,7 +26,7 @@ class ReferenceImage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [reference, image, picture, template, guide, trace, overlay, design, sketch, drawing]
+tags: [reference, image, picture, template, guide, trace, overlay, sketch]
 category: Design
 unicode: "10293"
 version: "3.47"

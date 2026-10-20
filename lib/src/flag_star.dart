@@ -27,7 +27,7 @@ class FlagStar extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [favorite, rate, highlight, spotlight, pinnacle, premier, top, peak, acclaim, noteworthy]
+tags: [report, banner, milestone, favorite, favourite, bookmark, rating, mark, country, goal, featured, starred]
 version: "2.28"
 unicode: "fb9b"
 -->

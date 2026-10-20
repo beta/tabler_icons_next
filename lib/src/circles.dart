@@ -26,7 +26,7 @@ class Circles extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, marbles, balls, juggle, spots, circles, round, circular, geometry, form]
+tags: [circles, dots, group, bubbles, balls, shapes, round, cluster]
 category: Shapes
 version: "1.21"
 unicode: "ece5"

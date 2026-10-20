@@ -26,7 +26,7 @@ class Pendulum extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pendulum, physics, swing, oscillation, gravity, time, motion, science, experiment, mechanics]
+tags: [swing, clock, physics, motion, oscillation, balance, gravity, pendulum]
 category: Math
 unicode: "10233"
 version: "3.42"

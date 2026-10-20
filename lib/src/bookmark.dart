@@ -26,7 +26,7 @@ class Bookmark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [read, clip, marker, tag, bookmark, file, paper, text, record, information]
+tags: [save, saved, favorite, read-later, tag, marker, bookmarks, ribbon, bookmark]
 category: Document
 version: "1.0"
 unicode: "ea3a"

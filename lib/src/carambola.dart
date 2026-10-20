@@ -27,7 +27,7 @@ class Carambola extends Icon {
 
   static const String _svg = '''<!--
 category: Food
-tags: [fruit, starfruit, carambola, tropical, exotic, five, five-pointed, star, healthy, vitamin, nutrition, diet]
+tags: [carambola, starfruit, star-fruit, fruit, tropical, food, healthy, exotic, vitamin]
 unicode: "feb9"
 version: "3.2"
 -->

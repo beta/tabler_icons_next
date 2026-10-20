@@ -27,7 +27,7 @@ class Ban extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: ["no", reject, restriction, prohibited, ban]
+tags: [block, forbidden, prohibited, banned, not-allowed, denied, no-entry, restricted, cancel, ban]
 version: "1.0"
 unicode: "ea2e"
 -->

@@ -26,7 +26,7 @@ class Nfc extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [payment, nfc, cash, chip, shopping, cashless, pass, contactless, hardware, technology]
+tags: [contactless, tap, payment, near-field-communication, rfid, wireless, card, nfc]
 category: Devices
 version: "1.39"
 unicode: "eeb7"

@@ -26,7 +26,7 @@ class NoteOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [checkbox, brief, record, write, message, note, off, disabled, inactive, file]
+tags: [sticky-note, memo, post-it, notes, reminder, disabled, slash, note, off]
 category: Document
 version: "1.66"
 unicode: "f169"

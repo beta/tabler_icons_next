@@ -27,7 +27,7 @@ class StrokeCurved extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [stroke, curved, line, path, design, style, illustration, vector]
+tags: [stroke, line, curve, path, vector, design, pen, line-style, brush, curved]
 unicode: "101fe"
 version: "3.40"
 -->

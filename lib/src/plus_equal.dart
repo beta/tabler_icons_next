@@ -26,7 +26,7 @@ class PlusEqual extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [math, sign, adding, equation, plus, equal, calculation, add, more, increase]
+tags: [plus-equals, add, increment, operator, math, equation, sign, assignment, plus, equal]
 category: Math
 version: "2.6"
 unicode: "f7ad"

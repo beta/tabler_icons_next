@@ -27,7 +27,7 @@ class ScaleOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [weigh, balance, amount, heavy, light, libra, scale, off, disabled, inactive]
+tags: [balance, scales, justice, weigh, law, libra, legal, disabled, unavailable, inactive, hidden, scale, off]
 version: "1.66"
 unicode: "f198"
 -->

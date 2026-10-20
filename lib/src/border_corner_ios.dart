@@ -27,7 +27,7 @@ class BorderCornerIos extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [apple, iphone, style, device, technology, interface, ios, smartphone, design, theme]
+tags: [border-radius, rounded, radius, css, shape, squircle, smooth, apple, continuous, ios]
 version: "2.47"
 unicode: "fd98"
 -->

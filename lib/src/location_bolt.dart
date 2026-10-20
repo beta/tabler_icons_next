@@ -27,7 +27,7 @@ class LocationBolt extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [energy, electric, speed, power, flash, lightning, rapid, force, strike, charge]
+tags: [location, navigation, gps, arrow, pointer, direction, map, position, energy, lightning, power, electric, fast, flash]
 version: "2.28"
 unicode: "fbaf"
 -->

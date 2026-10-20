@@ -26,7 +26,7 @@ class BrandSharik extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [file, sharing, wifi, mobile, hotspot, brand, sharik, logo, company, trademark]
+tags: [sharik, file-sharing, transfer, wifi, hotspot, app, logo, brand]
 category: Brand
 version: "1.99"
 unicode: "f4dc"

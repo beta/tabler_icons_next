@@ -27,7 +27,7 @@ class Bible extends Icon {
 
   static const String _svg = '''<!--
 category: Text
-tags: [religion, holy, christian, miracle, church, bible]
+tags: [religion, christianity, holy-book, scripture, church, faith, christian, prayer, bible]
 version: "1.50"
 unicode: "efc4"
 -->

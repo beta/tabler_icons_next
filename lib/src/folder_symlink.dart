@@ -27,7 +27,7 @@ class FolderSymlink extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [shortcut, alias, link, connector, redirect, pointer, reference, junction, conduit, path]
+tags: [folder, directory, symlink, symbolic-link, shortcut, alias, link, dir, reference]
 version: "2.10"
 unicode: "f91b"
 -->

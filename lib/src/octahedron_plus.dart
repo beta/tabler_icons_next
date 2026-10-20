@@ -26,7 +26,7 @@ class OctahedronPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, octahedron, plus, add, more, increase]
+tags: [3d, shape, polyhedron, geometry, add, new, plus, octahedron]
 category: Shapes
 version: "2.20"
 unicode: "faad"

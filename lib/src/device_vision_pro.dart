@@ -26,7 +26,7 @@ class DeviceVisionPro extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [advanced, sight, future, professional, virtual, augmented, expensive, luxury, innovative, premium]
+tags: [apple-vision-pro, vision-pro, vr, ar, headset, mixed-reality, virtual-reality, augmented-reality, goggles, apple, spatial-computing]
 category: Devices
 version: "2.23"
 unicode: "fae7"

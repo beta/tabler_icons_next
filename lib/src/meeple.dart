@@ -26,7 +26,7 @@ class Meeple extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pawn, board, game, wood, meeple, athletic, fitness, exercise, physical]
+tags: [board-game, game-piece, pawn, player, token, tabletop, figure, person, meeple]
 category: Sport
 version: "1.102"
 unicode: "f514"

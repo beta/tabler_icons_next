@@ -26,7 +26,7 @@ class BrandDribbble extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, website, community, project, platform, self-promotion, designer, portfolio, brand, dribbble]
+tags: [dribbble, design, designer, portfolio, community, showcase, shots, logo, brand]
 category: Brand
 version: "1.18"
 unicode: "ec19"

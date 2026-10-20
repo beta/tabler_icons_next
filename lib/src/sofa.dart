@@ -27,7 +27,7 @@ class Sofa extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [chair, seat, home, furniture, couch, sofa, settee, lounge]
+tags: [couch, settee, furniture, living-room, lounge, seat, home, sofa]
 version: "1.48"
 unicode: "efaf"
 -->

@@ -26,7 +26,7 @@ class FileUpload extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [save, transfer, input, file, upload, document, data, import, content, record]
+tags: [upload, arrow-up, import, send, attach, document, file, share, cloud]
 category: Document
 version: "1.15"
 unicode: "ec91"

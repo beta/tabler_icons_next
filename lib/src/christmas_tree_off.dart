@@ -27,7 +27,7 @@ class ChristmasTreeOff extends Icon {
 
   static const String _svg = '''<!--
 category: Nature
-tags: [holidays, pine, decorate, decoration, gift, present, carol, evergreen, spruce, fir, winter]
+tags: [xmas, christmas, holiday, pine, spruce, evergreen, decoration, winter, off, disabled]
 unicode: "f3d5"
 version: "1.94"
 -->

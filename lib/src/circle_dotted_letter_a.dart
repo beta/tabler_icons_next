@@ -26,7 +26,7 @@ class CircleDottedLetterA extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alpha, start, first-letter, vowel, beginning, top, initial, aleph, prime, fore]
+tags: [a, letter-a, letter, alphabet, character, uppercase, initial, circle, dotted, badge]
 category: Letters
 unicode: "ff7f"
 version: "3.11"

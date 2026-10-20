@@ -26,7 +26,7 @@ class BrandVlc extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [media, video, audio, player, software, streaming, open-source, format, playlist, multimedia]
+tags: [vlc, videolan, media-player, video, player, audio, traffic-cone, logo, brand]
 category: Brand
 version: "2.18"
 unicode: "fa78"

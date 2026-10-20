@@ -27,7 +27,7 @@ class LockBolt extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [secure, fasten, protect, safety, tighten, latch, hold, guard, safe, lock]
+tags: [lock, padlock, locked, security, secure, password, private, protected, energy, lightning, power, electric, fast, flash]
 version: "2.10"
 unicode: "f924"
 -->

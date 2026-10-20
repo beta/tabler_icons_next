@@ -27,7 +27,7 @@ class Activity extends Icon {
 
   static const String _svg = '''<!--
 category: Health
-tags: [pulse, motion, health, action, activity, movement, dynamic, active]
+tags: [pulse, heartbeat, ekg, ecg, health, monitor, waveform, vital-signs, line-chart, activity]
 version: "1.0"
 unicode: "ed23"
 -->

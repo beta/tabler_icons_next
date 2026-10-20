@@ -26,7 +26,7 @@ class BrandOffice extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, editor, software, word, excel, brand, office, disabled, inactive, logo]
+tags: [office, microsoft-office, microsoft, word, excel, powerpoint, office-365, logo, brand]
 category: Brand
 version: "1.92"
 unicode: "f398"

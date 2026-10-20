@@ -26,7 +26,7 @@ class PointerPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [break, halt, stop, wait, intermission, rest, freeze, suspend, slow, pointer]
+tags: [cursor, mouse-pointer, mouse, pause, hold, suspended, wait, arrow, click, pointer]
 category: System
 version: "2.10"
 unicode: "f9a4"

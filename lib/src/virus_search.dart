@@ -26,7 +26,7 @@ class VirusSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [covid, coronavirus, biology, infection, infected, cell, viral, infectious, disease, virus]
+tags: [virus, scan, antivirus, malware, search, test, covid, infection]
 category: Health
 version: "1.31"
 unicode: "ed67"

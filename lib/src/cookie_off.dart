@@ -26,7 +26,7 @@ class CookieOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, sweet, cooking, snack, internet, privacy, cookie, off, meal, cuisine]
+tags: [cookie, biscuit, browser-cookies, no-cookies, consent, privacy, tracking, off, disabled]
 category: Food
 version: "1.63"
 unicode: "f0d7"

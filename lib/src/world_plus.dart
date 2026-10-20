@@ -27,7 +27,7 @@ class WorldPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [add, increase, expand, global, grow, enlarge, supplement, augment, boost, amplify]
+tags: [globe, earth, world, internet, global, web, international, add, create, new]
 version: "2.10"
 unicode: "f9e5"
 -->

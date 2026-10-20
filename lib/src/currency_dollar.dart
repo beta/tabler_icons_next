@@ -27,7 +27,7 @@ class CurrencyDollar extends Icon {
 
   static const String _svg = '''<!--
 category: Currencies
-tags: [american, us, dollar, usd, sign, bucks, usa, money, banknote, pay]
+tags: [dollar, usd, us-dollar, american, bucks, money, currency, price, payment, finance, cash]
 version: "1.3"
 unicode: "eb84"
 -->

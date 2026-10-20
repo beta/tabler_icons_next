@@ -26,7 +26,7 @@ class AlphabetLatin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [letters, language, rome, alphabet, latin, typography, writing, font, character, word]
+tags: [roman, english, language, script, letters, writing, text, alphabet, latin]
 category: Text
 version: "1.69"
 unicode: "f1e1"

@@ -26,7 +26,7 @@ class Prison extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [jail, policeman, police, cop, handcuff, arrest, prisoner, thief, prison, location]
+tags: [jail, prisoner, bars, arrest, criminal, crime, police, cell, inmate, locked, prison]
 category: Map
 version: "1.45"
 unicode: "ef79"

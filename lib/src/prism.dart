@@ -26,7 +26,7 @@ class Prism extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, prism, geometry, form, figure, outline]
+tags: [triangular-prism, 3d, shape, geometry, solid, object, prism]
 category: Shapes
 version: "2.20"
 unicode: "fab1"

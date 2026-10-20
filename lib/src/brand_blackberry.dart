@@ -26,7 +26,7 @@ class BrandBlackberry extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [phone, mobile, system, operating, os, electronics, brand, blackberry, logo, company]
+tags: [blackberry, phone, mobile, smartphone, device, os, logo, brand]
 category: Brand
 version: "1.107"
 unicode: "f568"

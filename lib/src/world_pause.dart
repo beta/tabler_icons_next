@@ -27,7 +27,7 @@ class WorldPause extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [halt, rest, stop, freeze, break, suspend, global, interval, wait, intermission]
+tags: [globe, earth, world, internet, global, web, international, paused, hold, suspend]
 version: "2.10"
 unicode: "f9e3"
 -->

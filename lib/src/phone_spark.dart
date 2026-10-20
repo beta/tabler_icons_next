@@ -26,7 +26,7 @@ class PhoneSpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [call, mobile, conversation, landline, answer, number, phone, spark, hardware, technology]
+tags: [ai-call, voice-assistant, call, telephone, contact, dial, mobile, handset, ai, magic, generate, sparkles, assistant, phone, spark]
 category: Devices
 version: "3.13"
 unicode: "ffb1"

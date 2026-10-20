@@ -26,7 +26,7 @@ class BrandApple extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [os, company, system, interface, software, devices, logo, brand, apple, trademark]
+tags: [apple, mac, macos, ios, iphone, ipad, company, tech, logo, brand]
 category: Brand
 version: "1.9"
 unicode: "ec17"

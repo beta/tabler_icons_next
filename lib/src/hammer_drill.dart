@@ -26,7 +26,7 @@ class HammerDrill extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hammer, drill, power tool, electric, hardware, equipment, construction, diy, repair, building]
+tags: [drill, hammer-drill, power-tool, electric-drill, tool, construction, diy, repair, hardware, hammer]
 category: Devices
 unicode: "10238"
 version: "3.42"

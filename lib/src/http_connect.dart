@@ -26,7 +26,7 @@ class HttpConnect extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [web, online, link, network, bridge, connection, access, uniform, resource, linking]
+tags: [connect, tunnel, proxy, connection, http, api, request, method, rest, endpoint, web]
 category: Computers
 version: "2.14"
 unicode: "fa28"

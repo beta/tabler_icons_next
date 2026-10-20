@@ -26,7 +26,7 @@ class ArrowsDiagonal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [zoom, corners, stretch, arrows, diagonal, navigation, flow, movement, route, path]
+tags: [expand, fullscreen, maximize, resize, enlarge, pointer, navigation, direction, arrows, diagonal]
 category: Arrows
 version: "1.0"
 unicode: "ea27"

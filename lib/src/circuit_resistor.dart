@@ -26,7 +26,7 @@ class CircuitResistor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [diagram, electric, electricity, nema, circuit, resistor, energy, voltage, power, current]
+tags: [resistor, resistance, ohm, circuit, electronics, electrical, schematic, diagram, electricity, component]
 category: Electrical
 version: "1.77"
 unicode: "f280"

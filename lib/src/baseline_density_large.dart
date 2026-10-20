@@ -26,7 +26,7 @@ class BaselineDensityLarge extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [large, sizeable, oversized, big, bulky, massive, huge, gigantic, substantial, enormous]
+tags: [line-height, spacing, typography, text, compact, comfortable, leading, line-spacing, vertical-rhythm, large]
 version: "2.11"
 unicode: "f9f0"
 category: Text

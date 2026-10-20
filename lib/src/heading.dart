@@ -26,7 +26,7 @@ class Heading extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [main, text, headline, style, styling, html, heading, typography, writing, font]
+tags: [heading, header, title, headline, text-editor, typography, h, text-format]
 category: Text
 version: "1.39"
 unicode: "ee9b"

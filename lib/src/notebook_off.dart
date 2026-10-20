@@ -26,7 +26,7 @@ class NotebookOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [study, learn, diary, write, journal, page, paper, jot down, notebook, off]
+tags: [notepad, journal, diary, book, notes, disabled, slash, notebook, off]
 category: Document
 version: "1.94"
 unicode: "f415"

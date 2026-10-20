@@ -27,7 +27,7 @@ class AdjustmentsBolt extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [settings, tweak, modify, electric, lightning, power, energy, zap, volt, charge]
+tags: [settings, sliders, controls, filter, options, preferences, tune, flash, lightning, power, energy, fast, quick]
 version: "2.10"
 unicode: "f7fb"
 -->

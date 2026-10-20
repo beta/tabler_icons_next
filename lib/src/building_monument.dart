@@ -26,7 +26,7 @@ class BuildingMonument extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [history, memorial, commemorative, building, monument, architecture, structure, construction, property, interface]
+tags: [monument, memorial, obelisk, landmark, history, building, tower]
 category: Buildings
 version: "1.26"
 unicode: "ed26"

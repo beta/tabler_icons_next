@@ -26,7 +26,7 @@ class MichelinStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [prestige, quality, excellence, dining, gourmet, restaurant, top, reputation, award, esteem]
+tags: [michelin, restaurant, guide, award, fine-dining, gourmet, rating, chef, star]
 category: Food
 version: "2.23"
 unicode: "faeb"

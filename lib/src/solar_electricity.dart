@@ -27,7 +27,7 @@ class SolarElectricity extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [power, energy, renewable, panel, sunlight, green, sustainable, generation, technology, efficiency]
+tags: [solar-power, solar, energy, renewable, panel, sun, green]
 version: "2.37"
 unicode: "fcc1"
 -->

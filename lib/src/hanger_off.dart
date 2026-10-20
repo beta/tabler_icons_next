@@ -27,7 +27,7 @@ class HangerOff extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [clothes, wardrobe, hook, hang, wooden, plastic, wire, shop, store, clothing, fashion]
+tags: [hanger, coat-hanger, clothes, wardrobe, closet, disabled, off-state, unavailable]
 version: "1.66"
 unicode: "f13e"
 -->

@@ -27,7 +27,7 @@ class WavesElectricity extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [energy, power, currents, flow, dynamics, surge, oscillation, movement, charge, frequency]
+tags: [electricity, electric, current, power, energy, waves, signal, sound-wave, voltage]
 version: "2.37"
 unicode: "fcc5"
 -->

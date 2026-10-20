@@ -27,7 +27,7 @@ class LocationDiscount extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [offer, sale, promotion, deal, reduce, bargain, pricecut, special, saving, markdown]
+tags: [location, navigation, gps, arrow, pointer, direction, map, position, discount, sale, promo, offer, percent, deal]
 version: "2.28"
 unicode: "fbb4"
 -->

@@ -26,7 +26,7 @@ class Ear extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sound, listen, music, hear, loud, speakers, ear, medical, wellness, healthcare, accessibility, a11y, hearing]
+tags: [ear, hearing, listen, audio, sound, hear, deaf, accessibility, anatomy]
 category: Health
 version: "1.6"
 unicode: "ebce"

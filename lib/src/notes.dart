@@ -26,7 +26,7 @@ class Notes extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [notetaking, journal, draft, idea, to-do list, notes, file, paper, text, record]
+tags: [notepad, memo, document, list, text, to-do, writing, page, notes]
 category: Document
 version: "1.2"
 unicode: "eb6e"

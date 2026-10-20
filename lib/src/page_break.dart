@@ -26,7 +26,7 @@ class PageBreak extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [summary, feature, css, page, break, file, paper, text, record, information]
+tags: [page-break-separator, break, document, print, layout, divider, split, page]
 category: Document
 version: "1.14"
 unicode: "ec81"

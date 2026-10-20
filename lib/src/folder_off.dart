@@ -26,7 +26,7 @@ class FolderOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cancel, "no", directory, dir, folder, off, collection, disabled, inactive, container]
+tags: [directory, dir, files, archive, project, disabled, inactive, unavailable, slash, turn-off, folder, off]
 category: Document
 version: "1.24"
 unicode: "ed14"

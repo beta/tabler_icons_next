@@ -26,7 +26,7 @@ class Number28Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [twenty-eight, 28th, twenty-eighth, viginti-octavo, viginti-eighth, twenty, and, eight, plus, 28]
+tags: [twenty-eight, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcf6"

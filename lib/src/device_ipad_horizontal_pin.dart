@@ -27,7 +27,7 @@ class DeviceIpadHorizontalPin extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [attach, fix, secure, hold, clip, anchor, fasten, tether, bind, connect]
+tags: [pin, location, marker, place, ipad, tablet, apple, ios, landscape]
 version: "2.10"
 unicode: "f89a"
 -->

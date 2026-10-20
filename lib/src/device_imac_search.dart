@@ -27,7 +27,7 @@ class DeviceImacSearch extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [find, locate, explore, discover, seek, hunt, probe, scan, survey, inspect]
+tags: [search, find, magnifier, lookup, imac, mac, apple, computer, desktop, monitor]
 version: "2.10"
 unicode: "f880"
 -->

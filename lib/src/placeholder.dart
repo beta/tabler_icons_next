@@ -27,7 +27,7 @@ class Placeholder extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [input, form, placeholder, design]
+tags: [input, form, field, text-field, textbox, hint, empty, wireframe, design, placeholder]
 version: "1.116"
 unicode: "f626"
 -->

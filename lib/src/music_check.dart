@@ -27,7 +27,7 @@ class MusicCheck extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [verify, confirm, validate, approve, tick, agree, pass, complete, ensure, accept]
+tags: [song, audio, sound, note, melody, track, done, success, confirmed, approved, verified, tick, mp3, playlist, player]
 version: "2.28"
 unicode: "fbd7"
 -->

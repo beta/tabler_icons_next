@@ -26,7 +26,7 @@ class ArrowForwardUpDouble extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [navigation, direction, upward, advance, double, path, interface, ui, movement, arrow]
+tags: [redo-all, forward-all, share, next, pointer, navigation, direction, arrow, double]
 category: Arrows
 version: "2.11"
 unicode: "f9ef"

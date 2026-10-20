@@ -26,7 +26,7 @@ class BallFootballOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sport, game, sportsman, play, match, pitch, ball, football, off, athletic]
+tags: [soccer, fifa, sport, game, disabled, sports, team-sport, play, match, athletics, ball, football, off]
 category: Sport
 version: "1.39"
 unicode: "ee05"

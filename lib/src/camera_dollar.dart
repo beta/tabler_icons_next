@@ -27,7 +27,7 @@ class CameraDollar extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [money, finance, investment, currency, wealth, income, funding, cost, monetary, transaction]
+tags: [camera, photo, photography, picture, video, lens, image, dollar, money, price, cost, payment, currency, stock-photo]
 version: "2.10"
 unicode: "f838"
 -->

@@ -27,7 +27,7 @@ class DiamondOff extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [jewellery, crystal, mineral, jewelry, ring, diamond, off, disabled, inactive]
+tags: [diamond, gem, jewel, jewelry, jewellery, premium, disabled, inactive, unavailable, slash, turn-off, luxury, crystal, off]
 version: "1.65"
 unicode: "f115"
 -->

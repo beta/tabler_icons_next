@@ -26,7 +26,7 @@ class DeviceTvOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [screen, display, movie, film, watch, audio, video, media, device, off]
+tags: [tv, television, smart-tv, screen, display, monitor, disabled, inactive, unavailable, slash, turn-off, video, movie, device, off]
 category: Devices
 version: "1.58"
 unicode: "f064"

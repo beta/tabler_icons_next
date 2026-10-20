@@ -26,7 +26,7 @@ class Filter2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, sort, organize, arrange, select, refine, sieve, screen, 2]
+tags: [filter, filter-list, filtering, sort, refine, narrow, lines, options, sorting]
 category: System
 version: "3.32"
 unicode: "1014b"

@@ -26,7 +26,7 @@ class Gift extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [present, birthday, celebration, wish, bonus, souvenire, surprise, gift, store, purchase]
+tags: [gift, present, gift-box, birthday, surprise, reward, bonus, christmas, celebration, giveaway]
 category: E-commerce
 version: "1.2"
 unicode: "eb68"

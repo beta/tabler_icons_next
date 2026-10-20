@@ -27,7 +27,7 @@ class MoneybagHeart extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [moneybag, heart, love, like, wealth, rich, money, finance, savings, treasure]
+tags: [donation, charity, money, sack, bag, cash, savings, wealth, favorite, like, love, finance, dollar, budget, moneybag, heart]
 version: "3.31"
 unicode: "1013c"
 -->

@@ -26,7 +26,7 @@ class BrandDouban extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [china, social, network, film, books, music, brand, douban, logo, company]
+tags: [douban, social, china, movies, books, music, reviews, logo, brand]
 category: Brand
 version: "1.114"
 unicode: "f5ff"

@@ -26,7 +26,7 @@ class BrandCraft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [create, design, handmade, artisanal, diy, fabricate, artisan, workshop, skill, make]
+tags: [craft, craft-cms, cms, docs, notes, app, logo, brand]
 category: Brand
 version: "2.18"
 unicode: "fa72"

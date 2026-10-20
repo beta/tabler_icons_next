@@ -26,7 +26,7 @@ class FileChart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, graph, analytics, file, chart, document, content, record, paper, text]
+tags: [chart, report, graph, analytics, statistics, data, document, pie-chart, metrics, file]
 category: Document
 version: "1.56"
 unicode: "f036"

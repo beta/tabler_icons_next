@@ -26,7 +26,7 @@ class Users extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [people, persons, accounts, users, control, operation, function, interface, management]
+tags: [people, group, team, persons, accounts, members, community, user, users]
 category: System
 version: "1.7"
 unicode: "ebf2"

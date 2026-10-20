@@ -26,7 +26,7 @@ class TagStarred extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tag, starred, star, favorite, label, tagging, tagged-star, marked, tag-star, highlighted]
+tags: [label, price-tag, favorite, featured, star, bookmark, price, sale, shopping, tag, starred]
 category: E-commerce
 version: "2.35"
 unicode: "fc99"

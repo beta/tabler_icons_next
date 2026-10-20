@@ -26,7 +26,7 @@ class ArrowForwardUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [point, turn, next, redo, right, arrow, forward, direction, pointer, top]
+tags: [redo, share, next, repeat, send, pointer, navigation, direction, arrow, forward]
 category: Arrows
 version: "1.3"
 unicode: "eb78"

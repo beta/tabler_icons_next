@@ -26,7 +26,7 @@ class Alarm extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, watch, clock, ring, alarm, control, operation, function, interface, management]
+tags: [alarm-clock, clock, time, wake-up, reminder, timer, ring, morning, alarm]
 category: System
 version: "1.1"
 unicode: "ea04"

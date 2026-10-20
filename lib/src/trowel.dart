@@ -27,7 +27,7 @@ class Trowel extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [tool, garden, equipment, mason, cement, trowel]
+tags: [trowel, garden, gardening, tool, masonry, construction, plaster, spade]
 version: "1.89"
 unicode: "f368"
 -->

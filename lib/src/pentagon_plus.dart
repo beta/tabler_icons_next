@@ -27,7 +27,7 @@ class PentagonPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [add, increase, augment, boost, enhance, elevate, expand, supplement, raise, escalate]
+tags: [add, plus, shape, polygon, new, create, five-sided, geometry, insert]
 version: "2.31"
 unicode: "fc49"
 -->

@@ -26,7 +26,7 @@ class Windsock extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, meteorology, windy, storm, wind, windsock, location, navigation, geography, place]
+tags: [windsock, wind, direction, airport, weather, gust, wind-indicator, airfield]
 category: Map
 version: "1.58"
 unicode: "f06d"

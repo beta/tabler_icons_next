@@ -27,7 +27,7 @@ class CarSuspension extends Icon {
 
   static const String _svg = '''<!--
 category: Vehicles
-tags: [suspension, shock-absorber, spring, coilover, chassis, automotive, vehicle, car, mechanics, repair]
+tags: [suspension, shock-absorber, spring, coilover, car, mechanic, repair, automotive]
 unicode: "1022f"
 version: "3.41"
 -->

@@ -26,7 +26,7 @@ class CircuitGroundDigital extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [electric, electricity, diagram, circuit, ground, digital, energy, voltage, power, current]
+tags: [ground, digital, gnd, earth, circuit, electronics, electrical, schematic, diagram, electricity, component]
 category: Electrical
 version: "1.77"
 unicode: "f27b"

@@ -26,7 +26,7 @@ class Number2Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [two, pair, duo, double, twofold, dual, second, couple, dyad, binary]
+tags: [two, number, digit, numeral, count, second, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fced"

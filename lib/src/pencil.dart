@@ -26,7 +26,7 @@ class Pencil extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [write, draft, edit, note, pencil, creative, artistic, visual, aesthetic, style]
+tags: [edit, write, draw, modify, pen, compose, update, change, rename, sketch, annotate, pencil]
 category: Design
 version: "1.1"
 unicode: "eb04"

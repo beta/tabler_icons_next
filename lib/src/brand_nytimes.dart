@@ -26,7 +26,7 @@ class BrandNytimes extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [magazines, news, newspapper, website, brand, nytimes, logo, company, trademark, identity]
+tags: [nytimes, new-york-times, news, newspaper, journalism, media, logo, brand]
 category: Brand
 version: "1.47"
 unicode: "ef8d"

@@ -27,7 +27,7 @@ class DeviceTabletCog extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [tablet, settings, gear, adjust, control, options, configure, tweak, preferences, modify]
+tags: [tablet, ipad, android, settings, gear, config, configuration, touchscreen, device, mobile, preferences, options]
 version: "2.10"
 unicode: "f8c4"
 -->

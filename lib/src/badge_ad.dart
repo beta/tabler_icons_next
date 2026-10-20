@@ -26,7 +26,7 @@ class BadgeAd extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, marketing, media, promotion, advertising, advertisement, badge, ad, award, achievement]
+tags: [advertisement, sponsored, promoted, marketing, label, ads, promotion, tag, badge, ad]
 category: Badges
 version: "1.106"
 unicode: "f558"

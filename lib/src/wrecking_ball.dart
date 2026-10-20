@@ -26,7 +26,7 @@ class WreckingBall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [demolish, building, wrecker, metal, swing, knock, down, wrecking, ball, transport]
+tags: [wrecking-ball, demolition, destroy, construction, crane, wrecking, demolish, crane-ball, ball]
 category: Vehicles
 version: "1.34"
 unicode: "ed97"

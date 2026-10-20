@@ -26,7 +26,7 @@ class FileDiff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, create, new, file, diff, document, data, content, record, paper]
+tags: [diff, difference, compare, changes, version, revision, patch, document, file, code-review]
 category: Document
 version: "1.22"
 unicode: "ecf1"

@@ -26,7 +26,7 @@ class Treadmill extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exercise, workout, fitness, running, cardio, machine, gym, aerobic, health, training]
+tags: [treadmill, running, cardio, gym, fitness, exercise, machine, run]
 category: Sport
 version: "2.17"
 unicode: "fa6e"

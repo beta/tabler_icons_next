@@ -26,7 +26,7 @@ class BrandWebflow extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [web, website, creation, brand, webflow, logo, company, trademark, identity, corporate]
+tags: [webflow, website-builder, no-code, web, design, cms, logo, brand]
 category: Brand
 version: "1.82"
 unicode: "f2d2"

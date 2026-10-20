@@ -27,7 +27,7 @@ class BedFlat extends Icon {
 
   static const String _svg = '''<!--
 category: Buildings
-tags: [mattress, sofa, couch, futon, sleeping, restful, horizontal, recline, lying, horizontal-bed]
+tags: [sleep, bedroom, hotel, rest, night, furniture, accommodation, lie-down]
 version: "2.36"
 unicode: "fca1"
 -->

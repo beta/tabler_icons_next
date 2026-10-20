@@ -26,7 +26,7 @@ class BrandAmazon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shopping, online, media, shop, ecommerce, brand, amazon, logo, company, trademark]
+tags: [amazon, shopping, ecommerce, online-store, marketplace, shop, retail, aws, logo, brand]
 category: Brand
 version: "1.73"
 unicode: "f230"

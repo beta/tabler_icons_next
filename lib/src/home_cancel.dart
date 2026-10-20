@@ -26,7 +26,7 @@ class HomeCancel extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [delete, house, building, close, home, cancel, main, architecture, structure, start]
+tags: [home, house, homepage, building, residence, real-estate, cancel, cancelled, blocked, forbidden, denied]
 category: Buildings
 version: "1.88"
 unicode: "f350"

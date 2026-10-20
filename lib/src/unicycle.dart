@@ -26,7 +26,7 @@ class Unicycle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [unicycle, cycle, wheel, balance, transport, vehicle, circus, ride, mobility, street]
+tags: [unicycle, cycle, circus, balance, wheel, ride, one-wheel, bike]
 category: Vehicles
 unicode: "10244"
 version: "3.43"

@@ -26,7 +26,7 @@ class CalculatorOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [math, count, add, subtract, multiply, divide, amount, calculator, off, hardware]
+tags: [calculator, math, calculate, calculation, accounting, arithmetic, disabled, off, unavailable, inactive]
 category: Devices
 version: "1.63"
 unicode: "f0c4"

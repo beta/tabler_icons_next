@@ -26,7 +26,7 @@ class PentagonNumber6 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [six, sextet, sextuple, hexagon, hexad, senary, sixfold, sixer, hex, sixth]
+tags: [six, number, digit, pentagon, shape, badge, numeral, count]
 category: Numbers
 version: "2.34"
 unicode: "fc84"

@@ -27,7 +27,7 @@ class DeviceWatchDown extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [descend, download, lower, reduce, fall, drop, sink, decrease, minimize, subside]
+tags: [smartwatch, wearable, apple-watch, download, arrow-down, decrease, lower, wristwatch, device, fitness-tracker, receive]
 version: "2.10"
 unicode: "f8d9"
 -->

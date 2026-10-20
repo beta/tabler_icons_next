@@ -27,7 +27,7 @@ class SchoolBell extends Icon {
 
   static const String _svg = '''<!--
 category: Buildings
-tags: [break, lesson, alarm, ring, school, bell]
+tags: [bell, school, education, alarm, ring, lesson, break]
 version: "1.118"
 unicode: "f64a"
 -->

@@ -26,7 +26,7 @@ class EarOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sound, listen, music, hear, loud, speakers, ear, off, medical, wellness, accessibility, a11y, deaf, hearing-impaired]
+tags: [ear, hearing, listen, audio, sound, hear, disabled, inactive, unavailable, slash, turn-off, deaf, accessibility, off]
 category: Health
 version: "1.39"
 unicode: "ee84"

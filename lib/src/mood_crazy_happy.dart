@@ -26,7 +26,7 @@ class MoodCrazyHappy extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [good, excited, cheerful, jolly, delighted, lucky, mood, crazy, happy, application]
+tags: [excited, ecstatic, laughing, joy, delighted, emoji, smiley, face, emotion, feeling, reaction, mood, crazy, happy]
 category: Mood
 version: "1.34"
 unicode: "ed90"

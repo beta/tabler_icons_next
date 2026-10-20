@@ -26,7 +26,7 @@ class CurrencyManat extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, finance, money, cash, azerbaijan, currency, manat, payment, monetary, banking]
+tags: [manat, azn, azerbaijan, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.90"
 unicode: "f376"

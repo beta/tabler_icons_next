@@ -27,7 +27,7 @@ class StereoGlasses extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [cinema, 3d, eyewear, film, movie, stereo, glasses]
+tags: [3d, glasses, cinema, movie, film, eyewear, anaglyph, 3d-glasses, vr, stereo]
 version: "1.98"
 unicode: "f4cb"
 -->

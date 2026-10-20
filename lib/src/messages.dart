@@ -26,7 +26,7 @@ class Messages extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [chat, reply, comment, conversation, communication, faq, messages, contact, messaging, interaction]
+tags: [chat, conversation, comments, discussion, dialogue, thread, speech-bubbles, forum, group-chat, communication, messages]
 category: Communication
 version: "1.2"
 unicode: "eb6c"

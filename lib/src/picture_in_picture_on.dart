@@ -26,7 +26,7 @@ class PictureInPictureOn extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [size, photo, elements, adjust, picture, content, entertainment, in, on, multimedia]
+tags: [pip, floating-video, mini-player, enter, popout, open, pip-enter, overlay, video, window, picture, in, on]
 category: Media
 version: "1.28"
 unicode: "ed44"

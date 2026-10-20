@@ -26,7 +26,7 @@ class LayoutAlignCenter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [position, design, layout, align, center, creative, artistic, visual, aesthetic, style]
+tags: [align-center, align, center, horizontal-center, alignment, layout, position, design]
 category: Design
 version: "1.0"
 unicode: "eace"

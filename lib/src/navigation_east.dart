@@ -26,7 +26,7 @@ class NavigationEast extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [rightward, orient, eastward, sunrise, asia, oriental, eastbound, longitude, eastside, directional]
+tags: [east, right, arrow, direction, compass, gps, heading, cardinal, orientation]
 category: Map
 version: "2.37"
 unicode: "fcba"

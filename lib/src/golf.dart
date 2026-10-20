@@ -26,7 +26,7 @@ class Golf extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, ball, play, hole, club-and-ball, stroke, luxury, pitch, golf, athletic]
+tags: [golf, golf-course, flag, hole, putt, sport, club, green]
 category: Sport
 version: "1.34"
 unicode: "ed8c"

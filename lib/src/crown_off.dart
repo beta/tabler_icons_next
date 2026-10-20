@@ -27,7 +27,7 @@ class CrownOff extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [queen, king, prince, princess, dynasty, royalty, crown, off, disabled, inactive]
+tags: [crown, king, queen, royal, premium, vip, pro, off, disabled]
 version: "1.39"
 unicode: "ee50"
 -->

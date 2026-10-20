@@ -27,7 +27,7 @@ class PentagonMinus extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [subtract, decrease, reduce, deduct, remove, diminish, lessen, lower, abridge, curtail]
+tags: [remove, minus, shape, polygon, delete, subtract, five-sided, geometry]
 unicode: "feb3"
 version: "3.2"
 -->

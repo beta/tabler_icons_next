@@ -26,7 +26,7 @@ class TextColor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [format, document, file, edit, text, color, typography, writing, font, character]
+tags: [font-color, text-colour, font-colour, color, colour, highlight, formatting, editor, text]
 category: Text
 version: "1.82"
 unicode: "f2dc"

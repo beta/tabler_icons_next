@@ -26,7 +26,7 @@ class RotateRectangle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [refresh, synchronization, reload, restart, spinner, loader, ajax, update, arrows, rotate]
+tags: [rotate, rotation, screen-rotation, orientation, landscape, portrait, flip]
 category: Arrows
 version: "1.8"
 unicode: "ec15"

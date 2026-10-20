@@ -26,7 +26,7 @@ class MailSpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [inbox, gmail, email, envelope, message, mail, spark, contact, conversation, letter]
+tags: [mail, email, envelope, message, inbox, letter, e-mail, ai, sparkle, magic, new, auto, smart-reply, spark]
 category: Communication
 version: "3.13"
 unicode: "ffb3"

@@ -26,7 +26,7 @@ class FaceMaskOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coronavirus, virus, medical, hospital, doctor, face, mask, off, wellness, disabled]
+tags: [face-mask, mask, covid, coronavirus, virus, protection, disabled, inactive, unavailable, slash, turn-off, surgical-mask, pandemic, face, off]
 category: Health
 version: "1.65"
 unicode: "f127"

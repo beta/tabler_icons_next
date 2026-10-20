@@ -26,7 +26,7 @@ class LayoutBottombar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [position, design, grid, footer, layout, bottombar, creative, artistic, visual, aesthetic]
+tags: [bottom-bar, footer, tab-bar, layout, ui, panel, dock, bottombar]
 category: Design
 version: "1.1"
 unicode: "ead3"

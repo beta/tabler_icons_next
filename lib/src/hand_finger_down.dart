@@ -27,7 +27,7 @@ class HandFingerDown extends Icon {
 
   static const String _svg = '''<!--
 category: Gestures
-tags: [gesture, point, direction, indicate, signal, motion, guide, move, show, pointing]
+tags: [hand, finger, pointing, point, gesture, pointer, direction, index-finger, down, point-down]
 unicode: "ff4f"
 version: "3.10"
 -->

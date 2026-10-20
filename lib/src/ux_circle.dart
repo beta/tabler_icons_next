@@ -26,7 +26,7 @@ class UxCircle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [user, experience, circle, creative, artistic, round, circular, ux, visual, aesthetic]
+tags: [ux, user-experience, design, circle, user, ui, user-interface, usability, design-thinking]
 category: Design
 version: "1.89"
 unicode: "f369"

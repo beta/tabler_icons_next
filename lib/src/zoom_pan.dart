@@ -26,7 +26,7 @@ class ZoomPan extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [enlargement, shifting, magnifier, zoom, pan, location, navigation, magnify, enlarge, scale]
+tags: [pan, zoom, move, navigate, magnifier, arrows, zooming, move-view]
 category: Map
 version: "1.68"
 unicode: "f1de"

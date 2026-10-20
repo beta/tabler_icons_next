@@ -26,7 +26,7 @@ class BrandReddit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, website, information, link, internet, brand, reddit, company, trademark, identity]
+tags: [reddit, forum, community, social, subreddit, discussion, news, logo, brand]
 category: Brand
 version: "1.15"
 unicode: "ec8e"

@@ -26,7 +26,7 @@ class TransitionLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, west, moving, transition, left, navigation, flow, movement, route, path]
+tags: [transition, animation, slide, move, left, effect, slide-left, slide-in]
 category: Arrows
 version: "1.80"
 unicode: "f2b3"

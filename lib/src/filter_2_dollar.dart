@@ -26,7 +26,7 @@ class Filter2Dollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, dollar, sort, organize, arrange, select, refine, sieve, screen, currency]
+tags: [filter, filtering, sort, money, price, payment, cost, refine, list, options, currency, usd, finance, dollar]
 category: System
 version: "3.32"
 unicode: "10159"

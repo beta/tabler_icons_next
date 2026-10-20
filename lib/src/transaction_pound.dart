@@ -26,7 +26,7 @@ class TransactionPound extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [currency, exchange, trade, payment, cash, money, pound, finance, transfer, bank]
+tags: [transaction, payment, transfer, pound, gbp, sterling, money, exchange]
 category: E-commerce
 version: "2.44"
 unicode: "fd71"

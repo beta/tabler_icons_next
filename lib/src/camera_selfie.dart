@@ -26,7 +26,7 @@ class CameraSelfie extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [photo, photography, picture, face, instagram, portrait, digital, smartphone, camera, selfie]
+tags: [camera, photo, photography, picture, video, lens, image, selfie, front-camera, portrait, face, smartphone]
 category: Photography
 version: "1.39"
 unicode: "ee23"

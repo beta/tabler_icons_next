@@ -26,7 +26,7 @@ class CloudComputing extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [server, network, data, storage, share, internet, cloud, computing, online, sync]
+tags: [cloud-computing, server, network, hosting, data-center, saas, online, infrastructure, cloud, computing]
 category: Computers
 version: "1.68"
 unicode: "f1d0"

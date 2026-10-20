@@ -26,7 +26,7 @@ class Feather extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bird, animal, nature, feather, environment, natural, outdoor, ecosystem, earth]
+tags: [feather, quill, light, lightweight, bird, write, plume, writing]
 category: Nature
 version: "1.39"
 unicode: "ee8b"

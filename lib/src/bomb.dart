@@ -27,7 +27,7 @@ class Bomb extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [explosion, weapon, military, war, bomb]
+tags: [explosive, explosion, dynamite, danger, blast, mine, grenade, boom-explosion, bomb]
 version: "1.110"
 unicode: "f59c"
 -->

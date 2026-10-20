@@ -26,7 +26,7 @@ class FileDatabase extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, storage, folder, format, server, file, database, document, content, record]
+tags: [database, sql, data, storage, db, document, file, backup, records]
 category: Document
 version: "1.56"
 unicode: "f037"

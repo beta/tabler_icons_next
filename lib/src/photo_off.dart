@@ -26,7 +26,7 @@ class PhotoOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [picture, landscape, camera, photo, off, content, entertainment, disabled, inactive, multimedia]
+tags: [image, picture, gallery, img, photography, media, disabled, inactive, slash, crossed-out, thumbnail, landscape, photo, off]
 category: Media
 version: "1.22"
 unicode: "ecf6"

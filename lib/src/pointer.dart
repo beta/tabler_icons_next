@@ -26,7 +26,7 @@ class Pointer extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cursor, mouse, point, click, arrow, pointer, control, operation, function, interface]
+tags: [cursor, mouse-pointer, mouse, arrow, click, select, cursor-arrow, pointer]
 category: System
 version: "1.76"
 unicode: "f265"

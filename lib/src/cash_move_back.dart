@@ -27,7 +27,7 @@ class CashMoveBack extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [cash, move, back, money, currency, payment, finance, dollar, banknote, transfer]
+tags: [cash, money, payment, currency, finance, dollar, banknote, move-back, transfer, return, receive, incoming, refund, bill, move, back]
 version: "3.31"
 unicode: "10140"
 -->

@@ -26,7 +26,7 @@ class DatabaseLeak extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [breach, spill, expose, release, discharge, seep, escape, overflow, disclose, reveal]
+tags: [leak, breach, data-leak, exposed, security, database, db, data, storage]
 version: "2.13"
 unicode: "fa15"
 category: Database

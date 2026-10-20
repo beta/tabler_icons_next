@@ -27,7 +27,7 @@ class Boom extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [blast, explosion, bang, detonation, burst, erupt, shockwave, blowup, kaboom, boom]
+tags: [explosion, blast, bang, burst, kaboom, comic, pow, boom]
 unicode: "fdbe"
 version: "3.0"
 -->

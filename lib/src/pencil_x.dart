@@ -27,7 +27,7 @@ class PencilX extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [cancel, remove, delete, reject, erase, dismiss, cross, negate, decline, abandon]
+tags: [edit, write, draw, modify, pen, compose, close, delete, remove, cancel, clear, update, change]
 version: "2.28"
 unicode: "fc0e"
 -->

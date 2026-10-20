@@ -26,7 +26,7 @@ class Grill extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, sasuage, beef, steak, bbq, cooking, grill, meal, cuisine, eating]
+tags: [grill, bbq, barbecue, cooking, food, meat, steak, sausage, outdoor-cooking]
 category: Food
 version: "1.48"
 unicode: "efa9"

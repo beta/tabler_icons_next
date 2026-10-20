@@ -26,7 +26,7 @@ class HandSanitizer extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hygiene, gel, alcohol, wash, virus, hand, sanitizer, medical, wellness, healthcare]
+tags: [sanitizer, hand-sanitizer, hygiene, disinfectant, alcohol, gel, clean, covid, wash, bottle, hand]
 category: Health
 version: "1.113"
 unicode: "f5f4"

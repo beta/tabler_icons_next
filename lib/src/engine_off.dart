@@ -26,7 +26,7 @@ class EngineOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [car, motor, automotive, dashboard, engine, off, transport, travel, disabled, inactive]
+tags: [engine, motor, car, automotive, check-engine, vehicle, disabled, inactive, unavailable, slash, turn-off, mechanic, repair, off]
 category: Vehicles
 version: "1.65"
 unicode: "f120"

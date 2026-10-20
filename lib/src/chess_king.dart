@@ -26,7 +26,7 @@ class ChessKing extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, figure, strategy, pawn, chess, king, athletic, fitness, exercise, physical]
+tags: [king, checkmate, crown, chess, chess-piece, piece, board-game, game, strategy, play]
 category: Sport
 version: "1.107"
 unicode: "f56c"

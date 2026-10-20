@@ -27,7 +27,7 @@ class Wallpaper extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [picture, photo, decoration, house, room, decor, wallpaper]
+tags: [wallpaper, background, image, picture, decor, bricks, backdrop, desktop-background]
 version: "1.43"
 unicode: "ef56"
 -->

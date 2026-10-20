@@ -26,7 +26,7 @@ class PhotoSearch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gallery, find, zoom, photo, search, look, seek, content, entertainment, query]
+tags: [image-search, reverse-search, image, picture, gallery, img, photography, media, find, magnifier, lookup, zoom, thumbnail, landscape, photo, search]
 category: Media
 version: "1.89"
 unicode: "f364"

@@ -27,7 +27,7 @@ class FlagHeart extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [love, like, passion, affection, adore, cherish, fondness, romance, emotion, favor]
+tags: [report, banner, milestone, love, like, favorite, favourite, mark, country, goal]
 version: "2.28"
 unicode: "fb93"
 -->

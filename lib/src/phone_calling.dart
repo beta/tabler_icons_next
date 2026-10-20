@@ -26,7 +26,7 @@ class PhoneCalling extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ring, mobile, conversation, answer, dial, landline, phone, calling, call, hardware]
+tags: [calling, call, in-progress, dialing, telephone, contact, handset, active-call, phone]
 category: Devices
 version: "1.11"
 unicode: "ec43"

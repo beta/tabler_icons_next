@@ -27,7 +27,7 @@ class Ladle extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [scoop, spoon, serve, pour, kitchen, utensil, cook, ladle, bowl, liquid]
+tags: [ladle, spoon, scoop, soup, kitchen, utensil, cooking, serve]
 version: "2.29"
 unicode: "fc14"
 -->

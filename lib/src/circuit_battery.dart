@@ -26,7 +26,7 @@ class CircuitBattery extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [diagram, electric, electricity, power, circuit, battery, charge, energy, voltage, current]
+tags: [battery, cell, power, dc, voltage, source, circuit, electronics, electrical, schematic, diagram, electricity, component]
 category: Electrical
 version: "1.77"
 unicode: "f272"

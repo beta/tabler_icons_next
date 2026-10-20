@@ -26,7 +26,7 @@ class PingPong extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [table, tennis, ball, sport, racket, ping, pong, athletic, fitness, exercise]
+tags: [table-tennis, paddle, racket, ball, sport, game, ping, pong]
 category: Sport
 version: "1.91"
 unicode: "f38d"

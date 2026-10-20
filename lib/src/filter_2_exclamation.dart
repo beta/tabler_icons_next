@@ -26,7 +26,7 @@ class Filter2Exclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, exclamation, sort, organize, arrange, select, refine, sieve, screen, alert]
+tags: [filter, filtering, sort, warning, alert, error, attention, refine, list, options, important, caution, exclamation]
 category: System
 version: "3.32"
 unicode: "10156"

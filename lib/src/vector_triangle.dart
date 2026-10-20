@@ -26,7 +26,7 @@ class VectorTriangle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [curve, parametric, design, vector graphics, placement, vector, triangle, creative, artistic, visual]
+tags: [vector, triangle, graphics, path, anchor, points, design, vector-graphics]
 category: Design
 version: "1.17"
 unicode: "eca8"

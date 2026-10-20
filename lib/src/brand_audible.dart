@@ -26,7 +26,7 @@ class BrandAudible extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [audiobook, audio, books, listening, amazon, subscription, digital, brand, audible, logo]
+tags: [audible, audiobook, audio, books, amazon, listening, subscription, logo, brand]
 category: Brand
 unicode: "10252"
 version: "3.43"

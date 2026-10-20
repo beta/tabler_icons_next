@@ -26,7 +26,7 @@ class RefreshDot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [again, reload, arrows, loading, replay, refresh, dot, navigation, flow, movement]
+tags: [refresh, reload, sync, update, replay, again, arrows, dot]
 category: Arrows
 version: "1.49"
 unicode: "efbf"

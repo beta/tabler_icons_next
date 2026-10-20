@@ -27,7 +27,7 @@ class NavigationDiscount extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [sale, offer, promotion, deal, coupon, rebate, markdown, pricecut, bargain, savings]
+tags: [gps, arrow, direction, location, cursor, compass, sale, promo, offer, percent, coupon, route, map, pointer]
 version: "2.28"
 unicode: "fbee"
 -->

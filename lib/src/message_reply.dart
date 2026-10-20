@@ -27,7 +27,7 @@ class MessageReply extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [respond, answer, react, return, comment, feedback, acknowledge, rejoinder, correspond, rejoin]
+tags: [reply, respond, answer, chat, comment, speech-bubble, feedback, response, conversation]
 version: "2.42"
 unicode: "fd4d"
 -->

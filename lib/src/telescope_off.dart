@@ -27,7 +27,7 @@ class TelescopeOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [astronomy, moon, observation, vision, space, astrology, telescope, off, disabled, inactive]
+tags: [astronomy, space, stars, observe, disabled, inactive, telescopic, science, telescope, off]
 version: "1.67"
 unicode: "f1ae"
 -->

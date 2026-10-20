@@ -27,7 +27,7 @@ class HammerOff extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [tool, repair, building, construction, hammer, off, disabled, inactive]
+tags: [hammer, tool, repair, build, construction, fix, disabled, off-state, unavailable, off]
 version: "1.66"
 unicode: "f13c"
 -->

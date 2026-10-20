@@ -27,7 +27,7 @@ class FilterDollar extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [currency, money, finance, commerce, cost, dollar, economy, wealth, trade, value]
+tags: [funnel, filtering, sort, money, price, payment, cost, refine, narrow, currency, usd, finance, dollar]
 version: "2.12"
 unicode: "f9ff"
 -->

@@ -27,7 +27,7 @@ class LocationQuestion extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [query, ask, inquire, probe, quiz, wonder, explore, interrogate, investigate, doubt]
+tags: [location, navigation, gps, arrow, pointer, direction, map, position, help, question, faq, unknown, support]
 version: "2.28"
 unicode: "fbbd"
 -->

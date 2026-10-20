@@ -26,7 +26,7 @@ class BadgeTm extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, brand, copyright, logo, product, badge, tm, award, achievement, recognition]
+tags: [trademark, brand, legal, label, symbol, trademark-symbol, registered, copyright, tag, badge, tm]
 category: Badges
 version: "1.106"
 unicode: "f55d"

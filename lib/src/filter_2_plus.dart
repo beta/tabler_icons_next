@@ -26,7 +26,7 @@ class Filter2Plus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, plus, sort, organize, arrange, select, refine, sieve, screen, add]
+tags: [filter, filtering, sort, add, new, create, insert, refine, list, options, more, plus]
 category: System
 version: "3.32"
 unicode: "10152"

@@ -26,7 +26,7 @@ class ThinkingLow extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [thinking, thought, mind, brain, ai, reasoning, intelligence, idea, low, cognition]
+tags: [reasoning, thinking, ai, brain, effort, low, intelligence, mind, level]
 category: Development
 unicode: "10281"
 version: "3.46"

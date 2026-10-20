@@ -27,7 +27,7 @@ class DeviceImacPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [increase, add, augment, boost, expand, enhance, grow, raise, amplify, elevate]
+tags: [plus, add, new, create, imac, mac, apple, computer, desktop, monitor]
 version: "2.10"
 unicode: "f87e"
 -->

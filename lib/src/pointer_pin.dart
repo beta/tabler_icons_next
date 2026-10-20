@@ -27,7 +27,7 @@ class PointerPin extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [attach, fix, hold, secure, bookmark, mark, place, fasten, nail, tack]
+tags: [cursor, mouse-pointer, mouse, pinned, pushpin, location, attach, arrow, click]
 version: "2.10"
 unicode: "f9a5"
 -->

@@ -26,7 +26,7 @@ class HttpHead extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [leader, chief, retrieve, front, top, advance, fetch, initial, commencement, start]
+tags: [head, headers, metadata, http, api, request, method, rest, endpoint, web]
 category: Computers
 version: "2.14"
 unicode: "fa2b"

@@ -26,7 +26,7 @@ class Route extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [path, journey, direction, trail, navigate, travel, way, road, travel-route, route-way]
+tags: [path, directions, journey, navigation, map, trip, way, gps]
 category: Map
 version: "1.0"
 unicode: "eb17"

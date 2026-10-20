@@ -26,7 +26,7 @@ class AlphabetBangla extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [language, alphabet, bangla, bengali, typography, writing, font, character, word, letters]
+tags: [bengali, language, script, letters, writing, text, typography, alphabet, bangla]
 category: Text
 version: "3.8"
 unicode: "ff2e"

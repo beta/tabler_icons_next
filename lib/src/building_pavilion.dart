@@ -26,7 +26,7 @@ class BuildingPavilion extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [place, party, residence, ornamentation, building, pavilion, architecture, structure, construction, property]
+tags: [pavilion, pagoda, temple, gazebo, asian, chinese, architecture, building]
 category: Buildings
 version: "1.8"
 unicode: "ebf7"

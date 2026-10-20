@@ -27,7 +27,7 @@ class DropCircle extends Icon {
 
   static const String _svg = '''<!--
 category: Nature
-tags: [water, rain, droplet, oil, drop, circle, round, circular]
+tags: [drop, droplet, water, liquid, rain, circle, ink, oil, color]
 version: "1.51"
 unicode: "efde"
 -->

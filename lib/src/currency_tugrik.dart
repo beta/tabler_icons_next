@@ -26,7 +26,7 @@ class CurrencyTugrik extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tgrg, mnt, tugrik, mongolian, money, banknote, pay, currency, finance, payment]
+tags: [tugrik, mnt, mongolia, mongolian, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "ee6a"

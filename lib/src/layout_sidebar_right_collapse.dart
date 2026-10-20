@@ -26,7 +26,7 @@ class LayoutSidebarRightCollapse extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grid, aside, column, columns, menu, navigation, layout, sidebar, right, collapse]
+tags: [sidebar, collapse, hide, close, drawer, side-panel, right, layout, ui]
 category: Design
 version: "1.53"
 unicode: "f006"

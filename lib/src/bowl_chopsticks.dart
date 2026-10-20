@@ -27,7 +27,7 @@ class BowlChopsticks extends Icon {
 
   static const String _svg = '''<!--
 category: Food
-tags: [asian, meal, noodles, utensils, dine, cookware, culinary, dish, eat, serve]
+tags: [asian, ramen, noodles, rice, food, meal, restaurant]
 version: "2.46"
 unicode: "fd90"
 -->

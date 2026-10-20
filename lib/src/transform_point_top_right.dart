@@ -27,7 +27,7 @@ class TransformPointTopRight extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [reshape, edit, adjust, modify, transform, right, top, point, corner, design]
+tags: [transform, anchor-point, origin, pivot, top-right, corner, reference, anchor, point, top, right]
 version: "2.47"
 unicode: "fda8"
 -->

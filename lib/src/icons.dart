@@ -26,7 +26,7 @@ class Icons extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [design, picture, icons, geometry, form, figure, pattern, outline]
+tags: [icons, icon-set, shapes, symbols, design, graphics, assets, library]
 category: Shapes
 version: "1.68"
 unicode: "f1d4"

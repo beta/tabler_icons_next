@@ -26,7 +26,7 @@ class CellSignalOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mobile, phone, connetcion, wireless, network, cell, signal, off, hardware, technology]
+tags: [signal, cell-signal, mobile-signal, reception, bars, network, cellular, disabled, off, unavailable, inactive, no-signal, no-service, offline, strength, phone, cell]
 category: Devices
 version: "1.60"
 unicode: "f088"

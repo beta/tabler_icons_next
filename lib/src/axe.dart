@@ -26,7 +26,7 @@ class Axe extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [blade, wood, tool, hatchet, axe, entertainment, playing, recreation, fun, activity]
+tags: [hatchet, tool, wood, chop, lumberjack, camping, weapon, axe]
 category: Games
 version: "1.48"
 unicode: "ef9f"

@@ -26,7 +26,7 @@ class WindmillOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [generate, power, blade, energy, electricity, windmill, off, location, navigation, disabled]
+tags: [windmill, wind-turbine, energy, disabled, inactive, gust, wind-power, mill, off]
 category: Map
 version: "1.67"
 unicode: "f1c8"

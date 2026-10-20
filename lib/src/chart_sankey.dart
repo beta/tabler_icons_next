@@ -26,7 +26,7 @@ class ChartSankey extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [graph, diagram, curves, analytics, chart, sankey, statistics, visualization, metrics, report]
+tags: [chart, graph, statistics, analytics, data, report, diagram, sankey, flow, visualization]
 category: Charts
 version: "1.115"
 unicode: "f619"

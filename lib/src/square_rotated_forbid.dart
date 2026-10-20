@@ -27,7 +27,7 @@ class SquareRotatedForbid extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [shape, geometry, rhombus, ban, restricted, square, rotated, forbid, rectangular]
+tags: [diamond, forbidden, ban, blocked, restricted, prohibited, no-entry, rhombus, shape, square, rotated, forbid]
 version: "1.54"
 unicode: "f01c"
 -->

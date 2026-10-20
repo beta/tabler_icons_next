@@ -27,7 +27,7 @@ class BrowserShare extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [distribute, post, publish, forward, send, divulge, communicate, transmit, spread, propagate]
+tags: [browser, window, web, internet, webpage, website, tab, share, send, forward, export, link, app]
 unicode: "100ae"
 version: "3.23"
 -->

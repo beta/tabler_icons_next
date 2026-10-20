@@ -26,7 +26,7 @@ class Dna2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [genetics, biology, chain, genetic, code, virus, organism, dna, medical, wellness]
+tags: [dna, genetics, gene, genome, biology, helix, double-helix, science, biotech, laboratory]
 category: Health
 version: "1.44"
 unicode: "ef5c"

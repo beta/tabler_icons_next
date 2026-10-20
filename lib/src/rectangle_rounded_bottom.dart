@@ -26,7 +26,7 @@ class RectangleRoundedBottom extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, design, layout, ui, interface, style, form, geometry, rounded, bottom]
+tags: [rectangle, shape, rounded-corners, border-radius, bottom, tab, ui, rounded]
 category: Shapes
 version: "2.23"
 unicode: "faed"

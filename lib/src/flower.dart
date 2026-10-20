@@ -26,7 +26,7 @@ class Flower extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [plant, garden, rose, lotus, flower, environment, natural, outdoor, ecosystem, earth]
+tags: [flower, blossom, bloom, plant, garden, rose, spring, nature, floral, daisy]
 category: Nature
 version: "1.52"
 unicode: "eff6"

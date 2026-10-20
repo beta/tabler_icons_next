@@ -26,7 +26,7 @@ class BrandNetbeans extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, programming, tools, java, mobile devices, brand, netbeans, logo, company, trademark]
+tags: [netbeans, apache, ide, java, editor, programming, logo, brand]
 category: Brand
 version: "1.45"
 unicode: "ef71"

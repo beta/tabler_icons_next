@@ -26,7 +26,7 @@ class Star extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [favorite, like, mark, bookmark, grade, star, control, operation, rating, function]
+tags: [favorite, rating, rate, review, bookmark, like, featured, favourite, star]
 category: System
 version: "1.0"
 unicode: "eb2e"

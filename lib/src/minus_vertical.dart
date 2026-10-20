@@ -27,7 +27,7 @@ class MinusVertical extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [subtract, less, divide, minus, vertical, remove, decrease, negative]
+tags: [divider, separator, vertical-line, pipe, bar, line, subtract, minus, vertical]
 version: "1.39"
 unicode: "eeb4"
 -->

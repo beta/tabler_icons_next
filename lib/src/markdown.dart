@@ -26,7 +26,7 @@ class Markdown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [price, valuation, cost, exchange, markdown, typography, writing, font, character, word]
+tags: [md, markup, text-format, formatting, syntax, readme, document, writing, markdown]
 category: Text
 version: "1.11"
 unicode: "ec41"

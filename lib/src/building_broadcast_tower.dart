@@ -26,7 +26,7 @@ class BuildingBroadcastTower extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [communication, internet, signal, building, broadcast, tower, architecture, structure, construction, property]
+tags: [broadcast-tower, radio-tower, antenna, tower, transmitter, signal, broadcast, communication, building]
 category: Buildings
 version: "1.98"
 unicode: "f4be"

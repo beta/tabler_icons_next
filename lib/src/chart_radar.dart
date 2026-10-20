@@ -26,7 +26,7 @@ class ChartRadar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, data, value, two, dimensions, variable, report, points, chart, radar]
+tags: [chart, graph, statistics, analytics, data, report, diagram, radar-chart, spider-chart, web-chart, visualization, radar]
 category: Charts
 version: "1.33"
 unicode: "ed77"

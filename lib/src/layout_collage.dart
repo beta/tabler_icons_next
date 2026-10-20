@@ -26,7 +26,7 @@ class LayoutCollage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grid, dashboard, interface, editing, layout, collage, creative, artistic, visual, aesthetic]
+tags: [collage, layout, grid, photo-grid, masonry, gallery, ui]
 category: Design
 version: "1.91"
 unicode: "f389"

@@ -26,7 +26,7 @@ class Biohazard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [danger, radioactive, toxic, microbe, virus, biotoxin, biohazard, sign, mark, emblem]
+tags: [hazard, toxic, danger, biological, virus, warning, contamination, biohazard]
 category: Symbols
 version: "1.18"
 unicode: "ecb8"

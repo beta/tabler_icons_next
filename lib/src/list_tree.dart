@@ -27,7 +27,7 @@ class ListTree extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [hierarchy, structure, outline, directory, classification, taxonomy, organization, scheme, framework, overview]
+tags: [tree-view, tree, nested-list, hierarchy, outline, nested, indent, structure]
 version: "2.24"
 unicode: "fafa"
 -->

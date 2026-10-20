@@ -26,7 +26,7 @@ class SortDescending extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, classify, arrange, order, sort, descending, typography, writing, font, character]
+tags: [sort, descending, desc, order, arrange, list, filter]
 category: Text
 version: "1.0"
 unicode: "eb27"

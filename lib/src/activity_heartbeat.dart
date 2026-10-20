@@ -27,7 +27,7 @@ class ActivityHeartbeat extends Icon {
 
   static const String _svg = '''<!--
 category: Health
-tags: [pulse, lifeline, impuls, hospital, heartrate, activity, heartbeat, love, like, motion]
+tags: [pulse, heart-rate, ekg, ecg, cardio, health, medical, hospital, vital-signs, monitor, activity, heartbeat]
 version: "1.64"
 unicode: "f0db"
 -->

@@ -27,7 +27,7 @@ class AdCircle extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [marketing, promotion, advertisement, shape, circle, round, circular, ad]
+tags: [advertisement, advert, advertising, marketing, commercial, promotion, sponsored, ads, billboard, round, ad, circle]
 version: "2.6"
 unicode: "f79e"
 -->

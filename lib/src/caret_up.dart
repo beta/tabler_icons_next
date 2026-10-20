@@ -26,7 +26,7 @@ class CaretUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [dropdown, less, up, caret, top, increase, navigation, flow, rise, upward]
+tags: [caret-up, caret, triangle, arrow-up, up, collapse, dropdown, chevron]
 category: Arrows
 version: "1.2"
 unicode: "eb60"

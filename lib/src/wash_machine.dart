@@ -26,7 +26,7 @@ class WashMachine extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bathroom, clean, cleaning, laundry, machine, clothes, wash, hardware, technology, electronic]
+tags: [washing-machine, washer, laundry, appliance, clothes, laundry-symbol, garment, textile, washing, wash, machine]
 category: Devices
 version: "1.75"
 unicode: "f25e"

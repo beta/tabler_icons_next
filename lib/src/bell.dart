@@ -26,7 +26,7 @@ class Bell extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alarm, sound, notification, bell, control, operation, function, interface, management]
+tags: [notification, alert, reminder, notify, alarm, notifications, ring, inbox, subscribe, bell]
 category: System
 version: "1.0"
 unicode: "ea35"

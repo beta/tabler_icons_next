@@ -26,7 +26,7 @@ class CashRegister extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [payment, money, pay, cashier, register, purchase, checkout, transaction, cash, store]
+tags: [cash-register, register, pos, point-of-sale, checkout, cashier, till, store, shop, payment, cash]
 category: E-commerce
 version: "3.4"
 unicode: "fee6"

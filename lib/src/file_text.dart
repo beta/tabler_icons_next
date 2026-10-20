@@ -26,7 +26,7 @@ class FileText extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, pdf, txt, file, text, document, content, record, paper, information]
+tags: [text, document, txt, doc, article, page, notes, file, content, paper]
 category: Document
 version: "1.0"
 unicode: "eaa2"

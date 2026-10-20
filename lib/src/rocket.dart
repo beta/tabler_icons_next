@@ -26,7 +26,7 @@ class Rocket extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [universe, galaxy, space, journey, discover, extraterrestrial, spaceship, rocket, location, navigation]
+tags: [launch, startup, space, spaceship, deploy, boost, fast, release, rocket]
 category: Map
 version: "1.11"
 unicode: "ec45"

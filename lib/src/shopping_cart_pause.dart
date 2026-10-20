@@ -27,7 +27,7 @@ class ShoppingCartPause extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [halt, stop, delay, suspend, break, interrupt, cease, intermission, freeze, postpone]
+tags: [shopping-cart, cart, basket, pause, hold, suspended, wait, trolley, shop, store, checkout, ecommerce, buy]
 version: "2.28"
 unicode: "fb63"
 -->

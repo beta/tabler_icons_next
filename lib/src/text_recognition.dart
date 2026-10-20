@@ -26,7 +26,7 @@ class TextRecognition extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [language, processing, detection, text, recognition, typography, writing, font, character, word]
+tags: [ocr, text-recognition, scan, extract, read, document, optical, formula, text, recognition]
 category: Text
 version: "1.70"
 unicode: "f204"

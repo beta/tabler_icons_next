@@ -26,7 +26,7 @@ class Filter2Cog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, cog, sort, organize, arrange, select, refine, sieve, screen, gear]
+tags: [filter, filtering, sort, settings, gear, config, configuration, refine, list, options, preferences, cog]
 category: System
 version: "3.32"
 unicode: "1015b"

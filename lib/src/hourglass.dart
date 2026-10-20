@@ -26,7 +26,7 @@ class Hourglass extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, timer, sand, clock, hourglass, control, operation, function, interface, management]
+tags: [hourglass, sand-timer, timer, time, wait, loading, countdown, deadline]
 category: System
 version: "1.47"
 unicode: "ef93"

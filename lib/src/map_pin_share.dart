@@ -26,7 +26,7 @@ class MapPinShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [location, gps, pointer, marker, place, send, map, pin, share, navigation]
+tags: [pin, marker, location, place, gps, map, point, poi, share-location, send-location, share, send, forward]
 category: Map
 version: "2.5"
 unicode: "f795"

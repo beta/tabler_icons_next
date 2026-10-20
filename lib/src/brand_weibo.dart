@@ -26,7 +26,7 @@ class BrandWeibo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [china, share, messages, internet, service, brand, weibo, logo, company, trademark]
+tags: [weibo, sina, social, social-media, microblog, china, logo, brand]
 category: Brand
 version: "1.114"
 unicode: "f609"

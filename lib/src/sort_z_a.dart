@@ -26,7 +26,7 @@ class SortZA extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alphabet, letters, alphabetical, sort, typography, writing, font, character, word, z]
+tags: [sort, alphabetical, descending, order, z-a, letters, arrange, z]
 category: Text
 version: "1.105"
 unicode: "f550"

@@ -26,7 +26,7 @@ class Sum extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [equation, add, plus, amount, total, sum, calculation, mathematics, numeric, formula]
+tags: [sigma, total, summation, add, math, formula, aggregate, sigma-symbol, calculate, sum]
 category: Math
 version: "1.2"
 unicode: "eb73"

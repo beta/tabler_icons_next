@@ -26,7 +26,7 @@ class FileDislike extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [rejected, document, file, dislike, data, content, record, paper, text, information]
+tags: [dislike, thumbs-down, reject, rejected, bad, disapprove, document, file, feedback]
 category: Document
 version: "1.26"
 unicode: "ed2a"

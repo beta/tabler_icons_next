@@ -26,7 +26,7 @@ class BrandFunimation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [dubbing, japan, anime, stream, website, brand, funimation, logo, company, trademark]
+tags: [funimation, anime, streaming, video, japan, crunchyroll, logo, brand]
 category: Brand
 version: "1.119"
 unicode: "f655"

@@ -26,7 +26,7 @@ class BrandGoogleBigQuery extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, analysis, cloud, petabytes, sql, brand, google, big, query, logo]
+tags: [bigquery, google-cloud, google, data-warehouse, sql, analytics, database, logo, brand, big, query]
 category: Brand
 version: "1.115"
 unicode: "f612"

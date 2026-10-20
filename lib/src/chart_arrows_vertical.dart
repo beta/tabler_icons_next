@@ -26,7 +26,7 @@ class ChartArrowsVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, data, value, variable, scale, statistical, level, increase, decrease, chart]
+tags: [chart, graph, statistics, analytics, data, report, diagram, arrows, trend, growth, progress, vertical, visualization]
 category: Charts
 version: "1.39"
 unicode: "ee29"

@@ -26,7 +26,7 @@ class Peace extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [love, hippy, minority, opinion, equilibrium, peace, sign, mark, emblem, representation]
+tags: [peace-sign, pacifism, no-war, love, hippie, symbol, harmony, peace]
 category: Symbols
 version: "1.18"
 unicode: "ecbe"

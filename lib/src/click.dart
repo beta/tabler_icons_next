@@ -27,7 +27,7 @@ class Click extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [select, cursor, click, design]
+tags: [click, tap, select, cursor, pointer, mouse, touch, press, interaction]
 version: "1.5"
 unicode: "ebbc"
 -->

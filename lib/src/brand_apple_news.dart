@@ -26,7 +26,7 @@ class BrandAppleNews extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [media, journalism, information, update, headlines, articles, stories, news, outlet, current]
+tags: [apple-news, apple, news, articles, headlines, journalism, media, ios, logo, brand]
 category: Brand
 unicode: "ff24"
 version: "3.8"

@@ -26,7 +26,7 @@ class FreezeRow extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fix, lock, halt, arrest, stabilize, hold, cease, steady, stop, anchor]
+tags: [freeze-row, freeze-pane, lock-row, pin-row, spreadsheet, excel, table, sticky, header-row]
 category: Design
 version: "2.17"
 unicode: "fa65"

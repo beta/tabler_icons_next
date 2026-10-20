@@ -26,7 +26,7 @@ class Unlink extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [chain, url, address, remove, broke, unconnect, unlink, typography, writing, font]
+tags: [unlink, broken-link, remove-link, disconnect, detach, url, hyperlink, chain]
 category: Text
 version: "1.0"
 unicode: "eb46"

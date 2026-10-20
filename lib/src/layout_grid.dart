@@ -26,7 +26,7 @@ class LayoutGrid extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [layout, table, network, pattern, grid, creative, artistic, visual, aesthetic, style]
+tags: [grid, layout, apps, tiles, gallery, thumbnails, grid-view, ui]
 category: Design
 version: "1.0"
 unicode: "edba"

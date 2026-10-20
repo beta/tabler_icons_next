@@ -26,7 +26,7 @@ class FileMusic extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mp3, wma, wav, file, music, document, data, content, record, paper]
+tags: [audio, music, sound, song, mp3, wav, track, document, file, media]
 category: Document
 version: "1.0"
 unicode: "ea9f"

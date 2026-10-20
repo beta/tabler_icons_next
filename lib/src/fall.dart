@@ -26,7 +26,7 @@ class Fall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [collapse, damage, cliff, height, fall, medical, wellness, healthcare, treatment, care]
+tags: [fall, falling, slip, trip, accident, injury, person, elderly, fall-detection, safety]
 category: Health
 version: "1.18"
 unicode: "ecb9"

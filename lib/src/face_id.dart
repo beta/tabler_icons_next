@@ -27,7 +27,7 @@ class FaceId extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [apple, iphone, ipad, face, id]
+tags: [face-id, face-recognition, facial-recognition, biometric, authentication, unlock, scan, apple, iphone, login, face, id]
 version: "1.0"
 unicode: "ea9b"
 -->

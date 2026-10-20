@@ -26,7 +26,7 @@ class BuildingLighthouse extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [light, sea, tower, beacon, flash, ship, guide, lightship, leading, watchtower, signal]
+tags: [lighthouse, beacon, sea, coast, tower, navigation, light, ship, maritime]
 category: Buildings
 version: "1.34"
 unicode: "ed8a"

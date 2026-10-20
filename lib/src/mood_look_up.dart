@@ -27,7 +27,7 @@ class MoodLookUp extends Icon {
 
   static const String _svg = '''<!--
 category: Mood
-tags: [upward-look, gaze-up, optimistic, positive-mood, cheerful, uplifting, hopeful, skyward-glance, inspired, joyful]
+tags: [look-up, looking-up, eye-roll, thinking, eyes, emoji, smiley, face, emotion, feeling, reaction]
 version: "2.41"
 unicode: "fd38"
 -->

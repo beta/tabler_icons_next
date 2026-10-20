@@ -26,7 +26,7 @@ class Campfire extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [camping, bonfire, wood, camp, burn, flame, campfire, location, navigation, geography]
+tags: [campfire, bonfire, fire, camping, camp, flame, outdoor, wood]
 category: Map
 version: "1.110"
 unicode: "f5a7"

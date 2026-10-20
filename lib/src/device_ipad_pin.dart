@@ -27,7 +27,7 @@ class DeviceIpadPin extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [mark, location, place, point, map, navigation, gps, spot, destination, marker]
+tags: [ipad, tablet, apple, location, map-pin, marker, place, ios, device, mobile, gps, geolocation]
 version: "2.10"
 unicode: "f8a5"
 -->

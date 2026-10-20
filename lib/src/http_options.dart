@@ -26,7 +26,7 @@ class HttpOptions extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [choices, selection, preferences, variety, alternatives, possibilities, methods, ways, approaches, http]
+tags: [options, cors, preflight, allowed-methods, http, api, request, method, rest, endpoint, web]
 category: Computers
 version: "2.14"
 unicode: "fa2c"

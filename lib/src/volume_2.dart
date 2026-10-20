@@ -26,7 +26,7 @@ class Volume2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, sound, speaker, volume, content, entertainment, multimedia, broadcast, audio, 2]
+tags: [volume, sound, speaker, audio, low, quiet, loudness, speaker-low]
 category: Media
 version: "1.0"
 unicode: "eb4f"

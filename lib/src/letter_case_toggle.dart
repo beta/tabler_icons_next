@@ -26,7 +26,7 @@ class LetterCaseToggle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [typography, font, text, style, content, letter, case, toggle, writing, character]
+tags: [letter-case, toggle-case, change-case, uppercase, lowercase, typography, text-editor, letter, case, toggle]
 category: Text
 version: "1.39"
 unicode: "eea3"

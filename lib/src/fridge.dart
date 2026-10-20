@@ -26,7 +26,7 @@ class Fridge extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [kitchen, cooler, control, freezer, food, fridge, hardware, technology, electronic, gadget]
+tags: [fridge, refrigerator, freezer, kitchen, appliance, cold, food, cooler, home]
 category: Devices
 version: "1.70"
 unicode: "f1fa"

@@ -27,7 +27,7 @@ class EyePause extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [halt, delay, stop, vision, sight, break, rest, cease, view, focus]
+tags: [view, visibility, show, paused, hold, suspend, wait, see, vision, preview, watch, break]
 version: "2.28"
 unicode: "fb74"
 -->

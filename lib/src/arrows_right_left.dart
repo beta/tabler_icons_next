@@ -26,7 +26,7 @@ class ArrowsRightLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, east, west, arrows, right, left, navigation, flow, movement, route]
+tags: [right-left, swap, exchange, horizontal, pointer, navigation, direction, arrows, right, left]
 category: Arrows
 version: "1.35"
 unicode: "edb2"

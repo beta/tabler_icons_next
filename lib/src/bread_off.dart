@@ -26,7 +26,7 @@ class BreadOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, breakfast, sandwich, toast, baking, bread, off, meal, cuisine, disabled]
+tags: [bread, loaf, toast, bakery, food, breakfast, sandwich, disabled, off, unavailable, inactive, gluten-free, no-bread, baguette]
 category: Food
 version: "1.94"
 unicode: "f3cb"

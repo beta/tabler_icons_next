@@ -26,7 +26,7 @@ class LawnMower extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [lawn, mower, grass, garden, yard, landscaping, outdoor, equipment, machine, hardware]
+tags: [lawn-mower, mower, grass, lawn, garden, yard, mowing, gardening]
 category: Devices
 unicode: "10236"
 version: "3.42"

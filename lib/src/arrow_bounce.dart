@@ -26,7 +26,7 @@ class ArrowBounce extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, cursor, up, pointer, move, arrow, bounce, navigation, flow, navigate]
+tags: [jump, rebound, curve, trajectory, motion, pointer, navigation, direction, arrow, bounce]
 category: Arrows
 version: "1.93"
 unicode: "f3a4"

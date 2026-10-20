@@ -27,7 +27,7 @@ class LockPause extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [stop, halt, interruption, break, suspend, delay, hold, pause, wait, interlude]
+tags: [lock, padlock, locked, security, secure, password, private, protected, pause, paused, wait, hold, suspend]
 version: "2.10"
 unicode: "f92e"
 -->

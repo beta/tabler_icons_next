@@ -26,7 +26,7 @@ class TextDecrease extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [indent, minimalize, smaller, editor, size, edit, text, decrease, typography, writing]
+tags: [font-size, smaller, decrease, shrink, text-size, typography, editor, formula, text]
 category: Text
 version: "1.70"
 unicode: "f202"

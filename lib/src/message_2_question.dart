@@ -27,7 +27,7 @@ class Message2Question extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [inquiry, ask, query, doubt, probe, interrogate, wonder, ponder, curiosity, investigate]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, help, faq, support, unknown, ask, reply, communication, dm]
 version: "2.10"
 unicode: "f968"
 -->

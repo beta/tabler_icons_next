@@ -26,7 +26,7 @@ class AlignBoxLeftStretch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [layout, position, padding, design, interface, spacing, css, align, flex, grid]
+tags: [alignment, layout, position, text-align, flexbox, justify, container, anchor, fill, align]
 category: Text
 version: "2.22"
 unicode: "face"

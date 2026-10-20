@@ -26,7 +26,7 @@ class BadgeCc extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, accessiblity, subtitles, youtube, netflix, badge, cc, award, achievement, recognition]
+tags: [closed-captions, captions, subtitles, accessibility, video, label, subtitles-on, transcript, badge, cc]
 category: Badges
 version: "1.106"
 unicode: "f55a"

@@ -26,7 +26,7 @@ class CameraPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [video, photo, aperture, camera, plus, content, entertainment, add, more, increase]
+tags: [camera, photo, photography, picture, video, lens, image, add, new, create, plus, add-photo]
 category: Media
 version: "1.11"
 unicode: "ec3b"

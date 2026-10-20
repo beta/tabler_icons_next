@@ -26,7 +26,7 @@ class TimelineEventX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [calendar, schedule, date, remove, cross, delete, timeline, event, programming, software]
+tags: [timeline, event, milestone, remove, delete, cancel, close, events]
 category: Development
 version: "1.119"
 unicode: "f666"

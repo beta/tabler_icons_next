@@ -26,7 +26,7 @@ class BrandFortnite extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [games, online, battle, multiplayer, gun, weapon, building, brand, fortnite, logo]
+tags: [fortnite, epic-games, game, battle-royale, video-game, gaming, shooter, logo, brand]
 category: Brand
 version: "1.76"
 unicode: "f260"

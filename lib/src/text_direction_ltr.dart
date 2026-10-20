@@ -26,7 +26,7 @@ class TextDirectionLtr extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [left, right, bidi, text, direction, ltr, typography, writing, font, character]
+tags: [left-to-right, ltr, text-direction, bidi, paragraph, alignment, writing, formula, text, direction]
 category: Text
 version: "1.39"
 unicode: "eefc"

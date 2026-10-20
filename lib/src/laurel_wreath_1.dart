@@ -27,7 +27,7 @@ class LaurelWreath1 extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [victory, achievement, winner, honor, prize, gala, celebrate, ornament, leaf, garland]
+tags: [laurel, wreath, first-place, 1st, winner, award, victory, gold, champion, ranking]
 unicode: "ff48"
 version: "3.10"
 -->

@@ -26,7 +26,7 @@ class BrandEnvato extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [community, creative, resources, tools, brand, envato, logo, company, trademark, identity]
+tags: [envato, themeforest, marketplace, templates, themes, creative, assets, logo, brand]
 category: Brand
 version: "1.92"
 unicode: "f394"

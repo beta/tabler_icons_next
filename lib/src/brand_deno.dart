@@ -26,7 +26,7 @@ class BrandDeno extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, javascript, programming, typescript, brand, deno, logo, company, trademark, identity]
+tags: [deno, javascript, typescript, runtime, server, backend, dinosaur, logo, brand]
 category: Brand
 version: "1.75"
 unicode: "f24f"

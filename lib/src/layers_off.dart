@@ -26,7 +26,7 @@ class LayersOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [stack, document, file, pages, layers, off, creative, artistic, disabled, visual]
+tags: [layers, stack, hide-layers, disabled, off-state, unavailable, off]
 category: Design
 version: "1.66"
 unicode: "f150"

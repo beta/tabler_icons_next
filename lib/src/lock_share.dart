@@ -27,7 +27,7 @@ class LockShare extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [distribute, send, publish, post, connect, spread, transfer, partake, give, circulate]
+tags: [lock, padlock, locked, security, secure, password, private, protected, share, send, forward]
 version: "2.10"
 unicode: "f933"
 -->

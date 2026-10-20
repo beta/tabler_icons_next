@@ -26,7 +26,7 @@ class ClipboardPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [document, file, add, new, clipboard, plus, more, increase, positive, additional]
+tags: [plus, add, new, create, clipboard, paste, document, task, notes]
 category: Document
 version: "1.49"
 unicode: "efb2"

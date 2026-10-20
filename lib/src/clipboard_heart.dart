@@ -26,7 +26,7 @@ class ClipboardHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [medical, health, healthcare, medicine, hospital, clipboard, heart, love, like, file]
+tags: [heart, medical, health, healthcare, patient, record, favorite, clipboard, paste, document, task, notes]
 category: Document
 version: "1.88"
 unicode: "f34e"

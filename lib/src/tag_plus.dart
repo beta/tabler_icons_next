@@ -26,7 +26,7 @@ class TagPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [label, price, tag, plus, store, purchase, add, more, increase, positive]
+tags: [label, price-tag, add, create, new, price, add-tag, sale, shopping, tag, plus]
 category: E-commerce
 version: "3.22"
 unicode: "10097"

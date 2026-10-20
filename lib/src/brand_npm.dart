@@ -26,7 +26,7 @@ class BrandNpm extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [package, manager, node.js, javascript, brand, npm, logo, company, trademark, identity]
+tags: [npm, node, package-manager, javascript, packages, registry, logo, brand]
 category: Brand
 version: "1.107"
 unicode: "f569"

@@ -26,7 +26,7 @@ class CarCrane extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [transport, truck, machine, lifter, car, crane, travel, vehicle, automobile, mobility]
+tags: [crane, tow-truck, truck, crane-truck, construction, lift, vehicle, tow, towing, car]
 category: Vehicles
 version: "1.41"
 unicode: "ef25"

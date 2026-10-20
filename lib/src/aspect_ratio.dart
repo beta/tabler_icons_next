@@ -26,7 +26,7 @@ class AspectRatio extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [size, dimension, width, height, orientation, aspect, ratio, content, entertainment, multimedia]
+tags: [crop, resize, dimensions, proportions, 16-9, frame, screen, aspect, ratio]
 category: Media
 version: "1.27"
 unicode: "ed30"

@@ -27,7 +27,7 @@ class Plant2 extends Icon {
 
   static const String _svg = '''<!--
 category: Nature
-tags: [nature, green, flower, pot, tree, leaf, greenery, root, stem, seed]
+tags: [tree, bonsai, potted-plant, houseplant, pot, leaf, green, nature, garden, growth, eco, sprout]
 version: "1.33"
 unicode: "ed7e"
 -->

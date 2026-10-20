@@ -26,7 +26,7 @@ class Ruler2Off extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [maths, dimensions, size, width, length, geometry, measure, technical, ruler, off]
+tags: [measure, measurement, dimensions, size, length, width, scale, disabled, unavailable, inactive, hidden, ruler, off]
 category: Design
 version: "1.66"
 unicode: "f195"

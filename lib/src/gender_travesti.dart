@@ -26,7 +26,7 @@ class GenderTravesti extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identity, birth, male, female, heterosexual, homosexual, gender, travesti, person, human]
+tags: [travesti, gender, identity, lgbt, lgbtq, symbol]
 category: Gender
 version: "1.64"
 unicode: "f0f2"

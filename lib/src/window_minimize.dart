@@ -26,7 +26,7 @@ class WindowMinimize extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [screen, browser, size, resize, minimum, window, minimize, control, operation, function]
+tags: [minimize, shrink, collapse, window, resize, gust, windows, minimise, hide]
 category: System
 version: "1.69"
 unicode: "f1f2"

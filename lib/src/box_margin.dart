@@ -26,7 +26,7 @@ class BoxMargin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [css, cascading, style, section, space, text, content, outside, container, box]
+tags: [spacing, css, box-model, layout, outside, outer-spacing, whitespace, box]
 category: Design
 version: "1.39"
 unicode: "ee0b"

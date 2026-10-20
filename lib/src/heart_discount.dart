@@ -27,7 +27,7 @@ class HeartDiscount extends Icon {
 
   static const String _svg = '''<!--
 category: Health
-tags: [sale, promo, offer, deal, coupon, bargain, reduction, rebate, cut, save]
+tags: [heart, love, like, favorite, favourite, discount, sale, promo, offer, percent, deal]
 version: "2.28"
 unicode: "fba3"
 -->

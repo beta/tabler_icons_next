@@ -27,7 +27,7 @@ class AdjustmentsCheck extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [settings, verify, confirm, approve, validate, tick, accept, okay, affirm, correct]
+tags: [settings, sliders, controls, filter, options, preferences, tune, done, success, confirmed, approved, complete, tick, ok]
 version: "2.10"
 unicode: "f7fd"
 -->

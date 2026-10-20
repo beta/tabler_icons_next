@@ -26,7 +26,7 @@ class Tools extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [preferences, edit, settings, tools, creative, artistic, visual, aesthetic, style]
+tags: [tools, wrench, screwdriver, repair, fix, settings, maintenance, toolbox]
 category: Design
 version: "1.5"
 unicode: "ebca"

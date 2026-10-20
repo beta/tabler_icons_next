@@ -26,7 +26,7 @@ class Highlight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [marker, important, highlighter, pen, highlight, typography, writing, font, character, word]
+tags: [highlight, highlighter, marker, pen, text-editor, emphasize, mark, annotate, typography]
 category: Text
 version: "1.42"
 unicode: "ef3f"

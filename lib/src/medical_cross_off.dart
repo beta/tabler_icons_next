@@ -26,7 +26,7 @@ class MedicalCrossOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, hospital, help, indication, medical, cross, off, location, navigation, disabled]
+tags: [health, hospital, first-aid, medicine, healthcare, disabled, slash, medical, cross, off]
 category: Map
 version: "1.66"
 unicode: "f160"

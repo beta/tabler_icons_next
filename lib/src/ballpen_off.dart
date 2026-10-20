@@ -26,7 +26,7 @@ class BallpenOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [write, school, education, stationery, text, ballpen, off, disabled, inactive, typography]
+tags: [pen, write, writing, ballpoint, edit, sign, signature, stationery, disabled, ballpen, off]
 category: Text
 version: "1.62"
 unicode: "f0b1"

@@ -26,7 +26,7 @@ class CarTurbine extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [detail, service, mechanic, part, power, car, turbine, transport, travel, vehicle]
+tags: [turbine, turbocharger, turbo, engine, car-part, mechanic, car, automotive]
 category: Vehicles
 version: "1.101"
 unicode: "f4fd"

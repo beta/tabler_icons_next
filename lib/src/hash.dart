@@ -27,7 +27,7 @@ class Hash extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [hashtag, "#", instagram, hash]
+tags: [hashtag, hash, pound, number-sign, octothorpe, tag, channel, symbol]
 version: "1.0"
 unicode: "eabc"
 -->

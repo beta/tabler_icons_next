@@ -26,7 +26,7 @@ class ArrowRightBar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [drag, move, arrow, right, bar, direction, pointer, navigation, flow, navigate]
+tags: [direction, east, next, forward, drag, line, pointer, navigation, arrow, right, bar]
 category: Arrows
 version: "1.35"
 unicode: "eda1"

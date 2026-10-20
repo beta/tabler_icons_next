@@ -26,7 +26,7 @@ class HomeBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [electrity, energy, power, lightning, energetic, house, home, bolt, main, architecture]
+tags: [home, house, homepage, building, residence, real-estate, energy, lightning, power, electric, fast, flash, electricity, smart-home, utilities, bolt]
 category: Buildings
 version: "1.87"
 unicode: "f336"

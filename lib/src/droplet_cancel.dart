@@ -27,7 +27,7 @@ class DropletCancel extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [stop, reject, close, deny, remove, terminate, halt, abort, cease, cross]
+tags: [drop, water, liquid, cancel, stop, abort, block, rain, ink, color, denied, forbidden]
 version: "2.10"
 unicode: "f8fa"
 -->

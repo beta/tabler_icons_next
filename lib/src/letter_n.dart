@@ -26,7 +26,7 @@ class LetterN extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alphabet, text, code, letter, character, typography, writing, n, glyph]
+tags: [letter, character, alphabet, uppercase, capital, initial, text, typography, font, glyph, n]
 category: Letters
 version: "1.12"
 unicode: "ec5d"

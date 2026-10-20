@@ -26,7 +26,7 @@ class BrandSwift extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, language, code, apple, development, software, swiftly, fast, application, mobile]
+tags: [swift, apple, programming, language, ios, macos, code, logo, brand]
 category: Brand
 version: "2.16"
 unicode: "fa55"

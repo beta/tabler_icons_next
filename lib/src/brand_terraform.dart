@@ -26,7 +26,7 @@ class BrandTerraform extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [infrastructure, cloud, automation, devops, provisioning, configuration, software, platform, tool, orchestration]
+tags: [terraform, hashicorp, infrastructure-as-code, iac, devops, cloud, logo, brand]
 category: Brand
 version: "2.16"
 unicode: "fa56"

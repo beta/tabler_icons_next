@@ -26,7 +26,7 @@ class BrandBlogger extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [media, blogging, internet, social, site, brand, blogger, logo, company, trademark]
+tags: [blogger, blog, blogging, google, publishing, writing, logo, brand]
 category: Brand
 version: "1.89"
 unicode: "f35a"

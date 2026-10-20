@@ -26,7 +26,7 @@ class Planet extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [earth, uranus, universe, space, galaxy, orbit, atmosphere, planet, location, navigation]
+tags: [saturn, space, astronomy, orbit, universe, galaxy, cosmos, rings, world, planet]
 category: Map
 version: "1.8"
 unicode: "ec08"

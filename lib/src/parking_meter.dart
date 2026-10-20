@@ -27,7 +27,7 @@ class ParkingMeter extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [parking, meter, paid-parking, ticket, urban, city, curb, car, time-limit, fee]
+tags: [parking, pay-and-display, meter, car, park, coin, fee]
 unicode: "10227"
 version: "3.41"
 -->

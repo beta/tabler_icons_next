@@ -26,7 +26,7 @@ class DeviceLaptop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [workstation, mac, notebook, portable, screen, computer, device, laptop, hardware, technology]
+tags: [laptop, notebook, macbook, computer, pc, portable, workstation, screen, device]
 category: Devices
 version: "1.2"
 unicode: "eb64"

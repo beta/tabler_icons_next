@@ -26,7 +26,7 @@ class EyeSpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [view, watch, eye, spark, control, operation, glitter, shine, flash, twinkle]
+tags: [eye, view, ai, magic, sparkle, smart, vision, insight, preview, spark]
 category: System
 version: "3.13"
 unicode: "ffba"

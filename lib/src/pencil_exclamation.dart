@@ -27,7 +27,7 @@ class PencilExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [edit, warning, highlight, alert, remark, note, importance, notice, emphasize, caution]
+tags: [edit, write, draw, modify, pen, compose, warning, alert, error, attention, important, update, change]
 version: "2.28"
 unicode: "fc05"
 -->

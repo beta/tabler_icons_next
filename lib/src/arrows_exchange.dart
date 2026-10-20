@@ -26,7 +26,7 @@ class ArrowsExchange extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, west, east, arrows, exchange, navigation, flow, movement, route, path]
+tags: [swap, switch, transfer, trade, horizontal, pointer, navigation, direction, arrows, exchange]
 category: Arrows
 version: "1.70"
 unicode: "f1f4"

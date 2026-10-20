@@ -27,7 +27,7 @@ class PlayCard4 extends Icon {
 
   static const String _svg = '''<!--
 category: Games
-tags: [game, deck, four, quad, gamble, shuffle, deal, card, table, hand]
+tags: [playing-card, card, four, 4, number, poker, casino, deck, card-game, cards]
 unicode: "10058"
 version: "3.18"
 -->

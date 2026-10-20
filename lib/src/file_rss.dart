@@ -26,7 +26,7 @@ class FileRss extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [extension, format, news, file, rss, document, data, content, record, paper]
+tags: [rss, feed, news, subscribe, podcast, blog, document, file, xml]
 category: Document
 version: "1.56"
 unicode: "f03b"

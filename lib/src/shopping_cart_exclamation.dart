@@ -27,7 +27,7 @@ class ShoppingCartExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [alert, warn, notify, caution, attention, alarm, emphasize, highlight, underscore, flag]
+tags: [shopping-cart, cart, basket, warning, alert, error, attention, important, trolley, shop, store, checkout, ecommerce, buy]
 version: "2.28"
 unicode: "fb60"
 -->

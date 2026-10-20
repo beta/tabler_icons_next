@@ -26,7 +26,7 @@ class BrandDocker extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, development, hub, platform, software, developer, programming, programmer, virtualization, technology]
+tags: [docker, container, containers, devops, virtualization, whale, deployment, logo, brand]
 category: Brand
 version: "1.36"
 unicode: "edca"

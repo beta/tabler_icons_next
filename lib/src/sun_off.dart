@@ -26,7 +26,7 @@ class SunOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, light, mode, brightness, sun, off, climate, forecast, disabled, inactive]
+tags: [sun, light-mode, brightness, weather, disabled, inactive, sunny, daylight, off]
 category: Weather
 version: "1.31"
 unicode: "ed63"

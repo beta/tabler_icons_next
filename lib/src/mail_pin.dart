@@ -27,7 +27,7 @@ class MailPin extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [location, anchor, place, marker, position, spot, fix, attach, locator, point]
+tags: [mail, email, envelope, message, inbox, letter, e-mail, pin, pinned, location, marker]
 version: "2.10"
 unicode: "f942"
 -->

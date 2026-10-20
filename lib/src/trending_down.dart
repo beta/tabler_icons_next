@@ -26,7 +26,7 @@ class TrendingDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, decrease, fall, progress, trending, down, bottom, navigation, flow, downward]
+tags: [trend, down, decline, decrease, drop, chart, loss, falling, trending]
 category: Arrows
 version: "1.0"
 unicode: "eb42"

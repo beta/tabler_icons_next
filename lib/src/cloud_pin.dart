@@ -27,7 +27,7 @@ class CloudPin extends Icon {
 
   static const String _svg = '''<!--
 category: Weather
-tags: [location, map, place, position, marker, point, spot, navigate, geotag, fix]
+tags: [pin, location, marker, place, cloud, cloud-storage, online, sync, storage, weather]
 version: "2.10"
 unicode: "f856"
 -->

@@ -26,7 +26,7 @@ class ShieldLock extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [secure, security, closed, key, safety, shield, lock, private, control, operation]
+tags: [security, protection, protect, lock, locked, private, encrypted, password, guard, safety, secure, shield]
 category: System
 version: "1.30"
 unicode: "ed58"

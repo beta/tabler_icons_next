@@ -26,7 +26,7 @@ class NoDerivatives extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [law, license, derivatives, control, operation, no, function, interface, management]
+tags: [creative-commons, cc, nd, license, copyright, rights, no-modifications, no-adaptations, by-nd, no, derivatives]
 category: System
 version: "1.49"
 unicode: "efbb"

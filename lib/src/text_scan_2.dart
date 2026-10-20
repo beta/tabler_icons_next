@@ -26,7 +26,7 @@ class TextScan2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ocr, reading, text, scan, camera, recognition, document, capture, digital, control]
+tags: [ocr, scan, text-recognition, document, extract, read, capture, formula, text]
 category: System
 version: "2.37"
 unicode: "fcc3"

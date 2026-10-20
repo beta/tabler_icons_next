@@ -26,7 +26,7 @@ class WindowOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [house, view, glass, apartment, vehicle, light, frame, home, building, window]
+tags: [window, house, glass, frame, disabled, inactive, gust, windows]
 category: Buildings
 version: "1.67"
 unicode: "f1c9"

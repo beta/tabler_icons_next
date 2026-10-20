@@ -26,7 +26,7 @@ class Filter2Pin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, pin, sort, organize, arrange, select, refine, sieve, screen, attach]
+tags: [filter, filtering, sort, location, map-pin, marker, place, refine, list, options, gps, geolocation, pin]
 category: System
 version: "3.32"
 unicode: "10153"

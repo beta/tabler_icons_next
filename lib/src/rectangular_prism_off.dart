@@ -26,7 +26,7 @@ class RectangularPrismOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, rectangular, prism, off, disabled, inactive]
+tags: [cuboid, box, 3d, disabled, unavailable, inactive, hidden, shape, geometry, solid, rectangular, prism, off]
 category: Shapes
 version: "2.20"
 unicode: "fab3"

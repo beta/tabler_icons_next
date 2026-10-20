@@ -26,7 +26,7 @@ class Slideshow extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [photo, picture, video, presentation, camera, display, ad, slideshow, typography, writing]
+tags: [slides, gallery, carousel, presentation, photos, images, slideshow]
 category: Text
 version: "1.5"
 unicode: "ebc9"

@@ -27,7 +27,7 @@ class Vip2 extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [premium, exclusive, staff, expensive, vip, variant, alternate]
+tags: [vip, premium, exclusive, member, membership, vip-access, vip-pass, premium-member]
 unicode: "101fa"
 version: "3.40"
 -->

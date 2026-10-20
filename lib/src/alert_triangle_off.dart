@@ -26,7 +26,7 @@ class AlertTriangleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [warning, danger, caution, risk, alert, triangle, off, control, operation, disabled]
+tags: [warning, caution, danger, error, hazard, exclamation, disabled, inactive, alert, triangle, off]
 category: System
 version: "2.33"
 unicode: "fc69"

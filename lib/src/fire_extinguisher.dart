@@ -27,7 +27,7 @@ class FireExtinguisher extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [safety, emergency, protect, control, suppress, fight, putout, alarm, equipment, fixed]
+tags: [fire-extinguisher, extinguisher, fire, safety, emergency, firefighting, protection, equipment]
 version: "2.24"
 unicode: "faf6"
 -->

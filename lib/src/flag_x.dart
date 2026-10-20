@@ -27,7 +27,7 @@ class FlagX extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [cancel, remove, delete, terminate, crossout, eliminate, invalidate, reject, void, obliterate]
+tags: [report, banner, milestone, close, delete, remove, cancel, mark, country, goal, clear, error]
 version: "2.28"
 unicode: "fb9d"
 -->

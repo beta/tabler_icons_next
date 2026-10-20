@@ -26,7 +26,7 @@ class BrandAmd extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [electronics, computer, components, processors, brand, amd, logo, company, trademark, identity]
+tags: [amd, processor, cpu, gpu, chip, ryzen, radeon, hardware, semiconductor, logo, brand]
 category: Brand
 version: "1.119"
 unicode: "f653"

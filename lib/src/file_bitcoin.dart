@@ -26,7 +26,7 @@ class FileBitcoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cryptocurrency, money, digital, finance, blockchain, currency, investment, value, economic, electronic]
+tags: [bitcoin, crypto, cryptocurrency, btc, blockchain, wallet, document, file, finance]
 category: Document
 unicode: "ffa0"
 version: "3.12"

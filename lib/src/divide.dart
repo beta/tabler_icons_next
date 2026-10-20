@@ -26,7 +26,7 @@ class Divide extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [separate, multiple, apart, separator, parts, divide, calculation, equation, mathematics, numeric]
+tags: [divide, division, divided-by, obelus, math, mathematics, operator, calculator, arithmetic]
 category: Math
 version: "1.31"
 unicode: "ed5c"

@@ -27,7 +27,7 @@ class BulbOff extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [energy, power, electricity, creativity, light, idea, bulb, off, disabled, inactive]
+tags: [bulb, lightbulb, light, idea, lamp, disabled, off, unavailable, inactive, light-off, dark]
 version: "1.0"
 unicode: "ea50"
 -->

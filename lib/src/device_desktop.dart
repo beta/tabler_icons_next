@@ -26,7 +26,7 @@ class DeviceDesktop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [monitor, computer, imac, device, desktop, hardware, technology, electronic, gadget, equipment]
+tags: [desktop, monitor, computer, screen, pc, display, workstation, device, imac]
 category: Devices
 version: "1.0"
 unicode: "ea89"

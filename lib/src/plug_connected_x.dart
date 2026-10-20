@@ -26,7 +26,7 @@ class PlugConnectedX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [unfasten, unplug, disconnect, plug, connected, hardware, technology, electronic, gadget, equipment]
+tags: [disconnected, unplugged, disconnect, connection-error, offline, unlink, plug, cable, power, connected]
 category: Devices
 version: "1.61"
 unicode: "f0a0"

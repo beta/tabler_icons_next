@@ -26,7 +26,7 @@ class LetterFSmall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [f, foxtrot, sixth, letter, alphabet, character, typeface, glyph, script, small]
+tags: [letter, character, alphabet, lowercase, small, minuscule, text, typography, font, glyph, f]
 category: Letters
 version: "2.38"
 unicode: "fccc"

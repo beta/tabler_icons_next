@@ -26,7 +26,7 @@ class RotateDot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, degree, circle, camera, spin, rotation, rotate, dot, navigation, flow]
+tags: [rotate, rotation, spin, refresh, reload, circle, dot]
 category: Arrows
 version: "1.51"
 unicode: "efe5"

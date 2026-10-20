@@ -26,7 +26,7 @@ class AlphabetCyrillic extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [russia, letters, language, alphabet, cyrillic, typography, writing, font, character, word]
+tags: [russian, ukrainian, language, script, letters, writing, text, alphabet, cyrillic]
 category: Text
 version: "1.69"
 unicode: "f1df"

@@ -26,7 +26,7 @@ class AlphabetHebrew extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [language, alphabet, hebrew, jewish, typography, writing, font, character, word, letters]
+tags: [jewish, israel, language, script, letters, writing, text, alphabet, hebrew]
 category: Text
 version: "3.8"
 unicode: "ff2d"

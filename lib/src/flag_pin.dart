@@ -27,7 +27,7 @@ class FlagPin extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [attach, fix, anchor, mark, stick, position, secure, location, tag, place]
+tags: [flag, location, map-pin, marker, place, destination, landmark, goal]
 version: "2.28"
 unicode: "fb96"
 -->

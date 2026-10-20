@@ -26,7 +26,7 @@ class Number24Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [twenty-four, 24th, twenty-fourth, viginti-quarto, viginti-fourth, twenty, and, four, plus, 24]
+tags: [twenty-four, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcf2"

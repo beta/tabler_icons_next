@@ -27,7 +27,7 @@ class StackMiddle extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [layers, depth, center, arrangement, position, sequence, structure, order, layout, median]
+tags: [layers, arrange, order, z-index, depth, center, middle, z-order, stacked]
 version: "2.40"
 unicode: "fd2a"
 -->

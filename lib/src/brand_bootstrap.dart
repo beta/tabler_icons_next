@@ -26,7 +26,7 @@ class BrandBootstrap extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, coding, HTML, hardware, javascript, js, brand, bootstrap, logo, company]
+tags: [bootstrap, css, framework, html, javascript, frontend, ui, web, logo, brand]
 category: Brand
 version: "1.42"
 unicode: "ef3e"

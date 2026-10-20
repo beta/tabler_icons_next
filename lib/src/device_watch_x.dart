@@ -27,7 +27,7 @@ class DeviceWatchX extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [close, cancel, end, terminate, remove, exit, delete, erase, reject, void]
+tags: [smartwatch, wearable, apple-watch, close, delete, remove, cancel, wristwatch, device, fitness-tracker, clear, error]
 version: "2.10"
 unicode: "f8e5"
 -->

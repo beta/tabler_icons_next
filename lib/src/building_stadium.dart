@@ -26,7 +26,7 @@ class BuildingStadium extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [construciton, estate, football, supporters, building, stadium, architecture, structure, construction, property]
+tags: [stadium, arena, sports, football, soccer, venue, building, event, concert]
 category: Buildings
 version: "1.118"
 unicode: "f641"

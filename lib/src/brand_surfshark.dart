@@ -26,7 +26,7 @@ class BrandSurfshark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vpn, security, ip, network, private, brand, surfshark, logo, company, trademark]
+tags: [surfshark, vpn, security, privacy, network, logo, brand, encryption, vpn-service]
 category: Brand
 version: "1.75"
 unicode: "f255"

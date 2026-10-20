@@ -26,7 +26,7 @@ class News extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [newspaper, article, news, file, paper, text, record, information]
+tags: [newspaper, article, press, journal, headline, blog, magazine, feed, news]
 category: Document
 version: "1.0"
 unicode: "eafd"

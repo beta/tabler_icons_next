@@ -26,7 +26,7 @@ class UserCircle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [account, avatar, profile, role, user, circle, person, control, operation, round]
+tags: [avatar, profile, account, person, user-profile, circle, login, user-avatar, user]
 category: System
 version: "1.44"
 unicode: "ef68"

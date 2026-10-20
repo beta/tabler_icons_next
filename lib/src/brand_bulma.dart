@@ -26,7 +26,7 @@ class BrandBulma extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [programming, coding, html, css, brand, bulma, logo, company, trademark, identity]
+tags: [bulma, css, framework, html, frontend, ui, web, logo, brand]
 category: Brand
 version: "1.86"
 unicode: "f327"

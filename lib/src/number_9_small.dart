@@ -26,7 +26,7 @@ class Number9Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [nine, nonet, nonuple, ennead, ninefold, novenary, non, nonuplet, ninth, ennea]
+tags: [nine, number, digit, numeral, count, ninth, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcfe"

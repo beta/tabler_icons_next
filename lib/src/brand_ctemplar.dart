@@ -26,7 +26,7 @@ class BrandCtemplar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [e-mail, file, sharing, encryption, app, mobile, brand, ctemplar, logo, company]
+tags: [ctemplar, email, encrypted, secure, private, mail, logo, brand]
 category: Brand
 version: "1.99"
 unicode: "f4d0"

@@ -26,7 +26,7 @@ class CurrencyTenge extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, finance, money, cash, kazakhstan, currency, tenge, payment, monetary, banking]
+tags: [tenge, kzt, kazakhstan, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.90"
 unicode: "f37d"

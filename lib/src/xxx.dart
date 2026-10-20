@@ -27,7 +27,7 @@ class Xxx extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [private, secret, restricted, forbidden, exclusive, classified, intimate, veiled, covert, unspoken]
+tags: [xxx, adult, nsfw, explicit, mature, restricted, 18-plus, censored]
 version: "2.29"
 unicode: "fc20"
 -->

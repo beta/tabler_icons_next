@@ -26,7 +26,7 @@ class BrandBilibili extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [china, platform, streaming, video, brand, bilibili, logo, company, trademark, identity]
+tags: [bilibili, video, streaming, anime, china, social, logo, brand]
 category: Brand
 version: "2.1"
 unicode: "f6d2"

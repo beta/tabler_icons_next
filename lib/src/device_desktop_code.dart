@@ -27,7 +27,7 @@ class DeviceDesktopCode extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [program, software, app, development, script, algorithm, syntax, command, compute, function]
+tags: [code, programming, developer, coding, script, desktop, monitor, computer, screen, pc]
 version: "2.10"
 unicode: "f861"
 -->

@@ -26,7 +26,7 @@ class Gif extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [file, format, animation, extension, filetype, gif, plugin, addon, module, component]
+tags: [gif, animated, animation, image, meme, giphy, file-format, extension]
 category: Extensions
 version: "1.75"
 unicode: "f257"

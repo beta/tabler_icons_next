@@ -26,7 +26,7 @@ class Calculator extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [math, count, add, subtract, multiply, divide, amount, calculator, hardware, technology]
+tags: [calculator, math, calculate, calculation, accounting, arithmetic, numbers, finance]
 category: Devices
 version: "1.3"
 unicode: "eb80"

@@ -26,7 +26,7 @@ class Tir extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [delivery, transportation, transport, logistics, vehicle, goods, tir, travel, automobile, mobility]
+tags: [truck, lorry, semi-truck, tractor-trailer, logistics, transport, delivery, freight, tir]
 category: Vehicles
 version: "1.7"
 unicode: "ebf0"

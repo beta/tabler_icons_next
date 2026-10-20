@@ -26,7 +26,7 @@ class Currency extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [target, goal, focus, marketing, currency, finance, payment, monetary, banking, economy]
+tags: [currency, money, generic-currency, symbol, exchange, finance, cash, payment]
 category: Currencies
 version: "1.48"
 unicode: "efa6"

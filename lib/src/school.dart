@@ -27,7 +27,7 @@ class School extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [students, class, teachers, professors, doctors, hall, classroom, subject, science, break, lesson]
+tags: [graduation, education, student, mortarboard, university, college, academic, hat, learning]
 version: "1.22"
 unicode: "ecf7"
 -->

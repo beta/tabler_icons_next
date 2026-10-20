@@ -27,7 +27,7 @@ class LockPin extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [secure, code, number, access, key, protection, guard, password, entry, lock]
+tags: [lock, padlock, locked, security, secure, password, private, protected, pin-code, passcode, pin, code, keypad]
 version: "2.10"
 unicode: "f92f"
 -->

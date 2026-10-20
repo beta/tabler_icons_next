@@ -26,7 +26,7 @@ class BrandComedyCentral extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tv, serial, films, stand-up, skits, brand, comedy, central, logo, company]
+tags: [comedy-central, tv, channel, comedy, television, shows, paramount, logo, brand, central]
 category: Brand
 version: "1.72"
 unicode: "f217"

@@ -26,7 +26,7 @@ class Candy extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sweet, food, sugar, cane, halloween, candy, meal, cuisine, eating, nutrition]
+tags: [candy, sweet, sugar, confectionery, treat, halloween, bonbon, dessert]
 category: Food
 version: "1.40"
 unicode: "ef0d"

@@ -26,7 +26,7 @@ class TextOutline extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text, outline, font, typography, writing, letter, character, style, editor, border, stroke]
+tags: [outlined-text, text, stroke, font, typography, effect, border, formula, outline]
 category: Text
 unicode: "1026f"
 version: "3.45"

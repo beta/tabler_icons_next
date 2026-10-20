@@ -27,7 +27,7 @@ class QueuePopOut extends Icon {
 
   static const String _svg = '''<!--
 category: Development
-tags: [queue, pop, out, remove, stack, data-structure, extract, development]
+tags: [queue, dequeue, pop, remove, extract, data-structure, fifo, stack, out]
 unicode: "101ff"
 version: "3.40"
 -->

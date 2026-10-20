@@ -27,7 +27,7 @@ class Magnetic extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [attract, pull, draw, force, magnetism, charm, allure, fascination, engage, appeal]
+tags: [magnetic, magnet, snap, attract, snapping, pull, guides]
 version: "2.37"
 unicode: "fcb9"
 -->

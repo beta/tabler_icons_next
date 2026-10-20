@@ -27,7 +27,7 @@ class SettingsPlus extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [configuration, addition, add, preferences, increase, setup, tools, extension, enhance, upgrade]
+tags: [cog, gear, preferences, add, new, create, insert, configuration, options, config]
 version: "2.10"
 unicode: "f9b9"
 -->

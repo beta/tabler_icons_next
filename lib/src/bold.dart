@@ -26,7 +26,7 @@ class Bold extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [font, style, boldface, bold, typography, writing, character, word]
+tags: [text, format, formatting, typography, font, strong, bold-text, heavy, weight, bold]
 category: Text
 version: "1.3"
 unicode: "eb7b"

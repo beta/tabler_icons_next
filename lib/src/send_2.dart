@@ -27,7 +27,7 @@ class Send2 extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [transmit, dispatch, forward, deliver, message, communication, send-out, send-away, transfer, send-off]
+tags: [paper-plane, submit, message, email, mail, post]
 version: "2.43"
 unicode: "fd5d"
 -->

@@ -26,7 +26,7 @@ class UserOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [person, account, user, off, control, operation, disabled, inactive, profile, member]
+tags: [person, account, profile, avatar, member, disabled, inactive, blocked, deactivated, offline, user, off]
 category: System
 version: "1.22"
 unicode: "ecf9"

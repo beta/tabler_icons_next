@@ -26,7 +26,7 @@ class CheckupList extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [car, hospital, health, report, checkup, list, medical, wellness, confirm, approve]
+tags: [checkup, checklist, clipboard, medical, health, report, inspection, list]
 category: Health
 version: "1.44"
 unicode: "ef5a"

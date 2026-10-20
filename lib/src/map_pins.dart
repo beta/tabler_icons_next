@@ -26,7 +26,7 @@ class MapPins extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [place, direction, travel, destination, mark, location, address, map, pins, navigation]
+tags: [pins, markers, locations, places, multiple, map, navigation, destinations]
 category: Map
 version: "1.31"
 unicode: "ed5e"

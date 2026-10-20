@@ -26,7 +26,7 @@ class BallTennis extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, set, match, court, racket, ball, tennis, athletic, fitness, exercise]
+tags: [padel, sport, game, racket, sports, team-sport, play, match, athletics, ball, tennis]
 category: Sport
 version: "1.10"
 unicode: "ec2a"

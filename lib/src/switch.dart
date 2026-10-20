@@ -26,7 +26,7 @@ class Switch extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [toggle, arrows, switch, navigation, flow, movement, route, path]
+tags: [switch, swap, exchange, arrows, toggle, change, shuffle, switch-arrows, repeat]
 category: Arrows
 version: "1.0"
 unicode: "eb33"

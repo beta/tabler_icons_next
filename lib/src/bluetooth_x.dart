@@ -26,7 +26,7 @@ class BluetoothX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [multimedia, technology, disabled, connection, communication, bluetooth, hardware, electronic, gadget, equipment]
+tags: [wireless, connection, pairing, headphones, devices, error, disconnected, failed, bluetooth]
 category: Devices
 version: "1.60"
 unicode: "f081"

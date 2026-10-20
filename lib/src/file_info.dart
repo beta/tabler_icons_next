@@ -26,7 +26,7 @@ class FileInfo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [info, information, informations, paper, file, document, page, data, content, record]
+tags: [info, information, details, about, properties, document, file, help, metadata]
 category: Document
 version: "1.38"
 unicode: "edec"

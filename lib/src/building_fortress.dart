@@ -26,7 +26,7 @@ class BuildingFortress extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [military, town, defend, attack, stronghold, protect, protection, medieval, building, fortress]
+tags: [fortress, castle, fort, stronghold, medieval, military, defense, tower, building]
 category: Buildings
 version: "1.34"
 unicode: "ed89"

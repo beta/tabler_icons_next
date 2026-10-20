@@ -26,7 +26,7 @@ class Eraser extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [delete, remove, eliminate, wipe-out, eraser, typography, writing, font, character, word]
+tags: [eraser, erase, rubber, delete, clear, remove, clean, wipe, clear-formatting]
 category: Text
 version: "1.3"
 unicode: "eb8b"

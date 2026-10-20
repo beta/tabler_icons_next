@@ -26,7 +26,7 @@ class Message2Off extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [comment, chat, reply, faq, message, off, contact, conversation, disabled, inactive]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, disabled, inactive, slash, crossed-out, reply, communication, dm, message, off]
 category: Communication
 version: "1.94"
 unicode: "f40b"

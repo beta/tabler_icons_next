@@ -26,7 +26,7 @@ class SquareRoot2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mathematics, maths, science, calculate, calculator, algebra, square, root, calculation, equation]
+tags: [sqrt, radical, math, mathematics, formula, equation, calculate, calculator, algebra, square, root]
 category: Math
 version: "1.39"
 unicode: "eef0"

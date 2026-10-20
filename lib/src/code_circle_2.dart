@@ -26,7 +26,7 @@ class CodeCircle2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coding, programming, development, shape, technology, code, circle, round, circular, script]
+tags: [code, brackets, programming, developer, coding, circle, html, badge]
 category: Text
 version: "1.101"
 unicode: "f4fe"

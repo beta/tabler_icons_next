@@ -27,7 +27,7 @@ class Paperclip extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [attachment, annex, hold, paperclip]
+tags: [attachment, attach, clip, file, link, paper-clip, document, paperclip]
 version: "1.0"
 unicode: "eb02"
 -->

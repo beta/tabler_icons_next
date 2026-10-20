@@ -26,7 +26,7 @@ class Schema extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [graph, data, infography, schema, storage, repository, records, information, table]
+tags: [database-schema, diagram, data, model, tables, structure, erd, schema]
 category: Database
 version: "1.70"
 unicode: "f200"

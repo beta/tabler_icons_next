@@ -27,7 +27,7 @@ class EyeUp extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [ascend, rise, elevate, vision, sight, increase, climb, advance, view, focus]
+tags: [view, visibility, show, upload, arrow-up, increase, raise, see, vision, preview, watch, send]
 version: "2.28"
 unicode: "fb7b"
 -->

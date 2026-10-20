@@ -26,7 +26,7 @@ class CircleX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cancel, "no", circle, round, circular, geometry, form, figure, pattern, outline]
+tags: [x, close, cancel, remove, delete, error, clear, dismiss, circle, round, button]
 category: Shapes
 version: "1.0"
 unicode: "ea6a"

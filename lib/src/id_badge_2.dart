@@ -26,7 +26,7 @@ class IdBadge2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identification, pass, card, identity, badge, control, operation, id, function, interface]
+tags: [id-badge, badge, employee, identity, identification, pass, lanyard, name-tag, access-card, id]
 category: System
 version: "1.59"
 unicode: "f076"

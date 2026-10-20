@@ -26,7 +26,7 @@ class BabyCarriage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [child, infant, cradle, pram, baby, carriage, medical, wellness, healthcare, treatment]
+tags: [stroller, pram, buggy, infant, child, pushchair, newborn, child-care, family, baby, carriage]
 category: Health
 version: "1.58"
 unicode: "f05d"

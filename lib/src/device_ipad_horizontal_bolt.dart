@@ -27,7 +27,7 @@ class DeviceIpadHorizontalBolt extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [energy, flash, power, speed, charge, lightning, zap, thunder, spark, current]
+tags: [bolt, lightning, flash, power, charging, energy, fast, ipad, tablet, apple, ios, landscape]
 version: "2.10"
 unicode: "f88e"
 -->

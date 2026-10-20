@@ -26,7 +26,7 @@ class Category extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [folder, menu, tag, game, category, geometry, form, figure, pattern, outline]
+tags: [category, categories, grid, apps, menu, dashboard, tiles, shapes, layout]
 category: Shapes
 version: "1.70"
 unicode: "f1f6"

@@ -26,7 +26,7 @@ class HeartBroken extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [love, emotion, like, favorite, relationship, heart, broken, medical, wellness, healthcare]
+tags: [heartbreak, broken-heart, love, sad, breakup, divorce, dislike, emotion, heart, broken]
 category: Health
 version: "1.18"
 unicode: "ecba"

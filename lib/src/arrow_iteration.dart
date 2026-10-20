@@ -26,7 +26,7 @@ class ArrowIteration extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, loop, right, east, arrow, iteration, pointer, navigation, flow, navigate]
+tags: [loop, cycle, repeat, iterate, refresh, process, pointer, navigation, arrow, iteration]
 category: Arrows
 version: "1.108"
 unicode: "f578"

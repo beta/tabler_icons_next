@@ -26,7 +26,7 @@ class ArrowsDiagonalMinimize2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, south, north, arrows, diagonal, minimize, navigation, flow, movement, route]
+tags: [collapse, shrink, exit-fullscreen, reduce, pointer, navigation, direction, arrows, diagonal, minimize]
 category: Arrows
 version: "1.42"
 unicode: "ef38"

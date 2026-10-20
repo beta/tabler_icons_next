@@ -26,7 +26,7 @@ class Folder extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cancel, "no", directory, dir, folder, collection, container, group, file, paper]
+tags: [folder, directory, dir, files, archive, project, category, organize, storage]
 category: Document
 version: "1.0"
 unicode: "eaad"

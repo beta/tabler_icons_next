@@ -26,7 +26,7 @@ class Temperature extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, celcius, fahrenheit, cold, hot, temperature, climate, forecast, meteorology, atmospheric]
+tags: [temperature, thermometer, weather, celsius, fahrenheit, degrees, heat, cold, forecast]
 category: Weather
 version: "1.1"
 unicode: "eb38"

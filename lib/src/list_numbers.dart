@@ -26,7 +26,7 @@ class ListNumbers extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [to-do, checklist, form, template, task, reminder, schedule, agenda, list, numbers]
+tags: [numbered-list, ordered-list, ol, numbers, list, text-editor]
 category: Text
 version: "1.40"
 unicode: "ef11"

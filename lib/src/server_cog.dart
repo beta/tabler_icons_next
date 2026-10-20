@@ -26,7 +26,7 @@ class ServerCog extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [settings, storage, data, database, server, cog, hardware, technology, gear, configuration]
+tags: [database, hosting, datacenter, settings, gear, configuration, preferences, backend, storage, rack, server, cog]
 category: Devices
 version: "1.85"
 unicode: "f321"

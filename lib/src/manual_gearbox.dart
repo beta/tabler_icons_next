@@ -27,7 +27,7 @@ class ManualGearbox extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [car, vehicle, torque, transmission, mechanics, motor, engine, manual, gearbox]
+tags: [gearbox, manual-transmission, stick-shift, gear, transmission, car, vehicle, shifter, manual]
 version: "1.33"
 unicode: "ed7b"
 -->

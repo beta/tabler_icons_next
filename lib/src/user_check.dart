@@ -26,7 +26,7 @@ class UserCheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tick, person, account, role, user, check, control, operation, confirm, approve]
+tags: [person, account, profile, avatar, member, verified, approved, confirmed, done, success, tick, user, check]
 category: System
 version: "1.0"
 unicode: "eb49"

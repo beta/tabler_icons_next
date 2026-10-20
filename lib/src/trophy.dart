@@ -27,7 +27,7 @@ class Trophy extends Icon {
 
   static const String _svg = '''<!--
 category: Sport
-tags: [success, win, prize, winner, trophy]
+tags: [trophy, award, winner, prize, cup, achievement, champion, success]
 version: "1.0"
 unicode: "eb45"
 -->

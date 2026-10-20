@@ -27,7 +27,7 @@ class FilterUp extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [increase, raise, ascend, boost, elevate, surge, climb, rise, improve, advance]
+tags: [funnel, filtering, sort, upload, arrow-up, increase, raise, refine, narrow, send]
 version: "2.28"
 unicode: "fb89"
 -->

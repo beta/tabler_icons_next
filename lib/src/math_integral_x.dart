@@ -26,7 +26,7 @@ class MathIntegralX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mathematic, sign, y, expression, math, integral, calculation, equation, mathematics, numeric]
+tags: [integral, calculus, antiderivative, mathematics, formula, variable, integration, dx, math, expression]
 category: Math
 version: "1.100"
 unicode: "f4e8"

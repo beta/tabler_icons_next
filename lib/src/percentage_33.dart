@@ -27,7 +27,7 @@ class Percentage33 extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [third, percent, thirty-three, triple, fraction, section, portion, segment, slice, thirdpart]
+tags: [one-third, third, percent, progress, pie-chart, ratio, share, fraction, loading, proportion, statistics]
 unicode: "fedf"
 version: "3.4"
 -->

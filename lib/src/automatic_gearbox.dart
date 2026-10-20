@@ -26,7 +26,7 @@ class AutomaticGearbox extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [transmission, gear, vehicle, automation, system, car, drive, mechanism, engage, control]
+tags: [transmission, gear-shift, car, drive, vehicle, gear-shifter, car-transmission, stick, shifter, automotive]
 category: Vehicles
 version: "2.35"
 unicode: "fc89"

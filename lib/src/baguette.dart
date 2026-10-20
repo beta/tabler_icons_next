@@ -26,7 +26,7 @@ class Baguette extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [bread, french, breakfast, bakery, loaf, baguette, meal, cuisine, eating, nutrition]
+tags: [bread, bakery, french, food, loaf, breakfast, french-bread, bakery-product, baguette]
 category: Food
 version: "1.93"
 unicode: "f3a5"

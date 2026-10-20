@@ -26,7 +26,7 @@ class Twig extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [twig, branch, stick, wood, tree, nature, forest, plant, organic, wilderness]
+tags: [twig, branch, stick, wood, tree, nature, sprig, forest]
 category: Nature
 unicode: "1027e"
 version: "3.46"

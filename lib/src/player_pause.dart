@@ -26,7 +26,7 @@ class PlayerPause extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [video, film, music, player, stop, pause, content, entertainment, break, suspend]
+tags: [pause, media, audio, video, music, hold, controls, button, player]
 category: Media
 version: "1.28"
 unicode: "ed45"

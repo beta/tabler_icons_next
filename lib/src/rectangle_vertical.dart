@@ -26,7 +26,7 @@ class RectangleVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, geometric, math, upright, rectangle, vertical, geometry, form, figure, pattern]
+tags: [rectangle, shape, geometry, portrait, upright, box, vertical]
 category: Shapes
 version: "1.27"
 unicode: "ed36"

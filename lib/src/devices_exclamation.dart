@@ -27,7 +27,7 @@ class DevicesExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [alert, warning, notice, attention, caution, signal, advise, notify, warn, declare]
+tags: [responsive, multi-device, computer, warning, alert, error, attention, laptop, phone, tablet, desktop, important, caution]
 version: "2.10"
 unicode: "f8ed"
 -->

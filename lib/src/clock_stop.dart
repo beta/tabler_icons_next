@@ -26,7 +26,7 @@ class ClockStop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, watch, alarm, pause, off, clock, stop, control, operation, function]
+tags: [stop, end, halt, timer, clock, time, end-time, schedule]
 category: System
 version: "1.105"
 unicode: "f54b"

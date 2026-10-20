@@ -26,7 +26,7 @@ class BrandLinktree extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hyperlinks, social media, freemium service, website, brand, linktree, logo, company, trademark, identity]
+tags: [linktree, link-in-bio, links, social, profile, logo, brand, bio, creator]
 category: Brand
 version: "1.69"
 unicode: "f1e7"

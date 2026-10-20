@@ -26,7 +26,7 @@ class CalendarEvent extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [date, day, plan, schedule, agenda, calender, calendar, event, control, operation]
+tags: [calendar, date, schedule, event, day, planner, agenda, today, selected-date, appointment]
 category: System
 version: "1.1"
 unicode: "ea52"

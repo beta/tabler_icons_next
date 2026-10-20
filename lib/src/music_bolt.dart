@@ -27,7 +27,7 @@ class MusicBolt extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [electric, energy, charge, dynamic, power, lightning, fast, tempo, beat, vibrant]
+tags: [song, audio, sound, note, melody, track, lightning, flash, fast, energy, power, mp3, playlist, player]
 version: "2.28"
 unicode: "fbd5"
 -->

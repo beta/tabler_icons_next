@@ -27,7 +27,7 @@ class DevicesCheck extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [verify, confirm, validate, approve, tick, audit, inspect, review, affirm, authenticate]
+tags: [responsive, multi-device, computer, done, success, confirmed, approved, laptop, phone, tablet, desktop, verified, tick, checkmark, ok]
 version: "2.10"
 unicode: "f8e8"
 -->

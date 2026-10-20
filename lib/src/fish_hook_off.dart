@@ -27,7 +27,7 @@ class FishHookOff extends Icon {
 
   static const String _svg = '''<!--
 category: Animals
-tags: [fishing, bait, hanging, catch, water, fish, hook, off, disabled, inactive]
+tags: [fish-hook, fishing, hook, bait, catch, lure, disabled, inactive, unavailable, slash, turn-off, angling, tackle, fish, off]
 version: "1.94"
 unicode: "f3ee"
 -->

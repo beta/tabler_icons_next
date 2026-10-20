@@ -27,7 +27,7 @@ class DeviceDesktopCog extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [settings, adjust, manage, configure, control, organize, customize, tune, optimize, arrange]
+tags: [cog, settings, gear, configuration, preferences, desktop, monitor, computer, screen, pc]
 version: "2.10"
 unicode: "f862"
 -->

@@ -26,7 +26,7 @@ class Vector extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [curve, parametric, design, vector graphics, placement, vector, creative, artistic, visual, aesthetic]
+tags: [vector, graphics, design, path, anchor, points, pen-tool, illustration]
 category: Design
 version: "1.17"
 unicode: "eca9"

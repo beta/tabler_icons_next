@@ -26,7 +26,7 @@ class Svg extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [file, format, extension, filetype, plugin, addon, module, component, svg, extra]
+tags: [svg, file, format, extension, vector, graphics, image, filetype]
 category: Extensions
 version: "1.75"
 unicode: "f25a"

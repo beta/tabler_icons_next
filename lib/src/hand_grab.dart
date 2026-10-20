@@ -26,7 +26,7 @@ class HandGrab extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hold, fist, drop, catch, hand, grab, touch, action, motion, interaction]
+tags: [grab, grabbing, hand, fist, drag, move, pan, hold, grasp, cursor]
 category: Gestures
 version: "1.60"
 unicode: "f091"

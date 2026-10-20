@@ -26,7 +26,7 @@ class TextSpellcheck extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grammar, spelling, ortography, text, spellcheck, confirm, approve, typography, writing, font]
+tags: [spellcheck, spelling, grammar, proofread, correct, check, abc, formula, text]
 category: Text
 version: "1.79"
 unicode: "f2a6"

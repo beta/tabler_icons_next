@@ -27,7 +27,7 @@ class PencilBolt extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [design, edit, modify, electric, lightning, sketch, illustrate, note, draw, creativity]
+tags: [edit, write, draw, modify, pen, compose, lightning, flash, fast, energy, power, update, change]
 version: "2.28"
 unicode: "fbfd"
 -->

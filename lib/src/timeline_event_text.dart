@@ -26,7 +26,7 @@ class TimelineEventText extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [calendar, schedule, date, message, chat, timeline, event, text, programming, software]
+tags: [timeline, event, milestone, note, comment, description, text, events]
 category: Development
 version: "1.119"
 unicode: "f665"

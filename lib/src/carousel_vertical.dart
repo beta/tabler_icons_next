@@ -26,7 +26,7 @@ class CarouselVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, mobile, display, preview, carousel, vertical, creative, artistic, visual, aesthetic]
+tags: [carousel, slider, slideshow, gallery, vertical, scroll, slides, stories]
 category: Design
 version: "1.119"
 unicode: "f65a"

@@ -26,7 +26,7 @@ class LetterASmall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [a, alpha, alphabet, first, letter, initial, character, typeface, glyph, script]
+tags: [letter, character, alphabet, lowercase, small, minuscule, text, typography, font, glyph, a]
 category: Letters
 version: "2.38"
 unicode: "fcc7"

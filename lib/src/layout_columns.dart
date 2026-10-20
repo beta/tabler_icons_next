@@ -26,7 +26,7 @@ class LayoutColumns extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grid, column, rows, layout, columns, creative, artistic, visual, aesthetic, style]
+tags: [columns, two-columns, split-view, layout, grid, ui]
 category: Design
 version: "1.0"
 unicode: "ead4"

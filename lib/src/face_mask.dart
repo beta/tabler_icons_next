@@ -26,7 +26,7 @@ class FaceMask extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coronavirus, virus, medical, hospital, doctor, face, mask, wellness, healthcare, treatment]
+tags: [face-mask, mask, covid, coronavirus, virus, protection, surgical-mask, pandemic, medical, hygiene, face]
 category: Health
 version: "1.49"
 unicode: "efb5"

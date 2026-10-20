@@ -26,7 +26,7 @@ class LockSquareRounded extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [security, secure, locked, password, shape, safe, lock, square, rounded, private]
+tags: [lock, padlock, locked, secure, private, protected, square-rounded, squircle, square, rounded]
 category: System
 version: "1.117"
 unicode: "f636"

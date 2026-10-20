@@ -26,7 +26,7 @@ class JewishStar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [judaism, israel, religion, bright, jewish, star, favorite, rating, geometry, form]
+tags: [star-of-david, magen-david, jewish, judaism, israel, religion, hexagram, star]
 category: Shapes
 version: "1.94"
 unicode: "f3ff"

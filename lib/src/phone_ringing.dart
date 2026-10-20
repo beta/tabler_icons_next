@@ -27,7 +27,7 @@ class PhoneRinging extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [incoming, alert, bell, notification, dialing, call, sound, ringtone, vibrate, connect]
+tags: [ringing, call, incoming, telephone, ring, vibrate, alert, handset, notification]
 unicode: "ff9c"
 version: "3.12"
 -->

@@ -27,7 +27,7 @@ class FolderDown extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [decrease, decline, descend, lower, drop, reduce, fall, downgrade, sink, plummet]
+tags: [directory, dir, files, download, arrow-down, decrease, lower, archive, project, receive]
 version: "2.10"
 unicode: "f912"
 -->

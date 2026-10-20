@@ -27,7 +27,7 @@ class CirclesRelation extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [connection, link, shape, hyperlink, circles, relation, round, circular]
+tags: [relation, overlap, intersection, venn, link, connection, union, circles, chain]
 version: "1.98"
 unicode: "f4c3"
 -->

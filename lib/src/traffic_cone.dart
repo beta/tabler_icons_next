@@ -26,7 +26,7 @@ class TrafficCone extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [street, road, vehicle, repair, warning, lane, drive, traffic, cone, location]
+tags: [traffic-cone, cone, construction, roadwork, maintenance, under-construction, warning, road, traffic]
 category: Map
 version: "1.8"
 unicode: "ec0f"

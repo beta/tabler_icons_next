@@ -26,7 +26,7 @@ class Brackets extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [punctuation, additional, information, brackets, calculation, equation, mathematics, numeric, formula]
+tags: [square-brackets, code, array, programming, syntax, punctuation, list, index, brackets]
 category: Math
 version: "1.6"
 unicode: "ebcd"

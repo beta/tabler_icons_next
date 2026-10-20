@@ -26,7 +26,7 @@ class LinkOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [zoom-filled, link, off, disabled, inactive, url, connection, hyperlink, reference, attach]
+tags: [unlink, broken-link, link, url, hyperlink, chain, disabled, off-state, off]
 category: Text
 version: "1.94"
 unicode: "f402"

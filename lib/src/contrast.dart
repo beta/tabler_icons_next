@@ -26,7 +26,7 @@ class Contrast extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [edit, paint, photo, contrast, camera, picture, capture, lens, image, accessibility, a11y, high-contrast, vision, wcag]
+tags: [contrast, brightness, dark-mode, theme, half-circle, accessibility, a11y, high-contrast, photo, edit]
 category: Photography
 version: "1.12"
 unicode: "ec4e"

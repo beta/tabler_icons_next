@@ -26,7 +26,7 @@ class BrandCouchdb extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [document, engine, database, json, brand, couchdb, logo, company, trademark, identity]
+tags: [couchdb, apache, database, nosql, json, document-store, logo, brand]
 category: Brand
 version: "1.115"
 unicode: "f60f"

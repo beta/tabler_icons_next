@@ -27,7 +27,7 @@ class SettingsHeart extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [gear, configuration, adjust, setup, control, love, favorite, care, like, passion]
+tags: [cog, gear, preferences, favorite, love, like, wishlist, configuration, options, config]
 version: "2.10"
 unicode: "f9b5"
 -->

@@ -26,7 +26,7 @@ class ViewfinderOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [target, aim, focus, viewfinder, off, location, navigation, disabled, inactive, geography]
+tags: [viewfinder, crosshair, target, aim, focus, disabled, inactive, focus-frame, off]
 category: Map
 version: "1.67"
 unicode: "f1c2"

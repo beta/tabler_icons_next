@@ -26,7 +26,7 @@ class TransferOut extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [output, export, send, transfer, out, store, purchase, shopping, retail, business]
+tags: [transfer-out, export, outgoing, send, arrow, outbound, exchange, upload, transfer, out]
 category: E-commerce
 version: "1.41"
 unicode: "ef30"

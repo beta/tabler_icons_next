@@ -27,7 +27,7 @@ class DeviceWatchShare extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [distribute, send, connect, post, transmit, publish, broadcast, exchange, propagate, spread]
+tags: [smartwatch, wearable, apple-watch, send, forward, export, social, wristwatch, device, fitness-tracker, distribute]
 version: "2.10"
 unicode: "f8e2"
 -->

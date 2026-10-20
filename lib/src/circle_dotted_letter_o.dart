@@ -26,7 +26,7 @@ class CircleDottedLetterO extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [oscar, fifteenth-letter, vowel, open, order, offer, over, octave, occupy, origin]
+tags: [o, letter-o, letter, alphabet, character, uppercase, initial, circle, dotted, badge]
 category: Letters
 unicode: "ff71"
 version: "3.11"

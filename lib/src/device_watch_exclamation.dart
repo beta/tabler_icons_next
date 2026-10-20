@@ -27,7 +27,7 @@ class DeviceWatchExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [important, alert, warning, notice, urgent, attention, emphasis, highlight, caution, remark]
+tags: [smartwatch, wearable, apple-watch, warning, alert, error, attention, wristwatch, device, fitness-tracker, important, caution]
 version: "2.10"
 unicode: "f8da"
 -->

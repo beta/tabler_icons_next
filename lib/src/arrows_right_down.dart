@@ -26,7 +26,7 @@ class ArrowsRightDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [drag, move, arrows, right, down, bottom, decrease, navigation, flow, fall]
+tags: [diagonal, east, south, multiple-arrows, two-arrows, pointer, navigation, direction, arrows, right, down]
 category: Arrows
 version: "1.39"
 unicode: "ee01"

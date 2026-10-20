@@ -27,7 +27,7 @@ class BookmarkPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [add, insert, increase, augment, expand, include, amplify, append, boost, enlarge]
+tags: [save, saved, favorite, read-later, tag, marker, add-bookmark, add, new, create, insert]
 version: "2.17"
 unicode: "fa60"
 -->

@@ -27,7 +27,7 @@ class MailCog extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [settings, gear, configure, adjust, edit, preferences, customize, message, tool, system]
+tags: [mail, email, envelope, message, inbox, letter, e-mail, settings, gear, cog, configuration, preferences, options]
 version: "2.10"
 unicode: "f93b"
 -->

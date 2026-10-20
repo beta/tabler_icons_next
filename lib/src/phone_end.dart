@@ -27,7 +27,7 @@ class PhoneEnd extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [terminate, disconnect, hangup, finish, cutoff, halting, call-off, finalize, cancel, stop]
+tags: [hang-up, end-call, decline, reject, telephone, call, disconnect, handset]
 unicode: "ff9d"
 version: "3.12"
 -->

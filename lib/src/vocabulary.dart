@@ -26,7 +26,7 @@ class Vocabulary extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [language, traffic, text, book, study, dictionary, vocabulary, typography, writing, font]
+tags: [vocabulary, dictionary, translate, translation, language, book, words, glossary]
 category: Text
 version: "1.40"
 unicode: "ef1e"

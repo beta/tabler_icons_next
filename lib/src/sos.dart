@@ -27,7 +27,7 @@ class Sos extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [help, emergency, signal, message, alert, sos]
+tags: [help, emergency, distress, signal, alert, rescue, sos]
 version: "1.74"
 unicode: "f24a"
 -->

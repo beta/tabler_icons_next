@@ -26,7 +26,7 @@ class PhotoExclamation extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alert, warning, notice, attention, caution, mark, capture, highlight, photo, exclamation]
+tags: [image, picture, gallery, img, photography, media, warning, alert, error, attention, important, thumbnail, landscape, photo, exclamation]
 category: Media
 version: "2.10"
 unicode: "f994"

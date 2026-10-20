@@ -26,7 +26,7 @@ class CloudDownload extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [files, cloud, download, storage, online, control, operation, server, sync, function]
+tags: [download, cloud-download, save, sync, backup, cloud, storage, online, server]
 category: System
 version: "1.0"
 unicode: "ea71"

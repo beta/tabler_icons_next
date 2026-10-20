@@ -26,7 +26,7 @@ class BrandTelegram extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, app, application, communicator, internet, cloud, messages, text, images, photos, videos, record, file, send]
+tags: [telegram, messenger, messaging, chat, message, paper-plane, logo, brand]
 category: Brand
 version: "1.9"
 unicode: "ec26"

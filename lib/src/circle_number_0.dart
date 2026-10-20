@@ -26,7 +26,7 @@ class CircleNumber0 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [zero, number, digit, quantity, amount, order, maths, sum, total, circle]
+tags: [0, zero, number, digit, numeral, count, step, circle, round, badge]
 category: Numbers
 version: "1.39"
 unicode: "ee34"

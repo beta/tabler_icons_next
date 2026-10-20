@@ -26,7 +26,7 @@ class ScreenShare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [monitor, stream, tv, mirroring, cast, online, screen, share, hardware, technology]
+tags: [screen-sharing, share-screen, cast, airplay, mirroring, presentation, monitor, stream, screen, share]
 category: Devices
 version: "1.24"
 unicode: "ed18"

@@ -26,7 +26,7 @@ class HexagonNumber9 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, number, digit, hexagon, numeric, numeral, count, quantity, 9]
+tags: [number, digit, numeral, hexagon, polygon, badge, count, nine, step, counter]
 category: Numbers
 version: "1.95"
 unicode: "f462"

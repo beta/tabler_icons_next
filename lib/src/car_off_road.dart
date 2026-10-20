@@ -27,7 +27,7 @@ class CarOffRoad extends Icon {
 
   static const String _svg = '''<!--
 category: Vehicles
-tags: [off-road, terrain, 4x4, suv, adventure, vehicle, car, automobile, drive, transport]
+tags: [off-road, offroad, 4x4, suv, jeep, terrain, adventure, car, vehicle]
 unicode: "10230"
 version: "3.41"
 -->

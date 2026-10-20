@@ -26,7 +26,7 @@ class Flare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shine, flare, heat, sunlight, hot, sun, climate, forecast, meteorology, atmospheric]
+tags: [flare, lens-flare, sun, sunlight, shine, bright, glare, light, photo, solar-flare]
 category: Weather
 version: "1.39"
 unicode: "ee8e"

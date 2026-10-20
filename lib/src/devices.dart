@@ -26,7 +26,7 @@ class Devices extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [computer, laptop, notebook, tablet, phone, mobile, mac, iphone, devices, hardware]
+tags: [devices, responsive, multi-device, cross-platform, computer, laptop, phone, tablet, desktop, mobile]
 category: Devices
 version: "1.3"
 unicode: "eb87"

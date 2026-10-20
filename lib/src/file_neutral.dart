@@ -27,7 +27,7 @@ class FileNeutral extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [document, standard, generic, default, unbiased, plain, ordinary, basic, common, typical]
+tags: [neutral, emotion, face, indifferent, document, file, feedback, okay, meh]
 version: "2.40"
 unicode: "fd22"
 -->

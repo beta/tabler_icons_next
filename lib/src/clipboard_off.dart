@@ -27,7 +27,7 @@ class ClipboardOff extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [copy, clipboard, paste, document, file, paper, note, text, page, sheet, blank]
+tags: [off, disabled, unavailable, no, clipboard, paste, document, task, notes]
 version: "1.63"
 unicode: "f0ce"
 -->

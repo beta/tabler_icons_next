@@ -26,7 +26,7 @@ class Nurse extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hospital, doctor, medical, woman, emergency, medicine, nurse, wellness, healthcare, treatment]
+tags: [nurse-cap, medical, health, hospital, healthcare, doctor, caregiver, hat, nurse]
 category: Health
 version: "1.44"
 unicode: "ef65"

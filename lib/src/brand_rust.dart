@@ -26,7 +26,7 @@ class BrandRust extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [metal, oxidation, language, programming, brown, corrosion, decay, software, development, code]
+tags: [rust, rustlang, programming, language, mozilla, code, logo, brand]
 category: Brand
 version: "2.16"
 unicode: "fa53"

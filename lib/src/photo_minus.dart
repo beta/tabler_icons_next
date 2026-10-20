@@ -26,7 +26,7 @@ class PhotoMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gallery, delete, remove, photo, minus, content, entertainment, subtract, less, decrease]
+tags: [image, picture, gallery, img, photography, media, remove, delete, subtract, thumbnail, landscape, photo, minus]
 category: Media
 version: "1.89"
 unicode: "f362"

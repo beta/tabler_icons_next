@@ -26,7 +26,7 @@ class Filter2Edit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [filter, edit, modify, change, update, revise, adjust, sort, organize, arrange]
+tags: [filter, filtering, sort, pencil, modify, change, update, refine, list, options, rename, write, edit]
 category: System
 version: "3.32"
 unicode: "10157"

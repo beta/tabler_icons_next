@@ -27,7 +27,7 @@ class SettingsX extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [configuration, closure, cancel, preferences, terminate, end, exit, remove, delete, tools]
+tags: [cog, gear, preferences, delete, remove, close, cancel, error, configuration, options, config]
 version: "2.10"
 unicode: "f9bf"
 -->

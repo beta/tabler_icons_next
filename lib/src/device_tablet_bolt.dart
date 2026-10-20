@@ -27,7 +27,7 @@ class DeviceTabletBolt extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [energy, quick, power, fast, lightning, electric, vital, dynamic, charge, speed]
+tags: [tablet, ipad, android, lightning, flash, energy, power, touchscreen, device, mobile, charge, electric, fast]
 version: "2.10"
 unicode: "f8c0"
 -->

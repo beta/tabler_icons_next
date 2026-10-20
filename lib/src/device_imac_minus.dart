@@ -27,7 +27,7 @@ class DeviceImacMinus extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [decrease, subtract, lower, reduce, negative, diminish, downsize, deduct, withdraw, eliminate]
+tags: [minus, remove, subtract, less, imac, mac, apple, computer, desktop, monitor]
 version: "2.10"
 unicode: "f87a"
 -->

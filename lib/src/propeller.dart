@@ -27,7 +27,7 @@ class Propeller extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [rotate, blade, spiral, air, ship, fan, power, propeller]
+tags: [fan, blade, rotor, airplane, boat, ship, spin, aviation, wind, propeller]
 version: "1.39"
 unicode: "eec4"
 -->

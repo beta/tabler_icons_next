@@ -26,7 +26,7 @@ class CurrencyTaka extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [trade, bangladesh, bdt, taka, money, banknote, pay, currency, finance, payment]
+tags: [taka, bdt, bangladesh, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "ee69"

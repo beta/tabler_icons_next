@@ -26,7 +26,7 @@ class Bed extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [furniture, sleeping, comfortable, bedroom, mattress, resting, relax, sleep, futon, cozy]
+tags: [sleep, bedroom, hotel, rest, night, furniture, accommodation]
 category: Map
 version: "1.2"
 unicode: "eb5c"

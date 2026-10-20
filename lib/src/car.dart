@@ -26,7 +26,7 @@ class Car extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vehicle, drive, driver, engine, motor, journey, trip, car, transport, travel]
+tags: [car, vehicle, automobile, auto, drive, transport, travel, sedan]
 category: Vehicles
 version: "1.5"
 unicode: "ebbb"

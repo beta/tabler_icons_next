@@ -27,7 +27,7 @@ class Paw extends Icon {
 
   static const String _svg = '''<!--
 category: Animals
-tags: [animal, dog, cat, foot, pets, paw]
+tags: [pet, animal, dog, cat, footprint, paw-print, vet, paw]
 version: "1.52"
 unicode: "eff9"
 -->

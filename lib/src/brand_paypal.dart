@@ -26,7 +26,7 @@ class BrandPaypal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, enterprise, service, payment, internet, businessman, consumer, brand, paypal, company]
+tags: [paypal, payment, money, transfer, online-payment, checkout, finance, logo, brand]
 category: Brand
 version: "1.9"
 unicode: "ec22"

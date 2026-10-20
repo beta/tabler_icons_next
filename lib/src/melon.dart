@@ -26,7 +26,7 @@ class Melon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [fruit, sweet, summer, refresh, juicy, round, tropical, cool, refreshing, tasty]
+tags: [watermelon, fruit, summer, slice, sweet, juicy, food, healthy]
 category: Food
 version: "2.34"
 unicode: "fc7a"

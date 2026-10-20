@@ -26,7 +26,7 @@ class Servicemark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [trademark, sign, registration, servicemark, mark, emblem, representation, indicator]
+tags: [service-mark, sm, trademark, brand, legal, symbol, servicemark]
 category: Symbols
 version: "1.8"
 unicode: "ec09"

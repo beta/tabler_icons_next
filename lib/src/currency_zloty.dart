@@ -26,7 +26,7 @@ class CurrencyZloty extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [poland, pln, zloty, polish, money, banknote, pay, currency, finance, payment]
+tags: [zloty, pln, poland, polish, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "ee6c"

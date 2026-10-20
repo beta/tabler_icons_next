@@ -26,7 +26,7 @@ class CurrencyDollarGuyanese extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, buisness, commerce, currency, dollar, guyanese, finance, payment, money, usd]
+tags: [guyanese-dollar, gyd, guyana, dollar, currency, money, symbol, cash, finance, payment, guyanese]
 category: Currencies
 version: "1.90"
 unicode: "f36d"

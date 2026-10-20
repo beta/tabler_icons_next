@@ -26,7 +26,7 @@ class PhotoX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gallery, delete, remove, photo, content, entertainment, multimedia, broadcast, audio, x]
+tags: [image, picture, gallery, img, photography, media, close, delete, remove, cancel, clear, thumbnail, landscape, photo, x]
 category: Media
 version: "1.89"
 unicode: "f367"

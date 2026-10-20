@@ -26,7 +26,7 @@ class GenderDemigirl extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identity, demiwoman, demifemale, gender, demigirl, person, human, individual]
+tags: [demigirl, demifemale, gender, non-binary, identity, lgbt, lgbtq, symbol]
 category: Gender
 version: "1.64"
 unicode: "f0e5"

@@ -26,7 +26,7 @@ class Volcano extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [erumption, lava, nature, danger, explosion, volcano, location, navigation, geography, place]
+tags: [volcano, eruption, lava, mountain, nature, disaster, mountain-fire, geology]
 category: Map
 version: "2.5"
 unicode: "f79c"

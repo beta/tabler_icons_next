@@ -26,7 +26,7 @@ class BrandPicsart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [photo, photography, software, video, editing, brand, picsart, logo, company, trademark]
+tags: [picsart, photo-editor, photo, editing, image, video, app, logo, brand]
 category: Brand
 version: "1.99"
 unicode: "f4d9"

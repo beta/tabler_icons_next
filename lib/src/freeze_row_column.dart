@@ -26,7 +26,7 @@ class FreezeRowColumn extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [stabilize, lock, anchor, halt, suspend, persevere, pause, arrest, stop, restrain]
+tags: [freeze-panes, freeze, lock, pin, row, column, spreadsheet, excel, table, sticky]
 category: Design
 version: "2.17"
 unicode: "fa64"

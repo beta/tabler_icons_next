@@ -26,7 +26,7 @@ class Cross extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [prayer, church, catholic, jezus, religion, cross, sign, mark, emblem, representation]
+tags: [cross, christian, christianity, church, religion, jesus, faith, crucifix, prayer]
 category: Symbols
 version: "1.47"
 unicode: "ef8f"

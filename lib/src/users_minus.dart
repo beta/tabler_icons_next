@@ -27,7 +27,7 @@ class UsersMinus extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [remove, subtract, reduce, decrease, diminish, deduct, lessen, takeaway, withdraw, deplete]
+tags: [people, group, team, remove, delete, subtract, members, user]
 version: "2.12"
 unicode: "fa0e"
 -->

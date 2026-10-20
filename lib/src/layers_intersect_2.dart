@@ -26,7 +26,7 @@ class LayersIntersect2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [merge, stack, layers, intersect, creative, artistic, visual, aesthetic, style, 2]
+tags: [layers, intersect, intersection, boolean, pathfinder, overlap, shape, vector, design]
 category: Design
 version: "1.52"
 unicode: "eff8"

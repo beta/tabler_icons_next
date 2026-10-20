@@ -26,7 +26,7 @@ class MouseOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pointer, cursor, device, mouse, off, hardware, technology, disabled, inactive, electronic]
+tags: [computer-mouse, pointer, click, cursor, disabled, slash, peripheral, device, inactive, mouse, off]
 category: Devices
 version: "1.66"
 unicode: "f163"

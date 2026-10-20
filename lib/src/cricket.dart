@@ -26,7 +26,7 @@ class Cricket extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ball, game, sport, cricket, athletic, fitness, exercise, physical]
+tags: [cricket, bat, ball, sport, game, wicket, match, team-sport]
 category: Sport
 version: "1.61"
 unicode: "f09a"

@@ -26,7 +26,7 @@ class ArrowBarToDownDashed extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, bar, down, dashed, direction, pointer, bottom, decrease, navigation, flow]
+tags: [direction, south, downward, bottom, to-edge, dotted, pointer, navigation, arrow, bar, down, dashed]
 category: Arrows
 version: "3.32"
 unicode: "10164"

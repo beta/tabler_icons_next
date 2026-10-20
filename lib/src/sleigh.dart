@@ -26,7 +26,7 @@ class Sleigh extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [winter, christmas, snow, santa, transport, sledge, sleigh, travel, vehicle, automobile]
+tags: [sled, sledge, christmas, santa, winter, snow, sleigh]
 category: Vehicles
 version: "1.47"
 unicode: "ef9c"

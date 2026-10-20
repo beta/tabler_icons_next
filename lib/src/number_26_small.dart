@@ -26,7 +26,7 @@ class Number26Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [twenty-six, 26th, twenty-sixth, viginti-sexto, viginti-sixth, twenty, and, six, plus, 26]
+tags: [twenty-six, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcf4"

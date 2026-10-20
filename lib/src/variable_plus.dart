@@ -26,7 +26,7 @@ class VariablePlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [add, new, maths, mathematics, science, calculate, function, variable, plus, calculation]
+tags: [variable, function, math, formula, code, add, create, new, plus]
 category: Math
 version: "1.89"
 unicode: "f36b"

@@ -26,7 +26,7 @@ class ReceiptBitcoin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cryptocurrency, digital, transaction, invoice, record, payment, currency, finance, proof, blockchain]
+tags: [receipt, bill, invoice, bitcoin, btc, crypto, payment, currency, money, transaction]
 category: E-commerce
 version: "2.44"
 unicode: "fd66"

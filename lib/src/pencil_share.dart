@@ -27,7 +27,7 @@ class PencilShare extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [edit, distribute, network, connect, post, communicate, spread, publish, collaborate, exchange]
+tags: [edit, write, draw, modify, pen, compose, send, forward, export, social, update, change]
 version: "2.28"
 unicode: "fc0b"
 -->

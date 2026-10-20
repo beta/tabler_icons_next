@@ -26,7 +26,7 @@ class CurrencyKroneDanish extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [krone, dkk, danish, finance, money, banknote, pay, currency, payment, monetary]
+tags: [krone, dkk, danish, denmark, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "ee5d"

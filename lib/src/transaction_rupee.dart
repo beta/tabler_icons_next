@@ -27,7 +27,7 @@ class TransactionRupee extends Icon {
 
   static const String _svg = '''<!--
 category: Currencies
-tags: [currency, exchange, trade, payment, cash, money, rupee, finance, transfer, india]
+tags: [transaction, payment, transfer, rupee, inr, india, money, exchange]
 version: "2.45"
 unicode: "fd85"
 -->

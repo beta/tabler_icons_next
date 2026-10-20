@@ -27,7 +27,7 @@ class DropletExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [alert, warn, danger, caution, attention, notice, signal, emphasize, highlight, notify]
+tags: [drop, water, liquid, warning, alert, error, attention, rain, ink, color, important, caution]
 version: "2.10"
 unicode: "f900"
 -->

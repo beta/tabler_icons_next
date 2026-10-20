@@ -27,7 +27,7 @@ class CloudUp extends Icon {
 
   static const String _svg = '''<!--
 category: Weather
-tags: [upload, send, transfer, push, convey, sync, submit, deliver, advance, progress]
+tags: [upload, cloud-upload, arrow-up, sync, backup, publish, cloud, storage]
 version: "2.10"
 unicode: "f85c"
 -->

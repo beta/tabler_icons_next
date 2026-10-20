@@ -27,7 +27,7 @@ class Nut extends Icon {
 
   static const String _svg = '''<!--
 category: Food
-tags: [hardware, fastener, metal, steel, hexagon, fitting, mechanical, industrial, tool, connection]
+tags: [hex-nut, bolt, screw, hardware, fastener, mechanic, hexagon, tool]
 version: "2.32"
 unicode: "fc61"
 -->

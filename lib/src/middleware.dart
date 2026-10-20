@@ -27,7 +27,7 @@ class Middleware extends Icon {
 
   static const String _svg = '''<!--
 category: Development
-tags: [bridge, layer, software, integration, connect, intermediate, service, glue, mediator, processor, handler, interface]
+tags: [integration, api, bridge, layer, connector, pipeline, service, backend]
 unicode: "101ed"
 version: "3.39"
 -->

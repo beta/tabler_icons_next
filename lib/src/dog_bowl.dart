@@ -26,7 +26,7 @@ class DogBowl extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pet, food, animal, bone, dog, bowl, meal, cuisine, eating, nutrition]
+tags: [dog-bowl, pet-food, bowl, feeding, pet, dog, animal, food, bone]
 category: Food
 version: "1.41"
 unicode: "ef29"

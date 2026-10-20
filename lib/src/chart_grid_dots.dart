@@ -26,7 +26,7 @@ class ChartGridDots extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [graph, diagram, analytics, statistics, data, chart, grid, dots, visualization, metrics]
+tags: [chart, graph, statistics, analytics, data, report, diagram, grid, dots, dot-plot, matrix, visualization]
 category: Charts
 version: "1.98"
 unicode: "f4c2"

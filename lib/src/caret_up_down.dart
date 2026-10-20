@@ -27,7 +27,7 @@ class CaretUpDown extends Icon {
 
   static const String _svg = '''<!--
 category: Arrows
-tags: [indicator, navigation, direction, toggle, switch, movement, select, option, upward, downward]
+tags: [caret-up-down, caret, triangle, sort, sorting, select, dropdown, up-down, arrows]
 version: "2.31"
 unicode: "fc44"
 -->

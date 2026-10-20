@@ -26,7 +26,7 @@ class CurrencyEthereum extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ethereum, digital, crypto, ether, blockchain, money, banknote, pay, currency, finance]
+tags: [ethereum, eth, ether, crypto, cryptocurrency, blockchain, coin, digital-currency, currency, money]
 category: Currencies
 version: "1.39"
 unicode: "ee59"

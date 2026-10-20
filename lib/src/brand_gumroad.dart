@@ -26,7 +26,7 @@ class BrandGumroad extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [e-commerce, platform, sell, direct, brand, gumroad, logo, company, trademark, identity]
+tags: [gumroad, ecommerce, creator, sell, digital-products, shop, logo, brand]
 category: Brand
 version: "1.112"
 unicode: "f5d6"

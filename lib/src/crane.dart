@@ -26,7 +26,7 @@ class Crane extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [construction, building, machine, lifting, crane, transport, travel, vehicle, automobile, mobility]
+tags: [crane, construction, building, lifting, tower-crane, heavy, machinery, site, industry]
 category: Vehicles
 version: "1.41"
 unicode: "ef27"

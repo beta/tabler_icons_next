@@ -27,7 +27,7 @@ class PinInvoke extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [pin, location-pin, map-pin, marker, place-pin, invoke-pin, trigger-pin, point, position-pin, invoke-mark]
+tags: [pin, invoke, trigger, call, activate, marker, map-pin, location, waypoint]
 version: "2.43"
 unicode: "fd5c"
 -->

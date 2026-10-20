@@ -26,7 +26,7 @@ class Plane extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [travel, journey, trip, airport, baggage, luggage, plane, transport, vehicle, automobile]
+tags: [airplane, aeroplane, flight, aircraft, travel, airport, trip, fly, jet, airplane-mode, plane]
 category: Vehicles
 version: "1.2"
 unicode: "eb6f"

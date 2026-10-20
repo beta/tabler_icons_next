@@ -26,7 +26,7 @@ class SailboatOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sailor, journey, sea, lake, ocean, river, sailboat, off, transport, travel]
+tags: [boat, sail, sailing, yacht, ship, sea, ocean, disabled, unavailable, inactive, hidden, sailboat, off]
 category: Vehicles
 version: "1.94"
 unicode: "f425"

@@ -26,7 +26,7 @@ class Recycle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [trash, rubbish, recyclable, reuse, waste, recycle, sign, mark, emblem, representation]
+tags: [recycling, reuse, eco, environment, green, sustainability, waste, trash, recycle]
 category: Symbols
 version: "1.3"
 unicode: "eb9b"

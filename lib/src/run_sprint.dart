@@ -26,7 +26,7 @@ class RunSprint extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [run, sprint, jog, speed, athletic, fitness, exercise, race, sport, motion]
+tags: [running, runner, sprint, jog, race, speed, exercise, fitness, sport, run]
 category: Sport
 unicode: "10289"
 version: "3.46"

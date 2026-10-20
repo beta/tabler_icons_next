@@ -26,7 +26,7 @@ class FloatCenter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [position, float, center, typography, writing, font, character, word]
+tags: [float, center, align-center, image-position, text-wrap, layout, css, alignment, wrap]
 category: Text
 version: "1.4"
 unicode: "ebb1"

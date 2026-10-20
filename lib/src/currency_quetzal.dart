@@ -26,7 +26,7 @@ class CurrencyQuetzal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, finance, money, cash, guatemala, currency, quetzal, payment, monetary, banking]
+tags: [quetzal, gtq, guatemala, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.90"
 unicode: "f379"

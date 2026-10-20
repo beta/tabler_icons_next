@@ -27,7 +27,7 @@ class CaretLeftRight extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [arrow-horizontal, double-arrow, side-arrow, left-right, horizontal-pointer, directional, horizontal-caret, bidirectional, opposite, horizontal-arrow]
+tags: [caret-left-right, caret, triangle, arrows, horizontal, left-right, resize, width, bidirectional]
 version: "2.31"
 unicode: "fc43"
 -->

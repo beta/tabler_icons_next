@@ -26,7 +26,7 @@ class Section extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [html, layout, divide, position, website, section, creative, artistic, visual, aesthetic]
+tags: [layout, section, dashed, separator, html, website, divider]
 category: Design
 version: "1.39"
 unicode: "eed5"

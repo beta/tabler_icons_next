@@ -26,7 +26,7 @@ class WashTumbleDry extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [laundry, clean, clear, clothes, wash, tumble, dry, cleaning, washing, garment]
+tags: [laundry, care-label, clothes, washing, tumble-dry, dryer, drying, laundry-symbol, garment, wash, tumble, dry]
 category: Laundry
 version: "1.84"
 unicode: "f30f"

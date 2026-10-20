@@ -26,7 +26,7 @@ class OvalVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, circle, oval, vertical, geometry, form, figure, pattern, outline]
+tags: [ellipse, shape, egg, vertical, geometry, figure, elliptical, round, outline, oval]
 category: Shapes
 version: "1.55"
 unicode: "f02d"

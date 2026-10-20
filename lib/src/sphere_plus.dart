@@ -26,7 +26,7 @@ class SpherePlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, sphere, plus, add, more, increase]
+tags: [ball, globe, orb, 3d, shape, add, new, sphere, plus]
 category: Shapes
 version: "2.20"
 unicode: "fab7"

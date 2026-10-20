@@ -26,7 +26,7 @@ class Number63Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tiny, sixtythree, digit63, numeric, miniature, icon63, num63, small63, sixthree, miniscule]
+tags: [sixty-three, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 unicode: "ffe3"
 version: "3.14"

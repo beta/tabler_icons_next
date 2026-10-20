@@ -26,7 +26,7 @@ class EmergencyBed extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hospital, medical, patient, medicine, emergency, bed, wellness, healthcare, treatment, care]
+tags: [hospital-bed, stretcher, gurney, emergency, ambulance, patient, hospital, er, medical, bed]
 category: Health
 version: "1.44"
 unicode: "ef5d"

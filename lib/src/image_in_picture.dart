@@ -27,7 +27,7 @@ class ImageInPicture extends Icon {
 
   static const String _svg = '''<!--
 category: Photography
-tags: [photo, snapshot, visual, frame, layer, embed, nest, overlay, merge, media]
+tags: [picture-in-picture, pip, image, photo, overlay, embed, frame, nested, media]
 version: "2.47"
 unicode: "fd9f"
 -->

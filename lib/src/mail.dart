@@ -26,7 +26,7 @@ class Mail extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [inbox, gmail, email, envelope, message, mail, contact, conversation, letter, post]
+tags: [mail, email, envelope, message, inbox, letter, e-mail, contact]
 category: Communication
 version: "1.0"
 unicode: "eae5"

@@ -26,7 +26,7 @@ class Pilcrow extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [paragraph, letter, text, pilcrow, typography, writing, font, character, word]
+tags: [paragraph, paragraph-mark, text, typography, formatting, show-invisibles, paragraph-sign, invisible-characters, text-format, word-processor, pilcrow]
 category: Text
 version: "1.113"
 unicode: "f5f6"

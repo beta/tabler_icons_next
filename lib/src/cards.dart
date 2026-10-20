@@ -26,7 +26,7 @@ class Cards extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, poker, credit, peyment, casino, cards, creative, artistic, visual, aesthetic]
+tags: [cards, playing-cards, card-game, poker, casino, deck, game, gambling]
 category: Design
 version: "1.102"
 unicode: "f510"

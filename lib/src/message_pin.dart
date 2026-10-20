@@ -27,7 +27,7 @@ class MessagePin extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [attach, fix, secure, hold, fasten, mark, anchor, stabilize, lock, place]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, pinned, location, map-pin, marker, reply, communication, dm]
 version: "2.10"
 unicode: "f98a"
 -->

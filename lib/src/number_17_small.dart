@@ -26,7 +26,7 @@ class Number17Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [seventeen, seventeenth, septendecade, septendecuple, septendecad, seventeenfold, septendecenary, septendec, septendecuplet, 17th]
+tags: [seventeen, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcea"

@@ -26,7 +26,7 @@ class Pennant extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [flag, ship, sports, championship, mark, spot, winner, pennant, location, navigation]
+tags: [flag, banner, pennon, sport, triangle-flag, marker, pennants, bunting, flagpole, pennant]
 category: Map
 version: "1.33"
 unicode: "ed7d"

@@ -27,7 +27,7 @@ class CalendarSearch extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [find, explore, look, seek, investigate, probe, scan, inspect, examine, detect]
+tags: [calendar, date, schedule, event, day, planner, agenda, search, find, magnifier, lookup, appointment]
 version: "2.10"
 unicode: "f82e"
 -->

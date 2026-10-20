@@ -26,7 +26,7 @@ class Pipeline extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [ci, cd, workflow, deploy, automation, pipeline, devops, build, process, flow]
+tags: [ci-cd, ci, cd, workflow, deploy, deployment, devops, automation, build, stages, process, pipeline]
 category: Development
 unicode: "10225"
 version: "3.41"

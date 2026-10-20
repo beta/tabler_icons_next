@@ -26,7 +26,7 @@ class Cactus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [plant, desert, spikes, nature, garden, cactus, environment, natural, outdoor, ecosystem]
+tags: [cactus, plant, desert, succulent, nature, houseplant, cacti]
 category: Nature
 version: "1.72"
 unicode: "f21b"

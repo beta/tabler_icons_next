@@ -26,7 +26,7 @@ class CloudOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, online, cloud, off, storage, climate, forecast, disabled, inactive, server]
+tags: [off, offline, disconnected, no-connection, sync-off, disabled, cloud, weather]
 category: Weather
 version: "1.28"
 unicode: "ed3e"

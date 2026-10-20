@@ -26,7 +26,7 @@ class BrandPolymer extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [plastic, chemistry, resin, material, molecule, industrial, science, engineering, synthetic, compound]
+tags: [polymer, google, web-components, javascript, library, frontend, logo, brand]
 category: Brand
 unicode: "f498"
 version: "1.96"

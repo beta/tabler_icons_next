@@ -27,7 +27,7 @@ class CashHeart extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [cash, heart, love, like, money, currency, payment, finance, dollar, banknote]
+tags: [cash, money, payment, currency, finance, dollar, banknote, heart, favorite, like, love, donation, charity, tip, bill]
 version: "3.31"
 unicode: "10142"
 -->

@@ -26,7 +26,7 @@ class FocusAuto extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [autonomous, automatic, robotic, self-governing, auto-pilot, auto-track, self-directed, auto-focus, self-regulated, auto-navigate]
+tags: [autofocus, auto-focus, af, camera, focus, lens, photo, photography, automatic]
 category: Photography
 version: "2.17"
 unicode: "fa62"

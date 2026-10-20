@@ -26,7 +26,7 @@ class LogicXor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gate, technology, electirical, it, logic, xor, boolean, operation, reasoning, conditional]
+tags: [logic, gate, boolean, circuit, electronics, digital, operator, binary, exclusive-or, exclusive, schematic, electrical, xor]
 category: Logic
 version: "1.74"
 unicode: "f247"

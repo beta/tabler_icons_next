@@ -27,7 +27,7 @@ class Spiral extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [hypnosis, rotation, growth, spiral]
+tags: [swirl, hypnosis, spin, rotate, vortex, twirl, loop, whirl, spiral]
 version: "1.78"
 unicode: "f294"
 -->

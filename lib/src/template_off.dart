@@ -26,7 +26,7 @@ class TemplateOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grid, columns, masonry, collage, template, off, creative, artistic, disabled, inactive]
+tags: [layout, grid, template, masonry, collage, disabled, inactive, wireframe, off]
 category: Design
 version: "1.67"
 unicode: "f1b0"

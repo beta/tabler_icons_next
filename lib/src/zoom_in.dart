@@ -26,7 +26,7 @@ class ZoomIn extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [magnifying glass, zoom, location, navigation, magnify, enlarge, scale, focus, view, in, accessibility, a11y, vision, low-vision]
+tags: [zoom-in, magnify, enlarge, plus, magnifier, magnifying-glass, scale, zooming, zoom, in]
 category: Map
 version: "1.0"
 unicode: "eb56"

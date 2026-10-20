@@ -27,7 +27,7 @@ class ShieldExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [protection, alert, warning, notice, security, guard, caution, important, attention, notify]
+tags: [security, protection, protect, warning, alert, error, attention, important, guard, safety, secure]
 version: "2.10"
 unicode: "f9c6"
 -->

@@ -26,7 +26,7 @@ class BellZ extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alarm, bell, clock, date, snooze, time, control, operation, function, interface]
+tags: [notification, alert, reminder, notify, alarm, snooze, sleep, mute, do-not-disturb, bell]
 category: System
 version: "1.52"
 unicode: "eff1"

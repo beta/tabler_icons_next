@@ -27,7 +27,7 @@ class BalloonOff extends Icon {
 
   static const String _svg = '''<!--
 category: Nature
-tags: [party, birthday, decoration, balloon, off, disabled, inactive]
+tags: [party, birthday, celebration, festival, helium, decoration, disabled, balloon, off]
 version: "1.65"
 unicode: "f0fd"
 -->

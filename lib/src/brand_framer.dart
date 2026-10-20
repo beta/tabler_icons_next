@@ -26,7 +26,7 @@ class BrandFramer extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, application, app, prototyping, prototype, animations, brand, framer, company, trademark]
+tags: [framer, design, prototyping, website-builder, no-code, ui, logo, brand]
 category: Brand
 version: "1.9"
 unicode: "ec1b"

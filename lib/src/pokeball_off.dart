@@ -26,7 +26,7 @@ class PokeballOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pokemon, go, catch, game, play, pokeball, off, location, navigation, disabled]
+tags: [pokemon, pokemon-go, poke-ball, catch, game, gaming, nintendo, disabled, unavailable, inactive, hidden, pokeball, off]
 category: Map
 version: "1.94"
 unicode: "f41c"

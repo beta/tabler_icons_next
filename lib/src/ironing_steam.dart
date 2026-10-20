@@ -26,7 +26,7 @@ class IroningSteam extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [clotches, housework, iron, smooth, water, ironing, steam, cleaning, washing, clothes]
+tags: [iron, ironing, laundry, clothes, garment, care-label, wrinkle, steam, steamer, steam-iron]
 category: Laundry
 version: "1.84"
 unicode: "f2f9"

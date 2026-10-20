@@ -27,7 +27,7 @@ class DeviceIpadHorizontalUp extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [ascend, elevate, rise, increase, boost, climb, raise, high, above, advance]
+tags: [ipad, tablet, landscape, upload, arrow-up, increase, raise, apple, ios, device, send]
 version: "2.10"
 unicode: "f8a0"
 -->

@@ -26,7 +26,7 @@ class XPowerY extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [math, expression, equation, power, raised, calculation, mathematics, numeric, formula, x]
+tags: [exponent, power, superscript, math, formula, equation, exponentiation, exponential, x]
 category: Math
 version: "3.20"
 unicode: "10072"

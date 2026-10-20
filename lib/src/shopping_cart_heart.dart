@@ -26,7 +26,7 @@ class ShoppingCartHeart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [favorites, love, cherish, adore, affection, passion, emotion, fondness, devotion, shopping]
+tags: [shopping-cart, cart, basket, favorite, love, like, wishlist, trolley, shop, store, checkout, ecommerce, buy, shopping]
 category: E-commerce
 version: "2.28"
 unicode: "fb61"

@@ -27,7 +27,7 @@ class SkewX extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [skew-horizontal, tilt-x, slant-x, distort-horizontal, angled, slanted, tilted, diagonal, oblique, slope-x]
+tags: [skew, horizontal, slant, distort, transform, italic, oblique]
 version: "2.41"
 unicode: "fd3b"
 -->

@@ -26,7 +26,7 @@ class BrandAppleArcade extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [technology, video, game, service, macos, device, play, online, brand, apple]
+tags: [apple-arcade, apple, game, gaming, subscription, ios, games, logo, brand]
 category: Brand
 version: "1.32"
 unicode: "ed69"

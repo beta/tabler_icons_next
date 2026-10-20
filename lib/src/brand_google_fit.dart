@@ -26,7 +26,7 @@ class BrandGoogleFit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [health, tracking, platform, software, brand, google, fit, logo, company, trademark]
+tags: [google-fit, google, fitness, health, activity, tracking, workout, logo, brand, fit]
 category: Brand
 version: "1.79"
 unicode: "f297"

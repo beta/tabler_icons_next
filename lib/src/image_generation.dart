@@ -27,7 +27,7 @@ class ImageGeneration extends Icon {
 
   static const String _svg = '''<!--
 category: Development
-tags: [picture, create, art, design, generate, photo, graphic, visual, ai, drawing, render, produce]
+tags: [ai, image-generation, text-to-image, generate, picture, photo, art, ai-art, generative, dall-e, midjourney]
 unicode: "101ef"
 version: "3.39"
 -->

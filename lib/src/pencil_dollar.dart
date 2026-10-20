@@ -27,7 +27,7 @@ class PencilDollar extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [edit, finance, price, currency, money, value, tax, amount, cost, economics]
+tags: [edit, write, draw, modify, pen, compose, money, price, payment, paid, usd, cost, update, change]
 version: "2.28"
 unicode: "fc03"
 -->

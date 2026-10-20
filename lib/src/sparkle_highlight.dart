@@ -26,7 +26,7 @@ class SparkleHighlight extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sparkle, highlight, emphasis, star, shine, accent, feature, magic, glow, attention]
+tags: [star, shine, glitter, magic, highlight, emphasis, glow, ai, sparkle]
 category: Design
 unicode: "1025a"
 version: "3.44"

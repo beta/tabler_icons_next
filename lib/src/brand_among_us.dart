@@ -26,7 +26,7 @@ class BrandAmongUs extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, crewmate, impostor, brand, among, logo, company, trademark, identity, corporate]
+tags: [among-us, game, video-game, crewmate, impostor, multiplayer, gaming, logo, brand, among]
 category: Brand
 version: "1.71"
 unicode: "f205"

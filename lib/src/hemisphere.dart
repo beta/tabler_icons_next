@@ -26,7 +26,7 @@ class Hemisphere extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, hemisphere, geometry, form, figure, outline]
+tags: [hemisphere, half-sphere, dome, bowl, 3d, shape, geometry, solid, math, object]
 category: Shapes
 version: "2.20"
 unicode: "faa2"

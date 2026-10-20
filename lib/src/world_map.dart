@@ -26,7 +26,7 @@ class WorldMap extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [world, map, globe, earth, geography, location, travel, planet, navigation]
+tags: [world-map, map, atlas, earth, globe, geography, travel, planet, world]
 category: Map
 unicode: "101e9"
 version: "3.39"

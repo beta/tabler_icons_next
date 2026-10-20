@@ -26,7 +26,7 @@ class ReportOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [time, timesheet, analysis, analyse, results, business, company, report, off, disabled]
+tags: [report, document, analytics, results, business, summary, timesheet, disabled, unavailable, inactive, hidden, off]
 category: Document
 version: "1.66"
 unicode: "f18f"

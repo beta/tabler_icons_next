@@ -26,7 +26,7 @@ class StackPop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, level, layout, arrow, out, stack, pop, creative, artistic, visual]
+tags: [stack, pop, data-structure, lifo, remove, layers, arrow-out, programming]
 category: Design
 version: "1.73"
 unicode: "f234"

@@ -27,7 +27,7 @@ class MessageStar extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [rate, highlight, bookmark, notable, exceptional, favorite, mark, distinguish, commend, applaud]
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, favorite, bookmark, rating, featured, reply, communication, dm]
 version: "2.10"
 unicode: "f98d"
 -->

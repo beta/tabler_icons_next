@@ -26,7 +26,7 @@ class StackPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [pile, elements, layout, stack, layers, plus, add, increase, new, create]
+tags: [layers, stack, add, create, new, insert, z-order, stacked, layer, plus]
 category: Design
 unicode: "102a2"
 version: "3.48"

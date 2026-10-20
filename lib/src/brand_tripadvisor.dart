@@ -26,7 +26,7 @@ class BrandTripadvisor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [travel, trip, tourism, website, brand, tripadvisor, logo, company, trademark, identity]
+tags: [tripadvisor, travel, reviews, hotels, restaurants, tourism, owl, logo, brand]
 category: Brand
 version: "1.53"
 unicode: "f002"

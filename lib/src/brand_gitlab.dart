@@ -26,7 +26,7 @@ class BrandGitlab extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, website, software, code, programming, programmers, brand, gitlab, company, trademark]
+tags: [gitlab, git, repository, devops, ci, code, version-control, logo, brand]
 category: Brand
 version: "1.9"
 unicode: "ec1d"

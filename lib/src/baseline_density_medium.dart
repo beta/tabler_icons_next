@@ -26,7 +26,7 @@ class BaselineDensityMedium extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [medium, average, moderate, middle, intermediate, standard, midsize, usual, typical, regular]
+tags: [line-height, spacing, typography, text, compact, comfortable, leading, line-spacing, vertical-rhythm, medium]
 version: "2.11"
 unicode: "f9f1"
 category: Text

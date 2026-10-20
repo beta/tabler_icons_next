@@ -27,7 +27,7 @@ class CubeUnfolded extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [folding, filed, box, unwrapped, cube, unfolded]
+tags: [cube, unfolded, net, unwrapped, box, 3d, packaging, template, geometry]
 version: "1.115"
 unicode: "f61c"
 -->

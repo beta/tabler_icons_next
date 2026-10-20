@@ -27,7 +27,7 @@ class DevicesX extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [close, remove, cancel, end, terminate, erase, delete, exit, nullify, reject]
+tags: [responsive, multi-device, computer, close, delete, remove, cancel, laptop, phone, tablet, desktop, clear, error]
 version: "2.10"
 unicode: "f8f8"
 -->

@@ -27,7 +27,7 @@ class CashMinus extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [cash, minus, money, currency, payment, finance, dollar, banknote, subtract, remove]
+tags: [cash, money, payment, currency, finance, dollar, banknote, remove, minus, subtract, delete, expense, withdraw, bill]
 version: "3.31"
 unicode: "10141"
 -->

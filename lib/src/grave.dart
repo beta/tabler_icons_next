@@ -26,7 +26,7 @@ class Grave extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cemetery, halloween, death, dead, tomb, grave, location, navigation, geography, place]
+tags: [tombstone, gravestone, cemetery, headstone, death, rip, halloween, tomb, memorial, funeral, grave]
 category: Map
 version: "1.108"
 unicode: "f580"

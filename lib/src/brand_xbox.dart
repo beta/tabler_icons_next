@@ -26,7 +26,7 @@ class BrandXbox extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, console, videogame, controller, brand, xbox, logo, company, trademark, identity]
+tags: [xbox, microsoft, console, gaming, games, controller, video-game, logo, brand]
 category: Brand
 version: "1.79"
 unicode: "f298"

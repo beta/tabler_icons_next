@@ -26,7 +26,7 @@ class PaletteOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [color, paint, painter, picture, board, artist, palette, off, creative, artistic]
+tags: [color, colour, paint, art, theme, disabled, slash, palette, off]
 category: Design
 version: "1.66"
 unicode: "f16e"

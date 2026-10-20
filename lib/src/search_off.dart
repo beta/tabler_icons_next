@@ -27,7 +27,7 @@ class SearchOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [find, magnifier, magnifying glass, search, off, look, seek, disabled, inactive, query]
+tags: [find, magnifier, magnifying-glass, no-results, not-found, lookup, zoom, disabled, unavailable, inactive, hidden, search, off]
 version: "1.66"
 unicode: "f19c"
 -->

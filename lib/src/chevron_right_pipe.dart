@@ -26,7 +26,7 @@ class ChevronRightPipe extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, direction, right, forward, navigate, proceed, point, guide, indicator, chevron]
+tags: [last, end, skip-forward, last-page, chevron, arrow-right, next, pagination, navigation, bar, right]
 category: Arrows
 version: "2.23"
 unicode: "fae5"

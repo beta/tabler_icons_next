@@ -26,7 +26,7 @@ class Badge5k extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [emblem, award, medallion, accolade, honor, merit, distinction, prize, recognition, label]
+tags: [resolution, video, quality, screen, display, video-quality, hd, uhd, label, tag]
 category: Badges
 version: "3.23"
 unicode: "100b3"

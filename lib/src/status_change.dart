@@ -27,7 +27,7 @@ class StatusChange extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [available, unavailable, switch, status, change]
+tags: [status, state, toggle, switch, available, unavailable, online, offline, presence, change]
 version: "1.93"
 unicode: "f3b0"
 -->

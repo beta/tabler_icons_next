@@ -27,7 +27,7 @@ class CeOff extends Icon {
 
   static const String _svg = '''<!--
 category: Symbols
-tags: [sign, marking, administration, administrative, conformity, health, safety, environment, protection, standards, product, europe, eea, economic, area, manufacture]
+tags: [ce, ce-mark, conformity, europe, eu, certification, standard, disabled, off, unavailable, inactive, non-compliant, safety]
 version: "1.63"
 unicode: "f0ca"
 -->

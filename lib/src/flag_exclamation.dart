@@ -27,7 +27,7 @@ class FlagExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [alert, warning, surprise, note, caution, attention, danger, important, remark, notify]
+tags: [flag, report, report-abuse, alert, warning, issue, attention, important, mark]
 version: "2.28"
 unicode: "fb92"
 -->

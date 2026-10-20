@@ -26,7 +26,7 @@ class HomeMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [remove, delete, cancel, close, home, minus, house, main, architecture, structure]
+tags: [home, house, homepage, building, residence, real-estate, remove, subtract, minus, delete]
 category: Buildings
 version: "1.87"
 unicode: "f33d"

@@ -27,7 +27,7 @@ class CurrencyXrp extends Icon {
 
   static const String _svg = '''<!--
 category: Currencies
-tags: [xrp, cryptocurrency, digital-currency, blockchain, ripple, crypto, virtual-currency, xrp-coin, financial, digital-money]
+tags: [xrp, ripple, crypto, cryptocurrency, blockchain, coin, digital-currency, currency, money]
 version: "2.41"
 unicode: "fd34"
 -->

@@ -27,7 +27,7 @@ class CalendarDown extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [decrease, fall, drop, reduce, lower, descend, decline, diminish, plummet, subside]
+tags: [calendar, date, schedule, event, day, planner, agenda, download, arrow-down, decrease, lower, appointment]
 version: "2.10"
 unicode: "f828"
 -->

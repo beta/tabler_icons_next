@@ -26,7 +26,7 @@ class TicTac extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [toe, game, strategy, cross, circle, tic, tac, athletic, fitness, exercise]
+tags: [tic-tac-toe, noughts-and-crosses, game, xo, board-game, grid, cross, circle, tic, tac]
 category: Sport
 version: "1.102"
 unicode: "f51c"

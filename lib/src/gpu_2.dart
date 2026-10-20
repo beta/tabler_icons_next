@@ -26,7 +26,7 @@ class Gpu2 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [graphics, processor, chip, computer, hardware, gaming, rendering, ai, technology, electronic, 2]
+tags: [gpu, graphics-processor, chip, processor, nvidia, gaming, rendering, hardware, ai, accelerator]
 category: Devices
 unicode: "1029a"
 version: "3.47"

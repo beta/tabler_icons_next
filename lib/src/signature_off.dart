@@ -26,7 +26,7 @@ class SignatureOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [name, certficate, sign, edit, write, document, writing, signature, off, disabled]
+tags: [sign, e-signature, unsigned, autograph, handwriting, sign-document, contract, disabled, unavailable, inactive, hidden, signature, off]
 category: Text
 version: "1.67"
 unicode: "f1a5"

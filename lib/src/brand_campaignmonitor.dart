@@ -26,7 +26,7 @@ class BrandCampaignmonitor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [technology, e-mail, site, cm, group, brand, campaignmonitor, logo, company, trademark]
+tags: [campaign-monitor, email, marketing, newsletter, campaign, logo, brand, email-marketing, mailing, campaignmonitor]
 category: Brand
 version: "1.86"
 unicode: "f328"

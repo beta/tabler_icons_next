@@ -26,7 +26,7 @@ class Error404Off extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [web, page, not, found, message, error, 404, off, disabled, inactive]
+tags: [404, error, not-found, page-not-found, missing, broken-link, disabled, inactive, unavailable, slash, turn-off, http, web, off]
 category: Computers
 version: "1.65"
 unicode: "f122"

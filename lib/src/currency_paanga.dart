@@ -26,7 +26,7 @@ class CurrencyPaanga extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, finance, money, cash, tonga, currency, paanga, payment, monetary, banking]
+tags: [paanga, top, tonga, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.90"
 unicode: "f378"

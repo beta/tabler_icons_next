@@ -27,7 +27,7 @@ class HistoryToggle extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [on, off, control, interface, history, toggle, switch, option, setting, change]
+tags: [history, toggle, recent, clock, time, past, switch, timeline]
 version: "1.70"
 unicode: "f1fc"
 -->

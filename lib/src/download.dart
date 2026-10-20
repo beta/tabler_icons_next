@@ -26,7 +26,7 @@ class Download extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [save, arrow, download, navigation, flow, movement, route, path]
+tags: [download, save, arrow-down, import, get, receive, transfer, fetch, tray]
 category: Arrows
 version: "1.0"
 unicode: "ea96"

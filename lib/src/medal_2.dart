@@ -27,7 +27,7 @@ class Medal2 extends Icon {
 
   static const String _svg = '''<!--
 category: Sport
-tags: [decorate, uniform, medal, design, 2]
+tags: [award, prize, badge, achievement, winner, honor, gold, first-place, reward, medal]
 version: "1.50"
 unicode: "efcd"
 -->

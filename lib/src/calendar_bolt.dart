@@ -27,7 +27,7 @@ class CalendarBolt extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [schedule, event, important, appointment, planning, date, reminder, online, organize, alert]
+tags: [calendar, date, schedule, event, day, planner, agenda, bolt, flash, lightning, quick, instant, energy, appointment]
 version: "2.10"
 unicode: "f822"
 -->

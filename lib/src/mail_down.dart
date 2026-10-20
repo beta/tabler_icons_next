@@ -27,7 +27,7 @@ class MailDown extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [receive, download, transfer, obtain, fetch, message, get, acquire, descend, retrieve]
+tags: [mail, email, envelope, message, inbox, letter, e-mail, receive, incoming, arrow-down, download, decrease, lower]
 version: "2.10"
 unicode: "f93d"
 -->

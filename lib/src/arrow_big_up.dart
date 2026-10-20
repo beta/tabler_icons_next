@@ -26,7 +26,7 @@ class ArrowBigUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, north, arrow, big, pointer, top, increase, navigation, flow, navigate]
+tags: [large, bold, thick, direction, north, upward, top, shift, upvote, arrow, big]
 category: Arrows
 version: "1.37"
 unicode: "eddd"

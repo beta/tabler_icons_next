@@ -26,7 +26,7 @@ class CurrencyPound extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [gbp, pound, sterling, british, britain, uk, money, banknote, pay, currency]
+tags: [pound, gbp, sterling, uk, british, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.4"
 unicode: "ebac"

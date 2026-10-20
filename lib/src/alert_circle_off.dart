@@ -26,7 +26,7 @@ class AlertCircleOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [warning, danger, caution, risk, alert, circle, off, control, operation, disabled]
+tags: [warning, error, info, danger, caution, attention, exclamation, notice, disabled, inactive, alert, circle, off]
 category: System
 version: "2.33"
 unicode: "fc65"

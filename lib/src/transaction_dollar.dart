@@ -26,7 +26,7 @@ class TransactionDollar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [usd, currency, exchange, trade, payment, cash, money, dollar, finance, transfer]
+tags: [transaction, payment, transfer, dollar, usd, money, exchange, currency]
 category: E-commerce
 version: "2.44"
 unicode: "fd6f"

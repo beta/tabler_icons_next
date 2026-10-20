@@ -27,7 +27,7 @@ class UserBitcoin extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [cryptocurrency, blockchain, investment, wallet, digital, finance, trade, currency, virtual, peer-to-peer]
+tags: [person, account, profile, avatar, member, crypto, cryptocurrency, btc, blockchain, wallet, investor]
 unicode: "ff30"
 version: "3.9"
 -->

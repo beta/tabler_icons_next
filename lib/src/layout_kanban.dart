@@ -26,7 +26,7 @@ class LayoutKanban extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [position, design, board, processing, task, layout, kanban, creative, artistic, visual]
+tags: [kanban, board, columns, tasks, project-management, trello, agile, layout]
 category: Design
 version: "1.11"
 unicode: "ec3f"

@@ -27,7 +27,7 @@ class View360Off extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [panoramic, degrees, around, view, 360, off, disabled, inactive]
+tags: [360, panorama, panoramic, degrees, view, disabled, inactive, 360-view, off]
 version: "1.67"
 unicode: "f1c1"
 -->

@@ -26,7 +26,7 @@ class STurnDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [arrow, direction, bottom, south, turn, down, decrease, navigation, flow, fall]
+tags: [s-curve, arrow, curve, turn, down, south, direction, route]
 category: Arrows
 version: "1.102"
 unicode: "f516"

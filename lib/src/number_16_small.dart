@@ -26,7 +26,7 @@ class Number16Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sixteen, sixteenth, sexdecade, sexdecuple, sexdecad, sixteenfold, sexdecenary, sexdec, sexdecuplet, 16th]
+tags: [sixteen, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fce9"

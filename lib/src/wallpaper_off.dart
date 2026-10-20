@@ -27,7 +27,7 @@ class WallpaperOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [picture, photo, decoration, house, room, decor, wallpaper, off, disabled, inactive]
+tags: [wallpaper, background, image, picture, disabled, inactive, bricks, backdrop, off]
 version: "1.67"
 unicode: "f1c5"
 -->

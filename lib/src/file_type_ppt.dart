@@ -26,7 +26,7 @@ class FileTypePpt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [presentation, slides, powerpoint, office, talk, ppt, slideshow, lecture, seminar, deck]
+tags: [ppt, pptx, powerpoint, presentation, slides, microsoft, office, deck, file-format, extension]
 category: Document
 version: "2.25"
 unicode: "fb13"

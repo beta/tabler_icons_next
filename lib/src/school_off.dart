@@ -27,7 +27,7 @@ class SchoolOff extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [students, class, teachers, professors, doctors, hall, classroom, subject, science, break, lesson]
+tags: [graduation, education, student, mortarboard, university, college, academic, disabled, unavailable, inactive, hidden]
 version: "1.66"
 unicode: "f19a"
 -->

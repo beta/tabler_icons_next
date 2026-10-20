@@ -26,7 +26,7 @@ class Wash extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [clean, cleaning, hygiene, laundry, clothes, wash, washing, garment, textile]
+tags: [laundry, care-label, clothes, washing, machine-wash, wash, laundry-symbol, garment, textile]
 category: Laundry
 version: "1.84"
 unicode: "f311"

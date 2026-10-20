@@ -26,7 +26,7 @@ class BrandPrisma extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, open, source, tools, developer, platform, brand, prisma, logo, company]
+tags: [prisma, orm, database, typescript, nodejs, developer, logo, brand]
 category: Brand
 version: "1.96"
 unicode: "f499"

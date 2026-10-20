@@ -27,7 +27,7 @@ class CursorOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [editor, indicate, position, input, mouse, type, cursor, off, disabled, inactive]
+tags: [cursor, text-cursor, caret, i-beam, input, text-field, typing, off, disabled]
 version: "1.65"
 unicode: "f10f"
 -->

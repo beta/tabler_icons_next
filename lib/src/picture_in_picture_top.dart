@@ -26,7 +26,7 @@ class PictureInPictureTop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [browser, shape, rectangle, picture, top, content, entertainment, in, multimedia, broadcast]
+tags: [pip, floating-video, mini-player, overlay, corner, top, video, window, popout, picture, in]
 category: Media
 version: "1.51"
 unicode: "efe4"

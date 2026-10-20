@@ -27,7 +27,7 @@ class EyeX extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [close, delete, remove, vision, sight, cancel, terminate, view, focus, erase]
+tags: [view, visibility, show, close, delete, remove, cancel, see, vision, preview, watch, clear, error]
 version: "2.9"
 unicode: "f7f1"
 -->

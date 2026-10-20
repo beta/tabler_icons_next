@@ -27,7 +27,7 @@ class BoxOff extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [cube, app, application, package, container, box, off, disabled, inactive]
+tags: [package, parcel, delivery, shipping, 3d, cube, product, disabled, box, off]
 version: "1.65"
 unicode: "f102"
 -->

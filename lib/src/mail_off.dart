@@ -26,7 +26,7 @@ class MailOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [inbox, gmail, email, envelope, message, mail, off, contact, conversation, disabled]
+tags: [mail, email, envelope, message, disabled, off-state, unavailable, unsubscribe, off]
 category: Communication
 version: "1.66"
 unicode: "f15a"

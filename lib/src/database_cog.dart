@@ -27,7 +27,7 @@ class DatabaseCog extends Icon {
 
   static const String _svg = '''<!--
 category: Database
-tags: [gear, settings, manage, configure, organize, control, adjust, customize, optimize, tune]
+tags: [cog, settings, gear, configuration, preferences, database, db, data, storage, sql, server]
 version: "2.13"
 unicode: "fa10"
 -->

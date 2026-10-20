@@ -26,7 +26,7 @@ class BrandDenodo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, managment, cloud, delivery, brand, denodo, logo, company, trademark, identity]
+tags: [denodo, data, virtualization, integration, management, cloud, logo, brand]
 category: Brand
 version: "1.115"
 unicode: "f610"

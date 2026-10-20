@@ -26,7 +26,7 @@ class BrandWechat extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [china, communicator, social, media, software, brand, wechat, logo, company, trademark]
+tags: [wechat, weixin, tencent, messaging, chat, messenger, china, logo, brand]
 category: Brand
 version: "1.113"
 unicode: "f5f3"

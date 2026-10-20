@@ -26,7 +26,7 @@ class PicnicTable extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [outdoor, furniture, camping, seat, park, garden, nature, wood, food, picnic]
+tags: [picnic, bench, table, outdoor, park, camping, lunch]
 category: Map
 version: "3.4"
 unicode: "fed6"

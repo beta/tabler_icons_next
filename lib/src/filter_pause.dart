@@ -27,7 +27,7 @@ class FilterPause extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [stop, halt, break, interrupt, pause, wait, interval, cease, rest, suspend]
+tags: [funnel, filtering, sort, paused, hold, suspend, wait, refine, narrow, break, pause]
 version: "2.28"
 unicode: "fb84"
 -->

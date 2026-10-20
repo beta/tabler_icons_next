@@ -26,7 +26,7 @@ class Tornado extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [wind, rotate, storm, spin, spinning, air, catastrophe, vortex, tornado, climate]
+tags: [tornado, twister, cyclone, hurricane, storm, wind, weather, vortex]
 category: Weather
 version: "1.20"
 unicode: "ece2"

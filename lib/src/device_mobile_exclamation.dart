@@ -27,7 +27,7 @@ class DeviceMobileExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [alert, warn, caution, notice, attention, important, highlight, emphasize, stress, alarm]
+tags: [phone, smartphone, iphone, warning, alert, error, attention, android, cellphone, device, important, caution]
 version: "2.10"
 unicode: "f8b4"
 -->

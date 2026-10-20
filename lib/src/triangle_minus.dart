@@ -27,7 +27,7 @@ class TriangleMinus extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [subtract, reduce, lower, decrease, less, truncate, minimize, cut, deduct, diminish]
+tags: [triangle, shape, remove, subtract, delete, delta, polygon, triangular]
 version: "2.35"
 unicode: "fc9b"
 -->

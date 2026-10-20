@@ -26,7 +26,7 @@ class BrowserPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [internet, web, display, new, add, browser, plus, hardware, technology, more]
+tags: [browser, window, web, internet, webpage, website, tab, add, new, create, plus, new-tab, new-window, app]
 category: Devices
 version: "1.51"
 unicode: "efd7"

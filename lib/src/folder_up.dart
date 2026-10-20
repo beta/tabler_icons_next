@@ -27,7 +27,7 @@ class FolderUp extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [increase, ascend, rise, elevate, enhance, upgrade, climb, lift, boost, advance]
+tags: [directory, dir, files, upload, arrow-up, increase, raise, archive, project, send]
 version: "2.10"
 unicode: "f91c"
 -->

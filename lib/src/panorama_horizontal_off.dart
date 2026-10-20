@@ -26,7 +26,7 @@ class PanoramaHorizontalOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [photo, picture, panoramic, panorama, horizontal, off, disabled, inactive, camera, image]
+tags: [panorama, wide, photo, image, disabled, slash, panoramic, landscape, 360, inactive, horizontal, off]
 category: Photography
 version: "1.94"
 unicode: "f417"

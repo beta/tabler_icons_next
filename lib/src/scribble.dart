@@ -26,7 +26,7 @@ class Scribble extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [kid, doodle, draw, drawing, scribble, typography, writing, font, character, word]
+tags: [doodle, draw, drawing, handwriting, sketch, freehand, scribble]
 category: Text
 version: "1.61"
 unicode: "f0a3"

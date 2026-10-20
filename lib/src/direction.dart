@@ -27,7 +27,7 @@ class Direction extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [travel, navigation discover, direction, design, way, route, path, course, heading]
+tags: [direction, navigation, signpost, sign, route, way, arrows, guide, crossroads]
 version: "1.8"
 unicode: "ebfb"
 -->

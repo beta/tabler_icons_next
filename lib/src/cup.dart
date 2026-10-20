@@ -26,7 +26,7 @@ class Cup extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [coffee, drink, water, food, cup, meal, cuisine, eating, nutrition, culinary]
+tags: [cup, mug, drink, tea, coffee, beverage, glass, water]
 category: Food
 version: "1.41"
 unicode: "ef28"

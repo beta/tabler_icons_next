@@ -26,7 +26,7 @@ class AlphabetPolish extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alphabet, polish, poland, letters, language, diacritics, font, text, ą, ł, typography]
+tags: [poland, diacritics, language, letters, writing, text, ą, ł, alphabet, polish]
 category: Text
 unicode: "101b1"
 version: "3.36"

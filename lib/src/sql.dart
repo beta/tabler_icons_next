@@ -26,7 +26,7 @@ class Sql extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [file, document, type, format, extencion, sql, plugin, addon, module, component]
+tags: [sql-file, database, query, file, extension, format, sql]
 category: Extensions
 version: "2.7"
 unicode: "f7c0"

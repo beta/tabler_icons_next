@@ -27,7 +27,7 @@ class PlaylistAdd extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [music, spotify, new, create, library, album, playlist, add, insert, plus]
+tags: [add-to-playlist, queue, music, songs, add, new, plus, library, list, playlist]
 version: "1.53"
 unicode: "f008"
 -->

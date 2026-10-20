@@ -26,7 +26,7 @@ class BrandShazam extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, technology, device, music, sound, play, discover, artist, recognize, brand]
+tags: [shazam, music, recognition, song, identify, apple, audio, logo, brand]
 category: Brand
 version: "1.36"
 unicode: "edd6"

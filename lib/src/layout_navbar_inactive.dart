@@ -27,7 +27,7 @@ class LayoutNavbarInactive extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [menu, navigation, directory, browse, navigate, layout, inactive, interface, tool, header]
+tags: [navbar, header, top-bar, navigation, layout, ui, inactive, disabled]
 version: "2.42"
 unicode: "fd46"
 -->

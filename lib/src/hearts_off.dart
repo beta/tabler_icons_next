@@ -26,7 +26,7 @@ class HeartsOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [love, valentine, romantic, romance, marriage, hearts, off, disabled, inactive, like]
+tags: [hearts, love, valentine, romance, like, disabled, off-state, unavailable, off]
 category: Shapes
 version: "1.94"
 unicode: "f3f7"

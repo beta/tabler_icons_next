@@ -26,7 +26,7 @@ class BorderVertical extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [table, side, line, border, vertical, creative, artistic, visual, aesthetic, style]
+tags: [table, cell, spreadsheet, excel, format, edge, inner, border, vertical]
 category: Design
 version: "1.0"
 unicode: "ea44"

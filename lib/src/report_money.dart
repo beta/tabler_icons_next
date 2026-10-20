@@ -26,7 +26,7 @@ class ReportMoney extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [results, business, sales, analysis, analyse, finance, financial, total, report, money]
+tags: [financial-report, finance, money, sales, revenue, report, business, results]
 category: Document
 version: "1.39"
 unicode: "eecd"

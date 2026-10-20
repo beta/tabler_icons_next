@@ -26,7 +26,7 @@ class Pacman extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [game, play, online, maze, eat, dot, ghost, pacman, entertainment, playing]
+tags: [pac-man, game, arcade, retro, ghost, video-game, pie-chart, pacman]
 category: Games
 version: "1.39"
 unicode: "eebc"

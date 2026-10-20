@@ -26,7 +26,7 @@ class PlaylistOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, song, artist, spotify, track, play, record, playlist, off, content]
+tags: [playlist, queue, music, songs, list, unavailable, tracks, disabled, inactive, hidden, off]
 category: Media
 version: "1.66"
 unicode: "f17f"

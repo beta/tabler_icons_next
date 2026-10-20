@@ -26,7 +26,7 @@ class Tournament extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [competition, competitor, sport, game, play, champion, tournament, athletic, fitness, exercise]
+tags: [tournament, bracket, competition, championship, league, playoff, sport, tree]
 category: Sport
 version: "1.19"
 unicode: "ecd0"

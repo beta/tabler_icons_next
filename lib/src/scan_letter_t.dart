@@ -26,7 +26,7 @@ class ScanLetterT extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alphabet, letter, scan, character, typography, t, shape, frame, glyph]
+tags: [text-recognition, ocr, scan, letter, t, character]
 category: Letters
 unicode: "10222"
 version: "3.41"

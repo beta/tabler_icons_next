@@ -27,7 +27,7 @@ class Search extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [find, magnifier, magnifying glass, search, look, seek, query, browse]
+tags: [find, magnifier, magnifying-glass, lookup, zoom, explore, query, browse, search]
 version: "1.0"
 unicode: "eb1c"
 -->

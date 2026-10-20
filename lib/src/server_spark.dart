@@ -26,7 +26,7 @@ class ServerSpark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [storage, hosting, www, server, spark, hardware, technology, glitter, shine, flash]
+tags: [database, hosting, datacenter, ai, magic, sparkle, smart, backend, storage, rack, server, spark]
 category: Devices
 version: "3.13"
 unicode: "ffaf"

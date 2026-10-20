@@ -27,7 +27,7 @@ class PointerCheck extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [approve, tick, correct, confirm, valid, complete, right, yes, pass, success]
+tags: [cursor, mouse-pointer, mouse, done, success, confirmed, approved, tick, verified, arrow, click]
 version: "2.10"
 unicode: "f99b"
 -->

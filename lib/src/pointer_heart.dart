@@ -27,7 +27,7 @@ class PointerHeart extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [love, care, like, emotion, affection, passion, favorite, adore, sweet, romance]
+tags: [cursor, mouse-pointer, mouse, favorite, love, like, wishlist, arrow, click]
 version: "2.10"
 unicode: "f9a1"
 -->

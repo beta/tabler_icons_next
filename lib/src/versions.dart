@@ -26,7 +26,7 @@ class Versions extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [app, variation, different, variant, alternative, versions, programming, software, coding, technical]
+tags: [versions, version-history, revisions, copies, variants, history, backup, releases]
 category: Development
 version: "1.29"
 unicode: "ed52"

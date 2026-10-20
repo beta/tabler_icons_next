@@ -26,7 +26,7 @@ class HeartMinus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [delete, unfavourite, remove, heart, minus, love, like, subtract, less, decrease]
+tags: [unfavorite, unlike, remove-favorite, heart, love, like, favorite, favourite, remove, subtract, minus, delete]
 category: Shapes
 version: "1.66"
 unicode: "f140"

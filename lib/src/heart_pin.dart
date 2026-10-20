@@ -26,7 +26,7 @@ class HeartPin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [location, mark, place, point, spot, site, fix, navigate, map, heart]
+tags: [heart, love, like, favorite, favourite, pin, pinned, location, marker]
 category: Shapes
 version: "2.28"
 unicode: "fba8"

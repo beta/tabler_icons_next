@@ -26,7 +26,7 @@ class FolderX extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [directory, dir, folder, collection, container, group, file, paper, text, record]
+tags: [directory, dir, files, close, delete, remove, cancel, archive, project, clear, error, folder]
 category: Document
 version: "1.0"
 unicode: "eaac"

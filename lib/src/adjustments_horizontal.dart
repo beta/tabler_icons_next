@@ -26,7 +26,7 @@ class AdjustmentsHorizontal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [equalizer, sliders, controls, settings, filter, adjustments, horizontal, control, operation, function]
+tags: [settings, sliders, equalizer, controls, filter, options, tune, preferences, mixer, configure, adjustments, horizontal]
 category: System
 version: "1.11"
 unicode: "ec38"

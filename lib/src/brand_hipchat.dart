@@ -26,7 +26,7 @@ class BrandHipchat extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [chat, communicate, communication, talk, discuss, app, collaborate, collaboration, technology, brand]
+tags: [hipchat, atlassian, chat, messaging, team, communication, logo, brand]
 category: Brand
 version: "1.36"
 unicode: "edcd"

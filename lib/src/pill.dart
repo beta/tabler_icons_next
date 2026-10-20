@@ -26,7 +26,7 @@ class Pill extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [drug, medication, illness, sickness, doctor, prescription, pill, medical, wellness, healthcare]
+tags: [medicine, capsule, drug, pharmacy, medication, tablet, vitamin, health, pill]
 category: Health
 version: "1.1"
 unicode: "ec44"

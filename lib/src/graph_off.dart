@@ -27,7 +27,7 @@ class GraphOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [analytics, raport, statistics, chart, graph, off, disabled, inactive]
+tags: [chart, line-chart, analytics, statistics, stats, report, no-data, disabled, off-state, unavailable, graph, off]
 version: "1.94"
 unicode: "f3f4"
 -->

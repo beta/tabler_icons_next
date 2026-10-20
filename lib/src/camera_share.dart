@@ -27,7 +27,7 @@ class CameraShare extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [photography, social, send, exchange, connect, disseminate, distribute, broadcast, transmit, snapshot]
+tags: [camera, photo, photography, picture, video, lens, image, share, send, forward, export]
 version: "2.10"
 unicode: "f840"
 -->

@@ -26,7 +26,7 @@ class GitPullRequestClosed extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, version control, command, git, pull, request, closed, versioning, repository, tracking]
+tags: [git, pull-request, pr, closed, merge-request, rejected, version-control, github, gitlab, pull, request]
 category: Version control
 version: "1.46"
 unicode: "ef7f"

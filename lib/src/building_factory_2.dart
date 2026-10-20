@@ -27,7 +27,7 @@ class BuildingFactory2 extends Icon {
 
   static const String _svg = '''<!--
 category: Buildings
-tags: [goods, manufature, machine, trade, produce, product, worker, industry, industrial, site]
+tags: [factory, industry, industrial, manufacturing, plant, production, chimney, building]
 version: "1.60"
 unicode: "f082"
 -->

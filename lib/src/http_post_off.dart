@@ -27,7 +27,7 @@ class HttpPostOff extends Icon {
 
   static const String _svg = '''<!--
 category: Computers
-tags: [send, upload, submit, broadcast, network, disable, halt, down, disconnect, block]
+tags: [post, create, http, api, request, method, rest, endpoint, web, disabled, off-state, unavailable, none]
 unicode: "100e1"
 version: "3.26"
 -->

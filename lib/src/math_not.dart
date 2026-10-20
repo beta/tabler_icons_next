@@ -26,7 +26,7 @@ class MathNot extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mathematic, sign, expression, math, not, calculation, equation, mathematics, numeric, formula]
+tags: [not, negation, logical-not, logic, operator, boolean, mathematics, symbol, math]
 category: Math
 version: "1.100"
 unicode: "f4ec"

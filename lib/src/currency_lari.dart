@@ -26,7 +26,7 @@ class CurrencyLari extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [exchange, finance, money, cash, georgia, currency, lari, payment, monetary, banking]
+tags: [lari, gel, georgia, georgian, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.90"
 unicode: "f374"

@@ -27,7 +27,7 @@ class Crown extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [queen, king, prince, princess, dynasty, royalty, crown]
+tags: [crown, king, queen, royal, royalty, premium, vip, pro, winner, leader]
 version: "1.24"
 unicode: "ed12"
 -->

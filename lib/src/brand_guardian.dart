@@ -26,7 +26,7 @@ class BrandGuardian extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [news, log, british, article, blog, brand, guardian, logo, company, trademark]
+tags: [guardian, the-guardian, news, newspaper, journalism, british, media, logo, brand]
 category: Brand
 version: "1.101"
 unicode: "f4fb"

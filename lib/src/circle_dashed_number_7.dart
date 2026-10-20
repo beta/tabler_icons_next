@@ -26,7 +26,7 @@ class CircleDashedNumber7 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [seven, septet, seventh, hepta, septenary, septuple, sevenfold, sevensome, septad, heptad]
+tags: [7, seven, number, digit, numeral, count, step, circle, dashed, badge]
 category: Numbers
 version: "2.33"
 unicode: "fc72"

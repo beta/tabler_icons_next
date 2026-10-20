@@ -26,7 +26,7 @@ class Lollipop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [candy, food, sweet, halloween, dessert, sugar, lollipop, meal, cuisine, eating]
+tags: [lollipop, candy, sweet, sugar, dessert, confectionery, halloween]
 category: Food
 version: "1.50"
 unicode: "efcc"

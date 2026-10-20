@@ -26,7 +26,7 @@ class BrandTidal extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [technology, subscription, music, podcast, video, streaming, playlist, party, track, song]
+tags: [tidal, music, streaming, hifi, audio, playlist, logo, brand]
 category: Brand
 version: "1.32"
 unicode: "ed70"

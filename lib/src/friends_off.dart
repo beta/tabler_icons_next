@@ -27,7 +27,7 @@ class FriendsOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [people, boy, girl, man, woman, friends, off, disabled, inactive]
+tags: [friends, people, couple, users, group, boy, disabled, inactive, unavailable, slash, turn-off, girl, social, off]
 version: "1.66"
 unicode: "f136"
 -->

@@ -26,7 +26,7 @@ class BrandEtsy extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [online, marketplace, make, sell, buy, brand, etsy, logo, company, trademark]
+tags: [etsy, marketplace, handmade, shopping, ecommerce, shop, crafts, logo, brand]
 category: Brand
 version: "1.119"
 unicode: "f654"

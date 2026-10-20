@@ -26,7 +26,7 @@ class BellPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [alarm, notification, alert, set, bell, plus, control, operation, add, more]
+tags: [notification, alert, reminder, notify, alarm, add, new, create, insert, bell, plus]
 category: System
 version: "1.37"
 unicode: "ede3"

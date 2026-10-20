@@ -26,7 +26,7 @@ class BrandApplePodcast extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [audio, software, music, ios, tvos, brand, apple, podcast, logo, company]
+tags: [apple-podcasts, podcast, apple, audio, listen, episodes, radio, ios, logo, brand]
 category: Brand
 version: "1.69"
 unicode: "f1e6"

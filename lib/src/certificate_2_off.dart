@@ -26,7 +26,7 @@ class Certificate2Off extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [award, license, document, achievement, course, complete, certificate, off, disabled, inactive]
+tags: [certificate, diploma, award, document, license, qualification, achievement, disabled, off, unavailable, inactive, expired, invalid, seal]
 category: Document
 version: "1.63"
 unicode: "f0cb"

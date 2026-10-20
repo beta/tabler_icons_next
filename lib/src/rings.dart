@@ -26,7 +26,7 @@ class Rings extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [circle, loop, hoop, round, band, circular, cycle, ringlet, orb, wedding]
+tags: [olympics, olympic-rings, circles, loop, wedding, sport]
 category: Sport
 version: "2.17"
 unicode: "fa6a"

@@ -26,7 +26,7 @@ class Number6Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [six, sextet, sextuple, hexad, sixfold, senary, sextuplet, hexagonal, sixth, hex]
+tags: [six, number, digit, numeral, count, sixth, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcfb"

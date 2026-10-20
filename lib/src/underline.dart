@@ -26,7 +26,7 @@ class Underline extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [underscore, emphasis, horizontal, typography, underline, writing, font, character, word]
+tags: [underline, text, formatting, editor, typography, font, underscore, emphasis]
 category: Text
 version: "1.1"
 unicode: "eba2"

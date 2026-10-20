@@ -26,7 +26,7 @@ class BrandTwitter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, app, application, community, social, communication, website, user, post, images, photos, comment, feedback]
+tags: [twitter, tweet, x, social, social-media, bird, microblog, logo, brand]
 category: Brand
 version: "1.18"
 unicode: "ec27"

@@ -26,7 +26,7 @@ class HttpGet extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [retrieve, fetch, obtain, access, acquire, receive, request, gain, collect, pull]
+tags: [get, fetch, read, retrieve, download, crud, http, api, request, method, rest, endpoint, web]
 category: Computers
 version: "2.14"
 unicode: "fa2a"

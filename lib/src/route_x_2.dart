@@ -27,7 +27,7 @@ class RouteX2 extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [x-route, route-x, path, journey, direction, trail, navigate, travel, way, crossing]
+tags: [route, path, directions, navigation, map, trip]
 version: "2.36"
 unicode: "fcad"
 -->

@@ -26,7 +26,7 @@ class FileLambda extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, document, extension, paper, file, lambda, content, record, text, information]
+tags: [lambda, function, serverless, aws-lambda, code, math, greek, document, file]
 category: Document
 version: "1.104"
 unicode: "f53f"

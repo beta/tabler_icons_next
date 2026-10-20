@@ -26,7 +26,7 @@ class Send extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [message, mail, email, gmail, paper, airplane, aeroplane, send, contact, conversation]
+tags: [paper-plane, submit, message, email, mail, post, send]
 category: Communication
 version: "1.0"
 unicode: "eb1e"

@@ -27,7 +27,7 @@ class CopyMinus extends Icon {
 
   static const String _svg = '''<!--
 category: Text
-tags: [subtract, reduce, deduct, decrease, lessen, remove, trim, retract, withdraw, diminish]
+tags: [minus, remove, subtract, copy, duplicate, clone, clipboard, paste]
 unicode: "fdaf"
 version: "3.0"
 -->

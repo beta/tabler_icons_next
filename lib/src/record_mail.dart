@@ -27,7 +27,7 @@ class RecordMail extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [voice, voicemail, message, record, mail, email, letter, post]
+tags: [voicemail, voice-message, message, voice, recording, phone, answering-machine, record, mail]
 version: "1.1"
 unicode: "eb12"
 -->

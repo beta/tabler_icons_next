@@ -26,7 +26,7 @@ class CapRounded extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [headwear, circular, smooth, soft, apparel, hat, protection, headgear, shield, fashion]
+tags: [cap, line-cap, stroke, stroke-cap, rounded, round-cap, line-end, vector]
 category: Design
 unicode: "ff21"
 version: "3.8"

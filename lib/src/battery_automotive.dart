@@ -26,7 +26,7 @@ class BatteryAutomotive extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vehicle, charge, motor, current, car, electricity, electric, power, battery, automotive]
+tags: [car-battery, vehicle, accumulator, power, 12v, electric, car-maintenance, battery, automotive]
 category: Vehicles
 version: "1.39"
 unicode: "ee07"

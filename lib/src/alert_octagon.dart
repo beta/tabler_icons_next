@@ -26,7 +26,7 @@ class AlertOctagon extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [warning, danger, caution, risk, alert, octagon, control, operation, function, interface]
+tags: [warning, error, info, danger, caution, attention, exclamation, notice, stop-sign, alert, octagon]
 category: System
 version: "1.19"
 unicode: "ecc6"

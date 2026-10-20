@@ -26,7 +26,7 @@ class ZodiacLibra extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, horoscope, constellation, stars, zodiac, libra, astrology, star]
+tags: [zodiac, horoscope, astrology, star-sign, sign, scales, constellation, astrological, libra]
 category: Zodiac
 version: "1.17"
 unicode: "ecb2"

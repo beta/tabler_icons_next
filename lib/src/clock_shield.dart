@@ -27,7 +27,7 @@ class ClockShield extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [protection, safety, guard, secure, defense, watch, armor, safeguard, timely, shielding]
+tags: [shield, security, protection, safe, uptime, warranty, expiration, clock, time, secure]
 version: "2.8"
 unicode: "f7c8"
 -->

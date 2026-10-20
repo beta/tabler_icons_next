@@ -26,7 +26,7 @@ class GitFork extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, version control, command, git, fork, versioning, repository, tracking, revision]
+tags: [git, fork, branch, copy, version-control, vcs, github, gitlab, repository, open-source]
 category: Version control
 version: "1.3"
 unicode: "eb8f"

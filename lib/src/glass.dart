@@ -26,7 +26,7 @@ class Glass extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [wine, cup, goblet, glass, meal, cuisine, eating, nutrition, culinary]
+tags: [glass, wine-glass, wine, drink, goblet, bar, alcohol, party, cheers]
 category: Food
 version: "1.0"
 unicode: "eab8"

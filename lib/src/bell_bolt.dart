@@ -27,7 +27,7 @@ class BellBolt extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [lightning, electric, power, shock, zap, charge, energy, surge, spark, flash]
+tags: [notification, alert, reminder, notify, alarm, flash, lightning, power, energy, fast, quick]
 version: "2.10"
 unicode: "f812"
 -->

@@ -26,7 +26,7 @@ class HexagonLetterL extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, alphabet, sign, latin, hexagon, letter, character, typography, text, writing]
+tags: [letter, character, alphabet, hexagon, polygon, badge, initial, uppercase, capital, text, typography]
 category: Letters
 version: "1.95"
 unicode: "f46e"

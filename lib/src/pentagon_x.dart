@@ -27,7 +27,7 @@ class PentagonX extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [cancel, remove, delete, cross, negate, reject, discard, terminate, close, erase]
+tags: [close, remove, delete, cancel, shape, polygon, clear, five-sided, geometry]
 version: "2.34"
 unicode: "fc88"
 -->

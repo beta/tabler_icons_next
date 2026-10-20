@@ -26,7 +26,7 @@ class CircleDottedLetterH extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [hotel, eighth-letter, consonant, home, hover, hold, height, haste, harmony, hoist]
+tags: [h, letter-h, letter, alphabet, character, uppercase, initial, circle, dotted, badge]
 category: Letters
 unicode: "ff78"
 version: "3.11"

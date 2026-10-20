@@ -27,7 +27,7 @@ class MapPinCheck extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [approve, validate, confirm, verify, certify, affirm, correct, inspect, authenticate, endorse]
+tags: [pin, marker, location, place, gps, map, point, poi, check-in, arrived, visited, done, success, confirmed, verified, approved]
 version: "2.10"
 unicode: "f94c"
 -->

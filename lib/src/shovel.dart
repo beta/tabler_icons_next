@@ -27,7 +27,7 @@ class Shovel extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [garden, tool, digging, farm, dirt, gardening, shovel]
+tags: [spade, dig, digging, garden, gardening, tool, dirt, shovel]
 version: "1.68"
 unicode: "f1d9"
 -->

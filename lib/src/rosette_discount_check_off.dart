@@ -27,7 +27,7 @@ class RosetteDiscountCheckOff extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [reduction, price, cost, money, shopping, bargain, tick, done, verified, certificate, valid, official, success]
+tags: [verified, verified-badge, badge, unverified, check, approved, certified, disabled, unavailable, inactive, hidden]
 unicode: "ff10"
 version: "3.7"
 -->

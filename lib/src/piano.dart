@@ -27,7 +27,7 @@ class Piano extends Icon {
 
   static const String _svg = '''<!--
 category: Games
-tags: [music, instrument, keyboard, keys, harmony, sound, melody, note, cord, musical]
+tags: [keyboard, music, instrument, keys, musician, play, synthesizer]
 version: "2.22"
 unicode: "fad3"
 -->

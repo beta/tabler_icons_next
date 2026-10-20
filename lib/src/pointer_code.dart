@@ -27,7 +27,7 @@ class PointerCode extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [program, development, software, tech, syntax, script, binary, engineering, compute, digital]
+tags: [cursor, mouse-pointer, mouse, code, developer, programming, script, arrow, click]
 version: "2.10"
 unicode: "f99c"
 -->

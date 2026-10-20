@@ -27,7 +27,7 @@ class FlagCog extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [settings, preferences, configure, tweak, adjust, gear, mechanism, options, control, customize]
+tags: [report, banner, milestone, settings, gear, config, configuration, mark, country, goal, preferences, options]
 version: "2.28"
 unicode: "fb8e"
 -->

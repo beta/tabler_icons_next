@@ -26,7 +26,7 @@ class BrandPushover extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [notifications, push, cloud based, mobile, app, brand, pushover, logo, company, trademark]
+tags: [pushover, push-notifications, notifications, alerts, mobile, logo, brand, api, messages]
 category: Brand
 version: "1.71"
 unicode: "f20e"

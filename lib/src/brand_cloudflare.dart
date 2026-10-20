@@ -26,7 +26,7 @@ class BrandCloudflare extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cloudflare, web, security, content, delivery, ddos, protection, network, internet, performance, firewall, cdn, website]
+tags: [cloudflare, cdn, security, ddos, dns, firewall, network, hosting, logo, brand]
 category: Brand
 version: "2.16"
 unicode: "fa4e"

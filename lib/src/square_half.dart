@@ -26,7 +26,7 @@ class SquareHalf extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shapes, pattern, geometric, highlight, geometry, square, half, creative, artistic, rectangular]
+tags: [half, square, split, box, shape]
 category: Design
 version: "1.52"
 unicode: "effb"

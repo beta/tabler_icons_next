@@ -26,7 +26,7 @@ class ColumnInsertLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [database, table, cells, arrow, column, insert, left, storage, repository, records]
+tags: [insert-column, add-column, column, left, table, spreadsheet, grid, cells, before, insert]
 category: Database
 version: "1.39"
 unicode: "ee44"

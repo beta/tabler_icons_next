@@ -26,7 +26,7 @@ class Microscope extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [school, education, learning, laboratory, experimental, chemistry, biology, medical, bacteria, technology, test]
+tags: [science, laboratory, lab, biology, research, experiment, magnify, microbiology, chemistry]
 category: Health
 version: "1.44"
 unicode: "ef64"

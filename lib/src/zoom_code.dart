@@ -26,7 +26,7 @@ class ZoomCode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [inspect, marketing, search, markup, coding, magnifier, zoom, code, location, navigation]
+tags: [zoom, magnifier, magnifying-glass, search, code, inspect, developer, debug, programming]
 category: Map
 version: "1.59"
 unicode: "f07f"

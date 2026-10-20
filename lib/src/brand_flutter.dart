@@ -26,7 +26,7 @@ class BrandFlutter extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tools, programmer, creation, aplication, brand, flutter, logo, company, trademark, identity]
+tags: [flutter, google, dart, framework, mobile, cross-platform, app, ui, logo, brand]
 category: Brand
 version: "1.92"
 unicode: "f395"

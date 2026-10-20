@@ -26,7 +26,7 @@ class Playlist extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [music, song, artist, spotify, track, play, record, playlist, content, entertainment]
+tags: [queue, music, songs, tracks, list, library, album, spotify, audio, media, playlist]
 category: Media
 version: "1.39"
 unicode: "eec0"

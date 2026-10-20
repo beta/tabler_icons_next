@@ -27,7 +27,7 @@ class ClockPlus extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [add, increase, expand, raise, enlarge, amplify, boost, grow, supplement, hike]
+tags: [plus, add, add-time, new-event, clock, time, schedule, timer]
 version: "2.8"
 unicode: "f7c5"
 -->

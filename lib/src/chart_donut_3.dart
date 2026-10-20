@@ -26,7 +26,7 @@ class ChartDonut3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, diagram, graph, rhythm, data, analysis, chart, donut, visualization, analytics]
+tags: [chart, graph, statistics, analytics, data, report, diagram, donut-chart, doughnut, ring, pie, visualization, donut]
 category: Charts
 version: "1.39"
 unicode: "ee2d"

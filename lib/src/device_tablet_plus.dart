@@ -27,7 +27,7 @@ class DeviceTabletPlus extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [tablet, add, increase, expand, supplement, gain, raise, enlarge, augment, grow]
+tags: [tablet, ipad, android, add, new, create, insert, touchscreen, device, mobile, more]
 version: "2.10"
 unicode: "f8cc"
 -->

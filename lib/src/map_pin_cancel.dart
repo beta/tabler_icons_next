@@ -27,7 +27,7 @@ class MapPinCancel extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [retract, nullify, undo, remove, eliminate, dismiss, delete, void, reject, discard]
+tags: [pin, marker, location, place, gps, map, point, poi, cancel, cancelled, blocked, forbidden, denied]
 version: "2.10"
 unicode: "f94b"
 -->

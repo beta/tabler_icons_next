@@ -26,7 +26,7 @@ class DeviceMobile extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [iphone, phone, smartphone, cellphone, device, mobile, hardware, technology, electronic, gadget]
+tags: [phone, smartphone, iphone, android, cellphone, cell-phone, mobile-phone, handset, device, app, mobile]
 category: Devices
 version: "1.0"
 unicode: "ea8a"

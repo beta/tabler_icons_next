@@ -26,7 +26,7 @@ class BrandSentry extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [technology, application, monitoring, error, tracking, software, cloud, development, app, brand]
+tags: [sentry, error-tracking, monitoring, crash-reporting, debugging, apm, logo, brand]
 category: Brand
 version: "1.36"
 unicode: "edd5"

@@ -26,7 +26,7 @@ class LayoutNavbarCollapse extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [grid, aside, column, columns, menu, navigation, layout, navbar, collapse, creative]
+tags: [navbar, header, top-bar, collapse, hide, navigation, layout, ui]
 category: Design
 version: "1.78"
 unicode: "f28d"

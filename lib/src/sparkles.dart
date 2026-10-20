@@ -27,7 +27,7 @@ class Sparkles extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [star, light, fire, shine, sparkles]
+tags: [stars, shine, glitter, magic, ai, new, clean, sparkles]
 version: "2.1"
 unicode: "f6d7"
 -->

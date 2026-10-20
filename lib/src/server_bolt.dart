@@ -26,7 +26,7 @@ class ServerBolt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [data, database, storage, lighting, power, energy, server, bolt, hardware, technology]
+tags: [database, hosting, datacenter, lightning, flash, power, energy, fast, backend, storage, rack, server, bolt]
 category: Devices
 version: "1.85"
 unicode: "f320"

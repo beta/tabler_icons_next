@@ -27,7 +27,7 @@ class CashBanknoteMove extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [cash, banknote, move, money, currency, payment, finance, dollar, transfer, shift]
+tags: [banknote, cash, money, bill, payment, currency, finance, move, transfer, send, outgoing, send-money, dollar, note]
 version: "3.31"
 unicode: "10145"
 -->

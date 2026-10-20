@@ -26,7 +26,7 @@ class MoodSing extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [face, emoji, emotion, song, melody, mood, sing]
+tags: [singing, song, music, karaoke, melody, emoji, smiley, face, emotion, feeling, reaction, mood, sing]
 category: Mood
 version: "1.81"
 unicode: "f2c7"

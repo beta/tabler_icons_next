@@ -26,7 +26,7 @@ class MathEqualGreater extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mathematic, than, more, equation, sign, math, equal, greater, calculation, mathematics]
+tags: [greater-than-or-equal, gte, comparison, inequality, operator, mathematics, symbol, math, equal, greater]
 category: Math
 version: "1.100"
 unicode: "f4e4"

@@ -26,7 +26,7 @@ class Wind extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [weather, breeze, tornado, typhoon, cyclone, hurricane, wind, climate, forecast, meteorology]
+tags: [wind, windy, breeze, air, weather, gust, windy-weather, airflow]
 category: Weather
 version: "1.10"
 unicode: "ec34"

@@ -26,7 +26,7 @@ class LockOpenOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [security, password, secure, unprotected, lock, open, off, private, control, operation]
+tags: [unlock, unlocked, open, lock, padlock, disabled, off-state, unavailable, off]
 category: System
 version: "1.66"
 unicode: "f156"

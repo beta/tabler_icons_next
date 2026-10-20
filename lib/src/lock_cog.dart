@@ -27,7 +27,7 @@ class LockCog extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [configure, settings, adjust, modify, manage, gear, control, system, optimize, arrange]
+tags: [lock, padlock, locked, security, secure, password, private, protected, settings, gear, cog, configuration, preferences, options]
 version: "2.10"
 unicode: "f928"
 -->

@@ -26,7 +26,7 @@ class AlarmAverage extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [notification, metric, ringing, mean, alertness, time, clockwork, signal, bell, chime]
+tags: [alarm-clock, clock, time, wake-up, reminder, timer, ring, morning, mean]
 category: System
 version: "2.36"
 unicode: "fc9e"

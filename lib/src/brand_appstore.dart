@@ -26,7 +26,7 @@ class BrandAppstore extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shop, online, application, logo, brand, appstore, company, trademark, identity, corporate]
+tags: [app-store, appstore, apple, ios, apps, download, store, iphone, logo, brand]
 category: Brand
 version: "1.26"
 unicode: "ed24"

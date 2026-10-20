@@ -26,7 +26,7 @@ class Lock extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [security, password, secure, lock, private, control, operation, protected, closed, function]
+tags: [lock, padlock, locked, security, secure, password, private, protected]
 category: System
 version: "1.0"
 unicode: "eae2"

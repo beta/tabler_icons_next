@@ -26,7 +26,7 @@ class ZoomReplace extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [find, change, switch, swap, zoom, replace, location, navigation, magnify, enlarge]
+tags: [find-and-replace, replace, search, refresh, magnifier, swap, zooming, replace-text, zoom]
 category: Map
 version: "1.79"
 unicode: "f2a7"

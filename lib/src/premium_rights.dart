@@ -27,7 +27,7 @@ class PremiumRights extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [money, work, job, cash, dollar, premium, rights]
+tags: [royalties, copyright, licensing, premium, rights, money, dollar, payment, intellectual-property]
 version: "1.49"
 unicode: "efbd"
 -->

@@ -27,7 +27,7 @@ class MessageCircleUser extends Icon {
 
   static const String _svg = '''<!--
 category: Communication
-tags: [person, individual, member, participant, profile, chat, communication, dialogue, identity, actor]
+tags: [chat, comment, speech-bubble, round, conversation, sms, person, profile, account, avatar, reply, communication, dm]
 unicode: "fec5"
 version: "3.3"
 -->

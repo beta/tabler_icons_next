@@ -26,7 +26,7 @@ class Asset extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [assembly, engineering, manufacturing, production, robotics, asset, programming, software, coding, technical]
+tags: [assets, resource, component, node, network, module, library, asset]
 category: Development
 version: "1.68"
 unicode: "f1ce"

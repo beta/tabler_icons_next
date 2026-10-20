@@ -26,7 +26,7 @@ class EaseInOutControlPoints extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [animation, graph, curve, function, ease, out, control, points, creative, artistic]
+tags: [ease-in-out, easing, bezier, control-points, animation, curve, motion, timing-function, handles, ease, out, control, points]
 category: Design
 version: "1.107"
 unicode: "f571"

@@ -26,7 +26,7 @@ class SubtitlesEdit extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [subtitles, edit, captions, accessibility, a11y, video, modify, pencil, change, text]
+tags: [captions, closed-captions, cc, edit, pencil, modify, video, accessibility, subtitles]
 category: Media
 unicode: "101a3"
 version: "3.36"

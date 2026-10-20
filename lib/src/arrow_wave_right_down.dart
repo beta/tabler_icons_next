@@ -26,7 +26,7 @@ class ArrowWaveRightDown extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [direction, south, arrow, wave, right, down, pointer, bottom, decrease, navigation]
+tags: [wavy, squiggle, curve, direction, east, south, pointer, navigation, arrow, wave, right, down]
 category: Arrows
 version: "1.35"
 unicode: "edaa"

@@ -26,7 +26,7 @@ class CellSignal4 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [mobile, phone, connetcion, wireless, network, cell, signal, hardware, technology, electronic]
+tags: [signal, cell-signal, mobile-signal, reception, bars, network, cellular, good, strength, phone, cell]
 category: Devices
 version: "1.60"
 unicode: "f086"

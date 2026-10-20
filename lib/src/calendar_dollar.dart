@@ -27,7 +27,7 @@ class CalendarDollar extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [finance, money, transaction, budget, payment, expense, cash, currency, economy, wealth]
+tags: [calendar, date, schedule, event, day, planner, agenda, dollar, money, price, cost, payment, currency, billing, due-date, payday]
 version: "2.10"
 unicode: "f827"
 -->

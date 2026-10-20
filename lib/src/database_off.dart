@@ -26,7 +26,7 @@ class DatabaseOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [storage, data, memory, database, off, disabled, inactive, repository, records, information]
+tags: [off, disabled, offline, disconnected, database, db, data, storage]
 category: Database
 version: "1.39"
 unicode: "ee70"

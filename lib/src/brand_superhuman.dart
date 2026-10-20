@@ -26,7 +26,7 @@ class BrandSuperhuman extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [software, email, productivity, tools, brand, superhuman, logo, company, trademark, identity]
+tags: [superhuman, email, mail, inbox, productivity, logo, brand, email-client, fast]
 category: Brand
 version: "1.102"
 unicode: "f50c"

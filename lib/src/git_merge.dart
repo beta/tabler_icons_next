@@ -26,7 +26,7 @@ class GitMerge extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [code, version control, command, git, merge, versioning, repository, tracking, revision]
+tags: [git, merge, branch, combine, version-control, vcs, github, gitlab, repository]
 category: Version control
 version: "1.0"
 unicode: "eab5"

@@ -27,7 +27,7 @@ class BellDown extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [descend, drop, fall, lower, decrease, diminish, reduce, sink, plunge, decline]
+tags: [notification, alert, reminder, notify, alarm, download, arrow-down, decrease, lower]
 version: "2.10"
 unicode: "f818"
 -->

@@ -26,7 +26,7 @@ class BrandVechain extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [vechain, vet, blockchain, cryptocurrency, crypto, logo, brand, company, trademark]
+tags: [vechain, vet, blockchain, cryptocurrency, crypto, logo, brand, vet-token, supply-chain]
 category: Brand
 unicode: "10242"
 version: "3.42"

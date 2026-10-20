@@ -26,7 +26,7 @@ class BubbleText extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [comment, chat, reply, communication, conversation, faq, message, text, bubble, contact]
+tags: [speech-bubble, chat, message, comment, conversation, reply, talk, text, lines, dialog, bubble]
 category: Communication
 version: "3.2"
 unicode: "febc"

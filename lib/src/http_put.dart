@@ -26,7 +26,7 @@ class HttpPut extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [place, locate, settle, position, set, assign, insert, deploy, order, arrange]
+tags: [put, update, replace, upsert, crud, http, api, request, method, rest, endpoint, web]
 category: Computers
 version: "2.14"
 unicode: "fa2f"

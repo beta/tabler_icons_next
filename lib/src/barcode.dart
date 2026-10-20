@@ -26,7 +26,7 @@ class Barcode extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [product, shop, scan, supermarket, barcode, control, operation, function, interface, management]
+tags: [scan, scanner, product, upc, ean, code, price, shop, inventory, barcode]
 category: System
 version: "1.5"
 unicode: "ebc6"

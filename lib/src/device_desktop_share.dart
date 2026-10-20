@@ -27,7 +27,7 @@ class DeviceDesktopShare extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [spread, distribute, broadcast, communicate, dispense, impart, relay, transmit, convey, announce]
+tags: [share, send, export, social, desktop, monitor, computer, screen, pc]
 version: "2.10"
 unicode: "f86d"
 -->

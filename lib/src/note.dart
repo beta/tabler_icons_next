@@ -26,7 +26,7 @@ class Note extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [checkbox, brief, record, write, message, note, file, paper, text, information]
+tags: [sticky-note, memo, post-it, notes, reminder, text, paper, annotation, note]
 category: Document
 version: "1.2"
 unicode: "eb6d"

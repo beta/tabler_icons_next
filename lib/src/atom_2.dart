@@ -27,7 +27,7 @@ class Atom2 extends Icon {
 
   static const String _svg = '''<!--
 category: Nature
-tags: [unit, part, electrons, protons, neutrons, atom, 2, particle, molecule, science]
+tags: [science, physics, chemistry, nuclear, molecule, electron, react, laboratory, atom]
 version: "1.7"
 unicode: "ebdf"
 -->

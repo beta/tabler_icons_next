@@ -26,7 +26,7 @@ class Signal6g extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [network, wireless, connectivity, speed, bandwidth, telecom, cellular, latency, data, technology]
+tags: [6g, mobile-network, cellular, signal, network, connection, mobile-data]
 version: "2.11"
 unicode: "f9f8"
 category: Devices

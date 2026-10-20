@@ -26,7 +26,7 @@ class PumpkinScary extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [halloween, horror, spooky, costume, decoration, pumpkin, scary, frightening, creepy, terrifying]
+tags: [halloween, jack-o-lantern, pumpkin, spooky, scary, horror, october, autumn]
 category: Games
 version: "1.108"
 unicode: "f587"

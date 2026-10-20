@@ -26,7 +26,7 @@ class TreasureChest extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [treasure, chest, pirate, gold, loot, reward, wealth, adventure, box, fortune]
+tags: [treasure, chest, loot, reward, gold, pirate, game, box]
 category: Games
 unicode: "1027f"
 version: "3.46"

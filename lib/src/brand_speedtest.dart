@@ -26,7 +26,7 @@ class BrandSpeedtest extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [internet, connection, bandwidth, measurement, network, performance, speed, test, check, latency]
+tags: [speedtest, ookla, internet-speed, bandwidth, network, test, ping, logo, brand]
 category: Brand
 version: "2.18"
 unicode: "fa77"

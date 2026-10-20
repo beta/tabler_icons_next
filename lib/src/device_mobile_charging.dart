@@ -26,7 +26,7 @@ class DeviceMobileCharging extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [battery, charge, wireless, cable, device, mobile, charging, hardware, technology, electronic]
+tags: [charging, charge, battery, phone, smartphone, iphone, power, wireless-charging, cable, device, mobile]
 category: Devices
 version: "1.72"
 unicode: "f224"

@@ -26,7 +26,7 @@ class CurrencySolana extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [crypto, bitcoin, mining, digital, cryptocurrency, currency, solana, finance, payment, monetary]
+tags: [solana, sol, crypto, cryptocurrency, blockchain, coin, digital-currency, currency, money]
 category: Currencies
 version: "1.96"
 unicode: "f4a1"

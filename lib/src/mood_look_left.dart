@@ -26,7 +26,7 @@ class MoodLookLeft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [west, face, direction, mood, look, left]
+tags: [look-left, looking-left, side-eye, eyes, glance, emoji, smiley, face, emotion, feeling, reaction, mood, look, left]
 category: Mood
 version: "1.81"
 unicode: "f2c5"

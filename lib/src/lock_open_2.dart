@@ -27,7 +27,7 @@ class LockOpen2 extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [unlock, access, free, unlocked, available, entry, open, release, unseal, permit]
+tags: [unlock, unlocked, open, lock, padlock, security, access]
 unicode: "fea8"
 version: "3.1"
 -->

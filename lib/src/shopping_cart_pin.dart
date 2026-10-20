@@ -27,7 +27,7 @@ class ShoppingCartPin extends Icon {
 
   static const String _svg = '''<!--
 category: E-commerce
-tags: [attach, fix, anchor, stick, fasten, secure, tack, adhere, bind, nail]
+tags: [shopping-cart, cart, basket, pinned, pushpin, location, attach, trolley, shop, store, checkout, ecommerce, buy]
 version: "2.28"
 unicode: "fb64"
 -->

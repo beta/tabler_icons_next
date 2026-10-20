@@ -26,7 +26,7 @@ class IrregularPolyhedronPlus extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [3d, pattern, abstract, geometric, shape, irregular, polyhedron, plus, add, more]
+tags: [polyhedron, irregular, 3d, shape, geometry, add, new, create, plus]
 category: Shapes
 version: "2.20"
 unicode: "faaa"

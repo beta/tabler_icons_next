@@ -27,7 +27,7 @@ class CameraExclamation extends Icon {
 
   static const String _svg = '''<!--
 category: Media
-tags: [alert, notice, warning, attention, caution, notify, critical, important, signal, urgent]
+tags: [camera, photo, photography, picture, video, lens, image, warning, alert, error, attention, important]
 version: "2.10"
 unicode: "f83a"
 -->

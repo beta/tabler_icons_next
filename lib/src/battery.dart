@@ -26,7 +26,7 @@ class Battery extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [energy, power, electricity, battery, charge, hardware, technology, electric, electronic, gadget]
+tags: [power, energy, charge, level, phone, mobile, empty, battery]
 category: Devices
 version: "1.0"
 unicode: "ea34"

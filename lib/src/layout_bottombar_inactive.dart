@@ -27,7 +27,7 @@ class LayoutBottombarInactive extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [dock, taskbar, status, panel, footer, shelf, bar, menu, inactive, grid]
+tags: [bottom-bar, footer, panel, layout, ui, inactive, disabled]
 version: "2.42"
 unicode: "fd45"
 -->

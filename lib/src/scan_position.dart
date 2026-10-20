@@ -27,7 +27,7 @@ class ScanPosition extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [detect, check, track, view, analyze, spot, explore, locate, inspect, survey]
+tags: [scan, position, target, locate, cursor, pointer, viewfinder]
 unicode: "fdac"
 version: "3.0"
 -->

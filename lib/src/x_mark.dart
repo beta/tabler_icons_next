@@ -26,7 +26,7 @@ class XMark extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [cancel, remove, delete, close, x, clear, dismiss, exit]
+tags: [close, cancel, remove, delete, dismiss, exit, clear, cross, times, x]
 category: System
 unicode: "10220"
 version: "3.41"

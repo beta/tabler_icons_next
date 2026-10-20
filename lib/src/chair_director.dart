@@ -27,7 +27,7 @@ class ChairDirector extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [film, seat, furniture, interior, chair, director, sitting, stool, bench]
+tags: [director-chair, chair, film, movie, cinema, director, seat, furniture]
 version: "1.82"
 unicode: "f2d5"
 -->

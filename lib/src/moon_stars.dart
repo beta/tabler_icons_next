@@ -26,7 +26,7 @@ class MoonStars extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [night, dark mode, moon, stars, climate, forecast, favorite, rating, meteorology, atmospheric]
+tags: [night, dark-mode, starry-night, sleep, crescent, stars, sky, evening, bedtime, moon]
 category: Weather
 version: "1.21"
 unicode: "ece7"

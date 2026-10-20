@@ -26,7 +26,7 @@ class TextGrammar extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [language, syntax, structure, writing, rules, edit, correct, composition, linguistics, sentence]
+tags: [grammar, spelling, proofread, spellcheck, language, writing, correct, formula, text]
 category: Text
 version: "2.44"
 unicode: "fd6d"

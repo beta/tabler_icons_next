@@ -27,7 +27,7 @@ class NavigationSearch extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [find, explore, lookup, detect, seek, discover, scout, inspect, investigate, locate]
+tags: [gps, arrow, direction, location, cursor, compass, find, magnifier, lookup, zoom, route, map, pointer]
 version: "2.28"
 unicode: "fbf8"
 -->

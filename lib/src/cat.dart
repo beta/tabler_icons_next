@@ -26,7 +26,7 @@ class Cat extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [animal, pet, kitty, cute, cat, creature, wildlife, nature, living, organism]
+tags: [cat, kitten, kitty, pet, animal, feline, meow, kitty-cat, animals]
 category: Animals
 version: "1.119"
 unicode: "f65b"

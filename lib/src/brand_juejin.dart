@@ -26,7 +26,7 @@ class BrandJuejin extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [development, new, technologies, developers, brand, juejin, logo, company, trademark, identity]
+tags: [juejin, developer, community, china, tech, articles, logo, brand]
 category: Brand
 version: "2.7"
 unicode: "f7b0"

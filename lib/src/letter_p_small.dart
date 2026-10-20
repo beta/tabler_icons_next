@@ -26,7 +26,7 @@ class LetterPSmall extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [p, papa, sixteenth, letter, alphabet, character, typeface, glyph, script, small]
+tags: [letter, character, alphabet, lowercase, small, minuscule, text, typography, font, glyph, p]
 category: Letters
 version: "2.38"
 unicode: "fcd6"

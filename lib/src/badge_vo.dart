@@ -26,7 +26,7 @@ class BadgeVo extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [shape, mic, film, netflix, voice, video, badge, vo, award, achievement]
+tags: [voice-over, voiceover, audio, narration, video, label, dubbing, narrator, badge, vo]
 category: Badges
 version: "1.106"
 unicode: "f55e"

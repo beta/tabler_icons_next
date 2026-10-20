@@ -26,7 +26,7 @@ class CircuitInductor extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [electric, electricity, diagram, coil, circuit, inductor, energy, voltage, power, current]
+tags: [inductor, coil, inductance, circuit, electronics, electrical, schematic, diagram, electricity, component]
 category: Electrical
 version: "1.77"
 unicode: "f27d"

@@ -26,7 +26,7 @@ class PhotoAlt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [photo, image, picture, alternative, placeholder, gallery, media, camera, content, album]
+tags: [image, picture, gallery, img, media, thumbnail, caption, landscape, alt-text, photo]
 category: Media
 unicode: "10262"
 version: "3.44"

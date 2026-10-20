@@ -26,7 +26,7 @@ class BracketsContainStart extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [word, regex, find, brackets, contain, start, calculation, equation, favorite, rating]
+tags: [regex, select, selection, find-word, text-selection, code, square-brackets, wrap, brackets, contain, start]
 category: Math
 version: "1.69"
 unicode: "f1e4"

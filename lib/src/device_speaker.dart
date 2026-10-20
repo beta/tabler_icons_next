@@ -26,7 +26,7 @@ class DeviceSpeaker extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sound, music, loud, audio, media, device, speaker, hardware, technology, electronic]
+tags: [speaker, loudspeaker, audio, sound, music, stereo, hifi, subwoofer, volume, device]
 category: Devices
 version: "1.1"
 unicode: "ea8b"

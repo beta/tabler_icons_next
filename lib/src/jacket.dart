@@ -26,7 +26,7 @@ class Jacket extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [clotches, winter, life, coat, jacket, store, purchase, shopping, retail, business]
+tags: [jacket, coat, clothing, clothes, apparel, fashion, outerwear, winter]
 category: E-commerce
 version: "1.119"
 unicode: "f661"

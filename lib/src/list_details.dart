@@ -26,7 +26,7 @@ class ListDetails extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [to-do, checklist, form, template, task, reminder, schedule, agenda, list, details]
+tags: [list, details, list-view, items, rows, thumbnails, menu]
 category: Text
 version: "1.42"
 unicode: "ef40"

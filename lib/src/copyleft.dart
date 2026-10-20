@@ -26,7 +26,7 @@ class Copyleft extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [licence, license, copyleft, sign, mark, emblem, representation, indicator]
+tags: [copyleft, license, gpl, open-source, free-software, symbol, rights, legal]
 category: Symbols
 version: "1.11"
 unicode: "ec3d"

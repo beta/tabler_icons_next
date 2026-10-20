@@ -27,7 +27,7 @@ class Checklist extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [task, delivery, clipboard, document, plan, checklist, confirm, approve]
+tags: [checklist, todo-list, tasks, list, clipboard, check, done, to-do]
 version: "1.59"
 unicode: "f074"
 -->

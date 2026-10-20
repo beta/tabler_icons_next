@@ -27,7 +27,7 @@ class FileSad extends Icon {
 
   static const String _svg = '''<!--
 category: Document
-tags: [document, unhappy, emotional, negative, distress, gloomy, blue, melancholy, sorrow, downcast]
+tags: [sad, unhappy, emotion, negative, face, document, file, feedback, error]
 version: "2.40"
 unicode: "fd23"
 -->

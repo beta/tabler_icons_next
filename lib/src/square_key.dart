@@ -27,7 +27,7 @@ class SquareKey extends Icon {
 
   static const String _svg = '''<!--
 category: Shapes
-tags: [shape, lock, door, acsses, square, key, rectangular]
+tags: [key, password, access, lock, square]
 version: "1.117"
 unicode: "f638"
 -->

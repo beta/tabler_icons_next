@@ -26,7 +26,7 @@ class AdjustmentsAlt extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [equalizer, sliders, controls, settings, filter, adjustments, alt, control, operation, function]
+tags: [settings, sliders, equalizer, controls, filter, options, tune, preferences, mixer, configure, adjustments, alt]
 category: System
 version: "1.11"
 unicode: "ec37"

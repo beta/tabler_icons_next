@@ -26,7 +26,7 @@ class BrandSugarizer extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [learning, platform, webstie, child, brand, sugarizer, logo, company, trademark, identity]
+tags: [sugarizer, learning, education, children, platform, logo, brand, open-source, kids]
 category: Brand
 version: "2.6"
 unicode: "f7a5"

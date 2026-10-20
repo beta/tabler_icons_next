@@ -27,7 +27,7 @@ class MoodLookDown extends Icon {
 
   static const String _svg = '''<!--
 category: Mood
-tags: [downward-look, gaze-down, low-mood, sad, disheartened, dejected, downcast, downward-glance, melancholy, blue]
+tags: [look-down, looking-down, sad, shy, downcast, eyes, emoji, smiley, face, emotion, feeling, reaction]
 version: "2.41"
 unicode: "fd37"
 -->

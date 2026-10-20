@@ -26,7 +26,7 @@ class UvIndex extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sun, ultraviolet, radiation, index, climate, forecast, uv, meteorology, atmospheric, conditions]
+tags: [uv, ultraviolet, sun, radiation, index, weather, sunscreen, sun-protection]
 category: Weather
 version: "1.93"
 unicode: "f3b2"

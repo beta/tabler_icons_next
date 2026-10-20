@@ -27,7 +27,7 @@ class SettingsCheck extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [gear, configuration, adjust, setup, control, verify, confirm, validate, approve, tick]
+tags: [cog, gear, preferences, done, success, confirmed, approved, tick, verified, configuration, options, config]
 version: "2.10"
 unicode: "f9af"
 -->

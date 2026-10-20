@@ -26,7 +26,7 @@ class MessageCircle extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [comment, chat, reply, message, circle, contact, conversation, round, circular, messaging]
+tags: [chat, comment, speech-bubble, round, conversation, sms, reply, communication, dm, messaging, bubble, whatsapp, message, circle]
 category: Communication
 version: "1.0"
 unicode: "eaed"

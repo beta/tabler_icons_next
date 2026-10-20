@@ -27,7 +27,7 @@ class CopyCheck extends Icon {
 
   static const String _svg = '''<!--
 category: Text
-tags: [duplicate, validate, approve, confirm, replicate, verification, clone, authorize, endorse, affirm]
+tags: [check, copied, done, success, tick, copy, duplicate, clone, clipboard, paste]
 unicode: "fdb0"
 version: "3.0"
 -->

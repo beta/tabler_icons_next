@@ -26,7 +26,7 @@ class ZoomReset extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [refresh, default, settings, vision, zoom, reset, location, navigation, magnify, enlarge]
+tags: [zoom-reset, reset-zoom, default, refresh, magnifier, fit, zooming, actual-size, zoom, reset]
 category: Map
 version: "1.78"
 unicode: "f295"

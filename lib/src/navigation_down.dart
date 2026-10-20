@@ -27,7 +27,7 @@ class NavigationDown extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [lower, descend, below, drop, fall, sink, bottom, submerge, reduce, decrease]
+tags: [gps, arrow, direction, location, cursor, compass, down, arrow-down, south, decrease, route, map, pointer]
 version: "2.28"
 unicode: "fbf0"
 -->

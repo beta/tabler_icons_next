@@ -26,7 +26,7 @@ class AntennaBars5 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [signal, wireless, wi-fi, quality, antenna, bars, hardware, technology, electronic, gadget]
+tags: [signal-strength, signal, cellular, reception, mobile, network, wireless, connection, full, excellent, strong, antenna, bars]
 category: Devices
 version: "1.19"
 unicode: "eccb"

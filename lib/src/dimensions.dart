@@ -26,7 +26,7 @@ class Dimensions extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [width, height, size, breadth, depth, dimensions, creative, artistic, visual, aesthetic]
+tags: [dimensions, size, width, height, measure, measurement, resize, ruler, scale, depth]
 category: Design
 version: "1.39"
 unicode: "ee7b"

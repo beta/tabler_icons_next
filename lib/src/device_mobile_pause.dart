@@ -27,7 +27,7 @@ class DeviceMobilePause extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [halt, freeze, stop, break, interject, suspend, wait, hold, interrupt, delay]
+tags: [phone, smartphone, iphone, paused, hold, suspend, wait, android, cellphone, device, break]
 version: "2.10"
 unicode: "f8b7"
 -->

@@ -26,7 +26,7 @@ class MathOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [subject, count, plus, minus, times, math, off, calculation, equation, disabled]
+tags: [calculator, mathematics, plus, minus, arithmetic, symbols, disabled, slash, math, off]
 category: Math
 version: "1.94"
 unicode: "f409"

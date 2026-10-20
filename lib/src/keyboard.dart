@@ -26,7 +26,7 @@ class Keyboard extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [computer, laptop, device, type, keyboard, hardware, technology, electronic, gadget, equipment]
+tags: [keyboard, typing, input, keys, computer, hardware, device, type]
 category: Devices
 version: "1.6"
 unicode: "ebd6"

@@ -27,7 +27,7 @@ class DeviceWatchUp extends Icon {
 
   static const String _svg = '''<!--
 category: Devices
-tags: [increase, ascend, rise, climb, elevate, boost, uplift, soar, advance, progress]
+tags: [smartwatch, wearable, apple-watch, upload, arrow-up, increase, raise, wristwatch, device, fitness-tracker, send]
 version: "2.10"
 unicode: "f8e4"
 -->

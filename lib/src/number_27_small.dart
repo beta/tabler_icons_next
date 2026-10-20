@@ -26,7 +26,7 @@ class Number27Small extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [twenty-seven, 27th, twenty-seventh, viginti-septimo, viginti-seventh, twenty, and, seven, plus, 27]
+tags: [twenty-seven, number, digit, numeral, count, small, compact, numeric, character]
 category: Numbers
 version: "2.38"
 unicode: "fcf5"

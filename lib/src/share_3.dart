@@ -26,7 +26,7 @@ class Share3 extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [network, link, connection, share, navigation, flow, distribute, send, publish, broadcast]
+tags: [forward, reply-all, redirect, send, arrow, share]
 category: Arrows
 version: "2.7"
 unicode: "f7bd"

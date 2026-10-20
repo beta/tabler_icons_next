@@ -26,7 +26,7 @@ class BrandTailwind extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [logo, firm, website, brand, tailwind, company, trademark, identity, corporate, business]
+tags: [tailwind, tailwindcss, css, framework, utility, frontend, logo, brand]
 category: Brand
 version: "1.17"
 unicode: "eca1"

@@ -26,7 +26,7 @@ class GenderTransgender extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [identity, ladyboy, lgbt, gay, homosexual, gender, transgender, person, human, individual]
+tags: [transgender, trans, gender, identity, lgbt, lgbtq, pride, symbol]
 category: Gender
 version: "1.64"
 unicode: "f0f1"

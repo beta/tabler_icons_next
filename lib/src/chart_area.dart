@@ -26,7 +26,7 @@ class ChartArea extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [statistics, diagram, graph, rhythm, data, analysis, chart, area, visualization, analytics]
+tags: [chart, graph, statistics, analytics, data, report, diagram, area-chart, area, trend, visualization]
 category: Charts
 version: "1.0"
 unicode: "ea58"

@@ -27,7 +27,7 @@ class MapBolt extends Icon {
 
   static const String _svg = '''<!--
 category: Map
-tags: [charge, power, lightning, thunder, electric, energy, flash, zap, storm, force]
+tags: [map, navigation, location, travel, geography, directions, atlas, energy, lightning, power, electric, fast, flash]
 version: "2.28"
 unicode: "fbc3"
 -->

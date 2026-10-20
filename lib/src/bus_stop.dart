@@ -26,7 +26,7 @@ class BusStop extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [transport, station, city, travel, bus, stop, vehicle, automobile, mobility]
+tags: [bus-stop, bus, station, stop, public-transport, transit, transportation, bus-station, shelter]
 category: Vehicles
 version: "1.82"
 unicode: "f2d4"

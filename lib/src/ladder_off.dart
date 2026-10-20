@@ -27,7 +27,7 @@ class LadderOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [up, equipment, garden, climb, climbing, ladder, off, disabled, inactive]
+tags: [ladder, climb, stairs, steps, equipment, disabled, off-state, unavailable, off]
 version: "1.66"
 unicode: "f14c"
 -->

@@ -26,7 +26,7 @@ class Baseline extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [align, arrow, bottom, format, vertical, baseline, typography, writing, font, character]
+tags: [typography, text, font, line-height, alignment, vertical-align, leading, line-spacing, vertical-rhythm, baseline]
 category: Text
 version: "1.55"
 unicode: "f024"

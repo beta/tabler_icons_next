@@ -26,7 +26,7 @@ class MoodUp extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [emotion, feeling, happy, face, top, mood, increase, rise, upward, up]
+tags: [upload, arrow-up, increase, improve, better, emoji, smiley, face, emotion, feeling, reaction, mood, up]
 category: Mood
 version: "2.7"
 unicode: "f7bb"

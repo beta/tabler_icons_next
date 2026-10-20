@@ -26,7 +26,7 @@ class CarrotOff extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [food, healthy, rabbit, vegetable, carrot, off, meal, cuisine, disabled, inactive]
+tags: [carrot, vegetable, veggie, food, healthy, vegan, disabled, off, unavailable, inactive]
 category: Food
 version: "1.94"
 unicode: "f3d0"

@@ -26,7 +26,7 @@ class Dumbbell extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [dumbbell, weight, gym, fitness, workout, strength, exercise, training, athletic, lift]
+tags: [dumbbell, gym, fitness, workout, weight, weightlifting, strength, exercise, training, bodybuilding]
 category: Sport
 unicode: "1024d"
 version: "3.43"

@@ -26,7 +26,7 @@ class Slash extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sign, divide, dash, slash, calculation, equation, mathematics, numeric, formula]
+tags: [forward-slash, divide, division, separator, stroke, solidus, slash]
 category: Math
 version: "1.100"
 unicode: "f4f9"

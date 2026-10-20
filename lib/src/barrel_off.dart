@@ -27,7 +27,7 @@ class BarrelOff extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [beer, wine, fuel, tank, cask, barrel, off, disabled, inactive]
+tags: [cask, keg, wine, beer, storage, wooden, oil, disabled, barrel, off]
 version: "1.65"
 unicode: "f0fe"
 -->

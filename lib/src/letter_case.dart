@@ -26,7 +26,7 @@ class LetterCase extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [typography, font, text, style, content, letter, case, writing, character, word]
+tags: [letter-case, text-case, case, uppercase, lowercase, capitalize, typography, font, text-editor, letter]
 category: Text
 version: "1.39"
 unicode: "eea5"

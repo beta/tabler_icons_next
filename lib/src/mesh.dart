@@ -27,7 +27,7 @@ class Mesh extends Icon {
 
   static const String _svg = '''<!--
 category: Design
-tags: [mesh, grid, graphic, 3d, wireframe, lattice, structure, pattern]
+tags: [wireframe, 3d, grid, polygon, lattice, net, model, topology, mesh]
 unicode: "10201"
 version: "3.40"
 -->

@@ -26,7 +26,7 @@ class Tabs extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [tabs, browser, panel, window, interface, ui, navigation, layout, pages, documents]
+tags: [tabs, browser, tabbed, panel, navigation, window, ui, tab, tabbed-navigation]
 category: System
 unicode: "10287"
 version: "3.46"

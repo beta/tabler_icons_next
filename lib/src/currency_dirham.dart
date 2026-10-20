@@ -26,7 +26,7 @@ class CurrencyDirham extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [trade, aed, uae, dirham, money, banknote, pay, currency, finance, payment]
+tags: [dirham, aed, uae, emirates, dubai, currency, money, symbol, cash, finance, payment]
 category: Currencies
 version: "1.39"
 unicode: "ee55"

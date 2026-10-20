@@ -27,7 +27,7 @@ class MarqueeOff extends Icon {
 
   static const String _svg = '''<!--
 category: System
-tags: [tag, tracer, html, animation, text, marquee, off, disabled, inactive]
+tags: [selection, deselect, dashed, rectangle, frame, area, disabled, slash, marquee, off]
 version: "1.66"
 unicode: "f15d"
 -->

@@ -26,7 +26,7 @@ class BrandAdobePremiere extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [video, editing, movie, cut, film, production, sequence, timeline, media, compose]
+tags: [creative-cloud, premiere-pro, pr, video-editing, film, editing, logo]
 category: Brand
 unicode: "ff26"
 version: "3.8"

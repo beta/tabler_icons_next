@@ -26,7 +26,7 @@ class Clubs extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [card, game, casino, gambling, poker, clubs, geometry, form, figure, pattern]
+tags: [clubs, card-suit, playing-cards, cards, poker, casino, gambling, suit, game]
 category: Shapes
 version: "1.52"
 unicode: "eff4"

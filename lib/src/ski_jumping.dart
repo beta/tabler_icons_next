@@ -26,7 +26,7 @@ class SkiJumping extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [sport, winter, snow, jump, hill, competition, flight, aerial, athlete, extreme]
+tags: [ski, skiing, jump, winter, snow, sport, olympics]
 category: Sport
 version: "2.17"
 unicode: "fa6c"
