@@ -1,3 +1,7 @@
+## 4.0.1
+
+- Fix: remove redundant args from IconThemeData.copyWith
+
 ## 4.0.0
 
 - BREAKING CHANGE: Update arguments of the icon widget classes. Most arguments inherited from flutter_svg are removed. See readme for changes and migration guide.
