@@ -8,21 +8,9 @@ import 'internal/icon.dart';
 class BadgeFilled extends Icon {
   const BadgeFilled({
     super.key,
+    super.size,
     super.strokeWidth,
-    super.width,
-    super.height,
-    super.fit,
-    super.alignment,
-    super.matchTextDirection,
-    super.allowDrawingOutsideViewBox,
-    super.placeholderBuilder,
-    super.colorFilter,
     super.color,
-    super.colorBlendMode,
-    super.semanticsLabel,
-    super.excludeFromSemantics,
-    super.clipBehavior,
-    super.theme,
   }) : super(_svg);
 
   static const String _svg = '''<!--
@@ -34,7 +22,7 @@ unicode: "f667"
   width="24"
   height="24"
   viewBox="0 0 24 24"
-  fill="currentColor"
+  fill="<COLOR>" fill-opacity="<OPACITY>"
 >
   <path d="M16.486 3.143l-4.486 2.69l-4.486 -2.69a1 1 0 0 0 -1.514 .857v13a1 1 0 0 0 .486 .857l5 3a1 1 0 0 0 1.028 0l5 -3a1 1 0 0 0 .486 -.857v-13a1 1 0 0 0 -1.514 -.857z" />
 </svg>

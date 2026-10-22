@@ -8,21 +8,9 @@ import 'internal/icon.dart';
 class CircleLetterEFilled extends Icon {
   const CircleLetterEFilled({
     super.key,
+    super.size,
     super.strokeWidth,
-    super.width,
-    super.height,
-    super.fit,
-    super.alignment,
-    super.matchTextDirection,
-    super.allowDrawingOutsideViewBox,
-    super.placeholderBuilder,
-    super.colorFilter,
     super.color,
-    super.colorBlendMode,
-    super.semanticsLabel,
-    super.excludeFromSemantics,
-    super.clipBehavior,
-    super.theme,
   }) : super(_svg);
 
   static const String _svg = '''<!--
@@ -34,7 +22,7 @@ version: "3.0"
   width="24"
   height="24"
   viewBox="0 0 24 24"
-  fill="currentColor"
+  fill="<COLOR>" fill-opacity="<OPACITY>"
 >
   <path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10 -10 10s-10 -4.477 -10 -10s4.477 -10 10 -10m2 5h-4a1 1 0 0 0 -1 1v8a1 1 0 0 0 1 1h4a1 1 0 0 0 1 -1l-.007 -.117a1 1 0 0 0 -.993 -.883h-3v-2h1.5a1 1 0 0 0 .993 -.883l.007 -.117a1 1 0 0 0 -1 -1h-1.5v-2h3a1 1 0 0 0 0 -2" />
 </svg>

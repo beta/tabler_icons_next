@@ -8,21 +8,9 @@ import 'internal/icon.dart';
 class Menu2Filled extends Icon {
   const Menu2Filled({
     super.key,
+    super.size,
     super.strokeWidth,
-    super.width,
-    super.height,
-    super.fit,
-    super.alignment,
-    super.matchTextDirection,
-    super.allowDrawingOutsideViewBox,
-    super.placeholderBuilder,
-    super.colorFilter,
     super.color,
-    super.colorBlendMode,
-    super.semanticsLabel,
-    super.excludeFromSemantics,
-    super.clipBehavior,
-    super.theme,
   }) : super(_svg);
 
   static const String _svg = '''<!--
@@ -34,7 +22,7 @@ version: "3.38"
   width="24"
   height="24"
   viewBox="0 0 24 24"
-  fill="currentColor"
+  fill="<COLOR>" fill-opacity="<OPACITY>"
 >
   <path d="M21 6a1 1 0 0 1 -1 1h-16a1 1 0 1 1 0 -2h16a1 1 0 0 1 1 1" />
   <path d="M21 12a1 1 0 0 1 -1 1h-16a1 1 0 0 1 0 -2h16a1 1 0 0 1 1 1" />

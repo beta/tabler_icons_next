@@ -8,21 +8,9 @@ import 'internal/icon.dart';
 class CardsFilled extends Icon {
   const CardsFilled({
     super.key,
+    super.size,
     super.strokeWidth,
-    super.width,
-    super.height,
-    super.fit,
-    super.alignment,
-    super.matchTextDirection,
-    super.allowDrawingOutsideViewBox,
-    super.placeholderBuilder,
-    super.colorFilter,
     super.color,
-    super.colorBlendMode,
-    super.semanticsLabel,
-    super.excludeFromSemantics,
-    super.clipBehavior,
-    super.theme,
   }) : super(_svg);
 
   static const String _svg = '''<!--
@@ -34,7 +22,7 @@ unicode: "fc26"
   width="24"
   height="24"
   viewBox="0 0 24 24"
-  fill="currentColor"
+  fill="<COLOR>" fill-opacity="<OPACITY>"
 >
   <path d="M10.348 3.169l-7.15 3.113a2 2 0 0 0 -1.03 2.608l4.92 11.895a1.96 1.96 0 0 0 2.59 1.063l7.142 -3.11a2.002 2.002 0 0 0 1.036 -2.611l-4.92 -11.894a1.96 1.96 0 0 0 -2.588 -1.064z" />
   <path d="M16 3a2 2 0 0 1 1.995 1.85l.005 .15v3.5a1 1 0 0 1 -1.993 .117l-.007 -.117v-3.5h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />

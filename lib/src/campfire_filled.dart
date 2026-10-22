@@ -8,21 +8,9 @@ import 'internal/icon.dart';
 class CampfireFilled extends Icon {
   const CampfireFilled({
     super.key,
+    super.size,
     super.strokeWidth,
-    super.width,
-    super.height,
-    super.fit,
-    super.alignment,
-    super.matchTextDirection,
-    super.allowDrawingOutsideViewBox,
-    super.placeholderBuilder,
-    super.colorFilter,
     super.color,
-    super.colorBlendMode,
-    super.semanticsLabel,
-    super.excludeFromSemantics,
-    super.clipBehavior,
-    super.theme,
   }) : super(_svg);
 
   static const String _svg = '''<!--
@@ -34,7 +22,7 @@ unicode: "fb28"
   width="24"
   height="24"
   viewBox="0 0 24 24"
-  fill="currentColor"
+  fill="<COLOR>" fill-opacity="<OPACITY>"
 >
   <path d="M19.757 16.03a1 1 0 0 1 .597 1.905l-.111 .035l-16 4a1 1 0 0 1 -.597 -1.905l.111 -.035l16 -4z" />
   <path d="M3.03 16.757a1 1 0 0 1 1.098 -.749l.115 .022l16 4a1 1 0 0 1 -.37 1.962l-.116 -.022l-16 -4a1 1 0 0 1 -.727 -1.213z" />

@@ -8,6 +8,9 @@ import 'dart:io';
 
 /// Generate SVG data for Tabler Icons.
 Future<void> main() async {
+  print('Clearing generated icons...');
+  clearDartFilesInDir('lib/src');
+
   final outlineFiles = await processDir('tabler-icons/icons/outline');
   final filledFiles =
       await processDir('tabler-icons/icons/filled', suffix: 'filled');
@@ -19,6 +22,17 @@ Future<void> main() async {
   await generateGalleryIcons(outlineFiles, filledFiles);
 
   print('Done');
+}
+
+void clearDartFilesInDir(String path) {
+  final files = Directory('lib/src').listSync();
+  for (final entry in files) {
+    final stat = entry.statSync();
+    if (stat.type == FileSystemEntityType.file &&
+        entry.path.endsWith('.dart')) {
+      entry.deleteSync();
+    }
+  }
 }
 
 Future<LinkedHashMap<String, String>> processDir(String path,
@@ -40,6 +54,10 @@ Future<LinkedHashMap<String, String>> processDir(String path,
     final file = File(entry.path);
     final content = file
         .readAsStringSync()
+        .replaceFirst('stroke="currentColor"',
+            'stroke="<COLOR>" stroke-opacity="<OPACITY>"')
+        .replaceFirst(
+            'fill="currentColor"', 'fill="<COLOR>" fill-opacity="<OPACITY>"')
         .replaceFirst('stroke-width="2"', 'stroke-width="<STROKE_WIDTH>"');
     final output = """// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
@@ -51,21 +69,9 @@ import 'internal/icon.dart';
 class $widgetName extends Icon {
   const $widgetName({
     super.key,
+    super.size,
     super.strokeWidth,
-    super.width,
-    super.height,
-    super.fit,
-    super.alignment,
-    super.matchTextDirection,
-    super.allowDrawingOutsideViewBox,
-    super.placeholderBuilder,
-    super.colorFilter,
     super.color,
-    super.colorBlendMode,
-    super.semanticsLabel,
-    super.excludeFromSemantics,
-    super.clipBehavior,
-    super.theme,
   }) : super(_svg);
 
   static const String _svg = '''$content''';

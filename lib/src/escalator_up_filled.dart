@@ -8,21 +8,9 @@ import 'internal/icon.dart';
 class EscalatorUpFilled extends Icon {
   const EscalatorUpFilled({
     super.key,
+    super.size,
     super.strokeWidth,
-    super.width,
-    super.height,
-    super.fit,
-    super.alignment,
-    super.matchTextDirection,
-    super.allowDrawingOutsideViewBox,
-    super.placeholderBuilder,
-    super.colorFilter,
     super.color,
-    super.colorBlendMode,
-    super.semanticsLabel,
-    super.excludeFromSemantics,
-    super.clipBehavior,
-    super.theme,
   }) : super(_svg);
 
   static const String _svg = '''<!--
@@ -34,7 +22,7 @@ version: "3.30"
   width="24"
   height="24"
   viewBox="0 0 24 24"
-  fill="currentColor"
+  fill="<COLOR>" fill-opacity="<OPACITY>"
 >
   <path d="M19.5 6a3.5 3.5 0 0 1 0 7h-1.086l-8.12 8.121a3 3 0 0 1 -1.924 .872l-.198 .007h-3.672a3.5 3.5 0 0 1 0 -7h2.084l8.123 -8.121a3 3 0 0 1 1.923 -.872l.198 -.007z" />
   <path d="M19.5 8h-2.672a1 1 0 0 0 -.707 .293l-8.414 8.414a1 1 0 0 1 -.707 .293h-2.5a1.5 1.5 0 0 0 0 3h3.672a1 1 0 0 0 .707 -.293l8.414 -8.414a1 1 0 0 1 .707 -.293h1.5a1.5 1.5 0 0 0 0 -3" />
