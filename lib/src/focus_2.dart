@@ -8,21 +8,9 @@ import 'internal/icon.dart';
 class Focus2 extends Icon {
   const Focus2({
     super.key,
+    super.size,
     super.strokeWidth,
-    super.width,
-    super.height,
-    super.fit,
-    super.alignment,
-    super.matchTextDirection,
-    super.allowDrawingOutsideViewBox,
-    super.placeholderBuilder,
-    super.colorFilter,
     super.color,
-    super.colorBlendMode,
-    super.semanticsLabel,
-    super.excludeFromSemantics,
-    super.clipBehavior,
-    super.theme,
   }) : super(_svg);
 
   static const String _svg = '''<!--
@@ -37,12 +25,12 @@ unicode: "ebd3"
   height="24"
   viewBox="0 0 24 24"
   fill="none"
-  stroke="currentColor"
+  stroke="<COLOR>" stroke-opacity="<OPACITY>"
   stroke-width="<STROKE_WIDTH>"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M11.5 12a.5 .5 0 1 0 1 0a.5 .5 0 1 0 -1 0" fill="currentColor" />
+  <path d="M11.5 12a.5 .5 0 1 0 1 0a.5 .5 0 1 0 -1 0" fill="<COLOR>" fill-opacity="<OPACITY>" />
   <path d="M5 12a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
   <path d="M12 3l0 2" />
   <path d="M3 12l2 0" />

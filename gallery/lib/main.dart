@@ -58,10 +58,18 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   late final TextEditingController _searchController;
-  final _outlineIconNames = outlineIcons.keys.toList();
-  final _filledIconNames = filledIcons.keys.toList();
+  final _outlineIconNames = outlineIcons.keys.toList()..sort();
+  final _filledIconNames = filledIcons.keys.toList()..sort();
+  late final _allIconNames = [..._outlineIconNames, ..._filledIconNames]
+    ..sort();
+
+  final _allIcons = <String, Widget>{}
+    ..addAll(outlineIcons)
+    ..addAll(filledIcons);
+
   late var _filteredOutlineIcons = _outlineIconNames;
   late var _filteredFilledIcons = _filledIconNames;
+  late var _filteredAllIcons = _allIconNames;
 
   bool _useColor = false;
   Color _color = Colors.black;
@@ -87,8 +95,11 @@ class _HomePageState extends State<HomePage> {
   bool _bold = false;
   void _setBold(bool bold) => setState(() => _bold = bold);
 
-  bool _filled = false;
-  void _setFilled(bool filled) => setState(() => _filled = filled);
+  String _filter = 'all';
+  void _setFilter(String filter) => setState(() => _filter = filter);
+  static const _filterAll = 'all';
+  static const _filterOutline = 'outline';
+  static const _filterFilled = 'filled';
 
   @override
   void initState() {
@@ -101,6 +112,7 @@ class _HomePageState extends State<HomePage> {
           setState(() {
             _filteredOutlineIcons = _outlineIconNames;
             _filteredFilledIcons = _filledIconNames;
+            _filteredAllIcons = _allIconNames;
           });
           return;
         }
@@ -111,6 +123,9 @@ class _HomePageState extends State<HomePage> {
           _filteredFilledIcons = _filledIconNames
               .where((name) => name.toLowerCase().contains(keyword))
               .toList();
+          _filteredAllIcons = _allIconNames
+              .where((name) => name.toLowerCase().contains(keyword))
+              .toList();
         });
       });
   }
@@ -119,7 +134,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.background,
+        backgroundColor: Theme.of(context).colorScheme.surface,
         title: Row(
           children: [
             // App title
@@ -128,13 +143,24 @@ class _HomePageState extends State<HomePage> {
 
             // Version
             Text(widget.version, style: Theme.of(context).textTheme.labelLarge),
-            const SizedBox(width: 64),
+            const SizedBox(width: 24),
+
+            // Toggle outline/filled
+            SegmentedButton(
+              segments: const [
+                ButtonSegment(label: Text('All'), value: _filterAll),
+                ButtonSegment(label: Text('Outline'), value: _filterOutline),
+                ButtonSegment(label: Text('Filled'), value: _filterFilled),
+              ],
+              selected: {_filter},
+              showSelectedIcon: false,
+              onSelectionChanged: (Set<String> values) =>
+                  _setFilter(values.first),
+            ),
+            const SizedBox(width: 16),
 
             // Search
-            const tabler.Search(
-              width: 18,
-              height: 18,
-            ),
+            const tabler.Search(size: 18),
             const SizedBox(width: 8),
             SizedBox(
               width: 300,
@@ -170,13 +196,6 @@ class _HomePageState extends State<HomePage> {
               ),
               const SizedBox(width: 16),
 
-              const Text('Filled'),
-              Switch(
-                value: _filled,
-                onChanged: _setFilled,
-              ),
-              const SizedBox(width: 16),
-
               // GitHub
               IconButton(
                 icon: const tabler.BrandGithub(),
@@ -193,17 +212,26 @@ class _HomePageState extends State<HomePage> {
         gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
           maxCrossAxisExtent: 160,
         ),
-        itemCount: _filled
-            ? _filteredFilledIcons.length
-            : _filteredOutlineIcons.length,
+        itemCount: switch (_filter) {
+          _filterAll => _filteredAllIcons.length,
+          _filterOutline => _filteredOutlineIcons.length,
+          _filterFilled => _filteredFilledIcons.length,
+          _ => 0,
+        },
         itemBuilder: (context, index) {
           return IconView(
-            _filled
-                ? filledIcons[_filteredFilledIcons[index]]!
-                : outlineIcons[_filteredOutlineIcons[index]]!,
-            name: _filled
-                ? _filteredFilledIcons[index]
-                : _filteredOutlineIcons[index],
+            switch (_filter) {
+              _filterAll => _allIcons[_filteredAllIcons[index]]!,
+              _filterOutline => outlineIcons[_filteredOutlineIcons[index]]!,
+              _filterFilled => filledIcons[_filteredFilledIcons[index]]!,
+              _ => Container(),
+            },
+            name: switch (_filter) {
+              _filterAll => _filteredAllIcons[index],
+              _filterOutline => _filteredOutlineIcons[index],
+              _filterFilled => _filteredFilledIcons[index],
+              _ => '',
+            },
             bold: _bold,
             color: _color,
           );
@@ -257,7 +285,7 @@ class _IconViewState extends State<IconView> {
             Center(
               child: tabler.IconTheme(
                 data: tabler.IconThemeData(
-                  strokeWidth: widget.bold ? 2.25 : 1.75,
+                  strokeWidth: widget.bold ? 2.25 : 2.0,
                   color: widget.color,
                 ),
                 child: widget.icon,

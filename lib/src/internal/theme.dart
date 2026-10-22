@@ -3,8 +3,6 @@
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
-import 'dart:ui' as ui;
-
 import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -36,30 +34,14 @@ class IconTheme extends InheritedTheme {
   static IconThemeData of(BuildContext context) {
     final IconThemeData iconThemeData =
         _getInheritedIconThemeData(context).resolve(context);
+    const fallback = IconThemeData.fallback();
+
     return iconThemeData.isConcrete
         ? iconThemeData
         : iconThemeData.copyWith(
-            strokeWidth: iconThemeData.strokeWidth ??
-                const IconThemeData.fallback().strokeWidth,
-            height:
-                iconThemeData.height ?? const IconThemeData.fallback().height,
-            width: iconThemeData.width ?? const IconThemeData.fallback().width,
-            fit: iconThemeData.fit ?? const IconThemeData.fallback().fit,
-            alignment: iconThemeData.alignment ??
-                const IconThemeData.fallback().alignment,
-            matchTextDirection: iconThemeData.matchTextDirection ??
-                const IconThemeData.fallback().matchTextDirection,
-            allowDrawingOutsideViewBox:
-                iconThemeData.allowDrawingOutsideViewBox ??
-                    const IconThemeData.fallback().allowDrawingOutsideViewBox,
-            colorFilter: iconThemeData.colorFilter ??
-                const IconThemeData.fallback().colorFilter,
-            color: iconThemeData.color ?? const IconThemeData.fallback().color,
-            colorBlendMode: iconThemeData.colorBlendMode ??
-                const IconThemeData.fallback().colorBlendMode,
-            clipBehavior: iconThemeData.clipBehavior ??
-                const IconThemeData.fallback().clipBehavior,
-            theme: iconThemeData.theme ?? const IconThemeData.fallback().theme,
+            size: iconThemeData.size ?? fallback.size,
+            strokeWidth: iconThemeData.strokeWidth ?? fallback.strokeWidth,
+            color: iconThemeData.color ?? fallback.color,
           );
   }
 
@@ -81,64 +63,37 @@ class IconTheme extends InheritedTheme {
 class IconThemeData {
   /// Creates an icon theme data.
   const IconThemeData({
+    this.size,
     this.strokeWidth,
-    this.height,
-    this.width,
-    this.fit,
-    this.alignment,
-    this.matchTextDirection,
-    this.allowDrawingOutsideViewBox,
-    this.colorFilter,
     this.color,
-    this.colorBlendMode,
-    this.clipBehavior,
-    this.theme,
   });
 
   /// Creates an icon theme with some reasonable default values.
   const IconThemeData.fallback()
-      : strokeWidth = 2.0,
-        height = 24.0,
-        width = 24.0,
-        fit = BoxFit.contain,
-        alignment = Alignment.center,
-        matchTextDirection = false,
-        allowDrawingOutsideViewBox = false,
-        colorFilter = null,
-        color = const Color(0xFF000000),
-        colorBlendMode = BlendMode.srcIn,
-        clipBehavior = Clip.hardEdge,
-        theme = null;
+      : size = 24.0,
+        strokeWidth = 2.0,
+        color = const Color(0xFF000000);
 
   /// Creates a copy of this icon theme but with the given fields replaced with the new values.
   IconThemeData copyWith({
+    double? size,
     double? strokeWidth,
+    Color? color,
     double? height,
     double? width,
     BoxFit? fit,
     Alignment? alignment,
     bool? matchTextDirection,
     bool? allowDrawingOutsideViewBox,
-    ui.ColorFilter? colorFilter,
-    ui.Color? color,
-    ui.BlendMode? colorBlendMode,
+    ColorFilter? colorFilter,
+    BlendMode? colorBlendMode,
     Clip? clipBehavior,
     SvgTheme? theme,
   }) {
     return IconThemeData(
+      size: size ?? this.size,
       strokeWidth: strokeWidth ?? this.strokeWidth,
-      height: height ?? this.height,
-      width: width ?? this.width,
-      fit: fit ?? this.fit,
-      alignment: alignment ?? this.alignment,
-      matchTextDirection: matchTextDirection ?? this.matchTextDirection,
-      allowDrawingOutsideViewBox:
-          allowDrawingOutsideViewBox ?? this.allowDrawingOutsideViewBox,
-      colorFilter: colorFilter ?? this.colorFilter,
       color: color ?? this.color,
-      colorBlendMode: colorBlendMode ?? this.colorBlendMode,
-      clipBehavior: clipBehavior ?? this.clipBehavior,
-      theme: theme ?? this.theme,
     );
   }
 
@@ -150,47 +105,26 @@ class IconThemeData {
       return this;
     }
     return copyWith(
+      size: other.size,
       strokeWidth: other.strokeWidth,
-      height: other.height,
-      width: other.width,
-      fit: other.fit,
-      alignment: other.alignment,
-      matchTextDirection: other.matchTextDirection,
-      allowDrawingOutsideViewBox: other.allowDrawingOutsideViewBox,
-      colorFilter: other.colorFilter,
       color: other.color,
-      colorBlendMode: other.colorBlendMode,
-      clipBehavior: other.clipBehavior,
-      theme: other.theme,
     );
   }
 
   /// Called by [IconTheme.of] to convert this instance to an [IconThemeData] that fits the given [BuildContext].
   IconThemeData resolve(BuildContext context) => this;
 
-  /// Whether all the properties (except colorFilter, color, colorBlendMode and theme) of this object are non-null.
-  bool get isConcrete =>
-      strokeWidth != null &&
-      height != null &&
-      width != null &&
-      fit != null &&
-      alignment != null &&
-      matchTextDirection != null &&
-      allowDrawingOutsideViewBox != null &&
-      clipBehavior != null;
+  /// Whether all the properties (except color) of this object are non-null.
+  bool get isConcrete => size != null && strokeWidth != null;
 
+  /// Size of the icon. The default is 24.0
+  final double? size;
+
+  /// Width of strokes in the icon. The default is 2.0.
   final double? strokeWidth;
-  final double? height;
-  final double? width;
-  final BoxFit? fit;
-  final Alignment? alignment;
-  final bool? matchTextDirection;
-  final bool? allowDrawingOutsideViewBox;
-  final ui.ColorFilter? colorFilter;
-  final ui.Color? color;
-  final ui.BlendMode? colorBlendMode;
-  final Clip? clipBehavior;
-  final SvgTheme? theme;
+
+  /// Color of the icon. The default is black (#FF000000).
+  final Color? color;
 
   @override
   bool operator ==(Object other) {
@@ -198,33 +132,11 @@ class IconThemeData {
       return false;
     }
     return other is IconThemeData &&
+        other.size == size &&
         other.strokeWidth == strokeWidth &&
-        other.height == height &&
-        other.width == width &&
-        other.fit == fit &&
-        other.alignment == alignment &&
-        other.matchTextDirection == matchTextDirection &&
-        other.allowDrawingOutsideViewBox == allowDrawingOutsideViewBox &&
-        other.colorFilter == colorFilter &&
-        other.color == color &&
-        other.colorBlendMode == colorBlendMode &&
-        other.clipBehavior == clipBehavior &&
-        other.theme == theme;
+        other.color == color;
   }
 
   @override
-  int get hashCode => Object.hash(
-        strokeWidth,
-        height,
-        width,
-        fit,
-        alignment,
-        matchTextDirection,
-        allowDrawingOutsideViewBox,
-        colorFilter,
-        color,
-        colorBlendMode,
-        clipBehavior,
-        theme,
-      );
+  int get hashCode => Object.hash(size, strokeWidth, color);
 }
