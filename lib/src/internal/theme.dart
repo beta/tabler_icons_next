@@ -4,7 +4,6 @@
 // https://opensource.org/licenses/MIT
 
 import 'package:flutter/widgets.dart';
-import 'package:flutter_svg/svg.dart';
 
 /// Controls the default properties of icons in a widget subtree.
 class IconTheme extends InheritedTheme {
@@ -79,16 +78,6 @@ class IconThemeData {
     double? size,
     double? strokeWidth,
     Color? color,
-    double? height,
-    double? width,
-    BoxFit? fit,
-    Alignment? alignment,
-    bool? matchTextDirection,
-    bool? allowDrawingOutsideViewBox,
-    ColorFilter? colorFilter,
-    BlendMode? colorBlendMode,
-    Clip? clipBehavior,
-    SvgTheme? theme,
   }) {
     return IconThemeData(
       size: size ?? this.size,
