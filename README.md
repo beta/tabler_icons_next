@@ -1,30 +1,32 @@
 # Tabler Icons Next for Flutter
 
-[![Pub.dev](https://img.shields.io/pub/v/tabler_icons_next)](https://pub.dev/packages/tabler_icons_next)
+[![Pub.dev](https://img.shields.io/pub/v/tabler_icons_next?logo=flutter)](https://pub.dev/packages/tabler_icons_next)
+[![API Docs](https://img.shields.io/badge/API%20Docs-latest-blue?logo=dart)](https://pub.dev/documentation/tabler_icons_next/latest/)
 
 Yet another [Tabler Icons](https://tabler.io/icons) package for Flutter that keeps updating with the latest version of the upstream.
+
+**Upstream version:** [`v3.49.0`](https://github.com/tabler/tabler-icons/releases/tag/v3.49.0)
 
 ## 🎨 Icons gallery
 
 https://tabler-icons-next.betakuang.me/
 
+## ⚡️ Migrate to v4
+
+v4 introduces a series of breaking changes. **TL;DR:** all the arguments inherited from `flutter_svg` are removed. Only 3 arguments are provided:
+
+- `size` (replacing `width` & `height`),
+- `strokeWidth`, and
+- `color` (replacing `colorFilter` & `colorBlendMode`).
+
+Basically all you need to do is:
+
+- replace all `width`s and `height`s with `size`s, and
+- change `colorFilter`s back to `color`s.
+
+It is also worth noting that since `4.0.0`, this package no longer follows the version tags of the upstream `tabler-icon` repository. This allows new features and bug fixes to rollout independently. Version of the upstream will be shown in the beginning of this readme FYI.
+
 ## 🎉 Getting started
-
-### Directly import
-
-```dart
-import 'package:tabler_icons_next/tabler_icons_next.dart';
-
-Check()
-```
-
-> **Note:**
->
-> A dollar sign (`$`) prefix is added to icon names not allowed by Dart. Currently only `Function` is altered to `$Function`.
-
-### Add an alias
-
-Names of some icons may conflict with other Flutter/Dart classes (for example `Container` and `BorderRadius`). Use a package alias to avoid confusion.
 
 ```dart
 import 'package:tabler_icons_next/tabler_icons_next.dart' as tabler;
@@ -32,20 +34,23 @@ import 'package:tabler_icons_next/tabler_icons_next.dart' as tabler;
 tabler.Check()
 ```
 
-### Set a stroke width, color, etc.
+Names of some icons may conflict with other Flutter/Dart classes (for example `Container` and `BorderRadius`). It is recommended to add an alias to the import in order to avoid confusion.
+
+> **Note:**
+>
+> A dollar sign (`$`) prefix is added to icon names not allowed by Dart. Currently only `Function` is altered to `$Function`.
+
+### Adjust size & styles
 
 ```dart
 import 'package:tabler_icons_next/tabler_icons_next.dart' as tabler;
 
 tabler.Check(
-  height: 18,
-  width: 18,
+  size: 18,
   strokeWidth: 1.5,
   color: Colors.teal,
 )
 ```
-
-Tabler Icons Next uses [`flutter_svg`](https://pub.dev/packages/flutter_svg) to draw icons. Parameters from `SvgPicture.string` are ported to icon widgets for customization. See [docs](https://pub.dev/documentation/flutter_svg/latest/svg/SvgPicture/SvgPicture.string.html) of `SvgPicture.string` for the full list of params.
 
 ### Wrap inside an `IconTheme`
 
@@ -56,6 +61,7 @@ import 'package:tabler_icons_next/tabler_icons_next.dart' as tabler;
 
 tabler.IconTheme(
   data: tabler.IconThemeData(
+    size: 18,
     strokeWidth: 1.5,
     color: Colors.teal,
   ),
