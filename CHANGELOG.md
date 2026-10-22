@@ -1,3 +1,7 @@
+## 4.0.0
+
+- BREAKING CHANGE: Update arguments of the icon widget classes. Most arguments inherited from flutter_svg are removed. See readme for changes and migration guide.
+
 ## 3.49.0
 
 - Add icons from upstream v3.49.0
