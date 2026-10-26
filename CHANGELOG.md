@@ -1,3 +1,7 @@
+## 4.1.0
+
+- Update icon SVG to mustache template
+
 ## 4.0.1
 
 - Fix: remove redundant args from IconThemeData.copyWith
