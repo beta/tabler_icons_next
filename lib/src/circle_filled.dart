@@ -22,7 +22,7 @@ unicode: "f671"
   width="24"
   height="24"
   viewBox="0 0 24 24"
-  fill="<COLOR>" fill-opacity="<OPACITY>"
+  fill="{{color}}" fill-opacity="{{opacity}}"
 >
   <path d="M7 3.34a10 10 0 1 1 -4.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 4.995 -8.336z" />
 </svg>

@@ -22,7 +22,7 @@ version: "3.34"
   width="24"
   height="24"
   viewBox="0 0 24 24"
-  fill="<COLOR>" fill-opacity="<OPACITY>"
+  fill="{{color}}" fill-opacity="{{opacity}}"
 >
   <path d="M18 2a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-16a2 2 0 0 1 2 -2z" />
 </svg>

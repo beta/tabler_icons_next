@@ -22,7 +22,7 @@ unicode: "fa83"
   width="24"
   height="24"
   viewBox="0 0 24 24"
-  fill="<COLOR>" fill-opacity="<OPACITY>"
+  fill="{{color}}" fill-opacity="{{opacity}}"
 >
   <path d="M15 7h-6a2 2 0 0 0 -2 2v6a2 2 0 0 0 2 2h6a2 2 0 0 0 2 -2v-6a2 2 0 0 0 -2 -2z" />
   <path d="M4 7a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />

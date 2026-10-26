@@ -22,7 +22,7 @@ version: "3.10"
   width="24"
   height="24"
   viewBox="0 0 24 24"
-  fill="<COLOR>" fill-opacity="<OPACITY>"
+  fill="{{color}}" fill-opacity="{{opacity}}"
 >
   <path d="M9.5 4a1.5 1.5 0 0 1 1.5 1.5v4a1.5 1.5 0 0 1 -1.5 1.5h-4a1.5 1.5 0 0 1 -1.5 -1.5v-4a1.5 1.5 0 0 1 1.5 -1.5z" />
   <path d="M9.5 13a1.5 1.5 0 0 1 1.5 1.5v4a1.5 1.5 0 0 1 -1.5 1.5h-4a1.5 1.5 0 0 1 -1.5 -1.5v-4a1.5 1.5 0 0 1 1.5 -1.5z" />

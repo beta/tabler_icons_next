@@ -25,13 +25,13 @@ unicode: "fd27"
   height="24"
   viewBox="0 0 24 24"
   fill="none"
-  stroke="<COLOR>" stroke-opacity="<OPACITY>"
-  stroke-width="<STROKE_WIDTH>"
+  stroke="{{color}}" stroke-opacity="{{opacity}}"
+  stroke-width="{{strokeWidth}}"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
   <path d="M14 12l6 -3l-8 -4l-8 4l6 3" />
-  <path d="M10 12l-6 3l8 4l8 -4l-6 -3l-2 1l-2 -1" fill="<COLOR>" fill-opacity="<OPACITY>" />
+  <path d="M10 12l-6 3l8 4l8 -4l-6 -3l-2 1l-2 -1" fill="{{color}}" fill-opacity="{{opacity}}" />
 </svg>
 ''';
 }

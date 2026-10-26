@@ -25,12 +25,12 @@ unicode: "fd28"
   height="24"
   viewBox="0 0 24 24"
   fill="none"
-  stroke="<COLOR>" stroke-opacity="<OPACITY>"
-  stroke-width="<STROKE_WIDTH>"
+  stroke="{{color}}" stroke-opacity="{{opacity}}"
+  stroke-width="{{strokeWidth}}"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M12 5l-8 4l8 4l8 -4l-8 -4" fill="<COLOR>" fill-opacity="<OPACITY>" />
+  <path d="M12 5l-8 4l8 4l8 -4l-8 -4" fill="{{color}}" fill-opacity="{{opacity}}" />
   <path d="M10 12l-6 3l8 4l8 -4l-6 -3" />
 </svg>
 ''';

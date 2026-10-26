@@ -55,10 +55,10 @@ Future<LinkedHashMap<String, String>> processDir(String path,
     final content = file
         .readAsStringSync()
         .replaceFirst('stroke="currentColor"',
-            'stroke="<COLOR>" stroke-opacity="<OPACITY>"')
-        .replaceFirst(
-            'fill="currentColor"', 'fill="<COLOR>" fill-opacity="<OPACITY>"')
-        .replaceFirst('stroke-width="2"', 'stroke-width="<STROKE_WIDTH>"');
+            'stroke="{{color}}" stroke-opacity="{{opacity}}"')
+        .replaceFirst('fill="currentColor"',
+            'fill="{{color}}" fill-opacity="{{opacity}}"')
+        .replaceFirst('stroke-width="2"', 'stroke-width="{{strokeWidth}}"');
     final output = """// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
 //
 // This software is released under the MIT License.

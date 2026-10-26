@@ -25,8 +25,8 @@ unicode: "fefa"
   height="24"
   viewBox="0 0 24 24"
   fill="none"
-  stroke="<COLOR>" stroke-opacity="<OPACITY>"
-  stroke-width="<STROKE_WIDTH>"
+  stroke="{{color}}" stroke-opacity="{{opacity}}"
+  stroke-width="{{strokeWidth}}"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
@@ -35,7 +35,7 @@ unicode: "fefa"
   <path d="M9 4h6" />
   <path d="M12 7v-3" />
   <path d="M7 4a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-  <path d="M11.5 4a.5 .5 0 1 0 1 0a.5 .5 0 1 0 -1 0" fill="<COLOR>" fill-opacity="<OPACITY>" />
+  <path d="M11.5 4a.5 .5 0 1 0 1 0a.5 .5 0 1 0 -1 0" fill="{{color}}" fill-opacity="{{opacity}}" />
 </svg>
 ''';
 }

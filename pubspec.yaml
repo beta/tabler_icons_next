@@ -12,6 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_svg: ^2.3.0
+  mustache_template: ^2.0.6
 
 dev_dependencies:
   flutter_test:

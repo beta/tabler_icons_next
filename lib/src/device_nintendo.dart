@@ -25,14 +25,14 @@ unicode: "f026"
   height="24"
   viewBox="0 0 24 24"
   fill="none"
-  stroke="<COLOR>" stroke-opacity="<OPACITY>"
-  stroke-width="<STROKE_WIDTH>"
+  stroke="{{color}}" stroke-opacity="{{opacity}}"
+  stroke-width="{{strokeWidth}}"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
   <path d="M10 20v-16h-3a4 4 0 0 0 -4 4v8a4 4 0 0 0 4 4h3" />
   <path d="M14 20v-16h3a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-3" />
-  <path d="M16.5 15.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" fill="<COLOR>" fill-opacity="<OPACITY>" />
+  <path d="M16.5 15.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" fill="{{color}}" fill-opacity="{{opacity}}" />
   <path d="M5.5 8.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" fill="currentColor" />
 </svg>
 ''';

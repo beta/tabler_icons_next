@@ -25,13 +25,13 @@ version: "3.45"
   height="24"
   viewBox="0 0 24 24"
   fill="none"
-  stroke="<COLOR>" stroke-opacity="<OPACITY>"
-  stroke-width="<STROKE_WIDTH>"
+  stroke="{{color}}" stroke-opacity="{{opacity}}"
+  stroke-width="{{strokeWidth}}"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
   <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
-  <path d="M6 14h12v2h-12v-2" fill="<COLOR>" fill-opacity="<OPACITY>" />
+  <path d="M6 14h12v2h-12v-2" fill="{{color}}" fill-opacity="{{opacity}}" />
 </svg>
 ''';
 }

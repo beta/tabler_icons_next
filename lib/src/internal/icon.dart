@@ -5,6 +5,7 @@
 
 import 'package:flutter/widgets.dart' hide IconTheme, IconThemeData;
 import 'package:flutter_svg/svg.dart';
+import 'package:mustache_template/mustache.dart';
 
 import 'theme.dart';
 
@@ -37,10 +38,12 @@ abstract class Icon extends StatelessWidget {
     final double height = size ?? iconTheme.size ?? 24.0;
     final color = this.color ?? iconTheme.color ?? const Color(0xFF000000);
 
-    final svg = svgTemplate
-        .replaceAll('<STROKE_WIDTH>', strokeWidth.toString())
-        .replaceAll('<COLOR>', color._toHex())
-        .replaceAll('<OPACITY>', '${color.a}');
+    final template = Template(svgTemplate);
+    final svg = template.renderString({
+      'strokeWidth': strokeWidth.toString(),
+      'color': color._toHex(),
+      'opacity': color.a.toString(),
+    });
 
     return SvgPicture.string(
       svg,
