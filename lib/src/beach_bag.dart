@@ -1,0 +1,39 @@
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
+import 'internal/icon.dart';
+
+class BeachBag extends Icon {
+  const BeachBag({
+    super.key,
+    super.size,
+    super.strokeWidth,
+    super.color,
+  }) : super(_svg);
+
+  static const String _svg = '''<!--
+tags: [beach, bag, tote, summer, vacation, holiday, sea, travel, shopping, basket]
+category: Map
+unicode: "102d7"
+version: "3.50"
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="{{color}}" stroke-opacity="{{opacity}}"
+  stroke-width="{{strokeWidth}}"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3.5 12h17" />
+  <path d="M20 16h-16" />
+  <path d="M5 8a2 2 0 0 0 -1.973 2.329l1.473 8.835a1 1 0 0 0 .986 .836h13.027a1 1 0 0 0 .987 -.836l1.472 -8.835a2 2 0 0 0 -1.644 -2.302q -.108 -.017 -14.328 -.027" />
+  <path d="M6 8v-2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v2" />
+</svg>
+''';
+}
