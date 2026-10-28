@@ -1,3 +1,7 @@
+## 4.2.0
+
+- Update icons from upstream v3.50.0. Refer to [tabler-icons release page](https://github.com/tabler/tabler-icons/releases/tag/v3.50.0) for changes.
+
 ## 4.1.0
 
 - Update icon SVG to mustache template

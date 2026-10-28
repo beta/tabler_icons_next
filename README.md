@@ -5,7 +5,7 @@
 
 Yet another [Tabler Icons](https://tabler.io/icons) package for Flutter that keeps updating with the latest version of the upstream.
 
-**Upstream version:** [`v3.49.0`](https://github.com/tabler/tabler-icons/releases/tag/v3.49.0)
+**Upstream version:** [`v3.50.0`](https://github.com/tabler/tabler-icons/releases/tag/v3.50.0)
 
 ## 🎨 Icons gallery
 
