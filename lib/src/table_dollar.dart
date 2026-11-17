@@ -1,0 +1,41 @@
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
+import 'internal/icon.dart';
+
+class TableDollar extends Icon {
+  const TableDollar({
+    super.key,
+    super.size,
+    super.strokeWidth,
+    super.color,
+  }) : super(_svg);
+
+  static const String _svg = '''<!--
+tags: [spreadsheet, grid, data, rows, columns, sheet, excel, cells, database, table, money, payment, price, cost, usd, finance, currency, dollar]
+category: Database
+unicode: "10324"
+version: "3.52"
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="{{color}}" stroke-opacity="{{opacity}}"
+  stroke-width="{{strokeWidth}}"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M13 21h-8c-1.105 0 -2 -.895 -2 -2v-14c0 -1.105 .895 -2 2 -2h14c1.105 0 2 .895 2 2v5.535" />
+  <path d="M3 10h16h2" />
+  <path d="M10 3v18" />
+  <path d="M21 15h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5" />
+  <path d="M19 21v1" />
+  <path d="M19 14v1" />
+</svg>
+''';
+}

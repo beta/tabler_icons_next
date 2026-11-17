@@ -5,8 +5,8 @@
 
 import 'internal/icon.dart';
 
-class AlignJustified extends Icon {
-  const AlignJustified({
+class TablePause extends Icon {
+  const TablePause({
     super.key,
     super.size,
     super.strokeWidth,
@@ -14,10 +14,10 @@ class AlignJustified extends Icon {
   }) : super(_svg);
 
   static const String _svg = '''<!--
-tags: [text-align, alignment, paragraph, typography, text, format, formatting, justify, justification, block, align, justified]
-category: Text
-version: "1.0"
-unicode: "ea08"
+tags: [spreadsheet, grid, data, rows, columns, sheet, excel, cells, database, table, hold, paused, wait, suspend, pause, break]
+category: Database
+unicode: "10322"
+version: "3.52"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -30,9 +30,11 @@ unicode: "ea08"
   stroke-linecap="round"
   stroke-linejoin="round"
 >
-  <path d="M4 6l16 0" />
-  <path d="M4 12l16 0" />
-  <path d="M4 18l12 0" />
+  <path d="M13 21h-8c-1.105 0 -2 -.895 -2 -2v-14c0 -1.105 .895 -2 2 -2h14c1.105 0 2 .895 2 2v8" />
+  <path d="M3 10h18" />
+  <path d="M10 3v18" />
+  <path d="M17 17v5" />
+  <path d="M21 17v5" />
 </svg>
 ''';
 }

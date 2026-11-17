@@ -1,0 +1,40 @@
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
+import 'internal/icon.dart';
+
+class LinkCancel extends Icon {
+  const LinkCancel({
+    super.key,
+    super.size,
+    super.strokeWidth,
+    super.color,
+  }) : super(_svg);
+
+  static const String _svg = '''<!--
+tags: [link, url, hyperlink, chain, anchor, connection, href, attach, forbidden, stop, cancel, abort, blocked, denied]
+category: Text
+unicode: "1036c"
+version: "3.52"
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="{{color}}" stroke-opacity="{{opacity}}"
+  stroke-width="{{strokeWidth}}"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M9 15l6 -6" />
+  <path d="M11 6l.463 -.536c1.953 -1.953 5.119 -1.952 7.072 .001c1.783 1.783 1.938 4.577 .465 6.535" />
+  <path d="M12 19.045c-1.974 1.424 -4.74 1.254 -6.524 -.511c-.945 -.934 -1.476 -2.207 -1.476 -3.535c0 -1.328 .532 -2.602 1.476 -3.536l.524 -.463" />
+  <path d="M16 19a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M17 21l4 -4" />
+</svg>
+''';
+}

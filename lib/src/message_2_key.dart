@@ -1,0 +1,41 @@
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
+import 'internal/icon.dart';
+
+class Message2Key extends Icon {
+  const Message2Key({
+    super.key,
+    super.size,
+    super.strokeWidth,
+    super.color,
+  }) : super(_svg);
+
+  static const String _svg = '''<!--
+tags: [chat, comment, speech-bubble, conversation, sms, text-message, reply, communication, dm, messaging, feedback, lines, message, key, password, access, login, security, unlock, auth]
+category: Communication
+unicode: "1034f"
+version: "3.52"
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="{{color}}" stroke-opacity="{{opacity}}"
+  stroke-width="{{strokeWidth}}"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M8 9h8" />
+  <path d="M8 13h6" />
+  <path d="M10.354 19.354l-1.354 -1.354h-3c-1.657 0 -3 -1.343 -3 -3v-8c0 -1.657 1.343 -3 3 -3h12c1.657 0 3 1.343 3 3v4.085" />
+  <path d="M17 20l-1 -1" />
+  <path d="M18.586 18.414a2 2 0 0 0 2.828 -2.828a2 2 0 1 0 -2.828 2.828" />
+  <path d="M14 21l1 1l3.5 -3.5" />
+</svg>
+''';
+}

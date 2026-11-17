@@ -1,0 +1,40 @@
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
+import 'internal/icon.dart';
+
+class LinkShare extends Icon {
+  const LinkShare({
+    super.key,
+    super.size,
+    super.strokeWidth,
+    super.color,
+  }) : super(_svg);
+
+  static const String _svg = '''<!--
+tags: [link, url, hyperlink, chain, anchor, connection, href, attach, send, forward, export, social, share, distribute]
+category: Text
+unicode: "10360"
+version: "3.52"
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="{{color}}" stroke-opacity="{{opacity}}"
+  stroke-width="{{strokeWidth}}"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M9 15l6 -6" />
+  <path d="M11 6l.463 -.536c1.953 -1.953 5.119 -1.952 7.072 .001c1.953 1.953 1.952 5.119 -.001 7.071l-.534 .464" />
+  <path d="M12.736 18.356l-.133 .178c-1.974 1.953 -5.153 1.953 -7.127 0c-.945 -.934 -1.476 -2.207 -1.476 -3.535c0 -1.328 .532 -2.602 1.476 -3.536l.524 -.463" />
+  <path d="M16 22l5 -5" />
+  <path d="M21 21.5v-4.5h-4.5" />
+</svg>
+''';
+}

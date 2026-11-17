@@ -1,0 +1,41 @@
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
+import 'internal/icon.dart';
+
+class DatabaseCode extends Icon {
+  const DatabaseCode({
+    super.key,
+    super.size,
+    super.strokeWidth,
+    super.color,
+  }) : super(_svg);
+
+  static const String _svg = '''<!--
+tags: [database, db, data, storage, sql, server, records, table, backend, disk, developer, programming, code, embed, coding, script]
+category: Database
+unicode: "103a4"
+version: "3.52"
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="{{color}}" stroke-opacity="{{opacity}}"
+  stroke-width="{{strokeWidth}}"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M4 6a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
+  <path d="M4 6v6c0 1.575 3.238 2.867 7.354 2.99" />
+  <path d="M19.993 12.125c.005 -.041 .007 -.083 .007 -.125v-6" />
+  <path d="M4 12v6c0 1.322 2.282 2.445 5.45 2.844" />
+  <path d="M20 21l2 -2l-2 -2" />
+  <path d="M17 17l-2 2l2 2" />
+</svg>
+''';
+}
