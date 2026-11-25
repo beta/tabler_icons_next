@@ -1,3 +1,7 @@
+## 4.5.0
+
+- Update icons from upstream v3.53.0. Refer to [tabler-icons release page](https://github.com/tabler/tabler-icons/releases/tag/v3.53.0) for changes.
+
 ## 4.4.0
 
 - Update icons from upstream v3.52.0. Refer to [tabler-icons release page](https://github.com/tabler/tabler-icons/releases/tag/v3.52.0) for changes.
