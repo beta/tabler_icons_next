@@ -1,0 +1,42 @@
+// Copyright (c) 2026 Beta Kuang <beta.kuang@gmail.com>
+//
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
+import 'internal/icon.dart';
+
+class CoffeePin extends Icon {
+  const CoffeePin({
+    super.key,
+    super.size,
+    super.strokeWidth,
+    super.color,
+  }) : super(_svg);
+
+  static const String _svg = '''<!--
+tags: [coffee, cup, mug, cafe, espresso, latte, hot-drink, tea, break, beverage, location, marker, place, map-pin, pinned, pin, gps]
+category: Food
+unicode: "10403"
+version: "3.53"
+-->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="{{color}}" stroke-opacity="{{opacity}}"
+  stroke-width="{{strokeWidth}}"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M3 14c.83 .642 2.077 1.017 3.5 1c1.423 .017 2.67 -.358 3.5 -1c.83 -.642 2.077 -1.017 3.5 -1c.199 -.002 .394 .003 .585 .015" />
+  <path d="M8 3a2.4 2.4 0 0 0 -1 2a2.4 2.4 0 0 0 1 2" />
+  <path d="M12 3a2.4 2.4 0 0 0 -1 2a2.4 2.4 0 0 0 1 2" />
+  <path d="M12.578 20.79c-.503 .137 -1.032 .21 -1.578 .21h-2c-3.314 0 -6 -2.686 -6 -6v-5h14v1.291" />
+  <path d="M18.397 11.026c-.46 -.062 -.939 -.018 -1.399 .145" />
+  <path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879" />
+  <path d="M19 18v.01" />
+</svg>
+''';
+}
